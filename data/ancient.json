@@ -1,0 +1,844 @@
+{
+  "country": null,
+  "continent": "Various",
+  "code": "AA",
+  "collection": "Ancient Apocalypse",
+  "locations": [
+    {
+      "id": "aa-gunung-padang",
+      "name": "Gunung Padang",
+      "country": "Indonesia",
+      "country_flag": "🇮🇩",
+      "region": "West Java",
+      "type": "ruin",
+      "tag": "hidden",
+      "emoji": "⛰️",
+      "coordinates": {
+        "lat": -6.9947,
+        "lng": 107.056
+      },
+      "street_view": {
+        "lat": -6.9947,
+        "lng": 107.056,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Gunung_Padang",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "blurb": "A terraced megalithic hill in West Java, blanketed in columnar basalt stones arranged across five stepped terraces. Officially a megalithic site of perhaps 2,500 years, it sits atop a much older natural-and-modified hill.",
+      "fun_fact": "A controversial 2023 paper claimed buried layers could be 25,000+ years old — it was later retracted by the journal, fuelling exactly the debate this series thrives on.",
+      "aa_season": 1,
+      "aa_episode": 1,
+      "aa_claim": "Hancock argues Gunung Padang may be the world's oldest pyramid — a man-made structure begun deep in the last Ice Age by a lost advanced culture, with the visible terraces just the cap of something far older underneath.",
+      "country_code": "ID",
+      "continent": "Asia"
+    },
+    {
+      "id": "aa-nan-madol",
+      "name": "Nan Madol",
+      "country": "Micronesia",
+      "country_flag": "🇫🇲",
+      "region": "Pohnpei",
+      "type": "ruin",
+      "tag": "famous",
+      "emoji": "🏝️",
+      "coordinates": {
+        "lat": 6.8425,
+        "lng": 158.3344
+      },
+      "street_view": {
+        "lat": 6.8425,
+        "lng": 158.3344,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Nan_Madol",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "blurb": "A city of nearly 100 artificial islets built from colossal basalt logs in a lagoon off Pohnpei — the only ancient city ever constructed atop a coral reef. Its megalithic walls rise straight out of the Pacific.",
+      "fun_fact": "Some basalt 'logs' weigh up to 50 tonnes; how a small island society quarried, floated and stacked them remains genuinely unexplained.",
+      "aa_season": 1,
+      "aa_episode": 1,
+      "aa_claim": "Hancock points to Nan Madol as evidence of lost engineering knowledge in the Pacific — Ice-Age-era memory of building with stones too heavy for the means we assume the builders had.",
+      "country_code": "FM",
+      "continent": "Oceania"
+    },
+    {
+      "id": "aa-cholula",
+      "name": "Great Pyramid of Cholula",
+      "country": "Mexico",
+      "country_flag": "🇲🇽",
+      "region": "Puebla",
+      "type": "ruin",
+      "tag": "famous",
+      "emoji": "🔺",
+      "coordinates": {
+        "lat": 19.0578,
+        "lng": -98.3017
+      },
+      "street_view": {
+        "lat": 19.0578,
+        "lng": -98.3017,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Great_Pyramid_of_Cholula",
+      "sounds": [
+        "plaza.mp3"
+      ],
+      "blurb": "By volume the largest pyramid (and largest monument) ever built on Earth — a grass-covered mountain in Cholula with a church on top and miles of tunnels beneath. Built in stages over many centuries.",
+      "fun_fact": "It's so overgrown the Spanish built a church on its summit in 1594 without realising the whole hill was a pyramid.",
+      "aa_season": 1,
+      "aa_episode": 2,
+      "aa_claim": "Hancock uses Cholula to argue that Mesoamerica's pyramid-building tradition descends from a far older source — knowledge inherited, not invented from scratch.",
+      "country_code": "MX",
+      "continent": "North America"
+    },
+    {
+      "id": "aa-xochicalco",
+      "name": "Xochicalco",
+      "country": "Mexico",
+      "country_flag": "🇲🇽",
+      "region": "Morelos",
+      "type": "ruin",
+      "tag": "hidden",
+      "emoji": "🏛️",
+      "coordinates": {
+        "lat": 18.8047,
+        "lng": -99.2958
+      },
+      "street_view": {
+        "lat": 18.8047,
+        "lng": -99.2958,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Xochicalco",
+      "sounds": [
+        "wind.mp3"
+      ],
+      "blurb": "A hilltop city in Morelos with a famous observatory cave: a shaft cut so that, on the days the sun passes directly overhead, a beam of light strikes the chamber floor. A UNESCO World Heritage Site.",
+      "fun_fact": "Its 'Pyramid of the Feathered Serpent' carries a carved date thought to record astronomers correcting their calendar.",
+      "aa_season": 1,
+      "aa_episode": 2,
+      "aa_claim": "Hancock highlights Xochicalco's precision sun-shaft as inherited astronomical science — the kind of exact sky-knowledge he believes was passed down from an earlier lost civilization.",
+      "country_code": "MX",
+      "continent": "North America"
+    },
+    {
+      "id": "aa-tetzcotzinco",
+      "name": "Tetzcotzinco",
+      "country": "Mexico",
+      "country_flag": "🇲🇽",
+      "region": "Texcoco",
+      "type": "ruin",
+      "tag": "hidden",
+      "emoji": "🏞️",
+      "coordinates": {
+        "lat": 19.4767,
+        "lng": -98.8214
+      },
+      "street_view": {
+        "lat": 19.4767,
+        "lng": -98.8214,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Tetzcotzinco",
+      "sounds": [
+        "wind.mp3"
+      ],
+      "blurb": "A sculpted hill near Texcoco — terraces, baths and shrines carved straight into living rock and fed by a long engineered aqueduct. Often called the oldest botanical garden in the Americas.",
+      "fun_fact": "Water was carried for kilometres along a hand-cut channel just to fill royal pools carved into the bedrock.",
+      "aa_season": 1,
+      "aa_episode": 2,
+      "aa_claim": "Hancock treats the rock-cut hydraulics here as another flash of advanced engineering surfacing in the archaeological record long before we'd expect it.",
+      "country_code": "MX",
+      "continent": "North America"
+    },
+    {
+      "id": "aa-ggantija",
+      "name": "Ġgantija Temples",
+      "country": "Malta",
+      "country_flag": "🇲🇹",
+      "region": "Gozo",
+      "type": "ruin",
+      "tag": "famous",
+      "emoji": "🗿",
+      "coordinates": {
+        "lat": 36.0472,
+        "lng": 14.2692
+      },
+      "street_view": {
+        "lat": 36.0472,
+        "lng": 14.2692,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Ġgantija",
+      "sounds": [
+        "wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Ħaġar Qim",
+          "wikipedia_slug": "Ħaġar_Qim"
+        },
+        {
+          "name": "Mnajdra",
+          "wikipedia_slug": "Mnajdra"
+        }
+      ],
+      "blurb": "On the island of Gozo stand the Ġgantija temples — older than Stonehenge and the Pyramids of Giza, among the oldest free-standing stone buildings on Earth. Maltese legend said giants raised them.",
+      "fun_fact": "'Ġgantija' literally means 'giant tower' — built from limestone blocks over five metres long around 3600 BCE.",
+      "aa_season": 1,
+      "aa_episode": 3,
+      "aa_claim": "Hancock sees Malta's megalithic temples — and their astronomical alignments — as fingerprints of a single lost mother-culture, and suspects they are older than the official dates allow.",
+      "country_code": "MT",
+      "continent": "Europe"
+    },
+    {
+      "id": "aa-hypogeum",
+      "name": "Ħal Saflieni Hypogeum",
+      "country": "Malta",
+      "country_flag": "🇲🇹",
+      "region": "Paola",
+      "type": "ruin",
+      "tag": "famous",
+      "emoji": "🕳️",
+      "coordinates": {
+        "lat": 35.8694,
+        "lng": 14.5072
+      },
+      "street_view": {
+        "lat": 35.8694,
+        "lng": 14.5072,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Ħal_Saflieni_Hypogeum",
+      "sounds": [
+        "wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Għar Dalam",
+          "wikipedia_slug": "Għar_Dalam"
+        }
+      ],
+      "blurb": "A three-level underground complex carved out of solid rock beneath Malta — a subterranean necropolis where the remains of some 7,000 people were found. One chamber, the 'Oracle Room', has uncanny acoustic resonance.",
+      "fun_fact": "Speak in the Oracle Room at the right pitch and your voice booms through the entire structure — a deliberate sonic effect cut into the stone.",
+      "aa_season": 1,
+      "aa_episode": 3,
+      "aa_claim": "Hancock is fascinated by the Hypogeum's engineered acoustics, arguing such sophisticated sound design hints at knowledge inherited from a much earlier age.",
+      "country_code": "MT",
+      "continent": "Europe"
+    },
+    {
+      "id": "aa-bimini-road",
+      "name": "Bimini Road",
+      "country": "Bahamas",
+      "country_flag": "🇧🇸",
+      "region": "North Bimini",
+      "type": "natural",
+      "tag": "hidden",
+      "emoji": "🌊",
+      "coordinates": {
+        "lat": 25.7625,
+        "lng": -79.2956
+      },
+      "street_view": {
+        "lat": 25.7625,
+        "lng": -79.2956,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Bimini_Road",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "blurb": "An underwater line of rectangular limestone blocks running half a mile along the seabed off North Bimini, in about 5 metres of water. Geologists call it natural beach rock; others see a drowned ancient road or wall.",
+      "fun_fact": "Its 'discovery' in 1968 fed the long-running myth that this is the road to Atlantis predicted by psychic Edgar Cayce.",
+      "aa_season": 1,
+      "aa_episode": 4,
+      "aa_claim": "Hancock dives the site to argue it could be a man-made structure submerged by the meltwater sea-level rise at the end of the Ice Age — exactly where a lost coastal civilization's traces would now lie.",
+      "country_code": "BS",
+      "continent": "North America"
+    },
+    {
+      "id": "aa-gobekli-tepe",
+      "name": "Göbekli Tepe",
+      "country": "Turkey",
+      "country_flag": "🇹🇷",
+      "region": "Şanlıurfa",
+      "type": "ruin",
+      "tag": "famous",
+      "emoji": "🗿",
+      "coordinates": {
+        "lat": 37.2231,
+        "lng": 38.9224
+      },
+      "street_view": {
+        "lat": 37.2231,
+        "lng": 38.9224,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Göbekli_Tepe",
+      "sounds": [
+        "wind.mp3"
+      ],
+      "blurb": "The oldest known megalithic temple on Earth — massive carved T-shaped pillars raised around 9600 BCE, some 6,000 years before Stonehenge. Built, astonishingly, by people we'd call hunter-gatherers.",
+      "fun_fact": "It was deliberately buried in antiquity, which is why it survived so intact — a 12,000-year-old time capsule.",
+      "aa_season": 1,
+      "aa_episode": 5,
+      "aa_claim": "Göbekli Tepe is Hancock's keystone: he argues 'simple' foragers couldn't have done this alone, and that 'sages' — survivors of a lost Ice-Age civilization — seeded the knowledge here.",
+      "country_code": "TR",
+      "continent": "Asia"
+    },
+    {
+      "id": "aa-karahan-tepe",
+      "name": "Karahan Tepe",
+      "country": "Turkey",
+      "country_flag": "🇹🇷",
+      "region": "Şanlıurfa",
+      "type": "ruin",
+      "tag": "hidden",
+      "emoji": "🗿",
+      "coordinates": {
+        "lat": 37.0914,
+        "lng": 39.3023
+      },
+      "street_view": {
+        "lat": 37.0914,
+        "lng": 39.3023,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Karahan_Tepe",
+      "sounds": [
+        "wind.mp3"
+      ],
+      "blurb": "Göbekli Tepe's sister site, 35 km east — part of the 'Taş Tepeler' cluster. Its standout chamber has rows of phallic pillars carved from bedrock and a watching serpent-necked head emerging from the wall.",
+      "fun_fact": "Excavations only ramped up in 2019, so much of Karahan Tepe is still literally coming out of the ground.",
+      "aa_season": 1,
+      "aa_episode": 5,
+      "aa_claim": "Hancock cites Karahan Tepe as proof Göbekli Tepe wasn't a one-off — a whole region of advanced megalithic building appearing fully-formed right at the dawn of the Neolithic.",
+      "country_code": "TR",
+      "continent": "Asia"
+    },
+    {
+      "id": "aa-poverty-point",
+      "name": "Poverty Point",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Louisiana",
+      "type": "ruin",
+      "tag": "hidden",
+      "emoji": "🏞️",
+      "coordinates": {
+        "lat": 32.6367,
+        "lng": -91.4061
+      },
+      "street_view": {
+        "lat": 32.6367,
+        "lng": -91.4061,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Poverty_Point",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "blurb": "A 3,400-year-old complex of vast concentric earthen ridges and mounds in northeast Louisiana, raised by hunter-gatherers. A UNESCO World Heritage Site and one of North America's great earthwork achievements.",
+      "fun_fact": "Mound A holds roughly 238,000 cubic metres of earth — moved basket by basket, apparently in a matter of months.",
+      "aa_season": 1,
+      "aa_episode": 6,
+      "aa_claim": "Hancock argues the geometric precision and astronomical layout of Poverty Point imply inherited planning knowledge — not something he believes 'simple' foragers improvised.",
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "aa-serpent-mound",
+      "name": "Serpent Mound",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Ohio",
+      "type": "ruin",
+      "tag": "famous",
+      "emoji": "🐍",
+      "coordinates": {
+        "lat": 39.0256,
+        "lng": -83.4303
+      },
+      "street_view": {
+        "lat": 39.0256,
+        "lng": -83.4303,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Serpent_Mound",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "blurb": "The largest serpent effigy on Earth — a 411-metre snake of earth coiling along a ridge in Ohio, its open jaws aligned to the summer-solstice sunset. Built near the rim of an ancient meteorite impact crater.",
+      "fun_fact": "Its head lines up with the solstice sunset and its coils may track lunar events — a calendar written in soil.",
+      "aa_season": 1,
+      "aa_episode": 6,
+      "aa_claim": "Hancock reads the Serpent Mound's astronomy — and its position over a cosmic-impact crater — as a deliberate memorial to a sky-borne catastrophe: the Ancient Apocalypse itself.",
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "aa-derinkuyu",
+      "name": "Derinkuyu Underground City",
+      "country": "Turkey",
+      "country_flag": "🇹🇷",
+      "region": "Cappadocia",
+      "type": "ruin",
+      "tag": "famous",
+      "emoji": "🕳️",
+      "coordinates": {
+        "lat": 38.3735,
+        "lng": 34.7347
+      },
+      "street_view": {
+        "lat": 38.3735,
+        "lng": 34.7347,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Derinkuyu_(underground_city)",
+      "sounds": [
+        "wind.mp3"
+      ],
+      "blurb": "An entire city carved straight down into Cappadocia's soft volcanic rock — at least 18 levels reaching ~85 m deep, with room for thousands of people plus livestock, ventilation shafts and great rolling stone doors.",
+      "fun_fact": "Its air shafts still work: even at the deepest levels the air stays fresh, thanks to ventilation engineered into the rock.",
+      "aa_season": 1,
+      "aa_episode": 7,
+      "aa_claim": "Hancock suggests these vast underground cities were originally dug as shelters — 'bunkers' — against a remembered threat from the sky, refuges for surviving a cataclysm.",
+      "country_code": "TR",
+      "continent": "Asia"
+    },
+    {
+      "id": "aa-kaymakli",
+      "name": "Kaymaklı Underground City",
+      "country": "Turkey",
+      "country_flag": "🇹🇷",
+      "region": "Cappadocia",
+      "type": "ruin",
+      "tag": "hidden",
+      "emoji": "🕳️",
+      "coordinates": {
+        "lat": 38.4631,
+        "lng": 34.7522
+      },
+      "street_view": {
+        "lat": 38.4631,
+        "lng": 34.7522,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Kaymaklı_Underground_City",
+      "sounds": [
+        "wind.mp3"
+      ],
+      "blurb": "The widest of Cappadocia's underground cities, a warren of low tunnels, stables, kitchens and churches on multiple subterranean levels — connected, by legend, to Derinkuyu several kilometres away.",
+      "fun_fact": "Tunnels are deliberately narrow and low, forcing any intruder to stoop single-file into the defenders' reach.",
+      "aa_season": 1,
+      "aa_episode": 7,
+      "aa_claim": "Like Derinkuyu, Hancock frames Kaymaklı as part of a network of deep refuges — physical evidence, he argues, of a civilization that knew it needed to hide underground.",
+      "country_code": "TR",
+      "continent": "Asia"
+    },
+    {
+      "id": "aa-dry-falls",
+      "name": "Channeled Scablands",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Washington · Dry Falls",
+      "type": "natural",
+      "tag": "hidden",
+      "emoji": "💧",
+      "coordinates": {
+        "lat": 47.6086,
+        "lng": -119.3567
+      },
+      "street_view": {
+        "lat": 47.6086,
+        "lng": -119.3567,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Dry_Falls_(Washington)",
+      "sounds": [
+        "waterfall.mp3"
+      ],
+      "blurb": "A vast scarred landscape across eastern Washington gouged by apocalyptic Ice-Age megafloods. Dry Falls was once a waterfall five times the width of Niagara — now a silent cliff over an empty canyon.",
+      "fun_fact": "Geologists mocked the megaflood theory for decades before admitting J Harlen Bretz had been right all along — floods really did do this, almost overnight.",
+      "aa_season": 1,
+      "aa_episode": 8,
+      "aa_claim": "The Scablands are Hancock's proof-of-concept for sudden catastrophe: cataclysmic floods at the end of the Ice Age that, he argues, could have wiped a coastal civilization off the map and out of memory.",
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "aa-murray-springs",
+      "name": "Murray Springs Clovis Site",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Arizona",
+      "type": "ruin",
+      "tag": "hidden",
+      "emoji": "🦣",
+      "coordinates": {
+        "lat": 31.5712,
+        "lng": -110.1809
+      },
+      "street_view": {
+        "lat": 31.5712,
+        "lng": -110.1809,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Murray_Springs_Clovis_Site",
+      "sounds": [
+        "desert-wind.mp3"
+      ],
+      "blurb": "A Clovis-era hunting camp in Arizona's San Pedro Valley, where mammoth and bison kills lie sealed beneath a thin dark layer — the 'black mat' — that caps the bones around 12,800 years ago.",
+      "fun_fact": "That black mat marks the moment the Clovis people and the megafauna vanish from the record together — abruptly.",
+      "aa_season": 1,
+      "aa_episode": 8,
+      "aa_claim": "Hancock points to the 'black mat' and its impact-spherules as physical residue of the Younger Dryas comet impact — the trigger, in his telling, of the Ancient Apocalypse.",
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "aa-white-sands",
+      "name": "White Sands Footprints",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "New Mexico",
+      "type": "natural",
+      "tag": "famous",
+      "emoji": "👣",
+      "coordinates": {
+        "lat": 32.78,
+        "lng": -106.32
+      },
+      "street_view": {
+        "lat": 32.78,
+        "lng": -106.32,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "White_Sands_National_Park",
+      "sounds": [
+        "wind.mp3"
+      ],
+      "blurb": "On the gypsum flats of White Sands, fossilised human footprints were dated to around 21,000–23,000 years ago — potentially the oldest firm evidence of people in the Americas, thousands of years before 'Clovis first'.",
+      "fun_fact": "Some trackways show an adult carrying a toddler, setting it down, then picking it up again — a 22,000-year-old moment frozen in mud.",
+      "aa_season": 2,
+      "aa_episode": 1,
+      "aa_claim": "Hancock seizes on the White Sands dates as a wrecking ball to the textbook timeline — if people were here 23,000 years ago, there was ample time, he argues, for a now-lost civilization to rise and fall.",
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "aa-acre-geoglyphs",
+      "name": "Amazon Geoglyphs",
+      "country": "Brazil",
+      "country_flag": "🇧🇷",
+      "region": "Acre",
+      "type": "ruin",
+      "tag": "hidden",
+      "emoji": "🌀",
+      "coordinates": {
+        "lat": -9.9,
+        "lng": -67.5
+      },
+      "street_view": {
+        "lat": -9.9,
+        "lng": -67.5,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Geoglyphs_of_the_Amazon_rainforest",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "blurb": "Across the Brazilian state of Acre, deforestation has revealed hundreds of giant geometric earthworks — perfect circles, squares and avenues — hidden under the Amazon for centuries. Evidence the 'untouched' rainforest was once heavily engineered.",
+      "fun_fact": "Many enclosures are near-perfect geometric shapes hundreds of metres across, only visible once the forest is cleared or seen from the air.",
+      "aa_season": 2,
+      "aa_episode": 1,
+      "aa_claim": "Hancock uses the Amazon's hidden geoglyphs to argue the rainforest concealed a sophisticated lost world — proof, he says, that whole civilizations can vanish completely from view.",
+      "country_code": "BR",
+      "continent": "South America"
+    },
+    {
+      "id": "aa-monte-alegre",
+      "name": "Caverna da Pedra Pintada",
+      "country": "Brazil",
+      "country_flag": "🇧🇷",
+      "region": "Monte Alegre, Pará",
+      "type": "ruin",
+      "tag": "hidden",
+      "emoji": "🎨",
+      "coordinates": {
+        "lat": -1.9667,
+        "lng": -54.0833
+      },
+      "street_view": {
+        "lat": -1.9667,
+        "lng": -54.0833,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Caverna_da_Pedra_Pintada",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "blurb": "The 'Painted Rock Cave' near Monte Alegre in the Amazon, its walls covered in red ochre figures — handprints, animals and star-like shapes — painted some 11,000–13,000 years ago. Among the oldest rock art in the Americas.",
+      "fun_fact": "Some scholars read clusters of the painted dots as records of the night sky — a possible Ice-Age star map.",
+      "aa_season": 2,
+      "aa_episode": 2,
+      "aa_claim": "Hancock interprets the cave's ancient art as encoded sky-knowledge, arguing these painters inherited an astronomical tradition far older than the images themselves.",
+      "country_code": "BR",
+      "continent": "South America"
+    },
+    {
+      "id": "aa-rapa-nui",
+      "name": "Rapa Nui (Easter Island)",
+      "country": "Chile",
+      "country_flag": "🇨🇱",
+      "region": "Rapa Nui",
+      "type": "ruin",
+      "tag": "famous",
+      "emoji": "🗿",
+      "coordinates": {
+        "lat": -27.1212,
+        "lng": -109.2887
+      },
+      "street_view": {
+        "lat": -27.1212,
+        "lng": -109.2887,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Easter_Island",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Rano Raraku (moai quarry)",
+          "wikipedia_slug": "Rano_Raraku"
+        },
+        {
+          "name": "Ahu Tongariki",
+          "wikipedia_slug": "Ahu_Tongariki"
+        }
+      ],
+      "blurb": "The most remote inhabited island on Earth, studded with nearly 1,000 moai — colossal stone heads-and-torsos carved at the Rano Raraku quarry and somehow moved miles to coastal platforms.",
+      "fun_fact": "The famous 'heads' have full buried bodies — and Rapa Nui tradition says the moai 'walked' to their platforms.",
+      "aa_season": 2,
+      "aa_episode": 2,
+      "aa_claim": "Hancock points to Rapa Nui's megalithic skill and oral memory of moving giant stones as another echo, he argues, of engineering knowledge older than the island's settlement.",
+      "country_code": "CL",
+      "continent": "South America"
+    },
+    {
+      "id": "aa-paracas-candelabra",
+      "name": "Paracas Candelabra",
+      "country": "Peru",
+      "country_flag": "🇵🇪",
+      "region": "Paracas, Ica",
+      "type": "ruin",
+      "tag": "hidden",
+      "emoji": "🔱",
+      "coordinates": {
+        "lat": -13.7903,
+        "lng": -76.303
+      },
+      "street_view": {
+        "lat": -13.7903,
+        "lng": -76.303,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Paracas_Candelabra",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "blurb": "A 180-metre trident-shaped geoglyph carved into a sloping hillside on the Paracas Peninsula, facing the Pacific. Cut up to a metre deep into the hardened sand, it's been visible to ships for centuries.",
+      "fun_fact": "Pottery found nearby dates the figure to at least 200 BCE, but nobody knows for certain who made it — or for whom.",
+      "aa_season": 2,
+      "aa_episode": 3,
+      "aa_claim": "Hancock links coastal geoglyphs like the Candelabra to a deep tradition of giant ground-markings, arguing they preserve symbols handed down from a much older culture.",
+      "country_code": "PE",
+      "continent": "South America"
+    },
+    {
+      "id": "aa-sacsayhuaman",
+      "name": "Sacsayhuamán",
+      "country": "Peru",
+      "country_flag": "🇵🇪",
+      "region": "Cusco",
+      "type": "ruin",
+      "tag": "famous",
+      "emoji": "🧱",
+      "coordinates": {
+        "lat": -13.5089,
+        "lng": -71.9817
+      },
+      "street_view": {
+        "lat": -13.5089,
+        "lng": -71.9817,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Sacsayhuamán",
+      "sounds": [
+        "wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Q'enqo",
+          "wikipedia_slug": "Q'enqo"
+        },
+        {
+          "name": "Temple of the Moon (Cusco)",
+          "wikipedia_slug": "Sacsayhuamán"
+        }
+      ],
+      "blurb": "A citadel above Cusco built from limestone blocks so vast — some over 100 tonnes — and so precisely fitted that a sheet of paper won't slide between them. No mortar, yet earthquake-proof for centuries.",
+      "fun_fact": "The largest stones weigh well over 100 tonnes and were shaped to interlock in jigsaw-perfect, many-angled joints.",
+      "aa_season": 2,
+      "aa_episode": 4,
+      "aa_claim": "Hancock argues Sacsayhuamán's polygonal megalithic masonry may pre-date the Inca entirely — the legacy of a far older engineering culture the Inca later built upon.",
+      "country_code": "PE",
+      "continent": "South America"
+    },
+    {
+      "id": "aa-chaco-canyon",
+      "name": "Pueblo Bonito, Chaco Canyon",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "New Mexico",
+      "type": "ruin",
+      "tag": "hidden",
+      "emoji": "🏜️",
+      "coordinates": {
+        "lat": 36.0606,
+        "lng": -107.9614
+      },
+      "street_view": {
+        "lat": 36.0606,
+        "lng": -107.9614,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Pueblo_Bonito",
+      "sounds": [
+        "desert-wind.mp3"
+      ],
+      "blurb": "The heart of Chaco Canyon: 'great houses' like Pueblo Bonito with hundreds of rooms, laid out to the cardinal directions and aligned to the sun and moon. The hub of a society linked by hundreds of miles of dead-straight roads.",
+      "fun_fact": "Chaco's buildings track an 18.6-year lunar cycle — long-term sky-watching baked into the architecture.",
+      "aa_season": 2,
+      "aa_episode": 5,
+      "aa_claim": "Hancock reads Chaco's astronomy and geometry as inherited science — precise sky-knowledge that, he argues, points back to a much older source than the Ancestral Puebloans alone.",
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "aa-palenque",
+      "name": "Palenque",
+      "country": "Mexico",
+      "country_flag": "🇲🇽",
+      "region": "Chiapas",
+      "type": "ruin",
+      "tag": "famous",
+      "emoji": "🛕",
+      "coordinates": {
+        "lat": 17.4839,
+        "lng": -92.0461
+      },
+      "street_view": {
+        "lat": 17.4839,
+        "lng": -92.0461,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Palenque",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "blurb": "A jewel of Maya architecture rising out of the Chiapas jungle, famous for the tomb of king Pakal beneath the Temple of the Inscriptions — its carved sarcophagus lid one of the most debated images in archaeology.",
+      "fun_fact": "Pakal's lid shows the king poised over the jaws of the underworld — read by mainstream Mayanists as a rebirth scene, and by fringe writers as everything from a 'spaceman' to a tree of life.",
+      "aa_season": 2,
+      "aa_episode": 5,
+      "aa_claim": "Hancock uses Palenque's iconography and astronomy to argue Maya cosmology preserves deep-time memory — knowledge, he believes, inherited from an earlier lost civilization.",
+      "country_code": "MX",
+      "continent": "North America"
+    },
+    {
+      "id": "aa-chichen-itza",
+      "name": "Chichén Itzá",
+      "country": "Mexico",
+      "country_flag": "🇲🇽",
+      "region": "Yucatán",
+      "type": "ruin",
+      "tag": "famous",
+      "emoji": "🔺",
+      "coordinates": {
+        "lat": 20.6829,
+        "lng": -88.5686
+      },
+      "street_view": {
+        "lat": 20.6829,
+        "lng": -88.5686,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Chichen_Itza",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "blurb": "The great Maya-Toltec city of the Yucatán, crowned by El Castillo — a step-pyramid that is really a stone calendar, its 365 steps and precise geometry tuned to the solar year.",
+      "fun_fact": "At each equinox the afternoon sun casts a serpent of light and shadow that appears to slither down the pyramid's staircase.",
+      "aa_season": 2,
+      "aa_episode": 6,
+      "aa_claim": "Hancock treats El Castillo's equinox serpent and calendar-precision as the high-water mark of inherited Mesoamerican astronomy — sky-science he traces back to the survivors of the Ancient Apocalypse.",
+      "country_code": "MX",
+      "continent": "North America"
+    }
+  ]
+}

@@ -1,0 +1,2367 @@
+{
+  "country": "United States",
+  "continent": "North America",
+  "code": "US",
+  "locations": [
+    {
+      "id": "new-york-city",
+      "webcam": "z-jYdOIKcTQ",
+      "name": "New York City",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "New York",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🗽",
+      "coordinates": {
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "street_view": {
+        "lat": 40.7128,
+        "lng": -74.006,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "New_York_City",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Statue of Liberty",
+          "wikipedia_slug": "Statue_of_Liberty"
+        },
+        {
+          "name": "Times Square",
+          "wikipedia_slug": "Times_Square"
+        },
+        {
+          "name": "Central Park",
+          "wikipedia_slug": "Central_Park"
+        },
+        {
+          "name": "Empire State Building",
+          "wikipedia_slug": "Empire_State_Building"
+        },
+        {
+          "name": "Brooklyn Bridge",
+          "wikipedia_slug": "Brooklyn_Bridge"
+        },
+        {
+          "name": "Metropolitan Museum of Art",
+          "wikipedia_slug": "Metropolitan_Museum_of_Art"
+        },
+        {
+          "name": "9/11 Memorial",
+          "wikipedia_slug": "National_September_11_Memorial_&_Museum"
+        }
+      ],
+      "blurb": "The city that never sleeps packs eight million stories into five boroughs of skyscrapers, neighbourhoods, and nonstop energy. From the bright chaos of Times Square to the green calm of Central Park, NYC is the world in one place.",
+      "fun_fact": "The Statue of Liberty was a gift from France in 1886 — and her full copper skin is only about 2.4 mm thick, roughly the width of two stacked pennies.",
+      "hidden_gem_tip": null,
+      "walk": "-IpXdtWfneI",
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "washington-dc",
+      "name": "Washington, D.C.",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "District of Columbia",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🏛️",
+      "coordinates": {
+        "lat": 38.9072,
+        "lng": -77.0369
+      },
+      "street_view": {
+        "lat": 38.9072,
+        "lng": -77.0369,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Washington,_D.C.",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "National Mall",
+          "wikipedia_slug": "National_Mall"
+        },
+        {
+          "name": "The White House",
+          "wikipedia_slug": "White_House"
+        },
+        {
+          "name": "United States Capitol",
+          "wikipedia_slug": "United_States_Capitol"
+        },
+        {
+          "name": "Lincoln Memorial",
+          "wikipedia_slug": "Lincoln_Memorial"
+        },
+        {
+          "name": "Smithsonian Institution",
+          "wikipedia_slug": "Smithsonian_Institution"
+        }
+      ],
+      "blurb": "The capital of the United States is a city of monuments, marble, and free museums. The National Mall lines up the Capitol, the Washington Monument, and the Lincoln Memorial in one grand sweep of history.",
+      "fun_fact": "By a 1910 law, no building in Washington, D.C. may rise much above the width of its adjacent street — which is why the city has almost no skyscrapers.",
+      "hidden_gem_tip": null,
+      "ambient": {
+        "yt": "PZ3MKh-p4jc",
+        "start": 57
+      },
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "boston",
+      "name": "Boston",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Massachusetts",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "☘️",
+      "coordinates": {
+        "lat": 42.3601,
+        "lng": -71.0589
+      },
+      "street_view": {
+        "lat": 42.3601,
+        "lng": -71.0589,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Boston",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Freedom Trail",
+          "wikipedia_slug": "Freedom_Trail"
+        },
+        {
+          "name": "Fenway Park",
+          "wikipedia_slug": "Fenway_Park"
+        },
+        {
+          "name": "Harvard University",
+          "wikipedia_slug": "Harvard_University"
+        },
+        {
+          "name": "Boston Common",
+          "wikipedia_slug": "Boston_Common"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "philadelphia",
+      "name": "Philadelphia",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Pennsylvania",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🔔",
+      "coordinates": {
+        "lat": 39.9526,
+        "lng": -75.1652
+      },
+      "street_view": {
+        "lat": 39.9526,
+        "lng": -75.1652,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Philadelphia",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Liberty Bell",
+          "wikipedia_slug": "Liberty_Bell"
+        },
+        {
+          "name": "Independence Hall",
+          "wikipedia_slug": "Independence_Hall"
+        },
+        {
+          "name": "Philadelphia Museum of Art",
+          "wikipedia_slug": "Philadelphia_Museum_of_Art"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "chicago",
+      "name": "Chicago",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Illinois",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🌆",
+      "coordinates": {
+        "lat": 41.8781,
+        "lng": -87.6298
+      },
+      "street_view": {
+        "lat": 41.8781,
+        "lng": -87.6298,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Chicago",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Millennium Park & Cloud Gate",
+          "wikipedia_slug": "Cloud_Gate"
+        },
+        {
+          "name": "Willis Tower",
+          "wikipedia_slug": "Willis_Tower"
+        },
+        {
+          "name": "Navy Pier",
+          "wikipedia_slug": "Navy_Pier"
+        },
+        {
+          "name": "Art Institute of Chicago",
+          "wikipedia_slug": "Art_Institute_of_Chicago"
+        },
+        {
+          "name": "The Riverwalk",
+          "wikipedia_slug": "Chicago_Riverwalk"
+        }
+      ],
+      "blurb": "Birthplace of the skyscraper, Chicago lines a Great Lake with bold architecture, deep-dish pizza, and a riverfront made for walking. Cloud Gate's mirrored curve has become the city's signature reflection.",
+      "fun_fact": "Chicago reversed the flow of its own river in 1900 — an engineering feat that sent the water away from Lake Michigan instead of into it.",
+      "hidden_gem_tip": null,
+      "walk": "m5W2XMu69Cg",
+      "country_code": "US",
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Cloud Gate (The Bean)",
+          "yt": "gXY64MidsdE",
+          "start": 8
+        },
+        {
+          "name": "Willis Tower Skydeck",
+          "yt": "mh6ax4oV1oI",
+          "start": 696
+        }
+      ],
+      "webcam": "O0UGT7AT3aw"
+    },
+    {
+      "id": "new-orleans",
+      "name": "New Orleans",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Louisiana",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🎷",
+      "coordinates": {
+        "lat": 29.9511,
+        "lng": -90.0715
+      },
+      "street_view": {
+        "lat": 29.9511,
+        "lng": -90.0715,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "New_Orleans",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "French Quarter",
+          "wikipedia_slug": "French_Quarter"
+        },
+        {
+          "name": "Bourbon Street",
+          "wikipedia_slug": "Bourbon_Street"
+        },
+        {
+          "name": "Garden District",
+          "wikipedia_slug": "Garden_District,_New_Orleans"
+        },
+        {
+          "name": "Mardi Gras",
+          "wikipedia_slug": "Mardi_Gras_in_New_Orleans"
+        }
+      ],
+      "blurb": "The birthplace of jazz, New Orleans is a gumbo of French, Spanish, Creole, and Caribbean cultures. The French Quarter's wrought-iron balconies and brass bands give the city a rhythm all its own.",
+      "fun_fact": "New Orleans is built largely below sea level, so the dead are buried in above-ground tombs — earning its cemeteries the nickname 'Cities of the Dead'.",
+      "hidden_gem_tip": null,
+      "walk": "kwWeEQPA4Hc",
+      "country_code": "US",
+      "continent": "North America",
+      "webcam": "Ksrleaxxxhw"
+    },
+    {
+      "id": "miami",
+      "name": "Miami",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Florida",
+      "type": "coastal",
+      "tag": "famous",
+      "emoji": "🌴",
+      "coordinates": {
+        "lat": 25.7617,
+        "lng": -80.1918
+      },
+      "street_view": {
+        "lat": 25.7617,
+        "lng": -80.1918,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Miami",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "South Beach",
+          "wikipedia_slug": "South_Beach"
+        },
+        {
+          "name": "Art Deco Historic District",
+          "wikipedia_slug": "Miami_Beach_Architectural_District"
+        },
+        {
+          "name": "Wynwood Walls",
+          "wikipedia_slug": "Wynwood_Walls"
+        },
+        {
+          "name": "Little Havana",
+          "wikipedia_slug": "Little_Havana"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "savannah",
+      "name": "Savannah",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Georgia",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🌳",
+      "coordinates": {
+        "lat": 32.0809,
+        "lng": -81.0912
+      },
+      "street_view": {
+        "lat": 32.0809,
+        "lng": -81.0912,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Savannah,_Georgia",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Historic District",
+          "wikipedia_slug": "Savannah_Historic_District"
+        },
+        {
+          "name": "Forsyth Park",
+          "wikipedia_slug": "Forsyth_Park"
+        },
+        {
+          "name": "River Street",
+          "wikipedia_slug": "Savannah,_Georgia"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "charleston",
+      "name": "Charleston",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "South Carolina",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🏘️",
+      "coordinates": {
+        "lat": 32.7765,
+        "lng": -79.9311
+      },
+      "street_view": {
+        "lat": 32.7765,
+        "lng": -79.9311,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Charleston,_South_Carolina",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "The Battery",
+          "wikipedia_slug": "The_Battery_(Charleston)"
+        },
+        {
+          "name": "Rainbow Row",
+          "wikipedia_slug": "Rainbow_Row"
+        },
+        {
+          "name": "Historic District",
+          "wikipedia_slug": "Charleston_Historic_District"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "nashville",
+      "name": "Nashville",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Tennessee",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🎸",
+      "coordinates": {
+        "lat": 36.1627,
+        "lng": -86.7816
+      },
+      "street_view": {
+        "lat": 36.1627,
+        "lng": -86.7816,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Nashville,_Tennessee",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Grand Ole Opry",
+          "wikipedia_slug": "Grand_Ole_Opry"
+        },
+        {
+          "name": "Broadway",
+          "wikipedia_slug": "Broadway_(Nashville,_Tennessee)"
+        },
+        {
+          "name": "Country Music Hall of Fame",
+          "wikipedia_slug": "Country_Music_Hall_of_Fame_and_Museum"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "webcam": "h5Grd2w7HQM",
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "austin",
+      "name": "Austin",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Texas",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🎶",
+      "coordinates": {
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "street_view": {
+        "lat": 30.2672,
+        "lng": -97.7431,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Austin,_Texas",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Texas State Capitol",
+          "wikipedia_slug": "Texas_State_Capitol"
+        },
+        {
+          "name": "South Congress",
+          "wikipedia_slug": "South_Congress"
+        },
+        {
+          "name": "Lady Bird Lake",
+          "wikipedia_slug": "Lady_Bird_Lake"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "san-antonio",
+      "name": "San Antonio",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Texas",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🤠",
+      "coordinates": {
+        "lat": 29.4241,
+        "lng": -98.4936
+      },
+      "street_view": {
+        "lat": 29.4241,
+        "lng": -98.4936,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "San_Antonio",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "The Alamo",
+          "wikipedia_slug": "Alamo_Mission_in_San_Antonio"
+        },
+        {
+          "name": "River Walk",
+          "wikipedia_slug": "San_Antonio_River_Walk"
+        },
+        {
+          "name": "San Antonio Missions",
+          "wikipedia_slug": "San_Antonio_Missions_National_Historical_Park"
+        }
+      ],
+      "blurb": "Anchored by the Alamo and threaded by its lively River Walk, San Antonio blends Texan and Mexican heritage. Its Spanish colonial missions form a UNESCO World Heritage Site.",
+      "fun_fact": "'Remember the Alamo!' became a U.S. rallying cry after the 1836 siege — the mission is now Texas's most-visited landmark.",
+      "hidden_gem_tip": null,
+      "ambient": {
+        "yt": "c0GlCjZbVzk",
+        "start": 126
+      },
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "las-vegas",
+      "name": "Las Vegas",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Nevada",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🎰",
+      "coordinates": {
+        "lat": 36.1699,
+        "lng": -115.1398
+      },
+      "street_view": {
+        "lat": 36.1699,
+        "lng": -115.1398,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Las_Vegas",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "The Strip",
+          "wikipedia_slug": "Las_Vegas_Strip"
+        },
+        {
+          "name": "Fremont Street",
+          "wikipedia_slug": "Fremont_Street_Experience"
+        },
+        {
+          "name": "Bellagio Fountains",
+          "wikipedia_slug": "Fountains_of_Bellagio"
+        }
+      ],
+      "blurb": "Rising straight out of the Mojave Desert, Las Vegas is a neon spectacle of casinos, shows, and replica wonders of the world. The Strip glows so brightly it's visible from space.",
+      "fun_fact": "There are no clocks and few windows on most Vegas casino floors by design — to keep you happily unaware of how much time has passed.",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "los-angeles",
+      "name": "Los Angeles",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "California",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🎬",
+      "coordinates": {
+        "lat": 34.0522,
+        "lng": -118.2437
+      },
+      "street_view": {
+        "lat": 34.0522,
+        "lng": -118.2437,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Los_Angeles",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Hollywood Sign",
+          "wikipedia_slug": "Hollywood_Sign"
+        },
+        {
+          "name": "Griffith Observatory",
+          "wikipedia_slug": "Griffith_Observatory"
+        },
+        {
+          "name": "Santa Monica Pier",
+          "wikipedia_slug": "Santa_Monica_Pier"
+        },
+        {
+          "name": "Getty Center",
+          "wikipedia_slug": "Getty_Center"
+        },
+        {
+          "name": "Walk of Fame",
+          "wikipedia_slug": "Hollywood_Walk_of_Fame"
+        }
+      ],
+      "blurb": "Sprawling under near-permanent sunshine, Los Angeles is the home of Hollywood, Pacific beaches, and endless reinvention. The Hollywood Sign and Griffith Observatory crown the hills above the city.",
+      "fun_fact": "The Hollywood Sign originally read 'HOLLYWOODLAND' and was just a 1923 real-estate advertisement meant to last only 18 months.",
+      "hidden_gem_tip": null,
+      "ambient": {
+        "yt": "kAM7wnaF6KM",
+        "start": 30
+      },
+      "country_code": "US",
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Santa Monica Pier",
+          "yt": "9JDPariSR0w",
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "san-francisco",
+      "name": "San Francisco",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "California",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🌉",
+      "coordinates": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "street_view": {
+        "lat": 37.7749,
+        "lng": -122.4194,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "San_Francisco",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Golden Gate Bridge",
+          "wikipedia_slug": "Golden_Gate_Bridge"
+        },
+        {
+          "name": "Alcatraz Island",
+          "wikipedia_slug": "Alcatraz_Island"
+        },
+        {
+          "name": "Fisherman's Wharf",
+          "wikipedia_slug": "Fisherman's_Wharf,_San_Francisco"
+        },
+        {
+          "name": "Lombard Street",
+          "wikipedia_slug": "Lombard_Street_(San_Francisco)"
+        },
+        {
+          "name": "Cable Cars",
+          "wikipedia_slug": "San_Francisco_cable_car_system"
+        }
+      ],
+      "blurb": "Famous for fog, hills, and the Golden Gate Bridge, San Francisco is a compact city of cable cars, painted Victorians, and Pacific views. Alcatraz sits offshore as a reminder of its wilder past.",
+      "fun_fact": "The Golden Gate Bridge is painted 'International Orange', and a crew repaints it continuously — the job genuinely never ends.",
+      "hidden_gem_tip": null,
+      "walk": "t8KVTj7nv4Q",
+      "ambient": {
+        "yt": "yr2vLq0B-vs",
+        "start": 29
+      },
+      "country_code": "US",
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Golden Gate Bridge",
+          "yt": "zd6BYcjNMYw",
+          "start": 303
+        },
+        {
+          "name": "Transamerica Pyramid",
+          "yt": "ymuN7-3MklE",
+          "start": 0
+        }
+      ],
+      "webcam": "CXYr04BWvmc"
+    },
+    {
+      "id": "san-diego",
+      "name": "San Diego",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "California",
+      "type": "coastal",
+      "tag": "famous",
+      "emoji": "🐼",
+      "coordinates": {
+        "lat": 32.7157,
+        "lng": -117.1611
+      },
+      "street_view": {
+        "lat": 32.7157,
+        "lng": -117.1611,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "San_Diego",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Balboa Park",
+          "wikipedia_slug": "Balboa_Park_(San_Diego)"
+        },
+        {
+          "name": "San Diego Zoo",
+          "wikipedia_slug": "San_Diego_Zoo"
+        },
+        {
+          "name": "La Jolla Cove",
+          "wikipedia_slug": "La_Jolla"
+        },
+        {
+          "name": "USS Midway Museum",
+          "wikipedia_slug": "USS_Midway_Museum"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "webcam": "edz0ux7JClE",
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "seattle",
+      "name": "Seattle",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Washington",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "☕",
+      "coordinates": {
+        "lat": 47.6062,
+        "lng": -122.3321
+      },
+      "street_view": {
+        "lat": 47.6062,
+        "lng": -122.3321,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Seattle",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Space Needle",
+          "wikipedia_slug": "Space_Needle"
+        },
+        {
+          "name": "Pike Place Market",
+          "wikipedia_slug": "Pike_Place_Market"
+        },
+        {
+          "name": "Chihuly Garden and Glass",
+          "wikipedia_slug": "Chihuly_Garden_and_Glass"
+        },
+        {
+          "name": "Mount Rainier views",
+          "wikipedia_slug": "Mount_Rainier"
+        }
+      ],
+      "blurb": "Wedged between Puget Sound and the Cascade Mountains, Seattle gave the world grunge, global coffee culture, and the Space Needle. On clear days, Mount Rainier floats on the horizon.",
+      "fun_fact": "Pike Place Market is home to the original Starbucks (1971) — and to fishmongers who famously throw customers' fish across the counter.",
+      "hidden_gem_tip": null,
+      "ambient": {
+        "yt": "fz5H7ObqXj4",
+        "start": 60
+      },
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "portland-or",
+      "name": "Portland",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Oregon",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🌹",
+      "coordinates": {
+        "lat": 45.5152,
+        "lng": -122.6784
+      },
+      "street_view": {
+        "lat": 45.5152,
+        "lng": -122.6784,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Portland,_Oregon",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Powell's City of Books",
+          "wikipedia_slug": "Powell's_Books"
+        },
+        {
+          "name": "Washington Park",
+          "wikipedia_slug": "Washington_Park_(Portland,_Oregon)"
+        },
+        {
+          "name": "Columbia River Gorge",
+          "wikipedia_slug": "Columbia_River_Gorge"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "denver",
+      "name": "Denver",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Colorado",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🏔️",
+      "coordinates": {
+        "lat": 39.7392,
+        "lng": -104.9903
+      },
+      "street_view": {
+        "lat": 39.7392,
+        "lng": -104.9903,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Denver",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Red Rocks Amphitheatre",
+          "wikipedia_slug": "Red_Rocks_Amphitheatre"
+        },
+        {
+          "name": "Larimer Square",
+          "wikipedia_slug": "Larimer_Square"
+        },
+        {
+          "name": "Rocky Mountain gateway",
+          "wikipedia_slug": "Rocky_Mountains"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "santa-fe",
+      "name": "Santa Fe",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "New Mexico",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🎨",
+      "coordinates": {
+        "lat": 35.687,
+        "lng": -105.9378
+      },
+      "street_view": {
+        "lat": 35.687,
+        "lng": -105.9378,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Santa_Fe,_New_Mexico",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "The Plaza",
+          "wikipedia_slug": "Santa_Fe_Plaza"
+        },
+        {
+          "name": "Georgia O'Keeffe Museum",
+          "wikipedia_slug": "Georgia_O'Keeffe_Museum"
+        },
+        {
+          "name": "Canyon Road",
+          "wikipedia_slug": "Canyon_Road"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "honolulu",
+      "name": "Honolulu (Oʻahu)",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Hawaii",
+      "type": "island",
+      "tag": "famous",
+      "emoji": "🌺",
+      "coordinates": {
+        "lat": 21.3069,
+        "lng": -157.8583
+      },
+      "street_view": {
+        "lat": 21.3069,
+        "lng": -157.8583,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Honolulu",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Waikiki Beach",
+          "wikipedia_slug": "Waikiki"
+        },
+        {
+          "name": "Pearl Harbor",
+          "wikipedia_slug": "Pearl_Harbor"
+        },
+        {
+          "name": "Diamond Head",
+          "wikipedia_slug": "Diamond_Head,_Hawaii"
+        },
+        {
+          "name": "Hanauma Bay",
+          "wikipedia_slug": "Hanauma_Bay"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "webcam": "8waVy4wM1tM",
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "grand-canyon",
+      "name": "Grand Canyon",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Arizona",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🏜️",
+      "coordinates": {
+        "lat": 36.1069,
+        "lng": -112.1129
+      },
+      "street_view": {
+        "lat": 36.1069,
+        "lng": -112.1129,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Grand_Canyon",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "South Rim",
+          "wikipedia_slug": "Grand_Canyon_National_Park"
+        },
+        {
+          "name": "Colorado River",
+          "wikipedia_slug": "Colorado_River"
+        },
+        {
+          "name": "Havasu Falls",
+          "wikipedia_slug": "Havasu_Falls"
+        },
+        {
+          "name": "Desert View Watchtower",
+          "wikipedia_slug": "Desert_View_Watchtower"
+        }
+      ],
+      "blurb": "Carved by the Colorado River over millions of years, the Grand Canyon is a mile deep and up to 18 miles wide — a chasm so vast it exposes two billion years of Earth's history in its walls.",
+      "fun_fact": "The Grand Canyon is so large it creates its own weather, and temperatures at the bottom can be over 11°C warmer than at the rim.",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "yellowstone",
+      "name": "Yellowstone",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Wyoming",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "♨️",
+      "coordinates": {
+        "lat": 44.428,
+        "lng": -110.5885
+      },
+      "street_view": {
+        "lat": 44.428,
+        "lng": -110.5885,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Yellowstone_National_Park",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Old Faithful",
+          "wikipedia_slug": "Old_Faithful"
+        },
+        {
+          "name": "Grand Prismatic Spring",
+          "wikipedia_slug": "Grand_Prismatic_Spring"
+        },
+        {
+          "name": "Grand Canyon of the Yellowstone",
+          "wikipedia_slug": "Grand_Canyon_of_the_Yellowstone"
+        },
+        {
+          "name": "Mammoth Hot Springs",
+          "wikipedia_slug": "Mammoth_Hot_Springs"
+        }
+      ],
+      "blurb": "The world's first national park sits atop a supervolcano, fuelling half of all the geysers on Earth. Bison, bears, and wolves roam its forests, canyons, and steaming geothermal basins.",
+      "fun_fact": "Old Faithful is so reliable it can be predicted within about 10 minutes — it erupts roughly 17 times a day, shooting water over 30 metres high.",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "yosemite",
+      "name": "Yosemite",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "California",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🏞️",
+      "coordinates": {
+        "lat": 37.8651,
+        "lng": -119.5383
+      },
+      "street_view": {
+        "lat": 37.8651,
+        "lng": -119.5383,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Yosemite_National_Park",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "El Capitan",
+          "wikipedia_slug": "El_Capitan"
+        },
+        {
+          "name": "Half Dome",
+          "wikipedia_slug": "Half_Dome"
+        },
+        {
+          "name": "Yosemite Falls",
+          "wikipedia_slug": "Yosemite_Falls"
+        },
+        {
+          "name": "Glacier Point",
+          "wikipedia_slug": "Glacier_Point"
+        },
+        {
+          "name": "Mariposa Grove",
+          "wikipedia_slug": "Mariposa_Grove"
+        }
+      ],
+      "blurb": "Glacier-carved granite cliffs, giant sequoias, and thundering waterfalls make Yosemite a cathedral of the American wilderness. El Capitan and Half Dome are legends among climbers worldwide.",
+      "fun_fact": "Yosemite Falls is North America's tallest waterfall at 739 metres — yet it can run completely dry by late summer.",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "zion",
+      "name": "Zion",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Utah",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🧗",
+      "coordinates": {
+        "lat": 37.2982,
+        "lng": -113.0263
+      },
+      "street_view": {
+        "lat": 37.2982,
+        "lng": -113.0263,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Zion_National_Park",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "The Narrows",
+          "wikipedia_slug": "The_Narrows_(Zion_National_Park)"
+        },
+        {
+          "name": "Angels Landing",
+          "wikipedia_slug": "Angels_Landing"
+        },
+        {
+          "name": "Emerald Pools",
+          "wikipedia_slug": "Zion_National_Park"
+        }
+      ],
+      "blurb": "Towering red and cream sandstone cliffs hem in a lush canyon carved by the Virgin River. Zion's trails range from gentle riverside strolls to the knife-edge scramble up Angels Landing.",
+      "fun_fact": "The Narrows hike is done mostly IN the river itself — for much of it, the canyon walls are too close to walk anywhere but the water.",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "bryce-canyon",
+      "name": "Bryce Canyon",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Utah",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🪨",
+      "coordinates": {
+        "lat": 37.593,
+        "lng": -112.1871
+      },
+      "street_view": {
+        "lat": 37.593,
+        "lng": -112.1871,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Bryce_Canyon_National_Park",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "The Hoodoos",
+          "wikipedia_slug": "Hoodoo_(geology)"
+        },
+        {
+          "name": "Bryce Amphitheater",
+          "wikipedia_slug": "Bryce_Canyon_National_Park"
+        },
+        {
+          "name": "Sunrise Point",
+          "wikipedia_slug": "Bryce_Canyon_National_Park"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "arches",
+      "name": "Arches",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Utah",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🌉",
+      "coordinates": {
+        "lat": 38.7331,
+        "lng": -109.5925
+      },
+      "street_view": {
+        "lat": 38.7331,
+        "lng": -109.5925,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Arches_National_Park",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Delicate Arch",
+          "wikipedia_slug": "Delicate_Arch"
+        },
+        {
+          "name": "Landscape Arch",
+          "wikipedia_slug": "Landscape_Arch"
+        },
+        {
+          "name": "Double Arch",
+          "wikipedia_slug": "Double_Arch_(Arches_National_Park)"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "grand-teton",
+      "name": "Grand Teton",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Wyoming",
+      "type": "mountain",
+      "tag": "hidden",
+      "emoji": "🏔️",
+      "coordinates": {
+        "lat": 43.7904,
+        "lng": -110.6818
+      },
+      "street_view": {
+        "lat": 43.7904,
+        "lng": -110.6818,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Grand_Teton_National_Park",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "The Teton Range",
+          "wikipedia_slug": "Teton_Range"
+        },
+        {
+          "name": "Jenny Lake",
+          "wikipedia_slug": "Jenny_Lake"
+        },
+        {
+          "name": "Snake River",
+          "wikipedia_slug": "Snake_River"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "glacier-np",
+      "name": "Glacier National Park",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Montana",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🏔️",
+      "coordinates": {
+        "lat": 48.7596,
+        "lng": -113.787
+      },
+      "street_view": {
+        "lat": 48.7596,
+        "lng": -113.787,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Glacier_National_Park_(U.S.)",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Going-to-the-Sun Road",
+          "wikipedia_slug": "Going-to-the-Sun_Road"
+        },
+        {
+          "name": "Lake McDonald",
+          "wikipedia_slug": "Lake_McDonald"
+        },
+        {
+          "name": "Logan Pass",
+          "wikipedia_slug": "Logan_Pass"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "rocky-mountain-np",
+      "name": "Rocky Mountain National Park",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Colorado",
+      "type": "mountain",
+      "tag": "hidden",
+      "emoji": "⛰️",
+      "coordinates": {
+        "lat": 40.3428,
+        "lng": -105.6836
+      },
+      "street_view": {
+        "lat": 40.3428,
+        "lng": -105.6836,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Rocky_Mountain_National_Park",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Trail Ridge Road",
+          "wikipedia_slug": "Trail_Ridge_Road"
+        },
+        {
+          "name": "Bear Lake",
+          "wikipedia_slug": "Bear_Lake_(Colorado)"
+        },
+        {
+          "name": "Longs Peak",
+          "wikipedia_slug": "Longs_Peak"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "great-smoky-mountains",
+      "name": "Great Smoky Mountains",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Tennessee",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🌫️",
+      "coordinates": {
+        "lat": 35.6118,
+        "lng": -83.4895
+      },
+      "street_view": {
+        "lat": 35.6118,
+        "lng": -83.4895,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Great_Smoky_Mountains_National_Park",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Clingmans Dome",
+          "wikipedia_slug": "Clingmans_Dome"
+        },
+        {
+          "name": "Cades Cove",
+          "wikipedia_slug": "Cades_Cove"
+        },
+        {
+          "name": "Newfound Gap",
+          "wikipedia_slug": "Newfound_Gap"
+        }
+      ],
+      "blurb": "The most-visited national park in the U.S. drapes the Appalachians in mist and old-growth forest. Its name comes from the natural blue haze that rises from the trees.",
+      "fun_fact": "The Smokies' famous 'smoke' is actually fog produced by the forest — the trees release tiny organic compounds that scatter blue light.",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "acadia",
+      "name": "Acadia",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Maine",
+      "type": "coastal",
+      "tag": "hidden",
+      "emoji": "🦞",
+      "coordinates": {
+        "lat": 44.3386,
+        "lng": -68.2733
+      },
+      "street_view": {
+        "lat": 44.3386,
+        "lng": -68.2733,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Acadia_National_Park",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Cadillac Mountain",
+          "wikipedia_slug": "Cadillac_Mountain"
+        },
+        {
+          "name": "Bar Harbor",
+          "wikipedia_slug": "Bar_Harbor,_Maine"
+        },
+        {
+          "name": "Jordan Pond",
+          "wikipedia_slug": "Jordan_Pond"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "everglades",
+      "name": "Everglades",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Florida",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🐊",
+      "coordinates": {
+        "lat": 25.2866,
+        "lng": -80.8987
+      },
+      "street_view": {
+        "lat": 25.2866,
+        "lng": -80.8987,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Everglades_National_Park",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "The Wetlands",
+          "wikipedia_slug": "Everglades"
+        },
+        {
+          "name": "Anhinga Trail",
+          "wikipedia_slug": "Everglades_National_Park"
+        },
+        {
+          "name": "Ten Thousand Islands",
+          "wikipedia_slug": "Ten_Thousand_Islands"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "sequoia",
+      "name": "Sequoia & Kings Canyon",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "California",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🌲",
+      "coordinates": {
+        "lat": 36.4864,
+        "lng": -118.5658
+      },
+      "street_view": {
+        "lat": 36.4864,
+        "lng": -118.5658,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Sequoia_National_Park",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "General Sherman Tree",
+          "wikipedia_slug": "General_Sherman_(tree)"
+        },
+        {
+          "name": "Giant Forest",
+          "wikipedia_slug": "Giant_Forest"
+        },
+        {
+          "name": "Moro Rock",
+          "wikipedia_slug": "Moro_Rock"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "death-valley",
+      "name": "Death Valley",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "California",
+      "type": "desert",
+      "tag": "hidden",
+      "emoji": "🏜️",
+      "coordinates": {
+        "lat": 36.5054,
+        "lng": -117.0794
+      },
+      "street_view": {
+        "lat": 36.5054,
+        "lng": -117.0794,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Death_Valley_National_Park",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Badwater Basin",
+          "wikipedia_slug": "Badwater_Basin"
+        },
+        {
+          "name": "Zabriskie Point",
+          "wikipedia_slug": "Zabriskie_Point"
+        },
+        {
+          "name": "Mesquite Flat Dunes",
+          "wikipedia_slug": "Death_Valley_National_Park"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "joshua-tree",
+      "name": "Joshua Tree",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "California",
+      "type": "desert",
+      "tag": "famous",
+      "emoji": "🌵",
+      "coordinates": {
+        "lat": 33.8734,
+        "lng": -115.901
+      },
+      "street_view": {
+        "lat": 33.8734,
+        "lng": -115.901,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Joshua_Tree_National_Park",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Joshua Trees",
+          "wikipedia_slug": "Yucca_brevifolia"
+        },
+        {
+          "name": "Hidden Valley",
+          "wikipedia_slug": "Joshua_Tree_National_Park"
+        },
+        {
+          "name": "Keys View",
+          "wikipedia_slug": "Joshua_Tree_National_Park"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "olympic-np",
+      "name": "Olympic National Park",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Washington",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🌲",
+      "coordinates": {
+        "lat": 47.8021,
+        "lng": -123.6044
+      },
+      "street_view": {
+        "lat": 47.8021,
+        "lng": -123.6044,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Olympic_National_Park",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Hoh Rain Forest",
+          "wikipedia_slug": "Hoh_Rainforest"
+        },
+        {
+          "name": "Hurricane Ridge",
+          "wikipedia_slug": "Hurricane_Ridge"
+        },
+        {
+          "name": "Ruby Beach",
+          "wikipedia_slug": "Ruby_Beach"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "mount-rainier",
+      "name": "Mount Rainier",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Washington",
+      "type": "mountain",
+      "tag": "famous",
+      "emoji": "🗻",
+      "coordinates": {
+        "lat": 46.8523,
+        "lng": -121.7603
+      },
+      "street_view": {
+        "lat": 46.8523,
+        "lng": -121.7603,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Mount_Rainier_National_Park",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Paradise",
+          "wikipedia_slug": "Paradise,_Washington"
+        },
+        {
+          "name": "Sunrise",
+          "wikipedia_slug": "Sunrise,_Washington"
+        },
+        {
+          "name": "Mount Rainier",
+          "wikipedia_slug": "Mount_Rainier"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "hawaii-volcanoes",
+      "name": "Hawaiʻi Volcanoes",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Hawaii",
+      "type": "island",
+      "tag": "famous",
+      "emoji": "🌋",
+      "coordinates": {
+        "lat": 19.4194,
+        "lng": -155.2885
+      },
+      "street_view": {
+        "lat": 19.4194,
+        "lng": -155.2885,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Hawaii_Volcanoes_National_Park",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Kīlauea",
+          "wikipedia_slug": "Kīlauea"
+        },
+        {
+          "name": "Mauna Loa",
+          "wikipedia_slug": "Mauna_Loa"
+        },
+        {
+          "name": "Chain of Craters Road",
+          "wikipedia_slug": "Hawaii_Volcanoes_National_Park"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "denali",
+      "name": "Denali",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Alaska",
+      "type": "mountain",
+      "tag": "hidden",
+      "emoji": "🐻",
+      "coordinates": {
+        "lat": 63.0692,
+        "lng": -151.007
+      },
+      "street_view": {
+        "lat": 63.0692,
+        "lng": -151.007,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Denali_National_Park_and_Preserve",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Denali (Mt. McKinley)",
+          "wikipedia_slug": "Denali"
+        },
+        {
+          "name": "Wonder Lake",
+          "wikipedia_slug": "Wonder_Lake_(Alaska)"
+        },
+        {
+          "name": "Park Road",
+          "wikipedia_slug": "Denali_National_Park_and_Preserve"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "monument-valley",
+      "name": "Monument Valley",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Arizona",
+      "type": "desert",
+      "tag": "famous",
+      "emoji": "🏜️",
+      "coordinates": {
+        "lat": 36.998,
+        "lng": -110.0985
+      },
+      "street_view": {
+        "lat": 36.998,
+        "lng": -110.0985,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Monument_Valley",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "The Mittens",
+          "wikipedia_slug": "Monument_Valley"
+        },
+        {
+          "name": "Navajo Tribal Park",
+          "wikipedia_slug": "Navajo_Nation"
+        },
+        {
+          "name": "Forrest Gump Point",
+          "wikipedia_slug": "Monument_Valley"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "antelope-canyon",
+      "name": "Antelope Canyon",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Arizona",
+      "type": "desert",
+      "tag": "famous",
+      "emoji": "🌀",
+      "coordinates": {
+        "lat": 36.8619,
+        "lng": -111.3743
+      },
+      "street_view": {
+        "lat": 36.8619,
+        "lng": -111.3743,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Antelope_Canyon",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Upper Antelope Canyon",
+          "wikipedia_slug": "Antelope_Canyon"
+        },
+        {
+          "name": "Horseshoe Bend",
+          "wikipedia_slug": "Horseshoe_Bend_(Arizona)"
+        },
+        {
+          "name": "Lake Powell",
+          "wikipedia_slug": "Lake_Powell"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "sedona",
+      "name": "Sedona",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Arizona",
+      "type": "desert",
+      "tag": "famous",
+      "emoji": "🧡",
+      "coordinates": {
+        "lat": 34.8697,
+        "lng": -111.761
+      },
+      "street_view": {
+        "lat": 34.8697,
+        "lng": -111.761,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Sedona,_Arizona",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Cathedral Rock",
+          "wikipedia_slug": "Cathedral_Rock"
+        },
+        {
+          "name": "Red Rock State Park",
+          "wikipedia_slug": "Red_Rock_State_Park"
+        },
+        {
+          "name": "Oak Creek Canyon",
+          "wikipedia_slug": "Oak_Creek_Canyon"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "mount-rushmore",
+      "name": "Mount Rushmore",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "South Dakota",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🗿",
+      "coordinates": {
+        "lat": 43.8791,
+        "lng": -103.4591
+      },
+      "street_view": {
+        "lat": 43.8791,
+        "lng": -103.4591,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Mount_Rushmore",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "The Presidents",
+          "wikipedia_slug": "Mount_Rushmore"
+        },
+        {
+          "name": "Black Hills",
+          "wikipedia_slug": "Black_Hills"
+        },
+        {
+          "name": "Badlands National Park",
+          "wikipedia_slug": "Badlands_National_Park"
+        }
+      ],
+      "blurb": "Carved into a granite face in the Black Hills, the 18-metre heads of four U.S. presidents took 14 years and some 400 workers to complete. It remains one of America's most recognisable monuments.",
+      "fun_fact": "Not a single worker died during the dangerous 14-year carving of Mount Rushmore, despite the heavy use of dynamite.",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "lake-tahoe",
+      "name": "Lake Tahoe",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "California",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "💎",
+      "coordinates": {
+        "lat": 39.0968,
+        "lng": -120.0324
+      },
+      "street_view": {
+        "lat": 39.0968,
+        "lng": -120.0324,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Lake_Tahoe",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Emerald Bay",
+          "wikipedia_slug": "Emerald_Bay_State_Park"
+        },
+        {
+          "name": "Sand Harbor",
+          "wikipedia_slug": "Lake_Tahoe_Nevada_State_Park"
+        },
+        {
+          "name": "Heavenly",
+          "wikipedia_slug": "Heavenly_Mountain_Resort"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "webcam": "Lk0Z5ExUWL0",
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "big-sur",
+      "name": "Big Sur",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "California",
+      "type": "coastal",
+      "tag": "hidden",
+      "emoji": "🌊",
+      "coordinates": {
+        "lat": 36.2704,
+        "lng": -121.8081
+      },
+      "street_view": {
+        "lat": 36.2704,
+        "lng": -121.8081,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Big_Sur",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Bixby Creek Bridge",
+          "wikipedia_slug": "Bixby_Creek_Bridge"
+        },
+        {
+          "name": "McWay Falls",
+          "wikipedia_slug": "McWay_Falls"
+        },
+        {
+          "name": "Pfeiffer Beach",
+          "wikipedia_slug": "Big_Sur"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "maui",
+      "name": "Maui",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Hawaii",
+      "type": "island",
+      "tag": "famous",
+      "emoji": "🏝️",
+      "coordinates": {
+        "lat": 20.7984,
+        "lng": -156.3319
+      },
+      "street_view": {
+        "lat": 20.7984,
+        "lng": -156.3319,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Maui",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Road to Hana",
+          "wikipedia_slug": "Hana_Highway"
+        },
+        {
+          "name": "Haleakalā",
+          "wikipedia_slug": "Haleakalā"
+        },
+        {
+          "name": "Lahaina",
+          "wikipedia_slug": "Lahaina,_Hawaii"
+        },
+        {
+          "name": "Wailea Beach",
+          "wikipedia_slug": "Wailea,_Hawaii"
+        }
+      ],
+      "blurb": "Hawaiʻi's 'Valley Isle' pairs the switchbacking Road to Hana with the volcanic summit of Haleakalā, where you can watch the sunrise above the clouds. Below, golden beaches ring turquoise water.",
+      "fun_fact": "From the seafloor to its summit, the Hawaiian volcano Mauna Kea is taller than Mount Everest — and you can watch sunrise above the clouds atop Maui's Haleakalā.",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "kauai",
+      "name": "Kauaʻi",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Hawaii",
+      "type": "island",
+      "tag": "hidden",
+      "emoji": "🌈",
+      "coordinates": {
+        "lat": 22.0964,
+        "lng": -159.5261
+      },
+      "street_view": {
+        "lat": 22.0964,
+        "lng": -159.5261,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Kauai",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Nā Pali Coast",
+          "wikipedia_slug": "Na_Pali_Coast_State_Park"
+        },
+        {
+          "name": "Waimea Canyon",
+          "wikipedia_slug": "Waimea_Canyon_State_Park"
+        },
+        {
+          "name": "Hanalei Bay",
+          "wikipedia_slug": "Hanalei_Bay"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "key-west",
+      "name": "Key West",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Florida",
+      "type": "island",
+      "tag": "hidden",
+      "emoji": "🐚",
+      "coordinates": {
+        "lat": 24.5551,
+        "lng": -81.78
+      },
+      "street_view": {
+        "lat": 24.5551,
+        "lng": -81.78,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Key_West",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Duval Street",
+          "wikipedia_slug": "Duval_Street"
+        },
+        {
+          "name": "Southernmost Point",
+          "wikipedia_slug": "Southernmost_point_of_the_continental_United_States"
+        },
+        {
+          "name": "Ernest Hemingway House",
+          "wikipedia_slug": "Ernest_Hemingway_House"
+        },
+        {
+          "name": "Mallory Square",
+          "wikipedia_slug": "Mallory_Square"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "webcam": "HDlmUp4JBLg",
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "outer-banks",
+      "name": "Outer Banks",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "North Carolina",
+      "type": "coastal",
+      "tag": "hidden",
+      "emoji": "🪁",
+      "coordinates": {
+        "lat": 35.5582,
+        "lng": -75.4665
+      },
+      "street_view": {
+        "lat": 35.5582,
+        "lng": -75.4665,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Outer_Banks",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Cape Hatteras Lighthouse",
+          "wikipedia_slug": "Cape_Hatteras_Lighthouse"
+        },
+        {
+          "name": "Wright Brothers Memorial",
+          "wikipedia_slug": "Wright_Brothers_National_Memorial"
+        },
+        {
+          "name": "Jockey's Ridge",
+          "wikipedia_slug": "Jockey's_Ridge_State_Park"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America"
+    }
+  ]
+}

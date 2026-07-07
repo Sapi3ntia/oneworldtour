@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Passport — One World Tour</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✈️</text></svg>">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/passport.css">
+</head>
+<body>
+<div id="passport-screen">
+
+  <div id="passport-header">
+    <div class="passport-title">
+      <span style="font-size:1.6rem">📘</span>
+      <h1>My Passport</h1>
+    </div>
+    <div style="display:flex;gap:0.75rem;align-items:center">
+      <a href="index.html" class="btn btn-ghost">← World Map</a>
+      <button class="btn btn-ghost" id="reset-btn"
+        style="color:var(--text-lo)">Reset</button>
+    </div>
+  </div>
+
+  <div id="passport-rank">
+    <span class="rank-label">Traveler Rank</span>
+    <span class="rank-name" id="rank-name">Armchair Traveler</span>
+  </div>
+
+  <div id="passport-stats">
+    <div class="stat-card">
+      <div class="stat-number" id="stat-total-visited">0</div>
+      <div class="stat-label">Places Visited</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number" id="stat-countries">0</div>
+      <div class="stat-label">Countries</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number" id="stat-continents">0</div>
+      <div class="stat-label">Continents</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number" id="stat-distance">0</div>
+      <div class="stat-label">km Travelled</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number" id="stat-pct">0%</div>
+      <div class="stat-label">World Explored</div>
+    </div>
+  </div>
+
+  <!-- Hidden helper for total location count (used by stats logic) -->
+  <span id="stat-total-locations" hidden></span>
+
+  <!-- Achievements -->
+  <div id="achievements-section" class="country-section" style="display:none">
+    <p class="section-label">Achievements <span id="ach-count" class="ach-count"></span></p>
+    <div id="achievements-grid"></div>
+  </div>
+
+  <div id="empty-passport" style="display:none">
+    <div class="empty-icon">🌍</div>
+    <p>Your passport is empty.<br>
+       Head back to the map and start exploring the world!</p>
+    <a href="index.html" class="btn btn-gold"
+       style="display:inline-flex;margin-top:1.5rem">
+      Start Exploring →
+    </a>
+  </div>
+
+  <!-- Country sections, wishlist, and discover rendered here -->
+  <div id="passport-body"></div>
+
+</div>
+
+<script src="js/state.js"></script>
+<script src="js/destinations.js"></script>
+<script src="js/passport.js"></script>
+</body>
+</html>

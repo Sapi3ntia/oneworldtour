@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One World Tour</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✈️</text></svg>">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/map.css">
+</head>
+<body>
+
+  <div id="topbar">
+    <div class="logo">
+      <span class="logo-icon">✈️</span>
+      <span class="logo-text">One World Tour</span>
+    </div>
+
+    <div id="search-wrap">
+      <span class="search-icon">🔎</span>
+      <input id="search-input" type="text" autocomplete="off" role="combobox"
+        aria-autocomplete="list" aria-expanded="false" aria-controls="search-suggest"
+        placeholder="Search a city, country, or landmark…">
+      <div id="search-suggest" class="search-suggest" role="listbox"></div>
+    </div>
+
+    <div class="topbar-actions">
+      <button class="btn btn-ghost" id="surprise-btn">🎲 Surprise me</button>
+      <a href="guess.html" class="btn btn-ghost">🌍 City Guesser</a>
+      <a href="window.html" class="btn btn-ghost">🪟 Window</a>
+      <a href="passport.html" class="btn btn-gold">📘 My Passport</a>
+    </div>
+  </div>
+
+  <div id="country-label">
+    <div class="country-pill">🌍 Loading…</div>
+  </div>
+
+  <div id="region-bar"></div>
+
+  <div id="map"></div>
+
+  <div id="stats-bar">
+    <div class="stat-pill">📍 <span id="stat-visited">0 / 0 explored</span></div>
+    <div class="stat-pill">🌐 <span id="stat-countries">0 countries</span></div>
+    <div class="stat-pill" id="stat-showing-pill" style="display:none"><span id="stat-showing"></span></div>
+  </div>
+
+  <div id="filter-bar">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="famous">📸 Famous</button>
+    <button class="filter-btn" data-filter="hidden">🗺️ Hidden</button>
+    <button class="filter-btn" data-filter="saved">♥ Saved</button>
+    <span class="filter-sep" aria-hidden="true"></span>
+    <button class="filter-btn" data-filter="window" title="Places with a window view — 🔴 live cam or 🎬 ambient recorded loop">🪟 Window</button>
+    <button class="filter-btn" data-filter="walk" title="Places with a walking tour">🚶 Tour</button>
+    <button class="filter-btn" data-filter="both" title="Places with both a window view and a walking tour">✨ Both</button>
+  </div>
+
+  <div class="map-fabs">
+    <button id="dropin-btn" class="map-fab" title="Tap anywhere on the map to watch a video from there">🎬 Drop In</button>
+    <button id="trip-btn" class="map-fab">🧳 Plan Tour</button>
+    <button id="journey-btn" class="map-fab">✈️ My Journey</button>
+    <button id="daynight-btn" class="map-fab">🌗 Day / Night</button>
+  </div>
+
+  <!-- Planning-mode hint -->
+  <div id="plan-hint" class="plan-hint">✈️ Planning your tour — tap cities on the map to add stops</div>
+
+  <!-- Trip planner panel -->
+  <div id="trip-panel" class="trip-panel">
+    <div class="trip-head">
+      <h3>🧳 Your Tour</h3>
+      <button id="trip-close" class="trip-close" title="Close">✕</button>
+    </div>
+    <div id="trip-list" class="trip-list"></div>
+    <div id="trip-summary" class="trip-summary"></div>
+    <div class="trip-actions">
+      <button id="trip-fly" class="btn btn-gold">▶ Fly the Tour</button>
+      <button id="trip-clear" class="btn btn-ghost">Clear</button>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <script src="js/state.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/webcam.js"></script>
+  <script src="js/destinations.js"></script>
+  <script src="js/walkthrough.js"></script>
+  <script src="js/map.js"></script>
+</body>
+</html>

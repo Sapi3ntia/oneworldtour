@@ -1,0 +1,5318 @@
+{
+  "country": null,
+  "continent": "Europe",
+  "code": "EU",
+  "locations": [
+    {
+      "id": "vienna",
+      "name": "Vienna",
+      "country": "Austria",
+      "country_flag": "🇦🇹",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🎻",
+      "coordinates": {
+        "lat": 48.2082,
+        "lng": 16.3738
+      },
+      "street_view": {
+        "lat": 48.2082,
+        "lng": 16.3738,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Vienna",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Schönbrunn Palace",
+          "wikipedia_slug": "Schönbrunn_Palace"
+        },
+        {
+          "name": "Belvedere",
+          "wikipedia_slug": "Belvedere,_Vienna"
+        },
+        {
+          "name": "Vienna State Opera",
+          "wikipedia_slug": "Vienna_State_Opera"
+        },
+        {
+          "name": "St. Stephen's Cathedral",
+          "wikipedia_slug": "St._Stephen's_Cathedral,_Vienna"
+        },
+        {
+          "name": "Hofburg",
+          "wikipedia_slug": "Hofburg"
+        },
+        {
+          "name": "Kunsthistorisches Museum",
+          "wikipedia_slug": "Kunsthistorisches_Museum"
+        },
+        {
+          "name": "Natural History Museum",
+          "wikipedia_slug": "Natural_History_Museum,_Vienna"
+        }
+      ],
+      "blurb": "Once the seat of the Habsburg empire, Vienna pairs imperial palaces and gilded concert halls with a café culture that turns sitting still into an art form. The historic centre is a UNESCO World Heritage Site, and the city has topped global liveability rankings year after year.",
+      "fun_fact": "Vienna's coffee-house culture is recognised by UNESCO as 'intangible cultural heritage' — and the croissant was reputedly invented here, not in France, to celebrate breaking an Ottoman siege.",
+      "hidden_gem_tip": null,
+      "walk": "ysI5cYlAls4",
+      "country_code": "AT",
+      "continent": "Europe"
+    },
+    {
+      "id": "faroe-islands",
+      "name": "Faroe Islands",
+      "country": "Denmark",
+      "country_flag": "🇩🇰",
+      "region": "Faroe Islands",
+      "type": "island",
+      "tag": "hidden",
+      "emoji": "🌫️",
+      "coordinates": {
+        "lat": 62.0,
+        "lng": -6.79
+      },
+      "street_view": {
+        "lat": 62.0,
+        "lng": -6.79,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Faroe_Islands",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Tórshavn",
+          "wikipedia_slug": "Tórshavn"
+        },
+        {
+          "name": "Sørvágsvatn",
+          "wikipedia_slug": "Sørvágsvatn"
+        },
+        {
+          "name": "Gásadalur",
+          "wikipedia_slug": "Gásadalur"
+        },
+        {
+          "name": "Saksun",
+          "wikipedia_slug": "Saksun"
+        }
+      ],
+      "blurb": "Eighteen wind-scoured islands rising sheer from the North Atlantic, the Faroes are all green cliffs, hidden fjords, and turf-roofed villages. There are said to be more sheep here than people.",
+      "fun_fact": "The Faroese once 'hired sheep' fitted with cameras to map the islands on Google Street View — they called it 'Sheep View'.",
+      "hidden_gem_tip": null,
+      "country_code": "DK",
+      "continent": "Europe"
+    },
+    {
+      "id": "canary-islands",
+      "name": "Canary Islands",
+      "country": "Spain",
+      "country_flag": "🇪🇸",
+      "region": "Canary Islands",
+      "type": "island",
+      "tag": "famous",
+      "emoji": "🌋",
+      "coordinates": {
+        "lat": 28.2916,
+        "lng": -16.6291
+      },
+      "street_view": {
+        "lat": 28.2916,
+        "lng": -16.6291,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Canary_Islands",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Mount Teide",
+          "wikipedia_slug": "Teide"
+        },
+        {
+          "name": "Maspalomas Dunes",
+          "wikipedia_slug": "Maspalomas"
+        },
+        {
+          "name": "Las Palmas",
+          "wikipedia_slug": "Las_Palmas_de_Gran_Canaria"
+        },
+        {
+          "name": "Lanzarote / César Manrique",
+          "wikipedia_slug": "César_Manrique"
+        },
+        {
+          "name": "Fuerteventura",
+          "wikipedia_slug": "Fuerteventura"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "ES",
+      "continent": "Europe"
+    },
+    {
+      "id": "liverpool",
+      "name": "Liverpool",
+      "country": "United Kingdom",
+      "country_flag": "🇬🇧",
+      "region": "England",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🎸",
+      "coordinates": {
+        "lat": 53.4084,
+        "lng": -2.9916
+      },
+      "street_view": {
+        "lat": 53.4084,
+        "lng": -2.9916,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Liverpool",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Royal Albert Dock",
+          "wikipedia_slug": "Royal_Albert_Dock,_Liverpool"
+        },
+        {
+          "name": "The Cavern Club",
+          "wikipedia_slug": "The_Cavern_Club"
+        },
+        {
+          "name": "The Beatles Story",
+          "wikipedia_slug": "The_Beatles_Story"
+        },
+        {
+          "name": "Tate Liverpool",
+          "wikipedia_slug": "Tate_Liverpool"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "GB",
+      "continent": "Europe"
+    },
+    {
+      "id": "andalusia",
+      "name": "Andalusia",
+      "country": "Spain",
+      "country_flag": "🇪🇸",
+      "region": "Andalusia",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "💃",
+      "coordinates": {
+        "lat": 37.3886,
+        "lng": -5.9823
+      },
+      "street_view": {
+        "lat": 37.3886,
+        "lng": -5.9823,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Andalusia",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Real Alcázar of Seville",
+          "wikipedia_slug": "Alcázar_of_Seville"
+        },
+        {
+          "name": "The Alhambra",
+          "wikipedia_slug": "Alhambra"
+        },
+        {
+          "name": "Mezquita of Córdoba",
+          "wikipedia_slug": "Mosque–Cathedral_of_Córdoba"
+        },
+        {
+          "name": "Cádiz",
+          "wikipedia_slug": "Cádiz"
+        },
+        {
+          "name": "Jerez de la Frontera",
+          "wikipedia_slug": "Jerez_de_la_Frontera"
+        },
+        {
+          "name": "Sierra Nevada",
+          "wikipedia_slug": "Sierra_Nevada_(Spain)"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "ES",
+      "continent": "Europe"
+    },
+    {
+      "id": "black-forest",
+      "name": "Black Forest",
+      "country": "Germany",
+      "country_flag": "🇩🇪",
+      "region": "Baden-Württemberg",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🌲",
+      "coordinates": {
+        "lat": 48.0,
+        "lng": 8.2
+      },
+      "street_view": {
+        "lat": 48.0,
+        "lng": 8.2,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Black_Forest",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Freiburg im Breisgau",
+          "wikipedia_slug": "Freiburg_im_Breisgau"
+        },
+        {
+          "name": "Freiburg Minster",
+          "wikipedia_slug": "Freiburg_Minster"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "DE",
+      "continent": "Europe"
+    },
+    {
+      "id": "ghent",
+      "name": "Ghent",
+      "country": "Belgium",
+      "country_flag": "🇧🇪",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🏰",
+      "coordinates": {
+        "lat": 51.0543,
+        "lng": 3.7174
+      },
+      "street_view": {
+        "lat": 51.0543,
+        "lng": 3.7174,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Ghent",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Gravensteen",
+          "wikipedia_slug": "Gravensteen"
+        },
+        {
+          "name": "St. Bavo's Cathedral",
+          "wikipedia_slug": "Saint_Bavo's_Cathedral,_Ghent"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "BE",
+      "continent": "Europe"
+    },
+    {
+      "id": "zaanse-schans",
+      "name": "Zaanse Schans",
+      "country": "Netherlands",
+      "country_flag": "🇳🇱",
+      "region": "",
+      "type": "village",
+      "tag": "hidden",
+      "emoji": "🌬️",
+      "coordinates": {
+        "lat": 52.4742,
+        "lng": 4.817
+      },
+      "street_view": {
+        "lat": 52.4742,
+        "lng": 4.817,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Zaanse_Schans",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Historic Windmills",
+          "wikipedia_slug": "Windmills_of_Zaanse_Schans"
+        },
+        {
+          "name": "Wooden Houses",
+          "wikipedia_slug": "Zaanse_Schans"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "NL",
+      "continent": "Europe"
+    },
+    {
+      "id": "innsbruck",
+      "name": "Innsbruck",
+      "country": "Austria",
+      "country_flag": "🇦🇹",
+      "region": "Tyrol",
+      "type": "mountain",
+      "tag": "famous",
+      "emoji": "🏔️",
+      "coordinates": {
+        "lat": 47.2692,
+        "lng": 11.4041
+      },
+      "street_view": {
+        "lat": 47.2692,
+        "lng": 11.4041,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Innsbruck",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "The Golden Roof",
+          "wikipedia_slug": "Golden_Roof"
+        },
+        {
+          "name": "Imperial Palace",
+          "wikipedia_slug": "Hofburg,_Innsbruck"
+        },
+        {
+          "name": "Nordkette / Austrian Alps",
+          "wikipedia_slug": "Nordkette"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "AT",
+      "continent": "Europe"
+    },
+    {
+      "id": "rothenburg",
+      "name": "Rothenburg ob der Tauber",
+      "country": "Germany",
+      "country_flag": "🇩🇪",
+      "region": "Bavaria",
+      "type": "village",
+      "tag": "famous",
+      "emoji": "🧱",
+      "coordinates": {
+        "lat": 49.3755,
+        "lng": 10.1869
+      },
+      "street_view": {
+        "lat": 49.3755,
+        "lng": 10.1869,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Rothenburg_ob_der_Tauber",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "The Romantic Road",
+          "wikipedia_slug": "Romantic_Road"
+        },
+        {
+          "name": "Medieval Town Walls",
+          "wikipedia_slug": "Rothenburg_ob_der_Tauber"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "DE",
+      "continent": "Europe"
+    },
+    {
+      "id": "italian-lakes",
+      "name": "Italian Lake District",
+      "country": "Italy",
+      "country_flag": "🇮🇹",
+      "region": "Lombardy",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🚤",
+      "coordinates": {
+        "lat": 45.98,
+        "lng": 9.26
+      },
+      "street_view": {
+        "lat": 45.98,
+        "lng": 9.26,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Italian_Lakes",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Lake Como",
+          "wikipedia_slug": "Lake_Como"
+        },
+        {
+          "name": "Lake Garda",
+          "wikipedia_slug": "Lake_Garda"
+        },
+        {
+          "name": "Lake Maggiore",
+          "wikipedia_slug": "Lake_Maggiore"
+        },
+        {
+          "name": "Borromean Islands",
+          "wikipedia_slug": "Borromean_Islands"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "IT",
+      "continent": "Europe"
+    },
+    {
+      "id": "bordeaux",
+      "name": "Bordeaux",
+      "country": "France",
+      "country_flag": "🇫🇷",
+      "region": "Nouvelle-Aquitaine",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🍷",
+      "coordinates": {
+        "lat": 44.8378,
+        "lng": -0.5792
+      },
+      "street_view": {
+        "lat": 44.8378,
+        "lng": -0.5792,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Bordeaux",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Cité du Vin",
+          "wikipedia_slug": "Cité_du_Vin"
+        },
+        {
+          "name": "Place de la Bourse",
+          "wikipedia_slug": "Place_de_la_Bourse"
+        },
+        {
+          "name": "Banks of the Garonne",
+          "wikipedia_slug": "Garonne"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "FR",
+      "continent": "Europe"
+    },
+    {
+      "id": "malta",
+      "name": "Malta",
+      "country": "Malta",
+      "country_flag": "🇲🇹",
+      "region": "",
+      "type": "island",
+      "tag": "famous",
+      "emoji": "🛡️",
+      "coordinates": {
+        "lat": 35.8989,
+        "lng": 14.5146
+      },
+      "street_view": {
+        "lat": 35.8989,
+        "lng": 14.5146,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Valletta",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "St. John's Co-Cathedral",
+          "wikipedia_slug": "St_John's_Co-Cathedral"
+        },
+        {
+          "name": "Grand Master's Palace",
+          "wikipedia_slug": "Grandmaster's_Palace,_Valletta"
+        },
+        {
+          "name": "Gozo",
+          "wikipedia_slug": "Gozo"
+        },
+        {
+          "name": "Comino / Blue Lagoon",
+          "wikipedia_slug": "Comino"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "MT",
+      "continent": "Europe"
+    },
+    {
+      "id": "iceland",
+      "name": "Iceland",
+      "country": "Iceland",
+      "country_flag": "🇮🇸",
+      "region": "",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🌋",
+      "coordinates": {
+        "lat": 64.1466,
+        "lng": -21.9426
+      },
+      "street_view": {
+        "lat": 64.1466,
+        "lng": -21.9426,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Iceland",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Thingvellir National Park",
+          "wikipedia_slug": "Þingvellir"
+        },
+        {
+          "name": "Reykjavík",
+          "wikipedia_slug": "Reykjavík"
+        },
+        {
+          "name": "Golden Circle",
+          "wikipedia_slug": "Golden_Circle_(Iceland)"
+        }
+      ],
+      "blurb": "A young island straddling two tectonic plates, Iceland is a landscape of volcanoes, glaciers, geysers, and black-sand coasts. Nearly all its energy comes from the geothermal forces simmering beneath it.",
+      "fun_fact": "At Þingvellir you can walk — or dive — directly between the North American and Eurasian tectonic plates as they pull apart.",
+      "hidden_gem_tip": null,
+      "country_code": "IS",
+      "continent": "Europe"
+    },
+    {
+      "id": "cappadocia",
+      "name": "Cappadocia",
+      "country": "Turkey",
+      "country_flag": "🇹🇷",
+      "region": "",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🎈",
+      "coordinates": {
+        "lat": 38.6431,
+        "lng": 34.8289
+      },
+      "street_view": {
+        "lat": 38.6431,
+        "lng": 34.8289,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Cappadocia",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Fairy Chimneys",
+          "wikipedia_slug": "Fairy_chimney"
+        },
+        {
+          "name": "Göreme",
+          "wikipedia_slug": "Göreme"
+        },
+        {
+          "name": "Derinkuyu Underground City",
+          "wikipedia_slug": "Derinkuyu_underground_city"
+        }
+      ],
+      "blurb": "Soft volcanic rock eroded into a surreal landscape of 'fairy chimneys', honeycombed by cave dwellings and entire underground cities. At dawn the sky fills with hundreds of hot-air balloons.",
+      "fun_fact": "The underground city of Derinkuyu could shelter up to 20,000 people, with stables, churches, and wineries dug as deep as 85 metres.",
+      "hidden_gem_tip": null,
+      "country_code": "TR",
+      "continent": "Asia"
+    },
+    {
+      "id": "azores",
+      "name": "Azores",
+      "country": "Portugal",
+      "country_flag": "🇵🇹",
+      "region": "Azores",
+      "type": "island",
+      "tag": "hidden",
+      "emoji": "♨️",
+      "coordinates": {
+        "lat": 37.7412,
+        "lng": -25.6756
+      },
+      "street_view": {
+        "lat": 37.7412,
+        "lng": -25.6756,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Azores",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "São Miguel Island",
+          "wikipedia_slug": "São_Miguel_Island"
+        },
+        {
+          "name": "Furnas Hot Springs",
+          "wikipedia_slug": "Furnas"
+        },
+        {
+          "name": "Angra do Heroísmo",
+          "wikipedia_slug": "Angra_do_Heroísmo"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "PT",
+      "continent": "Europe"
+    },
+    {
+      "id": "costa-del-sol",
+      "name": "Costa del Sol",
+      "country": "Spain",
+      "country_flag": "🇪🇸",
+      "region": "Andalusia",
+      "type": "coastal",
+      "tag": "famous",
+      "emoji": "🏖️",
+      "coordinates": {
+        "lat": 36.7213,
+        "lng": -4.4214
+      },
+      "street_view": {
+        "lat": 36.7213,
+        "lng": -4.4214,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Costa_del_Sol",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Marbella",
+          "wikipedia_slug": "Marbella"
+        },
+        {
+          "name": "Torremolinos",
+          "wikipedia_slug": "Torremolinos"
+        },
+        {
+          "name": "Fuengirola",
+          "wikipedia_slug": "Fuengirola"
+        },
+        {
+          "name": "Málaga",
+          "wikipedia_slug": "Málaga"
+        },
+        {
+          "name": "Picasso Museum",
+          "wikipedia_slug": "Museo_Picasso_Málaga"
+        },
+        {
+          "name": "Gibralfaro Castle",
+          "wikipedia_slug": "Castle_of_Gibralfaro"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "ES",
+      "continent": "Europe"
+    },
+    {
+      "id": "neuschwanstein",
+      "name": "Neuschwanstein Castle",
+      "country": "Germany",
+      "country_flag": "🇩🇪",
+      "region": "Bavaria",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🏰",
+      "coordinates": {
+        "lat": 47.5576,
+        "lng": 10.7498
+      },
+      "street_view": {
+        "lat": 47.5576,
+        "lng": 10.7498,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Neuschwanstein_Castle",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Bavarian Alps",
+          "wikipedia_slug": "Bavarian_Alps"
+        },
+        {
+          "name": "Füssen",
+          "wikipedia_slug": "Füssen"
+        },
+        {
+          "name": "Hohenschwangau",
+          "wikipedia_slug": "Hohenschwangau_Castle"
+        }
+      ],
+      "blurb": "The dream castle of 'Mad' King Ludwig II rises from a forested Bavarian crag like something from a storybook. Built in the 19th century in homage to Wagner's operas, it inspired Disney's Sleeping Beauty Castle.",
+      "fun_fact": "Ludwig II spent only 11 nights in Neuschwanstein before his mysterious death — and the castle was opened to paying visitors just weeks later.",
+      "hidden_gem_tip": null,
+      "country_code": "DE",
+      "continent": "Europe"
+    },
+    {
+      "id": "stockholm",
+      "name": "Stockholm",
+      "country": "Sweden",
+      "country_flag": "🇸🇪",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "👑",
+      "coordinates": {
+        "lat": 59.3293,
+        "lng": 18.0686
+      },
+      "street_view": {
+        "lat": 59.3293,
+        "lng": 18.0686,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Stockholm",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Gamla Stan (Old Town)",
+          "wikipedia_slug": "Gamla_stan"
+        },
+        {
+          "name": "The Royal Palace",
+          "wikipedia_slug": "Stockholm_Palace"
+        },
+        {
+          "name": "Storkyrkan Cathedral",
+          "wikipedia_slug": "Storkyrkan"
+        },
+        {
+          "name": "Djurgården",
+          "wikipedia_slug": "Djurgården"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "walk": "mUWUuSbqXuE",
+      "ambient": {
+        "yt": "xDHGMlYSRME",
+        "start": 20
+      },
+      "country_code": "SE",
+      "continent": "Europe"
+    },
+    {
+      "id": "strasbourg",
+      "name": "Strasbourg",
+      "country": "France",
+      "country_flag": "🇫🇷",
+      "region": "Grand Est",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "⛪",
+      "coordinates": {
+        "lat": 48.5734,
+        "lng": 7.7521
+      },
+      "street_view": {
+        "lat": 48.5734,
+        "lng": 7.7521,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Strasbourg",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "La Petite France",
+          "wikipedia_slug": "Petite_France,_Strasbourg"
+        },
+        {
+          "name": "Strasbourg Cathedral",
+          "wikipedia_slug": "Strasbourg_Cathedral"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "FR",
+      "continent": "Europe"
+    },
+    {
+      "id": "swiss-alps",
+      "name": "Swiss Alps",
+      "country": "Switzerland",
+      "country_flag": "🇨🇭",
+      "region": "",
+      "type": "mountain",
+      "tag": "famous",
+      "emoji": "🏔️",
+      "coordinates": {
+        "lat": 46.0207,
+        "lng": 7.7491
+      },
+      "street_view": {
+        "lat": 46.0207,
+        "lng": 7.7491,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Swiss_Alps",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "The Matterhorn",
+          "wikipedia_slug": "Matterhorn"
+        },
+        {
+          "name": "Zermatt",
+          "wikipedia_slug": "Zermatt"
+        },
+        {
+          "name": "Interlaken",
+          "wikipedia_slug": "Interlaken"
+        },
+        {
+          "name": "Lake Thun",
+          "wikipedia_slug": "Lake_Thun"
+        },
+        {
+          "name": "Lake Brienz",
+          "wikipedia_slug": "Lake_Brienz"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "CH",
+      "continent": "Europe"
+    },
+    {
+      "id": "lapland",
+      "name": "Lapland",
+      "country": "Finland",
+      "country_flag": "🇫🇮",
+      "region": "Lapland",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🦌",
+      "coordinates": {
+        "lat": 68.0,
+        "lng": 24.0
+      },
+      "street_view": {
+        "lat": 68.0,
+        "lng": 24.0,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Lapland_(Finland)",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Northern Lights",
+          "wikipedia_slug": "Aurora"
+        },
+        {
+          "name": "Sámi Culture",
+          "wikipedia_slug": "Sámi_people"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "FI",
+      "continent": "Europe"
+    },
+    {
+      "id": "hamburg",
+      "name": "Hamburg",
+      "country": "Germany",
+      "country_flag": "🇩🇪",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "⚓",
+      "coordinates": {
+        "lat": 53.5511,
+        "lng": 9.9937
+      },
+      "street_view": {
+        "lat": 53.5511,
+        "lng": 9.9937,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Hamburg",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Speicherstadt",
+          "wikipedia_slug": "Speicherstadt"
+        },
+        {
+          "name": "Elbphilharmonie",
+          "wikipedia_slug": "Elbphilharmonie"
+        },
+        {
+          "name": "Reeperbahn",
+          "wikipedia_slug": "Reeperbahn"
+        },
+        {
+          "name": "The Elbe",
+          "wikipedia_slug": "Elbe"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "DE",
+      "continent": "Europe"
+    },
+    {
+      "id": "copenhagen",
+      "name": "Copenhagen",
+      "country": "Denmark",
+      "country_flag": "🇩🇰",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🧜",
+      "coordinates": {
+        "lat": 55.6761,
+        "lng": 12.5683
+      },
+      "street_view": {
+        "lat": 55.6761,
+        "lng": 12.5683,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Copenhagen",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Rosenborg Castle",
+          "wikipedia_slug": "Rosenborg_Castle"
+        },
+        {
+          "name": "The Little Mermaid",
+          "wikipedia_slug": "The_Little_Mermaid_(statue)"
+        },
+        {
+          "name": "Nyhavn",
+          "wikipedia_slug": "Nyhavn"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "walk": "FMubfLKPSQM",
+      "country_code": "DK",
+      "continent": "Europe"
+    },
+    {
+      "id": "tirana",
+      "name": "Albania & Tirana",
+      "country": "Albania",
+      "country_flag": "🇦🇱",
+      "region": "",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🇦🇱",
+      "coordinates": {
+        "lat": 41.3275,
+        "lng": 19.8187
+      },
+      "street_view": {
+        "lat": 41.3275,
+        "lng": 19.8187,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Tirana",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Skanderbeg Square",
+          "wikipedia_slug": "Skanderbeg_Square"
+        },
+        {
+          "name": "Butrint",
+          "wikipedia_slug": "Butrint"
+        },
+        {
+          "name": "Albanian Riviera",
+          "wikipedia_slug": "Albanian_Riviera"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "AL",
+      "continent": "Europe"
+    },
+    {
+      "id": "krakow",
+      "name": "Kraków",
+      "country": "Poland",
+      "country_flag": "🇵🇱",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🐉",
+      "coordinates": {
+        "lat": 50.0647,
+        "lng": 19.945
+      },
+      "street_view": {
+        "lat": 50.0647,
+        "lng": 19.945,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Kraków",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Wawel Castle",
+          "wikipedia_slug": "Wawel_Castle"
+        },
+        {
+          "name": "Main Market Square",
+          "wikipedia_slug": "Main_Square,_Kraków"
+        },
+        {
+          "name": "St. Mary's Basilica",
+          "wikipedia_slug": "St._Mary's_Basilica,_Kraków"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "walk": "NHiYP-RwujI",
+      "ambient": {
+        "yt": "he-VxB01QKw",
+        "start": 4
+      },
+      "country_code": "PL",
+      "continent": "Europe"
+    },
+    {
+      "id": "edinburgh",
+      "name": "Edinburgh",
+      "country": "United Kingdom",
+      "country_flag": "🇬🇧",
+      "region": "Scotland",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🏰",
+      "coordinates": {
+        "lat": 55.9533,
+        "lng": -3.1883
+      },
+      "street_view": {
+        "lat": 55.9533,
+        "lng": -3.1883,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Edinburgh",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Edinburgh Castle",
+          "wikipedia_slug": "Edinburgh_Castle"
+        },
+        {
+          "name": "Arthur's Seat",
+          "wikipedia_slug": "Arthur's_Seat"
+        },
+        {
+          "name": "The Royal Mile",
+          "wikipedia_slug": "Royal_Mile"
+        },
+        {
+          "name": "Palace of Holyroodhouse",
+          "wikipedia_slug": "Holyrood_Palace"
+        }
+      ],
+      "blurb": "Scotland's dramatic capital rises in tiers from a medieval Old Town to an elegant Georgian New Town, all watched over by a castle on an extinct volcano. In August it becomes the largest arts festival on Earth.",
+      "fun_fact": "Edinburgh was the first city in the world to have its own fire brigade — and its Old and New Towns are jointly a UNESCO World Heritage Site.",
+      "hidden_gem_tip": null,
+      "walk": "JYyPV9ZGV2I",
+      "country_code": "GB",
+      "continent": "Europe"
+    },
+    {
+      "id": "dolomites",
+      "name": "Dolomites",
+      "country": "Italy",
+      "country_flag": "🇮🇹",
+      "region": "South Tyrol",
+      "type": "mountain",
+      "tag": "famous",
+      "emoji": "⛰️",
+      "coordinates": {
+        "lat": 46.4102,
+        "lng": 11.844
+      },
+      "street_view": {
+        "lat": 46.4102,
+        "lng": 11.844,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Dolomites",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Tre Cime di Lavaredo",
+          "wikipedia_slug": "Tre_Cime_di_Lavaredo"
+        },
+        {
+          "name": "Alpe di Siusi",
+          "wikipedia_slug": "Alpe_di_Siusi"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "IT",
+      "continent": "Europe"
+    },
+    {
+      "id": "madeira",
+      "name": "Madeira",
+      "country": "Portugal",
+      "country_flag": "🇵🇹",
+      "region": "Madeira",
+      "type": "island",
+      "tag": "hidden",
+      "emoji": "🌺",
+      "coordinates": {
+        "lat": 32.7607,
+        "lng": -16.9595
+      },
+      "street_view": {
+        "lat": 32.7607,
+        "lng": -16.9595,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Madeira",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Funchal",
+          "wikipedia_slug": "Funchal"
+        },
+        {
+          "name": "Laurisilva Forest",
+          "wikipedia_slug": "Laurisilva_of_Madeira"
+        },
+        {
+          "name": "The Levadas",
+          "wikipedia_slug": "Levada"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "PT",
+      "continent": "Europe"
+    },
+    {
+      "id": "rome",
+      "name": "Rome",
+      "country": "Italy",
+      "country_flag": "🇮🇹",
+      "region": "Lazio",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🏛️",
+      "coordinates": {
+        "lat": 41.9028,
+        "lng": 12.4964
+      },
+      "street_view": {
+        "lat": 41.9028,
+        "lng": 12.4964,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Rome",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "The Colosseum",
+          "wikipedia_slug": "Colosseum"
+        },
+        {
+          "name": "Roman Forum",
+          "wikipedia_slug": "Roman_Forum"
+        },
+        {
+          "name": "Piazza Navona",
+          "wikipedia_slug": "Piazza_Navona"
+        },
+        {
+          "name": "Trevi Fountain",
+          "wikipedia_slug": "Trevi_Fountain"
+        },
+        {
+          "name": "St. Peter's Basilica",
+          "wikipedia_slug": "St._Peter's_Basilica"
+        },
+        {
+          "name": "Sistine Chapel",
+          "wikipedia_slug": "Sistine_Chapel"
+        },
+        {
+          "name": "Vatican Museums",
+          "wikipedia_slug": "Vatican_Museums"
+        }
+      ],
+      "blurb": "The Eternal City layers nearly three thousand years of history in a single skyline — emperors, popes, and Vespas all sharing the same cobblestones. From the Colosseum to the Vatican, no other capital wears its past so casually.",
+      "fun_fact": "Romans still throw an estimated €1.5 million in coins into the Trevi Fountain every year — all of it collected and donated to charity.",
+      "hidden_gem_tip": null,
+      "walk": "djFJaNsVWNY",
+      "webcam": "89d3tEaqImM",
+      "country_code": "IT",
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Colosseum",
+          "yt": "VtzDzVGSMLU",
+          "start": 204
+        },
+        {
+          "name": "Pantheon",
+          "yt": "tsnk3ruKUsY",
+          "start": 1
+        },
+        {
+          "name": "St Peter's Basilica",
+          "yt": "2M7Avt39oF4",
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "amsterdam",
+      "name": "Amsterdam",
+      "country": "Netherlands",
+      "country_flag": "🇳🇱",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🚲",
+      "coordinates": {
+        "lat": 52.3676,
+        "lng": 4.9041
+      },
+      "street_view": {
+        "lat": 52.3676,
+        "lng": 4.9041,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Amsterdam",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Historic Canals",
+          "wikipedia_slug": "Canals_of_Amsterdam"
+        },
+        {
+          "name": "Van Gogh Museum",
+          "wikipedia_slug": "Van_Gogh_Museum"
+        },
+        {
+          "name": "Rijksmuseum",
+          "wikipedia_slug": "Rijksmuseum"
+        },
+        {
+          "name": "Anne Frank House",
+          "wikipedia_slug": "Anne_Frank_House"
+        },
+        {
+          "name": "Bloemenmarkt",
+          "wikipedia_slug": "Bloemenmarkt"
+        }
+      ],
+      "blurb": "Built on a web of 17th-century canals, Amsterdam is a city of gabled merchant houses, world-class art, and more bicycles than people. The compact centre is a UNESCO World Heritage Site you can cross entirely on two wheels.",
+      "fun_fact": "Amsterdam has roughly 165 canals spanning over 100 kilometres — and an estimated 900,000 bicycles, far outnumbering its residents.",
+      "hidden_gem_tip": null,
+      "walk": "uL6z9v7Cf9Y",
+      "webcam": "1phWWCgzXgM",
+      "country_code": "NL",
+      "continent": "Europe"
+    },
+    {
+      "id": "french-riviera",
+      "name": "French Riviera",
+      "country": "France",
+      "country_flag": "🇫🇷",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "type": "coastal",
+      "tag": "famous",
+      "emoji": "🛥️",
+      "coordinates": {
+        "lat": 43.7102,
+        "lng": 7.262
+      },
+      "street_view": {
+        "lat": 43.7102,
+        "lng": 7.262,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "French_Riviera",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Nice",
+          "wikipedia_slug": "Nice"
+        },
+        {
+          "name": "Cannes",
+          "wikipedia_slug": "Cannes"
+        },
+        {
+          "name": "Saint-Tropez",
+          "wikipedia_slug": "Saint-Tropez"
+        },
+        {
+          "name": "Monaco",
+          "wikipedia_slug": "Monaco"
+        },
+        {
+          "name": "Menton",
+          "wikipedia_slug": "Menton"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "FR",
+      "continent": "Europe"
+    },
+    {
+      "id": "salzburg",
+      "name": "Salzburg",
+      "country": "Austria",
+      "country_flag": "🇦🇹",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🎼",
+      "coordinates": {
+        "lat": 47.8095,
+        "lng": 13.055
+      },
+      "street_view": {
+        "lat": 47.8095,
+        "lng": 13.055,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Salzburg",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Hohensalzburg Fortress",
+          "wikipedia_slug": "Hohensalzburg_Fortress"
+        },
+        {
+          "name": "Getreidegasse",
+          "wikipedia_slug": "Getreidegasse"
+        },
+        {
+          "name": "Mirabell Gardens",
+          "wikipedia_slug": "Mirabell_Palace"
+        },
+        {
+          "name": "Mozart's Birthplace",
+          "wikipedia_slug": "Mozart's_Birthplace"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "AT",
+      "continent": "Europe"
+    },
+    {
+      "id": "sintra",
+      "name": "Sintra",
+      "country": "Portugal",
+      "country_flag": "🇵🇹",
+      "region": "Lisbon Region",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🏰",
+      "coordinates": {
+        "lat": 38.7979,
+        "lng": -9.3907
+      },
+      "street_view": {
+        "lat": 38.7979,
+        "lng": -9.3907,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Sintra",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Pena National Palace",
+          "wikipedia_slug": "Pena_Palace"
+        },
+        {
+          "name": "Moorish Castle",
+          "wikipedia_slug": "Castle_of_the_Moors"
+        },
+        {
+          "name": "Quinta da Regaleira",
+          "wikipedia_slug": "Quinta_da_Regaleira"
+        }
+      ],
+      "blurb": "A misty hilltown of palaces, gardens, and fog-wrapped forests just outside Lisbon, Sintra was the summer retreat of Portuguese royalty. The candy-coloured Pena Palace is its crown jewel.",
+      "fun_fact": "Quinta da Regaleira's 'Initiation Well' is an inverted underground tower with a spiral staircase descending 27 metres into the earth.",
+      "hidden_gem_tip": null,
+      "country_code": "PT",
+      "continent": "Europe"
+    },
+    {
+      "id": "toledo",
+      "name": "Toledo",
+      "country": "Spain",
+      "country_flag": "🇪🇸",
+      "region": "Castile-La Mancha",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "⚔️",
+      "coordinates": {
+        "lat": 39.8628,
+        "lng": -4.0273
+      },
+      "street_view": {
+        "lat": 39.8628,
+        "lng": -4.0273,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Toledo,_Spain",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Toledo Cathedral",
+          "wikipedia_slug": "Toledo_Cathedral"
+        },
+        {
+          "name": "El Greco Museum",
+          "wikipedia_slug": "El_Greco_Museum"
+        },
+        {
+          "name": "Tagus River",
+          "wikipedia_slug": "Tagus"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "ES",
+      "continent": "Europe"
+    },
+    {
+      "id": "oxford",
+      "name": "Oxford",
+      "country": "United Kingdom",
+      "country_flag": "🇬🇧",
+      "region": "England",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "📚",
+      "coordinates": {
+        "lat": 51.752,
+        "lng": -1.2577
+      },
+      "street_view": {
+        "lat": 51.752,
+        "lng": -1.2577,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Oxford",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Bodleian Library",
+          "wikipedia_slug": "Bodleian_Library"
+        },
+        {
+          "name": "Radcliffe Camera",
+          "wikipedia_slug": "Radcliffe_Camera"
+        },
+        {
+          "name": "Christ Church College",
+          "wikipedia_slug": "Christ_Church,_Oxford"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "GB",
+      "continent": "Europe"
+    },
+    {
+      "id": "plitvice",
+      "name": "Plitvice Lakes National Park",
+      "country": "Croatia",
+      "country_flag": "🇭🇷",
+      "region": "",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "💧",
+      "coordinates": {
+        "lat": 44.8654,
+        "lng": 15.582
+      },
+      "street_view": {
+        "lat": 44.8654,
+        "lng": 15.582,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Plitvice_Lakes_National_Park",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "The Terraced Lakes",
+          "wikipedia_slug": "Plitvice_Lakes_National_Park"
+        },
+        {
+          "name": "Veliki Slap Waterfall",
+          "wikipedia_slug": "Plitvice_Lakes_National_Park"
+        }
+      ],
+      "blurb": "Sixteen terraced lakes spill into one another through a cascade of waterfalls, their water shifting from turquoise to emerald with the light. Wooden walkways thread directly across the water.",
+      "fun_fact": "The travertine barriers that create Plitvice's waterfalls are still growing about a centimetre each year, built by mosses and bacteria.",
+      "hidden_gem_tip": null,
+      "country_code": "HR",
+      "continent": "Europe"
+    },
+    {
+      "id": "wild-atlantic-way",
+      "name": "Wild Atlantic Way",
+      "country": "Ireland",
+      "country_flag": "🇮🇪",
+      "region": "",
+      "type": "coastal",
+      "tag": "famous",
+      "emoji": "🌊",
+      "coordinates": {
+        "lat": 53.0,
+        "lng": -9.5
+      },
+      "street_view": {
+        "lat": 53.0,
+        "lng": -9.5,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Wild_Atlantic_Way",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Cliffs of Moher",
+          "wikipedia_slug": "Cliffs_of_Moher"
+        },
+        {
+          "name": "Connemara",
+          "wikipedia_slug": "Connemara"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "IE",
+      "continent": "Europe"
+    },
+    {
+      "id": "bern",
+      "name": "Bern",
+      "country": "Switzerland",
+      "country_flag": "🇨🇭",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🐻",
+      "coordinates": {
+        "lat": 46.948,
+        "lng": 7.4474
+      },
+      "street_view": {
+        "lat": 46.948,
+        "lng": 7.4474,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Bern",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Medieval Arcades",
+          "wikipedia_slug": "Old_City_(Bern)"
+        },
+        {
+          "name": "Zytglogge",
+          "wikipedia_slug": "Zytglogge"
+        },
+        {
+          "name": "Aare River",
+          "wikipedia_slug": "Aare"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "CH",
+      "continent": "Europe"
+    },
+    {
+      "id": "leipzig",
+      "name": "Leipzig",
+      "country": "Germany",
+      "country_flag": "🇩🇪",
+      "region": "Saxony",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🎶",
+      "coordinates": {
+        "lat": 51.3397,
+        "lng": 12.3731
+      },
+      "street_view": {
+        "lat": 51.3397,
+        "lng": 12.3731,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Leipzig",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Old Town",
+          "wikipedia_slug": "Leipzig"
+        },
+        {
+          "name": "Monument to the Battle of the Nations",
+          "wikipedia_slug": "Monument_to_the_Battle_of_the_Nations"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "DE",
+      "continent": "Europe"
+    },
+    {
+      "id": "dubrovnik",
+      "name": "Dubrovnik",
+      "country": "Croatia",
+      "country_flag": "🇭🇷",
+      "region": "Dalmatia",
+      "type": "coastal",
+      "tag": "famous",
+      "emoji": "🛡️",
+      "coordinates": {
+        "lat": 42.6507,
+        "lng": 18.0944
+      },
+      "street_view": {
+        "lat": 42.6507,
+        "lng": 18.0944,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Dubrovnik",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Medieval City Walls",
+          "wikipedia_slug": "Walls_of_Dubrovnik"
+        },
+        {
+          "name": "Rector's Palace",
+          "wikipedia_slug": "Rector's_Palace,_Dubrovnik"
+        },
+        {
+          "name": "St. Blaise Church",
+          "wikipedia_slug": "Church_of_St._Blaise,_Dubrovnik"
+        },
+        {
+          "name": "Stradun",
+          "wikipedia_slug": "Stradun"
+        }
+      ],
+      "blurb": "Ringed by mighty stone walls dropping straight into the Adriatic, Dubrovnik was a wealthy independent republic for centuries. Its marble Stradun and terracotta rooftops have made it one of the Mediterranean's most photographed cities.",
+      "fun_fact": "The Republic of Ragusa, as Dubrovnik was known, abolished slavery in 1416 — centuries ahead of most of Europe.",
+      "hidden_gem_tip": null,
+      "walk": "RXka5H8F3Y0",
+      "country_code": "HR",
+      "continent": "Europe"
+    },
+    {
+      "id": "cyprus",
+      "name": "Cyprus",
+      "country": "Cyprus",
+      "country_flag": "🇨🇾",
+      "region": "Paphos",
+      "type": "island",
+      "tag": "famous",
+      "emoji": "🏺",
+      "coordinates": {
+        "lat": 34.7768,
+        "lng": 32.4245
+      },
+      "street_view": {
+        "lat": 34.7768,
+        "lng": 32.4245,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Paphos",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Paphos Archaeological Park",
+          "wikipedia_slug": "Paphos_Archaeological_Park"
+        },
+        {
+          "name": "Roman Mosaics",
+          "wikipedia_slug": "House_of_Dionysus"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "CY",
+      "continent": "Europe"
+    },
+    {
+      "id": "sicily",
+      "name": "Sicily",
+      "country": "Italy",
+      "country_flag": "🇮🇹",
+      "region": "Sicily",
+      "type": "island",
+      "tag": "famous",
+      "emoji": "🌋",
+      "coordinates": {
+        "lat": 37.599,
+        "lng": 14.0154
+      },
+      "street_view": {
+        "lat": 37.599,
+        "lng": 14.0154,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Sicily",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Palermo",
+          "wikipedia_slug": "Palermo"
+        },
+        {
+          "name": "Teatro Massimo",
+          "wikipedia_slug": "Teatro_Massimo"
+        },
+        {
+          "name": "Taormina",
+          "wikipedia_slug": "Taormina"
+        },
+        {
+          "name": "Mount Etna",
+          "wikipedia_slug": "Mount_Etna"
+        },
+        {
+          "name": "Cefalù",
+          "wikipedia_slug": "Cefalù"
+        },
+        {
+          "name": "Erice",
+          "wikipedia_slug": "Erice"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "IT",
+      "continent": "Europe"
+    },
+    {
+      "id": "hallstatt",
+      "name": "Hallstatt",
+      "country": "Austria",
+      "country_flag": "🇦🇹",
+      "region": "Upper Austria",
+      "type": "village",
+      "tag": "hidden",
+      "emoji": "🏞️",
+      "coordinates": {
+        "lat": 47.5622,
+        "lng": 13.6493
+      },
+      "street_view": {
+        "lat": 47.5622,
+        "lng": 13.6493,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Hallstatt",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Lake Hallstatt",
+          "wikipedia_slug": "Hallstätter_See"
+        },
+        {
+          "name": "Salzwelten Salt Mine",
+          "wikipedia_slug": "Salt_mine"
+        }
+      ],
+      "blurb": "Wedged between a glassy lake and steep alpine slopes, this tiny Austrian village looks almost too perfect to be real. Its salt mine is among the oldest in the world, worked continuously for some 7,000 years.",
+      "fun_fact": "Hallstatt is so iconic that a full-scale replica of the village was built in Guangdong, China.",
+      "hidden_gem_tip": null,
+      "country_code": "AT",
+      "continent": "Europe"
+    },
+    {
+      "id": "munich",
+      "name": "Munich",
+      "country": "Germany",
+      "country_flag": "🇩🇪",
+      "region": "Bavaria",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🍺",
+      "coordinates": {
+        "lat": 48.1351,
+        "lng": 11.582
+      },
+      "street_view": {
+        "lat": 48.1351,
+        "lng": 11.582,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Munich",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Marienplatz & Glockenspiel",
+          "wikipedia_slug": "Marienplatz"
+        },
+        {
+          "name": "The Residenz",
+          "wikipedia_slug": "Munich_Residenz"
+        },
+        {
+          "name": "Englischer Garten",
+          "wikipedia_slug": "Englischer_Garten"
+        },
+        {
+          "name": "BMW Museum",
+          "wikipedia_slug": "BMW_Museum"
+        },
+        {
+          "name": "Pinakothek der Moderne",
+          "wikipedia_slug": "Pinakothek_der_Moderne"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "walk": "aQXcwSA-ue4",
+      "country_code": "DE",
+      "continent": "Europe"
+    },
+    {
+      "id": "manchester",
+      "name": "Manchester",
+      "country": "United Kingdom",
+      "country_flag": "🇬🇧",
+      "region": "England",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "⚽",
+      "coordinates": {
+        "lat": 53.4808,
+        "lng": -2.2426
+      },
+      "street_view": {
+        "lat": 53.4808,
+        "lng": -2.2426,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Manchester",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Old Trafford",
+          "wikipedia_slug": "Old_Trafford"
+        },
+        {
+          "name": "Etihad Stadium",
+          "wikipedia_slug": "City_of_Manchester_Stadium"
+        },
+        {
+          "name": "The Northern Quarter",
+          "wikipedia_slug": "Northern_Quarter"
+        },
+        {
+          "name": "Science and Industry Museum",
+          "wikipedia_slug": "Science_and_Industry_Museum"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "GB",
+      "continent": "Europe"
+    },
+    {
+      "id": "provence",
+      "name": "Provence",
+      "country": "France",
+      "country_flag": "🇫🇷",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "💜",
+      "coordinates": {
+        "lat": 43.9,
+        "lng": 5.4
+      },
+      "street_view": {
+        "lat": 43.9,
+        "lng": 5.4,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Provence",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Lavender Fields",
+          "wikipedia_slug": "Lavandula"
+        },
+        {
+          "name": "Gordes",
+          "wikipedia_slug": "Gordes"
+        },
+        {
+          "name": "Sault",
+          "wikipedia_slug": "Sault,_Vaucluse"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "FR",
+      "continent": "Europe"
+    },
+    {
+      "id": "sighisoara",
+      "name": "Sighișoara",
+      "country": "Romania",
+      "country_flag": "🇷🇴",
+      "region": "Transylvania",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🧛",
+      "coordinates": {
+        "lat": 46.2197,
+        "lng": 24.7964
+      },
+      "street_view": {
+        "lat": 46.2197,
+        "lng": 24.7964,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Sighișoara",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "The Old Town",
+          "wikipedia_slug": "Sighișoara"
+        },
+        {
+          "name": "The Clock Tower",
+          "wikipedia_slug": "Clock_Tower,_Sighișoara"
+        },
+        {
+          "name": "Birthplace of Vlad the Impaler",
+          "wikipedia_slug": "Vlad_the_Impaler"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "RO",
+      "continent": "Europe"
+    },
+    {
+      "id": "geneva",
+      "name": "Geneva",
+      "country": "Switzerland",
+      "country_flag": "🇨🇭",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "⛲",
+      "coordinates": {
+        "lat": 46.2044,
+        "lng": 6.1432
+      },
+      "street_view": {
+        "lat": 46.2044,
+        "lng": 6.1432,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Geneva",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Lake Geneva",
+          "wikipedia_slug": "Lake_Geneva"
+        },
+        {
+          "name": "Jet d'Eau",
+          "wikipedia_slug": "Jet_d'Eau"
+        },
+        {
+          "name": "Jura Mountains",
+          "wikipedia_slug": "Jura_Mountains"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "CH",
+      "continent": "Europe"
+    },
+    {
+      "id": "athens",
+      "name": "Athens",
+      "country": "Greece",
+      "country_flag": "🇬🇷",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🏛️",
+      "coordinates": {
+        "lat": 37.9838,
+        "lng": 23.7275
+      },
+      "street_view": {
+        "lat": 37.9838,
+        "lng": 23.7275,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Athens",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "The Acropolis",
+          "wikipedia_slug": "Acropolis_of_Athens"
+        },
+        {
+          "name": "The Parthenon",
+          "wikipedia_slug": "Parthenon"
+        },
+        {
+          "name": "Plaka",
+          "wikipedia_slug": "Plaka"
+        },
+        {
+          "name": "Monastiraki",
+          "wikipedia_slug": "Monastiraki"
+        }
+      ],
+      "blurb": "The birthplace of democracy and Western philosophy, Athens has been continuously inhabited for over 3,400 years. The Parthenon still crowns the Acropolis above a sprawling, sun-bleached modern capital.",
+      "fun_fact": "The Parthenon was built without mortar and uses subtle curves — its columns lean slightly inward — to correct optical illusions and appear perfectly straight.",
+      "hidden_gem_tip": null,
+      "walk": "n_hx_rQQ6sw",
+      "country_code": "GR",
+      "continent": "Europe"
+    },
+    {
+      "id": "budapest",
+      "name": "Budapest",
+      "country": "Hungary",
+      "country_flag": "🇭🇺",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "♨️",
+      "coordinates": {
+        "lat": 47.4979,
+        "lng": 19.0402
+      },
+      "street_view": {
+        "lat": 47.4979,
+        "lng": 19.0402,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Budapest",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Hungarian Parliament",
+          "wikipedia_slug": "Hungarian_Parliament_Building"
+        },
+        {
+          "name": "Buda Castle",
+          "wikipedia_slug": "Buda_Castle"
+        },
+        {
+          "name": "Széchenyi Thermal Bath",
+          "wikipedia_slug": "Széchenyi_thermal_bath"
+        },
+        {
+          "name": "Chain Bridge",
+          "wikipedia_slug": "Széchenyi_Chain_Bridge"
+        },
+        {
+          "name": "The Ruin Pubs",
+          "wikipedia_slug": "Ruin_pub"
+        }
+      ],
+      "blurb": "Two cities — hilly Buda and flat Pest — face each other across the Danube, stitched together by grand bridges. Thermal springs feed ornate bathhouses, and crumbling courtyards have become legendary 'ruin pubs'.",
+      "fun_fact": "Budapest sits on over 100 thermal springs and is the only capital city in the world classified as a spa town.",
+      "hidden_gem_tip": null,
+      "walk": "XG1mFLD3zr8",
+      "country_code": "HU",
+      "continent": "Europe"
+    },
+    {
+      "id": "mont-saint-michel",
+      "name": "Mont Saint-Michel",
+      "country": "France",
+      "country_flag": "🇫🇷",
+      "region": "Normandy",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "⛪",
+      "coordinates": {
+        "lat": 48.6361,
+        "lng": -1.5115
+      },
+      "street_view": {
+        "lat": 48.6361,
+        "lng": -1.5115,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Mont-Saint-Michel",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "The Island Abbey",
+          "wikipedia_slug": "Mont_Saint-Michel_Abbey"
+        },
+        {
+          "name": "Tidal Flats",
+          "wikipedia_slug": "Mont_Saint-Michel"
+        }
+      ],
+      "blurb": "A medieval abbey crowns this rocky tidal island off the Normandy coast, encircled by some of the fastest-moving tides in Europe. For centuries it was both a pilgrimage site and an impregnable fortress.",
+      "fun_fact": "The tide here can move as fast as a galloping horse, and once a day it surrounds the island completely.",
+      "hidden_gem_tip": null,
+      "country_code": "FR",
+      "continent": "Europe"
+    },
+    {
+      "id": "matera",
+      "name": "Matera",
+      "country": "Italy",
+      "country_flag": "🇮🇹",
+      "region": "Basilicata",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🪨",
+      "coordinates": {
+        "lat": 40.6664,
+        "lng": 16.6043
+      },
+      "street_view": {
+        "lat": 40.6664,
+        "lng": 16.6043,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Matera",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "The Sassi",
+          "wikipedia_slug": "Sassi_di_Matera"
+        },
+        {
+          "name": "Rock Churches",
+          "wikipedia_slug": "Rupestrian_Churches_of_Matera"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "IT",
+      "continent": "Europe"
+    },
+    {
+      "id": "helsinki",
+      "name": "Helsinki",
+      "country": "Finland",
+      "country_flag": "🇫🇮",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🎨",
+      "coordinates": {
+        "lat": 60.1699,
+        "lng": 24.9384
+      },
+      "street_view": {
+        "lat": 60.1699,
+        "lng": 24.9384,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Helsinki",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Kiasma",
+          "wikipedia_slug": "Kiasma"
+        },
+        {
+          "name": "Finlandia Hall",
+          "wikipedia_slug": "Finlandia_Hall"
+        },
+        {
+          "name": "Helsinki Cathedral",
+          "wikipedia_slug": "Helsinki_Cathedral"
+        },
+        {
+          "name": "Central Market",
+          "wikipedia_slug": "Market_Square,_Helsinki"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "FI",
+      "continent": "Europe"
+    },
+    {
+      "id": "bruges",
+      "name": "Bruges",
+      "country": "Belgium",
+      "country_flag": "🇧🇪",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🦢",
+      "coordinates": {
+        "lat": 51.2093,
+        "lng": 3.2247
+      },
+      "street_view": {
+        "lat": 51.2093,
+        "lng": 3.2247,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Bruges",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Historic Canals",
+          "wikipedia_slug": "Bruges"
+        },
+        {
+          "name": "Markt Square",
+          "wikipedia_slug": "Markt_(Bruges)"
+        },
+        {
+          "name": "Belfry of Bruges",
+          "wikipedia_slug": "Belfry_of_Bruges"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "walk": "oU9oqClOOBk",
+      "country_code": "BE",
+      "continent": "Europe"
+    },
+    {
+      "id": "catalonia",
+      "name": "Catalonia",
+      "country": "Spain",
+      "country_flag": "🇪🇸",
+      "region": "Catalonia",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "⛰️",
+      "coordinates": {
+        "lat": 41.6,
+        "lng": 1.8
+      },
+      "street_view": {
+        "lat": 41.6,
+        "lng": 1.8,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Catalonia",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Barcelona",
+          "wikipedia_slug": "Barcelona"
+        },
+        {
+          "name": "Girona",
+          "wikipedia_slug": "Girona"
+        },
+        {
+          "name": "Costa Brava",
+          "wikipedia_slug": "Costa_Brava"
+        },
+        {
+          "name": "Montserrat",
+          "wikipedia_slug": "Montserrat_(mountain)"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "ES",
+      "continent": "Europe"
+    },
+    {
+      "id": "london",
+      "name": "London",
+      "country": "United Kingdom",
+      "country_flag": "🇬🇧",
+      "region": "England",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🇬🇧",
+      "coordinates": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "street_view": {
+        "lat": 51.5074,
+        "lng": -0.1278,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "London",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Tower Bridge",
+          "wikipedia_slug": "Tower_Bridge"
+        },
+        {
+          "name": "Palace of Westminster",
+          "wikipedia_slug": "Palace_of_Westminster"
+        },
+        {
+          "name": "The Shard",
+          "wikipedia_slug": "The_Shard"
+        },
+        {
+          "name": "British Museum",
+          "wikipedia_slug": "British_Museum"
+        },
+        {
+          "name": "National Gallery",
+          "wikipedia_slug": "National_Gallery"
+        },
+        {
+          "name": "Hyde Park",
+          "wikipedia_slug": "Hyde_Park,_London"
+        },
+        {
+          "name": "Borough Market",
+          "wikipedia_slug": "Borough_Market"
+        }
+      ],
+      "blurb": "Two thousand years of history meet relentless reinvention along the Thames. Royal palaces, world-class museums (most of them free), and a theatre district that never sleeps make London one of the planet's great cities.",
+      "fun_fact": "The London Underground is the world's oldest underground railway, opened in 1863 — and 'Mind the Gap' has been echoing through it since 1968.",
+      "hidden_gem_tip": null,
+      "walk": "QmrezIhSHAg",
+      "ambient": {
+        "yt": "jSQHDY5D7Tc",
+        "start": 151
+      },
+      "country_code": "GB",
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Big Ben & London Eye",
+          "yt": "aBOsIVU9mms",
+          "start": 824
+        }
+      ],
+      "webcam": "M3EYAY2MftI"
+    },
+    {
+      "id": "bavarian-alps",
+      "name": "Bavarian Alps",
+      "country": "Germany",
+      "country_flag": "🇩🇪",
+      "region": "Bavaria",
+      "type": "mountain",
+      "tag": "famous",
+      "emoji": "🏔️",
+      "coordinates": {
+        "lat": 47.492,
+        "lng": 11.095
+      },
+      "street_view": {
+        "lat": 47.492,
+        "lng": 11.095,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Bavarian_Alps",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Zugspitze",
+          "wikipedia_slug": "Zugspitze"
+        },
+        {
+          "name": "Garmisch-Partenkirchen",
+          "wikipedia_slug": "Garmisch-Partenkirchen"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "DE",
+      "continent": "Europe"
+    },
+    {
+      "id": "sardinia",
+      "name": "Sardinia",
+      "country": "Italy",
+      "country_flag": "🇮🇹",
+      "region": "Sardinia",
+      "type": "island",
+      "tag": "famous",
+      "emoji": "🏝️",
+      "coordinates": {
+        "lat": 40.1209,
+        "lng": 9.0129
+      },
+      "street_view": {
+        "lat": 40.1209,
+        "lng": 9.0129,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Sardinia",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Costa Smeralda",
+          "wikipedia_slug": "Costa_Smeralda"
+        },
+        {
+          "name": "Cala Luna",
+          "wikipedia_slug": "Cala_Luna"
+        },
+        {
+          "name": "La Pelosa",
+          "wikipedia_slug": "Stintino"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "IT",
+      "continent": "Europe"
+    },
+    {
+      "id": "sofia",
+      "name": "Sofia",
+      "country": "Bulgaria",
+      "country_flag": "🇧🇬",
+      "region": "",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "⛪",
+      "coordinates": {
+        "lat": 42.6977,
+        "lng": 23.3219
+      },
+      "street_view": {
+        "lat": 42.6977,
+        "lng": 23.3219,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Sofia",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Alexander Nevsky Cathedral",
+          "wikipedia_slug": "Alexander_Nevsky_Cathedral,_Sofia"
+        },
+        {
+          "name": "Mount Vitosha",
+          "wikipedia_slug": "Vitosha"
+        },
+        {
+          "name": "Rotunda of St. George",
+          "wikipedia_slug": "Church_of_St_George,_Sofia"
+        },
+        {
+          "name": "Central Mineral Baths",
+          "wikipedia_slug": "Central_Mineral_Baths"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "BG",
+      "continent": "Europe"
+    },
+    {
+      "id": "frankfurt",
+      "name": "Frankfurt",
+      "country": "Germany",
+      "country_flag": "🇩🇪",
+      "region": "Hesse",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🏙️",
+      "coordinates": {
+        "lat": 50.1109,
+        "lng": 8.6821
+      },
+      "street_view": {
+        "lat": 50.1109,
+        "lng": 8.6821,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Frankfurt",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Römerberg",
+          "wikipedia_slug": "Römerberg"
+        },
+        {
+          "name": "Städel Museum",
+          "wikipedia_slug": "Städel"
+        },
+        {
+          "name": "Goethe House",
+          "wikipedia_slug": "Goethe_House"
+        },
+        {
+          "name": "Main River",
+          "wikipedia_slug": "Main_(river)"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "DE",
+      "continent": "Europe"
+    },
+    {
+      "id": "cambridge",
+      "name": "Cambridge",
+      "country": "United Kingdom",
+      "country_flag": "🇬🇧",
+      "region": "England",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🚣",
+      "coordinates": {
+        "lat": 52.2053,
+        "lng": 0.1218
+      },
+      "street_view": {
+        "lat": 52.2053,
+        "lng": 0.1218,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Cambridge",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "King's College",
+          "wikipedia_slug": "King's_College,_Cambridge"
+        },
+        {
+          "name": "King's College Chapel",
+          "wikipedia_slug": "King's_College_Chapel,_Cambridge"
+        },
+        {
+          "name": "The Backs",
+          "wikipedia_slug": "The_Backs"
+        },
+        {
+          "name": "Cavendish Laboratory",
+          "wikipedia_slug": "Cavendish_Laboratory"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "GB",
+      "continent": "Europe"
+    },
+    {
+      "id": "lofoten",
+      "name": "Lofoten Islands",
+      "country": "Norway",
+      "country_flag": "🇳🇴",
+      "region": "Nordland",
+      "type": "island",
+      "tag": "hidden",
+      "emoji": "🎣",
+      "coordinates": {
+        "lat": 68.2,
+        "lng": 13.6
+      },
+      "street_view": {
+        "lat": 68.2,
+        "lng": 13.6,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Lofoten",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Arctic Fjords",
+          "wikipedia_slug": "Lofoten"
+        },
+        {
+          "name": "Fishermen's Cabins (Rorbu)",
+          "wikipedia_slug": "Rorbu"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "NO",
+      "continent": "Europe"
+    },
+    {
+      "id": "portugal-coast",
+      "name": "Portugal's Coast",
+      "country": "Portugal",
+      "country_flag": "🇵🇹",
+      "region": "",
+      "type": "coastal",
+      "tag": "famous",
+      "emoji": "🏄",
+      "coordinates": {
+        "lat": 39.5,
+        "lng": -9.2
+      },
+      "street_view": {
+        "lat": 39.5,
+        "lng": -9.2,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Portugal",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Porto",
+          "wikipedia_slug": "Porto"
+        },
+        {
+          "name": "Lisbon",
+          "wikipedia_slug": "Lisbon"
+        },
+        {
+          "name": "Aveiro",
+          "wikipedia_slug": "Aveiro"
+        },
+        {
+          "name": "Cascais",
+          "wikipedia_slug": "Cascais"
+        },
+        {
+          "name": "Arrábida National Park",
+          "wikipedia_slug": "Arrábida_Natural_Park"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "PT",
+      "continent": "Europe"
+    },
+    {
+      "id": "berlin",
+      "name": "Berlin",
+      "country": "Germany",
+      "country_flag": "🇩🇪",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🐻",
+      "coordinates": {
+        "lat": 52.52,
+        "lng": 13.405
+      },
+      "street_view": {
+        "lat": 52.52,
+        "lng": 13.405,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Berlin",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Brandenburg Gate",
+          "wikipedia_slug": "Brandenburg_Gate"
+        },
+        {
+          "name": "The Reichstag",
+          "wikipedia_slug": "Reichstag_building"
+        },
+        {
+          "name": "Museum Island",
+          "wikipedia_slug": "Museum_Island"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "walk": "SQFtqpuA-mQ",
+      "ambient": {
+        "yt": "ri8EmDZlMDM",
+        "start": 29
+      },
+      "country_code": "DE",
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Brandenburg Gate",
+          "yt": "CP5Q5JG2jU8",
+          "start": 15
+        },
+        {
+          "name": "Reichstag",
+          "yt": "GSCbzHvrmjE",
+          "start": 32
+        }
+      ]
+    },
+    {
+      "id": "alberobello",
+      "name": "Alberobello",
+      "country": "Italy",
+      "country_flag": "🇮🇹",
+      "region": "Apulia",
+      "type": "village",
+      "tag": "hidden",
+      "emoji": "🏠",
+      "coordinates": {
+        "lat": 40.7826,
+        "lng": 17.2369
+      },
+      "street_view": {
+        "lat": 40.7826,
+        "lng": 17.2369,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Alberobello",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "The Trulli",
+          "wikipedia_slug": "Trullo"
+        },
+        {
+          "name": "Monti District",
+          "wikipedia_slug": "Alberobello"
+        },
+        {
+          "name": "Church of St. Anthony",
+          "wikipedia_slug": "Alberobello"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "IT",
+      "continent": "Europe"
+    },
+    {
+      "id": "giethoorn",
+      "name": "Giethoorn",
+      "country": "Netherlands",
+      "country_flag": "🇳🇱",
+      "region": "Overijssel",
+      "type": "village",
+      "tag": "hidden",
+      "emoji": "🛶",
+      "coordinates": {
+        "lat": 52.7386,
+        "lng": 6.078
+      },
+      "street_view": {
+        "lat": 52.7386,
+        "lng": 6.078,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Giethoorn",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "The Canals",
+          "wikipedia_slug": "Giethoorn"
+        },
+        {
+          "name": "Wooden Bridges",
+          "wikipedia_slug": "Giethoorn"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "NL",
+      "continent": "Europe"
+    },
+    {
+      "id": "valencia",
+      "name": "Valencia",
+      "country": "Spain",
+      "country_flag": "🇪🇸",
+      "region": "Valencian Community",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🐬",
+      "coordinates": {
+        "lat": 39.4699,
+        "lng": -0.3763
+      },
+      "street_view": {
+        "lat": 39.4699,
+        "lng": -0.3763,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Valencia",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "City of Arts and Sciences",
+          "wikipedia_slug": "City_of_Arts_and_Sciences"
+        },
+        {
+          "name": "Oceanogràfic",
+          "wikipedia_slug": "Oceanogràfic"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "ES",
+      "continent": "Europe"
+    },
+    {
+      "id": "paris",
+      "name": "Paris",
+      "country": "France",
+      "country_flag": "🇫🇷",
+      "region": "Île-de-France",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🗼",
+      "coordinates": {
+        "lat": 48.8566,
+        "lng": 2.3522
+      },
+      "street_view": {
+        "lat": 48.8566,
+        "lng": 2.3522,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Paris",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Eiffel Tower",
+          "wikipedia_slug": "Eiffel_Tower"
+        },
+        {
+          "name": "The Louvre",
+          "wikipedia_slug": "Louvre"
+        },
+        {
+          "name": "Notre-Dame Cathedral",
+          "wikipedia_slug": "Notre-Dame_de_Paris"
+        },
+        {
+          "name": "Champs-Élysées",
+          "wikipedia_slug": "Champs-Élysées"
+        },
+        {
+          "name": "Arc de Triomphe",
+          "wikipedia_slug": "Arc_de_Triomphe"
+        },
+        {
+          "name": "Tuileries Garden",
+          "wikipedia_slug": "Tuileries_Garden"
+        },
+        {
+          "name": "Luxembourg Gardens",
+          "wikipedia_slug": "Luxembourg_Gardens"
+        }
+      ],
+      "blurb": "The City of Light has set the global standard for art, fashion, and romance for centuries. Beyond the Eiffel Tower and the Louvre, Paris is a city of boulevards, riverside booksellers, and neighbourhood cafés best discovered on foot.",
+      "fun_fact": "The Eiffel Tower was meant to be torn down after 20 years — it was saved only because it made a perfect radio antenna.",
+      "hidden_gem_tip": null,
+      "walk": "6BPuGeS6O4w",
+      "ambient": {
+        "yt": "Ls1UZ_8dG44",
+        "start": 18
+      },
+      "country_code": "FR",
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Eiffel Tower",
+          "yt": "wqpOqalkRVE",
+          "start": 438
+        },
+        {
+          "name": "The Louvre",
+          "yt": "9hDEJK-zzUk",
+          "start": 22
+        },
+        {
+          "name": "Arc de Triomphe",
+          "yt": "buOobuqZ5RU",
+          "start": 15
+        }
+      ]
+    },
+    {
+      "id": "venice",
+      "webcam": "a1mcaV3Sf9U",
+      "name": "Venice",
+      "country": "Italy",
+      "country_flag": "🇮🇹",
+      "region": "Veneto",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🚤",
+      "coordinates": {
+        "lat": 45.4408,
+        "lng": 12.3155
+      },
+      "street_view": {
+        "lat": 45.4408,
+        "lng": 12.3155,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Venice",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "St. Mark's Square",
+          "wikipedia_slug": "Piazza_San_Marco"
+        },
+        {
+          "name": "St. Mark's Basilica",
+          "wikipedia_slug": "St_Mark's_Basilica"
+        },
+        {
+          "name": "The Grand Canal",
+          "wikipedia_slug": "Grand_Canal_(Venice)"
+        },
+        {
+          "name": "St. Mark's Campanile",
+          "wikipedia_slug": "St_Mark's_Campanile"
+        }
+      ],
+      "blurb": "A city built on 118 islands laced by canals instead of streets, Venice has no cars — only boats and footbridges. For a thousand years it was a maritime superpower, and today it remains utterly unlike anywhere else on Earth.",
+      "fun_fact": "Venice rests on millions of wooden pilings driven into the lagoon mud — submerged and starved of oxygen, the wood has petrified rather than rotted.",
+      "hidden_gem_tip": null,
+      "walk": "2BfHMnDOteA",
+      "country_code": "IT",
+      "continent": "Europe"
+    },
+    {
+      "id": "istanbul",
+      "name": "Istanbul",
+      "country": "Turkey",
+      "country_flag": "🇹🇷",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🕌",
+      "coordinates": {
+        "lat": 41.0082,
+        "lng": 28.9784
+      },
+      "street_view": {
+        "lat": 41.0082,
+        "lng": 28.9784,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Istanbul",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Hagia Sophia",
+          "wikipedia_slug": "Hagia_Sophia"
+        },
+        {
+          "name": "The Blue Mosque",
+          "wikipedia_slug": "Sultan_Ahmed_Mosque"
+        },
+        {
+          "name": "Grand Bazaar",
+          "wikipedia_slug": "Grand_Bazaar,_Istanbul"
+        },
+        {
+          "name": "Spice Bazaar",
+          "wikipedia_slug": "Spice_Bazaar"
+        }
+      ],
+      "blurb": "The only city that straddles two continents, Istanbul has been the capital of Roman, Byzantine, and Ottoman empires in turn. Minarets, domes, and bazaars crowd the shores of the Bosphorus where Europe meets Asia.",
+      "fun_fact": "Hagia Sophia has served as a cathedral, a mosque, a museum, and a mosque again across nearly 1,500 years of continuous use.",
+      "hidden_gem_tip": null,
+      "walk": "npTBK0VmhxI",
+      "country_code": "TR",
+      "continent": "Asia"
+    },
+    {
+      "id": "cyclades",
+      "name": "Cyclades",
+      "country": "Greece",
+      "country_flag": "🇬🇷",
+      "region": "South Aegean",
+      "type": "island",
+      "tag": "famous",
+      "emoji": "🏛️",
+      "coordinates": {
+        "lat": 37.0,
+        "lng": 25.2
+      },
+      "street_view": {
+        "lat": 37.0,
+        "lng": 25.2,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Cyclades",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Santorini",
+          "wikipedia_slug": "Santorini"
+        },
+        {
+          "name": "Mykonos",
+          "wikipedia_slug": "Mykonos"
+        },
+        {
+          "name": "Paros",
+          "wikipedia_slug": "Paros"
+        },
+        {
+          "name": "Delos",
+          "wikipedia_slug": "Delos"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "GR",
+      "continent": "Europe"
+    },
+    {
+      "id": "montenegro",
+      "name": "Montenegro",
+      "country": "Montenegro",
+      "country_flag": "🇲🇪",
+      "region": "",
+      "type": "mountain",
+      "tag": "famous",
+      "emoji": "🏔️",
+      "coordinates": {
+        "lat": 42.7087,
+        "lng": 19.3744
+      },
+      "street_view": {
+        "lat": 42.7087,
+        "lng": 19.3744,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Montenegro",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Kotor",
+          "wikipedia_slug": "Kotor"
+        },
+        {
+          "name": "Budva",
+          "wikipedia_slug": "Budva"
+        },
+        {
+          "name": "Durmitor National Park",
+          "wikipedia_slug": "Durmitor"
+        },
+        {
+          "name": "Lake Skadar",
+          "wikipedia_slug": "Lake_Skadar"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "ME",
+      "continent": "Europe"
+    },
+    {
+      "id": "obidos",
+      "name": "Óbidos",
+      "country": "Portugal",
+      "country_flag": "🇵🇹",
+      "region": "Oeste",
+      "type": "village",
+      "tag": "hidden",
+      "emoji": "🏯",
+      "coordinates": {
+        "lat": 39.3606,
+        "lng": -9.1572
+      },
+      "street_view": {
+        "lat": 39.3606,
+        "lng": -9.1572,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Óbidos,_Portugal",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Óbidos Castle",
+          "wikipedia_slug": "Óbidos_Castle"
+        },
+        {
+          "name": "Medieval Walls",
+          "wikipedia_slug": "Óbidos,_Portugal"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "PT",
+      "continent": "Europe"
+    },
+    {
+      "id": "madrid",
+      "name": "Madrid",
+      "country": "Spain",
+      "country_flag": "🇪🇸",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🖼️",
+      "coordinates": {
+        "lat": 40.4168,
+        "lng": -3.7038
+      },
+      "street_view": {
+        "lat": 40.4168,
+        "lng": -3.7038,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Madrid",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Gran Vía",
+          "wikipedia_slug": "Gran_Vía"
+        },
+        {
+          "name": "Almudena Cathedral",
+          "wikipedia_slug": "Almudena_Cathedral"
+        },
+        {
+          "name": "The Royal Palace",
+          "wikipedia_slug": "Royal_Palace_of_Madrid"
+        },
+        {
+          "name": "Mercado de San Miguel",
+          "wikipedia_slug": "Mercado_de_San_Miguel"
+        },
+        {
+          "name": "Prado Museum",
+          "wikipedia_slug": "Museo_del_Prado"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "walk": "ar1K4qQpDmE",
+      "country_code": "ES",
+      "continent": "Europe"
+    },
+    {
+      "id": "tuscany-florence",
+      "name": "Tuscany & Florence",
+      "country": "Italy",
+      "country_flag": "🇮🇹",
+      "region": "Tuscany",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🎨",
+      "coordinates": {
+        "lat": 43.7696,
+        "lng": 11.2558
+      },
+      "street_view": {
+        "lat": 43.7696,
+        "lng": 11.2558,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Florence",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Uffizi Gallery",
+          "wikipedia_slug": "Uffizi"
+        },
+        {
+          "name": "Florence Cathedral",
+          "wikipedia_slug": "Florence_Cathedral"
+        },
+        {
+          "name": "Piazza della Signoria",
+          "wikipedia_slug": "Piazza_della_Signoria"
+        },
+        {
+          "name": "Siena",
+          "wikipedia_slug": "Siena"
+        },
+        {
+          "name": "Pisa",
+          "wikipedia_slug": "Pisa"
+        },
+        {
+          "name": "Lucca",
+          "wikipedia_slug": "Lucca"
+        },
+        {
+          "name": "Chianti",
+          "wikipedia_slug": "Chianti"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "walk": "2aZlTVnq2eQ",
+      "country_code": "IT",
+      "continent": "Europe"
+    },
+    {
+      "id": "jurassic-coast",
+      "name": "Jurassic Coast",
+      "country": "United Kingdom",
+      "country_flag": "🇬🇧",
+      "region": "England",
+      "type": "coastal",
+      "tag": "hidden",
+      "emoji": "🦕",
+      "coordinates": {
+        "lat": 50.62,
+        "lng": -2.4
+      },
+      "street_view": {
+        "lat": 50.62,
+        "lng": -2.4,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Jurassic_Coast",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Durdle Door",
+          "wikipedia_slug": "Durdle_Door"
+        },
+        {
+          "name": "Lulworth Cove",
+          "wikipedia_slug": "Lulworth_Cove"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "GB",
+      "continent": "Europe"
+    },
+    {
+      "id": "norwegian-fjords",
+      "name": "Norwegian Fjords",
+      "country": "Norway",
+      "country_flag": "🇳🇴",
+      "region": "",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "⛰️",
+      "coordinates": {
+        "lat": 62.1,
+        "lng": 7.0
+      },
+      "street_view": {
+        "lat": 62.1,
+        "lng": 7.0,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Fjords_of_Norway",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Geirangerfjord",
+          "wikipedia_slug": "Geirangerfjord"
+        },
+        {
+          "name": "Nærøyfjord",
+          "wikipedia_slug": "Nærøyfjord"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "NO",
+      "continent": "Europe"
+    },
+    {
+      "id": "mostar",
+      "name": "Mostar",
+      "country": "Bosnia and Herzegovina",
+      "country_flag": "🇧🇦",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🌉",
+      "coordinates": {
+        "lat": 43.3438,
+        "lng": 17.8078
+      },
+      "street_view": {
+        "lat": 43.3438,
+        "lng": 17.8078,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Mostar",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Stari Most",
+          "wikipedia_slug": "Stari_Most"
+        },
+        {
+          "name": "Neretva River",
+          "wikipedia_slug": "Neretva"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "BA",
+      "continent": "Europe"
+    },
+    {
+      "id": "pyrenees",
+      "name": "Pyrenees",
+      "country": "Spain",
+      "country_flag": "🇪🇸",
+      "region": "",
+      "type": "mountain",
+      "tag": "hidden",
+      "emoji": "🏔️",
+      "coordinates": {
+        "lat": 42.6,
+        "lng": 1.0
+      },
+      "street_view": {
+        "lat": 42.6,
+        "lng": 1.0,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Pyrenees",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Mountain Trails",
+          "wikipedia_slug": "Pyrenees"
+        },
+        {
+          "name": "Romanesque Churches",
+          "wikipedia_slug": "Catalan_Romanesque"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "ES",
+      "continent": "Europe"
+    },
+    {
+      "id": "cesky-krumlov",
+      "name": "Český Krumlov",
+      "country": "Czech Republic",
+      "country_flag": "🇨🇿",
+      "region": "South Bohemia",
+      "type": "village",
+      "tag": "hidden",
+      "emoji": "🏰",
+      "coordinates": {
+        "lat": 48.8127,
+        "lng": 14.3175
+      },
+      "street_view": {
+        "lat": 48.8127,
+        "lng": 14.3175,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Český_Krumlov",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Český Krumlov Castle",
+          "wikipedia_slug": "Český_Krumlov_Castle"
+        },
+        {
+          "name": "Vltava River",
+          "wikipedia_slug": "Vltava"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "CZ",
+      "continent": "Europe"
+    },
+    {
+      "id": "verdon-gorge",
+      "name": "Verdon Gorge",
+      "country": "France",
+      "country_flag": "🇫🇷",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🏞️",
+      "coordinates": {
+        "lat": 43.75,
+        "lng": 6.33
+      },
+      "street_view": {
+        "lat": 43.75,
+        "lng": 6.33,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Verdon_Gorge",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "The Verdon River",
+          "wikipedia_slug": "Verdon_(river)"
+        },
+        {
+          "name": "Lac de Sainte-Croix",
+          "wikipedia_slug": "Lac_de_Sainte-Croix"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "FR",
+      "continent": "Europe"
+    },
+    {
+      "id": "oslo",
+      "name": "Oslo",
+      "country": "Norway",
+      "country_flag": "🇳🇴",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🛶",
+      "coordinates": {
+        "lat": 59.9139,
+        "lng": 10.7522
+      },
+      "street_view": {
+        "lat": 59.9139,
+        "lng": 10.7522,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Oslo",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Oslo Opera House",
+          "wikipedia_slug": "Oslo_Opera_House"
+        },
+        {
+          "name": "Vigeland Sculpture Park",
+          "wikipedia_slug": "Vigeland_installation"
+        },
+        {
+          "name": "Viking Ship Museum",
+          "wikipedia_slug": "Viking_Ship_Museum_(Oslo)"
+        },
+        {
+          "name": "Oslofjord",
+          "wikipedia_slug": "Oslofjord"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "NO",
+      "continent": "Europe"
+    },
+    {
+      "id": "corsica",
+      "name": "Corsica",
+      "country": "France",
+      "country_flag": "🇫🇷",
+      "region": "Corsica",
+      "type": "island",
+      "tag": "famous",
+      "emoji": "🏝️",
+      "coordinates": {
+        "lat": 41.9192,
+        "lng": 8.7386
+      },
+      "street_view": {
+        "lat": 41.9192,
+        "lng": 8.7386,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Corsica",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Ajaccio",
+          "wikipedia_slug": "Ajaccio"
+        },
+        {
+          "name": "Bonifacio",
+          "wikipedia_slug": "Bonifacio"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "FR",
+      "continent": "Europe"
+    },
+    {
+      "id": "balearic-islands",
+      "name": "Balearic Islands",
+      "country": "Spain",
+      "country_flag": "🇪🇸",
+      "region": "Balearic Islands",
+      "type": "island",
+      "tag": "famous",
+      "emoji": "🏖️",
+      "coordinates": {
+        "lat": 39.5696,
+        "lng": 2.6502
+      },
+      "street_view": {
+        "lat": 39.5696,
+        "lng": 2.6502,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Balearic_Islands",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Mallorca",
+          "wikipedia_slug": "Mallorca"
+        },
+        {
+          "name": "Ibiza",
+          "wikipedia_slug": "Ibiza"
+        },
+        {
+          "name": "Menorca",
+          "wikipedia_slug": "Menorca"
+        },
+        {
+          "name": "Formentera",
+          "wikipedia_slug": "Formentera"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "ES",
+      "continent": "Europe"
+    },
+    {
+      "id": "milan",
+      "name": "Milan",
+      "country": "Italy",
+      "country_flag": "🇮🇹",
+      "region": "Lombardy",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "👗",
+      "coordinates": {
+        "lat": 45.4642,
+        "lng": 9.19
+      },
+      "street_view": {
+        "lat": 45.4642,
+        "lng": 9.19,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Milan",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "The Duomo",
+          "wikipedia_slug": "Milan_Cathedral"
+        },
+        {
+          "name": "Galleria Vittorio Emanuele II",
+          "wikipedia_slug": "Galleria_Vittorio_Emanuele_II"
+        },
+        {
+          "name": "La Scala",
+          "wikipedia_slug": "La_Scala"
+        },
+        {
+          "name": "Navigli",
+          "wikipedia_slug": "Navigli"
+        },
+        {
+          "name": "Brera",
+          "wikipedia_slug": "Brera"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "IT",
+      "continent": "Europe"
+    },
+    {
+      "id": "porto",
+      "name": "Porto",
+      "country": "Portugal",
+      "country_flag": "🇵🇹",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🍷",
+      "coordinates": {
+        "lat": 41.1579,
+        "lng": -8.6291
+      },
+      "street_view": {
+        "lat": 41.1579,
+        "lng": -8.6291,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Porto",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Ribeira District",
+          "wikipedia_slug": "Ribeira_(Porto)"
+        },
+        {
+          "name": "Dom Luís I Bridge",
+          "wikipedia_slug": "Dom_Luís_I_Bridge"
+        },
+        {
+          "name": "São Bento Station",
+          "wikipedia_slug": "São_Bento_railway_station"
+        },
+        {
+          "name": "Porto Cathedral",
+          "wikipedia_slug": "Porto_Cathedral"
+        },
+        {
+          "name": "Douro River",
+          "wikipedia_slug": "Douro"
+        },
+        {
+          "name": "Vila Nova de Gaia",
+          "wikipedia_slug": "Vila_Nova_de_Gaia"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "walk": "p_-kVH2jsj8",
+      "country_code": "PT",
+      "continent": "Europe"
+    },
+    {
+      "id": "kotor",
+      "name": "Kotor",
+      "country": "Montenegro",
+      "country_flag": "🇲🇪",
+      "region": "",
+      "type": "coastal",
+      "tag": "famous",
+      "emoji": "🏰",
+      "coordinates": {
+        "lat": 42.4247,
+        "lng": 18.7712
+      },
+      "street_view": {
+        "lat": 42.4247,
+        "lng": 18.7712,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Kotor",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "The Old Town",
+          "wikipedia_slug": "Kotor"
+        },
+        {
+          "name": "Fortifications of Kotor",
+          "wikipedia_slug": "Fortifications_of_Kotor"
+        }
+      ],
+      "blurb": "Tucked at the end of a fjord-like bay, the walled town of Kotor hides a labyrinth of medieval squares beneath a mountain fortress. The climb up its 1,350 steps rewards you with one of the Adriatic's great views.",
+      "fun_fact": "Kotor's defensive walls climb more than 260 metres up the mountainside to the fortress of San Giovanni.",
+      "hidden_gem_tip": null,
+      "walk": "m-vUHxfhXK0",
+      "country_code": "ME",
+      "continent": "Europe"
+    },
+    {
+      "id": "tallinn",
+      "name": "Tallinn",
+      "country": "Estonia",
+      "country_flag": "🇪🇪",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🏰",
+      "coordinates": {
+        "lat": 59.437,
+        "lng": 24.7536
+      },
+      "street_view": {
+        "lat": 59.437,
+        "lng": 24.7536,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Tallinn",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "The Old Town",
+          "wikipedia_slug": "Tallinn_Old_Town"
+        },
+        {
+          "name": "Town Hall Square",
+          "wikipedia_slug": "Tallinn_Town_Hall"
+        },
+        {
+          "name": "Toompea Hill",
+          "wikipedia_slug": "Toompea"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "EE",
+      "continent": "Europe"
+    },
+    {
+      "id": "prague",
+      "name": "Prague",
+      "country": "Czech Republic",
+      "country_flag": "🇨🇿",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🌉",
+      "coordinates": {
+        "lat": 50.0755,
+        "lng": 14.4378
+      },
+      "street_view": {
+        "lat": 50.0755,
+        "lng": 14.4378,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Prague",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Astronomical Clock",
+          "wikipedia_slug": "Prague_astronomical_clock"
+        },
+        {
+          "name": "Charles Bridge",
+          "wikipedia_slug": "Charles_Bridge"
+        },
+        {
+          "name": "Prague Castle",
+          "wikipedia_slug": "Prague_Castle"
+        },
+        {
+          "name": "St. Vitus Cathedral",
+          "wikipedia_slug": "St._Vitus_Cathedral"
+        },
+        {
+          "name": "Old Town Square",
+          "wikipedia_slug": "Old_Town_Square"
+        }
+      ],
+      "blurb": "The 'City of a Hundred Spires' came through the 20th century almost untouched, leaving a fairy-tale tangle of Gothic, Baroque, and Art Nouveau. Charles Bridge and the hilltop castle anchor one of Europe's best-preserved old towns.",
+      "fun_fact": "Prague Castle is the largest ancient castle complex in the world, covering nearly 70,000 square metres.",
+      "hidden_gem_tip": null,
+      "walk": "FeOL2myTopk",
+      "country_code": "CZ",
+      "continent": "Europe"
+    },
+    {
+      "id": "cinque-terre",
+      "name": "Cinque Terre",
+      "country": "Italy",
+      "country_flag": "🇮🇹",
+      "region": "Liguria",
+      "type": "coastal",
+      "tag": "famous",
+      "emoji": "🌅",
+      "coordinates": {
+        "lat": 44.128,
+        "lng": 9.7095
+      },
+      "street_view": {
+        "lat": 44.128,
+        "lng": 9.7095,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Cinque_Terre",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Riomaggiore",
+          "wikipedia_slug": "Riomaggiore"
+        },
+        {
+          "name": "Manarola",
+          "wikipedia_slug": "Manarola"
+        },
+        {
+          "name": "Corniglia",
+          "wikipedia_slug": "Corniglia"
+        },
+        {
+          "name": "Vernazza",
+          "wikipedia_slug": "Vernazza"
+        },
+        {
+          "name": "Monterosso al Mare",
+          "wikipedia_slug": "Monterosso_al_Mare"
+        }
+      ],
+      "blurb": "Five centuries-old fishing villages cling to the cliffs of the Italian Riviera, linked by footpaths, terraced vineyards, and a single railway line. Cars can't reach the heart of them — you arrive by train, boat, or on foot.",
+      "fun_fact": "The dry-stone walls that terrace the Cinque Terre hillsides stretch an estimated 7,000 km — comparable in length to the Great Wall of China.",
+      "hidden_gem_tip": null,
+      "webcam": "bQ9VS-hM1D8",
+      "country_code": "IT",
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Manarola",
+          "yt": "yB5HFvXchfM",
+          "start": 545
+        }
+      ]
+    },
+    {
+      "id": "lisbon",
+      "name": "Lisbon",
+      "country": "Portugal",
+      "country_flag": "🇵🇹",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🚋",
+      "coordinates": {
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "street_view": {
+        "lat": 38.7223,
+        "lng": -9.1393,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Lisbon",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Belém Tower",
+          "wikipedia_slug": "Belém_Tower"
+        },
+        {
+          "name": "Jerónimos Monastery",
+          "wikipedia_slug": "Jerónimos_Monastery"
+        },
+        {
+          "name": "Alfama District",
+          "wikipedia_slug": "Alfama"
+        },
+        {
+          "name": "Bairro Alto",
+          "wikipedia_slug": "Bairro_Alto"
+        },
+        {
+          "name": "Tagus River",
+          "wikipedia_slug": "Tagus"
+        }
+      ],
+      "blurb": "Spread across seven hills above the Tagus, Lisbon is a city of pastel façades, rattling yellow trams, and melancholic fado music. Its golden light and tiled streets have earned it a devoted following.",
+      "fun_fact": "Lisbon is one of the oldest cities in Western Europe — predating London, Paris, and Rome by centuries.",
+      "hidden_gem_tip": null,
+      "walk": "aqevs6jLdJI",
+      "country_code": "PT",
+      "continent": "Europe"
+    },
+    {
+      "id": "normandy",
+      "name": "Normandy",
+      "country": "France",
+      "country_flag": "🇫🇷",
+      "region": "Normandy",
+      "type": "coastal",
+      "tag": "famous",
+      "emoji": "🪖",
+      "coordinates": {
+        "lat": 49.18,
+        "lng": -0.37
+      },
+      "street_view": {
+        "lat": 49.18,
+        "lng": -0.37,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Normandy",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "D-Day Beaches",
+          "wikipedia_slug": "Normandy_landings"
+        },
+        {
+          "name": "Étretat Cliffs",
+          "wikipedia_slug": "Étretat"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "FR",
+      "continent": "Europe"
+    },
+    {
+      "id": "delft",
+      "name": "Delft",
+      "country": "Netherlands",
+      "country_flag": "🇳🇱",
+      "region": "South Holland",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🏺",
+      "coordinates": {
+        "lat": 52.0116,
+        "lng": 4.3571
+      },
+      "street_view": {
+        "lat": 52.0116,
+        "lng": 4.3571,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Delft",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Historic Canals",
+          "wikipedia_slug": "Delft"
+        },
+        {
+          "name": "The New Church",
+          "wikipedia_slug": "Nieuwe_Kerk_(Delft)"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "NL",
+      "continent": "Europe"
+    },
+    {
+      "id": "transylvania",
+      "name": "Transylvania",
+      "country": "Romania",
+      "country_flag": "🇷🇴",
+      "region": "Transylvania",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🧛",
+      "coordinates": {
+        "lat": 45.7489,
+        "lng": 24.5
+      },
+      "street_view": {
+        "lat": 45.7489,
+        "lng": 24.5,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Transylvania",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Bran Castle",
+          "wikipedia_slug": "Bran_Castle"
+        },
+        {
+          "name": "Brașov",
+          "wikipedia_slug": "Brașov"
+        },
+        {
+          "name": "Sibiu",
+          "wikipedia_slug": "Sibiu"
+        },
+        {
+          "name": "Cluj-Napoca",
+          "wikipedia_slug": "Cluj-Napoca"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "RO",
+      "continent": "Europe"
+    },
+    {
+      "id": "barcelona",
+      "name": "Barcelona",
+      "country": "Spain",
+      "country_flag": "🇪🇸",
+      "region": "Catalonia",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏛️",
+      "coordinates": {
+        "lat": 41.3851,
+        "lng": 2.1734
+      },
+      "street_view": {
+        "lat": 41.3851,
+        "lng": 2.1734,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Barcelona",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Sagrada Família",
+          "wikipedia_slug": "Sagrada_Família"
+        },
+        {
+          "name": "Casa Batlló",
+          "wikipedia_slug": "Casa_Batlló"
+        },
+        {
+          "name": "Park Güell",
+          "wikipedia_slug": "Park_Güell"
+        },
+        {
+          "name": "Passeig de Gràcia",
+          "wikipedia_slug": "Passeig_de_Gràcia"
+        },
+        {
+          "name": "The Gothic Quarter",
+          "wikipedia_slug": "Gothic_Quarter,_Barcelona"
+        },
+        {
+          "name": "Barceloneta Beach",
+          "wikipedia_slug": "Barceloneta_Beach"
+        }
+      ],
+      "blurb": "Gaudí's surreal architecture, a medieval Gothic core, and Mediterranean beaches all converge in Catalonia's vibrant capital. The unfinished Sagrada Família has been under construction since 1882 and still draws the world.",
+      "fun_fact": "The Sagrada Família is expected to be completed more than 140 years after it began — Gaudí himself said, 'My client is not in a hurry.'",
+      "hidden_gem_tip": null,
+      "walk": "3ZygN1uKRok",
+      "ambient": {
+        "yt": "mnoevFwCzmk",
+        "start": 321
+      },
+      "country_code": "ES",
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Sagrada Família",
+          "yt": "bJlUA-lnvYg",
+          "start": 379
+        }
+      ]
+    },
+    {
+      "id": "aveiro",
+      "name": "Aveiro",
+      "country": "Portugal",
+      "country_flag": "🇵🇹",
+      "region": "Centro",
+      "type": "coastal",
+      "tag": "hidden",
+      "emoji": "🛶",
+      "coordinates": {
+        "lat": 40.6405,
+        "lng": -8.6538
+      },
+      "street_view": {
+        "lat": 40.6405,
+        "lng": -8.6538,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Aveiro",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "The Canals",
+          "wikipedia_slug": "Aveiro"
+        },
+        {
+          "name": "Costa Nova",
+          "wikipedia_slug": "Costa_Nova_do_Prado"
+        },
+        {
+          "name": "Praia da Barra",
+          "wikipedia_slug": "Praia_da_Barra"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "PT",
+      "continent": "Europe"
+    },
+    {
+      "id": "amalfi-coast",
+      "name": "Amalfi Coast",
+      "country": "Italy",
+      "country_flag": "🇮🇹",
+      "region": "Campania",
+      "type": "coastal",
+      "tag": "famous",
+      "emoji": "🍋",
+      "coordinates": {
+        "lat": 40.634,
+        "lng": 14.6027
+      },
+      "street_view": {
+        "lat": 40.634,
+        "lng": 14.6027,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Amalfi_Coast",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Positano",
+          "wikipedia_slug": "Positano"
+        },
+        {
+          "name": "Amalfi",
+          "wikipedia_slug": "Amalfi"
+        },
+        {
+          "name": "Ravello",
+          "wikipedia_slug": "Ravello"
+        }
+      ],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "country_code": "IT",
+      "continent": "Europe"
+    },
+    {
+      "id": "meteora",
+      "name": "Meteora",
+      "country": "Greece",
+      "country_flag": "🇬🇷",
+      "region": "Thessaly",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🧗",
+      "coordinates": {
+        "lat": 39.7217,
+        "lng": 21.6306
+      },
+      "street_view": {
+        "lat": 39.7217,
+        "lng": 21.6306,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Meteora",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Great Meteoron Monastery",
+          "wikipedia_slug": "Monastery_of_Great_Meteoron"
+        },
+        {
+          "name": "Clifftop Monasteries",
+          "wikipedia_slug": "Meteora"
+        }
+      ],
+      "blurb": "Six Eastern Orthodox monasteries perch impossibly atop sheer rock pillars rising hundreds of metres above the plains of Thessaly. For centuries monks reached them only by rope ladders and nets.",
+      "fun_fact": "The name Meteora means 'suspended in the air' — and until the 1920s the only way up to some monasteries was being hauled in a net.",
+      "hidden_gem_tip": null,
+      "country_code": "GR",
+      "continent": "Europe"
+    },
+    {
+      "id": "kyiv",
+      "name": "Kyiv",
+      "country": "Ukraine",
+      "country_code": "UA",
+      "country_flag": "🇺🇦",
+      "continent": "Europe",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "⛪",
+      "coordinates": {
+        "lat": 50.45,
+        "lng": 30.52333
+      },
+      "street_view": {
+        "lat": 50.45,
+        "lng": 30.52333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Kyiv",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "lviv",
+      "name": "Lviv",
+      "country": "Ukraine",
+      "country_code": "UA",
+      "country_flag": "🇺🇦",
+      "continent": "Europe",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "☕",
+      "coordinates": {
+        "lat": 49.8425,
+        "lng": 24.03222
+      },
+      "street_view": {
+        "lat": 49.8425,
+        "lng": 24.03222,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Lviv",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "odesa",
+      "name": "Odesa",
+      "country": "Ukraine",
+      "country_code": "UA",
+      "country_flag": "🇺🇦",
+      "continent": "Europe",
+      "region": "",
+      "type": "coastal",
+      "tag": "hidden",
+      "emoji": "⚓",
+      "coordinates": {
+        "lat": 46.46667,
+        "lng": 30.73333
+      },
+      "street_view": {
+        "lat": 46.46667,
+        "lng": 30.73333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Odesa",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "belgrade",
+      "name": "Belgrade",
+      "country": "Serbia",
+      "country_code": "RS",
+      "country_flag": "🇷🇸",
+      "continent": "Europe",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏰",
+      "coordinates": {
+        "lat": 44.81778,
+        "lng": 20.45694
+      },
+      "street_view": {
+        "lat": 44.81778,
+        "lng": 20.45694,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Belgrade",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "novi-sad",
+      "name": "Novi Sad",
+      "country": "Serbia",
+      "country_code": "RS",
+      "country_flag": "🇷🇸",
+      "continent": "Europe",
+      "region": "",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🎸",
+      "coordinates": {
+        "lat": 45.25417,
+        "lng": 19.8425
+      },
+      "street_view": {
+        "lat": 45.25417,
+        "lng": 19.8425,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Novi_Sad",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "luxembourg-city",
+      "name": "Luxembourg City",
+      "country": "Luxembourg",
+      "country_code": "LU",
+      "country_flag": "🇱🇺",
+      "continent": "Europe",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🏰",
+      "coordinates": {
+        "lat": 49.61167,
+        "lng": 6.13194
+      },
+      "street_view": {
+        "lat": 49.61167,
+        "lng": 6.13194,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Luxembourg_City",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "vilnius",
+      "name": "Vilnius",
+      "country": "Lithuania",
+      "country_code": "LT",
+      "country_flag": "🇱🇹",
+      "continent": "Europe",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "⛪",
+      "coordinates": {
+        "lat": 54.68722,
+        "lng": 25.28
+      },
+      "street_view": {
+        "lat": 54.68722,
+        "lng": 25.28,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Vilnius",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "trakai-castle",
+      "name": "Trakai Castle",
+      "country": "Lithuania",
+      "country_code": "LT",
+      "country_flag": "🇱🇹",
+      "continent": "Europe",
+      "region": "",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🏰",
+      "coordinates": {
+        "lat": 54.6525,
+        "lng": 24.93306
+      },
+      "street_view": {
+        "lat": 54.6525,
+        "lng": 24.93306,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Trakai_Island_Castle",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "riga",
+      "name": "Riga",
+      "country": "Latvia",
+      "country_code": "LV",
+      "country_flag": "🇱🇻",
+      "continent": "Europe",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🏛️",
+      "coordinates": {
+        "lat": 56.94889,
+        "lng": 24.10639
+      },
+      "street_view": {
+        "lat": 56.94889,
+        "lng": 24.10639,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Riga",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "chisinau",
+      "name": "Chișinău",
+      "country": "Moldova",
+      "country_code": "MD",
+      "country_flag": "🇲🇩",
+      "continent": "Europe",
+      "region": "",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🍇",
+      "coordinates": {
+        "lat": 47.02278,
+        "lng": 28.83528
+      },
+      "street_view": {
+        "lat": 47.02278,
+        "lng": 28.83528,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Chișinău",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "bratislava",
+      "name": "Bratislava",
+      "country": "Slovakia",
+      "country_code": "SK",
+      "country_flag": "🇸🇰",
+      "continent": "Europe",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🏰",
+      "coordinates": {
+        "lat": 48.14389,
+        "lng": 17.10972
+      },
+      "street_view": {
+        "lat": 48.14389,
+        "lng": 17.10972,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Bratislava",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "high-tatras",
+      "name": "High Tatras",
+      "country": "Slovakia",
+      "country_code": "SK",
+      "country_flag": "🇸🇰",
+      "continent": "Europe",
+      "region": "",
+      "type": "mountain",
+      "tag": "hidden",
+      "emoji": "🏔️",
+      "coordinates": {
+        "lat": 49.2006,
+        "lng": 19.9739
+      },
+      "street_view": {
+        "lat": 49.2006,
+        "lng": 19.9739,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Tatra_Mountains",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "ljubljana",
+      "name": "Ljubljana",
+      "country": "Slovenia",
+      "country_code": "SI",
+      "country_flag": "🇸🇮",
+      "continent": "Europe",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🐉",
+      "coordinates": {
+        "lat": 46.05139,
+        "lng": 14.50611
+      },
+      "street_view": {
+        "lat": 46.05139,
+        "lng": 14.50611,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Ljubljana",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "lake-bled",
+      "name": "Lake Bled",
+      "country": "Slovenia",
+      "country_code": "SI",
+      "country_flag": "🇸🇮",
+      "continent": "Europe",
+      "region": "",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🏞️",
+      "coordinates": {
+        "lat": 46.36444,
+        "lng": 14.09472
+      },
+      "street_view": {
+        "lat": 46.36444,
+        "lng": 14.09472,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Lake_Bled",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "piran",
+      "name": "Piran",
+      "country": "Slovenia",
+      "country_code": "SI",
+      "country_flag": "🇸🇮",
+      "continent": "Europe",
+      "region": "",
+      "type": "coastal",
+      "tag": "hidden",
+      "emoji": "⛪",
+      "coordinates": {
+        "lat": 45.52833,
+        "lng": 13.56833
+      },
+      "street_view": {
+        "lat": 45.52833,
+        "lng": 13.56833,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Piran",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "vatican-city",
+      "name": "Vatican City",
+      "country": "Vatican City",
+      "country_code": "VA",
+      "country_flag": "🇻🇦",
+      "continent": "Europe",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "⛪",
+      "coordinates": {
+        "lat": 41.9025,
+        "lng": 12.4525
+      },
+      "street_view": {
+        "lat": 41.9025,
+        "lng": 12.4525,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Vatican_City",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "moscow",
+      "name": "Moscow",
+      "country": "Russia",
+      "country_code": "RU",
+      "country_flag": "🇷🇺",
+      "continent": "Europe",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏯",
+      "coordinates": {
+        "lat": 55.75583,
+        "lng": 37.61778
+      },
+      "street_view": {
+        "lat": 55.75583,
+        "lng": 37.61778,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Moscow",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Red Square",
+          "yt": "CxXjIv7rDig",
+          "start": 565
+        }
+      ]
+    },
+    {
+      "id": "saint-petersburg",
+      "name": "Saint Petersburg",
+      "country": "Russia",
+      "country_code": "RU",
+      "country_flag": "🇷🇺",
+      "continent": "Europe",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🎭",
+      "coordinates": {
+        "lat": 59.9375,
+        "lng": 30.30861
+      },
+      "street_view": {
+        "lat": 59.9375,
+        "lng": 30.30861,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Saint_Petersburg",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "kazan",
+      "name": "Kazan",
+      "country": "Russia",
+      "country_code": "RU",
+      "country_flag": "🇷🇺",
+      "continent": "Europe",
+      "region": "",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🕌",
+      "coordinates": {
+        "lat": 55.79639,
+        "lng": 49.10889
+      },
+      "street_view": {
+        "lat": 55.79639,
+        "lng": 49.10889,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Kazan",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "lake-baikal",
+      "name": "Lake Baikal",
+      "country": "Russia",
+      "country_code": "RU",
+      "country_flag": "🇷🇺",
+      "continent": "Europe",
+      "region": "",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🏞️",
+      "coordinates": {
+        "lat": 53.5,
+        "lng": 108
+      },
+      "street_view": {
+        "lat": 53.5,
+        "lng": 108,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Lake_Baikal",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    }
+  ]
+}

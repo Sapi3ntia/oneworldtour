@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>City Guesser · One World Tour</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✈️</text></svg>">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/guess.css">
+</head>
+<body class="g-body">
+
+  <header class="g-top">
+    <a href="index.html" class="g-back">← Map</a>
+    <span class="g-title">🌍 City Guesser</span>
+    <span class="g-stats">
+      <b id="g-round">Round 1 / 5</b>
+      <span id="g-score">0 pts</span>
+    </span>
+  </header>
+
+  <main class="g-scene" id="scene"></main>
+
+  <div class="g-hint" id="g-hint">
+    Look for the giveaways — language, signs, plates, light. Take your time; the clip is yours to skip and replay.
+  </div>
+
+  <div class="g-actions" id="actions">
+    <button class="btn btn-gold" id="guess-btn">📍 Make a guess</button>
+  </div>
+
+  <!-- Slide-up sheet: the guess map, then the reveal -->
+  <div class="g-sheet" id="sheet">
+    <div class="g-sheet-head">
+      <span id="sheet-title">Where in the world is this?</span>
+      <button class="g-sheet-close" id="sheet-close" title="Keep looking">✕</button>
+    </div>
+    <div id="guess-map" class="g-map"></div>
+    <div class="g-sheet-foot">
+      <span class="g-foot-note" id="foot-note">Click anywhere on the map to drop your pin.</span>
+      <span class="g-foot-spacer"></span>
+      <a href="#" class="g-visit" id="visit-link" style="display:none">Visit this place →</a>
+      <button class="btn btn-gold" id="confirm-btn" disabled>Confirm guess</button>
+    </div>
+  </div>
+
+  <!-- Pre-game: pick where in the world to play -->
+  <div class="g-final g-start" id="start"></div>
+
+  <!-- End-of-game scorecard -->
+  <div class="g-final" id="final"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/state.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/walkthrough.js"></script>
+  <script src="js/destinations.js"></script>
+  <script src="js/guess.js"></script>
+</body>
+</html>

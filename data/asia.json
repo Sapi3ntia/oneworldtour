@@ -1,0 +1,2413 @@
+{
+  "region": "Asia",
+  "continent": null,
+  "code": "ASIA",
+  "locations": [
+    {
+      "id": "tokyo",
+      "name": "Tokyo",
+      "country": "Japan",
+      "country_code": "JP",
+      "country_flag": "🇯🇵",
+      "continent": "Asia",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🗼",
+      "coordinates": {
+        "lat": 35.68972,
+        "lng": 139.69222
+      },
+      "street_view": {
+        "lat": 35.68972,
+        "lng": 139.69222,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Tokyo",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Tokyo Tower",
+          "yt": "4WnO4IzHQrE",
+          "start": 1290
+        },
+        {
+          "name": "Shibuya Crossing",
+          "yt": "_dWyKj7I9JM",
+          "start": 0
+        }
+      ],
+      "webcam": "dfVK7ld38Ys",
+      "walk": "28ZjrtD_iL0"
+    },
+    {
+      "id": "kyoto",
+      "name": "Kyoto",
+      "country": "Japan",
+      "country_code": "JP",
+      "country_flag": "🇯🇵",
+      "continent": "Asia",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "⛩️",
+      "coordinates": {
+        "lat": 35.01161,
+        "lng": 135.76811
+      },
+      "street_view": {
+        "lat": 35.01161,
+        "lng": 135.76811,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Kyoto",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "walk": "ii13vHUOXac"
+    },
+    {
+      "id": "osaka",
+      "name": "Osaka",
+      "country": "Japan",
+      "country_code": "JP",
+      "country_flag": "🇯🇵",
+      "continent": "Asia",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏯",
+      "coordinates": {
+        "lat": 34.69389,
+        "lng": 135.50222
+      },
+      "street_view": {
+        "lat": 34.69389,
+        "lng": 135.50222,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Osaka",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "walk": "xP-wJbQcMOc"
+    },
+    {
+      "id": "mount-fuji",
+      "name": "Mount Fuji",
+      "country": "Japan",
+      "country_code": "JP",
+      "country_flag": "🇯🇵",
+      "continent": "Asia",
+      "region": "",
+      "type": "mountain",
+      "tag": "famous",
+      "emoji": "🗻",
+      "coordinates": {
+        "lat": 35.36083,
+        "lng": 138.7275
+      },
+      "street_view": {
+        "lat": 35.36083,
+        "lng": 138.7275,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Mount_Fuji",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "hiroshima",
+      "name": "Hiroshima",
+      "country": "Japan",
+      "country_code": "JP",
+      "country_flag": "🇯🇵",
+      "continent": "Asia",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🕊️",
+      "coordinates": {
+        "lat": 34.39139,
+        "lng": 132.45194
+      },
+      "street_view": {
+        "lat": 34.39139,
+        "lng": 132.45194,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Hiroshima",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Atomic Bomb Dome",
+          "yt": "qwNoxabhgdw",
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "nara",
+      "name": "Nara",
+      "country": "Japan",
+      "country_code": "JP",
+      "country_flag": "🇯🇵",
+      "continent": "Asia",
+      "region": "",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🦌",
+      "coordinates": {
+        "lat": 34.68444,
+        "lng": 135.805
+      },
+      "street_view": {
+        "lat": 34.68444,
+        "lng": 135.805,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Nara,_Nara",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "beijing",
+      "name": "Beijing",
+      "country": "China",
+      "country_code": "CN",
+      "country_flag": "🇨🇳",
+      "continent": "Asia",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏯",
+      "coordinates": {
+        "lat": 39.90667,
+        "lng": 116.3975
+      },
+      "street_view": {
+        "lat": 39.90667,
+        "lng": 116.3975,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Beijing",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Great Wall (Mutianyu)",
+          "yt": "WXIfF7TN1QQ",
+          "start": 120
+        }
+      ],
+      "walk": "nvPd-ZFVKNM"
+    },
+    {
+      "id": "shanghai",
+      "name": "Shanghai",
+      "country": "China",
+      "country_code": "CN",
+      "country_flag": "🇨🇳",
+      "continent": "Asia",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🌃",
+      "coordinates": {
+        "lat": 31.2325,
+        "lng": 121.46917
+      },
+      "street_view": {
+        "lat": 31.2325,
+        "lng": 121.46917,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Shanghai",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "walk": "MHJUY9zEUgY"
+    },
+    {
+      "id": "great-wall-at-badaling",
+      "name": "Great Wall at Badaling",
+      "country": "China",
+      "country_code": "CN",
+      "country_flag": "🇨🇳",
+      "continent": "Asia",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🧱",
+      "coordinates": {
+        "lat": 40.35417,
+        "lng": 116.00694
+      },
+      "street_view": {
+        "lat": 40.35417,
+        "lng": 116.00694,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Badaling",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "xi-an",
+      "name": "Xi'an",
+      "country": "China",
+      "country_code": "CN",
+      "country_flag": "🇨🇳",
+      "continent": "Asia",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🏺",
+      "coordinates": {
+        "lat": 34.26111,
+        "lng": 108.94222
+      },
+      "street_view": {
+        "lat": 34.26111,
+        "lng": 108.94222,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Xi'an",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "guilin",
+      "name": "Guilin",
+      "country": "China",
+      "country_code": "CN",
+      "country_flag": "🇨🇳",
+      "continent": "Asia",
+      "region": "",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "⛰️",
+      "coordinates": {
+        "lat": 25.275,
+        "lng": 110.296
+      },
+      "street_view": {
+        "lat": 25.275,
+        "lng": 110.296,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Guilin",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "hong-kong",
+      "name": "Hong Kong",
+      "country": "China",
+      "country_code": "CN",
+      "country_flag": "🇨🇳",
+      "continent": "Asia",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🌆",
+      "coordinates": {
+        "lat": 22.3,
+        "lng": 114.2
+      },
+      "street_view": {
+        "lat": 22.3,
+        "lng": 114.2,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Hong_Kong",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "walk": "NLubGdhZRk8"
+    },
+    {
+      "id": "new-delhi",
+      "name": "New Delhi",
+      "country": "India",
+      "country_code": "IN",
+      "country_flag": "🇮🇳",
+      "continent": "Asia",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🛕",
+      "coordinates": {
+        "lat": 28.61,
+        "lng": 77.23
+      },
+      "street_view": {
+        "lat": 28.61,
+        "lng": 77.23,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Delhi",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "walk": "89BQObAoO28"
+    },
+    {
+      "id": "taj-mahal-agra",
+      "name": "Taj Mahal, Agra",
+      "country": "India",
+      "country_code": "IN",
+      "country_flag": "🇮🇳",
+      "continent": "Asia",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🕌",
+      "coordinates": {
+        "lat": 27.175,
+        "lng": 78.0419
+      },
+      "street_view": {
+        "lat": 27.175,
+        "lng": 78.0419,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Taj_Mahal",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "jaipur",
+      "name": "Jaipur",
+      "country": "India",
+      "country_code": "IN",
+      "country_flag": "🇮🇳",
+      "continent": "Asia",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🏰",
+      "coordinates": {
+        "lat": 26.915,
+        "lng": 75.82
+      },
+      "street_view": {
+        "lat": 26.915,
+        "lng": 75.82,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Jaipur",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "mumbai",
+      "name": "Mumbai",
+      "country": "India",
+      "country_code": "IN",
+      "country_flag": "🇮🇳",
+      "continent": "Asia",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🌃",
+      "coordinates": {
+        "lat": 19.07611,
+        "lng": 72.8775
+      },
+      "street_view": {
+        "lat": 19.07611,
+        "lng": 72.8775,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Mumbai",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "walk": "5GwI8sUcEp8"
+    },
+    {
+      "id": "varanasi",
+      "name": "Varanasi",
+      "country": "India",
+      "country_code": "IN",
+      "country_flag": "🇮🇳",
+      "continent": "Asia",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🪔",
+      "coordinates": {
+        "lat": 25.31889,
+        "lng": 83.01278
+      },
+      "street_view": {
+        "lat": 25.31889,
+        "lng": 83.01278,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Varanasi",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "kerala-backwaters",
+      "name": "Kerala Backwaters",
+      "country": "India",
+      "country_code": "IN",
+      "country_flag": "🇮🇳",
+      "continent": "Asia",
+      "region": "",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🛶",
+      "coordinates": {
+        "lat": 9.86348,
+        "lng": 76.3594
+      },
+      "street_view": {
+        "lat": 9.86348,
+        "lng": 76.3594,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Kerala_backwaters",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "seoul",
+      "name": "Seoul",
+      "country": "South Korea",
+      "country_code": "KR",
+      "country_flag": "🇰🇷",
+      "continent": "Asia",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏙️",
+      "coordinates": {
+        "lat": 37.56,
+        "lng": 126.99
+      },
+      "street_view": {
+        "lat": 37.56,
+        "lng": 126.99,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Seoul",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Lotte World Tower",
+          "yt": "XWPUsUw-iec",
+          "start": 7
+        }
+      ],
+      "walk": "4HzRgqQkygc"
+    },
+    {
+      "id": "busan",
+      "name": "Busan",
+      "country": "South Korea",
+      "country_code": "KR",
+      "country_flag": "🇰🇷",
+      "continent": "Asia",
+      "region": "",
+      "type": "coastal",
+      "tag": "famous",
+      "emoji": "🌊",
+      "coordinates": {
+        "lat": 35.18,
+        "lng": 129.075
+      },
+      "street_view": {
+        "lat": 35.18,
+        "lng": 129.075,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Busan",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "gyeongju",
+      "name": "Gyeongju",
+      "country": "South Korea",
+      "country_code": "KR",
+      "country_flag": "🇰🇷",
+      "continent": "Asia",
+      "region": "",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🏯",
+      "coordinates": {
+        "lat": 35.85,
+        "lng": 129.21667
+      },
+      "street_view": {
+        "lat": 35.85,
+        "lng": 129.21667,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Gyeongju",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "jeju-island",
+      "name": "Jeju Island",
+      "country": "South Korea",
+      "country_code": "KR",
+      "country_flag": "🇰🇷",
+      "continent": "Asia",
+      "region": "",
+      "type": "island",
+      "tag": "famous",
+      "emoji": "🌋",
+      "coordinates": {
+        "lat": 33.38,
+        "lng": 126.53
+      },
+      "street_view": {
+        "lat": 33.38,
+        "lng": 126.53,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Jeju_Island",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "bangkok",
+      "name": "Bangkok",
+      "country": "Thailand",
+      "country_code": "TH",
+      "country_flag": "🇹🇭",
+      "continent": "Asia",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🛕",
+      "coordinates": {
+        "lat": 13.7525,
+        "lng": 100.49417
+      },
+      "street_view": {
+        "lat": 13.7525,
+        "lng": 100.49417,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Bangkok",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "walk": "3CRJWy5zXvg"
+    },
+    {
+      "id": "chiang-mai",
+      "name": "Chiang Mai",
+      "country": "Thailand",
+      "country_code": "TH",
+      "country_flag": "🇹🇭",
+      "continent": "Asia",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🏮",
+      "coordinates": {
+        "lat": 18.79528,
+        "lng": 98.99861
+      },
+      "street_view": {
+        "lat": 18.79528,
+        "lng": 98.99861,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Chiang_Mai",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "phuket",
+      "name": "Phuket",
+      "country": "Thailand",
+      "country_code": "TH",
+      "country_flag": "🇹🇭",
+      "continent": "Asia",
+      "region": "",
+      "type": "coastal",
+      "tag": "famous",
+      "emoji": "🏝️",
+      "coordinates": {
+        "lat": 7.89,
+        "lng": 98.39833
+      },
+      "street_view": {
+        "lat": 7.89,
+        "lng": 98.39833,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Phuket_Province",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "ayutthaya",
+      "name": "Ayutthaya",
+      "country": "Thailand",
+      "country_code": "TH",
+      "country_flag": "🇹🇭",
+      "continent": "Asia",
+      "region": "",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🏛️",
+      "coordinates": {
+        "lat": 14.34778,
+        "lng": 100.56056
+      },
+      "street_view": {
+        "lat": 14.34778,
+        "lng": 100.56056,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Ayutthaya_(city)",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "kuala-lumpur",
+      "name": "Kuala Lumpur",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "country_flag": "🇲🇾",
+      "continent": "Asia",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🌃",
+      "coordinates": {
+        "lat": 3.14778,
+        "lng": 101.69528
+      },
+      "street_view": {
+        "lat": 3.14778,
+        "lng": 101.69528,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Kuala_Lumpur",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "walk": "q0Pim_-dM0I"
+    },
+    {
+      "id": "george-town-penang",
+      "name": "George Town, Penang",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "country_flag": "🇲🇾",
+      "continent": "Asia",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🏮",
+      "coordinates": {
+        "lat": 5.46543,
+        "lng": 100.284
+      },
+      "street_view": {
+        "lat": 5.46543,
+        "lng": 100.284,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "George_Town,_Penang",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "malacca-city",
+      "name": "Malacca City",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "country_flag": "🇲🇾",
+      "continent": "Asia",
+      "region": "",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "⛵",
+      "coordinates": {
+        "lat": 2.19444,
+        "lng": 102.24861
+      },
+      "street_view": {
+        "lat": 2.19444,
+        "lng": 102.24861,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Malacca_City",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "kota-kinabalu",
+      "name": "Kota Kinabalu",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "country_flag": "🇲🇾",
+      "continent": "Asia",
+      "region": "",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🏔️",
+      "coordinates": {
+        "lat": 5.975,
+        "lng": 116.0725
+      },
+      "street_view": {
+        "lat": 5.975,
+        "lng": 116.0725,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Kota_Kinabalu",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "singapore",
+      "name": "Singapore",
+      "country": "Singapore",
+      "country_code": "SG",
+      "country_flag": "🇸🇬",
+      "continent": "Asia",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🌆",
+      "coordinates": {
+        "lat": 1.28333,
+        "lng": 103.83333
+      },
+      "street_view": {
+        "lat": 1.28333,
+        "lng": 103.83333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Singapore",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "walk": "hngmf8n-zVU"
+    },
+    {
+      "id": "gardens-by-the-bay",
+      "name": "Gardens by the Bay",
+      "country": "Singapore",
+      "country_code": "SG",
+      "country_flag": "🇸🇬",
+      "continent": "Asia",
+      "region": "",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🌳",
+      "coordinates": {
+        "lat": 1.28472,
+        "lng": 103.865
+      },
+      "street_view": {
+        "lat": 1.28472,
+        "lng": 103.865,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Gardens_by_the_Bay",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "sentosa",
+      "name": "Sentosa",
+      "country": "Singapore",
+      "country_code": "SG",
+      "country_flag": "🇸🇬",
+      "continent": "Asia",
+      "region": "",
+      "type": "island",
+      "tag": "hidden",
+      "emoji": "🎡",
+      "coordinates": {
+        "lat": 1.248,
+        "lng": 103.83
+      },
+      "street_view": {
+        "lat": 1.248,
+        "lng": 103.83,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Sentosa",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "manila",
+      "name": "Manila",
+      "country": "Philippines",
+      "country_code": "PH",
+      "country_flag": "🇵🇭",
+      "continent": "Asia",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏙️",
+      "coordinates": {
+        "lat": 14.5958,
+        "lng": 120.9772
+      },
+      "street_view": {
+        "lat": 14.5958,
+        "lng": 120.9772,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Manila",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "walk": "-3Ud-hVr4_k"
+    },
+    {
+      "id": "cebu-city",
+      "name": "Cebu City",
+      "country": "Philippines",
+      "country_code": "PH",
+      "country_flag": "🇵🇭",
+      "continent": "Asia",
+      "region": "",
+      "type": "coastal",
+      "tag": "famous",
+      "emoji": "🌊",
+      "coordinates": {
+        "lat": 10.293,
+        "lng": 123.902
+      },
+      "street_view": {
+        "lat": 10.293,
+        "lng": 123.902,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Cebu_City",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "el-nido-palawan",
+      "name": "El Nido, Palawan",
+      "country": "Philippines",
+      "country_code": "PH",
+      "country_flag": "🇵🇭",
+      "continent": "Asia",
+      "region": "",
+      "type": "island",
+      "tag": "famous",
+      "emoji": "🏝️",
+      "coordinates": {
+        "lat": 11.18,
+        "lng": 119.39
+      },
+      "street_view": {
+        "lat": 11.18,
+        "lng": 119.39,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "El_Nido,_Palawan",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "banaue-rice-terraces",
+      "name": "Banaue Rice Terraces",
+      "country": "Philippines",
+      "country_code": "PH",
+      "country_flag": "🇵🇭",
+      "continent": "Asia",
+      "region": "",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🌾",
+      "coordinates": {
+        "lat": 16.9,
+        "lng": 121.05
+      },
+      "street_view": {
+        "lat": 16.9,
+        "lng": 121.05,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Banaue_Rice_Terraces",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "hanoi",
+      "name": "Hanoi",
+      "country": "Vietnam",
+      "country_code": "VN",
+      "country_flag": "🇻🇳",
+      "continent": "Asia",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏮",
+      "coordinates": {
+        "lat": 21,
+        "lng": 105.85
+      },
+      "street_view": {
+        "lat": 21,
+        "lng": 105.85,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Hanoi",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "walk": "xId3cHWsta4"
+    },
+    {
+      "id": "ho-chi-minh-city",
+      "name": "Ho Chi Minh City",
+      "country": "Vietnam",
+      "country_code": "VN",
+      "country_flag": "🇻🇳",
+      "continent": "Asia",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🌃",
+      "coordinates": {
+        "lat": 10.77556,
+        "lng": 106.70194
+      },
+      "street_view": {
+        "lat": 10.77556,
+        "lng": 106.70194,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Ho_Chi_Minh_City",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "ha-long-bay",
+      "name": "Ha Long Bay",
+      "country": "Vietnam",
+      "country_code": "VN",
+      "country_flag": "🇻🇳",
+      "continent": "Asia",
+      "region": "",
+      "type": "coastal",
+      "tag": "famous",
+      "emoji": "⛰️",
+      "coordinates": {
+        "lat": 20.9,
+        "lng": 107.2
+      },
+      "street_view": {
+        "lat": 20.9,
+        "lng": 107.2,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Hạ_Long_Bay",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "hoi-an",
+      "name": "Hoi An",
+      "country": "Vietnam",
+      "country_code": "VN",
+      "country_flag": "🇻🇳",
+      "continent": "Asia",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🏮",
+      "coordinates": {
+        "lat": 15.88333,
+        "lng": 108.33333
+      },
+      "street_view": {
+        "lat": 15.88333,
+        "lng": 108.33333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Hội_An_Ancient_Town",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "angkor-wat",
+      "name": "Angkor Wat",
+      "country": "Cambodia",
+      "country_code": "KH",
+      "country_flag": "🇰🇭",
+      "continent": "Asia",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🛕",
+      "coordinates": {
+        "lat": 13.4125,
+        "lng": 103.86667
+      },
+      "street_view": {
+        "lat": 13.4125,
+        "lng": 103.86667,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Angkor_Wat",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "phnom-penh",
+      "name": "Phnom Penh",
+      "country": "Cambodia",
+      "country_code": "KH",
+      "country_flag": "🇰🇭",
+      "continent": "Asia",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏯",
+      "coordinates": {
+        "lat": 11.56944,
+        "lng": 104.92111
+      },
+      "street_view": {
+        "lat": 11.56944,
+        "lng": 104.92111,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Phnom_Penh",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "siem-reap",
+      "name": "Siem Reap",
+      "country": "Cambodia",
+      "country_code": "KH",
+      "country_flag": "🇰🇭",
+      "continent": "Asia",
+      "region": "",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🏛️",
+      "coordinates": {
+        "lat": 13.36222,
+        "lng": 103.85972
+      },
+      "street_view": {
+        "lat": 13.36222,
+        "lng": 103.85972,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Siem_Reap",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "luang-prabang",
+      "name": "Luang Prabang",
+      "country": "Laos",
+      "country_code": "LA",
+      "country_flag": "🇱🇦",
+      "continent": "Asia",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🛕",
+      "coordinates": {
+        "lat": 19.89,
+        "lng": 102.13472
+      },
+      "street_view": {
+        "lat": 19.89,
+        "lng": 102.13472,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Luang_Prabang",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "vientiane",
+      "name": "Vientiane",
+      "country": "Laos",
+      "country_code": "LA",
+      "country_flag": "🇱🇦",
+      "continent": "Asia",
+      "region": "",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🏯",
+      "coordinates": {
+        "lat": 17.98,
+        "lng": 102.63
+      },
+      "street_view": {
+        "lat": 17.98,
+        "lng": 102.63,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Vientiane",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "taipei",
+      "name": "Taipei",
+      "country": "Taiwan",
+      "country_code": "TW",
+      "country_flag": "🇹🇼",
+      "continent": "Asia",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🌃",
+      "coordinates": {
+        "lat": 25.0375,
+        "lng": 121.5625
+      },
+      "street_view": {
+        "lat": 25.0375,
+        "lng": 121.5625,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Taipei",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "walk": "1sN8mOiX-4E"
+    },
+    {
+      "id": "taroko-gorge",
+      "name": "Taroko Gorge",
+      "country": "Taiwan",
+      "country_code": "TW",
+      "country_flag": "🇹🇼",
+      "continent": "Asia",
+      "region": "",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "⛰️",
+      "coordinates": {
+        "lat": 24.16667,
+        "lng": 121.33333
+      },
+      "street_view": {
+        "lat": 24.16667,
+        "lng": 121.33333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Taroko_National_Park",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "tainan",
+      "name": "Tainan",
+      "country": "Taiwan",
+      "country_code": "TW",
+      "country_flag": "🇹🇼",
+      "continent": "Asia",
+      "region": "",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🏮",
+      "coordinates": {
+        "lat": 22.99,
+        "lng": 120.185
+      },
+      "street_view": {
+        "lat": 22.99,
+        "lng": 120.185,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Tainan",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "ulaanbaatar",
+      "name": "Ulaanbaatar",
+      "country": "Mongolia",
+      "country_code": "MN",
+      "country_flag": "🇲🇳",
+      "continent": "Asia",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏙️",
+      "coordinates": {
+        "lat": 47.92194,
+        "lng": 106.91528
+      },
+      "street_view": {
+        "lat": 47.92194,
+        "lng": 106.91528,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Ulaanbaatar",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "gobi-desert",
+      "name": "Gobi Desert",
+      "country": "Mongolia",
+      "country_code": "MN",
+      "country_flag": "🇲🇳",
+      "continent": "Asia",
+      "region": "",
+      "type": "desert",
+      "tag": "famous",
+      "emoji": "🐫",
+      "coordinates": {
+        "lat": 42.59,
+        "lng": 103.43
+      },
+      "street_view": {
+        "lat": 42.59,
+        "lng": 103.43,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Gobi_Desert",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "colombo",
+      "name": "Colombo",
+      "country": "Sri Lanka",
+      "country_code": "LK",
+      "country_flag": "🇱🇰",
+      "continent": "Asia",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏙️",
+      "coordinates": {
+        "lat": 6.93444,
+        "lng": 79.84278
+      },
+      "street_view": {
+        "lat": 6.93444,
+        "lng": 79.84278,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Colombo",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "kandy",
+      "name": "Kandy",
+      "country": "Sri Lanka",
+      "country_code": "LK",
+      "country_flag": "🇱🇰",
+      "continent": "Asia",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🛕",
+      "coordinates": {
+        "lat": 7.2931,
+        "lng": 80.635
+      },
+      "street_view": {
+        "lat": 7.2931,
+        "lng": 80.635,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Kandy",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "sigiriya",
+      "name": "Sigiriya",
+      "country": "Sri Lanka",
+      "country_code": "LK",
+      "country_flag": "🇱🇰",
+      "continent": "Asia",
+      "region": "",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🪨",
+      "coordinates": {
+        "lat": 7.95694,
+        "lng": 80.75972
+      },
+      "street_view": {
+        "lat": 7.95694,
+        "lng": 80.75972,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Sigiriya",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "jerusalem",
+      "name": "Jerusalem",
+      "country": "Israel",
+      "country_code": "IL",
+      "country_flag": "🇮🇱",
+      "continent": "Asia",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🕍",
+      "coordinates": {
+        "lat": 31.77889,
+        "lng": 35.22556
+      },
+      "street_view": {
+        "lat": 31.77889,
+        "lng": 35.22556,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Jerusalem",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "tel-aviv",
+      "name": "Tel Aviv",
+      "country": "Israel",
+      "country_code": "IL",
+      "country_flag": "🇮🇱",
+      "continent": "Asia",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏖️",
+      "coordinates": {
+        "lat": 32.08,
+        "lng": 34.78
+      },
+      "street_view": {
+        "lat": 32.08,
+        "lng": 34.78,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Tel_Aviv",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "masada",
+      "name": "Masada",
+      "country": "Israel",
+      "country_code": "IL",
+      "country_flag": "🇮🇱",
+      "continent": "Asia",
+      "region": "",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🏜️",
+      "coordinates": {
+        "lat": 31.31556,
+        "lng": 35.35389
+      },
+      "street_view": {
+        "lat": 31.31556,
+        "lng": 35.35389,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Masada",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "dubai",
+      "name": "Dubai",
+      "country": "United Arab Emirates",
+      "country_code": "AE",
+      "country_flag": "🇦🇪",
+      "continent": "Asia",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🌃",
+      "coordinates": {
+        "lat": 25.20472,
+        "lng": 55.27083
+      },
+      "street_view": {
+        "lat": 25.20472,
+        "lng": 55.27083,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Dubai",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "walk": "I9XB1gHvF74"
+    },
+    {
+      "id": "abu-dhabi",
+      "name": "Abu Dhabi",
+      "country": "United Arab Emirates",
+      "country_code": "AE",
+      "country_flag": "🇦🇪",
+      "continent": "Asia",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🕌",
+      "coordinates": {
+        "lat": 24.46667,
+        "lng": 54.36667
+      },
+      "street_view": {
+        "lat": 24.46667,
+        "lng": 54.36667,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Abu_Dhabi",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "riyadh",
+      "name": "Riyadh",
+      "country": "Saudi Arabia",
+      "country_code": "SA",
+      "country_flag": "🇸🇦",
+      "continent": "Asia",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏙️",
+      "coordinates": {
+        "lat": 24.63333,
+        "lng": 46.71667
+      },
+      "street_view": {
+        "lat": 24.63333,
+        "lng": 46.71667,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Riyadh",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "jeddah",
+      "name": "Jeddah",
+      "country": "Saudi Arabia",
+      "country_code": "SA",
+      "country_flag": "🇸🇦",
+      "continent": "Asia",
+      "region": "",
+      "type": "coastal",
+      "tag": "famous",
+      "emoji": "🌊",
+      "coordinates": {
+        "lat": 21.54333,
+        "lng": 39.17278
+      },
+      "street_view": {
+        "lat": 21.54333,
+        "lng": 39.17278,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Jeddah",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "hegra-alula",
+      "name": "Hegra (AlUla)",
+      "country": "Saudi Arabia",
+      "country_code": "SA",
+      "country_flag": "🇸🇦",
+      "continent": "Asia",
+      "region": "",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🏜️",
+      "coordinates": {
+        "lat": 26.79167,
+        "lng": 37.95278
+      },
+      "street_view": {
+        "lat": 26.79167,
+        "lng": 37.95278,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Mada'in_Salih",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "doha",
+      "name": "Doha",
+      "country": "Qatar",
+      "country_code": "QA",
+      "country_flag": "🇶🇦",
+      "continent": "Asia",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🌃",
+      "coordinates": {
+        "lat": 25.28667,
+        "lng": 51.53333
+      },
+      "street_view": {
+        "lat": 25.28667,
+        "lng": 51.53333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Doha",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "petra",
+      "name": "Petra",
+      "country": "Jordan",
+      "country_code": "JO",
+      "country_flag": "🇯🇴",
+      "continent": "Asia",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🏛️",
+      "coordinates": {
+        "lat": 30.32861,
+        "lng": 35.44194
+      },
+      "street_view": {
+        "lat": 30.32861,
+        "lng": 35.44194,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Petra",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "amman",
+      "name": "Amman",
+      "country": "Jordan",
+      "country_code": "JO",
+      "country_flag": "🇯🇴",
+      "continent": "Asia",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏙️",
+      "coordinates": {
+        "lat": 31.94972,
+        "lng": 35.93278
+      },
+      "street_view": {
+        "lat": 31.94972,
+        "lng": 35.93278,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Amman",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "wadi-rum",
+      "name": "Wadi Rum",
+      "country": "Jordan",
+      "country_code": "JO",
+      "country_flag": "🇯🇴",
+      "continent": "Asia",
+      "region": "",
+      "type": "desert",
+      "tag": "famous",
+      "emoji": "🏜️",
+      "coordinates": {
+        "lat": 29.59306,
+        "lng": 35.42
+      },
+      "street_view": {
+        "lat": 29.59306,
+        "lng": 35.42,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Wadi_Rum",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "tehran",
+      "name": "Tehran",
+      "country": "Iran",
+      "country_code": "IR",
+      "country_flag": "🇮🇷",
+      "continent": "Asia",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏙️",
+      "coordinates": {
+        "lat": 35.6889,
+        "lng": 51.3897
+      },
+      "street_view": {
+        "lat": 35.6889,
+        "lng": 51.3897,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Tehran",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "isfahan",
+      "name": "Isfahan",
+      "country": "Iran",
+      "country_code": "IR",
+      "country_flag": "🇮🇷",
+      "continent": "Asia",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🕌",
+      "coordinates": {
+        "lat": 32.66528,
+        "lng": 51.67028
+      },
+      "street_view": {
+        "lat": 32.66528,
+        "lng": 51.67028,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Isfahan",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "persepolis",
+      "name": "Persepolis",
+      "country": "Iran",
+      "country_code": "IR",
+      "country_flag": "🇮🇷",
+      "continent": "Asia",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🏛️",
+      "coordinates": {
+        "lat": 29.935,
+        "lng": 52.89
+      },
+      "street_view": {
+        "lat": 29.935,
+        "lng": 52.89,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Persepolis",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "shiraz",
+      "name": "Shiraz",
+      "country": "Iran",
+      "country_code": "IR",
+      "country_flag": "🇮🇷",
+      "continent": "Asia",
+      "region": "",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🌹",
+      "coordinates": {
+        "lat": 29.61,
+        "lng": 52.5425
+      },
+      "street_view": {
+        "lat": 29.61,
+        "lng": 52.5425,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Shiraz",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "yerevan",
+      "name": "Yerevan",
+      "country": "Armenia",
+      "country_code": "AM",
+      "country_flag": "🇦🇲",
+      "continent": "Asia",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏙️",
+      "coordinates": {
+        "lat": 40.17778,
+        "lng": 44.51278
+      },
+      "street_view": {
+        "lat": 40.17778,
+        "lng": 44.51278,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Yerevan",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "lake-sevan",
+      "name": "Lake Sevan",
+      "country": "Armenia",
+      "country_code": "AM",
+      "country_flag": "🇦🇲",
+      "continent": "Asia",
+      "region": "",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🏞️",
+      "coordinates": {
+        "lat": 40.31667,
+        "lng": 45.35
+      },
+      "street_view": {
+        "lat": 40.31667,
+        "lng": 45.35,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Lake_Sevan",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "tatev-monastery",
+      "name": "Tatev Monastery",
+      "country": "Armenia",
+      "country_code": "AM",
+      "country_flag": "🇦🇲",
+      "continent": "Asia",
+      "region": "",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "⛪",
+      "coordinates": {
+        "lat": 39.37937,
+        "lng": 46.25003
+      },
+      "street_view": {
+        "lat": 39.37937,
+        "lng": 46.25003,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Tatev_Monastery",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "baku",
+      "name": "Baku",
+      "country": "Azerbaijan",
+      "country_code": "AZ",
+      "country_flag": "🇦🇿",
+      "continent": "Asia",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🔥",
+      "coordinates": {
+        "lat": 40.37556,
+        "lng": 49.8325
+      },
+      "street_view": {
+        "lat": 40.37556,
+        "lng": 49.8325,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Baku",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "tbilisi",
+      "name": "Tbilisi",
+      "country": "Georgia",
+      "country_code": "GE",
+      "country_flag": "🇬🇪",
+      "continent": "Asia",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏙️",
+      "coordinates": {
+        "lat": 41.7225,
+        "lng": 44.7925
+      },
+      "street_view": {
+        "lat": 41.7225,
+        "lng": 44.7925,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Tbilisi",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "gergeti-kazbegi",
+      "name": "Gergeti / Kazbegi",
+      "country": "Georgia",
+      "country_code": "GE",
+      "country_flag": "🇬🇪",
+      "continent": "Asia",
+      "region": "",
+      "type": "mountain",
+      "tag": "hidden",
+      "emoji": "⛰️",
+      "coordinates": {
+        "lat": 42.6625,
+        "lng": 44.62028
+      },
+      "street_view": {
+        "lat": 42.6625,
+        "lng": 44.62028,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Gergeti_Trinity_Church",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    }
+  ]
+}
