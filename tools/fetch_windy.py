@@ -25,13 +25,20 @@ Usage:
   python3 tools/fetch_windy.py --refresh  # ignore cache, re-fetch all
 Cache lives in scratchpad so re-runs during dev don't burn API quota.
 """
-import json, os, sys, time, math, urllib.request, urllib.parse, urllib.error
+import json, os, re, sys, time, math, urllib.request, urllib.parse, urllib.error
 
 ROOT  = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 KEYF  = os.path.join(ROOT, "tools", "windy.key")
 OUT   = os.path.join(ROOT, "data", "windy.json")
-CACHE = "/tmp/claude-1000/-home-kali-projects-oneworldtour/1b13f396-26ed-40ae-beca-1a1ab4f221a5/scratchpad/windy_cache"
+OVRF  = os.path.join(ROOT, "tools", "windy_overrides.json")
+CACHE = os.path.join(os.environ.get("TMPDIR", "/tmp"), "owt_windy_cache")
 BASE  = "https://api.windy.com/webcams/api/v3/webcams"
+
+# The 2026-07-07 audit found "nearest active cam" happily picks airport,
+# highway-milepost, traffic and sky cams. Never accept these as a window.
+JUNK_TITLE = re.compile(
+    r"\b(sky|MP \d|milepost|US \d|I-\d+|SR-\d|Hwy|traffic|junction|airport|airfield|toll)\b",
+    re.I)
 
 QUERY_RADIUS_KM = 50      # how wide the API search is
 MAX_KM_IN_CITY  = 25      # "this cam is in the city" threshold
@@ -79,6 +86,8 @@ def best(cams, city_lat, city_lng, require_live=False):
     cand = []
     for c in cams:
         if c.get("status") != "active":
+            continue
+        if JUNK_TITLE.search(c.get("title") or ""):
             continue
         loc = c.get("location") or {}
         clat, clng = loc.get("latitude"), loc.get("longitude")
@@ -139,6 +148,16 @@ def main():
         out[lid] = entry
         if (i + 1) % 50 == 0:
             print(f"  ...{i+1}/{len(locs)}  windows={n_win} live={n_live} empty={n_empty}")
+    # Hand-audited verdicts (wrong-place / junk cams) always win over the
+    # automatic match — see tools/windy_overrides.json and prune_windy.py.
+    try:
+        from prune_windy import apply_overrides
+        ovr = json.load(open(OVRF))
+        out, stats = apply_overrides(out, ovr)
+        print(f"  overrides: dropped {stats['entry']} entries, "
+              f"{stats['live']} live tiers, {stats['window']} window tiers")
+    except FileNotFoundError:
+        pass
     out = dict(sorted(out.items()))
     with open(OUT, "w") as f:
         json.dump(out, f, ensure_ascii=False, indent=0, separators=(",", ":"))
