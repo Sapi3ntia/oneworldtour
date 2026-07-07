@@ -1,0 +1,955 @@
+{
+  "region": "Latin America",
+  "continent": null,
+  "code": "LATINAMERICA",
+  "locations": [
+    {
+      "id": "buenos-aires",
+      "name": "Buenos Aires",
+      "country": "Argentina",
+      "country_code": "AR",
+      "country_flag": "🇦🇷",
+      "continent": "South America",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "💃",
+      "coordinates": {
+        "lat": -34.60389,
+        "lng": -58.38139
+      },
+      "street_view": {
+        "lat": -34.60389,
+        "lng": -58.38139,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Buenos_Aires",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "walk": "noyVhx-AiUI"
+    },
+    {
+      "id": "iguazu-falls",
+      "name": "Iguazú Falls",
+      "country": "Argentina",
+      "country_code": "AR",
+      "country_flag": "🇦🇷",
+      "continent": "South America",
+      "region": "",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "💦",
+      "coordinates": {
+        "lat": -25.68667,
+        "lng": -54.44472
+      },
+      "street_view": {
+        "lat": -25.68667,
+        "lng": -54.44472,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Iguazu_Falls",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "bariloche",
+      "name": "Bariloche",
+      "country": "Argentina",
+      "country_code": "AR",
+      "country_flag": "🇦🇷",
+      "continent": "South America",
+      "region": "",
+      "type": "mountain",
+      "tag": "famous",
+      "emoji": "🏔️",
+      "coordinates": {
+        "lat": -41.15,
+        "lng": -71.3
+      },
+      "street_view": {
+        "lat": -41.15,
+        "lng": -71.3,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "San_Carlos_de_Bariloche",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "mendoza",
+      "name": "Mendoza",
+      "country": "Argentina",
+      "country_code": "AR",
+      "country_flag": "🇦🇷",
+      "continent": "South America",
+      "region": "",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🍷",
+      "coordinates": {
+        "lat": -32.88972,
+        "lng": -68.84444
+      },
+      "street_view": {
+        "lat": -32.88972,
+        "lng": -68.84444,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Mendoza,_Argentina",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "ushuaia",
+      "name": "Ushuaia",
+      "country": "Argentina",
+      "country_code": "AR",
+      "country_flag": "🇦🇷",
+      "continent": "South America",
+      "region": "",
+      "type": "coastal",
+      "tag": "hidden",
+      "emoji": "🐧",
+      "coordinates": {
+        "lat": -54.80722,
+        "lng": -68.30806
+      },
+      "street_view": {
+        "lat": -54.80722,
+        "lng": -68.30806,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Ushuaia",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "la-paz",
+      "name": "La Paz",
+      "country": "Bolivia",
+      "country_code": "BO",
+      "country_flag": "🇧🇴",
+      "continent": "South America",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏔️",
+      "coordinates": {
+        "lat": -16.49583,
+        "lng": -68.13333
+      },
+      "street_view": {
+        "lat": -16.49583,
+        "lng": -68.13333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "La_Paz",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Plaza Murillo",
+          "wikipedia_slug": "Plaza_Murillo"
+        },
+        {
+          "name": "Witches' Market",
+          "wikipedia_slug": "The_Witches'_Market"
+        },
+        {
+          "name": "Mi Teleférico",
+          "wikipedia_slug": "Mi_Teleférico"
+        },
+        {
+          "name": "Valle de la Luna",
+          "wikipedia_slug": "Valle_de_la_Luna_(Bolivia)"
+        },
+        {
+          "name": "Basílica de San Francisco",
+          "wikipedia_slug": "Basilica_of_San_Francisco,_La_Paz"
+        }
+      ],
+      "blurb": "The world's highest administrative capital tumbles down a canyon above 3,600 m, ringed by the snow-capped Illimani. Steep streets brim with markets and street food, while a network of cable cars — Mi Teleférico — glides commuters over the rooftops.",
+      "fun_fact": "La Paz's Mi Teleférico is the longest and highest urban cable-car network on Earth, floating commuters between the city and El Alto at over 4,000 m.",
+      "hidden_gem_tip": "Wander the Witches' Market for the strangest souvenirs in South America, then ride the red line up to El Alto for the view back down over the whole bowl.",
+      "walk": "Kz4odqc9KFc",
+      "monuments": [
+        {
+          "name": "Mi Teleférico",
+          "yt": "_rrwe6TgJyw",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "salar-de-uyuni",
+      "name": "Salar de Uyuni",
+      "country": "Bolivia",
+      "country_code": "BO",
+      "country_flag": "🇧🇴",
+      "continent": "South America",
+      "region": "",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🧂",
+      "coordinates": {
+        "lat": -20.13377,
+        "lng": -67.48913
+      },
+      "street_view": {
+        "lat": -20.13377,
+        "lng": -67.48913,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Salar_de_Uyuni",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "sucre",
+      "name": "Sucre",
+      "country": "Bolivia",
+      "country_code": "BO",
+      "country_flag": "🇧🇴",
+      "continent": "South America",
+      "region": "",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "⛪",
+      "coordinates": {
+        "lat": -19.0475,
+        "lng": -65.26
+      },
+      "street_view": {
+        "lat": -19.0475,
+        "lng": -65.26,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Sucre",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "bogota",
+      "name": "Bogotá",
+      "country": "Colombia",
+      "country_code": "CO",
+      "country_flag": "🇨🇴",
+      "continent": "South America",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏙️",
+      "coordinates": {
+        "lat": 4.71111,
+        "lng": -74.07222
+      },
+      "street_view": {
+        "lat": 4.71111,
+        "lng": -74.07222,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Bogotá",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Monserrate",
+          "wikipedia_slug": "Monserrate"
+        },
+        {
+          "name": "Gold Museum",
+          "wikipedia_slug": "Gold_Museum,_Bogotá"
+        },
+        {
+          "name": "La Candelaria",
+          "wikipedia_slug": "La_Candelaria"
+        },
+        {
+          "name": "Plaza de Bolívar",
+          "wikipedia_slug": "Plaza_de_Bolívar"
+        },
+        {
+          "name": "Botero Museum",
+          "wikipedia_slug": "Museo_Botero"
+        }
+      ],
+      "blurb": "Colombia's high-altitude capital spreads across a green Andean plateau at 2,640 m. Its cobbled colonial heart, La Candelaria, gives way to world-class museums, a mountaintop shrine reached by funicular, and a street-art scene that turned a hard past into open-air galleries.",
+      "fun_fact": "Every Sunday, Bogotá closes more than 120 km of streets to cars for 'Ciclovía,' when a couple of million people take over the city on bikes, skates, and their own two feet.",
+      "hidden_gem_tip": "Ride up Monserrate at dusk for the city lights, then come back down into La Candelaria for late-night arepas and hot chocolate.",
+      "walk": "-CSMfkbM2QY",
+      "monuments": [
+        {
+          "name": "Monserrate",
+          "yt": "aEDbd-bDYXY",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "cartagena",
+      "name": "Cartagena",
+      "country": "Colombia",
+      "country_code": "CO",
+      "country_flag": "🇨🇴",
+      "continent": "South America",
+      "region": "",
+      "type": "coastal",
+      "tag": "famous",
+      "emoji": "🏰",
+      "coordinates": {
+        "lat": 10.4,
+        "lng": -75.5
+      },
+      "street_view": {
+        "lat": 10.4,
+        "lng": -75.5,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Cartagena,_Colombia",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "medellin",
+      "name": "Medellín",
+      "country": "Colombia",
+      "country_code": "CO",
+      "country_flag": "🇨🇴",
+      "continent": "South America",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🌸",
+      "coordinates": {
+        "lat": 6.23083,
+        "lng": -75.59056
+      },
+      "street_view": {
+        "lat": 6.23083,
+        "lng": -75.59056,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Medellín",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "montevideo",
+      "name": "Montevideo",
+      "country": "Uruguay",
+      "country_code": "UY",
+      "country_flag": "🇺🇾",
+      "continent": "South America",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏙️",
+      "coordinates": {
+        "lat": -34.90556,
+        "lng": -56.18417
+      },
+      "street_view": {
+        "lat": -34.90556,
+        "lng": -56.18417,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Montevideo",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Ciudad Vieja",
+          "wikipedia_slug": "Ciudad_Vieja,_Montevideo"
+        },
+        {
+          "name": "Plaza Independencia",
+          "wikipedia_slug": "Plaza_Independencia"
+        },
+        {
+          "name": "Palacio Salvo",
+          "wikipedia_slug": "Palacio_Salvo"
+        },
+        {
+          "name": "Mercado del Puerto",
+          "wikipedia_slug": "Mercado_del_Puerto"
+        },
+        {
+          "name": "Teatro Solís",
+          "wikipedia_slug": "Solís_Theatre"
+        }
+      ],
+      "blurb": "Uruguay's easygoing capital wraps around a wide bay where the Río de la Plata meets the Atlantic. Its Ciudad Vieja is full of art-deco and neoclassical façades, and its rambla — a waterfront promenade over 20 km long — is where the whole city walks, jogs, and sips mate at sunset.",
+      "fun_fact": "Montevideo's rambla is one of the longest continuous waterfront promenades in the world, running more than 20 km along the coast.",
+      "hidden_gem_tip": "Head to the Mercado del Puerto around midday for a parrilla lunch straight off the wood-fired grills.",
+      "walk": "GDvDlf4ltws",
+      "monuments": [
+        {
+          "name": "Palacio Salvo",
+          "yt": "vkpI8lL1Iqw",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "punta-del-este",
+      "name": "Punta del Este",
+      "country": "Uruguay",
+      "country_code": "UY",
+      "country_flag": "🇺🇾",
+      "continent": "South America",
+      "region": "",
+      "type": "coastal",
+      "tag": "famous",
+      "emoji": "🏖️",
+      "coordinates": {
+        "lat": -34.96667,
+        "lng": -54.95
+      },
+      "street_view": {
+        "lat": -34.96667,
+        "lng": -54.95,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Punta_del_Este",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "colonia-del-sacramento",
+      "name": "Colonia del Sacramento",
+      "country": "Uruguay",
+      "country_code": "UY",
+      "country_flag": "🇺🇾",
+      "continent": "South America",
+      "region": "",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🚸",
+      "coordinates": {
+        "lat": -34.47139,
+        "lng": -57.84417
+      },
+      "street_view": {
+        "lat": -34.47139,
+        "lng": -57.84417,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Colonia_del_Sacramento",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "asuncion",
+      "name": "Asunción",
+      "country": "Paraguay",
+      "country_code": "PY",
+      "country_flag": "🇵🇾",
+      "continent": "South America",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏙️",
+      "coordinates": {
+        "lat": -25.28,
+        "lng": -57.63444
+      },
+      "street_view": {
+        "lat": -25.28,
+        "lng": -57.63444,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Asunción",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Palacio de los López",
+          "wikipedia_slug": "Palacio_de_los_López"
+        },
+        {
+          "name": "Panteón de los Héroes",
+          "wikipedia_slug": "National_Pantheon_of_the_Heroes"
+        },
+        {
+          "name": "Catedral de Asunción",
+          "wikipedia_slug": "Catedral_(Asunción)"
+        }
+      ],
+      "blurb": "One of South America's oldest cities, Asunción sits on the banks of the Paraguay River and calls itself 'the mother of cities' for the colonial expeditions it launched. A laid-back capital of low pastel buildings, it centres on the riverfront and its historic government palace.",
+      "fun_fact": "Asunción is nicknamed 'la Madre de Ciudades' (the Mother of Cities) because Spanish expeditions that founded Buenos Aires and other cities set out from here.",
+      "hidden_gem_tip": "Time a stroll on the Costanera riverfront for dusk, and eat chipa — warm cheese bread — from a street vendor along the way.",
+      "walk": "cZdv21pdJg4",
+      "monuments": [
+        {
+          "name": "Palacio de los López",
+          "yt": "YXT5_TLEdqs",
+          "start": 0
+        },
+        {
+          "name": "Panteón Nacional de los Héroes",
+          "yt": "yGNm-asB8U8",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "havana",
+      "name": "Havana",
+      "country": "Cuba",
+      "country_code": "CU",
+      "country_flag": "🇨🇺",
+      "continent": "North America",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🚗",
+      "coordinates": {
+        "lat": 23.13667,
+        "lng": -82.35889
+      },
+      "street_view": {
+        "lat": 23.13667,
+        "lng": -82.35889,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Havana",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Old Havana",
+          "wikipedia_slug": "Old_Havana"
+        },
+        {
+          "name": "The Malecón",
+          "wikipedia_slug": "Malecón,_Havana"
+        },
+        {
+          "name": "El Capitolio",
+          "wikipedia_slug": "National_Capitol_of_Cuba"
+        },
+        {
+          "name": "Havana Cathedral",
+          "wikipedia_slug": "Havana_Cathedral"
+        },
+        {
+          "name": "Morro Castle",
+          "wikipedia_slug": "Castillo_de_los_Tres_Reyes_Del_Morro"
+        }
+      ],
+      "blurb": "Frozen and thriving at once, Havana pairs crumbling Spanish-colonial grandeur with 1950s American cars and a live soundtrack of son and salsa. Old Havana is a UNESCO-listed maze of plazas, while the seafront Malecón is the whole city's front porch.",
+      "fun_fact": "The Malecón sea wall runs for several kilometres along Havana's coast and doubles as the city's living room — locals treat it as the world's longest public bench.",
+      "hidden_gem_tip": "Skip the tourist-priced bars around the cathedral and find a neighbourhood paladar in Centro Habana for a proper ropa vieja.",
+      "walk": "wtEYQmXSwRk",
+      "monuments": [
+        {
+          "name": "El Capitolio",
+          "yt": "o0-Fe_2SJ6Y",
+          "start": 0
+        },
+        {
+          "name": "El Malecón",
+          "yt": "3s57K70l8-k",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "trinidad",
+      "name": "Trinidad",
+      "country": "Cuba",
+      "country_code": "CU",
+      "country_flag": "🇨🇺",
+      "continent": "North America",
+      "region": "",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🎶",
+      "coordinates": {
+        "lat": 21.80417,
+        "lng": -79.98306
+      },
+      "street_view": {
+        "lat": 21.80417,
+        "lng": -79.98306,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Trinidad,_Cuba",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "varadero",
+      "name": "Varadero",
+      "country": "Cuba",
+      "country_code": "CU",
+      "country_flag": "🇨🇺",
+      "continent": "North America",
+      "region": "",
+      "type": "coastal",
+      "tag": "famous",
+      "emoji": "🏖️",
+      "coordinates": {
+        "lat": 23.13944,
+        "lng": -81.28611
+      },
+      "street_view": {
+        "lat": 23.13944,
+        "lng": -81.28611,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Varadero",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "san-jose",
+      "name": "San José",
+      "country": "Costa Rica",
+      "country_code": "CR",
+      "country_flag": "🇨🇷",
+      "continent": "North America",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏙️",
+      "coordinates": {
+        "lat": 9.9325,
+        "lng": -84.08
+      },
+      "street_view": {
+        "lat": 9.9325,
+        "lng": -84.08,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "San_José,_Costa_Rica",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "National Theatre",
+          "wikipedia_slug": "National_Theatre_of_Costa_Rica"
+        },
+        {
+          "name": "Pre-Columbian Gold Museum",
+          "wikipedia_slug": "Pre-Columbian_Gold_Museum"
+        },
+        {
+          "name": "National Museum",
+          "wikipedia_slug": "Museo_Nacional_de_Costa_Rica"
+        },
+        {
+          "name": "Jade Museum",
+          "wikipedia_slug": "Museo_del_Jade"
+        }
+      ],
+      "blurb": "Costa Rica's capital sits in the fertile Central Valley, ringed by volcanoes and coffee hills. Behind an unassuming façade it hides ornate theatres, lively markets, and gold and jade museums — and it's the jumping-off point for the country's famous rainforests and beaches.",
+      "fun_fact": "The National Theatre of Costa Rica was funded by a self-imposed tax on coffee exports in the 1890s, back when coffee was the country's gold.",
+      "hidden_gem_tip": "See the pre-Columbian gold beneath Plaza de la Cultura, then grab a casado at a lunch counter in the Mercado Central.",
+      "walk": "-Kqi-dge4Hk",
+      "monuments": [
+        {
+          "name": "National Theatre of Costa Rica",
+          "yt": "xofqHTD_ZVg",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "arenal-volcano",
+      "name": "Arenal Volcano",
+      "country": "Costa Rica",
+      "country_code": "CR",
+      "country_flag": "🇨🇷",
+      "continent": "North America",
+      "region": "",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🌋",
+      "coordinates": {
+        "lat": 10.4625,
+        "lng": -84.70333
+      },
+      "street_view": {
+        "lat": 10.4625,
+        "lng": -84.70333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Arenal_Volcano",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "monteverde",
+      "name": "Monteverde",
+      "country": "Costa Rica",
+      "country_code": "CR",
+      "country_flag": "🇨🇷",
+      "continent": "North America",
+      "region": "",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🌿",
+      "coordinates": {
+        "lat": 10.29083,
+        "lng": -84.82528
+      },
+      "street_view": {
+        "lat": 10.29083,
+        "lng": -84.82528,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Monteverde",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "manuel-antonio",
+      "name": "Manuel Antonio",
+      "country": "Costa Rica",
+      "country_code": "CR",
+      "country_flag": "🇨🇷",
+      "continent": "North America",
+      "region": "",
+      "type": "coastal",
+      "tag": "famous",
+      "emoji": "🐒",
+      "coordinates": {
+        "lat": 9.37556,
+        "lng": -84.13583
+      },
+      "street_view": {
+        "lat": 9.37556,
+        "lng": -84.13583,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Manuel_Antonio_National_Park",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "belize-city",
+      "name": "Belize City",
+      "country": "Belize",
+      "country_code": "BZ",
+      "country_flag": "🇧🇿",
+      "continent": "North America",
+      "region": "",
+      "type": "coastal",
+      "tag": "famous",
+      "emoji": "🌊",
+      "coordinates": {
+        "lat": 17.49861,
+        "lng": -88.18861
+      },
+      "street_view": {
+        "lat": 17.49861,
+        "lng": -88.18861,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Belize_City",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "caracol",
+      "name": "Caracol",
+      "country": "Belize",
+      "country_code": "BZ",
+      "country_flag": "🇧🇿",
+      "continent": "North America",
+      "region": "",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🛕",
+      "coordinates": {
+        "lat": 16.76389,
+        "lng": -89.1175
+      },
+      "street_view": {
+        "lat": 16.76389,
+        "lng": -89.1175,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Caracol",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "ambergris-caye",
+      "name": "Ambergris Caye",
+      "country": "Belize",
+      "country_code": "BZ",
+      "country_flag": "🇧🇿",
+      "continent": "North America",
+      "region": "",
+      "type": "island",
+      "tag": "famous",
+      "emoji": "🤿",
+      "coordinates": {
+        "lat": 18.01395,
+        "lng": -87.93104
+      },
+      "street_view": {
+        "lat": 18.01395,
+        "lng": -87.93104,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Ambergris_Caye",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    }
+  ]
+}

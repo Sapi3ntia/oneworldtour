@@ -1,0 +1,825 @@
+{
+  "country": "Canada",
+  "code": "CA",
+  "locations": [
+    {
+      "id": "niagara-falls",
+      "webcam": "qx7gry390YA",
+      "name": "Niagara Falls",
+      "province": "Ontario",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "💦",
+      "coordinates": {
+        "lat": 43.0799,
+        "lng": -79.0747
+      },
+      "street_view": {
+        "lat": 43.0774,
+        "lng": -79.078,
+        "heading": 120,
+        "pitch": 10,
+        "fov": 80
+      },
+      "unsplash_query": "Niagara Falls Canada waterfall",
+      "wikipedia_slug": "Niagara_Falls",
+      "sounds": [
+        "waterfall.mp3"
+      ],
+      "blurb": "The thundering Horseshoe Falls on the Canadian side drops 57 metres and carries more water than any other waterfall in North America. The mist alone draws 13 million visitors a year — visible on clear days from 16 kilometres away.",
+      "fun_fact": "The water flowing over Niagara Falls is controlled — engineers divert up to 75% of the river at night and in winter for hydroelectric generation.",
+      "hidden_gem_tip": null,
+      "country": "Canada",
+      "country_flag": "🇨🇦",
+      "highlights": [
+        {
+          "name": "Horseshoe Falls",
+          "wikipedia_slug": "Horseshoe_Falls"
+        },
+        {
+          "name": "American Falls",
+          "wikipedia_slug": "American_Falls"
+        },
+        {
+          "name": "Clifton Hill",
+          "wikipedia_slug": "Clifton_Hill,_Ontario"
+        },
+        {
+          "name": "Niagara Parkway",
+          "wikipedia_slug": "Niagara_River"
+        }
+      ],
+      "country_code": "CA",
+      "continent": "North America"
+    },
+    {
+      "id": "cn-tower",
+      "name": "CN Tower & Toronto Waterfront",
+      "province": "Ontario",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🗼",
+      "coordinates": {
+        "lat": 43.6426,
+        "lng": -79.3871
+      },
+      "street_view": {
+        "lat": 43.6425,
+        "lng": -79.3871,
+        "heading": 180,
+        "pitch": 5,
+        "fov": 90
+      },
+      "unsplash_query": "Toronto CN Tower skyline night",
+      "wikipedia_slug": "CN_Tower",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "blurb": "Standing 553 metres, the CN Tower was the world's tallest freestanding structure for 32 years. Below it, the Toronto waterfront stretches along Lake Ontario — harbourfront galleries, ferry terminals, and lakeside parks stitched together.",
+      "fun_fact": "The CN Tower is struck by lightning up to 75 times per year and was the first structure in the world to use a tuned mass damper to resist wind sway.",
+      "hidden_gem_tip": null,
+      "country": "Canada",
+      "country_flag": "🇨🇦",
+      "highlights": [
+        {
+          "name": "CN Tower EdgeWalk",
+          "wikipedia_slug": "CN_Tower"
+        },
+        {
+          "name": "Toronto Harbourfront",
+          "wikipedia_slug": "Harbourfront,_Toronto"
+        },
+        {
+          "name": "Toronto Islands",
+          "wikipedia_slug": "Toronto_Islands"
+        },
+        {
+          "name": "Rogers Centre",
+          "wikipedia_slug": "Rogers_Centre"
+        }
+      ],
+      "ambient": {
+        "yt": "4r7l8dseu6Y",
+        "start": 300
+      },
+      "country_code": "CA",
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "CN Tower",
+          "yt": "fgbFdV7yL_o",
+          "start": 7
+        }
+      ]
+    },
+    {
+      "id": "old-quebec",
+      "name": "Old Quebec City",
+      "province": "Quebec",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🏰",
+      "coordinates": {
+        "lat": 46.8131,
+        "lng": -71.2043
+      },
+      "street_view": {
+        "lat": 46.8116,
+        "lng": -71.2053,
+        "heading": 90,
+        "pitch": 5,
+        "fov": 85
+      },
+      "unsplash_query": "Quebec City Chateau Frontenac old town cobblestone",
+      "wikipedia_slug": "Old_Quebec",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "blurb": "The only walled city north of Mexico, Old Quebec was founded in 1608 and declared a UNESCO World Heritage Site in 1985. The Château Frontenac crowns the clifftop; below it, cobbled Rue du Petit-Champlain is the oldest commercial street in North America.",
+      "fun_fact": "Quebec City's fortification walls are the only ones remaining intact in North America north of Mexico.",
+      "hidden_gem_tip": null,
+      "country": "Canada",
+      "country_flag": "🇨🇦",
+      "highlights": [
+        {
+          "name": "Château Frontenac",
+          "wikipedia_slug": "Château_Frontenac"
+        },
+        {
+          "name": "Rue du Petit-Champlain",
+          "wikipedia_slug": "Petit_Champlain"
+        },
+        {
+          "name": "Plains of Abraham",
+          "wikipedia_slug": "Plains_of_Abraham"
+        },
+        {
+          "name": "The City Walls",
+          "wikipedia_slug": "Ramparts_of_Quebec_City"
+        }
+      ],
+      "walk": "oFsN1-AYa10",
+      "country_code": "CA",
+      "continent": "North America"
+    },
+    {
+      "id": "banff-lake-louise",
+      "name": "Banff & Lake Louise",
+      "province": "Alberta",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🏔️",
+      "coordinates": {
+        "lat": 51.4254,
+        "lng": -116.1773
+      },
+      "street_view": {
+        "lat": 51.4167,
+        "lng": -116.2134,
+        "heading": 45,
+        "pitch": 15,
+        "fov": 80
+      },
+      "unsplash_query": "Banff Lake Louise Alberta turquoise mountains glacier",
+      "wikipedia_slug": "Lake_Louise,_Alberta",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "blurb": "Lake Louise sits at 1,731 metres in the Canadian Rockies, its impossible turquoise colour caused by glacial rock flour suspended in meltwater. Canada's oldest national park surrounds it — 6,641 square kilometres of peaks, valleys, and ancient ice.",
+      "fun_fact": "The brilliant turquoise colour of Lake Louise is not algae or minerals — it is rock flour, particles so fine they stay suspended and scatter blue and green light.",
+      "hidden_gem_tip": null,
+      "country": "Canada",
+      "country_flag": "🇨🇦",
+      "highlights": [
+        {
+          "name": "Lake Louise",
+          "wikipedia_slug": "Lake_Louise"
+        },
+        {
+          "name": "Moraine Lake",
+          "wikipedia_slug": "Moraine_Lake"
+        },
+        {
+          "name": "Town of Banff",
+          "wikipedia_slug": "Banff,_Alberta"
+        },
+        {
+          "name": "Banff Gondola",
+          "wikipedia_slug": "Banff_Gondola"
+        }
+      ],
+      "country_code": "CA",
+      "continent": "North America"
+    },
+    {
+      "id": "stanley-park",
+      "name": "Stanley Park",
+      "province": "British Columbia",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🌲",
+      "coordinates": {
+        "lat": 49.3017,
+        "lng": -123.1417
+      },
+      "street_view": {
+        "lat": 49.3005,
+        "lng": -123.1398,
+        "heading": 270,
+        "pitch": 5,
+        "fov": 90
+      },
+      "unsplash_query": "Stanley Park Vancouver ocean cedar forest seawall",
+      "wikipedia_slug": "Stanley_Park",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "blurb": "A 405-hectare peninsula jutting into Burrard Inlet, Stanley Park is where ancient cedars meet the Pacific. The 9-kilometre seawall offers views of the North Shore mountains, Burrard Inlet, and downtown Vancouver — all within the same walk.",
+      "fun_fact": "Stanley Park is roughly 10% larger than Central Park in New York City, and some of its western red cedar trees are over 700 years old.",
+      "hidden_gem_tip": null,
+      "country": "Canada",
+      "country_flag": "🇨🇦",
+      "highlights": [
+        {
+          "name": "The Seawall",
+          "wikipedia_slug": "Stanley_Park"
+        },
+        {
+          "name": "Vancouver Aquarium",
+          "wikipedia_slug": "Vancouver_Aquarium"
+        },
+        {
+          "name": "Lions Gate Bridge",
+          "wikipedia_slug": "Lions_Gate_Bridge"
+        },
+        {
+          "name": "Brockton Point Totems",
+          "wikipedia_slug": "Brockton_Point_Lighthouse"
+        }
+      ],
+      "ambient": {
+        "yt": "L0yOgsmElpg",
+        "start": 60
+      },
+      "country_code": "CA",
+      "continent": "North America"
+    },
+    {
+      "id": "peggys-cove",
+      "name": "Peggy's Cove",
+      "province": "Nova Scotia",
+      "type": "coastal",
+      "tag": "hidden",
+      "emoji": "⛵",
+      "coordinates": {
+        "lat": 44.4924,
+        "lng": -63.918
+      },
+      "street_view": {
+        "lat": 44.4921,
+        "lng": -63.9183,
+        "heading": 180,
+        "pitch": 5,
+        "fov": 85
+      },
+      "unsplash_query": "Peggy's Cove Nova Scotia lighthouse granite rocks Atlantic",
+      "wikipedia_slug": "Peggy's_Cove,_Nova_Scotia",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "blurb": "Fewer than 40 people live permanently in Peggy's Cove, built on ancient glacier-smoothed granite boulders that tumble straight into the Atlantic. The red-and-white lighthouse has guided mariners through St. Margarets Bay since 1868.",
+      "fun_fact": "The village is named after Margaret — 'Peggy' — a lone survivor of an 1800s shipwreck who married a local fisherman and never left.",
+      "hidden_gem_tip": "Arrive before 8am. The light on the granite is unlike anything else and you will almost certainly have the whole place to yourself before the tour buses appear.",
+      "country": "Canada",
+      "country_flag": "🇨🇦",
+      "highlights": [
+        {
+          "name": "Peggys Point Lighthouse",
+          "wikipedia_slug": "Peggys_Point_Lighthouse"
+        },
+        {
+          "name": "The Granite Boulders",
+          "wikipedia_slug": "Peggy's_Cove,_Nova_Scotia"
+        },
+        {
+          "name": "St. Margarets Bay",
+          "wikipedia_slug": "St._Margarets_Bay"
+        }
+      ],
+      "country_code": "CA",
+      "continent": "North America"
+    },
+    {
+      "id": "tofino",
+      "name": "Tofino",
+      "province": "British Columbia",
+      "type": "coastal",
+      "tag": "hidden",
+      "emoji": "🏄",
+      "coordinates": {
+        "lat": 49.1531,
+        "lng": -125.907
+      },
+      "street_view": {
+        "lat": 49.1535,
+        "lng": -125.9065,
+        "heading": 270,
+        "pitch": 0,
+        "fov": 90
+      },
+      "unsplash_query": "Tofino BC Pacific ocean ancient rainforest beach",
+      "wikipedia_slug": "Tofino",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "blurb": "Perched at the end of a long road on Vancouver Island's wild west coast, Tofino is where ancient temperate rainforest meets the open Pacific. Long Beach runs 16 uninterrupted kilometres, backed by old-growth Sitka spruce. Grey whales and black bears are regulars.",
+      "fun_fact": "Tofino receives over 3 metres of rainfall per year — and that rain is exactly what keeps the ancient rainforest alive. The cedars here were saplings when Rome fell.",
+      "hidden_gem_tip": "Take the water taxi to Hot Springs Cove — a 2-hour journey through protected inlets to geothermal pools that cascade directly into the Pacific. Most visitors to Tofino never make it there.",
+      "country": "Canada",
+      "country_flag": "🇨🇦",
+      "highlights": [
+        {
+          "name": "Long Beach",
+          "wikipedia_slug": "Long_Beach_(Vancouver_Island)"
+        },
+        {
+          "name": "Pacific Rim National Park",
+          "wikipedia_slug": "Pacific_Rim_National_Park_Reserve"
+        },
+        {
+          "name": "Hot Springs Cove",
+          "wikipedia_slug": "Maquinna_Marine_Provincial_Park"
+        },
+        {
+          "name": "Clayoquot Sound",
+          "wikipedia_slug": "Clayoquot_Sound"
+        }
+      ],
+      "webcam": "LqaP8m2OIqM",
+      "country_code": "CA",
+      "continent": "North America"
+    },
+    {
+      "id": "churchill",
+      "name": "Churchill",
+      "province": "Manitoba",
+      "type": "wilderness",
+      "tag": "hidden",
+      "emoji": "🐻‍❄️",
+      "coordinates": {
+        "lat": 58.7684,
+        "lng": -94.165
+      },
+      "street_view": {
+        "lat": 58.769,
+        "lng": -94.1655,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "unsplash_query": "Churchill Manitoba polar bears tundra Northern Lights Hudson Bay",
+      "wikipedia_slug": "Churchill,_Manitoba",
+      "sounds": [
+        "arctic-wind.mp3"
+      ],
+      "blurb": "Accessible only by air or a two-day train ride, Churchill is the polar bear capital of the world. Every autumn, hundreds of bears gather on the shore of Hudson Bay waiting for the ice to form. In winter, the Northern Lights arc overhead in ribbons of green and violet.",
+      "fun_fact": "Churchill residents leave their cars and front doors unlocked so that anyone surprised by a polar bear can dive inside immediately.",
+      "hidden_gem_tip": "Book a Tundra Buggy in late October or early November. You will drive out onto the permafrost and sit at eye level with polar bears that press their noses to the windows.",
+      "country": "Canada",
+      "country_flag": "🇨🇦",
+      "highlights": [
+        {
+          "name": "Hudson Bay",
+          "wikipedia_slug": "Hudson_Bay"
+        },
+        {
+          "name": "Polar Bears",
+          "wikipedia_slug": "Polar_bear"
+        },
+        {
+          "name": "Northern Lights",
+          "wikipedia_slug": "Aurora"
+        },
+        {
+          "name": "Tundra Buggy Safari",
+          "wikipedia_slug": "Churchill,_Manitoba"
+        }
+      ],
+      "country_code": "CA",
+      "continent": "North America"
+    },
+    {
+      "id": "dawson-city",
+      "name": "Dawson City",
+      "province": "Yukon",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🪙",
+      "coordinates": {
+        "lat": 64.0594,
+        "lng": -139.4286
+      },
+      "street_view": {
+        "lat": 64.06,
+        "lng": -139.428,
+        "heading": 90,
+        "pitch": 0,
+        "fov": 90
+      },
+      "unsplash_query": "Dawson City Yukon gold rush Klondike historic",
+      "wikipedia_slug": "Dawson_City",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "blurb": "In 1896, gold discovered in the Klondike River turned this remote riverside clearing into a city of 30,000 people overnight. Today just 1,400 people remain, but the boardwalk streets and painted wooden storefronts feel frozen in 1898.",
+      "fun_fact": "At the height of the Gold Rush, Dawson City was briefly the largest city west of Winnipeg and north of Seattle — bigger than San Francisco.",
+      "hidden_gem_tip": "In June the sun does not set for weeks. Locals play baseball at midnight in natural daylight. The Midnight Sun Festival is when the whole town stays awake together — it feels like a dream.",
+      "country": "Canada",
+      "country_flag": "🇨🇦",
+      "highlights": [
+        {
+          "name": "Klondike Gold Rush",
+          "wikipedia_slug": "Klondike_Gold_Rush"
+        },
+        {
+          "name": "Historic Boardwalk",
+          "wikipedia_slug": "Dawson_City"
+        },
+        {
+          "name": "Midnight Dome",
+          "wikipedia_slug": "Dawson_City"
+        }
+      ],
+      "country_code": "CA",
+      "continent": "North America"
+    },
+    {
+      "id": "lunenburg",
+      "name": "Lunenburg",
+      "province": "Nova Scotia",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🎨",
+      "coordinates": {
+        "lat": 44.3774,
+        "lng": -64.3133
+      },
+      "street_view": {
+        "lat": 44.3778,
+        "lng": -64.314,
+        "heading": 180,
+        "pitch": 5,
+        "fov": 85
+      },
+      "unsplash_query": "Lunenburg Nova Scotia colorful wooden buildings UNESCO harbour",
+      "wikipedia_slug": "Lunenburg,_Nova_Scotia",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "blurb": "A UNESCO World Heritage Town, Lunenburg's steep streets are lined with brightly painted wooden buildings dating to its 1753 founding. The famous Bluenose II schooner — on the Canadian dime — was built here, and the working waterfront still smells of salt and fish.",
+      "fun_fact": "Lunenburg is one of only two urban areas in North America on the UNESCO World Cultural Heritage List. The other is Old Quebec City.",
+      "hidden_gem_tip": "The Knaut-Rhuland House is one of the oldest surviving homes in Canada. The staff are retired fishermen and shipbuilders who tell stories you will not find in any guidebook.",
+      "country": "Canada",
+      "country_flag": "🇨🇦",
+      "highlights": [
+        {
+          "name": "Old Town Lunenburg",
+          "wikipedia_slug": "Lunenburg,_Nova_Scotia"
+        },
+        {
+          "name": "Bluenose II",
+          "wikipedia_slug": "Bluenose_II"
+        },
+        {
+          "name": "Fisheries Museum of the Atlantic",
+          "wikipedia_slug": "Fisheries_Museum_of_the_Atlantic"
+        }
+      ],
+      "country_code": "CA",
+      "continent": "North America"
+    },
+    {
+      "id": "icefields-parkway",
+      "name": "Icefields Parkway",
+      "province": "Alberta",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🛣️",
+      "coordinates": {
+        "lat": 52.2154,
+        "lng": -117.1929
+      },
+      "street_view": {
+        "lat": 52.215,
+        "lng": -117.1935,
+        "heading": 0,
+        "pitch": 5,
+        "fov": 85
+      },
+      "unsplash_query": "Icefields Parkway Alberta mountain highway glacier lake",
+      "wikipedia_slug": "Icefields_Parkway",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "blurb": "The 232-kilometre highway linking Banff and Jasper passes 100 ancient glaciers, alpine meadows, and turquoise lakes. The Columbia Icefield — visible from the road — is the largest in the Canadian Rockies and feeds rivers reaching three separate oceans.",
+      "fun_fact": "Water from the Columbia Icefield drains to the Pacific, Atlantic, and Arctic oceans, making it the hydrological apex of North America.",
+      "hidden_gem_tip": "Stop at Peyto Lake overlook just after dawn. It is shaped like a wolf head and the colour at sunrise is unlike anything else in the Rockies — by 9am it is packed with tour buses.",
+      "country": "Canada",
+      "country_flag": "🇨🇦",
+      "highlights": [
+        {
+          "name": "Columbia Icefield",
+          "wikipedia_slug": "Columbia_Icefield"
+        },
+        {
+          "name": "Peyto Lake",
+          "wikipedia_slug": "Peyto_Lake"
+        },
+        {
+          "name": "Athabasca Glacier",
+          "wikipedia_slug": "Athabasca_Glacier"
+        },
+        {
+          "name": "Bow Lake",
+          "wikipedia_slug": "Bow_Lake_(Alberta)"
+        }
+      ],
+      "country_code": "CA",
+      "continent": "North America"
+    },
+    {
+      "id": "hopewell-rocks",
+      "name": "Hopewell Rocks",
+      "province": "New Brunswick",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🪨",
+      "coordinates": {
+        "lat": 45.7768,
+        "lng": -64.581
+      },
+      "street_view": {
+        "lat": 45.777,
+        "lng": -64.5815,
+        "heading": 270,
+        "pitch": 5,
+        "fov": 85
+      },
+      "unsplash_query": "Hopewell Rocks New Brunswick Bay of Fundy tidal flowerpot formations",
+      "wikipedia_slug": "Hopewell_Rocks",
+      "sounds": [
+        "tidal-waves.mp3"
+      ],
+      "blurb": "The Bay of Fundy has the highest tides on Earth — up to 16 metres. At low tide you walk the ocean floor between 15-metre sandstone pillars topped with trees. Six hours later those same pillars are completely submerged.",
+      "fun_fact": "The tidal rise at Hopewell Rocks equals a four-storey building appearing and disappearing twice every single day.",
+      "hidden_gem_tip": "Book a kayaking tour at high tide. You paddle around the tops of the very same rock formations you walked between six hours earlier.",
+      "country": "Canada",
+      "country_flag": "🇨🇦",
+      "highlights": [
+        {
+          "name": "Bay of Fundy",
+          "wikipedia_slug": "Bay_of_Fundy"
+        },
+        {
+          "name": "The Flowerpot Rocks",
+          "wikipedia_slug": "Hopewell_Rocks"
+        },
+        {
+          "name": "Ocean Floor Walk",
+          "wikipedia_slug": "Tide"
+        }
+      ],
+      "country_code": "CA",
+      "continent": "North America"
+    },
+    {
+      "id": "point-farms",
+      "name": "Point Farms Provincial Park",
+      "province": "Ontario",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🌅",
+      "coordinates": {
+        "lat": 43.8052,
+        "lng": -81.713
+      },
+      "street_view": {
+        "lat": 43.8052,
+        "lng": -81.713,
+        "heading": 270,
+        "pitch": 0,
+        "fov": 90
+      },
+      "unsplash_query": "Lake Huron bluff beach sunset Goderich Ontario",
+      "wikipedia_slug": "Lake_Huron",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "blurb": "Perched on a bluff above Lake Huron just north of Goderich, Point Farms was once the site of a grand Victorian resort hotel that drew steamship crowds in the 1880s. Today its 92 hectares are sandy beach, hardwood ravines, and 6 kilometres of trail — and some of the most celebrated sunsets on the Great Lakes.",
+      "fun_fact": "Before it was a park, this bluff held one of Lake Huron's grand summer resort hotels — guests arrived by lake steamer to take in the same sunset views campers come for today.",
+      "hidden_gem_tip": "Come for sunset and stay past it. With almost no light pollution over the water, the sky above the Lake Huron bluff fills with stars while the last orange glow fades on the horizon.",
+      "country": "Canada",
+      "country_flag": "🇨🇦",
+      "highlights": [
+        {
+          "name": "Lake Huron",
+          "wikipedia_slug": "Lake_Huron"
+        },
+        {
+          "name": "Goderich",
+          "wikipedia_slug": "Goderich,_Ontario"
+        },
+        {
+          "name": "Huron County",
+          "wikipedia_slug": "Huron_County,_Ontario"
+        }
+      ],
+      "country_code": "CA",
+      "continent": "North America"
+    },
+    {
+      "id": "grand-river",
+      "name": "Grand River",
+      "province": "Ontario",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🛶",
+      "coordinates": {
+        "lat": 43.1933,
+        "lng": -80.3847
+      },
+      "street_view": {
+        "lat": 43.1933,
+        "lng": -80.3847,
+        "heading": 180,
+        "pitch": 0,
+        "fov": 90
+      },
+      "unsplash_query": "Grand River Ontario canoe Brantford Paris heritage river",
+      "wikipedia_slug": "Grand_River_(Ontario)",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "blurb": "Southern Ontario's largest river runs 290 kilometres from the highlands near Dundalk down to Lake Erie, threading through Kitchener, Cambridge, Paris, and Brantford. In 1994 the Grand and its tributaries were named a Canadian Heritage River — recognised as much for the lives lived along it as for its nature.",
+      "fun_fact": "The Grand is one of the few Canadian Heritage Rivers designated for its human and cultural history as well as its ecology — it flows through the Six Nations of the Grand River, the largest First Nations reserve in Canada by population.",
+      "hidden_gem_tip": "Float the river. From Elora down to Paris, outfitters rent canoes and tubes for lazy half-day paddles past limestone cliffs and old mill towns — the best way to see why it earned heritage status.",
+      "country": "Canada",
+      "country_flag": "🇨🇦",
+      "highlights": [
+        {
+          "name": "Elora Gorge",
+          "wikipedia_slug": "Elora_Gorge"
+        },
+        {
+          "name": "Brantford",
+          "wikipedia_slug": "Brantford"
+        },
+        {
+          "name": "Six Nations of the Grand River",
+          "wikipedia_slug": "Six_Nations_of_the_Grand_River"
+        },
+        {
+          "name": "Lake Erie",
+          "wikipedia_slug": "Lake_Erie"
+        }
+      ],
+      "country_code": "CA",
+      "continent": "North America"
+    },
+    {
+      "id": "elora-gorge",
+      "name": "Elora Gorge",
+      "province": "Ontario",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🏞️",
+      "coordinates": {
+        "lat": 43.6667,
+        "lng": -80.45
+      },
+      "street_view": {
+        "lat": 43.6667,
+        "lng": -80.45,
+        "heading": 90,
+        "pitch": 0,
+        "fov": 85
+      },
+      "unsplash_query": "Elora Gorge Ontario limestone cliffs Grand River tubing",
+      "wikipedia_slug": "Elora_Gorge",
+      "sounds": [
+        "waterfall.mp3"
+      ],
+      "blurb": "The Grand River carved this dramatic limestone canyon over thousands of years, leaving sheer cliffs up to 22 metres high lining a two-kilometre gorge at the edge of the village of Elora. In summer the river fills with tubers drifting between the walls; year-round, trails trace the rim past cedar clinging to the rock.",
+      "fun_fact": "The gorge's walls are made of ancient limestone, then scoured into a canyon by the rushing meltwaters at the end of the last ice age.",
+      "hidden_gem_tip": "Look for the 'Tooth of Time,' a lone pillar of rock standing midstream where the river splits — and cool off at the nearby Elora Quarry, a spring-fed swimming hole in a former limestone quarry.",
+      "country": "Canada",
+      "country_flag": "🇨🇦",
+      "highlights": [
+        {
+          "name": "Elora",
+          "wikipedia_slug": "Elora,_Ontario"
+        },
+        {
+          "name": "Grand River",
+          "wikipedia_slug": "Grand_River_(Ontario)"
+        },
+        {
+          "name": "Grand River Conservation Authority",
+          "wikipedia_slug": "Grand_River_Conservation_Authority"
+        }
+      ],
+      "country_code": "CA",
+      "continent": "North America"
+    },
+    {
+      "id": "pinery",
+      "name": "Pinery Provincial Park",
+      "province": "Ontario",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🏕️",
+      "coordinates": {
+        "lat": 43.26,
+        "lng": -81.8278
+      },
+      "street_view": {
+        "lat": 43.26,
+        "lng": -81.8278,
+        "heading": 270,
+        "pitch": 0,
+        "fov": 90
+      },
+      "unsplash_query": "Pinery Provincial Park Lake Huron oak savanna dunes Grand Bend",
+      "wikipedia_slug": "Pinery_Provincial_Park",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "blurb": "On the Lake Huron shore near Grand Bend, Pinery protects one of the largest remaining tracts of oak savanna on Earth — a rare, fire-shaped blend of grassland and forest found in a fraction of its original range. Ten kilometres of beach back onto dunes, and the slow Old Ausable Channel winds through the woods behind them.",
+      "fun_fact": "Oak savanna is one of the most endangered ecosystems in the world; Pinery's is kept alive by carefully managed prescribed burns that mimic the natural fires the landscape evolved with.",
+      "hidden_gem_tip": "Pinery is famous for its sunsets and its dark skies — paddle the Old Ausable Channel at dusk, then stay for some of the best stargazing in southern Ontario.",
+      "country": "Canada",
+      "country_flag": "🇨🇦",
+      "highlights": [
+        {
+          "name": "Lake Huron",
+          "wikipedia_slug": "Lake_Huron"
+        },
+        {
+          "name": "Grand Bend",
+          "wikipedia_slug": "Grand_Bend,_Ontario"
+        },
+        {
+          "name": "Oak savanna",
+          "wikipedia_slug": "Oak_savanna"
+        }
+      ],
+      "country_code": "CA",
+      "continent": "North America"
+    },
+    {
+      "id": "rondeau",
+      "name": "Rondeau Provincial Park",
+      "province": "Ontario",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🦅",
+      "coordinates": {
+        "lat": 42.2833,
+        "lng": -81.8667
+      },
+      "street_view": {
+        "lat": 42.2833,
+        "lng": -81.8667,
+        "heading": 180,
+        "pitch": 0,
+        "fov": 90
+      },
+      "unsplash_query": "Rondeau Provincial Park Lake Erie Carolinian forest sand spit birding",
+      "wikipedia_slug": "Rondeau_Provincial_Park",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "blurb": "Ontario's second-oldest provincial park, established in 1894, sits on an eight-kilometre sand spit curling into Lake Erie. Inside it lies the largest stand of Carolinian forest in Canada — a southern, almost subtropical woodland of tulip trees and sassafras that draws birders from across the continent during spring migration.",
+      "fun_fact": "Rondeau takes its name from the French 'ronde eau' — 'round water' — for the sheltered, circular bay the sand spit wraps around.",
+      "hidden_gem_tip": "Come during May migration. Rondeau is one of Canada's premier birding spots, and its Carolinian forest is among the only places in the country to reliably see the brilliant yellow prothonotary warbler.",
+      "country": "Canada",
+      "country_flag": "🇨🇦",
+      "highlights": [
+        {
+          "name": "Lake Erie",
+          "wikipedia_slug": "Lake_Erie"
+        },
+        {
+          "name": "Carolinian forest",
+          "wikipedia_slug": "Carolinian_forest"
+        },
+        {
+          "name": "Prothonotary warbler",
+          "wikipedia_slug": "Prothonotary_warbler"
+        }
+      ],
+      "country_code": "CA",
+      "continent": "North America"
+    }
+  ]
+}

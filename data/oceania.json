@@ -1,0 +1,349 @@
+{
+  "region": "Oceania",
+  "continent": null,
+  "code": "OCEANIA",
+  "locations": [
+    {
+      "id": "sydney",
+      "name": "Sydney",
+      "country": "Australia",
+      "country_code": "AU",
+      "country_flag": "🇦🇺",
+      "continent": "Oceania",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🌉",
+      "coordinates": {
+        "lat": -33.86778,
+        "lng": 151.21
+      },
+      "street_view": {
+        "lat": -33.86778,
+        "lng": 151.21,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Sydney",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "walk": "dK3ih5op1F8"
+    },
+    {
+      "id": "melbourne",
+      "name": "Melbourne",
+      "country": "Australia",
+      "country_code": "AU",
+      "country_flag": "🇦🇺",
+      "continent": "Oceania",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🎨",
+      "coordinates": {
+        "lat": -37.81417,
+        "lng": 144.96306
+      },
+      "street_view": {
+        "lat": -37.81417,
+        "lng": 144.96306,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Melbourne",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "uluru",
+      "name": "Uluru",
+      "country": "Australia",
+      "country_code": "AU",
+      "country_flag": "🇦🇺",
+      "continent": "Oceania",
+      "region": "",
+      "type": "desert",
+      "tag": "famous",
+      "emoji": "🪨",
+      "coordinates": {
+        "lat": -25.345,
+        "lng": 131.03611
+      },
+      "street_view": {
+        "lat": -25.345,
+        "lng": 131.03611,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Uluru",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "great-barrier-reef",
+      "name": "Great Barrier Reef",
+      "country": "Australia",
+      "country_code": "AU",
+      "country_flag": "🇦🇺",
+      "continent": "Oceania",
+      "region": "",
+      "type": "coastal",
+      "tag": "famous",
+      "emoji": "🐠",
+      "coordinates": {
+        "lat": -16.4,
+        "lng": 145.8
+      },
+      "street_view": {
+        "lat": -16.4,
+        "lng": 145.8,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Great_Barrier_Reef",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "cairns",
+      "name": "Cairns",
+      "country": "Australia",
+      "country_code": "AU",
+      "country_flag": "🇦🇺",
+      "continent": "Oceania",
+      "region": "",
+      "type": "coastal",
+      "tag": "hidden",
+      "emoji": "🌴",
+      "coordinates": {
+        "lat": -16.92,
+        "lng": 145.78
+      },
+      "street_view": {
+        "lat": -16.92,
+        "lng": 145.78,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Cairns",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "perth",
+      "name": "Perth",
+      "country": "Australia",
+      "country_code": "AU",
+      "country_flag": "🇦🇺",
+      "continent": "Oceania",
+      "region": "",
+      "type": "coastal",
+      "tag": "hidden",
+      "emoji": "🏖️",
+      "coordinates": {
+        "lat": -32,
+        "lng": 115.9
+      },
+      "street_view": {
+        "lat": -32,
+        "lng": 115.9,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Perth",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "auckland",
+      "name": "Auckland",
+      "country": "New Zealand",
+      "country_code": "NZ",
+      "country_flag": "🇳🇿",
+      "continent": "Oceania",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "⛵",
+      "coordinates": {
+        "lat": -36.8492,
+        "lng": 174.7653
+      },
+      "street_view": {
+        "lat": -36.8492,
+        "lng": 174.7653,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Auckland",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "country": "New Zealand",
+      "country_code": "NZ",
+      "country_flag": "🇳🇿",
+      "continent": "Oceania",
+      "region": "",
+      "type": "mountain",
+      "tag": "famous",
+      "emoji": "🏔️",
+      "coordinates": {
+        "lat": -45.03111,
+        "lng": 168.6625
+      },
+      "street_view": {
+        "lat": -45.03111,
+        "lng": 168.6625,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Queenstown,_New_Zealand",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "wellington",
+      "name": "Wellington",
+      "country": "New Zealand",
+      "country_code": "NZ",
+      "country_flag": "🇳🇿",
+      "continent": "Oceania",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🎬",
+      "coordinates": {
+        "lat": -41.28889,
+        "lng": 174.77722
+      },
+      "street_view": {
+        "lat": -41.28889,
+        "lng": 174.77722,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Wellington",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "rotorua",
+      "name": "Rotorua",
+      "country": "New Zealand",
+      "country_code": "NZ",
+      "country_flag": "🇳🇿",
+      "continent": "Oceania",
+      "region": "",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "♨️",
+      "coordinates": {
+        "lat": -38.13778,
+        "lng": 176.25139
+      },
+      "street_view": {
+        "lat": -38.13778,
+        "lng": 176.25139,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Rotorua",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "milford-sound",
+      "name": "Milford Sound",
+      "country": "New Zealand",
+      "country_code": "NZ",
+      "country_flag": "🇳🇿",
+      "continent": "Oceania",
+      "region": "",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🏞️",
+      "coordinates": {
+        "lat": -44.64806,
+        "lng": 167.90556
+      },
+      "street_view": {
+        "lat": -44.64806,
+        "lng": 167.90556,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Milford_Sound",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    }
+  ]
+}

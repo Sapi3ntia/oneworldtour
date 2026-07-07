@@ -1,0 +1,787 @@
+{
+  "region": "Africa",
+  "continent": null,
+  "code": "AFRICA",
+  "locations": [
+    {
+      "id": "marrakesh",
+      "name": "Marrakesh",
+      "country": "Morocco",
+      "country_code": "MA",
+      "country_flag": "🇲🇦",
+      "continent": "Africa",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🕌",
+      "coordinates": {
+        "lat": 31.63,
+        "lng": -8.00889
+      },
+      "street_view": {
+        "lat": 31.63,
+        "lng": -8.00889,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Marrakesh",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "walk": "Ac2zc-NALhA"
+    },
+    {
+      "id": "fez",
+      "name": "Fez",
+      "country": "Morocco",
+      "country_code": "MA",
+      "country_flag": "🇲🇦",
+      "continent": "Africa",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🏺",
+      "coordinates": {
+        "lat": 34.04333,
+        "lng": -5.00333
+      },
+      "street_view": {
+        "lat": 34.04333,
+        "lng": -5.00333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Fez,_Morocco",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "chefchaouen",
+      "name": "Chefchaouen",
+      "country": "Morocco",
+      "country_code": "MA",
+      "country_flag": "🇲🇦",
+      "continent": "Africa",
+      "region": "",
+      "type": "village",
+      "tag": "hidden",
+      "emoji": "🔵",
+      "coordinates": {
+        "lat": 35.17139,
+        "lng": -5.26972
+      },
+      "street_view": {
+        "lat": 35.17139,
+        "lng": -5.26972,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Chefchaouen",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "sahara-at-merzouga",
+      "name": "Sahara at Merzouga",
+      "country": "Morocco",
+      "country_code": "MA",
+      "country_flag": "🇲🇦",
+      "continent": "Africa",
+      "region": "",
+      "type": "desert",
+      "tag": "famous",
+      "emoji": "🐫",
+      "coordinates": {
+        "lat": 31.09917,
+        "lng": -4.01167
+      },
+      "street_view": {
+        "lat": 31.09917,
+        "lng": -4.01167,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Merzouga",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "casablanca",
+      "name": "Casablanca",
+      "country": "Morocco",
+      "country_code": "MA",
+      "country_flag": "🇲🇦",
+      "continent": "Africa",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏙️",
+      "coordinates": {
+        "lat": 33.53333,
+        "lng": -7.58333
+      },
+      "street_view": {
+        "lat": 33.53333,
+        "lng": -7.58333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Casablanca",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "giza-pyramids",
+      "name": "Giza Pyramids",
+      "country": "Egypt",
+      "country_code": "EG",
+      "country_flag": "🇪🇬",
+      "continent": "Africa",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🐫",
+      "coordinates": {
+        "lat": 29.97611,
+        "lng": 31.13278
+      },
+      "street_view": {
+        "lat": 29.97611,
+        "lng": 31.13278,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Giza_pyramid_complex",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "cairo",
+      "name": "Cairo",
+      "country": "Egypt",
+      "country_code": "EG",
+      "country_flag": "🇪🇬",
+      "continent": "Africa",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏙️",
+      "coordinates": {
+        "lat": 30.04444,
+        "lng": 31.23583
+      },
+      "street_view": {
+        "lat": 30.04444,
+        "lng": 31.23583,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Cairo",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Pyramids of Giza",
+          "yt": "EaQr917lRgI",
+          "start": 344
+        }
+      ],
+      "walk": "Mr6rRgjCBBg"
+    },
+    {
+      "id": "luxor",
+      "name": "Luxor",
+      "country": "Egypt",
+      "country_code": "EG",
+      "country_flag": "🇪🇬",
+      "continent": "Africa",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🏛️",
+      "coordinates": {
+        "lat": 25.69667,
+        "lng": 32.64444
+      },
+      "street_view": {
+        "lat": 25.69667,
+        "lng": 32.64444,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Luxor",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "aswan",
+      "name": "Aswan",
+      "country": "Egypt",
+      "country_code": "EG",
+      "country_flag": "🇪🇬",
+      "continent": "Africa",
+      "region": "",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "⛵",
+      "coordinates": {
+        "lat": 24.08889,
+        "lng": 32.89972
+      },
+      "street_view": {
+        "lat": 24.08889,
+        "lng": 32.89972,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Aswan",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "nairobi",
+      "name": "Nairobi",
+      "country": "Kenya",
+      "country_code": "KE",
+      "country_flag": "🇰🇪",
+      "continent": "Africa",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏙️",
+      "coordinates": {
+        "lat": -1.28639,
+        "lng": 36.81722
+      },
+      "street_view": {
+        "lat": -1.28639,
+        "lng": 36.81722,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Nairobi",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "walk": "UOG4TG-3Xog"
+    },
+    {
+      "id": "maasai-mara",
+      "name": "Maasai Mara",
+      "country": "Kenya",
+      "country_code": "KE",
+      "country_flag": "🇰🇪",
+      "continent": "Africa",
+      "region": "",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🦁",
+      "coordinates": {
+        "lat": -1.49,
+        "lng": 35.14
+      },
+      "street_view": {
+        "lat": -1.49,
+        "lng": 35.14,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Maasai_Mara",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "mombasa",
+      "name": "Mombasa",
+      "country": "Kenya",
+      "country_code": "KE",
+      "country_flag": "🇰🇪",
+      "continent": "Africa",
+      "region": "",
+      "type": "coastal",
+      "tag": "hidden",
+      "emoji": "🏖️",
+      "coordinates": {
+        "lat": -4.05,
+        "lng": 39.66667
+      },
+      "street_view": {
+        "lat": -4.05,
+        "lng": 39.66667,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Mombasa",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "dakar",
+      "name": "Dakar",
+      "country": "Senegal",
+      "country_code": "SN",
+      "country_flag": "🇸🇳",
+      "continent": "Africa",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏙️",
+      "coordinates": {
+        "lat": 14.69278,
+        "lng": -17.44667
+      },
+      "street_view": {
+        "lat": 14.69278,
+        "lng": -17.44667,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Dakar",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Gorée Island",
+          "wikipedia_slug": "Gorée"
+        },
+        {
+          "name": "Renaissance Monument",
+          "wikipedia_slug": "African_Renaissance_Monument"
+        },
+        {
+          "name": "Grand Mosque of Dakar",
+          "wikipedia_slug": "Grand_Mosque_of_Dakar"
+        },
+        {
+          "name": "Théodore Monod Museum",
+          "wikipedia_slug": "Théodore_Monod_African_Art_Museum"
+        },
+        {
+          "name": "Dakar Cathedral",
+          "wikipedia_slug": "Our_Lady_of_Victories_Cathedral,_Dakar"
+        }
+      ],
+      "blurb": "Perched on the westernmost tip of continental Africa, Dakar is a fast-moving Atlantic capital of markets, mosques, and the thumping mbalax music it gave the world. Colonial-era Plateau meets sea-spray corniches, with the haunting slave-trade memorial of Gorée just offshore.",
+      "fun_fact": "Dakar sits on the Cap-Vert peninsula, the westernmost point of mainland Africa — and lent its name to the legendary Paris–Dakar rally.",
+      "hidden_gem_tip": "Take the short ferry to Île de Gorée for its colonial lanes and the sobering House of Slaves before the afternoon crowds arrive.",
+      "walk": "j96AXnt0Dz8",
+      "monuments": [
+        {
+          "name": "African Renaissance Monument",
+          "yt": "RQwS6JK7WrY",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "goree-island",
+      "name": "Gorée Island",
+      "country": "Senegal",
+      "country_code": "SN",
+      "country_flag": "🇸🇳",
+      "continent": "Africa",
+      "region": "",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "⚓",
+      "coordinates": {
+        "lat": 14.66694,
+        "lng": -17.39833
+      },
+      "street_view": {
+        "lat": 14.66694,
+        "lng": -17.39833,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Gorée",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "addis-ababa",
+      "name": "Addis Ababa",
+      "country": "Ethiopia",
+      "country_code": "ET",
+      "country_flag": "🇪🇹",
+      "continent": "Africa",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏙️",
+      "coordinates": {
+        "lat": 9.03583,
+        "lng": 38.7525
+      },
+      "street_view": {
+        "lat": 9.03583,
+        "lng": 38.7525,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Addis_Ababa",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "National Museum",
+          "wikipedia_slug": "National_Museum_of_Ethiopia"
+        },
+        {
+          "name": "Holy Trinity Cathedral",
+          "wikipedia_slug": "Holy_Trinity_Cathedral,_Addis_Ababa"
+        },
+        {
+          "name": "Merkato",
+          "wikipedia_slug": "Addis_Mercato"
+        },
+        {
+          "name": "Mount Entoto",
+          "wikipedia_slug": "Mount_Entoto"
+        },
+        {
+          "name": "Meskel Square",
+          "wikipedia_slug": "Meskel_Square"
+        }
+      ],
+      "blurb": "Africa's diplomatic capital and the seat of the African Union, Addis Ababa sprawls across the highlands at some 2,355 m. It's the home of 'Lucy,' Ethiopia's ancient ancestor, and a city of vast markets, incense-filled churches, and the world's original coffee culture.",
+      "fun_fact": "Addis Ababa's National Museum holds 'Lucy' (Dinkinesh), a 3.2-million-year-old human ancestor whose bones rewrote the story of where we come from.",
+      "hidden_gem_tip": "Sit through a full traditional coffee ceremony — roasting, brewing, three rounds — the way Ethiopians have done for centuries.",
+      "walk": "ZlRFeDzKCBY",
+      "monuments": [
+        {
+          "name": "National Museum (home of Lucy)",
+          "yt": "CL1XiT9bQdw",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "lalibela",
+      "name": "Lalibela",
+      "country": "Ethiopia",
+      "country_code": "ET",
+      "country_flag": "🇪🇹",
+      "continent": "Africa",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "⛪",
+      "coordinates": {
+        "lat": 12.03167,
+        "lng": 39.04111
+      },
+      "street_view": {
+        "lat": 12.03167,
+        "lng": 39.04111,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Lalibela",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "gondar",
+      "name": "Gondar",
+      "country": "Ethiopia",
+      "country_code": "ET",
+      "country_flag": "🇪🇹",
+      "continent": "Africa",
+      "region": "",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🏰",
+      "coordinates": {
+        "lat": 12.6075,
+        "lng": 37.45917
+      },
+      "street_view": {
+        "lat": 12.6075,
+        "lng": 37.45917,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Gondar",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "banjul",
+      "name": "Banjul",
+      "country": "Gambia",
+      "country_code": "GM",
+      "country_flag": "🇬🇲",
+      "continent": "Africa",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏙️",
+      "coordinates": {
+        "lat": 13.45417,
+        "lng": -16.57528
+      },
+      "street_view": {
+        "lat": 13.45417,
+        "lng": -16.57528,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Banjul",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "cape-town",
+      "name": "Cape Town",
+      "country": "South Africa",
+      "country_code": "ZA",
+      "country_flag": "🇿🇦",
+      "continent": "Africa",
+      "region": "",
+      "type": "coastal",
+      "tag": "famous",
+      "emoji": "🏔️",
+      "coordinates": {
+        "lat": -33.92528,
+        "lng": 18.42389
+      },
+      "street_view": {
+        "lat": -33.92528,
+        "lng": 18.42389,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Cape_Town",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null,
+      "walk": "BSxV9nUfDAU"
+    },
+    {
+      "id": "table-mountain",
+      "name": "Table Mountain",
+      "country": "South Africa",
+      "country_code": "ZA",
+      "country_flag": "🇿🇦",
+      "continent": "Africa",
+      "region": "",
+      "type": "mountain",
+      "tag": "famous",
+      "emoji": "⛰️",
+      "coordinates": {
+        "lat": -33.96218,
+        "lng": 18.40988
+      },
+      "street_view": {
+        "lat": -33.96218,
+        "lng": 18.40988,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Table_Mountain",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    },
+    {
+      "id": "johannesburg",
+      "name": "Johannesburg",
+      "country": "South Africa",
+      "country_code": "ZA",
+      "country_flag": "🇿🇦",
+      "continent": "Africa",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏙️",
+      "coordinates": {
+        "lat": -26.20444,
+        "lng": 28.04556
+      },
+      "street_view": {
+        "lat": -26.20444,
+        "lng": 28.04556,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Johannesburg",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Apartheid Museum",
+          "wikipedia_slug": "Apartheid_Museum"
+        },
+        {
+          "name": "Constitution Hill",
+          "wikipedia_slug": "Constitution_Hill,_Johannesburg"
+        },
+        {
+          "name": "Soweto",
+          "wikipedia_slug": "Soweto"
+        },
+        {
+          "name": "Gold Reef City",
+          "wikipedia_slug": "Gold_Reef_City"
+        },
+        {
+          "name": "Nelson Mandela Bridge",
+          "wikipedia_slug": "Nelson_Mandela_Bridge"
+        }
+      ],
+      "blurb": "Born from an 1886 gold rush, Johannesburg — 'Jozi' — is South Africa's biggest city and its restless economic engine. It's the gateway to Soweto and the Apartheid Museum, a place where the country's hardest history and its most energetic reinvention sit side by side.",
+      "fun_fact": "Johannesburg is often called one of the world's largest man-made urban forests — millions of trees now cover a city that sits on naturally treeless highveld.",
+      "hidden_gem_tip": "Spend a morning at the Apartheid Museum for context, then eat and browse the industrial-chic Maboneng precinct downtown.",
+      "walk": "iydnFbgrRTE",
+      "monuments": [
+        {
+          "name": "Apartheid Museum",
+          "yt": "DRO2JLH7tRs",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "kruger-national-park",
+      "name": "Kruger National Park",
+      "country": "South Africa",
+      "country_code": "ZA",
+      "country_flag": "🇿🇦",
+      "continent": "Africa",
+      "region": "",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🦁",
+      "coordinates": {
+        "lat": -24,
+        "lng": 31.5
+      },
+      "street_view": {
+        "lat": -24,
+        "lng": 31.5,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Kruger_National_Park",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [],
+      "blurb": "",
+      "fun_fact": "",
+      "hidden_gem_tip": null
+    }
+  ]
+}

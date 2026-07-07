@@ -1,0 +1,78 @@
+{
+  "regions": [
+    {
+      "id": "canada",
+      "name": "Canada",
+      "flag": "🇨🇦",
+      "country": "Canada",
+      "continent": "North America",
+      "file": "data/canada.json",
+      "enabled": true
+    },
+    {
+      "id": "usa",
+      "name": "USA",
+      "flag": "🇺🇸",
+      "country": "United States",
+      "continent": "North America",
+      "file": "data/usa.json",
+      "enabled": true
+    },
+    {
+      "id": "europe",
+      "name": "Europe",
+      "flag": "🇪🇺",
+      "country": null,
+      "continent": "Europe",
+      "file": "data/europe.json",
+      "enabled": true
+    },
+    {
+      "id": "asia",
+      "name": "Asia",
+      "flag": "🌏",
+      "country": null,
+      "continent": "Asia",
+      "file": "data/asia.json",
+      "enabled": true
+    },
+    {
+      "id": "africa",
+      "name": "Africa",
+      "flag": "🌍",
+      "country": null,
+      "continent": "Africa",
+      "file": "data/africa.json",
+      "enabled": true
+    },
+    {
+      "id": "oceania",
+      "name": "Oceania",
+      "flag": "🌏",
+      "country": null,
+      "continent": "Oceania",
+      "file": "data/oceania.json",
+      "enabled": true
+    },
+    {
+      "id": "latinamerica",
+      "name": "Latin America",
+      "flag": "🌎",
+      "country": null,
+      "continent": null,
+      "file": "data/latinamerica.json",
+      "enabled": true
+    },
+    {
+      "id": "ancient",
+      "name": "Ancient",
+      "flag": "🤫",
+      "country": null,
+      "continent": "Various",
+      "file": "data/ancient.json",
+      "enabled": true,
+      "collection": "Ancient Apocalypse",
+      "accent": "#a776dd"
+    }
+  ]
+}
