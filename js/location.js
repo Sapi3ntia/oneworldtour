@@ -154,7 +154,7 @@ function kindCap(tier, v) {
   if (tier === 'live') return '🔴 <span class="outside-live">Live cam · streaming now</span>';
   if (tier === 'walk') return `🚶 <span class="outside-recorded">${escapeHtml(v.title || 'Walking tour')}</span>`;
   return v.kind === 'timelapse'
-    ? '🪟 <span class="outside-recorded">Window · live timelapse, updates through the day</span>'
+    ? '🪟 <span class="outside-recorded">Window · webcam stills, updated through the day</span>'
     : '🪟 <span class="outside-recorded">Window · a recorded view of the place</span>';
 }
 

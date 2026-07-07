@@ -74,7 +74,7 @@ function renderLegend() {
   const amb  = cams.some(l => kindOf(l) === 'ambient');
   const parts = [];
   if (live) parts.push('🔴 live cam · streaming now');
-  if (tl)   parts.push('🪟 webcam · real recent view, updates through the day');
+  if (tl)   parts.push('🪟 webcam stills · today\'s real view, updated through the day');
   if (amb)  parts.push('🎬 ambient view · recorded, looped');
   $('legend').textContent = parts.join('     ');
 }
@@ -97,7 +97,7 @@ function renderSuggestions() {
     const k = kindOf(l);
     const mark = k === 'live' ? '🔴' : k === 'timelapse' ? '🪟' : '🎬';
     b.title = k === 'live' ? 'Live webcam — streaming now'
-            : k === 'timelapse' ? 'Webcam — real recent view, updates through the day'
+            : k === 'timelapse' ? 'Webcam stills — today\'s real view, updated through the day'
             : 'Ambient view — recorded, looped';
     b.innerHTML = `${mark} ${l.emoji || '📍'} ${esc(l.name)}`;
     b.addEventListener('click', () => openWindow(l));
@@ -176,7 +176,7 @@ function setBadge(kind) {
   const b = $('w-kind');
   if (!b) return;
   if (kind === 'live')          { b.textContent = '🔴 Live'; b.className = 'w-kind live'; }
-  else if (kind === 'timelapse'){ b.textContent = '🪟 Live timelapse · updates through the day'; b.className = 'w-kind timelapse'; }
+  else if (kind === 'timelapse'){ b.textContent = '🪟 Webcam stills · updated through the day'; b.className = 'w-kind timelapse'; }
   else if (kind === 'ambient')  { b.textContent = '🎬 Ambient · recorded loop'; b.className = 'w-kind ambient'; }
   else                          { b.textContent = '🪟 Window'; b.className = 'w-kind'; }
 }

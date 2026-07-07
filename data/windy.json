@@ -5,20 +5,10 @@
 "km":33,
 "live":"1760095450"
 },
-"aa-dry-falls":{
-"window":"1459260430",
-"title":"Fordair › North: US 2 at MP 193.4: Coulee City",
-"km":8
-},
 "aa-ggantija":{
 "window":"1467096063",
 "title":"Victoria › North-east: Tas-Salvatur Hill",
 "km":2
-},
-"aa-hypogeum":{
-"window":"1467096063",
-"title":"Victoria › North-east: Tas-Salvatur Hill",
-"km":31
 },
 "aa-kaymakli":{
 "window":"1760095450",
@@ -26,25 +16,10 @@
 "km":39,
 "live":"1760095450"
 },
-"aa-murray-springs":{
-"window":"1650814328",
-"title":"Whetstone › South: SR-90 SB 306.41",
-"km":23
-},
-"aa-rapa-nui":{
-"window":"1267604524",
-"title":"Easter Island › North-west: Mataveri International Airport (IPC)",
-"km":13
-},
 "aa-serpent-mound":{
 "window":"1678912836",
 "title":"Peebles: SR-32 at SR-41, D09-021",
 "km":10
-},
-"aa-tetzcotzinco":{
-"window":"1347300032",
-"title":"La Gavia: Mexico DF Santa Fe",
-"km":50
 },
 "acadia":{
 "window":"1170946867",
@@ -61,11 +36,6 @@
 "window":"1286750769",
 "title":"Vietri sul Mare › East: Vietri Beach - Scogli I Due Fratelli - Tyrrhenian Sea",
 "km":11
-},
-"amsterdam":{
-"window":"1304149388",
-"title":"Almere: Haven",
-"km":22
 },
 "andalusia":{
 "window":"1351356776",
@@ -86,11 +56,6 @@
 "window":"1203786305",
 "title":"Nea Penteli › South-east: Νέα Πεντέλη",
 "km":14
-},
-"auckland":{
-"window":"1301218856",
-"title":"Waitematā: Freemans Bay › South: SH1/SH16 Central Mwy Junction",
-"km":1
 },
 "austin":{
 "window":"1647893228",
@@ -123,11 +88,6 @@
 "title":"Wachira Phayaban Subdistrict: Ratchawithi Frontage Road",
 "km":3
 },
-"banjul":{
-"window":"1403031573",
-"title":"Toubacouta: Africa Strike Lodge - Senegal: Africa Strike Lodge - Senegal",
-"km":39
-},
 "barcelona":{
 "window":"1448811166",
 "title":"Barcelona: Sagrada Família - La Sagrada Familia",
@@ -154,11 +114,6 @@
 "window":"1300301962",
 "title":"Belgrade: Live - Vukov spomenik",
 "km":2
-},
-"belize-city":{
-"window":"1701611474",
-"title":"Belize District",
-"km":44
 },
 "berlin":{
 "window":"1230040329",
@@ -195,8 +150,7 @@
 "boston":{
 "window":"1760626520",
 "title":"Boston: Church Green › North: I-93: I-93-NB-MM16.7-Boston-@ Frontage Rd merge: NORTH",
-"km":1,
-"live":"1748251927"
+"km":1
 },
 "bratislava":{
 "window":"1335801813",
@@ -236,12 +190,6 @@
 "title":"Kuranda: Barron Falls - Kuranda Scenic Railway - Barron Gorge",
 "km":17
 },
-"cambridge":{
-"window":"1793903700",
-"title":"Ely › South-west: London Plane of Ely",
-"km":24,
-"live":"1793903700"
-},
 "canary-islands":{
 "window":"1349915423",
 "title":"Santa Ursula › West: La quinta - Sendero Playa del Ancón - Santa Úrsula",
@@ -253,14 +201,7 @@
 "km":8,
 "live":"1626760973"
 },
-"catalonia":{
-"window":"1319295841",
-"title":"Odena › South: Igualada-Ódena Airport",
-"km":12,
-"live":"1319295841"
-},
 "cesky-krumlov":{
-"window":"1437378560",
 "title":"České Budějovice: Ceske Budejovice 1 › South-west: Náměstí Přemysla Otakara II.",
 "km":21,
 "live":"1431387905"
@@ -295,17 +236,6 @@
 "title":"Old Toronto: Rees Street - Toronto - Gardiner Expressway",
 "km":0
 },
-"colonia-del-sacramento":{
-"window":"1751040831",
-"title":"Dock Sud › East",
-"km":50
-},
-"copenhagen":{
-"window":"1523939321",
-"title":"Horsholm › North: Rungsted Havn - Capital Region, Denmark",
-"km":23,
-"live":"1523939321"
-},
 "corsica":{
 "window":"1706613349",
 "title":"Ajaccio › South: Golfe d'Ajaccio",
@@ -330,12 +260,6 @@
 "km":8,
 "live":"1611067697"
 },
-"delft":{
-"window":"1250250079",
-"title":"Gouda › North: Town Hall cam",
-"km":24,
-"live":"1219581836"
-},
 "denver":{
 "window":"1183402927",
 "title":"Denver › North-west: Live Downtown - weather camera",
@@ -353,22 +277,6 @@
 "km":2,
 "live":"1627683466"
 },
-"edinburgh":{
-"window":"1341939613",
-"title":"Burntisland: Fife weather webcam Lochgelly Fife",
-"km":22,
-"live":"1636384384"
-},
-"elora-gorge":{
-"window":"1540054841",
-"title":"Waterloo › North: Ontario, Canada",
-"km":24
-},
-"everglades":{
-"window":"1736335978",
-"title":"Islamorada",
-"km":50
-},
 "faroe-islands":{
 "window":"1540807415",
 "title":"Tórshavn › North-east: Faroe Islands",
@@ -379,11 +287,6 @@
 "window":"1642094123",
 "title":"arrondissement de Fes-Medina: Fes-Medina",
 "km":3
-},
-"frankfurt":{
-"window":"1195330772",
-"title":"Schmitten › North-east: Großer Feldberg - Taunus",
-"km":21
 },
 "french-riviera":{
 "window":"1588714542",
@@ -404,14 +307,12 @@
 "ghent":{
 "window":"1296555442",
 "title":"Ghent: UGent Volkssterrenwacht",
-"km":1,
-"live":"1183493286"
+"km":1
 },
 "giethoorn":{
 "window":"1556092592",
 "title":"Marknesse › North-west: Flevoland, Netherlands",
-"km":13,
-"live":"1297374943"
+"km":13
 },
 "glacier-np":{
 "window":"1640354004",
@@ -443,8 +344,7 @@
 "great-smoky-mountains":{
 "window":"1541269502",
 "title":"Gatlinburg › East: Great Smoky Mountains National Park - Tennessee, United States",
-"km":2,
-"live":"1448919855"
+"km":2
 },
 "gyeongju":{
 "window":"1708839880",
@@ -490,11 +390,6 @@
 "title":"Ben Nghe Ward",
 "km":0
 },
-"hoi-an":{
-"window":"1441356182",
-"title":"Hai Chau › North-east: Da Nang International Airport - Vietnam: Da Nang City",
-"km":21
-},
 "hong-kong":{
 "window":"1179240123",
 "title":"Kowloon › South-east",
@@ -506,11 +401,6 @@
 "title":"Honolulu › South: Ala Moana Beach Park - Hawaii, United States",
 "km":2
 },
-"hopewell-rocks":{
-"window":"1793884640",
-"title":"Aulac",
-"km":24
-},
 "icefields-parkway":{
 "window":"1594127921",
 "title":"Alberta › South-west",
@@ -521,12 +411,6 @@
 "title":"Reykjavik: Harbour - Miðbakki",
 "km":0,
 "live":"1545635591"
-},
-"iguazu-falls":{
-"window":"1746323357",
-"title":"Presidente Franco › North-east",
-"km":24,
-"live":"1723383258"
 },
 "innsbruck":{
 "window":"1203356064",
@@ -560,12 +444,6 @@
 "km":11,
 "live":"1649657483"
 },
-"joshua-tree":{
-"window":"1596828599",
-"title":"Coachella: I-10 : (533) West of Cottonwood Springs Road",
-"km":24,
-"live":"1638899731"
-},
 "jurassic-coast":{
 "window":"1793900809",
 "title":"Weymouth › North-east: Weymouth Beach",
@@ -590,8 +468,7 @@
 "kotor":{
 "window":"1713434547",
 "title":"Zlijebi: Dizdarica (tubud)",
-"km":18,
-"live":"1793905711"
+"km":18
 },
 "krakow":{
 "window":"1639755102",
@@ -632,8 +509,7 @@
 "leipzig":{
 "window":"1632497600",
 "title":"Leipzig: Augustusplatz",
-"km":1,
-"live":"1603319407"
+"km":1
 },
 "lisbon":{
 "window":"1537250856",
@@ -665,8 +541,7 @@
 "los-angeles":{
 "window":"1177669859",
 "title":"Bunker Hill › North-east: Downtown Los Angeles Art Walk",
-"km":2,
-"live":"1709835159"
+"km":2
 },
 "lunenburg":{
 "window":"1266902478",
@@ -719,16 +594,10 @@
 "km":4,
 "live":"1717462461"
 },
-"marrakesh":{
-"window":"1622904818",
-"title":"Oukaimeden › South-east: Observatoire Trappist",
-"km":49
-},
 "matera":{
 "window":"1619072420",
 "title":"Altamura › North",
-"km":18,
-"live":"1698247358"
+"km":18
 },
 "maui":{
 "window":"1401526080",
@@ -746,17 +615,6 @@
 "title":"Melbourne: Citylink Power Street",
 "km":1
 },
-"mendoza":{
-"window":"1697039896",
-"title":"Furlotti: Finca La Anita - Mendoza",
-"km":32
-},
-"meteora":{
-"window":"1450432790",
-"title":"Pertouli: Ski center Pertouliou",
-"km":24,
-"live":"1289303049"
-},
 "miami":{
 "window":"1743366357",
 "title":"Miami › North: InterContinental Miami, an IHG Hotel",
@@ -772,16 +630,10 @@
 "title":"Southland District › North-west: Southern Discoveries - Milford Sound Visitor Centre - Milford Sound / Piopiotahi - Mount Phillips - Mitre Peak - Fiordland",
 "km":3
 },
-"mombasa":{
-"window":"1414851234",
-"title":"Vingujini: The Sands At Chale Island",
-"km":46
-},
 "mont-saint-michel":{
 "window":"1793901670",
 "title":"Vains › South-west: Écomusée de la Baie du Mont-Saint-Michel",
-"km":6,
-"live":"1624625041"
+"km":6
 },
 "montenegro":{
 "window":"1793906305",
@@ -809,8 +661,7 @@
 "mostar":{
 "window":"1650463247",
 "title":"Local community Avenija Kralja Tomislava",
-"km":1,
-"live":"1605608310"
+"km":1
 },
 "mount-fuji":{
 "window":"1349983213",
@@ -822,33 +673,11 @@
 "title":"Paradise › North: Mount Rainier",
 "km":8
 },
-"mount-rushmore":{
-"window":"1386287536",
-"title":"Rapid City › South-west: SD",
-"km":29,
-"live":"1626651169"
-},
-"mumbai":{
-"window":"1662455177",
-"title":"Kopra Village › South",
-"km":23,
-"live":"1662455177"
-},
 "munich":{
 "window":"1232544622",
 "title":"Munich: Hauptbahnhof",
 "km":2,
 "live":"1232544622"
-},
-"nairobi":{
-"window":"1598420513",
-"title":"Nairobi › South-east: Wilson Airport",
-"km":5
-},
-"nara":{
-"window":"1212926731",
-"title":"Nara: The sky in south Kyoto seen from world heritage ancient capital - of Japan",
-"km":4
 },
 "nashville":{
 "window":"1620187070",
@@ -899,11 +728,6 @@
 "km":7,
 "live":"1793907143"
 },
-"odesa":{
-"window":"1668778986",
-"title":"Palanca › North-west",
-"km":47
-},
 "old-quebec":{
 "window":"1453915943",
 "title":"Quebec City › South: Orleans Island Bridge",
@@ -913,11 +737,6 @@
 "window":"1523123339",
 "title":"Clallam › South-west: Hurricane Hill - Mount Olympus",
 "km":20
-},
-"osaka":{
-"window":"1212926731",
-"title":"Nara: The sky in south Kyoto seen from world heritage ancient capital - of Japan",
-"km":24
 },
 "oslo":{
 "window":"1337867816",
@@ -934,11 +753,6 @@
 "title":"Meudon: Observatoire de",
 "km":11
 },
-"peggys-cove":{
-"window":"1682423394",
-"title":"Upper Tantallon",
-"km":24
-},
 "perth":{
 "window":"1697039621",
 "title":"Fremantle: Ports 1",
@@ -953,13 +767,7 @@
 "phuket":{
 "window":"1245318606",
 "title":"Phuket › North: Karon Beach",
-"km":13,
-"live":"1613136596"
-},
-"pinery":{
-"window":"1350086404",
-"title":"Arkona: Ontario",
-"km":21
+"km":13
 },
 "piran":{
 "window":"1406579141",
@@ -969,8 +777,7 @@
 "plitvice":{
 "window":"1634472147",
 "title":"Prnjavor: GP Izačić",
-"km":14,
-"live":"1695965635"
+"km":14
 },
 "point-farms":{
 "window":"1731954154",
@@ -1018,8 +825,7 @@
 "riga":{
 "window":"1630915366",
 "title":"Daugavgriva › North-west: Mangalsala breakwater",
-"km":13,
-"live":"1498574299"
+"km":13
 },
 "rocky-mountain-np":{
 "window":"1589658275",
@@ -1040,13 +846,7 @@
 "rothenburg":{
 "window":"1274099829",
 "title":"Rothenburg ob der Tauber: Herrnmuhle › South: Marktplatz Rothenburg ob der Tauber - German Christmas Museum",
-"km":1,
-"live":"1383456564"
-},
-"rotorua":{
-"window":"1735885934",
-"title":"Rotorua › South: Rotorua Airport",
-"km":6
+"km":1
 },
 "saint-petersburg":{
 "window":"1641064208",
@@ -1098,11 +898,6 @@
 "title":"Savannah",
 "km":1
 },
-"seattle":{
-"window":"1459258085",
-"title":"Seattle: I-5 at MP 165.4: 5th Ave/Cherry",
-"km":0
-},
 "sedona":{
 "window":"1650816127",
 "title":"Sedona › North: SR-89A NB 375.00 @Oak Creek",
@@ -1129,21 +924,10 @@
 "title":"Petralia Soprana › North-east: Saccù",
 "km":22
 },
-"sighisoara":{
-"window":"1608400733",
-"title":"Târgu Mureș: Budai Nagy Antal › North-west",
-"km":40,
-"live":"1654772402"
-},
 "singapore":{
 "window":"1369190454",
 "title":"Singapore: Midview City CCTV Live View",
 "km":8
-},
-"sintra":{
-"window":"1537250856",
-"title":"Lisbon › North: Ponte 25 de Abril - PSP - Posto Policial da Ponte 25 de Abril - Almada",
-"km":21
 },
 "sofia":{
 "window":"1394057593",
@@ -1165,8 +949,7 @@
 "strasbourg":{
 "window":"1466624481",
 "title":"Strasbourg: Aéro Club Alsace",
-"km":3,
-"live":"1425726841"
+"km":3
 },
 "swiss-alps":{
 "window":"1245679824",
@@ -1191,16 +974,10 @@
 "title":"Ziqiang Village",
 "km":5
 },
-"taipei":{
-"window":"1648361056",
-"title":"Keelung",
-"km":23
-},
 "tallinn":{
 "window":"1248783397",
 "title":"Tallinn: Pirita linnaosa › North-east: Pirita Beach",
-"km":5,
-"live":"1623564290"
+"km":5
 },
 "taroko-gorge":{
 "window":"1610262974",
@@ -1234,8 +1011,7 @@
 "trakai-castle":{
 "window":"1629199584",
 "title":"Baltoji Voke: Paluknio Aerodromas",
-"km":20,
-"live":"1749449322"
+"km":20
 },
 "transylvania":{
 "window":"1520712575",
@@ -1248,11 +1024,6 @@
 "title":"Florence: Hotel David webcam",
 "km":2,
 "live":"1633533591"
-},
-"ushuaia":{
-"window":"1249043937",
-"title":"Cape Horn › East: Tres Puentes - Puerto Williams",
-"km":46
 },
 "valencia":{
 "window":"1793898672",
@@ -1269,14 +1040,12 @@
 "venice":{
 "window":"1592498652",
 "title":"Cavallino-Treporti: Cavallino - Union Lido",
-"km":17,
-"live":"1462747477"
+"km":17
 },
 "verdon-gorge":{
 "window":"1688107334",
 "title":"Aiguines",
-"km":8,
-"live":"1208682005"
+"km":8
 },
 "vienna":{
 "window":"1169492104",
@@ -1294,12 +1063,6 @@
 "title":"Vilnius",
 "km":1,
 "live":"1749449322"
-},
-"wadi-rum":{
-"window":"1615385889",
-"title":"Eilat › South-east: Surf Center - Windsurfing",
-"km":49,
-"live":"1615385889"
 },
 "washington-dc":{
 "window":"1263154384",
@@ -1326,13 +1089,7 @@
 "yosemite":{
 "window":"1548443898",
 "title":"Yosemite Lodge › East: Half Dome",
-"km":14,
-"live":"1760813217"
-},
-"zaanse-schans":{
-"window":"1250163683",
-"title":"Amstelveen › East: Brigantijn - Groenelaan",
-"km":21
+"km":14
 },
 "zion":{
 "window":"1577202984",

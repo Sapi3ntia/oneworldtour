@@ -108,9 +108,10 @@ function clusterGroupFor(continent) {
     // collapsing into a single mega-blob while still showing meaningful clusters.
     maxClusterRadius: 60,
     showCoverageOnHover: false,
-    // At the deepest zoom, cities still stacked on each other fan out so every one
-    // is individually clickable instead of hiding beneath its neighbour.
-    spiderfyOnMaxZoom: true,
+    // Click behaviour is CUSTOM (see 'clusterclick' below), so both built-ins
+    // are off — leaving either true double-handles the click.
+    spiderfyOnMaxZoom: false,
+    zoomToBoundsOnClick: false,
     // DELIBERATELY no `disableClusteringAtZoom`. Forcing every marker to decluster
     // at a fixed zoom (we tried 8, then 5) was the root cause of BOTH map bugs:
     //   • it exploded the clusters into 345 loose pins that scatter off-screen as
@@ -137,6 +138,20 @@ function clusterGroupFor(continent) {
         className: '', iconSize: [size, size]
       });
     }
+  });
+  // Custom click: small clusters FAN OUT IN PLACE; big ones zoom to bounds.
+  // The default zoom-to-bounds centres the camera on the members' bounding-box
+  // midpoint — for island+mainland pairs (Iceland+Ireland, Canaries+Lisbon)
+  // that midpoint is open ocean, so clicking a "2" bubble "threw me into the
+  // empty water left of Portugal" while the pins sat ignorable at the screen
+  // edges. Spiderfying shows the members right where the user clicked, no
+  // camera move at all. Big clusters are dense land regions, so bounds-fit
+  // stays right for them — and at max zoom everything fans out (the old
+  // spiderfyOnMaxZoom behaviour, now handled here).
+  g.on('clusterclick', e => {
+    const c = e.layer;
+    if (c.getChildCount() <= 5 || map.getZoom() >= map.getMaxZoom()) c.spiderfy();
+    else c.zoomToBounds({ padding: [40, 40] });
   });
   map.addLayer(g);
   clusterGroups[continent] = g;
@@ -171,7 +186,7 @@ function buildMarkerHTML(loc) {
   const accent   = isColl ? ` style="--marker-accent:${loc.accent}"` : '';
   const win = hasWindow(loc), walk = hasWalk(loc);
   const kind = windowKind(loc);
-  const winLabel = kind === 'live' ? '🔴 live window' : kind === 'timelapse' ? '🪟 live timelapse' : kind === 'ambient' ? '🎬 ambient window' : '';
+  const winLabel = kind === 'live' ? '🔴 live window' : kind === 'timelapse' ? '🪟 webcam stills' : kind === 'ambient' ? '🎬 ambient window' : '';
   const liveRow = (win || walk)
     ? `<small class="marker-tip-live">${winLabel}${win && walk ? ' · ' : ''}${walk ? '🚶 walking tour' : ''}</small>`
     : '';
@@ -200,6 +215,7 @@ function visibleLocations() {
   const q = query.trim().toLowerCase();
   return allLocations.filter(loc => {
     if (tagFilter === 'saved')       { if (!State.isSaved(loc.id)) return false; }
+    else if (tagFilter === 'live')   { if (windowKind(loc) !== 'live') return false; }
     else if (tagFilter === 'window') { if (!hasWindow(loc)) return false; }
     else if (tagFilter === 'walk')   { if (!hasWalk(loc)) return false; }
     else if (tagFilter === 'both')   { if (!(hasWindow(loc) && hasWalk(loc))) return false; }
@@ -686,7 +702,7 @@ function renderSuggest() {
     const kind = windowKind(loc);
     const winMark = kind === 'live' ? '🔴' : kind === 'timelapse' ? '🪟' : kind === 'ambient' ? '🎬' : '';
     const tags = `${winMark}${walk ? '🚶' : ''}`;
-    const title = [kind === 'live' && 'live window', kind === 'timelapse' && 'live timelapse', kind === 'ambient' && 'ambient window', walk && 'walking tour'].filter(Boolean).join(' + ');
+    const title = [kind === 'live' && 'live window', kind === 'timelapse' && 'webcam stills', kind === 'ambient' && 'ambient window', walk && 'walking tour'].filter(Boolean).join(' + ');
     const badge = tags ? `<span class="ss-badge" title="${title}">${tags}</span>` : '';
     return `<button type="button" class="ss-item${i === sugIdx ? ' active' : ''}" role="option" data-i="${i}">
         <span class="ss-emoji">${loc.emoji || '📍'}</span>
