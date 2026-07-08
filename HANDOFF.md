@@ -9,7 +9,7 @@
 >
 > Counts in this doc were taken straight from the data on 2026-06-30 (walks updated 2026-07-03,
 > monuments updated 2026-07-04; map performance + layout-collision fixes 2026-07-06 — see §6e ⚡):
-> **345 locations · 89 countries · 60 walks · 247 Windy windows (105 live) · 30 curated
+> **345 locations · 89 countries · 60 walks · 204 Windy windows (73 live) · 30 curated
 > windows (17 live + 13 ambient) · 35 monument tours across 25 cities.**
 
 ---
@@ -112,7 +112,8 @@ transitions `--fast/med/slow`; fonts Playfair Display (display) + Inter (body).
   `africa.json` (22), `oceania.json` (11), `latinamerica.json` (25), `ancient.json` (25) →
   **345 locations.**
 - `windy.json` — **build-time webcam sidecar** `{ id: { window, live?, title, km } }` for
-  247 cities (105 with a live stream). Runtime embeds the keyless Windy player. See §6c.
+  204 places (73 with a live stream) after the 2026-07-07 cam audit. Runtime embeds the
+  keyless Windy player. See §6c.
 
 ### Tools (`tools/`) — Python helpers, run by hand
 | File | What it does |
@@ -163,15 +164,23 @@ drives its filter chip *and* its marker colour — **no new CSS** to add the nex
   - `monuments` — up to 3 `{name, yt, start?}` landmark videos. **35 across 25 cities.**
   - Ancient-only: `aa_season`, `aa_episode`, `aa_claim`.
 - **Windy sidecar** (`data/windy.json`, keyed by location `id`, not in the region files):
-  `{ window, live?, title, km }`. Covers **247** cities (**105** with `live`).
+  `{ window, live?, title, km }`. Covers **205** places — **204** with a `window` cam, **73**
+  also `live` — after the **2026-07-07 hand audit** (owner found Nara/Osaka's "window" was a
+  sky-cam slideshow; 63 cams were junk or the wrong place — Ushuaia's was Puerto Williams,
+  Chile). Verdicts live in `tools/windy_overrides.json`; `tools/prune_windy.py` applies them
+  to an existing windy.json, and `fetch_windy.py` applies them itself on re-crawls **and**
+  refuses junk-titled cams (airport/traffic/milepost/sky) outright. `title`/`km` describe the
+  WINDOW cam only — the live id is bare; `tools/audit_windy_live.py` re-derives live-cam
+  metadata when you need to audit that tier again.
 
 ### Current content inventory (as of 2026-06-30)
 - **345 locations across 89 countries** — Canada 17, USA 50, Europe 119, Asia 76, Africa 22,
   Oceania 11, Latin America 25, Ancient 25. *(Was 191/39 before the 2026-06-29 world-coverage
   expansion. The 154 new places are coordinate-verified but **content-thin** — no curated
   windows/walks/highlights yet; see §11 I-9.)*
-- **Windows:** 247 via Windy (105 live) **plus** 30 hand-curated (17 live + 13 ambient).
-  Curated always outranks the Windy pick.
+- **Windows:** 204 via Windy (73 live) **plus** 30 hand-curated (17 live + 13 ambient).
+  Curated always outranks the Windy pick. *(Was 247/105 before the 2026-07-07 audit pruned
+  wrong-place and junk cams — honest count beats inflated count.)*
 - **60 walking tours · 35 monument tours (25 cities).**
 
 ---
@@ -233,8 +242,10 @@ A window is a **fixed view you look out of** — it does not move. Three tiers, 
 - 🔴 **LIVE** — a real public webcam streaming *now* (`Webcam.liveFor(loc)`): curated YouTube
   live → Windy `/live`.
 - 🪟 **TIMELAPSE** — Windy's `/day` view: a real *current* still that updates through the day
-  (`kind:'timelapse'`). Neither a 24/7 stream nor a fake loop — its own honest label
-  ("🪟 live timelapse · updates through the day").
+  (`kind:'timelapse'`). Neither a 24/7 stream nor a fake loop — its own honest label, worded
+  **"🪟 webcam stills · updated through the day"** everywhere since 2026-07-07. It plays as a
+  slideshow of stills, and the old "live timelapse" wording oversold it — the owner opened one
+  expecting live video and reported it as fake. Don't re-word it back toward "live".
 - 🎬 **AMBIENT** — a curated *recorded* "out the window" video, seeked to a good moment and
   **looped** (`loop=1&playlist=<id>&start=<s>`). The technique virtualvacation uses for *all*
   its windows; we use it **only as a fallback** and never pass it off as live.
@@ -327,14 +338,21 @@ cost of geographic honesty. The base tiles get `className:'base-tiles'` + a per-
 renders continents nearly as black as the ocean; per-tile = paint-time cost only, 60fps held).
 Within each continent the behaviour is unchanged, and the old hard-won rules still bind:
 - The owner's liked behaviour is the *default* markercluster one: **click a circle → it zooms
-  to fit its members** (zoom-to-bounds; don't set `zoomToBoundsOnClick:false`). A lone city
-  renders as its own pin that **opens on one click**; only overlapping cities stay a bubble.
+  to fit its members** — but via the CUSTOM `clusterclick` handler, not the built-in: small
+  bubbles (**n ≤ 5**) **spiderfy in place** instead, because for island+mainland pairs
+  (Iceland+Ireland, Canaries+Lisbon) the bounds midpoint is open ocean — clicking a "2" near
+  Ireland "threw me into the empty water left of Portugal" (owner, 2026-07-07). Big clusters
+  are dense land, so bounds-fit stays right for them. A lone city still renders as its own
+  pin that **opens on one click**; only overlapping cities stay a bubble.
 - We twice tried `disableClusteringAtZoom` (8, then 5) to make cities clickable sooner. **Both
   made it worse.** A live CDP zoom-sweep proved why: at the threshold zoom the cluster count
   snaps from ~50 bubbles to **0**, dumping all 345 markers as loose pins that scatter off the
   small viewport → the owner's *"zoom in and everything disappears."*
-- Config is exactly: `maxClusterRadius: 60, showCoverageOnHover: false, spiderfyOnMaxZoom:
-  true, animate: false`. `maxClusterRadius` 80 (default) glues a continent into one blob; 32
+- Config is exactly: `maxClusterRadius: 60, showCoverageOnHover: false, animate: false` plus
+  `spiderfyOnMaxZoom: false, zoomToBoundsOnClick: false` — BOTH built-in click behaviours off
+  because the custom `clusterclick` handler replaces them (spiderfy ≤5 / zoom-to-bounds >5 /
+  spiderfy at maxZoom). Leaving either true double-handles the click.
+  `maxClusterRadius` 80 (default) glues a continent into one blob; 32
   declusters too early; **60** is the chosen middle. If you change it, re-run a zoom-sweep and
   watch z4→z8 bubble counts degrade *smoothly* (no snap-to-zero).
 - **`animate:false` is required.** The decluster animation *slides* markers from the cluster
@@ -365,9 +383,12 @@ live / 🪟 timelapse / 🎬 ambient (via `windowKind`) + 🚶 walk. Mouse handl
 not `click`** (so a pick lands before `blur` closes the dropdown). Keyboard ↓/↑/Enter/Esc.
 
 **Content filters.** After the curation filters (All / Famous / Hidden / Saved), a divider then
-**🪟 Window** (`hasWindow` = any window tier), **🚶 Tour** (`hasWalk`), **✨ Both**. They set
-`tagFilter`, `render()`, and `fitToVisible()`. Same predicates power a gold `.marker-live-dot`
-and a tooltip line distinguishing the tier. **The filter bar must stay one row** —
+**🔴 Live** (`windowKind(loc)==='live'` — only true live cams, ~85 places), **🪟 Window**
+(`hasWindow` = any window tier), **🚶 Tour** (`hasWalk`), **✨ Both**. They set `tagFilter`,
+`render()`, and `fitToVisible()`. The 🔴 Live filter (added 2026-07-07 alongside the cam audit)
+deliberately excludes the 🪟 timelapse/stills tier — after the audit renamed that tier "webcam
+stills," a "show me only what's streaming *now*" filter had to mean live cams only. Same
+predicates power a gold `.marker-live-dot` and a tooltip line distinguishing the tier. **The filter bar must stay one row** —
 `flex-wrap:nowrap; overflow-x:auto` (scrollbar hidden): it once wrapped to two rows, grew
 *upward* into the stats bar, and overlapped the bottom-left FABs so clicks hit the wrong control.
 
@@ -539,7 +560,7 @@ timelapse / ambient, labelled, ambient sound, remember-last, hop-the-world) · *
 (5-round distance scoring, region picker, Wordle-style shareable score, skippable scenes) ·
 **Passport** (stamps/notes/stats) · **Ancient Apocalypse** collection (25 sites, data-driven
 accent) · **procedural soundscapes** · **world coverage 39→89 countries / 191→345 locations** ·
-**windows at scale via Windy** (247 windows / 105 live) · **60 walks · 35 monuments**.
+**windows at scale via Windy** (204 windows / 73 live, hand-audited) · **60 walks · 35 monuments**.
 
 ---
 
