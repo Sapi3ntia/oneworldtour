@@ -3,9 +3,9 @@
    get an onError signal, then fall back HONESTLY when a curated id has
    rotted (deleted / private / embedding disabled).
 
-   Why this exists (HANDOFF issue I-7): a curated cam / ambient / walk /
-   monument id can rot over time. A bare <iframe> then shows a broken
-   frame forever — a silent lie by omission. walkthrough.js already
+   Why this exists: a curated cam / ambient / walk / monument id can rot
+   over time. A bare <iframe> then shows a broken frame forever — a silent
+   lie by omission (see TODO.md "media honesty"). walkthrough.js already
    guards its walk via the IFrame API's onError → Ken Burns; this packages
    the same guard so the location page (hero + More Views + monuments) and
    the Virtual Window can share one honest fallback path.
@@ -39,7 +39,7 @@ const YTEmbed = (() => {
 
   function mount(host, opts = {}) {
     const { videoId, start = 0, loop = false, muted = true,
-            frameClass = '', onReady, onError } = opts;
+            controls = 1, frameClass = '', onReady, onError } = opts;
     let player = null, alive = true, fired = false;
 
     const fail = () => {
@@ -65,6 +65,9 @@ const YTEmbed = (() => {
       const playerVars = { autoplay: 1, rel: 0, playsinline: 1, modestbranding: 1, iv_load_policy: 3 };
       if (muted) playerVars.mute = 1;
       if (start) playerVars.start = start;
+      // controls=0 gives the chrome-free "looking out a window" frame (the
+      // technique virtualvacation.us/window uses for its window embeds).
+      if (controls === 0) { playerVars.controls = 0; playerVars.disablekb = 1; }
       if (loop)  { playerVars.loop = 1; playerVars.playlist = videoId; }   // single-video loop trick
       try {
         player = new YT.Player(slot, {

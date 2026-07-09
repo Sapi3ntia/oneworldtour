@@ -13,8 +13,8 @@ escape hatches, no still photo posing as a live view.
 
 > Status: **playable and feature-complete**, now at **345 places across 89 countries**.
 > Windows (live cams + timelapses) and walking tours are live across the map. The single
-> orientation + developer doc is [`HANDOFF.md`](HANDOFF.md) — architecture, every file,
-> what's built, what's left, and how to verify.
+> orientation doc is [`TODO.md`](TODO.md) — ideas not yet built, and the guardrails
+> (perf, map clustering, media honesty) worth not relearning.
 
 ---
 
@@ -27,7 +27,7 @@ escape hatches, no still photo posing as a live view.
 | 🧳 **Fly the Tour** | Plan an ordered multi-city route, then watch the plane fly the whole journey leg by leg | client-side |
 | 🎬 **Arrival cinematic** | Full-screen hero photo + name on entry, click to explore | Wikimedia |
 | 🕐 **Right now** | Live local clock + current weather at the destination | Open-Meteo |
-| 🚶🪟 **Step Outside** | On every place page, tiles that just play — no clicks: an **auto-starting walking tour** (curated footage, muted, fully seekable) beside a **📹 live cam** and a **🪟 window** of the place — honest empty states when one doesn't exist, never a still standing in for a live view | YouTube + Windy |
+| 🚶🪟 **Step Outside** | On every place page, three fixed frames in the same spot every city: a big **auto-starting walking tour** (curated footage, muted, fully seekable), a **🔴 live cam**, and a smaller **🪟 window** (a chrome-free looping "out-the-window" clip) — all curated YouTube, with an honest empty frame when one doesn't exist yet, never a still or a branded widget standing in for a live view | YouTube |
 | 🪟 **Virtual Window** | Open a framed window and *look out* — a **🔴 live cam**, a **🪟 live timelapse** (a real current view that updates through the day), or a **🎬 ambient view** (a curated recorded "out the window" loop), **always labelled which is which** (badge + chip + legend). Real local-time / day-night / temperature plate, optional ambient soundscape, "open another window" to hop the world | Windy + YouTube + Open-Meteo |
 | 🏛️ **Monument tours** | Up to 3 named landmark videos per city (Eiffel Tower, Colosseum…), a tab-picker feeding one in-app player | YouTube |
 | 🤫 **Ancient Apocalypse** | Every site from Graham Hancock's Netflix series, mapped — filter with the 🤫 chip; each page shows the episode + the claim | bundled + Wikipedia |
@@ -45,7 +45,7 @@ escape hatches, no still photo posing as a live view.
 
 Everything except **Ask the Guide** works with **no API keys and no backend** — all the
 runtime external APIs used are free and CORS/embed-friendly. (One build-time tool uses a
-Windy key; it never ships to the browser — see [`HANDOFF.md`](HANDOFF.md).)
+Windy key; it never ships to the browser — see [`TODO.md`](TODO.md).)
 
 ---
 
@@ -152,10 +152,10 @@ localStorage keys: `owt_visited`, `owt_saved`, `owt_notes`, `owt_sound_off`,
 3. *Windows happen automatically.* `tools/fetch_windy.py` already maps a Windy webcam to
    ~247 cities (`data/windy.json`). To **override** the Windy pick with a hand-curated cam
    (it always wins), add a `webcam` (🔴 live) or `ambient` (🎬 recorded loop) field — verify
-   first (see [`HANDOFF.md`](HANDOFF.md), "Windy pipeline" + "Curating window videos").
+   first (a curated feed always outranks the Windy fallback; see [`TODO.md`](TODO.md)).
 4. *(Optional)* Add a curated walking tour with `"walk": "<youtube-id>"` and/or up to three
    `monuments` (`[{name, yt, start?}]`). **Don't recall ids from memory** — find one, then
-   confirm it via YouTube's oEmbed endpoint before committing (method in `HANDOFF.md`).
+   confirm it via YouTube's oEmbed endpoint before committing.
 5. Reload — no rebuild needed.
 
 To register a **themed collection** (like Ancient Apocalypse): add a region in
@@ -189,8 +189,7 @@ native-speaker review of the 50 new culture profiles.
 **Bigger future bets:** "Back in Time" historical/Indigenous borders timeline · walkthrough
 middle tiers (satellite descend-from-orbit, 360° photospheres, Mapillary street-level).
 
-> Full, prioritized to-do list, architecture, and verification recipes live in the single
-> developer manual: **[`HANDOFF.md`](HANDOFF.md)**.
+> Ideas not yet built and the guardrails worth keeping live in **[`TODO.md`](TODO.md)**.
 
 ---
 
