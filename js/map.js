@@ -139,19 +139,22 @@ function clusterGroupFor(continent) {
       });
     }
   });
-  // Custom click: small clusters FAN OUT IN PLACE; big ones zoom to bounds.
-  // The default zoom-to-bounds centres the camera on the members' bounding-box
-  // midpoint — for island+mainland pairs (Iceland+Ireland, Canaries+Lisbon)
-  // that midpoint is open ocean, so clicking a "2" bubble "threw me into the
-  // empty water left of Portugal" while the pins sat ignorable at the screen
-  // edges. Spiderfying shows the members right where the user clicked, no
-  // camera move at all. Big clusters are dense land regions, so bounds-fit
-  // stays right for them — and at max zoom everything fans out (the old
-  // spiderfyOnMaxZoom behaviour, now handled here).
+  // Custom click — NEVER zoom-to-bounds. Fitting the members' bounding box
+  // centres the camera on the box MIDPOINT, which for any dispersed cluster
+  // (island+mainland pairs, a wide continental spread) is open ocean or a
+  // different continent — the "click a circle and get thrown into the water /
+  // Ireland lands in Africa" bug that kept coming back. Two honest behaviours,
+  // both anchored to where the user actually clicked:
+  //   • Small clusters (or max zoom): FAN THE MEMBERS OUT IN PLACE. No camera
+  //     move at all, so the view can never jump anywhere wrong.
+  //   • Bigger clusters: step the camera straight IN toward the clicked bubble.
+  //     Zooming toward the click point splits it into the sub-clusters inside
+  //     it, right where they were — never re-framed around a far-off midpoint.
   g.on('clusterclick', e => {
     const c = e.layer;
-    if (c.getChildCount() <= 5 || map.getZoom() >= map.getMaxZoom()) c.spiderfy();
-    else c.zoomToBounds({ padding: [40, 40] });
+    const z = map.getZoom();
+    if (c.getChildCount() <= 8 || z >= map.getMaxZoom()) { c.spiderfy(); return; }
+    map.setView(c.getLatLng(), Math.min(z + 3, map.getMaxZoom()), { animate: false });
   });
   map.addLayer(g);
   clusterGroups[continent] = g;

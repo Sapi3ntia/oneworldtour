@@ -78,7 +78,7 @@ function loadExperience() {
   setupTour();
   renderConditions();
   setupHero();
-  setupOutside();
+  setupFrames();
   setupMonuments();
   fillAbout();
   setupHancock();
@@ -126,16 +126,17 @@ function setupTour() {
   btn.addEventListener('click', () => { State.toggleTrip(loc.id); sync(); });
 }
 
-/* Media tiers, honestly labelled and never conflated:
+/* Media tiers, honestly labelled and never conflated, each in its OWN fixed
+   frame (same position every city — no shuffling):
      • 🚶 Walk     — a RECORDED street-level stroll (muted, so it never fights
                      the radio/ambient; native YouTube controls stay on, so
-                     it's skippable/seekable).
+                     it's skippable/seekable). The big hero; no walk → 📷 photo.
      • 🔴 Live cam — real live footage only; a recorded clip never sits here.
-     • 🪟 Window   — a stationary out-the-window view: Windy's live timelapse
-                     or an honestly-labelled recorded loop.
-   The hero takes the best tier (walk > live > window > 📷 photo); "More Views"
-   shows whatever real footage remains. No off-site launcher links stand in for
-   any of these — embed the real thing or say it doesn't exist yet. */
+     • 🪟 Window   — a curated, looping "out-the-window" clip, chrome-free
+                     (the virtualvacation.us/window technique).
+   All three are curated YouTube (no Windy on this page). No off-site launcher
+   links stand in for any of them — embed the real thing or say it doesn't
+   exist yet (an honest empty frame). */
 const OUTSIDE_EMBED = 'autoplay=1&mute=1&rel=0&playsinline=1&modestbranding=1&iv_load_policy=3';
 
 function resolveMedia() {
@@ -145,7 +146,20 @@ function resolveMedia() {
     video: vid, kind: 'walk', source: 'youtube',
     title: (loc.walk && loc.walk.title) || 'Walking tour',
   } : null;
-  return { walk, live: Webcam.liveFor(loc), window: Webcam.windowFor(loc) };
+  // 🔴 Live is a CURATED YOUTUBE STREAM ONLY. Windy's public player is a
+  // tap-to-play widget that shows a frozen still until clicked — never an
+  // honest "streaming now" — so it has no place in either curated frame here.
+  const liveYt = Webcam.resolve(loc.webcam);
+  const live = liveYt ? { ...liveYt, kind: 'live', source: 'youtube' } : null;
+  // 🪟 Window is a CURATED, LOOPING "out-the-window" clip only (chrome-free,
+  // the virtualvacation.us/window technique). Windy's public player — a
+  // logo-bearing, tap-to-play widget that shows a frozen still — was dropped
+  // from this frame: a place with no curated clip now shows an honest empty
+  // window rather than someone else's branded static frame. (Windy still
+  // powers the standalone Virtual Window + map badges via js/webcam.js.)
+  const winAmb = Webcam.resolveAmbient(loc.ambient);
+  const window = winAmb ? { ...winAmb, kind: 'ambient', source: 'youtube' } : null;
+  return { walk, live, window };
 }
 
 /* The one caption per tier — the same honest label whether it caps a tile or
@@ -153,26 +167,24 @@ function resolveMedia() {
 function kindCap(tier, v) {
   if (tier === 'live') return '🔴 <span class="outside-live">Live cam · streaming now</span>';
   if (tier === 'walk') return `🚶 <span class="outside-recorded">${escapeHtml(v.title || 'Walking tour')}</span>`;
-  return v.kind === 'timelapse'
-    ? '🪟 <span class="outside-recorded">Window · webcam stills, updated through the day</span>'
-    : '🪟 <span class="outside-recorded">Window · a recorded view of the place</span>';
+  return '🪟 <span class="outside-recorded">Window · a recorded view of the place</span>';
 }
 
 /* Mount a tier's media into `stage`. A curated YouTube surface goes through
-   YTEmbed so a rotted id (deleted / private / embedding-off) fires onError; we
-   then fall back to the place's Windy window — which self-handles an offline
-   cam — and, failing that, an honest empty state. A Windy surface is already
-   self-healing, so it mounts as a plain iframe. `opts.cap` is the caption to
-   relabel on fallback; `opts.onGone` lets a caller own the fallback entirely
-   (the hero drops all the way back to its arrival photo). */
+   YTEmbed so a rotted id (deleted / private / embedding-off) fires onError and
+   the frame drops to an honest empty state. A YouTube live_stream `channel`
+   cam has no single video id, so it mounts as a plain iframe. `opts.cap` is the
+   caption to relabel on fallback; `opts.onGone` lets a caller own the fallback
+   entirely (the hero drops all the way back to its arrival photo). */
 function mountEmbed(stage, v, tier, opts = {}) {
   if (v.source === 'youtube' && v.video) {
     YTEmbed.mount(stage, {
       videoId: v.video,
       start: v.start || 0,
       loop: tier === 'window',                       // the recorded ambient window loops
+      controls: tier === 'window' ? 0 : 1,           // window = chrome-free, like the reference
       frameClass: 'outside-frame',
-      onError: opts.onGone || (() => mediaRotted(stage, tier, opts.cap)),
+      onError: opts.onGone || (() => frameRotted(tier, opts.cap, stage)),
     });
   } else {
     mountPlainEmbed(stage, v);
@@ -189,38 +201,22 @@ function mountPlainEmbed(stage, v) {
   stage.appendChild(ifr);
 }
 
-/* A curated YouTube embed rotted. Fall back to Windy (self-healing), and only
-   if there's none, to an honest empty state — never a broken frame, never a
-   fake feed. A walk has no Windy equivalent, so it goes straight to honest. */
-function mediaRotted(stage, tier, cap) {
-  const fb = tier === 'live'   ? (Webcam.windyLiveFor(loc) || Webcam.windyWindowFor(loc))
-           : tier === 'window' ? Webcam.windyWindowFor(loc)
-           :                     null;
-  if (fb) {
-    mountPlainEmbed(stage, fb);
-    // Relabel to the tier we actually fell into: a rotted recorded window that
-    // lands on Windy is now a live timelapse; a rotted live that lands on
-    // Windy /live is still live.
-    if (cap) cap.innerHTML = kindCap(fb.kind === 'timelapse' ? 'window' : 'live', fb);
-    return;
-  }
-  const [ico, txt] = tier === 'walk' ? ['🚶', 'This walking tour is no longer available']
-                   : tier === 'live' ? ['📹', 'This live cam has gone offline']
-                   :                    ['🪟', 'This window view is no longer available'];
-  stage.className = 'outside-stage outside-empty';
-  stage.innerHTML = `
-    <span class="outside-empty-ico">${ico}</span>
-    <span class="outside-empty-txt">${txt}</span>
-    <span class="outside-empty-sub">The curated feed rotted — we won't show a broken or fake one.</span>`;
+/* A frame's curated YouTube embed rotted (deleted / private / embedding off).
+   Neither tier borrows another place's feed — 🔴 live and 🪟 window each drop
+   straight to their own honest empty state. Never a broken frame, never a fake. */
+function frameRotted(tier, cap, stage) {
+  emptyFrame(tier, cap, stage);
 }
 
-/* HERO — the best real view of the place, big. Falls back to the arrival
-   photo (chipped 📷, never dressed up as footage) when no tier exists. */
+/* HERO — FRAME 1: the walking tour, big. A place with no walk yet falls back
+   to the arrival photo (chipped 📷, never dressed up as footage). The live cam
+   and window each have their OWN fixed frame below, so the hero never borrows
+   them — the layout stays predictable place to place. */
 function setupHero() {
   const stage = document.getElementById('hero-stage');
   const chip  = document.getElementById('hero-chip');
   const m = resolveMedia();
-  heroTier = m.walk ? 'walk' : m.live ? 'live' : m.window ? 'window' : null;
+  heroTier = m.walk ? 'walk' : null;
 
   if (!heroTier) {
     chip.innerHTML = '📷 <span class="outside-recorded">Photo</span>';
@@ -241,19 +237,11 @@ function setupHero() {
   updateProgress();
 }
 
-/* The hero's curated view rotted. Try the place's Windy window (relabel the
-   chip honestly); with none, fall the hero all the way back to the arrival
-   photo — the same honest 📷 state a place with no footage shows. */
+/* The hero's walking tour rotted (deleted / private / embedding off). A walk
+   has no live equivalent, so the hero falls all the way back to the arrival
+   photo — the same honest 📷 state a place with no walk shows. */
 function heroRotted(stage, chip) {
-  const fb = heroTier === 'live'   ? (Webcam.windyLiveFor(loc) || Webcam.windyWindowFor(loc))
-           : heroTier === 'window' ? Webcam.windyWindowFor(loc)
-           :                         null;
-  if (fb) {
-    mountPlainEmbed(stage, fb);
-    chip.innerHTML = kindCap(fb.kind === 'timelapse' ? 'window' : 'live', fb);
-    heroTier = fb.kind === 'live' ? 'live' : 'window';
-    return;
-  }
+  heroTier = null;
   stage.innerHTML = '';
   stage.classList.add('hero-photo');
   chip.innerHTML = '📷 <span class="outside-recorded">Photo</span>';
@@ -263,44 +251,38 @@ function heroRotted(stage, chip) {
   });
 }
 
-/* MORE VIEWS — whatever real footage the hero isn't already showing. Tiers
-   with nothing real are simply absent; nothing real at all → one combined
-   honest empty state (the hero is a photo then, and says so). */
-function setupOutside() {
-  const sec  = document.getElementById('outside-section');
-  const wrap = document.getElementById('outside-tiles');
-  if (!wrap) return;
+/* STEP OUTSIDE — FRAMES 2 & 3, two fixed slots that are ALWAYS in the same
+   place: 🔴 Live cam (left, bigger) and 🪟 Window (right, smaller). Each is
+   filled with its own real feed, or shows an honest placeholder right in the
+   slot — no shuffling tiers between hero and rail, so the page reads the same
+   from city to city (the classic layout, restored). */
+function setupFrames() {
   const m = resolveMedia();
-
-  if (!heroTier) {
-    wrap.innerHTML = `
-      <div class="outside-stage outside-empty outside-combined">
-        <span class="outside-empty-ico">📹</span>
-        <span class="outside-empty-txt">No live cam, window view, or walking tour of this place yet</span>
-        <span class="outside-empty-sub">Real footage appears here the moment it exists — never a fake feed.</span>
-      </div>`;
-    return;
-  }
-
-  const rest = [['live', m.live], ['window', m.window], ['walk', m.walk]]
-    .filter(([tier, v]) => tier !== heroTier && v);
-  if (!rest.length) { sec.style.display = 'none'; return; }
-  rest.forEach(([tier, v]) => wrap.appendChild(buildTile(tier, v)));
+  fillFrame('live',   document.getElementById('live-cap'),   document.getElementById('live-stage'),   m.live);
+  fillFrame('window', document.getElementById('window-cap'), document.getElementById('window-stage'), m.window);
 }
 
-function buildTile(tier, v) {
-  const tile = document.createElement('div');
-  tile.className = 'outside-tile' + (tier === 'walk' ? ' outside-tile-lg' : '');
-  const cap = document.createElement('div');
-  cap.className = 'outside-cap';
+function fillFrame(tier, cap, stage, v) {
+  if (!cap || !stage) return;
+  if (!v) { emptyFrame(tier, cap, stage); return; }
   cap.innerHTML = kindCap(tier, v);
-  const stage = document.createElement('div');
-  stage.className = 'outside-stage';
-  tile.append(cap, stage);
   mountEmbed(stage, v, tier, { cap });
   State.triggerInteraction(tier === 'live' ? 'street_view_clicked' : 'photos_viewed');
   updateProgress();
-  return tile;
+}
+
+/* No real feed for this slot → an honest placeholder IN the slot. Never a fake
+   feed, never a broken embed, never a borrowed one from another place. */
+function emptyFrame(tier, cap, stage) {
+  const [ico, label, txt] = tier === 'live'
+    ? ['🔴', 'Live cam', 'No live cam of this place yet']
+    : ['🪟', 'Window',   'No window view of this place yet'];
+  cap.innerHTML = `${ico} <span class="outside-recorded">${label}</span>`;
+  stage.className = 'outside-stage view-stage outside-empty';
+  stage.innerHTML = `
+    <span class="outside-empty-ico">${ico}</span>
+    <span class="outside-empty-txt">${txt}</span>
+    <span class="outside-empty-sub">A real feed appears here the moment it exists — never a fake one.</span>`;
 }
 
 /* MONUMENTS — up to 3 named landmark tours for this city (e.g. Eiffel Tower for
@@ -857,14 +839,14 @@ function setupMap() {
   const sv = loc.street_view || { ...loc.coordinates, heading: 0, pitch: 0, fov: 90 };
 
   if (GMAPS_KEY !== 'YOUR_GOOGLE_MAPS_API_KEY') {
-    // With a key, real Street View joins the views as a full-width tile.
+    // With a key, real Street View joins Step Outside as a full-width frame.
     // A click-shield makes the first look-around count toward your stamp.
-    const wrap = document.getElementById('outside-tiles');
+    const wrap = document.getElementById('outside-frames');
     const tile = document.createElement('div');
-    tile.className = 'outside-tile outside-tile-lg';
-    tile.innerHTML = '<div class="outside-cap">👁️ <span class="outside-recorded">Street View · look around</span></div>';
+    tile.className = 'view-frame view-frame-full';
+    tile.innerHTML = '<div class="outside-cap view-cap">👁️ <span class="outside-recorded">Street View · look around</span></div>';
     const stage = document.createElement('div');
-    stage.className = 'outside-stage';
+    stage.className = 'outside-stage view-stage';
     const ifr = document.createElement('iframe');
     ifr.className = 'outside-frame';
     ifr.allowFullscreen = true;

@@ -931,23 +931,24 @@
   text-transform: lowercase;
 }
 
-/* ===== More Views — the real footage the hero isn't already showing ===== */
+/* ===== Step Outside — two fixed frames: 🔴 Live cam (bigger) + 🪟 Window ===== */
 #outside-section {
   background:
     linear-gradient(160deg, rgba(201,168,76,0.05), transparent 70%),
     rgba(26,37,53,0.35);
 }
-#outside-tiles {
+/* Live is the wider/taller frame; the window is the deliberately smaller
+   third frame. Fixed columns so the layout never reshuffles place to place. */
+#outside-frames {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr);
   gap: var(--sp-md);
+  align-items: start;
 }
-.outside-tile { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
-/* The walk is full-width; a lone tile also stretches across. */
-.outside-tile-lg { grid-column: 1 / -1; }
-#outside-tiles > .outside-tile:only-child { grid-column: 1 / -1; }
-.outside-tile-lg .outside-stage,
-#outside-tiles > .outside-tile:only-child .outside-stage { aspect-ratio: 16 / 9; }
+.view-frame { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.view-frame-full { grid-column: 1 / -1; }   /* optional Street View spans both */
+.view-cap { margin-bottom: 0; }
+.view-stage { aspect-ratio: 16 / 9; }
 .outside-cap {
   font-size: 0.66rem;
   font-weight: 700;
@@ -982,12 +983,6 @@
 .outside-empty-ico { font-size: 1.4rem; opacity: 0.7; }
 .outside-empty-txt { font-size: 0.75rem; color: var(--text-mid); line-height: 1.35; }
 .outside-empty-sub { font-size: 0.66rem; color: var(--text-lo); }
-/* One combined honest empty state when a place has no real footage at all. */
-.outside-combined {
-  grid-column: 1 / -1;
-  aspect-ratio: auto;
-  min-height: 120px;
-}
 
 /* ===== Monuments — up to 3 named landmark tours, a tab picker + one player ===== */
 #monuments-section .outside-stage { aspect-ratio: 16 / 9; }
@@ -1076,6 +1071,6 @@
 }
 @media (max-width: 640px) {
   .header-actions .tour-btn { display: none; }
-  #outside-tiles { grid-template-columns: 1fr; }
-  #outside-tiles .outside-stage { aspect-ratio: 16 / 9; }
+  /* Stack the two frames; both go full width and the same size. */
+  #outside-frames { grid-template-columns: 1fr; }
 }

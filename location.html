@@ -41,10 +41,10 @@
       </div>
     </header>
 
-    <!-- HERO — the single best view of the place, big and honest about what
-         it is: 🚶 walk > 🔴 live cam > 🪟 window > 📷 photo. The kind chip
-         always says which. The glass plate is live local time + weather —
-         real right-now data over whatever footage is playing. -->
+    <!-- HERO — FRAME 1: the walking tour, big. A recorded street-level stroll
+         (🚶). No walk for this place yet → the arrival photo (📷), honestly
+         chipped, never dressed up as footage. The glass plate is live local
+         time + weather — real right-now data over whatever is playing. -->
     <section id="hero">
       <div id="hero-stage"></div>
       <div class="hero-chip" id="hero-chip"></div>
@@ -74,16 +74,27 @@
 
       <div id="col-main">
 
-        <!-- MORE VIEWS — whatever real footage the hero ISN'T already showing:
-               • 📹 Live cam — REAL live footage only, never a recorded clip.
-               • 🪟 Window   — a stationary out-the-window view (live timelapse
-                               or an honestly-labelled recorded loop).
-               • 🚶 Walk     — a recorded street-level stroll.
-             Tiles are built by JS; tiers with nothing real are simply absent.
-             No media anywhere → one honest empty state (never a fake feed). -->
+        <!-- STEP OUTSIDE — two fixed frames, always in the same place:
+               • FRAME 2 · 🔴 Live cam — a REAL live stream of the place, now.
+                            Curated YouTube only; a tap-to-play widget or a
+                            recorded clip is never allowed to sit here.
+               • FRAME 3 · 🪟 Window   — a smaller, stationary out-the-window
+                            view: a looping curated clip, chrome-free
+                            (virtualvacation-style). Curated YouTube only.
+             Each frame is a fixed slot — no feed yet → an honest placeholder
+             right there, never a fake or a broken embed. -->
         <section class="panel-section" id="outside-section">
-          <p class="section-label">More Views</p>
-          <div id="outside-tiles"></div>
+          <p class="section-label">Step Outside</p>
+          <div id="outside-frames">
+            <div class="view-frame view-frame-live">
+              <div class="outside-cap view-cap" id="live-cap"></div>
+              <div class="outside-stage view-stage" id="live-stage"></div>
+            </div>
+            <div class="view-frame view-frame-window">
+              <div class="outside-cap view-cap" id="window-cap"></div>
+              <div class="outside-stage view-stage" id="window-stage"></div>
+            </div>
+          </div>
         </section>
 
         <!-- MONUMENTS — up to 3 named landmark tours; a picker feeds one player.
