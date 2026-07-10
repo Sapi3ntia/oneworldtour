@@ -3,95 +3,86 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>One World Tour</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✈️</text></svg>">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
-  <link rel="stylesheet" href="css/main.css">
+  <title>One World Tour — the world, right now</title>
+  <meta name="description" content="Step into 345 places across 89 countries: walking tours, 24/7 live cams, live window views, local radio.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌍</text></svg>">
+  <link rel="stylesheet" href="css/theme.css">
   <link rel="stylesheet" href="css/map.css">
+  <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
 
-  <div id="topbar">
-    <div class="logo">
-      <span class="logo-icon">✈️</span>
-      <span class="logo-text">One World Tour</span>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="index.html"><span class="globe">🌍</span> One <em>World</em> Tour</a>
+      <nav class="topnav">
+        <a href="index.html" class="active">Explore</a>
+        <a href="window.html">🪟 Window</a>
+        <a href="guess.html">🌍 Guesser</a>
+        <a href="passport.html">📘 Passport</a>
+        <button id="surprise-top" class="btn btn-gold btn-sm">🎲 Surprise me</button>
+      </nav>
     </div>
+  </header>
 
-    <div id="search-wrap">
-      <span class="search-icon">🔎</span>
-      <input id="search-input" type="text" autocomplete="off" role="combobox"
-        aria-autocomplete="list" aria-expanded="false" aria-controls="search-suggest"
-        placeholder="Search a city, country, or landmark…">
-      <div id="search-suggest" class="search-suggest" role="listbox"></div>
+  <main>
+    <!-- hero -->
+    <section class="hero wrap">
+      <h1>The world, <em>right now</em>.</h1>
+      <p class="lede">Walk its streets, look out its windows, watch its intersections live,
+        and tune into its radio — without leaving this page.</p>
+      <div class="hero-stats" id="hero-stats"></div>
+      <div class="hero-search">
+        <input id="search" class="input" type="text" autocomplete="off"
+               role="combobox" aria-expanded="false" aria-controls="suggest"
+               placeholder="Search a city, country, or monument…">
+        <div id="suggest" class="suggest" role="listbox"></div>
+      </div>
+    </section>
+
+    <!-- map -->
+    <section class="map-section wrap">
+      <div class="map-toolbar">
+        <div class="chips" id="map-filters">
+          <button class="chip active" data-f="all">All</button>
+          <button class="chip" data-f="walk">🚶 Walks</button>
+          <button class="chip" data-f="live">🔴 Live</button>
+          <button class="chip" data-f="window">🪟 Windows</button>
+          <button class="chip" data-f="monuments">🏛️ Monuments</button>
+          <button class="chip" data-f="saved">♥ Saved</button>
+          <button class="chip" data-f="ancient">🤫 Ancient</button>
+        </div>
+        <span class="hint" id="map-hint">Click a gold node to enter a country</span>
+      </div>
+      <div id="worldmap">
+        <div class="wmap-ctl">
+          <button id="zoom-in" title="Zoom in">+</button>
+          <button id="zoom-out" title="Zoom out">−</button>
+          <button id="zoom-reset" title="Whole world">🌐</button>
+        </div>
+      </div>
+      <div class="map-legend">
+        <span><span class="swatch" style="background:#e8b54d"></span>Country · place</span>
+        <span><span class="swatch" style="background:#ff5a5a"></span>Live cam streaming now</span>
+        <span><span class="swatch" style="background:#7fd6a4"></span>Has a walking tour</span>
+        <span>Scroll to zoom · drag to pan · click a dot to arrive</span>
+      </div>
+    </section>
+
+    <!-- rails -->
+    <section class="rails wrap" id="rails"></section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>🌍 One World Tour</span>
+      <span id="foot-stats"></span>
+      <span>Every scene is real: live means live, walks are seekable, gaps are honest.</span>
     </div>
+  </footer>
 
-    <div class="topbar-actions">
-      <button class="btn btn-ghost" id="surprise-btn">🎲 Surprise me</button>
-      <a href="guess.html" class="btn btn-ghost">🌍 City Guesser</a>
-      <a href="window.html" class="btn btn-ghost">🪟 Window</a>
-      <a href="passport.html" class="btn btn-gold">📘 My Passport</a>
-    </div>
-  </div>
+  <div id="toast" class="toast"></div>
 
-  <div id="country-label">
-    <div class="country-pill">🌍 Loading…</div>
-  </div>
-
-  <div id="region-bar"></div>
-
-  <div id="map"></div>
-
-  <div id="stats-bar">
-    <div class="stat-pill">📍 <span id="stat-visited">0 / 0 explored</span></div>
-    <div class="stat-pill">🌐 <span id="stat-countries">0 countries</span></div>
-    <div class="stat-pill" id="stat-showing-pill" style="display:none"><span id="stat-showing"></span></div>
-  </div>
-
-  <div id="filter-bar">
-    <button class="filter-btn active" data-filter="all">All</button>
-    <button class="filter-btn" data-filter="famous">📸 Famous</button>
-    <button class="filter-btn" data-filter="hidden">🗺️ Hidden</button>
-    <button class="filter-btn" data-filter="saved">♥ Saved</button>
-    <span class="filter-sep" aria-hidden="true"></span>
-    <button class="filter-btn" data-filter="live" title="Only true live cams — streaming right now">🔴 Live</button>
-    <button class="filter-btn" data-filter="window" title="Places with a window view — 🔴 live cam, 🪟 webcam stills, or 🎬 ambient loop">🪟 Window</button>
-    <button class="filter-btn" data-filter="walk" title="Places with a walking tour">🚶 Tour</button>
-    <button class="filter-btn" data-filter="both" title="Places with both a window view and a walking tour">✨ Both</button>
-  </div>
-
-  <div class="map-fabs">
-    <button id="dropin-btn" class="map-fab" title="Tap anywhere on the map to watch a video from there">🎬 Drop In</button>
-    <button id="trip-btn" class="map-fab">🧳 Plan Tour</button>
-    <button id="journey-btn" class="map-fab">✈️ My Journey</button>
-    <button id="daynight-btn" class="map-fab">🌗 Day / Night</button>
-  </div>
-
-  <!-- Planning-mode hint -->
-  <div id="plan-hint" class="plan-hint">✈️ Planning your tour — tap cities on the map to add stops</div>
-
-  <!-- Trip planner panel -->
-  <div id="trip-panel" class="trip-panel">
-    <div class="trip-head">
-      <h3>🧳 Your Tour</h3>
-      <button id="trip-close" class="trip-close" title="Close">✕</button>
-    </div>
-    <div id="trip-list" class="trip-list"></div>
-    <div id="trip-summary" class="trip-summary"></div>
-    <div class="trip-actions">
-      <button id="trip-fly" class="btn btn-gold">▶ Fly the Tour</button>
-      <button id="trip-clear" class="btn btn-ghost">Clear</button>
-    </div>
-  </div>
-
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
-  <script src="js/state.js"></script>
-  <script src="js/api.js"></script>
-  <script src="js/webcam.js"></script>
-  <script src="js/destinations.js"></script>
-  <script src="js/walkthrough.js"></script>
-  <script src="js/map.js"></script>
+  <script type="module" src="js/pages/home.js"></script>
 </body>
 </html>

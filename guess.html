@@ -3,59 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>City Guesser · One World Tour</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✈️</text></svg>">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="css/main.css">
+  <title>City Guesser — One World Tour</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌍</text></svg>">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/map.css">
   <link rel="stylesheet" href="css/guess.css">
 </head>
-<body class="g-body">
+<body>
 
-  <header class="g-top">
-    <a href="index.html" class="g-back">← Map</a>
-    <span class="g-title">🌍 City Guesser</span>
-    <span class="g-stats">
-      <b id="g-round">Round 1 / 5</b>
-      <span id="g-score">0 pts</span>
-    </span>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="index.html"><span class="globe">🌍</span> One <em>World</em> Tour</a>
+      <nav class="topnav">
+        <a href="index.html">Explore</a>
+        <a href="window.html">🪟 Window</a>
+        <a href="guess.html" class="active">🌍 Guesser</a>
+        <a href="passport.html">📘 Passport</a>
+      </nav>
+    </div>
   </header>
 
-  <main class="g-scene" id="scene"></main>
+  <main class="wrap guess-main">
 
-  <div class="g-hint" id="g-hint">
-    Look for the giveaways — language, signs, plates, light. Take your time; the clip is yours to skip and replay.
-  </div>
+    <!-- start screen -->
+    <section id="g-start" class="g-card" hidden>
+      <div class="g-big">🌍</div>
+      <h2>City Guesser</h2>
+      <p class="muted">You're dropped into a mystery place — watch the scene, then pin it
+        on the map. 5 rounds, scored by distance. Pick your corner of the world:</p>
+      <div class="chips" id="g-regions"></div>
+      <div class="g-actions">
+        <button class="btn btn-gold" id="g-start-btn">Start guessing →</button>
+      </div>
+    </section>
 
-  <div class="g-actions" id="actions">
-    <button class="btn btn-gold" id="guess-btn">📍 Make a guess</button>
-  </div>
+    <!-- game -->
+    <section id="g-game" hidden>
+      <div class="g-status">
+        <span id="g-round" class="badge badge-lapse">Round 1 / 5</span>
+        <span id="g-score" class="badge">0 pts</span>
+        <span class="faint" id="g-hint">Watch the scene, then click the map</span>
+      </div>
+      <div class="g-layout">
+        <div class="frame frame-16x9 g-scene" id="g-scene"></div>
+        <div class="g-mapcol">
+          <div id="g-map"></div>
+          <div class="g-map-actions">
+            <button class="btn btn-gold" id="g-confirm" disabled>Drop the pin first</button>
+          </div>
+        </div>
+      </div>
+      <div class="g-reveal panel" id="g-reveal" hidden></div>
+    </section>
 
-  <!-- Slide-up sheet: the guess map, then the reveal -->
-  <div class="g-sheet" id="sheet">
-    <div class="g-sheet-head">
-      <span id="sheet-title">Where in the world is this?</span>
-      <button class="g-sheet-close" id="sheet-close" title="Keep looking">✕</button>
-    </div>
-    <div id="guess-map" class="g-map"></div>
-    <div class="g-sheet-foot">
-      <span class="g-foot-note" id="foot-note">Click anywhere on the map to drop your pin.</span>
-      <span class="g-foot-spacer"></span>
-      <a href="#" class="g-visit" id="visit-link" style="display:none">Visit this place →</a>
-      <button class="btn btn-gold" id="confirm-btn" disabled>Confirm guess</button>
-    </div>
-  </div>
+    <!-- final -->
+    <section id="g-final" class="g-card" hidden></section>
+  </main>
 
-  <!-- Pre-game: pick where in the world to play -->
-  <div class="g-final g-start" id="start"></div>
-
-  <!-- End-of-game scorecard -->
-  <div class="g-final" id="final"></div>
-
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="js/state.js"></script>
-  <script src="js/api.js"></script>
-  <script src="js/walkthrough.js"></script>
-  <script src="js/destinations.js"></script>
-  <script src="js/guess.js"></script>
+  <div id="toast" class="toast"></div>
+  <script type="module" src="js/pages/guess.js"></script>
 </body>
 </html>

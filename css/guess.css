@@ -1,246 +1,38 @@
 /* ============================================================
-   CITY GUESSER — guess.html
-   Dropped into a mystery place's scene; click the world map to guess.
-   Reuses the .ken-* / .walk-* scene styles from main.css.
+   CITY GUESSER — scene + pick-map layout, reveal, final card.
    ============================================================ */
 
-.g-body {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  overflow: hidden;
-}
+.guess-main { padding-top: 30px; }
 
-/* ---------- HUD bar ---------- */
-.g-top {
-  flex: none;
-  display: flex;
-  align-items: center;
-  gap: var(--sp-md);
-  padding: var(--sp-sm) var(--sp-lg);
-  background: rgba(8, 12, 20, 0.92);
-  border-bottom: 1px solid var(--rim);
-  z-index: 20;
-}
-.g-back {
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--text-mid);
-  white-space: nowrap;
-}
-.g-back:hover { color: var(--gold-light); }
-.g-title {
-  font-family: var(--font-display);
-  font-size: 1.05rem;
-  font-weight: 700;
-  color: var(--text-hi);
-}
-.g-stats {
-  margin-left: auto;
-  display: flex;
-  align-items: center;
-  gap: var(--sp-md);
-  font-size: 0.82rem;
-  color: var(--text-mid);
-}
-.g-stats b { color: var(--gold-light); font-weight: 700; }
-
-/* ---------- Scene ---------- */
-.g-scene {
-  position: relative;
-  flex: 1;
-  background: var(--void);
-  overflow: hidden;
-}
-.g-scene .walk-video { width: 100%; height: 100%; border: none; display: block; }
-
-/* mystery watermark, faint, so it never feels empty while loading */
-.g-hint {
-  position: absolute;
-  left: 50%;
-  bottom: calc(var(--sp-xl) + 56px);
-  transform: translateX(-50%);
-  max-width: min(560px, 92vw);
-  text-align: center;
-  font-size: 0.8rem;
-  line-height: 1.5;
-  color: var(--text-mid);
-  background: rgba(8, 12, 20, 0.7);
-  border: 1px solid var(--rim);
-  border-radius: var(--r-full);
-  padding: 8px var(--sp-lg);
-  z-index: 15;
-  pointer-events: none;
-  transition: opacity var(--med);
-}
-.g-hint.hide { opacity: 0; }
-
-/* ---------- Bottom action ---------- */
-.g-actions {
-  position: absolute;
-  left: 0; right: 0;
-  bottom: var(--sp-lg);
-  display: flex;
-  justify-content: center;
-  z-index: 16;
-  transition: opacity var(--fast), transform var(--fast);
-}
-.g-actions.hide { opacity: 0; pointer-events: none; transform: translateY(12px); }
-.g-actions .btn { font-size: 1rem; padding: var(--sp-md) var(--sp-2xl); box-shadow: 0 8px 30px rgba(0,0,0,0.5); }
-
-/* ---------- Slide-up sheet (guess map + reveal) ---------- */
-.g-sheet {
-  position: fixed;
-  left: 0; right: 0; bottom: 0;
-  z-index: 40;
-  background: var(--panel);
-  border-top: 1px solid var(--rim);
-  border-radius: var(--r-lg) var(--r-lg) 0 0;
-  box-shadow: 0 -16px 50px rgba(0,0,0,0.6);
-  transform: translateY(102%);
-  transition: transform var(--med);
-  max-height: 86vh;
-  display: flex;
-  flex-direction: column;
-}
-.g-sheet.show { transform: translateY(0); }
-.g-sheet-head {
-  flex: none;
-  display: flex;
-  align-items: center;
-  gap: var(--sp-sm);
-  padding: var(--sp-md) var(--sp-lg);
-  border-bottom: 1px solid var(--rim);
-  font-size: 0.95rem;
-  font-weight: 600;
-  color: var(--text-hi);
-}
-.g-sheet-head b { color: var(--gold-light); }
-.g-sheet-close {
-  margin-left: auto;
-  width: 30px; height: 30px;
-  border-radius: 50%;
-  background: rgba(8,12,20,0.6);
-  border: 1px solid var(--rim);
-  color: var(--text-hi);
-  cursor: pointer;
-  transition: all var(--fast);
-}
-.g-sheet-close:hover { background: var(--earth); border-color: var(--gold-dim); color: var(--gold-light); }
-.g-sheet-close.hide { display: none; }
-
-.g-map {
-  flex: 1;
-  min-height: 46vh;
-  background: var(--void);
-}
-.g-map.leaflet-container { cursor: crosshair; }
-
-.g-sheet-foot {
-  flex: none;
-  display: flex;
-  align-items: center;
-  gap: var(--sp-md);
-  padding: var(--sp-md) var(--sp-lg);
-  border-top: 1px solid var(--rim);
-}
-.g-foot-note { font-size: 0.85rem; color: var(--text-mid); }
-.g-foot-note b { color: var(--gold-light); font-size: 1rem; }
-.g-foot-spacer { margin-left: auto; }
-.g-visit {
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--text-mid);
-}
-.g-visit:hover { color: var(--gold-light); }
-
-/* ---------- Final scorecard ---------- */
-.g-final {
-  position: fixed;
-  inset: 0;
-  z-index: 60;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: var(--sp-lg);
-  background: rgba(4, 6, 12, 0.9);
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity var(--med);
-}
-.g-final.show { opacity: 1; pointer-events: auto; }
 .g-card {
-  width: min(460px, 96vw);
-  background: var(--panel);
-  border: 1px solid var(--rim);
-  border-radius: var(--r-lg);
-  padding: var(--sp-xl);
-  text-align: center;
-  box-shadow: 0 24px 80px rgba(0,0,0,0.7);
+  max-width: 640px; margin: 40px auto; text-align: center;
+  background: var(--bg-card); border: 1px solid var(--line);
+  border-radius: var(--radius-lg); padding: 38px 30px;
 }
-.g-final-emoji { font-size: 2.8rem; }
-.g-card h2 { font-family: var(--font-display); font-size: 1.5rem; margin-top: var(--sp-sm); }
-.g-final-score { font-size: 1.1rem; color: var(--text-mid); margin-top: var(--sp-xs); }
-.g-final-score b { font-size: 1.8rem; color: var(--gold-light); }
-.g-final-list {
-  list-style: none;
-  margin: var(--sp-lg) 0;
-  text-align: left;
-  border-top: 1px solid var(--rim);
-}
-.g-final-list li {
-  display: flex;
-  justify-content: space-between;
-  gap: var(--sp-md);
-  padding: 9px var(--sp-xs);
-  border-bottom: 1px solid var(--rim);
-  font-size: 0.85rem;
-}
-.g-final-list li span:last-child { color: var(--text-mid); white-space: nowrap; }
-.g-final-region { font-size: 0.85rem; color: var(--text-mid); margin-top: 2px; }
-.g-final-actions { display: flex; flex-wrap: wrap; gap: var(--sp-sm); justify-content: center; }
+.g-card .g-big { font-size: 52px; }
+.g-card h2 { font-size: 30px; margin: 8px 0 10px; }
+.g-card .chips { justify-content: center; margin-top: 18px; }
+.g-actions { margin-top: 24px; display: flex; gap: 10px; justify-content: center; }
 
-/* ---------- Start screen: pick a region ---------- */
-.g-start-sub {
-  font-size: 0.88rem;
-  line-height: 1.55;
-  color: var(--text-mid);
-  margin: var(--sp-sm) 0 var(--sp-lg);
-}
-.g-region-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: var(--sp-sm);
-  margin-bottom: var(--sp-lg);
-}
-.g-region {
-  display: flex;
-  align-items: center;
-  gap: var(--sp-sm);
-  padding: var(--sp-sm) var(--sp-md);
-  background: rgba(8, 12, 20, 0.6);
-  border: 1px solid var(--rim);
-  border-radius: var(--r-md);
-  color: var(--text-hi);
-  cursor: pointer;
-  text-align: left;
-  transition: all var(--fast);
-}
-.g-region:hover { border-color: var(--gold-dim); background: var(--earth); }
-.g-region.on { border-color: var(--gold); background: var(--earth); box-shadow: 0 0 0 1px var(--gold-dim) inset; }
-.g-region-flag { font-size: 1.15rem; line-height: 1; }
-.g-region-name { font-size: 0.85rem; font-weight: 600; flex: 1; }
-.g-region-count {
-  font-size: 0.72rem;
-  color: var(--text-mid);
-  background: rgba(0,0,0,0.35);
-  border-radius: var(--r-full);
-  padding: 1px 8px;
-}
-.g-region.on .g-region-count { color: var(--gold-light); }
+.g-status { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; flex-wrap: wrap; }
 
-@media (max-width: 560px) {
-  .g-title { font-size: 0.95rem; }
-  .g-stats { font-size: 0.74rem; gap: var(--sp-sm); }
-  .g-map { min-height: 40vh; }
+.g-layout { display: grid; grid-template-columns: 3fr 2fr; gap: 14px; }
+@media (max-width: 900px) { .g-layout { grid-template-columns: 1fr; } }
+
+.g-scene { background: #04060b; }
+
+#g-map {
+  height: 100%; min-height: 320px;
+  border-radius: var(--radius-lg); border: 1px solid var(--line);
 }
+.g-mapcol { display: flex; flex-direction: column; gap: 10px; }
+.g-map-actions .btn { width: 100%; justify-content: center; }
+
+.g-reveal { margin-top: 16px; text-align: center; }
+.g-reveal .r-dist { font-family: var(--font-display); font-size: 30px; font-weight: 700; color: var(--gold); }
+.g-reveal .r-place { font-size: 17px; margin-top: 4px; }
+.g-reveal .r-pts { color: var(--ink-dim); margin: 6px 0 14px; }
+
+.g-final-score { font-family: var(--font-display); font-size: 44px; font-weight: 700; color: var(--gold); }
+.g-rounds { display: flex; justify-content: center; gap: 6px; margin: 14px 0 4px; font-size: 20px; }
+.g-share-note { font-size: 12px; color: var(--ink-faint); margin-top: 10px; }

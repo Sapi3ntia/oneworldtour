@@ -164,3 +164,5 @@ const Soundscape = {
 
   get playing() { return !!this.type; }
 };
+
+export { Soundscape };

@@ -1,598 +1,93 @@
-html, body { overflow: hidden; }
+/* ============================================================
+   WORLDMAP — styles for the SVG map engine (js/worldmap.js).
+   Software-rendering safe: flat fills, non-scaling strokes,
+   no filters/shadows/infinite animations.
+   ============================================================ */
 
-/* ---------- Topbar ---------- */
-#topbar {
-  position: absolute;
-  top: 0; left: 0; right: 0;
-  z-index: 600;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: var(--sp-md) var(--sp-lg);
-  background: linear-gradient(to bottom, rgba(8,12,20,0.95) 0%, transparent 100%);
-  pointer-events: none;
-}
-#topbar > * { pointer-events: auto; }
-
-.logo { display: flex; align-items: center; gap: var(--sp-sm); flex-shrink: 0; }
-.logo-icon { font-size: 1.4rem; }
-.logo-text {
-  font-family: var(--font-display);
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: var(--gold);
-  letter-spacing: 0.02em;
-}
-.topbar-actions { display: flex; gap: var(--sp-sm); align-items: center; flex-shrink: 0; }
-
-/* ---------- Search ---------- */
-#search-wrap {
+.wmap {
   position: relative;
-  display: flex;
-  align-items: center;
-  gap: var(--sp-sm);
-  flex: 1;
-  max-width: 440px;
-  margin: 0 var(--sp-lg);
-  background: rgba(26,37,53,0.92);
-  border: 1px solid var(--rim);
-  border-radius: var(--r-full);
-  padding: 7px 16px;
-  transition: border-color var(--fast), box-shadow var(--fast);
-}
-#search-wrap:focus-within {
-  border-color: var(--gold-dim);
-  box-shadow: 0 0 0 3px rgba(201,168,76,0.12);
-}
-.search-icon { font-size: 0.85rem; opacity: 0.7; }
-#search-input {
-  flex: 1;
-  background: none;
-  border: none;
-  outline: none;
-  color: var(--text-hi);
-  font-family: var(--font-body);
-  font-size: 0.85rem;
-}
-#search-input::placeholder { color: var(--text-lo); }
-
-/* ---------- Search autocomplete dropdown ---------- */
-.search-suggest {
-  position: absolute;
-  top: calc(100% + 8px);
-  left: 0;
-  right: 0;
-  z-index: 1200;
-  display: none;
-  max-height: 62vh;
-  overflow-y: auto;
-  background: rgba(13, 20, 32, 0.98);
-  border: 1px solid var(--rim);
-  border-radius: var(--r-md);
-  box-shadow: 0 22px 54px rgba(0, 0, 0, 0.6);
-}
-.search-suggest.open { display: block; }
-.ss-item {
-  display: flex;
-  align-items: center;
-  gap: var(--sp-sm);
-  width: 100%;
-  padding: 9px 14px;
-  background: none;
-  border: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
-  text-align: left;
-  cursor: pointer;
-  font-family: var(--font-body);
-}
-.ss-item:last-child { border-bottom: none; }
-.ss-item:hover,
-.ss-item.active { background: rgba(201, 168, 76, 0.14); }
-.ss-emoji { flex: none; width: 1.5em; text-align: center; font-size: 1rem; }
-.ss-text { display: flex; flex-direction: column; min-width: 0; }
-.ss-name {
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--text-hi);
-  white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
+  background:
+    radial-gradient(120% 90% at 50% 10%, #101728 0%, #0a0f1c 55%, #070b14 100%);
+  user-select: none;
+  touch-action: none;
+  cursor: grab;
 }
-.ss-sub {
-  font-size: 0.7rem;
-  color: var(--text-mid);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.ss-badge { margin-left: auto; flex: none; font-size: 0.62rem; color: #e0526b; font-weight: 700; }
-.ss-empty { padding: 12px 14px; font-size: 0.8rem; color: var(--text-lo); }
+.wmap:active { cursor: grabbing; }
+.wmap svg { display: block; width: 100%; height: 100%; }
 
-/* ---------- Region chips ---------- */
-#region-bar {
-  position: absolute;
-  top: 106px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 600;
-  display: flex;
-  gap: 4px;
+/* land */
+.wmap-land path {
+  fill: #1b2334;
+  stroke: #2c3852;
+  stroke-width: 0.7px;
+  transition: fill 0.15s;
 }
-.region-chip {
-  border: 1px solid var(--rim);
-  background: rgba(8,12,20,0.9);
-  color: var(--text-mid);
-  border-radius: var(--r-full);
-  padding: 4px 14px;
-  font-family: var(--font-body);
-  font-size: 0.72rem;
-  cursor: pointer;
-  transition: all var(--fast);
-}
-.region-chip:hover { color: var(--text-hi); border-color: var(--gold-dim); }
-.region-chip.active { background: var(--gold); color: var(--void); border-color: var(--gold); font-weight: 600; }
+.wmap-land path:hover { fill: #232e45; }
 
-/* Themed-collection chips (e.g. Ancient Apocalypse) — accent colour comes from
-   --chip-accent (set per chip from data/index.json), so a new collection just
-   needs an `accent` hex, no new CSS. */
-.region-chip-collection {
-  border-color: color-mix(in srgb, var(--chip-accent) 55%, transparent);
-  color: color-mix(in srgb, var(--chip-accent) 72%, white);
-}
-.region-chip-collection:hover {
-  border-color: var(--chip-accent);
-  color: color-mix(in srgb, var(--chip-accent) 40%, white);
-}
-.region-chip-collection.active {
-  background: var(--chip-accent);
-  border-color: var(--chip-accent);
-  color: #16101f;
+/* graticule */
+.wmap-grat line, .wmap-grat path {
+  stroke: rgba(235, 238, 250, 0.045);
+  stroke-width: 1px;
+  fill: none;
+  vector-effect: non-scaling-stroke;
 }
 
-/* ---------- Map ---------- */
-#map { width: 100vw; height: 100vh; }
-
-.leaflet-container { background: var(--void) !important; }
-/* Brighten the base tiles so land is readable against the ocean at world zoom
-   (raw CARTO dark renders continents nearly black). Per-tile, so the filter is
-   paid once when a tile paints — NOT per frame (matters on software rendering). */
-.base-tiles .leaflet-tile { filter: brightness(1.5) saturate(1.05); }
-.leaflet-control-attribution {
-  background: rgba(8,12,20,0.75) !important;
-  color: var(--text-lo) !important;
-  font-size: 0.6rem !important;
-}
-.leaflet-control-attribution a { color: var(--text-lo) !important; }
-
-/* ---------- Filter bar ---------- */
-#filter-bar {
-  position: absolute;
-  bottom: var(--sp-xl);
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 600;
-  display: flex;
-  flex-wrap: nowrap;            /* never wrap → never grows up into the stats bar */
-  max-width: 94vw;
-  overflow-x: auto;            /* scroll instead, on narrow screens */
-  overflow-y: hidden;
-  scrollbar-width: none;       /* hide the scrollbar (Firefox) */
-  gap: 3px;
-  background: rgba(26,37,53,0.92);
-  border: 1px solid var(--rim);
-  border-radius: var(--r-full);
-  padding: 4px;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.5);
-}
-#filter-bar::-webkit-scrollbar { display: none; }   /* hide scrollbar (WebKit) */
-.filter-btn { flex: none; }    /* keep pills full-size; the bar scrolls instead */
-/* divider between the curation filters and the "live content" filters */
-.filter-sep {
-  flex: none;
-  align-self: center;
-  width: 1px;
-  height: 18px;
-  margin: 0 4px;
-  background: var(--rim);
-}
-.filter-btn {
-  padding: 6px 18px;
-  border-radius: var(--r-full);
-  border: none;
-  background: transparent;
-  color: var(--text-mid);
-  font-family: var(--font-body);
-  font-size: 0.78rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all var(--fast);
-  white-space: nowrap;
-}
-.filter-btn.active { background: var(--void); color: var(--text-hi); }
-.filter-btn:hover:not(.active) { color: var(--text-hi); }
-
-/* ---------- Stats ---------- */
-#stats-bar {
-  position: absolute;
-  bottom: calc(var(--sp-xl) + 54px);
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 600;
-  display: flex;
-  gap: var(--sp-sm);
-}
-.stat-pill {
-  background: rgba(8,12,20,0.92);
-  border: 1px solid var(--rim);
-  border-radius: var(--r-full);
-  padding: 4px 16px;
-  font-size: 0.74rem;
-  color: var(--text-mid);
-  white-space: nowrap;
-}
-.stat-pill strong { color: var(--gold); }
-#stat-showing-pill:empty, #stat-showing:empty { display: none; }
-#stat-showing-pill { color: var(--teal); }
-
-/* ---------- Marker clusters ---------- */
-.owt-cluster {
-  width: 100%; height: 100%;
-  display: flex; align-items: center; justify-content: center;
-  border-radius: 50%;
-  font-family: var(--font-body);
-  font-weight: 700;
-  font-size: 0.8rem;
-  color: var(--void);
-  background: radial-gradient(circle at 30% 30%, var(--gold-light), var(--gold));
-  border: 2px solid rgba(8,12,20,0.85);
-  box-shadow: 0 0 0 4px rgba(201,168,76,0.22), 0 4px 14px rgba(0,0,0,0.5);
-}
-.owt-cluster-done {
-  background: radial-gradient(circle at 30% 30%, #4ade80, var(--success));
-  box-shadow: 0 0 0 4px rgba(34,197,94,0.22), 0 4px 14px rgba(0,0,0,0.5);
-}
-/* Continent caption under continental-scale bubbles (low zoom, n ≥ 6) —
-   an anonymous number floating near a coastline reads as "wrong continent". */
-.owt-cluster-label {
-  position: absolute;
-  top: calc(100% + 3px);
-  left: 50%;
-  transform: translateX(-50%);
-  font-family: var(--font-display);
-  font-size: 0.68rem;
-  font-weight: 600;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-  color: var(--gold-light);
-  text-shadow: 0 1px 6px rgba(0,0,0,0.95), 0 0 3px rgba(0,0,0,0.9);
-  white-space: nowrap;
+/* ---- country nodes (world view) ---- */
+.wmap-cnode { cursor: pointer; }
+.wmap-citymode .wmap-cnode { display: none; }
+.cnode-halo { fill: rgba(232, 181, 77, 0.16); stroke: rgba(232, 181, 77, 0.55); stroke-width: 1px; vector-effect: non-scaling-stroke; }
+.cnode-core { fill: #e8b54d; }
+.wmap-cnode:hover .cnode-halo { fill: rgba(232, 181, 77, 0.3); }
+.cnode-count {
+  fill: #16120a; font-family: 'Inter', sans-serif; font-weight: 700;
   pointer-events: none;
 }
-.marker-tip small {
-  display: block;
-  color: var(--text-mid);
-  font-size: 0.62rem;
-  margin-top: 1px;
-}
 
-/* ---------- Custom markers ---------- */
-.custom-marker { position: relative; }
-.marker {
-  width: 38px; height: 38px;
-  border-radius: 50%;
-  display: flex; align-items: center; justify-content: center;
-  font-size: 1rem;
-  cursor: pointer;
-  border: 2px solid transparent;
-  transition: transform var(--fast);
-  position: relative;
-}
-.marker:hover { transform: scale(1.18); }
-
-/* Static halo, NOT an animated one. The old infinite box-shadow "pulse" on
-   every pin forced a full map repaint every frame — on a software-rendered
-   GPU (VM, no hardware acceleration) that alone dragged the map from a clean
-   60fps idle down to ~40fps with constant jank. Measured; don't bring it back. */
-.marker-famous {
-  background: rgba(201,168,76,0.15);
-  border-color: var(--gold);
-  box-shadow: 0 0 0 4px rgba(201,168,76,0.16);
-}
-.marker-hidden {
-  background: rgba(56,189,248,0.12);
-  border-color: var(--teal);
-  box-shadow: 0 0 0 4px rgba(56,189,248,0.13);
-}
-/* Collection markers: colour driven entirely by --marker-accent (per-marker,
-   from data). One rule serves every present and future themed collection. */
-.marker-collection {
-  background: color-mix(in srgb, var(--marker-accent) 16%, transparent);
-  border-color: var(--marker-accent);
-  box-shadow: 0 0 0 4px color-mix(in srgb, var(--marker-accent) 16%, transparent);
-}
-.marker-visited { opacity: 0.55; box-shadow: none; }
-
-.marker-check {
-  position: absolute;
-  bottom: -2px; right: -2px;
-  width: 15px; height: 15px;
-  border-radius: 50%;
-  background: var(--success);
-  color: #fff;
-  font-size: 0.5rem;
-  display: flex; align-items: center; justify-content: center;
-  font-weight: 700;
-  border: 1.5px solid var(--void);
-}
-.marker-tip {
-  position: absolute;
-  bottom: calc(100% + 8px);
-  left: 50%;
-  transform: translateX(-50%);
-  background: var(--panel);
-  border: 1px solid var(--rim);
-  border-radius: var(--r-md);
-  padding: 5px 12px;
-  white-space: nowrap;
-  font-size: 0.72rem;
-  color: var(--text-hi);
+/* ---- city dots (zoomed view) ---- */
+.wmap-city { display: none; cursor: pointer; }
+.wmap-citymode .wmap-city { display: block; }
+/* invisible oversized tap target around each dot */
+.city-hit { fill: none; pointer-events: all; }
+.city-dot { fill: #e8b54d; stroke: #0a0d14; stroke-width: 1px; vector-effect: non-scaling-stroke; }
+.city-dot.has-live { fill: #ff5a5a; }
+.city-dot.has-walk { fill: #7fd6a4; }
+.wmap-city:hover .city-dot { fill: #fff; }
+.city-label {
+  fill: #c7cddf; font-family: 'Inter', sans-serif; font-weight: 500;
+  paint-order: stroke; stroke: rgba(7, 10, 18, 0.85); stroke-width: 2.5px;
   pointer-events: none;
-  opacity: 0;
-  transition: opacity var(--fast);
-  box-shadow: 0 4px 16px rgba(0,0,0,0.5);
-  font-family: var(--font-body);
-}
-.marker:hover .marker-tip { opacity: 1; }
-.marker-tip-live {
-  display: block;
-  margin-top: 2px;
-  color: var(--gold-light);
-  font-size: 0.6rem;
 }
 
-/* tiny corner dot marking pins that have a live window and/or walking tour */
-.marker-live-dot {
-  position: absolute;
-  top: -2px; right: -2px;
-  width: 9px; height: 9px;
-  border-radius: 50%;
-  background: var(--gold-light);
-  border: 1.5px solid var(--void);
-  box-shadow: 0 0 6px rgba(201,168,76,0.8);
-}
-.marker-visited .marker-live-dot { background: var(--text-lo); box-shadow: none; }
-
-
-/* ---------- Country pill ---------- */
-#country-label {
-  position: absolute;
-  top: 70px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 600;
-  pointer-events: none;
-  max-width: 92vw;
-  white-space: nowrap;   /* a wrapped pill collides with the region chips below */
-}
-.country-pill {
-  background: rgba(26,37,53,0.88);
-  border: 1px solid var(--rim);
-  border-radius: var(--r-full);
-  padding: 5px 18px;
-  font-family: var(--font-display);
-  font-size: 0.95rem;
-  color: var(--gold);
-  display: flex; align-items: center; gap: var(--sp-sm);
-}
-#country-label.flash .country-pill {
-  animation: pill-flash 0.6s var(--ease);
-}
-@keyframes pill-flash {
-  0%   { transform: scale(1); border-color: var(--rim); }
-  40%  { transform: scale(1.12); border-color: var(--gold); box-shadow: 0 0 24px rgba(201,168,76,0.5); }
-  100% { transform: scale(1); border-color: var(--rim); }
+/* ---- pins & route lines (guesser, journeys) ---- */
+.pin-ring { fill: none; stroke: #ff5a5a; stroke-width: 1.5px; vector-effect: non-scaling-stroke; }
+.pin-core { fill: #ff5a5a; }
+.wmap-pin-answer .pin-ring { stroke: #7fd6a4; }
+.wmap-pin-answer .pin-core { fill: #7fd6a4; }
+.wmap-line {
+  stroke: rgba(232, 181, 77, 0.75); stroke-width: 1.5px;
+  stroke-dasharray: 6 5;
 }
 
-/* ---------- Responsive topbar ---------- */
-@media (max-width: 720px) {
-  #search-wrap { max-width: none; margin: 0 var(--sp-sm); }
-  .logo-text { display: none; }
-  #surprise-btn { display: none; }
-  #stats-bar { flex-wrap: wrap; justify-content: center; max-width: 92vw; }
+/* ---- tooltip ---- */
+.wmap-tip {
+  position: absolute; top: 0; left: 0; z-index: 5; display: none;
+  background: rgba(13, 17, 27, 0.96); border: 1px solid var(--line-hard);
+  color: var(--ink); font-size: 12.5px; line-height: 1.35;
+  padding: 7px 11px; border-radius: 9px; pointer-events: none;
+  max-width: 240px; white-space: nowrap;
 }
+.wmap-tip b { color: var(--gold); }
 
-/* ---------- Saved marker badge ---------- */
-.marker-heart {
-  position: absolute;
-  bottom: -2px; right: -2px;
-  width: 15px; height: 15px;
-  border-radius: 50%;
-  background: #e0526b;
-  color: #fff;
-  font-size: 0.5rem;
-  display: flex; align-items: center; justify-content: center;
-  border: 1.5px solid var(--void);
+/* ---- map chrome (zoom buttons etc.) ---- */
+.wmap-ctl {
+  position: absolute; right: 14px; top: 14px; z-index: 6;
+  display: flex; flex-direction: column; gap: 6px;
 }
-
-/* ---------- "My Journey" map button ---------- */
-/* Vertical column on the left edge, lifted above the stats + filter rows.
-   As a horizontal row sharing the filter bar's bottom line, the two collided
-   (FABs covered the "All"/"Famous" buttons) at any window under ~1670px wide. */
-.map-fabs {
-  position: absolute;
-  bottom: calc(var(--sp-xl) + 96px);
-  left: var(--sp-lg);
-  z-index: 600;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: var(--sp-sm);
+.wmap-ctl button {
+  width: 36px; height: 36px; border-radius: 10px;
+  background: rgba(13, 17, 27, 0.92); border: 1px solid var(--line-hard);
+  color: var(--ink); font-size: 17px; font-weight: 600;
+  transition: background 0.15s;
 }
-.map-fab {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  background: rgba(26,37,53,0.92);
-  border: 1px solid var(--rim);
-  color: var(--text-mid);
-  border-radius: var(--r-full);
-  padding: 8px 16px;
-  font-family: var(--font-body);
-  font-size: 0.78rem;
-  font-weight: 500;
-  cursor: pointer;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.5);
-  transition: all var(--fast);
-}
-.map-fab:hover { color: var(--text-hi); border-color: var(--gold-dim); }
-.map-fab.active {
-  background: var(--gold);
-  color: var(--void);
-  border-color: var(--gold);
-  font-weight: 600;
-}
-
-/* ---------- Day/night sun marker ---------- */
-.sun-marker {
-  font-size: 1.4rem;
-  line-height: 1;
-  filter: drop-shadow(0 0 10px rgba(255,210,120,0.9));
-  animation: sun-glow 3s ease-in-out infinite;
-}
-@keyframes sun-glow { 0%,100% { transform: scale(1); } 50% { transform: scale(1.12); } }
-
-/* ---------- Flight animation ---------- */
-.plane-marker {
-  font-size: 1.5rem;
-  line-height: 1;
-  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.6));
-  transition: transform 0.12s linear;
-  will-change: transform;
-}
-
-/* ---------- Journey route dots ---------- */
-.journey-dot {
-  width: 22px; height: 22px;
-  border-radius: 50%;
-  background: var(--gold);
-  color: var(--void);
-  font-size: 0.65rem;
-  font-weight: 700;
-  display: flex; align-items: center; justify-content: center;
-  border: 2px solid var(--void);
-  box-shadow: 0 0 10px rgba(201,168,76,0.7);
-}
-
-@media (max-width: 720px) {
-  /* stats bar wraps to two rows here — lift the column clear of it */
-  .map-fabs { bottom: calc(var(--sp-xl) + 140px); }
-}
-
-/* ---------- Trip planner: planning hint ---------- */
-.plan-hint {
-  position: absolute;
-  top: 70px;
-  left: 50%;
-  transform: translateX(-50%) translateY(-12px);
-  z-index: 650;
-  background: var(--gold);
-  color: var(--void);
-  font-family: var(--font-body);
-  font-size: 0.78rem;
-  font-weight: 600;
-  padding: 7px 18px;
-  border-radius: var(--r-full);
-  box-shadow: 0 6px 24px rgba(201,168,76,0.4);
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity var(--med), transform var(--med);
-}
-.plan-hint.show { opacity: 1; transform: translateX(-50%) translateY(0); }
-
-/* ---------- Trip planner: side panel ---------- */
-.trip-panel {
-  position: absolute;
-  top: 116px;
-  right: var(--sp-lg);
-  z-index: 640;
-  width: 290px;
-  max-height: calc(100vh - 220px);
-  display: flex;
-  flex-direction: column;
-  background: rgba(18,26,38,0.96);
-  border: 1px solid var(--rim);
-  border-radius: var(--r-lg);
-  box-shadow: 0 12px 40px rgba(0,0,0,0.6);
-  padding: var(--sp-md);
-  opacity: 0;
-  transform: translateX(18px);
-  pointer-events: none;
-  transition: opacity var(--med), transform var(--med);
-}
-.trip-panel.open { opacity: 1; transform: translateX(0); pointer-events: auto; }
-
-.trip-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: var(--sp-sm); }
-.trip-head h3 {
-  font-family: var(--font-display);
-  font-size: 1rem;
-  color: var(--gold);
-  margin: 0;
-}
-.trip-close {
-  background: none; border: none; color: var(--text-lo);
-  font-size: 0.95rem; cursor: pointer; line-height: 1;
-  padding: 2px 6px; border-radius: var(--r-sm); transition: color var(--fast);
-}
-.trip-close:hover { color: var(--text-hi); }
-
-.trip-list { overflow-y: auto; display: flex; flex-direction: column; gap: 4px; margin-bottom: var(--sp-sm); }
-.trip-empty {
-  color: var(--text-lo);
-  font-size: 0.78rem;
-  line-height: 1.5;
-  padding: var(--sp-md) 2px;
-  text-align: center;
-}
-
-.trip-row {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 6px 8px;
-  border-radius: var(--r-sm);
-  background: rgba(8,12,20,0.5);
-  border: 1px solid transparent;
-  transition: border-color var(--fast);
-}
-.trip-row:hover { border-color: var(--gold-dim); }
-.trip-num {
-  flex-shrink: 0;
-  width: 20px; height: 20px;
-  border-radius: 50%;
-  background: var(--gold);
-  color: var(--void);
-  font-size: 0.62rem; font-weight: 700;
-  display: flex; align-items: center; justify-content: center;
-}
-.trip-emoji { flex-shrink: 0; font-size: 1rem; }
-.trip-info { flex: 1; min-width: 0; display: flex; flex-direction: column; line-height: 1.2; }
-.trip-info strong { font-size: 0.8rem; color: var(--text-hi); font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.trip-info small { font-size: 0.62rem; color: var(--text-lo); }
-.trip-ctrls { display: flex; align-items: center; gap: 1px; flex-shrink: 0; }
-.trip-mv, .trip-rm {
-  background: none; border: none; cursor: pointer;
-  color: var(--text-lo); font-size: 0.72rem; line-height: 1;
-  padding: 3px 4px; border-radius: var(--r-sm); transition: color var(--fast);
-}
-.trip-mv:hover { color: var(--gold); }
-.trip-rm:hover { color: #e0526b; }
-.trip-mv:disabled { opacity: 0.25; cursor: default; }
-
-.trip-summary { font-size: 0.72rem; color: var(--text-mid); text-align: center; margin-bottom: var(--sp-sm); min-height: 1em; }
-.trip-summary strong { color: var(--gold); }
-.trip-actions { display: flex; gap: var(--sp-sm); }
-.trip-actions .btn { flex: 1; padding: 8px 0; font-size: 0.78rem; }
-
-@media (max-width: 720px) {
-  .trip-panel { right: var(--sp-sm); left: var(--sp-sm); width: auto; top: 110px; }
-}
+.wmap-ctl button:hover { background: #1b2334; }

@@ -407,3 +407,5 @@ function weatherInfo(code, isDay = 1) {
   const [icon, label] = map[code] || ['🌍', 'Clear'];
   return { icon, label };
 }
+
+export { Culture, weatherInfo };

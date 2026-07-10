@@ -3,47 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Virtual Window · One World Tour</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✈️</text></svg>">
-  <link rel="stylesheet" href="css/main.css">
+  <title>Virtual Window — One World Tour</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🪟</text></svg>">
+  <link rel="stylesheet" href="css/theme.css">
   <link rel="stylesheet" href="css/window.css">
 </head>
-<body class="w-body">
+<body class="window-body">
 
-  <header class="w-top">
-    <a href="index.html" class="w-back">← Map</a>
-    <span class="w-top-title">🪟 Virtual Window</span>
-    <a href="guess.html" class="w-top-link">🌍 City Guesser →</a>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="index.html"><span class="globe">🌍</span> One <em>World</em> Tour</a>
+      <nav class="topnav">
+        <a href="index.html">Explore</a>
+        <a href="window.html" class="active">🪟 Window</a>
+        <a href="guess.html">🌍 Guesser</a>
+        <a href="passport.html">📘 Passport</a>
+      </nav>
+    </div>
   </header>
 
-  <main class="w-stage">
-    <div class="w-frame">
-      <div class="w-kind" id="w-kind"></div>
-      <div class="w-pane" id="pane"></div>
-      <div class="w-sill">
-        <div class="w-name" id="w-name">Opening a window…</div>
-        <div class="w-sub" id="w-sub"></div>
+  <main class="window-main wrap">
+    <div class="window-stage">
+      <div class="frame window-frame" id="win-frame"></div>
+      <div class="window-sill">
+        <div class="sill-place" id="sill-place">
+          <span class="faint">opening a window…</span>
+        </div>
+        <div class="sill-plate" id="sill-plate"></div>
+        <div class="sill-actions">
+          <a class="btn btn-sm" id="visit-link" hidden href="#">✈️ Visit this place</a>
+          <button class="btn btn-sm btn-gold" id="hop-btn">🎲 Open another window</button>
+        </div>
       </div>
     </div>
-
-    <div class="w-controls">
-      <button class="btn btn-gold" id="another-btn">🪟 Open another window</button>
-      <button class="btn btn-ghost" id="sound-btn"><span id="sound-label">🔇 Ambient sound</span></button>
-    </div>
-
-    <p class="w-legend" id="legend"></p>
-
-    <div class="w-suggest" id="suggest">
-      <span class="w-suggest-label">Drop by</span>
-    </div>
+    <p class="window-note">Every window is a <b>real live camera</b> — if a place has none we can verify,
+      it doesn't get a window yet. No loops, no stills, no pretending.</p>
   </main>
 
-  <script src="js/state.js"></script>
-  <script src="js/api.js"></script>
-  <script src="js/soundscape.js"></script>
-  <script src="js/webcam.js"></script>
-  <script src="js/ytembed.js"></script>
-  <script src="js/destinations.js"></script>
-  <script src="js/window.js"></script>
+  <div id="toast" class="toast"></div>
+  <script type="module" src="js/pages/window.js"></script>
 </body>
 </html>
