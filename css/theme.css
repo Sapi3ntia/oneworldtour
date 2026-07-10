@@ -1,0 +1,247 @@
+/* ============================================================
+   ONE WORLD TOUR — design system ("night atlas")
+   Guardrails: software rendering — NO backdrop-filter, NO infinite
+   paint animations. Transitions only on transform/opacity/color.
+   ============================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  /* ink */
+  --bg:        #0a0d14;
+  --bg-raise:  #10141f;
+  --bg-card:   #131826;
+  --line:      rgba(235, 238, 250, 0.09);
+  --line-hard: rgba(235, 238, 250, 0.16);
+
+  /* text */
+  --ink:       #edeff7;
+  --ink-dim:   #a8aec2;
+  --ink-faint: #6b7288;
+
+  /* brand */
+  --gold:      #e8b54d;
+  --gold-deep: #b8873a;
+  --live:      #ff5a5a;
+  --window:    #7db5f0;
+  --walk:      #7fd6a4;
+  --monument:  #c9a0f0;
+
+  --radius:    14px;
+  --radius-lg: 20px;
+  --shadow:    0 10px 34px rgba(0, 0, 0, 0.45);
+
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-ui:      'Inter', system-ui, -apple-system, sans-serif;
+
+  --maxw: 1240px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* the hidden attribute must always win, even over display-setting classes */
+[hidden] { display: none !important; }
+
+html { color-scheme: dark; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-size: 15px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection { background: rgba(232, 181, 77, 0.35); }
+
+a { color: inherit; text-decoration: none; }
+button { font-family: inherit; color: inherit; background: none; border: none; cursor: pointer; }
+img { max-width: 100%; display: block; }
+
+h1, h2, h3, .display { font-family: var(--font-display); font-weight: 600; letter-spacing: 0.01em; }
+
+.muted { color: var(--ink-dim); }
+.faint { color: var(--ink-faint); }
+.wrap  { max-width: var(--maxw); margin: 0 auto; padding: 0 22px; }
+
+/* ---------------- Topbar ---------------- */
+.topbar {
+  position: sticky; top: 0; z-index: 60;
+  background: rgba(10, 13, 20, 0.97);
+  border-bottom: 1px solid var(--line);
+}
+.topbar-inner {
+  max-width: var(--maxw); margin: 0 auto; padding: 0 22px;
+  height: 62px; display: flex; align-items: center; gap: 18px;
+}
+.brand { display: flex; align-items: center; gap: 10px; font-family: var(--font-display); font-size: 19px; font-weight: 700; white-space: nowrap; }
+.brand .globe { font-size: 22px; }
+.brand em { color: var(--gold); font-style: normal; }
+.topnav { display: flex; align-items: center; gap: 6px; margin-left: auto; }
+.topnav a, .topnav button {
+  padding: 8px 13px; border-radius: 10px; font-size: 13.5px; font-weight: 500;
+  color: var(--ink-dim); transition: color 0.15s, background 0.15s;
+}
+.topnav a:hover, .topnav button:hover { color: var(--ink); background: rgba(235, 238, 250, 0.06); }
+.topnav a.active { color: var(--gold); }
+
+/* ---------------- Buttons ---------------- */
+.btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 10px 18px; border-radius: 12px;
+  font-size: 14px; font-weight: 600;
+  border: 1px solid var(--line-hard);
+  background: var(--bg-raise); color: var(--ink);
+  transition: transform 0.12s, background 0.15s, border-color 0.15s;
+}
+.btn:hover { background: var(--bg-card); border-color: rgba(235, 238, 250, 0.28); }
+.btn:active { transform: scale(0.97); }
+.btn-gold {
+  background: var(--gold); border-color: var(--gold); color: #221a08;
+}
+.btn-gold:hover { background: #f0c266; border-color: #f0c266; }
+.btn-ghost { background: transparent; }
+.btn-sm { padding: 7px 12px; font-size: 13px; border-radius: 10px; }
+
+/* ---------------- Chips (filters / tabs) ---------------- */
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip {
+  padding: 7px 14px; border-radius: 999px; font-size: 13px; font-weight: 500;
+  border: 1px solid var(--line-hard); color: var(--ink-dim);
+  background: transparent;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+}
+.chip:hover { color: var(--ink); border-color: rgba(235, 238, 250, 0.3); }
+.chip.active { color: #16120a; background: var(--gold); border-color: var(--gold); font-weight: 600; }
+/* honest-gap placeholder: a scene we don't have (yet) stays visible */
+.chip-ghost { opacity: 0.5; border-style: dashed; cursor: help; }
+.chip-ghost:hover { color: var(--ink-faint); border-color: var(--line-hard); background: transparent; }
+
+/* ---------------- Badges (media honesty labels) ---------------- */
+.badge {
+  display: inline-flex; align-items: center; gap: 5px;
+  font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+  padding: 3px 9px; border-radius: 999px;
+  background: rgba(10, 13, 20, 0.82); border: 1px solid var(--line-hard);
+}
+.badge-live   { color: #ffb3b3; border-color: rgba(255, 90, 90, 0.5); }
+.badge-live .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--live); }
+.badge-window { color: #bcd9f7; border-color: rgba(125, 181, 240, 0.45); }
+.badge-walk   { color: #b9ecce; border-color: rgba(127, 214, 164, 0.45); }
+.badge-monu   { color: #e0cbf7; border-color: rgba(201, 160, 240, 0.45); }
+.badge-lapse  { color: #f7e3bc; border-color: rgba(232, 181, 77, 0.45); }
+
+/* ---------------- Cards ---------------- */
+.card {
+  position: relative; display: block;
+  border-radius: var(--radius); overflow: hidden;
+  background: var(--bg-card); border: 1px solid var(--line);
+  transition: transform 0.15s, border-color 0.15s;
+}
+.card:hover { transform: translateY(-3px); border-color: rgba(235, 238, 250, 0.22); }
+
+.place-card { width: 236px; flex: 0 0 auto; }
+.place-card .ph {
+  aspect-ratio: 3 / 2; background: #1a2030;
+  background-size: cover; background-position: center;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 40px;
+}
+.place-card .meta { padding: 11px 13px 13px; }
+.place-card .name { font-family: var(--font-display); font-size: 16.5px; font-weight: 600; line-height: 1.25; }
+.place-card .sub { font-size: 12.5px; color: var(--ink-dim); margin-top: 2px; }
+.place-card .badges { position: absolute; top: 9px; left: 9px; right: 9px; display: flex; gap: 5px; flex-wrap: wrap; }
+.place-card .stamp { position: absolute; top: 8px; right: 9px; font-size: 15px; }
+
+/* ---------------- Rails (horizontal shelves) ---------------- */
+.rail-head { display: flex; align-items: baseline; gap: 12px; margin: 34px 0 14px; }
+.rail-head h2 { font-size: 23px; }
+.rail-head .count { font-size: 12.5px; color: var(--ink-faint); font-family: var(--font-ui); }
+.rail {
+  display: flex; gap: 14px; overflow-x: auto; padding: 4px 2px 14px;
+  scroll-snap-type: x proximity; scrollbar-width: thin;
+  scrollbar-color: rgba(235,238,250,.18) transparent;
+}
+.rail > * { scroll-snap-align: start; }
+
+/* ---------------- Frames (video stage + windows) ---------------- */
+.frame {
+  position: relative; border-radius: var(--radius-lg); overflow: hidden;
+  background: #05070c; border: 1px solid var(--line);
+}
+.frame .yt-frame, .frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.frame-16x9 { aspect-ratio: 16 / 9; }
+
+/* honest empty state — never a stand-in still */
+.frame-empty {
+  position: absolute; inset: 0; display: flex; flex-direction: column;
+  align-items: center; justify-content: center; gap: 8px; text-align: center;
+  color: var(--ink-faint); padding: 24px;
+}
+.frame-empty .big { font-size: 38px; opacity: 0.65; }
+.frame-empty .why { font-size: 13.5px; max-width: 380px; line-height: 1.5; }
+
+/* ---------------- Inputs ---------------- */
+.input {
+  width: 100%; padding: 12px 16px; border-radius: 12px;
+  background: var(--bg-raise); border: 1px solid var(--line-hard);
+  color: var(--ink); font-size: 15px; font-family: inherit;
+  transition: border-color 0.15s;
+}
+.input:focus { outline: none; border-color: rgba(232, 181, 77, 0.55); }
+.input::placeholder { color: var(--ink-faint); }
+
+/* ---------------- Search suggest dropdown ---------------- */
+.suggest {
+  position: absolute; top: calc(100% + 8px); left: 0; right: 0; z-index: 70;
+  background: var(--bg-raise); border: 1px solid var(--line-hard);
+  border-radius: 14px; box-shadow: var(--shadow); overflow: hidden;
+  max-height: 380px; overflow-y: auto;
+}
+.suggest:empty { display: none; }
+.suggest-item {
+  display: flex; align-items: center; gap: 11px; width: 100%;
+  padding: 11px 15px; text-align: left; font-size: 14px;
+  border-bottom: 1px solid var(--line);
+}
+.suggest-item:last-child { border-bottom: none; }
+.suggest-item:hover, .suggest-item.hot { background: rgba(235, 238, 250, 0.07); }
+.suggest-item .s-emoji { font-size: 19px; }
+.suggest-item .s-name { font-weight: 600; }
+.suggest-item .s-sub { color: var(--ink-faint); font-size: 12.5px; }
+.suggest-item .s-badges { margin-left: auto; display: flex; gap: 4px; font-size: 11px; }
+
+/* ---------------- Sections / panels ---------------- */
+.panel {
+  background: var(--bg-card); border: 1px solid var(--line);
+  border-radius: var(--radius-lg); padding: 20px;
+}
+.panel h3 { font-size: 17px; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+
+.section-head { display: flex; align-items: baseline; gap: 14px; margin: 42px 0 18px; }
+.section-head h2 { font-size: 26px; }
+.section-head .lede { color: var(--ink-dim); font-size: 14px; }
+
+/* ---------------- Footer ---------------- */
+.site-footer {
+  margin-top: 70px; border-top: 1px solid var(--line);
+  padding: 28px 0 40px; color: var(--ink-faint); font-size: 13px;
+}
+.site-footer .wrap { display: flex; gap: 18px; flex-wrap: wrap; align-items: center; }
+
+/* ---------------- Toast ---------------- */
+.toast {
+  position: fixed; left: 50%; bottom: 28px; transform: translate(-50%, 8px);
+  background: var(--bg-raise); border: 1px solid var(--line-hard);
+  border-radius: 12px; padding: 11px 18px; font-size: 14px;
+  box-shadow: var(--shadow); z-index: 100; opacity: 0;
+  transition: opacity 0.2s, transform 0.2s; pointer-events: none;
+}
+.toast.show { opacity: 1; transform: translate(-50%, 0); }
+
+/* ---------------- Small screens ---------------- */
+@media (max-width: 760px) {
+  .topbar-inner { padding: 0 14px; gap: 10px; }
+  .topnav a, .topnav button { padding: 7px 9px; font-size: 12.5px; }
+  .wrap { padding: 0 14px; }
+  .place-card { width: 190px; }
+}

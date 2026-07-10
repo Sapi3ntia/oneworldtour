@@ -54,3 +54,5 @@ const Radio = {
 
   _emit(state) { if (this._onState) this._onState(state, this.current); }
 };
+
+export { Radio };

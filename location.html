@@ -3,271 +3,113 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exploring — One World Tour</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✈️</text></svg>">
-  <!-- Leaflet for the mini-map card -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="css/main.css">
+  <title>One World Tour — arriving…</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌍</text></svg>">
+  <link rel="stylesheet" href="css/theme.css">
   <link rel="stylesheet" href="css/location.css">
 </head>
 <body>
-<div id="location-screen">
 
-  <!-- ARRIVAL OVERLAY -->
-  <div id="arrival-overlay">
-    <div id="arrival-photo"></div>
-    <div id="arrival-content">
-      <div id="arrival-tag"></div>
-      <h1 id="arrival-name">Loading…</h1>
-      <p id="arrival-province"></p>
-      <p id="arrival-hint">Click anywhere to enter →</p>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="index.html"><span class="globe">🌍</span> One <em>World</em> Tour</a>
+      <nav class="topnav">
+        <a href="index.html">Explore</a>
+        <a href="window.html">🪟 Window</a>
+        <a href="guess.html">🌍 Guesser</a>
+        <a href="passport.html">📘 Passport</a>
+        <button id="surprise-top" class="btn btn-gold btn-sm">🎲 Surprise me</button>
+      </nav>
     </div>
-  </div>
+  </header>
 
-  <!-- MAIN EXPERIENCE — media-first, one vertical scroll -->
-  <div id="experience">
+  <main class="wrap" id="page" hidden>
 
-    <!-- Sticky glass header -->
-    <header id="loc-header">
-      <button class="back-btn" id="back-btn">← Map</button>
-      <div id="loc-title">
-        <h2 id="panel-location-name"></h2>
-        <div id="panel-province"></div>
-      </div>
-      <div class="header-actions">
-        <button class="tour-btn" id="tour-btn" title="Add this stop to your tour">➕ Tour</button>
-        <button class="postcard-btn" id="postcard-btn" title="Create a postcard">📮 Postcard</button>
-        <button class="save-btn" id="save-btn" title="Save to your wishlist">♡ Save</button>
-      </div>
-    </header>
-
-    <!-- HERO — FRAME 1: the walking tour, big. A recorded street-level stroll
-         (🚶). No walk for this place yet → the arrival photo (📷), honestly
-         chipped, never dressed up as footage. The glass plate is live local
-         time + weather — real right-now data over whatever is playing. -->
-    <section id="hero">
-      <div id="hero-stage"></div>
-      <div class="hero-chip" id="hero-chip"></div>
-
-      <!-- Ambient soundscape toggle -->
-      <button id="ambient-toggle" class="ambient-toggle" title="Toggle ambient sound">
-        <span class="eq"><i></i><i></i><i></i><i></i></span>
-        <span id="ambient-label">Ambient</span>
-      </button>
-
-      <!-- RIGHT NOW — live local time + weather -->
-      <div id="hero-plate">
-        <div class="cond-block">
-          <div id="local-clock" class="cond-time">--:--</div>
-          <div class="cond-sub" id="local-tz">local time</div>
+    <!-- arrival header -->
+    <section class="arrive" id="arrive">
+      <div class="arrive-text">
+        <div class="arrive-kicker" id="kicker"></div>
+        <h1 id="place-name"></h1>
+        <p class="arrive-blurb" id="blurb"></p>
+        <div class="arrive-actions">
+          <button id="save-btn" class="btn btn-sm">♥ Save</button>
+          <button id="note-btn" class="btn btn-sm">✍️ Note</button>
+          <a id="window-link" class="btn btn-sm" hidden href="#">🪟 Open as Window</a>
         </div>
-        <div class="cond-divider"></div>
-        <div class="cond-block">
-          <div class="cond-weather"><span id="weather-icon">🌍</span><span id="weather-temp">--°</span></div>
-          <div class="cond-sub" id="weather-label">checking the skies…</div>
+      </div>
+      <div class="rightnow panel" id="rightnow">
+        <h3>Right now</h3>
+        <div class="rn-clock" id="rn-clock">–:–</div>
+        <div class="rn-weather" id="rn-weather">
+          <span class="muted">checking the sky…</span>
         </div>
+        <button id="ambience-btn" class="btn btn-sm btn-ghost">🔊 Ambience</button>
       </div>
     </section>
 
-    <!-- CONTENT — main column + side rail, stacking on small screens -->
-    <main id="content">
+    <!-- the stage -->
+    <section class="stage-section">
+      <div class="chips stage-tabs" id="stage-tabs"></div>
+      <div class="frame frame-16x9 stage" id="stage"></div>
+      <div class="stage-caption" id="stage-caption"></div>
+    </section>
 
-      <div id="col-main">
-
-        <!-- STEP OUTSIDE — two fixed frames, always in the same place:
-               • FRAME 2 · 🔴 Live cam — a REAL live stream of the place, now.
-                            Curated YouTube only; a tap-to-play widget or a
-                            recorded clip is never allowed to sit here.
-               • FRAME 3 · 🪟 Window   — a smaller, stationary out-the-window
-                            view: a looping curated clip, chrome-free
-                            (virtualvacation-style). Curated YouTube only.
-             Each frame is a fixed slot — no feed yet → an honest placeholder
-             right there, never a fake or a broken embed. -->
-        <section class="panel-section" id="outside-section">
-          <p class="section-label">Step Outside</p>
-          <div id="outside-frames">
-            <div class="view-frame view-frame-live">
-              <div class="outside-cap view-cap" id="live-cap"></div>
-              <div class="outside-stage view-stage" id="live-stage"></div>
-            </div>
-            <div class="view-frame view-frame-window">
-              <div class="outside-cap view-cap" id="window-cap"></div>
-              <div class="outside-stage view-stage" id="window-stage"></div>
-            </div>
-          </div>
-        </section>
-
-        <!-- MONUMENTS — up to 3 named landmark tours; a picker feeds one player.
-             Separate from the walk and the window by design. Hidden when none. -->
-        <section class="panel-section" id="monuments-section" style="display:none">
-          <p class="section-label">🏛️ Monuments &amp; Landmarks</p>
-          <div class="mon-tabs" id="mon-tabs"></div>
-          <div class="outside-stage" id="mon-stage"></div>
-          <div class="mon-cap outside-cap" id="mon-cap"></div>
-        </section>
-
-        <!-- ABOUT — rendered first so it always shows -->
-        <section class="panel-section" id="about-section">
-          <p class="section-label">About</p>
-          <p id="blurb-text"></p>
-          <div id="fun-fact"></div>
-          <div id="hidden-tip"></div>
-        </section>
-
-        <!-- ANCIENT APOCALYPSE — Graham Hancock's claim about this site -->
-        <section class="panel-section" id="hancock-section" style="display:none">
-          <p class="section-label">Ancient Apocalypse <span class="shush" title="They don't want you to know…">🤫</span></p>
-          <div class="hancock-card">
-            <div class="hancock-ep" id="hancock-ep"></div>
-            <p class="hancock-claim" id="hancock-claim"></p>
-            <div class="hancock-foot">
-              <span class="hancock-by">Graham Hancock's claim — make up your own mind.</span>
-            </div>
-          </div>
-        </section>
-
-        <!-- HIGHLIGHTS -->
-        <section class="panel-section" id="highlights-section" style="display:none">
-          <p class="section-label">Highlights <span id="highlights-count" class="hl-count"></span></p>
-          <p class="hl-intro">Tap a landmark to explore its photos and story.</p>
-          <div id="highlight-chips"></div>
-          <div id="highlight-detail"></div>
-        </section>
-
-        <!-- PHOTOS -->
-        <section class="panel-section">
-          <p class="section-label">Photos</p>
-          <div id="photo-gallery"></div>
-        </section>
-
-        <!-- GUIDE -->
-        <section class="panel-section" id="guide-section">
-          <p class="section-label">Ask the Guide</p>
-          <p id="guide-blurb"></p>
-          <div class="guide-row">
-            <input type="text" id="guide-input"
-              placeholder="Ask anything about this place…"
-              autocomplete="off">
-            <button class="btn btn-gold" id="guide-ask-btn">Ask</button>
-          </div>
-          <div id="guide-response"></div>
-        </section>
-
+    <!-- info grid -->
+    <section class="info-grid">
+      <div class="panel" id="about-panel">
+        <h3>📖 About</h3>
+        <div id="about-text" class="muted">…</div>
+        <div id="fun-fact" class="funfact" hidden></div>
+        <div id="aa-panel" class="aa" hidden></div>
+        <div id="highlights" class="hl-chips"></div>
       </div>
 
-      <aside id="col-side">
-
-        <!-- WHERE YOU ARE — the mini-map, demoted to a small side card -->
-        <section class="panel-section" id="map-card">
-          <p class="section-label">Where you are</p>
-          <div id="mini-map"></div>
-        </section>
-
-        <!-- LOCAL FLAVOR — language, phrases, currency, food -->
-        <section class="panel-section" id="flavor-section" style="display:none">
-          <p class="section-label">Local Flavor</p>
-          <div class="flavor-grid">
-            <div class="flavor-cell"><span class="flavor-k">Language</span><span class="flavor-v" id="flavor-lang"></span></div>
-            <div class="flavor-cell"><span class="flavor-k">Currency</span><span class="flavor-v" id="flavor-currency"></span></div>
-          </div>
-          <div class="facts-grid" id="facts-grid" style="display:none">
-            <div class="fact-cell"><span class="fact-ico">🏛️</span><span class="fact-v" id="fact-capital"></span><span class="fact-k">Capital</span></div>
-            <div class="fact-cell"><span class="fact-ico">👥</span><span class="fact-v" id="fact-pop"></span><span class="fact-k">Population</span></div>
-            <div class="fact-cell"><span class="fact-ico">🚗</span><span class="fact-v" id="fact-drives"></span><span class="fact-k">Drives on</span></div>
-            <div class="fact-cell"><span class="fact-ico">🔌</span><span class="fact-v" id="fact-plug"></span><span class="fact-k">Power</span></div>
-          </div>
-          <div class="flavor-dish"><span class="flavor-k">Must-try dish</span><span class="flavor-v" id="flavor-dish"></span></div>
-          <div class="flavor-fx" id="flavor-fx" style="display:none"><span class="flavor-k">Exchange</span><span class="flavor-v" id="flavor-fx-val"></span></div>
-          <div class="phrasebook">
-            <span class="flavor-k">Say it like a local</span>
-            <div id="phrase-list"></div>
-          </div>
-        </section>
-
-        <!-- LOCAL RADIO — live streams from the country, right now -->
-        <section class="panel-section" id="radio-section" style="display:none">
-          <p class="section-label">Local Radio <span id="radio-live" class="radio-live">● ON AIR</span></p>
-          <div class="radio-player">
-            <button id="radio-play" class="radio-play" title="Play / pause">▶</button>
-            <div class="radio-meta">
-              <div id="radio-station" class="radio-station">Tap play to tune in</div>
-              <div id="radio-status" class="radio-status"></div>
-            </div>
-            <span class="radio-eq"><i></i><i></i><i></i><i></i><i></i></span>
-          </div>
-          <div class="radio-controls">
-            <select id="radio-select" class="radio-select" aria-label="Choose a station"></select>
-            <button id="radio-random" class="radio-random" title="Surprise me">🎲</button>
-          </div>
-        </section>
-
-        <!-- NEWS — what's happening here today -->
-        <section class="panel-section" id="news-section" style="display:none">
-          <p class="section-label">Headlines <span id="news-live" class="news-live">● TODAY</span></p>
-          <div id="news-list"></div>
-        </section>
-
-        <!-- NEARBY -->
-        <section class="panel-section" id="nearby-section" style="display:none">
-          <p class="section-label">Continue your tour</p>
-          <div id="nearby-list"></div>
-        </section>
-
-      </aside>
-
-    </main>
-  </div><!-- /experience -->
-
-  <!-- PROGRESS BAR -->
-  <div id="progress-wrap">
-    <span class="prog-label">Exploring</span>
-    <div id="progress-bar"><div id="progress-fill"></div></div>
-    <span id="stamp-status">0% explored</span>
-  </div>
-
-  <!-- STAMP EARNED OVERLAY -->
-  <div id="stamp-earned-overlay">
-    <div class="stamp-card">
-      <h2>Stamp Earned! 🎉</h2>
-      <div id="stamp-earned-display"></div>
-      <p>You've explored <strong id="stamp-earned-name"></strong>.<br>
-         Your passport has been updated.</p>
-      <div class="stamp-card-actions">
-        <button class="btn btn-ghost" id="stamp-earned-close">Keep Exploring</button>
-        <a href="passport.html" class="btn btn-gold">View Passport</a>
+      <div class="panel" id="culture-panel" hidden>
+        <h3>🍽️ Local flavor</h3>
+        <div id="culture-body"></div>
       </div>
+
+      <div class="panel" id="radio-panel" hidden>
+        <h3>📻 Local radio</h3>
+        <div id="radio-list" class="radio-list"></div>
+      </div>
+
+      <div class="panel" id="news-panel" hidden>
+        <h3>📰 In the news</h3>
+        <ul id="news-list" class="news-list"></ul>
+      </div>
+
+      <div class="panel" id="gallery-panel" hidden>
+        <h3>🖼️ Gallery</h3>
+        <div id="gallery" class="gallery"></div>
+      </div>
+
+      <div class="panel" id="guide-panel">
+        <h3>💬 Ask the guide</h3>
+        <div id="guide-log" class="guide-log"></div>
+        <form id="guide-form" class="guide-form">
+          <input id="guide-q" class="input" placeholder="Ask anything about this place…" autocomplete="off">
+        </form>
+        <div class="faint guide-hint">Optional — needs the local backend running.</div>
+      </div>
+    </section>
+
+    <!-- onward -->
+    <section id="next-section">
+      <div class="rail-head"><h2>✈️ Nearby from here</h2></div>
+      <div class="rail" id="next-rail"></div>
+    </section>
+  </main>
+
+  <div id="notfound" class="wrap" hidden>
+    <div class="frame-empty" style="position:static;padding:90px 20px">
+      <div class="big">🧭</div>
+      <div class="why">That place isn't on the map. <a href="index.html" style="color:var(--gold)">Back to the world →</a></div>
     </div>
   </div>
 
-  <!-- POSTCARD STUDIO -->
-  <div id="postcard-overlay">
-    <div class="postcard-modal">
-      <button class="postcard-close" id="postcard-close" title="Close">✕</button>
-      <h2>Send a Postcard</h2>
-      <p class="postcard-sub">A little keepsake from your visit — write a note and download it.</p>
-      <div class="postcard-canvas-wrap">
-        <canvas id="postcard-canvas" width="1000" height="640"></canvas>
-      </div>
-      <textarea id="postcard-message" class="postcard-message" maxlength="140"
-        placeholder="Wish you were here…"></textarea>
-      <div class="postcard-actions">
-        <button class="btn btn-ghost" id="postcard-cancel">Cancel</button>
-        <button class="btn btn-gold" id="postcard-download">⬇ Download postcard</button>
-      </div>
-    </div>
-  </div>
+  <div id="toast" class="toast"></div>
 
-</div>
-
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="js/state.js"></script>
-<script src="js/api.js"></script>
-<script src="js/culture.js"></script>
-<script src="js/soundscape.js"></script>
-<script src="js/radio.js"></script>
-<script src="js/webcam.js"></script>
-<script src="js/ytembed.js"></script>
-<script src="js/destinations.js"></script>
-<script src="js/location.js"></script>
+  <script type="module" src="js/pages/location.js"></script>
 </body>
 </html>
