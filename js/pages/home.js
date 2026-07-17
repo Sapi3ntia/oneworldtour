@@ -134,6 +134,9 @@ async function boot() {
     monuments: p => p._flags.monuments,
     saved: p => State.isSaved(p.id),
     ancient: p => p.region_id === 'ancient',
+    // wildlife = the wild collection + any nature place with a live cam
+    // (kruger, maasai mara, yellowstone live via the media.json pipeline)
+    wild: p => p.region_id === 'wild' || (p.type === 'nature' && p._flags.live),
   };
   qs('#map-filters').addEventListener('click', ev => {
     const b = ev.target.closest('.chip');
@@ -156,10 +159,12 @@ async function boot() {
   const monus = shuffled(places.filter(p => p._flags.monuments)).slice(0, 16);
   const saved = places.filter(p => State.isSaved(p.id));
   const ancient = shuffled(places.filter(p => p.region_id === 'ancient')).slice(0, 16);
+  const wild = shuffled(places.filter(filters.wild)).slice(0, 16);
 
   railsEl.append(...[
     rail('✨ Start here', fullyLoaded, 'walk + live cam, ready to go'),
     rail('🔴 Live right now', liveNow, 'real cameras, streaming this second'),
+    rail('🦁 Wild live cams', wild, 'bears, gorillas, waterholes — streaming now'),
     rail('🚶 Best walking tours', walks, 'seekable, real footage'),
     rail('🏛️ Monumental cities', monus, 'landmark tours inside'),
     saved.length ? rail('♥ Your saved places', saved) : null,

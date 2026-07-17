@@ -24,6 +24,7 @@
   --live:      #ff5a5a;
   --window:    #7db5f0;
   --walk:      #7fd6a4;
+  --drive:     #f0ad7d;
   --monument:  #c9a0f0;
 
   --radius:    14px;
@@ -127,6 +128,7 @@ h1, h2, h3, .display { font-family: var(--font-display); font-weight: 600; lette
 .badge-live .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--live); }
 .badge-window { color: #bcd9f7; border-color: rgba(125, 181, 240, 0.45); }
 .badge-walk   { color: #b9ecce; border-color: rgba(127, 214, 164, 0.45); }
+.badge-drive  { color: #f7d9bc; border-color: rgba(240, 173, 125, 0.45); }
 .badge-monu   { color: #e0cbf7; border-color: rgba(201, 160, 240, 0.45); }
 .badge-lapse  { color: #f7e3bc; border-color: rgba(232, 181, 77, 0.45); }
 

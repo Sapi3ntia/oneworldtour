@@ -1,0 +1,48 @@
+{
+  "generated": "2026-07-15",
+  "note": "Live national TV per country code. Every channel verified ACTUALLY streaming at generation time — YouTube ids via yt-dlp (is_live + playable_in_embed), HLS playlists via curl (HTTP 200 + Access-Control-Allow-Origin + advancing live segments). kind: 'yt' = 24/7 YouTube live; 'hls' = broadcaster's own .m3u8 (for state TV YouTube removed, e.g. RT, or that never had an official channel there, e.g. KCTV). A channel that rots removes itself at runtime.",
+  "countries": {
+    "CN": [
+      { "name": "CGTN", "lang": "English", "kind": "yt", "yt": "BOy2xDU1LC8",
+        "about": "China Global Television Network — the state international broadcaster, 24/7" },
+      { "name": "CCTV-4 中文国际", "lang": "Chinese", "kind": "yt", "yt": "vNVp6bxkL1c",
+        "about": "China Central Television's international Chinese-language channel (Asia feed)" },
+      { "name": "CCTV-13 新闻", "lang": "Chinese", "kind": "yt", "yt": "DQyRHoQhjmE",
+        "about": "CCTV's rolling national news channel" }
+    ],
+    "KP": [
+      { "name": "KCTV — Korean Central Television", "lang": "Korean", "kind": "hls",
+        "url": "https://kctv.koryofront.org/stream/index.m3u8",
+        "about": "The DPRK state broadcaster. Broadcasts roughly 15:00–22:30 Pyongyang time (test card off-hours)." }
+    ],
+    "RU": [
+      { "name": "RT News", "lang": "English", "kind": "hls",
+        "url": "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8",
+        "about": "Russia Today — the state international broadcaster. Removed from YouTube in 2022; this is RT's own stream." }
+    ],
+    "JP": [
+      { "name": "NHK World-Japan", "lang": "English", "kind": "yt", "yt": "f0lYkdA-Gtw",
+        "about": "Japan's public international broadcaster" }
+    ],
+    "KR": [
+      { "name": "KBS World", "lang": "Korean / English subs", "kind": "yt", "yt": "OxQQsIvJTTU",
+        "about": "South Korea's public international channel" }
+    ],
+    "QA": [
+      { "name": "Al Jazeera English", "lang": "English", "kind": "yt", "yt": "gCNeDWCI0vo",
+        "about": "Qatar's state-funded international news network" }
+    ],
+    "DE": [
+      { "name": "DW News", "lang": "English", "kind": "yt", "yt": "LuKwFajn37U",
+        "about": "Deutsche Welle — Germany's public international broadcaster" }
+    ],
+    "FR": [
+      { "name": "France 24", "lang": "English", "kind": "yt", "yt": "HvZt-nh9sGg",
+        "about": "France's public international news channel" }
+    ],
+    "TR": [
+      { "name": "TRT World", "lang": "English", "kind": "yt", "yt": "b8lPrtjmnmw",
+        "about": "Türkiye's public international broadcaster" }
+    ]
+  }
+}

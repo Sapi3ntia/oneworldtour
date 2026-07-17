@@ -1,14 +1,18 @@
 /* ============================================================
-   LOCATION — arrive somewhere. One stage, tab-switchable scenes:
-   🚶 walk · 🏛️ each monument · 🔴 live street cam · 🪟 live window.
-   Scenes that don't exist simply aren't offered (honest gaps).
-   A scene whose YouTube id has rotted removes its own tab live.
+   LOCATION — arrive somewhere. One stage, four panes at once:
+   🚶 walk (top-left) · 🚗 drive (top-right) · 🔴 live street cam
+   (bottom-left) · 🪟 live window (bottom-right). Clicking a pane's
+   bar enlarges it; clicking it again evens the grid back out.
+   A scene that doesn't exist shows its honest gap in place, and a
+   scene whose YouTube id has rotted empties its own pane live.
+   🏛️ Monuments swap into the walk pane via chips above the grid.
    ============================================================ */
 import { loadAll, byId, search } from '../lib/data.js';
-import { walkFor, liveFor, windowFor, monumentsFor, sceneFlags } from '../lib/media.js';
+import { walkFor, driveFor, liveFor, windowFor, monumentsFor, sceneFlags } from '../lib/media.js';
 import { State } from '../lib/state.js';
 import { Culture, weatherInfo } from '../lib/culture.js';
 import { Radio } from '../lib/radio.js';
+import { channelsFor, tvGeneratedDate, mountHls } from '../lib/tv.js';
 import { Soundscape } from '../lib/soundscape.js';
 import * as api from '../lib/api.js';
 import * as yt from '../lib/yt.js';
@@ -26,137 +30,186 @@ function toast(msg) {
   t._h = setTimeout(() => t.classList.remove('show'), 2800);
 }
 
-/* ---------------- the stage ---------------- */
-const stageState = { mounted: null, scenes: [], active: null };
+/* ---------------- the stage: four panes, one grid ---------------- */
+const PANES = [
+  { id: 'walk',   icon: '🚶', label: 'Walking tour', badge: 'badge-walk',
+    resolve: walkFor,   ghost: 'No walking tour yet' },
+  { id: 'drive',  icon: '🚗', label: 'Driving tour', badge: 'badge-drive',
+    resolve: driveFor,  ghost: 'No driving tour yet' },
+  { id: 'live',   icon: '🔴', label: 'Live cam', badge: 'badge-live', live: true,
+    resolve: liveFor,   ghost: 'No live cam yet' },
+  { id: 'window', icon: '🪟', label: 'Window', badge: 'badge-window', live: true,
+    resolve: windowFor, ghost: 'No window yet' },
+];
 
-function destroyStage() {
-  if (stageState.mounted?.destroy) stageState.mounted.destroy();
-  stageState.mounted = null;
-  const stage = qs('#stage');
-  stage.innerHTML = '';   // yt.mount owns the host's contents — rebuild empties on demand
-  stage.classList.remove('window-vignette');
-}
+const stageState = { panes: new Map(), walkShowing: 'walk' };   // pane id → { node, mounted }
 
-function sourceBadge(scene) {
-  if (scene.media?.source === 'curated') return 'hand-picked';
-  if (scene.media?.source === 'auto') return 'auto-found & vetted';
+const GHOST_TIP = 'Nothing we could verify as real for this place yet — ' +
+  'no loop or still ever stands in. It fills in when the pipeline finds one.';
+
+function sourceBadge(media) {
+  if (media?.source === 'curated') return 'hand-picked';
+  if (media?.source === 'auto') return 'auto-found & vetted';
   return '';
 }
 
-function showEmptyStage(place) {
-  const stage = qs('#stage');
-  let e = stage.querySelector('.frame-empty');
-  if (!e) { e = el('div', { class: 'frame-empty' }); stage.appendChild(e); }
-  e.hidden = false;
-  e.innerHTML = '';
-  e.append(
-    el('div', { class: 'big' }, '🌫️'),
-    el('div', { class: 'why' },
-      `No scenes for ${place.name} yet — no walking tour or live cam we could honestly verify. `,
-      'They fill in city by city; nothing fake stands in meanwhile.'),
-  );
-  e.hidden = false;
+/* One pane grows; clicking the grown pane's bar evens the grid out. */
+function setFocus(id) {
+  const grid = qs('#stage-grid');
+  if (id && grid.dataset.focus !== id) grid.dataset.focus = id;
+  else grid.removeAttribute('data-focus');
 }
 
-function renderScene(place, scene) {
-  destroyStage();
-  stageState.active = scene.id;
-  const stage = qs('#stage');
-  const cap = qs('#stage-caption');
-  cap.innerHTML = '';
+/* Replace a pane in place (grid position comes from source order). */
+function swapPane(def, fresh) {
+  const old = stageState.panes.get(def.id);
+  if (old) {
+    old.mounted?.destroy?.();
+    old.node.replaceWith(fresh.node);
+  } else {
+    qs('#stage-grid').append(fresh.node);
+  }
+  stageState.panes.set(def.id, fresh);
+}
 
-  const dead = () => {
-    // the id rotted — remove this tab honestly and move on
-    stageState.scenes = stageState.scenes.filter(s => s.id !== scene.id);
-    buildTabs(place);
-    toast(`That ${scene.kindLabel.toLowerCase()} feed has gone offline — removed.`);
-    const next = stageState.scenes[0];
-    if (next) renderScene(place, next);
-    else { destroyStage(); showEmptyStage(place); }
-  };
+/* Honest gap: the pane stays, dashed, and says why it's empty. */
+function ghostPane(def, why) {
+  const node = el('div', { class: 'quad quad-ghost', 'data-quad': def.id, title: why ? '' : GHOST_TIP },
+    el('div', { class: 'quad-bar' },
+      el('span', { class: `badge ${def.badge}` }, `${def.icon} ${def.label}`)),
+    el('div', { class: 'frame quad-frame' },
+      el('div', { class: 'frame-empty' },
+        el('div', { class: 'big' }, '🌫️'),
+        el('div', { class: 'why' }, why || `${def.ghost} — nothing fake stands in.`))),
+  );
+  return { node, mounted: null };
+}
 
-  const m = scene.media;
-  if (m?.yt) {
-    stageState.mounted = yt.mount(stage, {
-      videoId: m.yt,
-      start: m.start || 0,
+/* A playing pane. `view` lets monuments borrow the walk pane:
+   { label, badge, icon, onDead } override the pane's own identity. */
+function scenePane(place, def, media, view = {}) {
+  const label = view.label || def.label;
+  const frame = el('div', { class: 'frame quad-frame' });
+  if (def.id === 'window') frame.classList.add('window-vignette');
+
+  const node = el('div', { class: 'quad', 'data-quad': def.id },
+    el('button', {
+      class: 'quad-bar', title: 'Click to enlarge / shrink this pane',
+      onclick: () => setFocus(def.id),
+    },
+      el('span', { class: `badge ${view.badge || def.badge}` },
+        def.live ? el('span', { class: 'dot' }) : null,
+        def.live ? label : `${view.icon || def.icon} ${label}`),
+      media.title ? el('span', { class: 'quad-title' }, media.title) : null,
+      el('span', { class: 'quad-src faint' }, sourceBadge(media)),
+      el('span', { class: 'quad-zoom' }, '⛶'),
+    ),
+    frame,
+  );
+
+  const dead = view.onDead || (() => {
+    // the id rotted — empty this pane honestly, in place
+    toast(`That ${label.toLowerCase()} feed has gone offline — removed.`);
+    swapPane(def, ghostPane(def,
+      `The ${label.toLowerCase()} went dark — an honest gap until a new one is verified.`));
+    if (qs('#stage-grid').dataset.focus === def.id) setFocus(null);
+  });
+
+  let mounted = null;
+  if (media.yt) {
+    mounted = yt.mount(frame, {
+      videoId: media.yt,
+      start: media.start || 0,
       muted: true,
-      controls: scene.id === 'window' ? 0 : 1,
-      loop: scene.id === 'window',
+      controls: def.id === 'window' ? 0 : 1,
+      loop: def.id === 'window',
       onError: dead,
     });
-  } else if (m?.channel) {
+  } else if (media.channel) {
     const ifr = el('iframe', {
-      src: `https://www.youtube.com/embed/live_stream?channel=${m.channel}&autoplay=1&mute=1&modestbranding=1`,
+      src: `https://www.youtube.com/embed/live_stream?channel=${media.channel}&autoplay=1&mute=1&modestbranding=1`,
       allow: 'autoplay; encrypted-media; fullscreen', allowfullscreen: true,
     });
-    stage.appendChild(ifr);
-    stageState.mounted = { destroy: () => ifr.remove() };
+    frame.appendChild(ifr);
+    mounted = { destroy: () => ifr.remove() };
   }
-
-  if (scene.id === 'window') stage.classList.add('window-vignette');
-
-  /* caption: honesty badges */
-  const badgeCls = { walk: 'badge-walk', live: 'badge-live', window: 'badge-window', monument: 'badge-monu' }[scene.type];
-  cap.append(...[
-    el('span', { class: `badge ${badgeCls}` },
-      scene.type === 'live' || scene.type === 'window' ? el('span', { class: 'dot' }) : null,
-      scene.kindLabel),
-    m?.title ? el('span', {}, m.title) : null,
-    el('span', { class: 'faint' }, sourceBadge(scene)),
-    scene.type === 'walk' ? el('span', { class: 'faint' }, 'muted · seek freely') : null,
-    scene.type === 'window' ? el('span', { class: 'faint' }, 'a real live view — not a loop') : null,
-  ].filter(Boolean));
-  buildTabs(place);
+  return { node, mounted };
 }
 
-function buildTabs(place) {
+/* 🏛️ Monuments share the walk pane (the seekable-video seat).
+   Chips above the grid swap them in; the walk chip swaps back. */
+function buildMonumentChips(place) {
   const bar = qs('#stage-tabs');
+  const mons = monumentsFor(place);
   bar.innerHTML = '';
-  for (const s of stageState.scenes) {
-    bar.append(el('button', {
-      class: 'chip' + (s.id === stageState.active ? ' active' : ''),
-      onclick: () => renderScene(place, s),
-    },
-      (s.type === 'live' || s.type === 'window') ? el('span', { class: 'live-dot' }) : null,
-      s.tabLabel,
-    ));
+  if (!mons.length) { bar.hidden = true; return; }
+  bar.hidden = false;
+
+  const walkDef = PANES[0];
+  const walk = walkFor(place);
+  const setActive = key => {
+    stageState.walkShowing = key;
+    bar.querySelectorAll('.chip').forEach(c =>
+      c.classList.toggle('active', c.dataset.key === key));
+  };
+  const showMonument = (mo, key) => {
+    swapPane(walkDef, scenePane(place, walkDef,
+      { yt: mo.yt, start: mo.start || 0, source: 'curated' },
+      { label: mo.name, badge: 'badge-monu', icon: '🏛️',
+        onDead: () => {
+          toast(`The ${mo.name} video has rotted — removed.`);
+          bar.querySelector(`[data-key="${key}"]`)?.remove();
+          showWalk();
+        } }));
+    qs('#stage-grid').dataset.focus = 'walk';   // force, don't toggle
+    setActive(key);
+  };
+  const showWalk = () => {
+    swapPane(walkDef, walk ? scenePane(place, walkDef, walk) : ghostPane(walkDef));
+    setActive('walk');
+  };
+
+  if (walk) {
+    bar.append(el('button', { class: 'chip', 'data-key': 'walk',
+      onclick: () => { if (stageState.walkShowing !== 'walk') showWalk(); },
+    }, '🚶 Walking tour'));
   }
-  // honest gaps stay visible — a missing scene is a fact, not a bug.
-  // (Also reappears when a rotted feed removes its own tab.)
-  const ghosts = [
-    ['walk', '🚶 no walking tour yet'],
-    ['live', '🔴 no live cam yet'],
-    ['window', '🪟 no window yet'],
-  ];
-  for (const [id, label] of ghosts) {
-    if (stageState.scenes.some(s => s.id === id)) continue;
-    bar.append(el('span', {
-      class: 'chip chip-ghost',
-      title: 'Nothing we could verify as real for this place yet — no loop or still ever stands in. It fills in when the pipeline finds one.',
-    }, label));
-  }
+  mons.forEach((mo, i) => {
+    const key = `mon-${i}`;
+    bar.append(el('button', { class: 'chip', 'data-key': key,
+      onclick: () => {
+        if (stageState.walkShowing === key) { if (walk) showWalk(); return; }
+        showMonument(mo, key);
+      },
+    }, `🏛️ ${mo.name}`));
+  });
+
+  // no walk? the first monument takes the seat rather than a ghost
+  if (walk) setActive('walk');
+  else showMonument(mons[0], 'mon-0');
 }
 
 function initStage(place) {
-  const scenes = [];
-  const walk = walkFor(place);
-  if (walk) scenes.push({ id: 'walk', type: 'walk', tabLabel: '🚶 Walking tour', kindLabel: 'Walking tour', media: walk });
-  for (const [i, mo] of monumentsFor(place).entries()) {
-    scenes.push({
-      id: `mon-${i}`, type: 'monument',
-      tabLabel: `🏛️ ${mo.name}`, kindLabel: mo.name,
-      media: { yt: mo.yt, start: mo.start || 0, source: 'curated' },
-    });
-  }
-  const live = liveFor(place);
-  if (live) scenes.push({ id: 'live', type: 'live', tabLabel: 'Live cam', kindLabel: 'Live · street', media: live });
-  const win = windowFor(place);
-  if (win) scenes.push({ id: 'window', type: 'window', tabLabel: 'Window', kindLabel: 'Live · window view', media: win });
+  const grid = qs('#stage-grid');
+  grid.innerHTML = '';
+  stageState.panes.clear();
+  stageState.walkShowing = 'walk';
 
-  stageState.scenes = scenes;
-  if (scenes.length) renderScene(place, scenes[0]);
-  else { destroyStage(); showEmptyStage(place); buildTabs(place); }
+  for (const def of PANES) {
+    const media = def.resolve(place);
+    const pane = media ? scenePane(place, def, media) : ghostPane(def);
+    grid.append(pane.node);
+    stageState.panes.set(def.id, pane);
+  }
+
+  buildMonumentChips(place);   // may hand the walk pane to a monument
+
+  // feature the first real scene so arrival has a main view
+  // (direct set, not setFocus — that one toggles on repeat clicks)
+  const first = (walkFor(place) || monumentsFor(place).length)
+    ? PANES[0] : PANES.find(d => d.resolve(place));
+  if (first) grid.dataset.focus = first.id;
+  else grid.removeAttribute('data-focus');
 }
 
 /* ---------------- right now ---------------- */
@@ -284,6 +337,74 @@ async function initRadio(place) {
   }
 }
 
+/* ---------------- live tv ----------------
+   National channels for this place's country — every one verified
+   actually live when data/tv.json was generated. Same honesty rules
+   as the stage: a feed that rots removes itself with a toast. Sound
+   is on (a user click started it), so starting TV stops the radio
+   and starting the radio stops the TV. */
+const tvState = { mounted: null, active: null };
+
+function stopTv() {
+  if (tvState.mounted?.destroy) tvState.mounted.destroy();
+  tvState.mounted = null;
+  tvState.active = null;
+  const frame = qs('#tv-frame');
+  if (frame) { frame.hidden = true; frame.innerHTML = ''; }
+  qs('#tv-list')?.querySelectorAll('.tv-item.playing')
+    .forEach(n => { n.classList.remove('playing'); n.querySelector('.t-state').textContent = '▸'; });
+}
+
+async function initTv(place) {
+  const code = place.country_code || Culture.code(place.country);
+  const chans = await channelsFor(code);
+  if (!chans.length) return;
+  qs('#tv-panel').hidden = false;
+
+  const when = await tvGeneratedDate();
+  qs('#tv-note').textContent =
+    `What ${place.country} broadcasts, live — national channels, verified streaming${when ? ' as of ' + when : ''}.`;
+
+  const frame = qs('#tv-frame'), list = qs('#tv-list');
+  const drop = (ch, node) => {
+    stopTv();
+    node.remove();
+    toast(`${ch.name} wouldn't stream right now — removed.`);
+    if (!list.children.length) qs('#tv-panel').hidden = true;
+  };
+
+  for (const ch of chans) {
+    const node = el('button', { class: 'tv-item' },
+      el('span', { class: 't-state' }, '▸'),
+      el('span', { class: 't-name' }, ch.name),
+      ch.lang ? el('span', { class: 't-lang' }, ch.lang) : null,
+    );
+    node.addEventListener('click', () => {
+      if (tvState.active === ch) { stopTv(); return; }
+      stopTv();
+      Radio.stop();
+      tvState.active = ch;
+      frame.hidden = false;
+      frame.innerHTML = '';
+      if (ch.yt) {
+        tvState.mounted = yt.mount(frame, {
+          videoId: ch.yt, muted: false, onError: () => drop(ch, node),
+        });
+      } else {
+        tvState.mounted = mountHls(frame, ch.url, { onError: () => drop(ch, node) });
+      }
+      node.classList.add('playing');
+      node.querySelector('.t-state').textContent = '🔊';
+    });
+    list.append(node);
+  }
+
+  // the radio list starting a station is the cue to quiet the TV
+  qs('#radio-list')?.addEventListener('click', ev => {
+    if (ev.target.closest('.radio-item') && tvState.active) stopTv();
+  });
+}
+
 async function initNews(place) {
   const arts = await api.news(place.name, place.country, 5);
   if (!arts.length) return;   // GDELT rate-limits — hide honestly
@@ -395,6 +516,7 @@ async function boot() {
   initAbout(place);
   initCulture(place);
   initRadio(place);
+  initTv(place);
   initNews(place);
   initGallery(place);
   initGuide(place);
@@ -404,6 +526,7 @@ async function boot() {
 window.addEventListener('pagehide', () => {
   if (clockTimer) clearInterval(clockTimer);
   Radio.stop();
+  stopTv();
   if (Soundscape.playing) Soundscape.stop();
 });
 

@@ -47,11 +47,11 @@
       </div>
     </section>
 
-    <!-- the stage -->
+    <!-- the stage: four panes at once — 🚶 walk · 🚗 drive · 🔴 live · 🪟 window.
+         Click a pane's bar to enlarge it; monuments swap into the walk pane. -->
     <section class="stage-section">
-      <div class="chips stage-tabs" id="stage-tabs"></div>
-      <div class="frame frame-16x9 stage" id="stage"></div>
-      <div class="stage-caption" id="stage-caption"></div>
+      <div class="chips stage-tabs" id="stage-tabs" hidden></div>
+      <div class="stage-grid" id="stage-grid"></div>
     </section>
 
     <!-- info grid -->
@@ -72,6 +72,13 @@
       <div class="panel" id="radio-panel" hidden>
         <h3>📻 Local radio</h3>
         <div id="radio-list" class="radio-list"></div>
+      </div>
+
+      <div class="panel" id="tv-panel" hidden>
+        <h3>📺 Live TV</h3>
+        <div class="tv-note faint" id="tv-note"></div>
+        <div class="frame frame-16x9 tv-frame" id="tv-frame" hidden></div>
+        <div id="tv-list" class="tv-list"></div>
       </div>
 
       <div class="panel" id="news-panel" hidden>

@@ -1,8 +1,10 @@
 /* ============================================================
-   MEDIA — resolve every place's three scenes, honestly labelled.
+   MEDIA — resolve every place's four scenes, honestly labelled.
 
-   The three scenes (the product):
+   The four scenes (the product):
      🚶 WALK   — a real walking-tour video of that place, seekable.
+     🚗 DRIVE  — a real driving-tour video: the place through a
+                 windshield, seekable like a walk.
      🔴 LIVE   — a real 24/7 live cam: street / intersection level.
      🪟 WINDOW — ALSO LIVE, but the out-a-window vantage: skyline,
                  rooftop, harbor, panorama. A window you look out of.
@@ -15,6 +17,7 @@
 
    Tier order per scene (curation beats automation):
      walk   : loc.walk (hand-curated) → media.json walk → null
+     drive  : loc.drive (hand-curated) → media.json drive → null
      live   : loc.webcam (hand-curated) → media.json live → null
      window : loc.window (hand-curated) → media.json window → null
 
@@ -49,6 +52,19 @@ export function walkFor(loc) {
   if (m?.walk?.yt) {
     return { yt: m.walk.yt, start: m.walk.start || 0, kind: 'walk',
              source: 'auto', title: m.walk.title, date: m.walk.date };
+  }
+  return null;
+}
+
+/* Driving tour — same contract as a walk, windshield vantage. */
+export function driveFor(loc) {
+  if (!loc) return null;
+  const cur = parseYt(loc.drive);
+  if (cur) return { ...cur, kind: 'drive', source: 'curated' };
+  const m = mediaIndex()[loc.id];
+  if (m?.drive?.yt) {
+    return { yt: m.drive.yt, start: m.drive.start || 0, kind: 'drive',
+             source: 'auto', title: m.drive.title, date: m.drive.date };
   }
   return null;
 }
@@ -92,6 +108,7 @@ export function monumentsFor(loc) {
 export function sceneFlags(loc) {
   return {
     walk: !!walkFor(loc),
+    drive: !!driveFor(loc),
     live: !!liveFor(loc),
     window: !!windowFor(loc),
     monuments: monumentsFor(loc).length > 0,

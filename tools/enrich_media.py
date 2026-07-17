@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """
-enrich_media.py — auto-find + vet the three scenes for every place.
+enrich_media.py — auto-find + vet the four scenes for every place.
 
 Uses yt-dlp's YouTube search (no API key) to hunt, per city:
   🚶 walk   — a real walking-tour video (seekable, embeddable, not live)
+  🚗 drive  — a real driving-tour video (same vetting as a walk,
+              windshield vantage)
   🔴 live   — a real 24/7 live cam, street/intersection vantage
   🪟 window — ALSO a real live stream, but the out-a-window vantage
               (skyline / rooftop / harbor / panorama)
@@ -19,6 +21,7 @@ OWNER RULES enforced here so the frontend never has to lie:
 Writes data/media.json:
   { "generated": iso, "places": { "<id>": {
       "walk":   { "yt", "title", "channel", "date", "duration" },
+      "drive":  { "yt", "title", "channel", "date", "duration" },
       "live":   { "yt", "title", "verified" },
       "window": { "yt", "title", "verified" } } } }
 
@@ -57,6 +60,9 @@ STREET_WORDS = re.compile(
     r"downtown|walk|market|station|corner|avenue|boulevard|pedestrian", re.I)
 WALK_WORDS = re.compile(r"walk|stroll|paseo|tour on foot", re.I)
 BAD_WALK = re.compile(r"treadmill|virtual run|driving|drive |by car|cycling|bike", re.I)
+DRIVE_WORDS = re.compile(r"driv(?:e|ing)|by car|road trip|scenic drive|dash ?cam", re.I)
+BAD_DRIVE = re.compile(r"walk|stroll|treadmill|cycling|bike|train|flight|"
+                       r"crash|accident|police|test drive|review", re.I)
 
 
 def norm(s):
@@ -279,18 +285,19 @@ def wrong_place_title(title, place):
     return False
 
 
-# ---------------------------------------------------------------- walks
-def find_walk(place):
-    q = f"{place['name']} {place['country']} walking tour 4k"
+# ------------------------------------------------------- walks & drives
+def find_seekable(place, query, want, avoid):
+    """A real, seekable tour video (walk or drive): embeddable, not
+    live, recent enough that the streets still look like this."""
     cands = []
-    for e in flat_search(q):
+    for e in flat_search(query):
         title = e.get("title") or ""
         dur = e.get("duration") or 0
         if e.get("live_status") == "is_live":
             continue
         if not (600 <= dur <= 6 * 3600):
             continue
-        if not WALK_WORDS.search(title) or BAD_WALK.search(title):
+        if not want.search(title) or avoid.search(title):
             continue
         if not mentions_place(title, place) or wrong_place_title(title, place):
             continue
@@ -312,6 +319,16 @@ def find_walk(place):
             "duration": info.get("duration", 0),
         }
     return None
+
+
+def find_walk(place):
+    return find_seekable(place, f"{place['name']} {place['country']} walking tour 4k",
+                         WALK_WORDS, BAD_WALK)
+
+
+def find_drive(place):
+    return find_seekable(place, f"{place['name']} {place['country']} driving tour 4k",
+                         DRIVE_WORDS, BAD_DRIVE)
 
 
 # ---------------------------------------------------------------- live cams
@@ -397,7 +414,7 @@ def main():
     ap.add_argument("--max", type=int, default=10, help="cities this run")
     ap.add_argument("--only", help="comma-separated place ids")
     ap.add_argument("--tag", help="only this tag (famous/hidden)")
-    ap.add_argument("--need", choices=["walk", "live", "window", "any"], default="any")
+    ap.add_argument("--need", choices=["walk", "drive", "live", "window", "any"], default="any")
     ap.add_argument("--refresh", action="store_true", help="redo places already in media.json")
     args = ap.parse_args()
 
@@ -414,7 +431,8 @@ def main():
     only = set(args.only.split(",")) if args.only else None
 
     def curated_has(loc, scene):
-        return bool(loc.get({"walk": "walk", "live": "webcam", "window": "window"}[scene]))
+        return bool(loc.get({"walk": "walk", "drive": "drive",
+                             "live": "webcam", "window": "window"}[scene]))
 
     def wants(loc):
         if only and loc["id"] not in only:
@@ -423,7 +441,7 @@ def main():
             return False
         done = media["places"].get(loc["id"], {})
         needs = []
-        for scene in ("walk", "live", "window"):
+        for scene in ("walk", "drive", "live", "window"):
             if curated_has(loc, scene) or scene in done:
                 continue
             needs.append(scene)
@@ -441,13 +459,19 @@ def main():
         t0 = time.time()
         entry = media["places"].setdefault(loc["id"], {})
         found = []
-        needs = loc.get("_needs") or ["walk", "live", "window"]
+        needs = loc.get("_needs") or ["walk", "drive", "live", "window"]
 
         if "walk" in needs:
             w = find_walk(loc)
             if w:
                 entry["walk"] = w
                 found.append(f"walk:{w['yt']}({w['date'][:4]})")
+            time.sleep(4)
+        if "drive" in needs:
+            d = find_drive(loc)
+            if d:
+                entry["drive"] = d
+                found.append(f"drive:{d['yt']}({d['date'][:4]})")
             time.sleep(4)
         if "live" in needs or "window" in needs:
             taken = {v.get("yt") for v in entry.values()

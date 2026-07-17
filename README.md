@@ -1,8 +1,8 @@
 # 🌍 One World Tour
 
-Step into 345 places across 89 countries — **walk their streets, watch their
-intersections live, look out their windows live**, tune into their radio, and read
-their news — all in-app, all real. Inspired by
+Step into 360 places across 93 countries — **walk their streets, watch their
+intersections live, look out their windows live**, tune into their radio, **watch
+their national TV live**, and read their news — all in-app, all real. Inspired by
 [virtualvacation.us](https://virtualvacation.us/), rebuilt to be better: every scene
 is seekable, every "live" is actually live, and every gap is honest.
 
@@ -26,6 +26,28 @@ Every place has up to **three real scenes**, one tap apart, on one stage:
 Famous cities also get 🏛️ **monument tabs** (Colosseum, Pantheon, Eiffel Tower…) on
 the same stage — switch between the walk and each landmark tour like TV channels.
 
+Two collections extend the idea (2026-07):
+
+- **📺 Live TV** — a Location-page panel with the country's own national channels,
+  streaming live: CGTN / CCTV-4 / CCTV-13 for China, KCTV for North Korea, RT for
+  Russia, NHK · KBS · Al Jazeera · DW · France 24 · TRT elsewhere. Data lives in
+  `data/tv.json` (country code → channels), every channel verified actually live at
+  generation time. YouTube channels mount through `yt.js` (rot → the channel removes
+  itself); state TV that YouTube removed (RT) or that never had an official channel
+  there (KCTV) plays from the broadcaster's own CORS-enabled HLS stream via a
+  lazy-loaded hls.js — the one runtime dependency, fetched only when someone
+  actually presses play on an HLS channel.
+- **🦁 Wildlife & National Parks** (`data/wild.json`) — live nature cams as real
+  places on the map: Brooks Falls bears (Katmai), GRACE gorillas and Lola ya Bonobo
+  (DR Congo), Tembe & Djuma & Kruger (southern Africa), Mpala / Amboseli-under-
+  Kilimanjaro / ol Donyo (Kenya), Etosha's floodlit waterhole and a Namib Desert
+  waterhole (Namibia), a Victoria Falls waterhole (Zimbabwe), the Big Bear and
+  Decorah eagle nests, and Chengdu's pandas. Same honesty rule: every cam vetted
+  `is_live` + embeddable when curated; a rotted feed drops its own tab at runtime.
+  The home page gets a 🦁 map filter + a "Wild live cams" rail (which also picks up
+  live `nature` places like Yellowstone, Kruger and the Maasai Mara from the
+  enrichment pipeline).
+
 **The honesty rule:** a scene either embeds the real thing or the place simply
 doesn't offer that tab yet. Nothing fake ever stands in — no stills posing as
 windows, no frozen widgets posing as live cams.
@@ -41,8 +63,9 @@ windows, no frozen widgets posing as live cams.
   Wikipedia photos, lazy-loaded and cached.
 - **Location** (`location.html?id=…`) — the tabbed stage plus: live local clock +
   weather, About (Wikipedia), fun fact, highlights, culture (language, phrases,
-  currency + live FX, dish), live local radio, headlines, photo gallery, procedural
-  ambience, Ask-the-Guide (optional Claude backend), and a "Nearby from here" rail.
+  currency + live FX, dish), live local radio, **📺 live national TV** (see below),
+  headlines, photo gallery, procedural ambience, Ask-the-Guide (optional Claude
+  backend), and a "Nearby from here" rail.
 - **Virtual Window** (`window.html`) — a framed, chrome-free **live** window with a
   local-time + weather sill plate and "open another window" world-hopping.
 - **City Guesser** (`guess.html`) — dropped into a mystery scene (the walk video,
@@ -73,6 +96,7 @@ oneworldtour/
 │   │   ├── data.js        # region loader + media.json merge, search
 │   │   ├── media.js       # scene resolution: walk/live/window tiers + honesty rules
 │   │   ├── yt.js          # YouTube IFrame mounts with onError → honest fallback
+│   │   ├── tv.js          # live national TV: tv.json loader + HLS mounts (lazy hls.js)
 │   │   ├── api.js         # weather / wiki / radio / news / FX (all keyless)
 │   │   ├── photos.js      # lazy Wikipedia thumbnails (flag/map-aware) + cache
 │   │   ├── state.js       # localStorage passport (same owt_* keys as v1)
@@ -80,7 +104,9 @@ oneworldtour/
 │   └── pages/             # one module per page
 ├── data/
 │   ├── index.json         # region registry
-│   ├── <region>.json      # 345 places (curated walks/webcams/monuments live here)
+│   ├── <region>.json      # 360 places (curated walks/webcams/monuments live here)
+│   ├── wild.json          # 🦁 wildlife & national-park live cams as places
+│   ├── tv.json            # 📺 live national TV channels per country (verified live)
 │   ├── windy.json         # retired Windy index — kept as archive, not loaded
 │   └── media.json         # yt-dlp enrichment sidecar (auto-found, vetted scenes)
 ├── assets/world.json      # pre-projected country outlines (see build_worldmap.py)
@@ -170,8 +196,9 @@ python3 tools/build_worldmap.py /tmp/w.json assets/world.json
 
 Open-Meteo (weather/timezone) · Wikipedia/Wikimedia (summaries, photos) ·
 Radio Browser (live radio) · GDELT (headlines; rate-limits → section hides
-honestly) · open.er-api.com (FX) · YouTube embeds (walks, monuments, live cams) ·
-Claude API (optional guide backend).
+honestly) · open.er-api.com (FX) · YouTube embeds (walks, monuments, live cams,
+most TV) · broadcaster HLS streams + hls.js from jsdelivr (lazy, only for
+non-YouTube state TV: RT, KCTV) · Claude API (optional guide backend).
 
 ---
 
