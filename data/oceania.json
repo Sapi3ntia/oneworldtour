@@ -33,7 +33,14 @@
       "blurb": "",
       "fun_fact": "",
       "hidden_gem_tip": null,
-      "walk": "dK3ih5op1F8"
+      "walk": "dK3ih5op1F8",
+      "monuments": [
+        {
+          "name": "Sydney Opera House",
+          "yt": "50LJQz5bRFQ",
+          "start": 0
+        }
+      ]
     },
     {
       "id": "melbourne",

@@ -950,6 +950,75 @@
       "blurb": "",
       "fun_fact": "",
       "hidden_gem_tip": null
+    },
+    {
+      "id": "rio-de-janeiro",
+      "name": "Rio de Janeiro",
+      "country": "Brazil",
+      "country_code": "BR",
+      "country_flag": "🇧🇷",
+      "continent": "South America",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏖️",
+      "coordinates": {
+        "lat": -22.90685,
+        "lng": -43.1729
+      },
+      "street_view": {
+        "lat": -22.90685,
+        "lng": -43.1729,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Rio_de_Janeiro",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Christ the Redeemer",
+          "wikipedia_slug": "Christ_the_Redeemer_(statue)"
+        },
+        {
+          "name": "Copacabana",
+          "wikipedia_slug": "Copacabana,_Rio_de_Janeiro"
+        },
+        {
+          "name": "Sugarloaf Mountain",
+          "wikipedia_slug": "Sugarloaf_Mountain"
+        },
+        {
+          "name": "Ipanema",
+          "wikipedia_slug": "Ipanema"
+        },
+        {
+          "name": "Maracanã Stadium",
+          "wikipedia_slug": "Maracan%C3%A3_Stadium"
+        }
+      ],
+      "blurb": "Beaches, samba and granite peaks — the Cidade Maravilhosa wraps a metropolis around rainforest and bay.",
+      "fun_fact": "Christ the Redeemer was struck by lightning so often it keeps a stock of the original soapstone for repairs.",
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Christ the Redeemer",
+          "yt": "cgO1CjDhNRI",
+          "start": 0
+        },
+        {
+          "name": "Copacabana Beach",
+          "yt": "sRRODmeZjPc",
+          "start": 0
+        },
+        {
+          "name": "Sugarloaf Mountain",
+          "yt": "0ejre42k5vk",
+          "start": 0
+        }
+      ]
     }
   ]
 }

@@ -1424,6 +1424,11 @@
           "name": "St Peter's Basilica",
           "yt": "2M7Avt39oF4",
           "start": 1
+        },
+        {
+          "name": "Trevi Fountain",
+          "yt": "Ky4pQ0kJxUE",
+          "start": 0
         }
       ]
     },
@@ -3423,7 +3428,14 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "GR",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Santorini (Oia)",
+          "yt": "g8pID6lhThY",
+          "start": 0
+        }
+      ]
     },
     {
       "id": "montenegro",
@@ -5218,6 +5230,11 @@
           "name": "Red Square",
           "yt": "CxXjIv7rDig",
           "start": 565
+        },
+        {
+          "name": "The Kremlin",
+          "yt": "hSuy58oamGA",
+          "start": 0
         }
       ]
     },

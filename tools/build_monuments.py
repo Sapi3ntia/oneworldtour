@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-build_monuments.py — attach up to 3 named monument/landmark tours to cities.
+build_monuments.py — attach up to 5 named monument/landmark tours to cities.
 
 Monuments are a SEPARATE category from the walking tour and the (live) window.
 Each is a real, recorded YouTube video of a specific landmark, seeked to a good
@@ -14,13 +14,16 @@ that is enforced at runtime by js/ytembed.js, which detects an onError (embed
 disabled / removed / private) and shows an honest "no longer available" state.
 Re-vet over time with the same oEmbed check; a 401/404 means the upload was
 pulled. LatAm/Africa capital monuments added 2026-07-04 (WebSearch -> oEmbed).
+2026-07-17 batch (NYC, Kremlin, SF ×3, Trevi, Sydney, Rio ×3, Santorini,
+Gateway Arch) vetted the stronger way: yt-dlp full-info with
+playable_in_embed + public + not-live, same bar as enrich_media.py.
 
 Idempotent: rewrites each location's `monuments` array to exactly MAP[id].
 Run from the project root:  /usr/bin/python3 tools/build_monuments.py
 """
 import json, glob, os, sys
 
-# location id -> [ {name, yt, start} ]  (cap 3; ordered most-iconic first)
+# location id -> [ {name, yt, start} ]  (cap 5; ordered most-iconic first)
 MAP = {
     # ---- Europe ----
     "paris": [
@@ -32,6 +35,7 @@ MAP = {
         {"name": "Colosseum",          "yt": "VtzDzVGSMLU", "start": 204},
         {"name": "Pantheon",           "yt": "tsnk3ruKUsY", "start": 1},
         {"name": "St Peter's Basilica","yt": "2M7Avt39oF4", "start": 1},
+        {"name": "Trevi Fountain",     "yt": "Ky4pQ0kJxUE", "start": 0},
     ],
     "berlin": [
         {"name": "Brandenburg Gate", "yt": "CP5Q5JG2jU8", "start": 15},
@@ -44,15 +48,29 @@ MAP = {
         {"name": "Sagrada Família", "yt": "bJlUA-lnvYg", "start": 379},
     ],
     "moscow": [
-        {"name": "Red Square", "yt": "CxXjIv7rDig", "start": 565},
+        {"name": "Red Square",  "yt": "CxXjIv7rDig", "start": 565},
+        {"name": "The Kremlin", "yt": "hSuy58oamGA", "start": 0},
     ],
     "cinque-terre": [
         {"name": "Manarola", "yt": "yB5HFvXchfM", "start": 545},
     ],
+    "cyclades": [
+        {"name": "Santorini (Oia)", "yt": "g8pID6lhThY", "start": 0},
+    ],
     # ---- North America ----
+    "new-york-city": [
+        {"name": "Times Square",      "yt": "csMnb-8BoE8", "start": 0},
+        {"name": "Statue of Liberty", "yt": "wJDes04sYMA", "start": 0},
+    ],
     "san-francisco": [
         {"name": "Golden Gate Bridge",   "yt": "zd6BYcjNMYw", "start": 303},
         {"name": "Transamerica Pyramid", "yt": "ymuN7-3MklE", "start": 0},
+        {"name": "Castro Street",        "yt": "d3JBGCLZ7eQ", "start": 0},
+        {"name": "Salesforce Tower & Park", "yt": "d3JEg0iSxYg", "start": 0},
+        {"name": "Golden Gate Park",     "yt": "dwL_uUrI8V4", "start": 0},
+    ],
+    "st-louis": [
+        {"name": "Gateway Arch", "yt": "kCJYaMMBUOk", "start": 0},
     ],
     "chicago": [
         {"name": "Cloud Gate (The Bean)",   "yt": "gXY64MidsdE", "start": 8},
@@ -91,7 +109,16 @@ MAP = {
     "johannesburg": [
         {"name": "Apartheid Museum", "yt": "DRO2JLH7tRs", "start": 0},
     ],
+    # ---- Oceania ----
+    "sydney": [
+        {"name": "Sydney Opera House", "yt": "50LJQz5bRFQ", "start": 0},
+    ],
     # ---- Latin America ----
+    "rio-de-janeiro": [
+        {"name": "Christ the Redeemer", "yt": "cgO1CjDhNRI", "start": 0},
+        {"name": "Copacabana Beach",    "yt": "sRRODmeZjPc", "start": 0},
+        {"name": "Sugarloaf Mountain",  "yt": "0ejre42k5vk", "start": 0},
+    ],
     "bogota": [
         {"name": "Monserrate", "yt": "aEDbd-bDYXY", "start": 0},
     ],
@@ -133,7 +160,7 @@ def main():
             lid = l.get("id")
             if lid in MAP:
                 mons = [{"name": m["name"], "yt": m["yt"], "start": m.get("start", 0)}
-                        for m in MAP[lid][:3]]
+                        for m in MAP[lid][:5]]
                 if l.get("monuments") != mons:
                     l["monuments"] = mons
                     touched = True

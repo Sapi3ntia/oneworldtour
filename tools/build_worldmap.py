@@ -64,6 +64,62 @@ def ring_points(arc_idx_list, arcs):
     return pts
 
 
+def unwrap(pts):
+    """Make ring longitudes continuous (no ±360 jumps between neighbours)."""
+    out = [pts[0]]
+    for lon, lat in pts[1:]:
+        prev = out[-1][0]
+        while lon - prev > 180:
+            lon -= 360
+        while lon - prev < -180:
+            lon += 360
+        out.append((lon, lat))
+    return out
+
+
+def close_polar(pts):
+    """A ring that nets a full 360° lap encircles a pole (Antarctica):
+    close it along the pole line so it clips into a solid shape."""
+    if abs(pts[0][0] - pts[-1][0]) > 180:
+        pole = -90.0 if (sum(p[1] for p in pts) / len(pts)) < 0 else 90.0
+        pts = pts + [(pts[-1][0], pole), (pts[0][0], pole)]
+    return pts
+
+
+def clip_lon(poly, lo, hi):
+    """Sutherland–Hodgman clip of a (lon,lat) ring to the lon strip [lo,hi]."""
+    def half(pl, bound, keep_ge):
+        out = []
+        for i in range(len(pl)):
+            a, b = pl[i], pl[(i + 1) % len(pl)]
+            a_in = (a[0] >= bound) if keep_ge else (a[0] <= bound)
+            b_in = (b[0] >= bound) if keep_ge else (b[0] <= bound)
+            if a_in:
+                out.append(a)
+            if a_in != b_in:
+                t = (bound - a[0]) / (b[0] - a[0])
+                out.append((bound, a[1] + t * (b[1] - a[1])))
+        return out
+    poly = half(poly, lo, True)
+    return half(poly, hi, False) if poly else []
+
+
+def split_ring(pts):
+    """Ring → list of rings, all inside lon [-180,180]. Rings that cross the
+    antimeridian (Fiji, Russia) get cut there instead of smearing a
+    horizontal band across the whole map; polar rings are closed first."""
+    pts = close_polar(unwrap(pts))
+    lons = [p[0] for p in pts]
+    rings = []
+    k = math.floor((min(lons) + 180.0) / 360.0)
+    while -180.0 + 360.0 * k <= max(lons):
+        piece = clip_lon(pts, -180.0 + 360.0 * k, 180.0 + 360.0 * k)
+        if len(piece) >= 3:
+            rings.append([(lon - 360.0 * k, lat) for lon, lat in piece])
+        k += 1
+    return rings
+
+
 def ring_to_path(pts):
     out = []
     last = None
@@ -84,9 +140,10 @@ def geom_to_path(geom, arcs):
     d = []
     for poly in polys:
         for ring in poly:                     # outer + holes; fill-rule evenodd
-            p = ring_to_path(ring_points(ring, arcs))
-            if p:
-                d.append(p)
+            for part in split_ring(ring_points(ring, arcs)):
+                p = ring_to_path(part)
+                if p:
+                    d.append(p)
     return "".join(d)
 
 
