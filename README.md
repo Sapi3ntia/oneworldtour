@@ -1,8 +1,9 @@
 # 🌍 One World Tour
 
-Step into 360 places across 93 countries — **walk their streets, watch their
-intersections live, look out their windows live**, tune into their radio, **watch
-their national TV live**, and read their news — all in-app, all real. Inspired by
+Step into 362 places across 94 countries — **walk their streets, drive their
+roads, watch their intersections live, look out their windows live**, tune into
+their radio, **watch their national TV live**, and read their news — all in-app,
+all real. Inspired by
 [virtualvacation.us](https://virtualvacation.us/), rebuilt to be better: every scene
 is seekable, every "live" is actually live, and every gap is honest.
 
@@ -15,16 +16,23 @@ is seekable, every "live" is actually live, and every gap is honest.
 
 ## The product in one idea
 
-Every place has up to **three real scenes**, one tap apart, on one stage:
+Every place has up to **four real scenes**, one tap apart, on one stage:
 
 | Scene | What it is | Rule |
 |---|---|---|
 | 🚶 **Walking tour** | Real recent footage of walking that place — muted, fully seekable | never a slideshow |
+| 🚗 **Driving tour** | The place through a windshield — same vetting as a walk | never a slideshow |
 | 🔴 **Live cam** | A 24/7 live stream at street / intersection level | must be live **right now** |
 | 🪟 **Window** | Also a **live** stream — the out-a-window vantage: skyline, rooftop, harbor | never a loop, never a timelapse, never a still |
 
-Famous cities also get 🏛️ **monument tabs** (Colosseum, Pantheon, Eiffel Tower…) on
-the same stage — switch between the walk and each landmark tour like TV channels.
+Famous cities also get 🏛️ **monument tabs** (up to 5 per city) on the same stage —
+switch between the walk and each landmark tour like TV channels: Eiffel Tower ·
+Big Ben · Colosseum · Trevi Fountain · Times Square · Statue of Liberty · the
+Kremlin · Golden Gate Bridge & Park · Castro Street · Salesforce Park ·
+Christ the Redeemer · Copacabana · Sugarloaf · Sydney Opera House · Santorini ·
+Gateway Arch · Great Wall · Shibuya Crossing · and more (see
+`tools/build_monuments.py`). Rio de Janeiro and St. Louis joined the map with
+this batch.
 
 Two collections extend the idea (2026-07):
 

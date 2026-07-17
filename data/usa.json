@@ -63,7 +63,19 @@
       "hidden_gem_tip": null,
       "walk": "-IpXdtWfneI",
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Times Square",
+          "yt": "csMnb-8BoE8",
+          "start": 0
+        },
+        {
+          "name": "Statue of Liberty",
+          "yt": "wJDes04sYMA",
+          "start": 0
+        }
+      ]
     },
     {
       "id": "washington-dc",
@@ -774,6 +786,21 @@
         {
           "name": "Transamerica Pyramid",
           "yt": "ymuN7-3MklE",
+          "start": 0
+        },
+        {
+          "name": "Castro Street",
+          "yt": "d3JBGCLZ7eQ",
+          "start": 0
+        },
+        {
+          "name": "Salesforce Tower & Park",
+          "yt": "d3JEg0iSxYg",
+          "start": 0
+        },
+        {
+          "name": "Golden Gate Park",
+          "yt": "dwL_uUrI8V4",
           "start": 0
         }
       ],
@@ -2362,6 +2389,57 @@
       "hidden_gem_tip": null,
       "country_code": "US",
       "continent": "North America"
+    },
+    {
+      "id": "st-louis",
+      "name": "St. Louis",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Missouri",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🌉",
+      "coordinates": {
+        "lat": 38.627,
+        "lng": -90.1994
+      },
+      "street_view": {
+        "lat": 38.627,
+        "lng": -90.1994,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "St._Louis",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Gateway Arch",
+          "wikipedia_slug": "Gateway_Arch"
+        },
+        {
+          "name": "Forest Park",
+          "wikipedia_slug": "Forest_Park_(St._Louis)"
+        },
+        {
+          "name": "City Museum",
+          "wikipedia_slug": "City_Museum"
+        }
+      ],
+      "blurb": "Gateway to the West — the silver Arch rises 192 m over the Mississippi riverfront.",
+      "fun_fact": "The Gateway Arch is exactly as wide as it is tall: 630 feet.",
+      "hidden_gem_tip": null,
+      "country_code": "US",
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Gateway Arch",
+          "yt": "kCJYaMMBUOk",
+          "start": 0
+        }
+      ]
     }
   ]
 }
