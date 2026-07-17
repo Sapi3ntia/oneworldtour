@@ -13,13 +13,8 @@
   outline: 1px solid var(--line-hard);
   box-shadow: inset 0 0 70px rgba(0, 0, 0, 0.5);
 }
-.window-frame::after {
-  /* mullion — the vertical bar that makes it a window, not a video */
-  content: ''; position: absolute; inset: 0 auto 0 50%; width: 8px;
-  transform: translateX(-50%);
-  background: #171c29; opacity: 0.9; pointer-events: none;
-}
-.window-frame.no-mullion::after { display: none; }
+/* (the center mullion bar was cut 2026-07 — it sat over the video and
+   made the page look broken next to the location page's Window pane) */
 
 .window-sill {
   background: #171c29; border: 1px solid var(--line);

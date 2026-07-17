@@ -25,28 +25,69 @@
 .rn-weather .wx-icon { font-size: 18px; margin-right: 4px; }
 #ambience-btn.on { color: var(--gold); border-color: rgba(232, 181, 77, 0.5); }
 
-/* ---------------- stage ---------------- */
+/* ---------------- stage: four panes, one grid ----------------
+   🚶 walk (top-left) · 🚗 drive (top-right) · 🔴 live (bottom-left) ·
+   🪟 window (bottom-right). data-focus on the grid grows that pane's
+   column + row; no focus = an even 2×2. fr tracks animate in modern
+   engines and simply snap elsewhere — transform/opacity guardrail
+   doesn't apply (this is a layout change, not a paint loop). */
 .stage-section { margin-top: 26px; }
 .stage-tabs { margin-bottom: 12px; }
 .stage-tabs .chip { font-size: 13.5px; padding: 8px 16px; }
-.stage-tabs .chip .live-dot {
-  display: inline-block; width: 7px; height: 7px; border-radius: 50%;
-  background: var(--live); margin-right: 6px; vertical-align: 1px;
-}
-.stage { background: #04060b; }
 
-/* the 🪟 tab gets a window vignette — a frame you look OUT of */
-.stage.window-vignette::after {
+.stage-grid {
+  display: grid; gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  aspect-ratio: 16 / 9;
+  transition: grid-template-columns 0.4s ease, grid-template-rows 0.4s ease;
+}
+.stage-grid[data-focus="walk"]   { grid-template-columns: 2.6fr 1fr; grid-template-rows: 2.6fr 1fr; }
+.stage-grid[data-focus="drive"]  { grid-template-columns: 1fr 2.6fr; grid-template-rows: 2.6fr 1fr; }
+.stage-grid[data-focus="live"]   { grid-template-columns: 2.6fr 1fr; grid-template-rows: 1fr 2.6fr; }
+.stage-grid[data-focus="window"] { grid-template-columns: 1fr 2.6fr; grid-template-rows: 1fr 2.6fr; }
+
+.quad { display: flex; flex-direction: column; min-width: 0; min-height: 0; }
+.quad-bar {
+  display: flex; align-items: center; gap: 8px; width: 100%;
+  padding: 5px 10px; text-align: left; font-size: 12px; color: var(--ink-faint);
+  background: var(--bg-raise); border: 1px solid var(--line);
+  border-bottom: none; border-radius: 12px 12px 0 0;
+  transition: background 0.15s, color 0.15s;
+}
+button.quad-bar:hover { background: var(--bg-card); color: var(--ink-dim); }
+.quad-bar .badge { flex: none; }
+.quad-title {
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0;
+}
+.quad-src { flex: none; font-size: 11px; }
+.quad-zoom { margin-left: auto; flex: none; font-size: 13px; opacity: 0.7; }
+.stage-grid[data-focus] .quad-bar .quad-zoom { opacity: 0.45; }
+
+.quad-frame {
+  flex: 1; min-height: 0;
+  border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+  background: #04060b;
+}
+/* the 🪟 pane gets a window vignette — a frame you look OUT of */
+.quad-frame.window-vignette::after {
   content: ''; position: absolute; inset: 0; pointer-events: none;
-  border: 10px solid #05070c; border-radius: inherit;
+  border: 8px solid #05070c; border-radius: inherit;
   box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.55);
 }
+/* honest gap: the pane exists, dashed, and says why it's empty */
+.quad-ghost .quad-bar { cursor: help; }
+.quad-ghost .quad-frame { border-style: dashed; border-color: var(--line-hard); }
+.quad-ghost .frame-empty .big { font-size: 28px; }
+.quad-ghost .frame-empty .why { font-size: 12px; }
 
-.stage-caption {
-  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
-  margin-top: 10px; font-size: 13px; color: var(--ink-faint); min-height: 22px;
+/* small screens: stack the four panes, biggest first is meaningless —
+   keep source order and give each its own 16:9 */
+@media (max-width: 700px) {
+  .stage-grid,
+  .stage-grid[data-focus] { display: flex; flex-direction: column; aspect-ratio: auto; }
+  .quad-frame { flex: none; aspect-ratio: 16 / 9; }
 }
-.stage-caption .badge { text-transform: none; letter-spacing: 0.02em; }
 
 /* ---------------- info grid ---------------- */
 .info-grid {
@@ -95,6 +136,22 @@
 .radio-item .r-state { width: 18px; text-align: center; flex: none; }
 .radio-item .r-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .radio-item .r-tags { margin-left: auto; font-size: 11px; color: var(--ink-faint); flex: none; }
+
+/* live tv */
+.tv-note { font-size: 12px; margin-bottom: 8px; }
+.tv-frame { margin-bottom: 8px; border-radius: 10px; overflow: hidden; background: #000; }
+.tv-frame .tv-video { position: absolute; inset: 0; width: 100%; height: 100%; }
+.tv-list { display: flex; flex-direction: column; gap: 4px; max-height: 300px; overflow-y: auto; }
+.tv-item {
+  display: flex; align-items: center; gap: 10px; width: 100%;
+  padding: 8px 10px; border-radius: 10px; text-align: left; font-size: 13.5px;
+  transition: background 0.15s;
+}
+.tv-item:hover { background: rgba(235, 238, 250, 0.06); }
+.tv-item.playing { background: rgba(232, 181, 77, 0.1); color: var(--gold); }
+.tv-item .t-state { width: 18px; text-align: center; flex: none; }
+.tv-item .t-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tv-item .t-lang { margin-left: auto; font-size: 11px; color: var(--ink-faint); flex: none; }
 
 /* news */
 .news-list { list-style: none; display: flex; flex-direction: column; gap: 2px; }

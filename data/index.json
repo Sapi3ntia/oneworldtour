@@ -73,6 +73,17 @@
       "enabled": true,
       "collection": "Ancient Apocalypse",
       "accent": "#a776dd"
+    },
+    {
+      "id": "wild",
+      "name": "Wild",
+      "flag": "🦁",
+      "country": null,
+      "continent": null,
+      "file": "data/wild.json",
+      "enabled": true,
+      "collection": "Wildlife & National Parks",
+      "accent": "#57b26a"
     }
   ]
 }

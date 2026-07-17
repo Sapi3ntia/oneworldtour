@@ -15,7 +15,7 @@
    Cross-page cache in sessionStorage; `?bust` skips it while editing.
    ============================================================ */
 
-const CACHE_KEY = 'owt_data_cache_v4';
+const CACHE_KEY = 'owt_data_cache_v5';   // v5: wild region + tv.json era
 const CACHE_TTL_MS = 10 * 60 * 1000;
 
 /* Always revalidate data files with the server (cheap 304s). Without

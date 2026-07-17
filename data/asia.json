@@ -213,6 +213,43 @@
       "hidden_gem_tip": null
     },
     {
+      "id": "pyongyang",
+      "name": "Pyongyang",
+      "country": "North Korea",
+      "country_code": "KP",
+      "country_flag": "🇰🇵",
+      "continent": "Asia",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🗼",
+      "coordinates": {
+        "lat": 39.0392,
+        "lng": 125.7625
+      },
+      "street_view": {
+        "lat": 39.0392,
+        "lng": 125.7625,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Pyongyang",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        { "name": "Juche Tower" },
+        { "name": "Kim Il-sung Square" },
+        { "name": "Ryugyong Hotel" },
+        { "name": "Arch of Triumph" }
+      ],
+      "blurb": "The DPRK's showcase capital — monumental axes, pastel high-rises and the 170-metre Juche Tower over the Taedong River. One of the least-visited capitals on Earth, which makes a simple street walk here feel extraordinary.",
+      "fun_fact": "The 330-metre pyramid-shaped Ryugyong Hotel, begun in 1987, has never opened — it stayed the world's tallest unoccupied building for decades.",
+      "hidden_gem_tip": null,
+      "walk": "uIgMpItM_5s"
+    },
+    {
       "id": "beijing",
       "name": "Beijing",
       "country": "China",

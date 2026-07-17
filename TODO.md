@@ -86,7 +86,7 @@ dropped in v2 — resurrect from git if missed); satellite descend-from-orbit.
 - Serve on `127.0.0.1:8099`, **not** `0.0.0.0` (sandbox classifier blocks it).
 - Keyless at runtime. `tools/windy.key` is build-time only, gitignored.
 - Data fetches use `cache: 'no-cache'` (always revalidate) + sessionStorage
-  (10 min, key `owt_data_cache_v4`). Worst-case staleness after editing a data
+  (10 min, key `owt_data_cache_v5`). Worst-case staleness after editing a data
   file is 10 min in an already-open tab; `?bust` or a reload skips it. (The old
   default-cache fetches let Chrome's heuristic HTTP cache resurrect purged
   media.json picks — the "Churchill still shows Mississauga" bug, 2026-07-10.)
@@ -99,6 +99,19 @@ dropped in v2 — resurrect from git if missed); satellite descend-from-orbit.
 ---
 
 ## Recently landed (so it isn't re-litigated)
+
+- **📺 Live TV + 🦁 Wildlife (2026-07-15):** `data/tv.json` (country → national
+  channels; CN: CGTN/CCTV-4/CCTV-13 · KP: KCTV · RU: RT · plus NHK/KBS/Al
+  Jazeera/DW/France 24/TRT) rendered as a Location-page panel via `js/lib/tv.js`;
+  YouTube TV mounts through `yt.mount`, RT/KCTV play from broadcaster HLS through
+  lazy-loaded hls.js (both verified CORS-open). TV stops the radio and vice versa;
+  a dead channel removes itself with a toast. `data/wild.json` adds 14 live nature
+  cams as places (Brooks Falls, GRACE gorillas, Lola ya Bonobo, Tembe, Djuma,
+  Mpala, Amboseli, ol Donyo, Okaukuejo, Namib, Victoria Falls waterhole, Big Bear
+  + Decorah eagles, Chengdu pandas) + Pyongyang joins asia.json with a 2026 walk.
+  Home gets a 🦁 filter + "Wild live cams" rail (`region wild` ∪ live `nature`
+  places). Every id/stream vetted actually-live via yt-dlp/curl on 2026-07-15 —
+  future sweeps should re-verify `tv.json` and `wild.json` the same way.
 
 - **v2 rebuild (2026-07):** framework-free ES modules; custom SVG map engine
   (country nodes → city dots, wheel/drag/glide camera); tabbed scene stage
