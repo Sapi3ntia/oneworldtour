@@ -1,6 +1,6 @@
 # 🌍 One World Tour
 
-Step into 362 places across 94 countries — **walk their streets, drive their
+Step into 362 places across 93 countries — **walk their streets, drive their
 roads, watch their intersections live, look out their windows live**, tune into
 their radio, **watch their national TV live**, and read their news — all in-app,
 all real. Inspired by
@@ -79,6 +79,10 @@ windows, no frozen widgets posing as live cams.
 - **City Guesser** (`guess.html`) — dropped into a mystery scene (the walk video,
   title hidden), pin the world map, scored on great-circle distance, 5 rounds,
   spoiler-free emoji share.
+- **Trips** (`trips.html`, `trips.html?id=…`) — 15 curated routes people actually
+  travel (the Euro Trip, Route 66, the Trans-Siberian, the Banana Pancake Trail…),
+  each drawn on the world map as numbered stops, then listed stop by stop with a
+  line on why that stop is on the route. See below.
 - **Passport** (`passport.html`) — stamps by country, rank, achievements, notes,
   wishlist, distance travelled.
 
@@ -112,7 +116,8 @@ oneworldtour/
 │   └── pages/             # one module per page
 ├── data/
 │   ├── index.json         # region registry
-│   ├── <region>.json      # 360 places (curated walks/webcams/monuments live here)
+│   ├── trips.json         # 🧭 curated routes — ordered stop ids + editorial notes
+│   ├── <region>.json      # 348 places (curated walks/webcams/monuments live here)
 │   ├── wild.json          # 🦁 wildlife & national-park live cams as places
 │   ├── tv.json            # 📺 live national TV channels per country (verified live)
 │   ├── windy.json         # retired Windy index — kept as archive, not loaded
@@ -121,6 +126,10 @@ oneworldtour/
 ├── tools/
 │   ├── build_worldmap.py  # TopoJSON → Natural-Earth-projected SVG paths
 │   ├── enrich_media.py    # yt-dlp: auto-find + vet walks and live cams  ★
+│   ├── enrich_monuments.py# yt-dlp: auto-find + vet 🏛️ landmark tours     ★
+│   ├── build_monuments.py # hand-curated monument tabs (beats the above)
+│   ├── prune_media.py     # re-apply today's rules; drop picks that now fail
+│   ├── check_trips.py     # every trip stop must resolve to a real place  ★
 │   └── (v1 data builders: fetch_windy.py etc.)
 └── backend/               # optional FastAPI proxy for Ask-the-Guide
 ```
@@ -171,6 +180,82 @@ title matches the place, walks ≤ ~6 years old, and cams `is_live` **at vet tim
 Street-level vs window vantage is classified from the title. Results land in
 `data/media.json` (checkpointed per city, resumable), which the app merges under
 hand-curated fields — so a bad auto-pick is always overridable in the region JSON.
+
+Cam search asks several ways on purpose. A single `"{name} live cam"` returned
+**zero** live results for Copenhagen, Kraków and Marrakesh while `"webcam live"`
+and `"live webcam 24/7"` surfaced real streams for the same cities — YouTube
+ranks those phrasings almost independently — so the hunt also tries the local
+language (`kamera na żywo`, `ライブカメラ`, `cámara en vivo`) and the place's own
+top landmark, which is what cam operators actually name the stream.
+
+Three guards keep the cam seats honest, each one added after a real bad pick:
+
+| Guard | Caught in the wild |
+|---|---|
+| `AGGREGATOR_CAM` | "1200 TOP LIVE WEBCAMS around the World" sold as one city's window — it *is* live, it just isn't **there** |
+| `WILDLIFE_CAM` | a kestrel nest box at the UN as **Vienna's** live cam; peregrine boxes as San José's *both* seats; an otter tank as Seattle's window (exempt for `nature` places — `wild.json` exists so animal cams can be their own destination) |
+| US postal abbreviations | Manchester **England** showing feeds from Manchester **NH** and Manchester **IA** |
+
+`prune_media.py` re-applies the current rules to what is already on disk and
+deletes whatever no longer passes — `media.json` is a checkpoint, so without it
+a pick made under looser rules would live forever. `--network` also re-checks
+`is_live`, retiring cams that died since they were verified.
+
+### Monuments ★
+
+```bash
+python3 tools/enrich_monuments.py --tag famous --per-city 3 --max 90
+```
+
+196 places already carried curated `highlights` naming their real landmarks
+(Château Frontenac, Lincoln Memorial, Liberty Bell) while only 30 had monument
+tabs. Those names are the search terms. Each candidate is vetted at the same bar
+as a walk and then **ranked by resolution**, because the whole point of a
+monument tab is clear footage — a 4K walk-through beats a 720p slideshow. A
+landmark that can't be verified simply gets no tab.
+
+For a city, the city is not its own monument. For a **ruin** it is: Nan Madol and
+Göbekli Tepe have no sub-landmarks to list, which is much of why `ancient.json`
+sat at 0.72 scenes per place — so those search their own name.
+
+Auto picks are written `"source": "auto"` and carry `start: 0`. We can verify
+*what* a video shows but not *where it gets good*; claiming a hand-picked moment
+nobody watched would be the same species of lie as a fake live cam. Curation
+still wins — `build_monuments.py` keeps its hand-timed entries first and
+preserves auto ones after them (cap 5), so the two tools compose instead of
+clobbering each other. Promote a good auto pick by moving it into that file's
+`MAP` with a real `start`.
+
+### Trips ★
+
+```bash
+python3 tools/check_trips.py --scenes    # exits 1 if any stop is unknown
+```
+
+`data/trips.json` holds 15 hand-ordered routes. A trip stores only **place ids**
+plus a one-line note per stop, so it can never invent a destination — it can only
+point at somewhere the atlas already goes. `js/lib/trips.js` resolves those ids
+against the loaded places; a stop that doesn't resolve is dropped loudly to the
+console rather than rendered as a placeholder, and `check_trips.py` makes that
+path unreachable in a shipped build. That check matters more than it looks: a
+typo'd id yields a route that still renders, still looks fine, and quietly skips a
+city — the same failure mode as a fake live cam, so it gets the same treatment.
+
+**Distance is computed, never authored** — the sum of great-circle hops between
+consecutive stops. That is *not* road or rail mileage (the Grand Circle drives
+~2,250 km but measures 1,127 km this way), so the UI always says "as the crow
+flies". Authored mileage would rot the moment a stop changed; this can't.
+
+Each trip reports what it can honestly show — `🚶10 🚗10 🔴7 🪟6 🏛️10` for the Euro
+Trip, and a dimmed `🔴0 🪟0` for the Balkan Run, which genuinely has no verified
+live cam on it. Cards use stop 1's photo unless an optional `hero` stop id says
+otherwise (the Grand Circle starts in a Las Vegas car park).
+
+Arriving from a trip carries `&trip=` into the location page, which turns the
+place into "stop 4 of 10" with prev/next along the route. Nothing is stored for
+that — the route lives in the URL, so a shared link drops someone into the same
+place on the same trip. A place that sits on a route but was reached directly
+still says so, which is how most people find the trips at all.
 
 ---
 

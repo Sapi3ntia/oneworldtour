@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trips — One World Tour</title>
+  <meta name="description" content="Classic routes — the Euro Trip, Route 66, the Trans-Siberian — stop by stop, with a walk, a drive, a live cam or a window at every stop we could verify.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌍</text></svg>">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/map.css">
+  <link rel="stylesheet" href="css/trips.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="index.html"><span class="globe">🌍</span> One <em>World</em> Tour</a>
+      <nav class="topnav">
+        <a href="index.html">Explore</a>
+        <a href="trips.html" class="active">🧭 Trips</a>
+        <a href="window.html">🪟 Window</a>
+        <a href="guess.html">🌍 Guesser</a>
+        <a href="passport.html">📘 Passport</a>
+        <button id="surprise-top" class="btn btn-gold btn-sm">🎲 Surprise me</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+
+    <!-- ============ INDEX: every trip ============ -->
+    <section id="index-view" hidden>
+      <div class="trips-hero">
+        <h1>Take the <em>classic route</em>.</h1>
+        <p class="lede">The trips people actually do — a rail pass across Europe, the Mother Road
+          to the Pacific, six days of birch forest to Beijing. Every stop is a real place in this
+          atlas, so you can walk it, drive it, or look out its window before you go.</p>
+        <div class="hero-stats" id="trips-stats"></div>
+      </div>
+      <div class="trip-grid" id="trip-grid"></div>
+    </section>
+
+    <!-- ============ DETAIL: one trip ============ -->
+    <section id="trip-view" hidden>
+      <a class="backlink" href="trips.html">← All trips</a>
+
+      <header class="trip-head">
+        <div class="trip-head-text">
+          <div class="trip-kicker" id="trip-kicker"></div>
+          <h1 id="trip-name"></h1>
+          <p class="trip-tagline" id="trip-tagline"></p>
+          <p class="trip-blurb" id="trip-blurb"></p>
+          <div class="trip-actions">
+            <a id="start-btn" class="btn btn-gold" href="#">▶ Start the trip</a>
+            <a id="resume-btn" class="btn" href="#" hidden>↻ Resume</a>
+          </div>
+        </div>
+        <aside class="panel trip-facts">
+          <h3>The route</h3>
+          <dl id="trip-facts"></dl>
+          <div class="trip-progress" id="trip-progress"></div>
+        </aside>
+      </header>
+
+      <div id="trip-map"></div>
+      <p class="map-note faint">Numbered stops in order · click one to arrive.
+        Distances are straight-line between stops, not road or rail mileage.</p>
+
+      <div class="rail-head"><h2>Stop by stop</h2>
+        <span class="count" id="stops-count"></span></div>
+      <ol class="stop-list" id="stop-list"></ol>
+    </section>
+
+    <div id="notfound" hidden>
+      <div class="frame-empty" style="position:static;padding:90px 20px">
+        <div class="big">🧭</div>
+        <div class="why">No such trip. <a href="trips.html" style="color:var(--gold)">See them all →</a></div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>🌍 One World Tour</span>
+      <span id="foot-stats"></span>
+      <span>Routes are hand-ordered; every stop is a place we can actually show you.</span>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast"></div>
+
+  <script type="module" src="js/pages/trips.js"></script>
+</body>
+</html>

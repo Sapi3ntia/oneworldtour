@@ -69,6 +69,24 @@
   stroke-dasharray: 6 5;
 }
 
+/* ---- trip routes: solid leg lines + numbered stops ---- */
+.wmap-route {
+  stroke: rgba(232, 181, 77, 0.85); stroke-width: 2px;
+  stroke-dasharray: none; stroke-linecap: round;
+}
+.wmap-stop .stop-disc {
+  fill: var(--gold); stroke: #0a0d14; stroke-width: 1.2px;
+  vector-effect: non-scaling-stroke;
+}
+.wmap-stop .stop-num {
+  fill: #221a08; font-family: 'Inter', sans-serif; font-weight: 700;
+  pointer-events: none;
+}
+.wmap-stop:hover .stop-disc { fill: #f5cd7a; }
+.wmap-stop-here .stop-disc { fill: var(--live); }
+.wmap-stop-here .stop-num { fill: #fff; }
+.wmap-stop-done .stop-disc { fill: var(--walk); }
+
 /* ---- tooltip ---- */
 .wmap-tip {
   position: absolute; top: 0; left: 0; z-index: 5; display: none;

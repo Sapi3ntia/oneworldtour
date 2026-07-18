@@ -8,6 +8,7 @@
    🏛️ Monuments swap into the walk pane via chips above the grid.
    ============================================================ */
 import { loadAll, byId, search } from '../lib/data.js';
+import { tripsThrough } from '../lib/trips.js';
 import { walkFor, driveFor, liveFor, windowFor, monumentsFor, sceneFlags } from '../lib/media.js';
 import { State } from '../lib/state.js';
 import { Culture, weatherInfo } from '../lib/culture.js';
@@ -440,6 +441,58 @@ function initGuide(place) {
   });
 }
 
+/* ---------------- "you're on a route" ----------------
+   With ?trip=, this place is a numbered stop and the strip carries you
+   onward. Without it, we still say which curated routes pass through —
+   that's how most people find the trips at all. */
+async function initTripStrip(place) {
+  const wanted = new URLSearchParams(location.search).get('trip');
+  const through = await tripsThrough(place.id).catch(() => []);
+  if (!through.length) return;
+
+  const strip = qs('#trip-strip');
+  const active = wanted ? through.find(t => t.trip.id === wanted) : null;
+
+  if (!active) {
+    /* passive: this place happens to be on curated routes */
+    const links = [];
+    through.slice(0, 3).forEach(({ trip }, i) => {
+      if (i) links.push(' · ');
+      links.push(el('a', { href: `trips.html?id=${encodeURIComponent(trip.id)}` },
+        `${trip.emoji} ${trip.name}`));
+    });
+    strip.append(
+      el('span', { class: 'ts-name' }, '🧭 On the route:'),
+      el('span', { class: 'ts-where' }, links),
+    );
+    strip.hidden = false;
+    return;
+  }
+
+  const { trip, index } = active;
+  const prev = index > 0 ? trip.stops[index - 1] : null;
+  const next = index < trip.stops.length - 1 ? trip.stops[index + 1] : null;
+  const href = s => `location.html?id=${encodeURIComponent(s.place.id)}&trip=${encodeURIComponent(trip.id)}`;
+
+  strip.append(
+    el('span', { class: 'ts-name' },
+      el('a', { href: `trips.html?id=${encodeURIComponent(trip.id)}` },
+        `${trip.emoji} ${trip.name}`)),
+    el('span', { class: 'ts-where' },
+      `Stop ${index + 1} of ${trip.stops.length}` + (next ? '' : ' · end of the road')),
+    el('span', { class: 'ts-dots' },
+      trip.stops.map((s, i) => el('span', {
+        class: 'ts-dot' + (i === index ? ' here' : State.isVisited(s.place.id) ? ' done' : ''),
+        title: `${i + 1}. ${s.place.name}`,
+      }))),
+    el('span', { class: 'ts-nav' },
+      prev ? el('a', { class: 'btn btn-sm', href: href(prev) }, `← ${prev.place.name}`) : null,
+      next ? el('a', { class: 'btn btn-sm btn-gold', href: href(next) }, `${next.place.name} →`) : null,
+    ),
+  );
+  strip.hidden = false;
+}
+
 async function initNearby(place, places) {
   const near = places
     .filter(p => p.id !== place.id)
@@ -520,6 +573,7 @@ async function boot() {
   initNews(place);
   initGallery(place);
   initGuide(place);
+  initTripStrip(place);
   initNearby(place, places);
 }
 

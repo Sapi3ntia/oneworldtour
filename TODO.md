@@ -27,23 +27,48 @@ The architecture itself is documented in [`README.md`](README.md).
 ### Content depth (the steady grind)
 - **Run `tools/enrich_media.py` regularly.** It checkpoints into `data/media.json`
   and skips finished cities — a weekly sweep keeps cams fresh and fills gaps.
+  **Diminishing returns are real** (measured 2026-07-18): a 23-minute phase over
+  the 150 places that every prior sweep already failed on yielded 3 scene slots
+  (`washington-dc` +window, `nashville` +window, `addis-ababa` +live). Walk/drive
+  sit at 88% and live/window at 40%/26%, and those last percentages are mostly
+  *not* findable — the cities left genuinely lack a dedicated embeddable 24/7 cam.
+  Prefer `--only` on specific new places over another broad sweep.
   Consider a `--reverify` mode that re-checks `is_live` on previously-found cams
   and drops dead ones (currently they only die honestly at runtime via onError).
 - **Review auto-picks.** `media.json` quality is good but not curated-good; promote
   great finds into the region JSON (`walk`/`webcam`/`window`) and they become
   permanent.
-- **More monuments** — 30 cities have them (2026-07-17 batch added NYC, Sydney
-  Opera House, the Kremlin, Trevi, SF ×3, Rio ×3, Santorini, Gateway Arch; cap
-  is now 5/city). Next marquee candidates: Dubai → Burj Khalifa, Cape Town →
-  Table Mountain, Istanbul → Hagia Sophia, Athens → Acropolis.
+- **More monuments** — **175 of 362 places (48%) now have them**, up from 30 (8%)
+  before the 2026-07-18 sweep: `tools/enrich_monuments.py` added 239 tabs across
+  two phases (famous-tagged first at 3/city, then everywhere else at 2/city),
+  almost all 2160p. Remaining gaps are mostly small towns and nature sites where
+  there is no monument to shoot. Re-run with `--per-city 3` to deepen the marquee
+  cities rather than widen coverage.
 - **Author `highlights`/`blurb`** for content-thin new countries.
+- **Places the curated trips are missing.** Building `data/trips.json` surfaced
+  real gaps — these routes are honest but thin, and each named place would make
+  one materially better:
+  - *Route 66* runs Chicago → St. Louis → Santa Fe → Grand Canyon → LA. The whole
+    small-town middle is absent: **Tulsa, Oklahoma City, Amarillo, Albuquerque,
+    Flagstaff**, and the actual finish line, **Santa Monica Pier**.
+  - *Trans-Siberian* skips **Yekaterinburg, Novosibirsk and Irkutsk** — Irkutsk is
+    the classic stop before Baikal.
+  - *Silk Road* has no **Samarkand or Bukhara**, which is most of the point of it.
+  - **Cusco and Machu Picchu are missing from the atlas entirely** (Peru has only
+    two `ancient.json` sites). That's the biggest single hole in the dataset and
+    it blocks an obvious "Gringo Trail" trip.
+  Add via the normal path — region JSON entry + `enrich_media.py` + a
+  `check_trips.py` run — then extend the affected trips' `stops`.
 
 ### Product ideas (additive)
 - **Day/night terminator** on the SVG map (v1 had one on Leaflet) — project the
   solar terminator as a translucent SVG path; cheap math, nice "alive" signal.
-- **Trip planner / Fly the Tour** — v1's ordered multi-stop route with a plane
-  gliding leg by leg. The SVG engine can do this beautifully (`drawLine` +
-  animated dot along the great circle). Deliberately not ported yet.
+- **Fly the Tour** — the *animated* half of v1's trip planner: a plane gliding
+  leg by leg along the route. 🧭 **Trips shipped** (`data/trips.json`, 15 curated
+  routes drawn with `drawLine` + numbered `addStop` markers), so the data and the
+  map work are done; what's left is the animation — a dot interpolated along each
+  leg (`geo.interpolate` already exists) with the stop list scrolling to follow.
+  Also still open: **user-built** routes, as opposed to the curated ones.
 - **Drop In** — v1's "tap anywhere → nearest place's scene". Trivial now:
   `unproject(click)` + nearest-by-km.
 - **Visited tint** — dim/star city dots you've already stamped (`State.visited`).
@@ -101,6 +126,16 @@ dropped in v2 — resurrect from git if missed); satellite descend-from-orbit.
 ---
 
 ## Recently landed (so it isn't re-litigated)
+
+- **🧹 `tools/prune_media.py` + 9 deletions (2026-07-18):** a rule-checker for
+  media.json that flags picks violating principle #2 and deletes them. It removed
+  9: nest-box cams standing in for cities (`vienna`, `ghent`, `san-jose` ×2 —
+  kestrels and peregrine falcons), an aquarium tank (`seattle`), multi-cam
+  rotators (`sicily` Etna, `glacier-np` "Montana Webcam Tour"), and the worst
+  offender — `manchester` (England) serving a hawk camera in Manchester, **Iowa**
+  and a falcon feed in Manchester, **New Hampshire**. Coverage dropped live 41→40%
+  and window 27→26% as a result. That drop is the tool working, not a regression;
+  don't "fix" it by restoring the picks.
 
 - **📺 Live TV + 🦁 Wildlife (2026-07-15):** `data/tv.json` (country → national
   channels; CN: CGTN/CCTV-4/CCTV-13 · KP: KCTV · RU: RT · plus NHK/KBS/Al
