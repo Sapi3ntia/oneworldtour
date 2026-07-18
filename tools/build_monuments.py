@@ -161,6 +161,23 @@ def main():
             if lid in MAP:
                 mons = [{"name": m["name"], "yt": m["yt"], "start": m.get("start", 0)}
                         for m in MAP[lid][:5]]
+                # Keep auto picks (tools/enrich_monuments.py, "source":"auto")
+                # AFTER the curated ones instead of wiping them: curation wins
+                # the good seats, automation fills whatever room is left. A
+                # curated entry for the same landmark or video always displaces
+                # its auto twin.
+                taken_yt = {m["yt"] for m in mons}
+                taken_nm = {m["name"].lower() for m in mons}
+                for m in l.get("monuments") or []:
+                    if len(mons) >= 5:
+                        break
+                    if m.get("source") != "auto" or not m.get("yt"):
+                        continue
+                    if m["yt"] in taken_yt or (m.get("name") or "").lower() in taken_nm:
+                        continue
+                    mons.append(m)
+                    taken_yt.add(m["yt"])
+                    taken_nm.add((m.get("name") or "").lower())
                 if l.get("monuments") != mons:
                     l["monuments"] = mons
                     touched = True

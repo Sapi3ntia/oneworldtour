@@ -33,7 +33,15 @@
       "blurb": "",
       "fun_fact": "",
       "hidden_gem_tip": null,
-      "walk": "Ac2zc-NALhA"
+      "walk": "Ac2zc-NALhA",
+      "monuments": [
+        {
+          "name": "Marrakesh",
+          "yt": "yaiaDHXPWlQ",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "fez",
@@ -64,7 +72,15 @@
       "highlights": [],
       "blurb": "",
       "fun_fact": "",
-      "hidden_gem_tip": null
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Fez",
+          "yt": "aAtHlcWuOhQ",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "chefchaouen",
@@ -188,7 +204,15 @@
       "highlights": [],
       "blurb": "",
       "fun_fact": "",
-      "hidden_gem_tip": null
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Giza Pyramids",
+          "yt": "75eBxuKTcaU",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "cairo",
@@ -258,7 +282,15 @@
       "highlights": [],
       "blurb": "",
       "fun_fact": "",
-      "hidden_gem_tip": null
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Luxor",
+          "yt": "0cOsnxWwFZ4",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "aswan",
@@ -289,7 +321,15 @@
       "highlights": [],
       "blurb": "",
       "fun_fact": "",
-      "hidden_gem_tip": null
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Aswan",
+          "yt": "B28K4ye_5UY",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "nairobi",
@@ -442,6 +482,24 @@
           "name": "African Renaissance Monument",
           "yt": "RQwS6JK7WrY",
           "start": 0
+        },
+        {
+          "name": "Gorée Island",
+          "yt": "u_dCFMHAlW4",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Renaissance Monument",
+          "yt": "n2DF8xOTtOM",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Grand Mosque of Dakar",
+          "yt": "3daX2hvl48g",
+          "start": 0,
+          "source": "auto"
         }
       ]
     },
@@ -474,7 +532,15 @@
       "highlights": [],
       "blurb": "",
       "fun_fact": "",
-      "hidden_gem_tip": null
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Gorée Island",
+          "yt": "dnVYUIbQmB0",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "addis-ababa",
@@ -533,6 +599,30 @@
           "name": "National Museum (home of Lucy)",
           "yt": "CL1XiT9bQdw",
           "start": 0
+        },
+        {
+          "name": "National Museum",
+          "yt": "qAwoPT4VnIc",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Holy Trinity Cathedral",
+          "yt": "2IlRDPhuN-c",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Merkato",
+          "yt": "Z-p_uiCRrVo",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Mount Entoto",
+          "yt": "ZbrpaokU81M",
+          "start": 0,
+          "source": "auto"
         }
       ]
     },
@@ -565,7 +655,15 @@
       "highlights": [],
       "blurb": "",
       "fun_fact": "",
-      "hidden_gem_tip": null
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Lalibela",
+          "yt": "zakTCUATe0A",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "gondar",
@@ -596,7 +694,15 @@
       "highlights": [],
       "blurb": "",
       "fun_fact": "",
-      "hidden_gem_tip": null
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Gondar",
+          "yt": "BeDL5Ox9hNc",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "banjul",
@@ -749,6 +855,30 @@
           "name": "Apartheid Museum",
           "yt": "DRO2JLH7tRs",
           "start": 0
+        },
+        {
+          "name": "Constitution Hill",
+          "yt": "z0VGEYYh840",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Soweto",
+          "yt": "D8HKUacq3OQ",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Gold Reef City",
+          "yt": "HMvXnxE1uc8",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Nelson Mandela Bridge",
+          "yt": "F4bwfWl3S7Q",
+          "start": 0,
+          "source": "auto"
         }
       ]
     },

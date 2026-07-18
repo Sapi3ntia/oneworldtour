@@ -131,7 +131,27 @@
         "start": 57
       },
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "National Mall",
+          "yt": "5rqpsOF8tyA",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "The White House",
+          "yt": "tYAfyHeld08",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "United States Capitol",
+          "yt": "G2wW7FEmQxs",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "boston",
@@ -223,7 +243,27 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Liberty Bell",
+          "yt": "G9xZ2ua8NWw",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Independence Hall",
+          "yt": "zEBflxe_T-I",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Philadelphia Museum of Art",
+          "yt": "oet-0g3fPG0",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "chicago",

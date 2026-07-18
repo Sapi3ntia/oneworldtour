@@ -78,7 +78,15 @@
       "blurb": "",
       "fun_fact": "",
       "hidden_gem_tip": null,
-      "walk": "ii13vHUOXac"
+      "walk": "ii13vHUOXac",
+      "monuments": [
+        {
+          "name": "Kyoto",
+          "yt": "QP11A3q7ZP4",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "osaka",
@@ -178,6 +186,12 @@
           "name": "Atomic Bomb Dome",
           "yt": "qwNoxabhgdw",
           "start": 1
+        },
+        {
+          "name": "Hiroshima",
+          "yt": "xlBAzee468s",
+          "start": 0,
+          "source": "auto"
         }
       ]
     },
@@ -210,7 +224,15 @@
       "highlights": [],
       "blurb": "",
       "fun_fact": "",
-      "hidden_gem_tip": null
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Nara",
+          "yt": "YhypWb4OT3s",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "pyongyang",
@@ -239,15 +261,49 @@
         "city-hum.mp3"
       ],
       "highlights": [
-        { "name": "Juche Tower" },
-        { "name": "Kim Il-sung Square" },
-        { "name": "Ryugyong Hotel" },
-        { "name": "Arch of Triumph" }
+        {
+          "name": "Juche Tower"
+        },
+        {
+          "name": "Kim Il-sung Square"
+        },
+        {
+          "name": "Ryugyong Hotel"
+        },
+        {
+          "name": "Arch of Triumph"
+        }
       ],
       "blurb": "The DPRK's showcase capital — monumental axes, pastel high-rises and the 170-metre Juche Tower over the Taedong River. One of the least-visited capitals on Earth, which makes a simple street walk here feel extraordinary.",
       "fun_fact": "The 330-metre pyramid-shaped Ryugyong Hotel, begun in 1987, has never opened — it stayed the world's tallest unoccupied building for decades.",
       "hidden_gem_tip": null,
-      "walk": "uIgMpItM_5s"
+      "walk": "uIgMpItM_5s",
+      "monuments": [
+        {
+          "name": "Juche Tower",
+          "yt": "q4ih60nPy1I",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Kim Il-sung Square",
+          "yt": "vlRC6-IY-VU",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Ryugyong Hotel",
+          "yt": "QMQSIX7M-QE",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Arch of Triumph",
+          "yt": "zPU8syATgbM",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "beijing",
@@ -349,7 +405,15 @@
       "highlights": [],
       "blurb": "",
       "fun_fact": "",
-      "hidden_gem_tip": null
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Great Wall at Badaling",
+          "yt": "A-BQe6HfUuQ",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "xi-an",
@@ -506,7 +570,15 @@
       "highlights": [],
       "blurb": "",
       "fun_fact": "",
-      "hidden_gem_tip": null
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Taj Mahal, Agra",
+          "yt": "bu5hTateV6w",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "jaipur",
@@ -537,7 +609,15 @@
       "highlights": [],
       "blurb": "",
       "fun_fact": "",
-      "hidden_gem_tip": null
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Jaipur",
+          "yt": "sWMnfd4Cras",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "mumbai",
@@ -600,7 +680,15 @@
       "highlights": [],
       "blurb": "",
       "fun_fact": "",
-      "hidden_gem_tip": null
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Varanasi",
+          "yt": "rDsOi3MByCI",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "kerala-backwaters",
@@ -732,7 +820,15 @@
       "highlights": [],
       "blurb": "",
       "fun_fact": "",
-      "hidden_gem_tip": null
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Gyeongju",
+          "yt": "-Lcyyl-Z4Mw",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "jeju-island",
@@ -826,7 +922,15 @@
       "highlights": [],
       "blurb": "",
       "fun_fact": "",
-      "hidden_gem_tip": null
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Chiang Mai",
+          "yt": "0LJRqJxIgIM",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "phuket",
@@ -888,7 +992,15 @@
       "highlights": [],
       "blurb": "",
       "fun_fact": "",
-      "hidden_gem_tip": null
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Ayutthaya",
+          "yt": "2-1wX_VDYu0",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "kuala-lumpur",
@@ -951,7 +1063,15 @@
       "highlights": [],
       "blurb": "",
       "fun_fact": "",
-      "hidden_gem_tip": null
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "George Town, Penang",
+          "yt": "iVGLwqbZJ_g",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "malacca-city",
@@ -982,7 +1102,15 @@
       "highlights": [],
       "blurb": "",
       "fun_fact": "",
-      "hidden_gem_tip": null
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Malacca City",
+          "yt": "o7Jgl5KffTM",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "kota-kinabalu",
@@ -1357,7 +1485,15 @@
       "highlights": [],
       "blurb": "",
       "fun_fact": "",
-      "hidden_gem_tip": null
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Hoi An",
+          "yt": "gCEmoa3TaKY",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "angkor-wat",
@@ -1388,7 +1524,15 @@
       "highlights": [],
       "blurb": "",
       "fun_fact": "",
-      "hidden_gem_tip": null
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Angkor Wat",
+          "yt": "ZbV2N0Nitgw",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "phnom-penh",
@@ -1450,7 +1594,15 @@
       "highlights": [],
       "blurb": "",
       "fun_fact": "",
-      "hidden_gem_tip": null
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Siem Reap",
+          "yt": "4aRUxfWZ6R0",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "luang-prabang",
@@ -1481,7 +1633,15 @@
       "highlights": [],
       "blurb": "",
       "fun_fact": "",
-      "hidden_gem_tip": null
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Luang Prabang",
+          "yt": "2ZixoSsJNAg",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "vientiane",
@@ -1606,7 +1766,15 @@
       "highlights": [],
       "blurb": "",
       "fun_fact": "",
-      "hidden_gem_tip": null
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Tainan",
+          "yt": "8BUlTDSLOw4",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "ulaanbaatar",
@@ -1730,7 +1898,15 @@
       "highlights": [],
       "blurb": "",
       "fun_fact": "",
-      "hidden_gem_tip": null
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Kandy",
+          "yt": "FvhwYxMCFZM",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "sigiriya",
@@ -1761,7 +1937,15 @@
       "highlights": [],
       "blurb": "",
       "fun_fact": "",
-      "hidden_gem_tip": null
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Sigiriya",
+          "yt": "2ncMwa-zkUc",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "jerusalem",
@@ -1792,7 +1976,15 @@
       "highlights": [],
       "blurb": "",
       "fun_fact": "",
-      "hidden_gem_tip": null
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Jerusalem",
+          "yt": "oDBpY2C0AKQ",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "tel-aviv",
@@ -1854,7 +2046,15 @@
       "highlights": [],
       "blurb": "",
       "fun_fact": "",
-      "hidden_gem_tip": null
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Masada",
+          "yt": "KstkbGfSs6A",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "dubai",
@@ -2010,7 +2210,15 @@
       "highlights": [],
       "blurb": "",
       "fun_fact": "",
-      "hidden_gem_tip": null
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Hegra (AlUla)",
+          "yt": "HoOIwbARSq0",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "doha",
@@ -2072,7 +2280,15 @@
       "highlights": [],
       "blurb": "",
       "fun_fact": "",
-      "hidden_gem_tip": null
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Petra",
+          "yt": "9-8-pNr06ok",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "amman",
@@ -2196,7 +2412,15 @@
       "highlights": [],
       "blurb": "",
       "fun_fact": "",
-      "hidden_gem_tip": null
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Isfahan",
+          "yt": "M0zyMNkAc1s",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "persepolis",
@@ -2227,7 +2451,15 @@
       "highlights": [],
       "blurb": "",
       "fun_fact": "",
-      "hidden_gem_tip": null
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Persepolis",
+          "yt": "PTJCAhsAMxU",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "shiraz",
@@ -2258,7 +2490,15 @@
       "highlights": [],
       "blurb": "",
       "fun_fact": "",
-      "hidden_gem_tip": null
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Shiraz",
+          "yt": "DD5P3ePyxhc",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "yerevan",
@@ -2351,7 +2591,15 @@
       "highlights": [],
       "blurb": "",
       "fun_fact": "",
-      "hidden_gem_tip": null
+      "hidden_gem_tip": null,
+      "monuments": [
+        {
+          "name": "Tatev Monastery",
+          "yt": "rhs6Mi86p4U",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "baku",
