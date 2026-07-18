@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-18T18:22:57+00:00",
+ "generated": "2026-07-18T18:46:21+00:00",
  "places": {
   "fez": {
    "walk": {
@@ -5747,6 +5747,223 @@
     "channel": "World Wild Hearts",
     "date": "20240713",
     "duration": 995
+   }
+  },
+  "samarkand": {
+   "walk": {
+    "yt": "JyV8yerf4a8",
+    "title": "Samarkand, Uzbekistan, walking tour 4k 60fps",
+    "channel": "walking4k",
+    "date": "20221128",
+    "duration": 2826
+   },
+   "drive": {
+    "yt": "GtIk6fXm1GE",
+    "title": "[4K] Driving around Samarkand (UZ)",
+    "channel": "Scaranta",
+    "date": "20241108",
+    "duration": 2725
+   }
+  },
+  "bukhara": {
+   "walk": {
+    "yt": "QqcmmvcUObg",
+    "title": "4K Bukhara Walk🇺🇿 Fascinating Uzbekistan City Walking Tour 2025",
+    "channel": "4K Walking Travel",
+    "date": "20251209",
+    "duration": 7344
+   }
+  },
+  "yekaterinburg": {
+   "walk": {
+    "yt": "aPfc5PY-foo",
+    "title": "Yekaterinburg - Russia🇷🇺 | 4K | walking tour |",
+    "channel": "couch travel",
+    "date": "20220904",
+    "duration": 2470
+   },
+   "drive": {
+    "yt": "CArayrfolE8",
+    "title": "Driving tour Yekaterinburg in 4K Downtown Yeltsin Center",
+    "channel": "Moving Camera",
+    "date": "20221212",
+    "duration": 1472
+   }
+  },
+  "novosibirsk": {
+   "walk": {
+    "yt": "-Dm_wHQ0ly0",
+    "title": "Novosibirsk - Walking tour city center - Russia / Новосибирск  4К",
+    "channel": "olfocus",
+    "date": "20240611",
+    "duration": 3038
+   },
+   "drive": {
+    "yt": "FySnHfTH78s",
+    "title": "Capital of Siberia, Novosibirsk. 4k city driving",
+    "channel": "It's relaxing",
+    "date": "20230828",
+    "duration": 1621
+   }
+  },
+  "irkutsk": {
+   "walk": {
+    "yt": "IpkvgFCHIMY",
+    "title": "Virtual Walk around Irkutsk - 4K City Walk with Real City Sounds",
+    "channel": "4K Urban Life",
+    "date": "20230203",
+    "duration": 10006
+   },
+   "drive": {
+    "yt": "O3Sx2hBTBvo",
+    "title": "Driving in Irkutsk region: Иркутск - Ангарск 24/09/2021 (timelapse 4x)",
+    "channel": "RussianRoadsDays",
+    "date": "20211004",
+    "duration": 1127
+   }
+  },
+  "cusco": {
+   "walk": {
+    "yt": "Kh5o5pUFSog",
+    "title": "🇵🇪 CUSCO PERU 2025 4K Walking through the Capital of The Inca Empire | Cusco Walking City Tour",
+    "channel": "World Wanderings: 4K Walking Tours",
+    "date": "20251003",
+    "duration": 9711
+   },
+   "drive": {
+    "yt": "S6IG6TGxfBE",
+    "title": "Urcos, Cusco, Peru | Scenic Drive Through the Peruvian Andes and Mountain Towns",
+    "channel": "Road Dogs For Life",
+    "date": "20200918",
+    "duration": 1564
+   },
+   "live": {
+    "yt": "SFE7kTtX8_8",
+    "title": "Plaza de Armas de Querétaro en vivo 2026-07-18 14:40",
+    "verified": "2026-07-18"
+   }
+  },
+  "machu-picchu": {
+   "walk": {
+    "yt": "f6eBCakFE-Q",
+    "title": "AGUAS CALIENTES Peru | Machu Picchu | 4K Walking Tour NON-STOP",
+    "channel": "WAZ HERE World",
+    "date": "20250422",
+    "duration": 5707
+   }
+  },
+  "tulsa": {
+   "walk": {
+    "yt": "wJbxRkIlyJQ",
+    "title": "[4K] Downtown Tulsa Oklahoma, USA - Virtual Walking Tour & Travel Guide 🎧 Binaural City Sounds",
+    "channel": "Wind Walk Travel Videos ʬ",
+    "date": "20201023",
+    "duration": 5256
+   },
+   "drive": {
+    "yt": "7j2fmCAA8Z8",
+    "title": "Tulsa - Oklahoma - 4K Downtown Drive",
+    "channel": "Mileage Mike Travels",
+    "date": "20230717",
+    "duration": 2450
+   }
+  },
+  "oklahoma-city": {
+   "walk": {
+    "yt": "34h8QSlsyOY",
+    "title": "Oklahoma City Walking Tour 🇺🇸 | National Memorial to Downtown OKC [4K]",
+    "channel": "Wind Walk Travel Videos ʬ",
+    "date": "20201019",
+    "duration": 1866
+   },
+   "drive": {
+    "yt": "RjaTo795pGQ",
+    "title": "Oklahoma City - Oklahoma - 4K Downtown Drive",
+    "channel": "Mileage Mike Travels",
+    "date": "20230721",
+    "duration": 2546
+   },
+   "live": {
+    "yt": "7CFKHKzG904",
+    "title": "Downtown Woodward, Oklahoma | Live Camera 2026-07-18 14:43",
+    "verified": "2026-07-18"
+   },
+   "window": {
+    "yt": "jdUc9qYuFHw",
+    "title": "Oklahoma City, OK | LIVE PTZ Railcam | Oklahoma Model Railroad Association 2026-07-18 14:44",
+    "verified": "2026-07-18"
+   }
+  },
+  "amarillo": {
+   "drive": {
+    "yt": "ARUV_-0GWDs",
+    "title": "Driving Around Downtown Amarillo, Texas in 4k Video",
+    "channel": "Explore USA Cities",
+    "date": "20240610",
+    "duration": 3121
+   }
+  },
+  "albuquerque": {
+   "walk": {
+    "yt": "1xykO95SQGM",
+    "title": "USA Walking Tour - Albuquerque, New Mexico - April 2026 | 4K",
+    "channel": "TheHumanPOV ",
+    "date": "20260614",
+    "duration": 1742
+   },
+   "drive": {
+    "yt": "1z6oL-_t7eM",
+    "title": "The Duke City Driving Tour 4K - Albuquerque New Mexico Drive",
+    "channel": "The Travel Docket",
+    "date": "20251215",
+    "duration": 3907
+   }
+  },
+  "flagstaff": {
+   "walk": {
+    "yt": "uSAu9z5BGrA",
+    "title": "Exploring Flagstaff, Arizona | Downtown Walking Tour [4K]",
+    "channel": "American Walks",
+    "date": "20250327",
+    "duration": 1942
+   },
+   "drive": {
+    "yt": "jR-uO4HIZrk",
+    "title": "Flagstaff - Arizona - 4K Downtown Drive",
+    "channel": "Mileage Mike Travels",
+    "date": "20240628",
+    "duration": 1591
+   },
+   "live": {
+    "yt": "7xdHH9KMSVk",
+    "title": "Flagstaff, Arizona, USA | LIVE Train Camera (PTZ) 2026-07-18 14:45",
+    "verified": "2026-07-18"
+   },
+   "window": {
+    "yt": "YlAtgGTbm4M",
+    "title": "Flagstaff Landing - Flagstaff Lake - Eustis, ME 2026-07-18 14:45",
+    "verified": "2026-07-18"
+   }
+  },
+  "santa-monica-pier": {
+   "walk": {
+    "yt": "uOMTlVlkttY",
+    "title": "Santa Monica Pier in Los Angeles, California USA 4K Virtual Walk Tour(1 hour)",
+    "channel": "Superwalk Tours",
+    "date": "20220903",
+    "duration": 3771
+   },
+   "drive": {
+    "yt": "aeNDZPIpO_o",
+    "title": "SANTA MONICA California - driving tour [4K]",
+    "channel": "Endless Walk",
+    "date": "20231212",
+    "duration": 1291
+   },
+   "window": {
+    "yt": "v97JpT3ZA0w",
+    "title": "LIVE Santa Monica Beach & Pier Cam: California | explore.org 2026-07-18 14:46",
+    "verified": "2026-07-18"
    }
   }
  }

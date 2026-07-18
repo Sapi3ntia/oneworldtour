@@ -2693,6 +2693,150 @@
       "blurb": "",
       "fun_fact": "",
       "hidden_gem_tip": null
+    },
+    {
+      "id": "samarkand",
+      "name": "Samarkand",
+      "country": "Uzbekistan",
+      "country_code": "UZ",
+      "country_flag": "🇺🇿",
+      "continent": "Asia",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🕌",
+      "coordinates": {
+        "lat": 39.6542,
+        "lng": 66.9757
+      },
+      "street_view": {
+        "lat": 39.6542,
+        "lng": 66.9757,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Samarkand",
+      "sounds": [
+        "plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Registan",
+          "wikipedia_slug": "Registan"
+        },
+        {
+          "name": "Gur-e-Amir",
+          "wikipedia_slug": "Gur-e-Amir"
+        },
+        {
+          "name": "Bibi-Khanym Mosque",
+          "wikipedia_slug": "Bibi-Khanym_Mosque"
+        },
+        {
+          "name": "Shah-i-Zinda",
+          "wikipedia_slug": "Shah-i-Zinda"
+        },
+        {
+          "name": "Ulugh Beg Observatory",
+          "wikipedia_slug": "Ulugh_Beg_Observatory"
+        }
+      ],
+      "blurb": "The great Silk Road city, and Timur's capital. Three madrasas face each other across the Registan in tilework so blue it reads as a single colour from a distance — the effect is deliberate and it still works.",
+      "fun_fact": "Ulugh Beg, Timur's grandson, measured the length of the year from his observatory here in 1437 and got it wrong by less than a minute.",
+      "hidden_gem_tip": "Shah-i-Zinda is a narrow lane of tombs rather than a single monument, and each doorway is tiled differently. Go at the end of the day.",
+      "monuments": [
+        {
+          "name": "Registan",
+          "yt": "cEoz_5BZjFU",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Gur-e-Amir",
+          "yt": "JVVtt0YOMds",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Bibi-Khanym Mosque",
+          "yt": "N4MZI-LpsfI",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
+    },
+    {
+      "id": "bukhara",
+      "name": "Bukhara",
+      "country": "Uzbekistan",
+      "country_code": "UZ",
+      "country_flag": "🇺🇿",
+      "continent": "Asia",
+      "region": "",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🐫",
+      "coordinates": {
+        "lat": 39.7686,
+        "lng": 64.4556
+      },
+      "street_view": {
+        "lat": 39.7686,
+        "lng": 64.4556,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Bukhara",
+      "sounds": [
+        "plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Poi Kalyan",
+          "wikipedia_slug": "Po-i-Kalyan"
+        },
+        {
+          "name": "Ark of Bukhara",
+          "wikipedia_slug": "Ark_of_Bukhara"
+        },
+        {
+          "name": "Lyabi-Hauz",
+          "wikipedia_slug": "Lyab-i_Hauz"
+        },
+        {
+          "name": "Samanid Mausoleum",
+          "wikipedia_slug": "Samanid_Mausoleum"
+        },
+        {
+          "name": "Trading domes",
+          "wikipedia_slug": "Bukhara"
+        }
+      ],
+      "blurb": "More intact than Samarkand and lower-key with it — a working old town of mud-brick lanes, covered bazaars and a minaret that Genghis Khan reportedly refused to destroy. Over 140 protected buildings inside a walkable centre.",
+      "fun_fact": "The Kalyan Minaret was finished in 1127 and is 46 m tall. It was used for the call to prayer, as a lighthouse for caravans crossing the desert at night, and — for a period — for executions.",
+      "hidden_gem_tip": "The Samanid Mausoleum survived because it was buried in silt and forgotten for centuries. Its brickwork changes character hour by hour as the sun moves across it.",
+      "monuments": [
+        {
+          "name": "Poi Kalyan",
+          "yt": "cv46nrLb9Jk",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Ark of Bukhara",
+          "yt": "0Bv-4cMfasM",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Lyabi-Hauz",
+          "yt": "QNGsG3IPKWA",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     }
   ]
 }

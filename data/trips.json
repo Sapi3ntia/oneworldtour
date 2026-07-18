@@ -60,30 +60,54 @@
       "emoji": "🛣️",
       "mode": "drive",
       "region": "United States",
-      "days": "2 weeks",
+      "days": "2–3 weeks",
       "hero": "santa-fe",
       "tagline": "Chicago to the Pacific on the Mother Road.",
-      "blurb": "Decommissioned in 1985 and still the most driven road in America. The original alignment ran 2,448 miles from Grant Park to the Santa Monica pier; what's left is frontage roads, neon, and a lot of desert. We have the anchor cities — the small-town middle is thin and honestly labelled below.",
+      "blurb": "Decommissioned in 1985 and still the most driven road in America. Chicago to the Pacific across eight states — Art Deco Tulsa, the Texas panhandle, adobe New Mexico, ponderosa forest in Arizona, then down into Los Angeles. Much of the original alignment survives as frontage road and business route; where it doesn't, the interstate runs directly on top of it.",
       "stops": [
         {
           "id": "chicago",
-          "note": "Mile zero: Adams Street at Michigan Avenue. Start with the lake behind you."
+          "note": "Mile zero: Adams Street at Michigan Avenue. The sign faces east so you photograph it with your back to the road you're about to drive."
         },
         {
           "id": "st-louis",
-          "note": "Cross the Mississippi under the Arch — the road's first real landmark."
+          "note": "Cross the Mississippi under the Arch. The old Chain of Rocks Bridge carried 66 over the river on a 22-degree bend mid-span."
+        },
+        {
+          "id": "tulsa",
+          "note": "Route 66 runs through an Art Deco downtown that oil money built. Cain's Ballroom still has the sprung floor Western swing was danced on."
+        },
+        {
+          "id": "oklahoma-city",
+          "note": "The road enters north-east and leaves west. Stockyards City has run the same cattle auction on the same ground since 1910."
+        },
+        {
+          "id": "amarillo",
+          "note": "High plains, uninterrupted horizon, and ten Cadillacs buried nose-down in a field. Bring a spray can — painting them is the point."
         },
         {
           "id": "santa-fe",
-          "note": "The pre-1937 alignment looped up here, and it's still the better drive."
+          "note": "The pre-1937 alignment looped up here before the road was straightened west. Adobe, 2,100 m, and the oldest capital in the US."
+        },
+        {
+          "id": "albuquerque",
+          "note": "Central Avenue is one of the longest surviving urban stretches of 66, neon intact. The two alignments cross each other in town."
+        },
+        {
+          "id": "flagstaff",
+          "note": "Ponderosa pines at 2,100 m. Route 66 and the BNSF main line run side by side downtown and the freight horns go all night."
         },
         {
           "id": "grand-canyon",
-          "note": "A 60-mile detour north from Williams that nobody has ever regretted."
+          "note": "A 60-mile detour north from Williams — and the reason half of Route 66's traffic ever existed."
         },
         {
           "id": "los-angeles",
-          "note": "The road ends at the pier. Eight states, one ocean."
+          "note": "Down out of the Cajon Pass and into the basin. The desert stops abruptly and the city starts."
+        },
+        {
+          "id": "santa-monica-pier",
+          "note": "The end of the line: 3,940 km from Chicago, a Ferris wheel over the Pacific, and a sign that says you're done."
         }
       ]
     },
@@ -104,6 +128,18 @@
         {
           "id": "kazan",
           "note": "800 km in — the Volga, and the first city that doesn't feel European."
+        },
+        {
+          "id": "yekaterinburg",
+          "note": "The Urals, and the point where the train crosses out of Europe. An obelisk west of town marks the line; people stand on both continents and photograph their feet."
+        },
+        {
+          "id": "novosibirsk",
+          "note": "Siberia's biggest city exists because the railway needed to cross the Ob here in 1893. The opera house is larger than the Bolshoi."
+        },
+        {
+          "id": "irkutsk",
+          "note": "The classic stop before the lake. Carved wooden houses sinking slowly at angles, and drawing rooms left behind by exiled Decembrists."
         },
         {
           "id": "lake-baikal",
@@ -509,6 +545,14 @@
           "note": "The ceremonial capital Alexander burned in 330 BC."
         },
         {
+          "id": "bukhara",
+          "note": "More intact than Samarkand and quieter with it — mud-brick lanes, covered bazaars, and a minaret Genghis Khan is said to have spared."
+        },
+        {
+          "id": "samarkand",
+          "note": "Timur's capital and the city the whole road was aimed at. Three madrasas face each other across the Registan in a single blue."
+        },
+        {
           "id": "xi-an",
           "note": "The eastern terminus. The caravans unloaded where the Terracotta Army was buried."
         }
@@ -584,6 +628,43 @@
         {
           "id": "ushuaia",
           "note": "The southernmost city on earth. Boats leave from here for Antarctica."
+        }
+      ]
+    },
+    {
+      "id": "gringo-trail",
+      "name": "The Gringo Trail",
+      "emoji": "🦙",
+      "mode": "bus",
+      "region": "Peru & Bolivia",
+      "days": "3 weeks",
+      "hero": "machu-picchu",
+      "tagline": "Up from the Pacific into the Andes, and across the salt.",
+      "blurb": "The best-worn backpacker route in South America, and worn for good reason. It climbs from the desert coast to Cusco at 3,400 m, spends a few days on Inca stonework, then crosses into Bolivia for La Paz and the salt flat. Altitude runs the whole itinerary — everyone arriving in Cusco loses their first day to it, and the route is built around that.",
+      "stops": [
+        {
+          "id": "aa-paracas-candelabra",
+          "note": "A 180-metre figure cut into a coastal hillside, facing the sea. Nobody agrees who made it or why."
+        },
+        {
+          "id": "cusco",
+          "note": "The Inca capital with a Spanish city built on top of it. Colonial arcades sit on foundations you cannot get a blade into."
+        },
+        {
+          "id": "aa-sacsayhuaman",
+          "note": "The fortress above Cusco, built from stones weighing over 100 tonnes, fitted without mortar and still seismically sound."
+        },
+        {
+          "id": "machu-picchu",
+          "note": "The estate on the ridge — abandoned within a century, never found by the Spanish, and drained well enough to survive 2,000 mm of rain a year for 500 years."
+        },
+        {
+          "id": "la-paz",
+          "note": "Down into a canyon at 3,600 m, where the cable car is public transport and the airport sits 400 m above the city."
+        },
+        {
+          "id": "salar-de-uyuni",
+          "note": "Ten thousand square kilometres of salt. In the wet season a few centimetres of water turn the whole thing into a mirror."
         }
       ]
     }

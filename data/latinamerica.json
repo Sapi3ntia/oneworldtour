@@ -1019,6 +1019,150 @@
           "start": 0
         }
       ]
+    },
+    {
+      "id": "cusco",
+      "name": "Cusco",
+      "country": "Peru",
+      "country_code": "PE",
+      "country_flag": "🇵🇪",
+      "continent": "South America",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏔️",
+      "coordinates": {
+        "lat": -13.53195,
+        "lng": -71.96746
+      },
+      "street_view": {
+        "lat": -13.53195,
+        "lng": -71.96746,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Cusco",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Plaza de Armas",
+          "wikipedia_slug": "Plaza_de_Armas,_Cusco"
+        },
+        {
+          "name": "Qorikancha",
+          "wikipedia_slug": "Qorikancha"
+        },
+        {
+          "name": "Sacsayhuamán",
+          "wikipedia_slug": "Sacsayhuamán"
+        },
+        {
+          "name": "San Blas",
+          "wikipedia_slug": "San_Blas,_Cusco"
+        },
+        {
+          "name": "San Pedro Market",
+          "wikipedia_slug": "Cusco"
+        }
+      ],
+      "blurb": "The Inca capital, rebuilt by the Spanish on top of itself — colonial arcades sit directly on Inca foundations so precise you cannot slide a blade between the stones. At 3,400 m the air is thin enough that most visitors spend their first day doing very little, which the city is well set up for.",
+      "fun_fact": "The Spanish built the Santo Domingo convent on top of Qorikancha, the Inca sun temple. Earthquakes in 1650 and 1950 badly damaged the convent; the Inca walls beneath it did not move.",
+      "hidden_gem_tip": "Walk uphill to San Blas early — the artisan quarter's lanes are empty before the tour groups, and the viewpoint over the red roofs is free.",
+      "monuments": [
+        {
+          "name": "Plaza de Armas",
+          "yt": "mFJfkyZ9-5c",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Qorikancha",
+          "yt": "uhKFqI-V6lg",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Sacsayhuamán",
+          "yt": "W1gLNMmpOPQ",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
+    },
+    {
+      "id": "machu-picchu",
+      "name": "Machu Picchu",
+      "country": "Peru",
+      "country_code": "PE",
+      "country_flag": "🇵🇪",
+      "continent": "South America",
+      "region": "",
+      "type": "ruin",
+      "tag": "famous",
+      "emoji": "🏛️",
+      "coordinates": {
+        "lat": -13.16305,
+        "lng": -72.545
+      },
+      "street_view": {
+        "lat": -13.16305,
+        "lng": -72.545,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Machu_Picchu",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Intihuatana",
+          "wikipedia_slug": "Intihuatana"
+        },
+        {
+          "name": "Temple of the Sun",
+          "wikipedia_slug": "Machu_Picchu"
+        },
+        {
+          "name": "Huayna Picchu",
+          "wikipedia_slug": "Huayna_Picchu"
+        },
+        {
+          "name": "Inca Trail",
+          "wikipedia_slug": "Inca_Trail_to_Machu_Picchu"
+        },
+        {
+          "name": "Sun Gate",
+          "wikipedia_slug": "Machu_Picchu"
+        }
+      ],
+      "blurb": "A 15th-century Inca estate on a ridge between two peaks, abandoned within a century of being built and never found by the Spanish. The terraces are structural as much as agricultural — layers of rock and gravel beneath them drain the 2,000 mm of annual rain that would otherwise wash the whole site off the mountain.",
+      "fun_fact": "Hiram Bingham reached the site in 1911 and called it lost, but three local farming families were living there and a boy walked him up. Their names are in his own field notes.",
+      "hidden_gem_tip": "The Sun Gate at first light beats the crowds and the cloud. If you haven't got an Inca Trail permit, the Huayna Picchu ticket is the other way to look down on the ruins instead of across them.",
+      "monuments": [
+        {
+          "name": "Intihuatana",
+          "yt": "ruRjdLSj5f8",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Temple of the Sun",
+          "yt": "xWYzPS7bZds",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Huayna Picchu",
+          "yt": "i6RoZOGY-SA",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     }
   ]
 }
