@@ -32,8 +32,10 @@ The architecture itself is documented in [`README.md`](README.md).
 - **Review auto-picks.** `media.json` quality is good but not curated-good; promote
   great finds into the region JSON (`walk`/`webcam`/`window`) and they become
   permanent.
-- **More monuments** — only 25 cities have them. Author 1–3 for marquee cities
-  (Sydney → Opera House, Dubai → Burj Khalifa, Cape Town → Table Mountain…).
+- **More monuments** — 30 cities have them (2026-07-17 batch added NYC, Sydney
+  Opera House, the Kremlin, Trevi, SF ×3, Rio ×3, Santorini, Gateway Arch; cap
+  is now 5/city). Next marquee candidates: Dubai → Burj Khalifa, Cape Town →
+  Table Mountain, Istanbul → Hagia Sophia, Athens → Acropolis.
 - **Author `highlights`/`blurb`** for content-thin new countries.
 
 ### Product ideas (additive)

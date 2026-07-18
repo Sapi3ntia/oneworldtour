@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-17T14:57:28+00:00",
+ "generated": "2026-07-18T00:05:53+00:00",
  "places": {
   "fez": {
    "walk": {
@@ -8,6 +8,13 @@
     "channel": "Walk and Camera",
     "date": "20250328",
     "duration": 9780
+   },
+   "drive": {
+    "yt": "tVI4_HK3c1A",
+    "title": "Driving Through The City of Fes in Morocco 🇲🇦",
+    "channel": "Walking Tours",
+    "date": "20230112",
+    "duration": 1595
    }
   },
   "sahara-at-merzouga": {
@@ -17,6 +24,13 @@
     "channel": "Walker Prints",
     "date": "20250601",
     "duration": 1031
+   },
+   "drive": {
+    "yt": "_Ji4QEJhhIM",
+    "title": "[4K] Driving in the Sahara Desert - Todgha Gorge to Merzouga (MA)",
+    "channel": "Scaranta",
+    "date": "20221212",
+    "duration": 11082
    }
   },
   "casablanca": {
@@ -26,6 +40,13 @@
     "channel": "The Roving Balys",
     "date": "20240804",
     "duration": 1269
+   },
+   "drive": {
+    "yt": "g_O4JwQb6XY",
+    "title": "Casablanca Morocco Driving Tour 2026 🇲🇦 | Explore the Largest City in Morocco in 4K",
+    "channel": "Issam Traveller",
+    "date": "20260609",
+    "duration": 3001
    }
   },
   "giza-pyramids": {
@@ -40,6 +61,13 @@
     "yt": "t8dZeRGZgV4",
     "title": "🔴 Could the Pyramids Be Older Than Egypt Itself? | Ancient History Live 24/7 2026-07-10 07:51",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "-SBL49z4yJk",
+    "title": "Driving around Cairo and Giza in Egypt[4K]",
+    "channel": "GoldenBoy",
+    "date": "20200222",
+    "duration": 2145
    }
   },
   "luxor": {
@@ -49,6 +77,13 @@
     "channel": "LADmob",
     "date": "20240401",
     "duration": 4338
+   },
+   "drive": {
+    "yt": "pkN56w6T36c",
+    "title": "[4K] Scenic Self Drive from Luxor to Aswan - Egypt DIY Road Trip 🇪🇬",
+    "channel": "Malay Singapore Sarawak Adventures",
+    "date": "20250429",
+    "duration": 780
    }
   },
   "maasai-mara": {
@@ -61,6 +96,13 @@
     "yt": "xXZqU5vnEug",
     "title": "LIVE Safari Webcam | Maasai Mara, Kenya | African Wildlife at Mara Bushtops 2026-07-09 19:27",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "pLxror-g3aA",
+    "title": "Maasai Mara 4k Game Drive 2025, Kenya 🇰🇪",
+    "channel": "Blazey Afrika",
+    "date": "20250202",
+    "duration": 2065
    }
   },
   "banjul": {
@@ -70,6 +112,13 @@
     "channel": "Kenny Walker",
     "date": "20240908",
     "duration": 3736
+   },
+   "drive": {
+    "yt": "UQbLlqhqe4c",
+    "title": "【4K】15 MINUTES | Driving The Gambia (West Africa) | 2020 | Banjul | Serekunda | UltraHD Video",
+    "channel": "One Man Wolf Pack",
+    "date": "20200522",
+    "duration": 872
    }
   },
   "cape-town": {
@@ -82,6 +131,13 @@
     "yt": "jOqASqt3vVI",
     "title": "Table Mountain Live Stream | Cape Town Webcam | South Africa 2026-07-10 07:57",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "5bdCk5AQ9Kw",
+    "title": "Driving Downtown - Cape Town 4K - South Africa Sunset",
+    "channel": "J Utah",
+    "date": "20220219",
+    "duration": 3078
    }
   },
   "table-mountain": {
@@ -101,6 +157,13 @@
     "yt": "vOLCjL4kv-w",
     "title": "LIVE Table Mountain & Bloubergstrand Beach Camera | 24/7 Cape Town South Africa Live Stream 2026-07-09 19:28",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "cBWxZ-4sZpY",
+    "title": "Real Time Driving Through Cape Town City to Table Mountain | 4K 60FPS | EP7",
+    "channel": "WASIM WORLD",
+    "date": "20260221",
+    "duration": 1763
    }
   },
   "kruger-national-park": {
@@ -120,6 +183,13 @@
     "channel": "Sense of Equilibrium",
     "date": "20230208",
     "duration": 1998
+   },
+   "drive": {
+    "yt": "fNAmvunbBa0",
+    "title": "Kruger, South Africa | Malelane Gate [SCENIC DRIVE]",
+    "channel": "Drives Around The World",
+    "date": "20230916",
+    "duration": 4415
    }
   },
   "aa-cholula": {
@@ -138,6 +208,13 @@
     "channel": "Cem on the go",
     "date": "20220330",
     "duration": 1002
+   },
+   "drive": {
+    "yt": "2d-3ud7t_mw",
+    "title": "Turkey solo driving tour (4) Mount Nemrut to Göbeklitepe (190km)",
+    "channel": "Traveller ABC",
+    "date": "20230110",
+    "duration": 1290
    }
   },
   "aa-serpent-mound": {
@@ -174,6 +251,13 @@
     "channel": "Middle Age Adventure Walks",
     "date": "20260317",
     "duration": 1371
+   },
+   "drive": {
+    "yt": "HGrN0WDChw4",
+    "title": "DRIVING in PALENQUE, State of Chiapas, MEXICO I 4K 60fps",
+    "channel": "Just Driving 4K",
+    "date": "20240407",
+    "duration": 3458
    }
   },
   "aa-chichen-itza": {
@@ -183,6 +267,13 @@
     "channel": "Walk HD",
     "date": "20230304",
     "duration": 660
+   },
+   "drive": {
+    "yt": "0vNLvuG2Ra8",
+    "title": "Driving Through Piste, Yucatan [4K] | Chichen Itza | Mexico",
+    "channel": "Road Trip Insights",
+    "date": "20210107",
+    "duration": 635
    }
   },
   "tokyo": {
@@ -190,6 +281,13 @@
     "yt": "_k-5U7IeK8g",
     "title": "Tokyo Live Camera 東京ライブカメラ 勉強・作業・集中・リラックス with Lofi and soft jazz BGM 2026-07-09 19:29",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "YvIQYDeJfdw",
+    "title": "The Big Mikan Driving Tour 4K - Tokyo Japan City Drive",
+    "channel": "The Travel Docket",
+    "date": "20251126",
+    "duration": 3613
    }
   },
   "kyoto": {
@@ -202,6 +300,13 @@
     "yt": "S6IkZhhwG4A",
     "title": "【LIVE】京都  哲学の道ライブカメラ（京都市観光協会公式）／The Philosopher’s Path, Kyoto Live camera 2026-07-09 19:29",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "u7wxZKSbTZs",
+    "title": "4K Kyoto Sightseeing Drive Gojo Bypass to Central Kyoto [Remake] / 京都ドライブ",
+    "channel": "Dashcam Roadshow",
+    "date": "20220306",
+    "duration": 2671
    }
   },
   "osaka": {
@@ -214,6 +319,13 @@
     "yt": "yn_R-24L3lI",
     "title": "【LIVE 4K】Osaka Live Camera 大阪ライブカメラ Osaka, JAPAN | Live Camera Stream 2026-07-09 19:30",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "Uul7D06LcsM",
+    "title": "DRIVING from KANSAI AIRPORT to OSAKA DOWNTOWN, JAPAN 4K",
+    "channel": "Just Driving 4K",
+    "date": "20260130",
+    "duration": 4403
    }
   },
   "mount-fuji": {
@@ -233,6 +345,13 @@
     "yt": "_qdu714QT1E",
     "title": "【富士山ライブカメラ】Mt.FUJI Live Camera 2026-07-09 19:30",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "TUgfiNg06GQ",
+    "title": "Central Tokyo to Mt. Fuji | Japan Scenic Drive 4K",
+    "channel": "Dashcam Roadshow",
+    "date": "20240302",
+    "duration": 7074
    }
   },
   "hiroshima": {
@@ -252,6 +371,13 @@
     "yt": "oW2Gb8YoGAg",
     "title": "【LIVE】いまの広島本通交差点／Hiroshima City, Japan. The 2023 G7 Summit was held. 2026-07-09 19:30",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "qW-q3ueAlZg",
+    "title": "Hiroshima Drive 4K | Kure to Central Hiroshima, Japan",
+    "channel": "Dashcam Roadshow",
+    "date": "20250830",
+    "duration": 3284
    }
   },
   "great-wall-at-badaling": {
@@ -261,6 +387,13 @@
     "channel": "Ambient Explorers",
     "date": "20250107",
     "duration": 5096
+   },
+   "drive": {
+    "yt": "AFbf617DGTo",
+    "title": "Highway Through the Great Wall Mountains | Beijing Drive | 4K POV",
+    "channel": "China Roads",
+    "date": "20260225",
+    "duration": 1131
    }
   },
   "xi-an": {
@@ -270,6 +403,13 @@
     "channel": "Urban Aboveground",
     "date": "20201012",
     "duration": 923
+   },
+   "drive": {
+    "yt": "XD88Y01H0RQ",
+    "title": "Driving in Xi'an - a 'world historic city' with a population of 13 million - 4K",
+    "channel": "China Street View",
+    "date": "20220819",
+    "duration": 8940
    }
   },
   "guilin": {
@@ -279,6 +419,13 @@
     "channel": "Walking China",
     "date": "20250226",
     "duration": 1991
+   },
+   "drive": {
+    "yt": "cOr0CL9ysqo",
+    "title": "4K China Street View-Guilin Driving Tour-One of the most beautiful tourist cities in China",
+    "channel": "China Street View",
+    "date": "20230103",
+    "duration": 4196
    }
   },
   "hong-kong": {
@@ -291,6 +438,13 @@
     "yt": "zWL7rq0QvJI",
     "title": "香港維多利亞港東面直播 Live cam of Victoria Harbour – Eastern Side in Hong Kong 2026-07-09 19:30",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "arbVnYJfZLU",
+    "title": "Hong Kong 4K - Skyscraper City - Driving Downtown",
+    "channel": "J Utah",
+    "date": "20251022",
+    "duration": 3958
    }
   },
   "taj-mahal-agra": {
@@ -300,6 +454,13 @@
     "channel": "4K Walkthrough",
     "date": "20220331",
     "duration": 1800
+   },
+   "drive": {
+    "yt": "IKOyOklLCyE",
+    "title": "Lucknow Agra Expressway EP 1| Taj mahal Agra roadtrip | Road trip | 2022 | 4k",
+    "channel": "90sec",
+    "date": "20220219",
+    "duration": 989
    }
   },
   "jaipur": {
@@ -314,6 +475,13 @@
     "yt": "3-8aaN2KY90",
     "title": "🔥 BGMI LIVE | BMPS JAIPUR HYPE 💥TEAM APEX GAMING ❤️| CONQUEROR PUSH #bgmishorts #shortsfeed #live 2026-07-10 07:53",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "1_MlMU7hEuo",
+    "title": "Jaipur City 4K Drive Tour | Golden Evening | Amazing Drive Tour - All In City",
+    "channel": "All In City 🇮🇳",
+    "date": "20260329",
+    "duration": 816
    }
   },
   "varanasi": {
@@ -323,6 +491,11 @@
     "channel": "Walk In Progress 4K",
     "date": "20250419",
     "duration": 4368
+   },
+   "live": {
+    "yt": "jxD3YrybT00",
+    "title": "🔴Live Darshan From Shree Kashi Vishwanath Temple Varanasi ( श्री काशी विश्वनाथ मंदिर से लाइव दर्शन ) 2026-07-17 19:50",
+    "verified": "2026-07-17"
    }
   },
   "seoul": {
@@ -335,6 +508,13 @@
     "yt": "RVvYQghFCXk",
     "title": "[4K] 실시간 서울 한강 라이브캠 - 반포대교 (since 2020) Seoul Korea Live Cam Jazz radio 2026-07-10 08:49",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "KGAIumGxQeY",
+    "title": "Seoul 4K - Driving Downtown - Skyscraper Sunset",
+    "channel": "J Utah",
+    "date": "20230120",
+    "duration": 2860
    }
   },
   "busan": {
@@ -354,6 +534,13 @@
     "yt": "jmVmZlsQIL8",
     "title": "부산 광안대교  (4K LIVE CAM) 釜山 廣安大橋 Gwangandaegyo ライブカメラ Busan Diamond Bridge 광안리 廣安里海水浴場 Gwangalli Beach 2026-07-09 19:31",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "qSipJHk0GWU",
+    "title": "Driving in Korea : Seomyeon~Busan Stn.~Nampo-dong, Busan (With relaxing Music) | 4K",
+    "channel": "Jack Trip",
+    "date": "20220921",
+    "duration": 2481
    }
   },
   "jeju-island": {
@@ -368,6 +555,13 @@
     "yt": "NCzm0l_ZqzU",
     "title": "펀제주 제주도 서귀포 성산읍 지금 날씨 실시간 제주 오늘 라이브 캠,   Jeju Island in South Korea Live CCTV Cam Sungsanilchulbong 2026-07-09 19:38",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "ndSm8nRQfxo",
+    "title": "Jeju Island Drive",
+    "channel": "KOREA 4K ",
+    "date": "20230809",
+    "duration": 4956
    }
   },
   "bangkok": {
@@ -380,6 +574,13 @@
     "yt": "Q71sLS8h9a4",
     "title": "🔴 El Gaucho | Soi 19 | Sukhumvit Road | Bangkok | Thailand | Live Street Webcam | 2160p 4K 2026-07-09 19:31",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "ZhtMY7YLgag",
+    "title": "Driving Around Bangkok | Thailand Driving Tour 2026 [4K HDR]",
+    "channel": "Wanderlust Walks",
+    "date": "20260107",
+    "duration": 3042
    }
   },
   "chiang-mai": {
@@ -389,6 +590,13 @@
     "channel": "REAL THAILAND 4K",
     "date": "20250103",
     "duration": 5081
+   },
+   "drive": {
+    "yt": "1WGgvG73gaI",
+    "title": "Driving 4K 🇹🇭 through Chiang Mai - Thailand 2022",
+    "channel": "EXPLORE THAILAND 4K",
+    "date": "20221215",
+    "duration": 1010
    }
   },
   "phuket": {
@@ -408,6 +616,13 @@
     "yt": "_nvG0c9keWI",
     "title": "Sainamyen Road, Patong, Phuket, Thailand | Nida Massage | Live Camera Stream 2026-07-09 19:32",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "mZHQAkkYkaU",
+    "title": "Driving Phuket Thailand 2025 in 4K 🇹🇭 | Top 5 Beaches (Patong, Karon, Kamala, Surin, Bangtao)",
+    "channel": "EXPLORE THAILAND 4K",
+    "date": "20250905",
+    "duration": 4187
    }
   },
   "george-town-penang": {
@@ -422,6 +637,13 @@
     "yt": "byVTbSiz4Og",
     "title": "LIVE Penang webcam weather Georgetown, Penang Malaysia 马来西亚 - 槟城 - 乔治市 Gurney Drive-Komtar-Jelutong 2026-07-09 19:32",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "bMNWvJqYv14",
+    "title": "🇲🇾 Penang Driving Tour Malaysia in 4K video. Explore from George Town to Jelutong",
+    "channel": "Edu Thomas",
+    "date": "20250202",
+    "duration": 4877
    }
   },
   "singapore": {
@@ -434,6 +656,13 @@
     "yt": "NB38EAiOLXM",
     "title": "Singapore CBD Live Stream 4K Webcam 2026-07-09 19:32",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "quZlt3j5Nwk",
+    "title": "Singapore Scenic Drive 4K - Beverly Hills Rainforest",
+    "channel": "J Utah",
+    "date": "20251014",
+    "duration": 3511
    }
   },
   "gardens-by-the-bay": {
@@ -443,6 +672,13 @@
     "channel": "HP Walking Tours",
     "date": "20250325",
     "duration": 10873
+   },
+   "drive": {
+    "yt": "STvNJF-xeTk",
+    "title": "Gardens By The Bay Singapore - Driving Tour (HD)",
+    "channel": "PetCin88",
+    "date": "20211004",
+    "duration": 1510
    }
   },
   "cebu-city": {
@@ -462,6 +698,13 @@
     "yt": "CmtuOVxcKRo",
     "title": "Maria's Store Cam6, Agdao Davao City, Philippines  #philippines #davaocity 2026-07-09 19:32",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "w_3ESrIDIsE",
+    "title": "Cebu City Driving Tour | Mactan, Mandaue, Cebu City | Passing CCLEX Bridge | 4K HDR | Philippines",
+    "channel": "Tour From Home TV",
+    "date": "20220403",
+    "duration": 3810
    }
   },
   "el-nido-palawan": {
@@ -471,6 +714,13 @@
     "channel": "Cinematic Walking Tours",
     "date": "20260214",
     "duration": 1955
+   },
+   "drive": {
+    "yt": "Kpzh1IJVJ-A",
+    "title": "El Nido Road Trip | Palawan | Philippines 🇵🇭 | 4K",
+    "channel": "Peripatetic Explorers",
+    "date": "20260130",
+    "duration": 1944
    }
   },
   "hanoi": {
@@ -483,6 +733,13 @@
     "yt": "g952T7L_fAs",
     "title": "Hanoi Live Camera 24/7 | Vinh Tuy Bridge Traffic | Hanoi Skyline Night View 2026-07-09 19:32",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "CYk9KQenuiI",
+    "title": "Hanoi Vietnam Driving Tour 4K 🇻🇳 | Real Street View & City Traffic 2026",
+    "channel": "Drive Vietnam 4K",
+    "date": "20260708",
+    "duration": 793
    }
   },
   "ho-chi-minh-city": {
@@ -492,6 +749,13 @@
     "channel": "Fun Walk Tours",
     "date": "20250314",
     "duration": 1107
+   },
+   "drive": {
+    "yt": "QVjBNbbvAQQ",
+    "title": "Vietnam Driving Tour 4K | Lonely Night Drive Around Sai Gon, Ho Chi Minh City",
+    "channel": "DVK Journey",
+    "date": "20260717",
+    "duration": 1860
    }
   },
   "chefchaouen": {
@@ -501,6 +765,13 @@
     "channel": "Walk and Camera",
     "date": "20241019",
     "duration": 7807
+   },
+   "drive": {
+    "yt": "6HZB1YXoeV4",
+    "title": "4k Drive through the “Blue City” of Chefchaouen, Morocco",
+    "channel": "Virtual Outdoor Exploring",
+    "date": "20250911",
+    "duration": 1193
    }
   },
   "aswan": {
@@ -510,6 +781,13 @@
     "channel": "World Walker",
     "date": "20251230",
     "duration": 1001
+   },
+   "drive": {
+    "yt": "pkN56w6T36c",
+    "title": "[4K] Scenic Self Drive from Luxor to Aswan - Egypt DIY Road Trip 🇪🇬",
+    "channel": "Malay Singapore Sarawak Adventures",
+    "date": "20250429",
+    "duration": 780
    }
   },
   "mombasa": {
@@ -519,6 +797,13 @@
     "channel": "Anthony Walks",
     "date": "20250909",
     "duration": 3813
+   },
+   "drive": {
+    "yt": "L1MQbNYYez4",
+    "title": "Driving Inside Mombasa's Most Exclusive Neighborhood, Nyali 🇰🇪 : Relaxing Sunday Morning Drive |4k!",
+    "channel": "Roadview",
+    "date": "20260112",
+    "duration": 1554
    }
   },
   "goree-island": {
@@ -537,6 +822,13 @@
     "channel": "Abyssinia Walk and Drive",
     "date": "20260117",
     "duration": 2080
+   },
+   "drive": {
+    "yt": "nqzPeW2q3yA",
+    "title": "Gondar city ,Ethiopia Driving Downtown 2022",
+    "channel": "Abyssinia Walk and Drive",
+    "date": "20221025",
+    "duration": 2111
    }
   },
   "aa-poverty-point": {
@@ -569,6 +861,13 @@
     "yt": "upjKxphaVjc",
     "title": "【4K live】奈良 星空カメラ　天の川・火球見えるかな？　宇陀市 ／ Starry night over Nara,Japan / livecam 2026-07-10 07:53",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "kAptWlsg3Ys",
+    "title": "4K Nara City Drive | Omiya-dori Ave. to City Center [Revised]/ 奈良市ドライブ大宮通→中心市街",
+    "channel": "Dashcam Roadshow",
+    "date": "20220212",
+    "duration": 1859
    }
   },
   "kerala-backwaters": {
@@ -578,6 +877,13 @@
     "channel": "The Indian Ambience",
     "date": "20201006",
     "duration": 3367
+   },
+   "drive": {
+    "yt": "saN_FQQcsKE",
+    "title": "SCENIC DRIVE KERALA | INDIA | CHANGANASSERY - ALAPPUZHA | A C ROAD | BEAUTIFUL BACKWATER ROUTE | 4K",
+    "channel": "Road Tour Vision",
+    "date": "20260704",
+    "duration": 3038
    }
   },
   "gyeongju": {
@@ -587,6 +893,13 @@
     "channel": "Walking Expedition",
     "date": "20251018",
     "duration": 4340
+   },
+   "drive": {
+    "yt": "--YFnCUS1Sc",
+    "title": "드라이브 🚗 부산에서 경주 [4K] Driving Korea  | Busan to Gyeongju,  #KWTT",
+    "channel": "Korea Walking Tours TV (KWTT)",
+    "date": "20260214",
+    "duration": 5848
    }
   },
   "ayutthaya": {
@@ -596,6 +909,13 @@
     "channel": "World Wanderings: 4K Walking Tours",
     "date": "20260331",
     "duration": 3621
+   },
+   "drive": {
+    "yt": "EgZLM4mKvbg",
+    "title": "Driving 4K 🇹🇭 downtown Ayutthaya province in Thailand",
+    "channel": "EXPLORE THAILAND 4K",
+    "date": "20230403",
+    "duration": 994
    }
   },
   "malacca-city": {
@@ -605,6 +925,13 @@
     "channel": "THE LEMON",
     "date": "20220714",
     "duration": 2683
+   },
+   "drive": {
+    "yt": "IEj_AiRyCY4",
+    "title": "MALACCA CITY 4K 60FPS - DRIVING AROUND THE CITY",
+    "channel": "Money. Meaning. Modern Life.",
+    "date": "20220302",
+    "duration": 2034
    }
   },
   "kota-kinabalu": {
@@ -614,6 +941,13 @@
     "channel": "WalkBytes",
     "date": "20220505",
     "duration": 1724
+   },
+   "drive": {
+    "yt": "sivizHbSLNk",
+    "title": "Kota Kinabalu  4K Driving Tour/Sabah Road Trip/ Ronda2 Kota Kinabalu",
+    "channel": "BERAYAN JOHN",
+    "date": "20250315",
+    "duration": 854
    }
   },
   "sentosa": {
@@ -623,6 +957,13 @@
     "channel": "Discover Me",
     "date": "20221021",
     "duration": 2771
+   },
+   "drive": {
+    "yt": "8m8sD6MvP-E",
+    "title": "【4K】 Singapore Sentosa Island: Ride & Tour #singapore #sentosa #driving #tour #thingstodoinsingapore",
+    "channel": "Travel Diaries Unlimited",
+    "date": "20220720",
+    "duration": 1311
    }
   },
   "banaue-rice-terraces": {
@@ -632,6 +973,13 @@
     "channel": "Napoleon GARDENING AdvenTOUR TV",
     "date": "20220810",
     "duration": 944
+   },
+   "drive": {
+    "yt": "EPmztMuXlyA",
+    "title": "4K - Philippines - Banaue - Driving - 1",
+    "channel": "Rojyar Ghavami",
+    "date": "20240104",
+    "duration": 693
    }
   },
   "ha-long-bay": {
@@ -641,6 +989,13 @@
     "channel": "M-Y-D-C-T",
     "date": "20260226",
     "duration": 5311
+   },
+   "drive": {
+    "yt": "yDrl4QWlZ48",
+    "title": "Witness Vietnam's Magical Beauty: Driving Through Ha Long",
+    "channel": "Ha Long Today",
+    "date": "20230211",
+    "duration": 978
    }
   },
   "hoi-an": {
@@ -650,6 +1005,13 @@
     "channel": "World Wanderings: 4K Walking Tours",
     "date": "20240623",
     "duration": 3722
+   },
+   "drive": {
+    "yt": "kk9Pmd1Q-2M",
+    "title": "Hoi An Driving Tour | Bay Mau Coconut Forest to Hoi An Ancient Town | Vietnam 4K",
+    "channel": "Da Nang Driving 4K",
+    "date": "20260316",
+    "duration": 4386
    }
   },
   "angkor-wat": {
@@ -659,6 +1021,13 @@
     "channel": "WorldTraveler 4K",
     "date": "20230512",
     "duration": 3829
+   },
+   "drive": {
+    "yt": "x0VQZmYgfT0",
+    "title": "ANGKOR WAT Temple Area Drive - 4K ASMR in CAMBODIA",
+    "channel": "Supercharged Magazine",
+    "date": "20220709",
+    "duration": 2073
    }
   },
   "phnom-penh": {
@@ -668,6 +1037,13 @@
     "channel": "4K Walking Videos by Explorertom",
     "date": "20260701",
     "duration": 3671
+   },
+   "drive": {
+    "yt": "YP6UN587EQs",
+    "title": "Phnom Penh 4K - Driving Downtown - Cambodia Road Trip",
+    "channel": "Mr Walker ",
+    "date": "20251031",
+    "duration": 1330
    }
   },
   "siem-reap": {
@@ -677,6 +1053,13 @@
     "channel": "WalkingLens",
     "date": "20251213",
     "duration": 4486
+   },
+   "drive": {
+    "yt": "cZDeBrpuTmQ",
+    "title": "Driving Tours Siem Reap Cambodia June 23, 2023 #4k #streetview",
+    "channel": "Driving Tours",
+    "date": "20230623",
+    "duration": 1269
    }
   },
   "luang-prabang": {
@@ -686,6 +1069,13 @@
     "channel": "HP Walking Tours",
     "date": "20260127",
     "duration": 4313
+   },
+   "drive": {
+    "yt": "_uP2TE4pqdU",
+    "title": "Driving in Luang Prabang (February 2022)",
+    "channel": "LAOS TOUR ທ່ຽວທົ່ວລາວ",
+    "date": "20220224",
+    "duration": 710
    }
   },
   "vientiane": {
@@ -695,6 +1085,13 @@
     "channel": "BLA BLA WALKER 🐧 Tokyo Walking Tour",
     "date": "20250221",
     "duration": 7777
+   },
+   "drive": {
+    "yt": "EFxlRy2noEk",
+    "title": "Vientiane 4k, Driving around the university of Laos",
+    "channel": "GoLaos",
+    "date": "20210225",
+    "duration": 1630
    }
   },
   "taipei": {
@@ -707,6 +1104,13 @@
     "yt": "uvwfYzwY8tg",
     "title": "【Taipei Live Cam】碧山巖 - 4K即時影像 | Bishan Temple | 碧山巌開漳聖王廟 | TAIPEI 101 2026-07-09 19:40",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "bwINFTM44mk",
+    "title": "【4K】A morning drive in downtown Taipei City (台北市), Taiwan (台灣)",
+    "channel": "on the road in TW",
+    "date": "20230227",
+    "duration": 1077
    }
   },
   "tainan": {
@@ -726,6 +1130,13 @@
     "yt": "P0CYZnOGxHU",
     "title": "Ⓓ-01🔴 Live-台南市 重要路口 即時影像 台南市專屬 🎧 終極應援歌曲已上線 💥禿鷹Music 獨播 24H Tainan, Taiwan 》 24/7, 365 天氣、車流人流 🅣ⓉⓃ48 2026-07-09 19:40",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "WhUj8_ZVUSE",
+    "title": "Taiwan | Tainan 4K - Driving #driving #taiwan #tainan",
+    "channel": "Uncle Walker",
+    "date": "20250404",
+    "duration": 1911
    }
   },
   "ulaanbaatar": {
@@ -735,6 +1146,13 @@
     "channel": "ラクダカメラ(Rakuda camera )",
     "date": "20230629",
     "duration": 4768
+   },
+   "drive": {
+    "yt": "bltWzSrv6uo",
+    "title": "Mongolia summer Ulaanbaatar captial - Driving tour - 4K (Downtown edited cut)",
+    "channel": "MONGOL KHUN",
+    "date": "20230617",
+    "duration": 2292
    }
   },
   "gobi-desert": {
@@ -744,6 +1162,13 @@
     "channel": "TenGer TV",
     "date": "20220809",
     "duration": 1655
+   },
+   "drive": {
+    "yt": "GMy5bnCHAOI",
+    "title": "Driving Tours from Zhongwei to Tengger Desert | Inner Mongolia 4K",
+    "channel": "RoadTrip | China",
+    "date": "20250909",
+    "duration": 2131
    }
   },
   "colombo": {
@@ -753,6 +1178,13 @@
     "channel": "EchoSteps",
     "date": "20251114",
     "duration": 5864
+   },
+   "drive": {
+    "yt": "bP8vFcvUOmw",
+    "title": "4K | First time in Colombo, Sri Lanka - Driving Tour",
+    "channel": "footpath walker",
+    "date": "20231107",
+    "duration": 1870
    }
   },
   "kandy": {
@@ -762,6 +1194,13 @@
     "channel": "Street Walker",
     "date": "20251115",
     "duration": 1297
+   },
+   "drive": {
+    "yt": "aDuFRQkhNRE",
+    "title": "Kandy | Sri Lanka | Drive thru 2023 | 4k | NEW",
+    "channel": "Date On Way",
+    "date": "20230730",
+    "duration": 2866
    }
   },
   "sigiriya": {
@@ -771,6 +1210,13 @@
     "channel": "EchoSteps",
     "date": "20250922",
     "duration": 4983
+   },
+   "drive": {
+    "yt": "00jjGTGFw88",
+    "title": "Sri Lanka Road Trip in 4K | Trincomalee to Sigiriya - Sri Lanka Scenic Drive (Dash Cam 4K)",
+    "channel": "GlobeTrek Diaries",
+    "date": "20250509",
+    "duration": 10687
    }
   },
   "jerusalem": {
@@ -790,6 +1236,13 @@
     "yt": "fTaKsyMuP_M",
     "title": "Pray Live: Jerusalem Views. A Biblical Journey. 2026-07-09 19:41",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "fRugziNY_lc",
+    "title": "Jerusalem 4K Drive • Israel's Eternal Capital 2025 🇮🇱",
+    "channel": "My Little Israel",
+    "date": "20250922",
+    "duration": 3711
    }
   },
   "tel-aviv": {
@@ -799,6 +1252,13 @@
     "channel": "SABABA virtual walker",
     "date": "20260709",
     "duration": 3011
+   },
+   "drive": {
+    "yt": "M3FIm2nLZ6A",
+    "title": "Tel Aviv to the Sea of Galilee | Driving in Israel 🇮🇱 (4K)",
+    "channel": "My Little Israel",
+    "date": "20260306",
+    "duration": 7066
    }
   },
   "masada": {
@@ -808,6 +1268,13 @@
     "channel": "Walking Around Israel",
     "date": "20250716",
     "duration": 3601
+   },
+   "drive": {
+    "yt": "bLs4873-Tgc",
+    "title": "Israel 🇮🇱 Drive Misgav Am - Masada #israel #galilee #golan",
+    "channel": "IL Magic Travel",
+    "date": "20230406",
+    "duration": 2424
    }
   },
   "abu-dhabi": {
@@ -817,6 +1284,13 @@
     "channel": "4K City Walk",
     "date": "20231202",
     "duration": 1274
+   },
+   "drive": {
+    "yt": "oKxCM_V5lsY",
+    "title": "Abu Dhabi 4K - Driving Tour in 2024",
+    "channel": "World Driving Tours",
+    "date": "20240225",
+    "duration": 6110
    }
   },
   "riyadh": {
@@ -826,6 +1300,13 @@
     "channel": "Walking OZ",
     "date": "20260109",
     "duration": 3431
+   },
+   "drive": {
+    "yt": "ftd-APKm2Xo",
+    "title": "Riyadh City Drive | 4K Video | 60 FPS | Olaya - King  Fahd - Al Thumama | KSA",
+    "channel": "Expat Travel Journey",
+    "date": "20260122",
+    "duration": 738
    }
   },
   "jeddah": {
@@ -835,6 +1316,13 @@
     "channel": "Wonderland Walking Tours",
     "date": "20250611",
     "duration": 3861
+   },
+   "drive": {
+    "yt": "4kl2kpfQ5R8",
+    "title": "JEDDAH, Saudi Arabia 🇸🇦 Late Night Streets | 4K Driving ASMR Tour (4K)",
+    "channel": "The Arab Wanderer ",
+    "date": "20260409",
+    "duration": 3818
    }
   },
   "hegra-alula": {
@@ -844,6 +1332,13 @@
     "channel": "SAFAR Walks",
     "date": "20260519",
     "duration": 1602
+   },
+   "drive": {
+    "yt": "zkehgINC3RM",
+    "title": "AlUla: The Ultimate Saudi Arabian Road Trip",
+    "channel": "4K Travel Adventures",
+    "date": "20260522",
+    "duration": 1248
    }
   },
   "doha": {
@@ -853,6 +1348,13 @@
     "channel": "Atmos Walks",
     "date": "20240226",
     "duration": 4292
+   },
+   "drive": {
+    "yt": "WvtSPOp_zU4",
+    "title": "Doha, Qatar Driving Tour : Explore the City’s Top Attractions [4K]",
+    "channel": "Trillionex Travel",
+    "date": "20241206",
+    "duration": 2907
    }
   },
   "petra": {
@@ -862,6 +1364,13 @@
     "channel": "Virtual City Walking Tours",
     "date": "20230820",
     "duration": 1666
+   },
+   "drive": {
+    "yt": "j98xQlvd_vQ",
+    "title": "Petra Drive in Jordan, Amman to Petra, in 4K Time-Lapse Includes Drive and Hike Through the Canyon",
+    "channel": "VidBitClip",
+    "date": "20230814",
+    "duration": 2642
    }
   },
   "amman": {
@@ -871,6 +1380,13 @@
     "channel": "Prowalk Tours",
     "date": "20220514",
     "duration": 5498
+   },
+   "drive": {
+    "yt": "V4TdFaAqJ-c",
+    "title": "A Drive around Amman’s Highest District — Jordan (4K)",
+    "channel": "The Arab Wanderer ",
+    "date": "20260213",
+    "duration": 2077
    }
   },
   "wadi-rum": {
@@ -880,6 +1396,13 @@
     "channel": "Travel With Carry On",
     "date": "20230416",
     "duration": 1122
+   },
+   "drive": {
+    "yt": "DwUtiMu53ag",
+    "title": "You Won't Believe the SCENIC Views of Wadi Rum Jordan Driving",
+    "channel": "Just Driving 4K",
+    "date": "20250409",
+    "duration": 2072
    }
   },
   "tehran": {
@@ -889,6 +1412,13 @@
     "channel": "4K WORLD TOUR",
     "date": "20251128",
     "duration": 3844
+   },
+   "drive": {
+    "yt": "c4RVgdPi_kU",
+    "title": "Drive with me in IRAN - Driving Tehran - Free Travel to Iran with me!",
+    "channel": "Drive With Me",
+    "date": "20231028",
+    "duration": 2120
    }
   },
   "isfahan": {
@@ -898,6 +1428,13 @@
     "channel": "Through Streets & Tastes",
     "date": "20260103",
     "duration": 4497
+   },
+   "drive": {
+    "yt": "YU7coGgWk8s",
+    "title": "Driving Tour in Isfahan - Iran | Part 4",
+    "channel": "Loving Walking",
+    "date": "20220201",
+    "duration": 655
    }
   },
   "persepolis": {
@@ -916,6 +1453,13 @@
     "channel": "woow walking tour",
     "date": "20251215",
     "duration": 1289
+   },
+   "drive": {
+    "yt": "XNr9g7Bx5_o",
+    "title": "IRAN 4K | Driving Downtown | Sunset in Shiraz city",
+    "channel": "Revel walking with me",
+    "date": "20230425",
+    "duration": 680
    }
   },
   "yerevan": {
@@ -930,6 +1474,13 @@
     "yt": "LvRsT07hJOE",
     "title": "Northern Bus Station, Yerevan-Sevan highway 2026-07-09 19:43",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "hlCasv58ZIc",
+    "title": "Driving tour in Yerevan at evening to Kasakh village, Armenia. 4K 60fps",
+    "channel": "OBSERVER",
+    "date": "20210908",
+    "duration": 2414
    }
   },
   "lake-sevan": {
@@ -939,6 +1490,13 @@
     "channel": "Relaxing Moment",
     "date": "20230918",
     "duration": 866
+   },
+   "drive": {
+    "yt": "_ORJd7sDO8o",
+    "title": "Sevan Armenia 🇦🇲 Sevan Lake Driving View - From Sevan to Martuni - Armenia Driving Tour [Armenia 4K]",
+    "channel": "Footprints Walk",
+    "date": "20221109",
+    "duration": 2154
    }
   },
   "baku": {
@@ -948,6 +1506,13 @@
     "channel": "Through Streets & Tastes",
     "date": "20240605",
     "duration": 8012
+   },
+   "drive": {
+    "yt": "vQZfN-8_c-g",
+    "title": "Bakı küçələrində Avto Tur (14 Aprel 2022) Baki Kuceleri - Driving tour, Baku, Azerbaijan - Баку 4k",
+    "channel": "DriWalk",
+    "date": "20220415",
+    "duration": 3436
    }
   },
   "tbilisi": {
@@ -957,6 +1522,13 @@
     "channel": "World Wanderings: 4K Walking Tours",
     "date": "20250718",
     "duration": 5716
+   },
+   "drive": {
+    "yt": "DnulLqtnbuQ",
+    "title": "【4K Drive in Georgia】Driving in Tbilisi, the capital city of Georgia",
+    "channel": "Japanese 4K Traveler",
+    "date": "20240413",
+    "duration": 1205
    }
   },
   "gergeti-kazbegi": {
@@ -966,6 +1538,13 @@
     "channel": "KoiWander",
     "date": "20251030",
     "duration": 644
+   },
+   "drive": {
+    "yt": "joApocl5URI",
+    "title": "Georgia 4K Road Trip | Tbilisi to Kazbegi – Hidden Gem of Europe 🇬🇪",
+    "channel": "M-Travel Diaries Explore the World •Embrace Nature",
+    "date": "20230712",
+    "duration": 834
    }
   },
   "niagara-falls": {
@@ -980,6 +1559,13 @@
     "yt": "7gBzLGlJnwk",
     "title": "Niagara Falls Live 2026-07-09 19:43",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "ECaZtTTJ3DY",
+    "title": "🇨🇦 Clifton Hill, Niagara Falls – Scenic Driving Tour in 4K",
+    "channel": "Road To Jrs",
+    "date": "20251212",
+    "duration": 2343
    }
   },
   "cn-tower": {
@@ -989,6 +1575,13 @@
     "channel": "TORONTO WALK & DRIVE",
     "date": "20260601",
     "duration": 1301
+   },
+   "drive": {
+    "yt": "URpg9XdSLbw",
+    "title": "Downtown Toronto Drive Tour 2026 | DVP, Gardiner, CN Tower & Rogers Centre",
+    "channel": "Bright Routes",
+    "date": "20260530",
+    "duration": 1951
    }
   },
   "old-quebec": {
@@ -996,6 +1589,13 @@
     "yt": "ApHss1U8HW0",
     "title": "🔴 Québec city Live 2026-07-10 08:01",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "S3yGvWxxax0",
+    "title": "DRIVING in QUEBEC CITY, Province of QUEBEC, CANADA 4K",
+    "channel": "Just Driving 4K",
+    "date": "20250712",
+    "duration": 2953
    }
   },
   "banff-lake-louise": {
@@ -1010,6 +1610,13 @@
     "yt": "m1F2ggd0hxA",
     "title": "Rock Isle Lake Cam 2026-07-10 08:01",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "fY9OojMyRrE",
+    "title": "Canada's Best Road Trip: Icefields Parkway from Banff to Jasper",
+    "channel": "Aly Smalls",
+    "date": "20230802",
+    "duration": 604
    }
   },
   "stanley-park": {
@@ -1019,6 +1626,13 @@
     "channel": "Prowalk Tours",
     "date": "20200606",
     "duration": 13931
+   },
+   "drive": {
+    "yt": "qxBVrTO3ld4",
+    "title": "Exploring Vancouver's Stanley Park | Epic Driving Tour [4K]",
+    "channel": "City and Local: Travel, Food, Events",
+    "date": "20250422",
+    "duration": 1205
    }
   },
   "peggys-cove": {
@@ -1033,6 +1647,13 @@
     "yt": "SFoS6nBL138",
     "title": "Peggy's Cove Lighthouse, Nova Scotia 2026-07-09 19:44",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "94OmgamD_cw",
+    "title": "Peggy’s Cove to Halifax Citadel Drive Canada Beautiful Coastal Drive Downtown Halifax | 4K POV",
+    "channel": "Relaxing Scenic Drives 4K",
+    "date": "20260317",
+    "duration": 2897
    }
   },
   "tofino": {
@@ -1047,6 +1668,13 @@
     "yt": "JZ3UV60ykqc",
     "title": "Live From Long Beach Lodge Tofino 2026-07-09 19:44",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "VUAzMjE2k4g",
+    "title": "【4K UHD】🇨🇦Westmost town—Tofino Driving Tour, Canada 🌈🚗July 2021",
+    "channel": "4k Walk in Canada",
+    "date": "20210723",
+    "duration": 609
    }
   },
   "dawson-city": {
@@ -1056,6 +1684,13 @@
     "channel": "RunProgramRun",
     "date": "20250728",
     "duration": 2664
+   },
+   "drive": {
+    "yt": "fj1zwK-TTd0",
+    "title": "Driving Around a Yukon Gold Rush Town: Dawson City - SlowTV Drive [4K]:",
+    "channel": "Take More Detours!",
+    "date": "20211117",
+    "duration": 1304
    }
   },
   "lunenburg": {
@@ -1065,6 +1700,13 @@
     "channel": "World Wanderings: 4K Walking Tours",
     "date": "20240403",
     "duration": 3337
+   },
+   "drive": {
+    "yt": "ZcMly5fzzl0",
+    "title": "Driving around Lunenburg Nova Scotia | Summer 2023 | 4K UHD",
+    "channel": "DontCallMePhil2",
+    "date": "20230802",
+    "duration": 1098
    }
   },
   "icefields-parkway": {
@@ -1074,6 +1716,13 @@
     "channel": "Scenic Tours",
     "date": "20250918",
     "duration": 747
+   },
+   "drive": {
+    "yt": "fY9OojMyRrE",
+    "title": "Canada's Best Road Trip: Icefields Parkway from Banff to Jasper",
+    "channel": "Aly Smalls",
+    "date": "20230802",
+    "duration": 604
    }
   },
   "hopewell-rocks": {
@@ -1083,6 +1732,13 @@
     "channel": "My Walking Diary - Nature, Travel & Food",
     "date": "20260515",
     "duration": 1003
+   },
+   "drive": {
+    "yt": "8XdkcqQgZpw",
+    "title": "Riverview to Hopewell Rocks via Route 114 | New Brunswick Through a Toronto Driver's Eyes | Ep 27",
+    "channel": "NVEE360",
+    "date": "20260620",
+    "duration": 772
    }
   },
   "elora-gorge": {
@@ -1092,6 +1748,13 @@
     "channel": "Worldly Walking",
     "date": "20250901",
     "duration": 2560
+   },
+   "drive": {
+    "yt": "QGO8I37oPVg",
+    "title": "[4K] Fall Driving to Elora Gorge Conservation Area from Brampton Ontario Canada",
+    "channel": "Abdul Afram",
+    "date": "20201026",
+    "duration": 5254
    }
   },
   "rondeau": {
@@ -1113,6 +1776,13 @@
     "yt": "ATasdv_w8O8",
     "title": "Livestream of kestrels at the UN in Vienna 2026-07-09 19:45",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "TC64wRJt3JA",
+    "title": "Vienna 4K - Austria Capital - Driving Downtown",
+    "channel": "J Utah",
+    "date": "20220818",
+    "duration": 2950
    }
   },
   "faroe-islands": {
@@ -1132,6 +1802,13 @@
     "yt": "EHaOI3U5M_s",
     "title": "SurveillanceMap LIVE · Vágur South East View · Faroe Islands, Arctic 2026-07-09 19:45",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "LYd86WLgJ0E",
+    "title": "🇫🇴 Driving in Tórshavn, Faroe Islands Listening to Local Radio 🚗",
+    "channel": "Addy Goes Places",
+    "date": "20220512",
+    "duration": 2149
    }
   },
   "canary-islands": {
@@ -1167,6 +1844,13 @@
     "channel": "Guillaume Laporte",
     "date": "20241211",
     "duration": 1998
+   },
+   "drive": {
+    "yt": "M_q2cBP0xus",
+    "title": "Liverpool 4K - Driving Downtown - England Soccer",
+    "channel": "J Utah",
+    "date": "20220320",
+    "duration": 2538
    }
   },
   "andalusia": {
@@ -1181,6 +1865,13 @@
     "yt": "sgUhPN4uAe4",
     "title": "🔴 Live 360º Sky Camera from Málaga, Andalusia (Spain) 🌤️ 2026-07-09 19:46",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "LFFQXCCVDrU",
+    "title": "DRIVING in JAEN, Province of Jaén, Andalusia, SPAIN I 4K 60fps",
+    "channel": "Just Driving 4K",
+    "date": "20230305",
+    "duration": 2803
    }
   },
   "black-forest": {
@@ -1195,6 +1886,13 @@
     "yt": "F0GOOP82094",
     "title": "Wildlife In The Forest - 24/7 LIVE 🔴 by Morten Hilmer 2026-07-09 19:46",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "EdFOBHXHkJ8",
+    "title": "Driving Schramberg | Black Forest  Germany  4k",
+    "channel": "scenic_drive",
+    "date": "20221104",
+    "duration": 629
    }
   },
   "ghent": {
@@ -1209,6 +1907,13 @@
     "yt": "agmAdlmdEpc",
     "title": "🔴Live Webcam @ Virginie Lovelinggebouw Ghent - Outside Nest 2026-07-09 19:46",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "HA5w8wPemB0",
+    "title": "Driving in GHENT (Gent-Gand) Belgium 🇧🇪 | Stunning City Tour in 4K 🚗",
+    "channel": "Relaxing Roads 4K",
+    "date": "20240609",
+    "duration": 3003
    }
   },
   "zaanse-schans": {
@@ -1223,6 +1928,13 @@
     "yt": "o9MIV7sep5k",
     "title": "WebCam.NL | dezaanseschans.nl | live ultraHD Pan Tilt Zoom camera Zaanse Schans. 2026-07-09 19:46",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "llEMLsZ27CI",
+    "title": "Driving from South to North Holland for a visit to the Zaanse Schans heritage site",
+    "channel": "Sigis Travel Videos",
+    "date": "20250813",
+    "duration": 10206
    }
   },
   "innsbruck": {
@@ -1232,6 +1944,13 @@
     "channel": "Atmos Walks",
     "date": "20250906",
     "duration": 3869
+   },
+   "drive": {
+    "yt": "ScuXgcLAi_Y",
+    "title": "Innsbruck Austria 4K - Driving Downtown - Morning Drive",
+    "channel": "J Utah",
+    "date": "20250405",
+    "duration": 2470
    }
   },
   "rothenburg": {
@@ -1241,6 +1960,13 @@
     "channel": "BookingHunterTV",
     "date": "20201224",
     "duration": 4953
+   },
+   "drive": {
+    "yt": "3ORQqA2iTIg",
+    "title": "👏🏼 Driving in GERMANY - Road Trip to ROTHENBURG OB DER TAUBER (4K 60 fps UHD) 🤯",
+    "channel": "🌍 Pablo Quiroga | Travel & Adventure",
+    "date": "20231028",
+    "duration": 2836
    }
   },
   "italian-lakes": {
@@ -1250,6 +1976,13 @@
     "channel": "PixelPulse Travels",
     "date": "20260704",
     "duration": 3883
+   },
+   "drive": {
+    "yt": "731pbev53yA",
+    "title": "This Lake Garda Road Will Leave You Speechless 🇮🇹 | Italy Scenic Drive 4K",
+    "channel": "Scenic Drive Vision",
+    "date": "20260321",
+    "duration": 5079
    }
   },
   "bordeaux": {
@@ -1264,6 +1997,13 @@
     "yt": "epob2jcRe_Q",
     "title": "LIVE TV7 Bordeaux 2026-07-09 19:47",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "b6J5LCdHIx4",
+    "title": "Drive through Bordeaux on a summer day - 4K",
+    "channel": "OmniTraveller",
+    "date": "20220903",
+    "duration": 2300
    }
   },
   "malta": {
@@ -1278,6 +2018,18 @@
     "yt": "mlmV7K6Arvc",
     "title": "🔴 LIVE 24/7: Malta Ship Spotting by day, chilling by night | 4K Grand Harbour Live 2026-07-09 19:47",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "OKIdQdwktYs",
+    "title": "Malta Coastal Drive 4K | Cirkewwa to Valletta via Sliema | ASMR Road Sounds",
+    "channel": "European Scenic Roads",
+    "date": "20260413",
+    "duration": 6706
+   },
+   "live": {
+    "yt": "EfWyqycpsAo",
+    "title": "🔴LIVE Malta Cam - Heatwave Alert 🌞- 4K - 24/7 2026-07-17 19:54",
+    "verified": "2026-07-17"
    }
   },
   "iceland": {
@@ -1297,6 +2049,13 @@
     "yt": "gm2YafWT-pk",
     "title": "Iceland Now 2026-07-09 19:47",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "rEy-LsE3COA",
+    "title": "Iceland Scenic Drive 4K | Stykkishólmur to Arnarstapi, Snæfellsnes Peninsula",
+    "channel": "Dashcam Roadshow",
+    "date": "20250607",
+    "duration": 5951
    }
   },
   "cappadocia": {
@@ -1306,6 +2065,13 @@
     "channel": "4K Urban Life",
     "date": "20200317",
     "duration": 4715
+   },
+   "drive": {
+    "yt": "UXu0EVHnZeI",
+    "title": "Scenic Drive 4K: CAPPADOCIA Turkey (Türkiye) 🇹🇷 | Picturesque Tour 🌄",
+    "channel": "Relaxing Roads 4K",
+    "date": "20230813",
+    "duration": 2993
    }
   },
   "azores": {
@@ -1320,6 +2086,13 @@
     "yt": "jhzL_zJM4co",
     "title": "Azores Live · Terceira Coastline & Weather · Açores em Direto 🌊 2026-07-09 19:47",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "UYmOpSTT-C0",
+    "title": "4K Relaxing Drive Through the AZORES 🇵🇹 | Scenic São Miguel Island Tour",
+    "channel": "Virtual Relaxation - Scenic Drives",
+    "date": "20250913",
+    "duration": 2677
    }
   },
   "costa-del-sol": {
@@ -1334,6 +2107,13 @@
     "yt": "fppvSUhqqLk",
     "title": "BENALMADENA BEACH & PUERTO MARINA 🌊 | Costa del Sol Walking Tour Spain [4K] 2026-07-10 08:23",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "t1g7ExM01mc",
+    "title": "Málaga, Spain | Costa del Sol Capital Driving Tour",
+    "channel": "Places in the World",
+    "date": "20260419",
+    "duration": 4262
    }
   },
   "neuschwanstein": {
@@ -1343,6 +2123,13 @@
     "channel": "The Traveler ",
     "date": "20220928",
     "duration": 2269
+   },
+   "drive": {
+    "yt": "YsuPoqWfa98",
+    "title": "Driving from Neuschwanstein Castle to Murnau at Staffel Lake in 4K | Germany",
+    "channel": "Ride in silence",
+    "date": "20220507",
+    "duration": 2663
    }
   },
   "stockholm": {
@@ -1355,6 +2142,13 @@
     "yt": "agY6ZaM1G_o",
     "title": "MEDview: DN-Skrapan, Stockholm 2026-07-09 19:47",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "0GMt9cZ8g_E",
+    "title": "Driving Stockholm Sweden 8K Dolby Vision HDR",
+    "channel": "Relaxing Scenes Driving",
+    "date": "20240921",
+    "duration": 11506
    }
   },
   "strasbourg": {
@@ -1364,6 +2158,13 @@
     "channel": "BookingHunterTV",
     "date": "20201114",
     "duration": 6181
+   },
+   "drive": {
+    "yt": "xq3Bh9yC_30",
+    "title": "Driving in STRASBOURG France 🇫🇷 | Stunning City Tour in 4K 🚗",
+    "channel": "Relaxing Roads 4K",
+    "date": "20240831",
+    "duration": 1840
    }
   },
   "swiss-alps": {
@@ -1383,6 +2184,13 @@
     "yt": "enYFXf8u7Lc",
     "title": "🔴 Schweiz Panorama – 24/7 LIVE Stream Webcams Swiss Alps 2026-07-09 19:48",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "_7EiQ72w9w4",
+    "title": "Driving the Secret Swiss Mountain Roads NoOne Knows About + Relaxing Music , 4K",
+    "channel": "Tourist Car",
+    "date": "20260716",
+    "duration": 6776
    }
   },
   "lapland": {
@@ -1397,6 +2205,13 @@
     "yt": "0pE2DNIcqoI",
     "title": "Live Björkliden Hotel Fjället Lapland Resorts 2026-07-09 19:48",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "iBGGdaiDZeA",
+    "title": "Driving Tour in Finland Winter Wonderland in Lapland | YLLÄS - ÄKÄSLOMPOLO 4K ULTRA HD",
+    "channel": "LIVING MEMORIES DRIVING TOURS ",
+    "date": "20250115",
+    "duration": 1820
    }
   },
   "hamburg": {
@@ -1416,6 +2231,13 @@
     "yt": "OmyDLXvaus4",
     "title": "🔴 LIVE: Hamburg Michel – Webcam mit Panoramablick auf Hafen 2026-07-09 19:48",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "d528e_6Xuss",
+    "title": "Driving in Hamburg *[Billstedt ➡️ Barmbek Süd]**[4K]*",
+    "channel": "Renato Atzeni",
+    "date": "20230202",
+    "duration": 1304
    }
   },
   "tirana": {
@@ -1425,6 +2247,13 @@
     "channel": "World Wanderings: 4K Walking Tours",
     "date": "20240705",
     "duration": 5587
+   },
+   "drive": {
+    "yt": "Df09VtMIRUk",
+    "title": "Driving in Tirana, Albania - 4K UHD - Driving Tour - The capital and largest city of Albania",
+    "channel": "Travel Passion & More",
+    "date": "20230408",
+    "duration": 1987
    }
   },
   "edinburgh": {
@@ -1432,6 +2261,13 @@
     "yt": "d2Ii5ybhbQY",
     "title": "🔴 Scotland UK LIVE Cam Webcam Stream 4K HD Edinburgh Arthur's Seat.12hr Rewind. View the sunrise. 2026-07-09 19:48",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "bI0CWjb8d8s",
+    "title": "Edinburgh City Drive - 4k Driving Downtown UK - Part 1",
+    "channel": "Virtual Travel Tour",
+    "date": "20201118",
+    "duration": 2437
    }
   },
   "dolomites": {
@@ -1451,6 +2287,13 @@
     "yt": "i01hobM_hGA",
     "title": "LIVE Tre Cime di Lavaredo | 3 Zinnen Dolomites 2026-07-09 19:49",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "V8myIkor52g",
+    "title": "Dolomites Scenic Drive 4K | Sella Pass & Gardena Pass",
+    "channel": "Dashcam Roadshow",
+    "date": "20240413",
+    "duration": 4169
    }
   },
   "madeira": {
@@ -1470,6 +2313,13 @@
     "yt": "f6D3Zq6J5A8",
     "title": "LIVE: Funchal Marina Webcam 2 Madeira Island | Madeira-Web 2026-07-09 19:49",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "tQ4wQQBjivA",
+    "title": "Discover MADEIRA 🇵🇹 | The Island of Rainbows & Waterfalls | 4K Scenic Drive Tour in Portugal",
+    "channel": "Virtual Relaxation - Scenic Drives",
+    "date": "20250123",
+    "duration": 4166
    }
   },
   "french-riviera": {
@@ -1489,6 +2339,13 @@
     "yt": "asO_10T0k2k",
     "title": "🔴 LIVE WEBCAM CANNES - Quai Laubeuf 2026-07-10 08:25",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "XFeAqvf-Epc",
+    "title": "DRIVING CANNES, French Riviera, Blue Coast, FRANCE I 4K 60fps",
+    "channel": "Just Driving 4K",
+    "date": "20210716",
+    "duration": 4201
    }
   },
   "salzburg": {
@@ -1498,6 +2355,13 @@
     "channel": "European Walking Tours",
     "date": "20251018",
     "duration": 7329
+   },
+   "drive": {
+    "yt": "zXry1J3QOlA",
+    "title": "Driving Beautiful Salzburg, Austria in 4K!",
+    "channel": "TravelTrax",
+    "date": "20250512",
+    "duration": 5444
    }
   },
   "sintra": {
@@ -1507,6 +2371,13 @@
     "channel": "POV Tours - Portugal",
     "date": "20210825",
     "duration": 2550
+   },
+   "drive": {
+    "yt": "hFYNJNzOM9E",
+    "title": "DRIVING SINTRA, Lisbon District, Estremadura, PORTUGAL I 4K 60fps",
+    "channel": "Just Driving 4K",
+    "date": "20220130",
+    "duration": 3097
    }
   },
   "toledo": {
@@ -1530,6 +2401,13 @@
     "yt": "h8glPXsnezU",
     "title": "Oxford Martin School Webcam - Broad Street, Oxford 2026-07-09 19:49",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "RBgE7kdeufI",
+    "title": "Driving 4K Oxford - Drive Through The Historic City Of Oxford",
+    "channel": "4K Adventures",
+    "date": "20230918",
+    "duration": 1162
    }
   },
   "plitvice": {
@@ -1539,6 +2417,13 @@
     "channel": "BookingHunterTV",
     "date": "20250920",
     "duration": 8192
+   },
+   "drive": {
+    "yt": "MEnkPh2-gas",
+    "title": "4K Driving - Zagreb to Plitvice Lakes, Croatia",
+    "channel": "Curtis Yo",
+    "date": "20250204",
+    "duration": 5721
    }
   },
   "wild-atlantic-way": {
@@ -1548,6 +2433,13 @@
     "channel": "NeilCapada",
     "date": "20230819",
     "duration": 1295
+   },
+   "drive": {
+    "yt": "QA57_-g7sJA",
+    "title": "Driving Ireland 🇮🇪 | Wild Atlantic Way (part II) 4K Scenic Drive",
+    "channel": "Adventurous A",
+    "date": "20220723",
+    "duration": 2535
    }
   },
   "bern": {
@@ -1557,6 +2449,13 @@
     "channel": "The Traveler ",
     "date": "20230828",
     "duration": 2525
+   },
+   "drive": {
+    "yt": "Lt0mYieIXkA",
+    "title": "Driving in BERN Switzerland 🇨🇭 | Beautiful City Tour in 4K 🚗",
+    "channel": "Relaxing Roads 4K",
+    "date": "20240914",
+    "duration": 2705
    }
   },
   "leipzig": {
@@ -1566,6 +2465,13 @@
     "channel": "URBAN ROAMER",
     "date": "20251020",
     "duration": 3018
+   },
+   "drive": {
+    "yt": "RRapTC4Y0Zs",
+    "title": "Driving in Leipzig 🇩🇪 Germany ☃️ 4K 🎦",
+    "channel": "Me in Car",
+    "date": "20231215",
+    "duration": 1035
    }
   },
   "cyprus": {
@@ -1575,6 +2481,13 @@
     "channel": "Walk the World",
     "date": "20251027",
     "duration": 728
+   },
+   "drive": {
+    "yt": "OXzot4emV3Y",
+    "title": "Cyprus 4K - Paphos - Scenic Drive",
+    "channel": "Weekend Road Trip",
+    "date": "20250809",
+    "duration": 1237
    }
   },
   "sicily": {
@@ -1594,6 +2507,13 @@
     "yt": "EGk3Mr0OshE",
     "title": "🔴 Live Now: 24/7 Mount Etna Volcano, Sicily, Italy (Multi-cams) 2026-07-09 19:50",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "G8cYQUGvP4s",
+    "title": "🚗 Driving in CATANIA | City Tour | SICILY - ITALY #4k60fps",
+    "channel": "4K Driving Channel",
+    "date": "20231125",
+    "duration": 2011
    }
   },
   "hallstatt": {
@@ -1603,6 +2523,13 @@
     "channel": "Vivid Walking Tours",
     "date": "20240605",
     "duration": 3686
+   },
+   "drive": {
+    "yt": "QYr6DoF-_uw",
+    "title": "4K Ultra HD - Most Scenic Drive towards Hallstatt Austria | The most beautiful fairytale village",
+    "channel": "Free to fly - by Abrish",
+    "date": "20250602",
+    "duration": 3602
    }
   },
   "munich": {
@@ -1610,6 +2537,13 @@
     "yt": "1CRXoZI-Wdo",
     "title": "✈️ RE-LIVE Planespotting Munich Airport MUC | Heavy Landings & Takeoffs | A380, A350, B777 Close-Ups 2026-07-09 19:50",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "Ps8ETd-J2yk",
+    "title": "Driving Munich 4K - Sunset Drive - Germany",
+    "channel": "J Utah",
+    "date": "20250308",
+    "duration": 3677
    }
   },
   "manchester": {
@@ -1629,6 +2563,13 @@
     "yt": "i07IVN7ZKek",
     "title": "Peregrine Networks Live Peregrine Falcon Feed3 (Manchester, NH, USA) 2026-07-10 08:26",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "t-xl421qZaA",
+    "title": "Downtown Manchester, England 4K Drive United Kingdom",
+    "channel": "KS Vagabond",
+    "date": "20240726",
+    "duration": 3403
    }
   },
   "provence": {
@@ -1638,6 +2579,13 @@
     "channel": "City Trips",
     "date": "20211112",
     "duration": 3454
+   },
+   "drive": {
+    "yt": "EA0DrpxE0dM",
+    "title": "Provence Driving Tour 4K | Hidden Villages and Breathtaking Countryside",
+    "channel": "Travelboom",
+    "date": "20240223",
+    "duration": 2442
    }
   },
   "sighisoara": {
@@ -1647,6 +2595,13 @@
     "channel": "4K City Tours",
     "date": "20220701",
     "duration": 1880
+   },
+   "drive": {
+    "yt": "-H_e0gQsWRU",
+    "title": "DRIVE #1624: Sighişoara-Mediaş-Sibiu (Romania) (timelapse 4x) *Read Description*",
+    "channel": "Dash Cam - Balkan Road Trips",
+    "date": "20230607",
+    "duration": 1423
    }
   },
   "geneva": {
@@ -1656,6 +2611,18 @@
     "channel": "European Walking Tours",
     "date": "20241026",
     "duration": 10901
+   },
+   "drive": {
+    "yt": "F3h56JScSZI",
+    "title": "Geneva, Switzerland 🇨🇭 Driving Downtown - 4K 60fps",
+    "channel": "PureRide",
+    "date": "20230918",
+    "duration": 2673
+   },
+   "live": {
+    "yt": "3HsL6AA6rPM",
+    "title": "Webcam Genève - Les Corsaires - Lac Léman 2026-07-17 19:56",
+    "verified": "2026-07-17"
    }
   },
   "mont-saint-michel": {
@@ -1670,6 +2637,13 @@
     "yt": "VNOV8KgGR0c",
     "title": "Webcam Saint-Malo en 4K - Les Thermes Marins 2026-07-10 08:26",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "bMTG3Evkd-Y",
+    "title": "Europe driving tour Day22 Episode01  From Le Mont Saint Michel, France To Saint Malo, France By Ford",
+    "channel": "유럽 자동차 여행",
+    "date": "20210317",
+    "duration": 3648
    }
   },
   "matera": {
@@ -1679,6 +2653,13 @@
     "channel": "HP Walking Tours",
     "date": "20251028",
     "duration": 6708
+   },
+   "drive": {
+    "yt": "nntQ4Yh5GZw",
+    "title": "🇮🇹 Timeless Stone Drive: Matera, Italy | 4K Scenic Driving Tour Through the Ancient Sassi",
+    "channel": "Virtual Driving Explorer",
+    "date": "20251211",
+    "duration": 1409
    }
   },
   "helsinki": {
@@ -1693,6 +2674,13 @@
     "yt": "TwNS3BhAQJ4",
     "title": "🔴 HELSINKI NIGHTLIFE WALK 24/7 🇫🇮✨ Summer Nightlife in Finland 🔴 PRE-RECORDED SLOW TV CITY SOUND 2026-07-09 19:51",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "Wlp-TS99jz8",
+    "title": "Driving in Finland Helsinki",
+    "channel": "LUNITO Finland",
+    "date": "20211102",
+    "duration": 3126
    }
   },
   "catalonia": {
@@ -1702,6 +2690,13 @@
     "channel": "4K WALK",
     "date": "20200926",
     "duration": 1188
+   },
+   "drive": {
+    "yt": "xp05mxNpJVo",
+    "title": "Barcelona Spain City Drive 4K -  City of Counts Driving Tour",
+    "channel": "The Travel Docket",
+    "date": "20251031",
+    "duration": 4862
    }
   },
   "london": {
@@ -1709,6 +2704,13 @@
     "yt": "wDaV8EkYHmk",
     "title": "LONDON BUS RIDES 💫 DIGEST 🔴 LIVE CHAT ✨ 2026-07-09 19:52",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "hiPQPnjwuTY",
+    "title": "Driving downtown, London 4k HDR, Sunday Afternoon Relaxing Driving Tour 2022…",
+    "channel": "London Street Vibes",
+    "date": "20220307",
+    "duration": 2107
    }
   },
   "bavarian-alps": {
@@ -1718,6 +2720,13 @@
     "channel": "Video Walking Tours 4K",
     "date": "20260105",
     "duration": 2653
+   },
+   "drive": {
+    "yt": "vVFuxDDAx9o",
+    "title": "Driving in the German Alps, Berchtesgaden Region, Relaxing Driving Sounds, ASMR 4K 🏔️🐄🇩🇪",
+    "channel": "Claudio's Travel Channel",
+    "date": "20251006",
+    "duration": 3129
    }
   },
   "sardinia": {
@@ -1737,6 +2746,13 @@
     "yt": "I3G_kTiKkKI",
     "title": "Le Saline beach - Sardinia, Italy - Live Cam 2026-07-09 19:52",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "lx7sR0pN0xE",
+    "title": "Italy 4K - Scenic Drive - Sardinia - Mountain landscapes, Waterfront scenery",
+    "channel": "Coucou! Gabrielle",
+    "date": "20240729",
+    "duration": 4447
    }
   },
   "sofia": {
@@ -1746,6 +2762,13 @@
     "channel": "BLA BLA WALKER 🐧 Tokyo Walking Tour",
     "date": "20251122",
     "duration": 5894
+   },
+   "drive": {
+    "yt": "SNQAfWsEVOQ",
+    "title": "Driving in the city of Sofia, Bulgaria - 4K",
+    "channel": "Cinematic Escapes",
+    "date": "20230217",
+    "duration": 1824
    }
   },
   "frankfurt": {
@@ -1765,6 +2788,13 @@
     "yt": "PMetnXeBFSk",
     "title": "✈️ RE-Live Planespotting at Frankfurt Airport – B747 Paradise Takeoffs & Landings - FRA - EDDF 2026 2026-07-09 19:52",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "2054gi9TzcA",
+    "title": "Frankfurt Evening Drive | Driving in Europe's Financial Capital | Roads of Germany [4K HDR]",
+    "channel": "Planet Drive ",
+    "date": "20230130",
+    "duration": 2162
    }
   },
   "cambridge": {
@@ -1774,6 +2804,13 @@
     "channel": "Worn Boots 4K Walking Tours",
     "date": "20250425",
     "duration": 4568
+   },
+   "drive": {
+    "yt": "_S1fMBQ-NMQ",
+    "title": "4K CAMBRIDGE, England, Great Britain Road Drive Tour 2",
+    "channel": "Going Out and About",
+    "date": "20230903",
+    "duration": 2061
    }
   },
   "lofoten": {
@@ -1783,6 +2820,13 @@
     "channel": "Nomadic Ambience",
     "date": "20250509",
     "duration": 1626
+   },
+   "drive": {
+    "yt": "cG19KPmaQlA",
+    "title": "Lofoten Islands Scenic Drive 4K | Gimsoystraumen Bridge to Å",
+    "channel": "Dashcam Roadshow",
+    "date": "20240907",
+    "duration": 7157
    }
   },
   "portugal-coast": {
@@ -1802,6 +2846,13 @@
     "yt": "GeQVAs9N490",
     "title": "Live Webcam Playas de Albufeira 🏖️ Hotel Sol e Mar ☀️ Albufeira ☀️ Algarve ☀️ Portugal 🌎 🅻🅸🆅🅴 2026-07-09 19:52",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "53ogH0wnQlo",
+    "title": "Portugal’s Best Kept Secret... 🇵🇹 | Madeira Island Drive (4K)",
+    "channel": "Virtual Relaxation - Scenic Drives",
+    "date": "20260302",
+    "duration": 2231
    }
   },
   "berlin": {
@@ -1814,6 +2865,13 @@
     "yt": "nU_YA7ypzu4",
     "title": "BerlinWebcam2 2026-07-10 08:27",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "lBlKR2ek0w4",
+    "title": "BERLIN - Germany 🇩🇪 4K Driving Tour | Alexanderplatz, Potsdamer Platz, Brandenburg Gate, West-Berlin",
+    "channel": "Walking OZ",
+    "date": "20220507",
+    "duration": 2477
    }
   },
   "alberobello": {
@@ -1823,6 +2881,13 @@
     "channel": "Prowalk Tours",
     "date": "20220122",
     "duration": 4843
+   },
+   "drive": {
+    "yt": "NMH3Bhoqxz8",
+    "title": "Alberobello, Italy - Driving Tour 4K",
+    "channel": "DS NEVADA",
+    "date": "20240510",
+    "duration": 859
    }
   },
   "giethoorn": {
@@ -1832,6 +2897,13 @@
     "channel": "Planet Walkman",
     "date": "20231112",
     "duration": 1239
+   },
+   "drive": {
+    "yt": "EmqGoNFRhTU",
+    "title": "Scenic Drive from Amsterdam to Giethoorn | 4K HDR Dutch Autobahn A1 A6 & Countryside Road Trip 2024",
+    "channel": "Oh MyPOV Tour",
+    "date": "20241018",
+    "duration": 2464
    }
   },
   "valencia": {
@@ -1846,6 +2918,13 @@
     "yt": "4QrpMfrG46s",
     "title": "🔴Gandia Beach - Valencia, Spain - Live Cam 2026-07-09 19:53",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "7ncdB301rjw",
+    "title": "Valencia 4K HDR Driving Tour | Scenic Downtown Drive in Spain, Sunny Vibes & Coastal Holiday Feels",
+    "channel": "Oh MyPOV Tour",
+    "date": "20240915",
+    "duration": 3919
    }
   },
   "cyclades": {
@@ -1855,6 +2934,13 @@
     "channel": "Serenity Walks & Journeys",
     "date": "20251109",
     "duration": 1803
+   },
+   "drive": {
+    "yt": "IJSpcdZ8eaA",
+    "title": "DRIVING MYKONOS,  CYCLADES,  Aegean Sea, GREECE I 4K 60fps",
+    "channel": "Just Driving 4K",
+    "date": "20210915",
+    "duration": 4049
    }
   },
   "montenegro": {
@@ -1864,6 +2950,13 @@
     "channel": "Nature Strolls ",
     "date": "20240606",
     "duration": 3661
+   },
+   "drive": {
+    "yt": "JvAMFu6Xpbc",
+    "title": "Driving Tour - Road To Lovćen Mountain 🇲🇪【4K】Experience Montenegro",
+    "channel": "Planet To Travel",
+    "date": "20230817",
+    "duration": 2336
    }
   },
   "obidos": {
@@ -1873,6 +2966,13 @@
     "channel": "Portugal Walking Tour",
     "date": "20230218",
     "duration": 1946
+   },
+   "drive": {
+    "yt": "a-rDpmwy6XQ",
+    "title": "Conduzindo em Óbidos, Portugal | Driving in Óbidos 【4k Ultra HD】 | 2022",
+    "channel": "Próximo Destino",
+    "date": "20220519",
+    "duration": 742
    }
   },
   "tuscany-florence": {
@@ -1880,6 +2980,13 @@
     "yt": "BIno8_T0uKc",
     "title": "Tuscany, Italy Live Webcam - Vineyard and Restaurant 2026-07-09 19:54",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "939Uw8QTQBk",
+    "title": "Montalcino to Siena, Toscana | Italy Scenic Drive 4K",
+    "channel": "Dashcam Roadshow",
+    "date": "20241116",
+    "duration": 3104
    }
   },
   "jurassic-coast": {
@@ -1899,6 +3006,13 @@
     "yt": "KnBN3gs-ZZs",
     "title": "Weymouth Harbour Webcam @ Jurassic Jet Ski Tours 2026-07-10 08:29",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "JIEGm93lTjY",
+    "title": "Driving to Durdle Door | Scenic UK Coastal Journey (4K)",
+    "channel": "Real Roads UK",
+    "date": "20260531",
+    "duration": 7644
    }
   },
   "norwegian-fjords": {
@@ -1918,6 +3032,13 @@
     "yt": "egjxEzyTi_I",
     "title": "Fru Rauer - Norwegian Osprey Live Stream 2026-07-10 08:29",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "yudSYt5E130",
+    "title": "4K Summer Drive Through Norway’s Fjords & Mountains | #Bjørkedal to #Folkestad",
+    "channel": "Endless Escapes",
+    "date": "20250914",
+    "duration": 817
    }
   },
   "mostar": {
@@ -1927,6 +3048,13 @@
     "channel": "CityHikerTV",
     "date": "20250208",
     "duration": 2946
+   },
+   "drive": {
+    "yt": "KRJVTOKZmJk",
+    "title": "Mostar, Bosnia and Herzegovina | 4K Scenic Drive Tour",
+    "channel": "Drive & Travel",
+    "date": "20260613",
+    "duration": 2848
    }
   },
   "pyrenees": {
@@ -1936,6 +3064,13 @@
     "channel": "Luciano Walks",
     "date": "20251210",
     "duration": 1965
+   },
+   "drive": {
+    "yt": "zDRVaNW84ms",
+    "title": "DRIVING Western PYRENEES with SNOW!!, Roncal Valley, SPAIN, Scenic Drive, 4K 60fps",
+    "channel": "Just Driving 4K",
+    "date": "20210212",
+    "duration": 3313
    }
   },
   "cesky-krumlov": {
@@ -1945,6 +3080,13 @@
     "channel": "Perception Philosophy",
     "date": "20221031",
     "duration": 1600
+   },
+   "drive": {
+    "yt": "uCfLJCpocHQ",
+    "title": "Czechia Driving Tour from České Budějovice to Český Krumlov 🎹 Czech Republic 4k HDR 60fps",
+    "channel": "Drive Relax Radio",
+    "date": "20230619",
+    "duration": 1962
    }
   },
   "verdon-gorge": {
@@ -1954,6 +3096,13 @@
     "channel": "SHOEWALKER ",
     "date": "20210816",
     "duration": 1201
+   },
+   "drive": {
+    "yt": "iu0SUrBw1fg",
+    "title": "Breathtaking Scenic Drive! Gorges du Verdon 🇫🇷 Route des Crêtes - Provence Landscapoe 4k",
+    "channel": "Imagine World Tour",
+    "date": "20240723",
+    "duration": 3678
    }
   },
   "oslo": {
@@ -1973,6 +3122,13 @@
     "yt": "uUirqfUMK94",
     "title": "Oslo Skimore LIVE 2026-07-09 19:55",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "dXS4c2XhcGc",
+    "title": "Highway Drive Through Oslo | Ambient Sound | Heavy Rain | 4K |",
+    "channel": "Windshield Road Trips",
+    "date": "20251204",
+    "duration": 2619
    }
   },
   "corsica": {
@@ -1982,6 +3138,13 @@
     "channel": "CJ Travels",
     "date": "20250830",
     "duration": 2075
+   },
+   "drive": {
+    "yt": "hbPOFM7ADP4",
+    "title": "Driving Corsica’s Most Beautiful Roads | 4K UHD POV",
+    "channel": "diversiCA Enjoy",
+    "date": "20250803",
+    "duration": 646
    }
   },
   "balearic-islands": {
@@ -2001,6 +3164,13 @@
     "yt": "b_u1aFNO9iA",
     "title": "Live Webcam Palma de Mallorca ☀️ Paseo Marítimo ⛴️ Mallorca 🌎 Baleares 🅻🅸🆅🅴 2026-07-10 08:50",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "lOv1wvqBZRo",
+    "title": "Driving the Most Spectacular Road Ever! | Mallorca’s Crazy Snake Road (Sa Calobra, Spain) 4K",
+    "channel": "World of Drives Europe",
+    "date": "20260706",
+    "duration": 3668
    }
   },
   "milan": {
@@ -2015,6 +3185,13 @@
     "yt": "dsoM6TYIkOI",
     "title": "Milan Skyline Live 2026-07-09 19:55",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "wh5x081Ou5w",
+    "title": "MILAN (Milano) Italy 🇮🇹 | Modern City Driving Tour in 4K 🚗",
+    "channel": "Relaxing Roads 4K",
+    "date": "20260222",
+    "duration": 1786
    }
   },
   "porto": {
@@ -2027,6 +3204,13 @@
     "yt": "yCeQueusZxs",
     "title": "[LIVE] AO VIVO Porto Alegre POA / GUAÍBA - Lago Guaíba, Cidade e Movimentação Portuária MOVE NO CHAT 2026-07-10 08:29",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "uwPpg2RCwM4",
+    "title": "Driving in Porgual 🚙 From Porto to Aveiro | Driving Tour in 4K/60FPS",
+    "channel": "Scenic Driving Tours",
+    "date": "20250111",
+    "duration": 5087
    }
   },
   "tallinn": {
@@ -2046,6 +3230,13 @@
     "yt": "GXed68ltHBs",
     "title": "Live 24/7 Stream from Tallinn Estonia 2026-07-09 19:55",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "r1zkWrIr43A",
+    "title": "Tallinn Driving Tour: Medieval Magic to Modern Marvels | Europe Road Trip, S1 Ep49",
+    "channel": "Roaming Relaxation",
+    "date": "20251107",
+    "duration": 6269
    }
   },
   "prague": {
@@ -2058,6 +3249,13 @@
     "yt": "N3ShIAO7H4Y",
     "title": "Creative Live streaming from Prague (Czech Republic) by CamStreamer 2026-07-09 19:55",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "w_F_-CQWWlw",
+    "title": "Prague Evening Driving tour with Jazz 🎹 Czech Republic 4K HDR 60fps",
+    "channel": "Drive Relax Radio",
+    "date": "20230325",
+    "duration": 2017
    }
   },
   "cinque-terre": {
@@ -2072,6 +3270,13 @@
     "yt": "bQ9VS-hM1D8",
     "title": "Webcam Live Porto di Vernazza - Cinque Terre 2026-07-10 08:09",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "GqP_uIaR-nA",
+    "title": "Driving 4k Italy from La Spezia to Vernazza, Cinque Terre 4k60fps HDR",
+    "channel": "Driving Ambience",
+    "date": "20231104",
+    "duration": 3399
    }
   },
   "normandy": {
@@ -2081,6 +3286,13 @@
     "channel": "walking around",
     "date": "20251016",
     "duration": 2928
+   },
+   "drive": {
+    "yt": "pqc4MKfTSz8",
+    "title": "Relaxing 4K Drive in Honfleur, France 🇫🇷  Normandy - Birthplace of Impressionism - Relaxing Music",
+    "channel": "Beautiful Places On Earth",
+    "date": "20230815",
+    "duration": 782
    }
   },
   "delft": {
@@ -2090,6 +3302,13 @@
     "channel": "The Urban Pacer",
     "date": "20251220",
     "duration": 1761
+   },
+   "drive": {
+    "yt": "TCX16w7CNo0",
+    "title": "Delft 4K Drive 🇳🇱 | Exploring the Streets of Delft",
+    "channel": "vitamyster",
+    "date": "20260609",
+    "duration": 1508
    }
   },
   "transylvania": {
@@ -2109,6 +3328,13 @@
     "yt": "xxDwVG0TvJ0",
     "title": "Brasov City | Ceasu Rau - See Transylvania - 🔴 Live Webcam 2026-07-09 19:56",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "wA5briUjPNU",
+    "title": "🚗 Exploring TRANSYLVANIA | Driving from PREDEAL to BRAȘOV | ROMANIA #4k60fps",
+    "channel": "4K Driving Channel",
+    "date": "20221203",
+    "duration": 3041
    }
   },
   "aveiro": {
@@ -2118,6 +3344,13 @@
     "channel": "Walking the Tour",
     "date": "20250516",
     "duration": 4596
+   },
+   "drive": {
+    "yt": "2zdz9xlX8og",
+    "title": "AVEIRO Portugal 🇵🇹 | Scenic City Driving Tour in 4K 🚗",
+    "channel": "Relaxing Roads 4K",
+    "date": "20250222",
+    "duration": 1583
    }
   },
   "amalfi-coast": {
@@ -2132,6 +3365,13 @@
     "yt": "AWEPIltiX6A",
     "title": "Sorrento, Italy 4K - Coastal Cliffs, Lemon Groves & Sunset Views Over the Bay of Naples 2026-07-09 19:56",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "wX5aFHJB3JI",
+    "title": "Driving the Amalfi Coast - Italy 4K Scenery - Where is all the TRAFFIC?",
+    "channel": "World Driving Tours",
+    "date": "20230726",
+    "duration": 4723
    }
   },
   "meteora": {
@@ -2141,6 +3381,13 @@
     "channel": "Travelinita Walking Tours",
     "date": "20260625",
     "duration": 4159
+   },
+   "drive": {
+    "yt": "14qjFYFWZfc",
+    "title": "Driving in Greece 4K | Meteora Scenic Ring Road | ASMR Road Sounds",
+    "channel": "European Scenic Roads",
+    "date": "20250410",
+    "duration": 2281
    }
   },
   "kyiv": {
@@ -2160,6 +3407,13 @@
     "yt": "IcZ-7sFi1HM",
     "title": "LIVE: Ukraine real-time skyline cameras from Kharkiv, Donetsk, Kyiv, Sumy and more 2026-07-09 19:57",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "VoGNQri3CRo",
+    "title": "4K POV From the Western Gate of Kyiv to the City’s Heart – A Real-Time Drive Through History",
+    "channel": "Through Glass Road Trip",
+    "date": "20250720",
+    "duration": 2861
    }
   },
   "lviv": {
@@ -2169,6 +3423,13 @@
     "channel": "lviv city walk ",
     "date": "20230508",
     "duration": 2817
+   },
+   "drive": {
+    "yt": "iVjEQWw6Bwg",
+    "title": "4K DRIVE IN LVIV UKRAINE, JAN 2021",
+    "channel": "City Driver Max",
+    "date": "20210104",
+    "duration": 620
    }
   },
   "odesa": {
@@ -2187,6 +3448,13 @@
     "channel": "Travelinita Walking Tours",
     "date": "20251121",
     "duration": 4952
+   },
+   "drive": {
+    "yt": "Bf2ZTOJ2k4A",
+    "title": "Belgrade Serbia | Driving in the city 4K (part 1)",
+    "channel": "Cinematic Escapes",
+    "date": "20230429",
+    "duration": 1800
    }
   },
   "novi-sad": {
@@ -2196,6 +3464,13 @@
     "channel": "Syed Umer Nadeem",
     "date": "20230814",
     "duration": 1997
+   },
+   "drive": {
+    "yt": "Ut9nEZAUdLU",
+    "title": "Driving in Novi Sad, Serbia 🇷🇸 | Scenic city tour in 4K 🚗",
+    "channel": "Drive & Travel",
+    "date": "20250820",
+    "duration": 2432
    }
   },
   "luxembourg-city": {
@@ -2205,6 +3480,13 @@
     "channel": "Peaceful Walking Tours",
     "date": "20250124",
     "duration": 3043
+   },
+   "drive": {
+    "yt": "Mtb_ZyE7-jQ",
+    "title": "Luxembourg 4K: Driving Through the World’s Richest Country | Scenic City Tour",
+    "channel": "A Drive with AD",
+    "date": "20250911",
+    "duration": 2471
    }
   },
   "vilnius": {
@@ -2214,6 +3496,13 @@
     "channel": "BookingHunterTV",
     "date": "20250712",
     "duration": 3592
+   },
+   "drive": {
+    "yt": "aWYqI0PAwjI",
+    "title": "【4K】 Lithuania Vilnius Driving - UNESCO Old Town in January with City Sounds",
+    "channel": "Chojus Europe",
+    "date": "20210115",
+    "duration": 1544
    }
   },
   "trakai-castle": {
@@ -2223,6 +3512,13 @@
     "channel": "Zhiguli Travel",
     "date": "20200903",
     "duration": 2477
+   },
+   "drive": {
+    "yt": "SI06ozsL1yU",
+    "title": "【4K】 Lithuania Driving - Road from Vilnius, Trakai, Aukštadvaris to the Rotal SPA in Birštonas",
+    "channel": "Chojus Europe",
+    "date": "20250201",
+    "duration": 959
    }
   },
   "riga": {
@@ -2237,6 +3533,13 @@
     "yt": "oL4QI55KT6M",
     "title": "Streets in Riga  Live Stream 2026-07-09 19:57",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "LOFPSwWWfds",
+    "title": "I Was Not Expecting This - Driving tour of Riga Latvia | Europe Road Trip, S1 Ep47",
+    "channel": "Roaming Relaxation",
+    "date": "20251019",
+    "duration": 4965
    }
   },
   "chisinau": {
@@ -2246,6 +3549,13 @@
     "channel": "Odesa City Walk",
     "date": "20230924",
     "duration": 2543
+   },
+   "drive": {
+    "yt": "r2z7SpIJoV8",
+    "title": "🇲🇩 Chisinau 4K: A Summer Drive Through Downtown | Moldova 2024",
+    "channel": "MrDrive",
+    "date": "20240805",
+    "duration": 1322
    }
   },
   "bratislava": {
@@ -2260,6 +3570,13 @@
     "yt": "SXt2_-luUr8",
     "title": "Petržalka train station live stream, Bratislava, Slovakia 2026-07-10 08:31",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "Nu4g_R-bJIw",
+    "title": "Driving in Bratislava, Slovakia 🇸🇰 | Relaxing 4K Virtual City Drive",
+    "channel": "Drive & Travel",
+    "date": "20250704",
+    "duration": 4925
    }
   },
   "high-tatras": {
@@ -2278,6 +3595,13 @@
     "channel": "BookingHunterTV",
     "date": "20220515",
     "duration": 5182
+   },
+   "drive": {
+    "yt": "iFVu_w-tSDI",
+    "title": "LJUBLJANA Slovenia 🇸🇮 | City Driving Tour 4K 🚗 Scenic Capital Drive",
+    "channel": "Relaxing Roads 4K",
+    "date": "20260614",
+    "duration": 2251
    }
   },
   "lake-bled": {
@@ -2287,6 +3611,13 @@
     "channel": "The Traveler",
     "date": "20250427",
     "duration": 1523
+   },
+   "drive": {
+    "yt": "ZQMTBBAY-6o",
+    "title": "Driving in Slovenia 🇸🇮 | From Lake Bled to Ljubljana (4K Real Time)",
+    "channel": "My Road Trips",
+    "date": "20251210",
+    "duration": 2549
    }
   },
   "piran": {
@@ -2296,6 +3627,13 @@
     "channel": "Outside the Window",
     "date": "20250724",
     "duration": 1525
+   },
+   "drive": {
+    "yt": "pCaP5s7YKMI",
+    "title": "Driving in Slovenia 17: from Piran to Izola - Scenic Costal Drive 4K",
+    "channel": "Slovenia Walks & Views",
+    "date": "20250817",
+    "duration": 1024
    }
   },
   "vatican-city": {
@@ -2315,6 +3653,13 @@
     "yt": "EEM7a3mHMR4",
     "title": "Vatican Media Live - English 2026-07-09 19:58",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "P8NmaO8HRRs",
+    "title": "DRIVING in ROME & VATICAN CITY, Lazio, ITALY 4K",
+    "channel": "Just Driving 4K",
+    "date": "20250606",
+    "duration": 3983
    }
   },
   "moscow": {
@@ -2329,6 +3674,13 @@
     "yt": "mUh2SV4s_wc",
     "title": "Moscow LIVE CAM 24/7 | Relaxing Music for Study & Work | Rooftop City View 2026-07-09 19:58",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "Et-_-smO01E",
+    "title": "4K Driving in Moscow | REAL Moscow UNCOVERED",
+    "channel": "Livingstone in Russia",
+    "date": "20251107",
+    "duration": 1608
    }
   },
   "saint-petersburg": {
@@ -2348,6 +3700,13 @@
     "yt": "dhVzWNos718",
     "title": "🕹 LIVE CAMERA PTZ Amazing St. Petersburg Russia Live Chat. Невский пейзаж Санкт-Петербург живой чат 2026-07-10 08:32",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "rB5JpcnPsIA",
+    "title": "Saint Petersburg, Russia 🇷🇺 Driving Tour [4K 60 fps] Real Summer Streets 🚘",
+    "channel": "CHALÉNBRI - Driving Tour 4K",
+    "date": "20260717",
+    "duration": 2169
    }
   },
   "kazan": {
@@ -2357,6 +3716,13 @@
     "channel": "Sergey Khvostov",
     "date": "20241222",
     "duration": 1341
+   },
+   "drive": {
+    "yt": "6ySnrxlauNA",
+    "title": "POV Day Drive in Kazan, Russia 🇷🇺 | Silent City Driving",
+    "channel": "Silent Drive Russia",
+    "date": "20260103",
+    "duration": 1675
    }
   },
   "lake-baikal": {
@@ -2366,6 +3732,13 @@
     "channel": "Vagabondity Walks",
     "date": "20240703",
     "duration": 1816
+   },
+   "drive": {
+    "yt": "SMnA6IM33_M",
+    "title": "4K Scenic Drive Video - Dirt Road Drive along Olkhon Island, Lake Baikal, Russia",
+    "channel": "Amazing Scenic Drives",
+    "date": "20210522",
+    "duration": 9355
    }
   },
   "buenos-aires": {
@@ -2378,6 +3751,13 @@
     "yt": "urwuIKd8eEo",
     "title": "BUENOS AIRES, Argentina en Vivo 🇦🇷  24/7 (Live Camera Argentina 2026-07-09 19:59",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "-TPJot7-HTs",
+    "title": "Buenos Aires 4K - Driving Downtown - Morning Drive",
+    "channel": "J Utah",
+    "date": "20200428",
+    "duration": 2949
    }
   },
   "bariloche": {
@@ -2387,6 +3767,13 @@
     "channel": "CarpoWalks",
     "date": "20230903",
     "duration": 4134
+   },
+   "drive": {
+    "yt": "Tn2hUOY1lJY",
+    "title": "[4K] BARILOCHE #driving TOUR 2023 [calles del CENTRO atardeciendo] - RÍO NEGRO - PATAGONIA ARGENTINA",
+    "channel": "Ponta do Gi",
+    "date": "20230419",
+    "duration": 845
    }
   },
   "mendoza": {
@@ -2406,6 +3793,13 @@
     "yt": "Vox_qgF8TUQ",
     "title": "Las Cuevas - Mendoza - Diario UNO 2026-07-09 19:59",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "dVwTCCww9X4",
+    "title": "MENDOZA ALREDEDORES Driving Tour - Argentina [4K|60fps]",
+    "channel": "Habi Tours",
+    "date": "20220301",
+    "duration": 2398
    }
   },
   "ushuaia": {
@@ -2420,6 +3814,13 @@
     "yt": "M21hM0Epa6M",
     "title": "Cámaras Ushuaia 2026-07-09 20:00",
     "verified": "2026-07-09"
+   },
+   "drive": {
+    "yt": "l8hVsoTp1_o",
+    "title": "🇦🇷 Driving Tour Ushuaia - Argentina - 1080HD",
+    "channel": "Dash Cam Downtown",
+    "date": "20221205",
+    "duration": 3901
    }
   },
   "salar-de-uyuni": {
@@ -2429,6 +3830,13 @@
     "channel": "World Watcher",
     "date": "20221028",
     "duration": 6262
+   },
+   "drive": {
+    "yt": "UMNM_R2NYpI",
+    "title": "🇧🇴 Driving Tour Uyuni - Bolivia -1080HD",
+    "channel": "Dash Cam Downtown",
+    "date": "20221227",
+    "duration": 1454
    }
   },
   "sucre": {
@@ -2447,6 +3855,13 @@
     "channel": "World Watcher",
     "date": "20231013",
     "duration": 6824
+   },
+   "drive": {
+    "yt": "XoRDuRQcmCg",
+    "title": "Cartagena Colombia 4k Driving Tour Travel",
+    "channel": "Wonderliv Travel",
+    "date": "20210310",
+    "duration": 4258
    }
   },
   "medellin": {
@@ -2456,6 +3871,13 @@
     "channel": "World Wanderings: 4K Walking Tours",
     "date": "20251128",
     "duration": 4077
+   },
+   "drive": {
+    "yt": "NTPTVtSzXPo",
+    "title": "Medellin 4K - Driving in Colombia - El Poblado, La Candelaria, Centro Commercial",
+    "channel": "World Driving Tours",
+    "date": "20230617",
+    "duration": 4347
    }
   },
   "punta-del-este": {
@@ -2465,6 +3887,13 @@
     "channel": "4K WALK",
     "date": "20220107",
     "duration": 1828
+   },
+   "drive": {
+    "yt": "V1eUruS-Wu8",
+    "title": "Driving through Punta del Este Uruguay in 4K",
+    "channel": "Relaxing Walks & Roads",
+    "date": "20260312",
+    "duration": 1293
    }
   },
   "colonia-del-sacramento": {
@@ -2474,6 +3903,13 @@
     "channel": "4:ELEMENTOS AMBIENCE",
     "date": "20230118",
     "duration": 2033
+   },
+   "drive": {
+    "yt": "zX1a6YI3wzY",
+    "title": "COLONIA DEL SACRAMENTO 2025 [URUGUAY] CALLECITAS EMPEDRADAS llenas de HISTÓRIA #driving TOUR 4K",
+    "channel": "Ponta do Gi",
+    "date": "20250304",
+    "duration": 1590
    }
   },
   "trinidad": {
@@ -2483,6 +3919,13 @@
     "channel": "Walking Tourist",
     "date": "20260327",
     "duration": 1976
+   },
+   "drive": {
+    "yt": "cbocYysKxOc",
+    "title": "DRIVING in TRINIDAD, Sancti Spíritus Province, CUBA I 4K 60fps",
+    "channel": "Just Driving 4K",
+    "date": "20240616",
+    "duration": 2360
    }
   },
   "varadero": {
@@ -2492,6 +3935,13 @@
     "channel": "Travel with Gelo",
     "date": "20230927",
     "duration": 2936
+   },
+   "drive": {
+    "yt": "_HSJO_WiL2U",
+    "title": "Morning Drive (4K) Varadero Cuba",
+    "channel": "Travel Fun 69",
+    "date": "20200724",
+    "duration": 910
    }
   },
   "san-jose": {
@@ -2504,6 +3954,13 @@
     "yt": "VBSxPjy5sow",
     "title": "San Jose City Hall Peregrine Falcon Camera - Nest Box 2026-07-09 20:01",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "LgvM-PsVj2g",
+    "title": "【4K 60fps】🇨🇷 ¾ HOUR RELAXATION FILM: 🚗 «Driving in San Jose (Costa Rica)» Ultra HD 📺 UHD 2160p TV",
+    "channel": "One Man Wolf Pack",
+    "date": "20230125",
+    "duration": 2714
    }
   },
   "arenal-volcano": {
@@ -2532,6 +3989,13 @@
     "yt": "kfLA8ep2PmM",
     "title": "BDRRMC.. LIVE Brgy Monteverde front outside #phillipines #liveoncam 2026-07-09 20:01",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "hp7VP3_ASWk",
+    "title": "| 4K | Tropical Rainforest & Mountain Drive | Monteverde | Costa Rica | 2023 | Relaxing | ASMR",
+    "channel": "Liminal Roadshow",
+    "date": "20230822",
+    "duration": 3793
    }
   },
   "manuel-antonio": {
@@ -2541,6 +4005,13 @@
     "channel": "Travelheadz",
     "date": "20240921",
     "duration": 2882
+   },
+   "drive": {
+    "yt": "0p75LjzESv8",
+    "title": "Drive Through of Manuel Antonio, Costa Rica 4K - KNOW BEFORE YOU GO 🇨🇷",
+    "channel": "The Dufresnes",
+    "date": "20230613",
+    "duration": 1047
    }
   },
   "belize-city": {
@@ -2550,6 +4021,13 @@
     "channel": "EchoSteps",
     "date": "20260314",
     "duration": 5975
+   },
+   "drive": {
+    "yt": "2UsIkFaP-YM",
+    "title": "Belize City, Belize 4K - Downtown Drive",
+    "channel": "Epic Parades and Festivals",
+    "date": "20241018",
+    "duration": 4061
    }
   },
   "sydney": {
@@ -2557,6 +4035,13 @@
     "yt": "5uZa3-RMFos",
     "title": "WebcamSydney 1 Live Stream of Harbour 24/7 (~4K) 2026-07-09 20:02",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "wMu6Va5PhGY",
+    "title": "Driving Sydney 4K HDR - Morning Drive - Australia",
+    "channel": "J Utah",
+    "date": "20231124",
+    "duration": 3040
    }
   },
   "melbourne": {
@@ -2576,6 +4061,13 @@
     "yt": "l_8DrACHpwY",
     "title": "MELBOURNE Live from Platinum Apartments 2026-07-09 20:02",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "81n46krHrQA",
+    "title": "Melbourne 4K - Driving Downtown - Australia",
+    "channel": "J Utah",
+    "date": "20231110",
+    "duration": 2947
    }
   },
   "uluru": {
@@ -2585,6 +4077,13 @@
     "channel": "THE TRAVEL JUNKIE",
     "date": "20251120",
     "duration": 2320
+   },
+   "drive": {
+    "yt": "756CkJ4o8g8",
+    "title": "Driving From Adelaide To Uluru and Back! Australia's Northern & Southern Territory MUST SEE HOTSPOTS",
+    "channel": "HD Vlogs",
+    "date": "20230224",
+    "duration": 962
    }
   },
   "great-barrier-reef": {
@@ -2604,6 +4103,13 @@
     "yt": "DHUnz4dyb54",
     "title": "Tropical Reef Camera powered by EXPLORE.org 2026-07-09 20:02",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "SNWLYNzJA7k",
+    "title": "10+ Stops on the Great Barrier Reef Drive | Cairns to Cape Tribulation Road Trip | North Queensland",
+    "channel": "Aquarius Traveller",
+    "date": "20221105",
+    "duration": 807
    }
   },
   "cairns": {
@@ -2613,6 +4119,13 @@
     "channel": "IBO CAAV",
     "date": "20250519",
     "duration": 2044
+   },
+   "drive": {
+    "yt": "NH6D8TkDBy0",
+    "title": "[4K] Amazing Drive CAIRNS City, Australia",
+    "channel": "Driving Brisbane",
+    "date": "20210603",
+    "duration": 1640
    }
   },
   "perth": {
@@ -2627,6 +4140,13 @@
     "yt": "uakxJIafWcw",
     "title": "St John of God Mt Lawley, Perth 2026-07-09 20:02",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "-ja--f3D5tE",
+    "title": "Driving in Perth: Driving Through Perth City Centre (Western Australia) - 4K Super HD",
+    "channel": "City Walkthrough",
+    "date": "20230807",
+    "duration": 1910
    }
   },
   "auckland": {
@@ -2646,6 +4166,13 @@
     "yt": "PaLDpyFxpXE",
     "title": "🔴 LIVE Auckland NOW 🌤️ Harbour, Skyline & Cruise Ships | 4K 24/7 #livecam 2026-07-09 20:03",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "WdLXsvPT9VU",
+    "title": "Driving Downtown - Auckland 4K HDR - New Zealand",
+    "channel": "J Utah",
+    "date": "20231114",
+    "duration": 2667
    }
   },
   "wellington": {
@@ -2665,6 +4192,13 @@
     "yt": "v7xySvhug0Y",
     "title": "Camview: Wellington Airport Webcam Live Stream (Secondary 1080p) 2026-07-09 20:03",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "p-Ddk9_Od-A",
+    "title": "[4K] Driving Wellington: CBD to Oriental Bay / New Zealand’s Most Iconic Coastal Route",
+    "channel": "FernzDrive",
+    "date": "20251009",
+    "duration": 1163
    }
   },
   "rotorua": {
@@ -2674,6 +4208,13 @@
     "channel": "Virtual New Zealand",
     "date": "20210407",
     "duration": 1569
+   },
+   "drive": {
+    "yt": "yBjfXb6SNVA",
+    "title": "4K - Driving Rotorua New Zealand",
+    "channel": "ddsuke Films",
+    "date": "20220212",
+    "duration": 1455
    }
   },
   "milford-sound": {
@@ -2683,6 +4224,13 @@
     "channel": "Walk n Roll",
     "date": "20220317",
     "duration": 1691
+   },
+   "drive": {
+    "yt": "i5fqV9Ddg3s",
+    "title": "Milford Sound Scenic Drive 4K | Te Anau Downs to Milford Sound, New Zealand",
+    "channel": "Dashcam Roadshow",
+    "date": "20240217",
+    "duration": 5062
    }
   },
   "washington-dc": {
@@ -2697,6 +4245,13 @@
     "yt": "oDCAAfOSqvA",
     "title": "EarthCam Live:  Washington Monument (Washington, D.C.) 2026-07-09 20:03",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "Z5SdmvLSotY",
+    "title": "Washington DC City Drive 4K - Driving Tour of The District / United States Capital",
+    "channel": "The Travel Docket",
+    "date": "20241212",
+    "duration": 5009
    }
   },
   "boston": {
@@ -2716,6 +4271,13 @@
     "yt": "49WtyN1V1ZQ",
     "title": "Boston Harbor, Massachusetts - Live - Hyatt Regency Boston Harbor 2026-07-09 20:04",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "BUuovuOZhX4",
+    "title": "Boston 4k | Driving the Back Bay | Driving Downtown | Massachusetts, USA",
+    "channel": "Peaceful Drives",
+    "date": "20211105",
+    "duration": 1863
    }
   },
   "philadelphia": {
@@ -2735,6 +4297,13 @@
     "yt": "OFaXopTIwSI",
     "title": "Kensington Cam 6 Philadelphia, PA. 2026-07-09 20:04",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "xG_ICh0LwXQ",
+    "title": "Philadelphia Pennsylvania City Drive 4K -  Driving Tour of Philly",
+    "channel": "The Travel Docket",
+    "date": "20241119",
+    "duration": 4282
    }
   },
   "chicago": {
@@ -2742,6 +4311,13 @@
     "yt": "O0UGT7AT3aw",
     "title": "EarthCam Live:  Chicago Skydeck Cam (Chicago, IL) 2026-07-09 20:04",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "Xn9gzG_qQoQ",
+    "title": "Driving into Downtown Chicago - Morning Drive - Chicago 4K",
+    "channel": "J Utah",
+    "date": "20211123",
+    "duration": 2687
    }
   },
   "new-orleans": {
@@ -2749,6 +4325,13 @@
     "yt": "MH0_mPt-VXE",
     "title": "FR24 - MSY New Orleans LIVE 24/7 2026-07-09 20:04",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "jGhnTfiG_RE",
+    "title": "Louisiana Driving Tour, USA. Downtown New Orleans - 4K",
+    "channel": "Fragile Rovers",
+    "date": "20241006",
+    "duration": 2645
    }
   },
   "miami": {
@@ -2768,6 +4351,13 @@
     "yt": "5YCajRjvWCg",
     "title": "Miami Live Webcam | Biscayne Bay North Waterfront Views 24/7 | Florida Live Cams 2026-07-09 20:04",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "eXcbc2gmDsA",
+    "title": "Miami 4K - Driving from Downtown to Miami Beach",
+    "channel": "World Driving Tours",
+    "date": "20230606",
+    "duration": 4252
    }
   },
   "savannah": {
@@ -2777,6 +4367,13 @@
     "channel": "City Wander",
     "date": "20211022",
     "duration": 4012
+   },
+   "drive": {
+    "yt": "U47S7W2kd64",
+    "title": "Savannah Georgia City Drive 4K -  Driving The 'Hostess City of the South'",
+    "channel": "The Travel Docket",
+    "date": "20250728",
+    "duration": 3683
    }
   },
   "charleston": {
@@ -2786,6 +4383,13 @@
     "channel": "Fragile Rovers",
     "date": "20240908",
     "duration": 3198
+   },
+   "drive": {
+    "yt": "X86G22lIAnQ",
+    "title": "Charleston South Carolina City Drive 4K -  Chucktown Driving Tour",
+    "channel": "The Travel Docket",
+    "date": "20250806",
+    "duration": 3974
    }
   },
   "nashville": {
@@ -2795,6 +4399,13 @@
     "channel": "Travel Hopper TV",
     "date": "20260202",
     "duration": 1055
+   },
+   "drive": {
+    "yt": "1BFpEjHKbos",
+    "title": "Driving Nashville, TN | 4K | GET GO SEE",
+    "channel": "GET GO SEE",
+    "date": "20260207",
+    "duration": 1220
    }
   },
   "austin": {
@@ -2809,6 +4420,13 @@
     "yt": "AnFai4SlzsI",
     "title": "Villages of Hidden Lake Live Weather Cam in Pflugerville, Texas (Austin) 2026-07-10 08:50",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "KrlVCzxq1iQ",
+    "title": "Downtown Austin, Texas, USA - 4K Driving Tour",
+    "channel": "Fragile Rovers",
+    "date": "20231029",
+    "duration": 1687
    }
   },
   "san-antonio": {
@@ -2823,6 +4441,13 @@
     "yt": "wYC4yn1q_IU",
     "title": "LIVE NOW: Morning traffic conditions in San Antonio 2026-07-10 08:36",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "aR3A121sC0M",
+    "title": "San Antonio Texas 4K City Drive - Alamo City Driving Tour",
+    "channel": "The Travel Docket",
+    "date": "20260306",
+    "duration": 3501
    }
   },
   "las-vegas": {
@@ -2842,6 +4467,13 @@
     "yt": "nylxuqRtOPk",
     "title": "LIVE: Las Vegas Strip Stream | Real-Time View 2026-07-09 20:05",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "HZaLvgP-R8E",
+    "title": "Las Vegas 4K - Midnight Drive",
+    "channel": "J Utah",
+    "date": "20201006",
+    "duration": 4538
    }
   },
   "los-angeles": {
@@ -2861,6 +4493,13 @@
     "yt": "EO_1LWqsCNE",
     "title": "🔴 Los Angeles Live Cam · Venice Beach · Venice V Hotel · Live Camera Stream 2026-07-09 20:05",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "eR5vsN1Lq4E",
+    "title": "Los Angeles 4K - California Glow - Scenic Drive",
+    "channel": "J Utah",
+    "date": "20210921",
+    "duration": 2422
    }
   },
   "san-francisco": {
@@ -2868,6 +4507,13 @@
     "yt": "BSWhGNXxT9A",
     "title": "🔴 Mersea Restaurant LIVE Bay View · San Francisco Skyline, Golden Gate & Luxury Waterfront 🌉 2026-07-09 20:05",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "cdLUlIu2WCo",
+    "title": "San Francisco Driving Tour 4K - Driving Downtown San Francisco California",
+    "channel": "Jim and The Road",
+    "date": "20240902",
+    "duration": 2865
    }
   },
   "san-diego": {
@@ -2882,6 +4528,13 @@
     "yt": "iaBfYxbmwXA",
     "title": "San Diego Harbor Island Live Web Cam 4K 2026-07-09 20:05",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "Ua-q3Z9MS_4",
+    "title": "San Diego California 4K Driving Tour | Southern California's Beautiful Coastal City",
+    "channel": "Destination Drives",
+    "date": "20260601",
+    "duration": 3018
    }
   },
   "venice": {
@@ -2889,6 +4542,13 @@
     "yt": "7-XBRpKSv4Q",
     "title": "🔴 4K Live Webcam Venice - St. Mark's Basin in Live Streaming from Tribute to Music Venice 2026-07-10 07:55",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "QmPG_dgecaI",
+    "title": "Venice to Florence Drive | Breathtaking Italian Scenery in 4K",
+    "channel": "Trillionex Travel",
+    "date": "20251003",
+    "duration": 1526
    }
   },
   "aa-gunung-padang": {
@@ -2898,6 +4558,13 @@
     "channel": "EXPLO MEDIA",
     "date": "20230402",
     "duration": 1149
+   },
+   "drive": {
+    "yt": "jPVWQfkjG1c",
+    "title": "Balai Baru & Gunung Sarik Kota Padang | Driving Tour",
+    "channel": "EXPLO MEDIA",
+    "date": "20230730",
+    "duration": 801
    }
   },
   "taroko-gorge": {
@@ -2907,6 +4574,13 @@
     "channel": "Alan Walker and",
     "date": "20231122",
     "duration": 1713
+   },
+   "drive": {
+    "yt": "Fo9QPsArCL0",
+    "title": "4K Taroko Gorge Scenic Drive Xincheng to Tianxiang, Taiwan / 太魯閣驾车",
+    "channel": "Dashcam Roadshow",
+    "date": "20230115",
+    "duration": 2035
    }
   },
   "churchill": {
@@ -2914,6 +4588,13 @@
     "yt": "a0i1Kg6fROg",
     "title": "Northern Lights powered by EXPLORE.org 2026-07-10 08:08",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "IkqvJRnJCI4",
+    "title": "Mississauga 4K Drive | Hwy 403 → Winston Churchill → Ridgeway Plaza | Sunny Blue Skies",
+    "channel": "Drive POV 4K",
+    "date": "20251212",
+    "duration": 1126
    }
   },
   "paris": {
@@ -2921,6 +4602,13 @@
     "yt": "OzYp4NRZlwQ",
     "title": "Webcam Palais d’Iéna - Conseil Économique, Social et Environnemental - Vue Tour Eiffel - Paris 2026-07-10 08:08",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "IW8jllqb8BE",
+    "title": "Paris France 4K Driving Tour - Eiffel Tower, Champs-Élysées, City Drive",
+    "channel": "The Travel Docket",
+    "date": "20260130",
+    "duration": 4875
    }
   },
   "iguazu-falls": {
@@ -2937,6 +4625,13 @@
     "yt": "jw1Er6LyqT0",
     "title": "His Place Resort - LIVE RIVER CAM 2026-07-10 08:21",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "8of86AJXpAE",
+    "title": "🚗 Scenic 4K Drive Through Caledonia, Ontario 🇨🇦 | Charming Small-Town Views Along the Grand River 🌉",
+    "channel": "OurRetiredLife",
+    "date": "20250714",
+    "duration": 690
    }
   },
   "amsterdam": {
@@ -2944,6 +4639,13 @@
     "yt": "2tgHBRFHMm8",
     "title": "Amsterdam De Vijf Bruggen camera 1 2026-07-10 08:24",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "45ElhnOfj4U",
+    "title": "The Dutch Superhighway: Utrecht to Amsterdam - 🇳🇱 Netherlands [4K HDR] Driving Tour",
+    "channel": "Wanderlust Travel Videos",
+    "date": "20200620",
+    "duration": 1740
    }
   },
   "new-york-city": {
@@ -2951,6 +4653,13 @@
     "yt": "l7b5RFAkKhY",
     "title": "LIVE CAMERA: New York City Harbor, Brooklyn, New York | StreamTime LIVE 2026-07-10 08:35",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "7OgQjRn2x1w",
+    "title": "New York 4K - Driving Tour",
+    "channel": "World Driving Tours",
+    "date": "20240615",
+    "duration": 3918
    }
   },
   "seattle": {
@@ -2970,6 +4679,13 @@
     "yt": "NqOmHpwMUxs",
     "title": "Live sea otter / fur seal cam - Seattle Aquarium 2026-07-10 08:36",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "qVlBIqp5I5g",
+    "title": "Seattle Downtown Wander | Seattle, Washington, USA | 4K Highway Driving Tour | Beautiful City Travel",
+    "channel": "Trek Wanders",
+    "date": "20200322",
+    "duration": 922
    }
   },
   "portland-or": {
@@ -2989,6 +4705,13 @@
     "yt": "YIo_pnH0LzY",
     "title": "OTC Watersports Portland Harbour (UK) Live Webcam 2026-07-10 08:36",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "kxw4pIf6v9Y",
+    "title": "Portland Oregon City Drive 4K - Rose City Driving Tour",
+    "channel": "The Travel Docket",
+    "date": "20250912",
+    "duration": 5437
    }
   },
   "denver": {
@@ -3008,6 +4731,13 @@
     "yt": "X7m2dN-wcbU",
     "title": "Live: Denver Skyline Camera | FOX31 KDVR.com 2026-07-10 08:37",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "A-bUPdNIIxA",
+    "title": "Denver - Colorado - 4K Downtown Drive",
+    "channel": "Mileage Mike Travels",
+    "date": "20240825",
+    "duration": 4164
    }
   },
   "santa-fe": {
@@ -3022,6 +4752,13 @@
     "yt": "R168_-P5PQw",
     "title": "Santa Fe, NM | NMRX Santa Fe Sub, MP 18.32 - Static (Chat) | SouthWest RailCams LIVE 2026-07-10 08:37",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "OebqQY7mr0A",
+    "title": "Santa Fe Drive Part 2/2, New Mexico USA 4K - UHD",
+    "channel": "Driver",
+    "date": "20230128",
+    "duration": 2064
    }
   },
   "honolulu": {
@@ -3036,6 +4773,13 @@
     "yt": "8waVy4wM1tM",
     "title": "Waikiki Beach Marriott Resort & Spa | Waikiki Live Cam | Oahu Beach Cam 24/7 2026-07-10 08:37",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "sjutgRODXz0",
+    "title": "4K Hawaii DRIVE | Honolulu Airport to Waikiki in USA",
+    "channel": "Drive World Travel",
+    "date": "20241107",
+    "duration": 1892
    }
   },
   "grand-canyon": {
@@ -3045,6 +4789,13 @@
     "channel": "Action Walks",
     "date": "20220817",
     "duration": 3286
+   },
+   "drive": {
+    "yt": "bCOgAXq57gs",
+    "title": "Zion to Grand Canyon National Park Complete Scenic Drive 4K",
+    "channel": "AdventureEveryDay",
+    "date": "20240921",
+    "duration": 8329
    }
   },
   "yellowstone": {
@@ -3052,6 +4803,13 @@
     "yt": "dN1uDn-Luno",
     "title": "🌋 Yellowstone National Park | Old Faithful LIVE | Eruption Countdown 2026-07-10 08:37",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "Faezqk0OgBM",
+    "title": "Yellowstone's MOST BREATHTAKING Drive EVER - 4K Driving Adventure - Grand Loop Road",
+    "channel": "World of Drives",
+    "date": "20250308",
+    "duration": 7779
    }
   },
   "yosemite": {
@@ -3066,6 +4824,13 @@
     "yt": "vk62QErdX4Q",
     "title": "🏞️ Yosemite Falls 24/7 | Yosemite National Park | Nature Sounds for Sleep LIVE 2026-07-10 08:38",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "Rl-bozNhOeM",
+    "title": "Yosemite Valley Complete Scenic Drive California 4K Yosemite National Park",
+    "channel": "AdventureEveryDay",
+    "date": "20231118",
+    "duration": 2705
    }
   },
   "zion": {
@@ -3075,6 +4840,13 @@
     "channel": "Walking In Beauty",
     "date": "20230210",
     "duration": 2954
+   },
+   "drive": {
+    "yt": "GzVJgS9vFME",
+    "title": "ZION National Park, Utah - driving tour [4K]",
+    "channel": "Endless Walk",
+    "date": "20260222",
+    "duration": 770
    }
   },
   "bryce-canyon": {
@@ -3084,6 +4856,13 @@
     "channel": "Justin Wander World",
     "date": "20230720",
     "duration": 1114
+   },
+   "drive": {
+    "yt": "xsW00gX-KMs",
+    "title": "Bryce Canyon National Park 4K - Scenic Drive - Utah USA",
+    "channel": "J Utah",
+    "date": "20201002",
+    "duration": 2860
    }
   },
   "arches": {
@@ -3093,6 +4872,13 @@
     "channel": "World of Walks",
     "date": "20250830",
     "duration": 7894
+   },
+   "drive": {
+    "yt": "l-xaEoKGIxY",
+    "title": "Arches National Park 4K - Scenic Drive - Utah USA",
+    "channel": "J Utah",
+    "date": "20200923",
+    "duration": 3482
    }
   },
   "grand-teton": {
@@ -3112,6 +4898,13 @@
     "yt": "XhBUrjhJm1A",
     "title": "Live from Grand Teton National Park 2026-07-10 08:39",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "SeXcCz_mTcg",
+    "title": "Grand Teton National Park 4K - Scenic Drive - Wyoming USA",
+    "channel": "J Utah",
+    "date": "20210123",
+    "duration": 4622
    }
   },
   "glacier-np": {
@@ -3124,6 +4917,13 @@
     "yt": "jJI5w_RVGtQ",
     "title": "Mendenhall Glacier and Mountain Goat Cam  powered by EXPLORE.org 2026-07-10 08:39",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "nhVcEIQInBc",
+    "title": "[4K] Scenic Drive - Going To The Sun Road | Glacier National Park, Montana, USA",
+    "channel": "XtraMileS",
+    "date": "20201111",
+    "duration": 712
    }
   },
   "rocky-mountain-np": {
@@ -3138,6 +4938,13 @@
     "yt": "teGLziUvDkI",
     "title": "Gatlinburg SkyPark Live Webcam 2026-07-10 08:39",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "CiTg-iYVBYo",
+    "title": "Rocky Mountain National Park 4K | Estes Park to Grand Lake | Trail Ridge Road Complete Scenic Drive",
+    "channel": "AdventureEveryDay",
+    "date": "20221210",
+    "duration": 5010
    }
   },
   "great-smoky-mountains": {
@@ -3147,6 +4954,13 @@
     "channel": "Mr Walker",
     "date": "20251108",
     "duration": 4728
+   },
+   "drive": {
+    "yt": "7c_F8cJcSMM",
+    "title": "Great Smokey Mountain National Park 4K - Driving Into The Clouds - America's #1 National Park",
+    "channel": "J Utah",
+    "date": "20251210",
+    "duration": 4528
    }
   },
   "acadia": {
@@ -3166,6 +4980,13 @@
     "yt": "6DKkXdjFeeQ",
     "title": "Southwest Harbor, Maine - Acadia National Park LIVE 2026-07-10 08:39",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "FZBnbeFXjEs",
+    "title": "4k DRIVE ACADIA National Park Maine USA",
+    "channel": "Pete Drives USA",
+    "date": "20230525",
+    "duration": 1648
    }
   },
   "everglades": {
@@ -3180,6 +5001,13 @@
     "yt": "67-73mgWDf0",
     "title": "Port Everglades Traffic Cam.01 2026-07-10 08:40",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "3T1FhH5uJFQ",
+    "title": "America's National Parks: Driving Everglades National Park, Florida || 4k Video With Ambient Sound",
+    "channel": "Driving USA",
+    "date": "20231028",
+    "duration": 3005
    }
   },
   "sequoia": {
@@ -3189,6 +5017,13 @@
     "channel": "City Walks",
     "date": "20200924",
     "duration": 1858
+   },
+   "drive": {
+    "yt": "sCiv_hqX4_E",
+    "title": "Driving Tour of Kings Canyon National Park & Sequoia National Forest in 4K HD",
+    "channel": "Ride Along with Scott",
+    "date": "20210713",
+    "duration": 2782
    }
   },
   "death-valley": {
@@ -3198,6 +5033,13 @@
     "channel": "Where The Road Takes Us",
     "date": "20210423",
     "duration": 1194
+   },
+   "drive": {
+    "yt": "TnDsYOXn0cw",
+    "title": "Death Valley National Park Scenic Desert Drive 4K California - 4.5 Hours",
+    "channel": "AdventureEveryDay",
+    "date": "20240518",
+    "duration": 16258
    }
   },
   "joshua-tree": {
@@ -3207,6 +5049,13 @@
     "channel": "HD Adventure",
     "date": "20231011",
     "duration": 1849
+   },
+   "drive": {
+    "yt": "cCddGzOlbjI",
+    "title": "Joshua Tree National Park Scenic Byway: Driving Tour [4K HD]",
+    "channel": "ViaTravelers",
+    "date": "20210331",
+    "duration": 1418
    }
   },
   "olympic-np": {
@@ -3214,6 +5063,13 @@
     "yt": "lJOROUvD8sU",
     "title": "🔴 LIVE: Celebrate 250 Years of America! | National Parks USA LIVESTREAM | National Geographic 2026-07-10 08:41",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "jr8GNsPxBg8",
+    "title": "Olympic Peninsula Scenic Drive to Olympic National Park Washington 4K - Pacific Coast Mountains",
+    "channel": "AdventureEveryDay",
+    "date": "20241130",
+    "duration": 8592
    }
   },
   "mount-rainier": {
@@ -3233,6 +5089,13 @@
     "yt": "DfwGgIvCYL4",
     "title": "Pierce County Live Cam | Mount Rainier, Tacoma Skyline & Thea Foss Waterway in 1080p HD 2026-07-10 08:41",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "agFVt-BLNrQ",
+    "title": "Scenic Driving Mount Rainier/ Epic Views/ Paradise/ Stevens Canyon",
+    "channel": "Adventures of Mom, Dad, Girl & a Little, White Dog",
+    "date": "20230802",
+    "duration": 946
    }
   },
   "hawaii-volcanoes": {
@@ -3252,6 +5115,13 @@
     "yt": "HggWKlZv9yk",
     "title": "[V1cam] Kīlauea volcano, Hawaii (west Halemaʻumaʻu crater) 2026-07-10 08:41",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "v6MZtAmo-8s",
+    "title": "Hawaiʻi Volcanoes National Park • GoPro Drive Around 4K • Crater Rim Drive • Big Island",
+    "channel": "Road Trips Unlimited",
+    "date": "20230320",
+    "duration": 2376
    }
   },
   "monument-valley": {
@@ -3266,6 +5136,13 @@
     "yt": "IB55Ni_wJcQ",
     "title": "Vermont Covered Bridge Webcam in HD from the Mad River Valley 🌷 *Sponsor This Webcam! More Info ⬇️* 2026-07-10 08:42",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "tEhrLr3ETyI",
+    "title": "Monument Valley Complete Scenic Loop Drive 4K | Navajo Tribal Park Arizona & Utah",
+    "channel": "AdventureEveryDay",
+    "date": "20230211",
+    "duration": 4582
    }
   },
   "antelope-canyon": {
@@ -3280,6 +5157,13 @@
     "yt": "NEK2iTuyOX4",
     "title": "LIVE 24/7 | Lake Powell Marina Cam | Boats, Sunsets & Marina views! 2026-07-10 08:42",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "7SthXxdveKo",
+    "title": "Driving From Grand Canyon South Rim to Antelope Canyon | Desert Roads & Epic Views in 4K",
+    "channel": "4kProTravel",
+    "date": "20260525",
+    "duration": 3091
    }
   },
   "sedona": {
@@ -3294,6 +5178,13 @@
     "yt": "JlxDI6rGH-U",
     "title": "SedonaLiveCam.com 2026-07-10 08:42",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "4-daKW2Rz_I",
+    "title": "Sedona, Arizona | 4k Driving Tour | Dashcam",
+    "channel": "Oregon Tropics",
+    "date": "20210723",
+    "duration": 1649
    }
   },
   "mount-rushmore": {
@@ -3303,6 +5194,13 @@
     "channel": "American Walks",
     "date": "20250917",
     "duration": 690
+   },
+   "drive": {
+    "yt": "9A9OJXrFyx4",
+    "title": "Iron Mountain Road 4K Drive | Tunnels, Bridges & Mount Rushmore Views in Custer State Park!",
+    "channel": "4k Scenic Drives and Hikes Worldwide",
+    "date": "20241229",
+    "duration": 2432
    }
   },
   "lake-tahoe": {
@@ -3317,6 +5215,13 @@
     "yt": "_li9Rpd3Y40",
     "title": "South Lake Tahoe Airport Live Webcam - North 2026-07-10 08:42",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "-B8TvxvSNqQ",
+    "title": "Lake Tahoe, USA - Full Scenic Drive Around Entire Lake || 4k",
+    "channel": "Driving USA",
+    "date": "20220829",
+    "duration": 7310
    }
   },
   "big-sur": {
@@ -3336,6 +5241,13 @@
     "yt": "j_rQ1Wky7l0",
     "title": "LIVE California Condor Pen Cam - Big Sur, CA | explore.org 2026-07-10 08:43",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "VAsVoZYNakY",
+    "title": "Big Sur, California: 1 Day Road Trip to Beaches, Waterfalls, Bridges and Elephant Seals",
+    "channel": "Through My Lens",
+    "date": "20220828",
+    "duration": 970
    }
   },
   "maui": {
@@ -3355,6 +5267,13 @@
     "yt": "YXji6UQ0bwY",
     "title": "Live From Sheraton Maui Resort & Spa | Maui Beach Webcam | Kaanapali Beach Hawaii 2026-07-10 08:43",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "Sv_trRCdnBY",
+    "title": "Maui: Kapalua to Lahaina scenic drive 4k",
+    "channel": "Loctus",
+    "date": "20220201",
+    "duration": 4408
    }
   },
   "kauai": {
@@ -3374,6 +5293,13 @@
     "yt": "M6kN1wlNSk4",
     "title": "Royal Sonesta Kauai Live Stream | Poipu Beach Hawaii Cam | Real-Time Hawaii Beach Cam 2026-07-10 08:43",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "Y4YAh-muokI",
+    "title": "Driving on Kauai Walmart Haena State Park Queen’s Bath Hanalei in 4K Virtual Drive November 2022",
+    "channel": "Portland Andy Travels",
+    "date": "20221119",
+    "duration": 7121
    }
   },
   "key-west": {
@@ -3388,6 +5314,13 @@
     "yt": "iHJbTrQSZys",
     "title": "LIVE - Key West Harbor Webcam from PTZtv. 2026-07-10 08:43",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "Sx4kU-l6Qos",
+    "title": "Key West's MOST SCENIC Drive - 4K Florida Driving Adventure",
+    "channel": "World of Drives",
+    "date": "20250429",
+    "duration": 3437
    }
   },
   "outer-banks": {
@@ -3402,6 +5335,13 @@
     "yt": "WEhuDqlxHmM",
     "title": "Live Outer Banks, NC Webcam from Twiddy & Company 2026-07-10 08:44",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "DmLpKbkrIRg",
+    "title": "Kitty Hawk - Outer Banks - North Carolina - 4K Downtown Drive",
+    "channel": "Mileage Mike Travels",
+    "date": "20220602",
+    "duration": 947
    }
   },
   "rome": {
@@ -3409,6 +5349,434 @@
     "yt": "gXm3PGF4z0s",
     "title": "Roma Live Cam - Rione Prati, Cupola di San Pietro 2026-07-10 08:50",
     "verified": "2026-07-10"
+   },
+   "drive": {
+    "yt": "AdtBRICOD9U",
+    "title": "The Eternal City 4K Driving Tour - Rome Italy City Drive",
+    "channel": "The Travel Docket",
+    "date": "20251020",
+    "duration": 3815
+   }
+  },
+  "tatev-monastery": {
+   "drive": {
+    "yt": "xHOe9QvidT4",
+    "title": "Tatev to Kapan, Driving Tour, Dec 2021, Armenia. 4K 60fps",
+    "channel": "OBSERVER",
+    "date": "20220110",
+    "duration": 4468
+   }
+  },
+  "point-farms": {
+   "drive": {
+    "yt": "DKB09abUaYU",
+    "title": "230620 Point Farms Provincial Park Drive-Through (w captions)",
+    "channel": "Gary Martin",
+    "date": "20230623",
+    "duration": 2723
+   }
+  },
+  "pinery": {
+   "drive": {
+    "yt": "bmWECJMDQ-s",
+    "title": "220608 Pinery Provincial Park Drive-Through (w captions)",
+    "channel": "Gary Martin",
+    "date": "20220609",
+    "duration": 4082
+   }
+  },
+  "rio-de-janeiro": {
+   "walk": {
+    "yt": "m4pT1j2-c-s",
+    "title": "Rio de Janeiro Walking Tour - 4K60fps with Captions - Prowalk Tours Brazil",
+    "channel": "Prowalk Tours",
+    "date": "20240323",
+    "duration": 12884
+   },
+   "drive": {
+    "yt": "C_Um8buH8dY",
+    "title": "【4K】Driving in Rio de Janeiro -  From Downtown Taquara to Grumari Beach | D&W Tours",
+    "channel": "Driving&Walk Tours",
+    "date": "20220302",
+    "duration": 2863
+   },
+   "live": {
+    "yt": "H9PjnvCMoOs",
+    "title": "Cristo Redentor Ao Vivo En Vivo| Christ the Redeemer Live Cam — Rio de Janeiro Brazil 2026-07-17 17:29",
+    "verified": "2026-07-17"
+   },
+   "window": {
+    "yt": "O8ZLvDZ_WKQ",
+    "title": "Rio de Janeiro Live Webcam | São Conrado Beach & Hang Gliding Landing Area 2026-07-17 17:29",
+    "verified": "2026-07-17"
+   }
+  },
+  "queenstown": {
+   "drive": {
+    "yt": "oqBQugKv9QQ",
+    "title": "【4K HDR】Driving Queenstown New Zealand!",
+    "channel": "Virtual New Zealand",
+    "date": "20210527",
+    "duration": 1254
+   }
+  },
+  "denali": {
+   "drive": {
+    "yt": "lb5YPFBLVGg",
+    "title": "Alaska : Denali National Park and Preserve scenic drive 4k (peak fall colors)",
+    "channel": "Loctus",
+    "date": "20211014",
+    "duration": 8933
+   }
+  },
+  "st-louis": {
+   "walk": {
+    "yt": "TIABBNsylEE",
+    "title": "St. Louis Arch Walk Part 1, Missouri USA 4K - UHD",
+    "channel": "No Talk",
+    "date": "20230121",
+    "duration": 1204
+   },
+   "drive": {
+    "yt": "QWlXXeETG1k",
+    "title": "Downtown St Louis Missouri City Drive 4K - Driving Tour",
+    "channel": "The Travel Docket",
+    "date": "20240302",
+    "duration": 2841
+   },
+   "live": {
+    "yt": "NXmFAhX_3vY",
+    "title": "🔴 LIVE Trains Railcam | St Louis, Missouri (PTZ) 2026-07-17 17:30",
+    "verified": "2026-07-17"
+   },
+   "window": {
+    "yt": "9eqVB3JbJHc",
+    "title": "Saint Louis, Missouri, USA  |  LIVE Train Camera  (PTZ - West) 2026-07-17 17:30",
+    "verified": "2026-07-17"
+   }
+  },
+  "marrakesh": {
+   "drive": {
+    "yt": "DsDadRcjWhs",
+    "title": "Colors of Marrakech: A Breathtaking Drive through the Medina (Morocco, 4K)",
+    "channel": "The Cruiser",
+    "date": "20230729",
+    "duration": 2291
+   }
+  },
+  "cairo": {
+   "drive": {
+    "yt": "--I-TdCe2_g",
+    "title": "Cairo 4K - Driving Downtown - Egypt",
+    "channel": "J Utah",
+    "date": "20201111",
+    "duration": 2627
+   }
+  },
+  "nairobi": {
+   "drive": {
+    "yt": "l7xvpe4JGf0",
+    "title": "Driving Through Nairobi in 4K — The African City They Never Show You!",
+    "channel": "Doctor Harry",
+    "date": "20251107",
+    "duration": 1777
+   }
+  },
+  "dakar": {
+   "drive": {
+    "yt": "UcxwPzzO-GA",
+    "title": "Exploring Dakar, Senegal | Driving Tour of the Vibrant Capital 🚗🌍",
+    "channel": "Emile PADJA",
+    "date": "20230820",
+    "duration": 2080
+   }
+  },
+  "addis-ababa": {
+   "drive": {
+    "yt": "94LfGLLiU6o",
+    "title": "Addis Ababa's Hidden Gems: 2025 Driving Tour in 4K",
+    "channel": "ZeABAY 🎭",
+    "date": "20250103",
+    "duration": 2569
+   }
+  },
+  "johannesburg": {
+   "drive": {
+    "yt": "_XMr0bE5cwo",
+    "title": "Johannesburg 4K - Africa's Richest Square Mile - Sandton Morning Drive",
+    "channel": "J Utah",
+    "date": "20220303",
+    "duration": 2950
+   }
+  },
+  "aa-ggantija": {
+   "drive": {
+    "yt": "LW-WhE_QrLg",
+    "title": "Driving on Gozo Island Malta from Ġgantija to Victoria to Marsalforn to Dwejra Gulf",
+    "channel": "Roads",
+    "date": "20231205",
+    "duration": 2340
+   }
+  },
+  "aa-white-sands": {
+   "drive": {
+    "yt": "GdukKU5HU-Y",
+    "title": "White Sands National Park 4K drive (Dunes Drive) - New Mexico",
+    "channel": "Adventure Theater",
+    "date": "20220602",
+    "duration": 2096
+   }
+  },
+  "beijing": {
+   "drive": {
+    "yt": "zOYkI9GPfOo",
+    "title": "Beijing Driving Tour - This is the most authentic street view of the Chinese capital - 4K HDR",
+    "channel": "China Street View",
+    "date": "20230317",
+    "duration": 9350
+   }
+  },
+  "shanghai": {
+   "drive": {
+    "yt": "bOamPlGMM8M",
+    "title": "Driving Tour in Shanghai - One of the most economically developed cities in China - 4K HDR",
+    "channel": "China Street View",
+    "date": "20241115",
+    "duration": 5900
+   }
+  },
+  "new-delhi": {
+   "drive": {
+    "yt": "dU-90dPtFas",
+    "title": "DRIVING in NEW DELHI, NCT of Delhi, INDIA 4K",
+    "channel": "Just Driving 4K",
+    "date": "20250911",
+    "duration": 1969
+   }
+  },
+  "mumbai": {
+   "drive": {
+    "yt": "WyUudk7NI3I",
+    "title": "Mumbai (मुंबई) 4K - Driving Downtown - Evening Drive",
+    "channel": "Life Ambience",
+    "date": "20230123",
+    "duration": 1613
+   }
+  },
+  "kuala-lumpur": {
+   "drive": {
+    "yt": "Vi4eWrSbuKY",
+    "title": "KUALA LUMPUR, Malaysia 🇲🇾 4K Driving Tour 2024 | Bukit Bintang and City Center",
+    "channel": "Drive Euphoria",
+    "date": "20240630",
+    "duration": 2195
+   }
+  },
+  "manila": {
+   "drive": {
+    "yt": "1Ozc-wAiTlc",
+    "title": "Driving on Manila's Busiest Highway - EDSA | Pasay to Caloocan Full Drive Tour | 4K | Philippines",
+    "channel": "Tour From Home TV",
+    "date": "20220811",
+    "duration": 4563
+   }
+  },
+  "dubai": {
+   "drive": {
+    "yt": "6RPU08WoaxE",
+    "title": "Dubai 2024 - Driving Tour in 4K",
+    "channel": "World Driving Tours",
+    "date": "20240512",
+    "duration": 7218
+   }
+  },
+  "aa-bimini-road": {
+   "drive": {
+    "yt": "FU6WWvS1tiQ",
+    "title": "Bimini Bahamas Drive Through Queen's Highway",
+    "channel": "hifihaxor",
+    "date": "20220509",
+    "duration": 850
+   }
+  },
+  "aa-karahan-tepe": {
+   "drive": {
+    "yt": "2d-3ud7t_mw",
+    "title": "Turkey solo driving tour (4) Mount Nemrut to Göbeklitepe (190km)",
+    "channel": "Traveller ABC",
+    "date": "20230110",
+    "duration": 1290
+   }
+  },
+  "copenhagen": {
+   "drive": {
+    "yt": "sSjc7zs_v6I",
+    "title": "🇩🇰 Copenhagen Driving Tour Denmark in 4K video. Explore from Nyhavn to Rosenborg Castle",
+    "channel": "Edu Thomas",
+    "date": "20240804",
+    "duration": 6464
+   }
+  },
+  "krakow": {
+   "drive": {
+    "yt": "cpnOJaZlPaI",
+    "title": "Driving in KRAKOW Poland 🇵🇱 | Vibrant City Tour in 4K 🚗",
+    "channel": "Relaxing Roads 4K",
+    "date": "20240110",
+    "duration": 2345
+   }
+  },
+  "dubrovnik": {
+   "drive": {
+    "yt": "JJbwNFtKCb0",
+    "title": "Dubrovnik | Driving Downtown 4k",
+    "channel": "Amijn BayerTV (Tours)",
+    "date": "20230527",
+    "duration": 1345
+   }
+  },
+  "athens": {
+   "drive": {
+    "yt": "8Hm0rMpapKY",
+    "title": "Athens, Greece 🇬🇷 Scenic Drive, Driving Tour 4K HDR  | Capital of Greece Athens, Greece",
+    "channel": "Urban Traveler TV",
+    "date": "20250723",
+    "duration": 3862
+   }
+  },
+  "budapest": {
+   "drive": {
+    "yt": "deAqBnEa3qI",
+    "title": "🇭🇺 Budapest, Hungary - Spring Driving Tour (4K HDR 60fps.) May 2024",
+    "channel": "Driving Experience",
+    "date": "20240525",
+    "duration": 3691
+   }
+  },
+  "bruges": {
+   "drive": {
+    "yt": "8t9VJ3rXbwc",
+    "title": "Driving in Belgium (Bruges) 🚗 Sunset Drive in Bruges City Centre | Driving in Europe [4K HDR]",
+    "channel": "Planet Drive ",
+    "date": "20230101",
+    "duration": 1673
+   }
+  },
+  "istanbul": {
+   "drive": {
+    "yt": "RKIPWCWldzE",
+    "title": "Istanbul 4K - Driving Downtown - Turkey",
+    "channel": "J Utah",
+    "date": "20201121",
+    "duration": 5558
+   }
+  },
+  "madrid": {
+   "drive": {
+    "yt": "C911U_Fo-QU",
+    "title": "Madrid 4K - Driving Downtown - Spain",
+    "channel": "J Utah",
+    "date": "20210825",
+    "duration": 4101
+   }
+  },
+  "kotor": {
+   "drive": {
+    "yt": "z94vn-Ca-fE",
+    "title": "Kotor Serpentine – One of Europe’s Most Dangerous | Montenegro 4K Drive",
+    "channel": "Real Drive Europe",
+    "date": "20260426",
+    "duration": 2521
+   }
+  },
+  "lisbon": {
+   "drive": {
+    "yt": "xUZoO-WtyHw",
+    "title": "Driving in LISBON (Lisboa) Portugal 🇵🇹 | Scenic City Tour in 4K 🚗",
+    "channel": "Relaxing Roads 4K",
+    "date": "20241019",
+    "duration": 3147
+   }
+  },
+  "barcelona": {
+   "drive": {
+    "yt": "xp05mxNpJVo",
+    "title": "Barcelona Spain City Drive 4K -  City of Counts Driving Tour",
+    "channel": "The Travel Docket",
+    "date": "20251031",
+    "duration": 4862
+   }
+  },
+  "la-paz": {
+   "drive": {
+    "yt": "h-s1JU2jW30",
+    "title": "Driving in La Paz, Bolivia",
+    "channel": "Seiklevad Suitsupääsukesed",
+    "date": "20230909",
+    "duration": 1359
+   }
+  },
+  "bogota": {
+   "drive": {
+    "yt": "N0Qy6oi07W8",
+    "title": "Bogotá 4K - Driving - Largest Cities in Latin America",
+    "channel": "World Driving Tours",
+    "date": "20241013",
+    "duration": 4282
+   }
+  },
+  "montevideo": {
+   "drive": {
+    "yt": "6UsZrbxodJU",
+    "title": "MONTEVIDEO, URUGUAY - Driving Tour | 4k",
+    "channel": "STREETVIBES",
+    "date": "20260331",
+    "duration": 1189
+   }
+  },
+  "asuncion": {
+   "drive": {
+    "yt": "SyWYr61V_3o",
+    "title": "ASUNCIÒN Video Tour in Paraguay 2023 🇵🇾 4K Driving Tour in Paraguay",
+    "channel": "Virtual Tours Travel",
+    "date": "20231210",
+    "duration": 957
+   }
+  },
+  "havana": {
+   "drive": {
+    "yt": "GzBPHZw8j18",
+    "title": "DRIVING in LA HABANA, La Habana Province, CUBA I 4K 60fps",
+    "channel": "Just Driving 4K",
+    "date": "20240523",
+    "duration": 3167
+   }
+  },
+  "big-bear-eagles": {
+   "drive": {
+    "yt": "Yigfma1Il24",
+    "title": "Time-Lapse Road Trips: San Fernando Valley to Big Bear in 15 minutes",
+    "channel": "MDS Presents!",
+    "date": "20210708",
+    "duration": 938
+   }
+  },
+  "tembe-elephant-park": {
+   "drive": {
+    "yt": "kSwZY34ojCQ",
+    "title": "Driver's views : Kosi Bay to Mkuze via Manguzi, Tembe, Ndumo, Jozini, and a bit of the N2.",
+    "channel": "Quick Real Road",
+    "date": "20240928",
+    "duration": 1460
+   }
+  },
+  "namib-desert-waterhole": {
+   "drive": {
+    "yt": "ebu2becEqnY",
+    "title": "NAMIBIA TRAVEL | Highlights on a 4x4 Namibia Road Trip (Itinerary + Travel Tips)",
+    "channel": "World Wild Hearts",
+    "date": "20240713",
+    "duration": 995
    }
   }
  }
