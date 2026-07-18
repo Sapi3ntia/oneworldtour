@@ -186,6 +186,40 @@ export class WorldMap {
     this._applyZoomStyling();
     return g;
   }
+
+  /* A numbered, clickable stop on a route (Trips). Same marks layer as
+     addPin, so clearMarks() drops it and zoom styling keeps it legible. */
+  addStop(lat, lng, label, opts = {}) {
+    const { x, y } = project(lat, lng);
+    const g = svgEl('g', { class: `wmap-stop ${opts.cls || ''}`.trim() });
+    /* Rendered size works out to base * (container height / MAP_H) px,
+       independent of zoom — 11 gives a ~22px disc on the trips map. */
+    const disc = svgEl('circle', { cx: x, cy: y, r: 11, class: 'stop-disc' });
+    disc.dataset.r = 11;
+    g.appendChild(disc);
+    const t = svgEl('text', {
+      x, y, dy: '0.34em', 'text-anchor': 'middle', class: 'stop-num',
+    });
+    t.textContent = label;
+    g.appendChild(t);
+    if (opts.title) {
+      const ttl = svgEl('title');
+      ttl.textContent = opts.title;
+      g.appendChild(ttl);
+    }
+    if (opts.onClick) {
+      g.style.cursor = 'pointer';
+      g.addEventListener('click', ev => { ev.stopPropagation(); opts.onClick(ev); });
+    }
+    this.gMarks.appendChild(g);
+    this._pins.push(g);
+    this._applyZoomStyling();
+    return g;
+  }
+
+  /* NOTE: a straight line in projected space. Correct for every route
+     we ship; a leg that crossed the antimeridian would draw the long
+     way round the map and need splitting at ±180 first. */
   drawLine(a, b, cls = 'wmap-line') {
     const p1 = project(a.lat, a.lng), p2 = project(b.lat, b.lng);
     const line = svgEl('line', {
@@ -239,10 +273,22 @@ export class WorldMap {
         if (t) t.setAttribute('font-size', Math.max(7, 8.5 / Math.sqrt(k)));
       }
     }
+    /* Guesser pins scale by 1/√k — they grow a little as you zoom, which
+       reads well for two pins and a line. Trip stops must instead hold a
+       CONSTANT on-screen size (1/k): a tight route like the Grand Circle
+       zooms hard, and at 1/√k the discs bloat until they cover the route
+       they're labelling. */
     for (const pin of this._pins || []) {
-      for (const c of pin.querySelectorAll ? pin.querySelectorAll('circle') : []) {
-        const base = c.classList.contains('pin-ring') ? 5 : 2.2;
-        c.setAttribute('r', base / Math.sqrt(k));
+      if (!pin.querySelectorAll) continue;
+      for (const c of pin.querySelectorAll('circle')) {
+        if (c.classList.contains('stop-disc')) {
+          c.setAttribute('r', (Number(c.dataset.r) || 11) / k);
+          continue;
+        }
+        c.setAttribute('r', (c.classList.contains('pin-ring') ? 5 : 2.2) / Math.sqrt(k));
+      }
+      for (const t of pin.querySelectorAll('.stop-num')) {
+        t.setAttribute('font-size', 12 / k);
       }
     }
   }
@@ -280,7 +326,7 @@ export class WorldMap {
 
   /* Fly to fit a set of places (padded). forceCity guarantees landing
      past the country→city threshold (used by country-node clicks). */
-  flyToPlaces(list, ms = 700, forceCity = false) {
+  flyToPlaces(list, ms = 700, forceCity = false, minW = 0) {
     if (!list.length) return;
     let x0 = 1e9, y0 = 1e9, x1 = -1e9, y1 = -1e9;
     for (const p of list) {
@@ -291,6 +337,7 @@ export class WorldMap {
     const pad = Math.max((x1 - x0), (y1 - y0) * (MAP_W / MAP_H)) * 0.35 + 14;
     let w = (x1 - x0) + pad * 2;
     w = Math.max(w, MAP_W / K_MAX * 3);           // don't overshoot into the ground
+    w = Math.max(w, minW);                        // caller's floor (trip routes)
     w = Math.min(w, MAP_W);
     // ensure we land in city mode — the whole point of a country click
     if (forceCity && MAP_W / w < COUNTRY_K) w = MAP_W / (COUNTRY_K * 1.15);

@@ -4,6 +4,7 @@
 import { loadAll, search } from '../lib/data.js';
 import { sceneFlags } from '../lib/media.js';
 import { State } from '../lib/state.js';
+import { loadTrips, progress } from '../lib/trips.js';
 import { WorldMap } from '../worldmap.js';
 import { el, qs } from '../lib/dom.js';
 import { lazyPhoto } from '../lib/photos.js';
@@ -149,6 +150,31 @@ async function boot() {
       : `${vis} place${vis === 1 ? '' : 's'} match`;
     if (b.dataset.f === 'saved' && !vis) toast('Nothing saved yet — ♥ a place on its page.');
   });
+
+  /* ---------------- curated routes ---------------- */
+  /* Non-blocking: the world already rendered above, so a failed or slow
+     trips.json quietly leaves the band hidden rather than holding up home. */
+  loadTrips().then(trips => {
+    if (!trips.length) return;
+    const railT = qs('#trips-rail');
+    for (const t of trips) {
+      const pr = progress(t);
+      const card = el('a', { class: 'card trip-mini', href: `trips.html?id=${encodeURIComponent(t.id)}` },
+        el('div', { class: 'tm-media' },
+          el('div', { class: 'tm-ph' }, t.emoji || '🧭'),
+          pr.done ? el('span', { class: 'tm-progress' }, `${pr.done}/${pr.total}`) : null,
+        ),
+        el('div', { class: 'meta' },
+          el('div', { class: 'name' }, t.name),
+          el('div', { class: 'sub' },
+            `${t.stops.length} stops · ${t.distance.toLocaleString()} km`),
+        ),
+      );
+      lazyPhoto(card.querySelector('.tm-ph'), t.heroPlace, 480);
+      railT.append(card);
+    }
+    qs('#trips-band').hidden = false;
+  }).catch(err => console.warn('[trips]', err));
 
   /* ---------------- rails ---------------- */
   const shuffled = a => [...a].sort(() => Math.random() - 0.5);

@@ -1,0 +1,591 @@
+{
+  "generated": "2026-07-18",
+  "note": "Curated routes. Every stop id MUST resolve to a place in a region file — tools/check_trips.py enforces it. A trip that points at a place we don't have is the same species of lie as a fake live cam.",
+  "trips": [
+    {
+      "id": "euro-trip",
+      "name": "The Euro Trip",
+      "emoji": "🎒",
+      "mode": "rail",
+      "region": "Europe",
+      "days": "3–4 weeks",
+      "tagline": "Ten cities, one rail pass, the route almost everyone does first.",
+      "blurb": "The classic interrail loop: west to east across the old capitals, down over the Alps into Italy, then out along the Mediterranean. Short hops, night trains, and no leg longer than a day's ride — which is exactly why this has been the default first trip for sixty years.",
+      "stops": [
+        {
+          "id": "london",
+          "note": "Fly in, buy the rail pass, get the Tube out of your system."
+        },
+        {
+          "id": "paris",
+          "note": "Two and a half hours under the Channel and you're at Gare du Nord."
+        },
+        {
+          "id": "amsterdam",
+          "note": "The first city on the route you can cross entirely on foot."
+        },
+        {
+          "id": "berlin",
+          "note": "Where the trip stops being pretty and starts being interesting."
+        },
+        {
+          "id": "prague",
+          "note": "Cheapest beer of the whole route, and it shows."
+        },
+        {
+          "id": "vienna",
+          "note": "Coffee houses, and the night train south leaves from here."
+        },
+        {
+          "id": "budapest",
+          "note": "The eastern turn — thermal baths, ruin bars, then back west."
+        },
+        {
+          "id": "venice",
+          "note": "Over the Alps and down. Arrive by train; the station opens onto the water."
+        },
+        {
+          "id": "rome",
+          "note": "Three days minimum. You will not see it in three days."
+        },
+        {
+          "id": "barcelona",
+          "note": "The long westward run to the coast, and the flight home."
+        }
+      ]
+    },
+    {
+      "id": "route-66",
+      "name": "Route 66",
+      "emoji": "🛣️",
+      "mode": "drive",
+      "region": "United States",
+      "days": "2 weeks",
+      "hero": "santa-fe",
+      "tagline": "Chicago to the Pacific on the Mother Road.",
+      "blurb": "Decommissioned in 1985 and still the most driven road in America. The original alignment ran 2,448 miles from Grant Park to the Santa Monica pier; what's left is frontage roads, neon, and a lot of desert. We have the anchor cities — the small-town middle is thin and honestly labelled below.",
+      "stops": [
+        {
+          "id": "chicago",
+          "note": "Mile zero: Adams Street at Michigan Avenue. Start with the lake behind you."
+        },
+        {
+          "id": "st-louis",
+          "note": "Cross the Mississippi under the Arch — the road's first real landmark."
+        },
+        {
+          "id": "santa-fe",
+          "note": "The pre-1937 alignment looped up here, and it's still the better drive."
+        },
+        {
+          "id": "grand-canyon",
+          "note": "A 60-mile detour north from Williams that nobody has ever regretted."
+        },
+        {
+          "id": "los-angeles",
+          "note": "The road ends at the pier. Eight states, one ocean."
+        }
+      ]
+    },
+    {
+      "id": "trans-siberian",
+      "name": "The Trans-Siberian",
+      "emoji": "🚂",
+      "mode": "rail",
+      "region": "Russia · Mongolia · China",
+      "days": "2–3 weeks",
+      "tagline": "Moscow to Beijing, seven time zones, one train.",
+      "blurb": "The longest railway on earth. This is the Trans-Mongolian branch — the variant most travellers actually ride, cutting south through Ulaanbaatar and the Gobi instead of running east to Vladivostok. Six days of birch forest if you never get off, which is why everybody gets off.",
+      "stops": [
+        {
+          "id": "moscow",
+          "note": "Yaroslavsky station. Every distance marker on the line counts from here."
+        },
+        {
+          "id": "kazan",
+          "note": "800 km in — the Volga, and the first city that doesn't feel European."
+        },
+        {
+          "id": "lake-baikal",
+          "note": "The reason to break the journey. Oldest, deepest lake on the planet."
+        },
+        {
+          "id": "ulaanbaatar",
+          "note": "South into Mongolia. The train swaps bogies at the border — it takes hours."
+        },
+        {
+          "id": "beijing",
+          "note": "Out of the Gobi and into the terminus at Beijing Railway Station."
+        }
+      ]
+    },
+    {
+      "id": "pacific-coast",
+      "name": "The Pacific Coast",
+      "emoji": "🌊",
+      "mode": "drive",
+      "region": "United States",
+      "days": "10–14 days",
+      "hero": "big-sur",
+      "tagline": "Seattle to San Diego with the ocean on your right the whole way.",
+      "blurb": "Rain forest to desert down one coastline. The famous stretch is California's Highway 1 through Big Sur — cliff road, no guardrail in places, and closed by landslide often enough that you should check before you commit to it.",
+      "stops": [
+        {
+          "id": "seattle",
+          "note": "Start in the rain. Ferries, coffee, and the Olympics across the sound."
+        },
+        {
+          "id": "portland-or",
+          "note": "Cut inland briefly — the Columbia Gorge is worth the detour."
+        },
+        {
+          "id": "san-francisco",
+          "note": "Cross the Golden Gate southbound for the view everyone photographs."
+        },
+        {
+          "id": "big-sur",
+          "note": "The 90 miles the whole drive is really about. Fuel up before you start."
+        },
+        {
+          "id": "los-angeles",
+          "note": "The road flattens out and the traffic begins."
+        },
+        {
+          "id": "san-diego",
+          "note": "Last stop before the border. The water is finally warm."
+        }
+      ]
+    },
+    {
+      "id": "golden-route-japan",
+      "name": "Japan's Golden Route",
+      "emoji": "⛩️",
+      "mode": "rail",
+      "region": "Japan",
+      "days": "10–14 days",
+      "tagline": "Tokyo to Hiroshima on the bullet train.",
+      "blurb": "The route every first-time visitor takes, and it earns it. One JR Pass covers the whole thing, the Shinkansen runs to the second, and the country's three defining cities sit in a near-straight line along the Tōkaidō corridor.",
+      "stops": [
+        {
+          "id": "tokyo",
+          "note": "Land at Narita or Haneda. Give it three days before you move on."
+        },
+        {
+          "id": "mount-fuji",
+          "note": "Visible from the train on a clear day — sit on the right heading west."
+        },
+        {
+          "id": "kyoto",
+          "note": "The old capital. Two hours from Tokyo and a thousand years away."
+        },
+        {
+          "id": "nara",
+          "note": "A 45-minute day trip from Kyoto. Older capital, bigger Buddha, loose deer."
+        },
+        {
+          "id": "osaka",
+          "note": "Where Kyoto is restrained, Osaka is loud and eats better."
+        },
+        {
+          "id": "hiroshima",
+          "note": "The end of the line west, and the reason the trip means something."
+        }
+      ]
+    },
+    {
+      "id": "banana-pancake",
+      "name": "The Banana Pancake Trail",
+      "emoji": "🍌",
+      "mode": "overland",
+      "region": "Southeast Asia",
+      "days": "6–8 weeks",
+      "tagline": "The backpacker circuit through Thailand, Laos, Vietnam and Cambodia.",
+      "blurb": "Named for the pancakes every guesthouse on it started serving to Western travellers in the eighties. Buses, sleeper trains, and the slow boat down the Mekong. Cheap, well-worn, and — outside the party islands — genuinely spectacular.",
+      "stops": [
+        {
+          "id": "bangkok",
+          "note": "Everyone starts here. Khao San Road, then get out of Khao San Road."
+        },
+        {
+          "id": "chiang-mai",
+          "note": "North by overnight train. Cooler, calmer, mountains behind it."
+        },
+        {
+          "id": "luang-prabang",
+          "note": "Two days down the Mekong by slow boat. Worth every hour."
+        },
+        {
+          "id": "hanoi",
+          "note": "East into Vietnam. Old Quarter traffic is a contact sport."
+        },
+        {
+          "id": "ha-long-bay",
+          "note": "The overnight boat trip out of Hanoi that ended up on every poster."
+        },
+        {
+          "id": "hoi-an",
+          "note": "Halfway down the coast. Lanterns, tailors, and the best food in the country."
+        },
+        {
+          "id": "ho-chi-minh-city",
+          "note": "The southern terminus — still Saigon to most people who live there."
+        },
+        {
+          "id": "phnom-penh",
+          "note": "West into Cambodia along the Mekong."
+        },
+        {
+          "id": "siem-reap",
+          "note": "The town that exists to serve the temples."
+        },
+        {
+          "id": "angkor-wat",
+          "note": "Get there for sunrise once. Then go back at four in the afternoon when it's empty."
+        }
+      ]
+    },
+    {
+      "id": "grand-circle",
+      "name": "The Grand Circle",
+      "emoji": "🏜️",
+      "mode": "drive",
+      "region": "American Southwest",
+      "days": "10–14 days",
+      "hero": "monument-valley",
+      "tagline": "A loop through the densest concentration of canyons on earth.",
+      "blurb": "Five national parks and the Navajo Nation inside a 1,400-mile circle centred on the Colorado Plateau. Nothing else on the continent packs this much landscape into this little driving. Go in spring or autumn — summer on the canyon floor runs past 40°C.",
+      "stops": [
+        {
+          "id": "las-vegas",
+          "note": "Fly in, rent the car, leave. It's a trailhead with slot machines."
+        },
+        {
+          "id": "zion",
+          "note": "First park, and the only one you walk up a river to see."
+        },
+        {
+          "id": "bryce-canyon",
+          "note": "90 minutes northeast and 1,200 m higher. Bring a jacket."
+        },
+        {
+          "id": "arches",
+          "note": "The long eastern leg into Utah's slickrock country."
+        },
+        {
+          "id": "monument-valley",
+          "note": "South onto Navajo land, into the skyline every Western stole."
+        },
+        {
+          "id": "antelope-canyon",
+          "note": "Slot canyon near Page — permits and a Navajo guide, no exceptions."
+        },
+        {
+          "id": "grand-canyon",
+          "note": "The South Rim. Stand at the edge, then drive the rim road east."
+        },
+        {
+          "id": "sedona",
+          "note": "Red rock on the way back west, and the last night before Vegas."
+        }
+      ]
+    },
+    {
+      "id": "the-nile",
+      "name": "Down the Nile",
+      "emoji": "𓂀",
+      "mode": "boat",
+      "region": "Egypt",
+      "days": "10 days",
+      "tagline": "Cairo to Aswan, the way the tour has run since the 1880s.",
+      "blurb": "Thomas Cook started selling this itinerary in 1869 and it has barely changed: the pyramids first, then the long haul south to Luxor and a boat up to Aswan. The river is still the only sensible way to move between the temples.",
+      "stops": [
+        {
+          "id": "cairo",
+          "note": "Twenty million people and the Egyptian Museum. Start in the chaos."
+        },
+        {
+          "id": "giza-pyramids",
+          "note": "On the edge of the city, not out in the desert. That surprises everyone."
+        },
+        {
+          "id": "luxor",
+          "note": "Overnight train south to ancient Thebes — Karnak on one bank, the tombs on the other."
+        },
+        {
+          "id": "aswan",
+          "note": "The last leg upriver. Nubian villages, the cataract, and the desert closing in."
+        }
+      ]
+    },
+    {
+      "id": "balkan-run",
+      "name": "The Balkan Run",
+      "emoji": "🏔️",
+      "mode": "drive",
+      "region": "Western Balkans",
+      "days": "2–3 weeks",
+      "tagline": "The Adriatic coast road from the Alps to Albania.",
+      "blurb": "Europe's best road trip and still its least crowded. Alpine lakes at the top, a walled Adriatic city halfway down, and a coastline that stays beautiful the entire way south. Borders are frequent and slow — carry the car's paperwork.",
+      "stops": [
+        {
+          "id": "ljubljana",
+          "note": "The smallest capital that feels like a capital. Start here."
+        },
+        {
+          "id": "lake-bled",
+          "note": "40 minutes north. The island church is on every postcard for a reason."
+        },
+        {
+          "id": "piran",
+          "note": "Slovenia's 46 km of coastline, and a Venetian town at the end of it."
+        },
+        {
+          "id": "plitvice",
+          "note": "Inland into Croatia — sixteen lakes falling into each other."
+        },
+        {
+          "id": "dubrovnik",
+          "note": "Back to the coast for the walls. Go at 8am or not at all."
+        },
+        {
+          "id": "mostar",
+          "note": "Inland again into Bosnia. The bridge was rebuilt stone by stone."
+        },
+        {
+          "id": "kotor",
+          "note": "Montenegro's fjord. Climb the fortress steps at dusk."
+        },
+        {
+          "id": "tirana",
+          "note": "The last border south, into the capital nobody expects to like."
+        }
+      ]
+    },
+    {
+      "id": "nordic-arc",
+      "name": "The Nordic Arc",
+      "emoji": "🛶",
+      "mode": "rail",
+      "region": "Scandinavia",
+      "days": "3 weeks",
+      "tagline": "Copenhagen to Stockholm the long way — over the Arctic Circle.",
+      "blurb": "Three capitals, the fjords, and the far north. Go in June for the midnight sun or February for the aurora; the months between are dark and expensive. The rail network up here is superb right until it stops, and then it's buses and ferries.",
+      "stops": [
+        {
+          "id": "copenhagen",
+          "note": "Flat, cycled, and the easiest possible start."
+        },
+        {
+          "id": "oslo",
+          "note": "North by train through Sweden, or the overnight ferry if you'd rather sleep."
+        },
+        {
+          "id": "norwegian-fjords",
+          "note": "The Bergen line west — the finest rail journey in Europe, unarguably."
+        },
+        {
+          "id": "lofoten",
+          "note": "Above the Arctic Circle. Peaks straight out of the sea, and fishing huts."
+        },
+        {
+          "id": "lapland",
+          "note": "East into Finland. Reindeer, snow, and the aurora if you've timed it."
+        },
+        {
+          "id": "helsinki",
+          "note": "South down the length of Finland to the Baltic."
+        },
+        {
+          "id": "stockholm",
+          "note": "The overnight ferry across, arriving through the archipelago at dawn."
+        }
+      ]
+    },
+    {
+      "id": "golden-triangle",
+      "name": "India's Golden Triangle",
+      "emoji": "🕌",
+      "mode": "rail",
+      "region": "North India",
+      "days": "6–8 days",
+      "tagline": "Delhi, Agra, Jaipur — three cities, 720 km, one loop.",
+      "blurb": "The standard introduction to India, and short enough to do properly in a week. Each leg is four hours or so by train. Small trip, enormous contrast: a Mughal capital, the world's most famous tomb, and a pink desert city.",
+      "stops": [
+        {
+          "id": "new-delhi",
+          "note": "Old Delhi and New Delhi are different centuries. See both."
+        },
+        {
+          "id": "taj-mahal-agra",
+          "note": "Early train down. Go at sunrise — the marble changes colour and the crowd hasn't arrived."
+        },
+        {
+          "id": "jaipur",
+          "note": "West into Rajasthan to close the triangle. Forts, palaces, and the desert beginning."
+        }
+      ]
+    },
+    {
+      "id": "trans-canada",
+      "name": "Across Canada",
+      "emoji": "🍁",
+      "mode": "drive",
+      "region": "Canada",
+      "days": "3–4 weeks",
+      "hero": "banff-lake-louise",
+      "tagline": "Pacific to Atlantic, 7,000 km, one highway.",
+      "blurb": "The second-longest national highway on earth. Mountains for the first week, then prairie, then an extremely long day around Lake Superior, and finally the old cities of the east. Do it west to east so the Rockies come first while you're still enthusiastic.",
+      "stops": [
+        {
+          "id": "stanley-park",
+          "note": "Vancouver, and a seawall loop before you get in the car."
+        },
+        {
+          "id": "banff-lake-louise",
+          "note": "The first mountains. Everyone stops here longer than planned."
+        },
+        {
+          "id": "icefields-parkway",
+          "note": "230 km of glaciers between Lake Louise and Jasper. The best road in the country."
+        },
+        {
+          "id": "cn-tower",
+          "note": "Then the prairies, and a very long time later, Toronto."
+        },
+        {
+          "id": "niagara-falls",
+          "note": "90 minutes south — worth the detour even knowing what it's become."
+        },
+        {
+          "id": "old-quebec",
+          "note": "East into Québec, and the only walled city north of Mexico."
+        },
+        {
+          "id": "lunenburg",
+          "note": "Down to the Atlantic coast and a painted UNESCO fishing town."
+        },
+        {
+          "id": "peggys-cove",
+          "note": "The lighthouse on the granite. End of the road."
+        }
+      ]
+    },
+    {
+      "id": "silk-road",
+      "name": "The Silk Road",
+      "emoji": "🐫",
+      "mode": "overland",
+      "region": "Turkey · Caucasus · Iran · China",
+      "days": "6–10 weeks",
+      "tagline": "Istanbul to Xi'an along the oldest trade route on earth.",
+      "blurb": "Not one road but a network, running two thousand years and seven thousand kilometres. This is the southern corridor: across Anatolia, over the Caucasus, through the Persian cities, and finally to the Chinese terminus. Visas are the hard part, not the travel.",
+      "stops": [
+        {
+          "id": "istanbul",
+          "note": "The western end. One city, two continents, and the last of Europe."
+        },
+        {
+          "id": "cappadocia",
+          "note": "East across Anatolia into the rock valleys and underground cities."
+        },
+        {
+          "id": "tbilisi",
+          "note": "Over the Caucasus. Georgia has been the crossroads for everyone."
+        },
+        {
+          "id": "baku",
+          "note": "East to the Caspian — the sea the old routes had to go around."
+        },
+        {
+          "id": "tehran",
+          "note": "South into Iran, where the road becomes Persian."
+        },
+        {
+          "id": "isfahan",
+          "note": "\"Half the world,\" they used to say. The square is second only to Tiananmen."
+        },
+        {
+          "id": "persepolis",
+          "note": "The ceremonial capital Alexander burned in 330 BC."
+        },
+        {
+          "id": "xi-an",
+          "note": "The eastern terminus. The caravans unloaded where the Terracotta Army was buried."
+        }
+      ]
+    },
+    {
+      "id": "australia-lap",
+      "name": "The Big Lap",
+      "emoji": "🦘",
+      "mode": "drive",
+      "region": "Australia",
+      "days": "6+ weeks",
+      "hero": "uluru",
+      "tagline": "Around a continent the size of Europe with about 26 million people on it.",
+      "blurb": "Australians call driving the circuit \"the big lap\" and treat it as a rite of passage. The distances are the whole story: Perth to Adelaide is 2,700 km with one town of consequence in between. We've picked the corners worth stopping at.",
+      "stops": [
+        {
+          "id": "sydney",
+          "note": "The obvious start. Harbour, ferries, and the road north."
+        },
+        {
+          "id": "cairns",
+          "note": "2,400 km up the east coast into the tropics."
+        },
+        {
+          "id": "great-barrier-reef",
+          "note": "Out from Cairns by boat. 2,300 km of reef, and it is in trouble."
+        },
+        {
+          "id": "uluru",
+          "note": "Turn inland. The Red Centre is a very long way from everything."
+        },
+        {
+          "id": "perth",
+          "note": "West across the Nullarbor — the most isolated city on the planet."
+        },
+        {
+          "id": "melbourne",
+          "note": "The long southern run home, and the Great Ocean Road at the end of it."
+        }
+      ]
+    },
+    {
+      "id": "southern-cone",
+      "name": "The Southern Cone",
+      "emoji": "🏔",
+      "mode": "overland",
+      "region": "South America",
+      "days": "4–6 weeks",
+      "tagline": "Rio to the end of the world at Ushuaia.",
+      "blurb": "Down the Atlantic side and then south until the land runs out. Buses here are genuinely excellent — fully reclining seats, meals, overnight legs measured in days rather than hours. The last stop is closer to Antarctica than to Rio.",
+      "stops": [
+        {
+          "id": "rio-de-janeiro",
+          "note": "Start on the beach with the mountains behind it."
+        },
+        {
+          "id": "iguazu-falls",
+          "note": "Inland to the border. 275 falls; see them from both sides."
+        },
+        {
+          "id": "buenos-aires",
+          "note": "South to the Río de la Plata. Steak, tango, and European architecture."
+        },
+        {
+          "id": "mendoza",
+          "note": "West to the Andean foothills and the vineyards under Aconcagua."
+        },
+        {
+          "id": "bariloche",
+          "note": "South along the mountains into Patagonia proper."
+        },
+        {
+          "id": "ushuaia",
+          "note": "The southernmost city on earth. Boats leave from here for Antarctica."
+        }
+      ]
+    }
+  ]
+}

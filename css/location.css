@@ -175,7 +175,27 @@ button.quad-bar:hover { background: var(--bg-card); color: var(--ink-dim); }
 /* nearby */
 #next-section { margin-top: 30px; }
 
+/* ---------------- "you're on a route" strip (arrived via a trip) ---------------- */
+.trip-strip {
+  display: flex; align-items: center; gap: 15px; flex-wrap: wrap;
+  padding: 11px 16px; margin-top: 26px;
+  border-radius: var(--radius); border: 1px solid var(--line);
+  background: var(--bg-card);
+}
+.trip-strip .ts-name { font-weight: 600; font-size: 14px; }
+.trip-strip .ts-name a:hover { color: var(--gold); }
+.trip-strip .ts-where { font-size: 12.5px; color: var(--ink-faint); }
+.trip-strip .ts-dots { display: flex; gap: 5px; flex-wrap: wrap; }
+.trip-strip .ts-dot {
+  width: 9px; height: 9px; border-radius: 50%;
+  background: rgba(235, 238, 250, 0.16);
+}
+.trip-strip .ts-dot.done { background: var(--walk); }
+.trip-strip .ts-dot.here { background: var(--gold); transform: scale(1.4); }
+.trip-strip .ts-nav { margin-left: auto; display: flex; gap: 8px; }
+
 @media (max-width: 860px) {
   .arrive { grid-template-columns: 1fr; }
   .rightnow { max-width: 340px; }
+  .trip-strip .ts-nav { margin-left: 0; width: 100%; }
 }
