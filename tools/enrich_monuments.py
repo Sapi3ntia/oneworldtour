@@ -60,6 +60,11 @@ ROOT = Path(__file__).resolve().parent.parent
 CAP = 5                            # monument tabs per city, matches build_monuments.py
 CUR_YEAR = datetime.now().year
 
+# The whole point of a monument tab is that it looks good — a 352p clip of a
+# landmark is worse than an honest empty slot, and one slipped through on
+# 2026-07-18 (Irkutsk / 130 Kvartal) before this floor existed.
+MIN_HEIGHT = 720
+
 # A monument tour is a look at a THING. These titles are about something else.
 BAD_MONU = re.compile(
     r"top\s*\d+|best\s*\d+|\d+\s*(?:things|places|facts)|"
@@ -168,6 +173,8 @@ def find_monument(place, name, exclude):
     if not passed:
         return None
     best = max(passed, key=quality)
+    if quality(best)[0] < MIN_HEIGHT:
+        return None                                # blurry is worse than absent
     return {"name": name, "yt": best["id"], "start": 0, "source": "auto",
             "title": best.get("title", ""), "height": quality(best)[0]}
 
@@ -272,8 +279,10 @@ def main():
             if not hit:
                 continue
             used.add(hit["yt"])
+            # keep the height so a future sweep can audit picks by quality —
+            # without it there is no way to find blurry tabs except re-querying
             mons.append({"name": hit["name"], "yt": hit["yt"],
-                         "start": 0, "source": "auto"})
+                         "start": 0, "source": "auto", "height": hit["height"]})
             found.append(f"{hit['name']}({hit['height']}p)")
             room -= 1
             added_total += 1

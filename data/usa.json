@@ -2480,6 +2480,438 @@
           "start": 0
         }
       ]
+    },
+    {
+      "id": "tulsa",
+      "name": "Tulsa",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🎸",
+      "coordinates": {
+        "lat": 36.15398,
+        "lng": -95.99278
+      },
+      "street_view": {
+        "lat": 36.15398,
+        "lng": -95.99278,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Tulsa,_Oklahoma",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Art Deco district",
+          "wikipedia_slug": "Tulsa,_Oklahoma"
+        },
+        {
+          "name": "Cain's Ballroom",
+          "wikipedia_slug": "Cain's_Ballroom"
+        },
+        {
+          "name": "Gathering Place",
+          "wikipedia_slug": "Gathering_Place_(park)"
+        },
+        {
+          "name": "Greenwood District",
+          "wikipedia_slug": "Greenwood_District,_Tulsa"
+        },
+        {
+          "name": "Blue Dome",
+          "wikipedia_slug": "Tulsa,_Oklahoma"
+        }
+      ],
+      "blurb": "Oil money built Tulsa an Art Deco skyline out of proportion to its size, and Route 66 runs straight through the middle of it. Cain's Ballroom is where Western swing was invented and the sprung dance floor is still the original.",
+      "fun_fact": "Tulsa's Greenwood District was known as Black Wall Street until the 1921 massacre destroyed 35 blocks of it. The rebuilt district now holds the Greenwood Rising history centre.",
+      "hidden_gem_tip": "The Meadow Gold neon sign on 11th Street is original Route 66 signage, dismantled and re-erected a block from where it stood.",
+      "monuments": [
+        {
+          "name": "Cain's Ballroom",
+          "yt": "r2uryx-bHlI",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Gathering Place",
+          "yt": "eaE4mgjelcg",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Greenwood District",
+          "yt": "ZtJuhjWTFrM",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
+    },
+    {
+      "id": "oklahoma-city",
+      "name": "Oklahoma City",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🤠",
+      "coordinates": {
+        "lat": 35.46756,
+        "lng": -97.51643
+      },
+      "street_view": {
+        "lat": 35.46756,
+        "lng": -97.51643,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Oklahoma_City",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Bricktown",
+          "wikipedia_slug": "Bricktown,_Oklahoma_City"
+        },
+        {
+          "name": "Oklahoma City National Memorial",
+          "wikipedia_slug": "Oklahoma_City_National_Memorial"
+        },
+        {
+          "name": "Stockyards City",
+          "wikipedia_slug": "Stockyards_City,_Oklahoma_City"
+        },
+        {
+          "name": "Myriad Botanical Gardens",
+          "wikipedia_slug": "Myriad_Botanical_Gardens"
+        },
+        {
+          "name": "Route 66 alignment",
+          "wikipedia_slug": "U.S._Route_66_in_Oklahoma"
+        }
+      ],
+      "blurb": "A city that grew by more than 10,000 people in a single afternoon during the 1889 Land Run and has been spread out ever since. Route 66 enters from the north-east and leaves west toward Amarillo.",
+      "fun_fact": "Stockyards City still runs the largest stocker and feeder cattle auction in the world, on the same site since 1910.",
+      "hidden_gem_tip": "The National Memorial's field of 168 empty chairs is arranged by which floor of the building each person was on. It is quietest early.",
+      "monuments": [
+        {
+          "name": "Bricktown",
+          "yt": "_7RmDW9nrOI",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Oklahoma City National Memorial",
+          "yt": "WjrWawEvmuI",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Stockyards City",
+          "yt": "XcS_3OrxmXE",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
+    },
+    {
+      "id": "amarillo",
+      "name": "Amarillo",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🐄",
+      "coordinates": {
+        "lat": 35.222,
+        "lng": -101.8313
+      },
+      "street_view": {
+        "lat": 35.222,
+        "lng": -101.8313,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Amarillo,_Texas",
+      "sounds": [
+        "desert-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Cadillac Ranch",
+          "wikipedia_slug": "Cadillac_Ranch"
+        },
+        {
+          "name": "Palo Duro Canyon",
+          "wikipedia_slug": "Palo_Duro_Canyon"
+        },
+        {
+          "name": "Route 66 Historic District",
+          "wikipedia_slug": "U.S._Route_66_in_Texas"
+        },
+        {
+          "name": "Big Texan Steak Ranch",
+          "wikipedia_slug": "Big_Texan_Steak_Ranch"
+        },
+        {
+          "name": "Amarillo",
+          "wikipedia_slug": "Amarillo,_Texas"
+        }
+      ],
+      "blurb": "The Texas Panhandle's only real city, sitting in flat high plains where the horizon is genuinely uninterrupted. Ten Cadillacs are buried nose-down in a field west of town, repainted by visitors every week.",
+      "fun_fact": "Palo Duro Canyon just south of Amarillo is the second-largest canyon in the United States — 190 km long and up to 300 m deep — and almost nobody outside Texas has heard of it.",
+      "hidden_gem_tip": "Bring a spray can to Cadillac Ranch. Painting the cars is not vandalism there; it is the entire point and always has been.",
+      "monuments": [
+        {
+          "name": "Cadillac Ranch",
+          "yt": "xKhv76ijSgg",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Route 66 Historic District",
+          "yt": "HZoMldgVMmA",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Big Texan Steak Ranch",
+          "yt": "cwG8Bu-RQ5s",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
+    },
+    {
+      "id": "albuquerque",
+      "name": "Albuquerque",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🎈",
+      "coordinates": {
+        "lat": 35.08449,
+        "lng": -106.65114
+      },
+      "street_view": {
+        "lat": 35.08449,
+        "lng": -106.65114,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Albuquerque,_New_Mexico",
+      "sounds": [
+        "desert-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Old Town",
+          "wikipedia_slug": "Old_Town_Albuquerque"
+        },
+        {
+          "name": "Sandia Peak Tramway",
+          "wikipedia_slug": "Sandia_Peak_Tramway"
+        },
+        {
+          "name": "Petroglyph National Monument",
+          "wikipedia_slug": "Petroglyph_National_Monument"
+        },
+        {
+          "name": "Central Avenue / Route 66",
+          "wikipedia_slug": "U.S._Route_66_in_New_Mexico"
+        },
+        {
+          "name": "Balloon Fiesta Park",
+          "wikipedia_slug": "Albuquerque_International_Balloon_Fiesta"
+        }
+      ],
+      "blurb": "Central Avenue through Albuquerque is one of the longest surviving urban stretches of Route 66, neon motel signs and all. The Sandia Mountains turn watermelon-pink at sunset, which is what sandía means.",
+      "fun_fact": "Albuquerque is one of the few places where Route 66 crosses itself — the pre-1937 alignment ran north–south, the later one east–west, and both are still driveable.",
+      "hidden_gem_tip": "The Balloon Fiesta works because of the 'Albuquerque Box', a wind pattern that blows one direction low and the opposite direction high, letting pilots steer back to where they launched.",
+      "monuments": [
+        {
+          "name": "Old Town",
+          "yt": "CxEUGhovm9U",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Sandia Peak Tramway",
+          "yt": "cYEdbe1yE-w",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Petroglyph National Monument",
+          "yt": "uTTTTF4aVK8",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
+    },
+    {
+      "id": "flagstaff",
+      "name": "Flagstaff",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "",
+      "type": "mountain",
+      "tag": "hidden",
+      "emoji": "🌲",
+      "coordinates": {
+        "lat": 35.19807,
+        "lng": -111.65127
+      },
+      "street_view": {
+        "lat": 35.19807,
+        "lng": -111.65127,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Flagstaff,_Arizona",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Lowell Observatory",
+          "wikipedia_slug": "Lowell_Observatory"
+        },
+        {
+          "name": "San Francisco Peaks",
+          "wikipedia_slug": "San_Francisco_Peaks"
+        },
+        {
+          "name": "Historic Downtown",
+          "wikipedia_slug": "Flagstaff,_Arizona"
+        },
+        {
+          "name": "Walnut Canyon",
+          "wikipedia_slug": "Walnut_Canyon_National_Monument"
+        },
+        {
+          "name": "Route 66",
+          "wikipedia_slug": "U.S._Route_66_in_Arizona"
+        }
+      ],
+      "blurb": "A ponderosa-pine mountain town at 2,100 m that most people treat as the turn-off for the Grand Canyon. Route 66 and the BNSF main line run side by side through downtown, and the freight trains still sound their horns all night.",
+      "fun_fact": "Pluto was discovered from Flagstaff's Lowell Observatory in 1930. In 2001 the city became the world's first International Dark Sky City, and its street lighting has been shielded ever since.",
+      "hidden_gem_tip": "The Museum Club on old Route 66 is a 1931 log-cabin roadhouse built around five living ponderosa pines — the trunks are inside.",
+      "monuments": [
+        {
+          "name": "Lowell Observatory",
+          "yt": "kk-VDnUFoiU",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Historic Downtown",
+          "yt": "jBG-AIC9tg0",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Walnut Canyon",
+          "yt": "JdRmOWfcBVA",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
+    },
+    {
+      "id": "santa-monica-pier",
+      "name": "Santa Monica Pier",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "",
+      "type": "coastal",
+      "tag": "famous",
+      "emoji": "🎡",
+      "coordinates": {
+        "lat": 34.00892,
+        "lng": -118.49733
+      },
+      "street_view": {
+        "lat": 34.00892,
+        "lng": -118.49733,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Santa_Monica_Pier",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Pacific Park",
+          "wikipedia_slug": "Pacific_Park"
+        },
+        {
+          "name": "Route 66 End of the Trail sign",
+          "wikipedia_slug": "Santa_Monica_Pier"
+        },
+        {
+          "name": "Looff Hippodrome",
+          "wikipedia_slug": "Looff_Hippodrome"
+        },
+        {
+          "name": "Santa Monica State Beach",
+          "wikipedia_slug": "Santa_Monica_State_Beach"
+        },
+        {
+          "name": "Palisades Park",
+          "wikipedia_slug": "Palisades_Park_(Santa_Monica)"
+        }
+      ],
+      "blurb": "The western end of the line. A wooden pier out over the Pacific with a solar-powered Ferris wheel, a 1922 carousel, and the sign that tells you Route 66 stops here — 3,940 km after Chicago.",
+      "fun_fact": "The 'End of the Trail' sign is not historic. Route 66 officially ended at Lincoln and Olympic, inland; the pier sign went up in 2009 because that is where drivers kept stopping anyway.",
+      "hidden_gem_tip": "The Looff Hippodrome carousel dates to 1922 and is a National Historic Landmark in its own right — it still runs, and it is cheap.",
+      "monuments": [
+        {
+          "name": "Pacific Park",
+          "yt": "Uy_T2peOGC0",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Looff Hippodrome",
+          "yt": "qYkI9cExuhQ",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Santa Monica State Beach",
+          "yt": "NxTpbi5E5Jw",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     }
   ]
 }

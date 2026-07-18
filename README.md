@@ -1,6 +1,6 @@
 # 🌍 One World Tour
 
-Step into 362 places across 93 countries — **walk their streets, drive their
+Step into 375 places across 94 countries — **walk their streets, drive their
 roads, watch their intersections live, look out their windows live**, tune into
 their radio, **watch their national TV live**, and read their news — all in-app,
 all real. Inspired by
@@ -79,7 +79,7 @@ windows, no frozen widgets posing as live cams.
 - **City Guesser** (`guess.html`) — dropped into a mystery scene (the walk video,
   title hidden), pin the world map, scored on great-circle distance, 5 rounds,
   spoiler-free emoji share.
-- **Trips** (`trips.html`, `trips.html?id=…`) — 15 curated routes people actually
+- **Trips** (`trips.html`, `trips.html?id=…`) — 16 curated routes people actually
   travel (the Euro Trip, Route 66, the Trans-Siberian, the Banana Pancake Trail…),
   each drawn on the world map as numbered stops, then listed stop by stop with a
   line on why that stop is on the route. See below.
@@ -117,7 +117,7 @@ oneworldtour/
 ├── data/
 │   ├── index.json         # region registry
 │   ├── trips.json         # 🧭 curated routes — ordered stop ids + editorial notes
-│   ├── <region>.json      # 348 places (curated walks/webcams/monuments live here)
+│   ├── <region>.json      # 361 places (curated walks/webcams/monuments live here)
 │   ├── wild.json          # 🦁 wildlife & national-park live cams as places
 │   ├── tv.json            # 📺 live national TV channels per country (verified live)
 │   ├── windy.json         # retired Windy index — kept as archive, not loaded
@@ -232,7 +232,7 @@ clobbering each other. Promote a good auto pick by moving it into that file's
 python3 tools/check_trips.py --scenes    # exits 1 if any stop is unknown
 ```
 
-`data/trips.json` holds 15 hand-ordered routes. A trip stores only **place ids**
+`data/trips.json` holds 16 hand-ordered routes. A trip stores only **place ids**
 plus a one-line note per stop, so it can never invent a destination — it can only
 point at somewhere the atlas already goes. `js/lib/trips.js` resolves those ids
 against the loaded places; a stop that doesn't resolve is dropped loudly to the

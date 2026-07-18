@@ -38,27 +38,23 @@ The architecture itself is documented in [`README.md`](README.md).
 - **Review auto-picks.** `media.json` quality is good but not curated-good; promote
   great finds into the region JSON (`walk`/`webcam`/`window`) and they become
   permanent.
-- **More monuments** — **175 of 362 places (48%) now have them**, up from 30 (8%)
-  before the 2026-07-18 sweep: `tools/enrich_monuments.py` added 239 tabs across
-  two phases (famous-tagged first at 3/city, then everywhere else at 2/city),
-  almost all 2160p. Remaining gaps are mostly small towns and nature sites where
-  there is no monument to shoot. Re-run with `--per-city 3` to deepen the marquee
-  cities rather than widen coverage.
+- **More monuments** — **188 of 375 places (50%) now have them**, up from 30 (8%)
+  before the 2026-07-18 sweep: `tools/enrich_monuments.py` added 276 tabs, almost
+  all 2160p. Remaining gaps are mostly small towns and nature sites where there is
+  no monument to shoot. Re-run with `--per-city 3` to deepen the marquee cities
+  rather than widen coverage. Note the tool now enforces `MIN_HEIGHT = 720` and
+  records each pick's `height`, so a future pass can audit by quality — the
+  pre-floor picks have no height recorded and would need re-querying to check.
 - **Author `highlights`/`blurb`** for content-thin new countries.
-- **Places the curated trips are missing.** Building `data/trips.json` surfaced
-  real gaps — these routes are honest but thin, and each named place would make
-  one materially better:
-  - *Route 66* runs Chicago → St. Louis → Santa Fe → Grand Canyon → LA. The whole
-    small-town middle is absent: **Tulsa, Oklahoma City, Amarillo, Albuquerque,
-    Flagstaff**, and the actual finish line, **Santa Monica Pier**.
-  - *Trans-Siberian* skips **Yekaterinburg, Novosibirsk and Irkutsk** — Irkutsk is
-    the classic stop before Baikal.
-  - *Silk Road* has no **Samarkand or Bukhara**, which is most of the point of it.
-  - **Cusco and Machu Picchu are missing from the atlas entirely** (Peru has only
-    two `ancient.json` sites). That's the biggest single hole in the dataset and
-    it blocks an obvious "Gringo Trail" trip.
-  Add via the normal path — region JSON entry + `enrich_media.py` + a
-  `check_trips.py` run — then extend the affected trips' `stops`.
+- **More places for thin routes.** The 13 that were blocking trips are now in
+  (2026-07-18) — see "Recently landed". Remaining candidates, in rough order of
+  how much they'd add: **Winslow AZ and Galena KS** (Route 66 has the big towns
+  now but none of the small ones), **Khiva** (completes the Uzbek trio with
+  Samarkand and Bukhara), **Lake Titicaca / Puno** (the natural Gringo Trail leg
+  between Cusco and La Paz, currently a 400 km jump), and **Ulan-Ude** (the
+  Trans-Mongolian branch point). Add via the normal path — region JSON entry +
+  `enrich_media.py --only` + `enrich_monuments.py --only` + a `check_trips.py`
+  run — then extend the affected trips' `stops`.
 
 ### Product ideas (additive)
 - **Day/night terminator** on the SVG map (v1 had one on Leaflet) — project the
@@ -126,6 +122,18 @@ dropped in v2 — resurrect from git if missed); satellite descend-from-orbit.
 ---
 
 ## Recently landed (so it isn't re-litigated)
+
+- **🗺️ 13 places + the Gringo Trail (2026-07-18):** Cusco and Machu Picchu (Peru
+  had only two `ancient.json` sites and no cities at all), Route 66's missing
+  middle (Tulsa, Oklahoma City, Amarillo, Albuquerque, Flagstaff, Santa Monica
+  Pier), the Trans-Siberian's three (Yekaterinburg, Novosibirsk, Irkutsk) and the
+  Silk Road's Samarkand + Bukhara — Uzbekistan is a new country, taking the atlas
+  to 375 places / 94 countries. Route 66 went 5 → 11 stops, Trans-Siberian 5 → 8,
+  Silk Road 8 → 10, plus a new 🦙 **Gringo Trail** (Paracas → Cusco →
+  Sacsayhuamán → Machu Picchu → La Paz → Uyuni). Enrichment on just these 13
+  returned 12 walks, 11 drives, 3 live, 3 window and 37 monument tabs — a far
+  better hit rate than sweeping places that had already failed, which is the
+  argument for `--only` over another broad sweep.
 
 - **🧹 `tools/prune_media.py` + 9 deletions (2026-07-18):** a rule-checker for
   media.json that flags picks violating principle #2 and deletes them. It removed

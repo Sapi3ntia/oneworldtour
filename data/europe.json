@@ -6718,6 +6718,204 @@
       "blurb": "",
       "fun_fact": "",
       "hidden_gem_tip": null
+    },
+    {
+      "id": "yekaterinburg",
+      "name": "Yekaterinburg",
+      "country": "Russia",
+      "country_code": "RU",
+      "country_flag": "🇷🇺",
+      "continent": "Europe",
+      "region": "",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "⛏️",
+      "coordinates": {
+        "lat": 56.83892,
+        "lng": 60.6057
+      },
+      "street_view": {
+        "lat": 56.83892,
+        "lng": 60.6057,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Yekaterinburg",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Church on the Blood",
+          "wikipedia_slug": "Church_on_Blood_in_Honour_of_All_Saints_Resplendent_in_the_Russian_Land"
+        },
+        {
+          "name": "Europe–Asia border marker",
+          "wikipedia_slug": "Europe-Asia_border_obelisk"
+        },
+        {
+          "name": "Vysotsky viewpoint",
+          "wikipedia_slug": "Vysotsky_(skyscraper)"
+        },
+        {
+          "name": "Sevastyanov House",
+          "wikipedia_slug": "Sevastyanov_House"
+        },
+        {
+          "name": "Constructivist quarter",
+          "wikipedia_slug": "Yekaterinburg"
+        }
+      ],
+      "blurb": "Russia's fourth city, on the eastern slope of the Urals, and the point where the Trans-Siberian crosses from Europe into Asia. A dense collection of 1920s Constructivist architecture survives here that was demolished almost everywhere else.",
+      "fun_fact": "An obelisk 17 km west of the city marks the Europe–Asia boundary. Trans-Siberian passengers traditionally stand on both continents at once and photograph their feet.",
+      "hidden_gem_tip": "The Uralmash district was built as a whole factory-city in the 1930s and is laid out as a fan of avenues radiating from the plant gates.",
+      "monuments": [
+        {
+          "name": "Church on the Blood",
+          "yt": "WTDrVKDAmXM",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
+    },
+    {
+      "id": "novosibirsk",
+      "name": "Novosibirsk",
+      "country": "Russia",
+      "country_code": "RU",
+      "country_flag": "🇷🇺",
+      "continent": "Europe",
+      "region": "",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🌉",
+      "coordinates": {
+        "lat": 55.00835,
+        "lng": 82.93573
+      },
+      "street_view": {
+        "lat": 55.00835,
+        "lng": 82.93573,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Novosibirsk",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Ob River bridge",
+          "wikipedia_slug": "Novosibirsk"
+        },
+        {
+          "name": "Opera and Ballet Theatre",
+          "wikipedia_slug": "Novosibirsk_Opera_and_Ballet_Theatre"
+        },
+        {
+          "name": "Akademgorodok",
+          "wikipedia_slug": "Akademgorodok"
+        },
+        {
+          "name": "Alexander Nevsky Cathedral",
+          "wikipedia_slug": "Alexander_Nevsky_Cathedral,_Novosibirsk"
+        },
+        {
+          "name": "Lenin Square",
+          "wikipedia_slug": "Novosibirsk"
+        }
+      ],
+      "blurb": "Siberia's largest city exists because the Trans-Siberian needed to cross the Ob here in 1893. It went from railway camp to million-person city faster than almost anywhere on earth, and the opera house is bigger than the Bolshoi.",
+      "fun_fact": "Akademgorodok, 30 km south, was purpose-built in 1957 as a science city in the forest — dozens of research institutes and a university dropped into pine woods, deliberately far from Moscow.",
+      "hidden_gem_tip": "The original 1897 rail bridge span is preserved on the embankment as a monument. The city dates its own founding from that bridge.",
+      "monuments": [
+        {
+          "name": "Ob River bridge",
+          "yt": "HPDPOhs02VU",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Opera and Ballet Theatre",
+          "yt": "KjXySkIM68U",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Akademgorodok",
+          "yt": "qU-jL7WVQ-4",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
+    },
+    {
+      "id": "irkutsk",
+      "name": "Irkutsk",
+      "country": "Russia",
+      "country_code": "RU",
+      "country_flag": "🇷🇺",
+      "continent": "Europe",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🪵",
+      "coordinates": {
+        "lat": 52.2869,
+        "lng": 104.305
+      },
+      "street_view": {
+        "lat": 52.2869,
+        "lng": 104.305,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Irkutsk",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "130 Kvartal",
+          "wikipedia_slug": "Irkutsk"
+        },
+        {
+          "name": "Wooden lace houses",
+          "wikipedia_slug": "Irkutsk"
+        },
+        {
+          "name": "Epiphany Cathedral",
+          "wikipedia_slug": "Irkutsk"
+        },
+        {
+          "name": "Angara embankment",
+          "wikipedia_slug": "Angara"
+        },
+        {
+          "name": "Decembrist houses",
+          "wikipedia_slug": "Irkutsk"
+        }
+      ],
+      "blurb": "The classic stop before Lake Baikal, 70 km down the road. Irkutsk kept its wooden architecture — carved window surrounds like lace, on houses slowly sinking at angles into the permafrost.",
+      "fun_fact": "Exiled Decembrist nobles were sent here after the failed 1825 revolt and brought St Petersburg salon culture with them, which is why a Siberian trading town has drawing rooms and a piano museum.",
+      "hidden_gem_tip": "130 Kvartal is a reconstructed wooden quarter — restored originals moved in from elsewhere in the city rather than a replica build.",
+      "monuments": [
+        {
+          "name": "Epiphany Cathedral",
+          "yt": "yIYeEt6PdU0",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Angara embankment",
+          "yt": "ms_WSgh-Lsg",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     }
   ]
 }
