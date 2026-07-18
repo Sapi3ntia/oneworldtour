@@ -62,7 +62,39 @@
       "hidden_gem_tip": null,
       "walk": "ysI5cYlAls4",
       "country_code": "AT",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Schönbrunn Palace",
+          "yt": "EmhyvOPS5D8",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Belvedere",
+          "yt": "kY1k2v6SOUU",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Vienna State Opera",
+          "yt": "VEeYCe0Doj8",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "St. Stephen's Cathedral",
+          "yt": "_kSsAfJw6z8",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Hofburg",
+          "yt": "pSKJlH8Vkf4",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "faroe-islands",
@@ -110,7 +142,21 @@
       "fun_fact": "The Faroese once 'hired sheep' fitted with cameras to map the islands on Google Street View — they called it 'Sheep View'.",
       "hidden_gem_tip": null,
       "country_code": "DK",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Tórshavn",
+          "yt": "0YkPKcIY0Ng",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Gásadalur",
+          "yt": "pw_ikpJlFRw",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "canary-islands",
@@ -162,7 +208,39 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "ES",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Mount Teide",
+          "yt": "KPw4rCp3CGI",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Maspalomas Dunes",
+          "yt": "IDBkR6aqQ5s",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Las Palmas",
+          "yt": "Z01P2fEfAvU",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Lanzarote / César Manrique",
+          "yt": "D9VBoI8eCno",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Fuerteventura",
+          "yt": "1nJAkC6_G6U",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "liverpool",
@@ -210,7 +288,33 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "GB",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Royal Albert Dock",
+          "yt": "E_6LYWYOXmY",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "The Cavern Club",
+          "yt": "O1WewPh_KrM",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "The Beatles Story",
+          "yt": "eK-USAaGNeU",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Tate Liverpool",
+          "yt": "VDjVcKgQB78",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "andalusia",
@@ -266,7 +370,39 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "ES",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Real Alcázar of Seville",
+          "yt": "fpuXZ91tHX4",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "The Alhambra",
+          "yt": "rnYbxYmonhk",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Mezquita of Córdoba",
+          "yt": "uYW3Wwucb-Y",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Cádiz",
+          "yt": "woAz9IHn778",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Jerez de la Frontera",
+          "yt": "Iae0MHCGPhY",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "black-forest",
@@ -306,7 +442,21 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "DE",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Freiburg im Breisgau",
+          "yt": "EWpVGGn29R0",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Freiburg Minster",
+          "yt": "NV3R2novb6o",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "ghent",
@@ -346,7 +496,27 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "BE",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Gravensteen",
+          "yt": "S4i2DBA-Zg8",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "St. Bavo's Cathedral",
+          "yt": "K4P0Xh098yk",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Ghent",
+          "yt": "WJGotsdoY_Y",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "zaanse-schans",
@@ -386,7 +556,21 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "NL",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Historic Windmills",
+          "yt": "4S90_RqTsVM",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Wooden Houses",
+          "yt": "Mjsx8yVJ2Jc",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "innsbruck",
@@ -430,7 +614,21 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "AT",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "The Golden Roof",
+          "yt": "G062I9GlNAo",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Nordkette / Austrian Alps",
+          "yt": "S77B3BjwKgs",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "rothenburg",
@@ -470,7 +668,15 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "DE",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "The Romantic Road",
+          "yt": "q-RRFidOozM",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "italian-lakes",
@@ -518,7 +724,33 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "IT",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Lake Como",
+          "yt": "CKu5HoscCHE",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Lake Garda",
+          "yt": "oWcnCezhO0k",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Lake Maggiore",
+          "yt": "L69lZpqvJjI",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Borromean Islands",
+          "yt": "KHs6iq-3f2o",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "bordeaux",
@@ -562,7 +794,21 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "FR",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Cité du Vin",
+          "yt": "RiewSUyr1Eg",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Place de la Bourse",
+          "yt": "AzaNwygv1jk",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "malta",
@@ -610,7 +856,27 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "MT",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "St. John's Co-Cathedral",
+          "yt": "yYbxYZ8uEGc",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Grand Master's Palace",
+          "yt": "qkok6u85_54",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Gozo",
+          "yt": "2BEEj04ZZhg",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "iceland",
@@ -654,7 +920,27 @@
       "fun_fact": "At Þingvellir you can walk — or dive — directly between the North American and Eurasian tectonic plates as they pull apart.",
       "hidden_gem_tip": null,
       "country_code": "IS",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Thingvellir National Park",
+          "yt": "WBxjKhwsiFA",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Reykjavík",
+          "yt": "i3zIUltTNu0",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Golden Circle",
+          "yt": "-H_YrzmocY0",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "cappadocia",
@@ -698,7 +984,27 @@
       "fun_fact": "The underground city of Derinkuyu could shelter up to 20,000 people, with stables, churches, and wineries dug as deep as 85 metres.",
       "hidden_gem_tip": null,
       "country_code": "TR",
-      "continent": "Asia"
+      "continent": "Asia",
+      "monuments": [
+        {
+          "name": "Fairy Chimneys",
+          "yt": "YZDmmp2upwg",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Göreme",
+          "yt": "EABOszNw6K4",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Derinkuyu Underground City",
+          "yt": "PNVVSMNVSGY",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "azores",
@@ -798,7 +1104,27 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "ES",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Marbella",
+          "yt": "Wrb9uUHREng",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Torremolinos",
+          "yt": "43iHROTiJPM",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Fuengirola",
+          "yt": "SDRzRPE5B4c",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "neuschwanstein",
@@ -842,7 +1168,27 @@
       "fun_fact": "Ludwig II spent only 11 nights in Neuschwanstein before his mysterious death — and the castle was opened to paying visitors just weeks later.",
       "hidden_gem_tip": null,
       "country_code": "DE",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Bavarian Alps",
+          "yt": "g0WI2yg4Sjo",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Füssen",
+          "yt": "wCtO9MYOJlM",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Hohenschwangau",
+          "yt": "eL4Y9rajX7A",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "stockholm",
@@ -895,7 +1241,27 @@
         "start": 20
       },
       "country_code": "SE",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Gamla Stan (Old Town)",
+          "yt": "8qPWs3TuUPU",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "The Royal Palace",
+          "yt": "lF-TNVIdGy8",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Storkyrkan Cathedral",
+          "yt": "LEoIwBQYpmQ",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "strasbourg",
@@ -935,7 +1301,21 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "FR",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "La Petite France",
+          "yt": "92kz7LWBb9o",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Strasbourg Cathedral",
+          "yt": "wHLMxmimBdQ",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "swiss-alps",
@@ -987,7 +1367,27 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "CH",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "The Matterhorn",
+          "yt": "Bj72WlEuxco",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Zermatt",
+          "yt": "_tyXyaK36nM",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Interlaken",
+          "yt": "uF3dKxuYs20",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "lapland",
@@ -1075,7 +1475,27 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "DE",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Speicherstadt",
+          "yt": "j75nzaO2VbE",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Elbphilharmonie",
+          "yt": "mk280yFyNRY",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Reeperbahn",
+          "yt": "Jk7gOTPk3Hk",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "copenhagen",
@@ -1120,7 +1540,27 @@
       "hidden_gem_tip": null,
       "walk": "FMubfLKPSQM",
       "country_code": "DK",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Rosenborg Castle",
+          "yt": "zoJVvsMm5-M",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "The Little Mermaid",
+          "yt": "_Lmo3uRFW8g",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Nyhavn",
+          "yt": "U6rYHIX0gWQ",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "tirana",
@@ -1213,7 +1653,27 @@
         "start": 4
       },
       "country_code": "PL",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Wawel Castle",
+          "yt": "oMjsFzqpUf8",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Main Market Square",
+          "yt": "S8NtYN8rV58",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "St. Mary's Basilica",
+          "yt": "G_lBHzqQfJk",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "edinburgh",
@@ -1262,7 +1722,27 @@
       "hidden_gem_tip": null,
       "walk": "JYyPV9ZGV2I",
       "country_code": "GB",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Edinburgh Castle",
+          "yt": "b0kGoySl9o8",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Arthur's Seat",
+          "yt": "TUYfMWvVjYA",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "The Royal Mile",
+          "yt": "6_5nY9aFQKc",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "dolomites",
@@ -1302,7 +1782,21 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "IT",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Tre Cime di Lavaredo",
+          "yt": "Eo3srgRXW-0",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Alpe di Siusi",
+          "yt": "EAuYanblhaQ",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "madeira",
@@ -1429,6 +1923,12 @@
           "name": "Trevi Fountain",
           "yt": "Ky4pQ0kJxUE",
           "start": 0
+        },
+        {
+          "name": "The Colosseum",
+          "yt": "CVyuqIoB7qg",
+          "start": 0,
+          "source": "auto"
         }
       ]
     },
@@ -1484,7 +1984,27 @@
       "walk": "uL6z9v7Cf9Y",
       "webcam": "1phWWCgzXgM",
       "country_code": "NL",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Historic Canals",
+          "yt": "0xBW8AwVKcQ",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Van Gogh Museum",
+          "yt": "Fv7A8qAlxuU",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Rijksmuseum",
+          "yt": "Eqk1lBdnYbA",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "french-riviera",
@@ -1536,7 +2056,27 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "FR",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Nice",
+          "yt": "l_yImWYGWZY",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Cannes",
+          "yt": "UvKjixnH_-A",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Saint-Tropez",
+          "yt": "bj69ryulEbc",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "salzburg",
@@ -1584,7 +2124,27 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "AT",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Hohensalzburg Fortress",
+          "yt": "BUqmI0GFM34",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Getreidegasse",
+          "yt": "PRSPQgJW1uk",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Mirabell Gardens",
+          "yt": "kkpx7EwRGic",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "sintra",
@@ -1628,7 +2188,27 @@
       "fun_fact": "Quinta da Regaleira's 'Initiation Well' is an inverted underground tower with a spiral staircase descending 27 metres into the earth.",
       "hidden_gem_tip": null,
       "country_code": "PT",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Pena National Palace",
+          "yt": "QvG2YqqElf0",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Moorish Castle",
+          "yt": "t7owOqc_yJs",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Quinta da Regaleira",
+          "yt": "0h93oacbDwc",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "toledo",
@@ -1672,7 +2252,27 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "ES",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Toledo Cathedral",
+          "yt": "vnJBX6z-okA",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "El Greco Museum",
+          "yt": "yh-xD565pYw",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Tagus River",
+          "yt": "mNK1nzBWPao",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "oxford",
@@ -1716,7 +2316,27 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "GB",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Bodleian Library",
+          "yt": "Pl4-EyDkv2M",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Radcliffe Camera",
+          "yt": "jrREvtwnFa4",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Christ Church College",
+          "yt": "vngmzNzyexA",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "plitvice",
@@ -1756,7 +2376,15 @@
       "fun_fact": "The travertine barriers that create Plitvice's waterfalls are still growing about a centimetre each year, built by mosses and bacteria.",
       "hidden_gem_tip": null,
       "country_code": "HR",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Veliki Slap Waterfall",
+          "yt": "5XTNoWnqBu0",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "wild-atlantic-way",
@@ -1796,7 +2424,21 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "IE",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Cliffs of Moher",
+          "yt": "85JqNs8RwDY",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Connemara",
+          "yt": "HwAoJRNHrNw",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "bern",
@@ -1840,7 +2482,21 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "CH",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Zytglogge",
+          "yt": "SY9K9_ZPtVw",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Aare River",
+          "yt": "VWEJYK5fIzw",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "leipzig",
@@ -1929,7 +2585,27 @@
       "hidden_gem_tip": null,
       "walk": "RXka5H8F3Y0",
       "country_code": "HR",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Medieval City Walls",
+          "yt": "hhSSrz7sjlc",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Rector's Palace",
+          "yt": "DJ8M7I5Iid4",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "St. Blaise Church",
+          "yt": "drTQaoanKEU",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "cyprus",
@@ -1969,7 +2645,15 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "CY",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Paphos Archaeological Park",
+          "yt": "J2N9y-uq11A",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "sicily",
@@ -2025,7 +2709,27 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "IT",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Palermo",
+          "yt": "Td0ybB2cXeM",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Teatro Massimo",
+          "yt": "Al3nsL8Wh0w",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Taormina",
+          "yt": "hM-jmDHNMfI",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "hallstatt",
@@ -2118,7 +2822,27 @@
       "hidden_gem_tip": null,
       "walk": "aQXcwSA-ue4",
       "country_code": "DE",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Marienplatz & Glockenspiel",
+          "yt": "5wDA9-Ed55Q",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "The Residenz",
+          "yt": "llpdCYw2ugQ",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Englischer Garten",
+          "yt": "mdeWC4o3wr4",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "manchester",
@@ -2210,7 +2934,27 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "FR",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Lavender Fields",
+          "yt": "mUZVwAt25fk",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Gordes",
+          "yt": "SiOKsfGcdUo",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Sault",
+          "yt": "ooDgHcbBpVY",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "sighisoara",
@@ -2298,7 +3042,27 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "CH",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Lake Geneva",
+          "yt": "E4m1CizJplM",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Jet d'Eau",
+          "yt": "bS2B2zox-ug",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Jura Mountains",
+          "yt": "mH86f23Ay90",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "athens",
@@ -2347,7 +3111,27 @@
       "hidden_gem_tip": null,
       "walk": "n_hx_rQQ6sw",
       "country_code": "GR",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "The Acropolis",
+          "yt": "w7ubdeiwPv8",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "The Parthenon",
+          "yt": "pFRwn-bkipQ",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Plaka",
+          "yt": "rHmGYtBjgoM",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "budapest",
@@ -2400,7 +3184,27 @@
       "hidden_gem_tip": null,
       "walk": "XG1mFLD3zr8",
       "country_code": "HU",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Hungarian Parliament",
+          "yt": "apuNJ5dr1Uw",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Buda Castle",
+          "yt": "NjBfhi9Sulk",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Széchenyi Thermal Bath",
+          "yt": "ARAMonYa9kQ",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "mont-saint-michel",
@@ -2440,7 +3244,15 @@
       "fun_fact": "The tide here can move as fast as a galloping horse, and once a day it surrounds the island completely.",
       "hidden_gem_tip": null,
       "country_code": "FR",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Tidal Flats",
+          "yt": "pTiuwpHh0tE",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "matera",
@@ -2480,7 +3292,15 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "IT",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "The Sassi",
+          "yt": "7WTfg4MDYUE",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "helsinki",
@@ -2528,7 +3348,27 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "FI",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Kiasma",
+          "yt": "2os-XDGaBQU",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Finlandia Hall",
+          "yt": "jU_J69pu3X8",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Helsinki Cathedral",
+          "yt": "--VSVx8DubQ",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "bruges",
@@ -2573,7 +3413,27 @@
       "hidden_gem_tip": null,
       "walk": "oU9oqClOOBk",
       "country_code": "BE",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Historic Canals",
+          "yt": "ObJoUTqRi9E",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Markt Square",
+          "yt": "9DUBlEFo2g8",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Belfry of Bruges",
+          "yt": "U7O4PsQHFMU",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "catalonia",
@@ -2621,7 +3481,27 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "ES",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Barcelona",
+          "yt": "rdEZ2LSFaKk",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Girona",
+          "yt": "R8ju0xjbeaE",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Montserrat",
+          "yt": "LDUIxsMoMLE",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "london",
@@ -2692,6 +3572,24 @@
           "name": "Big Ben & London Eye",
           "yt": "aBOsIVU9mms",
           "start": 824
+        },
+        {
+          "name": "Tower Bridge",
+          "yt": "DXZer9k27C8",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Palace of Westminster",
+          "yt": "OrsDmeja7WQ",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "The Shard",
+          "yt": "bQLku6k3qgw",
+          "start": 0,
+          "source": "auto"
         }
       ],
       "webcam": "M3EYAY2MftI"
@@ -2734,7 +3632,21 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "DE",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Zugspitze",
+          "yt": "NsCdKXHxaj0",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Garmisch-Partenkirchen",
+          "yt": "4t9204V91mQ",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "sardinia",
@@ -2778,7 +3690,27 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "IT",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Costa Smeralda",
+          "yt": "EQAIPqyzKaA",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Cala Luna",
+          "yt": "-Mvep9EoW8E",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "La Pelosa",
+          "yt": "TEeMFrgTN44",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "sofia",
@@ -2922,7 +3854,27 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "GB",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "King's College",
+          "yt": "24o3zT0VY0c",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "King's College Chapel",
+          "yt": "bVroqDNphXs",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "The Backs",
+          "yt": "9XpmnY9NXdM",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "lofoten",
@@ -3014,7 +3966,27 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "PT",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Porto",
+          "yt": "5_yzU8v5yR0",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Lisbon",
+          "yt": "PTfaExasu18",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Aveiro",
+          "yt": "qDbSrOM_NmQ",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "berlin",
@@ -3074,6 +4046,18 @@
           "name": "Reichstag",
           "yt": "GSCbzHvrmjE",
           "start": 32
+        },
+        {
+          "name": "The Reichstag",
+          "yt": "H7KzMuwcFgQ",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Museum Island",
+          "yt": "U31quYFW17w",
+          "start": 0,
+          "source": "auto"
         }
       ]
     },
@@ -3199,7 +4183,21 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "ES",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "City of Arts and Sciences",
+          "yt": "oO8qED7xC6Y",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Oceanogràfic",
+          "yt": "TSIXpPdByzA",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "paris",
@@ -3280,6 +4278,18 @@
           "name": "Arc de Triomphe",
           "yt": "buOobuqZ5RU",
           "start": 15
+        },
+        {
+          "name": "Notre-Dame Cathedral",
+          "yt": "heGbCWqvpxA",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Champs-Élysées",
+          "yt": "iLXMc1csIcE",
+          "start": 0,
+          "source": "auto"
         }
       ]
     },
@@ -3331,7 +4341,27 @@
       "hidden_gem_tip": null,
       "walk": "2BfHMnDOteA",
       "country_code": "IT",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "St. Mark's Square",
+          "yt": "SsUDTaeOo3U",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "St. Mark's Basilica",
+          "yt": "XZ9dfZJYiKc",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "The Grand Canal",
+          "yt": "TJLjnp39GBg",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "istanbul",
@@ -3380,7 +4410,27 @@
       "hidden_gem_tip": null,
       "walk": "npTBK0VmhxI",
       "country_code": "TR",
-      "continent": "Asia"
+      "continent": "Asia",
+      "monuments": [
+        {
+          "name": "Hagia Sophia",
+          "yt": "8YeDc6tg638",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "The Blue Mosque",
+          "yt": "gcHVtOPIg-E",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Grand Bazaar",
+          "yt": "6-Ohuw_7h50",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "cyclades",
@@ -3434,6 +4484,24 @@
           "name": "Santorini (Oia)",
           "yt": "g8pID6lhThY",
           "start": 0
+        },
+        {
+          "name": "Santorini",
+          "yt": "TKNK0c1zfVo",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Mykonos",
+          "yt": "7t_VD6_1AGY",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Paros",
+          "yt": "0Pb9G3RJ8Pg",
+          "start": 0,
+          "source": "auto"
         }
       ]
     },
@@ -3483,7 +4551,27 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "ME",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Kotor",
+          "yt": "bfPvZhcKlyY",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Budva",
+          "yt": "bGpaY84lJ0E",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Durmitor National Park",
+          "yt": "e0y_g0AhKm0",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "obidos",
@@ -3576,7 +4664,27 @@
       "hidden_gem_tip": null,
       "walk": "ar1K4qQpDmE",
       "country_code": "ES",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Gran Vía",
+          "yt": "wE2QIRD3xoU",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Almudena Cathedral",
+          "yt": "mXwMQATIRBQ",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "The Royal Palace",
+          "yt": "NUXbfRhRMBM",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "tuscany-florence",
@@ -3637,7 +4745,27 @@
       "hidden_gem_tip": null,
       "walk": "2aZlTVnq2eQ",
       "country_code": "IT",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Uffizi Gallery",
+          "yt": "d_AYYLoaVkQ",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Florence Cathedral",
+          "yt": "DJU76QbvcDw",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Piazza della Signoria",
+          "yt": "ACgs-B6Yf-A",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "jurassic-coast",
@@ -3717,7 +4845,15 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "NO",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Geirangerfjord",
+          "yt": "sEZ0OBnHfHQ",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "mostar",
@@ -3757,7 +4893,21 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "BA",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Stari Most",
+          "yt": "vxdZQeN6c7A",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Neretva River",
+          "yt": "bzJkegPN1O0",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "pyrenees",
@@ -3925,7 +5075,27 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "NO",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Oslo Opera House",
+          "yt": "9xKq9OKdkkI",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Vigeland Sculpture Park",
+          "yt": "wBrrg_fGSkU",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Viking Ship Museum",
+          "yt": "s9ITkTeVK4o",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "corsica",
@@ -3965,7 +5135,21 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "FR",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Ajaccio",
+          "yt": "4VyA9OSX5-c",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Bonifacio",
+          "yt": "ewSUOfRWpv0",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "balearic-islands",
@@ -4013,7 +5197,27 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "ES",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Mallorca",
+          "yt": "7boYP13LwDs",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Ibiza",
+          "yt": "KYeUseKm4Pc",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Menorca",
+          "yt": "WQLQg_AvRAY",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "milan",
@@ -4065,7 +5269,27 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "IT",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "The Duomo",
+          "yt": "6QKDDNiQY8U",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Galleria Vittorio Emanuele II",
+          "yt": "eJ-O-A3QvdA",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "La Scala",
+          "yt": "YjAjpbEPifg",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "porto",
@@ -4122,7 +5346,27 @@
       "hidden_gem_tip": null,
       "walk": "p_-kVH2jsj8",
       "country_code": "PT",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Ribeira District",
+          "yt": "Hw0_J9sg2fQ",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Dom Luís I Bridge",
+          "yt": "jHUeXW-B20w",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "São Bento Station",
+          "yt": "9wuIEaIsbTA",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "kotor",
@@ -4163,7 +5407,21 @@
       "hidden_gem_tip": null,
       "walk": "m-vUHxfhXK0",
       "country_code": "ME",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "The Old Town",
+          "yt": "h8NnTAqbio0",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Fortifications of Kotor",
+          "yt": "h8itMjgnKuw",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "tallinn",
@@ -4207,7 +5465,27 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "EE",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "The Old Town",
+          "yt": "PmXsvuK6dVk",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Town Hall Square",
+          "yt": "qumXcuoileE",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Toompea Hill",
+          "yt": "Kd1OUgLlxJU",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "prague",
@@ -4260,7 +5538,27 @@
       "hidden_gem_tip": null,
       "walk": "FeOL2myTopk",
       "country_code": "CZ",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Astronomical Clock",
+          "yt": "jd_DevD9do4",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Charles Bridge",
+          "yt": "9hWa7ZES6e8",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Prague Castle",
+          "yt": "8GZ2aWym2mA",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "cinque-terre",
@@ -4319,6 +5617,24 @@
           "name": "Manarola",
           "yt": "yB5HFvXchfM",
           "start": 545
+        },
+        {
+          "name": "Riomaggiore",
+          "yt": "Pp3F-GdgVVc",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Corniglia",
+          "yt": "-IHGfu4OHI0",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Vernazza",
+          "yt": "fKMPlWwQ2zQ",
+          "start": 0,
+          "source": "auto"
         }
       ]
     },
@@ -4373,7 +5689,27 @@
       "hidden_gem_tip": null,
       "walk": "aqevs6jLdJI",
       "country_code": "PT",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Belém Tower",
+          "yt": "XfbMOkHJgP0",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Jerónimos Monastery",
+          "yt": "P2ixVJzxQes",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Alfama District",
+          "yt": "xLiPpvsXG8Y",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "normandy",
@@ -4413,7 +5749,21 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "FR",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "D-Day Beaches",
+          "yt": "TVX7Fxe3sDg",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Étretat Cliffs",
+          "yt": "uOvr6b5L6D0",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "delft",
@@ -4501,7 +5851,27 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "RO",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Bran Castle",
+          "yt": "Mw9iEvqefHU",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Brașov",
+          "yt": "gPKtecHV4_I",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Sibiu",
+          "yt": "0yM2ALSZcIM",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "barcelona",
@@ -4568,6 +5938,24 @@
           "name": "Sagrada Família",
           "yt": "bJlUA-lnvYg",
           "start": 379
+        },
+        {
+          "name": "Casa Batlló",
+          "yt": "f3-C0Lmpyto",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Park Güell",
+          "yt": "y42H5afbzQc",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Passeig de Gràcia",
+          "yt": "QcN6mETX9sI",
+          "start": 0,
+          "source": "auto"
         }
       ]
     },

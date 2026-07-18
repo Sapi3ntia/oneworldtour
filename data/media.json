@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-18T00:05:53+00:00",
+ "generated": "2026-07-18T18:22:57+00:00",
  "places": {
   "fez": {
    "walk": {
@@ -1772,11 +1772,6 @@
    }
   },
   "vienna": {
-   "live": {
-    "yt": "ATasdv_w8O8",
-    "title": "Livestream of kestrels at the UN in Vienna 2026-07-09 19:45",
-    "verified": "2026-07-09"
-   },
    "drive": {
     "yt": "TC64wRJt3JA",
     "title": "Vienna 4K - Austria Capital - Driving Downtown",
@@ -1902,11 +1897,6 @@
     "channel": "BookingHunterTV",
     "date": "20230603",
     "duration": 5289
-   },
-   "live": {
-    "yt": "agmAdlmdEpc",
-    "title": "🔴Live Webcam @ Virginie Lovelinggebouw Ghent - Outside Nest 2026-07-09 19:46",
-    "verified": "2026-07-09"
    },
    "drive": {
     "yt": "HA5w8wPemB0",
@@ -2503,11 +2493,6 @@
     "title": "🔴 Live Now: 24/7 Etna Volcano, Sicily Italy in 4K 2026-07-09 19:50",
     "verified": "2026-07-09"
    },
-   "window": {
-    "yt": "EGk3Mr0OshE",
-    "title": "🔴 Live Now: 24/7 Mount Etna Volcano, Sicily, Italy (Multi-cams) 2026-07-09 19:50",
-    "verified": "2026-07-09"
-   },
    "drive": {
     "yt": "G8cYQUGvP4s",
     "title": "🚗 Driving in CATANIA | City Tour | SICILY - ITALY #4k60fps",
@@ -2553,16 +2538,6 @@
     "channel": "World Wanderings: 4K Walking Tours",
     "date": "20250822",
     "duration": 4857
-   },
-   "live": {
-    "yt": "KuBVf_DwhwI",
-    "title": "Manchester, IA Hawk Camera - Live from Joe's Pizza Manchester 2026-07-09 19:50",
-    "verified": "2026-07-09"
-   },
-   "window": {
-    "yt": "i07IVN7ZKek",
-    "title": "Peregrine Networks Live Peregrine Falcon Feed3 (Manchester, NH, USA) 2026-07-10 08:26",
-    "verified": "2026-07-10"
    },
    "drive": {
     "yt": "t-xl421qZaA",
@@ -3945,16 +3920,6 @@
    }
   },
   "san-jose": {
-   "live": {
-    "yt": "-pp9TisLmLU",
-    "title": "San José City Hall Peregrine Falcon Camera - Ledge 2026-07-09 20:01",
-    "verified": "2026-07-10"
-   },
-   "window": {
-    "yt": "VBSxPjy5sow",
-    "title": "San Jose City Hall Peregrine Falcon Camera - Nest Box 2026-07-09 20:01",
-    "verified": "2026-07-10"
-   },
    "drive": {
     "yt": "LgvM-PsVj2g",
     "title": "【4K 60fps】🇨🇷 ¾ HOUR RELAXATION FILM: 🚗 «Driving in San Jose (Costa Rica)» Ultra HD 📺 UHD 2160p TV",
@@ -4252,6 +4217,11 @@
     "channel": "The Travel Docket",
     "date": "20241212",
     "duration": 5009
+   },
+   "window": {
+    "yt": "TmtVbezZaqg",
+    "title": "Leavenworth Washington Live Webcam from Kris Kringl! 2026-07-18 12:55",
+    "verified": "2026-07-18"
    }
   },
   "boston": {
@@ -4406,6 +4376,11 @@
     "channel": "GET GO SEE",
     "date": "20260207",
     "duration": 1220
+   },
+   "window": {
+    "yt": "h5Grd2w7HQM",
+    "title": "🔴 LIVE: Nashville Live Cam • Lower Broadway (With Sound) 2026-07-18 12:56",
+    "verified": "2026-07-18"
    }
   },
   "austin": {
@@ -4675,11 +4650,6 @@
     "title": "Seattle, Washington, USA | LIVE Train Camera (PTZ) 2026-07-10 08:36",
     "verified": "2026-07-10"
    },
-   "window": {
-    "yt": "NqOmHpwMUxs",
-    "title": "Live sea otter / fur seal cam - Seattle Aquarium 2026-07-10 08:36",
-    "verified": "2026-07-10"
-   },
    "drive": {
     "yt": "qVlBIqp5I5g",
     "title": "Seattle Downtown Wander | Seattle, Washington, USA | 4K Highway Driving Tour | Beautiful City Travel",
@@ -4908,11 +4878,6 @@
    }
   },
   "glacier-np": {
-   "live": {
-    "yt": "yiZ6nFZ8NRw",
-    "title": "🔴 LIVE: Ultimate Montana Webcam Tour 🏔️ Glacier NP, Yellowstone & Big Sky Country | NOW! 2026-07-10 08:39",
-    "verified": "2026-07-10"
-   },
    "window": {
     "yt": "jJI5w_RVGtQ",
     "title": "Mendenhall Glacier and Mountain Goat Cam  powered by EXPLORE.org 2026-07-10 08:39",
@@ -5498,6 +5463,11 @@
     "channel": "ZeABAY 🎭",
     "date": "20250103",
     "duration": 2569
+   },
+   "live": {
+    "yt": "_2rvoH5oDcg",
+    "title": "National Museum of Wildlife Art - Live Elk Refuge 2026-07-18 13:59",
+    "verified": "2026-07-18"
    }
   },
   "johannesburg": {

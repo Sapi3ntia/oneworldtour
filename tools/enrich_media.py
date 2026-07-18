@@ -70,6 +70,11 @@ def norm(s):
     return "".join(c for c in s if not unicodedata.combining(c)).lower()
 
 
+def nature_place(place):
+    """True where an animal cam IS the point (Katmai's bears, Kruger)."""
+    return (place.get("type") or "") in NATURE_TYPES
+
+
 def ytdlp_json(args, timeout=180):
     """Run yt-dlp, return list of parsed JSON lines (or [])."""
     cmd = ["yt-dlp", "--no-warnings", "-q", *args]
@@ -153,6 +158,33 @@ ALIASES = {
     "marrakesh": ["marrakech"], "fez": ["fes"],
 }
 
+# Cam operators title their streams in their own language, and YouTube ranks
+# by title — so outside the anglosphere the English word "webcam" can miss a
+# city's only real cam entirely. Country name (normalized) → extra cam words.
+CAM_WORDS_BY_COUNTRY = {
+    "poland": ["kamera na żywo"],
+    "spain": ["cámara en vivo"], "mexico": ["cámara en vivo"],
+    "argentina": ["cámara en vivo"], "colombia": ["cámara en vivo"],
+    "peru": ["cámara en vivo"], "chile": ["cámara en vivo"],
+    "france": ["webcam en direct"], "germany": ["webcam live"],
+    "austria": ["livecam"], "switzerland": ["livecam"],
+    "italy": ["webcam live"], "portugal": ["câmara ao vivo"],
+    "brazil": ["câmera ao vivo"], "netherlands": ["live webcam"],
+    "czechia": ["kamera živě"], "russia": ["веб камера онлайн"],
+    "ukraine": ["веб камера онлайн"], "turkey": ["canlı kamera"],
+    "japan": ["ライブカメラ"], "south korea": ["실시간 라이브"],
+    "china": ["直播"], "taiwan": ["即時影像"], "thailand": ["กล้องสด"],
+    "greece": ["live camera"], "norway": ["webkamera live"],
+    "sweden": ["webbkamera live"], "finland": ["webkamera live"],
+    "denmark": ["webkamera live"], "iceland": ["vefmyndavel live"],
+    "croatia": ["kamera uzivo"], "slovenia": ["kamera v zivo"],
+    "hungary": ["webkamera elo"], "romania": ["camera live"],
+    "bulgaria": ["уеб камера на живо"], "serbia": ["kamera uzivo"],
+    "israel": ["מצלמה חיה"], "egypt": ["كاميرا مباشرة"],
+    "morocco": ["كاميرا مباشرة"], "indonesia": ["kamera live"],
+    "vietnam": ["camera trực tiếp"], "philippines": ["live webcam"],
+}
+
 
 def mentions_place(title, place):
     t0 = scrub_namesakes(norm(title))
@@ -204,6 +236,39 @@ US_STATES = {
     "tennessee", "texas", "utah", "vermont", "virginia", "washington",
     "west virginia", "wisconsin", "wyoming",
 }
+US_ABBR = (
+    "AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", "HI", "ID",
+    "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS",
+    "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK",
+    "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV",
+    "WI", "WY",
+)
+# Multi-city ROTATORS are the single biggest false positive in cam search
+# ("1200 TOP LIVE WEBCAMS around the World", "European Webcam Journey — a
+# panoramic tour of 280 cities", earthTV's "The World Live", WebCamera.pl's
+# all-of-Poland mosaic). They ARE live, and they DO eventually show our city
+# — but a feed that cycles through 280 places is not this place's window, and
+# a viewer who opens it sees somewhere else. Never a seat.
+# A nest box is not a city. Real 2026-07 picks this catches: a kestrel nest
+# at the UN standing in as VIENNA's live cam, peregrine nest boxes as San
+# José's BOTH seats, an aquarium otter tank as Seattle's window. These are
+# fine cams — they're just not a look at the place, and `wild.json` exists
+# precisely so animal cams can be their own destination. Applied only to
+# places whose type isn't already nature (see nature_place()).
+WILDLIFE_CAM = re.compile(
+    r"nest ?(?:box|cam|site)?\b|\bnesting\b|kestrel|peregrine|falcon|osprey|"
+    r"\beagles?\b|\bowls?\b|heron|stork|puffin|penguin|\bhive\b|bee ?cam|"
+    r"aquarium|\bzoo\b|feeder|birdcam|bird ?cam|\bden\b|burrow|"
+    r"panda|koala|otter|\bcubs?\b|hatch", re.I)
+NATURE_TYPES = {"nature", "wilderness", "natural"}
+
+AGGREGATOR_CAM = re.compile(
+    r"\d{2,}\s*(?:\+\s*)?(?:top\s+)?(?:live\s+)?(?:web)?cams?\b|"
+    r"(?:web)?cams?\s+(?:from\s+)?around\s+the\s+world|world\s+live\b|"
+    r"(?:web)?cam(?:era)?s?\s+(?:tour|journey|trip|marathon|mosaic|mix)\b|"
+    r"rolling\s+cam|multi[\s-]?cam|cam\s+switcher|"
+    r"tour\s+of\s+\d+|\d+\s+(?:cities|countries|beaches|locations)|"
+    r"earthtv|webcamera\.pl|skyline\s?webcams", re.I)
 BAD_CAM = re.compile(
     r"\bwar\b|breaking news|news live|live news|missile|drone attack|"
     r"air ?strike|invasion|frontline|protest|\briots?\b|footage|"
@@ -282,6 +347,14 @@ def wrong_place_title(title, place):
                     continue
                 if re.search(rf"\b{re.escape(st)}\b", t):
                     return True
+            # ...and the POSTAL ABBREVIATION, which the full-name loop above
+            # misses: "Peregrine Falcon Feed (Manchester, NH, USA)" shipped as
+            # MANCHESTER, ENGLAND's window in the 2026-07 sweep. Only after a
+            # comma, so the many abbreviations that are also ordinary words
+            # ("IN", "OR", "ME", "OK", "HI") can't fire on prose.
+            if re.search(r",\s*(?:" + "|".join(US_ABBR) + r")\b",
+                         title, re.I):
+                return True
     return False
 
 
@@ -332,21 +405,67 @@ def find_drive(place):
 
 
 # ---------------------------------------------------------------- live cams
-def find_cams(place, exclude=()):
-    """One search, then classify live hits into street vs window vantage.
-    `exclude`: yt ids already used by this place's other seats — never
-    offer the same feed twice."""
-    q = f"{place['name']} live cam"
-    live = []
-    for e in flat_search(q, 12):
-        if e.get("live_status") != "is_live" or e.get("id") in exclude:
-            continue
-        title = e.get("title") or ""
-        if BAD_CAM.search(title):
-            continue
-        if not mentions_place(title, place) or wrong_place_title(title, place):
-            continue
-        live.append(e)
+def cam_queries(place):
+    """Query variants, cheapest-yield-first.
+
+    Measured 2026-07: a single "{name} live cam" is far too narrow — it
+    returned ZERO live results for Copenhagen, Kraków and Marrakesh while
+    "webcam live" and "live webcam 24/7" surfaced real streams for the same
+    cities. YouTube's ranking treats "live cam" / "webcam" as near-unrelated
+    phrasings, so we ask both ways, plus the local-language word where we
+    know it, plus the place's own top landmark (cam titles name the landmark
+    far more often than the city: "Nyhavn", not "Copenhagen").
+    """
+    name = place["name"]
+    qs = [f"{name} live cam", f"{name} webcam live", f"{name} live webcam 24/7"]
+    # local-language cam words materially outperform English outside the
+    # anglosphere ("kamera na żywo", "cámara en vivo", "webcam en direct")
+    for alias in (ALIASES.get(place.get("id") or "") or [])[:1]:
+        qs.append(f"{alias} live webcam")
+    for word in CAM_WORDS_BY_COUNTRY.get(norm(place.get("country") or ""), []):
+        qs.append(f"{name} {word}")
+    # the top landmark, which is what the cam operator actually names it
+    for h in (place.get("highlights") or [])[:1]:
+        hn = h.get("name") if isinstance(h, dict) else h
+        if hn and norm(hn) != norm(name):
+            qs.append(f"{hn} live webcam")
+    return qs
+
+
+def find_cams(place, exclude=(), seats=("live", "window")):
+    """Search several phrasings, pool the live hits, then classify them
+    into street vs window vantage.  `exclude`: yt ids already used by this
+    place's other seats — never offer the same feed twice.
+
+    `seats` must list ONLY the seats the caller still needs. A cam whose
+    title reads neither clearly street nor clearly window is a candidate
+    for both seats, and the first seat to be filled consumes it — so
+    filling a seat nobody asked for silently steals the city's only cam
+    from the seat it actually needed. (Edinburgh, 2026-07: its real
+    Arthur's Seat feed was being eaten by the already-filled `live` seat
+    and the `window` gap stayed empty.)
+    """
+    live, seen = [], set()
+    for qi, q in enumerate(cam_queries(place)):
+        if qi:
+            time.sleep(2)             # polite between variants
+        for e in flat_search(q, 12):
+            if e.get("live_status") != "is_live" or e.get("id") in exclude:
+                continue
+            if e.get("id") in seen:
+                continue
+            title = e.get("title") or ""
+            if BAD_CAM.search(title) or AGGREGATOR_CAM.search(title):
+                continue
+            if not nature_place(place) and WILDLIFE_CAM.search(title):
+                continue
+            if not mentions_place(title, place) or wrong_place_title(title, place):
+                continue
+            seen.add(e["id"])
+            live.append(e)
+        # enough real candidates to fill both seats — stop paying for search
+        if len(live) >= 6:
+            break
 
     def classify(e):
         t = e.get("title") or ""
@@ -373,7 +492,7 @@ def find_cams(place, exclude=()):
     # first pick must not cost the city its whole seat
     out, used, vetted = {}, set(), {}
     now = datetime.now(timezone.utc).date().isoformat()
-    for seat in ("live", "window"):
+    for seat in seats:
         for e in ranked[seat][:5]:
             if e["id"] in used:
                 continue
@@ -383,7 +502,8 @@ def find_cams(place, exclude=()):
                 # rules on it (search snippets are often shortened)
                 ft = (info or {}).get("title", "")
                 ok = bool(info) and embeddable(info) and info.get("is_live") \
-                    and not BAD_CAM.search(ft) \
+                    and not BAD_CAM.search(ft) and not AGGREGATOR_CAM.search(ft) \
+                    and not (not nature_place(place) and WILDLIFE_CAM.search(ft)) \
                     and mentions_place(ft, place) and not wrong_place_title(ft, place)
                 vetted[e["id"]] = info if ok else None   # live RIGHT NOW at vet time
             info = vetted[e["id"]]
@@ -476,9 +596,10 @@ def main():
         if "live" in needs or "window" in needs:
             taken = {v.get("yt") for v in entry.values()
                      if isinstance(v, dict) and v.get("yt")}
-            cams = find_cams(loc, exclude=taken)
-            for seat in ("live", "window"):
-                if seat in needs and seat in cams:
+            want_seats = [s for s in ("live", "window") if s in needs]
+            cams = find_cams(loc, exclude=taken, seats=want_seats)
+            for seat in want_seats:
+                if seat in cams:
                     other = entry.get("window" if seat == "live" else "live")
                     if other and other.get("yt") == cams[seat]["yt"]:
                         continue          # never the same feed in both seats

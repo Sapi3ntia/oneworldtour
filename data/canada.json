@@ -50,7 +50,33 @@
         }
       ],
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Horseshoe Falls",
+          "yt": "wbuzFDLPP2I",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "American Falls",
+          "yt": "zcSDcEsayRo",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Clifton Hill",
+          "yt": "tt6zOqvAm08",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Niagara Parkway",
+          "yt": "L0zrQ0SYHlA",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "cn-tower",
@@ -109,6 +135,30 @@
           "name": "CN Tower",
           "yt": "fgbFdV7yL_o",
           "start": 7
+        },
+        {
+          "name": "CN Tower EdgeWalk",
+          "yt": "LyWo8N9Vln4",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Toronto Harbourfront",
+          "yt": "d_f4a6HTtsU",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Toronto Islands",
+          "yt": "4ueh2ahcrTY",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Rogers Centre",
+          "yt": "9576IAcEkRQ",
+          "start": 0,
+          "source": "auto"
         }
       ]
     },
@@ -160,7 +210,27 @@
       ],
       "walk": "oFsN1-AYa10",
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Château Frontenac",
+          "yt": "CX4g0TP1MNw",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Rue du Petit-Champlain",
+          "yt": "umnu04FRVmA",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Plains of Abraham",
+          "yt": "IPwivrjSm-A",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "banff-lake-louise",
@@ -209,7 +279,33 @@
         }
       ],
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Lake Louise",
+          "yt": "okaBUndwZN4",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Moraine Lake",
+          "yt": "JzOJLmu0c5A",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Town of Banff",
+          "yt": "UEtnGXbj2Xc",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Banff Gondola",
+          "yt": "sVx2CeSuioc",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "stanley-park",
@@ -262,7 +358,27 @@
         "start": 60
       },
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "The Seawall",
+          "yt": "WonvzkBMcW0",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Vancouver Aquarium",
+          "yt": "Up6r7IZym98",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Lions Gate Bridge",
+          "yt": "5CTbUFzBA0w",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "peggys-cove",
@@ -307,7 +423,21 @@
         }
       ],
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Peggys Point Lighthouse",
+          "yt": "5bWLI8Yki7U",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "St. Margarets Bay",
+          "yt": "_wGbho71P_o",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "tofino",
@@ -357,7 +487,21 @@
       ],
       "webcam": "LqaP8m2OIqM",
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Long Beach",
+          "yt": "NSK8oUSrirE",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Pacific Rim National Park",
+          "yt": "aw4LRxE0iy4",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "churchill",
@@ -406,7 +550,21 @@
         }
       ],
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Hudson Bay",
+          "yt": "62lEeAyl7Uo",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Polar Bears",
+          "yt": "8bHxcq1_PEs",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "dawson-city",
@@ -451,7 +609,21 @@
         }
       ],
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Klondike Gold Rush",
+          "yt": "uwwROPiaLPY",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Midnight Dome",
+          "yt": "8rIxUmcjeCA",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "lunenburg",
@@ -496,7 +668,21 @@
         }
       ],
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Old Town Lunenburg",
+          "yt": "qLxNpxWs5M4",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Bluenose II",
+          "yt": "94Z99OBEiMk",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "icefields-parkway",
@@ -545,7 +731,21 @@
         }
       ],
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Columbia Icefield",
+          "yt": "bjbQA_QVcbE",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Peyto Lake",
+          "yt": "DOb1gr62ygI",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "hopewell-rocks",
@@ -590,7 +790,15 @@
         }
       ],
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Bay of Fundy",
+          "yt": "QVHnr6mhXxM",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "point-farms",
@@ -635,7 +843,21 @@
         }
       ],
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Lake Huron",
+          "yt": "8WV_V-K9rb0",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Goderich",
+          "yt": "MZSNlYKSEkI",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "grand-river",
@@ -684,7 +906,27 @@
         }
       ],
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Elora Gorge",
+          "yt": "c926XgPqBWk",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Brantford",
+          "yt": "B05rGOOnSJc",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Lake Erie",
+          "yt": "7MYKZ6k_keg",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "elora-gorge",
@@ -729,7 +971,21 @@
         }
       ],
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Elora",
+          "yt": "if5bL7tyu7E",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Grand River",
+          "yt": "c926XgPqBWk",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "pinery",
@@ -774,7 +1030,21 @@
         }
       ],
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Lake Huron",
+          "yt": "QYOsj86MgQo",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Grand Bend",
+          "yt": "TyggwsVFw4o",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     },
     {
       "id": "rondeau",
@@ -819,7 +1089,21 @@
         }
       ],
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Lake Erie",
+          "yt": "Q24WdGjnSvc",
+          "start": 0,
+          "source": "auto"
+        },
+        {
+          "name": "Carolinian forest",
+          "yt": "3JrIoN7NY4Q",
+          "start": 0,
+          "source": "auto"
+        }
+      ]
     }
   ]
 }
