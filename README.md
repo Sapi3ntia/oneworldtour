@@ -296,6 +296,21 @@ only, per-IP and per-instance rate limits, hard input caps, and `max_tokens`
 pinned at 220 — because every call bills a real Anthropic account. Tune the
 limits at the top of that file; set `GUIDE_MODEL` to override the model.
 
+**`"framework": null` in `vercel.json` is load-bearing.** Left to itself, Vercel
+sees a Python dependency and builds the whole repo as a Python *application* —
+one entrypoint answering every route — and the atlas disappears behind
+`/api/ask`, which returns `{"status": "ok"}` at `/`. Null keeps it a static site
+whose `api/*.py` files are individual functions. Two related traps: the
+zero-config static builder looks in `public/`, so the site has to sit at the
+repo root with no output directory override; and the per-file Python builder
+rejects `maxDuration`/`memory`, so don't add a `functions` block. `pyproject.toml`,
+`uv.lock` and `.python-version` are generated at build time from
+`requirements.txt` and are gitignored on purpose.
+
+There is deliberately no `cleanUrls` or `trailingSlash`: the pages fetch their
+data with relative paths, so `/location/` would look for
+`/location/data/index.json` and 404.
+
 Rebuilding the map asset (only needed if you want fresher borders):
 
 ```bash

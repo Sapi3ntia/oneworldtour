@@ -1,6 +1,5 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "//": "framework:null is load-bearing. Left to itself Vercel sees the Python dep and builds the repo as a Python *app*, where one entrypoint answers every route and the atlas vanishes behind /api/ask. Null keeps it a static site whose api/*.py files are individual functions.",
   "framework": null,
   "headers": [
     {
