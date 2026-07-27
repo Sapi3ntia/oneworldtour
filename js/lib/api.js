@@ -3,7 +3,30 @@
    Each function degrades to null/[] — callers show honest empty
    states, never spinners that spin forever.
    ============================================================ */
-const BACKEND_URL = 'http://localhost:8000';
+/* The one call that isn't keyless: Ask-the-Guide goes through our own
+   same-origin serverless function (api/ask.py) so the Anthropic key stays
+   on the server. Relative path — works in prod, previews, and `vercel dev`. */
+const BACKEND_URL = '/api';
+
+/* Remote services hand us URLs that end up in href/src attributes. Only
+   http(s) ever gets through — a javascript: or data: URL from a rotted or
+   poisoned feed would otherwise run in the visitor's page. */
+function httpUrl(u) {
+  try {
+    const p = new URL(u, location.href);
+    return (p.protocol === 'https:' || p.protocol === 'http:') ? p.href : null;
+  } catch { return null; }
+}
+
+/* Served over https, the browser blocks plain-http media outright — roughly
+   half of Radio Browser's streams. A station we can't play is a station we
+   don't list, same rule as the rest of the atlas. Local http dev keeps them. */
+const PAGE_IS_HTTPS = location.protocol === 'https:';
+function playableUrl(u) {
+  const clean = httpUrl(u);
+  if (!clean) return null;
+  return PAGE_IS_HTTPS && clean.startsWith('http://') ? null : clean;
+}
 
 /* ---- Hero photo: Wikipedia page thumbnail ---- */
 export async function arrivalPhoto(wikiSlug, size = 1400) {
@@ -32,7 +55,7 @@ export async function galleryPhotos(wikiSlug, count = 4) {
       .slice(0, count)
       .map(it => {
         const src = it.srcset[it.srcset.length - 1]?.src;
-        return src ? (src.startsWith('//') ? 'https:' + src : src) : null;
+        return src ? httpUrl(src.startsWith('//') ? 'https:' + src : src) : null;
       })
       .filter(Boolean);
   } catch { return []; }
@@ -90,21 +113,22 @@ export async function stations(countryCode, limit = 14) {
     try {
       const r = await fetch(
         `${base}/json/stations/search?countrycode=${countryCode}` +
-        `&limit=${limit * 3}&order=clickcount&reverse=true&hidebroken=true`);
+        // *5, not *3: on https the playable filter below drops about half.
+        `&limit=${limit * 5}&order=clickcount&reverse=true&hidebroken=true`);
       if (!r.ok) continue;
       const raw = await r.json();
       if (!Array.isArray(raw) || !raw.length) continue;
       const seen = new Set(), list = [];
       for (const s of raw) {
         const name = (s.name || '').trim();
-        const url = s.url_resolved || s.url;
+        const url = playableUrl(s.url_resolved || s.url);
         if (!name || !url || seen.has(name.toLowerCase())) continue;
         seen.add(name.toLowerCase());
         list.push({
           name, url,
           codec: s.codec || '', bitrate: s.bitrate || 0,
           tags: (s.tags || '').split(',').filter(Boolean).slice(0, 3),
-          favicon: s.favicon || '',
+          favicon: playableUrl(s.favicon) || '',
         });
         if (list.length >= limit) break;
       }
@@ -126,9 +150,10 @@ export async function news(place, country, limit = 6) {
     const seen = new Set(), out = [];
     for (const a of (Array.isArray(d.articles) ? d.articles : [])) {
       const title = (a.title || '').trim();
-      if (!title || !a.url || seen.has(title.toLowerCase())) continue;
+      const url = httpUrl(a.url);
+      if (!title || !url || seen.has(title.toLowerCase())) continue;
       seen.add(title.toLowerCase());
-      out.push({ title, url: a.url, domain: a.domain || '', seendate: a.seendate || '' });
+      out.push({ title, url, domain: a.domain || '', seendate: a.seendate || '' });
       if (out.length >= limit) break;
     }
     return out;
@@ -143,9 +168,12 @@ export async function askGuide(locationName, question, context) {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ locationName, question, context }),
     });
-    if (!r.ok) throw new Error(r.status);
-    return (await r.json()).answer || 'No answer available.';
+    const body = await r.json().catch(() => ({}));
+    /* The function explains itself on 429/503 — pass that through verbatim
+       rather than replacing a useful message with a generic one. */
+    if (!r.ok) return body.error || 'Guide unavailable right now.';
+    return body.answer || 'No answer available.';
   } catch {
-    return 'Guide unavailable — make sure the backend is running on port 8000.';
+    return 'Guide unavailable — could not reach it.';
   }
 }
