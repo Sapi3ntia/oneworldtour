@@ -9,3 +9,5 @@ __pycache__/
 
 # Vercel CLI local state (contains the project/org ID)
 .vercel/
+.vercel
+.env*
