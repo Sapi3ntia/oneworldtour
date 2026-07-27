@@ -96,13 +96,18 @@
         <div id="gallery" class="gallery"></div>
       </div>
 
-      <div class="panel" id="guide-panel">
+      <!-- Off on the public build: answering costs Anthropic credits per
+           question, so no key is set and api/ask.py reports itself
+           unconfigured. A panel that only ever returns an error is worse
+           than no panel, same rule as news and gallery above. To turn it
+           back on: set ANTHROPIC_API_KEY on the deployment, drop `hidden`. -->
+      <div class="panel" id="guide-panel" hidden>
         <h3>💬 Ask the guide</h3>
         <div id="guide-log" class="guide-log"></div>
         <form id="guide-form" class="guide-form">
           <input id="guide-q" class="input" placeholder="Ask anything about this place…" autocomplete="off">
         </form>
-        <div class="faint guide-hint">Optional — needs the local backend running.</div>
+        <div class="faint guide-hint">Optional — needs ANTHROPIC_API_KEY set on the deployment.</div>
       </div>
     </section>
 
