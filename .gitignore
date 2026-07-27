@@ -1,2 +1,11 @@
 tools/windy.key
 __pycache__/
+
+# Secrets — ANTHROPIC_API_KEY lives here for `vercel dev`, and in the Vercel
+# project settings for deploys. Never committed.
+.env
+.env.*
+!.env.example
+
+# Vercel CLI local state (contains the project/org ID)
+.vercel/

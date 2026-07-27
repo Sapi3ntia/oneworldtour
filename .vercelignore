@@ -1,0 +1,15 @@
+# Build-time only — the yt-dlp sweeps, region builders, and vetting scripts
+# rewrite data/*.json locally. None of it runs in production, and windy.key
+# lives here, so none of it is uploaded.
+tools/
+
+# Archived notes, not served.
+docs/
+TODO.md
+
+# Empty placeholder.
+audio/
+
+__pycache__/
+*.pyc
+.claude/

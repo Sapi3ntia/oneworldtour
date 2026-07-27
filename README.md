@@ -131,7 +131,8 @@ oneworldtour/
 │   ├── prune_media.py     # re-apply today's rules; drop picks that now fail
 │   ├── check_trips.py     # every trip stop must resolve to a real place  ★
 │   └── (v1 data builders: fetch_windy.py etc.)
-└── backend/               # optional FastAPI proxy for Ask-the-Guide
+└── api/
+    └── ask.py             # serverless proxy for Ask-the-Guide (keeps the key server-side)
 ```
 
 ### The map engine (why the glitches can't come back)
@@ -269,12 +270,31 @@ python3 -m http.server 8099 --bind 127.0.0.1
 
 No install, no keys. (Serve it — don't open `file://` — it fetches local JSON.)
 
-Optional Ask-the-Guide backend:
+Everything except **Ask-the-Guide** works from that plain static server. That one
+feature calls `/api/ask`, a serverless function, so it needs the Vercel CLI:
 
 ```bash
-cd backend && pip install -r requirements.txt
-ANTHROPIC_API_KEY=sk-... uvicorn server:app --reload --port 8000
+npm i -g vercel                      # once
+echo "ANTHROPIC_API_KEY=sk-..." > .env.local
+vercel dev                           # serves the site + the function together
 ```
+
+`.env.local` is gitignored. The key is read only inside `api/ask.py` and never
+reaches the browser. Without it the Ask box says so honestly instead of failing
+silently.
+
+### Deploying
+
+```bash
+vercel login
+vercel env add ANTHROPIC_API_KEY production
+vercel --prod
+```
+
+`api/ask.py` is deliberately hostile to anyone who isn't the site — same-origin
+only, per-IP and per-instance rate limits, hard input caps, and `max_tokens`
+pinned at 220 — because every call bills a real Anthropic account. Tune the
+limits at the top of that file; set `GUIDE_MODEL` to override the model.
 
 Rebuilding the map asset (only needed if you want fresher borders):
 
