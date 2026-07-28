@@ -406,11 +406,22 @@ silently.
 
 ### Deploying
 
+`Sapi3ntia/oneworldtour` is connected to the Vercel project, so **a push to
+`main` deploys to production on its own** and any other branch gets a preview
+URL. The CLI is still there for a deploy that skips git:
+
 ```bash
 vercel login
 vercel env add ANTHROPIC_API_KEY production
-vercel --prod
+vercel --prod                        # optional — pushing already deploys
 ```
+
+Connecting it needs the **Vercel GitHub App** installed on the GitHub account,
+and installed *with this repo in scope* — a fresh install defaults to whichever
+repositories you tick, so a project whose repo wasn't ticked never appears in
+Vercel's picker and `vercel git connect` fails with a misleading "make sure
+there aren't any typos". The fix is **Settings → Git → "Adjust GitHub App
+Permissions"**, which lands on GitHub's own install settings.
 
 `api/ask.py` is deliberately hostile to anyone who isn't the site — same-origin
 only, per-IP and per-instance rate limits, hard input caps, and `max_tokens`
