@@ -133,6 +133,7 @@ async function boot() {
     live: p => p._flags.live,
     window: p => p._flags.window,
     monuments: p => p._flags.monuments,
+    night: p => p._flags.night,
     saved: p => State.isSaved(p.id),
     ancient: p => p.region_id === 'ancient',
     // wildlife = the wild collection + any nature place with a live cam
@@ -183,6 +184,7 @@ async function boot() {
   const liveNow = shuffled(places.filter(p => p._flags.live)).slice(0, 16);
   const walks = shuffled(places.filter(p => p._flags.walk)).slice(0, 16);
   const monus = shuffled(places.filter(p => p._flags.monuments)).slice(0, 16);
+  const nights = shuffled(places.filter(p => p._flags.night)).slice(0, 16);
   const saved = places.filter(p => State.isSaved(p.id));
   const ancient = shuffled(places.filter(p => p.region_id === 'ancient')).slice(0, 16);
   const wild = shuffled(places.filter(filters.wild)).slice(0, 16);
@@ -193,6 +195,7 @@ async function boot() {
     rail('🦁 Wild live cams', wild, 'bears, gorillas, waterholes — streaming now'),
     rail('🚶 Best walking tours', walks, 'seekable, real footage'),
     rail('🏛️ Monumental cities', monus, 'landmark tours inside'),
+    rail('🌃 After dark', nights, 'night walks, night drives, nightlife'),
     saved.length ? rail('♥ Your saved places', saved) : null,
     rail('🤫 Ancient Apocalypse', ancient, 'every site from the series'),
   ].filter(Boolean));

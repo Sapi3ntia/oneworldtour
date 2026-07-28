@@ -19,6 +19,19 @@
      • 'pick' mode (City Guesser): clicks emit {lat,lng} via the
        exact projection inverse.
 
+   Hit testing is GEOMETRIC, not DOM (2026-07). Dots and country
+   nodes are pointer-events:none; a click resolves to the marker
+   whose CENTRE is nearest the cursor, within a fixed pixel radius.
+   Two reasons, both reported from the wild:
+     • elementFromPoint returns whatever was painted last, so a city
+       drawn later stole its neighbour's clicks — Osaka sat under
+       Kyoto and Kobe, the Toronto cluster fought over one pixel.
+       Nearest-centre gives every dot its own Voronoi cell instead.
+     • dot radii used to be floored in MAP units, which meant they
+       grew linearly on screen once zoomed past k≈4.5 (a 64px blob
+       at k=40) and swallowed their neighbours. Radii are now pinned
+       in real pixels, exactly like the labels always were.
+
    Perf guardrails: no filters, no shadows, no infinite animations;
    strokes use vector-effect:non-scaling-stroke; dot radii are
    updated once per zoom change (~350 circles — cheap).
@@ -29,6 +42,8 @@ const NS = 'http://www.w3.org/2000/svg';
 const COUNTRY_K = 2.6;   // below this zoom: country nodes; above: city dots
 const LABEL_K = 4.2;     // city labels appear from this zoom
 const K_MAX = 40, K_MIN = 1;
+const DOT_PX = 4;        // city dot radius, in real screen pixels at any zoom
+const HIT_PX = 12;       // click/tap radius around a dot centre, likewise
 
 const svgEl = (tag, attrs = {}) => {
   const n = document.createElementNS(NS, tag);
@@ -69,8 +84,34 @@ export class WorldMap {
     this.tip.className = 'wmap-tip';
     container.appendChild(this.tip);
 
+    this._rect = null;
+    this._hot = null;
+    this._measure();
+    if (typeof ResizeObserver !== 'undefined') {
+      this._ro = new ResizeObserver(() => { this._measure(); this._applyZoomStyling(); });
+      this._ro.observe(container);
+    }
+
     this._graticule();
     this._bind();
+  }
+
+  /* Cached size of the SVG box. Measured on resize only: _applyZoomStyling
+     runs on every tween frame, and a getBoundingClientRect in there would
+     force a layout flush right after we've dirtied ~350 circle radii —
+     exactly the thrash this engine exists to avoid. Only the SCALE is
+     cached; _clientToMap still reads left/top live, because those move
+     when the page scrolls and the cache would silently offset every click. */
+  _measure() {
+    const r = this.svg.getBoundingClientRect();
+    if (r.width && r.height) this._rect = { width: r.width, height: r.height };
+  }
+
+  /* Map units per on-screen pixel at the current zoom. */
+  get _u() {
+    const r = this._rect;
+    if (!r) return this.vb.w / MAP_W;
+    return 1 / Math.min(r.width / this.vb.w, r.height / this.vb.h);
   }
 
   /* Faint meridians/parallels every 30° — the "atlas" texture. */
@@ -153,25 +194,25 @@ export class WorldMap {
       this._countryNodes.push({ g, country, list, cx, cy, r0 });
     }
 
-    // city dots (+labels), hidden until zoomed
+    // city dots (+labels), hidden until zoomed. No invisible hit circle
+    // any more — the click target is a radius around the centre, computed
+    // in _nearestCity, so overlapping targets can't shadow each other.
     for (const p of vis) {
       const g = svgEl('g', { class: 'wmap-city', 'data-id': p.id });
       const f = p._flags || {};
       let cls = 'city-dot';
       if (f.live) cls += ' has-live';
       else if (f.walk) cls += ' has-walk';
-      // invisible oversized hit circle — the visible dot is a few px,
-      // the click/tap target shouldn't be
-      const hit = svgEl('circle', { cx: p._pt.x, cy: p._pt.y, r: 6, class: 'city-hit' });
       const dot = svgEl('circle', { cx: p._pt.x, cy: p._pt.y, r: 2.4, class: cls });
       const label = svgEl('text', {
         x: p._pt.x, y: p._pt.y, dx: 4, dy: '0.32em', class: 'city-label',
       });
       label.textContent = `${p.emoji || ''} ${p.name}`.trim();
-      g.append(hit, dot, label);
+      g.append(dot, label);
       this.gDots.appendChild(g);
-      this._cityDots.push({ g, hit, dot, label, p });
+      this._cityDots.push({ g, dot, label, p });
     }
+    this._hot = null;
     this._applyZoomStyling();
   }
 
@@ -253,11 +294,15 @@ export class WorldMap {
     this.container.classList.toggle('wmap-citymode', cityMode);
     const showLabels = k >= LABEL_K;
     if (this._cityDots) {
-      const r = Math.max(1.6, 3.4 / Math.sqrt(k));
+      /* Pinned in screen pixels. The old `max(1.6, 3.4/√k)` floor was in
+         MAP units, so past k≈4.5 every dot grew linearly with the zoom
+         and neighbouring cities merged into one blob you couldn't aim at. */
+      const u = this._u;
+      const r = DOT_PX * u;
+      this._hitR = HIT_PX * u;
       const fs = 11 / k;
       for (const d of this._cityDots) {
         d.dot.setAttribute('r', r);
-        d.hit.setAttribute('r', r * 2.4);
         if (showLabels) {
           d.label.style.display = '';
           d.label.setAttribute('font-size', fs);
@@ -393,7 +438,7 @@ export class WorldMap {
     };
     c.addEventListener('pointerup', endDrag);
     c.addEventListener('pointercancel', () => { drag = null; });
-    c.addEventListener('pointerleave', () => { this._tipHide(); });
+    c.addEventListener('pointerleave', () => { this._tipHide(); this._setHot(null); });
 
     c.addEventListener('wheel', ev => {
       ev.preventDefault();
@@ -416,31 +461,64 @@ export class WorldMap {
     });
   }
 
-  _pickTarget(ev) {
-    // NEVER trust ev.target here: while the pointer is captured
-    // (pointerdown → pointerup), events are retargeted to the
-    // container, so ev.target on release is the div — which made
-    // every dot/node click silently miss. Resolve the element under
-    // the cursor ourselves instead.
-    const under = document.elementFromPoint(ev.clientX, ev.clientY);
-    if (!under) return { type: 'sea' };
-    const cityMode = this.k >= COUNTRY_K;
-    if (cityMode) {
-      const g = under.closest('.wmap-city');
-      if (g) {
-        const hit = this._cityDots.find(d => d.g === g);
-        if (hit) return { type: 'city', place: hit.p };
-      }
-    } else {
-      const g = under.closest('.wmap-cnode');
-      if (g) {
-        const hit = this._countryNodes.find(n => n.g === g);
-        if (hit) return { type: 'country', country: hit.country, list: hit.list };
-      }
+  /* The city dot whose centre is nearest `pt`, within the tap radius.
+     Nearest-centre — not topmost-painted — is the whole fix: every dot
+     owns the patch of map that is closer to it than to any neighbour,
+     so a tight cluster (Osaka/Kyoto/Kobe, Toronto/Hamilton/Niagara)
+     splits cleanly instead of the last-drawn dot taking every click. */
+  _nearestCity(pt) {
+    let best = null, bd = (this._hitR || 6) ** 2;
+    for (const d of this._cityDots || []) {
+      const q = (d.p._pt.x - pt.x) ** 2 + (d.p._pt.y - pt.y) ** 2;
+      if (q <= bd) { bd = q; best = d; }
     }
-    const land = under.closest('.wmap-land path');
+    return best;
+  }
+
+  /* Same rule for the world-view country nodes, each within its own halo. */
+  _nearestCountryNode(pt) {
+    let best = null, bd = Infinity;
+    for (const n of this._countryNodes || []) {
+      const q = (n.cx - pt.x) ** 2 + (n.cy - pt.y) ** 2;
+      if (q <= n.r0 ** 2 && q < bd) { bd = q; best = n; }
+    }
+    return best;
+  }
+
+  _pickTarget(ev) {
+    // Markers resolve geometrically (see _nearestCity). elementFromPoint
+    // is kept only for the land/sea fallback, where the target really is
+    // an arbitrary country path — and it can be trusted there now that
+    // dots and nodes are pointer-events:none and no longer cover it.
+    // (ev.target is still never usable: during pointer capture every
+    // event retargets to the container.)
+    const pt = this._clientToMap(ev);
+    if (this.k >= COUNTRY_K) {
+      const hit = this._nearestCity(pt);
+      if (hit) return { type: 'city', place: hit.p, dot: hit };
+    } else {
+      const hit = this._nearestCountryNode(pt);
+      if (hit) return { type: 'country', country: hit.country, list: hit.list, node: hit };
+    }
+    const under = document.elementFromPoint(ev.clientX, ev.clientY);
+    const land = under && under.closest('.wmap-land path');
     if (land) return { type: 'land', name: land.getAttribute('data-name') };
     return { type: 'sea' };
+  }
+
+  /* Highlight exactly what a click would take, and lift it above its
+     neighbours so its label is readable. CSS :hover can't do this any
+     more: the dot under the cursor and the dot that owns the click are
+     different elements inside a cluster, and highlighting the wrong one
+     is worse than highlighting none. */
+  _setHot(hit) {
+    if (this._hot === hit) return;
+    this._hot?.g.classList.remove('wm-hot');
+    this._hot = hit || null;
+    if (hit) {
+      hit.g.classList.add('wm-hot');
+      hit.g.parentNode.appendChild(hit.g);   // re-append = drawn last = on top
+    }
   }
 
   _click(ev) {
@@ -462,6 +540,7 @@ export class WorldMap {
 
   _hover(ev) {
     const t = this._pickTarget(ev);
+    this._setHot(t.type === 'city' ? t.dot : t.type === 'country' ? t.node : null);
     if (t.type === 'city') {
       const f = t.place._flags || {};
       const tags = [f.live && '🔴', f.window && '🪟', f.walk && '🚶', f.monuments && '🏛️'].filter(Boolean).join(' ');

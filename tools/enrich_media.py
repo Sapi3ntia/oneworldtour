@@ -52,6 +52,17 @@ MEDIA = ROOT / "data" / "media.json"
 SEARCH_N = 10
 CUR_YEAR = datetime.now().year
 
+# The seats a place can fill. The two night seats are the day walk/drive
+# seats with "and it is dark out" bolted on; live/window have no night
+# twin ON PURPOSE — a live cam is already whatever time it is there, so a
+# "night live cam" would be the same feed with a lie in the label.
+SEATS = ("walk", "drive", "live", "window")
+NIGHT_SEATS = ("night_walk", "night_drive")
+# seat → the hand-curated field in the region JSON that outranks it
+CURATED_FIELD = {"walk": "walk", "drive": "drive",
+                 "live": "webcam", "window": "window",
+                 "night_walk": "night_walk", "night_drive": "night_drive"}
+
 WINDOW_WORDS = re.compile(
     r"skyline|rooftop|panoram|harbou?r|bay view|city view|aerial|"
     r"over the|from above|birds?.?eye|vista|seafront|waterfront|beach", re.I)
@@ -63,6 +74,21 @@ BAD_WALK = re.compile(r"treadmill|virtual run|driving|drive |by car|cycling|bike
 DRIVE_WORDS = re.compile(r"driv(?:e|ing)|by car|road trip|scenic drive|dash ?cam", re.I)
 BAD_DRIVE = re.compile(r"walk|stroll|treadmill|cycling|bike|train|flight|"
                        r"crash|accident|police|test drive|review", re.I)
+
+# 🌃 NIGHT. The night seats are the same seekable-video contract as their
+# daytime twins — a night walk is a walk, a night drive is a drive — so
+# they reuse every guard in this file and only add "…and it's dark out".
+# The title has to SAY so: a walk shot at dusk that nobody labelled night
+# is a daytime walk as far as we can prove, and guessing would be the
+# same species of lie as a fake live cam.
+NIGHT_WORDS = re.compile(
+    r"\bnight\b|night ?life|nocturn|after dark|\bneon\b|\bevening\b|"
+    r"midnight|\bdusk\b|illuminat|light ?up|noite|noche|notte|nacht|"
+    r"nuit|natt|ночь|夜|야경|กลางคืน", re.I)
+# "Night" that isn't a time of day: a hotel stay, a match, a film title.
+BAD_NIGHT = re.compile(
+    r"nights? (?:at|in) the (?:museum|opera)|good ?night|night ?core|"
+    r"sleep|asmr|\d+ nights?\b|one night stand|saturday night live", re.I)
 
 
 def norm(s):
@@ -141,6 +167,29 @@ def scrub_streets(t):
         r"lane|court|crescent|meadows|heights|downs|square|plaza)\b", "", t)
 
 
+# A PERSON is not a place. The road scrub above only fires when the title
+# spells the road type out, and plenty of titles don't: "Mississauga 4K
+# Drive | Hwy 403 → Winston Churchill → Ridgeway Plaza" shipped as the
+# driving tour of CHURCHILL, MANITOBA — a 900-person Arctic town — in the
+# 2026-07 sweep, and "Driving Winston Churchill, Ontario" was queued up
+# right behind it. Strip the honorific/given name together with the word
+# it qualifies, so the dedication stops looking like a destination.
+#
+# Deliberately NOT here: "saint"/"st" (Saint Petersburg, St John's) and
+# bare first names that are also real places on their own (Victoria,
+# Nelson, Charlotte) — those must keep matching.
+PERSON_NAMED = re.compile(
+    r"\b(?:sir|lord|lady|dame|dr|prof|gen|col|capt|pres|president|"
+    r"governor|mayor|bishop|father|winston|abraham|thomas jefferson|"
+    r"john f\.?|jfk|martin luther(?: king)?|nelson mandela|"
+    r"george washington|simon bolivar|jose marti|kwame nkrumah)\.?"
+    r"\s+[a-z]+\b")
+
+
+def scrub_persons(t):
+    return PERSON_NAMED.sub("", t)
+
+
 # Native / local names — cam titles are often in the local language
 # ("Roma Live Cam", "Москва", "서울"). Full-phrase inclusion only.
 ALIASES = {
@@ -188,7 +237,7 @@ CAM_WORDS_BY_COUNTRY = {
 
 def mentions_place(title, place):
     t0 = scrub_namesakes(norm(title))
-    t = scrub_streets(t0)
+    t = scrub_persons(scrub_streets(t0))
     name_tokens = [w for w in re.split(r"[^a-z]+", norm(place["name"])) if len(w) > 3]
     if any(w in t for w in name_tokens) or norm(place["name"]) in t:
         return True
@@ -359,18 +408,24 @@ def wrong_place_title(title, place):
 
 
 # ------------------------------------------------------- walks & drives
-def find_seekable(place, query, want, avoid):
+def find_seekable(place, query, want, avoid, also=None, min_dur=600):
     """A real, seekable tour video (walk or drive): embeddable, not
-    live, recent enough that the streets still look like this."""
+    live, recent enough that the streets still look like this.
+
+    `also` is a second regex the title must ALSO match — that's how the
+    night seats say "and it is dark out" without duplicating any of the
+    vetting below."""
     cands = []
     for e in flat_search(query):
         title = e.get("title") or ""
         dur = e.get("duration") or 0
         if e.get("live_status") == "is_live":
             continue
-        if not (600 <= dur <= 6 * 3600):
+        if not (min_dur <= dur <= 6 * 3600):
             continue
         if not want.search(title) or avoid.search(title):
+            continue
+        if also and not also.search(title):
             continue
         if not mentions_place(title, place) or wrong_place_title(title, place):
             continue
@@ -379,6 +434,15 @@ def find_seekable(place, query, want, avoid):
     for e in cands[:4]:
         info = full_info(e["id"])
         if not info or not embeddable(info) or info.get("is_live"):
+            continue
+        # the FULL title is what we store, and search snippets are often
+        # shortened — re-run the title rules on it, same as find_cams does
+        ft = info.get("title", "")
+        if not want.search(ft) or avoid.search(ft):
+            continue
+        if also and not also.search(ft):
+            continue
+        if not mentions_place(ft, place) or wrong_place_title(ft, place):
             continue
         date = info.get("upload_date") or ""
         year = int(date[:4]) if date[:4].isdigit() else 0
@@ -402,6 +466,25 @@ def find_walk(place):
 def find_drive(place):
     return find_seekable(place, f"{place['name']} {place['country']} driving tour 4k",
                          DRIVE_WORDS, BAD_DRIVE)
+
+
+# The night seats are the SAME seats with one extra condition: it has to
+# actually be dark out. They deliberately reuse find_seekable rather than
+# forking a "nightlife finder", so every guard earned by walk/drive —
+# scrub_persons, wrong_place_title, the staleness cutoff, embeddability —
+# applies here for free. `also=NIGHT_WORDS` is the whole difference.
+def find_night_walk(place):
+    return find_seekable(place, f"{place['name']} {place['country']} night walk 4k",
+                         WALK_WORDS, re.compile(BAD_WALK.pattern + "|" + BAD_NIGHT.pattern,
+                                                re.I),
+                         also=NIGHT_WORDS)
+
+
+def find_night_drive(place):
+    return find_seekable(place, f"{place['name']} {place['country']} night drive 4k",
+                         DRIVE_WORDS, re.compile(BAD_DRIVE.pattern + "|" + BAD_NIGHT.pattern,
+                                                 re.I),
+                         also=NIGHT_WORDS)
 
 
 # ---------------------------------------------------------------- live cams
@@ -534,7 +617,11 @@ def main():
     ap.add_argument("--max", type=int, default=10, help="cities this run")
     ap.add_argument("--only", help="comma-separated place ids")
     ap.add_argument("--tag", help="only this tag (famous/hidden)")
-    ap.add_argument("--need", choices=["walk", "drive", "live", "window", "any"], default="any")
+    ap.add_argument("--need", choices=[*SEATS, *NIGHT_SEATS, "night", "any"],
+                    default="any",
+                    help="'any' sweeps the four day seats; the night seats are "
+                         "opt-in ('night' = both) so a routine refresh doesn't "
+                         "mark every city as incomplete forever")
     ap.add_argument("--refresh", action="store_true", help="redo places already in media.json")
     args = ap.parse_args()
 
@@ -551,8 +638,7 @@ def main():
     only = set(args.only.split(",")) if args.only else None
 
     def curated_has(loc, scene):
-        return bool(loc.get({"walk": "walk", "drive": "drive",
-                             "live": "webcam", "window": "window"}[scene]))
+        return bool(loc.get(CURATED_FIELD[scene]))
 
     def wants(loc):
         if only and loc["id"] not in only:
@@ -560,13 +646,13 @@ def main():
         if args.tag and loc.get("tag") != args.tag:
             return False
         done = media["places"].get(loc["id"], {})
-        needs = []
-        for scene in ("walk", "drive", "live", "window"):
-            if curated_has(loc, scene) or scene in done:
-                continue
-            needs.append(scene)
-        if args.need != "any":
-            needs = [s for s in needs if s == args.need]
+        scan = NIGHT_SEATS if args.need in ("night", *NIGHT_SEATS) else SEATS
+        if args.need not in ("any", "night"):
+            scan = (args.need,)
+        needs = [s for s in scan
+                 if not curated_has(loc, s) and s not in done]
+        if args.refresh and not needs:
+            needs = list(scan)          # redo the seats this run is about
         loc["_needs"] = needs
         if not args.refresh and not needs:
             return False
@@ -579,7 +665,7 @@ def main():
         t0 = time.time()
         entry = media["places"].setdefault(loc["id"], {})
         found = []
-        needs = loc.get("_needs") or ["walk", "drive", "live", "window"]
+        needs = loc.get("_needs") or list(SEATS)
 
         if "walk" in needs:
             w = find_walk(loc)
@@ -592,6 +678,18 @@ def main():
             if d:
                 entry["drive"] = d
                 found.append(f"drive:{d['yt']}({d['date'][:4]})")
+            time.sleep(4)
+        if "night_walk" in needs:
+            nw = find_night_walk(loc)
+            if nw:
+                entry["night_walk"] = nw
+                found.append(f"night_walk:{nw['yt']}({nw['date'][:4]})")
+            time.sleep(4)
+        if "night_drive" in needs:
+            nd = find_night_drive(loc)
+            if nd:
+                entry["night_drive"] = nd
+                found.append(f"night_drive:{nd['yt']}({nd['date'][:4]})")
             time.sleep(4)
         if "live" in needs or "window" in needs:
             taken = {v.get("yt") for v in entry.values()

@@ -32,8 +32,13 @@
    engines and simply snap elsewhere — transform/opacity guardrail
    doesn't apply (this is a layout change, not a paint loop). */
 .stage-section { margin-top: 26px; }
-.stage-tabs { margin-bottom: 12px; }
+.stage-tabs { margin-bottom: 12px; align-items: center; }
 .stage-tabs .chip { font-size: 13.5px; padding: 8px 16px; }
+
+/* After dark the stage keeps its exact geometry and only cools down —
+   the mode has to be readable at a glance without anything moving. */
+body.is-night .stage-grid .quad-bar { background: #0f1220; }
+body.is-night button.quad-bar:hover { background: #161a2c; }
 
 .stage-grid {
   display: grid; gap: 10px;

@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-18T18:46:21+00:00",
+ "generated": "2026-07-28T14:21:42+00:00",
  "places": {
   "fez": {
    "walk": {
@@ -56,11 +56,6 @@
     "channel": "HP Walking Tours",
     "date": "20241217",
     "duration": 6360
-   },
-   "live": {
-    "yt": "t8dZeRGZgV4",
-    "title": "🔴 Could the Pyramids Be Older Than Egypt Itself? | Ancient History Live 24/7 2026-07-10 07:51",
-    "verified": "2026-07-10"
    },
    "drive": {
     "yt": "-SBL49z4yJk",
@@ -288,6 +283,20 @@
     "channel": "The Travel Docket",
     "date": "20251126",
     "duration": 3613
+   },
+   "night_walk": {
+    "yt": "6rYwgMrJHMk",
+    "title": "Tokyo’s Hottest Night Walk 🇯🇵 | After Dark 4K Late Night Walk in Kabukicho",
+    "channel": "    Silent Streets Japan",
+    "date": "20260728",
+    "duration": 672
+   },
+   "night_drive": {
+    "yt": "-Xh4BNbxpI8",
+    "title": "Relaxing Night Drive in Tokyo / 8K 60fps HDR / Soft Lofi Beats",
+    "channel": "Abao Vision",
+    "date": "20250503",
+    "duration": 3089
    }
   },
   "kyoto": {
@@ -307,6 +316,20 @@
     "channel": "Dashcam Roadshow",
     "date": "20220306",
     "duration": 2671
+   },
+   "night_walk": {
+    "yt": "F399teRPBaY",
+    "title": "Relaxing Night Walk in Kyoto, Yasaka Pagoda, Binaural, City Sounds",
+    "channel": "Nomadic Ambience",
+    "date": "20230424",
+    "duration": 3935
+   },
+   "night_drive": {
+    "yt": "L07uyRUK8L0",
+    "title": "4K Night Drive Osaka to Kyoto thru Route 1 49km / 国道1号大阪→京都ドライブ",
+    "channel": "Dashcam Roadshow",
+    "date": "20220619",
+    "duration": 4068
    }
   },
   "osaka": {
@@ -315,17 +338,26 @@
     "title": "【LIVE】大阪 道頓堀 ライブカメラ　osaka Dotonbori LiveCamera 2026-07-09 19:30",
     "verified": "2026-07-09"
    },
-   "window": {
-    "yt": "yn_R-24L3lI",
-    "title": "【LIVE 4K】Osaka Live Camera 大阪ライブカメラ Osaka, JAPAN | Live Camera Stream 2026-07-09 19:30",
-    "verified": "2026-07-09"
-   },
    "drive": {
     "yt": "Uul7D06LcsM",
     "title": "DRIVING from KANSAI AIRPORT to OSAKA DOWNTOWN, JAPAN 4K",
     "channel": "Just Driving 4K",
     "date": "20260130",
     "duration": 4403
+   },
+   "night_walk": {
+    "yt": "xP-wJbQcMOc",
+    "title": "🇯🇵 OSAKA, JAPAN 4K WALKING TOUR - Dotonbori District Sunset & Night Life City Walk | 4K HDR - 60 fps",
+    "channel": "World Wanderings: 4K Walking Tours",
+    "date": "20240512",
+    "duration": 8155
+   },
+   "night_drive": {
+    "yt": "ovD7QlzCCoU",
+    "title": "Osaka Night Drive 🇯🇵 / 8K 60fps HDR / Relaxing Lofi Beats",
+    "channel": "Abao Vision",
+    "date": "20260601",
+    "duration": 7384
    }
   },
   "mount-fuji": {
@@ -434,17 +466,26 @@
     "title": "Travel Hong Kong Live TV ❤️ Colorful Hong Kong tourism - Hong Kong Night market, shopping tour TV 홍콩 2026-07-09 19:30",
     "verified": "2026-07-09"
    },
-   "window": {
-    "yt": "zWL7rq0QvJI",
-    "title": "香港維多利亞港東面直播 Live cam of Victoria Harbour – Eastern Side in Hong Kong 2026-07-09 19:30",
-    "verified": "2026-07-09"
-   },
    "drive": {
     "yt": "arbVnYJfZLU",
     "title": "Hong Kong 4K - Skyscraper City - Driving Downtown",
     "channel": "J Utah",
     "date": "20251022",
     "duration": 3958
+   },
+   "night_walk": {
+    "yt": "7zhGAeOoOUg",
+    "title": "HONG KONG 🇭🇰 Neon Lights & Endless Energy | 4K Night Walking Tour",
+    "channel": "Walking OZ",
+    "date": "20250301",
+    "duration": 8809
+   },
+   "night_drive": {
+    "yt": "0FDQNGeb8q4",
+    "title": "Hong Kong 4K - Late Night Streets - Driving Downtown [HDR]",
+    "channel": "J Utah",
+    "date": "20251116",
+    "duration": 4149
    }
   },
   "taj-mahal-agra": {
@@ -471,11 +512,6 @@
     "date": "20240614",
     "duration": 4574
    },
-   "live": {
-    "yt": "3-8aaN2KY90",
-    "title": "🔥 BGMI LIVE | BMPS JAIPUR HYPE 💥TEAM APEX GAMING ❤️| CONQUEROR PUSH #bgmishorts #shortsfeed #live 2026-07-10 07:53",
-    "verified": "2026-07-10"
-   },
    "drive": {
     "yt": "1_MlMU7hEuo",
     "title": "Jaipur City 4K Drive Tour | Golden Evening | Amazing Drive Tour - All In City",
@@ -491,11 +527,6 @@
     "channel": "Walk In Progress 4K",
     "date": "20250419",
     "duration": 4368
-   },
-   "live": {
-    "yt": "jxD3YrybT00",
-    "title": "🔴Live Darshan From Shree Kashi Vishwanath Temple Varanasi ( श्री काशी विश्वनाथ मंदिर से लाइव दर्शन ) 2026-07-17 19:50",
-    "verified": "2026-07-17"
    }
   },
   "seoul": {
@@ -515,6 +546,20 @@
     "channel": "J Utah",
     "date": "20230120",
     "duration": 2860
+   },
+   "night_walk": {
+    "yt": "ca9uN3QyDmQ",
+    "title": "[4K] Seoul Nightlife Walking Tour - BEST Street Food, Night Markets, and Party Districts.",
+    "channel": "World Wanderings: 4K Walking Tours",
+    "date": "20241025",
+    "duration": 9111
+   },
+   "night_drive": {
+    "yt": "EWGW0-e1-fU",
+    "title": "Seoul Night Drive ✨ Luxury Gangnam & Night View | Chill Lofi Hiphop Beats | 4K 60fps",
+    "channel": "Seoul Drive",
+    "date": "20260510",
+    "duration": 11975
    }
   },
   "busan": {
@@ -524,11 +569,6 @@
     "channel": "World Wanderings: 4K Walking Tours",
     "date": "20240731",
     "duration": 4582
-   },
-   "live": {
-    "yt": "le_0I6Svt4I",
-    "title": "부산 송정해수욕장 라이브캠 24/7🔴Busan Beach Live Cam🌊韓国 釜山 ライブカメラ  🚶‍♂️ Korea Walking Tours TV 2026-07-09 19:31",
-    "verified": "2026-07-09"
    },
    "window": {
     "yt": "jmVmZlsQIL8",
@@ -581,6 +621,20 @@
     "channel": "Wanderlust Walks",
     "date": "20260107",
     "duration": 3042
+   },
+   "night_walk": {
+    "yt": "0md2hiwfrl0",
+    "title": "Thailand Nightlife 2026 🇹🇭 | Experience Bangkok NANA PLAZA Crazy Nightlife Walk (4K HDR)",
+    "channel": "Global Street Walk",
+    "date": "20260724",
+    "duration": 1113
+   },
+   "night_drive": {
+    "yt": "1CFuoKiPT60",
+    "title": "Driving Around Bangkok | Relaxing Night Driving Tour [4K HDR]",
+    "channel": "Wanderlust Walks",
+    "date": "20251207",
+    "duration": 2885
    }
   },
   "chiang-mai": {
@@ -607,11 +661,6 @@
     "date": "20251110",
     "duration": 4412
    },
-   "live": {
-    "yt": "XUAo-Fs5q9w",
-    "title": "Phuket, Thailand 🇹🇭 Beach Walking Tour on a Hot & Sunny Day 2026-07-09 19:32",
-    "verified": "2026-07-09"
-   },
    "window": {
     "yt": "_nvG0c9keWI",
     "title": "Sainamyen Road, Patong, Phuket, Thailand | Nida Massage | Live Camera Stream 2026-07-09 19:32",
@@ -633,11 +682,6 @@
     "date": "20240211",
     "duration": 3505
    },
-   "live": {
-    "yt": "byVTbSiz4Og",
-    "title": "LIVE Penang webcam weather Georgetown, Penang Malaysia 马来西亚 - 槟城 - 乔治市 Gurney Drive-Komtar-Jelutong 2026-07-09 19:32",
-    "verified": "2026-07-09"
-   },
    "drive": {
     "yt": "bMNWvJqYv14",
     "title": "🇲🇾 Penang Driving Tour Malaysia in 4K video. Explore from George Town to Jelutong",
@@ -652,17 +696,26 @@
     "title": "【LIVE CAMERA】Downtown Singapore　シンガポール　ライブカメラ 2026-07-09 19:32",
     "verified": "2026-07-09"
    },
-   "window": {
-    "yt": "NB38EAiOLXM",
-    "title": "Singapore CBD Live Stream 4K Webcam 2026-07-09 19:32",
-    "verified": "2026-07-09"
-   },
    "drive": {
     "yt": "quZlt3j5Nwk",
     "title": "Singapore Scenic Drive 4K - Beverly Hills Rainforest",
     "channel": "J Utah",
     "date": "20251014",
     "duration": 3511
+   },
+   "night_walk": {
+    "yt": "rmxNPzpuFB4",
+    "title": "SINGAPORE WALKING TOUR — Evening Tour of Marina Bay & Gardens by the Bay with Captions [4K/60fps]",
+    "channel": "HP Walking Tours",
+    "date": "20250513",
+    "duration": 6517
+   },
+   "night_drive": {
+    "yt": "VoZmHWK2fjg",
+    "title": "Singapore 4K - Tropical City Skyline - Night Drive [HDR]",
+    "channel": "J Utah",
+    "date": "20251018",
+    "duration": 3057
    }
   },
   "gardens-by-the-bay": {
@@ -729,17 +782,26 @@
     "title": "Vietnam Travel LIVE TV | Walking HotSpots in Hanoi - Vietnamese Night Market, Bar & Food Street 2026-07-09 19:32",
     "verified": "2026-07-09"
    },
-   "window": {
-    "yt": "g952T7L_fAs",
-    "title": "Hanoi Live Camera 24/7 | Vinh Tuy Bridge Traffic | Hanoi Skyline Night View 2026-07-09 19:32",
-    "verified": "2026-07-09"
-   },
    "drive": {
     "yt": "CYk9KQenuiI",
     "title": "Hanoi Vietnam Driving Tour 4K 🇻🇳 | Real Street View & City Traffic 2026",
     "channel": "Drive Vietnam 4K",
     "date": "20260708",
     "duration": 793
+   },
+   "night_walk": {
+    "yt": "1nkQvNu2DGA",
+    "title": "🇻🇳 Hanoi Saturday Night Madness - Crowded Streets and Lively Nightlife | 4K HDR HANOI WALKING TOUR",
+    "channel": "LADmob",
+    "date": "20251210",
+    "duration": 3627
+   },
+   "night_drive": {
+    "yt": "YQl9c5gCjhg",
+    "title": "Driving Hanoi 4K - Night Drive - Vietnam",
+    "channel": "Vietnam Silent Routes",
+    "date": "20250124",
+    "duration": 2939
    }
   },
   "ho-chi-minh-city": {
@@ -756,6 +818,20 @@
     "channel": "DVK Journey",
     "date": "20260717",
     "duration": 1860
+   },
+   "night_walk": {
+    "yt": "Nuv4nA1fHpY",
+    "title": "🇻🇳 Ho Chi Minh (Saigon) Night Walking Tour Vietnam in 4K Video. Explore from Landmark81 to Katinat",
+    "channel": "Edu Thomas",
+    "date": "20250112",
+    "duration": 4653
+   },
+   "night_drive": {
+    "yt": "MZTf5Z44Kpc",
+    "title": "Vietnam Driving Tour 4K | Night Drive Around Vinhomes Grand Park, Ho Chi Minh City",
+    "channel": "DVK Journey",
+    "date": "20260706",
+    "duration": 1952
    }
   },
   "chefchaouen": {
@@ -1111,6 +1187,20 @@
     "channel": "on the road in TW",
     "date": "20230227",
     "duration": 1077
+   },
+   "night_walk": {
+    "yt": "qcNXcFD9jRU",
+    "title": "Walking Taipei's Vibrant Streets 4K | Traditional Neighborhoods & Night Market Scenes",
+    "channel": "World Wanderings: 4K Walking Tours",
+    "date": "20260123",
+    "duration": 3668
+   },
+   "night_drive": {
+    "yt": "N-P79qS3EIY",
+    "title": "Taipei Taiwan 4K - Night Drive",
+    "channel": "J Utah",
+    "date": "20230411",
+    "duration": 2823
    }
   },
   "tainan": {
@@ -1259,6 +1349,20 @@
     "channel": "My Little Israel",
     "date": "20260306",
     "duration": 7066
+   },
+   "night_walk": {
+    "yt": "23J8YWdN_Ik",
+    "title": "Night Walk in Tel Aviv 🇮🇱 Bars, People & City Vibes [4K]",
+    "channel": "THIS IS TEL AVIV",
+    "date": "20260219",
+    "duration": 752
+   },
+   "night_drive": {
+    "yt": "eCGTRqMds-0",
+    "title": "TEL AVIV 4K • Night Drive • ISRAEL 🇮🇱",
+    "channel": "My Little Israel",
+    "date": "20251216",
+    "duration": 2788
    }
   },
   "masada": {
@@ -1582,14 +1686,23 @@
     "channel": "Bright Routes",
     "date": "20260530",
     "duration": 1951
+   },
+   "night_walk": {
+    "yt": "Hq0_9MbTalM",
+    "title": "Walking Toronto's Queens Quay to HTO Park at Dusk | CN Tower at Night | City Sounds 4K HDR",
+    "channel": "4K CANADA",
+    "date": "20230318",
+    "duration": 828
+   },
+   "night_drive": {
+    "yt": "f0LFvpjCfkQ",
+    "title": "Toronto Downtown Night Drive 4K POV | Jarvis → Front → King → Queen | CN Tower, Ritz, SoHo 🌆🚗",
+    "channel": "Drive POV 4K",
+    "date": "20251025",
+    "duration": 1258
    }
   },
   "old-quebec": {
-   "live": {
-    "yt": "ApHss1U8HW0",
-    "title": "🔴 Québec city Live 2026-07-10 08:01",
-    "verified": "2026-07-10"
-   },
    "drive": {
     "yt": "S3yGvWxxax0",
     "title": "DRIVING in QUEBEC CITY, Province of QUEBEC, CANADA 4K",
@@ -1605,11 +1718,6 @@
     "channel": "Spy Toronto",
     "date": "20250922",
     "duration": 724
-   },
-   "live": {
-    "yt": "m1F2ggd0hxA",
-    "title": "Rock Isle Lake Cam 2026-07-10 08:01",
-    "verified": "2026-07-10"
    },
    "drive": {
     "yt": "fY9OojMyRrE",
@@ -1778,6 +1886,13 @@
     "channel": "J Utah",
     "date": "20220818",
     "duration": 2950
+   },
+   "night_walk": {
+    "yt": "OF8eFS0QREw",
+    "title": "Vienna, Austria Night Walking Tour 4k Ultra HD - Explore the Magic After Dark",
+    "channel": "WalkingTrails&TravelVibes",
+    "date": "20231112",
+    "duration": 3692
    }
   },
   "faroe-islands": {
@@ -1855,11 +1970,6 @@
     "channel": "European Walking Tours",
     "date": "20251025",
     "duration": 3192
-   },
-   "live": {
-    "yt": "sgUhPN4uAe4",
-    "title": "🔴 Live 360º Sky Camera from Málaga, Andalusia (Spain) 🌤️ 2026-07-09 19:46",
-    "verified": "2026-07-09"
    },
    "drive": {
     "yt": "LFFQXCCVDrU",
@@ -2015,11 +2125,6 @@
     "channel": "European Scenic Roads",
     "date": "20260413",
     "duration": 6706
-   },
-   "live": {
-    "yt": "EfWyqycpsAo",
-    "title": "🔴LIVE Malta Cam - Heatwave Alert 🌞- 4K - 24/7 2026-07-17 19:54",
-    "verified": "2026-07-17"
    }
   },
   "iceland": {
@@ -2071,11 +2176,6 @@
     "channel": "Global Walks",
     "date": "20220718",
     "duration": 3548
-   },
-   "live": {
-    "yt": "jhzL_zJM4co",
-    "title": "Azores Live · Terceira Coastline & Weather · Açores em Direto 🌊 2026-07-09 19:47",
-    "verified": "2026-07-09"
    },
    "drive": {
     "yt": "UYmOpSTT-C0",
@@ -2139,6 +2239,13 @@
     "channel": "Relaxing Scenes Driving",
     "date": "20240921",
     "duration": 11506
+   },
+   "night_walk": {
+    "yt": "OBVPzb2afgo",
+    "title": "Nightlife for Gentlemen | Stockholm Girls Night Walk 🌙 Swedish Beauties HDR 4K",
+    "channel": "Nightlife for Gentlemen",
+    "date": "20250917",
+    "duration": 1244
    }
   },
   "strasbourg": {
@@ -2258,6 +2365,13 @@
     "channel": "Virtual Travel Tour",
     "date": "20201118",
     "duration": 2437
+   },
+   "night_walk": {
+    "yt": "vpihJvxDO3k",
+    "title": "Edinburgh Night Walk | 4K Walking Tour HDR",
+    "channel": "Edinburgh Explorer",
+    "date": "20230906",
+    "duration": 2001
    }
   },
   "dolomites": {
@@ -2488,11 +2602,6 @@
     "date": "20240203",
     "duration": 1310
    },
-   "live": {
-    "yt": "lynX9Smloe4",
-    "title": "🔴 Live Now: 24/7 Etna Volcano, Sicily Italy in 4K 2026-07-09 19:50",
-    "verified": "2026-07-09"
-   },
    "drive": {
     "yt": "G8cYQUGvP4s",
     "title": "🚗 Driving in CATANIA | City Tour | SICILY - ITALY #4k60fps",
@@ -2686,6 +2795,20 @@
     "channel": "London Street Vibes",
     "date": "20220307",
     "duration": 2107
+   },
+   "night_walk": {
+    "yt": "GSnAjDu3VoM",
+    "title": "Central London Sunset Walk | Relaxing Evening Walk through West End [4K HDR]",
+    "channel": "Mostly Walking",
+    "date": "20230914",
+    "duration": 3384
+   },
+   "night_drive": {
+    "yt": "FVZXpfcdq3Y",
+    "title": "Night Drive London - 4K - Blackwall Tunnel to Piccadilly",
+    "channel": "ACRENOXE",
+    "date": "20211108",
+    "duration": 4254
    }
   },
   "bavarian-alps": {
@@ -2711,11 +2834,6 @@
     "channel": "World Wanderings: 4K Walking Tours",
     "date": "20231029",
     "duration": 10991
-   },
-   "live": {
-    "yt": "DHiJCmtbIgY",
-    "title": "🔴 Spiaggia Bianche Beach - Sardinia, Italy - Live Cam 2026-07-09 19:52",
-    "verified": "2026-07-09"
    },
    "window": {
     "yt": "I3G_kTiKkKI",
@@ -2753,11 +2871,6 @@
     "channel": "PixelPulse Travels",
     "date": "20240906",
     "duration": 2484
-   },
-   "live": {
-    "yt": "WLwmLL8e5TM",
-    "title": "Frankfurt am Main | Live 24x7 | Live Camera | Frankfurt 2026-07-09 19:52",
-    "verified": "2026-07-09"
    },
    "window": {
     "yt": "PMetnXeBFSk",
@@ -2847,6 +2960,20 @@
     "channel": "Walking OZ",
     "date": "20220507",
     "duration": 2477
+   },
+   "night_walk": {
+    "yt": "IzZkjS4nBQI",
+    "title": "BERLIN IN RAIN 🌧️  2025 Walking Tour In 4K At Night ☔ Capital of Germany | Evening Stroll",
+    "channel": "URBAN ROAMER",
+    "date": "20250131",
+    "duration": 2569
+   },
+   "night_drive": {
+    "yt": "_gSP_k0XbZw",
+    "title": "Germany - Berlin. A Night Drive through the Streets of Kreuzberg and Mitte, in a After-Snow-Weather.",
+    "channel": "The Grand Nephew of Ibn Battouta",
+    "date": "20221014",
+    "duration": 817
    }
   },
   "alberobello": {
@@ -2888,11 +3015,6 @@
     "channel": "Walking OZ",
     "date": "20250824",
     "duration": 4873
-   },
-   "window": {
-    "yt": "4QrpMfrG46s",
-    "title": "🔴Gandia Beach - Valencia, Spain - Live Cam 2026-07-09 19:53",
-    "verified": "2026-07-09"
    },
    "drive": {
     "yt": "7ncdB301rjw",
@@ -2971,11 +3093,6 @@
     "channel": "Worn Boots 4K Walking Tours",
     "date": "20240323",
     "duration": 2400
-   },
-   "live": {
-    "yt": "THI_vTjNRUI",
-    "title": "Lulworth Cove Live Webcam (4K) Jurassic Coast, Dorset @ Jurassic Rib Rides 2026-07-09 19:54",
-    "verified": "2026-07-09"
    },
    "window": {
     "yt": "KnBN3gs-ZZs",
@@ -3135,11 +3252,6 @@
     "title": "🏖️  Mallorca Webcam Sant Elm Beach LIVE 4K – Sa Dragonera • 24/7 #livestream  #beachlive #beach 2026-07-10 08:09",
     "verified": "2026-07-10"
    },
-   "live": {
-    "yt": "b_u1aFNO9iA",
-    "title": "Live Webcam Palma de Mallorca ☀️ Paseo Marítimo ⛴️ Mallorca 🌎 Baleares 🅻🅸🆅🅴 2026-07-10 08:50",
-    "verified": "2026-07-10"
-   },
    "drive": {
     "yt": "lOv1wvqBZRo",
     "title": "Driving the Most Spectacular Road Ever! | Mallorca’s Crazy Snake Road (Sa Calobra, Spain) 4K",
@@ -3167,6 +3279,20 @@
     "channel": "Relaxing Roads 4K",
     "date": "20260222",
     "duration": 1786
+   },
+   "night_walk": {
+    "yt": "CDsnLqTS0fc",
+    "title": "Milan Streets at Night 🇮🇹 | 4K Walking Tour Through Italy’s Lively Duomo District",
+    "channel": "Duslin Travels",
+    "date": "20250705",
+    "duration": 2715
+   },
+   "night_drive": {
+    "yt": "fNCesoSwj6A",
+    "title": "Milan 4K - Night Drive",
+    "channel": "J Utah",
+    "date": "20220810",
+    "duration": 2628
    }
   },
   "porto": {
@@ -3201,11 +3327,6 @@
     "title": "24/7 Live Stream 4K - Digital.Tallinn CityCam 2026-07-09 19:55",
     "verified": "2026-07-09"
    },
-   "window": {
-    "yt": "GXed68ltHBs",
-    "title": "Live 24/7 Stream from Tallinn Estonia 2026-07-09 19:55",
-    "verified": "2026-07-09"
-   },
    "drive": {
     "yt": "r1zkWrIr43A",
     "title": "Tallinn Driving Tour: Medieval Magic to Modern Marvels | Europe Road Trip, S1 Ep49",
@@ -3231,6 +3352,20 @@
     "channel": "Drive Relax Radio",
     "date": "20230325",
     "duration": 2017
+   },
+   "night_walk": {
+    "yt": "be9BVZxIJpg",
+    "title": "🇨🇿Czech Republic 4k walk - Prague 4K Night Walking Tour｜4K 60fps",
+    "channel": "4K NIGHT TOUR",
+    "date": "20260228",
+    "duration": 2294
+   },
+   "night_drive": {
+    "yt": "wFwaVNkhFOk",
+    "title": "🚗 Kladno → Prague Václav Havel Airport | Night Drive | 4K | No Commentary",
+    "channel": "To the Destination",
+    "date": "20260305",
+    "duration": 982
    }
   },
   "cinque-terre": {
@@ -3504,11 +3639,6 @@
     "date": "20250412",
     "duration": 6712
    },
-   "live": {
-    "yt": "oL4QI55KT6M",
-    "title": "Streets in Riga  Live Stream 2026-07-09 19:57",
-    "verified": "2026-07-09"
-   },
    "drive": {
     "yt": "LOFPSwWWfds",
     "title": "I Was Not Expecting This - Driving tour of Riga Latvia | Europe Road Trip, S1 Ep47",
@@ -3645,11 +3775,6 @@
     "date": "20230918",
     "duration": 4984
    },
-   "window": {
-    "yt": "mUh2SV4s_wc",
-    "title": "Moscow LIVE CAM 24/7 | Relaxing Music for Study & Work | Rooftop City View 2026-07-09 19:58",
-    "verified": "2026-07-09"
-   },
    "drive": {
     "yt": "Et-_-smO01E",
     "title": "4K Driving in Moscow | REAL Moscow UNCOVERED",
@@ -3733,6 +3858,20 @@
     "channel": "J Utah",
     "date": "20200428",
     "duration": 2949
+   },
+   "night_walk": {
+    "yt": "Uct5mA8dzho",
+    "title": "Buenos Aires at Night | 4K Walking Tour with Captions | Argentina",
+    "channel": "Tingo Tango Walks",
+    "date": "20241017",
+    "duration": 5324
+   },
+   "night_drive": {
+    "yt": "75X9vSFCh14",
+    "title": "Buenos Aires 4K - Night Drive - Driving Downtown",
+    "channel": "J Utah",
+    "date": "20200219",
+    "duration": 4921
    }
   },
   "bariloche": {
@@ -3945,11 +4084,6 @@
     "date": "20250702",
     "duration": 789
    },
-   "live": {
-    "yt": "yK7rcNRwM1I",
-    "title": "Monteverde Costa Rica Live Webcam 🌿 | Real-Time Weather, Clouds & Mountain Views 2026-07-09 20:01",
-    "verified": "2026-07-10"
-   },
    "window": {
     "yt": "kfLA8ep2PmM",
     "title": "BDRRMC.. LIVE Brgy Monteverde front outside #phillipines #liveoncam 2026-07-09 20:01",
@@ -4007,6 +4141,20 @@
     "channel": "J Utah",
     "date": "20231124",
     "duration": 3040
+   },
+   "night_walk": {
+    "yt": "prbCL6A8XfE",
+    "title": "Sydney 4K Walking | Must Watch This Stunning Sydney Night Walk | 4K 60FPS",
+    "channel": "AfriAus Walks 4K",
+    "date": "20251204",
+    "duration": 3635
+   },
+   "night_drive": {
+    "yt": "x6V_s61put0",
+    "title": "Driving in Sydney at Night [ 4K, 50FPS ].",
+    "channel": "NUR Travel Studio",
+    "date": "20220921",
+    "duration": 611
    }
   },
   "melbourne": {
@@ -4033,6 +4181,20 @@
     "channel": "J Utah",
     "date": "20231110",
     "duration": 2947
+   },
+   "night_walk": {
+    "yt": "RMpof--JeuY",
+    "title": "Unfiltered Melbourne Nightlife in 4K | Chapel Street Walking Tour (Saturday Night)",
+    "channel": "Watch Us Relaxing",
+    "date": "20250525",
+    "duration": 2026
+   },
+   "night_drive": {
+    "yt": "sg4AxVGt6gg",
+    "title": "AUSTRALIA MELBOURNE NIGHT DRIVING 🎄🎵  Inner suburbs【4K UHD】",
+    "channel": "Discreet Explorer",
+    "date": "20221231",
+    "duration": 1145
    }
   },
   "uluru": {
@@ -4100,11 +4262,6 @@
     "channel": "Aeolyn Travel",
     "date": "20250428",
     "duration": 3108
-   },
-   "live": {
-    "yt": "uakxJIafWcw",
-    "title": "St John of God Mt Lawley, Perth 2026-07-09 20:02",
-    "verified": "2026-07-10"
    },
    "drive": {
     "yt": "-ja--f3D5tE",
@@ -4237,11 +4394,6 @@
     "title": "Boston Weather Cam, MA Live Cam - City of Boston 2026-07-09 20:04",
     "verified": "2026-07-10"
    },
-   "window": {
-    "yt": "49WtyN1V1ZQ",
-    "title": "Boston Harbor, Massachusetts - Live - Hyatt Regency Boston Harbor 2026-07-09 20:04",
-    "verified": "2026-07-10"
-   },
    "drive": {
     "yt": "BUuovuOZhX4",
     "title": "Boston 4k | Driving the Back Bay | Driving Downtown | Massachusetts, USA",
@@ -4261,11 +4413,6 @@
    "live": {
     "yt": "9mMnqO1UuIU",
     "title": "EarthCam Live: Philadelphia, PA 2026-07-09 20:04",
-    "verified": "2026-07-10"
-   },
-   "window": {
-    "yt": "OFaXopTIwSI",
-    "title": "Kensington Cam 6 Philadelphia, PA. 2026-07-09 20:04",
     "verified": "2026-07-10"
    },
    "drive": {
@@ -4288,6 +4435,20 @@
     "channel": "J Utah",
     "date": "20211123",
     "duration": 2687
+   },
+   "night_walk": {
+    "yt": "qdArkQgCr-E",
+    "title": "MAGNIFICENT MILE Chicago | Winter Night Walk to Millennium Park 4K",
+    "channel": "Steps Across the Globe",
+    "date": "20260110",
+    "duration": 2929
+   },
+   "night_drive": {
+    "yt": "9Prtp_eNUiI",
+    "title": "Chicago 4K - Night Drive - Driving Downtown",
+    "channel": "J Utah",
+    "date": "20211125",
+    "duration": 3177
    }
   },
   "new-orleans": {
@@ -4302,6 +4463,20 @@
     "channel": "Fragile Rovers",
     "date": "20241006",
     "duration": 2645
+   },
+   "night_walk": {
+    "yt": "c_HXuVvRUos",
+    "title": "[4K] Nightlife at Bourbon Street in New Orleans, Louisiana USA Virtual Walking Tour & Travel Guide",
+    "channel": "Wind Walk Travel Videos ʬ",
+    "date": "20210309",
+    "duration": 1756
+   },
+   "night_drive": {
+    "yt": "oBk3htGzyww",
+    "title": "New Orleans at Night - 8K Ultra HD - Relaxing Drive in the French Quarter on Halloween",
+    "channel": "The Traveler : Relaxing Videos",
+    "date": "20231116",
+    "duration": 3358
    }
   },
   "miami": {
@@ -4311,11 +4486,6 @@
     "channel": "HP Walking Tours",
     "date": "20231010",
     "duration": 9403
-   },
-   "live": {
-    "yt": "g5BS95j2rmM",
-    "title": "LIVE 4K South Beach, Miami Beach  24/7 Street Cam on Collins Ave 2026-07-09 20:04",
-    "verified": "2026-07-10"
    },
    "window": {
     "yt": "5YCajRjvWCg",
@@ -4328,6 +4498,20 @@
     "channel": "World Driving Tours",
     "date": "20230606",
     "duration": 4252
+   },
+   "night_walk": {
+    "yt": "BDVltWZ9i4Q",
+    "title": "Brickell Miami - Elegance, Luxury & Night Vibes | 4K Walking Tour",
+    "channel": "Walking Florida",
+    "date": "20260720",
+    "duration": 1165
+   },
+   "night_drive": {
+    "yt": "Cod_ggrs69U",
+    "title": "Miami 4K - Night Drive",
+    "channel": "J Utah",
+    "date": "20200822",
+    "duration": 4095
    }
   },
   "savannah": {
@@ -4381,6 +4565,20 @@
     "yt": "h5Grd2w7HQM",
     "title": "🔴 LIVE: Nashville Live Cam • Lower Broadway (With Sound) 2026-07-18 12:56",
     "verified": "2026-07-18"
+   },
+   "night_walk": {
+    "yt": "R4jJHqmJids",
+    "title": "Downtown Broadway NASHVILLE | Saturday Night Walk | 4K",
+    "channel": "Stella in the Wild",
+    "date": "20250713",
+    "duration": 1793
+   },
+   "night_drive": {
+    "yt": "x4XLW2fstYU",
+    "title": "Downtown Nashville Night Drive",
+    "channel": "SOUTHERN LIFE",
+    "date": "20201106",
+    "duration": 1403
    }
   },
   "austin": {
@@ -4390,11 +4588,6 @@
     "channel": "Fragile Rovers",
     "date": "20230216",
     "duration": 3877
-   },
-   "live": {
-    "yt": "AnFai4SlzsI",
-    "title": "Villages of Hidden Lake Live Weather Cam in Pflugerville, Texas (Austin) 2026-07-10 08:50",
-    "verified": "2026-07-10"
    },
    "drive": {
     "yt": "KrlVCzxq1iQ",
@@ -4411,11 +4604,6 @@
     "channel": "Mellow Man Walks",
     "date": "20260108",
     "duration": 1466
-   },
-   "live": {
-    "yt": "wYC4yn1q_IU",
-    "title": "LIVE NOW: Morning traffic conditions in San Antonio 2026-07-10 08:36",
-    "verified": "2026-07-10"
    },
    "drive": {
     "yt": "aR3A121sC0M",
@@ -4438,12 +4626,21 @@
     "title": "FREMONT STREET / Downtown Las Vegas - Walking The Fremont Street Experience (Last Night) 2026-07-09 20:05",
     "verified": "2026-07-10"
    },
-   "window": {
-    "yt": "nylxuqRtOPk",
-    "title": "LIVE: Las Vegas Strip Stream | Real-Time View 2026-07-09 20:05",
-    "verified": "2026-07-10"
-   },
    "drive": {
+    "yt": "HZaLvgP-R8E",
+    "title": "Las Vegas 4K - Midnight Drive",
+    "channel": "J Utah",
+    "date": "20201006",
+    "duration": 4538
+   },
+   "night_walk": {
+    "yt": "75L9-CZwZGI",
+    "title": "Las Vegas, USA Night Walking Tour 4K | The Strip Lights & Landmarks",
+    "channel": "Walk Shots",
+    "date": "20250928",
+    "duration": 2863
+   },
+   "night_drive": {
     "yt": "HZaLvgP-R8E",
     "title": "Las Vegas 4K - Midnight Drive",
     "channel": "J Utah",
@@ -4459,11 +4656,6 @@
     "date": "20241022",
     "duration": 9452
    },
-   "live": {
-    "yt": "jcgwZ3rSma4",
-    "title": "🔴 Downtown Los Angeles Live Cam - Thur Jul 9, 2026 PM 2026-07-09 20:05",
-    "verified": "2026-07-10"
-   },
    "window": {
     "yt": "EO_1LWqsCNE",
     "title": "🔴 Los Angeles Live Cam · Venice Beach · Venice V Hotel · Live Camera Stream 2026-07-09 20:05",
@@ -4475,6 +4667,20 @@
     "channel": "J Utah",
     "date": "20210921",
     "duration": 2422
+   },
+   "night_walk": {
+    "yt": "snHDjUBu4Fw",
+    "title": "LOS ANGELES at Night, California USA, 4K60fps Walking Tour",
+    "channel": "Walking OZ",
+    "date": "20241116",
+    "duration": 6628
+   },
+   "night_drive": {
+    "yt": "NfQgZPZaptY",
+    "title": "Los Angeles, CA. - 4K HDR - Night Drive, When is the last time you've seen Downtown L.A. After Dark",
+    "channel": "The Traveler : Relaxing Videos",
+    "date": "20221204",
+    "duration": 4373
    }
   },
   "san-francisco": {
@@ -4489,6 +4695,20 @@
     "channel": "Jim and The Road",
     "date": "20240902",
     "duration": 2865
+   },
+   "night_walk": {
+    "yt": "NDsS_qKz7mA",
+    "title": "🇺🇸 San Francisco's Civic Center at Night Walking Tour · 4K HDR",
+    "channel": "Eric Travels",
+    "date": "20251102",
+    "duration": 920
+   },
+   "night_drive": {
+    "yt": "zfSKdNbxWYY",
+    "title": "SAN FRANCISCO - OAKLAND BAY BRIDGE | DAY & NIGHT DRIVE 4K 🎧",
+    "channel": "Travel Hungry For Life",
+    "date": "20221110",
+    "duration": 1051
    }
   },
   "san-diego": {
@@ -4563,13 +4783,6 @@
     "yt": "a0i1Kg6fROg",
     "title": "Northern Lights powered by EXPLORE.org 2026-07-10 08:08",
     "verified": "2026-07-10"
-   },
-   "drive": {
-    "yt": "IkqvJRnJCI4",
-    "title": "Mississauga 4K Drive | Hwy 403 → Winston Churchill → Ridgeway Plaza | Sunny Blue Skies",
-    "channel": "Drive POV 4K",
-    "date": "20251212",
-    "duration": 1126
    }
   },
   "paris": {
@@ -4584,6 +4797,20 @@
     "channel": "The Travel Docket",
     "date": "20260130",
     "duration": 4875
+   },
+   "night_walk": {
+    "yt": "xA43Bh54LHo",
+    "title": "Paris, France 🇫🇷 - Paris Night Walk 2024 - 4K HDR Walking Tour | Paris 4K | A Walk In Paris",
+    "channel": "A Walk in Paris",
+    "date": "20241010",
+    "duration": 3049
+   },
+   "night_drive": {
+    "yt": "FmJOnoj05QE",
+    "title": "Midnight Rain in Paris - Night Driving Tour 4K HDR",
+    "channel": "Neon Driving Tours",
+    "date": "20250117",
+    "duration": 6982
    }
   },
   "iguazu-falls": {
@@ -4621,6 +4848,20 @@
     "channel": "Wanderlust Travel Videos",
     "date": "20200620",
     "duration": 1740
+   },
+   "night_walk": {
+    "yt": "J3Be4gw4QXk",
+    "title": "Amsterdam at Night - 4K Walking Tour by Prowalk Tours",
+    "channel": "Prowalk Tours",
+    "date": "20241019",
+    "duration": 7528
+   },
+   "night_drive": {
+    "yt": "5f4qLYbHFCY",
+    "title": "Summer Night drive through the Amsterdam Canals 🌙🌃  4K 60FPS  🇳🇱",
+    "channel": "Ambience finder",
+    "date": "20250822",
+    "duration": 1907
    }
   },
   "new-york-city": {
@@ -4635,6 +4876,20 @@
     "channel": "World Driving Tours",
     "date": "20240615",
     "duration": 3918
+   },
+   "night_walk": {
+    "yt": "3ciZq8ORY5o",
+    "title": "New York City Night Walk 4K Times Square Walking Tour at Night | New York City CRAZY Nightlife 2025",
+    "channel": "The NYC Walking Show",
+    "date": "20251026",
+    "duration": 1384
+   },
+   "night_drive": {
+    "yt": "X3JrEGDVKPg",
+    "title": "4K HDR Night Drive around New York City in the Fall",
+    "channel": "Neon Driving Tours",
+    "date": "20251126",
+    "duration": 6343
    }
   },
   "seattle": {
@@ -4665,11 +4920,6 @@
     "channel": "4K Urban Life",
     "date": "20200926",
     "duration": 16419
-   },
-   "live": {
-    "yt": "yTVG2HMDFQs",
-    "title": "Subaru of Portland's KOIN Tower Northeast view 2026-07-10 08:36",
-    "verified": "2026-07-10"
    },
    "window": {
     "yt": "YIo_pnH0LzY",
@@ -4722,13 +4972,6 @@
     "yt": "R168_-P5PQw",
     "title": "Santa Fe, NM | NMRX Santa Fe Sub, MP 18.32 - Static (Chat) | SouthWest RailCams LIVE 2026-07-10 08:37",
     "verified": "2026-07-10"
-   },
-   "drive": {
-    "yt": "OebqQY7mr0A",
-    "title": "Santa Fe Drive Part 2/2, New Mexico USA 4K - UHD",
-    "channel": "Driver",
-    "date": "20230128",
-    "duration": 2064
    }
   },
   "honolulu": {
@@ -4941,11 +5184,6 @@
     "title": "Trenton Bridge Lobster, Maine - Acadia National Park LIVE CAM 2026-07-10 08:39",
     "verified": "2026-07-10"
    },
-   "window": {
-    "yt": "6DKkXdjFeeQ",
-    "title": "Southwest Harbor, Maine - Acadia National Park LIVE 2026-07-10 08:39",
-    "verified": "2026-07-10"
-   },
    "drive": {
     "yt": "FZBnbeFXjEs",
     "title": "4k DRIVE ACADIA National Park Maine USA",
@@ -5048,11 +5286,6 @@
    "live": {
     "yt": "nslC27nST-Y",
     "title": "24/7 Mount Rainier Wildflowers Live Stream | Peaceful Nature Sounds & Sunset Views 2026-07-10 08:41",
-    "verified": "2026-07-10"
-   },
-   "window": {
-    "yt": "DfwGgIvCYL4",
-    "title": "Pierce County Live Cam | Mount Rainier, Tacoma Skyline & Thea Foss Waterway in 1080p HD 2026-07-10 08:41",
     "verified": "2026-07-10"
    },
    "drive": {
@@ -5321,6 +5554,20 @@
     "channel": "The Travel Docket",
     "date": "20251020",
     "duration": 3815
+   },
+   "night_walk": {
+    "yt": "-sTY197l6YU",
+    "title": "Walking in Rome, Italy 4K 🇮🇹 | Trevi Fountain & Spanish Steps | No Talking Night Walk",
+    "channel": "Duslin Travels",
+    "date": "20260131",
+    "duration": 3135
+   },
+   "night_drive": {
+    "yt": "ebxiasWyeBw",
+    "title": "Rome 4K - Driving Downtown - Night Drive",
+    "channel": "J Utah",
+    "date": "20210716",
+    "duration": 1918
    }
   },
   "tatev-monastery": {
@@ -5365,15 +5612,24 @@
     "date": "20220302",
     "duration": 2863
    },
-   "live": {
-    "yt": "H9PjnvCMoOs",
-    "title": "Cristo Redentor Ao Vivo En Vivo| Christ the Redeemer Live Cam — Rio de Janeiro Brazil 2026-07-17 17:29",
-    "verified": "2026-07-17"
-   },
    "window": {
     "yt": "O8ZLvDZ_WKQ",
     "title": "Rio de Janeiro Live Webcam | São Conrado Beach & Hang Gliding Landing Area 2026-07-17 17:29",
     "verified": "2026-07-17"
+   },
+   "night_walk": {
+    "yt": "ILarh_g_97A",
+    "title": "🇧🇷 Walking in Leblon Nightlife | Rio de Janeiro, Brazil | 4K UHD",
+    "channel": "Vort-C 4K",
+    "date": "20230120",
+    "duration": 1441
+   },
+   "night_drive": {
+    "yt": "WZm3ZJIJ_UY",
+    "title": "Rio de Janeiro Night Drive – Lagoa & City Lights | 4K HDR 60fps | Jazz + Ambient Sounds",
+    "channel": "DriveWalk Brazil",
+    "date": "20260313",
+    "duration": 2879
    }
   },
   "queenstown": {
@@ -5427,6 +5683,20 @@
     "channel": "The Cruiser",
     "date": "20230729",
     "duration": 2291
+   },
+   "night_walk": {
+    "yt": "AEwVdgnjC14",
+    "title": "Marrakech Night Walk 4K 🇲🇦 | M Avenue Night Ambience (Real City Sounds)",
+    "channel": "MARRAKECH POV",
+    "date": "20260306",
+    "duration": 2059
+   },
+   "night_drive": {
+    "yt": "3C4_BYQbLnc",
+    "title": "Marrakech By night Driving 4K 😍 |  جولة بمدينة مراكش ليلا  😱",
+    "channel": "Yasser Immo",
+    "date": "20220121",
+    "duration": 4611
    }
   },
   "cairo": {
@@ -5436,6 +5706,20 @@
     "channel": "J Utah",
     "date": "20201111",
     "duration": 2627
+   },
+   "night_walk": {
+    "yt": "mz9fiM7ljN4",
+    "title": "Cairo Egypt Night Walk | Downtown District 4K HDR Walking Tour",
+    "channel": "LADmob",
+    "date": "20250218",
+    "duration": 1808
+   },
+   "night_drive": {
+    "yt": "86pZTI5gJQM",
+    "title": "Cairo 4K - Night Drive - Driving Downtown",
+    "channel": "J Utah",
+    "date": "20201114",
+    "duration": 3717
    }
   },
   "nairobi": {
@@ -5513,6 +5797,20 @@
     "channel": "China Street View",
     "date": "20241115",
     "duration": 5900
+   },
+   "night_walk": {
+    "yt": "JzqsCnefpWk",
+    "title": "4K CHINA Walking Shanghai at Night | From Nanjing Road to The Bund | 4K | 上海、南京路和外滩",
+    "channel": "World Wanderings: 4K Walking Tours",
+    "date": "20260102",
+    "duration": 6301
+   },
+   "night_drive": {
+    "yt": "8T044v8EG5E",
+    "title": "Shanghai night driving tour - a city with the highest annual GDP in China - 4K HDR",
+    "channel": "China Street View",
+    "date": "20230517",
+    "duration": 5612
    }
   },
   "new-delhi": {
@@ -5531,6 +5829,20 @@
     "channel": "Life Ambience",
     "date": "20230123",
     "duration": 1613
+   },
+   "night_walk": {
+    "yt": "g73mowyEHdU",
+    "title": "MUMBAI Lokhandwala Market🛍️ Andheri Night Walking Tour in 4K | INDIA🇮🇳 Walking Tour",
+    "channel": "Universal Survey ",
+    "date": "20260115",
+    "duration": 2513
+   },
+   "night_drive": {
+    "yt": "D7ApKH6MkkI",
+    "title": "South Mumbai 4K - Monsoon Evening Drive",
+    "channel": "Life Ambience",
+    "date": "20230704",
+    "duration": 4008
    }
   },
   "kuala-lumpur": {
@@ -5540,6 +5852,20 @@
     "channel": "Drive Euphoria",
     "date": "20240630",
     "duration": 2195
+   },
+   "night_walk": {
+    "yt": "C1EMLprSt4c",
+    "title": "4K Malaysia Walk 🇲🇾 Kuala Lumpur Bukit Bintang - Evening Streets & Urban Vibes | July 2026",
+    "channel": "4K Walking Travel",
+    "date": "20260727",
+    "duration": 3766
+   },
+   "night_drive": {
+    "yt": "HF_OFe5kJ3Q",
+    "title": "Kuala Lumpur 4k - Night Drive in Kuala Lumpur City",
+    "channel": "Nasi Lemak Explorer",
+    "date": "20210311",
+    "duration": 4592
    }
   },
   "manila": {
@@ -5549,6 +5875,20 @@
     "channel": "Tour From Home TV",
     "date": "20220811",
     "duration": 4563
+   },
+   "night_walk": {
+    "yt": "d3x9TCUo2uk",
+    "title": "Non-Stop Action Night Walk in Tondo Manila Philippines [4K HDR]",
+    "channel": "Krypto Trekker",
+    "date": "20251023",
+    "duration": 1724
+   },
+   "night_drive": {
+    "yt": "heIukFHg2uQ",
+    "title": "Driving Around METRO MANILA at Night! | 7 Cities in 1.5 hours! | Driving Tour Philippines",
+    "channel": "Tour From Home TV",
+    "date": "20240619",
+    "duration": 5688
    }
   },
   "dubai": {
@@ -5558,6 +5898,20 @@
     "channel": "World Driving Tours",
     "date": "20240512",
     "duration": 7218
+   },
+   "night_walk": {
+    "yt": "0lkNvhgkMHs",
+    "title": "Dubai Marina Night Amazing Walking Tour 🇦🇪 |4K| Dubai Marina, JBR Dubai Walking Tour 2026",
+    "channel": "M&S Walker",
+    "date": "20260727",
+    "duration": 3523
+   },
+   "night_drive": {
+    "yt": "YV17ItVzZC0",
+    "title": "4K NIGHT Drive | DUBAI Downtown |  City of Lights | UAE",
+    "channel": "Wheels Apart",
+    "date": "20230720",
+    "duration": 708
    }
   },
   "aa-bimini-road": {
@@ -5585,6 +5939,20 @@
     "channel": "Edu Thomas",
     "date": "20240804",
     "duration": 6464
+   },
+   "night_walk": {
+    "yt": "W1e_Ky-cLgE",
+    "title": "Copenhagen Denmark 🇩🇰 Night Walk | 4K Walking Tour",
+    "channel": "Faceless Wanderers",
+    "date": "20260303",
+    "duration": 1456
+   },
+   "night_drive": {
+    "yt": "mbkEdyQ6KrY",
+    "title": "Copenhagen city at night || Denmark 🇩🇰 || 4K Copenhagen || Driving In Copenhagen || 4k UHD 60fps",
+    "channel": "HoaaDrive DK",
+    "date": "20220304",
+    "duration": 1363
    }
   },
   "krakow": {
@@ -5612,6 +5980,20 @@
     "channel": "Urban Traveler TV",
     "date": "20250723",
     "duration": 3862
+   },
+   "night_walk": {
+    "yt": "TjPKGUO88Xw",
+    "title": "Athens, Greece Evening Walking Tour | 4K HD (60fps)",
+    "channel": "Walking Dots",
+    "date": "20240922",
+    "duration": 3758
+   },
+   "night_drive": {
+    "yt": "sr-tEp8sXeU",
+    "title": "Athens 4K Dusk Drive: City Center, Lycabettus hill, Monastiraki | Soft Piano Music, No Talking",
+    "channel": "Calm Driving Greece",
+    "date": "20260211",
+    "duration": 1962
    }
   },
   "budapest": {
@@ -5621,6 +6003,20 @@
     "channel": "Driving Experience",
     "date": "20240525",
     "duration": 3691
+   },
+   "night_walk": {
+    "yt": "CQT1qcAax2A",
+    "title": "Budapest After Dark  😈 💃 Budapest MidNight Walking Tour [4K HDR]",
+    "channel": "Mostly Walking",
+    "date": "20220605",
+    "duration": 2937
+   },
+   "night_drive": {
+    "yt": "a3sINTTGfG0",
+    "title": "Budapest Night Drive in 4K",
+    "channel": "Machine Bazi",
+    "date": "20250224",
+    "duration": 3431
    }
   },
   "bruges": {
@@ -5639,6 +6035,20 @@
     "channel": "J Utah",
     "date": "20201121",
     "duration": 5558
+   },
+   "night_walk": {
+    "yt": "inw6IteaZFk",
+    "title": "Istanbul Turkey 2026 4K Night Walk | Taksim Square, Istiklal Street & City Center Vibes",
+    "channel": "my delicious trips",
+    "date": "20260326",
+    "duration": 2400
+   },
+   "night_drive": {
+    "yt": "bNEGEb_YtmU",
+    "title": "Istanbul 4K - Night Drive - Turkey",
+    "channel": "J Utah",
+    "date": "20201201",
+    "duration": 3777
    }
   },
   "madrid": {
@@ -5648,6 +6058,20 @@
     "channel": "J Utah",
     "date": "20210825",
     "duration": 4101
+   },
+   "night_walk": {
+    "yt": "1Pfq6MOF4Sg",
+    "title": "Relaxing Night Walk in Madrid, Spain 🇪🇸 | 4K City Ambience",
+    "channel": "Relaxing Walks & Roads",
+    "date": "20260703",
+    "duration": 2800
+   },
+   "night_drive": {
+    "yt": "6CadnBQGLdE",
+    "title": "Driving Downtown - Madrid 4K - Night Drive",
+    "channel": "J Utah",
+    "date": "20210902",
+    "duration": 2959
    }
   },
   "kotor": {
@@ -5666,6 +6090,20 @@
     "channel": "Relaxing Roads 4K",
     "date": "20241019",
     "duration": 3147
+   },
+   "night_walk": {
+    "yt": "0WYMVPPwSrM",
+    "title": "Lisbon, Portugal 🌙 Night Walk | 4K Walking Tour",
+    "channel": "Portugal Walking Tour",
+    "date": "20260507",
+    "duration": 2289
+   },
+   "night_drive": {
+    "yt": "xxDslgTcics",
+    "title": "Night Drive in Lisbon, Portugal | Downtown, Avenidas Novas, Parque das Nações [4K]",
+    "channel": "POV Tours - Portugal",
+    "date": "20230115",
+    "duration": 2370
    }
   },
   "barcelona": {
@@ -5675,6 +6113,20 @@
     "channel": "The Travel Docket",
     "date": "20251031",
     "duration": 4862
+   },
+   "night_walk": {
+    "yt": "OzJQEkQ1fNU",
+    "title": "Barcelona, Spain🌙 Night City Walk | 4K Walking Tour",
+    "channel": "Ambient Explorers",
+    "date": "20251118",
+    "duration": 3481
+   },
+   "night_drive": {
+    "yt": "jDvJoOgH3Zk",
+    "title": "Barcelona 4K - Night Drive - Driving Downtown",
+    "channel": "J Utah",
+    "date": "20210923",
+    "duration": 4248
    }
   },
   "la-paz": {
@@ -5883,11 +6335,6 @@
     "date": "20230721",
     "duration": 2546
    },
-   "live": {
-    "yt": "7CFKHKzG904",
-    "title": "Downtown Woodward, Oklahoma | Live Camera 2026-07-18 14:43",
-    "verified": "2026-07-18"
-   },
    "window": {
     "yt": "jdUc9qYuFHw",
     "title": "Oklahoma City, OK | LIVE PTZ Railcam | Oklahoma Model Railroad Association 2026-07-18 14:44",
@@ -5964,6 +6411,86 @@
     "yt": "v97JpT3ZA0w",
     "title": "LIVE Santa Monica Beach & Pier Cam: California | explore.org 2026-07-18 14:46",
     "verified": "2026-07-18"
+   }
+  },
+  "cancun": {
+   "walk": {
+    "yt": "_SVv-YROSXI",
+    "title": "Cancun 4K Walking Tour - 103 min Tour with Captions & Immersive Sound [4K Ultra HD/60fps]",
+    "channel": "HP Walking Tours",
+    "date": "20211121",
+    "duration": 6201
+   },
+   "drive": {
+    "yt": "p8ohEf6x4xo",
+    "title": "Cancún City, Mexico Driving Tour 🇲🇽 4K Drive in Cancun",
+    "channel": "Virtual Tours Travel",
+    "date": "20211010",
+    "duration": 1851
+   },
+   "live": {
+    "yt": "fQJRrJkDKo8",
+    "title": "Grand Residences Riviera Cancun Live Webcam 2026-07-28 09:44",
+    "verified": "2026-07-28"
+   },
+   "window": {
+    "yt": "5B_a0l28yIA",
+    "title": "Cancún Quintana Roo, En Vivo | Vista Panorámica de Punta Cancún 2026-07-28 09:44",
+    "verified": "2026-07-28"
+   },
+   "night_walk": {
+    "yt": "O8-cLSUwQVU",
+    "title": "🇲🇽 Explore Cancún’s Electric Nightlife | 4K Walking Tour Through the Hotel Zone After Dark 🌙",
+    "channel": "4K Mexico Walking Tours",
+    "date": "20250503",
+    "duration": 986
+   },
+   "night_drive": {
+    "yt": "Pv6WYuhXNlI",
+    "title": "Cancún Night Drive 4K (Hotel Zone Full POV)",
+    "channel": "Junior CS",
+    "date": "20240605",
+    "duration": 3682
+   }
+  },
+  "mexico-city": {
+   "walk": {
+    "yt": "LddoNrTyJA4",
+    "title": "MEXICO CITY Walking Tour | Mexico Walk Tour @ 4K/60fps",
+    "channel": "HP Walking Tours",
+    "date": "20260203",
+    "duration": 3280
+   },
+   "drive": {
+    "yt": "Km6KYN_6vmc",
+    "title": "Mexico City 4K - Driving Tour in 2024 - Ciudad de México",
+    "channel": "World Driving Tours",
+    "date": "20240818",
+    "duration": 5532
+   },
+   "live": {
+    "yt": "o-qwlPxee2I",
+    "title": "Plaza Garibaldi, Ciudad de México, en vivo 2026-07-28 09:44",
+    "verified": "2026-07-28"
+   },
+   "window": {
+    "yt": "4CK0CsimBHs",
+    "title": "LIVE Mio Beach | Hilton Los Cabos | Mexico Beach & Ocean View Live Cam 2026-07-28 09:44",
+    "verified": "2026-07-28"
+   },
+   "night_walk": {
+    "yt": "vwdffp4vpA8",
+    "title": "4K Mexico City Walk🇲🇽 The real Mexico at night - December 2025",
+    "channel": "4K Walking Travel",
+    "date": "20251217",
+    "duration": 3643
+   },
+   "night_drive": {
+    "yt": "oxZBX-e84O8",
+    "title": "Mexico City 4K - Night Drive",
+    "channel": "J Utah",
+    "date": "20220801",
+    "duration": 2191
    }
   }
  }
