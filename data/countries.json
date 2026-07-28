@@ -15,7 +15,7 @@
       "flag": "🇺🇸",
       "continent": "North America",
       "status": "live",
-      "locations": 56
+      "locations": 66
     },
     {
       "code": "CA",
@@ -66,6 +66,30 @@
       "locations": 8
     },
     {
+      "code": "CN",
+      "name": "China",
+      "flag": "🇨🇳",
+      "continent": "Asia",
+      "status": "live",
+      "locations": 7
+    },
+    {
+      "code": "MX",
+      "name": "Mexico",
+      "flag": "🇲🇽",
+      "continent": "North America",
+      "status": "live",
+      "locations": 7
+    },
+    {
+      "code": "RU",
+      "name": "Russia",
+      "flag": "🇷🇺",
+      "continent": "Europe",
+      "status": "live",
+      "locations": 7
+    },
+    {
       "code": "GB",
       "name": "United Kingdom",
       "flag": "🇬🇧",
@@ -78,14 +102,6 @@
       "name": "Australia",
       "flag": "🇦🇺",
       "continent": "Oceania",
-      "status": "live",
-      "locations": 6
-    },
-    {
-      "code": "CN",
-      "name": "China",
-      "flag": "🇨🇳",
-      "continent": "Asia",
       "status": "live",
       "locations": 6
     },
@@ -106,6 +122,22 @@
       "locations": 6
     },
     {
+      "code": "KE",
+      "name": "Kenya",
+      "flag": "🇰🇪",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 6
+    },
+    {
+      "code": "ZA",
+      "name": "South Africa",
+      "flag": "🇿🇦",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 6
+    },
+    {
       "code": "TR",
       "name": "Turkey",
       "flag": "🇹🇷",
@@ -118,14 +150,6 @@
       "name": "Argentina",
       "flag": "🇦🇷",
       "continent": "South America",
-      "status": "live",
-      "locations": 5
-    },
-    {
-      "code": "MX",
-      "name": "Mexico",
-      "flag": "🇲🇽",
-      "continent": "North America",
       "status": "live",
       "locations": 5
     },
@@ -194,26 +218,18 @@
       "locations": 4
     },
     {
+      "code": "PE",
+      "name": "Peru",
+      "flag": "🇵🇪",
+      "continent": "South America",
+      "status": "live",
+      "locations": 4
+    },
+    {
       "code": "PH",
       "name": "Philippines",
       "flag": "🇵🇭",
       "continent": "Asia",
-      "status": "live",
-      "locations": 4
-    },
-    {
-      "code": "RU",
-      "name": "Russia",
-      "flag": "🇷🇺",
-      "continent": "Europe",
-      "status": "live",
-      "locations": 4
-    },
-    {
-      "code": "ZA",
-      "name": "South Africa",
-      "flag": "🇿🇦",
-      "continent": "Africa",
       "status": "live",
       "locations": 4
     },
@@ -261,6 +277,14 @@
       "code": "BO",
       "name": "Bolivia",
       "flag": "🇧🇴",
+      "continent": "South America",
+      "status": "live",
+      "locations": 3
+    },
+    {
+      "code": "BR",
+      "name": "Brazil",
+      "flag": "🇧🇷",
       "continent": "South America",
       "status": "live",
       "locations": 3
@@ -318,14 +342,6 @@
       "name": "Jordan",
       "flag": "🇯🇴",
       "continent": "Asia",
-      "status": "live",
-      "locations": 3
-    },
-    {
-      "code": "KE",
-      "name": "Kenya",
-      "flag": "🇰🇪",
-      "continent": "Africa",
       "status": "live",
       "locations": 3
     },
@@ -418,14 +434,6 @@
       "locations": 2
     },
     {
-      "code": "BR",
-      "name": "Brazil",
-      "flag": "🇧🇷",
-      "continent": "South America",
-      "status": "live",
-      "locations": 2
-    },
-    {
       "code": "HR",
       "name": "Croatia",
       "flag": "🇭🇷",
@@ -494,14 +502,6 @@
       "name": "Montenegro",
       "flag": "🇲🇪",
       "continent": "Europe",
-      "status": "live",
-      "locations": 2
-    },
-    {
-      "code": "PE",
-      "name": "Peru",
-      "flag": "🇵🇪",
-      "continent": "South America",
       "status": "live",
       "locations": 2
     },

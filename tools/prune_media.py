@@ -50,6 +50,12 @@ def reason_to_drop(place, seat, entry, network=False):
             return "multi-city rotator, not this place"
         if not em.nature_place(place) and em.WILDLIFE_CAM.search(title):
             return "wildlife/nest cam, not a view of the place"
+    if seat in em.NIGHT_SEATS and title:
+        # a night seat that isn't at night is just the day seat twice
+        if not em.NIGHT_WORDS.search(title):
+            return "night seat, but the title never says it's dark"
+        if em.BAD_NIGHT.search(title):
+            return "'night' in the title, but not the time of day"
     if title and not em.mentions_place(title, place):
         return "title never names the place"
     if title and em.wrong_place_title(title, place):
@@ -70,7 +76,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--apply", action="store_true", help="write the deletions")
     ap.add_argument("--network", action="store_true", help="also re-check is_live")
-    ap.add_argument("--seat", choices=["walk", "drive", "live", "window"],
+    ap.add_argument("--seat", choices=[*em.SEATS, *em.NIGHT_SEATS],
                     help="only this seat")
     args = ap.parse_args()
 
@@ -86,7 +92,7 @@ def main():
         place = places.get(pid)
         if not place:
             continue
-        for seat in ("walk", "drive", "live", "window"):
+        for seat in (*em.SEATS, *em.NIGHT_SEATS):
             if args.seat and seat != args.seat:
                 continue
             entry = seats.get(seat)

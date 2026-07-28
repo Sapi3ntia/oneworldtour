@@ -152,14 +152,35 @@ bounding-box camera fits**:
 - The same engine runs the City Guesser in `pick` mode — clicks return exact
   lat/lng through the projection inverse.
 
+**Hit testing is geometric, not DOM (2026-07).** Osaka was almost unclickable:
+Kyoto and Nara sit a few map units away, and the browser hands a click to whatever
+was *painted last*, so the neighbours ate it. Worse, dot radii were expressed in
+map units and divided by zoom — at k≈40 a "4 px" dot covered a ~64 px radius, so
+zooming in to separate a cluster made aiming **harder**. Two changes:
+
+- `_pickTarget()` resolves a click to the **nearest centre** within a radius
+  (Voronoi-style), not to the topmost painted node. Both marker layers are
+  `pointer-events: none`; `elementFromPoint` is only consulted for land/sea.
+- `DOT_PX = 4` / `HIT_PX = 12` are **real screen pixels at every zoom** —
+  converted through `_u` (a ResizeObserver-cached measurement, so the rAF loop
+  never reads layout). The tap target is a constant 12 px; neighbour separation
+  grows with zoom the way you'd expect (Toronto cluster: 3 px apart at k=3,
+  35 px at k=40).
+- `.wm-hot` — not CSS `:hover` — highlights the marker, driven by the *same*
+  hit test. The highlighted dot is therefore always the one a click would take,
+  which `:hover` could not promise inside a tight cluster.
+
 ### Scene resolution (`js/lib/media.js`)
 
 Per scene, curation beats automation:
 
 ```
-walk   : loc.walk   (hand-curated) → media.json walk   → none
-live   : loc.webcam (hand-curated) → media.json live   → none
-window : loc.window (hand-curated) → media.json window → none
+walk        : loc.walk        (hand-curated) → media.json walk        → none
+drive       : loc.drive       (hand-curated) → media.json drive       → none
+live        : loc.webcam      (hand-curated) → media.json live        → none
+window      : loc.window      (hand-curated) → media.json window      → none
+night_walk  : loc.night_walk  (hand-curated) → media.json night_walk  → none
+night_drive : loc.night_drive (hand-curated) → media.json night_drive → none
 ```
 
 🔴/🪟 must be **live streams** — the recorded-loop and day-timelapse tiers of v1
@@ -168,6 +189,51 @@ player is a poster frame that links out to windy.com and never autoplays a strea
 (`data/windy.json` stays on disk as an archive but is not fetched). A rotted
 YouTube id removes its own tab at runtime (`yt.js` onError) instead of showing a
 broken frame.
+
+**That runtime check is not redundant with the pipeline's.** yt-dlp reports
+`playable_in_embed: true` for videos that still throw **error 150** the moment an
+embedded player calls `playVideo()` — a rights-holder block that is only
+observable in a real browser embed. Cancún's first Coco Bongo pick looked clean to
+every offline check and died on mount. So `yt.js` onError is the last line of the
+honesty rule, not a belt-and-braces nicety.
+
+### After dark ★
+
+Night is **not** a fifth and sixth pane. It's the same walk and drive seats with
+the lights off, so the stage keeps its exact four-pane geometry and only swaps
+what's mounted in the two seekable seats:
+
+| Seat | By day | After dark |
+|---|---|---|
+| top-left | 🚶 walking tour | 🌙 night walk |
+| top-right | 🚗 driving tour | 🌃 night drive |
+| bottom-left | 🔴 live cam | 🔴 live cam — *unchanged* |
+| bottom-right | 🪟 window | 🪟 window — *unchanged* |
+| chip bar | 🏛️ monuments | 🍸 nightlife venues |
+
+The two live seats deliberately have **no night twin**: a live cam is already
+whatever time it is there, so labelling one "night" would be a promise the feed
+can't keep for more than a few hours a day. They are also left mounted across a
+mode switch — remounting would restart the stream for nothing.
+
+`loc.nightlife` reuses the `{ name, yt, start }` shape of `loc.monuments` on
+purpose, so venues ride the same chip bar and the same borrowed walk seat. The
+☀️/🌙 switch lives at the head of that same bar — no new row, no new section,
+no second grid.
+
+The stage **opens after dark by itself** when it's actually dark there, using the
+`isDay` flag `api.weather()` already returns; an explicit click pins the choice.
+Home gets a 🌃 After dark map filter and rail off `sceneFlags().night`.
+
+```bash
+python3 tools/enrich_media.py --need night --only osaka,tokyo,seoul --max 50
+```
+
+Night seats are **opt-in** in the enricher (`--need night`, or `night_walk` /
+`night_drive` individually) rather than part of the `any` sweep — otherwise every
+city without one would read as permanently incomplete. They call the same
+`find_seekable()` as the day seats with one extra filter, `also=NIGHT_WORDS`, so
+they inherit every guard the day seats earned for free.
 
 ### The enrichment pipeline ★
 
@@ -189,18 +255,26 @@ ranks those phrasings almost independently — so the hunt also tries the local
 language (`kamera na żywo`, `ライブカメラ`, `cámara en vivo`) and the place's own
 top landmark, which is what cam operators actually name the stream.
 
-Three guards keep the cam seats honest, each one added after a real bad pick:
+Guards keep the seats honest — each one was added after a real bad pick:
 
 | Guard | Caught in the wild |
 |---|---|
 | `AGGREGATOR_CAM` | "1200 TOP LIVE WEBCAMS around the World" sold as one city's window — it *is* live, it just isn't **there** |
 | `WILDLIFE_CAM` | a kestrel nest box at the UN as **Vienna's** live cam; peregrine boxes as San José's *both* seats; an otter tank as Seattle's window (exempt for `nature` places — `wild.json` exists so animal cams can be their own destination) |
 | US postal abbreviations | Manchester **England** showing feeds from Manchester **NH** and Manchester **IA** |
+| `scrub_persons` | **a person is not a place.** "Mississauga 4K Drive \| Hwy 403 → Winston Churchill" shipped as the driving tour of Churchill, **Manitoba** — a 900-person Arctic town. `scrub_streets` only fires when the road type is spelled out, and this title never says "Blvd". Deliberately excluded: `saint`/`st` (Saint Petersburg, St John's) and bare given names that are real places on their own (Victoria, Nelson, Charlotte) |
+| `BAD_NIGHT` | night seats only: "Saturday Night Live", "A Night at the Museum", `nightcore`, "3 nights in…" — "night" in the title that isn't the time of day |
 
 `prune_media.py` re-applies the current rules to what is already on disk and
 deletes whatever no longer passes — `media.json` is a checkpoint, so without it
 a pick made under looser rules would live forever. `--network` also re-checks
-`is_live`, retiring cams that died since they were verified.
+`is_live`, retiring cams that died since they were verified. The 2026-07 sweep
+retired **39** feeds that had gone dark since they were vetted.
+
+```bash
+python3 tools/prune_media.py                     # dry run, title rules only
+python3 tools/prune_media.py --apply --network   # also re-check is_live
+```
 
 ### Monuments ★
 

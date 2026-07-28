@@ -21,6 +21,12 @@
      live   : loc.webcam (hand-curated) → media.json live → null
      window : loc.window (hand-curated) → media.json window → null
 
+   AFTER DARK (2026-07): the walk and drive seats each have a night
+   twin — loc.night_walk / loc.night_drive → media.json night_walk /
+   night_drive — plus loc.nightlife, the after-dark counterpart to
+   loc.monuments. See the section at the bottom of this file for why
+   the two LIVE seats deliberately have no night twin.
+
    data/media.json is written by tools/enrich_media.py (yt-dlp): it
    searches YouTube per city, keeps only live_status == is_live for
    cams, and classifies street-level vs window vantage by title.
@@ -100,8 +106,52 @@ export function bestWindow(loc) {
   return windowFor(loc) || liveFor(loc);
 }
 
+/* ---------------- after dark ----------------
+   Night is NOT a fifth and sixth pane. It's the same walk and drive
+   seats with the lights off, so the stage keeps its four-pane layout
+   and just swaps what's mounted in the two seekable seats.
+
+   The two live seats have no night twin ON PURPOSE: a live cam is
+   already whatever time it is there. Labelling one "night" would be
+   a promise the feed can't keep for more than a few hours a day. */
+export function nightWalkFor(loc) {
+  if (!loc) return null;
+  const cur = parseYt(loc.night_walk);
+  if (cur) return { ...cur, kind: 'night_walk', source: 'curated' };
+  const m = mediaIndex()[loc.id];
+  if (m?.night_walk?.yt) {
+    return { yt: m.night_walk.yt, start: m.night_walk.start || 0, kind: 'night_walk',
+             source: 'auto', title: m.night_walk.title, date: m.night_walk.date };
+  }
+  return null;
+}
+
+export function nightDriveFor(loc) {
+  if (!loc) return null;
+  const cur = parseYt(loc.night_drive);
+  if (cur) return { ...cur, kind: 'night_drive', source: 'curated' };
+  const m = mediaIndex()[loc.id];
+  if (m?.night_drive?.yt) {
+    return { yt: m.night_drive.yt, start: m.night_drive.start || 0, kind: 'night_drive',
+             source: 'auto', title: m.night_drive.title, date: m.night_drive.date };
+  }
+  return null;
+}
+
 export function monumentsFor(loc) {
   return (loc?.monuments || []).filter(m => m && m.yt && m.name);
+}
+
+/* 🍸 Nightlife venues — the after-dark answer to monuments, and
+   deliberately the same { name, yt, start } shape, so they ride the
+   exact same chip bar and the same borrowed walk seat. */
+export function nightlifeFor(loc) {
+  return (loc?.nightlife || []).filter(v => v && v.yt && v.name);
+}
+
+/* Does this place have anything to show after dark at all? */
+export function hasNight(loc) {
+  return !!(nightWalkFor(loc) || nightDriveFor(loc) || nightlifeFor(loc).length);
 }
 
 /* Scene inventory — drives map badges, filters, and rail membership. */
@@ -112,5 +162,6 @@ export function sceneFlags(loc) {
     live: !!liveFor(loc),
     window: !!windowFor(loc),
     monuments: monumentsFor(loc).length > 0,
+    night: hasNight(loc),
   };
 }

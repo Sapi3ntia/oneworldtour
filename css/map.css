@@ -33,30 +33,40 @@
   vector-effect: non-scaling-stroke;
 }
 
+/* ---- markers ----
+   Both marker layers are pointer-events:none on purpose. worldmap.js
+   resolves clicks by nearest CENTRE rather than by whatever the DOM
+   says is on top (see the header comment there), and `.wm-hot` is that
+   same hit test speaking back: the highlighted marker is always the one
+   a click would actually take. CSS :hover would disagree inside a tight
+   cluster, which is precisely the bug. Keeping the layers transparent
+   to the pointer also leaves the land paths beneath them hittable. */
+
 /* ---- country nodes (world view) ---- */
-.wmap-cnode { cursor: pointer; }
+.wmap-cnode { pointer-events: none; }
 .wmap-citymode .wmap-cnode { display: none; }
 .cnode-halo { fill: rgba(232, 181, 77, 0.16); stroke: rgba(232, 181, 77, 0.55); stroke-width: 1px; vector-effect: non-scaling-stroke; }
 .cnode-core { fill: #e8b54d; }
-.wmap-cnode:hover .cnode-halo { fill: rgba(232, 181, 77, 0.3); }
+.wmap-cnode.wm-hot .cnode-halo { fill: rgba(232, 181, 77, 0.3); }
 .cnode-count {
   fill: #16120a; font-family: 'Inter', sans-serif; font-weight: 700;
-  pointer-events: none;
 }
 
 /* ---- city dots (zoomed view) ---- */
-.wmap-city { display: none; cursor: pointer; }
+.wmap-city { display: none; pointer-events: none; }
 .wmap-citymode .wmap-city { display: block; }
-/* invisible oversized tap target around each dot */
-.city-hit { fill: none; pointer-events: all; }
 .city-dot { fill: #e8b54d; stroke: #0a0d14; stroke-width: 1px; vector-effect: non-scaling-stroke; }
 .city-dot.has-live { fill: #ff5a5a; }
 .city-dot.has-walk { fill: #7fd6a4; }
-.wmap-city:hover .city-dot { fill: #fff; }
+/* the dot a click would take: white core + a ring, so it reads even
+   when a neighbour's dot is a pixel away */
+.wmap-city.wm-hot .city-dot {
+  fill: #fff; stroke: #0a0d14; stroke-width: 3px;
+}
+.wmap-city.wm-hot .city-label { fill: #fff; }
 .city-label {
   fill: #c7cddf; font-family: 'Inter', sans-serif; font-weight: 500;
   paint-order: stroke; stroke: rgba(7, 10, 18, 0.85); stroke-width: 2.5px;
-  pointer-events: none;
 }
 
 /* ---- pins & route lines (guesser, journeys) ---- */

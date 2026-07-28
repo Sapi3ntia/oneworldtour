@@ -952,6 +952,122 @@
       "hidden_gem_tip": null
     },
     {
+      "id": "cancun",
+      "name": "Cancún",
+      "country": "Mexico",
+      "country_code": "MX",
+      "country_flag": "🇲🇽",
+      "continent": "North America",
+      "region": "Quintana Roo",
+      "type": "coastal",
+      "tag": "famous",
+      "emoji": "🏖️",
+      "coordinates": {
+        "lat": 21.1619,
+        "lng": -86.8515
+      },
+      "street_view": {
+        "lat": 21.1619,
+        "lng": -86.8515,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Cancún",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Hotel Zone",
+          "wikipedia_slug": "Hotel_Zone_(Cancún)"
+        },
+        {
+          "name": "Isla Mujeres",
+          "wikipedia_slug": "Isla_Mujeres"
+        },
+        {
+          "name": "Cancún Underwater Museum",
+          "wikipedia_slug": "Cancún_Underwater_Museum"
+        },
+        {
+          "name": "Mayan Museum of Cancún",
+          "wikipedia_slug": "Mayan_Museum_of_Cancún"
+        },
+        {
+          "name": "Chichén Itzá",
+          "wikipedia_slug": "Chichen_Itza"
+        }
+      ],
+      "blurb": "Planned from nothing in 1970 on a sandbar the maps barely named, Cancún is now two cities at once: a 22-kilometre ribbon of hotels between the Caribbean and the Nichupté lagoon, and a workaday Mexican city inland. The reef offshore is the second-largest in the world.",
+      "fun_fact": "The site was chosen by a Mexican government computer model looking for the best possible beach — Cancún is one of the few great resort cities that was picked by a machine.",
+      "hidden_gem_tip": "Cross to Puerto Morelos or take the ferry to Isla Mujeres for the reef and the beaches the Hotel Zone crowds never reach.",
+      "nightlife": [
+        {
+          "name": "Coco Bongo",
+          "yt": "huMhNS9oz0k",
+          "start": 0
+        },
+        {
+          "name": "La Vaquita",
+          "yt": "qYmle7HyOBQ",
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "mexico-city",
+      "name": "Mexico City",
+      "country": "Mexico",
+      "country_code": "MX",
+      "country_flag": "🇲🇽",
+      "continent": "North America",
+      "region": "",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🌃",
+      "coordinates": {
+        "lat": 19.4326,
+        "lng": -99.1332
+      },
+      "street_view": {
+        "lat": 19.4326,
+        "lng": -99.1332,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Mexico_City",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Zócalo",
+          "wikipedia_slug": "Zócalo"
+        },
+        {
+          "name": "Chapultepec",
+          "wikipedia_slug": "Chapultepec"
+        },
+        {
+          "name": "Palacio de Bellas Artes",
+          "wikipedia_slug": "Palacio_de_Bellas_Artes"
+        },
+        {
+          "name": "Xochimilco",
+          "wikipedia_slug": "Xochimilco"
+        },
+        {
+          "name": "Frida Kahlo Museum",
+          "wikipedia_slug": "Frida_Kahlo_Museum"
+        }
+      ],
+      "blurb": "Built on the drained lake-bed of Aztec Tenochtitlan and sinking into it still, Mexico City stacks eras on top of each other: Templo Mayor's excavated ruins sit a block from a colonial cathedral, which faces the largest public square in the Americas. Around it, twenty-two million people.",
+      "fun_fact": "The city is subsiding into its old lakebed at roughly 50 cm a year in places — the Metropolitan Cathedral has needed decades of engineering just to stay level.",
+      "hidden_gem_tip": "Sunday morning on Paseo de la Reforma: the avenue closes to cars and the whole city cycles down the middle of it."
+    },
+    {
       "id": "rio-de-janeiro",
       "name": "Rio de Janeiro",
       "country": "Brazil",

@@ -113,6 +113,13 @@ h1, h2, h3, .display { font-family: var(--font-display); font-weight: 600; lette
 }
 .chip:hover { color: var(--ink); border-color: rgba(235, 238, 250, 0.3); }
 .chip.active { color: #16120a; background: var(--gold); border-color: var(--gold); font-weight: 600; }
+/* ☀️/🌙 segmented switch — a pair of chips that read as one control,
+   so the day/night choice never looks like just another venue chip */
+.chip-switch { display: inline-flex; gap: 0; margin-right: 4px; }
+.chip-switch .chip { border-radius: 0; }
+.chip-switch .chip:first-child { border-radius: 999px 0 0 999px; }
+.chip-switch .chip:last-child { border-radius: 0 999px 999px 0; margin-left: -1px; }
+.chip-switch .chip.active { z-index: 1; }
 /* honest-gap placeholder: a scene we don't have (yet) stays visible */
 .chip-ghost { opacity: 0.5; border-style: dashed; cursor: help; }
 .chip-ghost:hover { color: var(--ink-faint); border-color: var(--line-hard); background: transparent; }
@@ -130,6 +137,7 @@ h1, h2, h3, .display { font-family: var(--font-display); font-weight: 600; lette
 .badge-walk   { color: #b9ecce; border-color: rgba(127, 214, 164, 0.45); }
 .badge-drive  { color: #f7d9bc; border-color: rgba(240, 173, 125, 0.45); }
 .badge-monu   { color: #e0cbf7; border-color: rgba(201, 160, 240, 0.45); }
+.badge-night  { color: #c9c2ff; border-color: rgba(150, 138, 255, 0.5); }
 .badge-lapse  { color: #f7e3bc; border-color: rgba(232, 181, 77, 0.45); }
 
 /* ---------------- Cards ---------------- */

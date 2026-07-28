@@ -9,7 +9,8 @@
    ============================================================ */
 import { loadAll, byId, search } from '../lib/data.js';
 import { tripsThrough } from '../lib/trips.js';
-import { walkFor, driveFor, liveFor, windowFor, monumentsFor, sceneFlags } from '../lib/media.js';
+import { walkFor, driveFor, liveFor, windowFor, monumentsFor, sceneFlags,
+         nightWalkFor, nightDriveFor, nightlifeFor, hasNight } from '../lib/media.js';
 import { State } from '../lib/state.js';
 import { Culture, weatherInfo } from '../lib/culture.js';
 import { Radio } from '../lib/radio.js';
@@ -31,19 +32,34 @@ function toast(msg) {
   t._h = setTimeout(() => t.classList.remove('show'), 2800);
 }
 
-/* ---------------- the stage: four panes, one grid ---------------- */
+/* ---------------- the stage: four panes, one grid ----------------
+   `night` is the same seat after dark, not a fifth pane. Only the two
+   seekable seats have one; the live seats keep playing across a mode
+   switch because a live cam is already whatever time it is there. */
 const PANES = [
   { id: 'walk',   icon: '🚶', label: 'Walking tour', badge: 'badge-walk',
-    resolve: walkFor,   ghost: 'No walking tour yet' },
+    resolve: walkFor,   ghost: 'No walking tour yet',
+    night: { icon: '🌙', label: 'Night walk', badge: 'badge-night',
+             resolve: nightWalkFor, ghost: 'No night walk yet' } },
   { id: 'drive',  icon: '🚗', label: 'Driving tour', badge: 'badge-drive',
-    resolve: driveFor,  ghost: 'No driving tour yet' },
+    resolve: driveFor,  ghost: 'No driving tour yet',
+    night: { icon: '🌃', label: 'Night drive', badge: 'badge-night',
+             resolve: nightDriveFor, ghost: 'No night drive yet' } },
   { id: 'live',   icon: '🔴', label: 'Live cam', badge: 'badge-live', live: true,
     resolve: liveFor,   ghost: 'No live cam yet' },
   { id: 'window', icon: '🪟', label: 'Window', badge: 'badge-window', live: true,
     resolve: windowFor, ghost: 'No window yet' },
 ];
 
-const stageState = { panes: new Map(), walkShowing: 'walk' };   // pane id → { node, mounted }
+// pane id → { node, mounted }
+const stageState = { panes: new Map(), walkShowing: 'walk',
+                     mode: 'day', userPicked: false };
+
+/* The identity a seat wears right now: itself by day, its night twin
+   after dark. Everything downstream takes this, not the raw def. */
+function seat(def) {
+  return stageState.mode === 'night' && def.night ? { ...def, ...def.night } : def;
+}
 
 const GHOST_TIP = 'Nothing we could verify as real for this place yet — ' +
   'no loop or still ever stands in. It fills in when the pipeline finds one.';
@@ -137,28 +153,39 @@ function scenePane(place, def, media, view = {}) {
   return { node, mounted };
 }
 
-/* 🏛️ Monuments share the walk pane (the seekable-video seat).
-   Chips above the grid swap them in; the walk chip swaps back. */
-function buildMonumentChips(place) {
+/* 🏛️ Monuments — and after dark, 🍸 nightlife venues — share the walk
+   pane (the seekable-video seat). Chips above the grid swap them in;
+   the walk chip swaps back. Venues use the same { name, yt, start }
+   shape as monuments precisely so they can reuse all of this.
+
+   The ☀️/🌙 switch lives at the head of the same bar: no new row, no
+   new section, no second grid. That is the whole point — night reuses
+   the layout instead of competing with it. */
+function buildStageChips(place) {
   const bar = qs('#stage-tabs');
-  const mons = monumentsFor(place);
+  const night = stageState.mode === 'night';
+  const venues = night ? nightlifeFor(place) : monumentsFor(place);
+  const switchable = hasNight(place);
   bar.innerHTML = '';
-  if (!mons.length) { bar.hidden = true; return; }
+  if (!venues.length && !switchable) { bar.hidden = true; return; }
   bar.hidden = false;
 
-  const walkDef = PANES[0];
-  const walk = walkFor(place);
+  const walkDef = seat(PANES[0]);
+  const walk = walkDef.resolve(place);
+  const vIcon = night ? '🍸' : '🏛️';
+  const vBadge = night ? 'badge-night' : 'badge-monu';
+
   const setActive = key => {
     stageState.walkShowing = key;
-    bar.querySelectorAll('.chip').forEach(c =>
+    bar.querySelectorAll('.chip-scene').forEach(c =>
       c.classList.toggle('active', c.dataset.key === key));
   };
-  const showMonument = (mo, key) => {
+  const showVenue = (v, key) => {
     swapPane(walkDef, scenePane(place, walkDef,
-      { yt: mo.yt, start: mo.start || 0, source: 'curated' },
-      { label: mo.name, badge: 'badge-monu', icon: '🏛️',
+      { yt: v.yt, start: v.start || 0, source: 'curated' },
+      { label: v.name, badge: vBadge, icon: vIcon,
         onDead: () => {
-          toast(`The ${mo.name} video has rotted — removed.`);
+          toast(`The ${v.name} video has rotted — removed.`);
           bar.querySelector(`[data-key="${key}"]`)?.remove();
           showWalk();
         } }));
@@ -168,26 +195,71 @@ function buildMonumentChips(place) {
   const showWalk = () => {
     swapPane(walkDef, walk ? scenePane(place, walkDef, walk) : ghostPane(walkDef));
     setActive('walk');
+    // a venue that rotted mid-view can leave this seat empty AND enlarged
+    if (!walk) refocus(place);
   };
 
-  if (walk) {
-    bar.append(el('button', { class: 'chip', 'data-key': 'walk',
-      onclick: () => { if (stageState.walkShowing !== 'walk') showWalk(); },
-    }, '🚶 Walking tour'));
+  if (switchable) {
+    const group = el('div', { class: 'chip-switch' });
+    for (const [mode, face] of [['day', '☀️ Day'], ['night', '🌙 Night']]) {
+      group.append(el('button', {
+        class: `chip${stageState.mode === mode ? ' active' : ''}`,
+        title: mode === 'night'
+          ? 'The same walk and drive seats, after dark'
+          : 'Back to daylight',
+        onclick: () => { stageState.userPicked = true; setStageMode(mode, place); },
+      }, face));
+    }
+    bar.append(group);
   }
-  mons.forEach((mo, i) => {
-    const key = `mon-${i}`;
-    bar.append(el('button', { class: 'chip', 'data-key': key,
+
+  if (walk) {
+    bar.append(el('button', { class: 'chip chip-scene', 'data-key': 'walk',
+      onclick: () => { if (stageState.walkShowing !== 'walk') showWalk(); },
+    }, `${walkDef.icon} ${walkDef.label}`));
+  }
+  venues.forEach((v, i) => {
+    const key = `venue-${i}`;
+    bar.append(el('button', { class: 'chip chip-scene', 'data-key': key,
       onclick: () => {
         if (stageState.walkShowing === key) { if (walk) showWalk(); return; }
-        showMonument(mo, key);
+        showVenue(v, key);
       },
-    }, `🏛️ ${mo.name}`));
+    }, `${vIcon} ${v.name}`));
   });
 
-  // no walk? the first monument takes the seat rather than a ghost
+  // no walk? the first venue takes the seat rather than a ghost
   if (walk) setActive('walk');
-  else showMonument(mons[0], 'mon-0');
+  else if (venues.length) showVenue(venues[0], 'venue-0');
+  else stageState.walkShowing = 'walk';
+}
+
+/* Flip the two seekable seats between day and night. The live seats
+   are left mounted on purpose — remounting them would restart the
+   stream for no reason, and they are already showing the real hour. */
+function setStageMode(mode, place) {
+  if (stageState.mode === mode) return;
+  stageState.mode = mode;
+  document.body.classList.toggle('is-night', mode === 'night');
+
+  for (const def of PANES) {
+    if (!def.night) continue;
+    const d = seat(def);
+    const media = d.resolve(place);
+    swapPane(d, media ? scenePane(place, d, media) : ghostPane(d));
+  }
+  buildStageChips(place);       // may re-hand the walk seat to a venue
+  refocus(place);
+}
+
+/* Keep the enlarged pane on something that actually plays. */
+function refocus(place) {
+  const grid = qs('#stage-grid');
+  const alive = id => !stageState.panes.get(id)?.node.classList.contains('quad-ghost');
+  if (grid.dataset.focus && alive(grid.dataset.focus)) return;
+  const first = PANES.find(d => alive(d.id) && stageState.panes.has(d.id));
+  if (first) grid.dataset.focus = first.id;
+  else grid.removeAttribute('data-focus');
 }
 
 function initStage(place) {
@@ -195,6 +267,9 @@ function initStage(place) {
   grid.innerHTML = '';
   stageState.panes.clear();
   stageState.walkShowing = 'walk';
+  stageState.mode = 'day';
+  stageState.userPicked = false;
+  document.body.classList.remove('is-night');
 
   for (const def of PANES) {
     const media = def.resolve(place);
@@ -203,7 +278,7 @@ function initStage(place) {
     stageState.panes.set(def.id, pane);
   }
 
-  buildMonumentChips(place);   // may hand the walk pane to a monument
+  buildStageChips(place);   // may hand the walk pane to a monument
 
   // feature the first real scene so arrival has a main view
   // (direct set, not setFocus — that one toggles on repeat clicks)
@@ -232,6 +307,13 @@ async function initRightNow(place) {
     };
     tick();
     clockTimer = setInterval(tick, 1000);
+
+    /* It is actually dark there right now — so open the stage after
+       dark too, unless the visitor already picked a side. The live
+       seats are untouched by this; they were already showing night. */
+    if (!wx.isDay && !stageState.userPicked && hasNight(place)) {
+      setStageMode('night', place);
+    }
   } else {
     wEl.innerHTML = '<span class="faint">sky unknown right now</span>';
     qs('#rn-clock').textContent = '–:–';
