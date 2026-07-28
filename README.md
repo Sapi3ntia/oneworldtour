@@ -268,6 +268,8 @@ Guards keep the seats honest — each one was added after a real bad pick:
 | `daylight_title` | the mirror of the night rule, and the one that was missing: **Las Vegas offered "Las Vegas 4K - Midnight Drive" as its Driving tour**, and the same video as its Night drive. A day seat has to be daylight. `DAY_WORDS` rescues honestly mixed titles ("Jaipur Daytime and Evening Walk" really is a daytime walk) |
 | US state vs US state | the postal-abbreviation rule above deliberately skipped US places — every US cam title names a US state — so nothing compared **Flagstaff, Arizona** against Flagstaff Lake in **Eustis, Maine**, or Rocky Mountain NP against **Gatlinburg, Tennessee**. Now it compares against the place's own `region`, and a title where our name is still the headline is exempt ("Flagstaff, Arizona \| LIVE Train Camera" stays) |
 | `re-?live` / `digest` / `tv\d` / `model rail` / `fr24` | streaming right now, and still not a view of the place: **"RE-LIVE Planespotting at Frankfurt Airport"** is genuinely live and genuinely a replay; TV7 is a Bordeaux television channel; the Oklahoma Model Railroad Association's PTZ cam is pointed at a model |
+| disaster words / `documentary` | a newsroom pointing a camera at a place is not that place's cam: **"France Wildfires LIVE \| Macron Declares Emergency! Giant Fire Threatens Bordeaux"** passed every earlier rule — it is live, and it does name Bordeaux. Same for a deep-ocean **documentary** looping as the Great Barrier Reef |
+| `feeds from … and more` | an open-ended list of places is a rotator no matter how few it names: "Ukraine LIVE HD Camera Feeds from Donetsk, Sumy, Kyiv, Kharkiv **and more**" is not Kyiv's cam |
 
 #### `data/media_denylist.json` — the reviewed rejections ★
 
@@ -287,12 +289,39 @@ a pick made under looser rules would live forever. It also refuses a video that
 holds a seat **and** its own night twin: one tape under two labels is a lie in
 one of the two seats. `--network` re-checks `is_live`, retiring cams that died
 since they were verified. The 2026-07 sweep retired **39** dead feeds; the
-follow-up sweep dropped **36** more picks under the rules above.
+follow-up sweep dropped **36** more picks under the rules above, and re-checked
+all **178** surviving cams over the network — every one still live.
 
 ```bash
 python3 tools/prune_media.py                     # dry run, title rules only
 python3 tools/prune_media.py --apply --network   # also re-check is_live
 ```
+
+#### Why the cam seats stay empty ★
+
+Refilling the 36 pruned seats measured something worth writing down. The
+**seekable** seats came back clean, 14 for 14 — right place, daylight, recent. The
+**cam** seats came back 4 for 15.
+
+That asymmetry isn't a bug in the finder, it's the shape of what exists. A walking
+tour of Vilnius has been filmed, so the finder returns it. A live camera pointed at
+Olympic National Park has not — and when nothing matches, a ranked search still
+returns its best-scoring candidate. So Olympic NP got Calgary's Central Memorial
+Park, Glacier NP got a wolf centre in Minnesota, Porto got the **Port of Santos**,
+Flagstaff got a general store in Stratton **Maine**, and London got a "virtual Tube
+journey" of recorded footage. One stream reported `is_live` and served no frames at
+all.
+
+Under the honesty rule the answer for those places is the gap, and the denylist is
+what makes the gap *stay* a gap across sweeps. Two consequences to expect:
+
+- A broader query does not help. Widening the search for Vienna, Manila, Casablanca,
+  Cairo and Nairobi returned a political interview, a Eucharistic adoration stream, a
+  clock, and a radio station — more noise, no signal.
+- The denylist grows every sweep, and that is the design. Each sweep re-hunts the
+  empty seats and finds the *next*-best wrong answer; each rejection is one fewer
+  wrong answer available. `live` and `window` are the two seats with no night twin
+  and no fallback, so they are the two that stay honestly empty most often.
 
 ### Monuments ★
 
