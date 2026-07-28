@@ -367,14 +367,21 @@ AGGREGATOR_CAM = re.compile(
     r"(?:web)?cam(?:era)?s?\s+(?:tour|journey|trip|marathon|mosaic|mix)\b|"
     r"rolling\s+cam|multi[\s-]?cam|cam\s+switcher|"
     r"tour\s+of\s+\d+|\d+\s+(?:cities|countries|beaches|locations)|"
+    # "…Camera Feeds from Donetsk, Sumy, Kyiv, Kharkiv and more" — a list of
+    # places with an open end is a rotator, however few it names outright.
+    r"feeds?\s+from\s+.+\band\s+more\b|"
     r"earthtv|webcamera\.pl|skyline\s?webcams", re.I)
 BAD_CAM = re.compile(
     r"\bwar\b|breaking news|news live|live news|missile|drone attack|"
     r"air ?strike|invasion|frontline|protest|\briots?\b|footage|"
     r"\bvs\.?\b|\bmatch\b|explosions?|\battacks?\b|bombing|shelling|"
     r"\.fm\b|radio station|"
+    # a disaster feed is a newsroom pointing at a place, not the place's cam
+    r"wild ?fires?\b|\bblaze\b|evacuat|state of emergency|declares emergency|"
+    r"earthquake|hurricane|typhoon|tornado|\bflooding\b|"
     # things that stream on a live channel without being a view of a place
     r"\bre-?live\b|\breplay\b|compilation|\bdigest\b|"      # not happening now
+    r"\bdocumentary\b|\bfilm\b|\bepisodes?\b|"              # a programme on loop
     r"\btv\s?\d+\b|television channel|"                     # a broadcaster
     r"model rail|model train|"                              # someone's layout
     r"\bfr24\b|flightradar", re.I)                          # a map, not a camera
