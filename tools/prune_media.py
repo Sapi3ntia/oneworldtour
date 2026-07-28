@@ -43,6 +43,8 @@ def reason_to_drop(place, seat, entry, network=False):
     title = entry.get("title") or ""
     if not entry.get("yt"):
         return "no video id"
+    if entry["yt"] in em.DENIED:
+        return f"reviewed and rejected — {em.DENIED[entry['yt']]}"
     if em.BAD_CAM.search(title) and seat in ("live", "window"):
         return "news/war stream"
     if seat in ("live", "window"):
@@ -56,6 +58,10 @@ def reason_to_drop(place, seat, entry, network=False):
             return "night seat, but the title never says it's dark"
         if em.BAD_NIGHT.search(title):
             return "'night' in the title, but not the time of day"
+    if seat in ("walk", "drive") and title and not em.daylight_title(title):
+        # the mirror rule, and the one that was missing: a day seat has
+        # to be daylight, or "Midnight Drive" ships as the Driving tour
+        return "day seat, but the title says it's shot at night"
     if title and not em.mentions_place(title, place):
         return "title never names the place"
     if title and em.wrong_place_title(title, place):
@@ -92,6 +98,7 @@ def main():
         place = places.get(pid)
         if not place:
             continue
+        gone = set()          # so the dry run reports what --apply would do
         for seat in (*em.SEATS, *em.NIGHT_SEATS):
             if args.seat and seat != args.seat:
                 continue
@@ -102,10 +109,27 @@ def main():
             if not why:
                 continue
             dropped += 1
+            gone.add(seat)
             print(f"  drop {pid:24} [{seat:6}] {why}")
             print(f"       {(entry.get('title') or '')[:74]}")
             if args.apply:
                 seats.pop(seat, None)
+
+        # cross-seat: a title carrying both "daytime" and "evening" can
+        # legitimately pass day AND night vetting, so one video can land
+        # in both twins. The night seat loses — it's the one making the
+        # more specific promise.
+        for day, nite in (("walk", "night_walk"), ("drive", "night_drive")):
+            if gone & {day, nite}:
+                continue          # already resolved by a rule above
+            a, b = seats.get(day), seats.get(nite)
+            if isinstance(a, dict) and isinstance(b, dict) and a.get("yt") == b.get("yt"):
+                dropped += 1
+                print(f"  drop {pid:24} [{nite:6}] same video as the {day} seat")
+                print(f"       {(b.get('title') or '')[:74]}")
+                if args.apply:
+                    seats.pop(nite, None)
+
         if args.apply and not seats:
             media["places"].pop(pid, None)
 

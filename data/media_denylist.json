@@ -1,0 +1,29 @@
+{
+  "_what": "Video ids a human opened, watched, and rejected. The title rules in tools/enrich_media.py catch most bad picks, but some only give themselves away to a person — a namesake town no rule knows about, a nest cam on a fjord, a broadcaster's channel instead of a view. Without this file the enricher happily re-finds them on the next sweep and the same lie comes back.",
+  "_shape": "youtube id -> why it is not what it claimed to be",
+  "_rule": "Only ever add an id you actually looked at. This file outranks every heuristic, in both enrich_media.py and prune_media.py.",
+  "ids": {
+    "TmtVbezZaqg": "Leavenworth, Washington STATE — not Washington, D.C.",
+    "yCeQueusZxs": "Porto Alegre, Brazil — not Porto, Portugal",
+    "teGLziUvDkI": "Gatlinburg, Tennessee — nowhere near Rocky Mountain NP",
+    "IB55Ni_wJcQ": "a covered bridge in Vermont, offered as Monument Valley",
+    "_2rvoH5oDcg": "an elk refuge in Jackson, Wyoming, offered as Addis Ababa",
+    "YlAtgGTbm4M": "Flagstaff Lake in Eustis, Maine — not Flagstaff, Arizona",
+    "egjxEzyTi_I": "an osprey nest box, not a view of the Norwegian fjords",
+    "CmtuOVxcKRo": "a store cam in Davao City — not Cebu City",
+    "kfLA8ep2PmM": "a barangay in the Philippines called Monteverde, not Costa Rica's",
+    "VNOV8KgGR0c": "Saint-Malo's seafront, not Mont-Saint-Michel",
+    "e2gC37ILQmk": "rotates across eight Ukrainian cities; it is not Kyiv's cam",
+    "F0GOOP82094": "a generic Danish forest wildlife feed, not the Black Forest",
+    "QX9OfclWZuM": "Algonquin Park, 500 km from Rondeau",
+    "1zcIUk66HX4": "explore.org's Belize reef cam, offered as the Great Barrier Reef",
+    "lJOROUvD8sU": "a national-parks montage, not Olympic NP",
+    "jJI5w_RVGtQ": "Mendenhall Glacier, Alaska — not Glacier NP, Montana",
+    "wDaV8EkYHmk": "a bus-ride DIGEST: edited clips on a loop, not a live view",
+    "MH0_mPt-VXE": "FlightRadar24's map of MSY, not a camera",
+    "jdUc9qYuFHw": "a model railroad club's layout, not Oklahoma City",
+    "1CRXoZI-Wdo": "'RE-LIVE' planespotting: streaming now, recorded earlier",
+    "PMetnXeBFSk": "'RE-Live' planespotting: streaming now, recorded earlier",
+    "epob2jcRe_Q": "TV7, a Bordeaux television channel, not a view of Bordeaux"
+  }
+}

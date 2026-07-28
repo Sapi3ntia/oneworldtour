@@ -121,7 +121,8 @@ oneworldtour/
 │   ├── wild.json          # 🦁 wildlife & national-park live cams as places
 │   ├── tv.json            # 📺 live national TV channels per country (verified live)
 │   ├── windy.json         # retired Windy index — kept as archive, not loaded
-│   └── media.json         # yt-dlp enrichment sidecar (auto-found, vetted scenes)
+│   ├── media.json         # yt-dlp enrichment sidecar (auto-found, vetted scenes)
+│   └── media_denylist.json# ids a human watched and rejected — outranks every rule
 ├── assets/world.json      # pre-projected country outlines (see build_worldmap.py)
 ├── tools/
 │   ├── build_worldmap.py  # TopoJSON → Natural-Earth-projected SVG paths
@@ -264,12 +265,29 @@ Guards keep the seats honest — each one was added after a real bad pick:
 | US postal abbreviations | Manchester **England** showing feeds from Manchester **NH** and Manchester **IA** |
 | `scrub_persons` | **a person is not a place.** "Mississauga 4K Drive \| Hwy 403 → Winston Churchill" shipped as the driving tour of Churchill, **Manitoba** — a 900-person Arctic town. `scrub_streets` only fires when the road type is spelled out, and this title never says "Blvd". Deliberately excluded: `saint`/`st` (Saint Petersburg, St John's) and bare given names that are real places on their own (Victoria, Nelson, Charlotte) |
 | `BAD_NIGHT` | night seats only: "Saturday Night Live", "A Night at the Museum", `nightcore`, "3 nights in…" — "night" in the title that isn't the time of day |
+| `daylight_title` | the mirror of the night rule, and the one that was missing: **Las Vegas offered "Las Vegas 4K - Midnight Drive" as its Driving tour**, and the same video as its Night drive. A day seat has to be daylight. `DAY_WORDS` rescues honestly mixed titles ("Jaipur Daytime and Evening Walk" really is a daytime walk) |
+| US state vs US state | the postal-abbreviation rule above deliberately skipped US places — every US cam title names a US state — so nothing compared **Flagstaff, Arizona** against Flagstaff Lake in **Eustis, Maine**, or Rocky Mountain NP against **Gatlinburg, Tennessee**. Now it compares against the place's own `region`, and a title where our name is still the headline is exempt ("Flagstaff, Arizona \| LIVE Train Camera" stays) |
+| `re-?live` / `digest` / `tv\d` / `model rail` / `fr24` | streaming right now, and still not a view of the place: **"RE-LIVE Planespotting at Frankfurt Airport"** is genuinely live and genuinely a replay; TV7 is a Bordeaux television channel; the Oklahoma Model Railroad Association's PTZ cam is pointed at a model |
+
+#### `data/media_denylist.json` — the reviewed rejections ★
+
+Heuristics can't see that a cam captioned "Monteverde" is a *barangay in the
+Philippines* rather than the cloud forest in Costa Rica, or that explore.org's
+"Utopia Village reef cam" is in **Belize**, not on the Great Barrier Reef. Some
+bad picks only give themselves away to a person who opens them.
+
+Without a memory of that judgement the next sweep finds the same video again, so
+reviewed rejections live in `data/media_denylist.json` as `id → why`. It outranks
+every heuristic in **both** tools: `enrich_media.py` never proposes a denied id,
+`prune_media.py` deletes one it finds. Only ever add an id you actually watched.
 
 `prune_media.py` re-applies the current rules to what is already on disk and
 deletes whatever no longer passes — `media.json` is a checkpoint, so without it
-a pick made under looser rules would live forever. `--network` also re-checks
-`is_live`, retiring cams that died since they were verified. The 2026-07 sweep
-retired **39** feeds that had gone dark since they were vetted.
+a pick made under looser rules would live forever. It also refuses a video that
+holds a seat **and** its own night twin: one tape under two labels is a lie in
+one of the two seats. `--network` re-checks `is_live`, retiring cams that died
+since they were verified. The 2026-07 sweep retired **39** dead feeds; the
+follow-up sweep dropped **36** more picks under the rules above.
 
 ```bash
 python3 tools/prune_media.py                     # dry run, title rules only

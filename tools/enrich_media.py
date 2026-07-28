@@ -48,6 +48,21 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 MEDIA = ROOT / "data" / "media.json"
+DENYLIST = ROOT / "data" / "media_denylist.json"
+
+
+def load_denylist():
+    """Ids a human watched and rejected. Heuristics can't see that a cam
+    labelled "Monteverde" is a barangay in the Philippines rather than the
+    cloud forest in Costa Rica — and without a memory of that judgement the
+    next sweep finds it again. This file is that memory."""
+    try:
+        return json.loads(DENYLIST.read_text()).get("ids", {})
+    except (OSError, ValueError):
+        return {}
+
+
+DENIED = load_denylist()
 
 SEARCH_N = 10
 CUR_YEAR = datetime.now().year
@@ -89,6 +104,26 @@ NIGHT_WORDS = re.compile(
 BAD_NIGHT = re.compile(
     r"nights? (?:at|in) the (?:museum|opera)|good ?night|night ?core|"
     r"sleep|asmr|\d+ nights?\b|one night stand|saturday night live", re.I)
+# …and the words that rescue a mixed title. "Jaipur Daytime and Evening
+# Walk" really is a daytime walk that happens to run into dusk, so the
+# day seat may keep it; "Las Vegas 4K - Midnight Drive" may not.
+DAY_WORDS = re.compile(
+    r"\bday(?:time|light)?\b|\bmorning\b|\bafternoon\b|\bsunrise\b|"
+    r"\bmidday\b|\bnoon\b|\bsunny\b", re.I)
+
+
+def night_title(t):
+    """The title says it is dark out, and means the time of day."""
+    t = t or ""
+    return bool(NIGHT_WORDS.search(t)) and not BAD_NIGHT.search(t)
+
+
+def daylight_title(t):
+    """Safe for a DAY seat: it either never claims night, or claims day
+    as well. Without this the day seat happily accepts a midnight drive
+    and then labels it "Driving tour" — the same species of lie as a
+    recorded loop in a live cam."""
+    return not night_title(t) or bool(DAY_WORDS.search(t or ""))
 
 
 def norm(s):
@@ -292,6 +327,21 @@ US_ABBR = (
     "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV",
     "WI", "WY",
 )
+# abbreviation → state, in the same (alphabetical-by-state) order, so a US
+# place can be checked against a US state named in a title instead of being
+# skipped entirely. See the us-vs-us block in wrong_place_title().
+US_ABBR_STATE = dict(zip(US_ABBR, [
+    "alabama", "alaska", "arizona", "arkansas", "california", "colorado",
+    "connecticut", "delaware", "florida", "georgia", "hawaii", "idaho",
+    "illinois", "indiana", "iowa", "kansas", "kentucky", "louisiana",
+    "maine", "maryland", "massachusetts", "michigan", "minnesota",
+    "mississippi", "missouri", "montana", "nebraska", "nevada",
+    "new hampshire", "new jersey", "new mexico", "new york",
+    "north carolina", "north dakota", "ohio", "oklahoma", "oregon",
+    "pennsylvania", "rhode island", "south carolina", "south dakota",
+    "tennessee", "texas", "utah", "vermont", "virginia", "washington",
+    "west virginia", "wisconsin", "wyoming",
+]))
 # Multi-city ROTATORS are the single biggest false positive in cam search
 # ("1200 TOP LIVE WEBCAMS around the World", "European Webcam Journey — a
 # panoramic tour of 280 cities", earthTV's "The World Live", WebCamera.pl's
@@ -322,9 +372,16 @@ BAD_CAM = re.compile(
     r"\bwar\b|breaking news|news live|live news|missile|drone attack|"
     r"air ?strike|invasion|frontline|protest|\briots?\b|footage|"
     r"\bvs\.?\b|\bmatch\b|explosions?|\battacks?\b|bombing|shelling|"
-    r"\.fm\b|radio station", re.I)
+    r"\.fm\b|radio station|"
+    # things that stream on a live channel without being a view of a place
+    r"\bre-?live\b|\breplay\b|compilation|\bdigest\b|"      # not happening now
+    r"\btv\s?\d+\b|television channel|"                     # a broadcaster
+    r"model rail|model train|"                              # someone's layout
+    r"\bfr24\b|flightradar", re.I)                          # a map, not a camera
 # news, sports and radio-station streams aren't place cams — but plain
-# "radio"/"jazz radio" is just a music overlay on an otherwise real cam
+# "radio"/"jazz radio" is just a music overlay on an otherwise real cam.
+# "RE-LIVE Planespotting at Frankfurt Airport" is the sharpest of these:
+# it is genuinely streaming right now, and it is genuinely a replay.
 
 OTHER_PLACES = {}     # id → (tokens, lat, lng)   — filled in main()
 COUNTRY_NAMES = set() # normalized country names  — filled in main()
@@ -404,28 +461,64 @@ def wrong_place_title(title, place):
             if re.search(r",\s*(?:" + "|".join(US_ABBR) + r")\b",
                          title, re.I):
                 return True
+
+    # US place vs a DIFFERENT US state. Everything above skips US places on
+    # purpose — every US cam title names a US state, so refusing them all
+    # would be useless. Compare against the place's OWN state instead. This
+    # is how Flagstaff, ARIZONA ended up showing a webcam on Flagstaff Lake
+    # in Eustis, MAINE, and Monument Valley showed a covered bridge in
+    # Vermont. Our own name winning the headline still exempts the title,
+    # so "Flagstaff, Arizona, USA | LIVE Train Camera" stays.
+    if own_country == "united states":
+        own_state = norm(place.get("region") or "")
+        # "Monument Valley" has no distinctive tokens at all (both words are
+        # generic), so own_pos is None and the headline test below would be
+        # dead. Fall back to the literal name — it sits at the front of
+        # "Exploring Monument Valley Utah", which is a Utah-side view of the
+        # same park, not a relocation.
+        head = own_pos
+        if head is None:
+            base = norm(place["name"]).split(",")[0].strip()
+            head = t.find(base) if base and base in t else None
+        named = {st for st in US_STATES if re.search(rf"\b{re.escape(st)}\b", t)}
+        m = re.search(r",\s*([A-Z]{2})\b", title)
+        if m and m.group(1).upper() in US_ABBR_STATE:
+            named.add(US_ABBR_STATE[m.group(1).upper()])
+        for st in named:
+            if st == own_state or st in norm(place["name"]):
+                continue
+            pos = _first_pos([st], t)
+            if head is not None and pos is not None and head < pos:
+                continue                  # our place is still the headline
+            return True
     return False
 
 
 # ------------------------------------------------------- walks & drives
-def find_seekable(place, query, want, avoid, also=None, min_dur=600):
+def find_seekable(place, query, want, avoid, min_dur=600, night=False):
     """A real, seekable tour video (walk or drive): embeddable, not
     live, recent enough that the streets still look like this.
 
-    `also` is a second regex the title must ALSO match — that's how the
-    night seats say "and it is dark out" without duplicating any of the
-    vetting below."""
+    `night` is the entire difference between a day seat and its night
+    twin, and it cuts BOTH ways: True demands the title say it's dark,
+    False demands it not claim night at all. One-way would let a night
+    video quietly fill the daytime seat, which is how Las Vegas ended
+    up offering "Midnight Drive" as its Driving tour."""
     cands = []
     for e in flat_search(query):
         title = e.get("title") or ""
         dur = e.get("duration") or 0
+        if e.get("id") in DENIED:
+            continue
         if e.get("live_status") == "is_live":
             continue
         if not (min_dur <= dur <= 6 * 3600):
             continue
         if not want.search(title) or avoid.search(title):
             continue
-        if also and not also.search(title):
+        if night and not night_title(title):
+            continue
+        if not night and not daylight_title(title):
             continue
         if not mentions_place(title, place) or wrong_place_title(title, place):
             continue
@@ -440,7 +533,9 @@ def find_seekable(place, query, want, avoid, also=None, min_dur=600):
         ft = info.get("title", "")
         if not want.search(ft) or avoid.search(ft):
             continue
-        if also and not also.search(ft):
+        if night and not night_title(ft):
+            continue
+        if not night and not daylight_title(ft):
             continue
         if not mentions_place(ft, place) or wrong_place_title(ft, place):
             continue
@@ -472,19 +567,15 @@ def find_drive(place):
 # actually be dark out. They deliberately reuse find_seekable rather than
 # forking a "nightlife finder", so every guard earned by walk/drive —
 # scrub_persons, wrong_place_title, the staleness cutoff, embeddability —
-# applies here for free. `also=NIGHT_WORDS` is the whole difference.
+# applies here for free. `night=True` is the whole difference.
 def find_night_walk(place):
     return find_seekable(place, f"{place['name']} {place['country']} night walk 4k",
-                         WALK_WORDS, re.compile(BAD_WALK.pattern + "|" + BAD_NIGHT.pattern,
-                                                re.I),
-                         also=NIGHT_WORDS)
+                         WALK_WORDS, BAD_WALK, night=True)
 
 
 def find_night_drive(place):
     return find_seekable(place, f"{place['name']} {place['country']} night drive 4k",
-                         DRIVE_WORDS, re.compile(BAD_DRIVE.pattern + "|" + BAD_NIGHT.pattern,
-                                                 re.I),
-                         also=NIGHT_WORDS)
+                         DRIVE_WORDS, BAD_DRIVE, night=True)
 
 
 # ---------------------------------------------------------------- live cams
@@ -535,7 +626,7 @@ def find_cams(place, exclude=(), seats=("live", "window")):
         for e in flat_search(q, 12):
             if e.get("live_status") != "is_live" or e.get("id") in exclude:
                 continue
-            if e.get("id") in seen:
+            if e.get("id") in seen or e.get("id") in DENIED:
                 continue
             title = e.get("title") or ""
             if BAD_CAM.search(title) or AGGREGATOR_CAM.search(title):
@@ -667,27 +758,34 @@ def main():
         found = []
         needs = loc.get("_needs") or list(SEATS)
 
+        # A seat and its twin must never hold the SAME video — showing one
+        # tape twice under two labels is a lie in one of the two seats.
+        def free(seat, pick):
+            twin = {"walk": "night_walk", "night_walk": "walk",
+                    "drive": "night_drive", "night_drive": "drive"}[seat]
+            return pick and pick["yt"] != (entry.get(twin) or {}).get("yt")
+
         if "walk" in needs:
             w = find_walk(loc)
-            if w:
+            if free("walk", w):
                 entry["walk"] = w
                 found.append(f"walk:{w['yt']}({w['date'][:4]})")
             time.sleep(4)
         if "drive" in needs:
             d = find_drive(loc)
-            if d:
+            if free("drive", d):
                 entry["drive"] = d
                 found.append(f"drive:{d['yt']}({d['date'][:4]})")
             time.sleep(4)
         if "night_walk" in needs:
             nw = find_night_walk(loc)
-            if nw:
+            if free("night_walk", nw):
                 entry["night_walk"] = nw
                 found.append(f"night_walk:{nw['yt']}({nw['date'][:4]})")
             time.sleep(4)
         if "night_drive" in needs:
             nd = find_night_drive(loc)
-            if nd:
+            if free("night_drive", nd):
                 entry["night_drive"] = nd
                 found.append(f"night_drive:{nd['yt']}({nd['date'][:4]})")
             time.sleep(4)

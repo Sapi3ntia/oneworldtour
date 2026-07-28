@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-28T14:21:42+00:00",
+ "generated": "2026-07-28T14:37:25+00:00",
  "places": {
   "fez": {
    "walk": {
@@ -511,13 +511,6 @@
     "channel": "traveler_HIRO",
     "date": "20240614",
     "duration": 4574
-   },
-   "drive": {
-    "yt": "1_MlMU7hEuo",
-    "title": "Jaipur City 4K Drive Tour | Golden Evening | Amazing Drive Tour - All In City",
-    "channel": "All In City 🇮🇳",
-    "date": "20260329",
-    "duration": 816
    }
   },
   "varanasi": {
@@ -735,21 +728,9 @@
    }
   },
   "cebu-city": {
-   "walk": {
-    "yt": "Zr_KBKKHCds",
-    "title": "What CEBU Looks Like After Dark | Night Walking Tour Cebu City Philippines [4K] 🇵🇭",
-    "channel": "Jiggers TV",
-    "date": "20260705",
-    "duration": 2867
-   },
    "live": {
     "yt": "z9O-XeUraDs",
     "title": "🔴 PHILIPPINES Live camera Majah & Carolina street food sellers, Agdao, Davao City #philippines 2026-07-09 19:32",
-    "verified": "2026-07-09"
-   },
-   "window": {
-    "yt": "CmtuOVxcKRo",
-    "title": "Maria's Store Cam6, Agdao Davao City, Philippines  #philippines #davaocity 2026-07-09 19:32",
     "verified": "2026-07-09"
    },
    "drive": {
@@ -811,13 +792,6 @@
     "channel": "Fun Walk Tours",
     "date": "20250314",
     "duration": 1107
-   },
-   "drive": {
-    "yt": "QVjBNbbvAQQ",
-    "title": "Vietnam Driving Tour 4K | Lonely Night Drive Around Sai Gon, Ho Chi Minh City",
-    "channel": "DVK Journey",
-    "date": "20260717",
-    "duration": 1860
    },
    "night_walk": {
     "yt": "Nuv4nA1fHpY",
@@ -892,13 +866,6 @@
    }
   },
   "gondar": {
-   "walk": {
-    "yt": "vbcdbNAA5aY",
-    "title": "ጎንደርን በምሽት አታውቋትም | Beauty Gondar city at night with stunning lights 🇪🇹 Ethiopia walking Tour 2026",
-    "channel": "Abyssinia Walk and Drive",
-    "date": "20260117",
-    "duration": 2080
-   },
    "drive": {
     "yt": "nqzPeW2q3yA",
     "title": "Gondar city ,Ethiopia Driving Downtown 2022",
@@ -979,13 +946,6 @@
    }
   },
   "ayutthaya": {
-   "walk": {
-    "yt": "03wgA0V-1nI",
-    "title": "Ayutthaya 4K Walking Tour: Thailand Temples, Songkran Water Fights & Night Market Street Food",
-    "channel": "World Wanderings: 4K Walking Tours",
-    "date": "20260331",
-    "duration": 3621
-   },
    "drive": {
     "yt": "EgZLM4mKvbg",
     "title": "Driving 4K 🇹🇭 downtown Ayutthaya province in Thailand",
@@ -1578,13 +1538,6 @@
     "yt": "LvRsT07hJOE",
     "title": "Northern Bus Station, Yerevan-Sevan highway 2026-07-09 19:43",
     "verified": "2026-07-09"
-   },
-   "drive": {
-    "yt": "hlCasv58ZIc",
-    "title": "Driving tour in Yerevan at evening to Kasakh village, Armenia. 4K 60fps",
-    "channel": "OBSERVER",
-    "date": "20210908",
-    "duration": 2414
    }
   },
   "lake-sevan": {
@@ -1872,11 +1825,6 @@
     "channel": "Nature Lover Canada",
     "date": "20201105",
     "duration": 1275
-   },
-   "live": {
-    "yt": "QX9OfclWZuM",
-    "title": "Algonquin Park Live Webcam | Ontario, Canada | www.algonquinpark.on.ca 2026-07-09 19:45",
-    "verified": "2026-07-09"
    }
   },
   "vienna": {
@@ -1987,11 +1935,6 @@
     "date": "20251026",
     "duration": 2364
    },
-   "live": {
-    "yt": "F0GOOP82094",
-    "title": "Wildlife In The Forest - 24/7 LIVE 🔴 by Morten Hilmer 2026-07-09 19:46",
-    "verified": "2026-07-09"
-   },
    "drive": {
     "yt": "EdFOBHXHkJ8",
     "title": "Driving Schramberg | Black Forest  Germany  4k",
@@ -2092,11 +2035,6 @@
     "channel": "Travel Centric | Luxury Walking Tours",
     "date": "20250621",
     "duration": 2922
-   },
-   "live": {
-    "yt": "epob2jcRe_Q",
-    "title": "LIVE TV7 Bordeaux 2026-07-09 19:47",
-    "verified": "2026-07-09"
    },
    "drive": {
     "yt": "b6J5LCdHIx4",
@@ -2427,13 +2365,6 @@
    }
   },
   "french-riviera": {
-   "walk": {
-    "yt": "XgN2Zd721QY",
-    "title": "Nice, France 4K Walking Tour 🇫🇷 French Riviera Night Walk | Beach & Old Town",
-    "channel": "Duslin Travels",
-    "date": "20260228",
-    "duration": 3376
-   },
    "live": {
     "yt": "z6BNMoj9Pyo",
     "title": "🔴 LIVE WEBCAM CANNES - Boulevard du Midi 2026-07-10 08:25",
@@ -2627,11 +2558,6 @@
    }
   },
   "munich": {
-   "live": {
-    "yt": "1CRXoZI-Wdo",
-    "title": "✈️ RE-LIVE Planespotting Munich Airport MUC | Heavy Landings & Takeoffs | A380, A350, B777 Close-Ups 2026-07-09 19:50",
-    "verified": "2026-07-09"
-   },
    "drive": {
     "yt": "Ps8ETd-J2yk",
     "title": "Driving Munich 4K - Sunset Drive - Germany",
@@ -2717,11 +2643,6 @@
     "date": "20220930",
     "duration": 4708
    },
-   "live": {
-    "yt": "VNOV8KgGR0c",
-    "title": "Webcam Saint-Malo en 4K - Les Thermes Marins 2026-07-10 08:26",
-    "verified": "2026-07-10"
-   },
    "drive": {
     "yt": "bMTG3Evkd-Y",
     "title": "Europe driving tour Day22 Episode01  From Le Mont Saint Michel, France To Saint Malo, France By Ford",
@@ -2784,11 +2705,6 @@
    }
   },
   "london": {
-   "window": {
-    "yt": "wDaV8EkYHmk",
-    "title": "LONDON BUS RIDES 💫 DIGEST 🔴 LIVE CHAT ✨ 2026-07-09 19:52",
-    "verified": "2026-07-09"
-   },
    "drive": {
     "yt": "hiPQPnjwuTY",
     "title": "Driving downtown, London 4k HDR, Sunday Afternoon Relaxing Driving Tour 2022…",
@@ -2871,18 +2787,6 @@
     "channel": "PixelPulse Travels",
     "date": "20240906",
     "duration": 2484
-   },
-   "window": {
-    "yt": "PMetnXeBFSk",
-    "title": "✈️ RE-Live Planespotting at Frankfurt Airport – B747 Paradise Takeoffs & Landings - FRA - EDDF 2026 2026-07-09 19:52",
-    "verified": "2026-07-09"
-   },
-   "drive": {
-    "yt": "2054gi9TzcA",
-    "title": "Frankfurt Evening Drive | Driving in Europe's Financial Capital | Roads of Germany [4K HDR]",
-    "channel": "Planet Drive ",
-    "date": "20230130",
-    "duration": 2162
    }
   },
   "cambridge": {
@@ -3120,11 +3024,6 @@
     "title": "Geirangerfjord cruise port, Geiranger 2026-07-10 08:29",
     "verified": "2026-07-10"
    },
-   "window": {
-    "yt": "egjxEzyTi_I",
-    "title": "Fru Rauer - Norwegian Osprey Live Stream 2026-07-10 08:29",
-    "verified": "2026-07-10"
-   },
    "drive": {
     "yt": "yudSYt5E130",
     "title": "4K Summer Drive Through Norway’s Fjords & Mountains | #Bjørkedal to #Folkestad",
@@ -3301,11 +3200,6 @@
     "title": "LIVE Porto Webcam Ribeira and Vila Nova de Gaia – Oporto, Portugal 2026-07-09 19:55",
     "verified": "2026-07-09"
    },
-   "window": {
-    "yt": "yCeQueusZxs",
-    "title": "[LIVE] AO VIVO Porto Alegre POA / GUAÍBA - Lago Guaíba, Cidade e Movimentação Portuária MOVE NO CHAT 2026-07-10 08:29",
-    "verified": "2026-07-10"
-   },
    "drive": {
     "yt": "uwPpg2RCwM4",
     "title": "Driving in Porgual 🚙 From Porto to Aveiro | Driving Tour in 4K/60FPS",
@@ -3345,13 +3239,6 @@
     "yt": "N3ShIAO7H4Y",
     "title": "Creative Live streaming from Prague (Czech Republic) by CamStreamer 2026-07-09 19:55",
     "verified": "2026-07-09"
-   },
-   "drive": {
-    "yt": "w_F_-CQWWlw",
-    "title": "Prague Evening Driving tour with Jazz 🎹 Czech Republic 4K HDR 60fps",
-    "channel": "Drive Relax Radio",
-    "date": "20230325",
-    "duration": 2017
    },
    "night_walk": {
     "yt": "be9BVZxIJpg",
@@ -3508,11 +3395,6 @@
     "date": "20230912",
     "duration": 4112
    },
-   "live": {
-    "yt": "e2gC37ILQmk",
-    "title": "Ukraine live cam from Kyiv, Odessa, Kharkiv, Kramatorsk, Sloviansk, Donetsk, Dnipro... 2026-07-09 19:57",
-    "verified": "2026-07-09"
-   },
    "window": {
     "yt": "IcZ-7sFi1HM",
     "title": "LIVE: Ukraine real-time skyline cameras from Kharkiv, Donetsk, Kyiv, Sumy and more 2026-07-09 19:57",
@@ -3600,13 +3482,6 @@
    }
   },
   "vilnius": {
-   "walk": {
-    "yt": "Bxcsyhdpmwc",
-    "title": "Vilnius, Lithuania Evening Walking Tour 4k - With Captions",
-    "channel": "BookingHunterTV",
-    "date": "20250712",
-    "duration": 3592
-   },
    "drive": {
     "yt": "aWYqI0PAwjI",
     "title": "【4K】 Lithuania Vilnius Driving - UNESCO Old Town in January with City Sounds",
@@ -4084,11 +3959,6 @@
     "date": "20250702",
     "duration": 789
    },
-   "window": {
-    "yt": "kfLA8ep2PmM",
-    "title": "BDRRMC.. LIVE Brgy Monteverde front outside #phillipines #liveoncam 2026-07-09 20:01",
-    "verified": "2026-07-10"
-   },
    "drive": {
     "yt": "hp7VP3_ASWk",
     "title": "| 4K | Tropical Rainforest & Mountain Drive | Monteverde | Costa Rica | 2023 | Relaxing | ASMR",
@@ -4220,11 +4090,6 @@
     "channel": "IBO CAAV",
     "date": "20250519",
     "duration": 2044
-   },
-   "live": {
-    "yt": "1zcIUk66HX4",
-    "title": "Utopia Village Top-of-Wall Underwater Reef Cam powered by EXPLORE.org 2026-07-09 20:02",
-    "verified": "2026-07-10"
    },
    "window": {
     "yt": "DHUnz4dyb54",
@@ -4374,11 +4239,6 @@
     "channel": "The Travel Docket",
     "date": "20241212",
     "duration": 5009
-   },
-   "window": {
-    "yt": "TmtVbezZaqg",
-    "title": "Leavenworth Washington Live Webcam from Kris Kringl! 2026-07-18 12:55",
-    "verified": "2026-07-18"
    }
   },
   "boston": {
@@ -4452,11 +4312,6 @@
    }
   },
   "new-orleans": {
-   "window": {
-    "yt": "MH0_mPt-VXE",
-    "title": "FR24 - MSY New Orleans LIVE 24/7 2026-07-09 20:04",
-    "verified": "2026-07-10"
-   },
    "drive": {
     "yt": "jGhnTfiG_RE",
     "title": "Louisiana Driving Tour, USA. Downtown New Orleans - 4K",
@@ -4598,13 +4453,6 @@
    }
   },
   "san-antonio": {
-   "walk": {
-    "yt": "0Zqf0MoO8mk",
-    "title": "Walking around Downtown at Night | San Antonio Texas USA 2026",
-    "channel": "Mellow Man Walks",
-    "date": "20260108",
-    "duration": 1466
-   },
    "drive": {
     "yt": "aR3A121sC0M",
     "title": "San Antonio Texas 4K City Drive - Alamo City Driving Tour",
@@ -4625,13 +4473,6 @@
     "yt": "gDcfh-Wm0xE",
     "title": "FREMONT STREET / Downtown Las Vegas - Walking The Fremont Street Experience (Last Night) 2026-07-09 20:05",
     "verified": "2026-07-10"
-   },
-   "drive": {
-    "yt": "HZaLvgP-R8E",
-    "title": "Las Vegas 4K - Midnight Drive",
-    "channel": "J Utah",
-    "date": "20201006",
-    "duration": 4538
    },
    "night_walk": {
     "yt": "75L9-CZwZGI",
@@ -5121,11 +4962,6 @@
    }
   },
   "glacier-np": {
-   "window": {
-    "yt": "jJI5w_RVGtQ",
-    "title": "Mendenhall Glacier and Mountain Goat Cam  powered by EXPLORE.org 2026-07-10 08:39",
-    "verified": "2026-07-10"
-   },
    "drive": {
     "yt": "nhVcEIQInBc",
     "title": "[4K] Scenic Drive - Going To The Sun Road | Glacier National Park, Montana, USA",
@@ -5135,18 +4971,6 @@
    }
   },
   "rocky-mountain-np": {
-   "walk": {
-    "yt": "UXdO2twYFEI",
-    "title": "Estes Park Colorado - Winter Evening in Christmas Decorated Rocky Mountains Town - 4K Walking Tour",
-    "channel": "Camera Tours",
-    "date": "20251216",
-    "duration": 1841
-   },
-   "live": {
-    "yt": "teGLziUvDkI",
-    "title": "Gatlinburg SkyPark Live Webcam 2026-07-10 08:39",
-    "verified": "2026-07-10"
-   },
    "drive": {
     "yt": "CiTg-iYVBYo",
     "title": "Rocky Mountain National Park 4K | Estes Park to Grand Lake | Trail Ridge Road Complete Scenic Drive",
@@ -5262,11 +5086,6 @@
    }
   },
   "olympic-np": {
-   "live": {
-    "yt": "lJOROUvD8sU",
-    "title": "🔴 LIVE: Celebrate 250 Years of America! | National Parks USA LIVESTREAM | National Geographic 2026-07-10 08:41",
-    "verified": "2026-07-10"
-   },
    "drive": {
     "yt": "jr8GNsPxBg8",
     "title": "Olympic Peninsula Scenic Drive to Olympic National Park Washington 4K - Pacific Coast Mountains",
@@ -5329,11 +5148,6 @@
     "channel": "RussellFilm",
     "date": "20220925",
     "duration": 874
-   },
-   "live": {
-    "yt": "IB55Ni_wJcQ",
-    "title": "Vermont Covered Bridge Webcam in HD from the Mad River Valley 🌷 *Sponsor This Webcam! More Info ⬇️* 2026-07-10 08:42",
-    "verified": "2026-07-10"
    },
    "drive": {
     "yt": "tEhrLr3ETyI",
@@ -5747,11 +5561,6 @@
     "channel": "ZeABAY 🎭",
     "date": "20250103",
     "duration": 2569
-   },
-   "live": {
-    "yt": "_2rvoH5oDcg",
-    "title": "National Museum of Wildlife Art - Live Elk Refuge 2026-07-18 13:59",
-    "verified": "2026-07-18"
    }
   },
   "johannesburg": {
@@ -5823,13 +5632,6 @@
    }
   },
   "mumbai": {
-   "drive": {
-    "yt": "WyUudk7NI3I",
-    "title": "Mumbai (मुंबई) 4K - Driving Downtown - Evening Drive",
-    "channel": "Life Ambience",
-    "date": "20230123",
-    "duration": 1613
-   },
    "night_walk": {
     "yt": "g73mowyEHdU",
     "title": "MUMBAI Lokhandwala Market🛍️ Andheri Night Walking Tour in 4K | INDIA🇮🇳 Walking Tour",
@@ -5930,6 +5732,13 @@
     "channel": "Traveller ABC",
     "date": "20230110",
     "duration": 1290
+   },
+   "walk": {
+    "yt": "hpyrvdxAajQ",
+    "title": "Şanlıurfa Turkey | Karahantepe, Göbeklitepe, Balıklıgöl, Historic Houses & Hotels | 4K Walking Tour",
+    "channel": "GlobusMova",
+    "date": "20260719",
+    "duration": 3629
    }
   },
   "copenhagen": {
@@ -6334,11 +6143,6 @@
     "channel": "Mileage Mike Travels",
     "date": "20230721",
     "duration": 2546
-   },
-   "window": {
-    "yt": "jdUc9qYuFHw",
-    "title": "Oklahoma City, OK | LIVE PTZ Railcam | Oklahoma Model Railroad Association 2026-07-18 14:44",
-    "verified": "2026-07-18"
    }
   },
   "amarillo": {
@@ -6384,11 +6188,6 @@
    "live": {
     "yt": "7xdHH9KMSVk",
     "title": "Flagstaff, Arizona, USA | LIVE Train Camera (PTZ) 2026-07-18 14:45",
-    "verified": "2026-07-18"
-   },
-   "window": {
-    "yt": "YlAtgGTbm4M",
-    "title": "Flagstaff Landing - Flagstaff Lake - Eustis, ME 2026-07-18 14:45",
     "verified": "2026-07-18"
    }
   },
