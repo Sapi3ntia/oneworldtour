@@ -30,11 +30,28 @@
      • dot radii used to be floored in MAP units, which meant they
        grew linearly on screen once zoomed past k≈4.5 (a 64px blob
        at k=40) and swallowed their neighbours. Radii are now pinned
-       in real pixels, exactly like the labels always were.
+       in real pixels, exactly like the label text always was.
 
-   Perf guardrails: no filters, no shadows, no infinite animations;
-   strokes use vector-effect:non-scaling-stroke; dot radii are
-   updated once per zoom change (~350 circles — cheap).
+   Everything drawn per-place is pinned that way now (2026-07). The
+   label's dark outline was the last hold-out: its font-size shrank
+   with the zoom but its stroke-width stayed 2.5 MAP units, so by the
+   time you'd zoomed into Japan each name sat in a ~60px black slab
+   that hid Tokyo, Osaka and Kyoto behind their neighbours' captions.
+   Halo width is now screen pixels too. Labels also declutter: where
+   two captions would still collide, the lower-priority one steps
+   aside and leaves its dot — see _placeLabels.
+
+   Input is pointer, touch AND keyboard: two fingers pinch-zoom, and a
+   focused map pans on the arrows, zooms on +/-, and steps through the
+   places in view on n/p (see _key). Everything a mouse can reach, a
+   keyboard can reach.
+
+   Perf guardrails: no filters, no shadows; strokes use
+   vector-effect:non-scaling-stroke. Per-frame DOM work is bounded by
+   the VIEWPORT, not by the atlas — _applyZoomStyling restyles the ~40
+   places you can actually see, not all ~377. The one infinite
+   animation (the live-cam pulse) is likewise mounted only on in-view
+   dots, and not at all under prefers-reduced-motion.
    ============================================================ */
 import { project, unproject, MAP_W, MAP_H } from './lib/geo.js';
 
@@ -44,6 +61,21 @@ const LABEL_K = 4.2;     // city labels appear from this zoom
 const K_MAX = 40, K_MIN = 1;
 const DOT_PX = 4;        // city dot radius, in real screen pixels at any zoom
 const HIT_PX = 12;       // click/tap radius around a dot centre, likewise
+const HALO_PX = 2.5;     // label outline width, likewise (see _applyZoomStyling)
+const LABEL_CAP = 150;   // most labels we'll consider placing in one pass
+const VIEW_PAD = 0.15;   // restyle/declutter this far outside the viewBox
+const PAN_STEP = 0.18;   // arrow-key pan, as a fraction of the viewport
+
+/* Natural Earth spells a handful of countries differently from our own
+   data. Four names, so: four aliases, not a fuzzy matcher. (Malta,
+   Micronesia, Singapore and Vatican City have no polygon at this
+   resolution at all — nothing to alias them to.) */
+const LAND_ALIAS = {
+  'United States of America': 'United States',
+  'Dem. Rep. Congo': 'DR Congo',
+  'Bosnia and Herz.': 'Bosnia and Herzegovina',
+  Czechia: 'Czech Republic',
+};
 
 const svgEl = (tag, attrs = {}) => {
   const n = document.createElementNS(NS, tag);
@@ -68,24 +100,55 @@ export class WorldMap {
     this._pins = [];
 
     container.classList.add('wmap');
+    container.classList.toggle('wmap-pick', this.mode === 'pick');
+    /* Focusable, and announced as what it is. role=application because
+       the arrows are ours here — a screen reader that swallowed them to
+       move its own cursor would leave the map unpannable. */
+    if (!container.hasAttribute('tabindex')) container.tabIndex = 0;
+    container.setAttribute('role', 'application');
+    container.setAttribute('aria-label', this.mode === 'pick'
+      ? 'World map. Arrow keys pan, plus and minus zoom, Enter drops your guess.'
+      : 'World map. Arrow keys pan, plus and minus zoom, 0 for the whole world, '
+        + 'n and p step through the places in view, Enter opens the highlighted place.');
     this.svg = svgEl('svg', {
       viewBox: `0 0 ${MAP_W} ${MAP_H}`,
       preserveAspectRatio: 'xMidYMid meet',
-      role: 'img', 'aria-label': 'World map',
+      'aria-hidden': 'true',           // the container carries the label
     });
     this.gLand = svgEl('g', { class: 'wmap-land' });
     this.gGrat = svgEl('g', { class: 'wmap-grat' });
     this.gMarks = svgEl('g', { class: 'wmap-marks' });
     this.gDots = svgEl('g', { class: 'wmap-dots' });
-    this.svg.append(this.gGrat, this.gLand, this.gDots, this.gMarks);
+    this.gPulse = svgEl('g', { class: 'wmap-pulse' });
+    this.svg.append(this.gGrat, this.gLand, this.gPulse, this.gDots, this.gMarks);
     container.appendChild(this.svg);
 
     this.tip = document.createElement('div');
     this.tip.className = 'wmap-tip';
     container.appendChild(this.tip);
 
+    /* Whatever the highlight lands on gets said out loud. The keyboard
+       walk (n/p) would otherwise be silent to a screen reader — the
+       tooltip is a div nobody is watching. */
+    this.live = document.createElement('div');
+    this.live.className = 'wmap-sr';
+    this.live.setAttribute('aria-live', 'polite');
+    container.appendChild(this.live);
+
     this._rect = null;
     this._hot = null;
+    this._tipPin = null;
+    /* The live-cam pulse is the one animation here, so it asks first —
+       and keeps asking, because this can be toggled mid-session. */
+    this._pulseOK = true;
+    if (typeof matchMedia === 'function') {
+      const mq = matchMedia('(prefers-reduced-motion: reduce)');
+      this._pulseOK = !mq.matches;
+      mq.addEventListener?.('change', e => {
+        this._pulseOK = !e.matches;
+        this._applyZoomStyling();
+      });
+    }
     this._measure();
     if (typeof ResizeObserver !== 'undefined') {
       this._ro = new ResizeObserver(() => { this._measure(); this._applyZoomStyling(); });
@@ -156,8 +219,11 @@ export class WorldMap {
 
   _rebuildDots() {
     this.gDots.innerHTML = '';
+    this.gPulse.innerHTML = '';
     this._countryNodes = [];
     this._cityDots = [];
+    this._liveDots = [];
+    this._shown = null;
     const vis = this._visible();
 
     // country aggregation nodes — anchored on a real member place.
@@ -174,6 +240,11 @@ export class WorldMap {
       if (!by.has(p.country)) by.set(p.country, []);
       by.get(p.country).push(p);
     }
+    /* Country → what we hold there, for the land tooltip. Built here, off
+       the same VISIBLE set the nodes are built from (so a filtered map
+       doesn't promise places it isn't showing), and once per data change
+       rather than per hover — pointermove fires a lot. */
+    this._byCountry = by;
     for (const [country, list] of by) {
       const mx = median(list.map(p => p._pt.x));
       const my = median(list.map(p => p._pt.y));
@@ -209,9 +280,38 @@ export class WorldMap {
       });
       label.textContent = `${p.emoji || ''} ${p.name}`.trim();
       g.append(dot, label);
+      /* Born parked. Only _applyZoomStyling mounts a marker, and only
+         when the camera actually contains it — see the note there. */
+      g.style.display = 'none';
       this.gDots.appendChild(g);
-      this._cityDots.push({ g, dot, label, p });
+      const d = { g, dot, label, p, parked: true };
+      /* A camera that is live RIGHT NOW is the thing this atlas has that
+         an atlas doesn't, and it was reading as one more flat red dot.
+         It gets a ring that breathes. The ring lives in its own layer,
+         not in the city group: _setHot re-appends that group to raise
+         it, and a re-append restarts CSS animations — the pulse would
+         visibly stutter every time the cursor passed by. */
+      if (f.live) {
+        d.pulse = svgEl('circle', { cx: p._pt.x, cy: p._pt.y, r: 2.4, class: 'dot-pulse' });
+        // negative delay = each ring starts mid-breath, so a cluster of
+        // live cams shimmers instead of blinking in lockstep
+        d.pulse.style.animationDelay = `-${(this._liveDots.length * 0.37 % 2.4).toFixed(2)}s`;
+        this.gPulse.appendChild(d.pulse);
+        this._liveDots.push(d);
+      }
+      this._cityDots.push(d);
     }
+    /* Label priority, decided once here rather than per frame. A famous
+       place outranks any hidden gem (the +4 beats every flag combined —
+       nobody expects Nara's caption to win over Osaka's), then it's
+       whoever has more to actually watch. The id tiebreak makes the
+       order total and stable, so panning can't leave two neighbours
+       swapping captions frame by frame. */
+    const rank = ({ tag, _flags: f = {} }) =>
+      (tag === 'famous' ? 4 : 0)
+      + (f.live ? 1 : 0) + (f.window ? 1 : 0) + (f.walk ? 1 : 0) + (f.monuments ? 1 : 0);
+    this._cityDots.sort((a, b) =>
+      rank(b.p) - rank(a.p) || String(a.p.id).localeCompare(String(b.p.id)));
     this._hot = null;
     this._applyZoomStyling();
   }
@@ -293,6 +393,7 @@ export class WorldMap {
     const cityMode = k >= COUNTRY_K;
     this.container.classList.toggle('wmap-citymode', cityMode);
     const showLabels = k >= LABEL_K;
+    this._showLabels = showLabels;
     if (this._cityDots) {
       /* Pinned in screen pixels. The old `max(1.6, 3.4/√k)` floor was in
          MAP units, so past k≈4.5 every dot grew linearly with the zoom
@@ -301,16 +402,45 @@ export class WorldMap {
       const r = DOT_PX * u;
       this._hitR = HIT_PX * u;
       const fs = 11 / k;
-      for (const d of this._cityDots) {
+      /* ONLY what's on screen. This used to walk all ~377 dots and write
+         four attributes to each, every frame of every tween, to restyle
+         the ~340 of them the viewBox had clipped away — the single
+         biggest cost in the engine. Anything entering view is restyled
+         in the same frame the camera brings it in, before paint.
+
+         Whatever LEAVES has to be parked, though, and that part is a
+         correctness rule rather than a saving: a marker we stop
+         restyling keeps the size it last had, in MAP units, and a dot
+         sized for the world view is ~3 units across — at k=40 that is a
+         200px disc. Tokyo, sitting just past the top edge, painted a red
+         blob over the Kanto coast; a stale caption would have bled its
+         halo in the same way. Off-screen markers aren't drawn at all
+         now, so the size they're holding cannot leak in. */
+      const inView = this._inView();
+      const keep = new Set(inView);
+      for (const d of this._shown || []) {
+        if (keep.has(d)) continue;
+        d.g.style.display = 'none';
+        d.parked = true;
+      }
+      this._shown = inView;
+      for (const d of inView) {
+        if (d.parked) { d.g.style.display = ''; d.parked = false; }
         d.dot.setAttribute('r', r);
         if (showLabels) {
-          d.label.style.display = '';
           d.label.setAttribute('font-size', fs);
-          d.label.setAttribute('dx', r * 1.8);
+          /* The halo is a STROKE on the text, so it lives in map units
+             like everything else and has to be re-pinned every zoom —
+             a fixed 2.5 in the stylesheet became a 100px black slab at
+             k=40. Inline style: it has to beat the sheet's value. */
+          d.label.style.strokeWidth = `${HALO_PX * u}px`;
         } else {
+          d.labelHidden = true;
           d.label.style.display = 'none';
         }
       }
+      if (showLabels) this._placeLabels(fs, r, inView);
+      this._pulses(cityMode, r);
     }
     if (this._countryNodes) {
       for (const n of this._countryNodes) {
@@ -335,6 +465,99 @@ export class WorldMap {
       for (const t of pin.querySelectorAll('.stop-num')) {
         t.setAttribute('font-size', 12 / k);
       }
+    }
+    // a pinned (keyboard) tooltip rides along with the marker it names
+    if (this._tipPin) this._tipMove(this._mapToClient(this._tipPin.x, this._tipPin.y));
+  }
+
+  /* The dots inside the viewBox, padded a little so nothing pops the
+     instant it clears an edge. Every per-frame loop over places goes
+     through here — the atlas is 377 places, a view is ~40. */
+  _inView(dots = this._cityDots) {
+    const vb = this.vb;
+    const mx = vb.w * VIEW_PAD, my = vb.h * VIEW_PAD;
+    const x0 = vb.x - mx, x1 = vb.x + vb.w + mx;
+    const y0 = vb.y - my, y1 = vb.y + vb.h + my;
+    const out = [];
+    for (const d of dots || []) {
+      const { x, y } = d.p._pt;
+      if (x >= x0 && x <= x1 && y >= y0 && y <= y1) out.push(d);
+    }
+    return out;
+  }
+
+  /* "Live" was reading as one more coloured dot. Now a live cam breathes
+     — but only where it can be seen. An infinite animation on every live
+     dot in the atlas is the background work this engine refuses to do;
+     the handful on screen is affordable, and under
+     prefers-reduced-motion none of them mount at all. */
+  _pulses(cityMode, r) {
+    if (!this._liveDots) return;
+    const ok = cityMode && this._pulseOK;
+    const vb = this.vb;
+    const mx = vb.w * VIEW_PAD, my = vb.h * VIEW_PAD;
+    for (const d of this._liveDots) {
+      const { x, y } = d.p._pt;
+      const on = ok
+        && x >= vb.x - mx && x <= vb.x + vb.w + mx
+        && y >= vb.y - my && y <= vb.y + vb.h + my;
+      if (on) d.pulse.setAttribute('r', r);
+      if (d.pulsing === on) continue;   // don't touch the DOM to say nothing
+      d.pulsing = on;
+      d.pulse.classList.toggle('on', on);
+    }
+  }
+
+  /* Which captions actually get printed. Two names a few pixels apart
+     used to overprint each other ("Osaka" struck through "Nara"), and a
+     long one would lie across its neighbour's dot — the same complaint
+     as the old giant halo, just one layer down.
+
+     Rule: every dot in view claims its own patch FIRST — a caption may
+     cover another caption, it may never cover a place you could have
+     clicked. Then names go out in priority order, each trying the right
+     of its dot and then the left (Osaka's name reaches straight across
+     Nara's dot, and flipping it is how they both stay named). A name
+     with nowhere clean to sit is simply not drawn: that place keeps its
+     dot, its tooltip and its click target, and gets its name back the
+     moment you hover it.
+
+     Boxes are ESTIMATED from the character count, never measured:
+     getBBox() on a few hundred <text> nodes would force a layout flush
+     on every tween frame — exactly the thrash this engine exists to
+     avoid — and an estimate is plenty to spot an overlap. */
+  _placeLabels(fs, r, inView) {
+    const boxes = inView.map(({ p }) => ({
+      x0: p._pt.x - r, y0: p._pt.y - r, x1: p._pt.x + r, y1: p._pt.y + r,
+    }));
+    const hits = (a, b) => a.x0 < b.x1 && b.x0 < a.x1 && a.y0 < b.y1 && b.y0 < a.y1;
+    const gap = r * 1.8;
+    let placed = 0;
+    for (const d of inView) {
+      const { x, y } = d.p._pt;
+      const y0 = y - fs * 0.62, y1 = y + fs * 0.42;
+      const w = ([...d.label.textContent].length + 1) * fs * 0.58;
+      let box = null;
+      if (placed < LABEL_CAP) {
+        for (const side of [1, -1]) {
+          const cand = side > 0
+            ? { x0: x + gap, y0, x1: x + gap + w, y1 }
+            : { x0: x - gap - w, y0, x1: x - gap, y1 };
+          if (boxes.some(b => hits(cand, b))) continue;
+          box = cand;
+          d.label.setAttribute('dx', side * gap);
+          d.label.setAttribute('text-anchor', side > 0 ? 'start' : 'end');
+          break;
+        }
+      }
+      if (box) { boxes.push(box); placed++; }
+      else {
+        // back to the right of the dot, so a hover-revealed name is sane
+        d.label.setAttribute('dx', gap);
+        d.label.setAttribute('text-anchor', 'start');
+      }
+      d.labelHidden = !box;
+      d.label.style.display = box ? '' : 'none';
     }
   }
 
@@ -367,7 +590,10 @@ export class WorldMap {
     this._glide(x - w / 2, y - h / 2, w, ms);
   }
 
-  setMode(m) { this.mode = m; }
+  setMode(m) {
+    this.mode = m;
+    this.container.classList.toggle('wmap-pick', m === 'pick');
+  }
 
   /* Fly to fit a set of places (padded). forceCity guarantees landing
      past the country→city threshold (used by country-node clicks). */
@@ -407,17 +633,74 @@ export class WorldMap {
     };
   }
 
+  /* The exact inverse — where a map point is on screen right now. Shaped
+     like a pointer event so anything taking one (_tipMove) takes this. */
+  _mapToClient(x, y) {
+    const r = this.svg.getBoundingClientRect();
+    const scale = Math.min(r.width / this.vb.w, r.height / this.vb.h);
+    const ox = (r.width - this.vb.w * scale) / 2;
+    const oy = (r.height - this.vb.h * scale) / 2;
+    return {
+      clientX: r.left + ox + (x - this.vb.x) * scale,
+      clientY: r.top + oy + (y - this.vb.y) * scale,
+    };
+  }
+
+  /* Zoom to `w` map units wide, keeping the map point `anchor` under the
+     screen fraction `fx,fy` of the viewBox. Wheel, pinch and the +/-
+     keys are all this, differing only in where they anchor. */
+  _zoomTo(w, anchor, fx, fy) {
+    w = Math.min(MAP_W, Math.max(MAP_W / K_MAX, w));
+    const h = w * (MAP_H / MAP_W);
+    if (this._anim) { cancelAnimationFrame(this._anim); this._anim = null; }
+    this._setVb(anchor.x - fx * w, anchor.y - fy * h, w, h);
+  }
+
+  /* The same zoom, anchored on a client point (cursor, pinch midpoint). */
+  _zoomAt(w, ev) {
+    const pt = this._clientToMap(ev);
+    this._zoomTo(w, pt, (pt.x - this.vb.x) / this.vb.w, (pt.y - this.vb.y) / this.vb.h);
+  }
+
   _bind() {
     const c = this.container;
     let drag = null, moved = false;
+    /* Live pointers, by id. One is a drag; two are a pinch. Touch was
+       pan-only before this — `wheel` never fires from fingers, so a
+       phone could reach the country nodes and no further. */
+    const pts = new Map();
+    let pinch = null;
+    const mid = () => {
+      const [a, b] = [...pts.values()];
+      return { clientX: (a.x + b.x) / 2, clientY: (a.y + b.y) / 2,
+               d: Math.hypot(a.x - b.x, a.y - b.y) };
+    };
 
     c.addEventListener('pointerdown', ev => {
-      if (ev.button !== 0) return;
-      drag = { px: ev.clientX, py: ev.clientY, vb: { ...this.vb } };
-      moved = false;
+      if (ev.pointerType === 'mouse' && ev.button !== 0) return;
+      pts.set(ev.pointerId, { x: ev.clientX, y: ev.clientY });
       try { c.setPointerCapture(ev.pointerId); } catch { /* synthetic events */ }
+      if (pts.size === 2) {
+        // grab the map point under the midpoint and hold it there
+        const m = mid();
+        pinch = { d: m.d, w: this.vb.w, at: this._clientToMap(m) };
+        drag = null;
+        moved = true;                       // a pinch is never a click
+      } else if (pts.size === 1) {
+        drag = { px: ev.clientX, py: ev.clientY, vb: { ...this.vb } };
+        moved = false;
+      }
     });
     c.addEventListener('pointermove', ev => {
+      if (pts.has(ev.pointerId)) pts.set(ev.pointerId, { x: ev.clientX, y: ev.clientY });
+      if (pinch && pts.size >= 2) {
+        const m = mid();
+        if (m.d < 8 || pinch.d < 8) return;          // fingers too close to divide
+        const cur = this._clientToMap(m);
+        this._zoomTo(pinch.w * (pinch.d / m.d), pinch.at,
+          (cur.x - this.vb.x) / this.vb.w, (cur.y - this.vb.y) / this.vb.h);
+        return;
+      }
       if (drag) {
         const r = this.svg.getBoundingClientRect();
         const scale = Math.min(r.width / this.vb.w, r.height / this.vb.h);
@@ -432,25 +715,30 @@ export class WorldMap {
         this._hover(ev);
       }
     });
-    const endDrag = ev => {
-      if (drag && !moved) this._click(ev);
-      drag = null;
+    const lift = ev => {
+      const wasClick = drag && !moved;
+      pts.delete(ev.pointerId);
+      if (pinch && pts.size < 2) {
+        pinch = null;
+        // one finger left: re-seat the drag under it, or the map jumps
+        const [rest] = [...pts.values()];
+        drag = rest ? { px: rest.x, py: rest.y, vb: { ...this.vb } } : null;
+      } else if (pts.size === 0) {
+        if (wasClick) this._click(ev);
+        drag = null;
+      }
     };
-    c.addEventListener('pointerup', endDrag);
-    c.addEventListener('pointercancel', () => { drag = null; });
+    c.addEventListener('pointerup', lift);
+    c.addEventListener('pointercancel', ev => {
+      pts.delete(ev.pointerId);
+      if (pts.size < 2) pinch = null;
+      if (pts.size === 0) drag = null;
+    });
     c.addEventListener('pointerleave', () => { this._tipHide(); this._setHot(null); });
 
     c.addEventListener('wheel', ev => {
       ev.preventDefault();
-      const pt = this._clientToMap(ev);
-      const factor = ev.deltaY < 0 ? 0.82 : 1.22;
-      let w = this.vb.w * factor;
-      w = Math.min(MAP_W, Math.max(MAP_W / K_MAX, w));
-      const fx = (pt.x - this.vb.x) / this.vb.w;
-      const fy = (pt.y - this.vb.y) / this.vb.h;
-      const h = w * (MAP_H / MAP_W);
-      if (this._anim) { cancelAnimationFrame(this._anim); this._anim = null; }
-      this._setVb(pt.x - fx * w, pt.y - fy * h, w, h);
+      this._zoomAt(this.vb.w * (ev.deltaY < 0 ? 0.82 : 1.22), ev);
     }, { passive: false });
 
     c.addEventListener('dblclick', ev => {
@@ -459,6 +747,84 @@ export class WorldMap {
       const h = w * (MAP_H / MAP_W);
       this._glide(pt.x - w / 2, pt.y - h / 2, w, 420);
     });
+
+    c.addEventListener('keydown', ev => this._key(ev));
+    c.addEventListener('blur', () => { this._tipHide(); this._setHot(null); });
+  }
+
+  /* Keyboard parity. Arrows pan, +/- zoom on the centre, 0 goes home,
+     n/p walk the places in view (reusing the very same highlight the
+     cursor drives, so what you hear is what a click would take), Enter
+     opens the highlighted one. */
+  _key(ev) {
+    const pan = (dx, dy) => {
+      if (this._anim) { cancelAnimationFrame(this._anim); this._anim = null; }
+      this._setVb(this.vb.x + this.vb.w * PAN_STEP * dx,
+        this.vb.y + this.vb.h * PAN_STEP * dy, this.vb.w, this.vb.h);
+    };
+    const zoom = f => this._zoomTo(this.vb.w * f,
+      { x: this.vb.x + this.vb.w / 2, y: this.vb.y + this.vb.h / 2 }, 0.5, 0.5);
+
+    switch (ev.key) {
+      case 'ArrowLeft': pan(-1, 0); break;
+      case 'ArrowRight': pan(1, 0); break;
+      case 'ArrowUp': pan(0, -1); break;
+      case 'ArrowDown': pan(0, 1); break;
+      case '+': case '=': zoom(0.7); break;
+      case '-': case '_': zoom(1 / 0.7); break;
+      case '0': this.reset(); break;
+      case 'n': case 'N': this._step(1); break;
+      case 'p': case 'P': this._step(-1); break;
+      case 'Enter': case ' ': {
+        ev.preventDefault();                 // Space scrolls the page otherwise
+        if (this.mode === 'pick') {
+          // the crosshair is the middle of the view: pan it onto your
+          // guess, then commit. Same contract as a click.
+          const { lat, lng } = unproject(this.vb.x + this.vb.w / 2, this.vb.y + this.vb.h / 2);
+          if (Math.abs(lat) <= 90 && Math.abs(lng) <= 180) this.opts.onPick?.({ lat, lng });
+          return;
+        }
+        const hot = this._hot;
+        if (!hot) return;
+        if (hot.p) this.opts.onPlaceClick?.(hot.p);
+        else if (hot.country) {
+          this.opts.onCountryClick?.(hot.country, hot.list);
+          this.flyToPlaces(hot.list, 700, true);
+        }
+        return;
+      }
+      case 'Escape': this._setHot(null, true); this._tipHide(); return;
+      default: return;
+    }
+    ev.preventDefault();
+  }
+
+  /* Step the highlight to the next/previous marker in view — city dots
+     when we're zoomed in, country nodes when we're not. Ordered by
+     position (top-left to bottom-right) rather than by the label
+     priority the array is sorted in, because "next" should mean the
+     next one across the screen. */
+  _step(dir) {
+    const order = (a, b) => (a.cy ?? a.p._pt.y) - (b.cy ?? b.p._pt.y)
+      || (a.cx ?? a.p._pt.x) - (b.cx ?? b.p._pt.x);
+    const list = this.k >= COUNTRY_K
+      ? this._inView().sort(order)
+      : (this._countryNodes || []).slice().sort(order);
+    if (!list.length) return;
+    const at = list.indexOf(this._hot);
+    // nothing highlighted yet: n starts at the top-left, p at the end
+    const next = at < 0
+      ? list[dir > 0 ? 0 : list.length - 1]
+      : list[(at + dir + list.length) % list.length];
+    this._setHot(next, true);
+    const x = next.cx ?? next.p._pt.x, y = next.cy ?? next.p._pt.y;
+    this._tipShow(this._mapToClient(x, y), this._tipFor(next), { x, y });
+    /* Nudge the camera only if the target sits outside the real viewBox
+       — _inView is padded, so "in view" can still mean just off-screen. */
+    const { vb } = this;
+    if (x < vb.x || x > vb.x + vb.w || y < vb.y || y > vb.y + vb.h) {
+      this._glide(x - vb.w / 2, y - vb.h / 2, vb.w, 300);
+    }
   }
 
   /* The city dot whose centre is nearest `pt`, within the tap radius.
@@ -511,14 +877,63 @@ export class WorldMap {
      more: the dot under the cursor and the dot that owns the click are
      different elements inside a cluster, and highlighting the wrong one
      is worse than highlighting none. */
-  _setHot(hit) {
+  _setHot(hit, say = false) {
     if (this._hot === hit) return;
-    this._hot?.g.classList.remove('wm-hot');
+    if (this._hot) {
+      this._hot.g.classList.remove('wm-hot');
+      // a caption _placeLabels dropped goes back into hiding on the way out
+      if (this._hot.labelHidden) this._hot.label.style.display = 'none';
+    }
     this._hot = hit || null;
     if (hit) {
       hit.g.classList.add('wm-hot');
+      // whatever the cursor owns is named, decluttered or not
+      if (this._showLabels && hit.label) hit.label.style.display = '';
       hit.g.parentNode.appendChild(hit.g);   // re-append = drawn last = on top
     }
+    /* Only the keyboard walk speaks. A live region that fired on every
+       pointermove would narrate the whole map at anyone who happens to
+       run a screen reader with a mouse in hand. */
+    if (say) this.live.textContent = hit ? this._sayText(hit) : '';
+  }
+
+  /* What the highlight is, in words. The flags are emoji in the tooltip,
+     which a screen reader would read as "large red circle". */
+  _sayText(hit) {
+    if (hit.p) {
+      const f = hit.p._flags || {};
+      const bits = [f.live && 'live cam', f.window && 'window view',
+        f.walk && 'walking tour', f.monuments && 'monuments'].filter(Boolean);
+      return `${hit.p.name}, ${hit.p.country}${bits.length ? `. ${bits.join(', ')}` : ''}`;
+    }
+    return `${hit.country}, ${hit.list.length} place${hit.list.length === 1 ? '' : 's'}`;
+  }
+
+  /* Tooltip copy for a marker, shared by hover and the keyboard walk. */
+  _tipFor(hit) {
+    if (hit.p) {
+      const f = hit.p._flags || {};
+      const tags = [f.live && '🔴', f.window && '🪟', f.walk && '🚶', f.monuments && '🏛️']
+        .filter(Boolean).join(' ');
+      return `${hit.p.emoji || '📍'} <b>${hit.p.name}</b> · ${hit.p.country}`
+        + (tags ? ` &nbsp;${tags}` : '');
+    }
+    // one-place countries get named outright — a bare "Chile · 1 place"
+    // node sitting on Easter Island looks like a bug
+    return hit.list.length === 1
+      ? `${hit.list[0].emoji || '📍'} <b>${hit.list[0].name}</b> · ${hit.country} — click to explore`
+      : `<b>${hit.country}</b> · ${hit.list.length} places — click to explore`;
+  }
+
+  /* Which country that land belongs to, and what we have there. Once
+     you're past COUNTRY_K the gold nodes are gone and the coastline is
+     the only clue left — fine over Italy, useless over the Balkans. */
+  _landTip(raw) {
+    const name = LAND_ALIAS[raw] || raw;
+    const list = this._byCountry?.get(name);
+    if (!list) return `<b>${name}</b>`;
+    const flag = list[0].country_flag || '';
+    return `${flag} <b>${name}</b> · ${list.length} place${list.length === 1 ? '' : 's'}`.trim();
   }
 
   _click(ev) {
@@ -541,35 +956,40 @@ export class WorldMap {
   _hover(ev) {
     const t = this._pickTarget(ev);
     this._setHot(t.type === 'city' ? t.dot : t.type === 'country' ? t.node : null);
-    if (t.type === 'city') {
-      const f = t.place._flags || {};
-      const tags = [f.live && '🔴', f.window && '🪟', f.walk && '🚶', f.monuments && '🏛️'].filter(Boolean).join(' ');
-      this._tipShow(ev, `${t.place.emoji || '📍'} <b>${t.place.name}</b> · ${t.place.country}${tags ? ` &nbsp;${tags}` : ''}`);
-      this.container.style.cursor = 'pointer';
-    } else if (t.type === 'country') {
-      // one-place countries get named outright — a bare "Chile · 1
-      // place" node sitting on Easter Island looks like a bug
-      const tip = t.list.length === 1
-        ? `${t.list[0].emoji || '📍'} <b>${t.list[0].name}</b> · ${t.country} — click to explore`
-        : `<b>${t.country}</b> · ${t.list.length} places — click to explore`;
-      this._tipShow(ev, tip);
+    if (t.type === 'city' || t.type === 'country') {
+      this._tipShow(ev, this._tipFor(t.type === 'city' ? t.dot : t.node));
       this.container.style.cursor = 'pointer';
     } else if (this.mode === 'pick') {
+      // NEVER name the land here: the whole game is not knowing where
+      // you are. This branch sits above the land one for that reason.
       this.container.style.cursor = 'crosshair';
       this._tipHide();
+    } else if (t.type === 'land' && this.k >= COUNTRY_K) {
+      this._tipShow(ev, this._landTip(t.name));
+      this.container.style.cursor = 'grab';
     } else {
       this.container.style.cursor = 'grab';
       this._tipHide();
     }
   }
 
-  _tipShow(ev, html) {
-    const r = this.container.getBoundingClientRect();
+  /* Show the tooltip against a client point. `pin` (map coords) makes it
+     STICK to that spot on the map instead: the keyboard walk names a
+     marker that may still be gliding into view, and a tip parked at the
+     coords it had when the glide started would spend it in the wrong
+     place. Pinned tips are re-seated from _applyZoomStyling, i.e. once a
+     frame, but only while one is up. */
+  _tipShow(ev, html, pin = null) {
     this.tip.innerHTML = html;
     this.tip.style.display = 'block';
+    this._tipPin = pin;
+    this._tipMove(ev);
+  }
+  _tipMove(ev) {
+    const r = this.container.getBoundingClientRect();
     const x = Math.min(ev.clientX - r.left + 14, r.width - 220);
     const y = Math.max(ev.clientY - r.top - 34, 8);
     this.tip.style.transform = `translate(${x}px, ${y}px)`;
   }
-  _tipHide() { this.tip.style.display = 'none'; }
+  _tipHide() { this.tip.style.display = 'none'; this._tipPin = null; }
 }
