@@ -147,9 +147,10 @@ bounding-box camera fits**:
   it glides *into that country* — deterministic, never into the ocean.
 - Zoomed in, real **city dots** appear (red = live cam, green = has walk), labels
   fade in deeper. Click a dot → arrive.
-- Pan = drag, zoom = wheel-toward-cursor / buttons / double-click; all camera moves
-  are one rAF viewBox tween. Software-rendering safe: flat fills, non-scaling
-  strokes, no filters, no infinite animations.
+- Pan = drag or arrow keys, zoom = wheel-toward-cursor / two-finger pinch /
+  buttons / `+`/`−` / double-click; all camera moves are one rAF viewBox tween.
+  Software-rendering safe: flat fills, non-scaling strokes, no filters, and
+  exactly one infinite animation (the live-cam pulse, fenced in — see below).
 - The same engine runs the City Guesser in `pick` mode — clicks return exact
   lat/lng through the projection inverse.
 
@@ -170,6 +171,87 @@ zooming in to separate a cluster made aiming **harder**. Two changes:
 - `.wm-hot` — not CSS `:hover` — highlights the marker, driven by the *same*
   hit test. The highlighted dot is therefore always the one a click would take,
   which `:hover` could not promise inside a tight cluster.
+
+**Labels are label-sized too (2026-07).** Same bug one layer up, and it survived
+that pass. A city name is drawn with a dark outline so it reads over land — a
+`stroke` on the `<text>`, and a stroke lives in **map units**. The font-size was
+divided by the zoom; the 2.5 stroke-width was not. So zooming into Japan grew
+each name's outline to a ~60 px black slab that swallowed Tokyo, Osaka and Kyoto
+whole. (They stayed clickable the entire time — hit testing is geometric — you
+just couldn't see what you were aiming at.) `HALO_PX = 2.5` is now re-pinned
+through `_u` every zoom, exactly like `DOT_PX` and `HIT_PX`.
+
+With the slabs gone the plain text still collided, so `_placeLabels()` decides
+each frame which names get printed:
+
+- every dot in view claims its patch **first** — a caption may cover another
+  caption, never a place you could have clicked;
+- names go out in a fixed priority order (`famous` outranks `hidden`, then scene
+  count, then id — global and stable, so panning can't make two neighbours swap
+  captions frame by frame), each trying the right of its dot and then the **left**
+  (that flip is what keeps Osaka *and* Nara named, 14 px apart);
+- a name with nowhere clean to sit isn't drawn. Its dot, tooltip and click target
+  stay, and hovering gives the name back.
+
+Boxes are estimated from the character count, never measured — `getBBox()` on a
+few hundred `<text>` nodes would force a layout flush on every tween frame, the
+exact thrash this engine exists to avoid. Measured cost of the whole pass in the
+worst view we ship (117 places on screen over Europe): **~0.8 ms**.
+
+**Per-frame work is bounded by the viewport (2026-07).** `_applyZoomStyling()`
+runs on every frame of every tween, and it used to write four attributes to all
+377 dots — to resize the ~340 the camera had clipped away. It now walks
+`_inView()` instead: the dots inside the viewBox plus 15 %.
+
+That turned out to be a correctness rule, not just a saving. A marker you stop
+restyling keeps the size it last had, **in map units** — and a dot sized for the
+world view is ~3 units across, which at k = 40 is a 200 px disc. Tokyo, sitting
+just past the top edge, painted a red blob over the Kanto coast; a stale caption
+would have bled its halo in the same way. So markers are **born parked**
+(`display: none`) and mounted only while the camera contains them. Off-screen
+means not drawn, so no off-screen size can leak in.
+
+Measured on this machine, restyle + forced style/layout flush per frame:
+
+| view | places mounted | viewport-bounded | whole atlas |
+|---|---|---|---|
+| Europe, k≈7.7 | 110 / 377 | **3.2 ms** | 6.6 ms |
+| Japan, k≈25 | 5 / 377 | **0.4 ms** | 7.2 ms |
+
+The win grows with zoom, which is where the tweens actually live.
+
+**A live cam should look alive (2026-07).** `🔴 streaming right now` is the thing
+this atlas has that an atlas doesn't, and it was rendering as one more coloured
+dot. Live dots now carry a slow pulse ring (2.4 s, staggered by a negative
+`animation-delay` so a cluster shimmers rather than blinks in unison). It is the
+engine's *only* infinite animation, so it is fenced in accordingly: mounted only
+on live dots **currently in view**, dropped entirely under
+`prefers-reduced-motion: reduce` — re-checked live, since that preference can be
+toggled mid-session — and drawn in its own layer beneath the dots, because
+`_setHot()` re-appends a city group to raise it and a re-append restarts a CSS
+animation (the ring would visibly stutter every time the cursor passed).
+
+**Keyboard and touch parity (2026-07).** The map was pointer-only. Two gaps:
+
+- **Touch could pan but never zoom.** Only `wheel` was bound, and fingers don't
+  emit one, so a phone could reach the country nodes and go no further. Pointer
+  events are now tracked in a map: one is a drag, two are a pinch, and lifting one
+  finger re-seats the drag under the survivor instead of jumping.
+- **The keyboard could do nothing at all.** The container is now focusable with
+  `role="application"` (so a screen reader doesn't swallow the arrows for its own
+  cursor): arrows pan, `+`/`−` zoom, `0` goes home, `n`/`p` walk the places in
+  view, `Enter` opens the highlighted one — or, in the Guesser, drops the guess at
+  the centre crosshair. The walk drives the *same* `.wm-hot` highlight the cursor
+  does, so what a screen reader announces through the `aria-live` region is always
+  what `Enter` would take.
+
+**Country names in city mode (2026-07).** Past `COUNTRY_K` the gold nodes are
+gone and the coastline is the only clue left — fine over Italy, useless over the
+Balkans. Hovering land now names the country and how many places we hold there.
+Natural Earth spells four of them differently from our data (`LAND_ALIAS`); four
+more have no polygon at this resolution and simply never match. In `pick` mode
+this is deliberately **off** — naming the land is the one thing the City Guesser
+must never do.
 
 ### Scene resolution (`js/lib/media.js`)
 

@@ -51,6 +51,14 @@
   display: inline-block; width: 9px; height: 9px; border-radius: 50%;
   margin-right: 6px; vertical-align: 0;
 }
+/* The map is fully keyboard-drivable, which is worth saying out loud —
+   nobody guesses that n/p walks the places in view. */
+.map-legend kbd {
+  display: inline-block; padding: 1px 5px; margin: 0 1px;
+  border: 1px solid var(--line-hard); border-radius: 5px;
+  background: rgba(255, 255, 255, 0.04);
+  font: 500 11px/1.5 'Inter', sans-serif; color: var(--ink);
+}
 
 /* ---------------- curated routes band ---------------- */
 .trips-band { margin-top: 8px; }

@@ -1,7 +1,9 @@
 /* ============================================================
    WORLDMAP — styles for the SVG map engine (js/worldmap.js).
    Software-rendering safe: flat fills, non-scaling strokes,
-   no filters/shadows/infinite animations.
+   no filters, no shadows. Exactly ONE infinite animation, the
+   live-cam pulse, and worldmap.js mounts it only on the handful
+   of live dots currently on screen (see _pulses there).
    ============================================================ */
 
 .wmap {
@@ -15,6 +17,30 @@
 }
 .wmap:active { cursor: grabbing; }
 .wmap svg { display: block; width: 100%; height: 100%; }
+
+/* The map is focusable and fully keyboard-drivable (arrows pan, +/- zoom,
+   n/p walk the places in view), so it has to SHOW that it has focus. */
+.wmap:focus { outline: none; }
+.wmap:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+
+/* Where a keyboard guess lands in the City Guesser: dead centre. Only
+   drawn for keyboard focus — a mouse player aims with the cursor and a
+   permanent crosshair would just look like someone else's pin. */
+.wmap-pick:focus-visible::after {
+  content: '';
+  position: absolute; left: 50%; top: 50%;
+  width: 26px; height: 26px; margin: -13px 0 0 -13px;
+  border: 1.5px solid rgba(255, 90, 90, 0.9); border-radius: 50%;
+  pointer-events: none;
+}
+
+/* The aria-live region worldmap.js narrates the keyboard walk into.
+   Off-screen, not display:none — a hidden region is never announced. */
+.wmap-sr {
+  position: absolute; width: 1px; height: 1px;
+  margin: -1px; padding: 0; overflow: hidden;
+  clip-path: inset(50%); white-space: nowrap; border: 0;
+}
 
 /* land */
 .wmap-land path {
@@ -64,9 +90,42 @@
   fill: #fff; stroke: #0a0d14; stroke-width: 3px;
 }
 .wmap-city.wm-hot .city-label { fill: #fff; }
+/* The dark outline that keeps a name readable over land. stroke-width
+   here is only the pre-zoom starting value: it is measured in MAP units,
+   so worldmap.js re-pins it in screen pixels on every zoom (HALO_PX).
+   Left to this fixed 2.5 it grew with the camera and printed a ~60px
+   black slab over every neighbouring city once you reached Japan. */
 .city-label {
   fill: #c7cddf; font-family: 'Inter', sans-serif; font-weight: 500;
   paint-order: stroke; stroke: rgba(7, 10, 18, 0.85); stroke-width: 2.5px;
+}
+
+/* ---- live-cam pulse ----
+   A camera that is streaming RIGHT NOW is what this atlas has that an
+   atlas doesn't, and it was reading as one more coloured dot. The ring
+   lives in its own layer UNDER the dots (worldmap.js: gPulse), because
+   the hover highlight re-appends a city group to raise it and that
+   restart would visibly stutter the animation every time the cursor
+   passed by. Scale, not `r`: a CSS `r` would override the attribute
+   worldmap.js writes to keep the ring pinned to 4 screen px at any zoom. */
+.wmap-pulse { pointer-events: none; display: none; }
+.wmap-citymode .wmap-pulse { display: block; }
+.dot-pulse {
+  fill: none; stroke: #ff5a5a; stroke-width: 1.5px;
+  vector-effect: non-scaling-stroke;
+  opacity: 0;                       /* invisible until worldmap.js says .on */
+  transform-box: fill-box; transform-origin: center;
+}
+.dot-pulse.on { animation: wm-pulse 2.4s ease-out infinite; }
+@keyframes wm-pulse {
+  0%   { transform: scale(1);   opacity: 0.6; }
+  70%  { transform: scale(3.6); opacity: 0; }
+  100% { transform: scale(3.6); opacity: 0; }
+}
+/* worldmap.js already declines to mount these under reduced motion; this
+   is the same promise kept if the preference flips mid-animation. */
+@media (prefers-reduced-motion: reduce) {
+  .dot-pulse.on { animation: none; opacity: 0; }
 }
 
 /* ---- pins & route lines (guesser, journeys) ---- */
