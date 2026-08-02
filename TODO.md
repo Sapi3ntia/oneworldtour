@@ -38,13 +38,17 @@ The architecture itself is documented in [`README.md`](README.md).
 - **Review auto-picks.** `media.json` quality is good but not curated-good; promote
   great finds into the region JSON (`walk`/`webcam`/`window`) and they become
   permanent.
-- **More monuments** — **188 of 375 places (50%) now have them**, up from 30 (8%)
-  before the 2026-07-18 sweep: `tools/enrich_monuments.py` added 276 tabs, almost
-  all 2160p. Remaining gaps are mostly small towns and nature sites where there is
-  no monument to shoot. Re-run with `--per-city 3` to deepen the marquee cities
-  rather than widen coverage. Note the tool now enforces `MIN_HEIGHT = 720` and
-  records each pick's `height`, so a future pass can audit by quality — the
-  pre-floor picks have no height recorded and would need re-querying to check.
+- **More monuments** — **301 of 507 places (59%) now have them**, up from 30 (8%)
+  before the 2026-07-18 sweep: 633 auto + 48 curated tabs, almost all 2160p.
+  Remaining gaps are mostly small towns and nature sites where there is no
+  monument to shoot. Re-run with `--per-city 3` to deepen the marquee cities
+  rather than widen coverage — but **run `prune_monuments.py` dry straight
+  afterwards**, because the highlight-as-search-term fault (see 2026-08-02 below)
+  will resurface in any region whose highlights name people, dishes or dynasties.
+  Each pick stores its `height` and, since 2026-08-02, its `title`, so a future
+  pass can audit the whole set for quality *and* honesty with no network. The
+  pre-2026-08-02 picks that survived the backfill all have both; anything written
+  before the `MIN_HEIGHT = 720` floor has no height and would need re-querying.
 - **Author `highlights`/`blurb`** for content-thin new countries.
 - **More places for thin routes.** The 13 that were blocking trips are now in
   (2026-07-18) — see "Recently landed". Remaining candidates, in rough order of
@@ -60,7 +64,7 @@ The architecture itself is documented in [`README.md`](README.md).
 - **Day/night terminator** on the SVG map (v1 had one on Leaflet) — project the
   solar terminator as a translucent SVG path; cheap math, nice "alive" signal.
 - **Fly the Tour** — the *animated* half of v1's trip planner: a plane gliding
-  leg by leg along the route. 🧭 **Trips shipped** (`data/trips.json`, 15 curated
+  leg by leg along the route. 🧭 **Trips shipped** (`data/trips.json`, 18 curated
   routes drawn with `drawLine` + numbered `addStop` markers), so the data and the
   map work are done; what's left is the animation — a dot interpolated along each
   leg (`geo.interpolate` already exists) with the stop list scrolling to follow.
@@ -223,8 +227,8 @@ dropped in v2 — resurrect from git if missed); satellite descend-from-orbit.
   honest gaps now. `prune_media.py` reports **0 drops** and the whole corpus
   passes.
 
-  All of it is frozen in **`tools/test_vetting.py`** — 44 cases, no network, run
-  it in a second. Every `want=False` is a scene that actually shipped; every
+  All of it is frozen in **`tools/test_vetting.py`** — 44 cases then, no network,
+  run it in a second. Every `want=False` is a scene that actually shipped; every
   `want=True` is honest footage some rule refused until it was loosened
   correctly. Run it after touching any regex in `enrich_media.py`, because the
   rules only ever get stricter and each tightening is one character away from
@@ -232,96 +236,50 @@ dropped in v2 — resurrect from git if missed); satellite descend-from-orbit.
   it settled — `Kauaʻi`, `SedonaLiveCam.com`, Malta's "chilling by night", and a
   Hukou drive that merely starts downtown).
 
-- **🏛️ The monument pass ran, and 69 of its tabs were not monuments (2026-08-02):**
-  `enrich_monuments.py --per-city 3` finished over all 118 China places and added
-  337 tabs in ~45 min. Reviewing them found the run had been spending highlights
-  that name no object at all, because `candidate_landmarks()` searches every
-  `highlight` and the China highlights are written for the *blurbs* — they carry
-  people, dishes, dynasties, ethnic groups and species next to the buildings.
-  Each of those categories shipped a specific lie:
+- **🏛️ 337 monument tabs for China, 73 of which were not monuments (2026-08-02):**
+  `enrich_monuments.py` swept all 118 China places, and reviewing the result found
+  a systemic fault rather than a few bad videos. `candidate_landmarks()` spends
+  every `highlight` as a search term, but highlights are written for the *blurbs*,
+  so the China ones carry people, dishes, dynasties, ethnic groups and species
+  beside the buildings — Foshan's "Ip Man" tab was the 2008 feature film, Haikou's
+  "Hainanese chicken rice" tab was a food walk in **Singapore**, Wudang's "Tai chi"
+  tab was a 40-minute workout, Langzhong's "Sichuan" tab was a different town
+  250 km away. `NOT_A_MONUMENT` now covers those categories, and a new
+  `is_a_region()` rejects any highlight naming a country, province or region,
+  filled from the corpus so it needs no per-country list. **73 tabs deleted:**
+  633 auto + 48 curated across 301 places.
 
-  | Tab | What it actually showed |
-  |---|---|
-  | foshan / Ip Man | `Ip Man (2008) — Foshan's masters challenge Jin [4k]`, a feature film |
-  | haikou / Hainanese chicken rice | a food walk in **Singapore** (Somerset → Tiong Bahru) |
-  | changchun / Manchukuo | `Manchukuo (1938)`, archival propaganda footage |
-  | wudang-shan / Tai chi | `40 MIN FULL BODY TAI CHI WARM-UP AND QI GONG PRACTICE` |
-  | urumqi / Uyghurs | a vlog episode about an ethnic group |
-  | nanchang / Siberian crane | a news package on a migration route |
-  | langzhong / Sichuan | Yuantong Market Town, a different town 250 km away |
-  | shenyang / Manchuria | the Changbai Mountains, ~300 km away |
+  Four durable lessons from it:
 
-  Fixed at the source rather than by hand. `NOT_A_MONUMENT` grew from four lines
-  to cover peoples, dishes, beliefs, eras, species, landform *classes* and trade
-  routes; a new `is_a_region()` rejects any highlight that names a country,
-  province or region, filled from the corpus itself so it needs no per-country
-  list. `BAD_MONU` now also catches `(YYYY)` film titles, `NN min` workouts, news
-  wires and compilations. **69 tabs deleted** (637 auto + 48 curated remain across
-  301 places), and `prune_monuments.py` now reports 0.
+  - **Monument tabs store their `title` now.** `find_monument()` always returned
+    one and the caller dropped it, so unlike a media seat a monument could not be
+    re-vetted offline — auditing this batch cost 637 network calls to learn what
+    had already shipped. `prune_monuments.py` is the monument counterpart to
+    `prune_media.py`, and its **name** rules run without a title because they are
+    the strong ones: a landmark that is a dish has no honest video *whatever the
+    search returned*.
+  - **Put the rule at the right layer, and prefer the narrow signal.** A bare
+    `\(\d{4}\)` is a terrible film detector — uploaders stamp the upload year in
+    parens constantly, and it killed Macau's "SENADO Square Walking Tour (2023)"
+    and Pyongyang's "INSIDE Ryugyong Hotel … (2021)". A film puts the year at the
+    *front*. A blanket *person* rule was the other tempting mistake: 6 of the 8
+    person-named tabs show a real site named after them (Lu Xun's native place,
+    Foshan's Yip-man museum, Tashilhunpo), so it would have traded six honest tabs
+    for one film. A *deity* rule is fair — Leshan's "Maitreya" was in Indonesia.
+  - **`region` being empty silently disables a guard.** Six US places (the Route
+    66 additions of 2026-07-18) had no `region`, and `wrong_place_title` compares
+    a title's state against it, so their own-state exemption was simply dead.
+  - **A one-token place name matches things that merely contain it.**
+    `mexico-city` reduces to `mexico` ("city" is generic), so *any* title with
+    **"New Mexico"** read as Mexico City, 1,600 km from Albuquerque. The guard is
+    asymmetric on purpose: "New Mexico" is not Mexico, but "New York" *is* New
+    York City (`new-york-city` reduces to `york`), so a place may be found inside
+    a `New <token>` phrase only when its own name starts with "New".
 
-  Two things this exposed that are worth keeping in mind. `find_monument()` has
-  returned a `title` all along and the caller **dropped it**, so unlike a media
-  seat a monument tab could not be re-vetted offline — the review had to re-fetch
-  from YouTube to learn what had shipped. It is stored now. And the name rules
-  are the strong ones: a landmark that is a dish or a province has no honest
-  video *whatever the search returns*, which is why they run before the title
-  rules and need no network.
-
-- **🔎 The title backfill ran, and the false positives were mine (2026-08-02):**
-  all 637 titles fetched and stored, 0 dead videos. The title rules then flagged
-  **10** — and only 3 were real. The other 7 were the new rules overreaching, and
-  each one is a lesson about where a rule belongs:
-
-  - **`\(\d{4}\)` anywhere is a terrible film detector.** Uploaders stamp the
-    upload year in parens constantly, so it killed Macau's "SENADO Square Walking
-    Tour (2023)" and Pyongyang's "INSIDE Ryugyong Hotel … (2021)", both perfect.
-    A film puts the year *at the front* — `^.{0,20}\(\d{4}\)` catches "Ip Man
-    (2008)" and nothing honest.
-  - **Rejecting people would have been worse than the disease.** Of the 8
-    person-named tabs, 6 show a real site named after them: Lu Xun's native
-    place, Foshan's Yip-man museum, Tashilhunpo. A blanket person rule trades
-    six honest tabs for one film. A *deity* rule is fair game though — Leshan's
-    "Maitreya" tab was Vihara Maitreya in **Indonesia**.
-  - **`episode`/`NN min`/`practice`/`scene` were all too broad** and are gone.
-
-  Chasing the last false positive found **two real bugs that predate all of this
-  and affected media seats too**:
-
-  1. **Six US places had an empty `region`** — the Route 66 additions from
-     2026-07-18 (Tulsa, Oklahoma City, Amarillo, Albuquerque, Flagstaff, Santa
-     Monica Pier). `wrong_place_title` compares a title's state against
-     `place["region"]`, so for those six the own-state exemption was simply dead.
-     Filled in.
-  2. **`mexico-city` reduces to the single token `mexico`** (because "city" is
-     generic), so *any* title containing **"New Mexico"** read as a video of
-     Mexico City, 1,600 km from Albuquerque. `wrong_place_title` already guarded
-     the country loop against the literal string "new mexico" — the place loop
-     one block earlier had the same bug and no guard. The fix has to stay
-     asymmetric: "New Mexico" is not Mexico, but "New York" *is* New York City
-     (`new-york-city` reduces to `york`), so a place may be found inside a
-     "New <token>" phrase only if its own name starts with "New". Six cases are
-     frozen in `test_vetting.py` (50 cases total now).
-
-  Also collapsed the five copies of the gazetteer-loading dance into
-  `em.register_place()`. It had been duplicated in `enrich_media`,
-  `enrich_monuments`, `prune_media`, `prune_monuments` and `test_vetting`, which
-  is exactly how `NEW_NAMED` would have ended up loaded in one of them and
-  silently missing from the other four.
-
-  **Final state: 4 more tabs dropped, 633 auto + 48 curated across 301 places.**
-  `prune_monuments.py` 0, `prune_media.py` 0, `test_vetting.py` 50/50,
-  `check_trips.py` 18 trips all resolving, every `data/*.json` valid.
-
-  Three traps, all still live. **Never run `enrich_monuments.py` while
-  `enrich_media.py` is running** — both rewrite whole JSON files, so the second
-  to finish wins and the other's work is gone. **`pgrep -f "tools/foo.py"` matches
-  the waiting shell's own command line**, so `until ! pgrep -f …` waits forever on
-  a process that exited an hour ago; wait on the PID with `kill -0 "$PID"`.
-  Redirected output block-buffers, so pass `PYTHONUNBUFFERED=1` or the log stays
-  empty for the whole run.
-
-  Everything from 2026-08-01/02 landed in one commit, deployed via the
-  git-connected Vercel project.
+  `test_vetting.py` is at **50 cases**. All five tools load the gazetteer through
+  `em.register_place()` instead of repeating the three-line dance — that
+  duplication is exactly how a new global like `NEW_NAMED` ends up loaded in one
+  caller and missing from four.
 
 - **🗺️ 13 places + the Gringo Trail (2026-07-18):** Cusco and Machu Picchu (Peru
   had only two `ancient.json` sites and no cities at all), Route 66's missing
