@@ -1,6 +1,6 @@
 # 🌍 One World Tour
 
-Step into 375 places across 94 countries — **walk their streets, drive their
+Step into 507 places across 94 countries — **walk their streets, drive their
 roads, watch their intersections live, look out their windows live**, tune into
 their radio, **watch their national TV live**, and read their news — all in-app,
 all real. Inspired by
@@ -79,7 +79,7 @@ windows, no frozen widgets posing as live cams.
 - **City Guesser** (`guess.html`) — dropped into a mystery scene (the walk video,
   title hidden), pin the world map, scored on great-circle distance, 5 rounds,
   spoiler-free emoji share.
-- **Trips** (`trips.html`, `trips.html?id=…`) — 16 curated routes people actually
+- **Trips** (`trips.html`, `trips.html?id=…`) — 18 curated routes people actually
   travel (the Euro Trip, Route 66, the Trans-Siberian, the Banana Pancake Trail…),
   each drawn on the world map as numbered stops, then listed stop by stop with a
   line on why that stop is on the route. See below.
@@ -117,7 +117,7 @@ oneworldtour/
 ├── data/
 │   ├── index.json         # region registry
 │   ├── trips.json         # 🧭 curated routes — ordered stop ids + editorial notes
-│   ├── <region>.json      # 361 places (curated walks/webcams/monuments live here)
+│   ├── <region>.json      # 493 places (curated walks/webcams/monuments live here)
 │   ├── wild.json          # 🦁 wildlife & national-park live cams as places
 │   ├── tv.json            # 📺 live national TV channels per country (verified live)
 │   ├── windy.json         # retired Windy index — kept as archive, not loaded
@@ -130,6 +130,8 @@ oneworldtour/
 │   ├── enrich_monuments.py# yt-dlp: auto-find + vet 🏛️ landmark tours     ★
 │   ├── build_monuments.py # hand-curated monument tabs (beats the above)
 │   ├── prune_media.py     # re-apply today's rules; drop picks that now fail
+│   ├── prune_monuments.py # the same, for 🏛️ tabs; --titles backfills them
+│   ├── test_vetting.py    # the bad picks, frozen — run after any rule edit  ★
 │   ├── check_trips.py     # every trip stop must resolve to a real place  ★
 │   └── (v1 data builders: fetch_windy.py etc.)
 └── api/
@@ -352,6 +354,44 @@ Guards keep the seats honest — each one was added after a real bad pick:
 | `re-?live` / `digest` / `tv\d` / `model rail` / `fr24` | streaming right now, and still not a view of the place: **"RE-LIVE Planespotting at Frankfurt Airport"** is genuinely live and genuinely a replay; TV7 is a Bordeaux television channel; the Oklahoma Model Railroad Association's PTZ cam is pointed at a model |
 | disaster words / `documentary` | a newsroom pointing a camera at a place is not that place's cam: **"France Wildfires LIVE \| Macron Declares Emergency! Giant Fire Threatens Bordeaux"** passed every earlier rule — it is live, and it does name Bordeaux. Same for a deep-ocean **documentary** looping as the Great Barrier Reef |
 | `feeds from … and more` | an open-ended list of places is a rotator no matter how few it names: "Ukraine LIVE HD Camera Feeds from Donetsk, Sumy, Kyiv, Kharkiv **and more**" is not Kyiv's cam |
+| **distinctive tokens only** | the big one from the 2026-08 China sweep. A title used to match a place on *any* word of its name longer than three letters — so **"Mount Athos Healing Prayer"** became **Mount Tai's** live cam, **"Driving Tour Along the Yellow River Highway"** became **Li River's** drive, and a **Hong Kong Island** drive became car-free **Lamma Island's**. Strip the short word and `mount`, `river` and `island` are all that is left of those names. Now only tokens outside `GENERIC_TOKENS` count, and a place with none has to be named in full — with the trailing feature noun optional, so "Driving Through Ha Long" still counts for **Ha Long Bay** |
+| Canadian provinces | the US-abbreviation rule's mirror: **"Ross Bay, Victoria BC"** shipped as **Victoria Peak's** window. `ON` is deliberately *not* in the abbreviation list — ", on" is ordinary English in a way ", BC" never is |
+| lottery streams | a draw streams 24/7 and names its city, but it is a studio ticking numbers: **"LIVE DRAW TOTO MACAU"** as **Macau's** window |
+| `abandoned` / `urbex` | urbex is a subject, not a drive: **"Road Trip: Exploring abandoned mountainside CCP Buildings (Nanchang)"** as **Nanchang's** driving tour |
+| `music_loop_not_a_cam` | **"24/7 Chill Italian Vibes & Mediterranean Music 🎶 Scenic Amalfi Coast & Lake Como Relaxation 4K"** — two coastlines 700 km apart under a backing track — as the **Amalfi Coast's** live seat. A pair of conditions, not a word list: a music framing *and* no claim of a camera anywhere in the title, which is what lets "Hong Kong's ONLY 24/7 LIVE camera from The Peak with Relaxing Music BGM" through. "Chill" alone doesn't count either — it describes the scene as often as the soundtrack, as in **Malta's** real "LIVE 24/7: Malta Ship Spotting by day, chilling by night" |
+| `city_tour_of_the_wild` | a city tour standing in for somewhere it isn't — **Zhangye's streets** as the walk for **Zhangye Danxia**, the rainbow-striped landform park outside the city (Zhangye is the park's own first highlight, so the phrase matched), and **downtown Brantford** as **Brant Conservation Area's**. Only fires when the title never names the place itself, because plenty of `nature`/`mountain`/`desert` entries genuinely *are* towns ("Downtown SEDONA", "Flagstaff — 4K Downtown Drive") and plenty of honest drives merely start in one ("from Downtown Yan'An to China's Famous Hukou Waterfall") |
+
+A **landmark** may still anchor a title — a region entry has no other way in, since
+Catalonia can only ever be filmed as Barcelona and Cinque Terre as Vernazza — but
+the landmark now needs a distinctive token of its own. Wuzhen's first highlight is
+"Grand Canal", so `Grand Canal live webcam` returned a **Venice** hotel feed and
+the phrase matched it happily.
+
+That inheritance used to be the one hole left open, and it is now closed by
+`INHERITS_HIGHLIGHTS` — an explicit list of the places whose highlights lie
+*inside* them. It has to be explicit. Nothing in the data separates a container
+from a site: `type` calls both `catalonia` and `zhangye-danxia` `nature`, and
+`region` is the administrative one, so the French Riviera's says
+"Provence-Alpes-Côte d'Azur". Until the list existed, every site quietly borrowed
+its neighbour's footage — Dunhuang's city drive as **Mogao Caves'**, Jiaxing's as
+**Xitang's**, Luoyang's as **Longmen Grottoes'**, a Lake Powell marina cam as
+**Antelope Canyon's**, a walk through Brantford as **Brant Conservation Area's**,
+and, five thousand kilometres out, *"Plaza de Armas de Querétaro en vivo"* as
+**Cusco's** live cam, on a plaza name half of Latin America shares.
+
+Adding an id to that list is a claim about geography, so leaving one out is the
+safe direction: it costs a scene, and a missing scene is an honest gap. Four
+picks that the rule would have cost were kept by naming them in `ALIASES`
+instead — each was anchored on a province ("Tibet", "Beijing", "Guizhou") that
+proves nothing, yet each title *does* name the place, just not the way the corpus
+spells it: `Nam co` for **Namtso**, `爨底下` for **Cuandixia**, `Fanjing` for
+**Fanjingshan**.
+
+One more matching bug fell out of that sweep, worth naming because it is
+invisible: a **possessive** apostrophe welds the `s` onto the word, so
+"Mallorca's Crazy Snake Road" searched for `mallorcas` and **Balearic Islands**
+lost a drive that is plainly Mallorca's. `Portugal's Coast` was hunting for
+`portugals` and had matched nothing by its own name since the day it was added.
 
 #### `data/media_denylist.json` — the reviewed rejections ★
 
@@ -378,6 +418,65 @@ all **178** surviving cams over the network — every one still live.
 python3 tools/prune_media.py                     # dry run, title rules only
 python3 tools/prune_media.py --apply --network   # also re-check is_live
 ```
+
+`prune_monuments.py` is the same idea for 🏛️ tabs, and it exists because the
+2026-08-01 China run shipped 69 that were not monuments. `candidate_landmarks()`
+searches every `highlight`, and highlights are written for the blurbs, so the
+China ones carried people, dishes, dynasties and species beside the buildings —
+Foshan's "Ip Man" tab was the 2008 feature film, Haikou's "Hainanese chicken
+rice" tab was a food walk in *Singapore*, Wudang's "Tai chi" tab was a 40-minute
+workout. `NOT_A_MONUMENT` now covers those categories, and `is_a_region()`
+rejects a highlight that names a country, province or region, filled from the
+corpus so it needs no per-country list.
+
+The name rules need no title and run first, because they are the strong ones: a
+landmark that is a dish or a province has no honest video *whatever the search
+returned*. The title rules need a `title` on the entry — `find_monument()` has
+always returned one and the caller used to drop it, which left the entire
+monument set unauditable offline. Tabs written before 2026-08-02 have none, so
+backfill once:
+
+```bash
+python3 tools/prune_monuments.py            # dry run; name rules work offline
+python3 tools/prune_monuments.py --titles   # fetch missing titles, ~2s each
+python3 tools/prune_monuments.py --apply
+```
+
+Two bugs in the shared wrong-place guard surfaced while auditing that batch, and
+both had been silently costing honest media picks too. `wrong_place_title`
+compares a title's US state against `place["region"]`, and six US places — the
+2026-07-18 Route 66 additions — had that field **empty**, so their own-state
+exemption never fired. And `mexico-city`'s distinctive tokens reduce to just
+`("mexico",)` because "city" is generic, so any title containing **"New Mexico"**
+was read as a video of Mexico City. That guard has to stay asymmetric: "New
+Mexico" is not Mexico, but "New York" *is* New York City, so a place may be
+matched inside a `New <token>` phrase only when its own name starts with "New".
+
+All five tools load the gazetteer through `em.register_place()` rather than
+repeating the three-line dance — the duplication is precisely how a new global
+like `NEW_NAMED` ends up loaded in one caller and missing from four.
+
+`test_vetting.py` freezes the whole argument. Every `want=False` case in it is a
+scene that actually shipped; every `want=True` case is honest footage that some
+rule refused until it was loosened correctly. The rules only ever get stricter,
+and each tightening is one character from killing good picks — the 2026-08 sweep
+took four rounds to settle, undone in turn by `Kauaʻi` (whose ʻokina splits the
+name), `SedonaLiveCam.com` (cam operators run words together), Malta's
+"chilling by night" (a real harbour camera, not a music loop) and a Hukou
+Waterfall drive that merely *starts* downtown. Run it after touching any regex:
+
+```bash
+python3 tools/test_vetting.py    # no network; exits 1 on any failure
+```
+
+Two operational traps, both of which cost time. `enrich_media.py` and
+`enrich_monuments.py` each rewrite `data/media.json` **whole**, so never run them
+concurrently — the second to finish wins and silently discards the other's work.
+And `pgrep -f "tools/enrich_media.py"` matches the *waiting shell's own command
+line*, so `until ! pgrep -f …; do sleep; done` waits forever on a process that
+exited an hour earlier. Wait on the pid: `until ! kill -0 "$PID"; do sleep 30;
+done`. Redirected output block-buffers too, so pass `PYTHONUNBUFFERED=1` or the
+log stays empty for the entire run.
 
 #### Why the cam seats stay empty ★
 
@@ -436,7 +535,7 @@ clobbering each other. Promote a good auto pick by moving it into that file's
 python3 tools/check_trips.py --scenes    # exits 1 if any stop is unknown
 ```
 
-`data/trips.json` holds 16 hand-ordered routes. A trip stores only **place ids**
+`data/trips.json` holds 18 hand-ordered routes. A trip stores only **place ids**
 plus a one-line note per stop, so it can never invent a destination — it can only
 point at somewhere the atlas already goes. `js/lib/trips.js` resolves those ids
 against the loaded places; a stop that doesn't resolve is dropped loudly to the
@@ -460,6 +559,37 @@ place into "stop 4 of 10" with prev/next along the route. Nothing is stored for
 that — the route lives in the URL, so a shared link drops someone into the same
 place on the same trip. A place that sits on a route but was reached directly
 still says so, which is how most people find the trips at all.
+
+### Filling a region out ★
+
+Two batches went in this way, and the rules they turned up apply to any new place.
+
+**The Grand River watershed** (`canada.json` 17 → 36). Every Grand River
+Conservation Area now exists as a place — Luther Marsh at the source down to Byng
+Island at Lake Erie — with facts taken from GRCA's own property pages, and
+**The Grand River Run** (`trips.json`) walks all 21 of them in river order, source
+to mouth, 274 km as the crow flies.
+
+**China** (`asia.json` 79 → 190). The six places we had were name-and-coordinate
+skeletons: empty `blurb`, empty `fun_fact`, empty `highlights`, null
+`hidden_gem_tip`. They're filled, and 111 more went in — the tier-one cities, the
+"new first-tier" ones, the tier-2 and tier-3/4 cities nobody outside China has
+heard of, the water towns, the Hui and Miao and Dong villages, the terraces, the
+big nature, the grottoes, Tibet, ten Hong Kong districts and outlying islands,
+and Macau. The Silk Road trip used to jump Samarkand straight to Xi'an because
+the whole Chinese corridor was missing; it now runs Kashgar → Turpan → Dunhuang →
+Mogao → Jiayuguan → Zhangye → Lanzhou, and **The Middle Kingdom Line** is the
+first-timer's rail route, Beijing round to Shanghai.
+
+| rule | why |
+| --- | --- |
+| coordinates from **Wikidata P625**, not an OSM administrative centroid | a Chinese prefecture-level city is a *region*. OSM's "Chongqing" node sits at 30.06N 107.87E, ~200 km out in the rural east; P625 puts it in Yuzhong, which is the city. Nominatim is for villages and scenic areas that Wikidata has no point for, and the matched object gets eyeballed |
+| every `wikipedia_slug` **checked live**, and stored as the article's *canonical* title | `arrivalPhoto()` queries pageimages without `redirects=1`, so a slug that is a redirect returns no thumbnail and the card silently degrades to its emoji. A redirect is not a broken link on Wikipedia but it is one here |
+| no article → point at the **containing** settlement or watercourse | GRCA owns properties Wikipedia has never heard of. Same precedent as `big-bear-eagles → Big_Bear_Lake,_California`. Never a namesake elsewhere: Wikipedia's "Pinehurst Lake" is in **Alberta**, so Ontario's kettle lake points at `County_of_Brant` |
+| `highlights` slugs get the same check | 15 of them pointed at articles that don't exist and 2 at the wrong subject ("Outlying Islands" redirects to a generic geography concept, not Hong Kong's district). 12 repointed, 5 dropped to plain text — the UI renders highlights as text chips anyway, so a name with no link costs nothing and a dead link is rot |
+| `sounds` must name one of the **six recipes** `soundscape.js` knows | `typeFor()` matches on keyword — arctic / wind / ocean-wave-tidal / waterfall / plaza-city / wilderness-forest. Any other filename silently falls through to wind, and nobody notices |
+| **city tiers live in the prose, hedged — never in a field** | there is no government tier list. The ranking is a Chinese business magazine's, revised yearly, and "new first-tier" is that magazine's coinage. A `tier: 1` key would read as official |
+| `region` is **user-visible** | `passport.js` prints it under the place name, so a municipality needs "Beijing Municipality" or the card reads "Beijing / Beijing" |
 
 ---
 

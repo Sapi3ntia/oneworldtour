@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-28T14:58:47+00:00",
+ "generated": "2026-08-02T02:28:58+00:00",
  "places": {
   "fez": {
    "walk": {
@@ -486,6 +486,11 @@
     "channel": "J Utah",
     "date": "20251116",
     "duration": 4149
+   },
+   "window": {
+    "yt": "DkmX5xQer1c",
+    "title": "24/7 HK Live - Hong Kong Aberdeen Harbour Live Camera - 香港市景即時影像 香港仔海峽 2026-08-01 13:56",
+    "verified": "2026-08-01"
    }
   },
   "taj-mahal-agra": {
@@ -735,11 +740,6 @@
    }
   },
   "cebu-city": {
-   "live": {
-    "yt": "z9O-XeUraDs",
-    "title": "🔴 PHILIPPINES Live camera Majah & Carolina street food sellers, Agdao, Davao City #philippines 2026-07-09 19:32",
-    "verified": "2026-07-09"
-   },
    "drive": {
     "yt": "w_3ESrIDIsE",
     "title": "Cebu City Driving Tour | Mactan, Mandaue, Cebu City | Passing CCLEX Bridge | 4K HDR | Philippines",
@@ -2744,11 +2744,11 @@
     "duration": 1188
    },
    "drive": {
-    "yt": "xp05mxNpJVo",
-    "title": "Barcelona Spain City Drive 4K -  City of Counts Driving Tour",
-    "channel": "The Travel Docket",
-    "date": "20251031",
-    "duration": 4862
+    "yt": "v2VQjB5zwa4",
+    "title": "Driving through Catalonia in Spain 🇪🇸 From Toses to Roses on the Mediterranean sea",
+    "channel": "Sigis Travel Videos",
+    "date": "20231108",
+    "duration": 7974
    }
   },
   "london": {
@@ -3423,11 +3423,6 @@
     "channel": "Walk The Tour",
     "date": "20240503",
     "duration": 2452
-   },
-   "window": {
-    "yt": "AWEPIltiX6A",
-    "title": "Sorrento, Italy 4K - Coastal Cliffs, Lemon Groves & Sunset Views Over the Bay of Naples 2026-07-09 19:56",
-    "verified": "2026-07-09"
    },
    "drive": {
     "yt": "wX5aFHJB3JI",
@@ -4716,13 +4711,6 @@
     "duration": 2035
    }
   },
-  "churchill": {
-   "live": {
-    "yt": "a0i1Kg6fROg",
-    "title": "Northern Lights powered by EXPLORE.org 2026-07-10 08:08",
-    "verified": "2026-07-10"
-   }
-  },
   "paris": {
    "live": {
     "yt": "OzYp4NRZlwQ",
@@ -4761,11 +4749,6 @@
    }
   },
   "grand-river": {
-   "live": {
-    "yt": "jw1Er6LyqT0",
-    "title": "His Place Resort - LIVE RIVER CAM 2026-07-10 08:21",
-    "verified": "2026-07-10"
-   },
    "drive": {
     "yt": "8of86AJXpAE",
     "title": "🚗 Scenic 4K Drive Through Caledonia, Ontario 🇨🇦 | Charming Small-Town Views Along the Grand River 🌉",
@@ -5081,13 +5064,6 @@
     "channel": "AdventureEveryDay",
     "date": "20221210",
     "duration": 5010
-   },
-   "walk": {
-    "yt": "yAyxH6xCwog",
-    "title": "Estes Park Colorado USA Walking Tour Winter in 8K Dolby Vision HDR",
-    "channel": "Camera Tours",
-    "date": "20241229",
-    "duration": 2020
    }
   },
   "great-smoky-mountains": {
@@ -5275,11 +5251,6 @@
     "channel": "Wander Lens",
     "date": "20260321",
     "duration": 616
-   },
-   "live": {
-    "yt": "NEK2iTuyOX4",
-    "title": "LIVE 24/7 | Lake Powell Marina Cam | Boats, Sunsets & Marina views! 2026-07-10 08:42",
-    "verified": "2026-07-10"
    },
    "drive": {
     "yt": "7SthXxdveKo",
@@ -5731,6 +5702,11 @@
     "channel": "China Street View",
     "date": "20230517",
     "duration": 5612
+   },
+   "live": {
+    "yt": "kwEzXL6ePoE",
+    "title": "ShanghaiEye English｜LIVE 24 2026-08-01 13:55",
+    "verified": "2026-08-01"
    }
   },
   "new-delhi": {
@@ -5844,13 +5820,6 @@
    }
   },
   "aa-karahan-tepe": {
-   "drive": {
-    "yt": "2d-3ud7t_mw",
-    "title": "Turkey solo driving tour (4) Mount Nemrut to Göbeklitepe (190km)",
-    "channel": "Traveller ABC",
-    "date": "20230110",
-    "duration": 1290
-   },
    "walk": {
     "yt": "hpyrvdxAajQ",
     "title": "Şanlıurfa Turkey | Karahantepe, Göbeklitepe, Balıklıgöl, Historic Houses & Hotels | 4K Walking Tour",
@@ -6119,15 +6088,6 @@
     "duration": 1460
    }
   },
-  "namib-desert-waterhole": {
-   "drive": {
-    "yt": "ebu2becEqnY",
-    "title": "NAMIBIA TRAVEL | Highlights on a 4x4 Namibia Road Trip (Itinerary + Travel Tips)",
-    "channel": "World Wild Hearts",
-    "date": "20240713",
-    "duration": 995
-   }
-  },
   "samarkand": {
    "walk": {
     "yt": "JyV8yerf4a8",
@@ -6215,11 +6175,6 @@
     "channel": "Road Dogs For Life",
     "date": "20200918",
     "duration": 1564
-   },
-   "live": {
-    "yt": "SFE7kTtX8_8",
-    "title": "Plaza de Armas de Querétaro en vivo 2026-07-18 14:40",
-    "verified": "2026-07-18"
    }
   },
   "machu-picchu": {
@@ -6408,6 +6363,1646 @@
     "channel": "J Utah",
     "date": "20220801",
     "duration": 2191
+   }
+  },
+  "elora-quarry": {
+   "walk": {
+    "yt": "TzmF87Uufrg",
+    "title": "ELORA ONTARIO 4K NATURE WALKING TOUR THROUGH ELORA GORGE ALONG IRVINE CREEK",
+    "channel": "Spy Toronto",
+    "date": "20250826",
+    "duration": 866
+   },
+   "drive": {
+    "yt": "QGO8I37oPVg",
+    "title": "[4K] Fall Driving to Elora Gorge Conservation Area from Brampton Ontario Canada",
+    "channel": "Abdul Afram",
+    "date": "20201026",
+    "duration": 5254
+   }
+  },
+  "snyders-flats": {
+   "walk": {
+    "yt": "CFnQipZWXgA",
+    "title": "South Side Flats Pittsburgh Walking Tour 4K 🚶 | Historic East Carson Street",
+    "channel": "Walk The Globe 8K",
+    "date": "20260723",
+    "duration": 2020
+   }
+  },
+  "guelph-lake": {
+   "walk": {
+    "yt": "gLZb3mPo7HU",
+    "title": "Guelph Lake Dam I Walk Tour 4K Music I Calm / Mediation / Relax / Spiritual I For Study / Sleep",
+    "channel": "HongKOntarian",
+    "date": "20231004",
+    "duration": 1039
+   },
+   "drive": {
+    "yt": "5Un_gcZFf7o",
+    "title": "Guelph Ontario Canada 4k Scenic Drive September 15 2020",
+    "channel": "The Ontario Traveler",
+    "date": "20201002",
+    "duration": 791
+   }
+  },
+  "hanlon-creek": {
+   "drive": {
+    "yt": "Fja5-qyahok",
+    "title": "[4K] Ridge Road, Scenic Driving from Stoney Creek to Hamilton (11 km), Highest road in Hamilton",
+    "channel": "Canada Sky",
+    "date": "20220111",
+    "duration": 693
+   }
+  },
+  "guangzhou": {
+   "walk": {
+    "yt": "7R443duaq7w",
+    "title": "Guangzhou – 4K Walk | The Blend of Old Canton and Modern Cityscape | China 🇨🇳 Apr 2025 [4K HDR]",
+    "channel": "traveler_HIRO",
+    "date": "20250508",
+    "duration": 13149
+   },
+   "drive": {
+    "yt": "BZcrZNullZI",
+    "title": "Driving in Guangzhou - the largest city in southern China - 4K",
+    "channel": "China Street View",
+    "date": "20250504",
+    "duration": 7518
+   },
+   "live": {
+    "yt": "_B7aqTDfPC4",
+    "title": "LIVE Inside China's Mega Wholesale Market 🇨🇳 | OneLink Plaza Guangzhou Walk 2026-08-01 13:57",
+    "verified": "2026-08-01"
+   }
+  },
+  "shenzhen": {
+   "walk": {
+    "yt": "tDKOimyHbMY",
+    "title": "Walking Tour of Shenzhen's Most Jaw-Dropping Architecture | China Travel",
+    "channel": "Walk East",
+    "date": "20240925",
+    "duration": 14220
+   },
+   "drive": {
+    "yt": "BQ6_FhkNkvg",
+    "title": "Shenzhen, China 2026: Driving, City Center, One of the World's Most Advanced Cities (4K)",
+    "channel": "Driving in China",
+    "date": "20251231",
+    "duration": 3782
+   }
+  },
+  "chengdu": {
+   "walk": {
+    "yt": "UlsCe0sddXs",
+    "title": "【4K HDR】Chengdu, China | Walking Tour of the City Center - The Most Livable City in China!",
+    "channel": "Time Walker",
+    "date": "20251121",
+    "duration": 4402
+   },
+   "drive": {
+    "yt": "17e_19if6Io",
+    "title": "Driving Tour in Chengdu, China: From South to North, the Most Prosperous Metropolis in Western China",
+    "channel": "Driving in China",
+    "date": "20250731",
+    "duration": 3455
+   }
+  },
+  "chongqing": {
+   "walk": {
+    "yt": "JvzjeE4pNjo",
+    "title": "Chongqing - 4K Walk | 3 Hours Exploring the Craziest Vertical City | China 🇨🇳 Apr 2025 [4K HDR]",
+    "channel": "traveler_HIRO",
+    "date": "20250502",
+    "duration": 10963
+   },
+   "drive": {
+    "yt": "M1jJQDcHcyM",
+    "title": "Driving Tour in Chongqing - China's Most Magical City - 4K",
+    "channel": "China Street View",
+    "date": "20250428",
+    "duration": 7056
+   }
+  },
+  "hangzhou": {
+   "walk": {
+    "yt": "wQ-sNWuronI",
+    "title": "Walking on Hangzhou's Riverside Urban Balcony - The construction here is incredible",
+    "channel": "CN Walking",
+    "date": "20230913",
+    "duration": 2019
+   },
+   "drive": {
+    "yt": "PrnMX0dE400",
+    "title": "Hangzhou Driving Tour - the largest city in Zhejiang Province with 2200 years of history - 4K",
+    "channel": "China Street View",
+    "date": "20220917",
+    "duration": 7980
+   }
+  },
+  "suzhou": {
+   "walk": {
+    "yt": "EcayPS05Yh4",
+    "title": "🇨🇳 4K China Walking Tour - China's Most Beautiful Water Town - Suzhou Rain Walk | 4K HDR 60fps",
+    "channel": "World Wanderings: 4K Walking Tours",
+    "date": "20240803",
+    "duration": 10822
+   },
+   "drive": {
+    "yt": "WWNvha0qrFw",
+    "title": "Driving through China's Insane Infrastructure:Hangzhou to Suzhou in 4K#roadtrip #suzhou #ruralchina",
+    "channel": "China Views",
+    "date": "20251229",
+    "duration": 7244
+   }
+  },
+  "nanjing": {
+   "walk": {
+    "yt": "PmMfMfr-2J0",
+    "title": "Walking Nanjing: Where Every Step Tells a Story",
+    "channel": "Walk East",
+    "date": "20250209",
+    "duration": 14339
+   },
+   "drive": {
+    "yt": "u_k_I6VaN34",
+    "title": "Nanjing Driving Tour - China's Most Underrated City",
+    "channel": "China Street View",
+    "date": "20221007",
+    "duration": 6283
+   }
+  },
+  "wuhan": {
+   "walk": {
+    "yt": "OweMSt9goB4",
+    "title": "Walking Tours in WuHan, China | 4K",
+    "channel": "Terry's WanderLens",
+    "date": "20250314",
+    "duration": 3021
+   },
+   "drive": {
+    "yt": "vD4J3PHhM3I",
+    "title": "Wuhan, China 2025-4K HDR - Driving Downtown, Hankou Driving Tour",
+    "channel": "Driving in China",
+    "date": "20250504",
+    "duration": 6205
+   }
+  },
+  "tianjin": {
+   "walk": {
+    "yt": "nzL-b3JGtvs",
+    "title": "Tianjin 4K Walking Tour 🇨🇳 | European Style Streets & Hidden Gems",
+    "channel": "Real China Walk",
+    "date": "20260318",
+    "duration": 5326
+   },
+   "drive": {
+    "yt": "KHxxmoyE8-I",
+    "title": "Tianjin Driving Tour - The Largest Port City in Northern China - 4K HDR",
+    "channel": "China Street View",
+    "date": "20230329",
+    "duration": 9490
+   }
+  },
+  "qingdao": {
+   "walk": {
+    "yt": "5bWZTinpIHw",
+    "title": "Qingdao, China 4K 60FPS Walking Tour | Seaside Boardwalk & Beach",
+    "channel": "Hidden China Walks",
+    "date": "20260801",
+    "duration": 794
+   },
+   "drive": {
+    "yt": "H8xtmrjHSbY",
+    "title": "Qingdao Driving Tour - One of the most beautiful coastal cities in China - 4K",
+    "channel": "China Street View",
+    "date": "20221001",
+    "duration": 8052
+   }
+  },
+  "changsha": {
+   "walk": {
+    "yt": "8Gte6ll6eLM",
+    "title": "Changsha Walking Tour: 4K HDR Journey Through China's Hottest Foodie & Viral City | China | Hunan",
+    "channel": "Terry's WanderLens",
+    "date": "20250626",
+    "duration": 9940
+   },
+   "drive": {
+    "yt": "YCX7VkuqL4c",
+    "title": "【China 4K】Driving In Changsha | New Downtown District（Hunan, April, 2020）",
+    "channel": "Walk East",
+    "date": "20200425",
+    "duration": 2826
+   }
+  },
+  "zhengzhou": {
+   "walk": {
+    "yt": "Z3NNTLH5EAM",
+    "title": "[4K China] Walking In Zhengzhou | Downtow, People's Park | 郑州市区, 人民公园 | China Walking Tour",
+    "channel": "China Walking Tour 漫游中国",
+    "date": "20220329",
+    "duration": 3573
+   },
+   "drive": {
+    "yt": "EpLrSyZZ3gY",
+    "title": "Driving in Zhengzhou - the central city of China's transportation hub",
+    "channel": "China Street View",
+    "date": "20220722",
+    "duration": 3426
+   }
+  },
+  "shenyang": {
+   "walk": {
+    "yt": "01se8R65yGo",
+    "title": "China Shenyang | Wenhua Road Walk | 4K",
+    "channel": "Jesse.street",
+    "date": "20260315",
+    "duration": 1438
+   },
+   "drive": {
+    "yt": "jiA4PDQsSAo",
+    "title": "Drive in Shenyang - the largest city in Northeast China - 4K",
+    "channel": "China Street View",
+    "date": "20231206",
+    "duration": 9338
+   }
+  },
+  "ningbo": {
+   "walk": {
+    "yt": "gNA-MnGyI_I",
+    "title": "4K China Walk 🇨🇳 Ningbo City Center | The Real Modern Life of Zhejiang’s Urban Port City",
+    "channel": "4K Walking Travel",
+    "date": "20251227",
+    "duration": 3827
+   },
+   "drive": {
+    "yt": "08o4trrTODI",
+    "title": "Ningbo Driving Tour - The Second Largest City in Zhejiang Province, China - 4K",
+    "channel": "China Street View",
+    "date": "20220930",
+    "duration": 6010
+   }
+  },
+  "dongguan": {
+   "walk": {
+    "yt": "ORfhk7B5AbQ",
+    "title": "DONGGUAN, CHINA | Dongguan City Walking Tour | 4k | May 4th, 2021",
+    "channel": "Urban Aboveground",
+    "date": "20210508",
+    "duration": 2149
+   },
+   "drive": {
+    "yt": "2Wu7M2u9ems",
+    "title": "Dongguan driving tour - China's prefecture-level cities with an annual GDP of trillions - 4K",
+    "channel": "China Street View",
+    "date": "20220809",
+    "duration": 4880
+   }
+  },
+  "foshan": {
+   "walk": {
+    "yt": "KB1IYucat8U",
+    "title": "China 🇨🇳 Foshan’s Lingnan Tiandi | Old Streets, Cafés & Real City Life (No Talking 4K Walk)",
+    "channel": "China Walk Tours",
+    "date": "20260401",
+    "duration": 2150
+   },
+   "drive": {
+    "yt": "Z3F31v2SDpo",
+    "title": "Financial Hi-Tech Zone Foshan City China 4K HD Driving Tour Road Trip 佛山市南海區千燈湖金融高新區自駕遊第一視角",
+    "channel": "You Should Visit China",
+    "date": "20250426",
+    "duration": 5565
+   }
+  },
+  "hefei": {
+   "walk": {
+    "yt": "KUgebJAxJZU",
+    "title": "【Hefei, China】Walking Tour, 4K",
+    "channel": "Walking around the world ",
+    "date": "20250110",
+    "duration": 1245
+   },
+   "drive": {
+    "yt": "JvE3MeT39GY",
+    "title": "4k China Street View-Driving Tour in Hefei - One of the fastest growing provincial capitals in China",
+    "channel": "China Street View",
+    "date": "20221012",
+    "duration": 4711
+   }
+  },
+  "kunming": {
+   "walk": {
+    "yt": "2oitYzhMpoA",
+    "title": "Where Spring Never Ends 🌸 | Kunming China Walking Tour (Old Street, Seagulls & Lakeside) | 4K HDR",
+    "channel": "China Walking Tour 漫游中国",
+    "date": "20260404",
+    "duration": 5546
+   },
+   "drive": {
+    "yt": "cY2n5zgk_Rw",
+    "title": "4k China Street View-Kunming Driving Tour-One of the important central cities in western China",
+    "channel": "China Street View",
+    "date": "20221208",
+    "duration": 7394
+   }
+  },
+  "harbin": {
+   "walk": {
+    "yt": "lvg82iBxqBA",
+    "title": "[4K] Walking in The Ice City Harbin, China at a snowy night｜Taking a morning walk after the snow.",
+    "channel": "SeiuTravel",
+    "date": "20240127",
+    "duration": 3300
+   },
+   "drive": {
+    "yt": "BvL1Hf2gD-g",
+    "title": "Driving in Harbin - the capital of Heilongjiang Province, China | 4K",
+    "channel": "China Street View",
+    "date": "20231203",
+    "duration": 7963
+   }
+  },
+  "dalian": {
+   "walk": {
+    "yt": "Q6dABZI3cag",
+    "title": "Dalian China 🇨🇳 | Calm Seaside Walk Along the Yellow Sea (4K)",
+    "channel": "Virtual Walking Tour 4K",
+    "date": "20260703",
+    "duration": 674
+   },
+   "drive": {
+    "yt": "hap2acZ_PWE",
+    "title": "Dalian Driving Tour - One of China's Most Beautiful Coastal Cities - 4K HDR",
+    "channel": "China Street View",
+    "date": "20231102",
+    "duration": 7310
+   }
+  },
+  "xiamen": {
+   "walk": {
+    "yt": "O1AQo5opD-s",
+    "title": "[4K China]Stroll through Zengcuoan, Xiamen, experiencing the lively streets and delicious food.",
+    "channel": "China Walking Tour 漫游中国",
+    "date": "20230428",
+    "duration": 2326
+   },
+   "drive": {
+    "yt": "_RfkEL4JMvE",
+    "title": "Driving around Xiamen Island - one of the most beautiful coastal cities in China - 4K",
+    "channel": "China Street View",
+    "date": "20220531",
+    "duration": 3289
+   }
+  },
+  "fuzhou": {
+   "walk": {
+    "yt": "pBatKzbNjh0",
+    "title": "Experience the REAL City of Fuzhou Walking Tour Like a Local",
+    "channel": "Walk East",
+    "date": "20241127",
+    "duration": 14120
+   },
+   "drive": {
+    "yt": "-oMEXYWQ0nQ",
+    "title": "Fuzhou downtown random drive 4K Fujian Province China",
+    "channel": "Japan Touring",
+    "date": "20210619",
+    "duration": 2338
+   }
+  },
+  "jinan": {
+   "walk": {
+    "yt": "R6W-xiyZsJg",
+    "title": "[4K China] Walking In The Spring City Of China | Jinan | 济南 | China Walking Tour",
+    "channel": "China Walking Tour 漫游中国",
+    "date": "20220508",
+    "duration": 4913
+   },
+   "drive": {
+    "yt": "KBclVVJFnS0",
+    "title": "Jinan Driving Tour - Political and Cultural Center of Shandong Province, China - 4K",
+    "channel": "China Street View",
+    "date": "20220924",
+    "duration": 6174
+   }
+  },
+  "wuxi": {
+   "walk": {
+    "yt": "Rgcq2XVRRFs",
+    "title": "Epic walk through Wuxi, a city near Shanghai in eastern China | 4K HDR Walking Tour",
+    "channel": "LADmob",
+    "date": "20251217",
+    "duration": 5654
+   },
+   "drive": {
+    "yt": "jxqKkHWalhw",
+    "title": "Exploring Wuxi, China: A 4K HDR Driving Tour",
+    "channel": "Tekeze tube",
+    "date": "20240401",
+    "duration": 2528
+   }
+  },
+  "wenzhou": {
+   "walk": {
+    "yt": "QCShRZ_8oc4",
+    "title": "Wenzhou 4K ASMR Walking Tour: Urban Oasis & Healing Nature Sounds",
+    "channel": "Rainy Walk ASMR",
+    "date": "20260604",
+    "duration": 683
+   },
+   "drive": {
+    "yt": "oWgX-hOGNJU",
+    "title": "Driving in Wenzhou: Explore China's Most Dynamic Private Economy City - 4K HDR",
+    "channel": "China Street View",
+    "date": "20260130",
+    "duration": 5698
+   }
+  },
+  "changchun": {
+   "walk": {
+    "yt": "hmZpPWSYfPU",
+    "title": "Changchun, A Suprisingly Beautiful City Full of Zen Spirit | China Walking Tour",
+    "channel": "Walk East",
+    "date": "20230724",
+    "duration": 7200
+   },
+   "drive": {
+    "yt": "UiGhJhmZBUA",
+    "title": "Changchun, China | Driving Through the Motor City of Northeast China | 4K POV",
+    "channel": "China Roads",
+    "date": "20260513",
+    "duration": 2305
+   }
+  },
+  "shijiazhuang": {
+   "drive": {
+    "yt": "6yMwniU4KUI",
+    "title": "Driving in Shijiazhuang - a large city in northern China with a population of 11 million - 4K HDR",
+    "channel": "China Street View",
+    "date": "20230802",
+    "duration": 5395
+   }
+  },
+  "taiyuan": {
+   "walk": {
+    "yt": "f0w6aXL4UWU",
+    "title": "Walking China - Walking Taiyuan Old Town - Travelling in China - China City Walk [4K HDR]",
+    "channel": "Walking China",
+    "date": "20250314",
+    "duration": 1926
+   },
+   "drive": {
+    "yt": "BT5lo_wWsjg",
+    "title": "Taiyuan The Hometown of Vinegars - China City Tour - Scenic Drive 4K HDR - Shanxi",
+    "channel": "Walk China - Driving Channel",
+    "date": "20240524",
+    "duration": 6401
+   }
+  },
+  "nanchang": {
+   "walk": {
+    "yt": "1Qx6-gN5P1k",
+    "title": "Nanchang Snowy Walk, Pavilion Of Prince Teng And CBD Area | Jiangxi, China | 4K HDR | 南昌 | 滕王阁",
+    "channel": "Walk East",
+    "date": "20220313",
+    "duration": 3896
+   },
+   "drive": {
+    "yt": "hXj8qf2Y3Cg",
+    "title": "Nanchang Driving.China.Наньчан. 南昌 (4200000)",
+    "channel": "Valeriy Blank",
+    "date": "20210602",
+    "duration": 913
+   }
+  },
+  "guiyang": {
+   "walk": {
+    "yt": "24U88-NsteM",
+    "title": "Guiyang, CHINA - Downtown Guiyang City 4K Walking Tour",
+    "channel": "Walking Expedition",
+    "date": "20260620",
+    "duration": 3878
+   },
+   "drive": {
+    "yt": "5sIIacVo7ow",
+    "title": "Guiyang Driving Tour - One of China's Most Three-dimensional Cities - 4K",
+    "channel": "China Street View",
+    "date": "20220813",
+    "duration": 10280
+   }
+  },
+  "nanning": {
+   "walk": {
+    "yt": "7o1ZrhEWSEs",
+    "title": "Nanning Walking Tour, the Stunning Capital City of Guangxi, China | 4K HDR",
+    "channel": "Walk East",
+    "date": "20221211",
+    "duration": 12600
+   },
+   "drive": {
+    "yt": "y48kl_hu5To",
+    "title": "Driving in Nanning, China: The Famous Minzu Avenue (Full Drive)[4K 60FPS]",
+    "channel": "DW City Explorer",
+    "date": "20260102",
+    "duration": 1427
+   }
+  },
+  "lanzhou": {
+   "walk": {
+    "yt": "IpqitxQV1SI",
+    "title": "LANZHOU, CHINA | Yellow River Walking Tour | 4k| July 9th 2021",
+    "channel": "Urban Aboveground",
+    "date": "20210725",
+    "duration": 1477
+   },
+   "drive": {
+    "yt": "uyqoLRmCv2o",
+    "title": "Ultimate 4K Drive Through Lanzhou, China|Yellow River City, Pure Natural Sound #chinacity #lanzhou",
+    "channel": "China Views",
+    "date": "20251129",
+    "duration": 4001
+   }
+  },
+  "urumqi": {
+   "walk": {
+    "yt": "-tfkmQzfKIc",
+    "title": "A Day in Ürümqi, China 🇨🇳 | Walking Tour [4K 60FPS]",
+    "channel": "Walk & Vibes",
+    "date": "20251023",
+    "duration": 2648
+   },
+   "drive": {
+    "yt": "2XozRJsfnrc",
+    "title": "Driving Tour of Urumqi - The Largest City in Central Asia - Xinjiang, China - 4K",
+    "channel": "China Street View",
+    "date": "20250722",
+    "duration": 4907
+   }
+  },
+  "xining": {
+   "walk": {
+    "yt": "ueqH1El6TxI",
+    "title": "Xining Downtown Walk 🏢Capital of Qinghai Province | Central Square area | 4K HDR | 西宁市区 中国青海省 中心广场地区",
+    "channel": "REC Shanghai",
+    "date": "20210901",
+    "duration": 1770
+   },
+   "drive": {
+    "yt": "GDjLkQRo4TA",
+    "title": "Driving in Xining - the largest city in China's Tibetan Plateau - 4K",
+    "channel": "China Street View",
+    "date": "20250813",
+    "duration": 7178
+   }
+  },
+  "hohhot": {
+   "walk": {
+    "yt": "N9GjAUXGXoM",
+    "title": "HOHHOT,CHINA 4K Walking Tour - Portugal Walk with Captions & Immersive Sound [4K Ultra HD/60fps]",
+    "channel": "Young Travel",
+    "date": "20250108",
+    "duration": 997
+   },
+   "drive": {
+    "yt": "Lby1VpQJGYM",
+    "title": "Driving in the center of Hohhot - perhaps this is a big city in China you have never heard of - 4K",
+    "channel": "China Street View",
+    "date": "20250828",
+    "duration": 5645
+   }
+  },
+  "quanzhou": {
+   "walk": {
+    "yt": "-ioEPNmuyeA",
+    "title": "[4K China] Walking In Quanzhou, Historical And Cultural City In Southern China",
+    "channel": "China Walking Tour 漫游中国",
+    "date": "20230325",
+    "duration": 3000
+   },
+   "drive": {
+    "yt": "Z_pwB7-m3uE",
+    "title": "Driving Tour in Quanzhou - 'World Heritage Car City' - Fujian Province, China - 4K",
+    "channel": "China Street View",
+    "date": "20220909",
+    "duration": 4938
+   }
+  },
+  "pingyao": {
+   "walk": {
+    "yt": "Y3OLOql8DNI",
+    "title": "Pingyao Ancient City, China | Walking Through China's Best Preserved Ancient Walled City",
+    "channel": "McBrowser",
+    "date": "20260715",
+    "duration": 649
+   },
+   "drive": {
+    "yt": "NUpA2bY6Za0",
+    "title": "Explore China's Stunning Countryside: 4k Drive From Huozhou To Pingyao Ancient Town",
+    "channel": "Walk China - Driving Channel",
+    "date": "20231229",
+    "duration": 9260
+   }
+  },
+  "datong": {
+   "walk": {
+    "yt": "VZ-cQ_dptCw",
+    "title": "[4K China] Walking Tour In The Huayan Temple Of Datong | China Walking Tour",
+    "channel": "China Walking Tour 漫游中国",
+    "date": "20230313",
+    "duration": 2063
+   },
+   "drive": {
+    "yt": "BWZkhzN0jS0",
+    "title": "Driving Datong 4K - Coal Capital of China - Once one of China's Most Polluted Cities",
+    "channel": "DT Roadscape",
+    "date": "20240830",
+    "duration": 5838
+   }
+  },
+  "luoyang": {
+   "walk": {
+    "yt": "7GplzTPH5H0",
+    "title": "[4K China] Walking In The Ancient Street Of Luoyang | 洛阳老城 十字街 | China Walking Tour",
+    "channel": "China Walking Tour 漫游中国",
+    "date": "20220420",
+    "duration": 2786
+   },
+   "drive": {
+    "yt": "BYMUGCNrGgA",
+    "title": "Driving Luoyang 4K - One of The Four Great Ancient Capitals of China",
+    "channel": "DT Roadscape",
+    "date": "20240728",
+    "duration": 5786
+   }
+  },
+  "dunhuang": {
+   "walk": {
+    "yt": "F8H64KkEGcs",
+    "title": "Walk in China＊Dunhuang city ДУНХУАН - город на западе КНР",
+    "channel": "WayOfMaverick",
+    "date": "20201126",
+    "duration": 1523
+   },
+   "drive": {
+    "yt": "JlVtxf1CTBI",
+    "title": "From City to Gobi: Ancient Silk Road Drive | Dunhuang to Yumen Pass (4K) #silkroad #ancientchina",
+    "channel": "China Views",
+    "date": "20260324",
+    "duration": 5978
+   }
+  },
+  "jiayuguan": {
+   "walk": {
+    "yt": "nZBB93kmrcs",
+    "title": "GREAT WALL OF CHINA WESTERN SECTION | Jiayuguan Walking Tour | 4k | July 6th 2021",
+    "channel": "Urban Aboveground",
+    "date": "20210721",
+    "duration": 1775
+   },
+   "drive": {
+    "yt": "At2gu0FxvHk",
+    "title": "Driving Through China's Desert Steel City | Jiayuguan 4K #gansu #jiayuguan #chinacity",
+    "channel": "China Views",
+    "date": "20260730",
+    "duration": 3495
+   }
+  },
+  "zhangye": {
+   "walk": {
+    "yt": "AlzbzyoSBMI",
+    "title": "ZHANGYE, CHINA | City Walking Tour | 4k | July 8th 2021",
+    "channel": "Urban Aboveground",
+    "date": "20210724",
+    "duration": 2004
+   },
+   "drive": {
+    "yt": "TTivoH8fWiU",
+    "title": "Zhangye Danxia Exploration: Driving Through Sunan’s Mystic Rural Road | 4K HDR",
+    "channel": "Walk China - Driving Channel",
+    "date": "20251127",
+    "duration": 1650
+   }
+  },
+  "kashgar": {
+   "walk": {
+    "yt": "6fa1uP-Bgcs",
+    "title": "KASHGAR, XINJIANG | Ancient City Walking Tour | 4k | July 13th 2021",
+    "channel": "Urban Aboveground",
+    "date": "20210730",
+    "duration": 1887
+   },
+   "drive": {
+    "yt": "Bsd-Qk3yCec",
+    "title": "Kashgar to Pamir Mountains|G314 China Border Road Drive (4K) | Into the Roof of the World #xinjiang",
+    "channel": "China Views",
+    "date": "20260702",
+    "duration": 5076
+   }
+  },
+  "turpan": {
+   "drive": {
+    "yt": "g5xg7eOYkRQ",
+    "title": "4K Xinjiang Driving - Turpan to Ürümqi on China Expressway G30 and Highway G312",
+    "channel": "China Driving 车行中国",
+    "date": "20230523",
+    "duration": 9657
+   }
+  },
+  "lijiang": {
+   "walk": {
+    "yt": "dMN_aGf00LE",
+    "title": "Lijiang - The Old Town of Lijiang, UNESCO World Heritage Site | China 4K Walking Tour",
+    "channel": "GloWalk",
+    "date": "20260409",
+    "duration": 4494
+   },
+   "drive": {
+    "yt": "F20GmQBDY94",
+    "title": "4k China Street View - Lijiang Driving Tour - One of the ten most desirable cities in China",
+    "channel": "China Street View",
+    "date": "20221221",
+    "duration": 5321
+   }
+  },
+  "dali": {
+   "walk": {
+    "yt": "xVAorbMpruQ",
+    "title": "[Dali, Yunnan, China 🇨🇳] Old Town Walk [4K\\No commentary]",
+    "channel": "Don’t Travel Hungry 😋",
+    "date": "20260327",
+    "duration": 5342
+   },
+   "drive": {
+    "yt": "mf16zD5OhzI",
+    "title": "4k China Street View - Dali Driving Tour - One of the most popular tourist cities in Yunnan, China",
+    "channel": "China Street View",
+    "date": "20221212",
+    "duration": 5665
+   }
+  },
+  "shangri-la": {
+   "walk": {
+    "yt": "KxDIg81eW2E",
+    "title": "[4K] Shangri-La, Yunnan,China. | Virtual Walking Tour around Dukezong Ancient Town",
+    "channel": "Nhu on the Move",
+    "date": "20250424",
+    "duration": 1102
+   },
+   "drive": {
+    "yt": "fo3TPbUrz3A",
+    "title": "Shangri-La Driving Tour - A Place Closest to Paradise - 4K",
+    "channel": "China Street View",
+    "date": "20230215",
+    "duration": 2998
+   }
+  },
+  "yangshuo": {
+   "walk": {
+    "yt": "WBp5aghnw4Y",
+    "title": "Yangshuo: The Most Beautiful Place in China【4K HDR】Li River Cruise | Guilin Walking Tour",
+    "channel": "Virtual Tours TV",
+    "date": "20250222",
+    "duration": 3505
+   },
+   "drive": {
+    "yt": "HZmWhpwqKkI",
+    "title": "Driving in Yangshuo, Guilin - Guangxi, China - 4K",
+    "channel": "China Street View",
+    "date": "20250118",
+    "duration": 1967
+   }
+  },
+  "fenghuang": {
+   "walk": {
+    "yt": "Sl4DwmPekJs",
+    "title": "[4K CHINA] Sunrise Serenity: A Peaceful Morning Walk in Fenghuang Ancient Town",
+    "channel": "China Walking Tour 漫游中国",
+    "date": "20240911",
+    "duration": 3578
+   },
+   "drive": {
+    "yt": "ilNG7N0Mlaw",
+    "title": "Fenghuang (Phoenix) Ancient Town — China’s Most Beautiful Town | 4K City Drive",
+    "channel": "Walk China - Driving Channel",
+    "date": "20260801",
+    "duration": 4780
+   }
+  },
+  "chaozhou": {
+   "walk": {
+    "yt": "FUJg66quF6M",
+    "title": "Chaozhou, China — Exploring the Birthplace of Teochew Culture【4K HDR】| Ancient City Walking Tour",
+    "channel": "Virtual Tours TV",
+    "date": "20260124",
+    "duration": 2546
+   },
+   "drive": {
+    "yt": "UbZW6Yqd1L0",
+    "title": "4k China Street View - Xiamen to Chaozhou Expressway Driving",
+    "channel": "China Street View",
+    "date": "20221111",
+    "duration": 7297
+   }
+  },
+  "jingdezhen": {
+   "walk": {
+    "yt": "JCHp5KlPffY",
+    "title": "Jingdezhen Ceramic University, XiangHu Campus [Part 2] - Virtual Walking Tour [4k 60fps]",
+    "channel": "University Walk Tour",
+    "date": "20251017",
+    "duration": 1296
+   },
+   "drive": {
+    "yt": "_AzP3_Rp6Tw",
+    "title": "From Jingdezhen to Wuyishan | A Slow Drive into Southern China｜ 4K",
+    "channel": "Donkey Go",
+    "date": "20260216",
+    "duration": 8546
+   }
+  },
+  "qufu": {
+   "walk": {
+    "yt": "E1QQpTUFFYQ",
+    "title": "[4K China] Walking In The Temple of Confucius, Qufu | 曲阜 三孔景区 | China Walking Tour 2021",
+    "channel": "China Walking Tour 漫游中国",
+    "date": "20211218",
+    "duration": 6124
+   },
+   "drive": {
+    "yt": "Y38kA1sKgAQ",
+    "title": "From Modern Roads to Ancient Wisdom | Slow Drive to Qufu (Part 3) ｜ 4K",
+    "channel": "Donkey Go",
+    "date": "20260120",
+    "duration": 6920
+   }
+  },
+  "kaili": {
+   "walk": {
+    "yt": "OhCNtMrqHrs",
+    "title": "Xiasi Ancient Town, Kaili, China Walking Tour 4K  | 4K Ancient Chinese Architecture",
+    "channel": "Eastour",
+    "date": "20220608",
+    "duration": 3038
+   },
+   "drive": {
+    "yt": "K43XXE6VbrU",
+    "title": "[4K HDR]Road Trip to Kaili: Exploring ethnic minority city in China's Guizhou Mountains",
+    "channel": "Drive east",
+    "date": "20250709",
+    "duration": 3336
+   }
+  },
+  "shaoxing": {
+   "walk": {
+    "yt": "j_uVgkKyrRw",
+    "title": "Walk in Shaoxing Anchang Ancient Town,Built in the Song Dynasty 1000 Years Ago | China City Walk 4K",
+    "channel": "China City Walker",
+    "date": "20231025",
+    "duration": 9056
+   },
+   "drive": {
+    "yt": "2errqQ4NAHM",
+    "title": "4k China Street View-Shaoxing Driving Tour-An Intangible Cultural Heritage City Without Walls",
+    "channel": "China Street View",
+    "date": "20221014",
+    "duration": 5700
+   }
+  },
+  "sanya": {
+   "walk": {
+    "yt": "uOT72E2q2-M",
+    "title": "Embark on a Fascinating Journey Through Sanya, China's Hawaii | China Walking Tour 4K HDR",
+    "channel": "Walk East",
+    "date": "20220124",
+    "duration": 6981
+   },
+   "drive": {
+    "yt": "noWKU5RCrHQ",
+    "title": "Driving in Sanya 4K HDR - China's Most Popular Resort for Russian Tourists",
+    "channel": "DT Roadscape",
+    "date": "20250103",
+    "duration": 4383
+   }
+  },
+  "haikou": {
+   "walk": {
+    "yt": "-c4TMKzUYgw",
+    "title": "Haikou Historic Quilou Walking Tour | Peaceful Hainan Street Sounds 4K 🇨🇳 🚶",
+    "channel": "The Camera Never Lies",
+    "date": "20250910",
+    "duration": 647
+   },
+   "drive": {
+    "yt": "1KhGf8HVHjM",
+    "title": "Haikou 4K HDR - Exploring China's Largest Special Economic Zone - Coconut City Downtown Driving",
+    "channel": "DT Roadscape",
+    "date": "20241213",
+    "duration": 4687
+   }
+  },
+  "zhuhai": {
+   "walk": {
+    "yt": "N8RhDaMjbso",
+    "title": "Zhuhai: China’s Coastal Secret You Didn’t Know You Needed! | CHINA WALKING TOUR",
+    "channel": "Walk East",
+    "date": "20250907",
+    "duration": 6697
+   },
+   "drive": {
+    "yt": "Qy_sECOLvsQ",
+    "title": "Zhuhai, China | Driving on Yingbin Road (4K City Drive)",
+    "channel": "DW City Explorer",
+    "date": "20260307",
+    "duration": 808
+   }
+  },
+  "wuzhen": {
+   "walk": {
+    "yt": "U9N9xYawWQ8",
+    "title": "【4K HDR】China - Wuzhen Water Town daytime walk 2024",
+    "channel": "4K Walking Travel",
+    "date": "20240416",
+    "duration": 2537
+   },
+   "drive": {
+    "yt": "mWoynOA5Ijw",
+    "title": "Wuzhen to Zhenze Cross-Province Drive | Jiangnan Metasequoia Tunnels & Water Towns | 4K POV",
+    "channel": "POV Drive China 4K 行摄在旅途",
+    "date": "20260627",
+    "duration": 3344
+   }
+  },
+  "zhouzhuang": {
+   "walk": {
+    "yt": "A6dvOcVyKZg",
+    "title": "Zhouzhuang, China's Timeless Water Town - A Mesmerizing 4K Walking Journey Through History",
+    "channel": "World Wanderings: 4K Walking Tours",
+    "date": "20260313",
+    "duration": 11133
+   }
+  },
+  "xitang": {
+   "walk": {
+    "yt": "OzLX5apyYpw",
+    "title": "Xitang Ancient Water Town Night Walk | China's Most Beautiful Water Town | 4K HDR ASMR",
+    "channel": "超的漫游纪 | China 4K Walks",
+    "date": "20260713",
+    "duration": 2192
+   }
+  },
+  "tongli": {
+   "walk": {
+    "yt": "LzeBvNachrs",
+    "title": "[4K] Walking tour in the beautiful Chinese millennium town of Tongli  - Ultra HD (60 Fps)",
+    "channel": "Walking Time",
+    "date": "20210407",
+    "duration": 2405
+   }
+  },
+  "hongcun": {
+   "walk": {
+    "yt": "O0vYckuknJ4",
+    "title": "Hongcun Village, China 4K Walk 🇨🇳 Ancient Huangshan Village in Anhui Walking Tour【4K HDR 60fps】",
+    "channel": "4K Walking Travel",
+    "date": "20250119",
+    "duration": 3641
+   }
+  },
+  "xidi": {
+   "walk": {
+    "yt": "TzAJwvMwZEM",
+    "title": "Walking Through Xidi Village | Peaceful Ancient Huizhou Town in China (Ambient Sounds) | 4K",
+    "channel": "Walking View",
+    "date": "20260320",
+    "duration": 6869
+   }
+  },
+  "wuyuan": {
+   "walk": {
+    "yt": "W6qQhgIpaEc",
+    "title": "4K Wuyuan Walk🇨🇳 Escaping to the Most Beautiful Village in China - November 2025",
+    "channel": "4K Walking Travel",
+    "date": "20251221",
+    "duration": 3841
+   },
+   "drive": {
+    "yt": "SoFFZlL2R9g",
+    "title": "(HD)Driving in Wuyuan, Shangrao, Jiangxi, China.Most worth watching Road Trip Videos 2020! #Nanchang",
+    "channel": "John's Driving Trip",
+    "date": "20200121",
+    "duration": 1094
+   }
+  },
+  "zhaoxing": {
+   "walk": {
+    "yt": "4tOiFS11ECg",
+    "title": "Guizhou, CHINA - Zhaoxing Dong Village The Most Beautiful Dong Minority Village 4K Walking Tour",
+    "channel": "Walking Expedition",
+    "date": "20260627",
+    "duration": 3678
+   }
+  },
+  "xijiang-miao": {
+   "walk": {
+    "yt": "dJUnVnlvAuY",
+    "title": "Xijiang Miao Village 4K | The Largest Miao Ethnic Village in China | Walking Tour in Guizhou",
+    "channel": "EpicGlobe Walks",
+    "date": "20250619",
+    "duration": 3849
+   },
+   "drive": {
+    "yt": "zJx-jokl7wQ",
+    "title": "China Road Trip S1E2 Part 3| Highway Drive to Xijiang Miao Village 4K | Scenic Travel Vlog",
+    "channel": "Rolling Hills 翻滚山丘",
+    "date": "20250215",
+    "duration": 3630
+   }
+  },
+  "cuandixia": {
+   "walk": {
+    "yt": "w5a-kDSr8u4",
+    "title": "China Walk 4K | The Most Popular 500-Year-Old Stone Village in Beijing 爨底下🇨🇳",
+    "channel": "ZUO Landscapes",
+    "date": "20260605",
+    "duration": 2051
+   },
+   "drive": {
+    "yt": "3s3bLgoQCCY",
+    "title": "From Cuandixia Ancient Village to Pearl Lake | Western Beijing Mountain Drive | 4K POV",
+    "channel": "China Roads",
+    "date": "20260613",
+    "duration": 3103
+   }
+  },
+  "shaxi": {
+   "walk": {
+    "yt": "MXAtneMbrWY",
+    "title": "4K China Walks | Shaxi Ancient Town | Yunnan province",
+    "channel": "V. Walking Tours",
+    "date": "20240504",
+    "duration": 1256
+   },
+   "drive": {
+    "yt": "oeSTHi_oBeo",
+    "title": "大理古城至沙溪古镇  云南旅行｜Drive to Dali Ancient City to Shaxi Ancient Town  Yunnan Travel, China",
+    "channel": "小舟记忆",
+    "date": "20230122",
+    "duration": 7096
+   }
+  },
+  "longji-terraces": {
+   "walk": {
+    "yt": "6Ec_lQzcPbM",
+    "title": "Longji Rice Terraces 4K | Walking Tour Through China’s Dragon’s Backbone in Guangxi",
+    "channel": "EpicGlobe Walks",
+    "date": "20250220",
+    "duration": 1552
+   },
+   "drive": {
+    "yt": "_gD1L8g8KjE",
+    "title": "Driving Northern Guilin 4K HDR | Through Endless Mountains and Rice Terraces #Guangxi #china",
+    "channel": "DT Roadscape",
+    "date": "20260720",
+    "duration": 8593
+   }
+  },
+  "yuanyang-terraces": {
+   "walk": {
+    "yt": "9xUgyxyUkcE",
+    "title": "4k China Walking Tour | YuanYang Hani Rice Terrace ~ Azheke Village!",
+    "channel": "V. Walking Tours",
+    "date": "20240710",
+    "duration": 1495
+   }
+  },
+  "hemu": {
+   "walk": {
+    "yt": "DXd3RHdkdHU",
+    "title": "Xinjiang’s Most Beautiful Scenery Walking Tour: Exploring the Altay’s Hemu Village - 4K HDR",
+    "channel": "Walk China - Driving Channel",
+    "date": "20250613",
+    "duration": 5521
+   },
+   "drive": {
+    "yt": "9zhCXU5z-lA",
+    "title": "Xinjiang's Hottest Attraction - Hemu Village Scenic Area - Driving Tour 4K HDR",
+    "channel": "Walk China - Driving Channel",
+    "date": "20240806",
+    "duration": 5925
+   }
+  },
+  "jiaju": {
+   "drive": {
+    "yt": "hPcK57_M-No",
+    "title": "Driving in Jiaju Tibetan Village - One of the most beautiful Tibetan villages in China - 4K",
+    "channel": "China Street View",
+    "date": "20250826",
+    "duration": 2596
+   }
+  },
+  "yubeng": {
+   "drive": {
+    "yt": "WT1K8qfZKAA",
+    "title": "DRIVING TO YUBENG FROM DEQIN IN YUNNAN WITH MOUNTAINS & FOOD | Vlog 193 #yunnan #china #chinatravel",
+    "channel": "Thirties Fitness Journey",
+    "date": "20221126",
+    "duration": 811
+   }
+  },
+  "zhangjiajie": {
+   "walk": {
+    "yt": "XW42mp19vG0",
+    "title": "Unbelievable sights: Walking in Zhangjiajie, The First National Forest Park in China",
+    "channel": "Walk East",
+    "date": "20240123",
+    "duration": 10800
+   },
+   "drive": {
+    "yt": "wODyYyKq1rM",
+    "title": "Driving in Zhangjiajie - a famous tourist city in China | 4K",
+    "channel": "China Street View",
+    "date": "20230925",
+    "duration": 4215
+   }
+  },
+  "jiuzhaigou": {
+   "walk": {
+    "yt": "miANt-0LYdc",
+    "title": "China Jiuzhaigou Valley Scenic Area Walking Tour in 2022",
+    "channel": "Walk China - Driving Channel",
+    "date": "20221012",
+    "duration": 8021
+   },
+   "drive": {
+    "yt": "yywYsqfOJVg",
+    "title": "Drive to the Jiuzhaigou Shenxianchi Scenic Area and experience the magical 28 turns | 4K",
+    "channel": "China Street View",
+    "date": "20240311",
+    "duration": 3837
+   }
+  },
+  "huangshan": {
+   "walk": {
+    "yt": "OxGizlEpaQs",
+    "title": "Exploring 600-Year-Old Ancient Villages in Huangshan, China | Architectural Marvels#WalkingTour#4k",
+    "channel": "Roam China",
+    "date": "20260627",
+    "duration": 601
+   },
+   "drive": {
+    "yt": "Nb6CM2yyRQU",
+    "title": "4K POV Drive: Huangshan to Yinjiahui | Huangshan to Hefei Part 1 | Scenic Drive in South Anhui,China",
+    "channel": "POV Drive China 4K 行摄在旅途",
+    "date": "20260314",
+    "duration": 6430
+   }
+  },
+  "mount-tai": {
+   "drive": {
+    "yt": "9JkmtRpT7lY",
+    "title": "Driving Mount Tai's Secret and Ring Roads: Exploring Hidden Villages & Spots | 4K HDR",
+    "channel": "Walk China - Driving Channel",
+    "date": "20251121",
+    "duration": 6602
+   }
+  },
+  "emeishan": {
+   "walk": {
+    "yt": "Jute_kQsN-0",
+    "title": "Walk China 4K - Mount Emei - Top Tourist Attraction in Sichuan Walking Tour",
+    "channel": "Walk China - Driving Channel",
+    "date": "20230208",
+    "duration": 5450
+   },
+   "drive": {
+    "yt": "xd9rDs2Cruk",
+    "title": "Driving on a rural road in Mount Emei - Sichuan Province, China - 4K",
+    "channel": "China Street View",
+    "date": "20250811",
+    "duration": 5329
+   }
+  },
+  "tiger-leaping-gorge": {
+   "drive": {
+    "yt": "Jz-A2DWHB0Y",
+    "title": "Driving through Tiger Leaping Grand Canyon - one of China's most spectacular canyons - 4K",
+    "channel": "China Street View",
+    "date": "20251107",
+    "duration": 2906
+   }
+  },
+  "li-river": {
+   "walk": {
+    "yt": "WBp5aghnw4Y",
+    "title": "Yangshuo: The Most Beautiful Place in China【4K HDR】Li River Cruise | Guilin Walking Tour",
+    "channel": "Virtual Tours TV",
+    "date": "20250222",
+    "duration": 3505
+   },
+   "drive": {
+    "yt": "pXBwcGB0Mjs",
+    "title": "China’s Ultimate Valley Scenic Drive - Yangshuo Guilin 4K HDR",
+    "channel": "DT Roadscape",
+    "date": "20251128",
+    "duration": 3208
+   }
+  },
+  "kanas-lake": {
+   "walk": {
+    "yt": "yJF1N1R1Wzc",
+    "title": "Walk China 2024 - Xinjiang Kanas Scenery Spot Walking Tour - 4K HDR",
+    "channel": "Walk China - Driving Channel",
+    "date": "20241024",
+    "duration": 2122
+   },
+   "drive": {
+    "yt": "L68AFj3tjMI",
+    "title": "Xinjiang Kanas - Driving in The Most Scenic Area from Jiadengyu to Hemu",
+    "channel": "Walk China - Driving Channel",
+    "date": "20250105",
+    "duration": 3020
+   }
+  },
+  "qinghai-lake": {
+   "walk": {
+    "yt": "OWM3Y2HQKV0",
+    "title": "Walking Around Qinghai Lake | China's Famous \"Green Lake\" and \"Wonderland\" | 4K HDR | 青海湖",
+    "channel": "Walk East",
+    "date": "20210829",
+    "duration": 3821
+   },
+   "drive": {
+    "yt": "Z4cBxlm2ItY",
+    "title": "4K China Driving Tour - 320km 4 hours around Qinghai Lake",
+    "channel": "China Driving 车行中国",
+    "date": "20230323",
+    "duration": 15079
+   }
+  },
+  "namtso": {
+   "walk": {
+    "yt": "6UoHJZZUntI",
+    "title": "Tibet Scenic Walking 4K 10bit - A Walking Tour With Calming Music in the Highest Salt Lake Nam co",
+    "channel": "Walk China - Driving Channel",
+    "date": "20210306",
+    "duration": 1551
+   },
+   "drive": {
+    "yt": "l942czn6CsI",
+    "title": "Drive to the second largest lake in Tibet at an altitude of 4,718 meters - Namtso Lake - 4K",
+    "channel": "China Street View",
+    "date": "20240820",
+    "duration": 4304
+   }
+  },
+  "zhangye-danxia": {
+   "drive": {
+    "yt": "TTivoH8fWiU",
+    "title": "Zhangye Danxia Exploration: Driving Through Sunan’s Mystic Rural Road | 4K HDR",
+    "channel": "Walk China - Driving Channel",
+    "date": "20251127",
+    "duration": 1650
+   },
+   "walk": {
+    "yt": "-H-H133ejCo",
+    "title": "ZHANGYE GEOLOGICAL PARK | Part 1 Walking Tour | 4k | July 7th 2021",
+    "channel": "Urban Aboveground",
+    "date": "20210723",
+    "duration": 649
+   }
+  },
+  "hukou-waterfall": {
+   "walk": {
+    "yt": "gHOC0lyQMOM",
+    "title": "Walking tour of Hukou Waterfall of The Yellow River in Shaanxi, China",
+    "channel": "Walk China - Driving Channel",
+    "date": "20231223",
+    "duration": 1477
+   },
+   "drive": {
+    "yt": "lidnFkkanUs",
+    "title": "Driving on Yan-Hu Road from Downtown Yan'An to China's Famous Hukou Waterfall of the Yellow River",
+    "channel": "Walk China - Driving Channel",
+    "date": "20231013",
+    "duration": 9350
+   }
+  },
+  "detian-falls": {
+   "walk": {
+    "yt": "nZyiZMfUXYA",
+    "title": "The Insane Detian Waterfall: Walking In Chongzuo",
+    "channel": "Walk East",
+    "date": "20230818",
+    "duration": 13935
+   },
+   "drive": {
+    "yt": "sAVjuYdZKXs",
+    "title": "Incredible Detian Transnational Waterfalls - Do I Finally Find Pho? EV Road Trip In China Day 3",
+    "channel": "Eric G",
+    "date": "20220222",
+    "duration": 602
+   }
+  },
+  "fanjingshan": {
+   "walk": {
+    "yt": "Y0gA_X0gDys",
+    "title": "Fanjing Mountain in Guizhou Province - China Walking Tour | 貴州梵淨山",
+    "channel": "Walk China - Driving Channel",
+    "date": "20220906",
+    "duration": 6280
+   },
+   "drive": {
+    "yt": "4VuG7MTnpUs",
+    "title": "Driving on the Mount Fanjing Mountain Ring Road - Guizhou Province, China - 4K",
+    "channel": "China Street View",
+    "date": "20250513",
+    "duration": 3171
+   }
+  },
+  "longmen-grottoes": {
+   "walk": {
+    "yt": "MAG4BFUr0H8",
+    "title": "Longmen Grottoes Walking Tour, The Wonder of Over 100,000 Buddha Statues | Luoyang, China | 4K HDR",
+    "channel": "Walk East",
+    "date": "20210512",
+    "duration": 3618
+   },
+   "drive": {
+    "yt": "J4GzbJGBCnM",
+    "title": "Chinese New Year road trip: Day 6, Luoyan Grottoes ￼(4k龙门石窟)",
+    "channel": "Traveling Dad From China",
+    "date": "20230121",
+    "duration": 2856
+   }
+  },
+  "yungang-grottoes": {
+   "walk": {
+    "yt": "Uxkd5ki9RT8",
+    "title": "[4K China] World Heritage The Yungang Grottoes | Datong | 大同 云冈石窟 | China Walking Tour",
+    "channel": "China Walking Tour 漫游中国",
+    "date": "20230319",
+    "duration": 4294
+   }
+  },
+  "leshan-buddha": {
+   "walk": {
+    "yt": "0Wdw_WDOVtM",
+    "title": "Leshan Giant Buddha - Walking Tour - Sichuan, China - 4K",
+    "channel": "Jun",
+    "date": "20231123",
+    "duration": 1377
+   },
+   "drive": {
+    "yt": "YxI5pcbr-bA",
+    "title": "The Real City Behind the World’s Largest Buddha: Driving in Leshan | 4K HDR",
+    "channel": "Walk China - Driving Channel",
+    "date": "20260328",
+    "duration": 1620
+   }
+  },
+  "wudang-shan": {
+   "walk": {
+    "yt": "KWYMMoyNEdQ",
+    "title": "After snow, walk in Wudang Mountain. Experience Taoist culture. | ASMR | Noise | Wudang | FOV | 白噪音",
+    "channel": "Walking is Life | 漫步人生",
+    "date": "20230204",
+    "duration": 1973
+   },
+   "drive": {
+    "yt": "JflCPTtCzos",
+    "title": "Scenic Drive from Danjiangkou to Wudang Mountains 4K HDR - Hubei, China",
+    "channel": "DT Roadscape",
+    "date": "20251008",
+    "duration": 4993
+   }
+  },
+  "lhasa": {
+   "walk": {
+    "yt": "KiyJGbydvZs",
+    "title": "[4K HDR] Potala Palace | Lhasa Walking Tour | Tibet Walk | 2024",
+    "channel": "Just Silent Walk",
+    "date": "20240301",
+    "duration": 1327
+   },
+   "drive": {
+    "yt": "IhVAnug1oVw",
+    "title": "Drive on the altitude highest Expressway in the world - Lhasa to Nagqu - Tibet, China - 4K",
+    "channel": "China Street View",
+    "date": "20240818",
+    "duration": 10128
+   }
+  },
+  "shigatse": {
+   "walk": {
+    "yt": "IYtjpr31KB4",
+    "title": "藏族人口超過93%，體驗神秘西藏，漫步中國西藏第二大城市日喀則最熱鬧的街道| 4k Walking in Shigatse, Xizang, China",
+    "channel": "Walking in China ",
+    "date": "20231118",
+    "duration": 2359
+   },
+   "drive": {
+    "yt": "Z_p5fIXposE",
+    "title": "Journey Through Tibet: Driving The Stunning G318 Highway From Lhatse To Shigatse In China",
+    "channel": "Walk China - Driving Channel",
+    "date": "20240212",
+    "duration": 6030
+   }
+  },
+  "victoria-peak": {
+   "walk": {
+    "yt": "nqMO1YhW07o",
+    "title": "🇭🇰 Hong Kong Walking Tour China in 4K Video. Explore from the Avenue of Stars to The Peak",
+    "channel": "Edu Thomas",
+    "date": "20231125",
+    "duration": 6624
+   },
+   "drive": {
+    "yt": "tgJW3H-nS_U",
+    "title": "【Drive in Hong Kong 4K】Victoria Peak via Magazine Gap Rd | 山頂 - 馬己仙峽道 | ASMR | May 2023",
+    "channel": "Extremmy's MicroUniverse",
+    "date": "20230602",
+    "duration": 915
+   },
+   "live": {
+    "yt": "KJjencbS-zs",
+    "title": "🔴【LIVE】 Hong Kong's ONLY 24/7 LIVE camera from The Peak with Relaxing Music BGM 24/7 實景直播 抒情背景音樂🎧 2026-08-01 21:30",
+    "verified": "2026-08-02"
+   }
+  },
+  "tsim-sha-tsui": {
+   "walk": {
+    "yt": "7Y4ij6y4sCU",
+    "title": "Tsim Sha Tsui, Hong Kong - Walk Through the Heart of Hong Kong 4K Walking Tour",
+    "channel": "Walking Expedition",
+    "date": "20250422",
+    "duration": 4469
+   },
+   "drive": {
+    "yt": "i_gtzcoxpjg",
+    "title": "Hong Kong 4K - Afternoon Drive - Tsim Sha Tsui | 梳士巴利道 廣東道 加拿分道 加連威老道",
+    "channel": "HK 4K",
+    "date": "20210628",
+    "duration": 2913
+   }
+  },
+  "mong-kok": {
+   "walk": {
+    "yt": "5m85H2BBUMQ",
+    "title": "4K MONG KOK NEIGHBORHOOD WALKING TOUR. EXPLORING THIS DENSELY CROWDED AREA OF KOWLOON HONG KONG",
+    "channel": "Sunset and Dreams",
+    "date": "20250605",
+    "duration": 1448
+   },
+   "drive": {
+    "yt": "5-msNRBL80Q",
+    "title": "4k Day Drive | Mong Kok - Hong Kong",
+    "channel": "KZR Entertainment",
+    "date": "20221021",
+    "duration": 1148
+   }
+  },
+  "sham-shui-po": {
+   "walk": {
+    "yt": "Pban5h2-99Y",
+    "title": "📍Hong kong Chinese New Year Market 2026 - Sham Shui Po | 4k Walking Tour #hongkong #walkthrough",
+    "channel": "jWalk TV",
+    "date": "20260207",
+    "duration": 2121
+   },
+   "drive": {
+    "yt": "6zf84mESb5A",
+    "title": "4K Hong Kong Afternoon Drive Sham Shui Po to Central | Cross Harbour Tunnel | Kowloon to Hong Kong",
+    "channel": "City Videography",
+    "date": "20230829",
+    "duration": 928
+   }
+  },
+  "sai-kung": {
+   "walk": {
+    "yt": "h5omF9M0jcc",
+    "title": "Walking Tour | Sai kung, New Territories, Hong Kong | 4K Walk #西貢 #saikung #hongkong4k #topbunwalks",
+    "channel": "TopBun",
+    "date": "20241219",
+    "duration": 1836
+   },
+   "drive": {
+    "yt": "SxtODg62u8U",
+    "title": "4K Driving Tour in Hong Kong - from Canal Road Flyover 堅拿道天橋 to Sai Kung 西貢",
+    "channel": "Hong Kong Wandering TV",
+    "date": "20220718",
+    "duration": 2138
+   }
+  },
+  "tai-o": {
+   "walk": {
+    "yt": "IBNZdFO78ZE",
+    "title": "Walking Tour in Tai O, Hong Kong [4K HDR]",
+    "channel": "Walker HK",
+    "date": "20210722",
+    "duration": 1500
+   }
+  },
+  "cheung-chau": {
+   "walk": {
+    "yt": "yfOD142i8KI",
+    "title": "HONG KONG Day Trip: Cheung Chau Island Walking Tour 🇭🇰 | Street Food, Market & Beach [4K HDR]",
+    "channel": "In and Around",
+    "date": "20250919",
+    "duration": 2999
+   },
+   "live": {
+    "yt": "BEo6iGXiFXI",
+    "title": "【Nature Sound 🔊】Hong Kong City Scape Live Camera - Ap lei chau South Horizons 香港市景即時影像 - 鴨脷洲海怡半島 2026-08-01 21:33",
+    "verified": "2026-08-02"
+   }
+  },
+  "lamma-island": {
+   "walk": {
+    "yt": "u5kU3JAt9gM",
+    "title": "Lamma Island, Hong Kong Walking Tour [4K HDR]",
+    "channel": "Walker HK",
+    "date": "20210730",
+    "duration": 960
+   }
+  },
+  "big-buddha-lantau": {
+   "walk": {
+    "yt": "7jp7c1yVmro",
+    "title": "HongKong Big Buddha & Ngong Ping Village | 4K walking Tour @AselaAsr #Bigbuddha #ngongping360",
+    "channel": "HK.UNSCRIPTED",
+    "date": "20260520",
+    "duration": 2531
+   }
+  },
+  "macau": {
+   "walk": {
+    "yt": "AcVwLeYIgYk",
+    "title": "Macau — Taipa Village Walking Tour【4K】",
+    "channel": "Virtual Tours TV",
+    "date": "20230923",
+    "duration": 1244
+   },
+   "drive": {
+    "yt": "7l3D8wYA9hY",
+    "title": "[4K] Driving Macau: A TOUR OF TAIPA",
+    "channel": "Macau Sidetracked",
+    "date": "20211021",
+    "duration": 1107
+   },
+   "live": {
+    "yt": "K79E6JnKOGA",
+    "title": "🔴 LIVE | Explore Macau Live TV 🇲🇴 | Macau Night Views & City Walks, Macau street food, 마카오 여행 2026-08-01 21:37",
+    "verified": "2026-08-02"
+   }
+  },
+  "taipa-village": {
+   "walk": {
+    "yt": "gyKQeifg58o",
+    "title": "Macau Walking Tour | Taipa Village Hidden Streets (Secret Route) 4K HDR",
+    "channel": "World Walks with Lucie",
+    "date": "20260313",
+    "duration": 1207
+   },
+   "drive": {
+    "yt": "6dre71Z4Vp0",
+    "title": "Driving Macau Roads [4K] Downtown Taipa, Airport & Taipa Village",
+    "channel": "Macau Sidetracked",
+    "date": "20230502",
+    "duration": 1364
+   }
+  },
+  "coloane": {
+   "walk": {
+    "yt": "YTVscWbGz3o",
+    "title": "Coloane Walking Tour 4K HDR – Hidden Gems of Macau (October 2025)",
+    "channel": "World Walks with Lucie",
+    "date": "20251024",
+    "duration": 1874
+   },
+   "drive": {
+    "yt": "u1SBJMviiQg",
+    "title": "Driving Macau Roads [4K] Taipa, Cotai, Coloane & the Beach",
+    "channel": "Macau Sidetracked",
+    "date": "20230314",
+    "duration": 895
+   }
+  },
+  "churchill": {
+   "walk": {
+    "yt": "9BnaEaw5NeQ",
+    "title": "🇨🇦 [4K] Toronto Walk - Yonge Street, Drewry to Churchill",
+    "channel": "1NFIN8",
+    "date": "20260323",
+    "duration": 1101
+   }
+  },
+  "namib-desert-waterhole": {
+   "window": {
+    "yt": "ydYDqZQpim8",
+    "title": "Namibia: Live stream in the Namib Desert 2026-08-01 22:28",
+    "verified": "2026-08-02"
    }
   }
  }
