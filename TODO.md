@@ -123,6 +123,206 @@ dropped in v2 — resurrect from git if missed); satellite descend-from-orbit.
 
 ## Recently landed (so it isn't re-litigated)
 
+- **🏞️ The Grand River watershed — 19 places + a trip (2026-08-01):** every Grand
+  River Conservation Area is now a place (`canada.json` 17 → 36), Luther Marsh at
+  the source down to Byng Island at Lake Erie, with facts taken from GRCA's own
+  property pages. 🏞️ **The Grand River Run** walks all 21 in river order, source to
+  mouth, 274 km as the crow flies. Where GRCA owns something Wikipedia has never
+  heard of, `wikipedia_slug` points at the **containing** settlement or watercourse
+  (same precedent as `big-bear-eagles → Big_Bear_Lake,_California`) and never at a
+  namesake elsewhere — Wikipedia's "Pinehurst Lake" is in **Alberta**, so Ontario's
+  kettle lake points at `County_of_Brant`. Enrichment got a scene for **6 of the
+  21 stops** (Elora Gorge, Elora Quarry, Snyder's Flats, Guelph Lake, Hanlon
+  Creek, and the Grand River itself); the other **15** returned **nothing
+  verifiable**, most of them twice. Small Ontario conservation areas mostly aren't
+  on YouTube in a form that passes the vetter. That is the honest gap working;
+  don't re-run those hoping.
+
+  Four of those gaps were *scenes that got deleted later the same night* — the
+  vetting overhaul below found them borrowing footage from whatever was nearby.
+  Apps' Mill was showing Papermill Lake in **Halifax, Nova Scotia**; Brant was
+  showing a **Brantford** city walk and an **Elora** day-trip drive matched on
+  nothing but the word "conservation"; Luther Marsh had the same Elora video.
+  Refills found nothing honest. Expect this corner of the map to stay thin.
+
+- **🇨🇳 China, properly — 111 new places (2026-08-01):** `asia.json` 79 → 190, and
+  China alone is now 117 places. The six we had (Beijing, Shanghai, Badaling,
+  Xi'an, Guilin, Hong Kong) were name-and-coordinate **skeletons** — empty
+  `blurb`, empty `fun_fact`, empty `highlights`, null `hidden_gem_tip` — and are
+  filled. New: the tier-one four, the "new first-tier" cities (Chengdu, Hangzhou,
+  Wuhan, Xi'an, Chongqing, Suzhou…), tier-2 and tier-3/4 cities, the water towns
+  (Wuzhen, Zhouzhuang, Xitang, Tongli), rural China (Hongcun, Xidi, Wuyuan,
+  Zhaoxing, Xijiang, Chengyang, Cuandixia, Shaxi, Longji and Yuanyang terraces,
+  Hemu, Jiaju, Yubeng), the big nature (Zhangjiajie, Jiuzhaigou, Huangshan, Tai,
+  Emei, Tiger Leaping Gorge, Kanas, Qinghai Lake, Namtso, Rongbuk, Zhangye Danxia,
+  Hukou, Detian, Fanjingshan, Li River), the grottoes (Mogao, Longmen, Yungang,
+  Leshan, Wudang), Tibet (Lhasa, Shigatse), **ten Hong Kong** districts and
+  outlying islands (Victoria Peak, TST, Mong Kok, Sham Shui Po, Sai Kung, Tai O,
+  Cheung Chau, Lamma, Tai Mo Shan, Tian Tan Buddha) and **Macau** (plus Taipa and
+  Coloane). Rules that cost time to work out are in README → *Filling a region
+  out*: **Wikidata P625, never an OSM administrative centroid** (OSM's "Chongqing"
+  node is ~200 km out in the rural east); every slug checked live and stored
+  **canonical**, because `arrivalPhoto()` omits `redirects=1` so a redirect slug
+  silently loses the card photo; **city tiers stay in the prose, hedged** — there
+  is no government tier list, it's a business magazine's yearly ranking, and a
+  `tier:` field would read as official. Hong Kong and Macau keep `country: China`
+  because the pre-existing `hong-kong` entry already did.
+
+- **🚄 Two trip changes off the back of it (2026-08-01):** the Silk Road jumped
+  Samarkand straight to Xi'an because the entire Chinese corridor was missing; it
+  now runs Kashgar → Turpan → Dunhuang → Mogao → Jiayuguan → Zhangye Danxia →
+  Lanzhou (10 → 17 stops). New 🚄 **The Middle Kingdom Line**, the first-timer's
+  rail route, Beijing round to Shanghai, 17 stops / 4,911 km. Atlas totals:
+  **507 places · 94 countries · 18 trips.**
+
+- **🔍 The China sweep finished, and broke the vetter open (2026-08-01, overnight):**
+  all 117 China places have been swept. Watching that batch — the biggest the
+  vetter had ever faced — turned up a **systemic** bug, not a handful of bad
+  videos, so the fix went into the shared rules and then ran back over all 507
+  places. `prune_media.py` exists for exactly this: rules get stricter, and
+  `media.json` is a checkpoint, so a pick made under looser rules lives forever
+  unless something re-applies today's rules to yesterday's data.
+
+  The root cause: `mentions_place` matched a place on **any** word of its name
+  over three letters, by substring. So `mount` won Mount Tai a Greek monastery,
+  `river` won Li River the Yellow River, `island` won car-free Lamma Island a
+  Hong Kong Island drive, and `brant` — inside "**Brant**ford" — won Brant
+  Conservation Area a walk through the city next door. Now only tokens outside
+  `GENERIC_TOKENS` count; tokens under six letters must match whole words, longer
+  ones may still match loosely because cam operators write "SedonaLiveCam.com".
+
+  Seven more guards came out of the same pass, each named in README's guard
+  table with the video that earned it: **Canadian provinces** (`Ross Bay,
+  Victoria BC` was Victoria Peak's window — and no comma is required, Canadians
+  write "Victoria BC" bare), **lottery studios** (`LIVE DRAW TOTO MACAU`),
+  **`abandoned`/`urbex`** (a Nanchang urbex video as its driving tour),
+  **`city_tour_of_the_wild`** (Zhangye's streets for the geopark outside town),
+  **`music_loop_not_a_cam`** (a chill-music loop spanning Amalfi *and* Lake Como,
+  700 km apart, as Amalfi's live seat), **possessive apostrophes** (`Mallorca's`
+  searched for `mallorcas`, so the Balearics had been losing genuine Mallorca
+  footage), and the big one — **`INHERITS_HIGHLIGHTS`**.
+
+  That last one closes the hole the previous handoff left open. A place used to
+  be able to match on any of its own `highlights`, which regions genuinely need
+  (Catalonia is only ever filmed as Barcelona), but a *site* whose highlights
+  list the nearby city was quietly borrowing that city's footage. Nothing in the
+  data separates the two cases — `type` calls both `catalonia` and
+  `zhangye-danxia` `nature`, and `region` is administrative, so the French
+  Riviera's says "Provence-Alpes-Côte d'Azur" — so it is now an **explicit list**
+  of 21 container ids. Leaving an id out costs a scene; putting a wrong one in
+  ships a lie, so when in doubt leave it out. Four good picks the rule would have
+  cost were kept by adding the uploader's spelling to `ALIASES` instead (`Nam co`,
+  `爨底下`, `Fanjing`).
+
+  **13 scenes were deleted** across the corpus, several of them long-standing and
+  invisible until now: Cusco's live cam was *"Plaza de Armas de Querétaro en
+  vivo"* — **Mexico**, 5,000 km away, on a plaza name half of Latin America
+  shares. Apps' Mill's walk was Papermill Lake in **Halifax, Nova Scotia**.
+  Antelope Canyon's live was a **Lake Powell marina**. Refilling recovered three
+  (Longmen Grottoes a drive, Churchill a walk, Namib a window); the other ten are
+  honest gaps now. `prune_media.py` reports **0 drops** and the whole corpus
+  passes.
+
+  All of it is frozen in **`tools/test_vetting.py`** — 44 cases, no network, run
+  it in a second. Every `want=False` is a scene that actually shipped; every
+  `want=True` is honest footage some rule refused until it was loosened
+  correctly. Run it after touching any regex in `enrich_media.py`, because the
+  rules only ever get stricter and each tightening is one character away from
+  killing good picks (this pass alone produced four false-positive rounds before
+  it settled — `Kauaʻi`, `SedonaLiveCam.com`, Malta's "chilling by night", and a
+  Hukou drive that merely starts downtown).
+
+- **🏛️ The monument pass ran, and 69 of its tabs were not monuments (2026-08-02):**
+  `enrich_monuments.py --per-city 3` finished over all 118 China places and added
+  337 tabs in ~45 min. Reviewing them found the run had been spending highlights
+  that name no object at all, because `candidate_landmarks()` searches every
+  `highlight` and the China highlights are written for the *blurbs* — they carry
+  people, dishes, dynasties, ethnic groups and species next to the buildings.
+  Each of those categories shipped a specific lie:
+
+  | Tab | What it actually showed |
+  |---|---|
+  | foshan / Ip Man | `Ip Man (2008) — Foshan's masters challenge Jin [4k]`, a feature film |
+  | haikou / Hainanese chicken rice | a food walk in **Singapore** (Somerset → Tiong Bahru) |
+  | changchun / Manchukuo | `Manchukuo (1938)`, archival propaganda footage |
+  | wudang-shan / Tai chi | `40 MIN FULL BODY TAI CHI WARM-UP AND QI GONG PRACTICE` |
+  | urumqi / Uyghurs | a vlog episode about an ethnic group |
+  | nanchang / Siberian crane | a news package on a migration route |
+  | langzhong / Sichuan | Yuantong Market Town, a different town 250 km away |
+  | shenyang / Manchuria | the Changbai Mountains, ~300 km away |
+
+  Fixed at the source rather than by hand. `NOT_A_MONUMENT` grew from four lines
+  to cover peoples, dishes, beliefs, eras, species, landform *classes* and trade
+  routes; a new `is_a_region()` rejects any highlight that names a country,
+  province or region, filled from the corpus itself so it needs no per-country
+  list. `BAD_MONU` now also catches `(YYYY)` film titles, `NN min` workouts, news
+  wires and compilations. **69 tabs deleted** (637 auto + 48 curated remain across
+  301 places), and `prune_monuments.py` now reports 0.
+
+  Two things this exposed that are worth keeping in mind. `find_monument()` has
+  returned a `title` all along and the caller **dropped it**, so unlike a media
+  seat a monument tab could not be re-vetted offline — the review had to re-fetch
+  from YouTube to learn what had shipped. It is stored now. And the name rules
+  are the strong ones: a landmark that is a dish or a province has no honest
+  video *whatever the search returns*, which is why they run before the title
+  rules and need no network.
+
+- **🔎 The title backfill ran, and the false positives were mine (2026-08-02):**
+  all 637 titles fetched and stored, 0 dead videos. The title rules then flagged
+  **10** — and only 3 were real. The other 7 were the new rules overreaching, and
+  each one is a lesson about where a rule belongs:
+
+  - **`\(\d{4}\)` anywhere is a terrible film detector.** Uploaders stamp the
+    upload year in parens constantly, so it killed Macau's "SENADO Square Walking
+    Tour (2023)" and Pyongyang's "INSIDE Ryugyong Hotel … (2021)", both perfect.
+    A film puts the year *at the front* — `^.{0,20}\(\d{4}\)` catches "Ip Man
+    (2008)" and nothing honest.
+  - **Rejecting people would have been worse than the disease.** Of the 8
+    person-named tabs, 6 show a real site named after them: Lu Xun's native
+    place, Foshan's Yip-man museum, Tashilhunpo. A blanket person rule trades
+    six honest tabs for one film. A *deity* rule is fair game though — Leshan's
+    "Maitreya" tab was Vihara Maitreya in **Indonesia**.
+  - **`episode`/`NN min`/`practice`/`scene` were all too broad** and are gone.
+
+  Chasing the last false positive found **two real bugs that predate all of this
+  and affected media seats too**:
+
+  1. **Six US places had an empty `region`** — the Route 66 additions from
+     2026-07-18 (Tulsa, Oklahoma City, Amarillo, Albuquerque, Flagstaff, Santa
+     Monica Pier). `wrong_place_title` compares a title's state against
+     `place["region"]`, so for those six the own-state exemption was simply dead.
+     Filled in.
+  2. **`mexico-city` reduces to the single token `mexico`** (because "city" is
+     generic), so *any* title containing **"New Mexico"** read as a video of
+     Mexico City, 1,600 km from Albuquerque. `wrong_place_title` already guarded
+     the country loop against the literal string "new mexico" — the place loop
+     one block earlier had the same bug and no guard. The fix has to stay
+     asymmetric: "New Mexico" is not Mexico, but "New York" *is* New York City
+     (`new-york-city` reduces to `york`), so a place may be found inside a
+     "New <token>" phrase only if its own name starts with "New". Six cases are
+     frozen in `test_vetting.py` (50 cases total now).
+
+  Also collapsed the five copies of the gazetteer-loading dance into
+  `em.register_place()`. It had been duplicated in `enrich_media`,
+  `enrich_monuments`, `prune_media`, `prune_monuments` and `test_vetting`, which
+  is exactly how `NEW_NAMED` would have ended up loaded in one of them and
+  silently missing from the other four.
+
+  **Final state: 4 more tabs dropped, 633 auto + 48 curated across 301 places.**
+  `prune_monuments.py` 0, `prune_media.py` 0, `test_vetting.py` 50/50,
+  `check_trips.py` 18 trips all resolving, every `data/*.json` valid.
+
+  Three traps, all still live. **Never run `enrich_monuments.py` while
+  `enrich_media.py` is running** — both rewrite whole JSON files, so the second
+  to finish wins and the other's work is gone. **`pgrep -f "tools/foo.py"` matches
+  the waiting shell's own command line**, so `until ! pgrep -f …` waits forever on
+  a process that exited an hour ago; wait on the PID with `kill -0 "$PID"`.
+  Redirected output block-buffers, so pass `PYTHONUNBUFFERED=1` or the log stays
+  empty for the whole run.
+
+  Everything from 2026-08-01/02 landed in one commit, deployed via the
+  git-connected Vercel project.
+
 - **🗺️ 13 places + the Gringo Trail (2026-07-18):** Cusco and Machu Picchu (Peru
   had only two `ancient.json` sites and no cities at all), Route 66's missing
   middle (Tulsa, Oklahoma City, Amarillo, Albuquerque, Flagstaff, Santa Monica

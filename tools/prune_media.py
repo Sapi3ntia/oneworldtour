@@ -50,6 +50,8 @@ def reason_to_drop(place, seat, entry, network=False):
     if seat in ("live", "window"):
         if em.AGGREGATOR_CAM.search(title):
             return "multi-city rotator, not this place"
+        if em.music_loop_not_a_cam(title):
+            return "scenery under a music bed, not a camera"
         if not em.nature_place(place) and em.WILDLIFE_CAM.search(title):
             return "wildlife/nest cam, not a view of the place"
     if seat in em.NIGHT_SEATS and title:
@@ -62,6 +64,14 @@ def reason_to_drop(place, seat, entry, network=False):
         # the mirror rule, and the one that was missing: a day seat has
         # to be daylight, or "Midnight Drive" ships as the Driving tour
         return "day seat, but the title says it's shot at night"
+    # the subject guards the enricher applies at search time, re-applied here
+    # so a pick made before a guard existed doesn't outlive it
+    if seat in ("walk", "night_walk") and title and em.BAD_WALK.search(title):
+        return "not a walk"
+    if seat in ("drive", "night_drive") and title and em.BAD_DRIVE.search(title):
+        return "not a drive"
+    if title and em.city_tour_of_the_wild(title, place):
+        return "a city tour, offered as a wild place's scene"
     if title and not em.mentions_place(title, place):
         return "title never names the place"
     if title and em.wrong_place_title(title, place):
@@ -89,8 +99,8 @@ def main():
     media = json.load(open(MEDIA))
     places = {p["id"]: p for p in em.load_places()}
     for p in places.values():
-        c = p.get("coordinates") or {}
-        em.OTHER_PLACES[p["id"]] = (em.name_tokens_of(p), c.get("lat", 0), c.get("lng", 0))
+        em.register_place(p)
+        em.OTHER_PLACE_NAMES.add(em.norm(p["name"]))
         em.COUNTRY_NAMES.add(em.norm(p.get("country") or ""))
 
     dropped = 0

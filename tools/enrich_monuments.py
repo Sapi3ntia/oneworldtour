@@ -72,7 +72,27 @@ BAD_MONU = re.compile(
     r"minecraft|roblox|\bgta\b|assassin'?s creed|unreal engine|"
     r"ai[\s-]generated|midjourney|animation|3d model|blender|"
     r"how to|tips|guide to|cheap|budget|scam|worst|avoid|"
-    r"drone crash|accident|fire\b|collapse|protest|closed\b", re.I)
+    r"drone crash|accident|fire\b|collapse|protest|closed\b|"
+    # A feature film, identified by a release year in parens RIGHT AT THE FRONT
+    # — "Ip Man (2008) - Foshan's masters challenge Jin". A bare "\(\d{4}\)"
+    # anywhere is far too broad: uploaders stamp the upload year at the end
+    # constantly, and that first draft threw out Macau's "SENADO Square Walking
+    # Tour (2023)" and Pyongyang's "INSIDE Ryugyong Hotel ... (2021)", both
+    # perfect tabs. Position is what separates a title from a timestamp.
+    #
+    # Rejecting the person instead was the other candidate and it is worse: of
+    # the eight person-named tabs, six show a real site named after them — Lu
+    # Xun's native place, Foshan's Yip-man museum, Tashilhunpo. A blanket rule
+    # would delete six honest tabs to catch this one film.
+    r"^.{0,20}\(\d{4}\)|\bfull film\b|\btrailer\b|\bost\b|"
+    # a workout, not a place: "40 MIN FULL BODY TAI CHI WARM-UP AND QI GONG"
+    r"workout|warm-?up|tutorial|lesson|"
+    # a news package. "GLOBALink | From Russia to China, a thousands-mile
+    # journey of Siberian cranes" is journalism about a migration route, and
+    # the same wire gave Dalian a piece about seals instead of the Bohai Sea.
+    r"globalink|\bcgtn\b|\bxinhua\b|\breuters\b|\bap archive\b|"
+    # a compilation spans places by definition, so none of them is the tab
+    r"compilation", re.I)
 
 # Words that carry no identity — "the Tower of London" is identified by
 # "london"+"tower", but "national"/"park" alone identify nothing.
@@ -85,11 +105,63 @@ LM_STOP = {
 
 # Landmark names that are not filmable objects — an event, a people, a
 # habitat, an era. Searching these returns mood footage, not a monument.
+#
+# The first four lines were written against the pre-China corpus and were far
+# too narrow for it. `candidate_landmarks()` spends every `highlight` as a
+# search term, and the China highlights are written for the blurbs, so they
+# carry people, dishes, dynasties and species alongside actual buildings. The
+# 2026-08-01 run turned each of those into a tab, and each category earned its
+# line here by shipping a specific lie:
+#
+#   Ip Man (person)          → "Ip Man (2008) — Foshan's masters challenge Jin"
+#   Manchukuo (era/state)    → "Manchukuo (1938)", archival propaganda footage
+#   Tai chi (practice)       → "40 MIN FULL BODY TAI CHI WARM-UP AND QI GONG"
+#   Uyghurs (a people)       → "The REAL Life of Uyghurs in China | S3, EP11"
+#   Siberian crane (species) → a news package on a migration route
+#   Hainanese chicken rice   → a food walk in SINGAPORE, filed under Haikou
+#
+# A monument tab is a look at a thing that stands somewhere. None of these
+# stand anywhere, so no video of them can be the honest one.
 NOT_A_MONUMENT = re.compile(
     r"^(mardi gras|carnival|oktoberfest|ramadan|diwali|hogmanay)$|"
     r"savanna|savannah$|ecosystem|habitat|biome|watershed|"
     r"^(first nations|six nations|indigenous|aboriginal)|"
-    r"cuisine|gastronomy|festival|nightlife|shopping|culture$", re.I)
+    r"cuisine|gastronomy|festival|nightlife|shopping|culture$|"
+    # a people, named either way round
+    r"\bpeople$|^(uyghurs?|tuvans?|kazakhs?|tanka|hakka|miao|bai|tujia)$|"
+    # a dish, a drink, a crop, a craft — filmable, but not in one place
+    r"\b(noodles?|rice|tea|wine|beer|dumplings?|porcelain|silk|"
+    r"rapeseed|dyeing|embroidery|calligraphy)$|"
+    # a belief, a practice, a discipline, a text
+    r"^(taoism|daoism|buddhism|confucianism|islam|shinto|tai ?chi|qi ?gong|"
+    r"kung ?fu|kora|feng ?shui)$|\bsutra$|"
+    # "Gandhara art" is a style; "Philadelphia Museum of Art" is a building on
+    # a hill with steps, so only the bare two-word form counts as a style here.
+    r"^\S+ art$|\barchitecture$|"
+    # a deity is not a building, and every country that venerates one has a
+    # temple to it: Leshan's "Maitreya" tab was Vihara Maitreya in Medan,
+    # INDONESIA. (A person can stay — see the note in BAD_MONU.)
+    r"^(maitreya|guanyin|avalokitesvara|amitabha|bodhisattva)$|"
+    # an era, a dynasty, a vanished state
+    r"\b(dynasty|empire|kingdom|era|period)$|^(manchukuo|manchuria|"
+    r"northern wei|western xia)$|"
+    # a species. "Crane" alone is a machine, so require the qualified form.
+    r"\b(crane|goose|dolphin|turtle|panda|leopard|macaque|ibis|"
+    r"antelope|gazelle|yak)$|"
+    # a landform CLASS, not a landform: "Danxia landform" is a category that
+    # Zhangye is an instance of, and the instance already has its own entry.
+    r"\b(topography|landform|steppe|plateau|taiga|tundra|delta)$|"
+    r"^(sea of clouds|rice terraces|stilt houses|covered corridors)$|"
+    # an economic or administrative abstraction, and the trade routes, which
+    # are thousands of km long and so are nowhere in particular
+    r"^(special economic zone|.*\bexpo)$|"
+    r"^(silk road|maritime silk road|tea horse road|karakoram highway)$",
+    re.I)
+
+
+# Every country / province / region any place declares — filled in main(),
+# read by is_a_region(). A name in here describes an area, not a monument.
+ADMIN_AREAS = set()
 
 
 def lm_tokens(name):
@@ -187,6 +259,28 @@ def find_monument(place, name, exclude):
 SELF_MONUMENT_TYPES = {"ruin", "history", "natural"}
 
 
+def is_a_region(loc, key):
+    """True if this landmark name is an administrative area, not a thing in one.
+
+    Filled from the corpus itself in main(), so it needs no country-specific
+    list: every `country`, `province` and `region` any place declares lands in
+    ADMIN_AREAS. Searching one of these gets you footage of somewhere the size
+    of a country, filed under one city inside it — Langzhong's "Sichuan" tab
+    was a market town near Chengdu, 250 km away, and Cuandixia's "Beijing" tab
+    was a survey of hidden villages across the whole municipality.
+
+    A place's OWN names count too: Macau's "Macau" tab is a Macau montage, not
+    a monument. That costs the occasional lucky hit — Detian Falls' "Vietnam"
+    tab really was the Ban Gioc/Detian border waterfall — but the falls are
+    the place itself, so nothing true is lost.
+    """
+    if key in ADMIN_AREAS:
+        return True
+    own = (loc.get("country"), loc.get("province"),
+           loc.get("region"), loc.get("_region"))
+    return key in {em.norm(v) for v in own if v}
+
+
 def candidate_landmarks(loc):
     """Landmark names worth searching, best first."""
     out, seen = [], set()
@@ -200,6 +294,8 @@ def candidate_landmarks(loc):
         if key == em.norm(loc.get("name") or ""):
             continue                               # the city isn't its own monument
         if NOT_A_MONUMENT.search(name) or not lm_tokens(name):
+            continue
+        if is_a_region(loc, key):
             continue
         seen.add(key)
         out.append(name)
@@ -240,9 +336,11 @@ def main():
 
     # the wrong-place guard needs the whole gazetteer loaded
     for _, loc in places:
-        c = loc.get("coordinates") or {}
-        em.OTHER_PLACES[loc["id"]] = (em.name_tokens_of(loc), c.get("lat", 0), c.get("lng", 0))
-        em.COUNTRY_NAMES.add(em.norm(loc.get("country") or ""))
+        em.register_place(loc)
+        for v in (loc.get("country"), loc.get("province"),
+                  loc.get("region"), loc.get("_region")):
+            if v:
+                ADMIN_AREAS.add(em.norm(v))
 
     todo = []
     for f, loc in places:
@@ -279,10 +377,15 @@ def main():
             if not hit:
                 continue
             used.add(hit["yt"])
-            # keep the height so a future sweep can audit picks by quality —
-            # without it there is no way to find blurry tabs except re-querying
-            mons.append({"name": hit["name"], "yt": hit["yt"],
-                         "start": 0, "source": "auto", "height": hit["height"]})
+            # Keep the height so a future sweep can audit picks by quality, and
+            # the title so it can audit them for HONESTY. find_monument() has
+            # returned a title all along and this line dropped it, so the whole
+            # monument set was unauditable offline: prune_media.py can re-vet a
+            # media seat from disk, but the 2026-08-01 China run had to be
+            # re-fetched from YouTube, 706 calls, to find out what it had shipped.
+            mons.append({"name": hit["name"], "yt": hit["yt"], "start": 0,
+                         "source": "auto", "title": hit.get("title", ""),
+                         "height": hit["height"]})
             found.append(f"{hit['name']}({hit['height']}p)")
             room -= 1
             added_total += 1

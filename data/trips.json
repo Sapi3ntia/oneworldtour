@@ -281,6 +281,87 @@
       ]
     },
     {
+      "id": "middle-kingdom",
+      "name": "The Middle Kingdom Line",
+      "emoji": "🚄",
+      "mode": "rail",
+      "region": "China",
+      "days": "4–6 weeks",
+      "hero": "li-river",
+      "tagline": "Beijing to Shanghai the long way round, on the biggest high-speed rail network ever built.",
+      "blurb": "China has laid more high-speed track than the rest of the world combined, and it has quietly turned the country into a single joined-up trip: 300 km/h between the old capitals, sleeper trains where the fast line hasn't reached, and a booking app that speaks English. This is the route most first-timers end up on, in the order the map suggests — the north first while it is cool, the karst country in the middle, the delta cities last.",
+      "stops": [
+        {
+          "id": "beijing",
+          "note": "Start at the centre. Give it four days: the Forbidden City takes one on its own."
+        },
+        {
+          "id": "great-wall-at-badaling",
+          "note": "A day trip north. Badaling is the restored, crowded, easy one — go early or go to Mutianyu instead."
+        },
+        {
+          "id": "datong",
+          "note": "West into Shanxi for the Yungang grottoes and the Hanging Temple, which most itineraries skip."
+        },
+        {
+          "id": "pingyao",
+          "note": "The complete Ming walled city, still lived in. Sleep inside the walls in a courtyard inn."
+        },
+        {
+          "id": "xi-an",
+          "note": "South to the old Tang capital, the Terracotta Army, and the best late-night eating in the north."
+        },
+        {
+          "id": "chengdu",
+          "note": "The high-speed line through the Qinling mountains gets you here in three hours. Pandas, teahouses, and the hottest food in China."
+        },
+        {
+          "id": "chongqing",
+          "note": "Downstream. A mountain city stacked in layers, and the place the Yangtze boats leave from."
+        },
+        {
+          "id": "zhangjiajie",
+          "note": "East into Hunan for the sandstone pillars — the one detour on this route worth the awkward connection."
+        },
+        {
+          "id": "guilin",
+          "note": "South into the karst. The city itself is a staging post, and a good one."
+        },
+        {
+          "id": "li-river",
+          "note": "The reason you came south: eighty kilometres of river between limestone towers."
+        },
+        {
+          "id": "yangshuo",
+          "note": "Get off the boat and stay. Bicycles, the Yulong river, and rock climbing on the towers themselves."
+        },
+        {
+          "id": "longji-terraces",
+          "note": "Two hours north-west into the Yao and Zhuang villages, where the hills are terraced to the summit."
+        },
+        {
+          "id": "hong-kong",
+          "note": "Direct high-speed to West Kowloon. A different system, a different currency, and the best transport in Asia."
+        },
+        {
+          "id": "xiamen",
+          "note": "Back over the border and up the coast. Gulangyu island and the first treaty-port architecture."
+        },
+        {
+          "id": "hangzhou",
+          "note": "North to the West Lake, which Chinese poetry has been about for a thousand years."
+        },
+        {
+          "id": "suzhou",
+          "note": "Half an hour further. Canals, and the gardens that defined the form."
+        },
+        {
+          "id": "shanghai",
+          "note": "Finish on the Bund, looking at the other bank. Twenty minutes to the airport on the maglev."
+        }
+      ]
+    },
+    {
       "id": "grand-circle",
       "name": "The Grand Circle",
       "emoji": "🏜️",
@@ -507,11 +588,108 @@
       ]
     },
     {
+      "id": "grand-river-run",
+      "name": "The Grand River Run",
+      "emoji": "🏞️",
+      "mode": "drive",
+      "region": "Southern Ontario, Canada",
+      "days": "5–7 days",
+      "hero": "elora-gorge",
+      "tagline": "Source to mouth down one Canadian Heritage River, stopping at every conservation area on it.",
+      "blurb": "Three hundred kilometres from a marsh on the Dundalk plateau to Lake Erie, following the Grand and the twenty conservation properties strung along it. This is a working river: seven reservoirs hold it back in flood and let it out in drought, and the dams are the reason there is anything to camp beside. Two of the legs go up tributary arms and back — the Conestogo and the Speed — so the driving is longer than the straight-line distance suggests. Go downstream, in June, and swim at the end of every day.",
+      "stops": [
+        {
+          "id": "luther-marsh",
+          "note": "The top of the watershed. Come on a Tuesday, Thursday or Sunday — the other four days are gun-hunting days from September to February."
+        },
+        {
+          "id": "belwood-lake",
+          "note": "Twelve kilometres of reservoir behind the Shand Dam, 1942. Walk out across the top of it before you look at the beach."
+        },
+        {
+          "id": "elora-gorge",
+          "note": "The river cuts 22 metres down into limestone. Tube the rapids in the morning, walk the rim trail when the tube queue is worst."
+        },
+        {
+          "id": "elora-quarry",
+          "note": "Two kilometres away and a separate ticket — advance online only, two sessions a day, and your Gorge pass will not get you in."
+        },
+        {
+          "id": "conestogo-lake",
+          "note": "Detour 40 km up the Conestogo arm through Old Order Mennonite farmland. Stop at the dam's viewing area on your way in."
+        },
+        {
+          "id": "woolwich-reservoir",
+          "note": "Back on the main stem above Elmira. No gate and no fee: the 7 km Lions Trail circles the water because a service club built it."
+        },
+        {
+          "id": "snyders-flats",
+          "note": "A former gravel pit turned into ponds and planted forest. Flat 4.5 km loop, ten minutes off the highway, free."
+        },
+        {
+          "id": "laurel-creek",
+          "note": "First campground of the trip with a beach and a city behind it. No motors are ever allowed on this reservoir — mind the drowned stumps."
+        },
+        {
+          "id": "guelph-lake",
+          "note": "Turn up the Speed arm. If it's late July the Hillside Festival has the island stage and you won't get a campsite."
+        },
+        {
+          "id": "rockwood-conservation-area",
+          "note": "Cliffs, caves and one of the largest glacial potholes on earth. The mill ruins are fenced for safety, so cross the Eramosa and walk the far bank."
+        },
+        {
+          "id": "starkey-hill",
+          "note": "Four kilometres and the highest ground in Puslinch, for the view back over Guelph. Boots — the climb is real."
+        },
+        {
+          "id": "hanlon-creek",
+          "note": "Guelph's own woods, on the way back out of town. Park at Preservation Park on Kortright Road West."
+        },
+        {
+          "id": "shades-mills",
+          "note": "Day-use only, so it empties at dusk: 12 km of hardwood trail along Mill Creek and an 80-acre reservoir for electric motors."
+        },
+        {
+          "id": "dumfries-conservation-area",
+          "note": "Seventy-five hectares of undeveloped forest in the middle of Cambridge. No washrooms, no facilities, and the Dunbar Road lot shuts mid-October."
+        },
+        {
+          "id": "fwr-dickson",
+          "note": "West on Brant-Waterloo Road for a boardwalk over wetland and a surviving patch of tall-grass prairie. Figure-eight trail, 4.8 km."
+        },
+        {
+          "id": "pinehurst-lake",
+          "note": "Camp here. It is a glacial kettle lake in Carolinian forest and every single site is radio-free."
+        },
+        {
+          "id": "grand-river",
+          "note": "Paris, where the Nith comes in and the river gets big. This is the stretch people mean when they say they paddled the Grand."
+        },
+        {
+          "id": "apps-mill",
+          "note": "Whitemans Creek meets the Grand, and the old grist mill's millrace is still traceable in the bush behind the nature centre."
+        },
+        {
+          "id": "brant-conservation-area",
+          "note": "Brantford, minutes from Six Nations of the Grand River. Put in above Wilkes Dam, take the marked portage, and end back at your own campsite."
+        },
+        {
+          "id": "taquanyah",
+          "note": "Cayuga, deep in the Carolinian zone. The dam was retired in 2005 and the wetlands you walk past were built to replace it."
+        },
+        {
+          "id": "byng-island",
+          "note": "Dunnville, seven kilometres from Lake Erie. Finish in the largest outdoor swimming pool in Canada — it still has a diving board."
+        }
+      ]
+    },
+    {
       "id": "silk-road",
       "name": "The Silk Road",
       "emoji": "🐫",
       "mode": "overland",
-      "region": "Turkey · Caucasus · Iran · China",
+      "region": "Turkey · Caucasus · Iran · Central Asia · China",
       "days": "6–10 weeks",
       "tagline": "Istanbul to Xi'an along the oldest trade route on earth.",
       "blurb": "Not one road but a network, running two thousand years and seven thousand kilometres. This is the southern corridor: across Anatolia, over the Caucasus, through the Persian cities, and finally to the Chinese terminus. Visas are the hard part, not the travel.",
@@ -551,6 +729,34 @@
         {
           "id": "samarkand",
           "note": "Timur's capital and the city the whole road was aimed at. Three madrasas face each other across the Registan in a single blue."
+        },
+        {
+          "id": "kashgar",
+          "note": "Over the Torugart or the Irkeshtam into China. Kashgar was the great junction — the routes round both sides of the Taklamakan met here."
+        },
+        {
+          "id": "turpan",
+          "note": "The northern rim, and the lowest, hottest place in China. Grapes dried in mud-brick towers, and the ruins of two Silk Road cities in the desert outside."
+        },
+        {
+          "id": "dunhuang",
+          "note": "Where the two routes joined again at the desert's eastern edge. Singing Sand Dune and Crescent Lake are on the town's doorstep."
+        },
+        {
+          "id": "mogao-caves",
+          "note": "The reason to be here: five hundred painted cave temples cut by and for people doing this journey, and the sealed library they left behind."
+        },
+        {
+          "id": "jiayuguan",
+          "note": "The Ming empire's western gate — the fort where the Great Wall ends and, for centuries, China officially stopped."
+        },
+        {
+          "id": "zhangye-danxia",
+          "note": "Down the Hexi Corridor between the Qilian mountains and the Gobi. Striped hills, best in the last hour of light."
+        },
+        {
+          "id": "lanzhou",
+          "note": "The Yellow River crossing, and a bowl of beef noodles you will think about for years."
         },
         {
           "id": "xi-an",

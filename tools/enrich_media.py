@@ -88,7 +88,11 @@ WALK_WORDS = re.compile(r"walk|stroll|paseo|tour on foot", re.I)
 BAD_WALK = re.compile(r"treadmill|virtual run|driving|drive |by car|cycling|bike", re.I)
 DRIVE_WORDS = re.compile(r"driv(?:e|ing)|by car|road trip|scenic drive|dash ?cam", re.I)
 BAD_DRIVE = re.compile(r"walk|stroll|treadmill|cycling|bike|train|flight|"
-                       r"crash|accident|police|test drive|review", re.I)
+                       r"crash|accident|police|test drive|review|"
+                       # urbex is a subject, not a drive: "Road Trip: Exploring
+                       # abandoned mountainside CCP Buildings (Nanchang)" was
+                       # shipped as NANCHANG's drive in the 2026-08 China sweep.
+                       r"abandoned|\burbex\b|derelict", re.I)
 
 # 🌃 NIGHT. The night seats are the same seekable-video contract as their
 # daytime twins — a night walk is a walk, a night drive is a drive — so
@@ -240,6 +244,48 @@ ALIASES = {
     "kazan": ["казань"], "kyiv": ["київ", "kiev"], "bangkok": ["krung thep"],
     "havana": ["habana"], "mexico-city": ["ciudad de mexico", "cdmx"],
     "marrakesh": ["marrakech"], "fez": ["fes"],
+    # Not translations — the names real uploaders use. Each of these was a
+    # good pick that the distinctive-token rule refused: every word of "Ha
+    # Long Bay" except the short one is a generic feature noun, "Smoky" is
+    # misspelled "Smokey" more often than not, and a region is only ever
+    # filmed as one of its lakes.
+    "ha-long-bay": ["ha long", "halong"],
+    "great-smoky-mountains": ["smokey mountain", "smoky mountain"],
+    "italian-lakes": ["lake garda", "lake como", "lake maggiore",
+                      "riva del garda", "bellagio", "varenna"],
+    # ...and these are the renderings that INHERITS_HIGHLIGHTS would otherwise
+    # cost us. Each of these four picks was anchored on a province-sized
+    # highlight ("Tibet", "Beijing", "Guizhou") that proves nothing — but each
+    # title does name the place, just not the way the corpus spells it.
+    "namtso": ["nam co", "namco"],
+    "cuandixia": ["爨底下", "chuandixia"],
+    "fanjingshan": ["fanjing", "梵淨山", "梵净山"],
+}
+
+# Places whose HIGHLIGHTS may stand in for the place itself, because the
+# highlight is somewhere INSIDE it: Cannes is on the French Riviera, Vernazza
+# is Cinque Terre, Cades Cove is in the Smokies.
+#
+# Opt-in, and it has to be. `type` can't tell a container from a site —
+# `catalonia` and `zhangye-danxia` are both "nature" — and `region` is the
+# administrative one, so French Riviera's says "Provence-Alpes-Côte d'Azur".
+# Nothing in the data separates a highlight that is a PART from one that is
+# merely a NEIGHBOUR, and neighbours are how the 2026-08 sweep served Dunhuang's
+# city drive as MOGAO CAVES', Jiaxing's as XITANG's, Luoyang's as LONGMEN
+# GROTTOES', a Lake Powell marina cam as ANTELOPE CANYON's, a walk through
+# Brantford as BRANT CONSERVATION AREA's, and — five thousand kilometres off —
+# "Plaza de Armas de Querétaro en vivo" as CUSCO's live cam.
+#
+# Adding an id here is a claim that its highlights are all inside it. Leaving
+# one out costs recall, which this project spends freely: a missing scene is an
+# honest gap, a borrowed one is a lie.
+INHERITS_HIGHLIGHTS = {
+    "amalfi-coast", "balearic-islands", "bavarian-alps", "canary-islands",
+    "catalonia", "cinque-terre", "death-valley", "faroe-islands",
+    "french-riviera", "great-smoky-mountains", "italian-lakes",
+    "jurassic-coast", "li-river", "lofoten", "monument-valley",
+    "norwegian-fjords", "plitvice", "portugal-coast", "provence",
+    "swiss-alps", "tuscany-florence",
 }
 
 # Cam operators title their streams in their own language, and YouTube ranks
@@ -270,20 +316,84 @@ CAM_WORDS_BY_COUNTRY = {
 }
 
 
+APOS = re.compile(r"[ʻʼ‘’'`´]")
+POSSESSIVE = re.compile(r"[ʻʼ‘’'`´]s\b")
+
+
+def squash(s):
+    """Normalized, with the marks that split a name into unsearchable pieces
+    removed: Kauaʻi is one word, Xi'an is one word. Applied to BOTH sides of
+    every comparison, so the title agrees.
+
+    The possessive goes entirely, or the apostrophe just welds the s on and the
+    word stops matching itself: "Mallorca's Crazy Snake Road" gave "mallorcas",
+    which is not "mallorca", so BALEARIC ISLANDS lost a drive that is plainly
+    Mallorca's — and "Portugal's Coast" searched for "portugals"."""
+    return APOS.sub("", POSSESSIVE.sub("", norm(s)))
+
+
+def distinctive(name):
+    """The tokens of `name` that could only mean this place."""
+    toks = [w for w in re.split(r"[^a-z]+", squash(name)) if len(w) > 3]
+    return tuple(w for w in toks if w not in GENERIC_TOKENS)
+
+
+def token_hit(w, t):
+    """Is token `w` in title `t`?
+
+    Long tokens match loosely, because cam operators run their names together
+    and there is no boundary to find: "BerlinWebcam1", "WebcamSydney 1",
+    "SedonaLiveCam.com". Short ones must stand as whole words — otherwise
+    "brant" matches "Brantford" and BRANT CONSERVATION AREA is served a walk
+    through the city next door.
+    """
+    if len(w) >= 6:
+        return w in t
+    return re.search(rf"\b{re.escape(w)}\b", t) is not None
+
+
 def mentions_place(title, place):
     t0 = scrub_namesakes(norm(title))
     t = scrub_persons(scrub_streets(t0))
-    name_tokens = [w for w in re.split(r"[^a-z]+", norm(place["name"])) if len(w) > 3]
-    if any(w in t for w in name_tokens) or norm(place["name"]) in t:
+    # DISTINCTIVE tokens only, on word boundaries. Matching a place on a
+    # generic word is how the 2026-08 China sweep shipped "Driving Tour Along
+    # the Yellow River Highway" as LI RIVER's drive, "Mount Athos Healing
+    # Prayer" as MOUNT TAI's live cam, and a Hong Kong ISLAND drive as
+    # car-free LAMMA ISLAND's: strip the short word and "river", "mount" and
+    # "island" are all that is left of those names. A place with no
+    # distinctive token of its own has to be named in full.
+    t, t0 = squash(t), squash(t0)
+    if any(token_hit(w, t) for w in distinctive(place["name"])):
         return True
+    base = squash(place["name"])
+    if base in t:
+        return True
+    # ...or the name minus its trailing feature noun, so "Driving Through Ha
+    # Long" still counts for HA LONG BAY. Two words minimum: the one-word
+    # remainders ("Mount Tai" → "tai") are exactly the namesake magnets.
+    core = " ".join(w for w in base.split() if w not in GENERIC_TOKENS)
+    if len(core.split()) >= 2 and core in t:
+        return True
+    # `s?` because uploaders pluralize freely and an alias is curated anyway:
+    # "smokey mountain" has to reach "Great Smokey Mountains" too.
     for a in ALIASES.get(place.get("id") or "", []):
-        if re.search(rf"\b{re.escape(norm(a))}\b", t0):
+        if re.search(rf"\b{re.escape(squash(a))}s?\b", t0):
             return True
-    # a place's own landmarks count: "Palma de Mallorca" IS the
-    # Balearics, "Vernazza" IS Cinque Terre (full phrase only)
+    # a container's landmarks count: "Palma de Mallorca" IS the Balearics,
+    # "Vernazza" IS Cinque Terre (full phrase only). A region entry has no
+    # other way in — Catalonia's scenes can only be Barcelona's. Containers
+    # only, though; see INHERITS_HIGHLIGHTS for why a site borrowing its
+    # neighbour's name is the whole problem.
+    # The landmark needs a distinctive token of its own, too, or it anchors
+    # any namesake anywhere: WUZHEN's top highlight is "Grand Canal", so
+    # `Grand Canal live webcam` returned VENICE and the phrase matched.
+    if (place.get("id") or "") not in INHERITS_HIGHLIGHTS:
+        return False
     for h in place.get("highlights") or []:
-        name = norm(h.get("name") if isinstance(h, dict) else h)
-        if len(name) > 3 and re.search(rf"\b{re.escape(name)}\b", t0):
+        name = squash(h.get("name") if isinstance(h, dict) else h)
+        if len(name) <= 3 or not distinctive(name):
+            continue
+        if re.search(rf"\b{re.escape(name)}s?\b", t0):
             return True
     return False
 
@@ -307,6 +417,14 @@ GENERIC_TOKENS = {
     "west", "east", "north", "south", "western", "eastern", "northern",
     "southern", "central", "upper", "lower", "long", "port", "little",
     "monument", "temple", "castle", "palace", "cathedral", "bridge",
+    # pure feature nouns: hundreds of places have one, so on its own the word
+    # identifies nothing. "Grand Canal" is Wuzhen's AND Venice's.
+    "canal", "harbour", "harbor", "square",
+    # every Ontario conservation area shares these two, so on their own they
+    # single out nothing: "Day Trip To Grand River Conservation Park" was
+    # shipped as BRANT CONSERVATION AREA's drive on the strength of the word
+    # "conservation" alone — the video is Elora, an hour upstream.
+    "conservation", "area",
 }
 US_STATES = {
     "alabama", "alaska", "arizona", "arkansas", "california", "colorado",
@@ -327,6 +445,18 @@ US_ABBR = (
     "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV",
     "WI", "WY",
 )
+# Canada gets the same treatment as the US states, because it produces the
+# same trap in the other direction: "Ross Bay, Victoria BC" was shipped as
+# VICTORIA PEAK's window in the 2026-08 sweep. "ON" is deliberately absent
+# from the abbreviations — ", on" is ordinary English ("Walking Tour, on a
+# Rainy Morning") in a way ", BC" never is. Ontario's full name still counts.
+CA_PROVINCES = {
+    "alberta", "british columbia", "manitoba", "new brunswick",
+    "newfoundland", "labrador", "nova scotia", "ontario",
+    "prince edward island", "quebec", "saskatchewan", "yukon",
+    "northwest territories", "nunavut",
+}
+CA_ABBR = ("AB", "BC", "MB", "NB", "NL", "NS", "NT", "NU", "PE", "QC", "SK", "YT")
 # abbreviation → state, in the same (alphabetical-by-state) order, so a US
 # place can be checked against a US state named in a title instead of being
 # skipped entirely. See the us-vs-us block in wrong_place_title().
@@ -360,6 +490,42 @@ WILDLIFE_CAM = re.compile(
     r"aquarium|\bzoo\b|feeder|birdcam|bird ?cam|\bden\b|burrow|"
     r"panda|koala|otter|\bcubs?\b|hatch", re.I)
 NATURE_TYPES = {"nature", "wilderness", "natural"}
+# A wild place's scene cannot be a city-centre tour. "ZHANGYE, CHINA | City
+# Walking Tour" shipped as the walk for ZHANGYE DANXIA — the rainbow-striped
+# landform park outside the city — in the 2026-08 China sweep, because Zhangye
+# is the park's own first highlight and the phrase matched. Cities still
+# co-star honestly ("Drive from Zhangye to the Danxia park"); this only fires
+# when the title frames the video AS a tour of a city.
+WILD_TYPES = NATURE_TYPES | {"mountain", "desert"}
+CITY_TOUR = re.compile(
+    r"city (?:walk|walking|driving|drive|tour|centre|center|street)|"
+    r"\bdowntown\b|city ?cent(?:re|er)|urban (?:walk|drive|life)", re.I)
+
+
+def names_place_directly(title, place):
+    """The title contains the place's OWN name — not merely one of its tokens,
+    one of its landmarks, or an alias."""
+    t = norm(title)
+    base = norm(place["name"])
+    if base in t:
+        return True
+    core = " ".join(w for w in base.split() if w not in GENERIC_TOKENS)
+    return len(core.split()) >= 2 and core in t
+
+
+def city_tour_of_the_wild(title, place):
+    """True if a city-tour video is being offered as a wild place's scene.
+
+    Only when the title never names the place itself. Plenty of wild entries
+    ARE towns ("Downtown SEDONA", "Flagstaff — 4K Downtown Drive", a street
+    cam in Mendoza) and plenty of honest drives simply start in one ("from
+    Downtown Yan'An to China's Famous Hukou Waterfall"). What's left is a city
+    tour standing in for somewhere it isn't: Zhangye's streets for the Danxia
+    park, downtown Brantford for Brant Conservation Area.
+    """
+    return ((place.get("type") or "") in WILD_TYPES
+            and bool(CITY_TOUR.search(title))
+            and not names_place_directly(title, place))
 
 AGGREGATOR_CAM = re.compile(
     r"\d{2,}\s*(?:\+\s*)?(?:top\s+)?(?:live\s+)?(?:web)?cams?\b|"
@@ -384,19 +550,66 @@ BAD_CAM = re.compile(
     r"\bdocumentary\b|\bfilm\b|\bepisodes?\b|"              # a programme on loop
     r"\btv\s?\d+\b|television channel|"                     # a broadcaster
     r"model rail|model train|"                              # someone's layout
-    r"\bfr24\b|flightradar", re.I)                          # a map, not a camera
+    r"\bfr24\b|flightradar|"                                # a map, not a camera
+    # a lottery draw streams 24/7 and names its city, but it is a studio
+    # ticking numbers: "LIVE DRAW TOTO MACAU" shipped as MACAU's window.
+    r"\blive draw\b|\btoto\b|\blotter(?:y|ie)\b|\bjackpot\b|\bbingo\b|"
+    r"\bslots?\b|\bcasino games?\b", re.I)
+
+# Scenery b-roll under a music bed, looping 24/7. Genuinely live, and
+# genuinely not a camera: "24/7 Chill Italian Vibes & Mediterranean Music 🎶
+# Scenic Amalfi Coast & Lake Como Relaxation 4K" — two coastlines 700 km
+# apart — was shipped as the AMALFI COAST's live seat. Kept apart from
+# BAD_CAM because it is a pair of rules, not a word list: a music framing
+# AND no claim of a camera anywhere in the title. That second half is what
+# lets "Hong Kong's ONLY 24/7 LIVE camera from The Peak with Relaxing Music
+# BGM" — a real PTZ feed that happens to play music — still pass.
+MUSIC_LOOP = re.compile(
+    r"relaxation|\bvibes\b|lo-?fi|"
+    # "chill" only where a music noun follows it. On its own it describes the
+    # scene as often as the soundtrack: "LIVE 24/7: Malta Ship Spotting by day,
+    # chilling by night | 4K Grand Harbour" is an actual harbour camera.
+    r"chill(?:ed|ing)?\s+(?:\w+\s+){0,2}?(?:music|beats|mix)|"
+    r"(?:ambient|study|sleep|meditation) music|music (?:to|for) ", re.I)
+CAM_CLAIM = re.compile(
+    r"web ?cam|\bcams?\b|camera|live view|live from|live stream of|"
+    r"直播|ライブカメラ|실시간", re.I)
+
+
+def music_loop_not_a_cam(title):
+    return bool(MUSIC_LOOP.search(title)) and not CAM_CLAIM.search(title)
 # news, sports and radio-station streams aren't place cams — but plain
 # "radio"/"jazz radio" is just a music overlay on an otherwise real cam.
 # "RE-LIVE Planespotting at Frankfurt Airport" is the sharpest of these:
 # it is genuinely streaming right now, and it is genuinely a replay.
 
 OTHER_PLACES = {}     # id → (tokens, lat, lng)   — filled in main()
+OTHER_PLACE_NAMES = set()  # every dataset place name, normalized — filled in main()
 COUNTRY_NAMES = set() # normalized country names  — filled in main()
 
 
 def name_tokens_of(place):
-    toks = [w for w in re.split(r"[^a-z]+", norm(place["name"])) if len(w) > 3]
-    return tuple(w for w in toks if w not in GENERIC_TOKENS)
+    return distinctive(place["name"])
+
+
+# ids whose name literally starts with "New" — see the guard in
+# wrong_place_title(). Filled by register_place() alongside OTHER_PLACES.
+NEW_NAMED = set()
+
+
+def register_place(loc):
+    """Put one place into the gazetteer the wrong-place guards read.
+
+    Every caller needs all of OTHER_PLACES, COUNTRY_NAMES and NEW_NAMED loaded
+    or the guards quietly under-report, and there are five callers, so the
+    three-line dance lived in five places and NEW_NAMED would have been added
+    to four of them.
+    """
+    c = loc.get("coordinates") or {}
+    OTHER_PLACES[loc["id"]] = (name_tokens_of(loc), c.get("lat", 0), c.get("lng", 0))
+    COUNTRY_NAMES.add(norm(loc.get("country") or ""))
+    if norm(loc.get("name") or "").startswith("new "):
+        NEW_NAMED.add(loc["id"])
 
 
 def haversine_km(lat1, lng1, lat2, lng2):
@@ -428,8 +641,18 @@ def wrong_place_title(title, place):
     for pid, (toks, lat, lng) in OTHER_PLACES.items():
         if pid == place.get("id") or not toks or set(toks) & set(own):
             continue
+        # "New Mexico" is not Mexico City, but "New York" IS New York City.
+        # So a place whose own name does not start with "New" may not be found
+        # inside a "New <token>" phrase. mexico-city reduces to the single
+        # token "mexico" ("city" is generic), which made "Sandia Peak Tramway,
+        # New Mexico" read as a video shot 1,600 km from Albuquerque. The
+        # country loop below already guards this, but only for the one literal
+        # string "new mexico" — this is the same bug one loop earlier.
+        g = "" if pid in NEW_NAMED else r"(?<!new )"
+        if any(not re.search(rf"{g}\b{re.escape(w)}\b", t) for w in toks):
+            continue
         pos = _first_pos(toks, t)
-        if pos is None or any(not re.search(rf"\b{re.escape(w)}\b", t) for w in toks):
+        if pos is None:
             continue
         if haversine_km(me.get("lat", 0), me.get("lng", 0), lat, lng) < 300:
             continue                      # neighbors co-star honestly
@@ -469,6 +692,22 @@ def wrong_place_title(title, place):
                          title, re.I):
                 return True
 
+        # ...and the same for a CANADIAN province, for non-Canadian places
+        if own_country != "canada":
+            for prov in CA_PROVINCES:
+                if prov == own_country or prov in norm(place["name"]):
+                    continue
+                if re.search(rf"\b{re.escape(prov)}\b", t):
+                    return True
+            # No comma required, unlike the US list above: Canadians write
+            # "Victoria BC" bare, and "Ross Bay, Victoria BC" was VICTORIA
+            # PEAK's window until this line. Safe because these stay
+            # case-sensitive and none of them is an English word — the one
+            # trap is a date, so a digit can't precede ("Ancient Rome 500 BC").
+            if re.search(r"(?<![0-9])[,\s]\s*(?:" + "|".join(CA_ABBR) + r")\b",
+                         title):
+                return True
+
     # US place vs a DIFFERENT US state. Everything above skips US places on
     # purpose — every US cam title names a US state, so refusing them all
     # would be useless. Compare against the place's OWN state instead. This
@@ -487,14 +726,21 @@ def wrong_place_title(title, place):
         if head is None:
             base = norm(place["name"]).split(",")[0].strip()
             head = t.find(base) if base and base in t else None
-        named = {st for st in US_STATES if re.search(rf"\b{re.escape(st)}\b", t)}
+        # state → where it sits in the title, because the headline test below
+        # needs a position. An abbreviation has no literal position for its
+        # expanded name, so carry the position of the ABBREVIATION instead:
+        # "Tulsa, OK Downtown ... Greenwood District Tour" expands OK to
+        # oklahoma, which appears nowhere in the string, so _first_pos returned
+        # None, the exemption could not fire, and Tulsa was ruled to be
+        # somewhere other than Oklahoma. Same for Albuquerque's "NM".
+        named = {st: _first_pos([st], t)
+                 for st in US_STATES if re.search(rf"\b{re.escape(st)}\b", t)}
         m = re.search(r",\s*([A-Z]{2})\b", title)
         if m and m.group(1).upper() in US_ABBR_STATE:
-            named.add(US_ABBR_STATE[m.group(1).upper()])
-        for st in named:
+            named.setdefault(US_ABBR_STATE[m.group(1).upper()], m.start())
+        for st, pos in named.items():
             if st == own_state or st in norm(place["name"]):
                 continue
-            pos = _first_pos([st], t)
             if head is not None and pos is not None and head < pos:
                 continue                  # our place is still the headline
             return True
@@ -528,6 +774,8 @@ def find_seekable(place, query, want, avoid, min_dur=600, night=False):
         if not night and not daylight_title(title):
             continue
         if not mentions_place(title, place) or wrong_place_title(title, place):
+            continue
+        if city_tour_of_the_wild(title, place):
             continue
         cands.append(e)
     # try the most promising few until one passes the full vet
@@ -638,6 +886,8 @@ def find_cams(place, exclude=(), seats=("live", "window")):
             title = e.get("title") or ""
             if BAD_CAM.search(title) or AGGREGATOR_CAM.search(title):
                 continue
+            if music_loop_not_a_cam(title):
+                continue
             if not nature_place(place) and WILDLIFE_CAM.search(title):
                 continue
             if not mentions_place(title, place) or wrong_place_title(title, place):
@@ -730,9 +980,8 @@ def main():
 
     places = load_places()
     for p in places:
-        c = p.get("coordinates") or {}
-        OTHER_PLACES[p["id"]] = (name_tokens_of(p), c.get("lat", 0), c.get("lng", 0))
-        COUNTRY_NAMES.add(norm(p.get("country") or ""))
+        register_place(p)
+        OTHER_PLACE_NAMES.add(norm(p["name"]))
     only = set(args.only.split(",")) if args.only else None
 
     def curated_has(loc, scene):
