@@ -139,6 +139,7 @@ async function boot() {
     // wildlife = the wild collection + any nature place with a live cam
     // (kruger, maasai mara, yellowstone live via the media.json pipeline)
     wild: p => p.region_id === 'wild' || (p.type === 'nature' && p._flags.live),
+    observatory: p => p.region_id === 'observatory',
   };
   qs('#map-filters').addEventListener('click', ev => {
     const b = ev.target.closest('.chip');
@@ -188,6 +189,7 @@ async function boot() {
   const saved = places.filter(p => State.isSaved(p.id));
   const ancient = shuffled(places.filter(p => p.region_id === 'ancient')).slice(0, 16);
   const wild = shuffled(places.filter(filters.wild)).slice(0, 16);
+  const observatories = shuffled(places.filter(filters.observatory)).slice(0, 16);
 
   railsEl.append(...[
     rail('✨ Start here', fullyLoaded, 'walk + live cam, ready to go'),
@@ -198,6 +200,7 @@ async function boot() {
     rail('🌃 After dark', nights, 'night walks, night drives, nightlife'),
     saved.length ? rail('♥ Your saved places', saved) : null,
     rail('🤫 Ancient Apocalypse', ancient, 'every site from the series'),
+    rail('🔭 Observatories', observatories, 'domes, dishes and dark skies'),
   ].filter(Boolean));
 
   /* continent rails */

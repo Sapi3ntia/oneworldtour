@@ -1,6 +1,6 @@
 # 🌍 One World Tour
 
-Step into 507 places across 94 countries — **walk their streets, drive their
+Step into 540 places across 94 countries — **walk their streets, drive their
 roads, watch their intersections live, look out their windows live**, tune into
 their radio, **watch their national TV live**, and read their news — all in-app,
 all real. Inspired by
@@ -34,7 +34,7 @@ Gateway Arch · Great Wall · Shibuya Crossing · and more (see
 `tools/build_monuments.py`). Rio de Janeiro and St. Louis joined the map with
 this batch.
 
-Two collections extend the idea (2026-07):
+Three collections extend the idea (2026-07 → 2026-08):
 
 - **📺 Live TV** — a Location-page panel with the country's own national channels,
   streaming live: CGTN / CCTV-4 / CCTV-13 for China, KCTV for North Korea, RT for
@@ -55,6 +55,20 @@ Two collections extend the idea (2026-07):
   The home page gets a 🦁 map filter + a "Wild live cams" rail (which also picks up
   live `nature` places like Yellowstone, Kruger and the Maasai Mara from the
   enrichment pipeline).
+- **🔭 Observatories & Telescopes** (`data/observatory.json`, 2026-08) — the places
+  we built to look away from Earth, as destinations in their own right: the Very
+  Large Array on the Plains of San Agustin, Green Bank inside the US National Radio
+  Quiet Zone, FAST in its Guizhou sinkhole, Arecibo (the dish is gone; the site and
+  the story are not), Parkes and Siding Spring, ALMA · Paranal · La Silla · Cerro
+  Tololo on the Atacama ridges, Mauna Kea and Haleakalā, Palomar · Mount Wilson ·
+  Lick · Kitt Peak · Yerkes · Griffith, the Sphinx bolted to its pinnacle at 3,571 m,
+  Pic du Midi, Roque de los Muchachos and Teide, Jodrell Bank and Effelsberg, Royal
+  Observatory Greenwich (where the prime meridian is a line in the courtyard),
+  Paris, Uraniborg, the Vatican's, Sutherland, Mount John, and the two naked-eye
+  instruments that predate the telescope entirely — Beijing's Ancient Observatory
+  and the Jantar Mantar at Jaipur. A 🔭 map filter and an "Observatories" rail.
+  Same honesty rule, and the seats mostly stay empty on purpose: a mountaintop with
+  no walking tour shows *"No walking tour yet — nothing fake stands in."*
 
 **The honesty rule:** a scene either embeds the real thing or the place simply
 doesn't offer that tab yet. Nothing fake ever stands in — no stills posing as
@@ -66,7 +80,7 @@ windows, no frozen widgets posing as live cams.
 
 - **Explore** (`index.html`) — hero search with ranked autocomplete, the SVG world
   map (country nodes → glide into a country → city dots), content filters
-  (🚶/🔴/🪟/🏛️/♥/🤫), and Netflix-style rails: *Start here*, *Live right now*,
+  (🚶/🔴/🪟/🏛️/🌃/♥/🤫/🦁/🔭), and Netflix-style rails: *Start here*, *Live right now*,
   *Best walking tours*, *Monumental cities*, per-continent shelves — with real
   Wikipedia photos, lazy-loaded and cached.
 - **Location** (`location.html?id=…`) — the tabbed stage plus: live local clock +
@@ -117,12 +131,13 @@ oneworldtour/
 ├── data/
 │   ├── index.json         # region registry
 │   ├── trips.json         # 🧭 curated routes — ordered stop ids + editorial notes
-│   ├── <region>.json      # 493 places (curated walks/webcams/monuments live here)
+│   ├── <region>.json      # 540 places (curated walks/webcams/monuments live here)
 │   ├── wild.json          # 🦁 wildlife & national-park live cams as places
+│   ├── observatory.json   # 🔭 observatories & telescopes as places
 │   ├── tv.json            # 📺 live national TV channels per country (verified live)
 │   ├── windy.json         # retired Windy index — kept as archive, not loaded
 │   ├── media.json         # yt-dlp enrichment sidecar (auto-found, vetted scenes)
-│   └── media_denylist.json# ids a human watched and rejected — outranks every rule
+│   └── media_denylist.json# ids a human watched and rejected (global + per_place) ★
 ├── assets/world.json      # pre-projected country outlines (see build_worldmap.py)
 ├── tools/
 │   ├── build_worldmap.py  # TopoJSON → Natural-Earth-projected SVG paths
@@ -133,6 +148,7 @@ oneworldtour/
 │   ├── prune_monuments.py # the same, for 🏛️ tabs; --titles backfills them
 │   ├── test_vetting.py    # the bad picks, frozen — run after any rule edit  ★
 │   ├── check_trips.py     # every trip stop must resolve to a real place  ★
+│   ├── verify_cams.py     # re-check the HAND-CURATED cams (prune only does media.json) ★
 │   └── (v1 data builders: fetch_windy.py etc.)
 └── api/
     └── ask.py             # serverless proxy for Ask-the-Guide (keeps the key server-side)
@@ -405,6 +421,29 @@ reviewed rejections live in `data/media_denylist.json` as `id → why`. It outra
 every heuristic in **both** tools: `enrich_media.py` never proposes a denied id,
 `prune_media.py` deletes one it finds. Only ever add an id you actually watched.
 
+A **global** ban is the wrong shape for the commonest failure, though, which the
+2026-08-07 observatory sweep made obvious: the video is honest, just not *here*.
+"Walking tour of the Mt Wilson Observatory" is exactly right for
+`mount-wilson-observatory` and completely wrong for **Yerkes**, which the same
+sweep also gave it — 3,000 km away in Williams Bay, Wisconsin. Banning the id
+would have deleted the good seat to fix the bad one. So the file also carries
+`per_place`, keyed `place id → {video id: why not here}`, checked by the same
+`em.denied(place, vid)` in both tools:
+
+```json
+"per_place": {
+  "la-silla-observatory": {
+    "<id>": "ESO's PARANAL, 600 km up the ridge — and the same tape already fills paranal-observatory's drive seat"
+  }
+}
+```
+
+It also covers the one case no heuristic can see: **the same camera under two
+ids**. Djuma's waterhole publishes a public stream *and* an ad-free members
+re-upload of the identical Gowrie dam view, and the sweep filed one as `live` and
+the other as `window` — two seats, one camera, which makes one of the two labels
+a lie.
+
 `prune_media.py` re-applies the current rules to what is already on disk and
 deletes whatever no longer passes — `media.json` is a checkpoint, so without it
 a pick made under looser rules would live forever. It also refuses a video that
@@ -418,6 +457,27 @@ all **178** surviving cams over the network — every one still live.
 python3 tools/prune_media.py                     # dry run, title rules only
 python3 tools/prune_media.py --apply --network   # also re-check is_live
 ```
+
+`prune_media.py` only ever looks at `media.json`, which left a hole: the
+**hand-curated** `webcam` / `window` fields in the region JSONs *outrank* the
+sidecar, were verified once on the day they were added, and were then never
+looked at again. A curated cam that ends its broadcast keeps being promised — a
+red dot on the map, a card in "Live right now", a number in the hero stat — and
+only dies honestly at runtime when `yt.mount`'s `onError` pulls its own tab.
+`verify_cams.py` asks yt-dlp the same two questions the enricher asks at hunt
+time (`is_live` **and** `playable_in_embed`) and `--apply` deletes what fails,
+dropping the place back to whatever `media.json` can offer or to an honest gap.
+First run (2026-08-07): **35 curated cams, 33 still live** — New Orleans and
+Djuma (Sabi Sands) had both ended.
+
+```bash
+python3 tools/verify_cams.py                     # report only
+python3 tools/verify_cams.py --apply             # delete the dead ones
+```
+
+Run it in the same sweep as `prune_media.py --network`, and **never `--apply` a
+verdict you haven't re-probed on its own**: a throttled lookup returns nothing,
+which reads identically to "gone".
 
 `prune_monuments.py` is the same idea for 🏛️ tabs, and it exists because the
 2026-08-01 China run shipped 69 that were not monuments. `candidate_landmarks()`
@@ -562,7 +622,7 @@ still says so, which is how most people find the trips at all.
 
 ### Filling a region out ★
 
-Two batches went in this way, and the rules they turned up apply to any new place.
+Three batches went in this way, and the rules they turned up apply to any new place.
 
 **The Grand River watershed** (`canada.json` 17 → 36). Every Grand River
 Conservation Area now exists as a place — Luther Marsh at the source down to Byng
@@ -580,6 +640,25 @@ and Macau. The Silk Road trip used to jump Samarkand straight to Xi'an because
 the whole Chinese corridor was missing; it now runs Kashgar → Turpan → Dunhuang →
 Mogao → Jiayuguan → Zhangye → Lanzhou, and **The Middle Kingdom Line** is the
 first-timer's rail route, Beijing round to Shanghai.
+
+**The observatories** (`observatory.json`, 32 places, 2026-08). Built to the rules
+below rather than discovering them, which is the point of writing them down. Two
+things it did add:
+
+- **One deliberate coordinate override, documented in the file.** Paris Observatory
+  is the only entry that ignores its own P625: both Wikidata and Wikipedia point the
+  article at the institution's **Meudon** campus, 9 km southwest of the Perrault
+  building on Avenue de l'Observatoire that the entry is actually about. The `_note`
+  in `observatory.json` says so, so nobody "corrects" it back.
+- **The China monument lesson, applied before it could bite.** The first draft's
+  highlights included Frank Drake, Apollo 11, the Arecibo message and the Event
+  Horizon Telescope. `enrich_monuments.py` spends every `highlight` as a *search
+  term*, so those become monument tabs for a person, a mission, a transmission and a
+  telescope network. Thirteen were cut and the content moved into the prose:
+  **highlights here are structures, mountains and towns only.**
+- `type` is `mountain` / `desert` / `history`, never `nature` — which keeps the
+  `city_tour_of_the_wild` guard live for remote sites while stopping a wildlife cam
+  from filling an observatory's 🔴 seat.
 
 | rule | why |
 | --- | --- |

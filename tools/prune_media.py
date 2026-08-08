@@ -43,8 +43,9 @@ def reason_to_drop(place, seat, entry, network=False):
     title = entry.get("title") or ""
     if not entry.get("yt"):
         return "no video id"
-    if entry["yt"] in em.DENIED:
-        return f"reviewed and rejected — {em.DENIED[entry['yt']]}"
+    why = em.denied(place, entry["yt"])
+    if why:
+        return f"reviewed and rejected — {why}"
     if em.BAD_CAM.search(title) and seat in ("live", "window"):
         return "news/war stream"
     if seat in ("live", "window"):
