@@ -814,6 +814,50 @@
       "hidden_gem_tip": null
     },
     {
+      "id": "camps-bay",
+      "name": "Camps Bay",
+      "country": "South Africa",
+      "country_code": "ZA",
+      "country_flag": "🇿🇦",
+      "continent": "Africa",
+      "region": "Western Cape",
+      "type": "coastal",
+      "tag": "famous",
+      "emoji": "🏖️",
+      "coordinates": {
+        "lat": -33.95,
+        "lng": 18.38333
+      },
+      "wikipedia_slug": "Camps Bay",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Twelve Apostles"
+        },
+        {
+          "name": "Lion's Head (Cape Town)",
+          "wikipedia_slug": "Lion's Head (Cape Town)"
+        },
+        {
+          "name": "Clifton, Cape Town",
+          "wikipedia_slug": "Clifton, Cape Town"
+        },
+        {
+          "name": "Bantry Bay, Cape Town",
+          "wikipedia_slug": "Bantry Bay, Cape Town"
+        },
+        {
+          "name": "Table Mountain",
+          "wikipedia_slug": "Table Mountain"
+        }
+      ],
+      "blurb": "A white-sand beach on the Atlantic side of the Cape Peninsula, with the grey buttresses of the Twelve Apostles standing straight up behind it and a strip of palm trees, bars and restaurants along Victoria Road. Cape Town's sunset address, and it knows it.",
+      "fun_fact": "The sea here rarely gets above about 15 °C even in February: the Benguela current drags cold water up the west coast, so the beach a peninsula away in False Bay can be eight degrees warmer than this one.",
+      "hidden_gem_tip": "Walk north along the sand and over the rocks to Glen Beach, the small cove the surfers use — the crowd thins out completely, and the view back at the Apostles catching the last light is the one the restaurants on the strip are all facing away from."
+    },
+    {
       "id": "johannesburg",
       "name": "Johannesburg",
       "country": "South Africa",

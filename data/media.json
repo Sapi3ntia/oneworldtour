@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-02T02:28:58+00:00",
+ "generated": "2026-08-08T00:09:56+00:00",
  "places": {
   "fez": {
    "walk": {
@@ -117,11 +117,6 @@
    }
   },
   "cape-town": {
-   "live": {
-    "yt": "khhdEM2Q_68",
-    "title": "Cape Town Live Stream Webcam 2026-07-09 19:28",
-    "verified": "2026-07-09"
-   },
    "window": {
     "yt": "jOqASqt3vVI",
     "title": "Table Mountain Live Stream | Cape Town Webcam | South Africa 2026-07-10 07:57",
@@ -133,6 +128,11 @@
     "channel": "J Utah",
     "date": "20220219",
     "duration": 3078
+   },
+   "live": {
+    "yt": "5Spmmga0YLU",
+    "title": "TCS Cape Town | Maastricht 2026-08-07 19:34",
+    "verified": "2026-08-07"
    }
   },
   "table-mountain": {
@@ -2196,11 +2196,6 @@
    }
   },
   "stockholm": {
-   "live": {
-    "yt": "Ol3U9XSQqCo",
-    "title": "🔴 LIVE Stockholm Night Life Walk 🇸🇪 Summer City Centre Ambient 🇸🇪 Sweden’s Capital in 4K 🇸🇪 🔴 Loop 2026-07-09 19:47",
-    "verified": "2026-07-09"
-   },
    "window": {
     "yt": "agY6ZaM1G_o",
     "title": "MEDview: DN-Skrapan, Stockholm 2026-07-09 19:47",
@@ -2219,6 +2214,11 @@
     "channel": "Nightlife for Gentlemen",
     "date": "20250917",
     "duration": 1244
+   },
+   "live": {
+    "yt": "ufbxfrAiO3s",
+    "title": "🔴 Stockholm Summer Night Walk 🇸🇪 | Sweden Nightlife 4K HDR | 24/7 City Walk | Pre-Recorded Loop 2026-08-07 19:35",
+    "verified": "2026-08-07"
    }
   },
   "strasbourg": {
@@ -3785,11 +3785,6 @@
    }
   },
   "buenos-aires": {
-   "live": {
-    "yt": "rqBfiegG5qU",
-    "title": "Cámara en vivo | UADE Campus Buenos Aires 2026-07-09 19:59",
-    "verified": "2026-07-09"
-   },
    "window": {
     "yt": "urwuIKd8eEo",
     "title": "BUENOS AIRES, Argentina en Vivo 🇦🇷  24/7 (Live Camera Argentina 2026-07-09 19:59",
@@ -3815,6 +3810,11 @@
     "channel": "J Utah",
     "date": "20200219",
     "duration": 4921
+   },
+   "live": {
+    "yt": "NfsyRx50gAI",
+    "title": "Cámara en vivo | UADE Campus Buenos Aires 2026-08-07 19:35",
+    "verified": "2026-08-07"
    }
   },
   "bariloche": {
@@ -4317,17 +4317,22 @@
     "date": "20250513",
     "duration": 4226
    },
-   "live": {
-    "yt": "Jq-5u9NNZiM",
-    "title": "Boston Weather Cam, MA Live Cam - City of Boston 2026-07-09 20:04",
-    "verified": "2026-07-10"
-   },
    "drive": {
     "yt": "BUuovuOZhX4",
     "title": "Boston 4k | Driving the Back Bay | Driving Downtown | Massachusetts, USA",
     "channel": "Peaceful Drives",
     "date": "20211105",
     "duration": 1863
+   },
+   "live": {
+    "yt": "3SyR5MBpEJU",
+    "title": "Boston Weather Cam, MA Live Cam - City of Boston 2026-08-07 19:59",
+    "verified": "2026-08-07"
+   },
+   "window": {
+    "yt": "3I_cIS24AfY",
+    "title": "Boston Harbor, Massachusetts - Live - Hyatt Regency Boston Harbor 2026-08-07 19:59",
+    "verified": "2026-08-07"
    }
   },
   "philadelphia": {
@@ -4402,9 +4407,9 @@
     "duration": 3358
    },
    "window": {
-    "yt": "C32EiZiQPkQ",
-    "title": "EarthCam Live: New Orleans Balcony View 2026-07-28 10:56",
-    "verified": "2026-07-28"
+    "yt": "DEx2selbUi8",
+    "title": "New Orleans Webcam, Great Sound, No Ads -- Live Cam 24/7 2026-08-07 19:59",
+    "verified": "2026-08-07"
    }
   },
   "miami": {
@@ -4933,17 +4938,24 @@
    }
   },
   "yellowstone": {
-   "live": {
-    "yt": "dN1uDn-Luno",
-    "title": "🌋 Yellowstone National Park | Old Faithful LIVE | Eruption Countdown 2026-07-10 08:37",
-    "verified": "2026-07-10"
-   },
    "drive": {
     "yt": "Faezqk0OgBM",
     "title": "Yellowstone's MOST BREATHTAKING Drive EVER - 4K Driving Adventure - Grand Loop Road",
     "channel": "World of Drives",
     "date": "20250308",
     "duration": 7779
+   },
+   "walk": {
+    "yt": "9BRWuwwkRro",
+    "title": "WALKING TOUR OF ARTIST'S PAINTPOTS YELLOWSTONE NATIONAL PARK WYOMING USA IN 4K WALKING TOUR.",
+    "channel": "SEATTLE 4K Walking ",
+    "date": "20220610",
+    "duration": 986
+   },
+   "live": {
+    "yt": "SFdGJIbijY8",
+    "title": "🌎 LIVE Yellowstone National Park | Old Faithful | Relaxing Music 2026-08-07 20:00",
+    "verified": "2026-08-08"
    }
   },
   "yosemite": {
@@ -5508,11 +5520,6 @@
     "date": "20220302",
     "duration": 2863
    },
-   "window": {
-    "yt": "O8ZLvDZ_WKQ",
-    "title": "Rio de Janeiro Live Webcam | São Conrado Beach & Hang Gliding Landing Area 2026-07-17 17:29",
-    "verified": "2026-07-17"
-   },
    "night_walk": {
     "yt": "ILarh_g_97A",
     "title": "🇧🇷 Walking in Leblon Nightlife | Rio de Janeiro, Brazil | 4K UHD",
@@ -5526,6 +5533,16 @@
     "channel": "DriveWalk Brazil",
     "date": "20260313",
     "duration": 2879
+   },
+   "live": {
+    "yt": "65lUphjTAro",
+    "title": "Webcam Rio de Janeiro Copacabana Posto 6 2026-08-07 19:35",
+    "verified": "2026-08-07"
+   },
+   "window": {
+    "yt": "rjMR8NgenTU",
+    "title": "Rio de Janeiro Live Webcam | São Conrado Beach & Hang Gliding Landing Area 2026-08-07 19:35",
+    "verified": "2026-08-07"
    }
   },
   "queenstown": {
@@ -6305,11 +6322,6 @@
     "title": "Grand Residences Riviera Cancun Live Webcam 2026-07-28 09:44",
     "verified": "2026-07-28"
    },
-   "window": {
-    "yt": "5B_a0l28yIA",
-    "title": "Cancún Quintana Roo, En Vivo | Vista Panorámica de Punta Cancún 2026-07-28 09:44",
-    "verified": "2026-07-28"
-   },
    "night_walk": {
     "yt": "O8-cLSUwQVU",
     "title": "🇲🇽 Explore Cancún’s Electric Nightlife | 4K Walking Tour Through the Hotel Zone After Dark 🌙",
@@ -6323,6 +6335,11 @@
     "channel": "Junior CS",
     "date": "20240605",
     "duration": 3682
+   },
+   "window": {
+    "yt": "EQgngcJjApk",
+    "title": "Cancún, Quintana Roo En Vivo | Vista Panorámica hacia el Sur de Cancún 2026-08-07 19:35",
+    "verified": "2026-08-07"
    }
   },
   "mexico-city": {
@@ -7826,9 +7843,9 @@
     "duration": 915
    },
    "live": {
-    "yt": "KJjencbS-zs",
-    "title": "🔴【LIVE】 Hong Kong's ONLY 24/7 LIVE camera from The Peak with Relaxing Music BGM 24/7 實景直播 抒情背景音樂🎧 2026-08-01 21:30",
-    "verified": "2026-08-02"
+    "yt": "jR9MNgxuNPM",
+    "title": "🔴【LIVE】 Hong Kong's ONLY 24/7 LIVE camera from The Peak with Relaxing Music BGM 24/7 實景直播 抒情背景音樂🎧 2026-08-07 19:34",
+    "verified": "2026-08-07"
    }
   },
   "tsim-sha-tsui": {
@@ -8003,6 +8020,216 @@
     "yt": "ydYDqZQpim8",
     "title": "Namibia: Live stream in the Namib Desert 2026-08-01 22:28",
     "verified": "2026-08-02"
+   }
+  },
+  "camps-bay": {
+   "walk": {
+    "yt": "w-fYWSWwMKc",
+    "title": "4K Walk Tour | Camps Bay One of the Safest Residential Areas in Cape Town",
+    "channel": "Mvlog SoFun",
+    "date": "20250119",
+    "duration": 1024
+   },
+   "drive": {
+    "yt": "k_YhVG2Z9Ok",
+    "title": "[4K] Cape Town 4K Driving the best scenic coastal road From Camps Bay to Hout Bay, Binaural Sounds",
+    "channel": "Global Virtual Drive",
+    "date": "20220412",
+    "duration": 908
+   }
+  },
+  "very-large-array": {
+   "live": {
+    "yt": "0OESdJ5SMvg",
+    "title": "VLA Today — Karl G. Jansky Very Large Array | Live 24/7 Stream | Socorro, New Mexico 2026-08-07 19:36",
+    "verified": "2026-08-07"
+   }
+  },
+  "green-bank-observatory": {
+   "drive": {
+    "yt": "As-CoW4mHp8",
+    "title": "Bear Rocks Preserve, WV to Green Bank Observatory, WV : A Timelapse Road Trip",
+    "channel": "Real Land Videos",
+    "date": "20241208",
+    "duration": 1101
+   }
+  },
+  "palomar-observatory": {
+   "drive": {
+    "yt": "Zv5kDBOxW3k",
+    "title": "🚗🏔 Driving Mountain Roads to Palomar Mountain, Calif",
+    "channel": "Where's My Map",
+    "date": "20220406",
+    "duration": 3490
+   }
+  },
+  "mount-wilson-observatory": {
+   "walk": {
+    "yt": "9eKfFk6Jnt4",
+    "title": "Walking tour of the Mt Wilson Observatory",
+    "channel": "Bong Bong Travels",
+    "date": "20221108",
+    "duration": 1733
+   },
+   "drive": {
+    "yt": "Lky53XyhPeI",
+    "title": "Scenic mountain drive to Mount Wilson Observatory via the Red Box Road and Angeles Crest Highway",
+    "channel": "Bong Bong Travels",
+    "date": "20210827",
+    "duration": 803
+   }
+  },
+  "lick-observatory": {
+   "drive": {
+    "yt": "-idtiK6tmvQ",
+    "title": "Mount Hamilton Road Breathtaking Scenic Drive To Lick Observatory 4K | SF Bay Area, California",
+    "channel": "AKTheTraveler",
+    "date": "20250404",
+    "duration": 5636
+   }
+  },
+  "kitt-peak-observatory": {
+   "drive": {
+    "yt": "Wc0v-fPLhbM",
+    "title": "The Beautiful Kitt Peak Highway 4k | Arizona Drives",
+    "channel": "Welcome To Tucson Arizona",
+    "date": "20240711",
+    "duration": 1339
+   }
+  },
+  "griffith-observatory": {
+   "walk": {
+    "yt": "PBBvDe4kImA",
+    "title": "[4K] Griffith Observatory in Los Angeles, California - Walking Tour",
+    "channel": "Traveling with Andrew",
+    "date": "20210109",
+    "duration": 622
+   },
+   "drive": {
+    "yt": "dR3t_N8c2zI",
+    "title": "[4K] Driving around Los Angeles - Griffith Observatory to Hollywood (US)",
+    "channel": "Scaranta",
+    "date": "20220418",
+    "duration": 870
+   }
+  },
+  "maunakea-observatories": {
+   "live": {
+    "yt": "6g4Fh8K-MhY",
+    "title": "MaunaKea East view & Meteor shower LIVE from Subaru telescope NAOJ, Hawaii 2026-08-07 19:40",
+    "verified": "2026-08-07"
+   },
+   "window": {
+    "yt": "MPokOMJvZ-g",
+    "title": "MaunaKea West view & Meteor shower LIVE from CFHT, hawaii 2026-08-07 19:40",
+    "verified": "2026-08-07"
+   }
+  },
+  "paranal-observatory": {
+   "drive": {
+    "yt": "d6pd28diHCI",
+    "title": "1,500 km drive through Chile's north + ESO's Paranal Observatory",
+    "channel": "Travel with Corlett",
+    "date": "20230805",
+    "duration": 802
+   }
+  },
+  "alma-observatory": {
+   "window": {
+    "yt": "BVKRAzTSnB0",
+    "title": "The Atacama Large Millimeter/submillimeter Array (ALMA) and Starry sky LIVE, Chile 2026-08-07 19:42",
+    "verified": "2026-08-07"
+   }
+  },
+  "pic-du-midi": {
+   "drive": {
+    "yt": "rJ5cuNVt7Qc",
+    "title": "TOURMALET - LA MONGIE - PIC DU MIDI - ROAD TRIP PYRENEES 2022",
+    "channel": "Papy VroumVroum",
+    "date": "20220925",
+    "duration": 784
+   }
+  },
+  "roque-de-los-muchachos": {
+   "walk": {
+    "yt": "i3rmpqNFeQ0",
+    "title": "Roque de las Muchachos-La Palma Hiking-Volcano Walking-Caldera-Roque del Faro-Observatory",
+    "channel": "O.B's Outdoors",
+    "date": "20220824",
+    "duration": 1419
+   },
+   "drive": {
+    "yt": "gewsIDwCDNk",
+    "title": "Driving down from Roque de Los Muchachos to the western side torwards Puntagorda  and Los Llanos 4K",
+    "channel": "latamtravelers",
+    "date": "20240806",
+    "duration": 2490
+   }
+  },
+  "teide-observatory": {
+   "walk": {
+    "yt": "Bn-U4yoCbmQ",
+    "title": "Walking under a volcano - Teide National Park of Tenerife 4K Binaural Sound",
+    "channel": "Audio Travels",
+    "date": "20221210",
+    "duration": 1745
+   },
+   "drive": {
+    "yt": "S2wyvAl3HvI",
+    "title": "🇪🇸 🚗 Teide Mount (Volcano), Tenerife, Spain, 2022, scenic afternoon driving",
+    "channel": "VideoMap",
+    "date": "20220402",
+    "duration": 3602
+   }
+  },
+  "royal-observatory-greenwich": {
+   "walk": {
+    "yt": "wWahlsNGTL0",
+    "title": "Greenwich London Walking Tour 🇬🇧 | Royal Observatory, Cutty Sark & Thames Views in Stunning 4K",
+    "channel": "OINAT",
+    "date": "20240916",
+    "duration": 6888
+   },
+   "drive": {
+    "yt": "rq4WCG7jAn0",
+    "title": "Driving in London 4k 25.06.2020 Greenwich Park to Abbey Wood Station",
+    "channel": "A.M.",
+    "date": "20200626",
+    "duration": 1445
+   }
+  },
+  "jodrell-bank": {
+   "drive": {
+    "yt": "E0num5VNKRA",
+    "title": "Jodrell Bank Telescope Drive | Cheshire | English Countryside | 4K",
+    "channel": "Reflective Reset",
+    "date": "20240331",
+    "duration": 1858
+   }
+  },
+  "paris-observatory": {
+   "walk": {
+    "yt": "P4HKo1jIt8A",
+    "title": "🇫🇷 Paris Walk 4K 60fps | ☀️ Montparnasse West Sunny Afternoon ✨",
+    "channel": "Pierre TV",
+    "date": "20260510",
+    "duration": 3364
+   }
+  },
+  "mount-john-observatory": {
+   "walk": {
+    "yt": "KA66gWTuyQQ",
+    "title": "Walking Mt John Summit Track, New Zealand - May 2023",
+    "channel": "Cam Laird",
+    "date": "20231019",
+    "duration": 1478
+   }
+  },
+  "djuma-sabi-sands": {
+   "live": {
+    "yt": "iUdDKf9aDUU",
+    "title": "Djuma Cam Live Stream 2026-08-07 20:03",
+    "verified": "2026-08-08"
    }
   }
  }

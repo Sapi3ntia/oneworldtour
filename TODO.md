@@ -108,6 +108,33 @@ dropped in v2 — resurrect from git if missed); satellite descend-from-orbit.
   its own tab (never a dead iframe).
 - Hand-curated region-JSON fields always outrank `media.json`. Fix a bad auto-pick
   by curating, not by hand-editing `media.json` (a future sweep may overwrite it).
+- **Curated cams rot too, and nothing used to notice.** `prune_media.py --network`
+  only re-checks `media.json`. The `webcam`/`window` fields in the region JSONs
+  outrank it, were verified once by hand on the day they went in, and were never
+  looked at again — so a dead one keeps being promised on the map, in the "Live
+  right now" rail and in the hero stat, and only dies honestly at runtime.
+  `tools/verify_cams.py` closes that loop; run it in the same sweep as
+  `prune_media.py --network`.
+- **Never `--apply` a network verdict you haven't re-probed.** A throttled or
+  rate-limited yt-dlp lookup returns nothing, which both tools read as "gone".
+  Report first, re-probe every flagged id on its own, *then* delete.
+- **Read the titles of every new pick.** The vetter is good and still not a
+  person: it filed an Indiana *railcam* under Griffith Observatory, the University
+  of Illinois' *Alma Mater statue* cam under ALMA in Chile, a band called Kalatu
+  Alma under it next, Delhi's Jantar Mantar under Jaipur's, and a Valparaíso hill
+  called Cerro Alegre under Cerro Tololo. All five were live and embeddable and
+  named the place. A namesake reads exactly like a match.
+- **Reject "wrong place" with `per_place`, not the global list** — the video is
+  usually right *somewhere*. Global bans are for videos that are nobody's scene.
+
+**Adding places (see README → "Filling a region out"):**
+- `highlights` are **search terms**, not just prose. `enrich_monuments.py` spends
+  every one of them, so a person, a dish, a mission, a dynasty or a film in that
+  array becomes a dishonest 🏛️ tab (the 2026-08-01 China run shipped 69 of them).
+  Structures, mountains and towns only — everything else belongs in the blurb.
+- `type` is load-bearing in two places: `home.js`'s wild filter (`nature` + live →
+  the 🦁 rail) and the Python vetter's `NATURE_TYPES`/`WILD_TYPES`. Picking
+  `nature` for a remote non-wildlife place lets an animal cam fill its 🔴 seat.
 
 **Env / tooling:**
 - Serve on `127.0.0.1:8099`, **not** `0.0.0.0` (sandbox classifier blocks it).
@@ -126,6 +153,67 @@ dropped in v2 — resurrect from git if missed); satellite descend-from-orbit.
 ---
 
 ## Recently landed (so it isn't re-litigated)
+
+- **🔭 Observatories & Telescopes — 32 places + Camps Bay (2026-08-07):**
+  `data/observatory.json`, a third collection region beside `ancient` and `wild`,
+  registered in `data/index.json` with `collection` + `accent` and wired to a 🔭 map
+  chip and an "Observatories" rail. The roster spans 17 countries: the radio dishes
+  (Very Large Array, Green Bank, Arecibo, FAST, Parkes, Jodrell Bank, Effelsberg),
+  the mountaintops (Mauna Kea, Haleakalā, Paranal, ALMA, La Silla, Cerro Tololo,
+  Palomar, Mount Wilson, Lick, Kitt Peak, Roque de los Muchachos, Teide, Pic du
+  Midi, the Sphinx, Siding Spring, Mount John, Sutherland), the historic ones
+  (Greenwich, Paris, Uraniborg, Yerkes, Griffith, the Vatican's) and the two
+  naked-eye instruments that predate the telescope (Beijing Ancient Observatory,
+  Jantar Mantar). **Camps Bay** went into `africa.json` after Table Mountain.
+  Places 507 → 540; `index.html`'s meta description and the README's headline
+  count were stale by 165 and were corrected too.
+
+  Three things worth not relearning:
+  - **Paris Observatory's coordinate is a deliberate override**, documented in the
+    file's `_note`. Both Wikidata P625 and Wikipedia's own article coordinate point
+    at the institution's **Meudon** campus, 9 km from the Perrault building on
+    Avenue de l'Observatoire the entry is actually about. Don't "fix" it back.
+  - **Kjell Henriksen Observatory was dropped**, not fudged. No English Wikipedia
+    article, and pointing an obscure Svalbard site at its containing settlement
+    would have been a worse lie than a 32nd entry is a loss.
+  - **The China monument trap was headed off at the draft stage** — see the new
+    `highlights are search terms` guardrail above. 13 highlights (Frank Drake,
+    Apollo 11, the Arecibo message, the Event Horizon Telescope…) were cut and
+    their content moved into the prose.
+
+  Enrichment filled **17 of the 32** — 7 walks, 12 drives, and four genuine
+  live seats: the VLA's own 24/7 cam, Mauna Kea east from **Subaru/NAOJ** and west
+  from **CFHT**, and ALMA's starry-sky feed. The other 15 are honest gaps and
+  should stay that way: a radio telescope on a high desert plain is not a place
+  YouTube has a walking tour of. **Don't re-run those hoping** — two extra refill
+  passes produced nothing but nearer, more famous namesakes.
+
+- **🔴 `tools/verify_cams.py` — the curated cams finally get re-checked
+  (2026-08-07):** `prune_media.py --network` only ever re-verified `media.json`.
+  The 35 hand-curated `webcam`/`window` ids in the region JSONs outrank it and had
+  never been re-checked since the day each went in. First run: **33 of 35 still
+  live**; `new-orleans` and `djuma-sabi-sands` had ended and were deleted. Both
+  were re-probed individually first — a throttled yt-dlp lookup is indistinguishable
+  from a dead one, so report → re-probe → `--apply` is the order, always.
+
+- **🚫 `per_place` in `media_denylist.json` (2026-08-07):** the global denylist was
+  the wrong shape for the commonest failure — the video is honest, just not *here*.
+  The observatory sweep filed "Walking tour of the Mt Wilson Observatory" under
+  **Yerkes** (Wisconsin, 3,000 km away), one Paranal drive under **La Silla**
+  (600 km down the ridge), a Valparaíso hill called Cerro Alegre under **Cerro
+  Tololo**, Delhi's Jantar Mantar under **Jaipur's**, Rome city drives and Vatican
+  Media's St Peter's broadcast under the **Vatican Observatory** (which has been at
+  Castel Gandolfo since the 1930s), an Indiana **railcam** under Griffith
+  Observatory, and the University of Illinois' **Alma Mater statue** cam — then a
+  band called **Kalatu Alma** — under ALMA in Chile. Banning those ids globally
+  would have deleted the good seat to fix the bad one. `per_place` is keyed
+  `place id → {video id: why not here}` and is checked by the shared
+  `em.denied(place, vid)` in both `enrich_media.py` and `prune_media.py`.
+  It also catches the one thing no heuristic can see: **the same camera under two
+  ids** — Djuma publishes its Gowrie dam feed publicly *and* as an ad-free members
+  re-upload, and the sweep put one in `live` and the other in `window`.
+  12 entries across 7 places so far. Global bans stay for videos that are nobody's
+  scene (the Kalatu Alma session, a 2022 clip of geese offered as a walking tour).
 
 - **🏞️ The Grand River watershed — 19 places + a trip (2026-08-01):** every Grand
   River Conservation Area is now a place (`canada.json` 17 → 36), Luther Marsh at

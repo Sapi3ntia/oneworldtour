@@ -25,7 +25,6 @@
     "1CRXoZI-Wdo": "'RE-LIVE' planespotting: streaming now, recorded earlier",
     "PMetnXeBFSk": "'RE-Live' planespotting: streaming now, recorded earlier",
     "epob2jcRe_Q": "TV7, a Bordeaux television channel, not a view of Bordeaux",
-
     "u8CbGedbI08": "the Agdao, Davao City store cam again under a new id — still not Cebu City",
     "5BxqzvR6TgM": "the Port of Santos, Brazil. 'porto' is the harbour, not Porto, Portugal",
     "69rI-RUVNaA": "Flagstaff General Store in Stratton, MAINE — not Flagstaff, Arizona",
@@ -37,8 +36,40 @@
     "gzV7uUxwgwI": "a 'virtual Tube journey' — recorded footage looping, not a live view",
     "szXkrFW3pvE": "'Explore Vietnam Live TV' rotates Hanoi and Ho Chi Minh City",
     "JKIi9eWSpzQ": "reports is_live but serves no frames; nothing proves it is Mont-Saint-Michel",
-
     "IkqvJRnJCI4": "Mississauga, Ontario — Hwy 403 and Winston Churchill Blvd, 2000 km from Churchill, Manitoba",
-    "jtyQ2qLRyuk": "really is Churchill, Manitoba, but shot in November 2016 — too old to promise as current"
+    "jtyQ2qLRyuk": "really is Churchill, Manitoba, but shot in November 2016 — too old to promise as current",
+    "0QjUVC1cE0o": "a railcam at the CN interlocking in Griffith, INDIANA — not Griffith Observatory in Los Angeles",
+    "0mEf4MbHKDo": "\"Alma Cam\" is the University of Illinois' Alma Mater statue in Urbana — not ALMA, the Atacama array in Chile",
+    "osCgoc2VNdU": "Kalatu Alma, a band, live from a studio in Villa Dominico, Buenos Aires — not ALMA the Atacama array",
+    "pP5jVQI3P7Q": "a 2022 Djuma highlight clip of geese ('walk-about' in the title), not a walking tour"
+  },
+  "_per_place": "place id -> {youtube id: why it is not THIS place}. For a video that is honest somewhere else: a Mt Wilson walk is right for mount-wilson-observatory and wrong for Yerkes. A global ban would delete the good seat too.",
+  "per_place": {
+    "yerkes-observatory": {
+      "9eKfFk6Jnt4": "the Mount Wilson Observatory walk, in California — Yerkes is in Williams Bay, WISCONSIN",
+      "mUloFhQR_ss": "Griffith Observatory to Hollywood, Los Angeles — nowhere near Wisconsin"
+    },
+    "la-silla-observatory": {
+      "d6pd28diHCI": "ESO's PARANAL, 600 km up the ridge — and the same tape already fills paranal-observatory's drive seat"
+    },
+    "cerro-tololo": {
+      "VkNjanBgh5I": "Cerro Alegre, a hill in Valparaíso — matched on \"Cerro\", 400 km from Cerro Tololo"
+    },
+    "jantar-mantar-jaipur": {
+      "_NmhfSWiBQ8": "the DELHI Jantar Mantar — a different one of Jai Singh's five, 260 km away",
+      "ykf0ZyHh1Rs": "the DELHI Jantar Mantar again, under a new id"
+    },
+    "vatican-observatory": {
+      "ndtMPyQ_YSs": "a Rome city drive — the Vatican Observatory moved to Castel Gandolfo, 25 km southeast, in the 1930s",
+      "P8NmaO8HRRs": "another Rome drive — the observatory is at Castel Gandolfo, 25 km southeast",
+      "gW-upYJcuSE": "Vatican Media's own broadcast channel pointed at St Peter's — a broadcaster, not Castel Gandolfo (its English twin is already vatican-city's window)"
+    },
+    "djuma-sabi-sands": {
+      "oKqvQa4J8VY": "the SAME Gowrie dam camera as the live seat, re-uploaded ad-free for members — one view under two labels",
+      "mk02pEy3FdA": "Camelthorn waterhole in BOTSWANA — Djuma is Gowrie dam in the Sabi Sand, South Africa"
+    },
+    "parkes-observatory": {
+      "fNBAbZ6hxh4": "the TOWN of Parkes and Memorial Hill — the Dish is 20 km north on Telescope Road and the drive never reaches it"
+    }
   }
 }

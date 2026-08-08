@@ -51,18 +51,32 @@ MEDIA = ROOT / "data" / "media.json"
 DENYLIST = ROOT / "data" / "media_denylist.json"
 
 
-def load_denylist():
+def load_denylist(key="ids"):
     """Ids a human watched and rejected. Heuristics can't see that a cam
     labelled "Monteverde" is a barangay in the Philippines rather than the
     cloud forest in Costa Rica — and without a memory of that judgement the
     next sweep finds it again. This file is that memory."""
     try:
-        return json.loads(DENYLIST.read_text()).get("ids", {})
+        return json.loads(DENYLIST.read_text()).get(key, {})
     except (OSError, ValueError):
         return {}
 
 
 DENIED = load_denylist()
+# Place-scoped rejections: the video is fine, just not HERE. A global ban
+# would be wrong — "Walking tour of the Mt Wilson Observatory" is exactly
+# right for mount-wilson-observatory and completely wrong for Yerkes, 3,000
+# km away in Wisconsin, which is where the sweep also filed it. Same for one
+# Paranal drive filling La Silla's seat 600 km down the ridge. Keyed
+# place id → {video id: why not here}.
+DENIED_HERE = load_denylist("per_place")
+
+
+def denied(place, vid):
+    """Why this video may not fill a seat for this place, or None."""
+    if vid in DENIED:
+        return DENIED[vid]
+    return (DENIED_HERE.get((place or {}).get("id")) or {}).get(vid)
 
 SEARCH_N = 10
 CUR_YEAR = datetime.now().year
@@ -761,7 +775,7 @@ def find_seekable(place, query, want, avoid, min_dur=600, night=False):
     for e in flat_search(query):
         title = e.get("title") or ""
         dur = e.get("duration") or 0
-        if e.get("id") in DENIED:
+        if denied(place, e.get("id")):
             continue
         if e.get("live_status") == "is_live":
             continue
@@ -881,7 +895,7 @@ def find_cams(place, exclude=(), seats=("live", "window")):
         for e in flat_search(q, 12):
             if e.get("live_status") != "is_live" or e.get("id") in exclude:
                 continue
-            if e.get("id") in seen or e.get("id") in DENIED:
+            if e.get("id") in seen or denied(place, e.get("id")):
                 continue
             title = e.get("title") or ""
             if BAD_CAM.search(title) or AGGREGATOR_CAM.search(title):
