@@ -100,6 +100,21 @@
   paint-order: stroke; stroke: rgba(7, 10, 18, 0.85); stroke-width: 2.5px;
 }
 
+/* ---- fanned places (worldmap.js: _buildFans / _fanOut) ----
+   Cape Town, Table Mountain and Camps Bay are 5 km apart — one dot's
+   worth of screen at every zoom this camera can reach. They're pushed
+   onto a small ring so all three can be seen and aimed at, and each
+   keeps a hairline back to where it really is. The leader is what makes
+   the nudge honest, so it is drawn whenever the dot is off its mark.
+   `wm-kin` = "a sibling of the dot you're on": the group lights up
+   together, which is how you learn it IS a group. */
+.city-leader {
+  stroke: rgba(232, 181, 77, 0.42); stroke-width: 1px; fill: none;
+}
+.wmap-city.wm-kin .city-leader,
+.wmap-city.wm-hot .city-leader { stroke: rgba(232, 181, 77, 0.95); }
+.wmap-city.wm-kin .city-label { fill: #e8d9b4; }
+
 /* ---- live-cam pulse ----
    A camera that is streaming RIGHT NOW is what this atlas has that an
    atlas doesn't, and it was reading as one more coloured dot. The ring
@@ -165,6 +180,11 @@
   max-width: 240px; white-space: nowrap;
 }
 .wmap-tip b { color: var(--gold); }
+/* the "+2 nearby, nudged apart" line a fanned dot owns up to */
+.wmap-tip .tip-fan {
+  display: block; margin-top: 2px; font-size: 11px; font-style: normal;
+  color: var(--ink-dim);
+}
 
 /* ---- map chrome (zoom buttons etc.) ---- */
 .wmap-ctl {

@@ -32,6 +32,17 @@
        at k=40) and swallowed their neighbours. Radii are now pinned
        in real pixels, exactly like the label text always was.
 
+   Some places, though, cannot be separated by zooming at all. Cape Town,
+   Table Mountain and Camps Bay are 5 km apart — three dots inside one
+   dot's worth of screen at EVERY zoom this camera can reach. Those get
+   FANNED (2026-08): places within FAN_U map units of each other form a
+   group, and each member slides toward a ring slot of its own, keeping a
+   hairline leader back to where it really is. The whole group slides by
+   the same fraction, and that fraction falls to zero the moment real
+   geography has opened FAN_PX between its tightest pair — so zooming in
+   still resolves a cluster for real, and the fan only covers the last
+   stretch the camera can't. See _buildFans / _fanOut.
+
    Everything drawn per-place is pinned that way now (2026-07). The
    label's dark outline was the last hold-out: its font-size shrank
    with the zoom but its stroke-width stayed 2.5 MAP units, so by the
@@ -58,13 +69,28 @@ import { project, unproject, MAP_W, MAP_H } from './lib/geo.js';
 const NS = 'http://www.w3.org/2000/svg';
 const COUNTRY_K = 2.6;   // below this zoom: country nodes; above: city dots
 const LABEL_K = 4.2;     // city labels appear from this zoom
-const K_MAX = 40, K_MIN = 1;
+const K_MAX = 90, K_MIN = 1;
+const FIT_MIN_W = 75;    // narrowest viewBox flyToPlaces will fit to, in map units
 const DOT_PX = 4;        // city dot radius, in real screen pixels at any zoom
 const HIT_PX = 12;       // click/tap radius around a dot centre, likewise
 const HALO_PX = 2.5;     // label outline width, likewise (see _applyZoomStyling)
 const LABEL_CAP = 150;   // most labels we'll consider placing in one pass
 const VIEW_PAD = 0.15;   // restyle/declutter this far outside the viewBox
 const PAN_STEP = 0.18;   // arrow-key pan, as a fraction of the viewport
+/* Fanning overlapping places. FAN_U is deliberately tiny — a third of a
+   map unit is ~14 km, i.e. "the same spot", not "the same region". Open
+   it up and single-linkage chains the whole of Hong Kong into one
+   twenty-dot flower; at 0.34 the biggest group we hold is 9 (Hong Kong
+   island + Kowloon), and the one that started this is 3 (Cape Town). */
+const FAN_U = 0.34;      // group places closer than this, in map units
+const FAN_PX = 15;       // and hold fanned neighbours this far apart, in screen px
+/* Where the fan lets go. It has to be comfortably MORE than FAN_PX: the
+   dots travel in a straight line from true to slot, so if the group let
+   go the instant real separation reached FAN_PX, the halfway point of
+   that slide would be tighter than either end (a measured 11 px dip at
+   t≈0.5). Releasing at twice the target makes the whole ramp monotone —
+   drawn separation never falls below FAN_PX at any zoom. */
+const FAN_OFF_PX = 30;   // real separation at which a group stops fanning
 
 /* Natural Earth spells a handful of countries differently from our own
    data. Four names, so: four aliases, not a fuzzy matcher. (Malta,
@@ -284,7 +310,12 @@ export class WorldMap {
          when the camera actually contains it — see the note there. */
       g.style.display = 'none';
       this.gDots.appendChild(g);
-      const d = { g, dot, label, p, parked: true };
+      /* rx/ry = where this dot is DRAWN, which is its true point until a
+         fan pushes it off (see _fanOut). ax/ay = what we last wrote to
+         the DOM, so an unfanned dot — almost all of them — costs zero
+         attribute writes per frame. */
+      const d = { g, dot, label, p, parked: true, fan: null,
+        rx: p._pt.x, ry: p._pt.y, ax: p._pt.x, ay: p._pt.y };
       /* A camera that is live RIGHT NOW is the thing this atlas has that
          an atlas doesn't, and it was reading as one more flat red dot.
          It gets a ring that breathes. The ring lives in its own layer,
@@ -312,8 +343,127 @@ export class WorldMap {
       + (f.live ? 1 : 0) + (f.window ? 1 : 0) + (f.walk ? 1 : 0) + (f.monuments ? 1 : 0);
     this._cityDots.sort((a, b) =>
       rank(b.p) - rank(a.p) || String(a.p.id).localeCompare(String(b.p.id)));
+    this._buildFans();
     this._hot = null;
     this._applyZoomStyling();
+  }
+
+  /* ---------------- fanning stacked places ---------------- */
+
+  /* Who is standing on whose toes. Single-linkage over a grid of FAN_U
+     cells: bucket every dot, compare only the 3×3 neighbourhood, union
+     anything closer than FAN_U. Once per data change (not per frame),
+     and the membership is fixed for the life of that data — a group that
+     re-formed as you zoomed would make its dots jump.
+
+     Each member gets a slot on a ring: the smallest radius at which
+     ADJACENT slots sit FAN_PX apart. Slots are handed out in order of
+     each place's true bearing from the group's centre, so the flower
+     keeps the shape the real places have, and sliding onto it never
+     makes two members cross over each other.
+
+     `near` is the group's tightest pair — the one that decides whether
+     the group still needs fanning at all. */
+  _buildFans() {
+    this._fans = [];
+    const dots = this._cityDots;
+    if (!dots || dots.length < 2) return;
+
+    const cells = new Map();
+    const key = (x, y) => `${Math.floor(x / FAN_U)}:${Math.floor(y / FAN_U)}`;
+    dots.forEach((d, i) => {
+      const k = key(d.p._pt.x, d.p._pt.y);
+      if (!cells.has(k)) cells.set(k, []);
+      cells.get(k).push(i);
+    });
+
+    const par = dots.map((_, i) => i);
+    const find = a => { while (par[a] !== a) { par[a] = par[par[a]]; a = par[a]; } return a; };
+    dots.forEach((d, i) => {
+      const cx = Math.floor(d.p._pt.x / FAN_U), cy = Math.floor(d.p._pt.y / FAN_U);
+      for (let gx = cx - 1; gx <= cx + 1; gx++) {
+        for (let gy = cy - 1; gy <= cy + 1; gy++) {
+          for (const j of cells.get(`${gx}:${gy}`) || []) {
+            if (j <= i) continue;
+            const e = dots[j];
+            if (Math.hypot(e.p._pt.x - d.p._pt.x, e.p._pt.y - d.p._pt.y) >= FAN_U) continue;
+            const ra = find(i), rb = find(j);
+            if (ra !== rb) par[ra] = rb;
+          }
+        }
+      }
+    });
+
+    const groups = new Map();
+    dots.forEach((d, i) => {
+      const r = find(i);
+      if (!groups.has(r)) groups.set(r, []);
+      groups.get(r).push(d);
+    });
+
+    for (const members of groups.values()) {
+      const n = members.length;
+      if (n < 2) continue;
+      const cx = members.reduce((s, d) => s + d.p._pt.x, 0) / n;
+      const cy = members.reduce((s, d) => s + d.p._pt.y, 0) / n;
+      const ring = FAN_PX / (2 * Math.sin(Math.PI / n));
+      const fan = { members, ring, cx, cy, near: Infinity, t: 0 };
+      const bys = members
+        .map(d => ({ d, a: Math.atan2(d.p._pt.y - cy, d.p._pt.x - cx) }))
+        // coincident points have no bearing at all — id keeps the order total
+        .sort((u, v) => u.a - v.a || String(u.d.p.id).localeCompare(String(v.d.p.id)));
+      const a0 = bys[0].a;
+      bys.forEach(({ d }, i) => {
+        const a = a0 + (i * 2 * Math.PI) / n;
+        d.fan = fan;
+        d.fanDir = { x: Math.cos(a), y: Math.sin(a) };
+        for (const e of members) {
+          if (e === d) continue;
+          fan.near = Math.min(fan.near,
+            Math.hypot(e.p._pt.x - d.p._pt.x, e.p._pt.y - d.p._pt.y));
+        }
+        /* The hairline home. Drawn UNDER its own dot, and only while the
+           dot is actually off its mark — a fan you can't trace is just a
+           map that lies about where things are. */
+        const { x, y } = d.p._pt;
+        d.leader = svgEl('line', {
+          x1: x, y1: y, x2: x, y2: y, class: 'city-leader',
+          'vector-effect': 'non-scaling-stroke',
+        });
+        d.leader.style.display = 'none';
+        d.g.insertBefore(d.leader, d.g.firstChild);
+      });
+      this._fans.push(fan);
+    }
+  }
+
+  /* Where each fanned dot sits at this zoom: somewhere on the line from
+     where it really is to its slot on the ring. Pure geometry, no DOM —
+     the writes happen in _applyZoomStyling with everything else, and
+     only for dots whose position actually moved.
+
+     ONE t for the whole group, not one per member. A per-member push
+     looks tempting (leave the members that already have room alone) but
+     it lets a crowded dot be flung onto a slot that a roomy one is
+     already sitting in — Victoria Peak landed on Cheung Chau at k≈38,
+     which is the bug this whole thing exists to kill. Moving together
+     preserves the bearing order the slots were dealt in, so members can
+     never cross, and at t=1 the ring guarantees the spacing outright. */
+  _fanOut(u) {
+    for (const fan of this._fans || []) {
+      // 1 while the group's tightest pair is still inside FAN_PX of each
+      // other, easing off to 0 as the zoom opens FAN_OFF_PX between them
+      const near = fan.near / u;                        // in screen pixels
+      const t = Math.max(0, Math.min(1,
+        (FAN_OFF_PX - near) / (FAN_OFF_PX - FAN_PX)));
+      fan.t = t;
+      for (const d of fan.members) {
+        const { x, y } = d.p._pt;
+        if (!t) { d.rx = x; d.ry = y; continue; }
+        d.rx = x + (fan.cx + d.fanDir.x * fan.ring * u - x) * t;
+        d.ry = y + (fan.cy + d.fanDir.y * fan.ring * u - y) * t;
+      }
+    }
   }
 
   /* Route pins / extra markers (guesser answers etc.) */
@@ -402,6 +552,8 @@ export class WorldMap {
       const r = DOT_PX * u;
       this._hitR = HIT_PX * u;
       const fs = 11 / k;
+      // decide where the stacked ones sit before anything measures them
+      this._fanOut(u);
       /* ONLY what's on screen. This used to walk all ~377 dots and write
          four attributes to each, every frame of every tween, to restyle
          the ~340 of them the viewBox had clipped away — the single
@@ -427,6 +579,20 @@ export class WorldMap {
       for (const d of inView) {
         if (d.parked) { d.g.style.display = ''; d.parked = false; }
         d.dot.setAttribute('r', r);
+        /* Only a fanned dot ever moves off its projected point, and only
+           while the fan is open — so this costs nothing at all for the
+           ~500 places that aren't stacked on anything. */
+        if (d.rx !== d.ax || d.ry !== d.ay) {
+          d.ax = d.rx; d.ay = d.ry;
+          d.dot.setAttribute('cx', d.rx);
+          d.dot.setAttribute('cy', d.ry);
+          d.label.setAttribute('x', d.rx);
+          d.label.setAttribute('y', d.ry);
+          if (d.pulse) { d.pulse.setAttribute('cx', d.rx); d.pulse.setAttribute('cy', d.ry); }
+          const off = d.fan.t > 0.02;
+          d.leader.style.display = off ? '' : 'none';
+          if (off) { d.leader.setAttribute('x2', d.rx); d.leader.setAttribute('y2', d.ry); }
+        }
         if (showLabels) {
           d.label.setAttribute('font-size', fs);
           /* The halo is a STROKE on the text, so it lives in map units
@@ -480,8 +646,8 @@ export class WorldMap {
     const y0 = vb.y - my, y1 = vb.y + vb.h + my;
     const out = [];
     for (const d of dots || []) {
-      const { x, y } = d.p._pt;
-      if (x >= x0 && x <= x1 && y >= y0 && y <= y1) out.push(d);
+      // drawn position, so a fanned dot pushed over the edge still counts
+      if (d.rx >= x0 && d.rx <= x1 && d.ry >= y0 && d.ry <= y1) out.push(d);
     }
     return out;
   }
@@ -527,14 +693,14 @@ export class WorldMap {
      on every tween frame — exactly the thrash this engine exists to
      avoid — and an estimate is plenty to spot an overlap. */
   _placeLabels(fs, r, inView) {
-    const boxes = inView.map(({ p }) => ({
-      x0: p._pt.x - r, y0: p._pt.y - r, x1: p._pt.x + r, y1: p._pt.y + r,
+    const boxes = inView.map(d => ({
+      x0: d.rx - r, y0: d.ry - r, x1: d.rx + r, y1: d.ry + r,
     }));
     const hits = (a, b) => a.x0 < b.x1 && b.x0 < a.x1 && a.y0 < b.y1 && b.y0 < a.y1;
     const gap = r * 1.8;
     let placed = 0;
     for (const d of inView) {
-      const { x, y } = d.p._pt;
+      const x = d.rx, y = d.ry;
       const y0 = y - fs * 0.62, y1 = y + fs * 0.42;
       const w = ([...d.label.textContent].length + 1) * fs * 0.58;
       let box = null;
@@ -607,7 +773,11 @@ export class WorldMap {
     }
     const pad = Math.max((x1 - x0), (y1 - y0) * (MAP_W / MAP_H)) * 0.35 + 14;
     let w = (x1 - x0) + pad * 2;
-    w = Math.max(w, MAP_W / K_MAX * 3);           // don't overshoot into the ground
+    /* Don't overshoot into the ground. A fixed floor, NOT one derived
+       from K_MAX: raising the ceiling so a stacked cluster can be pulled
+       apart by hand must not also make every one-place country click
+       dive twice as deep as it used to. */
+    w = Math.max(w, FIT_MIN_W);
     w = Math.max(w, minW);                        // caller's floor (trip routes)
     w = Math.min(w, MAP_W);
     // ensure we land in city mode — the whole point of a country click
@@ -805,8 +975,8 @@ export class WorldMap {
      priority the array is sorted in, because "next" should mean the
      next one across the screen. */
   _step(dir) {
-    const order = (a, b) => (a.cy ?? a.p._pt.y) - (b.cy ?? b.p._pt.y)
-      || (a.cx ?? a.p._pt.x) - (b.cx ?? b.p._pt.x);
+    const order = (a, b) => (a.cy ?? a.ry) - (b.cy ?? b.ry)
+      || (a.cx ?? a.rx) - (b.cx ?? b.rx);
     const list = this.k >= COUNTRY_K
       ? this._inView().sort(order)
       : (this._countryNodes || []).slice().sort(order);
@@ -817,7 +987,7 @@ export class WorldMap {
       ? list[dir > 0 ? 0 : list.length - 1]
       : list[(at + dir + list.length) % list.length];
     this._setHot(next, true);
-    const x = next.cx ?? next.p._pt.x, y = next.cy ?? next.p._pt.y;
+    const x = next.cx ?? next.rx, y = next.cy ?? next.ry;
     this._tipShow(this._mapToClient(x, y), this._tipFor(next), { x, y });
     /* Nudge the camera only if the target sits outside the real viewBox
        — _inView is padded, so "in view" can still mean just off-screen. */
@@ -835,7 +1005,9 @@ export class WorldMap {
   _nearestCity(pt) {
     let best = null, bd = (this._hitR || 6) ** 2;
     for (const d of this._cityDots || []) {
-      const q = (d.p._pt.x - pt.x) ** 2 + (d.p._pt.y - pt.y) ** 2;
+      // rx/ry, not the projected point: you aim at the dot you can see,
+      // and a fanned dot is not where its place is
+      const q = (d.rx - pt.x) ** 2 + (d.ry - pt.y) ** 2;
       if (q <= bd) { bd = q; best = d; }
     }
     return best;
@@ -883,6 +1055,7 @@ export class WorldMap {
       this._hot.g.classList.remove('wm-hot');
       // a caption _placeLabels dropped goes back into hiding on the way out
       if (this._hot.labelHidden) this._hot.label.style.display = 'none';
+      this._setKin(this._hot, false);
     }
     this._hot = hit || null;
     if (hit) {
@@ -890,11 +1063,27 @@ export class WorldMap {
       // whatever the cursor owns is named, decluttered or not
       if (this._showLabels && hit.label) hit.label.style.display = '';
       hit.g.parentNode.appendChild(hit.g);   // re-append = drawn last = on top
+      this._setKin(hit, true);
     }
     /* Only the keyboard walk speaks. A live region that fired on every
        pointermove would narrate the whole map at anyone who happens to
        run a screen reader with a mouse in hand. */
     if (say) this.live.textContent = hit ? this._sayText(hit) : '';
+  }
+
+  /* Light up the rest of a fanned group with whichever of them the
+     highlight is on. Three dots over Cape Town are one place to the eye,
+     and touching any of them should say so — the siblings' leaders
+     brighten and their names come back, decluttered or not, which is
+     usually how you find out there were three at all. */
+  _setKin(hit, on) {
+    if (!hit || !hit.fan) return;
+    for (const m of hit.fan.members) {
+      if (m === hit) continue;
+      m.g.classList.toggle('wm-kin', on);
+      if (on) { if (this._showLabels) m.label.style.display = ''; }
+      else if (m.labelHidden) m.label.style.display = 'none';
+    }
   }
 
   /* What the highlight is, in words. The flags are emoji in the tooltip,
@@ -904,7 +1093,9 @@ export class WorldMap {
       const f = hit.p._flags || {};
       const bits = [f.live && 'live cam', f.window && 'window view',
         f.walk && 'walking tour', f.monuments && 'monuments'].filter(Boolean);
-      return `${hit.p.name}, ${hit.p.country}${bits.length ? `. ${bits.join(', ')}` : ''}`;
+      const kin = hit.fan && hit.fan.t > 0.02 ? hit.fan.members.length - 1 : 0;
+      return `${hit.p.name}, ${hit.p.country}${bits.length ? `. ${bits.join(', ')}` : ''}`
+        + (kin ? `. ${kin} more place${kin === 1 ? '' : 's'} within a few kilometres` : '');
     }
     return `${hit.country}, ${hit.list.length} place${hit.list.length === 1 ? '' : 's'}`;
   }
@@ -915,8 +1106,11 @@ export class WorldMap {
       const f = hit.p._flags || {};
       const tags = [f.live && '🔴', f.window && '🪟', f.walk && '🚶', f.monuments && '🏛️']
         .filter(Boolean).join(' ');
+      // a fanned dot isn't drawn where its place is; the tip owns up to it
+      const kin = hit.fan && hit.fan.t > 0.02 ? hit.fan.members.length - 1 : 0;
       return `${hit.p.emoji || '📍'} <b>${hit.p.name}</b> · ${hit.p.country}`
-        + (tags ? ` &nbsp;${tags}` : '');
+        + (tags ? ` &nbsp;${tags}` : '')
+        + (kin ? `<i class="tip-fan">+${kin} nearby, nudged apart</i>` : '');
     }
     // one-place countries get named outright — a bare "Chile · 1 place"
     // node sitting on Easter Island looks like a bug
