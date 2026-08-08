@@ -154,6 +154,33 @@ dropped in v2 — resurrect from git if missed); satellite descend-from-orbit.
 
 ## Recently landed (so it isn't re-litigated)
 
+- **Fanning places that zoom can't separate (2026-08-08):** Adding Camps Bay put
+  three places — Cape Town, Table Mountain, Camps Bay — inside 5 km of each
+  other, which is 0.08–0.14 map units: one dot, at every zoom the camera could
+  reach. The ceiling went `K_MAX` 40 → 90, and `js/worldmap.js` gained
+  `_buildFans()` / `_fanOut()`: places within `FAN_U = 0.34` units (~14 km) are
+  clustered **once, at data time**, and each member slides to its own slot on a
+  ring sized to hold neighbours `FAN_PX = 15` screen px apart, keeping a hairline
+  leader (`.city-leader`) back to its true point. The fan releases as real
+  geography opens `FAN_OFF_PX = 30` px between the group's tightest pair.
+
+  Four decisions not to re-derive:
+  - **`FAN_U` is deliberately tiny.** Single-linkage chains: open it up and the
+    whole of Hong Kong becomes one twenty-dot flower. At 0.34 the largest group
+    across all 540 places is 9.
+  - **Membership is static.** Groups that re-form mid-zoom would make dots jump.
+  - **The blend `t` is group-wide, not per-member.** Per-member relaxation let
+    Victoria Peak and Cheung Chau cross to 0.8 px apart at k ≈ 38.
+  - **`FAN_OFF_PX` must be ~2× `FAN_PX`.** Dots slide in straight lines, so
+    releasing at `FAN_PX` dips separation to 11.25 px mid-ramp. At 30 the ramp is
+    monotone.
+
+  Measured over the whole atlas at k = 3…90: 27 groups, 71 of 540 dots fanned,
+  worst drawn separation **14.9 px**, **426/426** centre-aimed clicks land on the
+  intended dot, **0** unfanned dots displaced. `flyToPlaces` now floors its fit at
+  `FIT_MIN_W = 75` instead of deriving it from `K_MAX`, so the deeper ceiling
+  didn't silently change country-click zoom.
+
 - **🔭 Observatories & Telescopes — 32 places + Camps Bay (2026-08-07):**
   `data/observatory.json`, a third collection region beside `ancient` and `wild`,
   registered in `data/index.json` with `collection` + `accent` and wired to a 🔭 map

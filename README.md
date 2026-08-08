@@ -271,6 +271,47 @@ more have no polygon at this resolution and simply never match. In `pick` mode
 this is deliberately **off** — naming the land is the one thing the City Guesser
 must never do.
 
+**Some places can't be separated by zooming (2026-08).** Cape Town, Table
+Mountain and Camps Bay are 5 km apart. Every fix above makes crowded dots
+resolve *as you zoom in* — but these three are 0.08–0.14 map units apart, which
+is 5 px at the old ceiling of k = 40 and still under one dot's width at any zoom
+this camera could reach. Three places, one dot. The zoom ceiling went to
+**k = 90** (which buys the trio 11 px, not enough on its own), and the rest is
+handled by **fanning**:
+
+- `_buildFans()` runs once, at data time: single-linkage clustering (grid buckets
+  + union-find) over places within `FAN_U = 0.34` map units — about 14 km, i.e.
+  *"the same spot"*, not *"the same region"*. Membership is **static** on
+  purpose. Groups that re-form during a zoom would make dots jump.
+- `_fanOut()` slides each member toward its own slot on a small ring around the
+  group's centroid, sized so neighbours sit `FAN_PX = 15` screen px apart. Slots
+  are dealt in order of true bearing from the centroid, so a dot never crosses a
+  sibling on its way out. Each keeps a hairline **leader** back to where it
+  really is — a 5 px stub for a trio, a legible starburst for the 9 places
+  crowded onto Hong Kong island, which is the right way round: the cue appears
+  exactly when the nudge is big enough to matter.
+- The fan **lets go** as real geography opens up: the group-wide blend `t` falls
+  to 0 once its tightest pair is genuinely `FAN_OFF_PX = 30` px apart, so zooming
+  really does resolve a cluster and the fan only covers the last stretch the
+  camera can't.
+
+Two things that ramp had to be argued into. A **per-member** `t` let Victoria
+Peak and Cheung Chau land **0.8 px apart at k ≈ 38** — members relaxing at
+different rates cross each other. `t` is now group-wide. And releasing at
+`FAN_PX` rather than `2 × FAN_PX` made drawn separation *dip mid-ramp*
+(`15·[1 − τ + τ²]` bottoms out at 11.25 px): the dots slide in straight lines, so
+the halfway point is tighter than either end. At `FAN_OFF_PX = 30` the
+derivative `2(D−F)(τ−1)` is ≤ 0 throughout and the ramp is monotone.
+
+Driving the real module under a DOM shim over all 540 places — 27 groups, 71
+dots fanned, largest group 9 — the measured result across k = 3…90 is: **worst
+drawn separation 14.9 px** (any pair, any group, any zoom), **426/426**
+centre-aimed clicks resolve to the dot aimed at, and **0** of the 469 unfanned
+dots move by so much as a sub-pixel. Raising the ceiling also meant pinning
+`flyToPlaces`' fit floor to its own constant (`FIT_MIN_W = 75`); it was derived
+from `K_MAX`, so a deeper ceiling would have silently changed how far every
+country click zooms.
+
 ### Scene resolution (`js/lib/media.js`)
 
 Per scene, curation beats automation:
