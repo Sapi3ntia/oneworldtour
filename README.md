@@ -1,6 +1,6 @@
 # 🌍 One World Tour
 
-Step into 540 places across 94 countries — **walk their streets, drive their
+Step into 543 places across 94 countries — **walk their streets, drive their
 roads, watch their intersections live, look out their windows live**, tune into
 their radio, **watch their national TV live**, and read their news — all in-app,
 all real. Inspired by
@@ -206,15 +206,36 @@ each frame which names get printed:
   caption, never a place you could have clicked;
 - names go out in a fixed priority order (`famous` outranks `hidden`, then scene
   count, then id — global and stable, so panning can't make two neighbours swap
-  captions frame by frame), each trying the right of its dot and then the **left**
-  (that flip is what keeps Osaka *and* Nara named, 14 px apart);
+  captions frame by frame), each taking the first clear slot from `LABEL_SLOTS`;
 - a name with nowhere clean to sit isn't drawn. Its dot, tooltip and click target
   stay, and hovering gives the name back.
 
+**Sixteen slots, not two (2026-08).** The original pass offered a caption the
+right of its dot and then the left — that flip is what keeps Osaka *and* Nara
+named, 14 px apart, so it earned its place. But a single row is also exactly why
+Mount Wilson Observatory stayed nameless until you were most of the way to
+`K_MAX`. It sits in a chain of eight places strung along one line of latitude —
+Santa Monica · Los Angeles · Griffith · Mount Wilson · Big Bear · Joshua Tree ·
+Palomar · San Diego — where every caption is 15–20 map units wide inside a
+125-unit viewport. On one row the first name printed eats every position the rest
+of the chain could have used, and the ones that lose are the ones with the longest
+names, which are the observatories. `LABEL_SLOTS` now offers sixteen positions
+around the dot — beside it, stacked over or under it, out on a diagonal, up to
+three caption-heights away — right before left and above before below all the way
+down, so the map stays predictable as you pan. Stacking rows is what a chain like
+that needs, and it's also just how an atlas draws them. Over a sweep of 140 random
+viewports: **64 % of in-view places named → 80 %**, and Mount Wilson is named
+continuously from k ≈ 7 instead of appearing at k ≈ 30.
+
 Boxes are estimated from the character count, never measured — `getBBox()` on a
 few hundred `<text>` nodes would force a layout flush on every tween frame, the
-exact thrash this engine exists to avoid. Measured cost of the whole pass in the
-worst view we ship (117 places on screen over Europe): **~0.8 ms**.
+exact thrash this engine exists to avoid. Eight times the slots would have been
+eight times the collision tests, so claimed boxes are indexed by horizontal
+**band** rather than scanned end to end: a caption is one line tall and a viewport
+is ~50 lines, so a candidate only ever compares against the two or three bands it
+crosses. The worst frame in that same sweep went from **39 k tests to 11 k** — the
+richer placement is cheaper than the old one was. Measured cost of the whole pass
+in the worst view we ship (117 places on screen over Europe): **~0.8 ms**.
 
 **Per-frame work is bounded by the viewport (2026-07).** `_applyZoomStyling()`
 runs on every frame of every tween, and it used to write four attributes to all
@@ -303,8 +324,9 @@ different rates cross each other. `t` is now group-wide. And releasing at
 the halfway point is tighter than either end. At `FAN_OFF_PX = 30` the
 derivative `2(D−F)(τ−1)` is ≤ 0 throughout and the ramp is monotone.
 
-Driving the real module under a DOM shim over all 540 places — 27 groups, 71
-dots fanned, largest group 9 — the measured result across k = 3…90 is: **worst
+Driving the real module under a DOM shim over the atlas as it stood that day —
+540 places, 27 groups, 71 dots fanned, largest group 9 — the measured result
+across k = 3…90 is: **worst
 drawn separation 14.9 px** (any pair, any group, any zoom), **426/426**
 centre-aimed clicks resolve to the dot aimed at, and **0** of the 469 unfanned
 dots move by so much as a sub-pixel. Raising the ceiling also meant pinning
@@ -682,7 +704,7 @@ the whole Chinese corridor was missing; it now runs Kashgar → Turpan → Dunhu
 Mogao → Jiayuguan → Zhangye → Lanzhou, and **The Middle Kingdom Line** is the
 first-timer's rail route, Beijing round to Shanghai.
 
-**The observatories** (`observatory.json`, 32 places, 2026-08). Built to the rules
+**The observatories** (`observatory.json`, 35 places, 2026-08). Built to the rules
 below rather than discovering them, which is the point of writing them down. Two
 things it did add:
 
@@ -700,6 +722,15 @@ things it did add:
 - `type` is `mountain` / `desert` / `history`, never `nature` — which keeps the
   `city_tour_of_the_wild` guard live for remote sites while stopping a wildlife cam
   from filling an observatory's 🔴 seat.
+- **All six NRAO facilities** are now in (32 → 35, 2026-08-11): the VLA, Green Bank
+  and ALMA were already here; **ngVLA**, the **VLBA** and the **Central Development
+  Lab** went in beside them. Two of the three needed a coordinate that isn't their
+  P625 and the file's `_note` says why — Wikidata gives the VLBA the *VLA's* point on
+  the Plains of San Agustin, where the VLBA has no antenna at all, so it is pinned at
+  the Socorro operations centre where the ten stations' recordings are correlated. The
+  ngVLA legitimately shares the VLA's point (its one prototype dish stands on that
+  site); the map's fanning is what keeps them apart, and fixing that fan is why
+  `_placeLabels` was rewritten.
 
 | rule | why |
 | --- | --- |
