@@ -548,21 +548,25 @@
       ],
       "highlights": [
         {
-          "name": "Grand Ole Opry",
-          "wikipedia_slug": "Grand_Ole_Opry"
-        },
-        {
           "name": "Broadway",
           "wikipedia_slug": "Broadway_(Nashville,_Tennessee)"
         },
         {
-          "name": "Country Music Hall of Fame",
+          "name": "Grand Ole Opry",
+          "wikipedia_slug": "Grand_Ole_Opry"
+        },
+        {
+          "name": "Ryman Auditorium",
+          "wikipedia_slug": "Ryman_Auditorium"
+        },
+        {
+          "name": "Country Music Hall of Fame and Museum",
           "wikipedia_slug": "Country_Music_Hall_of_Fame_and_Museum"
         }
       ],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null,
+      "blurb": "Music City, and it earns the name in the daytime as much as at night — this is a town of session players, publishers and writers' rooms, and the neon on Broadway is the shop window rather than the business. The Opry has been broadcasting live since 1925, which makes it the longest-running radio show in America.",
+      "fun_fact": "The Ryman was built in 1892 as a gospel tabernacle by a riverboat captain who had gone to a revival meaning to heckle and came out converted. The pews are still pews, which is why it sounds the way it does.",
+      "hidden_gem_tip": "The Bluebird Cafe out in a strip mall in Green Hills seats about ninety and runs in-the-round writers' nights where the people who wrote the songs play them. Book the moment seats open, or queue for the bar stools.",
       "webcam": "h5Grd2w7HQM",
       "country_code": "US",
       "continent": "North America"
@@ -597,17 +601,17 @@
           "wikipedia_slug": "Texas_State_Capitol"
         },
         {
-          "name": "South Congress",
-          "wikipedia_slug": "South_Congress"
+          "name": "Barton Springs Pool",
+          "wikipedia_slug": "Barton_Springs_Pool"
         },
         {
-          "name": "Lady Bird Lake",
-          "wikipedia_slug": "Lady_Bird_Lake"
+          "name": "South Congress",
+          "wikipedia_slug": "South_Congress"
         }
       ],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null,
+      "blurb": "The state capital and its least Texan city, a university town that grew into a tech one without ever quite deciding to stop being a music town. It sits on the edge of the Hill Country, so the land starts folding and the water starts running clear right at the western edge of the city.",
+      "fun_fact": "About 1.5 million Mexican free-tailed bats live under the Ann W. Richards Congress Avenue Bridge from spring to autumn — the largest urban bat colony in North America. They came for the crevices left by a 1980 redeck, nobody planned it, and the evening flyout stops traffic on the bridge.",
+      "hidden_gem_tip": "Barton Springs is spring-fed, three acres of it, and holds about 20°C all year whatever the month is doing. Go early enough and it is mostly people who swim it every day.",
       "country_code": "US",
       "continent": "North America"
     },
@@ -2935,6 +2939,720 @@
           "title": "Santa Monica Walking Tour 4K 🌴 | Beach, Pier & 10 Minutes of Beautiful Sunset #santamonica"
         }
       ]
+    },
+    {
+      "id": "houston",
+      "name": "Houston",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Texas",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🚀",
+      "coordinates": {
+        "lat": 29.7628,
+        "lng": -95.3831
+      },
+      "street_view": {
+        "lat": 29.7628,
+        "lng": -95.3831,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Houston",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Space Center Houston",
+          "wikipedia_slug": "Space_Center_Houston"
+        },
+        {
+          "name": "Buffalo Bayou",
+          "wikipedia_slug": "Buffalo_Bayou"
+        },
+        {
+          "name": "Houston Museum District",
+          "wikipedia_slug": "Houston_Museum_District"
+        }
+      ],
+      "blurb": "The fourth-largest city in America and the one with no zoning code, which is why a taquería, a refinery office and a glass tower can share a block. Mission Control has run every crewed American spaceflight from here since 1965, and the Texas Medical Center next door is the largest concentration of hospitals on Earth.",
+      "fun_fact": "The first word spoken from the surface of the Moon was \"Houston\" — Armstrong opening with \"Houston, Tranquility Base here. The Eagle has landed.\" The city is in the sentence because Mission Control is here, not Florida.",
+      "hidden_gem_tip": "The Menil Collection and the Rothko Chapel beside it are free, always have been, and sit in a neighbourhood of grey bungalows the museum also owns. Ten minutes away the Beer Can House is sided in about 50,000 flattened cans.",
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "dallas",
+      "name": "Dallas",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Texas",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🌆",
+      "coordinates": {
+        "lat": 32.7792,
+        "lng": -96.8089
+      },
+      "street_view": {
+        "lat": 32.7792,
+        "lng": -96.8089,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Dallas",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Dealey Plaza",
+          "wikipedia_slug": "Dealey_Plaza"
+        },
+        {
+          "name": "Reunion Tower",
+          "wikipedia_slug": "Reunion_Tower"
+        },
+        {
+          "name": "Deep Ellum",
+          "wikipedia_slug": "Deep_Ellum,_Dallas"
+        }
+      ],
+      "blurb": "Banking and oil money stood a skyline up on flat blackland prairie with no river worth the name and no reason to be there but the railroad junction that made it. Dealey Plaza sits at the western edge of downtown, and the triple underpass looks exactly as it does in the footage.",
+      "fun_fact": "The integrated circuit was invented here: Jack Kilby built the first working one at Texas Instruments in September 1958, during a summer shutdown he was too new to have earned holiday for. It won him a share of the 2000 Nobel Prize in Physics.",
+      "hidden_gem_tip": "Deep Ellum was where Blind Lemon Jefferson and Lead Belly played in the 1920s, and it is still a live-music district rather than a plaque about one. For the other extreme, the Kimbell is 40 minutes west in Fort Worth and worth the drive.",
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "fort-worth",
+      "name": "Fort Worth",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Texas",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🤠",
+      "coordinates": {
+        "lat": 32.7564,
+        "lng": -97.3325
+      },
+      "street_view": {
+        "lat": 32.7564,
+        "lng": -97.3325,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Fort_Worth,_Texas",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Fort Worth Stockyards",
+          "wikipedia_slug": "Fort_Worth_Stockyards"
+        },
+        {
+          "name": "Kimbell Art Museum",
+          "wikipedia_slug": "Kimbell_Art_Museum"
+        }
+      ],
+      "blurb": "Dallas's twin 50 km west, and nothing like it. This was the last stop for cattle before the Chisholm Trail went north, and the city has kept the stockyards, the brick streets and the honky-tonks rather than tearing them down — while quietly assembling one of the best small art museums anywhere.",
+      "fun_fact": "A herd of Texas Longhorns is driven down Exchange Avenue twice a day, every day. It is the only twice-daily cattle drive in the world, and the drovers are city employees.",
+      "hidden_gem_tip": "The Kimbell is Louis Kahn's building as much as it is the collection — cycloid vaults with a slot down the middle that throws daylight onto the concrete and never onto the paintings. Admission to the permanent collection is free.",
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "el-paso",
+      "name": "El Paso",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Texas",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🌵",
+      "coordinates": {
+        "lat": 31.7592,
+        "lng": -106.4886
+      },
+      "street_view": {
+        "lat": 31.7592,
+        "lng": -106.4886,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "El_Paso,_Texas",
+      "sounds": [
+        "desert-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Franklin Mountains State Park",
+          "wikipedia_slug": "Franklin_Mountains_State_Park"
+        },
+        {
+          "name": "Ysleta Mission",
+          "wikipedia_slug": "Ysleta_Mission"
+        }
+      ],
+      "blurb": "A city built around the pass the Rio Grande cut through the Rockies' last gasp, with a mountain range running into the middle of it and Ciudad Juárez on the other side of the river. The two cities together are one of the largest binational metropolitan areas in the world, and the border here is a commute rather than a frontier.",
+      "fun_fact": "Franklin Mountains State Park is roughly 24,000 acres and sits almost entirely inside the city limits — one of the largest urban parks in the United States. You can be on a desert ridge with no road in sight ten minutes from downtown.",
+      "hidden_gem_tip": "The Ysleta Mission has held services continuously since 1682, which makes it the oldest parish in Texas, and it belongs to the Ysleta del Sur Pueblo rather than to the city. Go up Scenic Drive at dusk to see both countries lit at once.",
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "big-bend",
+      "name": "Big Bend National Park",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Texas",
+      "type": "desert",
+      "tag": "hidden",
+      "emoji": "🏜️",
+      "coordinates": {
+        "lat": 29.25,
+        "lng": -103.25
+      },
+      "street_view": {
+        "lat": 29.25,
+        "lng": -103.25,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Big_Bend_National_Park",
+      "sounds": [
+        "desert-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Chisos Mountains",
+          "wikipedia_slug": "Chisos_Mountains"
+        },
+        {
+          "name": "Santa Elena Canyon"
+        },
+        {
+          "name": "Terlingua",
+          "wikipedia_slug": "Terlingua,_Texas"
+        }
+      ],
+      "blurb": "Three thousand square kilometres of Chihuahuan Desert wrapped inside the bend the Rio Grande makes as it turns north-east, with a whole mountain range in the middle of it. It is one of the least-visited large parks in the country, mostly because it is a long way from anywhere and always will be.",
+      "fun_fact": "The Chisos are the only mountain range in the United States entirely contained within a single national park. The park also has the darkest measured night skies of any national park in the lower 48 — on a clear night the Milky Way casts a shadow.",
+      "hidden_gem_tip": "Santa Elena Canyon at the west end has 460-metre limestone walls and a river you can wade into, with Mexico on the far bank. Terlingua, just outside, is a quicksilver ghost town whose surviving porch is the social centre of the region.",
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "marfa",
+      "name": "Marfa",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Texas",
+      "type": "desert",
+      "tag": "hidden",
+      "emoji": "🎨",
+      "coordinates": {
+        "lat": 30.3117,
+        "lng": -104.0244
+      },
+      "street_view": {
+        "lat": 30.3117,
+        "lng": -104.0244,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Marfa,_Texas",
+      "sounds": [
+        "desert-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Chinati Foundation",
+          "wikipedia_slug": "Chinati_Foundation"
+        },
+        {
+          "name": "Prada Marfa",
+          "wikipedia_slug": "Prada_Marfa"
+        },
+        {
+          "name": "Marfa lights",
+          "wikipedia_slug": "Marfa_lights"
+        }
+      ],
+      "blurb": "A high-desert railroad town of under 2,000 people that became one of the most important places in American minimalism because Donald Judd left New York in the 1970s, bought a decommissioned army fort, and installed his work in it permanently and at the scale he wanted.",
+      "fun_fact": "Judd's 100 milled aluminium boxes stand in two artillery sheds whose walls he replaced with glass — every box the same outside dimensions, no two the same inside, and the light moving across them all day is the point.",
+      "hidden_gem_tip": "Prada Marfa is not in Marfa: it is a sealed, permanently locked fake shop on US-90 about 60 km north-west, near Valentine. The Marfa lights viewing platform is east of town on the same road, and the lights are genuinely unexplained.",
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "galveston",
+      "name": "Galveston",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Texas",
+      "type": "coastal",
+      "tag": "hidden",
+      "emoji": "🌊",
+      "coordinates": {
+        "lat": 29.3014,
+        "lng": -94.7978
+      },
+      "street_view": {
+        "lat": 29.3014,
+        "lng": -94.7978,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Galveston,_Texas",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Strand Historic District",
+          "wikipedia_slug": "Strand_Historic_District"
+        },
+        {
+          "name": "Bishop's Palace",
+          "wikipedia_slug": "Bishop's_Palace_(Galveston,_Texas)"
+        }
+      ],
+      "blurb": "A barrier-island port that was the richest city in Texas before the storm, with an iron-fronted commercial district to prove it. The Strand's Victorian blocks survived because they were built to last, and the island has been rebuilding around them ever since.",
+      "fun_fact": "The 1900 hurricane killed somewhere between 6,000 and 12,000 people and remains the deadliest natural disaster in United States history. Galveston's answer was to build a seawall and then physically raise the city — over 2,100 buildings jacked up on screws while sand was pumped underneath them.",
+      "hidden_gem_tip": "Bishop's Palace came through 1900 intact and is one of the finest Victorian houses in the country. Walk the seawall at the east end to see how high the made ground actually is where it meets the old grade.",
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "fredericksburg",
+      "name": "Fredericksburg",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Texas",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🌼",
+      "coordinates": {
+        "lat": 30.2742,
+        "lng": -98.8719
+      },
+      "street_view": {
+        "lat": 30.2742,
+        "lng": -98.8719,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Fredericksburg,_Texas",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Enchanted Rock",
+          "wikipedia_slug": "Enchanted_Rock"
+        },
+        {
+          "name": "Lyndon B. Johnson National Historical Park",
+          "wikipedia_slug": "Lyndon_B._Johnson_National_Historical_Park"
+        }
+      ],
+      "blurb": "German settlers founded this Hill Country town in 1846 and the street plan, the Sunday Houses and a good deal of the food are still theirs. Peach orchards and vineyards have grown up around it since, which is why a town of 11,000 has the traffic it does on a spring weekend.",
+      "fun_fact": "The settlers signed a treaty with the Penateka Comanche in 1847 — negotiated by John Meusebach without the state's involvement — and it is widely described as the only such treaty in Texas that was never broken by either side.",
+      "hidden_gem_tip": "Enchanted Rock, 25 km north, is a pink granite dome you climb in about 45 minutes; it creaks audibly at night as it cools, which is where its name comes from. LBJ's ranch and birthplace are the other way, along the Pedernales.",
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "palo-duro-canyon",
+      "name": "Palo Duro Canyon",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Texas",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🏞️",
+      "coordinates": {
+        "lat": 34.95,
+        "lng": -101.667
+      },
+      "street_view": {
+        "lat": 34.95,
+        "lng": -101.667,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Palo_Duro_Canyon",
+      "sounds": [
+        "desert-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "The Lighthouse"
+        },
+        {
+          "name": "Amarillo",
+          "wikipedia_slug": "Amarillo,_Texas"
+        }
+      ],
+      "blurb": "The second-largest canyon in the United States, cut 300 metres into the featureless Texas panhandle by a river you would not look at twice. You drive across flat wheat country and the ground simply opens — there is no warning from the rim road until you are on it.",
+      "fun_fact": "It runs about 190 km long and up to 32 km wide, and almost nobody outside Texas has heard of it. A musical called *Texas* has been staged on the canyon floor every summer since 1966, with the cliff as the backdrop.",
+      "hidden_gem_tip": "The Lighthouse is the canyon's free-standing rock column and the walk out to it is about 9 km round trip with no shade — go at first light. The red and white banding in the walls is 250 million years of Permian and Triassic rock.",
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "guadalupe-mountains",
+      "name": "Guadalupe Mountains National Park",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Texas",
+      "type": "mountain",
+      "tag": "hidden",
+      "emoji": "⛰️",
+      "coordinates": {
+        "lat": 31.9167,
+        "lng": -104.8667
+      },
+      "street_view": {
+        "lat": 31.9167,
+        "lng": -104.8667,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Guadalupe_Mountains_National_Park",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Guadalupe Peak",
+          "wikipedia_slug": "Guadalupe_Peak"
+        },
+        {
+          "name": "El Capitan",
+          "wikipedia_slug": "El_Capitan_(Texas)"
+        },
+        {
+          "name": "McKittrick Canyon",
+          "wikipedia_slug": "McKittrick_Canyon"
+        }
+      ],
+      "blurb": "The highest ground in Texas, rising straight out of the salt flats on the New Mexico line with almost no foothills to soften it. El Capitan's prow was the landmark that steered stagecoaches through, and it still reads as a ship's bow from 40 km away.",
+      "fun_fact": "The whole range is a fossil reef. The Capitan Reef grew in a tropical sea about 260 million years ago, was buried, and has been uplifted and stripped bare — one of the best-exposed ancient reefs anywhere on Earth, with the sponges and algae that built it still visible in the rock.",
+      "hidden_gem_tip": "McKittrick Canyon turns red and gold in late October and early November — bigtooth maple in a desert canyon, which should not happen and is why people drive from El Paso for it. Guadalupe Peak at 2,667 m is the Texas high point, about 13 km round trip and relentlessly uphill.",
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "south-padre-island",
+      "name": "South Padre Island",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Texas",
+      "type": "island",
+      "tag": "hidden",
+      "emoji": "🏝️",
+      "coordinates": {
+        "lat": 26.1119,
+        "lng": -97.1697
+      },
+      "street_view": {
+        "lat": 26.1119,
+        "lng": -97.1697,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "South_Padre_Island,_Texas",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Laguna Madre",
+          "wikipedia_slug": "Laguna_Madre_(United_States)"
+        }
+      ],
+      "blurb": "The southern tip of the longest barrier island in the world, with the Gulf on one side and the Laguna Madre on the other. Sea turtles nest on the beach, spring break arrives for a few weeks, and the rest of the year it is a fishing and birding town at the very bottom of Texas.",
+      "fun_fact": "The Laguna Madre behind the island is hypersaline — saltier than the sea — which is rare enough that only a handful of such lagoons exist worldwide. The shallow, salty water grows seagrass meadows that make this one of the best fly-fishing flats in North America.",
+      "hidden_gem_tip": "Sea Turtle Inc. releases rehabilitated Kemp's ridleys — the world's most endangered sea turtle — straight off the beach, and hatchling releases in summer are public. The Birding and Nature Center's boardwalk is the quiet counterweight to the beachfront.",
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "caddo-lake",
+      "name": "Caddo Lake",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Texas",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🌳",
+      "coordinates": {
+        "lat": 32.71,
+        "lng": -94.01
+      },
+      "street_view": {
+        "lat": 32.71,
+        "lng": -94.01,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Caddo_Lake",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Caddo Lake State Park",
+          "wikipedia_slug": "Caddo_Lake_State_Park"
+        },
+        {
+          "name": "Jefferson",
+          "wikipedia_slug": "Jefferson,_Texas"
+        }
+      ],
+      "blurb": "A flooded cypress forest on the Louisiana line that looks nothing like the rest of Texas — black water, Spanish moss, and marked boat lanes because without them you would not find your way out. It is the state's only large naturally formed lake.",
+      "fun_fact": "It holds the largest bald cypress forest in the world. The lake exists because of the Great Raft, a colossal logjam on the Red River that backed water up across the bottomlands for centuries before it was finally cleared in the 1870s.",
+      "hidden_gem_tip": "Jefferson, just up the road, was a steamboat port when the raft made the river navigable and stopped dead when it was removed — so its 1870s downtown was never built over. Paddle the cypress bayous at dawn; the lanes are signposted and the mist sits on the water.",
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "memphis",
+      "name": "Memphis",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Tennessee",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🎸",
+      "coordinates": {
+        "lat": 35.1461,
+        "lng": -90.0519
+      },
+      "street_view": {
+        "lat": 35.1461,
+        "lng": -90.0519,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Memphis,_Tennessee",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Beale Street",
+          "wikipedia_slug": "Beale_Street"
+        },
+        {
+          "name": "Graceland",
+          "wikipedia_slug": "Graceland"
+        },
+        {
+          "name": "Sun Studio",
+          "wikipedia_slug": "Sun_Studio"
+        },
+        {
+          "name": "National Civil Rights Museum",
+          "wikipedia_slug": "National_Civil_Rights_Museum"
+        }
+      ],
+      "blurb": "The city on the bluff where the Delta's music came upriver and turned into something else — blues on Beale Street, then rock and roll at Sun, then soul at Stax a few miles south. It is also where Martin Luther King Jr. was killed, and the motel is still standing because the city chose to keep it.",
+      "fun_fact": "Sun Studio recorded Elvis Presley, Johnny Cash, Jerry Lee Lewis, Carl Perkins and Roy Orbison, and on 4 December 1956 four of them ended up round the same piano by accident. Someone had the sense to leave the tape running.",
+      "hidden_gem_tip": "The Lorraine Motel is preserved exactly as it was and is now the National Civil Rights Museum — the balcony is the last thing you see, at the end. Stax is a faithful rebuild of a studio the city demolished in 1989 and later regretted.",
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "clarksdale",
+      "name": "Clarksdale",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Mississippi",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🎶",
+      "coordinates": {
+        "lat": 34.2006,
+        "lng": -90.5702
+      },
+      "street_view": {
+        "lat": 34.2006,
+        "lng": -90.5702,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Clarksdale,_Mississippi",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Delta Blues Museum",
+          "wikipedia_slug": "Delta_Blues_Museum"
+        },
+        {
+          "name": "Ground Zero Blues Club",
+          "wikipedia_slug": "Ground_Zero_Blues_Club"
+        },
+        {
+          "name": "Dockery Plantation",
+          "wikipedia_slug": "Dockery_Plantation"
+        }
+      ],
+      "blurb": "The town at the middle of the Mississippi Delta, which is the flattest, richest farmland in America and the place the blues came from. Muddy Waters, John Lee Hooker, Sam Cooke and Ike Turner all came out of this county, and people still play here several nights a week in rooms that hold fifty.",
+      "fun_fact": "The crossroads where Robert Johnson supposedly sold his soul to the devil for his technique is marked at the junction of Highways 61 and 49, in the middle of town, with three blue guitars on a pole. Nobody claims it is the actual spot.",
+      "hidden_gem_tip": "Dockery Farms, 40 km south-east, has as good a claim as anywhere to being where the blues started — Charley Patton lived and played on the plantation and taught half the first generation. The gin and the service station are still standing.",
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "vicksburg",
+      "name": "Vicksburg",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Mississippi",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🏛️",
+      "coordinates": {
+        "lat": 32.3525,
+        "lng": -90.8775
+      },
+      "street_view": {
+        "lat": 32.3525,
+        "lng": -90.8775,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Vicksburg,_Mississippi",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Vicksburg National Military Park",
+          "wikipedia_slug": "Vicksburg_National_Military_Park"
+        },
+        {
+          "name": "Vicksburg Riverfront Murals",
+          "wikipedia_slug": "Vicksburg_Riverfront_Murals"
+        }
+      ],
+      "blurb": "A town on the last high bluff before the Mississippi runs down to the sea, which is the entire reason anyone fought over it. Whoever held Vicksburg held the river, and the siege that settled it in July 1863 cut the Confederacy in half on the same day the other army lost at Gettysburg.",
+      "fun_fact": "The city surrendered on 4 July 1863, and the story goes that Vicksburg did not hold an official Independence Day celebration again for about eighty years. The river has since moved: the waterfront the siege was fought over is now the Yazoo Diversion Canal, and the Mississippi runs a mile off.",
+      "hidden_gem_tip": "The military park road runs 26 km past monuments each state raised for its own dead, so the ground reads as a map of who was where. The ironclad USS *Cairo* — sunk in 1862, raised in 1964 — is inside the park, its timbers on display.",
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "natchez",
+      "name": "Natchez",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Mississippi",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🏘️",
+      "coordinates": {
+        "lat": 31.5604,
+        "lng": -91.4032
+      },
+      "street_view": {
+        "lat": 31.5604,
+        "lng": -91.4032,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Natchez,_Mississippi",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Natchez Trace Parkway",
+          "wikipedia_slug": "Natchez_Trace_Parkway"
+        },
+        {
+          "name": "Longwood",
+          "wikipedia_slug": "Longwood_(Natchez,_Mississippi)"
+        },
+        {
+          "name": "Natchez Under-the-Hill",
+          "wikipedia_slug": "Natchez_Bluffs_and_Under-the-Hill_Historic_District"
+        }
+      ],
+      "blurb": "The oldest continuous European settlement on the Mississippi, founded by the French in 1716, and before the war the town with more millionaires per head than anywhere in America — cotton money, made on the backs of enslaved people, spent on houses. It surrendered without a fight, so the houses are all still there.",
+      "fun_fact": "Longwood is the largest octagonal house in the United States and it has never been finished. The Philadelphia workmen downed tools when the war began in 1861 and went home; only the basement was ever completed, and the family lived in it beneath five empty floors that are still bare brick and scaffolding.",
+      "hidden_gem_tip": "Natchez Under-the-Hill, down the bluff at the landing, was the rough half of town when the flatboat crews arrived and is now a short row of bars over the water. The Trace starts here and runs 715 km to Nashville with no advertising on it.",
+      "country_code": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "baton-rouge",
+      "name": "Baton Rouge",
+      "country": "United States",
+      "country_flag": "🇺🇸",
+      "region": "Louisiana",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🏛️",
+      "coordinates": {
+        "lat": 30.4475,
+        "lng": -91.1786
+      },
+      "street_view": {
+        "lat": 30.4475,
+        "lng": -91.1786,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Baton_Rouge,_Louisiana",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Louisiana State Capitol",
+          "wikipedia_slug": "Louisiana_State_Capitol"
+        },
+        {
+          "name": "USS Kidd",
+          "wikipedia_slug": "USS_Kidd"
+        },
+        {
+          "name": "Louisiana State University",
+          "wikipedia_slug": "Louisiana_State_University"
+        }
+      ],
+      "blurb": "Louisiana's capital, named for a red post that marked a boundary between two peoples' hunting grounds, and the furthest inland a full-size ocean ship can reach on the Mississippi. It is the last stop on the river road before the landscape gives way to New Orleans.",
+      "fun_fact": "The Louisiana State Capitol is the tallest state capitol in the United States — 34 storeys, built by Huey Long in fourteen months. Long was shot in a corridor of his own building in 1935 and died two days later; the bullet marks are still pointed out in the marble.",
+      "hidden_gem_tip": "The USS *Kidd* is moored downtown and is one of the only surviving Fletcher-class destroyers in its wartime configuration — the river's tide range means she sits on a cradle out of the water for part of the year. Drive River Road south for the plantation museums, including Whitney, which tells it from the quarters.",
+      "country_code": "US",
+      "continent": "North America"
     }
   ]
 }

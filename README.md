@@ -1,6 +1,6 @@
 # 🌍 One World Tour
 
-Step into 543 places across 94 countries — **walk their streets, drive their
+Step into 643 places across 97 countries — **walk their streets, drive their
 roads, watch their intersections live, look out their windows live**, tune into
 their radio, **watch their national TV live**, and read their news — all in-app,
 all real. Inspired by
@@ -93,7 +93,7 @@ windows, no frozen widgets posing as live cams.
 - **City Guesser** (`guess.html`) — dropped into a mystery scene (the walk video,
   title hidden), pin the world map, scored on great-circle distance, 5 rounds,
   spoiler-free emoji share.
-- **Trips** (`trips.html`, `trips.html?id=…`) — 18 curated routes people actually
+- **Trips** (`trips.html`, `trips.html?id=…`) — 19 curated routes people actually
   travel (the Euro Trip, Route 66, the Trans-Siberian, the Banana Pancake Trail…),
   each drawn on the world map as numbered stops, then listed stop by stop with a
   line on why that stop is on the route. See below.
@@ -131,7 +131,7 @@ oneworldtour/
 ├── data/
 │   ├── index.json         # region registry
 │   ├── trips.json         # 🧭 curated routes — ordered stop ids + editorial notes
-│   ├── <region>.json      # 540 places (curated walks/webcams/monuments live here)
+│   ├── <region>.json      # 594 places (curated walks/webcams/monuments live here)
 │   ├── wild.json          # 🦁 wildlife & national-park live cams as places
 │   ├── observatory.json   # 🔭 observatories & telescopes as places
 │   ├── tv.json            # 📺 live national TV channels per country (verified live)
@@ -658,7 +658,7 @@ clobbering each other. Promote a good auto pick by moving it into that file's
 python3 tools/check_trips.py --scenes    # exits 1 if any stop is unknown
 ```
 
-`data/trips.json` holds 18 hand-ordered routes. A trip stores only **place ids**
+`data/trips.json` holds 19 hand-ordered routes. A trip stores only **place ids**
 plus a one-line note per stop, so it can never invent a destination — it can only
 point at somewhere the atlas already goes. `js/lib/trips.js` resolves those ids
 against the loaded places; a stop that doesn't resolve is dropped loudly to the
@@ -685,7 +685,7 @@ still says so, which is how most people find the trips at all.
 
 ### Filling a region out ★
 
-Three batches went in this way, and the rules they turned up apply to any new place.
+Five batches went in this way, and the rules they turned up apply to any new place.
 
 **The Grand River watershed** (`canada.json` 17 → 36). Every Grand River
 Conservation Area now exists as a place — Luther Marsh at the source down to Byng
@@ -731,6 +731,66 @@ things it did add:
   ngVLA legitimately shares the VLA's point (its one prototype dish stands on that
   site); the map's fanning is what keeps them apart, and fixing that fan is why
   `_placeLabels` was rewritten.
+
+**Southeast Asia** (`asia.json` 190 → 273, 2026-08-11). Same shape as China: the 24
+places we had were skeletons, and 83 more went in beside them — 24 → **107**. Four
+countries went from nothing at all: **Indonesia 20** (Yogyakarta and Borobudur through
+Bromo and Ijen out to Raja Ampat, Wae Rebo and the Bandas), **Myanmar 8**, **Brunei 2**
+and **Timor-Leste 2**, all of which had to be added to `tools/build_countries.py` first
+— an unregistered country is counted but never listed, and the generator only says so
+in a `⚠` line you have to be reading for. Thailand 4 → 15, Vietnam 4 → 14, Malaysia
+4 → 13, the Philippines 4 → 13, Cambodia 3 → 8, Laos 2 → 8, Singapore 3 → 4. **The
+Banana Pancake Trail** already existed and every stop still resolves; what changed is
+that the trail now has a country either side of each stop. Two traps this batch added
+to the list:
+
+- **A highlight that redirects to the record's own subject is worse than a dead link.**
+  Gardens by the Bay's "Flower Dome" and "Supertree Grove" both redirect to *Gardens by
+  the Bay*, and Phú Quốc's "Dương Đông" redirects to *Phú Quốc* — a chip that reopens
+  the page you are already on. The resolver reports the redirect target, so compare it
+  against the record's own slug, not just against nothing.
+- **The namesake trap has a literary form.** "Bridge over the River Kwai" resolves to
+  Pierre Boulle's *novel*, which has no coordinates and no monument; the bridge's own
+  article isn't under any name close to it. Dropped for Kanchanaburi War Cemetery
+  rather than guessed at.
+- **Chasing that `⚠` line down to nothing found five older countries missing too.**
+  Registering Myanmar, Brunei and Timor-Leste is what made the warning readable, and it
+  was still naming **DR Congo, Namibia, Zimbabwe, North Korea and Uzbekistan** — all
+  five carrying places since the wildlife and Silk Road batches, all five counted in
+  the totals and none of them listed anywhere you could browse to. They are registered
+  now, so the registry holds all **97** countries the atlas actually covers and the
+  warning prints nothing. A generator that only whispers when it's wrong needs someone
+  to go looking; the useful state is the one where its whisper is silence.
+
+**Texas and the Blues Highway** (`usa.json` 57 → 74, 2026-08-11). Texas had three
+places for the second-largest state in the country, one of which was a Route 66 fuel
+stop. It has twelve more now: **Houston**, **Dallas** and **Fort Worth**, **El Paso**
+where the range runs into the middle of the city, **Big Bend** and **Marfa** out in
+the Chihuahuan Desert, **Galveston**, **Fredericksburg** in the Hill Country,
+**Palo Duro Canyon**, **Guadalupe Mountains**, **South Padre Island**, and **Caddo
+Lake**, which is a cypress swamp and looks nothing like the rest of it. Austin was a
+skeleton and is filled.
+
+The new route is **The Blues Highway** 🎷 (`trips.json`, 19 routes now) — Nashville ·
+Memphis · Clarksdale · Vicksburg · Natchez · Baton Rouge · New Orleans, 985 km as the
+crow flies. It is the drive Route 66 isn't: US-61 down the Mississippi, run southward
+along the road the music came *up* during the Great Migration. Five of its stops did
+not exist yet, so **Memphis** went in, **Nashville** got filled, and **Mississippi**
+became a state the atlas covers at all — Clarksdale, Vicksburg and Natchez. What this
+batch added to the list:
+
+- **A redirect can cross a border.** "El Paso del Norte" is a perfectly reasonable
+  highlight for El Paso and it redirects to **Ciudad Juárez** — the right history,
+  the wrong country, and a chip that sends you to Mexico. The namesake check has to
+  compare the *resolved* article against what the record is actually about, not just
+  confirm that something resolved.
+- **And it can cross a border while keeping the name.** "Santa Elena Canyon" resolves
+  to the *Cañón de Santa Elena Flora and Fauna Protection Area*, which is the Mexican
+  reserve on the far bank, not the canyon you walk into from Big Bend. Demoted to a
+  plain text chip — right name, no link, no lie.
+- **Two more had no article at all** (Galveston's Pleasure Pier, Palo Duro's
+  Lighthouse). The Lighthouse is the canyon's signature rock and still earns its chip
+  as plain text; the pier was dropped.
 
 | rule | why |
 | --- | --- |

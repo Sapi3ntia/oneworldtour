@@ -407,6 +407,47 @@
       ]
     },
     {
+      "id": "blues-highway",
+      "name": "The Blues Highway",
+      "emoji": "🎷",
+      "mode": "drive",
+      "region": "American South",
+      "days": "10–14 days",
+      "hero": "memphis",
+      "tagline": "Nashville to New Orleans, down the road the music came up.",
+      "blurb": "The other great American drive, and the one that goes somewhere Route 66 never did. US-61 runs from Memphis down the Mississippi through the Delta — the flattest, richest cotton country in America and the ground the blues came out of — to Baton Rouge and New Orleans. Nashville is the overture: I-40 west from there to Memphis is signed the Music Highway, and it takes you from the Opry to Beale Street in three hours. What follows is roughly the route the music itself travelled, in reverse — north up the river to Memphis and Chicago is how the Delta emptied out in the Great Migration, and driving it southward is driving back to where it started.",
+      "stops": [
+        {
+          "id": "nashville",
+          "note": "The Opry has broadcast live since 1925 — the longest-running radio show in America. Start at the Ryman, which is where it was for thirty-one years and still sounds best."
+        },
+        {
+          "id": "memphis",
+          "note": "Where the Delta's music came upriver and turned into rock and roll at Sun and soul at Stax. The Lorraine Motel is preserved as it was and is now the National Civil Rights Museum."
+        },
+        {
+          "id": "clarksdale",
+          "note": "The middle of the Delta and the start of the blues proper. Highways 61 and 49 cross in town; Dockery Farms, where Charley Patton played, is 40 km south-east."
+        },
+        {
+          "id": "vicksburg",
+          "note": "The last high bluff before the river runs to the sea, which is why the siege happened here. The park road runs 26 km past each state's monuments to its own dead."
+        },
+        {
+          "id": "natchez",
+          "note": "The oldest settlement on the river, 1716, and the town that surrendered without a fight — so the houses survived. Longwood has stood unfinished since the workmen went home in 1861."
+        },
+        {
+          "id": "baton-rouge",
+          "note": "Huey Long's 34-storey capitol, the tallest in the country, and the corridor he was shot in. Take River Road south from here rather than the interstate."
+        },
+        {
+          "id": "new-orleans",
+          "note": "The river's mouth and the end of the road. Everything upstream fed into what happens here — go to a neighbourhood room, not Bourbon Street."
+        }
+      ]
+    },
+    {
       "id": "the-nile",
       "name": "Down the Nile",
       "emoji": "𓂀",
