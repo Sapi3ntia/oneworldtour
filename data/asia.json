@@ -9125,7 +9125,33 @@
       "blurb": "Ten million people on a river delta that keeps trying to sink under them, and a city that answers by building upwards and sideways at once: canal houses on stilts, a Skytrain overhead, and a Chinatown that has been trading on the same street since the capital moved here in 1782. The Chao Phraya still does the organising — everything old faces the water, everything new faces the road.",
       "fun_fact": "Its ceremonial name is the longest place name in the world: Krungthepmahanakhon Amonrattanakosin Mahintharayutthaya Mahadilokphop Noppharatratchathaniburirom Udomratchaniwetmahasathan Amonphimanawatansathit Sakkathattiyawitsanukamprasit, at 168 letters. Thais use the first word. \"Bangkok\" is what foreigners kept calling the village that was here first.",
       "hidden_gem_tip": "Skip the tourist boats. The orange-flag Chao Phraya Express is the commuter service, costs a few baht, and stops at almost every temple you came to see — get on at Sathorn and ride north past Wat Arun with the people going to work.",
-      "walk": "3CRJWy5zXvg"
+      "walk": "3CRJWy5zXvg",
+      "monuments": [
+        {
+          "name": "Grand Palace",
+          "yt": "SC1fRcl_4Ws",
+          "start": 0,
+          "source": "auto",
+          "title": "Bangkok Grand Palace | Most Beautiful Landmarks in Thailand [ 4K HDR ]",
+          "height": 2160
+        },
+        {
+          "name": "Wat Pho",
+          "yt": "iSyiI0OzmAY",
+          "start": 0,
+          "source": "auto",
+          "title": "4K ►Bangkok Wat Pho 🇹🇭 - The Temple of the Reclining Buddha",
+          "height": 2160
+        },
+        {
+          "name": "Wat Arun",
+          "yt": "JWp76WJ857w",
+          "start": 0,
+          "source": "auto",
+          "title": "4K HDR // Wat Arun Full Virtual Walking Tour in Bangkok, Thailand 2022 - With Captions",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "chiang-mai",
@@ -9238,7 +9264,33 @@
       ],
       "blurb": "Thailand's largest island, joined to the mainland by a bridge, and rich long before anyone came for the beaches — tin was the money here, dredged out of the hills by Chinese labour for a century. The Sino-Portuguese shophouses of the old town were built on it, painted in colours that have nothing to do with the resorts on the far coast.",
       "fun_fact": "The island's wealth was tin, not tourism, and the mines only wound down in the 1980s. The Hokkien Chinese families who ran them left the food, the shophouses and the nine-day Vegetarian Festival, which is famous for the entirely non-vegetarian sight of entranced devotees walking through fire.",
-      "hidden_gem_tip": "Thalang Road in the old town, on a weekday morning. Same island, a different century — coffee shops in 100-year-old shophouses, no beach vendors, and the best oyster omelettes on Phuket a few doors down."
+      "hidden_gem_tip": "Thalang Road in the old town, on a weekday morning. Same island, a different century — coffee shops in 100-year-old shophouses, no beach vendors, and the best oyster omelettes on Phuket a few doors down.",
+      "monuments": [
+        {
+          "name": "Old Phuket Town",
+          "yt": "wif8sgqO8S4",
+          "start": 0,
+          "source": "auto",
+          "title": "Phuket Old Town Walking Tour 2026 | Old Phuket Town What To Do",
+          "height": 2160
+        },
+        {
+          "name": "Wat Chalong",
+          "yt": "6AZm5Y4jTAA",
+          "start": 0,
+          "source": "auto",
+          "title": "4K | Wat Chalong Temple | Phuket | Thailand",
+          "height": 2160
+        },
+        {
+          "name": "Phang Nga Bay",
+          "yt": "ByZmRTDhVs8",
+          "start": 0,
+          "source": "auto",
+          "title": "4K | Phang Nga Bay | Canoeing Tour | Panak & Hong Islands | Phuket | Thailand",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "ayutthaya",
@@ -9339,7 +9391,25 @@
       ],
       "blurb": "A peninsula on the Andaman coast that is cut off from the mainland by limestone cliffs, so the only way in is by longtail boat — which is why it feels like an island and is not one. Those cliffs are the draw: several hundred bolted sport climbing routes on overhanging pocketed limestone straight above the sand.",
       "fun_fact": "At the Phra Nang cave shrine at the southern end, fishermen have long left offerings to a princess spirit believed to control the sea here. The offerings are, and have been for generations, carved wooden phalluses, hundreds of them, stacked up in the mouth of the cave.",
-      "hidden_gem_tip": "Walk the jungle track between East and West Railay to the hidden lagoon — a rope-assisted scramble up and then down into a tidal pool enclosed by cliff on all sides. It is muddy, it is steeper than it looks, and there is nobody there."
+      "hidden_gem_tip": "Walk the jungle track between East and West Railay to the hidden lagoon — a rope-assisted scramble up and then down into a tidal pool enclosed by cliff on all sides. It is muddy, it is steeper than it looks, and there is nobody there.",
+      "monuments": [
+        {
+          "name": "Ao Nang",
+          "yt": "ahuNf1gvdBo",
+          "start": 0,
+          "source": "auto",
+          "title": "🇹🇭 4K HDR | Walking Krabi, Thailand | The Most Beautiful Beaches: Railay Beach & Ao Nang",
+          "height": 2160
+        },
+        {
+          "name": "Krabi",
+          "yt": "VBOUPWd9Mw0",
+          "start": 0,
+          "source": "auto",
+          "title": "4K HDR // Walking Railay Beach in Krabi | BEST Place in the World | Thailand 2022 - With Captions",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "sukhothai",
@@ -9383,7 +9453,25 @@
       ],
       "blurb": "The first Thai kingdom's capital, from the 13th and 14th centuries, and the source of most of what people mean by classical Thai art — the walking Buddha, the lotus-bud spire, the Thai alphabet itself. It is a park now: ruins in mown grass around lily ponds, laid out inside three rings of earthen wall, and much greener and gentler than Ayutthaya.",
       "fun_fact": "A stone inscription attributed to King Ramkhamhaeng, dated 1292, is held to be the oldest example of Thai writing and contains the line that the kingdom had fish in the water and rice in the fields. Scholars have argued about whether it is genuine for over a century; it is on the national curriculum regardless.",
-      "hidden_gem_tip": "Rent a bicycle at the gate — the park is flat, shaded and made for it — and then go 55 kilometres north to Si Satchanalai, the second city of the same kingdom, which is bigger, older-feeling, and where you will meet almost nobody."
+      "hidden_gem_tip": "Rent a bicycle at the gate — the park is flat, shaded and made for it — and then go 55 kilometres north to Si Satchanalai, the second city of the same kingdom, which is bigger, older-feeling, and where you will meet almost nobody.",
+      "monuments": [
+        {
+          "name": "Sukhothai Historical Park",
+          "yt": "D5qzDsArtM0",
+          "start": 0,
+          "source": "auto",
+          "title": "Sukhothai Historical Park - Sukhothai - Thailand - 2019 [UHD 4K]",
+          "height": 2160
+        },
+        {
+          "name": "Si Satchanalai",
+          "yt": "B-ocFCK0KXQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Driving 4K 🇹🇭 through Si Satchanalai district in Sukhothai province - Thailand",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "pai",
@@ -9423,7 +9511,17 @@
       ],
       "blurb": "A small Shan town in a valley in the far northwest, three hours from Chiang Mai by a road with 762 curves in it, and a place whose entire reputation rests on being somewhere to do nothing. Hot springs, a canyon, waterfalls, a walking street at night, and mist that sits in the valley until nine in the morning.",
       "fun_fact": "The bus company sells anti-nausea pills at the Chiang Mai terminal and T-shirts commemorating the 762 curves at the other end. Both do brisk business.",
-      "hidden_gem_tip": "Rent a scooter and ride out to the Lisu and Lahu villages north of town, or go the other way to the Mae Yen waterfall — a walk that crosses the same stream about twenty times and ends in a pool nobody else has bothered with."
+      "hidden_gem_tip": "Rent a scooter and ride out to the Lisu and Lahu villages north of town, or go the other way to the Mae Yen waterfall — a walk that crosses the same stream about twenty times and ends in a pool nobody else has bothered with.",
+      "monuments": [
+        {
+          "name": "Mae Hong Son",
+          "yt": "VVU9dk_BA-Y",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] Pai, Mae Hong Son, Thailand  #nightlife #walkingtour",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "chiang-rai",
@@ -9471,7 +9569,33 @@
       ],
       "blurb": "The northernmost provincial capital, founded by King Mangrai in 1262 — thirty years before he founded Chiang Mai — and now best known for three buildings that are not old at all. The White Temple, the Black House and the Blue Temple were all made by contemporary local artists, and between them they are the strangest religious architecture in Thailand.",
       "fun_fact": "Wat Rong Khun is entirely white with mirrored glass set into the plaster, and the bridge to it crosses a sea of outstretched hands reaching up from below. Inside, the murals include burning towers, a nuclear blast and a fair number of film characters. The artist, Chalermchai Kositpipat, has been building it since 1997 and expects it to be finished long after he is dead.",
-      "hidden_gem_tip": "The Golden Triangle where Thailand, Laos and Myanmar meet on the Mekong is an hour north, and the Hall of Opium museum there is far better than the viewpoint — a serious, unsettling account of the trade that shaped this whole border."
+      "hidden_gem_tip": "The Golden Triangle where Thailand, Laos and Myanmar meet on the Mekong is an hour north, and the Hall of Opium museum there is far better than the viewpoint — a serious, unsettling account of the trade that shaped this whole border.",
+      "monuments": [
+        {
+          "name": "Wat Rong Khun",
+          "yt": "CjyZIZREbus",
+          "start": 0,
+          "source": "auto",
+          "title": "CHIANG RAI 4K Walking Tour - Wat Rong Khun (White Temple), Wat Rong Suea Ten (Blue Temple) Mar. 2026",
+          "height": 2160
+        },
+        {
+          "name": "Baan Dam Museum",
+          "yt": "RFGgDLRHrQY",
+          "start": 0,
+          "source": "auto",
+          "title": "Exploring Baan Dam Museum: A Dark and Intriguing Journey. Chiang Rai Travel Guide. 4K Video.",
+          "height": 2160
+        },
+        {
+          "name": "Wat Rong Suea Ten",
+          "yt": "pfMhmpoDqIw",
+          "start": 0,
+          "source": "auto",
+          "title": "#ChiangRai: Chiang Rai | Wat Rong Suea Ten - Blue Temple | full video tour.",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "khao-sok",
@@ -9511,7 +9635,25 @@
       ],
       "blurb": "A rainforest older than the Amazon — this block has been continuously forested for something like 160 million years — with limestone towers standing out of it and a reservoir at its heart. When the dam went in in the 1980s the valleys flooded, leaving the karst peaks as islands and drowned trees standing in the shallows.",
       "fun_fact": "Rafflesia kerrii grows here: a parasitic plant with no leaves, stem or roots, which lives entirely inside a vine and then produces a flower up to 80 centimetres across that smells of rotting meat. It blooms for a few days and there is no telling in advance where.",
-      "hidden_gem_tip": "Sleep on the lake. The floating raft houses on Cheow Lan are bamboo, tied to the cliffs, with no electricity after about ten at night — and at dawn you can hear gibbons across the water, which is the whole reason to be there rather than in a hotel."
+      "hidden_gem_tip": "Sleep on the lake. The floating raft houses on Cheow Lan are bamboo, tied to the cliffs, with no electricity after about ten at night — and at dawn you can hear gibbons across the water, which is the whole reason to be there rather than in a hotel.",
+      "monuments": [
+        {
+          "name": "Rajjaprabha Dam",
+          "yt": "z7L4Kepn-TU",
+          "start": 0,
+          "source": "auto",
+          "title": "The Majestic Rajjaprabha Dam | Khao Sok National Park | Cheow Lan Lake | Surat Thani, Thailand | 4K",
+          "height": 2160
+        },
+        {
+          "name": "Surat Thani",
+          "yt": "J8wLqB2kqgg",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Walking Tour Through Surat Thani Night Market, Thailand",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "ko-lipe",
@@ -9551,7 +9693,25 @@
       ],
       "blurb": "A small island at the very bottom of Thailand's Andaman coast, close enough to Langkawi to see it, sitting inside Tarutao national park with reef on three sides. It is home to the Urak Lawoi, sea nomads who were given rights to live here before the park existed, and it is the only inhabited island in it.",
       "fun_fact": "Tarutao, the big island next door, was a penal colony in the 1930s and 40s. When wartime supply lines failed, the guards and prisoners went into business together as pirates and raided shipping in the Malacca Strait until the British sent troops in 1946.",
-      "hidden_gem_tip": "Ko Lipe is closed to visitors along with the rest of the park for part of the monsoon — check before you commit. In season, take a longtail to Ko Adang across the channel and walk up to the Chado cliff viewpoint; it is half an hour of steep and it puts the whole archipelago under you."
+      "hidden_gem_tip": "Ko Lipe is closed to visitors along with the rest of the park for part of the monsoon — check before you commit. In season, take a longtail to Ko Adang across the channel and walk up to the Chado cliff viewpoint; it is half an hour of steep and it puts the whole archipelago under you.",
+      "monuments": [
+        {
+          "name": "Tarutao National Park",
+          "yt": "csISf0e-T7c",
+          "start": 0,
+          "source": "auto",
+          "title": "Explore Tarutao National Park Daytrip From Koh Lipe 🇹🇭 Thailand",
+          "height": 2160
+        },
+        {
+          "name": "Satun",
+          "yt": "Mdof3WU8jzM",
+          "start": 0,
+          "source": "auto",
+          "title": "Most BEAUTIFUL Island in Southern Thailand 🏝 Koh Lipe, Satun",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "kanchanaburi",
@@ -9599,7 +9759,33 @@
       ],
       "blurb": "A river town west of Bangkok where the Japanese army built the Burma Railway in 1942–43 using Allied prisoners of war and a far larger number of conscripted Asian labourers. Around 12,000 prisoners and perhaps 90,000 labourers died on it. The bridge is still there, trains still cross it, and two war cemeteries hold the graves in the middle of town.",
       "fun_fact": "The 1957 film made the name, and got the river wrong: the bridge crosses the Mae Klong. Thailand eventually renamed that stretch Khwae Yai — the big tributary — so that the bridge over the River Kwai would be over the River Kwai.",
-      "hidden_gem_tip": "Hellfire Pass, 80 kilometres up the valley, is the place to go rather than the bridge. It is a cutting hacked through solid rock by hand, mostly at night by torchlight, and the Australian-run memorial museum and the walk down the old trackbed are quietly devastating."
+      "hidden_gem_tip": "Hellfire Pass, 80 kilometres up the valley, is the place to go rather than the bridge. It is a cutting hacked through solid rock by hand, mostly at night by torchlight, and the Australian-run memorial museum and the walk down the old trackbed are quietly devastating.",
+      "monuments": [
+        {
+          "name": "Kanchanaburi War Cemetery",
+          "yt": "lJUBw11ubMo",
+          "start": 0,
+          "source": "auto",
+          "title": "🇹🇭 Kanchanaburi War Cemetery Walk - Immersion in Thailand HD 4K  สุสานทหารสัมพันธมิตรกาญจนบุรี",
+          "height": 1440
+        },
+        {
+          "name": "Burma Railway",
+          "yt": "TmygQ64OqDs",
+          "start": 0,
+          "source": "auto",
+          "title": "Fields That Support Bubble Tea In The World | Burma Railway | Kanchanaburi Thailand 2022 | 4K",
+          "height": 2160
+        },
+        {
+          "name": "Erawan National Park",
+          "yt": "KduGOC544Xc",
+          "start": 0,
+          "source": "auto",
+          "title": "DRIVING in ERAWAN NATIONAL PARK, Kanchanaburi Province, THAILAND I 4K 60fps",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "ko-samui",
@@ -9643,7 +9829,33 @@
       ],
       "blurb": "Thailand's second-largest island, in the Gulf, and coconuts before it was anything else — a couple of million a month were shipped to Bangkok, and there was no road round the island until the 1970s. Now it has an airport and a ring road, with the developed north and east coasts and a much quieter south.",
       "fun_fact": "Ang Thong, the archipelago of 42 islands to the west, is the landscape Alex Garland had in mind for The Beach. Inside Ko Mae Ko there is an emerald saltwater lake in a collapsed limestone crater, connected to the sea only underground.",
-      "hidden_gem_tip": "Take the day boat to Ang Thong rather than staying on Samui's beaches, and pick the operator that lands you at Ko Wua Talap for the viewpoint climb — 500 metres of near-vertical rock and rope, and the whole archipelago at the top."
+      "hidden_gem_tip": "Take the day boat to Ang Thong rather than staying on Samui's beaches, and pick the operator that lands you at Ko Wua Talap for the viewpoint climb — 500 metres of near-vertical rock and rope, and the whole archipelago at the top.",
+      "monuments": [
+        {
+          "name": "Mu Ko Ang Thong National Park",
+          "yt": "2Ni7MitNbBE",
+          "start": 0,
+          "source": "auto",
+          "title": "THAILAND - Mu Ko Ang Thong National Marine Park by Drone [4K]",
+          "height": 2160
+        },
+        {
+          "name": "Ko Pha-ngan",
+          "yt": "qTv8CFi6hgk",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Ko Samui & Ko Pha Ngan Thailand [Microsoft Flight Simulator 2020]",
+          "height": 2160
+        },
+        {
+          "name": "Wat Phra Yai",
+          "yt": "U5LY5jY9vUA",
+          "start": 0,
+          "source": "auto",
+          "title": "Big Buddha Temple (Wat Phra Yai) | Walking Tour in 4K | Koh Samui | Thailand Walking Tour",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "nan",
@@ -9687,7 +9899,25 @@
       ],
       "blurb": "A small town in a remote valley near the Laos border which was its own kingdom for six hundred years, tributary to whoever was strongest, and only fully absorbed into Siam in 1931. It is the least visited of the northern provinces and the one with the most distinct art of its own.",
       "fun_fact": "The murals inside Wat Phumin were painted in the 1890s and one detail of them — a tattooed man whispering into a woman's ear, known as Pu Man Ya Man — is on postcards, T-shirts and the province's tourist literature all over Nan. It is a scene of ordinary gossip in a temple full of Buddhist cosmology.",
-      "hidden_gem_tip": "Ride the road up into Doi Phu Kha, which climbs through Hmong and Mlabri country to a national park at 1,980 metres. In February the chomphu phu kha trees flower pink along the ridge, and there is essentially no traffic on it at any time of year."
+      "hidden_gem_tip": "Ride the road up into Doi Phu Kha, which climbs through Hmong and Mlabri country to a national park at 1,980 metres. In February the chomphu phu kha trees flower pink along the ridge, and there is essentially no traffic on it at any time of year.",
+      "monuments": [
+        {
+          "name": "Wat Phumin",
+          "yt": "wvi31RYDLs4",
+          "start": 0,
+          "source": "auto",
+          "title": "🇹🇭 Wat Phumin ,Nan Province ASMR Relax Music วัดภูมินทร์ และในเมือง ตอนเย็น ต.ในเวียง อ.เมือง จ.น่าน",
+          "height": 2160
+        },
+        {
+          "name": "Doi Phu Kha National Park",
+          "yt": "KkD18fgIkCU",
+          "start": 0,
+          "source": "auto",
+          "title": "Travel in Doi Phu Kha National Park, Ban Sapun Village, Nan Province. Cafe by the valley",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "ko-kut",
@@ -9727,7 +9957,25 @@
       ],
       "blurb": "Thailand's easternmost island, almost against the Cambodian maritime border, with about 2,000 people on it, no nightlife to speak of, and beaches of the kind that most of the country stopped having in about 1985. Most of the interior is forest, and there are waterfalls in it you can swim under.",
       "fun_fact": "Klong Chao waterfall has been visited by three Thai kings, and Rama VI carved his royal cypher into the rock beside the pool in 1911. It is still there, and people swim past it without noticing.",
-      "hidden_gem_tip": "Ko Mak, the smaller island between here and the mainland, has banned jet skis and beach parasols by agreement between the families who own most of it. Take the speedboat over for a day, hire a bicycle, and ride the flat road across the middle through the rubber and coconut."
+      "hidden_gem_tip": "Ko Mak, the smaller island between here and the mainland, has banned jet skis and beach parasols by agreement between the families who own most of it. Take the speedboat over for a day, hire a bicycle, and ride the flat road across the middle through the rubber and coconut.",
+      "monuments": [
+        {
+          "name": "Trat",
+          "yt": "gu3lma6mn18",
+          "start": 0,
+          "source": "auto",
+          "title": "Virtual Walk on Koh Kood 4K – Na Lay Beach | Trat, Thailand",
+          "height": 2160
+        },
+        {
+          "name": "Ko Mak",
+          "yt": "CqMcZeb-ivw",
+          "start": 0,
+          "source": "auto",
+          "title": "4K | KOH MAK & Koh Kham | Thailand's best kept secret | Travel Guide | 2024",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "phanom-rung",
@@ -9771,7 +10019,33 @@
       ],
       "blurb": "A Khmer temple on the rim of an extinct volcano in Thailand's northeast, built between the 10th and 13th centuries in the same pink sandstone and the same style as Angkor — because it was the same empire. A 160-metre processional avenue paved in laterite leads up to it across three terraces, with naga bridges between them.",
       "fun_fact": "The sanctuary is aligned so that on a handful of mornings and evenings each year the rising or setting sun shines straight through all fifteen doorways in a line. The dates are published, the province holds a festival, and people get there before dawn.",
-      "hidden_gem_tip": "Prasat Muang Tam is eight kilometres downhill and almost always empty — a smaller, lower temple with four L-shaped ponds inside its walls, each corner guarded by a five-headed stone naga. Do it second; it is the better piece of architecture."
+      "hidden_gem_tip": "Prasat Muang Tam is eight kilometres downhill and almost always empty — a smaller, lower temple with four L-shaped ponds inside its walls, each corner guarded by a five-headed stone naga. Do it second; it is the better piece of architecture.",
+      "monuments": [
+        {
+          "name": "Phanom Rung Historical Park",
+          "yt": "xiYz0nSkA_k",
+          "start": 0,
+          "source": "auto",
+          "title": "Phanom Rung Historical Park - อุทยานประวัติศาสตร์พนมรุ้ง - Thailand - Drone 4K UHD",
+          "height": 2160
+        },
+        {
+          "name": "Prasat Muang Tam",
+          "yt": "W5qphd58iqc",
+          "start": 0,
+          "source": "auto",
+          "title": "🇹🇭 Prasat Muang Tam | ปราสาทเมืองต่ำ บุรีรัมย์ | Buriram",
+          "height": 1080
+        },
+        {
+          "name": "Buriram",
+          "yt": "oCl6qDcLEAo",
+          "start": 0,
+          "source": "auto",
+          "title": "Phanom Rung Historical Park in Buriram Province, Isan region of Thailand",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "kuala-lumpur",
@@ -9828,7 +10102,33 @@
       "blurb": "The name means muddy confluence, which is exactly what it was: the point where two rivers meet and where tin prospectors got off the boat in 1857 because they could go no further. Half of them died of malaria in the first year. What grew out of that is a capital of Malay, Chinese and Indian quarters with Mughal-revival colonial offices in the middle and two of the tallest buildings in the world above it.",
       "fun_fact": "The Petronas Towers were the tallest buildings in the world from 1998 to 2004 and are still the tallest twin towers ever built. The two halves were put up by rival contractors, Japanese and South Korean, racing each other; the skybridge that joins them at the 41st floor is not fixed at either end, so it can slide as the towers sway.",
       "hidden_gem_tip": "Batu Caves at seven in the morning — the 272 steps are cool, the monkeys are still asleep, and the light comes down through the hole in the cave roof onto the shrine. By ten it is a queue.",
-      "walk": "q0Pim_-dM0I"
+      "walk": "q0Pim_-dM0I",
+      "monuments": [
+        {
+          "name": "Petronas Towers",
+          "yt": "VlO3D2wUmcc",
+          "start": 0,
+          "source": "auto",
+          "title": "Petronas Towers Walking Tour 🇲🇾 | Kuala Lumpur, Malaysia in 4K",
+          "height": 2160
+        },
+        {
+          "name": "Batu Caves",
+          "yt": "gWM6B-FxZMg",
+          "start": 0,
+          "source": "auto",
+          "title": "Inside Batu Caves | Hidden Temple World of Kuala Lumpur, Malaysia | 4K HDR Walking Tour",
+          "height": 2160
+        },
+        {
+          "name": "Merdeka Square",
+          "yt": "Jzf9eTFXqBw",
+          "start": 0,
+          "source": "auto",
+          "title": "Malaysia MERDEKA Square Kuala Lumpur 🇲🇾 Historical City Center! [ 4K ] Walking Tour",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "george-town-penang",
@@ -9998,7 +10298,33 @@
       ],
       "blurb": "Almost none of it is old, because almost none of it survived: Allied bombing in 1945 left three buildings standing of what was then Jesselton. What was rebuilt is Sabah's front door — a low waterfront city with islands twenty minutes offshore, jungle behind, and the whole 4,095-metre bulk of Mount Kinabalu on the skyline when the cloud lifts.",
       "fun_fact": "The old name was Api-Api, \"fire-fire\", after the town's habit of being burned down — first in raids, then by the British themselves in 1942 to keep it from the Japanese, then from the air in 1945. It was renamed Kota Kinabalu in 1968, after the mountain.",
-      "hidden_gem_tip": "Sunday morning, Gaya Street closes and turns into a market that sells everything from orchids to puppies. Get there at seven, eat the coconut pancakes, and be gone before the heat."
+      "hidden_gem_tip": "Sunday morning, Gaya Street closes and turns into a market that sells everything from orchids to puppies. Get there at seven, eat the coconut pancakes, and be gone before the heat.",
+      "monuments": [
+        {
+          "name": "Mount Kinabalu",
+          "yt": "IKOvg0X4f6A",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] Sabah Kota Kinabalu | Cinematic Travel 2023",
+          "height": 2160
+        },
+        {
+          "name": "Tunku Abdul Rahman Park",
+          "yt": "1o4vSiaX2YI",
+          "start": 0,
+          "source": "auto",
+          "title": "Snorkeling Tunku Abdul Rahman Marine Park, Kota Kinabalu, Borneo [Malaysia!]",
+          "height": 2160
+        },
+        {
+          "name": "Sabah State Mosque",
+          "yt": "SMHMyaOHmTw",
+          "start": 0,
+          "source": "auto",
+          "title": "🇲🇾 Kota Kinabalu City Mosque & Tanjung Aru Beach - Malaysia Sabah, Kota Kinabalu Day 1 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "cameron-highlands",
@@ -10046,7 +10372,33 @@
       ],
       "blurb": "A plateau between 1,100 and 1,600 metres up in the Titiwangsa range, surveyed by a government geologist in 1885 and turned by the British into tea estates, strawberry farms and mock-Tudor guesthouses. It is cool, wet and green, and the tea terraces roll over the hills in a way that looks combed.",
       "fun_fact": "Jim Thompson, the American who rebuilt the Thai silk industry, walked out of a bungalow here after Easter lunch in 1967 and was never seen again. It remains one of the most-searched disappearances in Southeast Asian history.",
-      "hidden_gem_tip": "The Mossy Forest on the ridge near the top of Gunung Brinchang is a genuinely strange place — stunted trees at 2,000 metres, everything smothered in moss, pitcher plants at your feet, cloud moving through. There is a boardwalk. Go early, before the cloud sits down for the day."
+      "hidden_gem_tip": "The Mossy Forest on the ridge near the top of Gunung Brinchang is a genuinely strange place — stunted trees at 2,000 metres, everything smothered in moss, pitcher plants at your feet, cloud moving through. There is a boardwalk. Go early, before the cloud sits down for the day.",
+      "monuments": [
+        {
+          "name": "Tanah Rata",
+          "yt": "_T11p76U4Xw",
+          "start": 0,
+          "source": "auto",
+          "title": "🇲🇾 LARGEST TOWN IN CAMERON HIGHLANDS IS A BIT SMALL - Walk Tanah Rata #Malaysia [4K Virtual Tour]",
+          "height": 2160
+        },
+        {
+          "name": "Brinchang",
+          "yt": "byGSCdwGlrs",
+          "start": 0,
+          "source": "auto",
+          "title": "Brinchang Town Centre Cameron Highlands Pahang",
+          "height": 2160
+        },
+        {
+          "name": "Mount Batu Brinchang",
+          "yt": "VgXaGcJYl88",
+          "start": 0,
+          "source": "auto",
+          "title": "Climbing Mount Batu Brinchang, Malaysia",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "langkawi",
@@ -10090,7 +10442,25 @@
       ],
       "blurb": "An archipelago of 99 islands in the Andaman Sea off Malaysia's northwest coast, duty-free since 1987, with rainforest, mangrove and some of the oldest exposed rock in Southeast Asia — parts of it are Cambrian, over half a billion years old, which is why the whole island group is a UNESCO Geopark.",
       "fun_fact": "A legend has it that a woman named Mahsuri, executed for adultery in the 18th century, bled white and cursed the island for seven generations. Langkawi did have a bad two centuries; the tourism boom is generally credited to the curse having run out.",
-      "hidden_gem_tip": "The Sky Bridge is a 125-metre curved footbridge slung from a single pylon at 660 metres, and it is worth it. But take the mangrove boat tour at Kilim first — limestone caves, sea eagles, and a fish farm you can stop at — and go with a guide who cuts the engine."
+      "hidden_gem_tip": "The Sky Bridge is a 125-metre curved footbridge slung from a single pylon at 660 metres, and it is worth it. But take the mangrove boat tour at Kilim first — limestone caves, sea eagles, and a fish farm you can stop at — and go with a guide who cuts the engine.",
+      "monuments": [
+        {
+          "name": "Langkawi Sky Bridge",
+          "yt": "Q7eToOKkrkA",
+          "start": 0,
+          "source": "auto",
+          "title": "Langkawi Sky Bridge and Cable Car in Malaysia: Breathtaking view by Drone in 4k Ultra HD",
+          "height": 2160
+        },
+        {
+          "name": "Kuah",
+          "yt": "c201amEVBTk",
+          "start": 0,
+          "source": "auto",
+          "title": "Pekan Kuah, Langkawi | Ariel View Langkawi | Drone Footage Kuah Langkawi (4k Video)",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "ipoh",
@@ -10138,7 +10508,33 @@
       ],
       "blurb": "Malaysia's fourth city, built on tin in the Kinta Valley and effectively frozen when the tin price collapsed in the 1980s — which left a downtown of intact 1900s shophouses, a white Moorish railway station, and cave temples cut into the limestone hills that ring the town.",
       "fun_fact": "Ipoh white coffee is roasted with margarine instead of the usual sugar and wheat, which makes it lighter and less bitter, and it was invented here by Hainanese coffee shops. The town also claims the country's best bean sprout chicken, and will argue about which shop.",
-      "hidden_gem_tip": "Sam Poh Tong and Perak Cave Temple are both working temples inside limestone caverns, with painted murals and a climb to a hole in the hillside at the top. Then eat in Old Town, on the streets around Jalan Sultan Iskandar, where the coffee shops have not changed hands in three generations."
+      "hidden_gem_tip": "Sam Poh Tong and Perak Cave Temple are both working temples inside limestone caverns, with painted murals and a climb to a hole in the hillside at the top. Then eat in Old Town, on the streets around Jalan Sultan Iskandar, where the coffee shops have not changed hands in three generations.",
+      "monuments": [
+        {
+          "name": "Sam Poh Tong",
+          "yt": "YLRhhSX9nMw",
+          "start": 0,
+          "source": "auto",
+          "title": "🇲🇾 Malaysia, Ipoh: Sam Poh Tong, Nam Thean Tong & Ling Sen Tong Temple Walking Tour - 4K",
+          "height": 2160
+        },
+        {
+          "name": "Kellie's Castle",
+          "yt": "kfpS43eEiDI",
+          "start": 0,
+          "source": "auto",
+          "title": "Kellie's Castle Walking Tour : Unveiling the Secrets of Mysterious  | Perak, Malaysia | 4K",
+          "height": 2160
+        },
+        {
+          "name": "Ipoh railway station",
+          "yt": "3QWUSjl4K_s",
+          "start": 0,
+          "source": "auto",
+          "title": "IPOH: 100 YEARS OLD Ipoh Railway Station @ Taj Mahal, Malaysia Travel Guide",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "gunung-mulu",
@@ -10186,7 +10582,33 @@
       ],
       "blurb": "Rainforest and karst in northern Sarawak, reachable in practice only by air, containing the largest known cave chamber on the planet and one of the longest cave systems in Southeast Asia. Above ground, the Pinnacles are a forest of 45-metre limestone blades sticking up out of the jungle on the side of Gunung Api.",
       "fun_fact": "The Sarawak Chamber is around 700 metres long, 400 wide and at least 70 high — big enough, by the usual comparison, to park forty Boeing 747s nose to tail. It was found in 1981 by three British cavers who spent hours crossing it without ever seeing a wall.",
-      "hidden_gem_tip": "Sit at the Deer Cave bat observatory at about half past five. Somewhere between one and three million wrinkle-lipped bats come out in coiling ribbons that take over an hour to clear the mouth, and bat hawks hunt them as they go. On a wet evening they may not fly at all — that is the deal."
+      "hidden_gem_tip": "Sit at the Deer Cave bat observatory at about half past five. Somewhere between one and three million wrinkle-lipped bats come out in coiling ribbons that take over an hour to clear the mouth, and bat hawks hunt them as they go. On a wet evening they may not fly at all — that is the deal.",
+      "monuments": [
+        {
+          "name": "Deer Cave",
+          "yt": "4l8KIhefvJY",
+          "start": 0,
+          "source": "auto",
+          "title": "Deer and Lang Cave in Gunung Mulu National Park in Malaysia【Full Tour in 4k】",
+          "height": 2160
+        },
+        {
+          "name": "Mount Mulu",
+          "yt": "qCONqCAvMbs",
+          "start": 0,
+          "source": "auto",
+          "title": "MULU National Park, Malaysia: exploring the Mulu Caves and the jungle of Borneo",
+          "height": 2160
+        },
+        {
+          "name": "Clearwater Cave",
+          "yt": "MJ6pQ-MwH8Y",
+          "start": 0,
+          "source": "auto",
+          "title": "Wind and Clearwater Cave in Gunung Mulu National Park Malaysia【Full Tour in 4k】",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "kuching",
@@ -10234,7 +10656,33 @@
       ],
       "blurb": "The capital of Sarawak, on a river in Borneo, and for a hundred years the seat of the White Rajahs — an English family, the Brookes, who were given the country in 1841 and ruled it as a private kingdom until 1946. The result is a riverfront of Brooke-era forts and courthouses facing a gold-domed modern parliament across the water.",
       "fun_fact": "Kuching means cat in Malay, and the city has leaned into it completely: there are cat statues at the roundabouts and a municipal Cat Museum. The name almost certainly comes from something else — a fruit tree, or a stream — but nobody is in a hurry to correct it.",
-      "hidden_gem_tip": "Bako National Park is 45 minutes by road and then a boat that lands you on a beach, and it is the most reliable place in Malaysia to see proboscis monkeys — the long-nosed ones, found only on Borneo. Take the Telok Paku trail in the late afternoon."
+      "hidden_gem_tip": "Bako National Park is 45 minutes by road and then a boat that lands you on a beach, and it is the most reliable place in Malaysia to see proboscis monkeys — the long-nosed ones, found only on Borneo. Take the Telok Paku trail in the late afternoon.",
+      "monuments": [
+        {
+          "name": "Sarawak State Museum",
+          "yt": "71gPPX0ytWA",
+          "start": 0,
+          "source": "auto",
+          "title": "Sarawak Museum, Kuching / Dji mini 2",
+          "height": 2160
+        },
+        {
+          "name": "Bako National Park",
+          "yt": "_r9rejfD9Eg",
+          "start": 0,
+          "source": "auto",
+          "title": "Bako National Park, Borneo 🌿 | Jungle Trail Walk with Real Sounds | 4K HDR No Commentary",
+          "height": 2160
+        },
+        {
+          "name": "Fort Margherita",
+          "yt": "98eR4ANcK30",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] The Brooke Gallery, Fort Margherita, Kuching",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "sipadan",
@@ -10278,7 +10726,25 @@
       ],
       "blurb": "Malaysia's only oceanic island: not a piece of the continental shelf but a coral cap on top of an extinct volcanic cone that rises 600 metres from the seabed off the east coast of Sabah. The wall starts a few metres from the beach and goes straight down, and the fish come with it — barracuda in tornado-shaped schools, bumphead parrotfish by the hundred, and green turtles constantly.",
       "fun_fact": "Jacques Cousteau filmed here in 1989 and called it an untouched piece of art. All resorts were removed from the island itself in 2004 to protect the turtle nesting beaches, and nobody has stayed on it since.",
-      "hidden_gem_tip": "Diver numbers are capped by permit — a small fixed quota per day for the whole island — so you stay on Mabul or Kapalai and book weeks ahead. Mabul is worth the wait on its own: the muck diving there turns up frogfish, mandarinfish and flamboyant cuttlefish in three metres of sand."
+      "hidden_gem_tip": "Diver numbers are capped by permit — a small fixed quota per day for the whole island — so you stay on Mabul or Kapalai and book weeks ahead. Mabul is worth the wait on its own: the muck diving there turns up frogfish, mandarinfish and flamboyant cuttlefish in three metres of sand.",
+      "monuments": [
+        {
+          "name": "Semporna",
+          "yt": "YOb-2CjfpBI",
+          "start": 0,
+          "source": "auto",
+          "title": "Borneo’s Clear Blue Water Paradise Looks Unreal (Semporna🇲🇾) | 4K HDR",
+          "height": 2160
+        },
+        {
+          "name": "Mabul Island",
+          "yt": "jMHaZqpnKRY",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking In Mabul Island Village, Semporna| Sea Gypsies| 4K 60fps",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "perhentian-islands",
@@ -10318,7 +10784,17 @@
       ],
       "blurb": "Two islands off the northeast coast — Besar, the bigger and quieter, and Kecil, the smaller and younger — with clear water, reef within swimming distance of the sand, and no roads on either. The name means stopping place: they were where traders on the Bangkok–Malaya route waited out the weather.",
       "fun_fact": "The east coast monsoon shuts the islands down from roughly November to February. Boats stop, most places close, and for three months the Perhentians are effectively out of reach — which is a fair part of why the reef is in the state it is.",
-      "hidden_gem_tip": "Walk the jungle path across Kecil from Coral Bay to Long Beach at dusk — twenty minutes, monitor lizards, and you come out on the opposite coast for the sunset you would otherwise have missed. Green and hawksbill turtles nest here between May and September."
+      "hidden_gem_tip": "Walk the jungle path across Kecil from Coral Bay to Long Beach at dusk — twenty minutes, monitor lizards, and you come out on the opposite coast for the sunset you would otherwise have missed. Green and hawksbill turtles nest here between May and September.",
+      "monuments": [
+        {
+          "name": "Kuala Besut",
+          "yt": "qoodc0aHgVk",
+          "start": 0,
+          "source": "auto",
+          "title": "Malaysia 4K| Pekan Kuala Besut, Terengganu",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "taman-negara",
@@ -10362,7 +10838,33 @@
       ],
       "blurb": "Four thousand square kilometres of lowland rainforest in peninsular Malaysia, protected since 1938 and, crucially, never glaciated and never logged — this forest has been growing continuously for something like 130 million years, which makes it one of the oldest on earth. Tigers, elephants and Sumatran rhino have all been recorded in it; you will not see them.",
       "fun_fact": "The canopy walkway is a chain of rope bridges strung between trees at up to 45 metres, and at over 500 metres long it is among the longest in the world. It sways, deliberately, and only a couple of people are allowed on each span at a time.",
-      "hidden_gem_tip": "Pay for a night walk with a park guide and then, if you have the days, take a boat upriver to a hide — Bumbun Kumbang or Blau — and sleep in it. You lie on a wooden platform above a salt lick with the forest making noise all night, and that is the experience, whether or not anything walks out."
+      "hidden_gem_tip": "Pay for a night walk with a park guide and then, if you have the days, take a boat upriver to a hide — Bumbun Kumbang or Blau — and sleep in it. You lie on a wooden platform above a salt lick with the forest making noise all night, and that is the experience, whether or not anything walks out.",
+      "monuments": [
+        {
+          "name": "Mount Tahan",
+          "yt": "J6SAej3WjPU",
+          "start": 0,
+          "source": "auto",
+          "title": "Trans Tahan K2M Part 1",
+          "height": 1080
+        },
+        {
+          "name": "Jerantut",
+          "yt": "-DmunS6iU9I",
+          "start": 0,
+          "source": "auto",
+          "title": "TAMAN NEGARA NATIONAL PARK JERANTUT PAHANG PT 2",
+          "height": 2160
+        },
+        {
+          "name": "Kuala Tahan",
+          "yt": "LzDqY5BEQxE",
+          "start": 0,
+          "source": "auto",
+          "title": "Part 1: Trip Taman Negara, Kuala Tahan (Hiking & Melawat orang asli)",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "mount-kinabalu",
@@ -10406,7 +10908,33 @@
       ],
       "blurb": "At 4,095 metres the highest mountain between the Himalaya and New Guinea, a granite pluton pushed up through Borneo and stripped by ice, so that the top is bare rock with a summit plateau you cross in the dark. The forest on the way up passes through four distinct zones, and the park around it holds one of the richest plant collections anywhere — over 5,000 species, many found nowhere else.",
       "fun_fact": "The Kadazan-Dusun regard the summit as the resting place of the dead, and a ritual of appeasement is still performed on the mountain each year. It is also home to Rafflesia and to several species of Nepenthes pitcher plant, including one big enough to hold two litres of fluid.",
-      "hidden_gem_tip": "Climbing permits are capped at a small number per day and sell out months ahead, and you cannot go without a licensed mountain guide. If you miss out, the Kinabalu Park headquarters trails at 1,500 metres are open to anyone and hold most of the orchids anyway."
+      "hidden_gem_tip": "Climbing permits are capped at a small number per day and sell out months ahead, and you cannot go without a licensed mountain guide. If you miss out, the Kinabalu Park headquarters trails at 1,500 metres are open to anyone and hold most of the orchids anyway.",
+      "monuments": [
+        {
+          "name": "Kinabalu Park",
+          "yt": "9WQKBKT6BjM",
+          "start": 0,
+          "source": "auto",
+          "title": "The Wonders of Kinabalu National Park 4K: Sabah, Borneo: Snakes, Frogs, Lizards, Moths, Spiders, etc",
+          "height": 2160
+        },
+        {
+          "name": "Ranau",
+          "yt": "LADfR5e2i0A",
+          "start": 0,
+          "source": "auto",
+          "title": "Our 4D3N KK-Kundasang-Ranau Self-Drive Family Trip In December",
+          "height": 2160
+        },
+        {
+          "name": "Kundasang",
+          "yt": "qge-xEx5--s",
+          "start": 0,
+          "source": "auto",
+          "title": "Breathtaking Mount Kinabalu Drone Shots from Kundasang | Sabah Malaysia 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "singapore",
@@ -10463,7 +10991,33 @@
       "blurb": "A city, an island and a country all at the same size — about 730 square kilometres holding six million people, four official languages and a container port that is among the busiest on earth. It is also the only country here that is visibly getting bigger: roughly a quarter of the land you can stand on did not exist in 1960.",
       "fun_fact": "Singapore has grown its land area by about a quarter since independence by reclaiming it from the sea, and has to buy the sand to do it. Several neighbours have banned sand exports to Singapore as a result.",
       "hidden_gem_tip": "The hawker centre is the point, not the skyline. UNESCO listed hawker culture in 2020; go to Tiong Bahru or Old Airport Road rather than the ones with English signage, look for the stall with the longest queue of people over sixty, and join it.",
-      "walk": "hngmf8n-zVU"
+      "walk": "hngmf8n-zVU",
+      "monuments": [
+        {
+          "name": "Marina Bay Sands",
+          "yt": "QcPpty9aQ5Y",
+          "start": 0,
+          "source": "auto",
+          "title": "Marina Bay Sands Hotel Singapore Full Tour: Infinity Pool, Suite, Lounge, Breakfast | 4K Tour",
+          "height": 2160
+        },
+        {
+          "name": "Merlion",
+          "yt": "-34XmkP2b08",
+          "start": 0,
+          "source": "auto",
+          "title": "Merlion Park, Singapore [4K]",
+          "height": 2160
+        },
+        {
+          "name": "Chinatown",
+          "yt": "-rGw-dEDdw4",
+          "start": 0,
+          "source": "auto",
+          "title": "Chinatown Singapore 🇸🇬 4K Walking Tour | Commentated Guide 2026",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "gardens-by-the-bay",
@@ -10507,7 +11061,33 @@
       ],
       "blurb": "A hundred hectares of park on land that was seabed a generation ago, built around eighteen steel trees between 25 and 50 metres tall. The Supertrees are not decoration: they are vertical gardens planted with over 150,000 ferns, orchids and bromeliads, and several of them are fitted with photovoltaic cells and act as exhaust chimneys for the cooled conservatories next door.",
       "fun_fact": "The Cloud Forest dome contains a 35-metre indoor waterfall, which was billed as the world's tallest until Changi Airport built a 40-metre one in a shopping mall down the road in 2019.",
-      "hidden_gem_tip": "Garden Rhapsody, the light and sound show in the Supertree Grove, runs twice most evenings and costs nothing. Lie down on the lawn underneath rather than watching from the walkway — the whole thing is choreographed to be seen from below."
+      "hidden_gem_tip": "Garden Rhapsody, the light and sound show in the Supertree Grove, runs twice most evenings and costs nothing. Lie down on the lawn underneath rather than watching from the walkway — the whole thing is choreographed to be seen from below.",
+      "monuments": [
+        {
+          "name": "Marina Bay Sands",
+          "yt": "JVEVY1H_gto",
+          "start": 0,
+          "source": "auto",
+          "title": "Marina Bay Sands (MBS) & Gardens by the Bay Singapore Walking Tour | 4K POV with Subtitles",
+          "height": 2160
+        },
+        {
+          "name": "Marina Barrage",
+          "yt": "gb3a-onpj9c",
+          "start": 0,
+          "source": "auto",
+          "title": "Gardens by the Bay and Marina Barrage Singapore Walking Tour [4K]",
+          "height": 2160
+        },
+        {
+          "name": "Singapore Flyer",
+          "yt": "-kwOmSgKf0Q",
+          "start": 0,
+          "source": "auto",
+          "title": "Singapore 4K Aerial Drone Footage - Gardens by the Bay, Singapore Flyer & Merlion Park After Rain",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "sentosa",
@@ -10555,7 +11135,33 @@
       ],
       "blurb": "An island half a kilometre off the south coast, reached by cable car, monorail or a covered boardwalk you can walk in ten minutes, and given over almost entirely to being enjoyed: a theme park, an aquarium, three artificial beaches and a coastal fort left over from when this was the guns end of the naval base.",
       "fun_fact": "It used to be called Pulau Blakang Mati — roughly \"the island behind which lies death\", a name variously blamed on piracy, murder and a 19th-century disease outbreak. It was renamed Sentosa, \"peace and tranquillity\", in 1972 by public competition.",
-      "hidden_gem_tip": "Fort Siloso is free, and the only preserved coastal fort left in Singapore. Its guns famously pointed out to sea in 1942, when the Japanese came overland from the north — the exhibit does not pretend otherwise."
+      "hidden_gem_tip": "Fort Siloso is free, and the only preserved coastal fort left in Singapore. Its guns famously pointed out to sea in 1942, when the Japanese came overland from the north — the exhibit does not pretend otherwise.",
+      "monuments": [
+        {
+          "name": "Fort Siloso",
+          "yt": "6G5L2khE-BA",
+          "start": 0,
+          "source": "auto",
+          "title": "Fort Siloso Tour in 4K UHD #sentosa #fortsiloso",
+          "height": 2160
+        },
+        {
+          "name": "Universal Studios Singapore",
+          "yt": "Eqw_T-yCRR0",
+          "start": 0,
+          "source": "auto",
+          "title": "Full Walking Tour at Universal Studios Singapore | 4K HDR | Resorts World Sentosa",
+          "height": 2160
+        },
+        {
+          "name": "Sentosa Express",
+          "yt": "tRWBhO5A24Q",
+          "start": 0,
+          "source": "auto",
+          "title": "|EP64| Singapore Sentosa Express",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "pulau-ubin",
@@ -10595,7 +11201,25 @@
       ],
       "blurb": "Ten minutes by bumboat from Changi Point and about forty years back: a granite quarry island of 10 square kilometres with a few dozen residents, no mains water in places, dirt tracks, wild boar and the last kampung in Singapore. The boats leave when twelve people have turned up, and not before.",
       "fun_fact": "Chek Jawa, on the eastern tip, is a rare meeting of six ecosystems in one intertidal flat — sandbar, seagrass, coral rubble, mangrove, rocky shore and coastal forest. It was scheduled for reclamation in 2001, and the plan was deferred after a public campaign by naturalists who surveyed it in the weeks before the deadline.",
-      "hidden_gem_tip": "Rent a bicycle at the jetty and ride to Puaka Hill for the quarry lake, then do the Chek Jawa boardwalk at low tide — check the tide table before you get on the boat, because at high water there is nothing to see."
+      "hidden_gem_tip": "Rent a bicycle at the jetty and ride to Puaka Hill for the quarry lake, then do the Chek Jawa boardwalk at low tide — check the tide table before you get on the boat, because at high water there is nothing to see.",
+      "monuments": [
+        {
+          "name": "Chek Jawa",
+          "yt": "mUCxID0i6cY",
+          "start": 0,
+          "source": "auto",
+          "title": "Beautiful Scenery At CHEK JAWA WETLANDS At PULAU UBIN | Walking Tour [4K] Singapore - June 2022",
+          "height": 2160
+        },
+        {
+          "name": "Changi",
+          "yt": "_UQR04D0pMI",
+          "start": 0,
+          "source": "auto",
+          "title": "Changi Airport, Singapore | 4K Walking Tour",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "manila",
@@ -10648,7 +11272,33 @@
       "blurb": "The Spanish walled their city here in 1571 and called everything inside it Intramuros, which is still the name and still, in places, the walls. Everything else came later and faster — the Americans, the flattening of 1945, and a metropolitan area that now holds over thirteen million people and some of the densest neighbourhoods on the planet.",
       "fun_fact": "Binondo, across the river from the walls, was set up by the Spanish in 1594 as a settlement for Catholic Chinese — which makes it the oldest Chinatown anywhere in the world.",
       "hidden_gem_tip": "San Agustin is the one building inside Intramuros that came through the Battle of Manila standing. Go for the trompe-l'œil ceiling, which is painted flat and looks carved, and for the choir stalls, which are 17th-century molave wood inlaid with ivory.",
-      "walk": "-3Ud-hVr4_k"
+      "walk": "-3Ud-hVr4_k",
+      "monuments": [
+        {
+          "name": "Intramuros",
+          "yt": "2U6Gdg0DGwA",
+          "start": 0,
+          "source": "auto",
+          "title": "Intramuros Manila Today! The Walled City In Metro Manila, Philippines | 2026 4K HDR Walking Tour",
+          "height": 2160
+        },
+        {
+          "name": "Fort Santiago",
+          "yt": "kvVYk6ZWBNA",
+          "start": 0,
+          "source": "auto",
+          "title": "Fort Santiago - Early Morning Walk Tour (Intramuros, Manila, Philippines)",
+          "height": 2160
+        },
+        {
+          "name": "San Agustin Church",
+          "yt": "kN9jAFKEkQ0",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking the Oldest Stone Church in the Philippines | San Agustin Church, Intramuros (4K Slow TV)",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "cebu-city",
@@ -10696,7 +11346,33 @@
       ],
       "blurb": "The oldest Spanish settlement in the Philippines, founded 1565, and the place the whole story starts: Magellan landed on this coast in 1521, baptised the local ruler, then crossed to Mactan and was killed there by Lapulapu six weeks later. The city that grew afterwards is now the country's second, a port and shipbuilding town with a religious calendar that stops everything each January.",
       "fun_fact": "The Santo Niño de Cebú, a Flemish statuette Magellan gave to the chief's wife at her baptism in 1521, was found undamaged in the ashes when the Spanish burned the settlement 44 years later. It is the oldest Christian relic in the Philippines and it is still in the basilica.",
-      "hidden_gem_tip": "Go in the third week of January for Sinulog, when a million people follow the Santo Niño through the streets in a procession that has been running, in one form or another, for centuries. Otherwise: Carbon Market at dawn, before it gets hot."
+      "hidden_gem_tip": "Go in the third week of January for Sinulog, when a million people follow the Santo Niño through the streets in a procession that has been running, in one form or another, for centuries. Otherwise: Carbon Market at dawn, before it gets hot.",
+      "monuments": [
+        {
+          "name": "Magellan's Cross",
+          "yt": "1Ql5eTE34bc",
+          "start": 0,
+          "source": "auto",
+          "title": "The Iconic Magellan's Cross of Cebu | 2024 Full Walking Tour 4K",
+          "height": 2160
+        },
+        {
+          "name": "Basilica del Santo Niño",
+          "yt": "vcWZbEXbTLA",
+          "start": 0,
+          "source": "auto",
+          "title": "Cebu City's Colon and Basilica Minore del Santo Nino Walking Tour  | 4K",
+          "height": 2160
+        },
+        {
+          "name": "Fort San Pedro",
+          "yt": "n58NGnGxr0U",
+          "start": 0,
+          "source": "auto",
+          "title": "Cebu City Tour - Fort San Pedro | Paradise Philippines",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "el-nido-palawan",
@@ -10740,7 +11416,25 @@
       ],
       "blurb": "Karst towers standing straight out of the water at the top end of Palawan, with lagoons inside several of them that you can only enter at the right tide through a gap you have to duck for. The town itself is a strip of guesthouses under a cliff; everything worth seeing is a boat ride into Bacuit Bay.",
       "fun_fact": "The name is Spanish for \"the nest\". Swiftlets build theirs from hardened saliva on these cliff faces, and collectors have climbed bamboo scaffolding to take them — for bird's nest soup — for centuries.",
-      "hidden_gem_tip": "The island-hopping tours are lettered A to D and everyone books A. Take C for the caves and the better snorkelling, or skip the boat entirely and go up the coast to Nacpan, four kilometres of empty sand with a couple of shacks on it."
+      "hidden_gem_tip": "The island-hopping tours are lettered A to D and everyone books A. Take C for the caves and the better snorkelling, or skip the boat entirely and go up the coast to Nacpan, four kilometres of empty sand with a couple of shacks on it.",
+      "monuments": [
+        {
+          "name": "Taytay",
+          "yt": "RVXAq4BsDGM",
+          "start": 0,
+          "source": "auto",
+          "title": "Flying over Taytay Palawan in 4K",
+          "height": 2160
+        },
+        {
+          "name": "Puerto Princesa",
+          "yt": "9ElvLFVNd_w",
+          "start": 0,
+          "source": "auto",
+          "title": "4K 🇵🇭 Puerto Princesa City • Walking Tour 2024 • Palawan, Philippines",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "banaue-rice-terraces",
@@ -10788,7 +11482,33 @@
       ],
       "blurb": "The Ifugao cut these into the Cordillera by hand, following the contour of the mountain rather than flattening it, and have kept them in repair ever since with stone walls, mud dykes and a gravity irrigation system fed from the forest above. They are farmed, not preserved — which is the difficulty, because the young people who would inherit the work increasingly do not want it.",
       "fun_fact": "Locals say that laid end to end the terrace walls would run about 22,000 kilometres, halfway round the world. UNESCO's listing covers five clusters of the Cordillera terraces, two of them — Batad and Bangaan — inside Banaue.",
-      "hidden_gem_tip": "The roadside viewpoint on the way into town is the postcard, and it is not the good one. Get a jeepney to the Batad junction and walk in: the village sits in a natural amphitheatre with the terraces curved right around it, and there is no road."
+      "hidden_gem_tip": "The roadside viewpoint on the way into town is the postcard, and it is not the good one. Get a jeepney to the Batad junction and walk in: the village sits in a natural amphitheatre with the terraces curved right around it, and there is no road.",
+      "monuments": [
+        {
+          "name": "Rice Terraces of the Philippine Cordilleras",
+          "yt": "RIeI_lsHRyI",
+          "start": 0,
+          "source": "auto",
+          "title": "Rice Terraces of the Philippine Cordilleras: Batad, Bangaan and Banaue  [Amazing Places 4K]",
+          "height": 2160
+        },
+        {
+          "name": "Banaue",
+          "yt": "J3n30OjgdOs",
+          "start": 0,
+          "source": "auto",
+          "title": "BATAD RICE TERRACES 🇵🇭  UNESCO Heritage + Tappiyah Falls + Banaue | Joiner Travel Guide + Expenses",
+          "height": 2160
+        },
+        {
+          "name": "Bontoc",
+          "yt": "B3Oou8AT7pI",
+          "start": 0,
+          "source": "auto",
+          "title": "WALKING TOUR OF THE MAJESTIC MALIGCONG RICE TERRACES IN BONTOC | SCENIC VIEW [4K]",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "boracay",
@@ -10828,7 +11548,17 @@
       ],
       "blurb": "Seven kilometres long, a kilometre wide at the waist, with four kilometres of powder-white sand on the western side that regularly gets voted the best beach in the world. That reputation nearly finished it: in 2018 the president closed the island entirely for six months to rebuild the sewers and demolish what had been built over the drainage.",
       "fun_fact": "White Beach's sand is crushed coral, and it stays cool underfoot in full sun — which is the thing people remember longest. The island was a quiet fishing community until backpackers found it in the 1970s; by 2017 it was taking two million visitors a year.",
-      "hidden_gem_tip": "Bulabog beach on the eastern side is where the wind is, and from November to April it is one of the best kitesurfing spots in Asia — same island, opposite coast, entirely different crowd. Then walk up Mount Luho for the only high ground on the island."
+      "hidden_gem_tip": "Bulabog beach on the eastern side is where the wind is, and from November to April it is one of the best kitesurfing spots in Asia — same island, opposite coast, entirely different crowd. Then walk up Mount Luho for the only high ground on the island.",
+      "monuments": [
+        {
+          "name": "Malay, Aklan",
+          "yt": "R0-mLa3SNIE",
+          "start": 0,
+          "source": "auto",
+          "title": "Boracay Island | Day Walk 4K | White Beach | Malay, Aklan, Philippines | Julanders",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "chocolate-hills",
@@ -10876,7 +11606,33 @@
       ],
       "blurb": "Somewhere between 1,200 and 1,800 near-identical grass-covered mounds spread across fifty square kilometres of central Bohol, each one 30 to 50 metres high and shaped like a haystack. They are weathered coral limestone, uplifted from the seabed and then dissolved from underneath, and in the dry season the grass on them turns brown — which is where the name comes from.",
       "fun_fact": "Local legend prefers two giants who fought for days by throwing rocks and sand at each other, then made up and went home leaving the mess behind. A gentler version has a giant weeping for a mortal woman he lost, and the hills are the dried tears.",
-      "hidden_gem_tip": "Bohol has the other thing worth the trip: the Philippine tarsier, a primate that fits in your palm with eyes bigger than its brain. Go to the Philippine Tarsier Sanctuary near Corella, which is a forest with guides, and not to the roadside cages — tarsiers are known to injure themselves under stress."
+      "hidden_gem_tip": "Bohol has the other thing worth the trip: the Philippine tarsier, a primate that fits in your palm with eyes bigger than its brain. Go to the Philippine Tarsier Sanctuary near Corella, which is a forest with guides, and not to the roadside cages — tarsiers are known to injure themselves under stress.",
+      "monuments": [
+        {
+          "name": "Carmen",
+          "yt": "9H7wc_hRD-4",
+          "start": 0,
+          "source": "auto",
+          "title": "CHOCOLATE HILLS Walking Tour in Carmen Bohol Philippines [4K HDR]",
+          "height": 2160
+        },
+        {
+          "name": "Loboc",
+          "yt": "UYXFZfVoDtU",
+          "start": 0,
+          "source": "auto",
+          "title": "4K- Chocolate Hills, řeka Loboc, zippline- Filipíny 2026",
+          "height": 2160
+        },
+        {
+          "name": "Panglao",
+          "yt": "k0FFqNO6jtU",
+          "start": 0,
+          "source": "auto",
+          "title": "Alona Beach Walk 🇵🇭 | 4K Walking Tour Panglao Island Bohol Philippines",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "coron",
@@ -10920,7 +11676,33 @@
       ],
       "blurb": "Black limestone cliffs at the northern end of Palawan, with lakes hidden inside them that you reach by climbing over a ridge from the sea, and — on the seabed just offshore — a Japanese fleet. American carrier aircraft caught it at anchor on 24 September 1944, and around a dozen wrecks are still there in divable water.",
       "fun_fact": "Kayangan Lake is regularly called the cleanest lake in the Philippines. It is also a thermocline stack: fresh water on top, salt water beneath, and swimming down through the boundary makes everything shimmer as though you are looking through heat.",
-      "hidden_gem_tip": "Coron Island is the ancestral domain of the Tagbanwa, who control access and keep most of it closed — Kayangan and Barracuda lakes are open, the rest is not, and that is why they are in the condition they are. Respect the rope lines."
+      "hidden_gem_tip": "Coron Island is the ancestral domain of the Tagbanwa, who control access and keep most of it closed — Kayangan and Barracuda lakes are open, the rest is not, and that is why they are in the condition they are. Respect the rope lines.",
+      "monuments": [
+        {
+          "name": "Coron Island",
+          "yt": "Q3txLNyKJ4I",
+          "start": 0,
+          "source": "auto",
+          "title": "Exploring Coron, Palawan with Travel Guide and Island Tour A,B, Reef & Wrecks Tour & Island Escapade",
+          "height": 2160
+        },
+        {
+          "name": "Kayangan Lake",
+          "yt": "stYbS5ATMg0",
+          "start": 0,
+          "source": "auto",
+          "title": "Kayangan Lake || Coron Palawan || Relaxing Drone 4k Video",
+          "height": 2160
+        },
+        {
+          "name": "Busuanga",
+          "yt": "eYW8q-lWFSc",
+          "start": 0,
+          "source": "auto",
+          "title": "🇵🇭 Walking in Concepción | Coron - Busuanga - Palawan - Philippines [🇵🇭 WALK 4K ] #palawan #busuanga",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "siargao",
@@ -10960,7 +11742,17 @@
       ],
       "blurb": "A teardrop island facing the open Pacific, with the deepest trench in the world not far off it, which is why the swell arrives here with nothing in its way. Cloud 9 is the wave that made the name — a heavy right-hand barrel over shallow reef — but most of the island is mangrove, coconut and rock pools.",
       "fun_fact": "Siargao was flattened by Super Typhoon Rai in December 2021, which took almost every roof on the island. It reopened within months, largely because the surf community rebuilt it themselves.",
-      "hidden_gem_tip": "Go north to the Magpupungko rock pools and time it for low tide — the sea drains off a limestone shelf and leaves a deep natural pool you can jump into. Then take the boat to Sugba lagoon in the mangroves at Del Carmen, which has the largest mangrove forest in the country around it."
+      "hidden_gem_tip": "Go north to the Magpupungko rock pools and time it for low tide — the sea drains off a limestone shelf and leaves a deep natural pool you can jump into. Then take the boat to Sugba lagoon in the mangroves at Del Carmen, which has the largest mangrove forest in the country around it.",
+      "monuments": [
+        {
+          "name": "General Luna",
+          "yt": "j20eJIgxkqE",
+          "start": 0,
+          "source": "auto",
+          "title": "SIARGAO 4K 🇵🇭 |  Walking Tour at General Luna Town Proper | Siargao Island Philippines",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "vigan",
@@ -11004,7 +11796,25 @@
       ],
       "blurb": "The best-preserved Spanish colonial town in Asia, on the northwest coast of Luzon, and preserved by luck: it was spared in the Second World War and then too poor to modernise. What survives is a grid of cobbled streets lined with bahay na bato — stone downstairs, wood above, with sliding capiz-shell windows — built by a Chinese-mestizo merchant class on the indigo and gold trade.",
       "fun_fact": "Vigan's architecture is not purely Spanish. The layout follows a Chinese-Filipino merchant pattern the Spanish did not use elsewhere, which is one of the reasons UNESCO singled it out: it is a fusion that happened in this one town.",
-      "hidden_gem_tip": "Calle Crisologo is closed to traffic and lit by lanterns after dark, which is when to walk it. Get there early enough in the day, though, to visit a burnayan — the jar-makers still throwing and firing Ilocano burnay pots on kick-wheels, with a carabao treading the clay."
+      "hidden_gem_tip": "Calle Crisologo is closed to traffic and lit by lanterns after dark, which is when to walk it. Get there early enough in the day, though, to visit a burnayan — the jar-makers still throwing and firing Ilocano burnay pots on kick-wheels, with a carabao treading the clay.",
+      "monuments": [
+        {
+          "name": "Vigan Cathedral",
+          "yt": "NCAT_lqWx3o",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking around ViGAN + Lovely front of ViGAN CATHEDRAL | Simply lhynne",
+          "height": 1440
+        },
+        {
+          "name": "Bantay",
+          "yt": "1S5hadxOVkQ",
+          "start": 0,
+          "source": "auto",
+          "title": "ILOCOS CHURCHES | WALKING TOUR | PAOAY/BANTAY/BACARRA/LAOAG | ILOCOS TOURIST SPOTS (4K).",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "sagada",
@@ -11044,7 +11854,17 @@
       ],
       "blurb": "A cold pine-forest town at 1,500 metres in the Cordillera, with limestone caves under it and coffins hanging on the cliffs above. The Igorot practice of burying the dead in the open air on rock faces is centuries old and has not entirely stopped; the newest coffins in the Echo Valley are within living memory.",
       "fun_fact": "Traditionally the dying carved their own coffin, and if they were too weak a relative did it. Bodies were placed in the foetal position — the position they entered the world in — which is why the coffins are so short.",
-      "hidden_gem_tip": "Sumaguing and Lumiang caves can be joined into a four-hour connection traverse, and it is not a walk: cold water, rope, and long stretches barefoot because the limestone grips better than boots. Take a guide from the tourist office, which is compulsory anyway."
+      "hidden_gem_tip": "Sumaguing and Lumiang caves can be joined into a four-hour connection traverse, and it is not a walk: cold water, rope, and long stretches barefoot because the limestone grips better than boots. Take a guide from the tourist office, which is compulsory anyway.",
+      "monuments": [
+        {
+          "name": "Bontoc",
+          "yt": "vFDVkNvtLRk",
+          "start": 0,
+          "source": "auto",
+          "title": "Bontoc: The Hidden Mountain Gem of the Philippines",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "mayon",
@@ -11092,7 +11912,33 @@
       ],
       "blurb": "The most symmetrical volcanic cone on earth by common consent — 2,463 metres of almost perfect curve rising out of flat coconut country in southern Luzon — and among the most active volcanoes in the Philippines, with over fifty eruptions recorded since 1616.",
       "fun_fact": "The 1814 eruption buried the town of Cagsawa. The church belfry still stands above the lahar with the volcano behind it, and that view — a ruined tower and a perfect cone — is the single most reproduced image in the Philippines.",
-      "hidden_gem_tip": "Everyone photographs Mayon from Cagsawa. Go instead to the Quituinan hills or the Sumlang lake side, where the water gives you the cone twice, and go before eight in the morning: by mid-morning the summit is usually in cloud and stays there."
+      "hidden_gem_tip": "Everyone photographs Mayon from Cagsawa. Go instead to the Quituinan hills or the Sumlang lake side, where the water gives you the cone twice, and go before eight in the morning: by mid-morning the summit is usually in cloud and stays there.",
+      "monuments": [
+        {
+          "name": "Legazpi",
+          "yt": "iUDW8RlrG7I",
+          "start": 0,
+          "source": "auto",
+          "title": "Legazpi Boulevard Early Morning Walk | Peaceful Sunrise with Mayon Volcano 🌅",
+          "height": 2160
+        },
+        {
+          "name": "Cagsawa Ruins",
+          "yt": "aJP1oXJ7e_4",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking Tour in Cagsawa Ruins -Daraga Albay , Bicol Philippines",
+          "height": 2160
+        },
+        {
+          "name": "Daraga Church",
+          "yt": "kDZJ-jol5Oc",
+          "start": 0,
+          "source": "auto",
+          "title": "(DAY 4) DARAGA CHURCH AY DARAGA ALBAY 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "puerto-princesa-river",
@@ -11132,7 +11978,17 @@
       ],
       "blurb": "A navigable river that runs for over eight kilometres through a limestone cave and comes out directly into the South China Sea — one of very few in the world that flow straight to the ocean underground. You are paddled in by torchlight past chambers 60 metres high, with several million bats and swiftlets overhead.",
       "fun_fact": "In 2010 explorers found a second storey to the river, with waterfalls inside the cave, and deep passages holding fossils — including a 20-million-year-old sirenian, a sea cow, embedded in the cave wall.",
-      "hidden_gem_tip": "Permits are capped daily and sell out, so book before you arrive in Puerto Princesa. Add the monkey trail on the way back — a jungle boardwalk from the beach at Sabang that most people skip in favour of the van, and where the macaques and monitor lizards are."
+      "hidden_gem_tip": "Permits are capped daily and sell out, so book before you arrive in Puerto Princesa. Add the monkey trail on the way back — a jungle boardwalk from the beach at Sabang that most people skip in favour of the van, and where the macaques and monitor lizards are.",
+      "monuments": [
+        {
+          "name": "Puerto Princesa",
+          "yt": "UOzs-l5huD8",
+          "start": 0,
+          "source": "auto",
+          "title": "UNDERGROUND RIVER, Palawan - BEST Nature Wonder of the World!? in Puerto Princesa",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "batanes",
@@ -11180,7 +12036,33 @@
       ],
       "blurb": "The northernmost province of the Philippines, ten islands in the strait between Luzon and Taiwan, in the direct path of the typhoons — which is why the Ivatan build houses with metre-thick limestone walls and thatch roofs lashed down like a ship's rigging. Green hills, stone hedgerows, cliffs, and cows.",
       "fun_fact": "Batanes has an honesty store: a roadside stall in Ivana with no attendant, where you take what you want and leave the money in a box. It has been running for decades in a province where recorded crime is close to zero.",
-      "hidden_gem_tip": "Sabtang, an hour by falowa boat across a strait that can close for days, has the best-preserved Ivatan villages — Chavayan and Savidug, stone houses under thatch, still lived in. Go on the first clear morning you get, because the next one may be a week away."
+      "hidden_gem_tip": "Sabtang, an hour by falowa boat across a strait that can close for days, has the best-preserved Ivatan villages — Chavayan and Savidug, stone houses under thatch, still lived in. Go on the first clear morning you get, because the next one may be a week away.",
+      "monuments": [
+        {
+          "name": "Basco",
+          "yt": "7zklf6UfAgs",
+          "start": 0,
+          "source": "auto",
+          "title": "BASCO, BATANES WALK TOUR! Day & Night Walk Tour [4K VIDEO]",
+          "height": 2160
+        },
+        {
+          "name": "Sabtang",
+          "yt": "k8CuPdRDRnI",
+          "start": 0,
+          "source": "auto",
+          "title": "Tour at Southern Batanes - One of the Most Beautiful Islands in the Philippines | SABTANG ISLAND",
+          "height": 2160
+        },
+        {
+          "name": "Ivana",
+          "yt": "dWC_vo0Ct04",
+          "start": 0,
+          "source": "auto",
+          "title": "4K RESO | SAN VICENTE IVANA BATANES | VACATION 2024 | ROAD TOUR | BEST SCENE HD",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "hanoi",
@@ -11233,7 +12115,33 @@
       "blurb": "Capital, on and off, since 1010, when a king moved his court here after seeing a dragon rise from the river. The Old Quarter still works the way it did then: thirty-six streets, each one historically the guild of a single trade, so you buy tin on one and votive paper on the next. The French added the boulevards and the Opera House; the trees over them are why the city stays cool.",
       "fun_fact": "The Temple of Literature was founded in 1070 as a Confucian temple and by 1076 held Vietnam's first university. The names of the men who passed the imperial doctoral exams between 1442 and 1779 are carved on 82 stone stelae there, each one on the back of a stone tortoise.",
       "hidden_gem_tip": "Bia hoi is fresh, unpasteurised draught beer brewed that morning, drunk the same day because it will not keep, and sold on plastic stools for less than a bottle of water. Any corner with a keg and a crowd at five in the afternoon will do.",
-      "walk": "xId3cHWsta4"
+      "walk": "xId3cHWsta4",
+      "monuments": [
+        {
+          "name": "Hoan Kiem Lake",
+          "yt": "rMmG-BHntHY",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K]  Vietnam Walk - 🚶 Early Morning Exercise Around Famous Hoan Kiem Lake",
+          "height": 2160
+        },
+        {
+          "name": "Temple of Literature",
+          "yt": "y8FX1H36yRo",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking Tour Temple of Literature Hanoi 🇻🇳 | Discover Vietnam’s Oldest University [4K]",
+          "height": 2160
+        },
+        {
+          "name": "Old Quarter",
+          "yt": "7hoqeB3F2Ho",
+          "start": 0,
+          "source": "auto",
+          "title": "Hanoi Afternoon Walk | French Quarter to Old Quarter at Sunset (4K HDR)",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "ho-chi-minh-city",
@@ -11285,7 +12193,33 @@
       ],
       "blurb": "Still Saigon to most of the people who live in it, and the engine room of Vietnam: nine million people, a French colonial grid downtown, and a motorbike population large enough that crossing the road is a technique rather than a decision. Walk at a constant speed and do not stop, and the traffic goes around you.",
       "fun_fact": "The tunnel network at Củ Chi, forty kilometres northwest, ran to roughly 250 kilometres on three levels, with kitchens vented so far from the fires that the smoke came up somewhere else entirely. Some stretches have been widened for visitors; the originals are narrower than your shoulders.",
-      "hidden_gem_tip": "Chợ Lớn, District 5, is the largest Chinatown in Vietnam and hardly anybody on the backpacker street goes. Start at Bình Tây market and work towards Thiên Hậu temple, where the incense coils hanging from the roof burn for a month each."
+      "hidden_gem_tip": "Chợ Lớn, District 5, is the largest Chinatown in Vietnam and hardly anybody on the backpacker street goes. Start at Bình Tây market and work towards Thiên Hậu temple, where the incense coils hanging from the roof burn for a month each.",
+      "monuments": [
+        {
+          "name": "Notre-Dame Cathedral Basilica of Saigon",
+          "yt": "Gx3AWzOskUI",
+          "start": 0,
+          "source": "auto",
+          "title": "🇻🇳 Saigon, Vietnam: Independence Palace, Notre Dame Cathedral Basilica ▪︎ 4K HDR Walking Tour 2025",
+          "height": 2160
+        },
+        {
+          "name": "Bến Thành Market",
+          "yt": "ULOM2GJDvak",
+          "start": 0,
+          "source": "auto",
+          "title": "Ben Thanh Market Ho Chi Minh City 🇻🇳 | Is Saigon’s Most Famous Market Worth Visiting?",
+          "height": 2160
+        },
+        {
+          "name": "Independence Palace",
+          "yt": "Acd5y39ngV0",
+          "start": 0,
+          "source": "auto",
+          "title": "Independence Palace,  Ho Chi Minh, Vietnam【Full Tour in 4k】",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "ha-long-bay",
@@ -11333,7 +12267,33 @@
       ],
       "blurb": "Around 1,600 limestone islands and sea stacks standing in shallow green water in the Gulf of Tonkin — a drowned karst landscape, the same limestone as Guilin's hills, with the valleys between the towers now full of sea. Several are hollow, with caves big enough to hold a cathedral, and a few enclose lagoons open to the sky.",
       "fun_fact": "The name means \"descending dragon\": the legend is that dragons sent to defend Vietnam spat jewels and jade into the sea, which became the islands and the barrier they form.",
-      "hidden_gem_tip": "Everyone sails from Hạ Long City. Go to Cát Bà instead and take a boat into Lan Ha Bay — the same karst, a fraction of the traffic, and you can kayak into the enclosed lagoons rather than watching them from a deck."
+      "hidden_gem_tip": "Everyone sails from Hạ Long City. Go to Cát Bà instead and take a boat into Lan Ha Bay — the same karst, a fraction of the traffic, and you can kayak into the enclosed lagoons rather than watching them from a deck.",
+      "monuments": [
+        {
+          "name": "Cát Bà Island",
+          "yt": "FNSxER6AEfg",
+          "start": 0,
+          "source": "auto",
+          "title": "Hidden Islands near Ha Long Bay | Lan Ha Bay, Cat Ba Island, Vietnam 4k Drone Footage  🇻🇳",
+          "height": 2160
+        },
+        {
+          "name": "Lan Hạ Bay",
+          "yt": "y6F5OzkFt_w",
+          "start": 0,
+          "source": "auto",
+          "title": "I Took a 2-Day Cruise in Lan Hạ Bay (Better Than Hạ Long Bay?) 🇻🇳",
+          "height": 2160
+        },
+        {
+          "name": "Hạ Long",
+          "yt": "vt9OL_sJ5gA",
+          "start": 0,
+          "source": "auto",
+          "title": "Ha Long Bay - The UNESCO World Heritage Site (4K)",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "hoi-an",
@@ -11430,7 +12390,25 @@
       ],
       "blurb": "A former French hill station at 1,500 metres in the far north, with rice terraces stepping down the valley below it and Fansipan — at 3,147 metres the highest mountain in Indochina — behind. The valleys are home to Hmong, Dao, Tay and Giay communities, each with their own dress, language and market day.",
       "fun_fact": "Fansipan has had a cable car since 2016, which climbs over six kilometres and takes about fifteen minutes to do what used to be a two-day walk. It broke two world records for cable cars on opening, and it is genuinely divisive up here.",
-      "hidden_gem_tip": "Skip the town, which has been thoroughly rebuilt in concrete, and walk. Two days through Lao Chai and Ta Van, sleeping in a village homestay, is the whole point of Sa Pa — and go with a local guide from the community, not an agency in Hanoi."
+      "hidden_gem_tip": "Skip the town, which has been thoroughly rebuilt in concrete, and walk. Two days through Lao Chai and Ta Van, sleeping in a village homestay, is the whole point of Sa Pa — and go with a local guide from the community, not an agency in Hanoi.",
+      "monuments": [
+        {
+          "name": "Fansipan",
+          "yt": "E4SJfs6AtF4",
+          "start": 0,
+          "source": "auto",
+          "title": "Sapa & Fansipan What It’s REALLY Like Visiting Vietnam’s Highest Mountain",
+          "height": 2160
+        },
+        {
+          "name": "Lào Cai",
+          "yt": "ghGTMoRrcC0",
+          "start": 0,
+          "source": "auto",
+          "title": "Toàn Cảnh Thị Xã  Sapa - Lào Cai #vietnamdiscovery #sapa #laocai",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "hue",
@@ -11478,7 +12456,25 @@
       ],
       "blurb": "Capital of the Nguyễn dynasty from 1802 to 1945, on the Perfume River: a walled citadel with a moat, and inside it a Purple Forbidden City built on the Beijing model for the emperor alone. Half of it was destroyed in 1968, when the city was held for 25 days during the Tet Offensive and then retaken street by street.",
       "fun_fact": "Huế's imperial court cuisine was cooked for an emperor who was meant to be offered dozens of small dishes at a sitting, and the city still eats that way — tiny, precise, and hotter than anywhere else in Vietnam. Bún bò Huế is the export; com hến, rice with baby clams, is what people actually eat.",
-      "hidden_gem_tip": "Hire a bicycle and follow the river south to the royal tombs, which are spread over several kilometres of pine hill. Khải Định's is concrete, blackened, and encrusted inside with broken porcelain and glass — completely unlike the others and worth the ride on its own."
+      "hidden_gem_tip": "Hire a bicycle and follow the river south to the royal tombs, which are spread over several kilometres of pine hill. Khải Định's is concrete, blackened, and encrusted inside with broken porcelain and glass — completely unlike the others and worth the ride on its own.",
+      "monuments": [
+        {
+          "name": "Imperial City",
+          "yt": "S9gDjNrPilM",
+          "start": 0,
+          "source": "auto",
+          "title": "Hue, The Imperial City of Vietnam 🇻🇳 4K 60fps HDR Walking Tour",
+          "height": 2160
+        },
+        {
+          "name": "Perfume River",
+          "yt": "sbZZY6uLCGY",
+          "start": 0,
+          "source": "auto",
+          "title": "Hue Vietnam | From the Perfume River to the Imperial City | 4K Cinematic",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "da-nang",
@@ -11526,7 +12522,33 @@
       ],
       "blurb": "Vietnam's fourth city, on a curve of the South China Sea between a headland and the Marble Mountains, and the country's clearest example of what thirty years of money does: a beachfront of towers, six new bridges, and a river that is lit up every night. It was where American combat troops first landed in 1965.",
       "fun_fact": "The Dragon Bridge is a steel dragon nearly 700 metres long, and at nine on Saturday and Sunday nights it breathes fire and then sprays water over the crowd standing at the head end.",
-      "hidden_gem_tip": "The Sơn Trà peninsula behind the city is a forested reserve with a road right round it, and it holds red-shanked douc langurs — one of the most striking primates in the world, and endangered. Go up at dawn on a motorbike and watch the treetops on the eastern side."
+      "hidden_gem_tip": "The Sơn Trà peninsula behind the city is a forested reserve with a road right round it, and it holds red-shanked douc langurs — one of the most striking primates in the world, and endangered. Go up at dawn on a motorbike and watch the treetops on the eastern side.",
+      "monuments": [
+        {
+          "name": "Marble Mountains",
+          "yt": "Yzvi6O3Bgwo",
+          "start": 0,
+          "source": "auto",
+          "title": "Marble Mountains - Da Nang, Vietnam - 4K Drone",
+          "height": 2160
+        },
+        {
+          "name": "Golden Bridge",
+          "yt": "aBcW4OEhGxo",
+          "start": 0,
+          "source": "auto",
+          "title": "Da Nang Vietnam 🇻🇳 Ba Na Hills Golden Bridge Walk (4K)",
+          "height": 2160
+        },
+        {
+          "name": "Dragon Bridge",
+          "yt": "hdNSh4Az6GI",
+          "start": 0,
+          "source": "auto",
+          "title": "DA NANG VIETNAM - Beautiful Han River Walk from Dragon Bridge is Absolutely Stunning 4K Walking Tour",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "ninh-binh",
@@ -11574,7 +12596,33 @@
       ],
       "blurb": "The same limestone as Hạ Long Bay, except the sea has gone and rice paddy has taken its place — karst towers standing straight out of flooded fields, with rivers running through caves at their base. You are rowed through in a small metal sampan, ducking under the rock, from one enclosed valley to the next.",
       "fun_fact": "The rowers on the Tam Cốc boats very often row with their feet, lying back against the stern with an oar under each sole. It is not a trick for visitors; it is what your arms want after the fourth trip of the day.",
-      "hidden_gem_tip": "Tràng An is the quieter, longer route and passes through nine caves; Tam Cốc is shorter and busier. Either way, climb the 500 steps at Hang Múa afterwards — the view down onto the whole flooded plain from the dragon on the ridge is the one you came for, and it costs a walk."
+      "hidden_gem_tip": "Tràng An is the quieter, longer route and passes through nine caves; Tam Cốc is shorter and busier. Either way, climb the 500 steps at Hang Múa afterwards — the view down onto the whole flooded plain from the dragon on the ridge is the one you came for, and it costs a walk.",
+      "monuments": [
+        {
+          "name": "Tràng An",
+          "yt": "Gv-CaBmacPU",
+          "start": 0,
+          "source": "auto",
+          "title": "Tràng An  Ninh Bình - Vẻ Đẹp Tuyệt Mỹ Của Thiên Nhiên",
+          "height": 2160
+        },
+        {
+          "name": "Hoa Lư",
+          "yt": "Y8796FauJdo",
+          "start": 0,
+          "source": "auto",
+          "title": "Vietnam Street Walk 🇻🇳 | Exploring Hoa Lu Ninh Binh | 4K Walking Tour",
+          "height": 2160
+        },
+        {
+          "name": "Tam Cốc",
+          "yt": "evVrDJEYPUM",
+          "start": 0,
+          "source": "auto",
+          "title": "VIETNAM 🇻🇳 Walk | Discover Tam Coc in Its Most Beautiful Season of the Year | Ninh Binh 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "phong-nha",
@@ -11613,7 +12661,7 @@
         },
         {
           "name": "Paradise Cave",
-          "wikipedia_slug": "Paradise_Cave"
+          "wikipedia_slug": "Thiên_Đường_Cave"
         },
         {
           "name": "Đồng Hới",
@@ -11622,7 +12670,25 @@
       ],
       "blurb": "Four hundred million years of limestone in central Vietnam, hollowed into more than 400 known caves, of which a fraction have been fully surveyed. This is the oldest major karst region in Asia and it contains the largest cave passage on the planet — big enough that a section of its roof has collapsed and a rainforest is growing inside it, under its own weather.",
       "fun_fact": "Hang Sơn Đoòng was found by a local man, Hồ Khanh, sheltering from a storm in 1991, and then lost again — he could not find the entrance for years. British cavers surveyed it with him in 2009 and measured a passage over five kilometres long, 200 metres high and 150 wide.",
-      "hidden_gem_tip": "Sơn Đoòng is a permit-limited multi-day expedition with a waiting list and a four-figure price. Hang Én, its neighbour, is the third-largest cave in the world, takes two days, and you sleep on a beach inside it beside an underground river with swifts flying overhead."
+      "hidden_gem_tip": "Sơn Đoòng is a permit-limited multi-day expedition with a waiting list and a four-figure price. Hang Én, its neighbour, is the third-largest cave in the world, takes two days, and you sleep on a beach inside it beside an underground river with swifts flying overhead.",
+      "monuments": [
+        {
+          "name": "Phong Nha Cave",
+          "yt": "Z3NUhEEYrU0",
+          "start": 0,
+          "source": "auto",
+          "title": "Phong Nha – Kẻ Bàng | Vietnam’s Majestic Caves & Nature",
+          "height": 2160
+        },
+        {
+          "name": "Paradise Cave",
+          "yt": "ZNhd9b4k1Mw",
+          "start": 0,
+          "source": "auto",
+          "title": "Visiting Paradise Cave, Phong Nha, Vietnam - walk with me [4k 25fps]",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "ha-giang",
@@ -11670,7 +12736,33 @@
       ],
       "blurb": "The far northern frontier against China, and the most dramatic road in Vietnam: a loop of about 350 kilometres through limestone karst so bare that villagers plant maize in the pockets of soil between the rocks. Hmong, Tay, Dao and Lô Lô villages, markets that move day by day, and the Mã Pí Lèng pass on a ledge cut into a cliff above the Nho Quế river.",
       "fun_fact": "The Happiness Road through the pass was built between 1959 and 1965, largely by hand, by young volunteers from several ethnic groups working on ropes over the gorge. Around a dozen died. The name was the government's.",
-      "hidden_gem_tip": "Three or four days, on the back of someone else's motorbike if you have any doubt about your own riding — the drops are real and the road is wet. Time it to hit Đồng Văn on a Sunday for the market, and go down to the river at Tu Sản gorge by boat."
+      "hidden_gem_tip": "Three or four days, on the back of someone else's motorbike if you have any doubt about your own riding — the drops are real and the road is wet. Time it to hit Đồng Văn on a Sunday for the market, and go down to the river at Tu Sản gorge by boat.",
+      "monuments": [
+        {
+          "name": "Mã Pí Lèng Pass",
+          "yt": "hmI-VTwQNgY",
+          "start": 0,
+          "source": "auto",
+          "title": "Mã Pí Lèng Pass: Riding the Legend from Dong Van to Meo Vac | 4K ASMR POV",
+          "height": 2160
+        },
+        {
+          "name": "Quản Bạ",
+          "yt": "b9Q88XLoYCU",
+          "start": 0,
+          "source": "auto",
+          "title": "Du lịch Hà giang - Flycam toàn cảnh Cổng trời Quản bạ  || A Táo Hà Giang",
+          "height": 2160
+        },
+        {
+          "name": "Mèo Vạc",
+          "yt": "zr8r-hv-jPA",
+          "start": 0,
+          "source": "auto",
+          "title": "#5 - Hà Giang ngày 3 (4K): Yên Minh - Mèo Vạc",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "da-lat",
@@ -11714,7 +12806,25 @@
       ],
       "blurb": "A hill station 1,500 metres up on the Central Highlands plateau, built by the French in the 1900s as somewhere to escape the heat, and still cool enough for strawberries, artichokes and pine forest. Vietnamese couples come here to be cold; the town obliges with villas, a lake and an enormous amount of flowers.",
       "fun_fact": "Da Lat railway station, finished in 1938, is an Art Deco building with three steep roofs meant to echo the longhouses of the highland peoples, and it is one of the oldest surviving stations in Vietnam. The line to the coast is long dead; seven kilometres of it are run for tourists behind a Japanese locomotive.",
-      "hidden_gem_tip": "The Crazy House is a guesthouse designed by the daughter of a former Vietnamese president as a concrete tree with staircases through it, and you can stay the night — after the day visitors leave, you have the whole thing to yourself."
+      "hidden_gem_tip": "The Crazy House is a guesthouse designed by the daughter of a former Vietnamese president as a concrete tree with staircases through it, and you can stay the night — after the day visitors leave, you have the whole thing to yourself.",
+      "monuments": [
+        {
+          "name": "Xuân Hương Lake",
+          "yt": "4_-65Crz58c",
+          "start": 0,
+          "source": "auto",
+          "title": "Relaxing Walking Around Xuan Huong lake - Da Lat. 4K Walking With Me.",
+          "height": 2160
+        },
+        {
+          "name": "Da Lat railway station",
+          "yt": "y6axLsl53Q0",
+          "start": 0,
+          "source": "auto",
+          "title": "🇻🇳 Vietnam, Da Lat: Da Lat Railway Station & Train Ride to Trai Mat Station Tour - 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "phu-quoc",
@@ -11754,7 +12864,25 @@
       ],
       "blurb": "Vietnam's largest island, in the Gulf of Thailand and closer to Cambodia than to the Vietnamese mainland, with more than half its area under national park and the rest developing fast. Pepper plantations, fish sauce, and the longest cable car in the world running out to the An Thới archipelago.",
       "fun_fact": "Nước mắm from Phú Quốc is a protected designation: anchovies caught in these waters, salted on board immediately, then fermented in wooden barrels for a year. The distilleries in Dương Đông will show you the vats, and the smell is unforgettable.",
-      "hidden_gem_tip": "The north of the island is where the park is and where the roads run out. Rạch Vẹm on the northern tip has a starfish beach in shallow water and a handful of shacks on stilts, and it takes a bumpy hour from the airport."
+      "hidden_gem_tip": "The north of the island is where the park is and where the roads run out. Rạch Vẹm on the northern tip has a starfish beach in shallow water and a handful of shacks on stilts, and it takes a bumpy hour from the airport.",
+      "monuments": [
+        {
+          "name": "Phú Quốc National Park",
+          "yt": "fnf-IrkooyE",
+          "start": 0,
+          "source": "auto",
+          "title": "Phu Quoc National Park: Hoang dã thơ mộng",
+          "height": 1080
+        },
+        {
+          "name": "An Thới",
+          "yt": "1ZE-Ky9XLgA",
+          "start": 0,
+          "source": "auto",
+          "title": "Sunset Town, An Thoi, Bai Khem Beach, Phu Quoc 4K Virtual Tour",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "can-tho",
@@ -11798,7 +12926,25 @@
       ],
       "blurb": "The capital of the Mekong Delta, a flat green quarter of Vietnam laced with so many channels that the roads are an afterthought. This is where the country's rice and most of its fruit come from, and where wholesale trade still happens on the water at five in the morning.",
       "fun_fact": "At Cái Răng the boats advertise by hanging a sample of what they are selling from a tall bamboo pole at the bow — a pineapple, a bunch of radishes, a watermelon. You read the market from a distance, and the pole is called a cây bẹo.",
-      "hidden_gem_tip": "Be on the water by half past five. The market is largely finished by eight and the tour boats that arrive at seven are watching the end of it. Take a small boat afterwards into the narrow canals, where the water coconut closes over your head."
+      "hidden_gem_tip": "Be on the water by half past five. The market is largely finished by eight and the tour boats that arrive at seven are watching the end of it. Take a small boat afterwards into the narrow canals, where the water coconut closes over your head.",
+      "monuments": [
+        {
+          "name": "Cái Răng Floating Market",
+          "yt": "GJG8gMsywH8",
+          "start": 0,
+          "source": "auto",
+          "title": "CAI RANG, Vietnam 🇻🇳 - Floating Market near Can Tho - 4K 60fps (UHD)",
+          "height": 2160
+        },
+        {
+          "name": "Ninh Kiều",
+          "yt": "E0L9EaNQ0fc",
+          "start": 0,
+          "source": "auto",
+          "title": "Bến Ninh Kiều - Cần Thơ  (Ninh Kieu 4K Video)",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "con-dao",
@@ -11842,7 +12988,25 @@
       ],
       "blurb": "Sixteen islands 230 kilometres off the southern coast, most of them national park, with forest running to the water and the most important green turtle nesting beaches in Vietnam. It is also the country's Alcatraz: the French built a prison here in 1862 and it stayed open, under successive regimes, until 1975.",
       "fun_fact": "Around 20,000 people are believed to have died in the prison across 113 years. The tiger cages — open-topped stone pits with bars overhead, from which guards could look down on the prisoners — were denied for years and then photographed by an American congressional aide in 1970.",
-      "hidden_gem_tip": "Between June and September the park runs turtle-watching nights on Bảy Cạnh island: you sleep at the ranger station and are woken when a female comes ashore. Places are limited and booked through the park, not an agent."
+      "hidden_gem_tip": "Between June and September the park runs turtle-watching nights on Bảy Cạnh island: you sleep at the ranger station and are woken when a female comes ashore. Places are limited and booked through the park, not an agent.",
+      "monuments": [
+        {
+          "name": "Côn Đảo Prison",
+          "yt": "Er-4sf3L93A",
+          "start": 0,
+          "source": "auto",
+          "title": "Nhà Tù Côn Đảo. Prison House of Con Son Island Việt Nam. @trongvlogdulich @NguyenDucTrong",
+          "height": 1080
+        },
+        {
+          "name": "Côn Đảo National Park",
+          "yt": "mf6cGEl3K04",
+          "start": 0,
+          "source": "auto",
+          "title": "Developing eco-tourism in Con Dao National Park",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "angkor-wat",
@@ -11959,7 +13123,33 @@
       ],
       "blurb": "Built at Chaktomuk, the four-faced crossing where the Mekong meets the Tonlé Sap and both split again into the Bassac — which is why the riverfront looks out at water going in three directions. The Khmer Rouge emptied the entire city in April 1975 and marched its two million people into the countryside; everyone here now, or their parents, came back to it.",
       "fun_fact": "The Tonlé Sap river reverses its flow twice a year. When the Mekong floods it pushes the water backwards into the great lake, which swells to several times its dry-season size; when the flood drops the river turns round again, and Cambodia holds a three-day festival for it.",
-      "hidden_gem_tip": "Tuol Sleng was a school before it was a prison, and it is not a sight — go early, take the audio guide, and give it the morning. Afterwards the Russian Market, an hour of noise and iced coffee, is the right way round."
+      "hidden_gem_tip": "Tuol Sleng was a school before it was a prison, and it is not a sight — go early, take the audio guide, and give it the morning. Afterwards the Russian Market, an hour of noise and iced coffee, is the right way round.",
+      "monuments": [
+        {
+          "name": "Royal Palace",
+          "yt": "REYMFOd_e1Y",
+          "start": 0,
+          "source": "auto",
+          "title": "ROYAL PALACE Evening Walk Tour, Phnom Penh Cambodia 4K",
+          "height": 2160
+        },
+        {
+          "name": "Silver Pagoda",
+          "yt": "ybrVgCL2Vk8",
+          "start": 0,
+          "source": "auto",
+          "title": "The Silver Pagoda in Phnom Penh, Cambodia",
+          "height": 2160
+        },
+        {
+          "name": "Tuol Sleng Genocide Museum",
+          "yt": "SdQjwD4s92s",
+          "start": 0,
+          "source": "auto",
+          "title": "🇰🇭Cambodia's Tuol Sleng Genocide Museum: Painful History🥲 | 4K Walking🚶",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "siem-reap",
@@ -12060,7 +13250,25 @@
       ],
       "blurb": "Cambodia's second city and the calmest — a French colonial riverfront that has hardly been touched, rice country in every direction, and a long-standing reputation as the place the country's artists come from. It was under Thai control for most of the century before 1907, which is part of why it feels like its own thing.",
       "fun_fact": "The bamboo train, or norry, was a local invention: a bamboo platform on two axles with a small motor, run on the abandoned French rail line, and light enough that when two met the one with less cargo was lifted off the track by hand. The original line has been rebuilt; a version still runs for visitors.",
-      "hidden_gem_tip": "Phnom Sampeau at dusk does two things at once. The caves in the hillside were used for executions by the Khmer Rouge and there is a memorial in them. Then at about six, several million bats pour out of a crack in the cliff below in a single unbroken stream for half an hour."
+      "hidden_gem_tip": "Phnom Sampeau at dusk does two things at once. The caves in the hillside were used for executions by the Khmer Rouge and there is a memorial in them. Then at about six, several million bats pour out of a crack in the cliff below in a single unbroken stream for half an hour.",
+      "monuments": [
+        {
+          "name": "Wat Banan",
+          "yt": "l98mZyw6mjo",
+          "start": 0,
+          "source": "auto",
+          "title": "Ep 28: Stunning Drone View of Wat Bay Damram in Banan, Battambang! | DJI Cinematic 4K",
+          "height": 1440
+        },
+        {
+          "name": "Killing caves of Phnom Sampeau",
+          "yt": "HPDjskDaJD8",
+          "start": 0,
+          "source": "auto",
+          "title": "Eps.92 Battambang [KHM] - Killing caves of Phnom Sampeau: terrible genocide and killing in Cambodia.",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "kampot",
@@ -12104,7 +13312,33 @@
       ],
       "blurb": "A riverside town under the Elephant Mountains with a grid of shuttered French shophouses, a good deal of nothing to do, and the best pepper in the world growing on the plain behind it. It was Cambodia's main port before Sihanoukville was built, which is why a town this size has that architecture.",
       "fun_fact": "Kampot pepper has a protected geographical indication, and the trade is old enough that French chefs were specifying it by name in the 19th century. The Khmer Rouge destroyed the plantations almost entirely; the farms that exist now were replanted from the 1990s, some by the original families.",
-      "hidden_gem_tip": "Ride up Bokor mountain to the abandoned hill station — a 1920s French casino and church at 1,000 metres, built with forced labour that killed hundreds, and left in the cloud since. Then go to Kep for crab, cooked with green Kampot peppercorns still on the stem."
+      "hidden_gem_tip": "Ride up Bokor mountain to the abandoned hill station — a 1920s French casino and church at 1,000 metres, built with forced labour that killed hundreds, and left in the cloud since. Then go to Kep for crab, cooked with green Kampot peppercorns still on the stem.",
+      "monuments": [
+        {
+          "name": "Bokor Hill Station",
+          "yt": "uRTESr3YpXE",
+          "start": 0,
+          "source": "auto",
+          "title": "The Complete Road Trip to Bokor Mountain from Kampot City | Bokor Hill Station | Cambodia",
+          "height": 1080
+        },
+        {
+          "name": "Preah Monivong National Park",
+          "yt": "kq4d8BJOYp8",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] Driving Tour On The Top Of Preah Monivong Bokor National Park In Kampot Province | ភ្នំបូកគោ",
+          "height": 2160
+        },
+        {
+          "name": "Kep",
+          "yt": "YaDDgn1mlVQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Phnom Penh to KEP || 4K Ride Along || Chinese New Year Travel 2021 || Cambodia 2021 || Kampot & Kep",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "koh-rong",
@@ -12144,7 +13378,25 @@
       ],
       "blurb": "Cambodia's second-largest island, off Sihanoukville, with about 40 kilometres of coastline and, on most of it, nothing at all — a couple of villages, a jungle interior with no road across it, and long white beaches on the west side reached on foot or by boat.",
       "fun_fact": "The water here holds bioluminescent plankton, and on a dark night swimming stirs up light around your arms. It is best with no moon, and it is the single thing everyone who has been here mentions first.",
-      "hidden_gem_tip": "Koh Rong Sanloem, the smaller island next door, is the quieter one — Lazy Beach on its western side faces the sunset and has almost nothing on it. Walk the jungle path across from Saracen Bay in the afternoon; it takes half an hour and it is properly dark under the canopy."
+      "hidden_gem_tip": "Koh Rong Sanloem, the smaller island next door, is the quieter one — Lazy Beach on its western side faces the sunset and has almost nothing on it. Walk the jungle path across from Saracen Bay in the afternoon; it takes half an hour and it is properly dark under the canopy.",
+      "monuments": [
+        {
+          "name": "Sihanoukville",
+          "yt": "GBOl-GmnfIs",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Cambodia l Sihanoukville's Hidden Gems!",
+          "height": 2160
+        },
+        {
+          "name": "Koh Rong Sanloem",
+          "yt": "lbSF6NJhVus",
+          "start": 0,
+          "source": "auto",
+          "title": "🇰🇭 ˖°𓇼🌊Saracen Bay Beach SANLOEM - CAMBODIA 🇰🇭 (Main Tourist Attraction in Koh Rong) 4K Walking Tour",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "preah-vihear",
@@ -12228,7 +13480,17 @@
       ],
       "blurb": "One of the largest temple complexes Jayavarman VII ever built, in the far northwest near the Thai border, and almost entirely uncleared — walls collapsed into the trees, galleries under root, and only a handful of visitors a day. Its outer galleries carry huge bas-reliefs of battles with the Cham, and a few of the great serene faces that Angkor Thom is famous for.",
       "fun_fact": "The site has one of only two known depictions of a multi-armed Avalokiteshvara in Khmer relief. Others were cut out of the wall by thieves in the 1990s — one 30-metre section was intercepted in Thailand and returned, and is now in the National Museum in Phnom Penh.",
-      "hidden_gem_tip": "The village runs a community homestay programme, and the money goes to the households directly. Stay a night: they will take you out to the satellite temples in the fields by ox cart, and you will be the only person there."
+      "hidden_gem_tip": "The village runs a community homestay programme, and the money goes to the households directly. Stay a night: they will take you out to the satellite temples in the fields by ox cart, and you will be the only person there.",
+      "monuments": [
+        {
+          "name": "Serei Saophoan",
+          "yt": "ZOuI-d6lRpA",
+          "start": 0,
+          "source": "auto",
+          "title": "Banteay Meanchey Serei Saophoan - DJI Mavic Air 2",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "luang-prabang",
@@ -12341,7 +13603,33 @@
       ],
       "blurb": "The quietest capital in Southeast Asia, strung along a bend of the Mekong with Thailand on the far bank. There are boulevards, because the French drew them, and baguettes, for the same reason, but the traffic never really arrives and the whole place still shuts for lunch.",
       "fun_fact": "Patuxai, the victory arch at the end of the main avenue, was built in the 1960s out of concrete the United States had supplied for a new airport runway. Locals call it the vertical runway, and a plaque on it has cheerfully described it as a monster of concrete.",
-      "hidden_gem_tip": "Buddha Park, 25 kilometres downriver by local bus, is a field of over two hundred concrete Hindu and Buddhist figures poured in 1958 by a self-taught priest-shaman. You climb into a giant pumpkin through the mouth of a demon and come out on the roof."
+      "hidden_gem_tip": "Buddha Park, 25 kilometres downriver by local bus, is a field of over two hundred concrete Hindu and Buddhist figures poured in 1958 by a self-taught priest-shaman. You climb into a giant pumpkin through the mouth of a demon and come out on the roof.",
+      "monuments": [
+        {
+          "name": "Pha That Luang",
+          "yt": "ltMRBqfMJPA",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Vientiane Temple Walk Pha That Luang Laos UHD 60fps Street Walk Video Scenic Relaxation",
+          "height": 2160
+        },
+        {
+          "name": "Patuxai",
+          "yt": "T1AeiOvAfgw",
+          "start": 0,
+          "source": "auto",
+          "title": "Laos Walking Tour 4k | Vientiane : Patuxai Monument and Fountain Show",
+          "height": 2160
+        },
+        {
+          "name": "Wat Si Saket",
+          "yt": "zZbmNTWpaPs",
+          "start": 0,
+          "source": "auto",
+          "title": "Exploring Wat Si Saket in Vientiane, Laos - 13-Minute Walking Tour in 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "vang-vieng",
@@ -12381,7 +13669,25 @@
       ],
       "blurb": "A town on the Nam Song river four hours north of Vientiane, under a wall of limestone karst full of caves and swimming holes. For about a decade it was notorious — river tubing with riverside bars, rope swings and a genuinely alarming death rate — until the government closed the bars in 2012 and the place reinvented itself around the landscape it always had.",
       "fun_fact": "At Tham Nam, the water cave, you pull yourself along a rope through a flooded passage on an inner tube with a head torch. There is no other way through, and the water is cold enough to be a shock in a country this hot.",
-      "hidden_gem_tip": "Go up in a hot air balloon at dawn if the budget allows — the karst comes out of the river mist and the whole valley is below you. Otherwise, cycle over the bamboo bridge and ride the dirt track to the Blue Lagoon at Tham Phu Kham, early, before the day trippers."
+      "hidden_gem_tip": "Go up in a hot air balloon at dawn if the budget allows — the karst comes out of the river mist and the whole valley is below you. Otherwise, cycle over the bamboo bridge and ride the dirt track to the Blue Lagoon at Tham Phu Kham, early, before the day trippers.",
+      "monuments": [
+        {
+          "name": "Nam Song River",
+          "yt": "_mSDnFZEMpw",
+          "start": 0,
+          "source": "auto",
+          "title": "Nam Song River, Vang Vieng, Laos 4K 60FPS",
+          "height": 2160
+        },
+        {
+          "name": "Vientiane",
+          "yt": "aYPCRM-C_0M",
+          "start": 0,
+          "source": "auto",
+          "title": "Vientiane~ Vang Vieng,  🇱🇦Laos【4K】",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "plain-of-jars",
@@ -12421,7 +13727,17 @@
       ],
       "blurb": "Thousands of stone jars, some of them three metres tall and weighing several tonnes, scattered across the hills of northern Laos in around ninety separate groups. They are Iron Age, roughly 500 BC to 500 AD, they were almost certainly funerary, and beyond that very little is known — nobody has found the culture that made them.",
       "fun_fact": "This is also the most heavily bombed landscape per head in history. The United States dropped some two million tonnes of ordnance on Laos between 1964 and 1973, much of it here, and around a third of the cluster submunitions failed to explode. Cleared paths at the jar sites are marked; you stay on them.",
-      "hidden_gem_tip": "Site 1 has the most jars and the coach park. Sites 2 and 3 are a short drive further, sit among pines and rice paddy, and you walk between them along a field path past a farmhouse — which is a much better way to meet them."
+      "hidden_gem_tip": "Site 1 has the most jars and the coach park. Sites 2 and 3 are a short drive further, sit among pines and rice paddy, and you walk between them along a field path past a farmhouse — which is a much better way to meet them.",
+      "monuments": [
+        {
+          "name": "Phonsavan",
+          "yt": "-puloadYzSs",
+          "start": 0,
+          "source": "auto",
+          "title": "Let's Ride to Phonsavan, Laos and visit the Plain of Jars a Unesco World Heritage Site on my CRF250L",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "si-phan-don",
@@ -12469,7 +13785,33 @@
       ],
       "blurb": "Four Thousand Islands: the point in southern Laos where the Mekong spreads to fourteen kilometres wide and breaks into hundreds of channels and sandbars before dropping over the falls into Cambodia. Life on the inhabited islands runs on fishing, rice and hammocks, and until recently much of it ran without mains electricity.",
       "fun_fact": "The falls made the Mekong unnavigable, so the French built a seven-kilometre railway across Don Det and Don Khon in 1893 — the only railway Laos has ever had — to portage boats around them. The bridge between the islands and one rusting locomotive are still there.",
-      "hidden_gem_tip": "Cycle to the southern tip of Don Khon in the late afternoon and hire a boat out towards the Cambodian border. There is a small resident population of Irrawaddy dolphins in the deep pool there — critically endangered, and possibly down to single figures, so treat a sighting as luck rather than an itinerary."
+      "hidden_gem_tip": "Cycle to the southern tip of Don Khon in the late afternoon and hire a boat out towards the Cambodian border. There is a small resident population of Irrawaddy dolphins in the deep pool there — critically endangered, and possibly down to single figures, so treat a sighting as luck rather than an itinerary.",
+      "monuments": [
+        {
+          "name": "Don Det",
+          "yt": "sZs3G-0DIiI",
+          "start": 0,
+          "source": "auto",
+          "title": "I COULD HAVE DIED exploring DON DET 🇱🇦 LOST in LAOS Ep:11",
+          "height": 2160
+        },
+        {
+          "name": "Don Khon",
+          "yt": "2tjnX-X2sPU",
+          "start": 0,
+          "source": "auto",
+          "title": "Don Khong, Laos - Sunset Walking Tour [4K, No Commentary]",
+          "height": 2160
+        },
+        {
+          "name": "Khone Phapheng Falls",
+          "yt": "h3J2xl6z-sE",
+          "start": 0,
+          "source": "auto",
+          "title": "Li Phi Falls and Khone Phapheng Falls (4K) | The widest waterfall in the world",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "nong-khiaw",
@@ -12513,7 +13855,25 @@
       ],
       "blurb": "A village either side of a bridge over the Nam Ou, four hours north of Luang Prabang, with limestone walls rising straight out of the river on both sides. There is one street, a handful of guesthouses on stilts over the water, and mist in the gorge every morning until the sun gets over the top.",
       "fun_fact": "Caves in the cliffs above the village were used as shelters during the war — the Pha Tok caves held a provincial administration underground, with rooms for a bank and a hospital, because the surface was not survivable in daylight.",
-      "hidden_gem_tip": "The Pha Daeng Peak viewpoint is a hard hour of steep steps and roots and gives you the river winding through karst in both directions. Then take the boat an hour upstream to Muang Ngoi, which has no road at all, and stay a night."
+      "hidden_gem_tip": "The Pha Daeng Peak viewpoint is a hard hour of steep steps and roots and gives you the river winding through karst in both directions. Then take the boat an hour upstream to Muang Ngoi, which has no road at all, and stay a night.",
+      "monuments": [
+        {
+          "name": "Nam Ou",
+          "yt": "kVkMvAz6p1c",
+          "start": 0,
+          "source": "auto",
+          "title": "Nam Ou View Villa Review - Nong Khiaw - Laos :)",
+          "height": 2160
+        },
+        {
+          "name": "Luang Prabang",
+          "yt": "WN0EraDmnr8",
+          "start": 0,
+          "source": "auto",
+          "title": "Nong Khiaw River Boat View - Luang Prabang WalkingTour, Laos  Tour - December 2022 [ Laos 4K ]",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "kuang-si-falls",
@@ -12549,7 +13909,17 @@
       ],
       "blurb": "A three-tier waterfall half an hour south of Luang Prabang, dropping about 60 metres into a staircase of shallow turquoise pools. The colour is real and it comes from dissolved limestone — calcium carbonate that also builds the travertine terraces the pools sit in, which is why the edges look moulded rather than eroded.",
       "fun_fact": "A bear rescue centre sits at the entrance, run by Free the Bears, holding Asiatic black bears — moon bears — taken from poachers and bile farms. You walk past their enclosures on the way to the water, which is deliberate.",
-      "hidden_gem_tip": "Everyone stops at the first big pool. Keep climbing: the path up the left-hand side is steep and slippery and comes out at the top of the main fall, where the stream is a series of quiet pools with almost nobody in them."
+      "hidden_gem_tip": "Everyone stops at the first big pool. Keep climbing: the path up the left-hand side is steep and slippery and comes out at the top of the main fall, where the stream is a series of quiet pools with almost nobody in them.",
+      "monuments": [
+        {
+          "name": "Luang Prabang",
+          "yt": "us9mdvhNr2A",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] Laos || Luang Prabang trip || Exploring Kuangsi Waterfalls",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "bolaven-plateau",
@@ -12589,7 +13959,25 @@
       ],
       "blurb": "A basalt plateau in southern Laos at around 1,000 metres, cool and wet, with rich volcanic soil that the French planted with coffee in the 1920s. It is still what the plateau does — Arabica and Robusta, much of it smallholder-grown — and the rivers running off the edge of it make some of the biggest waterfalls in the country.",
       "fun_fact": "Tad Fane drops about 120 metres in two parallel columns into a forested gorge, and you look at it from a viewpoint directly across the chasm. The plateau is also home to several Mon-Khmer ethnic groups whose villages, and languages, are quite distinct from lowland Lao.",
-      "hidden_gem_tip": "Hire a motorbike in Pakse and ride the loop over two or three days, stopping at the coffee farms — several will roast, brew and explain in the same hour. The small loop is about 200 kilometres and the road is decent nearly all the way round."
+      "hidden_gem_tip": "Hire a motorbike in Pakse and ride the loop over two or three days, stopping at the coffee farms — several will roast, brew and explain in the same hour. The small loop is about 200 kilometres and the road is decent nearly all the way round.",
+      "monuments": [
+        {
+          "name": "Pakse",
+          "yt": "9FSZjKYw_8k",
+          "start": 0,
+          "source": "auto",
+          "title": "Complete Tour of Pakse, Laos | Wonderful Temples and Market",
+          "height": 2160
+        },
+        {
+          "name": "Champasak",
+          "yt": "Ekg-f5XyRDk",
+          "start": 0,
+          "source": "auto",
+          "title": "Bolaven Plateau,Champasak Laos. 4K ที่ราบสูง โบลาเวน แขวงจำปาสัก ลาว.",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "taipei",
@@ -13822,7 +15210,33 @@
       ],
       "blurb": "Eleven million people in the city and around thirty in the sprawl around it, built on swamp at the mouth of thirteen rivers, sinking a few centimetres a year while the sea comes up to meet it. The Dutch called it Batavia and cut canals through it; what stands now is a capital of glass towers, low kampung lanes and a traffic jam that has its own literature.",
       "fun_fact": "North Jakarta has subsided by around four metres since the 1970s, largely because the city pumps its water out of the ground beneath itself. Indonesia is building a new capital, Nusantara, in the forests of Borneo, partly for that reason.",
-      "hidden_gem_tip": "Kota Tua is the Dutch old town and it is worth an hour, but Glodok next door is the better walk — one of the oldest Chinatowns in Indonesia, with the Jin De Yuan temple from 1650 down an alley you would never guess held one."
+      "hidden_gem_tip": "Kota Tua is the Dutch old town and it is worth an hour, but Glodok next door is the better walk — one of the oldest Chinatowns in Indonesia, with the Jin De Yuan temple from 1650 down an alley you would never guess held one.",
+      "monuments": [
+        {
+          "name": "Kota Tua",
+          "yt": "q3yVrDq3iWY",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Jakarta walking tour in Kota Tua 🇮🇩 - Kota Tua - Indonesia 2022 #walkingtour #jakartacitytour",
+          "height": 2160
+        },
+        {
+          "name": "National Monument",
+          "yt": "BMv_N0W13Eg",
+          "start": 0,
+          "source": "auto",
+          "title": "National Monument (Monas) Indonesia - 4K - HDR - Walking Tour - Downtown Jakarta",
+          "height": 2160
+        },
+        {
+          "name": "Istiqlal Mosque",
+          "yt": "dSQGSvRZ6cI",
+          "start": 0,
+          "source": "auto",
+          "title": "Evening [Maghrib] walk around Masjid Istiqlal Mosque❗JAKARTA 4K walk from Stasiun Juanda Station",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "yogyakarta",
@@ -13870,7 +15284,33 @@
       ],
       "blurb": "The last Javanese court still doing the job: Yogyakarta is a sultanate inside a republic, the one province in Indonesia whose governor inherits the post, and the sultan's palace at the centre is a working household with its own gamelan orchestras and batik workshops. It is also a university town of half a million students, sitting between a volcano that erupts every few years and the two greatest temples in Southeast Asia.",
       "fun_fact": "The city was given its special status by law in 1950 because the sultan had backed the independence republic and lent it his capital when the Dutch retook Jakarta. It is the only monarchy left inside Indonesia.",
-      "hidden_gem_tip": "Taman Sari, the ruined water castle behind the palace, hides an underground mosque with two staircases spiralling into a circular well — go through the residential lanes of Kampung Taman to reach it and you will pass batik being waxed in front rooms on the way."
+      "hidden_gem_tip": "Taman Sari, the ruined water castle behind the palace, hides an underground mosque with two staircases spiralling into a circular well — go through the residential lanes of Kampung Taman to reach it and you will pass batik being waxed in front rooms on the way.",
+      "monuments": [
+        {
+          "name": "Kraton",
+          "yt": "1fVxr5MifZg",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking Tour Kraton Yogyakarta & Traditional Market | Authentic Jogja in 4K HDR",
+          "height": 2160
+        },
+        {
+          "name": "Taman Sari",
+          "yt": "FPSzWP8TpRA",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking Through Taman Sari — The Royal Water Castle of Yogyakarta (4K)",
+          "height": 2160
+        },
+        {
+          "name": "Jalan Malioboro",
+          "yt": "uiFkttVSZCs",
+          "start": 0,
+          "source": "auto",
+          "title": "Jalan Malioboro Street Yogyakarta, Indonesia 🇮🇩 | 4K Walking Tour",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "borobudur",
@@ -13918,7 +15358,33 @@
       ],
       "blurb": "The largest Buddhist temple on earth, built around 800 AD out of two million blocks of andesite laid without mortar into nine stacked platforms — six square, three circular — with 72 bell-shaped stupas on the top terraces, each one with a Buddha sitting inside it. You are meant to walk it clockwise, level by level, past five kilometres of relief carving, so that the climb is the teaching.",
       "fun_fact": "It was abandoned within about 150 years of completion, probably after volcanic eruptions pushed the population east, and lay under ash and jungle for centuries. Stamford Raffles was told about it in 1814 and sent a Dutch engineer with 200 men, who spent two months cutting it out of the trees.",
-      "hidden_gem_tip": "Mendut and Pawon, the two small temples on the road east, sit on a dead straight line with Borobudur — almost certainly deliberate, and almost certainly the route pilgrims once walked. Do them in that order and arrive on foot."
+      "hidden_gem_tip": "Mendut and Pawon, the two small temples on the road east, sit on a dead straight line with Borobudur — almost certainly deliberate, and almost certainly the route pilgrims once walked. Do them in that order and arrive on foot.",
+      "monuments": [
+        {
+          "name": "Mendut",
+          "yt": "mBSCNWRZM8Q",
+          "start": 0,
+          "source": "auto",
+          "title": "Mendut Monastery: Where Spirituality Meets Serenity in Indonesia 4K",
+          "height": 2160
+        },
+        {
+          "name": "Pawon",
+          "yt": "GMQj80PjIVY",
+          "start": 0,
+          "source": "auto",
+          "title": "Bagian Borobudur Yang Terlupakan, Candi Pawon Magelang Jawa Tengah 4K",
+          "height": 2160
+        },
+        {
+          "name": "Magelang",
+          "yt": "-zuLDJ3ZogA",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] Spot Healing Magelang. Melihat Borobudur dari Atas di Watu Putih",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "prambanan",
@@ -13962,7 +15428,25 @@
       ],
       "blurb": "Built in the mid-9th century, a generation or two after Borobudur and a few miles from it, and Hindu rather than Buddhist — which is the interesting part, because the same kingdom seems to have paid for both. Three tall temples for Shiva, Vishnu and Brahma face three smaller ones for the animals they ride, and the Shiva temple's inner gallery carries the Ramayana in stone.",
       "fun_fact": "A 16th-century earthquake brought most of it down and it stayed a heap of numbered blocks well into the 20th century. Restoration has a hard rule: a temple is only rebuilt if at least 75 per cent of its original stone is on site, which is why hundreds of the smaller shrines are still just foundations and stacks.",
-      "hidden_gem_tip": "Sewu, a Buddhist complex of 249 shrines, is a fifteen-minute walk north inside the same archaeological park and is almost always empty. Ratu Boko, on the hill to the south, is not a temple at all but a gate and a bathing pool from a palace, and it looks straight back at Prambanan with Merapi behind it."
+      "hidden_gem_tip": "Sewu, a Buddhist complex of 249 shrines, is a fifteen-minute walk north inside the same archaeological park and is almost always empty. Ratu Boko, on the hill to the south, is not a temple at all but a gate and a bathing pool from a palace, and it looks straight back at Prambanan with Merapi behind it.",
+      "monuments": [
+        {
+          "name": "Ratu Boko",
+          "yt": "IV5kLknirNY",
+          "start": 0,
+          "source": "auto",
+          "title": "Ratu Boko Complex 🇮🇩 I Yogyakarta, Indonesia I 4K Full Tour I Ambient sound I 13 mins I 2023",
+          "height": 2160
+        },
+        {
+          "name": "Sewu",
+          "yt": "c3nS5m7valk",
+          "start": 0,
+          "source": "auto",
+          "title": "Prambanan and Sewu Temples | Forgotten & Rediscovered Temples of Java | Indonesia",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "ubud",
@@ -13992,7 +15476,7 @@
       ],
       "highlights": [
         {
-          "name": "Tegallalang",
+          "name": "Tegallalang Rice Terraces",
           "wikipedia_slug": "Tegallalang"
         },
         {
@@ -14014,7 +15498,49 @@
       ],
       "blurb": "Bali's inland town, up among the rice terraces and the river gorges rather than the beaches, and the island's centre of gravity for dance, carving, painting and gamelan since a local royal family started inviting European artists to stay in the 1930s. The terraces around it are watered by subak, a co-operative irrigation system run by the temples since the 9th century, which UNESCO listed as a cultural landscape.",
       "fun_fact": "Subak is a thousand-year-old water democracy: the farmers sharing a canal meet at their own water temple, decide the planting calendar together, and settle who floods when. The priests, not an agency, hold the schedule.",
-      "hidden_gem_tip": "Walk the Campuhan ridge at six in the morning — a paved spine between two river valleys, twenty minutes out of town, and the one place near Ubud that has never had a coach park. Then eat at a warung in Penestanan on the way back down."
+      "hidden_gem_tip": "Walk the Campuhan ridge at six in the morning — a paved spine between two river valleys, twenty minutes out of town, and the one place near Ubud that has never had a coach park. Then eat at a warung in Penestanan on the way back down.",
+      "monuments": [
+        {
+          "name": "Tegallalang Rice Terraces",
+          "yt": "UgcypRVKK_Y",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Walking Tour: Tegallalang Rice Terraces, Ubud | Bali’s Iconic Green Landscapes 🌾🍃",
+          "height": 2160
+        },
+        {
+          "name": "Monkey Forest",
+          "yt": "uuY7l57WmMg",
+          "start": 0,
+          "source": "auto",
+          "title": "BALI 4K Walk | Indonesia Ubud Monkey Forest Sanctuary 🐒🌿🇮🇩",
+          "height": 2160
+        },
+        {
+          "name": "Goa Gajah",
+          "yt": "4mtrpK6Rrbc",
+          "start": 0,
+          "source": "auto",
+          "title": "🇮🇩 Goa Gajah Bali 4K | Exploring the Elephant Cave Temple in Ubud",
+          "height": 2160
+        },
+        {
+          "name": "Tirta Empul",
+          "yt": "4YoHVNWRtss",
+          "start": 0,
+          "source": "auto",
+          "title": "TIRTA EMPUL TEMPLE ⛩️, Ubud, Bali 🇮🇩 4K Walking Tour - Captions & Immersive Sound",
+          "height": 2160
+        },
+        {
+          "name": "Mount Batur",
+          "yt": "A5OoYAM5jro",
+          "start": 0,
+          "source": "auto",
+          "title": "THIS is Bali's BEST Sunrise Tour! ⏐ Mount Batur in a 4x4 Jeep",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "uluwatu-temple",
@@ -14058,7 +15584,25 @@
       ],
       "blurb": "One of Bali's six sad kahyangan — the temples that are held to be the island's spiritual pillars — set on the very edge of a limestone cliff seventy metres above the Indian Ocean at the island's southwestern tip. The surf comes in below it in long lines, which is the other reason people know the name.",
       "fun_fact": "The kecak is performed on the cliff terrace here at sunset: a hundred men sitting in concentric rings chanting cak-cak-cak in interlocking rhythm, with no instruments at all. The form was put together in the 1930s from a much older trance ritual, and the chorus does the work an entire gamelan would.",
-      "hidden_gem_tip": "The monkeys here are professional thieves and they know exactly what sunglasses are worth. Take nothing loose. Then walk down to Jimbaran for grilled fish on the sand — the same coast, an hour later, on the sheltered side."
+      "hidden_gem_tip": "The monkeys here are professional thieves and they know exactly what sunglasses are worth. Take nothing loose. Then walk down to Jimbaran for grilled fish on the sand — the same coast, an hour later, on the sheltered side.",
+      "monuments": [
+        {
+          "name": "Bukit Peninsula",
+          "yt": "p_QmfO_D5oI",
+          "start": 0,
+          "source": "auto",
+          "title": "AMAZING Places in Bali Bukit Peninsula",
+          "height": 2160
+        },
+        {
+          "name": "Jimbaran",
+          "yt": "eyAIL8rmsHo",
+          "start": 0,
+          "source": "auto",
+          "title": "🇮🇩 Splendid Sunset in Jimbaran BALI Indonesia. 4K VIRTUAL WALKING TOUR",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "mount-bromo",
@@ -14106,7 +15650,33 @@
       ],
       "blurb": "A smoking cone standing inside a ten-kilometre caldera whose floor is a flat grey plain of volcanic sand — the Sea of Sand — with Semeru, Java's highest mountain, throwing up an ash puff every twenty minutes on the horizon behind it. You cross the sand on foot or on horseback and climb 250 steps to look into a crater that is very much awake.",
       "fun_fact": "The Tengger people who live around the caldera are Hindu, a remnant of the Majapahit empire that stayed put when Java turned Muslim. Once a year at Yadnya Kasada they climb Bromo at night and throw offerings — fruit, rice, livestock — over the rim into the crater, while other villagers wait on the inner slopes with nets to catch them.",
-      "hidden_gem_tip": "Everyone is bussed to the Penanjakan viewpoint for sunrise and it is genuinely crowded at four in the morning. Walk twenty minutes along the ridge to King Kong Hill instead, or skip sunrise and cross the Sea of Sand at four in the afternoon, when the light is low and there is nobody on it."
+      "hidden_gem_tip": "Everyone is bussed to the Penanjakan viewpoint for sunrise and it is genuinely crowded at four in the morning. Walk twenty minutes along the ridge to King Kong Hill instead, or skip sunrise and cross the Sea of Sand at four in the afternoon, when the light is low and there is nobody on it.",
+      "monuments": [
+        {
+          "name": "Semeru",
+          "yt": "D4JR16wEjZ4",
+          "start": 0,
+          "source": "auto",
+          "title": "BROMO TENGGER SEMERU 4K – Indonesia’s Majestic Volcano Sunrise 🌋 | Cinematic Nature Film",
+          "height": 2160
+        },
+        {
+          "name": "Bromo Tengger Semeru National Park",
+          "yt": "csSQifzR7ts",
+          "start": 0,
+          "source": "auto",
+          "title": "East Java, Indonesia 🇮🇩 - Tumpak Sewu and Bromo Tengger Semeru National Park | Indonesia Travel",
+          "height": 1080
+        },
+        {
+          "name": "Probolinggo",
+          "yt": "yPzMNpsIxtw",
+          "start": 0,
+          "source": "auto",
+          "title": "Probolinggo's Best Route to Mount Bromo",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "ijen",
@@ -14150,7 +15720,25 @@
       ],
       "blurb": "A volcano at the eastern end of Java holding a kilometre-wide crater lake of turquoise water, which is turquoise because it is essentially concentrated acid — one of the largest and most acidic crater lakes in the world. At the shore, sulphurous gas vents out of the rock, and at night some of it burns.",
       "fun_fact": "The blue fire is not lava. It is sulphuric gas igniting as it hits the air at around 600°C, and molten sulphur running down the rocks alight. There are only a couple of places on earth where you can see it, and it is invisible in daylight.",
-      "hidden_gem_tip": "The reason to come is not the flame. It is the miners: men who climb into the crater through that gas, break off sulphur by hand, and carry 70 to 90 kilos of it up the crater wall and down the mountain, twice a day, on a shoulder pole. Buy a mask before you go up, and buy it from them."
+      "hidden_gem_tip": "The reason to come is not the flame. It is the miners: men who climb into the crater through that gas, break off sulphur by hand, and carry 70 to 90 kilos of it up the crater wall and down the mountain, twice a day, on a shoulder pole. Buy a mask before you go up, and buy it from them.",
+      "monuments": [
+        {
+          "name": "Banyuwangi",
+          "yt": "GA9uFZ3KBqM",
+          "start": 0,
+          "source": "auto",
+          "title": "Discover Indonesia: Banyuwangi – The Eastern Gateway of Java | Cinematic Travel Film",
+          "height": 2160
+        },
+        {
+          "name": "Raung",
+          "yt": "MJbSw2IH6Bw",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Walk Tour - Telunjuk Raung Waterfall Banyuwangi East Java Indonesia",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "komodo-national-park",
@@ -14198,7 +15786,33 @@
       ],
       "blurb": "Three big islands and dozens of small ones between Sumbawa and Flores, with bare savannah hills that go gold in the dry season dropping straight into some of the richest water in the Coral Triangle. The dragons are the reason it is a park: three metres of monitor lizard, around 3,000 of them, and nowhere else on earth.",
       "fun_fact": "Komodo dragons hunt with a bite that combines serrated teeth with venom that stops blood clotting, then follow the wounded animal — sometimes for days — using a forked tongue that smells in stereo. They can pick up carrion from several kilometres downwind.",
-      "hidden_gem_tip": "Padar is the picture everyone has seen: three curved bays, three different-coloured beaches, from one ridge. Climb it at first light, before the day boats arrive from Labuan Bajo, and then dive Batu Bolong on the way back — a pinnacle with current on both sides and more fish than water."
+      "hidden_gem_tip": "Padar is the picture everyone has seen: three curved bays, three different-coloured beaches, from one ridge. Climb it at first light, before the day boats arrive from Labuan Bajo, and then dive Batu Bolong on the way back — a pinnacle with current on both sides and more fish than water.",
+      "monuments": [
+        {
+          "name": "Padar",
+          "yt": "KHLrl9aznvo",
+          "start": 0,
+          "source": "auto",
+          "title": "Komodo Island 3D2N Liveaboard | Padar Sunrise, Pink Beach & Manta Point 4K",
+          "height": 2160
+        },
+        {
+          "name": "Komodo Island",
+          "yt": "JVUAnTB0mP0",
+          "start": 0,
+          "source": "auto",
+          "title": "KOMODO NATIONAL PARK Complete Guide - Dragons, Manta Rays & Paradise Islands",
+          "height": 2160
+        },
+        {
+          "name": "Rinca",
+          "yt": "X5vAOmm3hiM",
+          "start": 0,
+          "source": "auto",
+          "title": "Komodo Island - KOMODO DRAGONS at Rinca Island 4K | Komodo National Park Tour",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "raja-ampat",
@@ -14246,7 +15860,33 @@
       ],
       "blurb": "Four big islands and roughly 1,500 small ones off the western tip of New Guinea, in the exact centre of the Coral Triangle. Surveys here have counted around 75 per cent of all known hard coral species — more than anywhere else that has ever been surveyed — along with over 1,400 species of reef fish. The islands themselves are mushroom-shaped limestone, undercut at the waterline, standing in water you can see forty metres down.",
       "fun_fact": "Raja Ampat means \"four kings\", and the local telling is that a woman found seven eggs, of which four hatched into the kings of Waigeo, Misool, Salawati and Batanta. Much of the reef is now protected by sasi, a customary law that closes an area to harvesting until the village elders reopen it.",
-      "hidden_gem_tip": "Misool, in the south, is the harder half to reach and the one worth the boat: a maze of limestone islets, a lagoon with stingless jellyfish in it, and prehistoric hand stencils painted in red ochre on cliffs above the water, still there because nobody can get to them."
+      "hidden_gem_tip": "Misool, in the south, is the harder half to reach and the one worth the boat: a maze of limestone islets, a lagoon with stingless jellyfish in it, and prehistoric hand stencils painted in red ochre on cliffs above the water, still there because nobody can get to them.",
+      "monuments": [
+        {
+          "name": "Waigeo",
+          "yt": "zzh0YOyGm_U",
+          "start": 0,
+          "source": "auto",
+          "title": "Raja Ampat (4K), Waigeo, Indonesia, Western Papua, 2022, Biodiversity, Birds of Paradise and Diving",
+          "height": 2160
+        },
+        {
+          "name": "Misool",
+          "yt": "2zjay86tz_0",
+          "start": 0,
+          "source": "auto",
+          "title": "My Favourite Place on Earth | Indonesia’s Underwater Eden | Raja Ampat, Misool",
+          "height": 2160
+        },
+        {
+          "name": "Salawati",
+          "yt": "iVVm8KzCaMw",
+          "start": 0,
+          "source": "auto",
+          "title": "Raza Salawati - Ay Rafiqani Tariqat - 4K | ڕەزا سەڵەواتی - ئەی ڕەفیقانی تەریقەت",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "lake-toba",
@@ -14294,7 +15934,33 @@
       ],
       "blurb": "A lake a hundred kilometres long and half a kilometre deep in the highlands of Sumatra, with an island the size of Singapore floating in the middle of it. It is the largest volcanic lake in the world, and it is a lake at all because the volcano that made it erupted with more force than anything else in the last two million years and then collapsed into its own hole.",
       "fun_fact": "The Toba eruption about 74,000 years ago threw out roughly 2,800 cubic kilometres of material and left ash six metres deep in parts of India. One long-argued hypothesis holds that it cut the human population to a few thousand breeding pairs — the genetic bottleneck we all supposedly came through.",
-      "hidden_gem_tip": "Samosir island is Batak country, and the villages on its east side — Ambarita, Tomok — still have stone council chairs and the boat-prowed houses with saddle roofs that the Batak have built for centuries. Hire a motorbike, go anticlockwise, and swim off the north shore where the water is warm."
+      "hidden_gem_tip": "Samosir island is Batak country, and the villages on its east side — Ambarita, Tomok — still have stone council chairs and the boat-prowed houses with saddle roofs that the Batak have built for centuries. Hire a motorbike, go anticlockwise, and swim off the north shore where the water is warm.",
+      "monuments": [
+        {
+          "name": "Samosir",
+          "yt": "qLkxGEiqFZ4",
+          "start": 0,
+          "source": "auto",
+          "title": "Exploring the Hidden Paradise of Samosir Island",
+          "height": 2160
+        },
+        {
+          "name": "Parapat",
+          "yt": "B6OrCsaLMFE",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking Tour Toba Lake - Jogging Di Danau Toba Parapat #walkingtour  #jogging  #tobalake",
+          "height": 2160
+        },
+        {
+          "name": "Berastagi",
+          "yt": "jNPyt7piWLg",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] Scenic Drive Berastagi karo | Medan North Sumatera Indonesia",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "tana-toraja",
@@ -14338,7 +16004,25 @@
       ],
       "blurb": "Highland Sulawesi, reached by a long road up from Makassar, where the Toraja live in tongkonan — ancestral houses with roofs that sweep up at both ends like the prow of a ship, carved and painted in red, black and yellow, and owned by a whole extended family rather than a person. Rice terraces, limestone cliffs, and a culture organised around death more thoroughly than almost any other on earth.",
       "fun_fact": "A Torajan funeral can take place years after the death, because the family has to save for it; until then the deceased is spoken of as sick, kept in the house, and brought food. The ceremony itself runs for days and involves buffalo sacrifice on a scale that can cost more than a house, and the dead are then laid in coffins cut into cliff faces, watched over by carved wooden effigies called tau tau.",
-      "hidden_gem_tip": "Funerals are public and visitors are genuinely welcomed, but go with someone local, bring a gift — cigarettes or sugar, by convention — and remember whose grief you are standing in. Between ceremonies, walk from Batutumonga along the ridge for the whole valley at once."
+      "hidden_gem_tip": "Funerals are public and visitors are genuinely welcomed, but go with someone local, bring a gift — cigarettes or sugar, by convention — and remember whose grief you are standing in. Between ceremonies, walk from Batutumonga along the ridge for the whole valley at once.",
+      "monuments": [
+        {
+          "name": "Rantepao",
+          "yt": "4YqrbnYit88",
+          "start": 0,
+          "source": "auto",
+          "title": "WALKING TOUR VIRTUAL : BARU PLAZA RANTEPAO TORAJA UTARA, SULAWESI SELATAN INDONESIA",
+          "height": 2160
+        },
+        {
+          "name": "Makale",
+          "yt": "PnIqOUi8DP8",
+          "start": 0,
+          "source": "auto",
+          "title": "Melihat Keindahan Kota Makale dari Udara | Tana Toraja",
+          "height": 1440
+        }
+      ]
     },
     {
       "id": "wae-rebo",
@@ -14382,7 +16066,25 @@
       ],
       "blurb": "Seven conical houses in a bowl of mountain 1,100 metres up in western Flores, with cloud forest all round and no road in. The mbaru niang are five storeys of bamboo and palm thatch on a circular frame, each floor with its own purpose, from the living space at the bottom to the offerings for the ancestors at the top — and each one is home to several families at once.",
       "fun_fact": "The village won a UNESCO Asia-Pacific award for heritage conservation in 2012, for rebuilding the houses using the original technique rather than concrete. There have always been exactly seven, and the rule is that there will never be an eighth.",
-      "hidden_gem_tip": "You walk in: about three hours uphill from Denge, through forest, and you must stop at the drum house on arrival so the elder can present you to the ancestors before you do anything else. Stay the night. The morning fog in that bowl is the reason to have come."
+      "hidden_gem_tip": "You walk in: about three hours uphill from Denge, through forest, and you must stop at the drum house on arrival so the elder can present you to the ancestors before you do anything else. Stay the night. The morning fog in that bowl is the reason to have come.",
+      "monuments": [
+        {
+          "name": "Ruteng",
+          "yt": "XEHkoBlglZI",
+          "start": 0,
+          "source": "auto",
+          "title": "Hidden in the Unknown - Ruteng & Wae Rebo (#10) (PL Subs) (4K)",
+          "height": 2160
+        },
+        {
+          "name": "Labuan Bajo",
+          "yt": "6dHp8ZO-W8I",
+          "start": 0,
+          "source": "auto",
+          "title": "LABUAN BAJO [Komodo] // INDONESIA 🇮🇩 // 4K Walking Tour",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "banda-islands",
@@ -14426,7 +16128,33 @@
       ],
       "blurb": "Ten small volcanic islands in the Banda Sea, a very long way from anywhere, which for two centuries were the only place on earth where nutmeg grew. Europe went to war over them. What is left is a sleepy harbour town of Dutch mansions with a perfect volcanic cone across the water, coral walls dropping off the shoreline, and nutmeg trees still growing in everyone's garden.",
       "fun_fact": "In 1667 the Dutch traded Manhattan to the English for Run, one of these islands, to complete their nutmeg monopoly. At the time it looked like a shrewd deal. The monopoly was broken anyway when the French smuggled seedlings out in 1770.",
-      "hidden_gem_tip": "Fort Belgica, the star fort above Banda Neira, is open and empty and you can walk its walls. Then swim off the lava flow on Banda Api from the 1988 eruption — the coral recolonised it fast enough that biologists came to study it, and the drop-off starts about four metres from the rocks."
+      "hidden_gem_tip": "Fort Belgica, the star fort above Banda Neira, is open and empty and you can walk its walls. Then swim off the lava flow on Banda Api from the 1988 eruption — the coral recolonised it fast enough that biologists came to study it, and the drop-off starts about four metres from the rocks.",
+      "monuments": [
+        {
+          "name": "Banda Neira",
+          "yt": "CWsIi7HxKC8",
+          "start": 0,
+          "source": "auto",
+          "title": "Banda Neira 4K HDR",
+          "height": 2160
+        },
+        {
+          "name": "Fort Belgica",
+          "yt": "XOSVBDdJejA",
+          "start": 0,
+          "source": "auto",
+          "title": "Bandaniera Island - Indonesia - Fort Belgica",
+          "height": 2160
+        },
+        {
+          "name": "Banda Api",
+          "yt": "vyMQ8dV4XFs",
+          "start": 0,
+          "source": "auto",
+          "title": "Snorkeling Banda Islands. Ambon, BandaNaira, Hatta, Ai, Run, Api and Besar . Indonesia. October 2016",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "bunaken",
@@ -14466,7 +16194,25 @@
       ],
       "blurb": "A small island off Manado at the far northern tip of Sulawesi, and one of the great wall dives of the world: the reef runs out from the beach for a few dozen metres and then simply stops, dropping vertically for several hundred. You swim along the face of it with nothing below you, past turtles that ignore you completely.",
       "fun_fact": "The national park protects about 890 square kilometres, of which only a fraction is reef; over 70 genera of coral have been recorded here, against roughly 10 in the whole of the Caribbean.",
-      "hidden_gem_tip": "Everything about this coast is worth a second trip — an hour and a half away at Lembeh Strait the bottom is black volcanic sand with almost no coral, and it is one of the best places on earth to find the strange small things: mimic octopus, hairy frogfish, blue-ringed octopus, all in six metres of water."
+      "hidden_gem_tip": "Everything about this coast is worth a second trip — an hour and a half away at Lembeh Strait the bottom is black volcanic sand with almost no coral, and it is one of the best places on earth to find the strange small things: mimic octopus, hairy frogfish, blue-ringed octopus, all in six metres of water.",
+      "monuments": [
+        {
+          "name": "Manado",
+          "yt": "dnyBZ_tDH14",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] Bunaken National Marine Park ~ Taman Laut Bunaken || Manado",
+          "height": 2160
+        },
+        {
+          "name": "Bunaken National Park",
+          "yt": "AbGCRVRLP70",
+          "start": 0,
+          "source": "auto",
+          "title": "360° Dive in Bunaken National Park – Timur (4K Underwater Video)",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "bandung",
@@ -14514,7 +16260,33 @@
       ],
       "blurb": "Java's third city, 768 metres up in a volcanic basin, which made it cool enough that the Dutch planned to move the colonial capital here and got as far as building the government offices before the war stopped them. The Art Deco they left behind is the largest collection of it in the tropics, and the surrounding hills are tea, strawberries and craters.",
       "fun_fact": "In April 1955 Bandung hosted the first large-scale meeting of Asian and African states — 29 countries, most of them newly independent, at the Gedung Merdeka on Jalan Asia-Afrika. The Non-Aligned Movement grew directly out of it.",
-      "hidden_gem_tip": "Kawah Putih, an hour and a half south, is a crater lake that is milky white-green from dissolved sulphur, sitting in dead white forest at 2,400 metres. It looks like a film set and it smells like a struck match. Go early, before the cloud closes in."
+      "hidden_gem_tip": "Kawah Putih, an hour and a half south, is a crater lake that is milky white-green from dissolved sulphur, sitting in dead white forest at 2,400 metres. It looks like a film set and it smells like a struck match. Go early, before the cloud closes in.",
+      "monuments": [
+        {
+          "name": "Gedung Sate",
+          "yt": "gVb3OgSq1Nc",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] Walking Around - Berjalan Disekitar Gedung Sate Ikon Kota Bandung",
+          "height": 2160
+        },
+        {
+          "name": "Tangkuban Perahu",
+          "yt": "mAwBETMKhEc",
+          "start": 0,
+          "source": "auto",
+          "title": "GUNUNG TANGKUBAN PERAHU TERBARU 2024‼️WISATA LEMBANG BANDUNG PALING POPULER DAN WAJIB DIKUNJUNGI‼️",
+          "height": 2160
+        },
+        {
+          "name": "Kawah Putih",
+          "yt": "FguOqQeCjYI",
+          "start": 0,
+          "source": "auto",
+          "title": "Berasa Masuk ke Alam Lain | Kawah Putih Ciwidey Bandung | 4K Video",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "gili-islands",
@@ -14554,7 +16326,25 @@
       ],
       "blurb": "Three flat coral islands off the northwest corner of Lombok, none more than a few kilometres round, with no cars and no motorbikes on any of them — you walk, cycle, or take a pony cart. Trawangan is the loud one, Air the middle one, Meno the one where nothing happens at all, and all three sit in the same clear water full of green turtles.",
       "fun_fact": "The ban on motor vehicles is a local by-law, not a national park rule, and it has held since the islands were first opened to visitors in the 1980s. The only engine noise is the boats.",
-      "hidden_gem_tip": "Walk right round Meno in about an hour and a half, mostly on sand. On the west side, snorkel out to the underwater sculptures — a ring of figures set on the seabed in five metres of water — and then keep going: the turtles feed on the seagrass just past them."
+      "hidden_gem_tip": "Walk right round Meno in about an hour and a half, mostly on sand. On the west side, snorkel out to the underwater sculptures — a ring of figures set on the seabed in five metres of water — and then keep going: the turtles feed on the seagrass just past them.",
+      "monuments": [
+        {
+          "name": "Lombok",
+          "yt": "BdFMnovZegs",
+          "start": 0,
+          "source": "auto",
+          "title": "Exploring Lombok & The Gili Islands // Better than Bali?",
+          "height": 2160
+        },
+        {
+          "name": "Mount Rinjani",
+          "yt": "xC3g6buekE0",
+          "start": 0,
+          "source": "auto",
+          "title": "Discover Indonesia: The Beauty of Lombok Island | Gili, Rinjani & Pink Beach",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "sumba",
@@ -14598,7 +16388,33 @@
       ],
       "blurb": "A dry, hilly island south of Flores with almost nothing of the rest of Indonesia about it: villages of high thatched towers built around megalithic stone tombs, an animist religion called Marapu still practised alongside Christianity, and horses everywhere. The south coast has empty beaches with proper surf and almost no one on them.",
       "fun_fact": "At the Pasola, held in a few western villages each February or March, two lines of horsemen charge each other and throw blunted wooden spears. Blood spilled on the ground is understood to feed the coming rice harvest, which is the entire point of it.",
-      "hidden_gem_tip": "Sumba's ikat is woven and dyed by hand over months, sometimes years, in natural indigo and morinda root, and the old pieces were grave goods. Buy in the villages around Waingapu rather than in a shop, and expect to be shown the loom."
+      "hidden_gem_tip": "Sumba's ikat is woven and dyed by hand over months, sometimes years, in natural indigo and morinda root, and the old pieces were grave goods. Buy in the villages around Waingapu rather than in a shop, and expect to be shown the loom.",
+      "monuments": [
+        {
+          "name": "Waingapu",
+          "yt": "4qaMXaBXBy8",
+          "start": 0,
+          "source": "auto",
+          "title": "JALAN JALAN KELILING KOTA WAINGAPU SUMBA TIMUR 11/6/2023",
+          "height": 1080
+        },
+        {
+          "name": "Waikabubak",
+          "yt": "lOpthSO543M",
+          "start": 0,
+          "source": "auto",
+          "title": "\"Suasana Kota Waikabubak Dipagi Hari\" | drone #SJRC F11 pro 4k sinematick | sumba barat.",
+          "height": 1440
+        },
+        {
+          "name": "Tambolaka",
+          "yt": "UXwVxTHRioQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Road from Tambolaka to Waingapu - Sumba Island",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "surabaya",
@@ -14646,7 +16462,33 @@
       ],
       "blurb": "Indonesia's second city and its biggest port, hot and flat and almost entirely unvisited, which is a fair description of most working cities. It matters here because of what happened in November 1945: an outnumbered, barely armed independence militia fought a British division for three weeks in these streets, lost, and in losing convinced the world the republic was real.",
       "fun_fact": "The 10th of November is Indonesia's Heroes Day, and it is Surabaya's. The battle is why the city calls itself Kota Pahlawan, the city of heroes, and why the monument in the middle of it is a 41-metre fluted spike and nothing else.",
-      "hidden_gem_tip": "The House of Sampoerna is a 1913 Dutch building that is still a working clove-cigarette factory, and the free tour lets you watch the hand-rolling floor from a balcony: several hundred women, rolling at a rate that is genuinely hard to follow. Then cross the Suramadu bridge to Madura, which is another world at 5.4 kilometres' distance."
+      "hidden_gem_tip": "The House of Sampoerna is a 1913 Dutch building that is still a working clove-cigarette factory, and the free tour lets you watch the hand-rolling floor from a balcony: several hundred women, rolling at a rate that is genuinely hard to follow. Then cross the Suramadu bridge to Madura, which is another world at 5.4 kilometres' distance.",
+      "monuments": [
+        {
+          "name": "Heroes Monument",
+          "yt": "liDC71tlxCM",
+          "start": 0,
+          "source": "auto",
+          "title": "WALKING TOUR AT UNKNOWN HEROES MONUMENT BUKITTINGGI 🇮🇩 | NIGHT ATMOSPHERE 4K",
+          "height": 2160
+        },
+        {
+          "name": "House of Sampoerna",
+          "yt": "kOAtLikufLQ",
+          "start": 0,
+          "source": "auto",
+          "title": "House of Sampoerna Surabaya",
+          "height": 1280
+        },
+        {
+          "name": "Suramadu Bridge",
+          "yt": "vMTrtYKLAig",
+          "start": 0,
+          "source": "auto",
+          "title": "Suramadu Bridge: Crossing Indonesia’s Longest Sea Bridge 4K Virtual Drive",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "belitung",
@@ -14686,7 +16528,25 @@
       ],
       "blurb": "A tin island in the Java Sea whose beaches are strewn with granite boulders the size of houses, piled on white sand in clear shallow water — a landscape that exists nowhere else in Indonesia and looks arranged. Inland it is pepper, abandoned tin pits gone turquoise, and coffee shops.",
       "fun_fact": "Indonesians know Belitung from Laskar Pelangi — The Rainbow Troops — a 2005 novel about a village school here that became the best-selling Indonesian book ever written and then a film. The island's tourism essentially started the week the film came out.",
-      "hidden_gem_tip": "Manggar on the east coast calls itself the town of a thousand coffee shops and is not exaggerating by much; the local habit is to sit down and be brought coffee without ordering. Then take a boat to Lengkuas island for the 1882 Dutch lighthouse — 18 storeys, and they let you climb it."
+      "hidden_gem_tip": "Manggar on the east coast calls itself the town of a thousand coffee shops and is not exaggerating by much; the local habit is to sit down and be brought coffee without ordering. Then take a boat to Lengkuas island for the 1882 Dutch lighthouse — 18 storeys, and they let you climb it.",
+      "monuments": [
+        {
+          "name": "Tanjungpandan",
+          "yt": "SKv1JZ4iQZ0",
+          "start": 0,
+          "source": "auto",
+          "title": "2 days before Eid. Traditional market Tanjungpandan 4K HDR",
+          "height": 2160
+        },
+        {
+          "name": "Manggar",
+          "yt": "LQP20JnM00k",
+          "start": 0,
+          "source": "auto",
+          "title": "#Momoinfo: Wisata Belitung Timur❗Kota Manggar Awal Cerita Laskar Pelangi dgn Ikon SD Muhammadiyah",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "bagan",
@@ -14738,7 +16598,33 @@
       ],
       "blurb": "A plain on a bend of the Irrawaddy holding more than 2,000 surviving Buddhist temples and stupas, built between the 11th and 13th centuries when Bagan was the capital of the first kingdom to unite what is now Myanmar. Over 10,000 were put up in 250 years. Then the Mongols came, the court moved, and the brick was left to the plain.",
       "fun_fact": "A 1975 earthquake damaged hundreds of the temples, and the restoration that followed was so free with modern brick and invented spires that UNESCO refused the site for decades. It was finally inscribed in 2019, after a second earthquake in 2016 forced a more careful approach.",
-      "hidden_gem_tip": "Climbing the temples has been banned since 2018 — they are religious buildings and people were falling off them. The purpose-built viewing mounds work, but the better plan is a bicycle and the dirt tracks east of Old Bagan at four in the afternoon, where you will have a 12th-century temple entirely to yourself."
+      "hidden_gem_tip": "Climbing the temples has been banned since 2018 — they are religious buildings and people were falling off them. The purpose-built viewing mounds work, but the better plan is a bicycle and the dirt tracks east of Old Bagan at four in the afternoon, where you will have a 12th-century temple entirely to yourself.",
+      "monuments": [
+        {
+          "name": "Ananda Temple",
+          "yt": "_vb9iicB5rw",
+          "start": 0,
+          "source": "auto",
+          "title": "Ananda Temple အာနန္ဒာ ဘုရာ - The Westminster Abbey of Burma - Began Myanmar 2023",
+          "height": 2160
+        },
+        {
+          "name": "Dhammayangyi",
+          "yt": "1CtMa8Qck_w",
+          "start": 0,
+          "source": "auto",
+          "title": "Dhammayangyi Temple (Night)",
+          "height": 2160
+        },
+        {
+          "name": "Shwezigon Pagoda",
+          "yt": "W37yIgMOEXc",
+          "start": 0,
+          "source": "auto",
+          "title": "Shwezigon Pagoda in Bagan, Myanmar",
+          "height": 1440
+        }
+      ]
     },
     {
       "id": "yangon",
@@ -14786,7 +16672,33 @@
       ],
       "blurb": "Myanmar's largest city and its former capital, laid out by the British on a grid between two rivers and then largely left alone for fifty years — which is why downtown Yangon has the largest surviving collection of colonial-era buildings in Southeast Asia, most of them mouldering, several of them magnificent. Above all of it, on a hill, sits the Shwedagon.",
       "fun_fact": "The Shwedagon is plated in real gold — sheets of it, donated by the public and refixed every few years — and the tip of the stupa carries thousands of diamonds and rubies, with a 76-carat diamond at the very top. The tradition holds it is 2,600 years old, which would make it the oldest Buddhist stupa anywhere; archaeologists put the present structure between the 6th and 10th centuries.",
-      "hidden_gem_tip": "Go to the Shwedagon an hour before sunset and stay past dark, when the marble underfoot cools and the families arrive. Find the planetary post for the weekday you were born on — every Burmese Buddhist knows theirs — and pour water over the Buddha there, one cup for each year of your age."
+      "hidden_gem_tip": "Go to the Shwedagon an hour before sunset and stay past dark, when the marble underfoot cools and the families arrive. Find the planetary post for the weekday you were born on — every Burmese Buddhist knows theirs — and pour water over the Buddha there, one cup for each year of your age.",
+      "monuments": [
+        {
+          "name": "Shwedagon Pagoda",
+          "yt": "i-REyEfj3UE",
+          "start": 0,
+          "source": "auto",
+          "title": "Shwedagon Pagoda Yangon Myanmar 4K",
+          "height": 2160
+        },
+        {
+          "name": "Sule Pagoda",
+          "yt": "j7Ro_s7-cjg",
+          "start": 0,
+          "source": "auto",
+          "title": "🇲🇲4K Landmark 2000+ Year old Shrine in Downtown Yangon | Sule Pagoda | 蘇雷塔 ｜ ဆူးလေစေတီ",
+          "height": 2160
+        },
+        {
+          "name": "Bogyoke Aung San Market",
+          "yt": "FPGdWlR9Pzo",
+          "start": 0,
+          "source": "auto",
+          "title": "YANGON 4K Walking Tour - Downtown Yangon, Chinatown, Bogyoke Aung San Market Feb. 2026",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "inle-lake",
@@ -14830,7 +16742,33 @@
       ],
       "blurb": "A shallow lake 880 metres up in the Shan hills, twenty kilometres long, with villages of stilt houses standing in it, monasteries reached only by boat, and floating gardens of tomatoes growing on rafts of matted weed anchored to the bottom with bamboo poles. The Intha who live here have farmed the surface of the water for centuries.",
       "fun_fact": "Inle fishermen row standing on one leg with the oar wrapped around the other, which leaves both hands free for the conical net and lets them see over the reeds at the same time. It is done nowhere else, and it is not a show — although a few men at the north end will now pose for one.",
-      "hidden_gem_tip": "Take a boat to Indein at the southwestern edge, walk up the covered stairway, and come out among several hundred stupas from the 17th and 18th centuries standing in long grass with trees growing out of them. Hardly anyone on the lake tour goes further than the jetty."
+      "hidden_gem_tip": "Take a boat to Indein at the southwestern edge, walk up the covered stairway, and come out among several hundred stupas from the 17th and 18th centuries standing in long grass with trees growing out of them. Hardly anyone on the lake tour goes further than the jetty.",
+      "monuments": [
+        {
+          "name": "Nyaungshwe",
+          "yt": "Wtuk3nnv6ow",
+          "start": 0,
+          "source": "auto",
+          "title": "NYAUNGSHWE 4K Walking Tour - A Walk through a Peaceful Lakeside Village Feb. 2026",
+          "height": 2160
+        },
+        {
+          "name": "Phaung Daw U Pagoda",
+          "yt": "33cbxpbjjBk",
+          "start": 0,
+          "source": "auto",
+          "title": "Phaung Daw Oo pagoda  และ 5 Day Market",
+          "height": 720
+        },
+        {
+          "name": "Taunggyi",
+          "yt": "pxbALXixU0Q",
+          "start": 0,
+          "source": "auto",
+          "title": "DAY 3 OF TAUNGGYI-INNLAY-YWERNGN TRIP",
+          "height": 1440
+        }
+      ]
     },
     {
       "id": "mandalay",
@@ -14882,7 +16820,33 @@
       ],
       "blurb": "The last royal capital of Burma, founded in 1857 because a prophecy said a great city should be built at the foot of this hill on the 2,400th anniversary of the Buddha, and taken by the British 28 years later. The palace inside its square moat was burned out in 1945 and rebuilt as a replica; the moat and the walls are the real thing, and the hill behind them is still climbed barefoot.",
       "fun_fact": "The Kuthodaw Pagoda is often called the world's largest book: 729 marble slabs, each in its own small white stupa, carrying the entire Pali canon of Theravada Buddhism. Reading it at eight hours a day would take you about 450 days.",
-      "hidden_gem_tip": "U Bein, at Amarapura just south, is a 1.2-kilometre teak footbridge across a shallow lake, built around 1850 from timbers salvaged from the abandoned palace at Ava. Walk it at dawn with the monks rather than at sunset with the boats."
+      "hidden_gem_tip": "U Bein, at Amarapura just south, is a 1.2-kilometre teak footbridge across a shallow lake, built around 1850 from timbers salvaged from the abandoned palace at Ava. Walk it at dawn with the monks rather than at sunset with the boats.",
+      "monuments": [
+        {
+          "name": "Mandalay Hill",
+          "yt": "pYksN0OuPSI",
+          "start": 0,
+          "source": "auto",
+          "title": "Mandalay Hill, Myanmar | Spending The Day At Mandalay Hill, Mandalay, Myanmar",
+          "height": 1080
+        },
+        {
+          "name": "Mandalay Palace",
+          "yt": "9Hrg4xNaa6I",
+          "start": 0,
+          "source": "auto",
+          "title": "Burma Mandalay Palace HD",
+          "height": 1080
+        },
+        {
+          "name": "U Bein Bridge",
+          "yt": "r8OgvBbigCk",
+          "start": 0,
+          "source": "auto",
+          "title": "U-Bein Bridge and Taung Min Gyi Pagoda - Longest Teak Wood Bridge in the World - Amarapura Myanmar",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "kyaiktiyo-pagoda",
@@ -14922,7 +16886,25 @@
       ],
       "blurb": "A granite boulder covered in gold leaf, with a small stupa on top of it, balanced on the very lip of a cliff 1,100 metres up Mount Kyaiktiyo — visibly overhanging, apparently about to go, and not going. It is one of the three great pilgrimage sites of Burmese Buddhism, and pilgrims climb through the night to reach it for dawn.",
       "fun_fact": "The rock is said to be held in place by a single hair of the Buddha, enshrined in the stupa above it. Only men are permitted to cross the bridge and touch the rock or apply gold leaf; women make their offerings from the platform.",
-      "hidden_gem_tip": "The open lorries that take pilgrims up from Kinpun are packed to the rails and the road is a series of hairpins — it is half the experience. Stay the night at the top: the crowd thins after dark, the rock is floodlit, and families sleep on mats on the terrace with the lights of the plain below."
+      "hidden_gem_tip": "The open lorries that take pilgrims up from Kinpun are packed to the rails and the road is a series of hairpins — it is half the experience. Stay the night at the top: the crowd thins after dark, the rock is floodlit, and families sleep on mats on the terrace with the lights of the plain below.",
+      "monuments": [
+        {
+          "name": "Kyaiktiyo Pagoda",
+          "yt": "RcQbq8vnWac",
+          "start": 0,
+          "source": "auto",
+          "title": "Morning Walk around Kyaiktiyo Pagoda, Golden Rock, Mon State, Myanmar",
+          "height": 2160
+        },
+        {
+          "name": "Kyaikto",
+          "yt": "cdHfQ1bR0xE",
+          "start": 0,
+          "source": "auto",
+          "title": "The Golden Rock in Myanmar | Kyaiktiyo Pagoda | Train from Yangon to Kyaikto | Cable Car |  緬甸大金石",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "hpa-an",
@@ -14962,7 +16944,17 @@
       ],
       "blurb": "A quiet river town in Kayin State surrounded by limestone karst that comes out of the rice paddy in isolated towers, most of them hollow. The caves inside are full of Buddhas — thousands of small ones set into the walls, some of the reliefs going back to the 7th century — and Mount Zwegabin stands over the whole valley at 722 metres with a monastery on the summit.",
       "fun_fact": "At Sadan Cave you walk right through the hill, come out into a hidden lake on the far side, and are rowed back around the outside in a wooden boat. At dusk, at Bat Cave nearby, several million bats pour out of the rock in a continuous ribbon for the best part of an hour.",
-      "hidden_gem_tip": "Climb Zwegabin in the afternoon — about two hours of steps — and sleep at the monastery on top, which asks nothing but expects you to eat what the monks eat. Sunrise over a plain of karst towers standing out of the mist is the reason to be there."
+      "hidden_gem_tip": "Climb Zwegabin in the afternoon — about two hours of steps — and sleep at the monastery on top, which asks nothing but expects you to eat what the monks eat. Sunrise over a plain of karst towers standing out of the mist is the reason to be there.",
+      "monuments": [
+        {
+          "name": "Mount Zwegabin",
+          "yt": "En8FXRPfRUg",
+          "start": 0,
+          "source": "auto",
+          "title": "Hpa An ,M.t ZWEGABIN , Myanmar",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "mrauk-u",
@@ -15006,7 +16998,25 @@
       ],
       "blurb": "The capital of the Arakan kingdom from 1430 to 1785, in the hills of western Myanmar, and nothing like Bagan: these temples are squat fortresses of dark stone with slit windows and thick walls, built to be defended as much as prayed in. Villages, rice fields and grazing cattle sit among them, because people never left.",
       "fun_fact": "Mrauk U traded with the Portuguese, Dutch and Mughals and was rich enough that a 17th-century Dutch visitor compared it to Amsterdam. The Shite-thaung — the Temple of 80,000 Images — holds a spiral inner corridor lined the whole way with carved figures.",
-      "hidden_gem_tip": "Rakhine State has seen serious conflict and access has been restricted for years at a time; check the current situation carefully before planning anything. When it is open, the way in is the river boat from Sittwe — six or seven hours up the Kaladan, and worth the day on its own."
+      "hidden_gem_tip": "Rakhine State has seen serious conflict and access has been restricted for years at a time; check the current situation carefully before planning anything. When it is open, the way in is the river boat from Sittwe — six or seven hours up the Kaladan, and worth the day on its own.",
+      "monuments": [
+        {
+          "name": "Shite-thaung Temple",
+          "yt": "zSkf3X7wqIs",
+          "start": 0,
+          "source": "auto",
+          "title": "Shite-thaung temple (သျှစ်သောင်းဘုရား)/in Mrauk U",
+          "height": 1080
+        },
+        {
+          "name": "Sittwe",
+          "yt": "ykWVFbjpJHI",
+          "start": 0,
+          "source": "auto",
+          "title": "Sittwe 4K , Rakhine , Myanmar.",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "ngapali",
@@ -15046,7 +17056,17 @@
       ],
       "blurb": "Seven kilometres of palm-backed white sand on the Bay of Bengal, with fishing villages at both ends and, unusually for a beach with this reputation, almost no development taller than a coconut tree. The catch comes in at dawn and is laid out to dry on the sand a few hundred metres from the hotels.",
       "fun_fact": "The name is popularly said to come from a homesick Italian who thought it looked like Naples. There is no evidence for it whatsoever, and everyone repeats it anyway.",
-      "hidden_gem_tip": "Cycle south to Lone Tha village in the late afternoon and watch the boats being pulled up. The seafood shacks on that stretch grill whatever came in an hour earlier, at a fraction of what the hotel will charge for the same fish."
+      "hidden_gem_tip": "Cycle south to Lone Tha village in the late afternoon and watch the boats being pulled up. The seafood shacks on that stretch grill whatever came in an hour earlier, at a fraction of what the hotel will charge for the same fish.",
+      "monuments": [
+        {
+          "name": "Thandwe",
+          "yt": "APDWQyMG43s",
+          "start": 0,
+          "source": "auto",
+          "title": "🇲🇲 Myanmar, Ngapali Beach, Thandwe City. The Ultimate Travel Guide",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "bandar-seri-begawan",
@@ -15094,7 +17114,33 @@
       ],
       "blurb": "The capital of an oil sultanate on the north coast of Borneo: a small, spotless, alcohol-free city of about 100,000, with two enormous mosques, a museum of coronation regalia, and — out on the river in front of it — a water village of some 13,000 people that has been there for over a thousand years.",
       "fun_fact": "Kampong Ayer is the largest water village in the world, a settlement built entirely on stilts and linked by wooden walkways, with its own mosques, schools, clinics and fire station. Antonio Pigafetta, sailing with Magellan, described it in 1521 as a city of 25,000 households built in salt water.",
-      "hidden_gem_tip": "Take a water taxi across for a dollar or two — they run constantly, they have no timetable, and you flag one down like a cab. Then ask to be taken out to the Sultan's palace and the proboscis monkeys in the mangroves; the same boatman will usually do it for the price of a coffee."
+      "hidden_gem_tip": "Take a water taxi across for a dollar or two — they run constantly, they have no timetable, and you flag one down like a cab. Then ask to be taken out to the Sultan's palace and the proboscis monkeys in the mangroves; the same boatman will usually do it for the price of a coffee.",
+      "monuments": [
+        {
+          "name": "Omar Ali Saifuddien Mosque",
+          "yt": "M9hkw-6MjJI",
+          "start": 0,
+          "source": "auto",
+          "title": "OMAR 'ALI SAIFUDDIEN MOSQUE, Bandar Seri Begawan ( Cinematic Tour ) : The Golden Jewel of Brunei.",
+          "height": 2160
+        },
+        {
+          "name": "Kampong Ayer",
+          "yt": "wgqEaCBOej0",
+          "start": 0,
+          "source": "auto",
+          "title": "🇧🇳 4K Brunei Walking Tour 2023 - Kampong Ayer, Bandar Seri Begawan",
+          "height": 2160
+        },
+        {
+          "name": "Jame' Asr Hassanil Bolkiah Mosque",
+          "yt": "hOm0rltauQs",
+          "start": 0,
+          "source": "auto",
+          "title": "🥽 VR Tour | Jame'Asr Hassanil Bolkiah Mosque | Bandar Seri Begawan, Brunei 🇧🇳【VR Travel | 360 Video】",
+          "height": 2048
+        }
+      ]
     },
     {
       "id": "ulu-temburong",
@@ -15138,7 +17184,17 @@
       ],
       "blurb": "Fifty square kilometres of primary rainforest in Brunei's cut-off eastern district, protected as a park and largely closed to everyone but researchers and a controlled trickle of visitors — which is why it is intact. Brunei's oil money meant it never had to log its forests, and around 70 per cent of the country is still under canopy.",
       "fun_fact": "The way in was a longboat up the Temburong river until 2020, when the Sultan Haji Omar Ali Saifuddien Bridge opened — 30 kilometres of it, most of it on piles over mangrove and sea, connecting Temburong to the rest of Brunei for the first time by road.",
-      "hidden_gem_tip": "The canopy walkway is an aluminium tower system climbing to about 60 metres, above the tops of most of the trees. Be on it at first light: that is when the gibbons start, and the sound carries for kilometres over unbroken forest."
+      "hidden_gem_tip": "The canopy walkway is an aluminium tower system climbing to about 60 metres, above the tops of most of the trees. Be on it at first light: that is when the gibbons start, and the sound carries for kilometres over unbroken forest.",
+      "monuments": [
+        {
+          "name": "Sultan Haji Omar Ali Saifuddien Bridge",
+          "yt": "Cou7ztZFW18",
+          "start": 0,
+          "source": "auto",
+          "title": "Sultan Haji Omar Ali Saifuddien Bridge|Temburong-Bandar|SHARIMAE VLOGS",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "dili",
@@ -15186,7 +17242,17 @@
       ],
       "blurb": "The capital of the youngest country in Southeast Asia, on a strip of coast between mountains and the Wetar Strait, with Portuguese churches, Indonesian-era concrete, and a seafront road you can drive the length of in fifteen minutes. Timor-Leste voted for independence in 1999 and became a state in 2002, after 24 years of occupation and four centuries of Portugal before that.",
       "fun_fact": "Portuguese and Tetum are the official languages, Indonesian and English are working languages, and there are around fifteen more indigenous languages in a country of 1.4 million people. It is one of only two majority-Catholic countries in Asia.",
-      "hidden_gem_tip": "Climb the 590 steps to the Cristo Rei at the eastern headland early, then walk down the far side to Areia Branca. The Resistance Museum in town is small, hard, and the thing that will actually explain the country to you."
+      "hidden_gem_tip": "Climb the 590 steps to the Cristo Rei at the eastern headland early, then walk down the far side to Areia Branca. The Resistance Museum in town is small, hard, and the thing that will actually explain the country to you.",
+      "monuments": [
+        {
+          "name": "Cristo Rei of Dili",
+          "yt": "xYNp2agDOBE",
+          "start": 0,
+          "source": "auto",
+          "title": "Walk to Cristo Rei at Dili City, Timor Leste - 4 K Video",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "atauro",

@@ -652,6 +652,34 @@ preserves auto ones after them (cap 5), so the two tools compose instead of
 clobbering each other. Promote a good auto pick by moving it into that file's
 `MAP` with a real `start`.
 
+**Auditing a batch (2026-08).** The Southeast Asia and Texas / Blues Highway
+places arrived carrying `highlights` and no tabs, so one sweep over 119 of them
+added 278 — the atlas now holds 964. Three checks ran before they landed, none of
+which the offline pruner can answer: is one video standing in for two landmarks
+(0), does a stored `title` name some *other* place we cover (0), and — the useful
+one — how far is the landmark from the place it hangs on? Every slug resolves to
+a Wikidata **P625** point, so that distance is measurable rather than argued
+about.
+
+Thirteen tabs sat more than 75 km out, and twelve were right anyway: the P625 of
+a river or a range is one arbitrary point along it (the Natchez Trace Parkway is
+715 km long), Misool and Salawati are islands *inside* Raja Ampat, and Pie Town
+really does host a VLBA antenna. The thirteenth was **8,204 km** out.
+`Paradise_Cave` is Jaskinia Raj, in Poland; the Vietnamese one is
+`Thiên_Đường_Cave`. The video was right — *"Visiting Paradise Cave, Phong Nha,
+Vietnam"* — and only the chip's link was wrong, which is precisely the failure a
+title rule cannot see and a distance check cannot miss. It is the River Kwai
+lesson (below) in a second form, and it will keep recurring: a landmark name is
+not a unique key, and only coordinates ever say so.
+
+The same pass re-checked every new slug for a missing article *and* for a
+redirect, because a redirect slug returns no `pageimages` thumbnail and the
+arrival card degrades to its emoji without complaining (see `arrivalPhoto()`
+below). All 278 were clean; two older Route 66 chips were not.
+`Gathering_Place_(park)` is a dead title — the article is
+`Gathering_Place_(Tulsa_park)` — and Stockyards City has no article under any
+spelling, so it joins the 195 highlights that carry a real name and no link.
+
 ### Trips ★
 
 ```bash

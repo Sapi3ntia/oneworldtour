@@ -74,7 +74,17 @@
       ],
       "blurb": "One 18-metre dish stands on the Plains of San Agustin beside the twenty-seven that made the place famous, and it is a rehearsal. The next generation Very Large Array is the proposal behind it: 244 antennas strung from New Mexico across west Texas, eastern Arizona and northern Mexico, with outlying clusters as far as Hawaii, Puerto Rico, the US Virgin Islands and Canada — ten times the collecting area of the VLA and ten times its resolution, listening for the moment planets begin to form.",
       "fun_fact": "The prototype took first light on 18 May 2026, observing on its own and then in step with the VLA next door. The dish was built in a German factory and shipped to New Mexico; the 243 behind it still need the National Science Board's approval and an act of Congress before a second pad is poured.",
-      "hidden_gem_tip": "You can pick it out from the visitor centre without being told which it is. The VLA's dishes are 25 metres across and identical to each other; the prototype is the smaller odd one out, standing on its own pad instead of on the railway track the others ride."
+      "hidden_gem_tip": "You can pick it out from the visitor centre without being told which it is. The VLA's dishes are 25 metres across and identical to each other; the prototype is the smaller odd one out, standing on its own pad instead of on the railway track the others ride.",
+      "monuments": [
+        {
+          "name": "Magdalena, New Mexico",
+          "yt": "yCelNxiKJnE",
+          "start": 0,
+          "source": "auto",
+          "title": "Magdalena, New Mexico Historic Walking Tour",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "vlba",
@@ -111,7 +121,25 @@
       ],
       "blurb": "Ten 25-metre dishes, from Saint Croix in the Caribbean to Mauna Kea in the Pacific, wired into a single telescope 8,611 kilometres across. Nothing at this pin looks like a telescope: it is a building on the New Mexico Tech campus in Socorro where the ten stations' recordings arrive, and where a correlator plays them back in step to build a picture no one dish could.",
       "fun_fact": "Resolution comes from how far apart the dishes stand, not how big they are, so the array's stock boast is that it could stand in New York and read a newspaper in Los Angeles. Pointed downwards instead, the same sharpness has measured the continents drifting a few centimetres a year beneath its own antennas.",
-      "hidden_gem_tip": "The dishes are the part you can go and see, and the best of them sits outside Pie Town — a crossroads on US 60 that really was named for a bakery, and where the pie is still the reason most people stop."
+      "hidden_gem_tip": "The dishes are the part you can go and see, and the best of them sits outside Pie Town — a crossroads on US 60 that really was named for a bakery, and where the pie is still the reason most people stop.",
+      "monuments": [
+        {
+          "name": "Pie Town, New Mexico",
+          "yt": "W8Mhd2fVLEA",
+          "start": 0,
+          "source": "auto",
+          "title": "PIE TOWN New Mexico on PI DAY!",
+          "height": 2160
+        },
+        {
+          "name": "Socorro, New Mexico",
+          "yt": "6cy560rLZUo",
+          "start": 0,
+          "source": "auto",
+          "title": "4K - Socorro to White Sand National Park | New Mexico",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "green-bank-observatory",
@@ -181,7 +209,33 @@
       ],
       "blurb": "No dome and no dish — a low building in the Virginia woods where the receivers exist before the telescopes do. The Central Development Laboratory designs and builds the amplifiers, mixers, feeds and detectors that sit at the focus of every NRAO instrument, chilled to a few degrees above absolute zero so that the faint thing arriving from space isn't drowned by the noise of the electronics listening for it.",
       "fun_fact": "About fifty engineers and technicians work here, and by its own trade's reckoning the lab is the world leader at putting low-noise amplifiers and submillimetre detectors to work in radio astronomy. A receiver quiet enough to hear a galaxy turns out to be a good receiver for almost anything, so the designs travel well beyond the observatory.",
-      "hidden_gem_tip": "This one isn't a visit. It's a working lab with no visitor centre, on a wooded road off the bypass; the NRAO address people actually mean in Charlottesville is the headquarters a couple of miles east, on University of Virginia grounds. What comes out of Boxwood Estate Road you meet later — at Green Bank, and on the Plains of San Agustin."
+      "hidden_gem_tip": "This one isn't a visit. It's a working lab with no visitor centre, on a wooded road off the bypass; the NRAO address people actually mean in Charlottesville is the headquarters a couple of miles east, on University of Virginia grounds. What comes out of Boxwood Estate Road you meet later — at Green Bank, and on the Plains of San Agustin.",
+      "monuments": [
+        {
+          "name": "Charlottesville, Virginia",
+          "yt": "H6SaAdB2PVg",
+          "start": 0,
+          "source": "auto",
+          "title": "Charlottesville, Virginia - Historic Downtown Walking Tour | July 22, 2026",
+          "height": 2160
+        },
+        {
+          "name": "University of Virginia",
+          "yt": "vraVE1JVLdI",
+          "start": 0,
+          "source": "auto",
+          "title": "University of Virginia Campus [4K] Walking Tour (2021)",
+          "height": 2160
+        },
+        {
+          "name": "Blue Ridge Mountains",
+          "yt": "fPtJjkFvmbs",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Scenic Walking - Sky Meadows, Blue Ridge Mountains - VA",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "palomar-observatory",

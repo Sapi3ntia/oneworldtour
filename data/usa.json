@@ -569,7 +569,33 @@
       "hidden_gem_tip": "The Bluebird Cafe out in a strip mall in Green Hills seats about ninety and runs in-the-round writers' nights where the people who wrote the songs play them. Book the moment seats open, or queue for the bar stools.",
       "webcam": "h5Grd2w7HQM",
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Broadway",
+          "yt": "JhSDwHnhnUI",
+          "start": 0,
+          "source": "auto",
+          "title": "The Energy of Broadway Nashville Tennessee in 4K",
+          "height": 2160
+        },
+        {
+          "name": "Grand Ole Opry",
+          "yt": "sKJo4rvEazs",
+          "start": 0,
+          "source": "auto",
+          "title": "Opry Mills Mall and Grand Ole Opry | 4k Walking Tour  |  Nashville, Tennessee",
+          "height": 2160
+        },
+        {
+          "name": "Ryman Auditorium",
+          "yt": "qdEf1-3grlQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Ryman Auditorium – Nashville, Tennessee (TRAVEL GUIDE) | Episode# 5",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "austin",
@@ -2527,7 +2553,7 @@
         },
         {
           "name": "Gathering Place",
-          "wikipedia_slug": "Gathering_Place_(park)"
+          "wikipedia_slug": "Gathering_Place_(Tulsa_park)"
         },
         {
           "name": "Greenwood District",
@@ -2601,8 +2627,7 @@
           "wikipedia_slug": "Oklahoma_City_National_Memorial"
         },
         {
-          "name": "Stockyards City",
-          "wikipedia_slug": "Stockyards_City,_Oklahoma_City"
+          "name": "Stockyards City"
         },
         {
           "name": "Myriad Botanical Gardens",
@@ -2982,7 +3007,33 @@
       "fun_fact": "The first word spoken from the surface of the Moon was \"Houston\" — Armstrong opening with \"Houston, Tranquility Base here. The Eagle has landed.\" The city is in the sentence because Mission Control is here, not Florida.",
       "hidden_gem_tip": "The Menil Collection and the Rothko Chapel beside it are free, always have been, and sit in a neighbourhood of grey bungalows the museum also owns. Ten minutes away the Beer Can House is sided in about 50,000 flattened cans.",
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Space Center Houston",
+          "yt": "4y9jwr8WFUw",
+          "start": 0,
+          "source": "auto",
+          "title": "Exploring Space Center Houston: NASA Tram Tour & Must-See Attractions",
+          "height": 2160
+        },
+        {
+          "name": "Buffalo Bayou",
+          "yt": "zb2EAGbRrvg",
+          "start": 0,
+          "source": "auto",
+          "title": "Buffalo Bayou in Houston, Texas the Day After Tropical Storm Beta UltraHD 4K Walking Tour.",
+          "height": 2160
+        },
+        {
+          "name": "Houston Museum District",
+          "yt": "V81GPu2iNqE",
+          "start": 0,
+          "source": "auto",
+          "title": "Exploring around Houston’s Museum District, Houston Texas, 4K Walk",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "dallas",
@@ -3026,7 +3077,33 @@
       "fun_fact": "The integrated circuit was invented here: Jack Kilby built the first working one at Texas Instruments in September 1958, during a summer shutdown he was too new to have earned holiday for. It won him a share of the 2000 Nobel Prize in Physics.",
       "hidden_gem_tip": "Deep Ellum was where Blind Lemon Jefferson and Lead Belly played in the 1920s, and it is still a live-music district rather than a plaque about one. For the other extreme, the Kimbell is 40 minutes west in Fort Worth and worth the drive.",
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Dealey Plaza",
+          "yt": "b0qomKsgYXE",
+          "start": 0,
+          "source": "auto",
+          "title": "Dealey Plaza Then and Now (1963 and 2019)",
+          "height": 1152
+        },
+        {
+          "name": "Reunion Tower",
+          "yt": "mS7WzJQzuRQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Reunion Tower Dallas,TX USA tour 4K",
+          "height": 2160
+        },
+        {
+          "name": "Deep Ellum",
+          "yt": "qnv91K6ywx4",
+          "start": 0,
+          "source": "auto",
+          "title": "Dallas 4K Walking Tour: Downtown to Deep Ellum |Raw Relaxing City Sounds",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "fort-worth",
@@ -3066,7 +3143,25 @@
       "fun_fact": "A herd of Texas Longhorns is driven down Exchange Avenue twice a day, every day. It is the only twice-daily cattle drive in the world, and the drovers are city employees.",
       "hidden_gem_tip": "The Kimbell is Louis Kahn's building as much as it is the collection — cycloid vaults with a slot down the middle that throws daylight onto the concrete and never onto the paintings. Admission to the permanent collection is free.",
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Fort Worth Stockyards",
+          "yt": "Y_IPf2A7bco",
+          "start": 0,
+          "source": "auto",
+          "title": "4th of July at Fort Worth Stockyards | 4K Binaural Walking Tour for Big TVs",
+          "height": 2160
+        },
+        {
+          "name": "Kimbell Art Museum",
+          "yt": "XSN0oJNZWn8",
+          "start": 0,
+          "source": "auto",
+          "title": "Kimbell Art Museum permanent collections Feb2022 part10 European art  Fort Worth, TX  @917Arts",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "el-paso",
@@ -3106,7 +3201,25 @@
       "fun_fact": "Franklin Mountains State Park is roughly 24,000 acres and sits almost entirely inside the city limits — one of the largest urban parks in the United States. You can be on a desert ridge with no road in sight ten minutes from downtown.",
       "hidden_gem_tip": "The Ysleta Mission has held services continuously since 1682, which makes it the oldest parish in Texas, and it belongs to the Ysleta del Sur Pueblo rather than to the city. Go up Scenic Drive at dusk to see both countries lit at once.",
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Franklin Mountains State Park",
+          "yt": "eLp8nghRlPY",
+          "start": 0,
+          "source": "auto",
+          "title": "Aztec cave | Franklin mountains state park | El Paso, Texas",
+          "height": 2160
+        },
+        {
+          "name": "Ysleta Mission",
+          "yt": "rpVBofIGiaA",
+          "start": 0,
+          "source": "auto",
+          "title": "Historic El Paso Mission Trail: Ysleta Mission, Socorro Mission, San Elizario Presidio | L&J Cafe",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "big-bend",
@@ -3149,7 +3262,33 @@
       "fun_fact": "The Chisos are the only mountain range in the United States entirely contained within a single national park. The park also has the darkest measured night skies of any national park in the lower 48 — on a clear night the Milky Way casts a shadow.",
       "hidden_gem_tip": "Santa Elena Canyon at the west end has 460-metre limestone walls and a river you can wade into, with Mexico on the far bank. Terlingua, just outside, is a quicksilver ghost town whose surviving porch is the social centre of the region.",
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Chisos Mountains",
+          "yt": "H0JmoJFr6UI",
+          "start": 0,
+          "source": "auto",
+          "title": "Chisos Mountains Big Bend National Park 4K scenic drive | Texas | S9 E9",
+          "height": 2160
+        },
+        {
+          "name": "Santa Elena Canyon",
+          "yt": "r5MvJdHiD94",
+          "start": 0,
+          "source": "auto",
+          "title": "Big Bend National Park: Castolon to Santa Elena Canyon. An UltraHD 4K Real Time Texas Driving Tour.",
+          "height": 2160
+        },
+        {
+          "name": "Terlingua",
+          "yt": "OUrPeelPqW8",
+          "start": 0,
+          "source": "auto",
+          "title": "[USA travels 9] Terlingua Camping - Big bend national park Day 1 (with drone 4k)",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "marfa",
@@ -3193,7 +3332,33 @@
       "fun_fact": "Judd's 100 milled aluminium boxes stand in two artillery sheds whose walls he replaced with glass — every box the same outside dimensions, no two the same inside, and the light moving across them all day is the point.",
       "hidden_gem_tip": "Prada Marfa is not in Marfa: it is a sealed, permanently locked fake shop on US-90 about 60 km north-west, near Valentine. The Marfa lights viewing platform is east of town on the same road, and the lights are genuinely unexplained.",
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Chinati Foundation",
+          "yt": "K-_A9rrMZbs",
+          "start": 0,
+          "source": "auto",
+          "title": "A Week In Marfa, Texas | Food, Libations, Mystery Lights, Chinati Foundation",
+          "height": 2160
+        },
+        {
+          "name": "Prada Marfa",
+          "yt": "xXN_ItcIrgw",
+          "start": 0,
+          "source": "auto",
+          "title": "A Look At The Prada Boutique, Marfa, Texas",
+          "height": 2160
+        },
+        {
+          "name": "Marfa lights",
+          "yt": "RN2NhnyKElk",
+          "start": 0,
+          "source": "auto",
+          "title": "A Look At The Marfa Lights Experience, Marfa, Texas",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "galveston",
@@ -3233,7 +3398,25 @@
       "fun_fact": "The 1900 hurricane killed somewhere between 6,000 and 12,000 people and remains the deadliest natural disaster in United States history. Galveston's answer was to build a seawall and then physically raise the city — over 2,100 buildings jacked up on screws while sand was pumped underneath them.",
       "hidden_gem_tip": "Bishop's Palace came through 1900 intact and is one of the finest Victorian houses in the country. Walk the seawall at the east end to see how high the made ground actually is where it meets the old grade.",
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Strand Historic District",
+          "yt": "P-3CMVwkJS0",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking tour of Galveston's Historic Strand District",
+          "height": 1080
+        },
+        {
+          "name": "Bishop's Palace",
+          "yt": "yXyWdioUP5A",
+          "start": 0,
+          "source": "auto",
+          "title": "Narrated Aerial and Inside Tour Of Galveston Attraction Historic Bishop's Palace in Galveston Texas",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "fredericksburg",
@@ -3273,7 +3456,25 @@
       "fun_fact": "The settlers signed a treaty with the Penateka Comanche in 1847 — negotiated by John Meusebach without the state's involvement — and it is widely described as the only such treaty in Texas that was never broken by either side.",
       "hidden_gem_tip": "Enchanted Rock, 25 km north, is a pink granite dome you climb in about 45 minutes; it creaks audibly at night as it cools, which is where its name comes from. LBJ's ranch and birthplace are the other way, along the Pedernales.",
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Enchanted Rock",
+          "yt": "6bW4LjNeuM8",
+          "start": 0,
+          "source": "auto",
+          "title": "Enchanted Rock State Natural Area | Fredericksburg TX | Aerial Tour",
+          "height": 2160
+        },
+        {
+          "name": "Lyndon B. Johnson National Historical Park",
+          "yt": "Xg99jYV0Yjk",
+          "start": 0,
+          "source": "auto",
+          "title": "Lyndon B. Johnson National Historical Park Orientation Film",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "palo-duro-canyon",
@@ -3312,7 +3513,25 @@
       "fun_fact": "It runs about 190 km long and up to 32 km wide, and almost nobody outside Texas has heard of it. A musical called *Texas* has been staged on the canyon floor every summer since 1966, with the cliff as the backdrop.",
       "hidden_gem_tip": "The Lighthouse is the canyon's free-standing rock column and the walk out to it is about 9 km round trip with no shade — go at first light. The red and white banding in the walls is 250 million years of Permian and Triassic rock.",
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "The Lighthouse",
+          "yt": "WtBPcUYjY8s",
+          "start": 0,
+          "source": "auto",
+          "title": "Epic Early Morning Hike on Lighthouse Trail at Palo Duro Canyon | Living Our Best Life Adventure",
+          "height": 2160
+        },
+        {
+          "name": "Amarillo",
+          "yt": "-4zm0i4smCM",
+          "start": 0,
+          "source": "auto",
+          "title": "Summer Road Trip 2022: Palo Duro Canyon and The Big Texan, Amarillo TX",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "guadalupe-mountains",
@@ -3356,7 +3575,33 @@
       "fun_fact": "The whole range is a fossil reef. The Capitan Reef grew in a tropical sea about 260 million years ago, was buried, and has been uplifted and stripped bare — one of the best-exposed ancient reefs anywhere on Earth, with the sponges and algae that built it still visible in the rock.",
       "hidden_gem_tip": "McKittrick Canyon turns red and gold in late October and early November — bigtooth maple in a desert canyon, which should not happen and is why people drive from El Paso for it. Guadalupe Peak at 2,667 m is the Texas high point, about 13 km round trip and relentlessly uphill.",
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Guadalupe Peak",
+          "yt": "qpgA7vsp_SU",
+          "start": 0,
+          "source": "auto",
+          "title": "Guadalupe Peak Hike: What to Know Before the Texas Highpoint",
+          "height": 2160
+        },
+        {
+          "name": "El Capitan",
+          "yt": "WyYRcEKzwNg",
+          "start": 0,
+          "source": "auto",
+          "title": "Summiting Hike, Guadalupe Mountain. Highest Peak in Texas. Apparition Hidden, El Capitan!?",
+          "height": 1080
+        },
+        {
+          "name": "McKittrick Canyon",
+          "yt": "0MXmP8GIBEY",
+          "start": 0,
+          "source": "auto",
+          "title": "Guadalupe Mountains National Park - Hiking McKittrick Canyon & Devil's Hall in one day",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "south-padre-island",
@@ -3392,7 +3637,17 @@
       "fun_fact": "The Laguna Madre behind the island is hypersaline — saltier than the sea — which is rare enough that only a handful of such lagoons exist worldwide. The shallow, salty water grows seagrass meadows that make this one of the best fly-fishing flats in North America.",
       "hidden_gem_tip": "Sea Turtle Inc. releases rehabilitated Kemp's ridleys — the world's most endangered sea turtle — straight off the beach, and hatchling releases in summer are public. The Birding and Nature Center's boardwalk is the quiet counterweight to the beachfront.",
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Laguna Madre",
+          "yt": "BNVZ74Lf0rI",
+          "start": 0,
+          "source": "auto",
+          "title": "🌿 Mesmerizing 4K Walk at Laguna Madre Nature Trail | South Padre Island, TX Adventure 🚶‍♀️🦩",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "caddo-lake",
@@ -3432,7 +3687,25 @@
       "fun_fact": "It holds the largest bald cypress forest in the world. The lake exists because of the Great Raft, a colossal logjam on the Red River that backed water up across the bottomlands for centuries before it was finally cleared in the 1870s.",
       "hidden_gem_tip": "Jefferson, just up the road, was a steamboat port when the raft made the river navigable and stopped dead when it was removed — so its 1870s downtown was never built over. Paddle the cypress bayous at dawn; the lanes are signposted and the mist sits on the water.",
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Caddo Lake State Park",
+          "yt": "BOV5PmLjp9s",
+          "start": 0,
+          "source": "auto",
+          "title": "Kayak Camping - Caddo Lake, Caddo Lake State Park",
+          "height": 1080
+        },
+        {
+          "name": "Jefferson",
+          "yt": "Ab1UZgzBMME",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] FT JEFFERSON Moat - Dry Tortugas National Park - Relaxing Scenic Walking Tour Binaural 🎧",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "memphis",
@@ -3480,7 +3753,33 @@
       "fun_fact": "Sun Studio recorded Elvis Presley, Johnny Cash, Jerry Lee Lewis, Carl Perkins and Roy Orbison, and on 4 December 1956 four of them ended up round the same piano by accident. Someone had the sense to leave the tape running.",
       "hidden_gem_tip": "The Lorraine Motel is preserved exactly as it was and is now the National Civil Rights Museum — the balcony is the last thing you see, at the end. Stax is a faithful rebuild of a studio the city demolished in 1989 and later regretted.",
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Beale Street",
+          "yt": "hLlLeMRRws0",
+          "start": 0,
+          "source": "auto",
+          "title": "Memphis Beale Street Walk, Tennessee USA 4K - UHD",
+          "height": 2160
+        },
+        {
+          "name": "Graceland",
+          "yt": "N6X671y7cz8",
+          "start": 0,
+          "source": "auto",
+          "title": "ELVIS PRESLEY'S GRACELAND MANSION | ULTIMATE TOUR 2023",
+          "height": 2160
+        },
+        {
+          "name": "Sun Studio",
+          "yt": "oXVH3B9G-38",
+          "start": 0,
+          "source": "auto",
+          "title": "SUN STUDIO TOUR! SEE WHERE ELVIS, JOHNNY CASH, JERRY LEE LEWIS, ROY ORBISON AND MANY MORE STARTED.",
+          "height": 1920
+        }
+      ]
     },
     {
       "id": "clarksdale",
@@ -3524,7 +3823,25 @@
       "fun_fact": "The crossroads where Robert Johnson supposedly sold his soul to the devil for his technique is marked at the junction of Highways 61 and 49, in the middle of town, with three blue guitars on a pole. Nobody claims it is the actual spot.",
       "hidden_gem_tip": "Dockery Farms, 40 km south-east, has as good a claim as anywhere to being where the blues started — Charley Patton lived and played on the plantation and taught half the first generation. The gin and the service station are still standing.",
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Delta Blues Museum",
+          "yt": "rjwiGbDBFjo",
+          "start": 0,
+          "source": "auto",
+          "title": "Jaxx Nassar tours Robert Johnson Exhibit - Delta Blues Museum",
+          "height": 1080
+        },
+        {
+          "name": "Ground Zero Blues Club",
+          "yt": "ikeE57oOjG0",
+          "start": 0,
+          "source": "auto",
+          "title": "Biloxi Mayor, Paul Mccartney, aka FoFo performing at Ground Zero Blues Club Biloxi",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "vicksburg",
@@ -3564,7 +3881,25 @@
       "fun_fact": "The city surrendered on 4 July 1863, and the story goes that Vicksburg did not hold an official Independence Day celebration again for about eighty years. The river has since moved: the waterfront the siege was fought over is now the Yazoo Diversion Canal, and the Mississippi runs a mile off.",
       "hidden_gem_tip": "The military park road runs 26 km past monuments each state raised for its own dead, so the ground reads as a map of who was where. The ironclad USS *Cairo* — sunk in 1862, raised in 1964 — is inside the park, its timbers on display.",
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Vicksburg National Military Park",
+          "yt": "81wnd5oNyB0",
+          "start": 0,
+          "source": "auto",
+          "title": "Vicksburg National Military Park Cinematic Tour",
+          "height": 2160
+        },
+        {
+          "name": "Vicksburg Riverfront Murals",
+          "yt": "X5Go7oY3yf0",
+          "start": 0,
+          "source": "auto",
+          "title": "Vicksburg Sunset; Vicksburg Riverfront Murals",
+          "height": 720
+        }
+      ]
     },
     {
       "id": "natchez",
@@ -3608,7 +3943,25 @@
       "fun_fact": "Longwood is the largest octagonal house in the United States and it has never been finished. The Philadelphia workmen downed tools when the war began in 1861 and went home; only the basement was ever completed, and the family lived in it beneath five empty floors that are still bare brick and scaffolding.",
       "hidden_gem_tip": "Natchez Under-the-Hill, down the bluff at the landing, was the rough half of town when the flatboat crews arrived and is now a short row of bars over the water. The Trace starts here and runs 715 km to Nashville with no advertising on it.",
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Natchez Trace Parkway",
+          "yt": "uzvZSwybmNQ",
+          "start": 0,
+          "source": "auto",
+          "title": "NATCHEZ TRACE PARKWAY | MISSISSIPPI | TENNESSEE | ALABAMA | Old Trace",
+          "height": 2160
+        },
+        {
+          "name": "Longwood",
+          "yt": "fhw5nidguzo",
+          "start": 0,
+          "source": "auto",
+          "title": "Ghost of Longwood Warren CC + Hinton Ampner 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "baton-rouge",
@@ -3652,7 +4005,33 @@
       "fun_fact": "The Louisiana State Capitol is the tallest state capitol in the United States — 34 storeys, built by Huey Long in fourteen months. Long was shot in a corridor of his own building in 1935 and died two days later; the bullet marks are still pointed out in the marble.",
       "hidden_gem_tip": "The USS *Kidd* is moored downtown and is one of the only surviving Fletcher-class destroyers in its wartime configuration — the river's tide range means she sits on a cradle out of the water for part of the year. Drive River Road south for the plantation museums, including Whitney, which tells it from the quarters.",
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Louisiana State Capitol",
+          "yt": "EP7AsnqeHOM",
+          "start": 0,
+          "source": "auto",
+          "title": "Driving 4K Baton Rouge Virtual Tour, LSU, Louisiana State Capitol || Baton Rouse, Louisiana",
+          "height": 2160
+        },
+        {
+          "name": "USS Kidd",
+          "yt": "6b8lY9Bv7Vo",
+          "start": 0,
+          "source": "auto",
+          "title": "American Melody & USS Kidd, Baton Rouge, 4K Drone Footage",
+          "height": 2160
+        },
+        {
+          "name": "Louisiana State University",
+          "yt": "dfeAEjSPOjI",
+          "start": 0,
+          "source": "auto",
+          "title": "Louisiana State University [Part 1] - Virtual Walking Tour [4k 60fps]",
+          "height": 2160
+        }
+      ]
     }
   ]
 }
