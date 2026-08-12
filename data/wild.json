@@ -40,7 +40,25 @@
       "blurb": "Every summer the world's largest gathering of brown bears fishes the sockeye salmon run at this six-foot waterfall deep in Alaska's Katmai National Park. This is the most famous wildlife cam on Earth — Fat Bear Week is judged from these very frames.",
       "fun_fact": "Katmai National Park has roughly 2,200 brown bears — far more bears than year-round human residents.",
       "webcam": "J7ZrIDvqlic",
-      "window": "My_ZYCLOMzk"
+      "window": "My_ZYCLOMzk",
+      "monuments": [
+        {
+          "name": "Brooks Falls",
+          "yt": "M59Mdf-XXSM",
+          "start": 0,
+          "source": "auto",
+          "title": "Brooks Falls: World-Famous Bear Viewing",
+          "height": 2160
+        },
+        {
+          "name": "Fat Bear Week",
+          "yt": "z_xp8wwuj88",
+          "start": 0,
+          "source": "auto",
+          "title": "Why the fattest bear will not win Fat Bear Week",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "big-bear-eagles",
@@ -75,7 +93,33 @@
       "blurb": "Jackie and Shadow, Big Bear Valley's celebrity bald-eagle pair, keep their nest 145 feet up a Jeffrey pine above the lake. Millions tune in every nesting season to watch eggs, chicks, and mountain snowstorms roll through.",
       "fun_fact": "Bald eagle nests are reused and enlarged year after year — some grow heavier than a small car.",
       "webcam": "B4-L2nfGcuE",
-      "window": "41eq4VzCYc4"
+      "window": "41eq4VzCYc4",
+      "monuments": [
+        {
+          "name": "Jackie & Shadow",
+          "yt": "jzTnPbC6Gow",
+          "start": 0,
+          "source": "auto",
+          "title": "The fantastic Shadow and the troubled Jackie Big Bear Bald Eagle Live Nest   Cam 1",
+          "height": 1080
+        },
+        {
+          "name": "Big Bear Lake",
+          "yt": "ou7XlC7pQs0",
+          "start": 0,
+          "source": "auto",
+          "title": "Big Bear Lake - Google Earth Tour (4K)",
+          "height": 2160
+        },
+        {
+          "name": "San Bernardino Mountains",
+          "yt": "tPV5RIeix6s",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] Driving at Snowy San Bernardino Mountains via Hwy 330 in California USA Scenic Drive",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "decorah-eagles",
@@ -107,7 +151,17 @@
       "blurb": "The nest that started the eagle-cam phenomenon — bald eagles streaming from a cottonwood above a trout hatchery in small-town Iowa since 2011, long before live nature cams were everywhere.",
       "fun_fact": "The original Decorah cam once drew over 200 million views in a single nesting season.",
       "webcam": "IVmL3diwJuw",
-      "window": "GGIE1E-kaMQ"
+      "window": "GGIE1E-kaMQ",
+      "monuments": [
+        {
+          "name": "The North Nest",
+          "yt": "dadrLKEI7YI",
+          "start": 0,
+          "source": "auto",
+          "title": "Decorah Eagles - North Nest March 31st 2026 Explore Live Nature Cams  4k powered by EXPLORE.org",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "tembe-elephant-park",
@@ -230,7 +284,17 @@
       ],
       "blurb": "'Paradise for bonobos' — the world's only bonobo sanctuary, in forest on the edge of Kinshasa. Bonobos exist nowhere on Earth but DR Congo, south of the great bend of the Congo River.",
       "fun_fact": "Bonobos share about 98.7% of their DNA with humans — the same as chimpanzees, our two closest living relatives.",
-      "webcam": "gqP5nBCRbHA"
+      "webcam": "gqP5nBCRbHA",
+      "monuments": [
+        {
+          "name": "Bonobo nursery",
+          "yt": "lYILL1x8U4Y",
+          "start": 0,
+          "source": "auto",
+          "title": "The Nursery at Lola ya Bonobo",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "mpala-laikipia",
@@ -247,7 +311,7 @@
         "lat": 0.292,
         "lng": 36.899
       },
-      "wikipedia_slug": "Mpala_Research_Centre",
+      "wikipedia_slug": "Laikipia_County",
       "sounds": [
         "wilderness.mp3"
       ],
@@ -293,7 +357,17 @@
       ],
       "blurb": "A waterhole on Amboseli's edge with Mount Kilimanjaro filling the sky behind it — big-tusked elephants against Africa's highest mountain, the postcard that made Kenya famous, live.",
       "fun_fact": "Amboseli's elephants are the most studied on Earth — researchers have tracked every individual family here since 1972.",
-      "webcam": "XyPU5-pNg5E"
+      "webcam": "XyPU5-pNg5E",
+      "monuments": [
+        {
+          "name": "Amboseli elephants",
+          "yt": "4soo5bMqDFc",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Safari Serenade:Elephants & Zebras in Perfect Harmony @ Amboseli under Mount Kilimanjaro #viralyt",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "ol-donyo-chyulu",
@@ -324,7 +398,17 @@
       ],
       "blurb": "A lodge waterhole in the young volcanic Chyulu Hills, between Amboseli and Tsavo — famous for 'super tusker' elephants that drink close enough for the mic to catch them breathing.",
       "fun_fact": "The Chyulu Hills are geological infants — parts of the range erupted into existence only a few hundred years ago.",
-      "webcam": "XsOU8JnEpNM"
+      "webcam": "XsOU8JnEpNM",
+      "monuments": [
+        {
+          "name": "Super tuskers",
+          "yt": "UM-jorpYS9g",
+          "start": 0,
+          "source": "auto",
+          "title": "Colossal Shadows: Super Tuskers of East Africa (Captions)",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "okaukuejo-etosha",
@@ -417,7 +501,17 @@
       ],
       "blurb": "A busy waterhole minutes from Victoria Falls, with a twist: a daily 'vulture restaurant' feeding that turns the sky into a spiralling tower of hundreds of birds around midday.",
       "fun_fact": "The lodge's daily vulture feeding is a conservation programme — supplementary meals keep endangered vultures away from poisoned carcasses.",
-      "webcam": "v4zcdC-fEKw"
+      "webcam": "v4zcdC-fEKw",
+      "monuments": [
+        {
+          "name": "Vulture restaurant",
+          "yt": "_DJITuP4bVo",
+          "start": 0,
+          "source": "auto",
+          "title": "JATAYU RESTUARANT, VULTURE Restaurant@ Nawalprasi. Chitwan  national  park",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "chengdu-pandas",

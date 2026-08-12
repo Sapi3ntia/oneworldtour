@@ -91,7 +91,7 @@
       "country_code": "MA",
       "country_flag": "🇲🇦",
       "continent": "Africa",
-      "region": "",
+      "region": "Tangier-Tetouan-Al Hoceima",
       "type": "village",
       "tag": "hidden",
       "emoji": "🔵",
@@ -110,10 +110,53 @@
       "sounds": [
         "european-plaza.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Plaza Uta el-Hammam"
+        },
+        {
+          "name": "Kasbah of Chefchaouen"
+        },
+        {
+          "name": "Spanish Mosque"
+        },
+        {
+          "name": "Ras el-Maa"
+        },
+        {
+          "name": "Rif Mountains",
+          "wikipedia_slug": "Rif"
+        }
+      ],
+      "blurb": "A whole hill town painted in blue, folded into the Rif Mountains of northern Morocco. Founded in 1471 as a fortress against the Portuguese, it stayed closed to outsiders for centuries, and the blue washes over walls, steps, doors and flowerpots alike.",
+      "fun_fact": "Nobody agrees why it is blue. The stories run from Jewish refugees in the 1930s bringing the colour with them, to a belief that blue keeps mosquitoes off, to the simple fact that it sells.",
+      "hidden_gem_tip": "Walk up to the ruined Spanish Mosque on the eastern hill for sunset — half an hour up, and the whole blue town is below you at once.",
+      "monuments": [
+        {
+          "name": "Plaza Uta el-Hammam",
+          "yt": "CGL-uutPwWg",
+          "start": 0,
+          "source": "auto",
+          "title": "4K HD Plaza Uta el Hammam in the morning",
+          "height": 1080
+        },
+        {
+          "name": "Kasbah of Chefchaouen",
+          "yt": "n-xChyxco20",
+          "start": 0,
+          "source": "auto",
+          "title": "Chefchaouen Kasbah & Ethnographic Museum قصبة_شفشاون#",
+          "height": 1080
+        },
+        {
+          "name": "Spanish Mosque",
+          "yt": "luQJVcqIZ7M",
+          "start": 0,
+          "source": "auto",
+          "title": "Chefchaouen sunset - Spanish mosque 4K",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "sahara-at-merzouga",
@@ -122,7 +165,7 @@
       "country_code": "MA",
       "country_flag": "🇲🇦",
       "continent": "Africa",
-      "region": "",
+      "region": "Drâa-Tafilalet",
       "type": "desert",
       "tag": "famous",
       "emoji": "🐫",
@@ -141,10 +184,50 @@
       "sounds": [
         "mountain-wind.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Erg Chebbi",
+          "wikipedia_slug": "Erg_Chebbi"
+        },
+        {
+          "name": "Merzouga"
+        },
+        {
+          "name": "Dayet Srji"
+        },
+        {
+          "name": "Khamlia"
+        }
+      ],
+      "blurb": "The edge of the Sahara at Erg Chebbi, where a sea of orange dunes rises 150 m straight out of flat stony desert with no warning at all. Camel caravans go out from the village of Merzouga at the foot of them and camp between the crests.",
+      "fun_fact": "Erg Chebbi is only about 22 km long — a single isolated dune field, not the endless Sahara of the films, which is why you can stand on its highest crest and see hard desert on every side.",
+      "hidden_gem_tip": "A seasonal lake, Dayet Srji, appears west of the dunes after rain and fills with flamingos. Most visitors never look behind them.",
+      "monuments": [
+        {
+          "name": "Erg Chebbi",
+          "yt": "CZfavJ1bYBg",
+          "start": 0,
+          "source": "auto",
+          "title": "【Sahara Desert Merzouga Walking Tour 4K HDR】| Explore Morocco’s Erg Chebbi dunes & Camel riding",
+          "height": 2160
+        },
+        {
+          "name": "Merzouga",
+          "yt": "t8ON7y_V5FQ",
+          "start": 0,
+          "source": "auto",
+          "title": "MERZOUGA, MOROCCO | Magical Merzouga Desert Trip Overview + Honest Review",
+          "height": 2160
+        },
+        {
+          "name": "Khamlia",
+          "yt": "FY2EjqDilI4",
+          "start": 0,
+          "source": "auto",
+          "title": "The story of Khamlia Village, Merzouga, Sahara Desert, Morocco | 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "casablanca",
@@ -153,7 +236,7 @@
       "country_code": "MA",
       "country_flag": "🇲🇦",
       "continent": "Africa",
-      "region": "",
+      "region": "Casablanca-Settat",
       "type": "city",
       "tag": "famous",
       "emoji": "🏙️",
@@ -172,10 +255,53 @@
       "sounds": [
         "city-hum.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Hassan II Mosque",
+          "wikipedia_slug": "Hassan_II_Mosque"
+        },
+        {
+          "name": "Old Medina"
+        },
+        {
+          "name": "Corniche"
+        },
+        {
+          "name": "Mahkama du Pacha"
+        },
+        {
+          "name": "Villa des Arts"
+        }
+      ],
+      "blurb": "Morocco's largest city and its economic engine — a working Atlantic port of art deco boulevards and glass towers rather than a tourist medina. The film was shot in Hollywood and the city has been living that down ever since.",
+      "fun_fact": "The Hassan II Mosque stands partly over the water, has room for 105,000 worshippers, and carries the tallest minaret in the world at 210 m, with a laser on top aimed at Mecca.",
+      "hidden_gem_tip": "It is one of the very few mosques in Morocco non-Muslims may enter, on guided tours several times a day — the glass floor over the Atlantic is the reason to go.",
+      "monuments": [
+        {
+          "name": "Hassan II Mosque",
+          "yt": "7P8G1UnJDtQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Inside the magnificent Hassan II Mosque | Casablanca, Morocco 4K",
+          "height": 2160
+        },
+        {
+          "name": "Old Medina",
+          "yt": "oqvMZr-TxcY",
+          "start": 0,
+          "source": "auto",
+          "title": "Old Medina of Casablanca - Morocco Walking Tour - 4K 60FPS HDR",
+          "height": 2160
+        },
+        {
+          "name": "Corniche",
+          "yt": "RGtUUf2H1Bs",
+          "start": 0,
+          "source": "auto",
+          "title": "Casablanca, Morocco Walking Tour - La Corniche - 4K HDR",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "giza-pyramids",
@@ -343,7 +469,7 @@
       "country_code": "KE",
       "country_flag": "🇰🇪",
       "continent": "Africa",
-      "region": "",
+      "region": "Nairobi County",
       "type": "city",
       "tag": "famous",
       "emoji": "🏙️",
@@ -362,11 +488,57 @@
       "sounds": [
         "city-hum.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null,
-      "walk": "UOG4TG-3Xog"
+      "highlights": [
+        {
+          "name": "Nairobi National Park",
+          "wikipedia_slug": "Nairobi_National_Park"
+        },
+        {
+          "name": "Kenyatta International Convention Centre",
+          "wikipedia_slug": "Kenyatta_International_Convention_Centre"
+        },
+        {
+          "name": "David Sheldrick Wildlife Trust"
+        },
+        {
+          "name": "Karen Blixen Museum",
+          "wikipedia_slug": "Karen_Blixen_Museum"
+        },
+        {
+          "name": "Uhuru Park",
+          "wikipedia_slug": "Uhuru_Park"
+        }
+      ],
+      "blurb": "East Africa's business capital, a fast, green, high-altitude city of five million on the edge of the Rift Valley — and the only capital city on Earth with a full national park inside its limits.",
+      "fun_fact": "Lions, rhinos and giraffes range across Nairobi National Park with the city skyline directly behind them; the park is fenced on three sides and left open on the fourth so the herds can still migrate.",
+      "hidden_gem_tip": "The elephant orphanage opens to the public for one hour a day, when the keepers bring the calves in for their milk.",
+      "walk": "UOG4TG-3Xog",
+      "monuments": [
+        {
+          "name": "Nairobi National Park",
+          "yt": "ntueMx6Nvaw",
+          "start": 0,
+          "source": "auto",
+          "title": "Nairobi National Park is AMAZING! African Safari in Kenya!",
+          "height": 2160
+        },
+        {
+          "name": "Kenyatta International Convention Centre",
+          "yt": "scAnrY_C9bk",
+          "start": 0,
+          "source": "auto",
+          "title": "I Didn't Expect This In The Newly Renovated Kenyatta International Convention Centre, KICC.",
+          "height": 1080
+        },
+        {
+          "name": "David Sheldrick Wildlife Trust",
+          "yt": "WX86eVGTER0",
+          "start": 0,
+          "source": "auto",
+          "title": "THE ELEPHANT NURSERY | at David Sheldrick Wildlife Trust in Nairobi",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "maasai-mara",
@@ -375,7 +547,7 @@
       "country_code": "KE",
       "country_flag": "🇰🇪",
       "continent": "Africa",
-      "region": "",
+      "region": "Narok County",
       "type": "nature",
       "tag": "famous",
       "emoji": "🦁",
@@ -394,10 +566,51 @@
       "sounds": [
         "mountain-wind.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Mara River",
+          "wikipedia_slug": "Mara_River"
+        },
+        {
+          "name": "Serengeti",
+          "wikipedia_slug": "Serengeti"
+        },
+        {
+          "name": "Oloololo Escarpment"
+        },
+        {
+          "name": "Talek River"
+        }
+      ],
+      "blurb": "1,500 km² of open savanna in southwestern Kenya, continuous with the Serengeti across the Tanzanian border — flat gold grass, scattered acacias, and the highest density of big cats anywhere in Africa.",
+      "fun_fact": "Around 1.3 million wildebeest and several hundred thousand zebra cross the Mara River here between July and October, and the crossings are chaotic enough that the drownings alone feed the river's crocodiles for the year.",
+      "hidden_gem_tip": "Balloon safaris lift off before dawn and land for breakfast on the grass — the only way to see how far the herds actually stretch.",
+      "monuments": [
+        {
+          "name": "Mara River",
+          "yt": "5CP4LijrHUc",
+          "start": 0,
+          "source": "auto",
+          "title": "Mara River Crossing – A Journey of Life and Death",
+          "height": 2160
+        },
+        {
+          "name": "Serengeti",
+          "yt": "tjFMYz0-O5s",
+          "start": 0,
+          "source": "auto",
+          "title": "FROM SERENGETI TO MAASAI MARA | Survival on the Move #naturedocumentaries | Wild Nature",
+          "height": 2160
+        },
+        {
+          "name": "Oloololo Escarpment",
+          "yt": "D0N_BYGT8J0",
+          "start": 0,
+          "source": "auto",
+          "title": "Elephant herd below Oloololo escarpment, masai mara",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "mombasa",
@@ -406,7 +619,7 @@
       "country_code": "KE",
       "country_flag": "🇰🇪",
       "continent": "Africa",
-      "region": "",
+      "region": "Mombasa County",
       "type": "coastal",
       "tag": "hidden",
       "emoji": "🏖️",
@@ -425,10 +638,55 @@
       "sounds": [
         "ocean-waves.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Fort Jesus",
+          "wikipedia_slug": "Fort_Jesus"
+        },
+        {
+          "name": "Old Town"
+        },
+        {
+          "name": "Diani Beach",
+          "wikipedia_slug": "Diani_Beach"
+        },
+        {
+          "name": "Haller Park",
+          "wikipedia_slug": "Haller_Park"
+        },
+        {
+          "name": "Nyali Beach"
+        }
+      ],
+      "blurb": "Kenya's port and second city, on an island in a creek on the Indian Ocean — a Swahili trading town for a thousand years, with Arab, Portuguese, Omani and British layers stacked on top of each other in the same few streets.",
+      "fun_fact": "Fort Jesus changed hands at least nine times between 1631 and 1875; one Omani siege of the Portuguese garrison lasted 33 months and ended with eleven survivors.",
+      "hidden_gem_tip": "Haller Park is a rehabilitated cement quarry — a limestone pit replanted into forest with giraffes and hippos in it, and the best argument in East Africa that industrial land can be given back.",
+      "monuments": [
+        {
+          "name": "Fort Jesus",
+          "yt": "wNJYj7HBl5U",
+          "start": 0,
+          "source": "auto",
+          "title": "Fort Jesus Mombasa | Inside Kenya’s Iconic Coastal Fortress! | 4K",
+          "height": 2160
+        },
+        {
+          "name": "Old Town",
+          "yt": "Tri9ynHgTwQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Exploring Mombasa Old Town in Kenya | Walking Tour | 4K UHD",
+          "height": 2160
+        },
+        {
+          "name": "Diani Beach",
+          "yt": "zoTXHNosLeM",
+          "start": 0,
+          "source": "auto",
+          "title": "Kenya’s Most Beautiful Coastal Drive | Diani Beach Scenic Drive (4K)",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "dakar",
@@ -494,20 +752,6 @@
           "start": 0,
           "source": "auto",
           "title": "The Slave Island, Gorée Senegal 4K"
-        },
-        {
-          "name": "Renaissance Monument",
-          "yt": "n2DF8xOTtOM",
-          "start": 0,
-          "source": "auto",
-          "title": "THE AFRICAN RENAISSANCE MONUMENT | DAKAR, SENEGAL"
-        },
-        {
-          "name": "Grand Mosque of Dakar",
-          "yt": "3daX2hvl48g",
-          "start": 0,
-          "source": "auto",
-          "title": "[4K] Walking tour of \"Mosquée de la divinité\" in Dakar city Senegal #DAKAR #SENEGAL #AFRICA"
         }
       ]
     },
@@ -726,7 +970,7 @@
       "country_code": "GM",
       "country_flag": "🇬🇲",
       "continent": "Africa",
-      "region": "",
+      "region": "Banjul",
       "type": "city",
       "tag": "famous",
       "emoji": "🏙️",
@@ -745,10 +989,55 @@
       "sounds": [
         "city-hum.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Arch 22",
+          "wikipedia_slug": "Arch_22"
+        },
+        {
+          "name": "Albert Market"
+        },
+        {
+          "name": "Kachikally Crocodile Pool"
+        },
+        {
+          "name": "Gambia River",
+          "wikipedia_slug": "Gambia_River"
+        },
+        {
+          "name": "Kunta Kinteh Island",
+          "wikipedia_slug": "Kunta_Kinteh_Island"
+        }
+      ],
+      "blurb": "One of Africa's smallest capitals — about 30,000 people on a sand island at the mouth of the Gambia River, reached by bridge or ferry, with a market, a cathedral, a mosque and not much traffic.",
+      "fun_fact": "The whole country is essentially the river plus a few kilometres either side of it: Gambia is 50 km across at its widest and 480 km long, drawn around a waterway rather than a territory.",
+      "hidden_gem_tip": "The upriver boat to Kunta Kinteh Island, the old slave-trading post in the middle of the Gambia, takes most of a day and is the country's most serious visit.",
+      "monuments": [
+        {
+          "name": "Arch 22",
+          "yt": "G2GbRwDE8uU",
+          "start": 0,
+          "source": "auto",
+          "title": "Arch 22 Monument - Driving to Banjul for City Tour - The Gambia April 2021 Roots & Culture Tour",
+          "height": 2160
+        },
+        {
+          "name": "Albert Market",
+          "yt": "CQSTN09KEvY",
+          "start": 0,
+          "source": "auto",
+          "title": "Banjul Albert Market The Gambia",
+          "height": 1080
+        },
+        {
+          "name": "Kachikally Crocodile Pool",
+          "yt": "xdOM2g-3wAY",
+          "start": 0,
+          "source": "auto",
+          "title": "Kachikally Crocodile Pool Introduction - The Gambia April 2021 Roots & Culture Journey of a Lifetime",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "cape-town",
@@ -757,7 +1046,7 @@
       "country_code": "ZA",
       "country_flag": "🇿🇦",
       "continent": "Africa",
-      "region": "",
+      "region": "Western Cape",
       "type": "coastal",
       "tag": "famous",
       "emoji": "🏔️",
@@ -776,11 +1065,58 @@
       "sounds": [
         "ocean-waves.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null,
-      "walk": "BSxV9nUfDAU"
+      "highlights": [
+        {
+          "name": "Table Mountain",
+          "wikipedia_slug": "Table_Mountain"
+        },
+        {
+          "name": "Robben Island",
+          "wikipedia_slug": "Robben_Island"
+        },
+        {
+          "name": "V&A Waterfront",
+          "wikipedia_slug": "V&A_Waterfront"
+        },
+        {
+          "name": "Bo-Kaap",
+          "wikipedia_slug": "Bo-Kaap"
+        },
+        {
+          "name": "Cape of Good Hope",
+          "wikipedia_slug": "Cape_of_Good_Hope"
+        }
+      ],
+      "blurb": "A city wrapped around a flat-topped mountain where two oceans meet — beaches, vineyards and townships within half an hour of each other, and a skyline dominated by a 1,000 m cliff that is often wearing a cloud.",
+      "fun_fact": "Table Mountain is roughly six times older than the Himalayas, and its 2,200 plant species — more than the whole of the United Kingdom — grow in an area smaller than greater London.",
+      "hidden_gem_tip": "Bo-Kaap's painted houses are a living neighbourhood, not a set. Buy something, ask before photographing doorways, and walk up to the mosque at the top for the view back over the bowl.",
+      "walk": "BSxV9nUfDAU",
+      "monuments": [
+        {
+          "name": "Table Mountain",
+          "yt": "_hxuBVlmkjA",
+          "start": 0,
+          "source": "auto",
+          "title": "Table Mountain Walking Tour, Cape Town 🇿🇦 | Breathtaking Panorama Views in 4K 60FPS",
+          "height": 2160
+        },
+        {
+          "name": "Robben Island",
+          "yt": "N8R8_9JnlEQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Cape Town, South africa Virtual Walking tour - Robben Island | 4K HDR 🇿🇦",
+          "height": 2160
+        },
+        {
+          "name": "V&A Waterfront",
+          "yt": "MFRFYO7LbiE",
+          "start": 0,
+          "source": "auto",
+          "title": "Walk around ALL of the V&A Waterfront | Cape Town, South Africa | 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "table-mountain",
@@ -789,7 +1125,7 @@
       "country_code": "ZA",
       "country_flag": "🇿🇦",
       "continent": "Africa",
-      "region": "",
+      "region": "Western Cape",
       "type": "mountain",
       "tag": "famous",
       "emoji": "⛰️",
@@ -808,10 +1144,57 @@
       "sounds": [
         "mountain-wind.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Cape Town",
+          "wikipedia_slug": "Cape_Town"
+        },
+        {
+          "name": "Lion's Head",
+          "wikipedia_slug": "Lion's_Head_(Cape_Town)"
+        },
+        {
+          "name": "Table Mountain National Park",
+          "wikipedia_slug": "Table_Mountain_National_Park"
+        },
+        {
+          "name": "Kirstenbosch",
+          "wikipedia_slug": "Kirstenbosch_National_Botanical_Garden"
+        },
+        {
+          "name": "Devil's Peak",
+          "wikipedia_slug": "Devil's_Peak_(Cape_Town)"
+        }
+      ],
+      "blurb": "A three-kilometre level plateau of sandstone standing over Cape Town, reached by a rotating cable car or on foot up Platteklip Gorge. The 'tablecloth' of cloud pours over its northern edge when the southeaster blows and evaporates halfway down.",
+      "fun_fact": "The cable car's floor rotates through 360° during the five-minute ascent, so every passenger gets the whole view without moving — and the cars carry water up for the summit buildings as ballast.",
+      "hidden_gem_tip": "Walk down instead of riding down. Platteklip Gorge takes about 90 minutes on the way down and the light on the city is better in the late afternoon than from any photograph taken at the top.",
+      "monuments": [
+        {
+          "name": "Cape Town",
+          "yt": "fNInnjpaf6s",
+          "start": 0,
+          "source": "auto",
+          "title": "Cape Town City Tour | Table Mountain Cable Car Ride | South Africa",
+          "height": 2160
+        },
+        {
+          "name": "Lion's Head",
+          "yt": "sOm8DfbyF1s",
+          "start": 0,
+          "source": "auto",
+          "title": "Table Mountain & Lion's Head Hiking Guide (Cape Town)",
+          "height": 2160
+        },
+        {
+          "name": "Table Mountain National Park",
+          "yt": "g6rRW5cxMiM",
+          "start": 0,
+          "source": "auto",
+          "title": "⛰HIKING THE BEAUTIFUL 'OLD PIPE TRACK' - TABLE MOUNTAIN NATIONAL PARK, CAPE TOWN - JAN 2021 - 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "camps-bay",
@@ -855,7 +1238,33 @@
       ],
       "blurb": "A white-sand beach on the Atlantic side of the Cape Peninsula, with the grey buttresses of the Twelve Apostles standing straight up behind it and a strip of palm trees, bars and restaurants along Victoria Road. Cape Town's sunset address, and it knows it.",
       "fun_fact": "The sea here rarely gets above about 15 °C even in February: the Benguela current drags cold water up the west coast, so the beach a peninsula away in False Bay can be eight degrees warmer than this one.",
-      "hidden_gem_tip": "Walk north along the sand and over the rocks to Glen Beach, the small cove the surfers use — the crowd thins out completely, and the view back at the Apostles catching the last light is the one the restaurants on the strip are all facing away from."
+      "hidden_gem_tip": "Walk north along the sand and over the rocks to Glen Beach, the small cove the surfers use — the crowd thins out completely, and the view back at the Apostles catching the last light is the one the restaurants on the strip are all facing away from.",
+      "monuments": [
+        {
+          "name": "Lion's Head (Cape Town)",
+          "yt": "cYmx9TX96IA",
+          "start": 0,
+          "source": "auto",
+          "title": "Scenic View Of Camps Bay And Lion's Head Mountain in Cape Town South Africa At Sunset by Drone in 4K",
+          "height": 2160
+        },
+        {
+          "name": "Clifton, Cape Town",
+          "yt": "mE9EuzW8vig",
+          "start": 0,
+          "source": "auto",
+          "title": "🇿🇦 Sea Point, Camps Bay & Clifton Walking Tour 4K | Cape Town Coastal Day Walk",
+          "height": 2160
+        },
+        {
+          "name": "Bantry Bay, Cape Town",
+          "yt": "dUjTuEN-mtU",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Walk Tour | Bantry Bay Cape Town: South Africa's Second-Richest Neighborhood",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "johannesburg",
@@ -952,7 +1361,7 @@
       "country_code": "ZA",
       "country_flag": "🇿🇦",
       "continent": "Africa",
-      "region": "",
+      "region": "Mpumalanga",
       "type": "nature",
       "tag": "famous",
       "emoji": "🦁",
@@ -971,10 +1380,56 @@
       "sounds": [
         "mountain-wind.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Skukuza",
+          "wikipedia_slug": "Skukuza"
+        },
+        {
+          "name": "Sabie River",
+          "wikipedia_slug": "Sabie_River"
+        },
+        {
+          "name": "Olifants River",
+          "wikipedia_slug": "Olifants_River_(Limpopo)"
+        },
+        {
+          "name": "Blyde River Canyon",
+          "wikipedia_slug": "Blyde_River_Canyon"
+        },
+        {
+          "name": "Punda Maria"
+        }
+      ],
+      "blurb": "Nearly 20,000 km² of bushveld along South Africa's Mozambique border — the size of Wales, with 900 km of tarred road through it, which makes it one of the few great African parks you can drive yourself around in an ordinary car.",
+      "fun_fact": "Kruger holds the largest rhino population of any protected area on Earth, and the exact locations are a state secret: the park no longer publishes rhino counts by region, to keep them from poachers.",
+      "hidden_gem_tip": "Book a camp inside the gates and be on the road at opening. The first and last hour of light are when everything moves, and the gates shut hard at dusk — the fines are real.",
+      "monuments": [
+        {
+          "name": "Skukuza",
+          "yt": "AcuIKMSz0J8",
+          "start": 0,
+          "source": "auto",
+          "title": "Kruger National Park (Part 2) Skukuza, Satara, Olifants *WHERE TO GO & WHAT TO KNOW",
+          "height": 2160
+        },
+        {
+          "name": "Olifants River",
+          "yt": "g6HunfpmOak",
+          "start": 0,
+          "source": "auto",
+          "title": "Hiking the Kruger National Park | The Olifants River Trail",
+          "height": 2160
+        },
+        {
+          "name": "Blyde River Canyon",
+          "yt": "4V5uNOH9vKk",
+          "start": 0,
+          "source": "auto",
+          "title": "South Africa: 4 Days in Kruger National Park & Blyde River Canyon",
+          "height": 2160
+        }
+      ]
     }
   ]
 }

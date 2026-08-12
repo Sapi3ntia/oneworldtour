@@ -202,7 +202,33 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Freedom Trail",
+          "yt": "pdJx_nMi5XM",
+          "start": 0,
+          "source": "auto",
+          "title": "Freedom Trail in Boston, MA: 250 Years of American History in 16 Stops",
+          "height": 2160
+        },
+        {
+          "name": "Fenway Park",
+          "yt": "Nhmyn2PxToo",
+          "start": 0,
+          "source": "auto",
+          "title": "⁴ᴷ⁶⁰ Walking Boston, MA: Tour of Fenway Park",
+          "height": 2160
+        },
+        {
+          "name": "Harvard University",
+          "yt": "oxviJspqthc",
+          "start": 0,
+          "source": "auto",
+          "title": "HARVARD UNIVERSITY Campus Tour 2024 4K| Walking Tour Harvard University, Boston, Massachusetts USA",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "philadelphia",
@@ -384,7 +410,33 @@
       "hidden_gem_tip": null,
       "walk": "kwWeEQPA4Hc",
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "French Quarter",
+          "yt": "8TXVYCIwE_I",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Walking Tour through New Orleans' French Quarter (Narrated)",
+          "height": 2160
+        },
+        {
+          "name": "Bourbon Street",
+          "yt": "mkGYK98iMDA",
+          "start": 0,
+          "source": "auto",
+          "title": "[4k] New Orleans at Night - Bourbon Street Nightlife - The French Quarter",
+          "height": 2160
+        },
+        {
+          "name": "Garden District",
+          "yt": "H_THTmDJB5M",
+          "start": 0,
+          "source": "auto",
+          "title": "🌿 New Orleans – Garden District, Louisiana 🌿 | 4K Drive",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "miami",
@@ -432,7 +484,33 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "South Beach",
+          "yt": "SH7XDaVvNzE",
+          "start": 0,
+          "source": "auto",
+          "title": "Miami Beach Walking Tour 2026 South Beach, Florida & Art Deco Weekend 🇺🇸 [4K HDR]",
+          "height": 2160
+        },
+        {
+          "name": "Art Deco Historic District",
+          "yt": "58qAgBCfrc0",
+          "start": 0,
+          "source": "auto",
+          "title": "ART DECO HISTORIC DISTRICT SOUTH BEACH , MIAMI BEACH 4K ULTRA HD 60FPS OCTOBER 2020 USA AΩ",
+          "height": 2160
+        },
+        {
+          "name": "Wynwood Walls",
+          "yt": "gotEdEs0FC0",
+          "start": 0,
+          "source": "auto",
+          "title": "Wynwood Miami Walk 4k Full Tour Video Walls & Art",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "savannah",
@@ -476,7 +554,33 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Historic District",
+          "yt": "H3sMjRBFTyM",
+          "start": 0,
+          "source": "auto",
+          "title": "Savannah Ga Downtown - Savannah Historic District Things To Do - 4K Drive & Walking tour",
+          "height": 2160
+        },
+        {
+          "name": "Forsyth Park",
+          "yt": "gVHz_8WBGmc",
+          "start": 0,
+          "source": "auto",
+          "title": "A Walk Around Forsyth Park - Savannah, Georgia",
+          "height": 2160
+        },
+        {
+          "name": "River Street",
+          "yt": "jl3wom2ImJg",
+          "start": 0,
+          "source": "auto",
+          "title": "Savannah, Georgia Evening Walk 🇺🇸 | River Street & Historic District in 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "charleston",
@@ -520,7 +624,33 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "The Battery",
+          "yt": "Cih0XeaUfDY",
+          "start": 0,
+          "source": "auto",
+          "title": "Quick Road Tour of Charleston, South Carolina in 4K - The Battery Charleston",
+          "height": 2160
+        },
+        {
+          "name": "Rainbow Row",
+          "yt": "E7yuhVnjPbQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Charleston, USA – Rainbow Row & Historic Streets | 4K Walking Tour",
+          "height": 2160
+        },
+        {
+          "name": "Historic District",
+          "yt": "Z6rFzClEw0g",
+          "start": 0,
+          "source": "auto",
+          "title": "Charleston South Carolina Historic District Walking Tour【4K】",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "nashville",
@@ -639,7 +769,33 @@
       "fun_fact": "About 1.5 million Mexican free-tailed bats live under the Ann W. Richards Congress Avenue Bridge from spring to autumn — the largest urban bat colony in North America. They came for the crevices left by a 1980 redeck, nobody planned it, and the evening flyout stops traffic on the bridge.",
       "hidden_gem_tip": "Barton Springs is spring-fed, three acres of it, and holds about 20°C all year whatever the month is doing. Go early enough and it is mostly people who swim it every day.",
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Texas State Capitol",
+          "yt": "WPmlOWAX0tA",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking Inside Texas State Capitol, Austin | Stunning Architecture | Full Walking Experience 4K",
+          "height": 2160
+        },
+        {
+          "name": "Barton Springs Pool",
+          "yt": "TvN02NIJ1s0",
+          "start": 0,
+          "source": "auto",
+          "title": "Fly over Town Lake to Barton Springs Pool! [4K]",
+          "height": 2160
+        },
+        {
+          "name": "South Congress",
+          "yt": "1onp_2tGers",
+          "start": 0,
+          "source": "auto",
+          "title": "South Congress | Austin 4K Walking Tour",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "san-antonio",
@@ -687,7 +843,33 @@
         "start": 126
       },
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "The Alamo",
+          "yt": "KAiO2ESBGLk",
+          "start": 0,
+          "source": "auto",
+          "title": "Visiting the Alamo San Antonio, Texas",
+          "height": 2160
+        },
+        {
+          "name": "River Walk",
+          "yt": "_lm5tDZcau4",
+          "start": 0,
+          "source": "auto",
+          "title": "SAN ANTONIO RIVER WALK ☀️ Beautiful Day Walk | San Antonio Texas 4K Travel Tour",
+          "height": 2160
+        },
+        {
+          "name": "San Antonio Missions",
+          "yt": "hpbklx42Fes",
+          "start": 0,
+          "source": "auto",
+          "title": "San Antonio Missions a UNESCO World Heritage Site in San Antonio, Texas",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "las-vegas",
@@ -731,7 +913,33 @@
       "fun_fact": "There are no clocks and few windows on most Vegas casino floors by design — to keep you happily unaware of how much time has passed.",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "The Strip",
+          "yt": "4VcplHl78BY",
+          "start": 0,
+          "source": "auto",
+          "title": "Las Vegas Strip Walking Tour | Hot Summer Night | August 2026 [4K HDR]",
+          "height": 2160
+        },
+        {
+          "name": "Fremont Street",
+          "yt": "dHCndDQD0UI",
+          "start": 0,
+          "source": "auto",
+          "title": "St. Patrick's Day 2026: Fremont Street Experience Las Vegas Walking Tour (4K)",
+          "height": 2160
+        },
+        {
+          "name": "Bellagio Fountains",
+          "yt": "bu7JAXaaGyE",
+          "start": 0,
+          "source": "auto",
+          "title": "Fountains of Bellagio Water Show Las Vegas 4K | Uptown Funk",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "los-angeles",
@@ -928,7 +1136,33 @@
       "hidden_gem_tip": null,
       "webcam": "edz0ux7JClE",
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Balboa Park",
+          "yt": "E9OMQNSWWHE",
+          "start": 0,
+          "source": "auto",
+          "title": "San Diego WalkThru — Balboa Park - 4K UHD",
+          "height": 2160
+        },
+        {
+          "name": "San Diego Zoo",
+          "yt": "0FEcpKj3h8c",
+          "start": 0,
+          "source": "auto",
+          "title": "San Diego Zoo FULL TOUR: the 10 Best Things to Do [4k]",
+          "height": 2160
+        },
+        {
+          "name": "La Jolla Cove",
+          "yt": "oEziIr2gZFg",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] La Jolla Cove - San Diego, California | Virtual Walking Tour",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "seattle",
@@ -980,7 +1214,33 @@
         "start": 60
       },
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Space Needle",
+          "yt": "2ommlYM47W0",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] Seattle Walk : Seattle Center and Space Needle",
+          "height": 2160
+        },
+        {
+          "name": "Pike Place Market",
+          "yt": "82byORQyTVw",
+          "start": 0,
+          "source": "auto",
+          "title": "Pike Place Market 🇺🇸 Seattle Washington 4K Walking Tour",
+          "height": 2160
+        },
+        {
+          "name": "Chihuly Garden and Glass",
+          "yt": "zJMleoyr6pA",
+          "start": 0,
+          "source": "auto",
+          "title": "Space Needle & Chihuly Garden and Glass Seattle Walking Tour 2023 | 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "portland-or",
@@ -1024,7 +1284,33 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Powell's City of Books",
+          "yt": "Y93eFdek5-8",
+          "start": 0,
+          "source": "auto",
+          "title": "Tour World's Largest bookstores | Indie vs. Chain | 4K POV with Commentary | Powell's vs. B&N",
+          "height": 2160
+        },
+        {
+          "name": "Washington Park",
+          "yt": "89zAXGGOOCA",
+          "start": 0,
+          "source": "auto",
+          "title": "4k Virtual Hike - Portland Oregon - Washington Park Trail - POV - May 2023 ending at the Rose Garden",
+          "height": 2160
+        },
+        {
+          "name": "Columbia River Gorge",
+          "yt": "Er-Kiscwtrg",
+          "start": 0,
+          "source": "auto",
+          "title": "The BEST VIEWS overlooking the Columbia River Gorge | Proof with amazing 4k drone footage",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "denver",
@@ -1068,7 +1354,33 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Red Rocks Amphitheatre",
+          "yt": "TntUv3lK6lU",
+          "start": 0,
+          "source": "auto",
+          "title": "Red Rocks Amphitheatre Walkthrough (5K Resolution)",
+          "height": 2160
+        },
+        {
+          "name": "Larimer Square",
+          "yt": "b__m7clPL5I",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking Tour - Denver, Colorado - Denver Art Museum to Larimer Square |  With Calm Music [4K HDR]",
+          "height": 2160
+        },
+        {
+          "name": "Rocky Mountain gateway",
+          "yt": "OcVrN9gnA7M",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Driving Through Golden, Colorado | Historic Downtown & Rocky Mountain Gateway",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "santa-fe",
@@ -1161,7 +1473,33 @@
       "hidden_gem_tip": null,
       "webcam": "8waVy4wM1tM",
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Waikiki Beach",
+          "yt": "grLT3qICRDo",
+          "start": 0,
+          "source": "auto",
+          "title": "Waikiki Beach, Honolulu - Oahu, Hawaii | 4K drone video",
+          "height": 2160
+        },
+        {
+          "name": "Pearl Harbor",
+          "yt": "9uZpYfsDeyw",
+          "start": 0,
+          "source": "auto",
+          "title": "Hawaii - Oahu Paradise: Waikiki, Waimanalo Beach, and Pearl Harbor in 4K",
+          "height": 2160
+        },
+        {
+          "name": "Diamond Head",
+          "yt": "7nO82JriPp4",
+          "start": 0,
+          "source": "auto",
+          "title": "Diamond Head Crater Trail Walk 4K-HD Oahu Hawaii 🇺🇸 January 2026",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "grand-canyon",
@@ -1209,7 +1547,33 @@
       "fun_fact": "The Grand Canyon is so large it creates its own weather, and temperatures at the bottom can be over 11°C warmer than at the rim.",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "South Rim",
+          "yt": "WwDSi7r4iz8",
+          "start": 0,
+          "source": "auto",
+          "title": "Grand Canyon South Rim Best Viewpoints Tour — 21 Points!",
+          "height": 2160
+        },
+        {
+          "name": "Havasu Falls",
+          "yt": "K3iDWxQlUlQ",
+          "start": 0,
+          "source": "auto",
+          "title": "The Havasupai Falls Hike: From the Permits to Havasu Falls",
+          "height": 2160
+        },
+        {
+          "name": "Desert View Watchtower",
+          "yt": "mG0tgzAGXxM",
+          "start": 0,
+          "source": "auto",
+          "title": "4k Driving & Walking Video - Desert View Watchtower - Grand Canyon, Arizona",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "yellowstone",
@@ -1257,7 +1621,33 @@
       "fun_fact": "Old Faithful is so reliable it can be predicted within about 10 minutes — it erupts roughly 17 times a day, shooting water over 30 metres high.",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Old Faithful",
+          "yt": "68vcDKvbr5E",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Video of Old Faithful geyser in Yellowstone",
+          "height": 2160
+        },
+        {
+          "name": "Grand Prismatic Spring",
+          "yt": "yB-osclSVk8",
+          "start": 0,
+          "source": "auto",
+          "title": "Yellowstone 4K - Discover Grand Prismatic Spring With Soothings Music",
+          "height": 2160
+        },
+        {
+          "name": "Grand Canyon of the Yellowstone",
+          "yt": "77Fckiv3WF8",
+          "start": 0,
+          "source": "auto",
+          "title": "YELLOWSTONE – Exploring the GRAND LOOP ROAD from Yellowstone Canyon to Mammoth Hot Springs | 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "yosemite",
@@ -1309,7 +1699,33 @@
       "fun_fact": "Yosemite Falls is North America's tallest waterfall at 739 metres — yet it can run completely dry by late summer.",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "El Capitan",
+          "yt": "gjdMs52eOjU",
+          "start": 0,
+          "source": "auto",
+          "title": "YOSEMITE - EL CAPITAN [4K] [60FPS]",
+          "height": 2160
+        },
+        {
+          "name": "Half Dome",
+          "yt": "AsM2GuLyTL8",
+          "start": 0,
+          "source": "auto",
+          "title": "Half Dome Hike - Yosemite National Park - Vernal & Nevada Waterfalls",
+          "height": 2160
+        },
+        {
+          "name": "Yosemite Falls",
+          "yt": "FJl6Op-xd28",
+          "start": 0,
+          "source": "auto",
+          "title": "Yosemite Falls | The Tallest Waterfall in North America (4K)",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "zion",
@@ -1353,7 +1769,33 @@
       "fun_fact": "The Narrows hike is done mostly IN the river itself — for much of it, the canyon walls are too close to walk anywhere but the water.",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "The Narrows",
+          "yt": "lpjEJvz2xNg",
+          "start": 0,
+          "source": "auto",
+          "title": "The Narrows - Virtual Hike in the Zion National Park in 4K (Ultra HD) with Nature Sounds",
+          "height": 2160
+        },
+        {
+          "name": "Angels Landing",
+          "yt": "74TFre788hw",
+          "start": 0,
+          "source": "auto",
+          "title": "4K - Angels Landing, Zion National Park - DO NOT Attempt This Climb",
+          "height": 2160
+        },
+        {
+          "name": "Emerald Pools",
+          "yt": "te7uWeASYXI",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Virtual Tour of the Emerald Pools Trail - Beautiful Nature & Wildlife of Zion National Park",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "bryce-canyon",
@@ -1397,7 +1839,33 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "The Hoodoos",
+          "yt": "b40Cx3PCuBI",
+          "start": 0,
+          "source": "auto",
+          "title": "BRYCE CANYON Largest Collection of Hoodoos in the World | 4K",
+          "height": 2160
+        },
+        {
+          "name": "Bryce Amphitheater",
+          "yt": "BTn5O3rcimI",
+          "start": 0,
+          "source": "auto",
+          "title": "Bryce Canyon National Park: Bryce Amphitheater & Aquarius Plateau from Sunset Point Utah, USA 4k",
+          "height": 2160
+        },
+        {
+          "name": "Sunrise Point",
+          "yt": "5q0DMhtn8Uo",
+          "start": 0,
+          "source": "auto",
+          "title": "HIKING FAIRYLAND LOOP TRAIL in 4K, Sunrise Point---Bryce Canyon National Park, Utah",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "arches",
@@ -1441,7 +1909,33 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Delicate Arch",
+          "yt": "uV6dtknah8M",
+          "start": 0,
+          "source": "auto",
+          "title": "🏞️ One of a Kind! - Delicate Arch @ Arches National Park, Utah - 4K - POV - Virtual Tour - 2021",
+          "height": 2160
+        },
+        {
+          "name": "Landscape Arch",
+          "yt": "eMsyuA-Z0P8",
+          "start": 0,
+          "source": "auto",
+          "title": "Arches National Park Virtual Walk - Landscape Arch - 4k Nature Walk & Treadmill Trail - CityWalks",
+          "height": 2160
+        },
+        {
+          "name": "Double Arch",
+          "yt": "NDqR1pfjS3o",
+          "start": 0,
+          "source": "auto",
+          "title": "Hike to Double Arch - Arches National Park Utah [4K]",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "grand-teton",
@@ -1485,7 +1979,25 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Jenny Lake",
+          "yt": "mmYjxQIQEsU",
+          "start": 0,
+          "source": "auto",
+          "title": "Grand Teton National Park - 48 Hours Exploring Jenny Lake, Cascade Canyon & More",
+          "height": 2160
+        },
+        {
+          "name": "Snake River",
+          "yt": "RbJuGriPMLM",
+          "start": 0,
+          "source": "auto",
+          "title": "Snake River Float Trip and tour of Grand Teton (Amazing Footage) Camping and Overlanding Trip",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "glacier-np",
@@ -1529,7 +2041,33 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Going-to-the-Sun Road",
+          "yt": "-siQBPqiODw",
+          "start": 0,
+          "source": "auto",
+          "title": "Going-to-the-Sun Road at Glacier National Park | Complete Tour End-to-End",
+          "height": 2160
+        },
+        {
+          "name": "Lake McDonald",
+          "yt": "g71AuvdUtco",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Nature ASMR - Lake McDonald in Glacier National Park Relaxing Sound for Sleep and Study",
+          "height": 2160
+        },
+        {
+          "name": "Logan Pass",
+          "yt": "ckxL7Mb1drc",
+          "start": 0,
+          "source": "auto",
+          "title": "Logan Pass to Hidden Lake in Montana's Glacier National Park: hike in 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "rocky-mountain-np",
@@ -1573,7 +2111,33 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Trail Ridge Road",
+          "yt": "HLeJTHOH420",
+          "start": 0,
+          "source": "auto",
+          "title": "Experience Trail Ridge Road: Visitor's Guide & Highlights",
+          "height": 2160
+        },
+        {
+          "name": "Bear Lake",
+          "yt": "DzYjHYSfAgg",
+          "start": 0,
+          "source": "auto",
+          "title": "Rocky Mountain National Park The Stunning Bear Lake 4K Colorado | Day 2",
+          "height": 2160
+        },
+        {
+          "name": "Longs Peak",
+          "yt": "V6SKpQS1vBI",
+          "start": 0,
+          "source": "auto",
+          "title": "Longs Peak | Climbing the Most Deadly Mountain in Colorado",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "great-smoky-mountains",
@@ -1617,7 +2181,33 @@
       "fun_fact": "The Smokies' famous 'smoke' is actually fog produced by the forest — the trees release tiny organic compounds that scatter blue light.",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Clingmans Dome",
+          "yt": "Vg1qgZCgkfY",
+          "start": 0,
+          "source": "auto",
+          "title": "Clingmans Dome Great Smoky Mountains National Park 4K",
+          "height": 2160
+        },
+        {
+          "name": "Cades Cove",
+          "yt": "TxyKq4g3wAA",
+          "start": 0,
+          "source": "auto",
+          "title": "Cades Cove Loop Road - 4K Real-Time Drive Around Great Smoky Mountains NP's Most Beautiful Area",
+          "height": 2160
+        },
+        {
+          "name": "Newfound Gap",
+          "yt": "0HudVknnjUo",
+          "start": 0,
+          "source": "auto",
+          "title": "Great Smoky Mtn Natnl Park - Newfound Gap Road",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "acadia",
@@ -1661,7 +2251,25 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Cadillac Mountain",
+          "yt": "NEx62bTX7mE",
+          "start": 0,
+          "source": "auto",
+          "title": "Cadillac Mountain 4K Scenic Drive | Breathtaking Acadia National Park Views | Cruising America",
+          "height": 2160
+        },
+        {
+          "name": "Bar Harbor",
+          "yt": "RWrmz_ddKFI",
+          "start": 0,
+          "source": "auto",
+          "title": "BAR HARBOR WALKING TOUR in 4K (Acadia, Maine)",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "everglades",
@@ -1705,7 +2313,25 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Anhinga Trail",
+          "yt": "gYmSy93ujN4",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] EVERGLADES NATIONAL PARK, Florida | Hiking the Anhinga Trail",
+          "height": 2160
+        },
+        {
+          "name": "Ten Thousand Islands",
+          "yt": "pShnlsFXq-A",
+          "start": 0,
+          "source": "auto",
+          "title": "Ten Thousand Islands Tour | Everglades National Park",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "sequoia",
@@ -1749,7 +2375,33 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "General Sherman Tree",
+          "yt": "TfcJJFtkDRM",
+          "start": 0,
+          "source": "auto",
+          "title": "General Sherman Tree Trail: Hiking to the Largest Tree in the World",
+          "height": 2160
+        },
+        {
+          "name": "Giant Forest",
+          "yt": "WWorX7kqC9g",
+          "start": 0,
+          "source": "auto",
+          "title": "The Giant Forest 4K | Sequoia National Park",
+          "height": 2160
+        },
+        {
+          "name": "Moro Rock",
+          "yt": "kYYX91etEXQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Moro Rock Trail in Sequoia National Park",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "death-valley",
@@ -1793,7 +2445,33 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Badwater Basin",
+          "yt": "Gsps1NNTBhs",
+          "start": 0,
+          "source": "auto",
+          "title": "Badwater Basin in Death Valley (4K)",
+          "height": 2160
+        },
+        {
+          "name": "Zabriskie Point",
+          "yt": "tqLBFsHnZdg",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] Death Valley: Zabriskie Point Walking Tour - WITH CAPTIONS",
+          "height": 2160
+        },
+        {
+          "name": "Mesquite Flat Dunes",
+          "yt": "HvnoSTqdLgQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Hiking Death Valley | Mesquite Flat Sand Dunes, Natural Bridge & Badwater Basin | 4K HDR",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "joshua-tree",
@@ -1837,7 +2515,33 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Joshua Trees",
+          "yt": "gQ4ntxAZ3ug",
+          "start": 0,
+          "source": "auto",
+          "title": "Joshua Tree National Park 4K Scenic Drive | Desert Rock Formations & Joshua Trees",
+          "height": 2160
+        },
+        {
+          "name": "Hidden Valley",
+          "yt": "Vbn1L-xrHRI",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K]  Joshua Tree National Park California - Hidden Valley - Walking Tour",
+          "height": 2160
+        },
+        {
+          "name": "Keys View",
+          "yt": "pbWFcY_qQF4",
+          "start": 0,
+          "source": "auto",
+          "title": "Keys View- Joshua Tree National Park - 22 Mar 2023 - 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "olympic-np",
@@ -1881,7 +2585,33 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Hoh Rain Forest",
+          "yt": "B6jQTUcKa24",
+          "start": 0,
+          "source": "auto",
+          "title": "Hoh Rain Forest Olympic National Park Washington 4K 🇺🇸",
+          "height": 2160
+        },
+        {
+          "name": "Hurricane Ridge",
+          "yt": "SoLtSzfOfzg",
+          "start": 0,
+          "source": "auto",
+          "title": "Hurricane Ridge - Olympic National Park 4K",
+          "height": 2160
+        },
+        {
+          "name": "Ruby Beach",
+          "yt": "5t01O_S8gDE",
+          "start": 0,
+          "source": "auto",
+          "title": "Ruby Beach in Olympic National Park Washington - 4K Virtual Tour",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "mount-rainier",
@@ -1925,7 +2655,25 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Paradise",
+          "yt": "AA_IIt6lYJ4",
+          "start": 0,
+          "source": "auto",
+          "title": "Paradise Loop :The most luxuriant and beautiful of all mountain hikes in 4K #mtrainier",
+          "height": 2160
+        },
+        {
+          "name": "Sunrise",
+          "yt": "sPraF7AbUVM",
+          "start": 0,
+          "source": "auto",
+          "title": "Sunrise Park Road | Stunning Drive to Mount Rainier’s Highest Viewpoint (4K)",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "hawaii-volcanoes",
@@ -1969,7 +2717,33 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Kīlauea",
+          "yt": "cNBDp_b4tPg",
+          "start": 0,
+          "source": "auto",
+          "title": "Kilauea Volcano Hawaii Fissure Eruption 4K Stock Footage Reel",
+          "height": 2160
+        },
+        {
+          "name": "Mauna Loa",
+          "yt": "tIpr9vknflA",
+          "start": 0,
+          "source": "auto",
+          "title": "MAUNA LOA ERUPTION, HAWAII 2022 (4K)!",
+          "height": 2160
+        },
+        {
+          "name": "Chain of Craters Road",
+          "yt": "s3g6Gj3uQmc",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] Hawaii Volcanoes National Park |Chain of Craters Road | Driving in Big Island |  ハワイ火山国立公園",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "denali",
@@ -2013,7 +2787,33 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Denali (Mt. McKinley)",
+          "yt": "aA4d206VRn0",
+          "start": 0,
+          "source": "auto",
+          "title": "Flight Tour of Denali/Mt. McKinley and Denali National Park",
+          "height": 720
+        },
+        {
+          "name": "Wonder Lake",
+          "yt": "1k7GZml6wvQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Backpacking in Denali National Park - Wonder Lake - 2022",
+          "height": 2026
+        },
+        {
+          "name": "Park Road",
+          "yt": "2aMJI3KThVw",
+          "start": 0,
+          "source": "auto",
+          "title": "Denali National Park // Riding the Park Road",
+          "height": 1920
+        }
+      ]
     },
     {
       "id": "monument-valley",
@@ -2057,7 +2857,33 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "The Mittens",
+          "yt": "L8QUJRfivAo",
+          "start": 0,
+          "source": "auto",
+          "title": "Monument Valley \"The Mittens\"",
+          "height": 1080
+        },
+        {
+          "name": "Navajo Tribal Park",
+          "yt": "KC7Z1rIF120",
+          "start": 0,
+          "source": "auto",
+          "title": "Monument Valley 4K | Navajo Tribal Park Arizona & Utah 🏜  us",
+          "height": 2160
+        },
+        {
+          "name": "Forrest Gump Point",
+          "yt": "EAwrrnTXWrA",
+          "start": 0,
+          "source": "auto",
+          "title": "ARIZONA 🚗 Drive Monument Valley 🇺🇸 Forrest Gump Point 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "antelope-canyon",
@@ -2101,7 +2927,25 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Upper Antelope Canyon",
+          "yt": "VsNxp8v5DJA",
+          "start": 0,
+          "source": "auto",
+          "title": "Upper ANTELOPE CANYON Tour | Page, AZ",
+          "height": 2160
+        },
+        {
+          "name": "Lake Powell",
+          "yt": "IeD6ZM_DwCo",
+          "start": 0,
+          "source": "auto",
+          "title": "Lake Powell Antelope Canyon Boat Tour 20180529 4K UHD",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "sedona",
@@ -2145,7 +2989,33 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Cathedral Rock",
+          "yt": "5EgZyc_SKmY",
+          "start": 0,
+          "source": "auto",
+          "title": "Cathedral Rock, Sedona Guide: Hike to the Top, Vortex, & Best Views Around Sedona! [4K]",
+          "height": 2160
+        },
+        {
+          "name": "Red Rock State Park",
+          "yt": "ixmf_TNFaXM",
+          "start": 0,
+          "source": "auto",
+          "title": "Are the BEST VIEWS in SEDONA at RED ROCK STATE PARK? | Arizona",
+          "height": 2160
+        },
+        {
+          "name": "Oak Creek Canyon",
+          "yt": "-IZzpPQXmJE",
+          "start": 0,
+          "source": "auto",
+          "title": "Sedona, Arizona - Oak Creek Canyon Scenic Drive from Flagstaff 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "mount-rushmore",
@@ -2189,7 +3059,25 @@
       "fun_fact": "Not a single worker died during the dangerous 14-year carving of Mount Rushmore, despite the heavy use of dynamite.",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Black Hills",
+          "yt": "_ShuwtyTmmU",
+          "start": 0,
+          "source": "auto",
+          "title": "SOUTH DAKOTA 4K Scenic Relaxation Film | Mount Rushmore | Black Hills | Aerial Drone Movie",
+          "height": 2160
+        },
+        {
+          "name": "Badlands National Park",
+          "yt": "Nrwb7Yg97yg",
+          "start": 0,
+          "source": "auto",
+          "title": "Badlands National Park Ultimate One-Day Itinerary",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "lake-tahoe",
@@ -2234,7 +3122,33 @@
       "hidden_gem_tip": null,
       "webcam": "Lk0Z5ExUWL0",
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Emerald Bay",
+          "yt": "Jk94U-4Uh9Y",
+          "start": 0,
+          "source": "auto",
+          "title": "EMERALD BAY LAKE TAHOE 4K | 7 Mins of Prettiest Place on Earth",
+          "height": 2160
+        },
+        {
+          "name": "Sand Harbor",
+          "yt": "6xWiBTV2mJ4",
+          "start": 0,
+          "source": "auto",
+          "title": "Sand Harbor and Lake Tahoe 4K",
+          "height": 2160
+        },
+        {
+          "name": "Heavenly",
+          "yt": "5P2a3TeUA3k",
+          "start": 0,
+          "source": "auto",
+          "title": "Heavenly Ski Resort Lake Tahoe | Complete guide, best runs, skiing and snowboarding in Tahoe",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "big-sur",
@@ -2278,7 +3192,33 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Bixby Creek Bridge",
+          "yt": "j622ujumLBY",
+          "start": 0,
+          "source": "auto",
+          "title": "Driving Over The Bixby Creek Bridge In Big Sur California | 360 Videos Of Northern California",
+          "height": 2160
+        },
+        {
+          "name": "McWay Falls",
+          "yt": "n1PF27PnEc0",
+          "start": 0,
+          "source": "auto",
+          "title": "[4KHDR] McWay Falls",
+          "height": 2160
+        },
+        {
+          "name": "Pfeiffer Beach",
+          "yt": "tx76KhT9CdI",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] Pfeiffer Beach Big Sur | Purple Sand, Sea Arch & Powerful Pacific Waves",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "maui",
@@ -2326,7 +3266,33 @@
       "fun_fact": "From the seafloor to its summit, the Hawaiian volcano Mauna Kea is taller than Mount Everest — and you can watch sunrise above the clouds atop Maui's Haleakalā.",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Road to Hana",
+          "yt": "emEmK2iMZsQ",
+          "start": 0,
+          "source": "auto",
+          "title": "MAUI (Road to Hana) Hawaii - driving tour [4K]",
+          "height": 2160
+        },
+        {
+          "name": "Haleakalā",
+          "yt": "1G569nR61OQ",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Drone Footage - Haleakala, Maui, Hawaii Video",
+          "height": 2160
+        },
+        {
+          "name": "Lahaina",
+          "yt": "S_OVCtnTIRU",
+          "start": 0,
+          "source": "auto",
+          "title": "(4K HDR) Lahaina, Maui, Hawaii Narrated Walk - 2023",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "kauai",
@@ -2370,7 +3336,33 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Nā Pali Coast",
+          "yt": "frIdwmaMc8c",
+          "start": 0,
+          "source": "auto",
+          "title": "Na Pali Coast - Kauai, Hawaii 4K Drone footage",
+          "height": 2160
+        },
+        {
+          "name": "Waimea Canyon",
+          "yt": "jE-oAQyTrd8",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] DON’T MISS THIS GEM of KAUAI | Waimea Canyon, Hawaii, USA",
+          "height": 2160
+        },
+        {
+          "name": "Hanalei Bay",
+          "yt": "WlCeP23TZOU",
+          "start": 0,
+          "source": "auto",
+          "title": "Hanalei Bay Walking Tour – Kauai’s Most Beautiful Beach ASMR (4K)",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "key-west",
@@ -2419,7 +3411,33 @@
       "hidden_gem_tip": null,
       "webcam": "HDlmUp4JBLg",
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Duval Street",
+          "yt": "nZW-Da8kkes",
+          "start": 0,
+          "source": "auto",
+          "title": "Key West Walking Tour | Duval Street to the Southernmost Point - 4K",
+          "height": 2160
+        },
+        {
+          "name": "Southernmost Point",
+          "yt": "MPZiSHni8HA",
+          "start": 0,
+          "source": "auto",
+          "title": "Key West Walking Tour From Cruise Port to Southernmost Point | Duval Street Ambient City Walk (4K)",
+          "height": 2160
+        },
+        {
+          "name": "Ernest Hemingway House",
+          "yt": "mppF_9Rod_c",
+          "start": 0,
+          "source": "auto",
+          "title": "Ernest Hemingway 4K Home Museum walk through house Key West 2019 60fps",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "outer-banks",
@@ -2463,7 +3481,25 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Wright Brothers Memorial",
+          "yt": "7FXc1vIqVv4",
+          "start": 0,
+          "source": "auto",
+          "title": "WHERE IT ALL BEGAN! Wright Brothers National Memorial (Kill Devil Hills, NC) | Full Tour [4K]",
+          "height": 2160
+        },
+        {
+          "name": "Jockey's Ridge",
+          "yt": "vXPl1K8tI3s",
+          "start": 0,
+          "source": "auto",
+          "title": "TALLEST SAND DUNES IN EASTERN U.S.:JOCKEY'S RIDGE STATE PARK, OUTER BANKS (4K)",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "st-louis",
@@ -3696,14 +4732,6 @@
           "source": "auto",
           "title": "Kayak Camping - Caddo Lake, Caddo Lake State Park",
           "height": 1080
-        },
-        {
-          "name": "Jefferson",
-          "yt": "Ab1UZgzBMME",
-          "start": 0,
-          "source": "auto",
-          "title": "[4K] FT JEFFERSON Moat - Dry Tortugas National Park - Relaxing Scenic Walking Tour Binaural 🎧",
-          "height": 2160
         }
       ]
     },
@@ -3951,14 +4979,6 @@
           "start": 0,
           "source": "auto",
           "title": "NATCHEZ TRACE PARKWAY | MISSISSIPPI | TENNESSEE | ALABAMA | Old Trace",
-          "height": 2160
-        },
-        {
-          "name": "Longwood",
-          "yt": "fhw5nidguzo",
-          "start": 0,
-          "source": "auto",
-          "title": "Ghost of Longwood Warren CC + Hinton Ampner 4K",
           "height": 2160
         }
       ]

@@ -49,7 +49,7 @@
       "country_code": "AU",
       "country_flag": "🇦🇺",
       "continent": "Oceania",
-      "region": "",
+      "region": "Victoria",
       "type": "city",
       "tag": "famous",
       "emoji": "🎨",
@@ -68,10 +68,57 @@
       "sounds": [
         "city-hum.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Federation Square",
+          "wikipedia_slug": "Federation_Square"
+        },
+        {
+          "name": "Royal Exhibition Building",
+          "wikipedia_slug": "Royal_Exhibition_Building"
+        },
+        {
+          "name": "Queen Victoria Market",
+          "wikipedia_slug": "Queen_Victoria_Market"
+        },
+        {
+          "name": "Hosier Lane",
+          "wikipedia_slug": "Hosier_Lane"
+        },
+        {
+          "name": "Melbourne Cricket Ground",
+          "wikipedia_slug": "Melbourne_Cricket_Ground"
+        }
+      ],
+      "blurb": "Australia's coffee and arts capital — a grid of Victorian arcades and graffitied laneways on the Yarra, with trams through the middle of it and famously four seasons in one day.",
+      "fun_fact": "The Royal Exhibition Building was the first building in Australia to get World Heritage status, and the first federal parliament sat in it in 1901 while Canberra did not yet exist.",
+      "hidden_gem_tip": "The laneways are the point. Start at Hosier Lane, then work through Centre Place and Degraves Street — the street art is repainted often enough that nobody sees the same walls twice.",
+      "monuments": [
+        {
+          "name": "Federation Square",
+          "yt": "5CAMSYnA1EI",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking Federation Square | Sunday Afternoon | Melbourne Australia | 4K UHD",
+          "height": 2160
+        },
+        {
+          "name": "Royal Exhibition Building",
+          "yt": "DUco99SO6Ts",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking From Royal Exhibition Building To Parliament House | Melbourne Australia | 4K UHD",
+          "height": 2160
+        },
+        {
+          "name": "Queen Victoria Market",
+          "yt": "8amrequZMzc",
+          "start": 0,
+          "source": "auto",
+          "title": "Melbourne Australia Walking Tour - Queen Victoria Market Melbourne | 4K Video",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "uluru",
@@ -80,7 +127,7 @@
       "country_code": "AU",
       "country_flag": "🇦🇺",
       "continent": "Oceania",
-      "region": "",
+      "region": "Northern Territory",
       "type": "desert",
       "tag": "famous",
       "emoji": "🪨",
@@ -99,10 +146,55 @@
       "sounds": [
         "mountain-wind.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Kata Tjuta",
+          "wikipedia_slug": "Kata_Tjuta"
+        },
+        {
+          "name": "Uluru-Kata Tjuta National Park",
+          "wikipedia_slug": "Uluṟu-Kata_Tjuṯa_National_Park"
+        },
+        {
+          "name": "Mutitjulu Waterhole"
+        },
+        {
+          "name": "Valley of the Winds"
+        },
+        {
+          "name": "Yulara",
+          "wikipedia_slug": "Yulara,_Northern_Territory"
+        }
+      ],
+      "blurb": "A single sandstone inselberg 348 m high and 9.4 km around, standing alone in the red centre of Australia — the most sacred site of the Anangu, who have lived alongside it for tens of thousands of years.",
+      "fun_fact": "What you see is the tip: the rock continues underground for an estimated 2.5 km, and its colour changes because the iron in the surface arkose rusts and catches low sun.",
+      "hidden_gem_tip": "Climbing has been banned since October 2019 at the Anangu's long-standing request. Walk the base loop instead — 10.6 km, flat, and the caves and paintings around the foot are what the rock is actually about.",
+      "monuments": [
+        {
+          "name": "Kata Tjuta",
+          "yt": "ni4c1ZnPw_Q",
+          "start": 0,
+          "source": "auto",
+          "title": "Kata Tjuṯa Valley of the Winds 4K Walk 🇦🇺 | Australia’s Red Centre Walking Tour 2025",
+          "height": 2160
+        },
+        {
+          "name": "Uluru-Kata Tjuta National Park",
+          "yt": "BmsSgXleiBA",
+          "start": 0,
+          "source": "auto",
+          "title": "Uluru - Kata Tjuta National Park! Sunrise Field of Light!",
+          "height": 2160
+        },
+        {
+          "name": "Mutitjulu Waterhole",
+          "yt": "uOnXxnFzSxc",
+          "start": 0,
+          "source": "auto",
+          "title": "Kuniya walk and Mutitjulu Waterhole - Visiting Uluru National Park (4K HDR on Sony A7S3 & iPhone 12)",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "great-barrier-reef",
@@ -111,7 +203,7 @@
       "country_code": "AU",
       "country_flag": "🇦🇺",
       "continent": "Oceania",
-      "region": "",
+      "region": "Queensland",
       "type": "coastal",
       "tag": "famous",
       "emoji": "🐠",
@@ -130,10 +222,55 @@
       "sounds": [
         "ocean-waves.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Whitsunday Islands",
+          "wikipedia_slug": "Whitsunday_Islands"
+        },
+        {
+          "name": "Heart Reef"
+        },
+        {
+          "name": "Lady Elliot Island",
+          "wikipedia_slug": "Lady_Elliot_Island"
+        },
+        {
+          "name": "Ribbon Reefs"
+        },
+        {
+          "name": "Heron Island",
+          "wikipedia_slug": "Heron_Island_(Queensland)"
+        }
+      ],
+      "blurb": "The largest living structure on Earth — 2,300 km of coral along the Queensland coast, made of some 2,900 individual reefs and 900 islands, and the only living thing visible from orbit with the naked eye.",
+      "fun_fact": "The reef has suffered repeated mass bleaching events since 2016, driven by marine heatwaves; the northern third lost roughly half its shallow-water coral in 2016–17 alone.",
+      "hidden_gem_tip": "The outer ribbon reefs off Cairns and Port Douglas are in far better condition than the inshore ones — go further out, and pick an operator that carries a reef biologist.",
+      "monuments": [
+        {
+          "name": "Whitsunday Islands",
+          "yt": "ikKOuHwUYzA",
+          "start": 0,
+          "source": "auto",
+          "title": "Whitsunday Islands Guide: Whitehaven Beach to the Great Barrier Reef (2020) 4K",
+          "height": 2160
+        },
+        {
+          "name": "Heart Reef",
+          "yt": "rM37ZR6c4xw",
+          "start": 0,
+          "source": "auto",
+          "title": "AIRLIE BEACH TRIP  / Whitsunday Islands / Whitehaven Beach / Heart Reef",
+          "height": 1080
+        },
+        {
+          "name": "Lady Elliot Island",
+          "yt": "9-DEt4KYg3k",
+          "start": 0,
+          "source": "auto",
+          "title": "Lady Elliot Island, Southern Great Barrier Reef - 30 MINUTES - 4K UNDERWATER Video Ultra HD",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "cairns",
@@ -142,7 +279,7 @@
       "country_code": "AU",
       "country_flag": "🇦🇺",
       "continent": "Oceania",
-      "region": "",
+      "region": "Queensland",
       "type": "coastal",
       "tag": "hidden",
       "emoji": "🌴",
@@ -161,10 +298,56 @@
       "sounds": [
         "ocean-waves.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Daintree Rainforest",
+          "wikipedia_slug": "Daintree_Rainforest"
+        },
+        {
+          "name": "Kuranda",
+          "wikipedia_slug": "Kuranda,_Queensland"
+        },
+        {
+          "name": "Cairns Esplanade"
+        },
+        {
+          "name": "Fitzroy Island",
+          "wikipedia_slug": "Fitzroy_Island_(Queensland)"
+        },
+        {
+          "name": "Cape Tribulation",
+          "wikipedia_slug": "Cape_Tribulation,_Queensland"
+        }
+      ],
+      "blurb": "A tropical town in far north Queensland that exists as the door to two World Heritage Sites at once — the Great Barrier Reef offshore and the Daintree rainforest starting an hour up the coast road.",
+      "fun_fact": "The Daintree is around 180 million years old, which makes it the oldest continuously surviving rainforest on the planet — tens of millions of years older than the Amazon.",
+      "hidden_gem_tip": "Cape Tribulation is the one place where the reef and the rainforest meet at the shoreline. Do not swim: this is estuarine crocodile and box jellyfish country, and the signs are not decorative.",
+      "monuments": [
+        {
+          "name": "Daintree Rainforest",
+          "yt": "0pCXYHdjxyg",
+          "start": 0,
+          "source": "auto",
+          "title": "DAINTREE RAINFOREST, North Queensland - 4K | Australian Travel Guide",
+          "height": 2160
+        },
+        {
+          "name": "Kuranda",
+          "yt": "zQtyQJUVVcY",
+          "start": 0,
+          "source": "auto",
+          "title": "Kuranda, Far North Queensland - 4K Walking Tour",
+          "height": 2160
+        },
+        {
+          "name": "Cairns Esplanade",
+          "yt": "PE0r82RHNcU",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking Cairns Esplanade 🇦🇺 | Lagoon to Volleyball Courts | 4K Walk 2026",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "perth",
@@ -173,7 +356,7 @@
       "country_code": "AU",
       "country_flag": "🇦🇺",
       "continent": "Oceania",
-      "region": "",
+      "region": "Western Australia",
       "type": "coastal",
       "tag": "hidden",
       "emoji": "🏖️",
@@ -192,10 +375,57 @@
       "sounds": [
         "ocean-waves.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Kings Park",
+          "wikipedia_slug": "Kings_Park,_Western_Australia"
+        },
+        {
+          "name": "Fremantle",
+          "wikipedia_slug": "Fremantle"
+        },
+        {
+          "name": "Rottnest Island",
+          "wikipedia_slug": "Rottnest_Island"
+        },
+        {
+          "name": "Swan River",
+          "wikipedia_slug": "Swan_River_(Western_Australia)"
+        },
+        {
+          "name": "Cottesloe Beach",
+          "wikipedia_slug": "Cottesloe_Beach"
+        }
+      ],
+      "blurb": "The most isolated major city in the world — the nearest city of comparable size is 2,100 km away — sitting on the Swan River with white beaches on one side and an enormous amount of sunshine.",
+      "fun_fact": "Kings Park is 400 hectares in the middle of the city, larger than Central Park, and two thirds of it is left as native bushland rather than landscaped.",
+      "hidden_gem_tip": "Rottnest Island is a half-hour ferry from Fremantle, has no private cars, and is full of quokkas — small marsupials with no fear of people at all.",
+      "monuments": [
+        {
+          "name": "Kings Park",
+          "yt": "2KWwCJLOkk0",
+          "start": 0,
+          "source": "auto",
+          "title": "Kings Park - Perth, Western Australia Walking Tour | 4K 60FPS",
+          "height": 2160
+        },
+        {
+          "name": "Fremantle",
+          "yt": "NrB6t2sAiIk",
+          "start": 0,
+          "source": "auto",
+          "title": "Fremantle Perth: Western Australia 🇦🇺| 4k Walking tour Australia | Fremantle Markets, uhd 60fps",
+          "height": 2160
+        },
+        {
+          "name": "Rottnest Island",
+          "yt": "D41m7-zfhNQ",
+          "start": 0,
+          "source": "auto",
+          "title": "A day on Rottnest Island | 4k",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "auckland",
@@ -204,7 +434,7 @@
       "country_code": "NZ",
       "country_flag": "🇳🇿",
       "continent": "Oceania",
-      "region": "",
+      "region": "North Island",
       "type": "city",
       "tag": "famous",
       "emoji": "⛵",
@@ -223,10 +453,57 @@
       "sounds": [
         "city-hum.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Sky Tower",
+          "wikipedia_slug": "Sky_Tower_(Auckland)"
+        },
+        {
+          "name": "Rangitoto Island",
+          "wikipedia_slug": "Rangitoto_Island"
+        },
+        {
+          "name": "Waiheke Island",
+          "wikipedia_slug": "Waiheke_Island"
+        },
+        {
+          "name": "Mount Eden",
+          "wikipedia_slug": "Maungawhau_/_Mount_Eden"
+        },
+        {
+          "name": "Auckland War Memorial Museum",
+          "wikipedia_slug": "Auckland_War_Memorial_Museum"
+        }
+      ],
+      "blurb": "New Zealand's largest city, spread across an isthmus between two harbours and built on top of a volcanic field — about 50 cones inside the urban area, most of them now parks.",
+      "fun_fact": "Auckland's volcanic field is dormant, not extinct: Rangitoto, the island in the middle of the harbour view, erupted out of the sea only about 600 years ago, and Māori living nearby saw it happen.",
+      "hidden_gem_tip": "Climb Mount Eden at dawn. It is a fifteen-minute walk to a grassy crater 50 m deep, and you can see both harbours and half the other cones from the rim.",
+      "monuments": [
+        {
+          "name": "Sky Tower",
+          "yt": "66nliDnCZXo",
+          "start": 0,
+          "source": "auto",
+          "title": "SKY TOWER | AUCKLAND | WALKTHROUGH | 4K HD",
+          "height": 2160
+        },
+        {
+          "name": "Rangitoto Island",
+          "yt": "fMBjDi47H14",
+          "start": 0,
+          "source": "auto",
+          "title": "Rangitoto Island Auckland Walking Tour New Zealand 4K",
+          "height": 2160
+        },
+        {
+          "name": "Waiheke Island",
+          "yt": "Qs_kMWBw9Zc",
+          "start": 0,
+          "source": "auto",
+          "title": "Waiheke Island | Auckland’s Best Day Trip – Beaches, Vineyards & MORE! (New Zealand)",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "queenstown",
@@ -235,7 +512,7 @@
       "country_code": "NZ",
       "country_flag": "🇳🇿",
       "continent": "Oceania",
-      "region": "",
+      "region": "Otago",
       "type": "mountain",
       "tag": "famous",
       "emoji": "🏔️",
@@ -254,10 +531,56 @@
       "sounds": [
         "mountain-wind.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Lake Wakatipu",
+          "wikipedia_slug": "Lake_Wakatipu"
+        },
+        {
+          "name": "The Remarkables",
+          "wikipedia_slug": "The_Remarkables"
+        },
+        {
+          "name": "Skyline Gondola"
+        },
+        {
+          "name": "Arrowtown",
+          "wikipedia_slug": "Arrowtown"
+        },
+        {
+          "name": "Kawarau Gorge Suspension Bridge",
+          "wikipedia_slug": "Kawarau_Gorge_Suspension_Bridge"
+        }
+      ],
+      "blurb": "The adventure capital of the southern hemisphere, on a zigzag-shaped alpine lake under a mountain range called The Remarkables — bungee, jetboats, skiing, and a very small town centre holding it all.",
+      "fun_fact": "Commercial bungee jumping was invented here: A. J. Hackett opened the world's first permanent site on the 43 m Kawarau Bridge in 1988, and it is still running.",
+      "hidden_gem_tip": "Arrowtown, twenty minutes away, is a preserved gold-rush village with the remains of a Chinese miners' settlement along the creek — the part of the story the main street leaves out.",
+      "monuments": [
+        {
+          "name": "Lake Wakatipu",
+          "yt": "gmuOo7ixeqM",
+          "start": 0,
+          "source": "auto",
+          "title": "Wye Creek Track Walking Tour 4K - Queenstown New Zealand | Lake Wakatipu & Remarkables View",
+          "height": 2160
+        },
+        {
+          "name": "The Remarkables",
+          "yt": "8F2jYIV4B2Y",
+          "start": 0,
+          "source": "auto",
+          "title": "QUEENSTOWN: 4K Cinematic Landscape Relaxation l The Remarkables",
+          "height": 2160
+        },
+        {
+          "name": "Skyline Gondola",
+          "yt": "22ylffEdD5o",
+          "start": 0,
+          "source": "auto",
+          "title": "Finest POV \"Gondola\" Skyline Queenstown New Zealand [60FPS]",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "wellington",
@@ -266,7 +589,7 @@
       "country_code": "NZ",
       "country_flag": "🇳🇿",
       "continent": "Oceania",
-      "region": "",
+      "region": "North Island",
       "type": "city",
       "tag": "famous",
       "emoji": "🎬",
@@ -285,10 +608,57 @@
       "sounds": [
         "city-hum.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Te Papa",
+          "wikipedia_slug": "Te_Papa"
+        },
+        {
+          "name": "Wellington Cable Car",
+          "wikipedia_slug": "Wellington_Cable_Car"
+        },
+        {
+          "name": "Mount Victoria",
+          "wikipedia_slug": "Mount_Victoria_(Wellington_hill)"
+        },
+        {
+          "name": "Cuba Street",
+          "wikipedia_slug": "Cuba_Street"
+        },
+        {
+          "name": "Zealandia",
+          "wikipedia_slug": "Zealandia_(wildlife_sanctuary)"
+        }
+      ],
+      "blurb": "New Zealand's capital, wedged between a harbour and steep hills at the bottom of the North Island — compact, walkable, full of cafés and film studios, and reliably the windiest city in the world.",
+      "fun_fact": "Wellington averages gusts over 60 km/h on more than 170 days a year, and its airport approach is rated among the most difficult in the world for exactly that reason.",
+      "hidden_gem_tip": "Zealandia is a 225-hectare valley behind a predator-proof fence, ten minutes from downtown, where kākā and takahē live wild — go at night for the kiwi tour.",
+      "monuments": [
+        {
+          "name": "Te Papa",
+          "yt": "zYnlLIGW4-M",
+          "start": 0,
+          "source": "auto",
+          "title": "🇳🇿 A Visit to Te Papa Tongarewa – Museum of New Zealand – Walking Tour - Wellington",
+          "height": 2160
+        },
+        {
+          "name": "Wellington Cable Car",
+          "yt": "Ds2a8gwUkoY",
+          "start": 0,
+          "source": "auto",
+          "title": "WELLINGTON CABLE CAR | WALKTHROUGH | 4K HD",
+          "height": 2160
+        },
+        {
+          "name": "Mount Victoria",
+          "yt": "n-GS-vfMS8w",
+          "start": 0,
+          "source": "auto",
+          "title": "WELLINGTON New Zealand 4K Walking Tour | Cuba Street - Courtenay Place - Mount Victoria 4K Walk",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "rotorua",
@@ -297,7 +667,7 @@
       "country_code": "NZ",
       "country_flag": "🇳🇿",
       "continent": "Oceania",
-      "region": "",
+      "region": "North Island",
       "type": "nature",
       "tag": "hidden",
       "emoji": "♨️",
@@ -316,10 +686,57 @@
       "sounds": [
         "mountain-wind.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Te Puia",
+          "wikipedia_slug": "New_Zealand_Māori_Arts_and_Crafts_Institute"
+        },
+        {
+          "name": "Pōhutu Geyser",
+          "wikipedia_slug": "Pōhutu_Geyser"
+        },
+        {
+          "name": "Wai-O-Tapu",
+          "wikipedia_slug": "Waiotapu"
+        },
+        {
+          "name": "Lake Rotorua",
+          "wikipedia_slug": "Lake_Rotorua"
+        },
+        {
+          "name": "Whakarewarewa",
+          "wikipedia_slug": "Whakarewarewa"
+        }
+      ],
+      "blurb": "A geothermal town on the edge of a crater lake, where steam comes up through drains and gardens, the air smells of sulphur, and Māori culture is more visible than anywhere else in the country.",
+      "fun_fact": "At Whakarewarewa people still live on the thermal field and cook in it — food is boiled in the hot pools and steamed in ground vents, as it has been for several hundred years.",
+      "hidden_gem_tip": "Pōhutu erupts up to twenty times a day, sometimes 30 m high, and the smaller Prince of Wales Feathers geyser next to it always goes off first — that is your cue to look up.",
+      "monuments": [
+        {
+          "name": "Te Puia",
+          "yt": "KdvqX455Nl8",
+          "start": 0,
+          "source": "auto",
+          "title": "TE PUIA ROTORUA | GEOTHERMAL & MAORI CULTURAL PARK| NEW ZEALAND WALKING TOUR | NORTH ISLAND ROADTRIP",
+          "height": 2160
+        },
+        {
+          "name": "Pōhutu Geyser",
+          "yt": "UqWvBrJcJnM",
+          "start": 0,
+          "source": "auto",
+          "title": "New Zealand 4k Ultra HD nature video Pohutu geyser Rotorua",
+          "height": 2160
+        },
+        {
+          "name": "Wai-O-Tapu",
+          "yt": "lZx3uL0tmXQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Wai-O-Tapu Thermal Wonderland | Active Volcanic Zone | Natural Wonder | Rotorua | New Zealand",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "milford-sound",
@@ -328,7 +745,7 @@
       "country_code": "NZ",
       "country_flag": "🇳🇿",
       "continent": "Oceania",
-      "region": "",
+      "region": "Fiordland",
       "type": "nature",
       "tag": "famous",
       "emoji": "🏞️",
@@ -347,10 +764,56 @@
       "sounds": [
         "mountain-wind.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Mitre Peak",
+          "wikipedia_slug": "Mitre_Peak"
+        },
+        {
+          "name": "Fiordland National Park",
+          "wikipedia_slug": "Fiordland_National_Park"
+        },
+        {
+          "name": "Stirling Falls"
+        },
+        {
+          "name": "Homer Tunnel",
+          "wikipedia_slug": "Homer_Tunnel"
+        },
+        {
+          "name": "Milford Track",
+          "wikipedia_slug": "Milford_Track"
+        }
+      ],
+      "blurb": "A fiord 16 km long with cliffs rising 1,200 m straight out of black water, seals on the rocks and waterfalls that blow back upwards in the wind. Rudyard Kipling called it the eighth wonder of the world.",
+      "fun_fact": "Milford gets around 6,800 mm of rain a year — one of the wettest inhabited places on the planet — which is why hundreds of temporary waterfalls appear down the cliffs within minutes of a downpour.",
+      "hidden_gem_tip": "Go on a wet day, not a clear one. Sun gives you a photograph; rain gives you the waterfalls the fiord is actually famous for.",
+      "monuments": [
+        {
+          "name": "Mitre Peak",
+          "yt": "p3jtrbeD1RU",
+          "start": 0,
+          "source": "auto",
+          "title": "Climbing Mitre Peak in 12 Hours | 4K",
+          "height": 2160
+        },
+        {
+          "name": "Fiordland National Park",
+          "yt": "5mViUxuznmY",
+          "start": 0,
+          "source": "auto",
+          "title": "MILFORD SOUND DAY TOUR FROM QUEENSTOWN, NEW ZEALAND - Fiordland National Park with GreatSights (4K)",
+          "height": 2160
+        },
+        {
+          "name": "Stirling Falls",
+          "yt": "fKO2UXF-9rI",
+          "start": 0,
+          "source": "auto",
+          "title": "Milford Sound - Stirling Falls",
+          "height": 2160
+        }
+      ]
     }
   ]
 }

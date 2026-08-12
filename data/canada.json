@@ -449,13 +449,6 @@
           "start": 0,
           "source": "auto",
           "title": "Peggy's Cove and Peggys Point Lighthouse, Nova Scotia, Canada"
-        },
-        {
-          "name": "St. Margarets Bay",
-          "yt": "_wGbho71P_o",
-          "start": 0,
-          "source": "auto",
-          "title": "White Cliffs of Dover Virtual Walk 3/3: St Margarets Bay to Deal Pier"
         }
       ]
     },
@@ -1074,7 +1067,17 @@
         }
       ],
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Grand River",
+          "yt": "cL6qdnkd_4g",
+          "start": 0,
+          "source": "auto",
+          "title": "DJI MINI 2 PRO - GRAND RIVER CONSERVATION AREA",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "belwood-lake",
@@ -1130,7 +1133,25 @@
         }
       ],
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Shand Dam",
+          "yt": "-Gn-O3FdNvA",
+          "start": 0,
+          "source": "auto",
+          "title": "Dam Wind |  Drone Ontarios Hoover Dam, the Shand Dam at Belwood Lake",
+          "height": 2160
+        },
+        {
+          "name": "Fergus",
+          "yt": "-OUEXg0rNEU",
+          "start": 0,
+          "source": "auto",
+          "title": "Discover Fergus, Ontario | Historic Downtown, Belwood Lake & Wellington County Museum 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "elora-quarry",
@@ -1178,7 +1199,25 @@
         }
       ],
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Elora",
+          "yt": "X8ipuLGtHjg",
+          "start": 0,
+          "source": "auto",
+          "title": "Welcome to Elora, Ontario 2022 - The Village Trapped in Time",
+          "height": 2160
+        },
+        {
+          "name": "Elora Gorge",
+          "yt": "8W2sKheGGqg",
+          "start": 0,
+          "source": "auto",
+          "title": "Elora Gorge Walking Tour | Elora, Ontario, Canada",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "conestogo-lake",
@@ -1234,7 +1273,25 @@
         }
       ],
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Conestogo River",
+          "yt": "_wUtbNjeFE4",
+          "start": 0,
+          "source": "auto",
+          "title": "Conestogo River Summer Flight # 8",
+          "height": 2026
+        },
+        {
+          "name": "Grand River",
+          "yt": "2itf8dTJHAo",
+          "start": 0,
+          "source": "auto",
+          "title": "West Montrose to Kitchener - Grand River Solo Canoe Trip - Day 2",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "woolwich-reservoir",
@@ -1286,7 +1343,25 @@
         }
       ],
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Elmira",
+          "yt": "PZXmPA9SbhI",
+          "start": 0,
+          "source": "auto",
+          "title": "Dam Elmira 2 July 10 2022",
+          "height": 2160
+        },
+        {
+          "name": "Woolwich",
+          "yt": "KSyxwyG_YIo",
+          "start": 0,
+          "source": "auto",
+          "title": "8.5 woolwich 4k Bicycle tour to the Woolwich Reservoir, ON",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "snyders-flats",
@@ -1335,7 +1410,17 @@
         }
       ],
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Grand River",
+          "yt": "c926XgPqBWk",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking Tour of Elora Gorge Walking along the Bank of Grand River Ontario Canada 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "laurel-creek",
@@ -1391,7 +1476,25 @@
         }
       ],
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Waterloo",
+          "yt": "m_AtJtkiHwQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Laurel Trail, Waterloo",
+          "height": 2026
+        },
+        {
+          "name": "Kitchener",
+          "yt": "1TIap_ZKsvU",
+          "start": 0,
+          "source": "auto",
+          "title": "Kitchener City Walk Downtown 4K Walking Tour",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "guelph-lake",
@@ -1447,7 +1550,25 @@
         }
       ],
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Speed River",
+          "yt": "hiJ7npcLfyE",
+          "start": 0,
+          "source": "auto",
+          "title": "#Guelph downtown Speed River",
+          "height": 1080
+        },
+        {
+          "name": "Guelph",
+          "yt": "yi9A8hWJLRE",
+          "start": 0,
+          "source": "auto",
+          "title": "Guelph, Ontario - 4k Drone Footage",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "rockwood-conservation-area",
@@ -1499,7 +1620,25 @@
         }
       ],
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Harris Woolen Mill ruins",
+          "yt": "xyadrQqEmp4",
+          "start": 0,
+          "source": "auto",
+          "title": "Goldie Mill Ruins & Harris Woolen Mill Ruins",
+          "height": 720
+        },
+        {
+          "name": "Eramosa River",
+          "yt": "fUp6BoJtz5A",
+          "start": 0,
+          "source": "auto",
+          "title": "Rockwood Conservation Area | Eramosa River | Off trail hiking",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "starkey-hill",
@@ -1547,7 +1686,17 @@
         }
       ],
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Guelph",
+          "yt": "5kq7Ut5S_3g",
+          "start": 0,
+          "source": "auto",
+          "title": "Guelph City Guide - Ontario | Canada Moves You",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "hanlon-creek",
@@ -1594,7 +1743,25 @@
         }
       ],
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Preservation Park",
+          "yt": "cmoMqkEJTrw",
+          "start": 0,
+          "source": "auto",
+          "title": "Preservation Park - Hiking Trail in Guelph Ontario | Nature and WildLife | Discovery Hiking",
+          "height": 2160
+        },
+        {
+          "name": "Guelph",
+          "yt": "ySB-9oZfor8",
+          "start": 0,
+          "source": "auto",
+          "title": "Guelph Ontario Canada 8K | Breathtaking Cinematic Tour",
+          "height": 4320
+        }
+      ]
     },
     {
       "id": "shades-mills",
@@ -1651,7 +1818,25 @@
         }
       ],
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Galt",
+          "yt": "Tzemyob2rBo",
+          "start": 0,
+          "source": "auto",
+          "title": "A Virtual Walk to Remember: A Guided Tour of Historic Downtown Galt",
+          "height": 1080
+        },
+        {
+          "name": "Cambridge",
+          "yt": "51oHPCXXfo8",
+          "start": 0,
+          "source": "auto",
+          "title": "A Visit to Shade's Mill Conservation Area, Cambridge Ontario CANADA July 13, 2023",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "dumfries-conservation-area",
@@ -1802,7 +1987,25 @@
         }
       ],
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Carolinian forest",
+          "yt": "3JrIoN7NY4Q",
+          "start": 0,
+          "source": "auto",
+          "title": "Winter Hike in a Carolinian Forest",
+          "height": 1080
+        },
+        {
+          "name": "County of Brant",
+          "yt": "abbUoV9zeYY",
+          "start": 0,
+          "source": "auto",
+          "title": "County of Brant  - Canada Day Celebrations 2020",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "apps-mill",
@@ -1857,7 +2060,33 @@
         }
       ],
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Whitemans Creek",
+          "yt": "KLS3iXx2pJs",
+          "start": 0,
+          "source": "auto",
+          "title": "Fishing Whitemans Creek, Fall 2020",
+          "height": 1440
+        },
+        {
+          "name": "Brantford",
+          "yt": "uQkaDwzRb5k",
+          "start": 0,
+          "source": "auto",
+          "title": "Discover Canada 🇨🇦 BRANTFORD Downtown Walking Tour 4K video",
+          "height": 2160
+        },
+        {
+          "name": "County of Brant",
+          "yt": "abbUoV9zeYY",
+          "start": 0,
+          "source": "auto",
+          "title": "County of Brant  - Canada Day Celebrations 2020",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "brant-conservation-area",
@@ -1912,7 +2141,33 @@
         }
       ],
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Wilkes Dam",
+          "yt": "G7nZVDlB-80",
+          "start": 0,
+          "source": "auto",
+          "title": "The Wonders of Autumn - Wilkes Dam, Brantford, Ontario, Canada",
+          "height": 1080
+        },
+        {
+          "name": "S.C. Johnson Trail",
+          "yt": "GHF4WRxQGfE",
+          "start": 0,
+          "source": "auto",
+          "title": "S.C. Johnson Trail (Brantford)",
+          "height": 1080
+        },
+        {
+          "name": "Brantford",
+          "yt": "uQkaDwzRb5k",
+          "start": 0,
+          "source": "auto",
+          "title": "Discover Canada 🇨🇦 BRANTFORD Downtown Walking Tour 4K video",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "taquanyah",
@@ -1968,7 +2223,17 @@
         }
       ],
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Carolinian forest",
+          "yt": "3JrIoN7NY4Q",
+          "start": 0,
+          "source": "auto",
+          "title": "Winter Hike in a Carolinian Forest",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "byng-island",
@@ -2024,7 +2289,25 @@
         }
       ],
       "country_code": "CA",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Dunnville",
+          "yt": "bSB_2cq4e8U",
+          "start": 0,
+          "source": "auto",
+          "title": "🌳 Dunnville, Ontario - Centennial Park  🦋 4K Walk",
+          "height": 2160
+        },
+        {
+          "name": "Port Maitland",
+          "yt": "8W7t4MveBwY",
+          "start": 0,
+          "source": "auto",
+          "title": "Dunnville to Port Maitland - Grand River Solo Canoe Trip - Day 8",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "pinery",
@@ -2132,13 +2415,6 @@
       "country_code": "CA",
       "continent": "North America",
       "monuments": [
-        {
-          "name": "Lake Erie",
-          "yt": "Q24WdGjnSvc",
-          "start": 0,
-          "source": "auto",
-          "title": "4K Trail POV - Lake Erie Bluffs Tower Walk"
-        },
         {
           "name": "Carolinian forest",
           "yt": "3JrIoN7NY4Q",

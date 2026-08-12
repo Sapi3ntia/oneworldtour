@@ -322,13 +322,6 @@
           "start": 0,
           "source": "auto",
           "title": "THE BEATLES STORY EXHIBITION FULL TOUR [4K] | LIVERPOOL | #beatles"
-        },
-        {
-          "name": "Tate Liverpool",
-          "yt": "VDjVcKgQB78",
-          "start": 0,
-          "source": "auto",
-          "title": "Walking Tour From Liverpool Street to Tate Modern. London August 2024 4K"
         }
       ]
     },
@@ -1087,7 +1080,33 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "PT",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "São Miguel Island",
+          "yt": "Ox3LA53RY3Q",
+          "start": 0,
+          "source": "auto",
+          "title": "Discover the AZORES 🇵🇹 | 4K Scenic Drive on São Miguel Island",
+          "height": 2160
+        },
+        {
+          "name": "Furnas Hot Springs",
+          "yt": "m_-e5oASG9s",
+          "start": 0,
+          "source": "auto",
+          "title": "Caldeiras das Furnas hot springs / geysers 2022 Sao Miguel Azores Açores Panasonic GH6 nature travel",
+          "height": 2028
+        },
+        {
+          "name": "Angra do Heroísmo",
+          "yt": "rpy-UOma6uw",
+          "start": 0,
+          "source": "auto",
+          "title": "Angra do Heroísmo 4K, Terceira Island, Azores, Portugal - Walking Tour - September 2023",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "costa-del-sol",
@@ -1480,7 +1499,17 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "FI",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Northern Lights",
+          "yt": "q_x1qEcEoF4",
+          "start": 0,
+          "source": "auto",
+          "title": "Chasing the Northern Lights in Lapland | LOCALS. | Travel + Leisure",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "hamburg",
@@ -1663,7 +1692,33 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "AL",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Skanderbeg Square",
+          "yt": "EKBTWzLjkdw",
+          "start": 0,
+          "source": "auto",
+          "title": "Tirana - Albania's capital & Skanderbeg Square in 4K",
+          "height": 2160
+        },
+        {
+          "name": "Butrint",
+          "yt": "6oZhLXBQQGE",
+          "start": 0,
+          "source": "auto",
+          "title": "Albanian Walking Tour 4k - Highlights of Butrint Walk",
+          "height": 2160
+        },
+        {
+          "name": "Albanian Riviera",
+          "yt": "2iONryUMvE4",
+          "start": 0,
+          "source": "auto",
+          "title": "5 Most Beautiful Places in the Albanian Riviera 🇦🇱 | 4K Travel Guide",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "krakow",
@@ -1907,7 +1962,25 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "PT",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Funchal",
+          "yt": "z6qk4QcNnCg",
+          "start": 0,
+          "source": "auto",
+          "title": "Funchal, Madeira 4K - A Walking Tour Through Paradise!",
+          "height": 2160
+        },
+        {
+          "name": "Laurisilva Forest",
+          "yt": "hRUIBzwbx04",
+          "start": 0,
+          "source": "auto",
+          "title": "Fanal Forest Madeira 🇵🇹 | Exploring the Enchanted Laurisilva Forest | 4K Walking Tour",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "rome",
@@ -2627,7 +2700,25 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "DE",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Old Town",
+          "yt": "_ZAigLKTV-I",
+          "start": 0,
+          "source": "auto",
+          "title": "Leipzig, Germany 🇩🇪 Walking Tour 4K HDR | Old Town, Market Square Spring 2026",
+          "height": 2160
+        },
+        {
+          "name": "Monument to the Battle of the Nations",
+          "yt": "j_J39fDkJgs",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking Tour through Leipzig / Monument to the Battle of the Nations  - Germany 4k",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "dubrovnik",
@@ -2867,7 +2958,25 @@
       "fun_fact": "Hallstatt is so iconic that a full-scale replica of the village was built in Guangdong, China.",
       "hidden_gem_tip": null,
       "country_code": "AT",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Lake Hallstatt",
+          "yt": "Rkv_a-unbUc",
+          "start": 0,
+          "source": "auto",
+          "title": "Hallstatt, Austria 🇦🇹 | The World's Most Beautiful Lakeside Village | 4K Evening Walking Tour",
+          "height": 2160
+        },
+        {
+          "name": "Salzwelten Salt Mine",
+          "yt": "eoUZy4G7liM",
+          "start": 0,
+          "source": "auto",
+          "title": "Salt Mine in Halltstatt Austria Salzwelten - Tour of the Oldest Salt Mine in the World (4k UHD)",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "munich",
@@ -2991,7 +3100,33 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "GB",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Old Trafford",
+          "yt": "eknJ38oldjY",
+          "start": 0,
+          "source": "auto",
+          "title": "Manchester United |Old Trafford| Outside Stadium Walking Tour 4K HDR",
+          "height": 2160
+        },
+        {
+          "name": "Etihad Stadium",
+          "yt": "qhc-mZNYlfU",
+          "start": 0,
+          "source": "auto",
+          "title": "Manchester City Aerial Tour | Etihad Stadium Under Lights in 4K",
+          "height": 2160
+        },
+        {
+          "name": "The Northern Quarter",
+          "yt": "nzGZdb4XLSs",
+          "start": 0,
+          "source": "auto",
+          "title": "Manchester Walking Tour 4K - Northern Quarter - Manchester City Centre (60fps)",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "provence",
@@ -3102,7 +3237,17 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "RO",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "The Clock Tower",
+          "yt": "fRX4h8HY6nI",
+          "start": 0,
+          "source": "auto",
+          "title": "Sighisoara Citadel, Romania - Explore Sighisoara Citadel and its Clock Tower in this 4k Walking Tour",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "geneva",
@@ -3890,7 +4035,33 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "BG",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Alexander Nevsky Cathedral",
+          "yt": "SwoLutzIJFY",
+          "start": 0,
+          "source": "auto",
+          "title": "Sofia Bulgaria 4K Walking Tour  🇧🇬 |  St. Alexander Nevsky Cathedral | Balkan East Europe",
+          "height": 2160
+        },
+        {
+          "name": "Mount Vitosha",
+          "yt": "XKmjQ50Bs_g",
+          "start": 0,
+          "source": "auto",
+          "title": "A EUR10.00 challenge and a Day Trip to the Golden Bridges at the Vitosha Mountain, SOFIA #4k 🇧🇬",
+          "height": 2160
+        },
+        {
+          "name": "Rotunda of St. George",
+          "yt": "-_N3y1VGCoM",
+          "start": 0,
+          "source": "auto",
+          "title": "Sofia St. Nedelya Square St. George Rotunda Church walking tour video Sofia Bulgaria",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "frankfurt",
@@ -3938,7 +4109,33 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "DE",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Römerberg",
+          "yt": "TdVPt2hxFvU",
+          "start": 0,
+          "source": "auto",
+          "title": "🇩🇪 Frankfurt Germany Walking Tour 4K | Römerberg, Old Town, Downtown & Pride",
+          "height": 2160
+        },
+        {
+          "name": "Städel Museum",
+          "yt": "uM9qaiOS3q0",
+          "start": 0,
+          "source": "auto",
+          "title": "Städel Museum painting collections 4K",
+          "height": 2160
+        },
+        {
+          "name": "Goethe House",
+          "yt": "tBennWhqP3g",
+          "start": 0,
+          "source": "auto",
+          "title": "Goethe House Museum 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "cambridge",
@@ -4049,7 +4246,17 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "NO",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Arctic Fjords",
+          "yt": "OSrfQXxgJsI",
+          "start": 0,
+          "source": "auto",
+          "title": "Lofoten Islands 4K Winter Drone Tour | Norway’s Arctic Fjords & Villages",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "portugal-coast",
@@ -4243,7 +4450,25 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "IT",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "The Trulli",
+          "yt": "aXf4xe6BbDM",
+          "start": 0,
+          "source": "auto",
+          "title": "Alberobello: The Trulli Town of Italy | 4K Travel Video",
+          "height": 2160
+        },
+        {
+          "name": "Church of St. Anthony",
+          "yt": "1C-uFvipNyg",
+          "start": 0,
+          "source": "auto",
+          "title": "Church of St. Anthony of Padua Walking Tour - 4K UHD",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "giethoorn",
@@ -4283,7 +4508,17 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "NL",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "The Canals",
+          "yt": "3FcvBras7BI",
+          "start": 0,
+          "source": "auto",
+          "title": "Giethoorn Boat Tour in 4K: Explore Dutch Canals",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "valencia",
@@ -4767,7 +5002,25 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "PT",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Óbidos Castle",
+          "yt": "as44K73XYQU",
+          "start": 0,
+          "source": "auto",
+          "title": "Óbidos Castle, Portugal 4K - Castle Wall and Village Walking Tour (Meeting a Knight) - June 2023",
+          "height": 2160
+        },
+        {
+          "name": "Medieval Walls",
+          "yt": "dXOurNKVpJk",
+          "start": 0,
+          "source": "auto",
+          "title": "Óbidos, Portugal 🤴A Medieval Town Inside the Walls of a Castle! North of Lisbon [4K]",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "madrid",
@@ -4967,7 +5220,25 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "GB",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Durdle Door",
+          "yt": "3ZXal2ywmrI",
+          "start": 0,
+          "source": "auto",
+          "title": "Durdle Door - Exploring the Jurassic Coast in 4K",
+          "height": 2160
+        },
+        {
+          "name": "Lulworth Cove",
+          "yt": "snOwJDae_Ms",
+          "start": 0,
+          "source": "auto",
+          "title": "Lulworth Cove | Jurassic Coast | Dorset | England | UK - 4k",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "norwegian-fjords",
@@ -5112,7 +5383,17 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "ES",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Romanesque Churches",
+          "yt": "mZ2uDAvnMlE",
+          "start": 0,
+          "source": "auto",
+          "title": "Hiking Andorra's Romanesque Churches, Perched in the Beautiful Landscape of the Pyrénées Mountains",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "cesky-krumlov",
@@ -5152,7 +5433,25 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "CZ",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Český Krumlov Castle",
+          "yt": "NJvkvDJCY20",
+          "start": 0,
+          "source": "auto",
+          "title": "Majestic Český Krumlov Castle in Czech Republic | Scenic Castle & Historic Bridges in 4K",
+          "height": 2160
+        },
+        {
+          "name": "Vltava River",
+          "yt": "lEVFPfsNklQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Český Krumlov Walking Tour 🇨🇿 | Castle, Old Town & Vltava River | Spring 2026 (4K HDR)",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "verdon-gorge",
@@ -5192,7 +5491,25 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "FR",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "The Verdon River",
+          "yt": "aPSN4thADLo",
+          "start": 0,
+          "source": "auto",
+          "title": "4K/🇫🇷 GORGES DU VERDON the most beautiful and largest river canyon in Europe/ Lac de Sainte Croix",
+          "height": 2160
+        },
+        {
+          "name": "Lac de Sainte-Croix",
+          "yt": "4yAWyeVzip8",
+          "start": 0,
+          "source": "auto",
+          "title": "Les Gorges du Verdon | Rive Gauche | 4K | Lac de Sainte- Croix | DJI Mavic Air 2 Drone Shots",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "oslo",
@@ -5998,7 +6315,25 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "NL",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Historic Canals",
+          "yt": "GLw2vukoiiM",
+          "start": 0,
+          "source": "auto",
+          "title": "Delft Historic Center, Canals & Hidden Courtyards Walk | 4K | ASMR",
+          "height": 2160
+        },
+        {
+          "name": "The New Church",
+          "yt": "8c03ruKNtb4",
+          "start": 0,
+          "source": "auto",
+          "title": "Delft, Netherlands: Charming Walking Tour 4K Through Canals, Churches & Market Square",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "transylvania",
@@ -6202,7 +6537,33 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "PT",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "The Canals",
+          "yt": "_jqC1_YSEcg",
+          "start": 0,
+          "source": "auto",
+          "title": "Aveiro / 4k walking tour 1 / Passeio de Moliceiro / Praça 14 de Julho / Sights, canals, streets",
+          "height": 2160
+        },
+        {
+          "name": "Costa Nova",
+          "yt": "X8M7gL3nugY",
+          "start": 0,
+          "source": "auto",
+          "title": "【4K】Aveiro the little Venice of Portugal.Costa Nova and its colorful houses.",
+          "height": 2160
+        },
+        {
+          "name": "Praia da Barra",
+          "yt": "Hm1IMSv6HHY",
+          "start": 0,
+          "source": "auto",
+          "title": "PRAIA DA BARRA - The Beach Of Portugal's Tallest Lighthouse - Aveiro, Portugal |5k|",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "amalfi-coast",
@@ -6246,7 +6607,33 @@
       "fun_fact": "",
       "hidden_gem_tip": null,
       "country_code": "IT",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Positano",
+          "yt": "WmpXrrwpfls",
+          "start": 0,
+          "source": "auto",
+          "title": "Positano, Amalfi Coast - Italy Sunset Walk (4K ©️Voyatours)",
+          "height": 2160
+        },
+        {
+          "name": "Amalfi",
+          "yt": "lpAhY5W7KbY",
+          "start": 0,
+          "source": "auto",
+          "title": "Amalfi, Italy 4K Walk | Fiordo di Furore Beach & Stunning Amalfi Coast Views",
+          "height": 2160
+        },
+        {
+          "name": "Ravello",
+          "yt": "vHE2byoo3qg",
+          "start": 0,
+          "source": "auto",
+          "title": "RAVELLO, Italy 🇮🇹 Most Beautiful Amalfi Coast Village in Stunning 4K Walking Tour",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "meteora",
@@ -6286,7 +6673,25 @@
       "fun_fact": "The name Meteora means 'suspended in the air' — and until the 1920s the only way up to some monasteries was being hauled in a net.",
       "hidden_gem_tip": null,
       "country_code": "GR",
-      "continent": "Europe"
+      "continent": "Europe",
+      "monuments": [
+        {
+          "name": "Great Meteoron Monastery",
+          "yt": "yn0raD58R3M",
+          "start": 0,
+          "source": "auto",
+          "title": "The Monastery of Great Meteoron WALKING TOUR  |  Orpheus Odyssey - Legends on Strings  [ 4K video ]",
+          "height": 2160
+        },
+        {
+          "name": "Clifftop Monasteries",
+          "yt": "f-CgR9HcsOc",
+          "start": 0,
+          "source": "auto",
+          "title": "Meteora Greece 🇬🇷 | 4K Drone Tour – Clifftop Monasteries",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "kyiv",
@@ -6295,7 +6700,7 @@
       "country_code": "UA",
       "country_flag": "🇺🇦",
       "continent": "Europe",
-      "region": "",
+      "region": "Kyiv",
       "type": "city",
       "tag": "famous",
       "emoji": "⛪",
@@ -6314,10 +6719,57 @@
       "sounds": [
         "city-hum.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Saint Sophia Cathedral",
+          "wikipedia_slug": "Saint_Sophia_Cathedral,_Kyiv"
+        },
+        {
+          "name": "Kyiv Pechersk Lavra",
+          "wikipedia_slug": "Kyiv_Pechersk_Lavra"
+        },
+        {
+          "name": "Golden Gate",
+          "wikipedia_slug": "Golden_Gate,_Kyiv"
+        },
+        {
+          "name": "Andriyivskyy Descent",
+          "wikipedia_slug": "Andriivskyi_Descent"
+        },
+        {
+          "name": "Maidan Nezalezhnosti",
+          "wikipedia_slug": "Maidan_Nezalezhnosti"
+        }
+      ],
+      "blurb": "Ukraine's capital on the high right bank of the Dnieper, and one of the oldest cities in eastern Europe — gold domes above the river, chestnut avenues, and a deep metro that doubles as a shelter.",
+      "fun_fact": "Saint Sophia was begun in 1011 and still holds its 11th-century mosaics and frescoes; both it and the Lavra caves are World Heritage Sites, and both have been sandbagged and monitored since 2022.",
+      "hidden_gem_tip": "Andriyivskyy Descent is the cobbled street that drops from the upper town to Podil, with Saint Andrew's Church at the top and Bulgakov's house halfway down.",
+      "monuments": [
+        {
+          "name": "Saint Sophia Cathedral",
+          "yt": "jrKeSvz0umI",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K 60fps] KYIV CENTRE | SLOW Walk through Volodymyrska Street | Saint Sophia Cathedral | KYIV TOUR",
+          "height": 2160
+        },
+        {
+          "name": "Kyiv Pechersk Lavra",
+          "yt": "4WRms49cdXs",
+          "start": 0,
+          "source": "auto",
+          "title": "Mom's visit to Kyiv | Monastery of the Caves | Pechersk Lavra | 4K",
+          "height": 2160
+        },
+        {
+          "name": "Golden Gate",
+          "yt": "lUAYegpt1IU",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking in Kyiv 4K. From Golden Gate to Lvivska Square. Spring 2023.",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "lviv",
@@ -6326,7 +6778,7 @@
       "country_code": "UA",
       "country_flag": "🇺🇦",
       "continent": "Europe",
-      "region": "",
+      "region": "Lviv Oblast",
       "type": "history",
       "tag": "famous",
       "emoji": "☕",
@@ -6345,10 +6797,56 @@
       "sounds": [
         "european-plaza.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Rynok Square",
+          "wikipedia_slug": "Market_Square_(Lviv)"
+        },
+        {
+          "name": "Lviv Theatre of Opera and Ballet",
+          "wikipedia_slug": "Lviv_Theatre_of_Opera_and_Ballet"
+        },
+        {
+          "name": "Lychakiv Cemetery",
+          "wikipedia_slug": "Lychakiv_Cemetery"
+        },
+        {
+          "name": "High Castle",
+          "wikipedia_slug": "Lviv_High_Castle"
+        },
+        {
+          "name": "Dominican Church"
+        }
+      ],
+      "blurb": "A central European city that has been Polish, Austrian, Soviet and Ukrainian without moving — cobbled squares, coffee houses and a largely intact old town that came through the 20th century with its architecture unusually undamaged.",
+      "fun_fact": "Lviv's historic centre survived the Second World War almost intact and is a World Heritage Site; since 2022 its stained glass has been boarded and its statues wrapped in fireproof sheeting.",
+      "hidden_gem_tip": "Walk up the High Castle hill in the morning — the whole tiled roofscape is below you, and the climb takes twenty minutes from Rynok Square.",
+      "monuments": [
+        {
+          "name": "Rynok Square",
+          "yt": "4dShzvv1Awo",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking Tour in Lviv - Opera House to Rynok Square 4K",
+          "height": 2160
+        },
+        {
+          "name": "Lviv Theatre of Opera and Ballet",
+          "yt": "lN95z1bCGkQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Ukraine - Lviv - National Opera and Ballet Theatre (2019)",
+          "height": 1920
+        },
+        {
+          "name": "Lychakiv Cemetery",
+          "yt": "QbV60MIiHQI",
+          "start": 0,
+          "source": "auto",
+          "title": "Exploring the Lychakiv Cemetery in Lviv, Ukraine",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "odesa",
@@ -6357,7 +6855,7 @@
       "country_code": "UA",
       "country_flag": "🇺🇦",
       "continent": "Europe",
-      "region": "",
+      "region": "Odesa Oblast",
       "type": "coastal",
       "tag": "hidden",
       "emoji": "⚓",
@@ -6376,10 +6874,56 @@
       "sounds": [
         "ocean-waves.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Potemkin Stairs",
+          "wikipedia_slug": "Potemkin_Stairs"
+        },
+        {
+          "name": "Odesa Opera and Ballet Theater",
+          "wikipedia_slug": "Odesa_Opera_and_Ballet_Theatre"
+        },
+        {
+          "name": "Prymorskyi Boulevard"
+        },
+        {
+          "name": "Odesa Catacombs",
+          "wikipedia_slug": "Odesa_catacombs"
+        },
+        {
+          "name": "Deribasivska Street",
+          "wikipedia_slug": "Derybasivska_Street"
+        }
+      ],
+      "blurb": "A Black Sea port founded by decree in 1794 and built as a free port — neoclassical, cosmopolitan and famously sharp-tongued, with a grand staircase running from the boulevard down to the harbour.",
+      "fun_fact": "Beneath the city lie roughly 2,500 km of catacombs — old limestone quarries, far longer than the Paris ones — which sheltered partisans in the Second World War and are largely unmapped.",
+      "hidden_gem_tip": "The Potemkin Stairs are built with an optical trick: 192 steps that widen as they descend, so from the top you see only landings and from the bottom only steps.",
+      "monuments": [
+        {
+          "name": "Potemkin Stairs",
+          "yt": "ap1pMW2TN1U",
+          "start": 0,
+          "source": "auto",
+          "title": "Potemkin Stairs Odesa 🇺🇦 | Full Walk Down & Up | Istanbul Park & Funicular | 4K Walking Tour",
+          "height": 2160
+        },
+        {
+          "name": "Prymorskyi Boulevard",
+          "yt": "Mu7k1jOSOnE",
+          "start": 0,
+          "source": "auto",
+          "title": "Одеса. Walking around Odessa. Prymorskyi Boulevard at Night. ORANGE ua",
+          "height": 1080
+        },
+        {
+          "name": "Odesa Catacombs",
+          "yt": "eTXHR33w-Zs",
+          "start": 0,
+          "source": "auto",
+          "title": "🇺🇦  World's Largest Catacombs: 2000kms of Paths below Odessa and its WWII FIGHTING  {Odesa, UKRAINE}",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "belgrade",
@@ -6388,7 +6932,7 @@
       "country_code": "RS",
       "country_flag": "🇷🇸",
       "continent": "Europe",
-      "region": "",
+      "region": "Belgrade",
       "type": "city",
       "tag": "famous",
       "emoji": "🏰",
@@ -6407,10 +6951,56 @@
       "sounds": [
         "city-hum.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Belgrade Fortress",
+          "wikipedia_slug": "Belgrade_Fortress"
+        },
+        {
+          "name": "Kalemegdan"
+        },
+        {
+          "name": "Church of Saint Sava",
+          "wikipedia_slug": "Church_of_Saint_Sava"
+        },
+        {
+          "name": "Skadarlija",
+          "wikipedia_slug": "Skadarlija"
+        },
+        {
+          "name": "Zemun",
+          "wikipedia_slug": "Zemun"
+        }
+      ],
+      "blurb": "A capital on the ridge where the Sava meets the Danube, fought over more than almost any city in Europe and rebuilt every time. It is loud, unpolished and stays open extremely late.",
+      "fun_fact": "Belgrade has been destroyed and rebuilt around 40 times in its history; the fortress at the confluence has been Celtic, Roman, Byzantine, Serbian, Ottoman and Austrian in turn.",
+      "hidden_gem_tip": "Kalemegdan park inside the fortress walls is free and open all hours, and the terrace above the two rivers is where the city goes to watch the sun go down.",
+      "monuments": [
+        {
+          "name": "Belgrade Fortress",
+          "yt": "pP-SWYftJBc",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking Tour of Belgrade Fortress : 4K",
+          "height": 2160
+        },
+        {
+          "name": "Kalemegdan",
+          "yt": "mZDySRkpHPQ",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] Travel to Serbia and Explore Kalemegdan Park with Nevena as Your Tour Guide 🇷🇸",
+          "height": 2160
+        },
+        {
+          "name": "Church of Saint Sava",
+          "yt": "j7_n6r0e-WY",
+          "start": 0,
+          "source": "auto",
+          "title": "Church of Saint Sava Walking Tour 🇷🇸 Belgrad, Serbia | 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "novi-sad",
@@ -6419,7 +7009,7 @@
       "country_code": "RS",
       "country_flag": "🇷🇸",
       "continent": "Europe",
-      "region": "",
+      "region": "Vojvodina",
       "type": "history",
       "tag": "hidden",
       "emoji": "🎸",
@@ -6438,10 +7028,56 @@
       "sounds": [
         "european-plaza.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Petrovaradin Fortress",
+          "wikipedia_slug": "Petrovaradin_Fortress"
+        },
+        {
+          "name": "Name of Mary Church",
+          "wikipedia_slug": "Name_of_Mary_Church"
+        },
+        {
+          "name": "Štrand",
+          "wikipedia_slug": "Štrand"
+        },
+        {
+          "name": "Fruška Gora",
+          "wikipedia_slug": "Fruška_Gora"
+        },
+        {
+          "name": "Dunavska Street"
+        }
+      ],
+      "blurb": "Serbia's second city, on the Danube in the flat Vojvodina plain, with an Austrian fortress on the cliff across the river and a central European feel the rest of the country does not have.",
+      "fun_fact": "Petrovaradin is known as the Gibraltar of the Danube and has 16 km of galleries on four levels tunnelled into the rock beneath it, most of them closed and only partly surveyed.",
+      "hidden_gem_tip": "The fortress clock has its hands reversed — the big hand shows the hour — so that boatmen on the Danube could read the time from the river.",
+      "monuments": [
+        {
+          "name": "Petrovaradin Fortress",
+          "yt": "vaamTaGaCf8",
+          "start": 0,
+          "source": "auto",
+          "title": "Petrovaradin Fortress Novi Sad Serbia 🇷🇸 4K Walking Tour | Relaxing POV Travel Video",
+          "height": 2160
+        },
+        {
+          "name": "Name of Mary Church",
+          "yt": "JRuBjRn1eBA",
+          "start": 0,
+          "source": "auto",
+          "title": "Best of Novi Sad (4K) - Liberty Square, City Hall, Name of Mary Church",
+          "height": 2160
+        },
+        {
+          "name": "Štrand",
+          "yt": "2N1DQvacfk4",
+          "start": 0,
+          "source": "auto",
+          "title": "Novi Sad Strand 4k walking tour video July in Novi Sad Serbia",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "luxembourg-city",
@@ -6450,7 +7086,7 @@
       "country_code": "LU",
       "country_flag": "🇱🇺",
       "continent": "Europe",
-      "region": "",
+      "region": "Luxembourg District",
       "type": "history",
       "tag": "famous",
       "emoji": "🏰",
@@ -6469,10 +7105,55 @@
       "sounds": [
         "european-plaza.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Bock Casemates",
+          "wikipedia_slug": "Bock_(Luxembourg)"
+        },
+        {
+          "name": "Grand Ducal Palace",
+          "wikipedia_slug": "Grand_Ducal_Palace,_Luxembourg"
+        },
+        {
+          "name": "Chemin de la Corniche"
+        },
+        {
+          "name": "Notre-Dame Cathedral",
+          "wikipedia_slug": "Notre-Dame_Cathedral,_Luxembourg"
+        },
+        {
+          "name": "Grund"
+        }
+      ],
+      "blurb": "A capital built on and around a gorge, with the old town on the cliff tops and the Grund quarter down at river level below it, joined by lifts, stairs and viaducts.",
+      "fun_fact": "The rock the city stands on is honeycombed with 17 km of casemates cut by successive occupiers; 35,000 people sheltered in them during the Second World War.",
+      "hidden_gem_tip": "The Chemin de la Corniche has been called the most beautiful balcony in Europe — it runs along the top of the old ramparts and costs nothing.",
+      "monuments": [
+        {
+          "name": "Bock Casemates",
+          "yt": "zTJk8jaRQF8",
+          "start": 0,
+          "source": "auto",
+          "title": "European Tour Day 20 - Luxembourg City and Bock Casemates",
+          "height": 2160
+        },
+        {
+          "name": "Grand Ducal Palace",
+          "yt": "15vbEdOUUIQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Rainy Day Walk in Luxembourg City 4K | Hamilius, Grand Ducal Palace & Main Street",
+          "height": 2160
+        },
+        {
+          "name": "Chemin de la Corniche",
+          "yt": "Jk3c1ejlock",
+          "start": 0,
+          "source": "auto",
+          "title": "[4k] PANORAMIC TOUR of Luxembourg city - CHEMIN DE LA CORNICHE, Luxembourg",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "vilnius",
@@ -6481,7 +7162,7 @@
       "country_code": "LT",
       "country_flag": "🇱🇹",
       "continent": "Europe",
-      "region": "",
+      "region": "Vilnius County",
       "type": "history",
       "tag": "famous",
       "emoji": "⛪",
@@ -6500,10 +7181,57 @@
       "sounds": [
         "european-plaza.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Gediminas' Tower",
+          "wikipedia_slug": "Gediminas's_Tower"
+        },
+        {
+          "name": "Vilnius Cathedral",
+          "wikipedia_slug": "Vilnius_Cathedral"
+        },
+        {
+          "name": "Gate of Dawn",
+          "wikipedia_slug": "Gate_of_Dawn"
+        },
+        {
+          "name": "Užupis",
+          "wikipedia_slug": "Užupis"
+        },
+        {
+          "name": "St. Anne's Church",
+          "wikipedia_slug": "Church_of_St._Anne,_Vilnius"
+        }
+      ],
+      "blurb": "One of the largest surviving baroque old towns in eastern Europe, spread over hills at the meeting of two rivers — a city of courtyards, church spires and a self-declared artists' republic across a footbridge.",
+      "fun_fact": "Užupis declared itself an independent republic on 1 April 1997 and has a constitution mounted on a wall in twenty-odd languages, including the article 'a dog has the right to be a dog'.",
+      "hidden_gem_tip": "Climb Gediminas' hill at dusk — the funicular is often out of action and the path takes ten minutes — for the red roofs and the spires all at once.",
+      "monuments": [
+        {
+          "name": "Gediminas' Tower",
+          "yt": "eno4TgM-bDc",
+          "start": 0,
+          "source": "auto",
+          "title": "4K POV Walk: Gediminas Castle Tower, Vilnius | Winter Morning Virtual Tour",
+          "height": 2160
+        },
+        {
+          "name": "Vilnius Cathedral",
+          "yt": "HU4ehg7IIc4",
+          "start": 0,
+          "source": "auto",
+          "title": "WALKING TOUR IN VILNIUS 🇱🇹 LITHUANIA | OLD TOWN TO VILNIUS CATHEDRAL | WALKING TOUR in 4K",
+          "height": 2160
+        },
+        {
+          "name": "Gate of Dawn",
+          "yt": "8T2ZHvXB7GQ",
+          "start": 0,
+          "source": "auto",
+          "title": "From the Presidential Palace to the Gate of Dawn",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "trakai-castle",
@@ -6512,7 +7240,7 @@
       "country_code": "LT",
       "country_flag": "🇱🇹",
       "continent": "Europe",
-      "region": "",
+      "region": "Vilnius County",
       "type": "history",
       "tag": "hidden",
       "emoji": "🏰",
@@ -6531,10 +7259,36 @@
       "sounds": [
         "european-plaza.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Lake Galvė",
+          "wikipedia_slug": "Galvė"
+        },
+        {
+          "name": "Trakai",
+          "wikipedia_slug": "Trakai"
+        },
+        {
+          "name": "Trakai Historical National Park",
+          "wikipedia_slug": "Trakai_Historical_National_Park"
+        },
+        {
+          "name": "Karaim kenesa"
+        }
+      ],
+      "blurb": "A red-brick Gothic island castle on Lake Galvė, built by the grand dukes of Lithuania in the 14th century, reached by a wooden footbridge and surrounded by water on every side.",
+      "fun_fact": "Trakai is home to the Karaim, a Turkic community brought here from Crimea around 1400 as the grand duke's bodyguard; a few hundred remain, with their own language, prayer house and wooden houses that always have three windows facing the street.",
+      "hidden_gem_tip": "Rent a rowing boat or a pedalo on the lake. The castle only makes sense as an island fortress when you are looking up at it from the water.",
+      "monuments": [
+        {
+          "name": "Trakai",
+          "yt": "Yymxc0-BpEo",
+          "start": 0,
+          "source": "auto",
+          "title": "Trakai Island Castle LIthuania | Walking Tour 4K | Summer 2025",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "riga",
@@ -6543,7 +7297,7 @@
       "country_code": "LV",
       "country_flag": "🇱🇻",
       "continent": "Europe",
-      "region": "",
+      "region": "Riga",
       "type": "history",
       "tag": "famous",
       "emoji": "🏛️",
@@ -6562,10 +7316,56 @@
       "sounds": [
         "european-plaza.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "House of the Blackheads",
+          "wikipedia_slug": "House_of_the_Blackheads_(Riga)"
+        },
+        {
+          "name": "Riga Cathedral",
+          "wikipedia_slug": "Riga_Cathedral"
+        },
+        {
+          "name": "Riga Central Market",
+          "wikipedia_slug": "Riga_Central_Market"
+        },
+        {
+          "name": "Freedom Monument",
+          "wikipedia_slug": "Freedom_Monument"
+        },
+        {
+          "name": "Art Nouveau district"
+        }
+      ],
+      "blurb": "The largest city in the Baltics, a Hanseatic port on the Daugava with a compact medieval core and, just north of it, street after street of extravagant Art Nouveau facades.",
+      "fun_fact": "About a third of the buildings in central Riga are Art Nouveau — the highest concentration anywhere in the world — and many of the best are by Mikhail Eisenstein, father of the film director.",
+      "hidden_gem_tip": "Riga Central Market is housed in five converted Zeppelin hangars from the First World War, and it is where the city actually shops.",
+      "monuments": [
+        {
+          "name": "House of the Blackheads",
+          "yt": "j-ii4FHJj40",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking Tour Riga Latvia The House of the Blackheads Baltics Lockdown Life Hiking Europe Travel 4K",
+          "height": 2160
+        },
+        {
+          "name": "Riga Cathedral",
+          "yt": "8JLMUDrK3b4",
+          "start": 0,
+          "source": "auto",
+          "title": "🇱🇻 Riga Walking Tour Latvia in 4K Video. Explore from the Old Town Cathedral to House of Black Heads",
+          "height": 2160
+        },
+        {
+          "name": "Riga Central Market",
+          "yt": "yZbb0-JogyY",
+          "start": 0,
+          "source": "auto",
+          "title": "【Riga Central Market, Latvia】Walking Tour, 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "chisinau",
@@ -6574,7 +7374,7 @@
       "country_code": "MD",
       "country_flag": "🇲🇩",
       "continent": "Europe",
-      "region": "",
+      "region": "Chișinău",
       "type": "city",
       "tag": "hidden",
       "emoji": "🍇",
@@ -6593,10 +7393,56 @@
       "sounds": [
         "city-hum.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Nativity Cathedral",
+          "wikipedia_slug": "Nativity_Cathedral,_Chișinău"
+        },
+        {
+          "name": "Triumphal Arch",
+          "wikipedia_slug": "Triumphal_Arch,_Chișinău"
+        },
+        {
+          "name": "Stephen the Great Park"
+        },
+        {
+          "name": "Cricova",
+          "wikipedia_slug": "Cricova"
+        },
+        {
+          "name": "Orheiul Vechi",
+          "wikipedia_slug": "Old_Orhei"
+        }
+      ],
+      "blurb": "Europe's least-visited capital: a low, green, unhurried city of parks and Soviet-era boulevards in the middle of Moldova's wine country, rebuilt after an earthquake and a war flattened most of it.",
+      "fun_fact": "The Cricova cellars just outside the city are 120 km of limestone tunnels used as a wine store, with street signs and traffic rules underground — and Milestii Mici nearby holds the largest wine collection in the world.",
+      "hidden_gem_tip": "Orheiul Vechi, an hour away, is a cave monastery cut into a limestone cliff above a river bend, still occupied by monks and still reached on foot.",
+      "monuments": [
+        {
+          "name": "Nativity Cathedral",
+          "yt": "4Zxjaclrpps",
+          "start": 0,
+          "source": "auto",
+          "title": "🇲🇩-Moldova-Chisinau-Nativity of Christ Metropolitan Cathedral Park-Chisinau through my eyes-4K",
+          "height": 2160
+        },
+        {
+          "name": "Triumphal Arch",
+          "yt": "s9l8zbGgLns",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking Chisinau : Triumphal Arch, Cathedral Park & Soviet Architecture | 4K UHD",
+          "height": 2160
+        },
+        {
+          "name": "Stephen the Great Park",
+          "yt": "4K6j8w_I9XE",
+          "start": 0,
+          "source": "auto",
+          "title": "Chisinau 🇲🇩 Stephen the Great Central Park Moldova",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "bratislava",
@@ -6605,7 +7451,7 @@
       "country_code": "SK",
       "country_flag": "🇸🇰",
       "continent": "Europe",
-      "region": "",
+      "region": "Bratislava Region",
       "type": "history",
       "tag": "famous",
       "emoji": "🏰",
@@ -6624,10 +7470,57 @@
       "sounds": [
         "european-plaza.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Bratislava Castle",
+          "wikipedia_slug": "Bratislava_Castle"
+        },
+        {
+          "name": "St. Martin's Cathedral",
+          "wikipedia_slug": "St_Martin's_Cathedral,_Bratislava"
+        },
+        {
+          "name": "Michael's Gate",
+          "wikipedia_slug": "Michael's_Gate"
+        },
+        {
+          "name": "Devín Castle",
+          "wikipedia_slug": "Devín_Castle"
+        },
+        {
+          "name": "UFO Bridge",
+          "wikipedia_slug": "Most_SNP"
+        }
+      ],
+      "blurb": "A compact capital on the Danube within sight of two borders, with a white castle on the hill, a small pedestrian old town below it, and a flying-saucer restaurant on a bridge pylon.",
+      "fun_fact": "Eleven Hungarian kings and eight queens were crowned in St Martin's Cathedral between 1563 and 1830, while Buda was under Ottoman control — a gilded crown on the spire marks it.",
+      "hidden_gem_tip": "Devín Castle, where the Morava joins the Danube, was the westernmost point of the Eastern Bloc; the Iron Curtain ran along the river below it and there is a memorial to the people shot trying to cross.",
+      "monuments": [
+        {
+          "name": "Bratislava Castle",
+          "yt": "P17j4ZVYqwI",
+          "start": 0,
+          "source": "auto",
+          "title": "BRATISLAVA CASTLE | BRATISLAVA | SLOVAKIA | WalkIn (4K HDR Walking Tour)",
+          "height": 2160
+        },
+        {
+          "name": "St. Martin's Cathedral",
+          "yt": "vePQQrD9hW0",
+          "start": 0,
+          "source": "auto",
+          "title": "St. Martin’s Cathedral Bratislava, Slovakia (Katedrála svätého Martina) - 4K",
+          "height": 2160
+        },
+        {
+          "name": "Michael's Gate",
+          "yt": "TRM0Xpx7ZcM",
+          "start": 0,
+          "source": "auto",
+          "title": "St. Michael's Tower | Michael's Gate | Bratislava | Slovakia | Things To Do In Bratislava",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "high-tatras",
@@ -6636,7 +7529,7 @@
       "country_code": "SK",
       "country_flag": "🇸🇰",
       "continent": "Europe",
-      "region": "",
+      "region": "Prešov Region",
       "type": "mountain",
       "tag": "hidden",
       "emoji": "🏔️",
@@ -6655,10 +7548,57 @@
       "sounds": [
         "mountain-wind.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Gerlachovský štít",
+          "wikipedia_slug": "Gerlachovský_štít"
+        },
+        {
+          "name": "Lomnický štít",
+          "wikipedia_slug": "Lomnický_štít"
+        },
+        {
+          "name": "Štrbské Pleso",
+          "wikipedia_slug": "Štrbské_Pleso"
+        },
+        {
+          "name": "Tatra National Park",
+          "wikipedia_slug": "Tatra_National_Park,_Slovakia"
+        },
+        {
+          "name": "Poprad",
+          "wikipedia_slug": "Poprad"
+        }
+      ],
+      "blurb": "The smallest high-alpine range in the world — 26 km end to end, with granite peaks over 2,600 m, glacial lakes and marked trails, packed into an area you can see across on a clear day.",
+      "fun_fact": "Despite topping out at 2,655 m the Tatras behave like much bigger mountains: they carry alpine tundra, chamois and marmots, and the weather changes fast enough that the trails above the huts close in winter by law.",
+      "hidden_gem_tip": "The cable car to Lomnický štít puts you on a 2,634 m summit in minutes, but tickets are timed and sell out — book the day before.",
+      "monuments": [
+        {
+          "name": "Gerlachovský štít",
+          "yt": "iWOLCA_QFaE",
+          "start": 0,
+          "source": "auto",
+          "title": "GERLACHOVSKÝ ŠTÍT (2 655 m) - Climbing Slovakia Highest peak | 4K | TravelingTunas 🐟",
+          "height": 2160
+        },
+        {
+          "name": "Lomnický štít",
+          "yt": "kdFNgvNeXpw",
+          "start": 0,
+          "source": "auto",
+          "title": "High Tatras. Diving the Lomnický štít",
+          "height": 2160
+        },
+        {
+          "name": "Štrbské Pleso",
+          "yt": "t8oQIwJ7Ig4",
+          "start": 0,
+          "source": "auto",
+          "title": "Strbske Pleso, High Tatra - Ski touring, Ski Alpinism",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "ljubljana",
@@ -6667,7 +7607,7 @@
       "country_code": "SI",
       "country_flag": "🇸🇮",
       "continent": "Europe",
-      "region": "",
+      "region": "Upper Carniola",
       "type": "history",
       "tag": "famous",
       "emoji": "🐉",
@@ -6686,10 +7626,56 @@
       "sounds": [
         "european-plaza.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Ljubljana Castle",
+          "wikipedia_slug": "Ljubljana_Castle"
+        },
+        {
+          "name": "Triple Bridge",
+          "wikipedia_slug": "Triple_Bridge"
+        },
+        {
+          "name": "Dragon Bridge",
+          "wikipedia_slug": "Dragon_Bridge_(Ljubljana)"
+        },
+        {
+          "name": "Central Market"
+        },
+        {
+          "name": "Tivoli Park",
+          "wikipedia_slug": "Tivoli_City_Park"
+        }
+      ],
+      "blurb": "A small green capital on a river, with a castle on the hill, a car-free centre and an unusual amount of one architect's work in it — Jože Plečnik redesigned much of the city between the wars.",
+      "fun_fact": "Ljubljana closed its historic centre to traffic entirely and was named European Green Capital in 2016; the river embankments, bridges, market and cemetery were all designed by the same man.",
+      "hidden_gem_tip": "Walk up to the castle rather than taking the funicular — twenty minutes through woods — and come back down the other side into Tivoli Park.",
+      "monuments": [
+        {
+          "name": "Ljubljana Castle",
+          "yt": "1jPQhTEsWO8",
+          "start": 0,
+          "source": "auto",
+          "title": "Ljubljana Ljubljana Castle Walking Tour [Winter 2022][4K]",
+          "height": 2160
+        },
+        {
+          "name": "Triple Bridge",
+          "yt": "hZaFJkDVweY",
+          "start": 0,
+          "source": "auto",
+          "title": "Ljubljana sightseeing in Slovenia. Ljubljana Castle, Triple Bridge",
+          "height": 2160
+        },
+        {
+          "name": "Dragon Bridge",
+          "yt": "FffVHQhp-0Q",
+          "start": 0,
+          "source": "auto",
+          "title": "🇸🇮 Ljubljana, Slovenia - Walking Tour - Prešeren Square, Old Town, Dragon Bridge, Castle (4K, CC)",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "lake-bled",
@@ -6698,7 +7684,7 @@
       "country_code": "SI",
       "country_flag": "🇸🇮",
       "continent": "Europe",
-      "region": "",
+      "region": "Upper Carniola",
       "type": "nature",
       "tag": "famous",
       "emoji": "🏞️",
@@ -6717,10 +7703,55 @@
       "sounds": [
         "mountain-wind.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Bled Island"
+        },
+        {
+          "name": "Bled Castle",
+          "wikipedia_slug": "Bled_Castle"
+        },
+        {
+          "name": "Church of the Assumption"
+        },
+        {
+          "name": "Vintgar Gorge",
+          "wikipedia_slug": "Vintgar_Gorge"
+        },
+        {
+          "name": "Julian Alps",
+          "wikipedia_slug": "Julian_Alps"
+        }
+      ],
+      "blurb": "A glacial lake in the Julian Alps with a church on a small island in the middle of it and a castle on a cliff above — rowed to in flat-bottomed *pletna* boats by a handful of licensed families.",
+      "fun_fact": "The 99 steps up from the island's jetty are traditionally climbed by a groom carrying his bride, and the church bell is said to grant a wish — which is why it rings more or less continuously all day.",
+      "hidden_gem_tip": "Vintgar Gorge, 4 km away, is a wooden walkway pinned to the rock above a green river for 1.6 km. Book a slot; entry is now capped.",
+      "monuments": [
+        {
+          "name": "Bled Island",
+          "yt": "cfS9zR5IDWo",
+          "start": 0,
+          "source": "auto",
+          "title": "BLED, Slovenia | Boat Ride to the Famous Lake Bled Island [4K 60FPS]",
+          "height": 2160
+        },
+        {
+          "name": "Bled Castle",
+          "yt": "F1wdAuRyezk",
+          "start": 0,
+          "source": "auto",
+          "title": "Lake Bled Slovenia 🇸🇮 4K Bled Castle Walking Tour",
+          "height": 2160
+        },
+        {
+          "name": "Church of the Assumption",
+          "yt": "BhIS5vfVGBs",
+          "start": 0,
+          "source": "auto",
+          "title": "Assumption of Maria Church - Lake Bled Island 2021",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "piran",
@@ -6729,7 +7760,7 @@
       "country_code": "SI",
       "country_flag": "🇸🇮",
       "continent": "Europe",
-      "region": "",
+      "region": "Slovene Istria",
       "type": "coastal",
       "tag": "hidden",
       "emoji": "⛪",
@@ -6748,10 +7779,56 @@
       "sounds": [
         "ocean-waves.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Tartini Square",
+          "wikipedia_slug": "Tartini_Square"
+        },
+        {
+          "name": "St. George's Parish Church",
+          "wikipedia_slug": "St._George's_Parish_Church_(Piran)"
+        },
+        {
+          "name": "Piran town walls"
+        },
+        {
+          "name": "Sečovlje Salina Nature Park",
+          "wikipedia_slug": "Sečovlje_Saltpans_Natural_Park"
+        },
+        {
+          "name": "Portorož",
+          "wikipedia_slug": "Portorož"
+        }
+      ],
+      "blurb": "A Venetian fishing town on a narrow point of Slovenia's 46 km of coast — stone alleys, a marble square where the harbour used to be, and walls on the hill you can walk along.",
+      "fun_fact": "Piran was Venetian for over 500 years, and the town still speaks a little Italian officially; the salt pans south of it have been worked by hand using the same medieval method since the 13th century.",
+      "hidden_gem_tip": "Climb the town walls in the late afternoon for a couple of euros. From up there the whole peninsula, the church and the Adriatic line up at once.",
+      "monuments": [
+        {
+          "name": "Tartini Square",
+          "yt": "Tx3Ild0D3sg",
+          "start": 0,
+          "source": "auto",
+          "title": "From Tartini Square to the Walls of Piran (Slovenia) - 4K Walking Tour",
+          "height": 2160
+        },
+        {
+          "name": "St. George's Parish Church",
+          "yt": "fR-YwgiecXM",
+          "start": 0,
+          "source": "auto",
+          "title": "Piran (Slovenia) - St. George's Parish Church - 4K Walking Tour",
+          "height": 2160
+        },
+        {
+          "name": "Piran town walls",
+          "yt": "OpAdX3x_AUk",
+          "start": 0,
+          "source": "auto",
+          "title": "Piran, Slovenia ~ Old Town | Tartini Square | Port Piran | Walls of Piran",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "vatican-city",
@@ -6779,10 +7856,57 @@
       "sounds": [
         "european-plaza.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "St. Peter's Basilica",
+          "wikipedia_slug": "St._Peter's_Basilica"
+        },
+        {
+          "name": "Sistine Chapel",
+          "wikipedia_slug": "Sistine_Chapel"
+        },
+        {
+          "name": "Vatican Museums",
+          "wikipedia_slug": "Vatican_Museums"
+        },
+        {
+          "name": "St. Peter's Square",
+          "wikipedia_slug": "St._Peter's_Square"
+        },
+        {
+          "name": "Apostolic Palace",
+          "wikipedia_slug": "Apostolic_Palace"
+        }
+      ],
+      "blurb": "The smallest sovereign state in the world — 49 hectares inside Rome, with about 800 residents, its own post office and railway station, and the largest church in Christendom at the centre of it.",
+      "fun_fact": "The Vatican has the highest crime rate per capita of any state on Earth, which is an artefact of arithmetic: a few hundred pickpocket reports a year divided by a population smaller than a village.",
+      "hidden_gem_tip": "St Peter's dome can be climbed — 551 steps, or a lift to the roof and 320 after that — and the last stretch leans with the curve of the dome itself.",
+      "monuments": [
+        {
+          "name": "St. Peter's Basilica",
+          "yt": "NvjtzKUaq-s",
+          "start": 0,
+          "source": "auto",
+          "title": "St. Peter's Basilica 4K Tour - The Vatican - with Captions",
+          "height": 2160
+        },
+        {
+          "name": "Sistine Chapel",
+          "yt": "fAz8D3MTBaU",
+          "start": 0,
+          "source": "auto",
+          "title": "Vatican Museums 🇻🇦 | Sistine Chapel & Masterpieces | 4K Walking Tour",
+          "height": 2160
+        },
+        {
+          "name": "Vatican Museums",
+          "yt": "DN3VnVQXfZs",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] Vatican City : Walking Tour of St. Peter's Basilica & Vatican Museums",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "moscow",
@@ -6834,7 +7958,7 @@
       "country_code": "RU",
       "country_flag": "🇷🇺",
       "continent": "Europe",
-      "region": "",
+      "region": "Northwestern Russia",
       "type": "history",
       "tag": "famous",
       "emoji": "🎭",
@@ -6853,10 +7977,57 @@
       "sounds": [
         "european-plaza.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Winter Palace",
+          "wikipedia_slug": "Winter_Palace"
+        },
+        {
+          "name": "Hermitage Museum",
+          "wikipedia_slug": "Hermitage_Museum"
+        },
+        {
+          "name": "Church of the Savior on Spilled Blood",
+          "wikipedia_slug": "Church_of_the_Savior_on_Blood"
+        },
+        {
+          "name": "Peter and Paul Fortress",
+          "wikipedia_slug": "Peter_and_Paul_Fortress"
+        },
+        {
+          "name": "Peterhof Palace",
+          "wikipedia_slug": "Peterhof_Palace"
+        }
+      ],
+      "blurb": "Built from nothing on a swamp by decree in 1703 as Russia's window on Europe — granite embankments, canals, pastel palaces and a grid of straight prospects laid across the Neva delta.",
+      "fun_fact": "The Hermitage holds around three million items across more than a thousand rooms; at a minute apiece you would need years to see them all, and the museum has employed cats to control mice since the 1740s.",
+      "hidden_gem_tip": "The Peterhof fountains run on gravity alone — no pumps, just a 20 km aqueduct and a drop in the land — and they are switched on with music every morning in season.",
+      "monuments": [
+        {
+          "name": "Winter Palace",
+          "yt": "nmRhIK0l3f4",
+          "start": 0,
+          "source": "auto",
+          "title": "Saint Petersburg Walking Tour | Palace Square & Winter Palace Views (4K)",
+          "height": 2160
+        },
+        {
+          "name": "Hermitage Museum",
+          "yt": "agoOHWNKA1w",
+          "start": 0,
+          "source": "auto",
+          "title": "Hermitage Museum walking tour 4k 60fps - Saint Petersburg, Russia",
+          "height": 2160
+        },
+        {
+          "name": "Church of the Savior on Spilled Blood",
+          "yt": "o9oS5M-GpbY",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking tour of St. Petersburg 2021. Church of the Savior on Spilled Blood. Walking tour 4k.",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "kazan",
@@ -6865,7 +8036,7 @@
       "country_code": "RU",
       "country_flag": "🇷🇺",
       "continent": "Europe",
-      "region": "",
+      "region": "Tatarstan",
       "type": "history",
       "tag": "hidden",
       "emoji": "🕌",
@@ -6884,10 +8055,57 @@
       "sounds": [
         "european-plaza.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Kazan Kremlin",
+          "wikipedia_slug": "Kazan_Kremlin"
+        },
+        {
+          "name": "Qolşärif Mosque",
+          "wikipedia_slug": "Kul_Sharif_Mosque"
+        },
+        {
+          "name": "Söyembikä Tower",
+          "wikipedia_slug": "Söyembikä_Tower"
+        },
+        {
+          "name": "Bauman Street",
+          "wikipedia_slug": "Bauman_Street,_Kazan"
+        },
+        {
+          "name": "Temple of All Religions",
+          "wikipedia_slug": "Temple_of_All_Religions"
+        }
+      ],
+      "blurb": "The capital of Tatarstan on the Volga, where a mosque and an Orthodox cathedral stand inside the same white kremlin — a Muslim Tatar city that has been part of Russia since 1552 and is comfortable being both.",
+      "fun_fact": "The Söyembikä Tower leans nearly two metres off vertical, more than the tilt is usually noticed for, because it was built on the foundations of an earlier structure without deep piling.",
+      "hidden_gem_tip": "Bauman Street is the pedestrian spine and the place to try tatar echpochmak; the kremlin above it is free to walk into.",
+      "monuments": [
+        {
+          "name": "Kazan Kremlin",
+          "yt": "nbW-TIR91GA",
+          "start": 0,
+          "source": "auto",
+          "title": "⁴ᴷ⁶⁰ Walking Kazan: Kazan Kremlin",
+          "height": 2160
+        },
+        {
+          "name": "Söyembikä Tower",
+          "yt": "e3IwC53y5Ag",
+          "start": 0,
+          "source": "auto",
+          "title": "Kazan Day 2 | Exploring the Kazan Kremlin, Kul Sharif Mosque, Söyembikä Tower",
+          "height": 1080
+        },
+        {
+          "name": "Bauman Street",
+          "yt": "L8sRIZ7ox9c",
+          "start": 0,
+          "source": "auto",
+          "title": "Kazan - Bauman Street - Night Walking Tour Russia  - 4K🎧- Evening City Walk With Real Ambient Sounds",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "lake-baikal",
@@ -6896,7 +8114,7 @@
       "country_code": "RU",
       "country_flag": "🇷🇺",
       "continent": "Europe",
-      "region": "",
+      "region": "Siberia",
       "type": "nature",
       "tag": "famous",
       "emoji": "🏞️",
@@ -6915,10 +8133,56 @@
       "sounds": [
         "mountain-wind.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Olkhon Island",
+          "wikipedia_slug": "Olkhon_Island"
+        },
+        {
+          "name": "Listvyanka",
+          "wikipedia_slug": "Listvyanka"
+        },
+        {
+          "name": "Shaman Rock"
+        },
+        {
+          "name": "Circum-Baikal Railway",
+          "wikipedia_slug": "Circum–Baikal_railway"
+        },
+        {
+          "name": "Barguzin Range",
+          "wikipedia_slug": "Barguzin_Range"
+        }
+      ],
+      "blurb": "The deepest and oldest lake on Earth — 1,642 m down, 25 million years old, and holding about a fifth of all the unfrozen fresh water on the planet. In winter it freezes hard enough to drive across.",
+      "fun_fact": "Baikal has around 2,000 species found nowhere else, including the nerpa, the world's only exclusively freshwater seal — and nobody is quite sure how a seal got 3,000 km from the nearest ocean.",
+      "hidden_gem_tip": "February and March are the season for the ice: it goes clear and turquoise, cracks into slabs metres thick, and the hovercraft run to Olkhon over the top of it.",
+      "monuments": [
+        {
+          "name": "Olkhon Island",
+          "yt": "lio7jXAZPz4",
+          "start": 0,
+          "source": "auto",
+          "title": "Baikal. Olkhon Island.",
+          "height": 2160
+        },
+        {
+          "name": "Listvyanka",
+          "yt": "6AJQY29Pg24",
+          "start": 0,
+          "source": "auto",
+          "title": "5 minutes on Baikal: Olkhon, Listvyanka, Sobolinaya - 4k",
+          "height": 2160
+        },
+        {
+          "name": "Shaman Rock",
+          "yt": "kNqpSoMKOQc",
+          "start": 0,
+          "source": "auto",
+          "title": "Shaman Rock And Ritual Pillars On Lake Baikal || 4K Ultra HD Video",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "yekaterinburg",

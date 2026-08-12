@@ -188,7 +188,7 @@
         "pitch": 0,
         "fov": 90
       },
-      "wikipedia_slug": "Tetzcotzinco",
+      "wikipedia_slug": "Texcoco_de_Mora",
       "sounds": [
         "wind.mp3"
       ],
@@ -344,16 +344,7 @@
       "aa_episode": 4,
       "aa_claim": "Hancock dives the site to argue it could be a man-made structure submerged by the meltwater sea-level rise at the end of the Ice Age — exactly where a lost coastal civilization's traces would now lie.",
       "country_code": "BS",
-      "continent": "North America",
-      "monuments": [
-        {
-          "name": "Bimini Road",
-          "yt": "vJgfTe08CQk",
-          "start": 0,
-          "source": "auto",
-          "title": "Moon Boots - Bimini Road (Live from YouTube Space, London)"
-        }
-      ]
+      "continent": "North America"
     },
     {
       "id": "aa-gobekli-tepe",
@@ -621,7 +612,7 @@
         "pitch": 0,
         "fov": 90
       },
-      "wikipedia_slug": "Dry_Falls_(Washington)",
+      "wikipedia_slug": "Dry_Falls",
       "sounds": [
         "waterfall.mp3"
       ],
@@ -672,7 +663,50 @@
       "aa_episode": 8,
       "aa_claim": "Hancock points to the 'black mat' and its impact-spherules as physical residue of the Younger Dryas comet impact — the trigger, in his telling, of the Ancient Apocalypse.",
       "country_code": "US",
-      "continent": "North America"
+      "continent": "North America",
+      "highlights": [
+        {
+          "name": "San Pedro River",
+          "wikipedia_slug": "San_Pedro_River_(Arizona)"
+        },
+        {
+          "name": "Sierra Vista",
+          "wikipedia_slug": "Sierra_Vista,_Arizona"
+        },
+        {
+          "name": "Clovis points"
+        },
+        {
+          "name": "Black mat layer"
+        }
+      ],
+      "hidden_gem_tip": "The site is open ground on the San Pedro Riparian National Conservation Area — no gate, no ticket, and interpretive signs where the mammoth kill was excavated.",
+      "monuments": [
+        {
+          "name": "San Pedro River",
+          "yt": "7tUfk93xGCI",
+          "start": 0,
+          "source": "auto",
+          "title": "Prettiest Birds I’ve Ever Photographed | San Pedro River Walk",
+          "height": 2160
+        },
+        {
+          "name": "Sierra Vista",
+          "yt": "Mgfb9bzmgxI",
+          "start": 0,
+          "source": "auto",
+          "title": "Places to see and Explore | Sierra Vista - Arizona",
+          "height": 2160
+        },
+        {
+          "name": "Clovis points",
+          "yt": "dsatbkEpqkI",
+          "start": 0,
+          "source": "auto",
+          "title": "Paleo/Clovis and Pre-Clovis Points and Knives From Jasper Hill, California",
+          "height": 1280
+        }
+      ]
     },
     {
       "id": "aa-white-sands",
@@ -735,7 +769,7 @@
         "pitch": 0,
         "fov": 90
       },
-      "wikipedia_slug": "Geoglyphs_of_the_Amazon_rainforest",
+      "wikipedia_slug": "Acre_geoglyphs",
       "sounds": [
         "wilderness.mp3"
       ],
@@ -745,7 +779,35 @@
       "aa_episode": 1,
       "aa_claim": "Hancock uses the Amazon's hidden geoglyphs to argue the rainforest concealed a sophisticated lost world — proof, he says, that whole civilizations can vanish completely from view.",
       "country_code": "BR",
-      "continent": "South America"
+      "continent": "South America",
+      "highlights": [
+        {
+          "name": "Acre",
+          "wikipedia_slug": "Acre_(state)"
+        },
+        {
+          "name": "Rio Branco",
+          "wikipedia_slug": "Rio_Branco,_Acre"
+        },
+        {
+          "name": "Amazon rainforest",
+          "wikipedia_slug": "Amazon_rainforest"
+        },
+        {
+          "name": "Jaco Sá"
+        }
+      ],
+      "hidden_gem_tip": "Fazenda Colorada and Jaco Sá are the two enclosures set up for visitors, both within an hour or two of Rio Branco on the BR-317.",
+      "monuments": [
+        {
+          "name": "Amazon rainforest",
+          "yt": "eOJK7149_f8",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking Tour through the Amazon Rainforest, near Manaus, Brazil - 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "aa-monte-alegre",
@@ -777,7 +839,42 @@
       "aa_episode": 2,
       "aa_claim": "Hancock interprets the cave's ancient art as encoded sky-knowledge, arguing these painters inherited an astronomical tradition far older than the images themselves.",
       "country_code": "BR",
-      "continent": "South America"
+      "continent": "South America",
+      "highlights": [
+        {
+          "name": "Monte Alegre",
+          "wikipedia_slug": "Monte_Alegre,_Pará"
+        },
+        {
+          "name": "Serra da Lua"
+        },
+        {
+          "name": "Amazon River",
+          "wikipedia_slug": "Amazon_River"
+        },
+        {
+          "name": "Caverna da Pedra Pintada"
+        }
+      ],
+      "hidden_gem_tip": "The park is reached by boat from Santarém and then a climb up the escarpment; the ochre handprints are on the ceiling of the rock shelter, best seen with the low sun coming in.",
+      "monuments": [
+        {
+          "name": "Monte Alegre",
+          "yt": "7t4eNVn_JNY",
+          "start": 0,
+          "source": "auto",
+          "title": "🇧🇷 DRONE EM MONTE ALEGRE NO ESTADO DO PARÁ | #djimini3pro | #4k",
+          "height": 2160
+        },
+        {
+          "name": "Amazon River",
+          "yt": "0-03l8QETJ8",
+          "start": 0,
+          "source": "auto",
+          "title": "Relaxing Walk in the Amazon: River of Life | Morning Light (ASMR Nature Sounds | 4K)",
+          "height": 720
+        }
+      ]
     },
     {
       "id": "aa-rapa-nui",

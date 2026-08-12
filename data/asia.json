@@ -96,7 +96,7 @@
       "country_code": "JP",
       "country_flag": "🇯🇵",
       "continent": "Asia",
-      "region": "",
+      "region": "Kansai",
       "type": "city",
       "tag": "famous",
       "emoji": "🏯",
@@ -115,11 +115,58 @@
       "sounds": [
         "city-hum.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null,
-      "walk": "xP-wJbQcMOc"
+      "highlights": [
+        {
+          "name": "Osaka Castle",
+          "wikipedia_slug": "Osaka_Castle"
+        },
+        {
+          "name": "Dotonbori",
+          "wikipedia_slug": "Dōtonbori"
+        },
+        {
+          "name": "Tsutenkaku",
+          "wikipedia_slug": "Tsūtenkaku"
+        },
+        {
+          "name": "Umeda Sky Building",
+          "wikipedia_slug": "Umeda_Sky_Building"
+        },
+        {
+          "name": "Sumiyoshi Taisha",
+          "wikipedia_slug": "Sumiyoshi-taisha"
+        }
+      ],
+      "blurb": "Japan's kitchen and its loudest city — a merchant town rather than an imperial one, flat, neon-lit and much less formal than Kyoto an hour away. Everything here points at food and at the canal-side signs above Dotonbori.",
+      "fun_fact": "Osaka's motto is *kuidaore* — roughly 'eat yourself bankrupt' — and the city takes it seriously enough that the Glico running man sign over the Ebisu bridge has been relit six times since 1935.",
+      "hidden_gem_tip": "The Umeda Sky Building's Floating Garden Observatory is an open-air ring 170 m up, reached by an escalator that crosses the gap between the two towers in mid-air.",
+      "walk": "xP-wJbQcMOc",
+      "monuments": [
+        {
+          "name": "Osaka Castle",
+          "yt": "h2fA_XUNoQA",
+          "start": 0,
+          "source": "auto",
+          "title": "osaka japan castle walking tour 4k videos osaka japan",
+          "height": 2160
+        },
+        {
+          "name": "Dotonbori",
+          "yt": "Z57XuFcE3AY",
+          "start": 0,
+          "source": "auto",
+          "title": "Osaka Night Walk – BEST Dotonbori Nightlife & Street Food | Japan Walking Tour | 4K HDR",
+          "height": 2160
+        },
+        {
+          "name": "Tsutenkaku",
+          "yt": "qkBY3LGVyxc",
+          "start": 0,
+          "source": "auto",
+          "title": "【4K/60fps】OSAKA Walking Tour around Tsutenkaku",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "mount-fuji",
@@ -128,7 +175,7 @@
       "country_code": "JP",
       "country_flag": "🇯🇵",
       "continent": "Asia",
-      "region": "",
+      "region": "Chūbu",
       "type": "mountain",
       "tag": "famous",
       "emoji": "🗻",
@@ -147,10 +194,57 @@
       "sounds": [
         "mountain-wind.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Chureito Pagoda",
+          "wikipedia_slug": "Arakurayama_Sengen_Park"
+        },
+        {
+          "name": "Lake Kawaguchi",
+          "wikipedia_slug": "Lake_Kawaguchi"
+        },
+        {
+          "name": "Fuji Five Lakes",
+          "wikipedia_slug": "Fuji_Five_Lakes"
+        },
+        {
+          "name": "Aokigahara",
+          "wikipedia_slug": "Aokigahara"
+        },
+        {
+          "name": "Fujinomiya",
+          "wikipedia_slug": "Fujinomiya,_Shizuoka"
+        }
+      ],
+      "blurb": "A near-perfect volcanic cone of 3,776 m, visible from Tokyo on a clear winter morning and hidden behind cloud for much of the summer. It has been climbed as a pilgrimage for over a thousand years and painted more often than any other mountain on Earth.",
+      "fun_fact": "Fuji is still an active volcano; its last eruption, in 1707, dropped ash on Edo 100 km away for two weeks and left the Hōei crater on the southeastern flank that you can see from the Tokaido line.",
+      "hidden_gem_tip": "The official climbing season is only July to early September. Outside it the huts are shut and the mountain is a serious winter ascent — but the Chureito Pagoda view is best in the cold months anyway.",
+      "monuments": [
+        {
+          "name": "Chureito Pagoda",
+          "yt": "M2D2Jev9CUU",
+          "start": 0,
+          "source": "auto",
+          "title": "Chureito Pagoda [4k] Japan | Walking Tour | Mt. Fuji",
+          "height": 2160
+        },
+        {
+          "name": "Lake Kawaguchi",
+          "yt": "_w_Onapq7-k",
+          "start": 0,
+          "source": "auto",
+          "title": "Mt Fuji 4k -Boat Ride on Lake Kawaguchi - Autumn 2019",
+          "height": 2160
+        },
+        {
+          "name": "Fuji Five Lakes",
+          "yt": "9ME0m_LQv-0",
+          "start": 0,
+          "source": "auto",
+          "title": "FUJI FIVE LAKES: A Journey Through Japan's Natural Beauty",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "hiroshima",
@@ -4507,17 +4601,7 @@
       ],
       "blurb": "A walled Sichuanese town on a bend of the Jialing River that kept its Tang street grid and about two square kilometres of courtyard houses. It was the provincial capital for seventeen years in the 17th century and has been quietly ignored ever since.",
       "fun_fact": "Langzhong is the home of Baoning vinegar, brewed here since the Ming dynasty — the town smells faintly of it, and it goes on everything.",
-      "hidden_gem_tip": "This is the least-visited of China's four great preserved old towns. Climb Zhangfei Temple's hill for the roofscape and you will very likely be alone up there.",
-      "monuments": [
-        {
-          "name": "Jialing River",
-          "yt": "wleTfQs6wvc",
-          "start": 0,
-          "source": "auto",
-          "height": 2160,
-          "title": "[NO.01] Chongqing: A Long Walk by the Jialing River | From Ciqikou to Hongyancun | 4K 60FPS"
-        }
-      ]
+      "hidden_gem_tip": "This is the least-visited of China's four great preserved old towns. Climb Zhangfei Temple's hill for the roofscape and you will very likely be alone up there."
     },
     {
       "id": "chaozhou",
@@ -4577,14 +4661,6 @@
           "source": "auto",
           "height": 2160,
           "title": "Chaozhou Walking Tour | Historic City | Guangji Bridge | Guangji Tower | China | 潮州 [4K Ultra HD]"
-        },
-        {
-          "name": "Kaiyuan Temple",
-          "yt": "5eCgOzTZ8ss",
-          "start": 0,
-          "source": "auto",
-          "height": 2160,
-          "title": "星期天下午 逛泉州市开元寺 游客挺多 4K60帧 Quanzhou City.Kaiyuan Temple.China.4K 60FPS."
         }
       ]
     },
@@ -5773,14 +5849,6 @@
           "source": "auto",
           "height": 1080,
           "title": "Chengyang - Sanjiang, in the Guangxi province of China | Cinematic Footages | Relaxing Music"
-        },
-        {
-          "name": "Drum tower",
-          "yt": "AtA8rRg7LqA",
-          "start": 0,
-          "source": "auto",
-          "height": 2160,
-          "title": "Night Walk In Xi'an Muslim Food Street | Bell Tower | Drum Tower | Shaanxi, China | 西安 | 回民街 | 钟楼鼓楼"
         }
       ]
     },
@@ -7190,7 +7258,17 @@
       ],
       "blurb": "The largest waterfall on any land border in Asia, straddling the line between Guangxi and Vietnam — a 200-metre-wide staircase of water in karst country, called Detian on the Chinese side and Ban Gioc on the Vietnamese.",
       "fun_fact": "Border marker 53, a French-era stone from the 1890s, sits beside the falls, and there is a small market on the boundary where traders from both countries deal in the open.",
-      "hidden_gem_tip": "Take a bamboo raft out to the middle. It goes close enough to the Vietnamese half that you get both countries' cascades in one frame — and the wet season, June to September, is when the falls are full."
+      "hidden_gem_tip": "Take a bamboo raft out to the middle. It goes close enough to the Vietnamese half that you get both countries' cascades in one frame — and the wet season, June to September, is when the falls are full.",
+      "monuments": [
+        {
+          "name": "Nanning",
+          "yt": "FvBq5njQ8wE",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Walking Tour: Nanhu Park Nanning China | Banyan Bonsai & Lake 广西南宁绝美南湖公园漫步",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "fanjingshan",
@@ -8721,7 +8799,7 @@
       "country_code": "IN",
       "country_flag": "🇮🇳",
       "continent": "Asia",
-      "region": "",
+      "region": "Delhi",
       "type": "city",
       "tag": "famous",
       "emoji": "🛕",
@@ -8740,11 +8818,58 @@
       "sounds": [
         "city-hum.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null,
-      "walk": "89BQObAoO28"
+      "highlights": [
+        {
+          "name": "India Gate",
+          "wikipedia_slug": "India_Gate"
+        },
+        {
+          "name": "Humayun's Tomb",
+          "wikipedia_slug": "Humayun's_tomb"
+        },
+        {
+          "name": "Rashtrapati Bhavan",
+          "wikipedia_slug": "Rashtrapati_Bhavan"
+        },
+        {
+          "name": "Lodhi Gardens",
+          "wikipedia_slug": "Lodi_Gardens"
+        },
+        {
+          "name": "Connaught Place",
+          "wikipedia_slug": "Connaught_Place,_New_Delhi"
+        }
+      ],
+      "blurb": "The planned imperial capital laid out by Lutyens and Baker from 1911 and inaugurated in 1931 — wide avenues, sandstone ministries and roundabouts, grafted onto a site where seven earlier cities had already been built and abandoned.",
+      "fun_fact": "Humayun's Tomb, finished in 1572, is the first great Mughal garden tomb and the direct architectural ancestor of the Taj Mahal, which borrowed its dome, its plinth and its four-part garden.",
+      "hidden_gem_tip": "Lodhi Gardens is 36 hectares of park with 15th-century tombs standing in it, free and open from sunrise — Delhi's best morning walk.",
+      "walk": "89BQObAoO28",
+      "monuments": [
+        {
+          "name": "India Gate",
+          "yt": "9InHlOdDSao",
+          "start": 0,
+          "source": "auto",
+          "title": "New Delhi India Gate - 4k HDR Walking Tour",
+          "height": 2160
+        },
+        {
+          "name": "Humayun's Tomb",
+          "yt": "aovnrMXZ1h0",
+          "start": 0,
+          "source": "auto",
+          "title": "Humayun's Tomb Delhi 4K Virtual Walking Tour: UNESCO World Heritage Site: हुमायूँ मकबरा Travel Video",
+          "height": 2160
+        },
+        {
+          "name": "Rashtrapati Bhavan",
+          "yt": "dFSEaX6mZrE",
+          "start": 0,
+          "source": "auto",
+          "title": "RASHTRAPATI BHAVAN INDIA !HOUSE OF PARLIAMENT NEW DELHI 4K WALK !!",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "taj-mahal-agra",
@@ -8833,7 +8958,7 @@
       "country_code": "IN",
       "country_flag": "🇮🇳",
       "continent": "Asia",
-      "region": "",
+      "region": "Maharashtra",
       "type": "city",
       "tag": "famous",
       "emoji": "🌃",
@@ -8852,11 +8977,58 @@
       "sounds": [
         "city-hum.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null,
-      "walk": "5GwI8sUcEp8"
+      "highlights": [
+        {
+          "name": "Gateway of India",
+          "wikipedia_slug": "Gateway_of_India"
+        },
+        {
+          "name": "Chhatrapati Shivaji Terminus",
+          "wikipedia_slug": "Chhatrapati_Shivaji_Terminus"
+        },
+        {
+          "name": "Marine Drive",
+          "wikipedia_slug": "Marine_Drive,_Mumbai"
+        },
+        {
+          "name": "Elephanta Caves",
+          "wikipedia_slug": "Elephanta_Caves"
+        },
+        {
+          "name": "Haji Ali Dargah",
+          "wikipedia_slug": "Haji_Ali_Dargah"
+        }
+      ],
+      "blurb": "India's financial capital and the home of its film industry, built on seven islands joined by land reclamation into one dense, vertical, relentlessly busy peninsula of 20 million people.",
+      "fun_fact": "Chhatrapati Shivaji Terminus handles around three million passengers a day inside a Victorian Gothic building with gargoyles and stained glass — a working commuter station that is also a World Heritage Site.",
+      "hidden_gem_tip": "Haji Ali is reached by a causeway that the sea covers at high tide, so the shrine is cut off twice a day. Check the tide before you walk out to it.",
+      "walk": "5GwI8sUcEp8",
+      "monuments": [
+        {
+          "name": "Gateway of India",
+          "yt": "e9HiA6U1b-8",
+          "start": 0,
+          "source": "auto",
+          "title": "The Gateway of India: Mumbai's Iconic Landmark | 4K HDR Walking Tour",
+          "height": 2160
+        },
+        {
+          "name": "Chhatrapati Shivaji Terminus",
+          "yt": "d9Ht5LPMeqk",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] Chhatrapati Shivaji Maharaj Terminus | Walking Tour | CSMT Railway Station | Mumbai , India 🇮🇳",
+          "height": 2160
+        },
+        {
+          "name": "Marine Drive",
+          "yt": "IDDNo2S0CCw",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] Mumbai | Mumbai Marine Drive Walking Tour | South Mumbai | Arabian Sea | Queen’s Necklace | 🇮🇳￼",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "varanasi",
@@ -8905,7 +9077,7 @@
       "country_code": "IN",
       "country_flag": "🇮🇳",
       "continent": "Asia",
-      "region": "",
+      "region": "Kerala",
       "type": "nature",
       "tag": "hidden",
       "emoji": "🛶",
@@ -8924,10 +9096,56 @@
       "sounds": [
         "mountain-wind.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Alappuzha",
+          "wikipedia_slug": "Alappuzha"
+        },
+        {
+          "name": "Vembanad Lake",
+          "wikipedia_slug": "Vembanad"
+        },
+        {
+          "name": "Kumarakom",
+          "wikipedia_slug": "Kumarakom"
+        },
+        {
+          "name": "Kollam",
+          "wikipedia_slug": "Kollam"
+        },
+        {
+          "name": "Pathiramanal"
+        }
+      ],
+      "blurb": "900 km of interlocking canals, rivers and lagoons running parallel to the Malabar coast behind a strip of sand — rice paddies below sea level, coconut palms, and converted rice barges that now carry people instead of grain.",
+      "fun_fact": "Much of the Kuttanad farmland here is farmed one to two metres below sea level, kept dry by dykes and pumps — one of very few places in the world where that is done, and the only one in India.",
+      "hidden_gem_tip": "Take a small punted canoe into the narrow canals rather than a big houseboat on the open lake. The village life the backwaters are famous for happens on channels a houseboat cannot enter.",
+      "monuments": [
+        {
+          "name": "Alappuzha",
+          "yt": "8LYs8Nu-5KI",
+          "start": 0,
+          "source": "auto",
+          "title": "Relaxing 4K Walk in Alappuzha, Kerala 🇮🇳 | ASMR Street Scenes & Backwaters Tour",
+          "height": 2160
+        },
+        {
+          "name": "Vembanad Lake",
+          "yt": "EtVW5bE0xJM",
+          "start": 0,
+          "source": "auto",
+          "title": "Vembanad Lake | Longest lake in India | Must visit place in Kerala | 4K",
+          "height": 2160
+        },
+        {
+          "name": "Kumarakom",
+          "yt": "NJMcUNiPBfM",
+          "start": 0,
+          "source": "auto",
+          "title": "Kumarakom Sky View | Kerala | Drone Footage | 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "seoul",
@@ -8975,7 +9193,7 @@
       "country_code": "KR",
       "country_flag": "🇰🇷",
       "continent": "Asia",
-      "region": "",
+      "region": "Yeongnam",
       "type": "coastal",
       "tag": "famous",
       "emoji": "🌊",
@@ -8994,10 +9212,57 @@
       "sounds": [
         "ocean-waves.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Gamcheon Culture Village",
+          "wikipedia_slug": "Gamcheon_Culture_Village"
+        },
+        {
+          "name": "Haeundae Beach",
+          "wikipedia_slug": "Haeundae_Beach"
+        },
+        {
+          "name": "Jagalchi Market",
+          "wikipedia_slug": "Jagalchi_Market"
+        },
+        {
+          "name": "Beomeosa",
+          "wikipedia_slug": "Beomeosa"
+        },
+        {
+          "name": "Gwangan Bridge",
+          "wikipedia_slug": "Gwangan_Bridge"
+        }
+      ],
+      "blurb": "South Korea's second city and its biggest port, wrapped around mountains on the southeast coast — beaches inside the city, a fish market the size of a stadium, and a much slower pace than Seoul.",
+      "fun_fact": "Gamcheon began as a hillside refugee settlement during the Korean War, when Busan was the last unoccupied city in the country; it was repainted in blocks of colour by artists and residents in 2009.",
+      "hidden_gem_tip": "Jagalchi is at its best at 6am, when the boats land. The women who run the stalls — *jagalchi ajumma* — have been the market's public face for three generations.",
+      "monuments": [
+        {
+          "name": "Gamcheon Culture Village",
+          "yt": "K1MzMp0dtj0",
+          "start": 0,
+          "source": "auto",
+          "title": "Gamcheon Culture Village Busan | Korea’s Most Colorful Neighborhood | 감천문화마을 부산 | 한국에서 가장 아름다운 골목 여행",
+          "height": 2160
+        },
+        {
+          "name": "Haeundae Beach",
+          "yt": "snVbMHFalZo",
+          "start": 0,
+          "source": "auto",
+          "title": "Busan KOREA - Haeundae Beach Summer Walk 4K Walking Tour",
+          "height": 2160
+        },
+        {
+          "name": "Jagalchi Market",
+          "yt": "jUdxEni8Dfw",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking Through Busan Jagalchi Market, Ultimate Seafood Paradise | Korea 4K Walking Tour",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "gyeongju",
@@ -9046,7 +9311,7 @@
       "country_code": "KR",
       "country_flag": "🇰🇷",
       "continent": "Asia",
-      "region": "",
+      "region": "Jeju",
       "type": "island",
       "tag": "famous",
       "emoji": "🌋",
@@ -9065,10 +9330,57 @@
       "sounds": [
         "ocean-waves.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Hallasan",
+          "wikipedia_slug": "Hallasan"
+        },
+        {
+          "name": "Seongsan Ilchulbong",
+          "wikipedia_slug": "Seongsan_Ilchulbong"
+        },
+        {
+          "name": "Manjanggul",
+          "wikipedia_slug": "Manjanggul"
+        },
+        {
+          "name": "Jeongbang Falls",
+          "wikipedia_slug": "Jeongbang_Waterfall"
+        },
+        {
+          "name": "Udo",
+          "wikipedia_slug": "Udo_(Jeju_Province)"
+        }
+      ],
+      "blurb": "A volcanic island 80 km south of the Korean mainland, built around a 1,947 m shield volcano and ringed by lava tubes, crater cones and black basalt coastline. It is Korea's honeymoon island and its warmest place.",
+      "fun_fact": "Jeju's *haenyeo* — women who free-dive for shellfish without air, often into their seventies — are on UNESCO's intangible heritage list, and the island's diving culture was historically matrilineal.",
+      "hidden_gem_tip": "Manjanggul is one of the longest lava tubes in the world and the public kilometre of it stays at 11°C year-round; take a jacket in August.",
+      "monuments": [
+        {
+          "name": "Hallasan",
+          "yt": "AJmPQY_96W0",
+          "start": 0,
+          "source": "auto",
+          "title": "Hallasan on Jeju Island (한라산) | Hiking In South Korea",
+          "height": 2160
+        },
+        {
+          "name": "Seongsan Ilchulbong",
+          "yt": "Zqvu04joq9Q",
+          "start": 0,
+          "source": "auto",
+          "title": "Seongsan Ilchulbong Jejudo UHD 4K",
+          "height": 2160
+        },
+        {
+          "name": "Manjanggul",
+          "yt": "so9-HHh_ZhE",
+          "start": 0,
+          "source": "auto",
+          "title": "Manjanggul Cave | Manjanggul Lava Tube (UNESCO World Natural Heritage) | South Korea Travel・4K HDR",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "bangkok",
@@ -10301,27 +10613,11 @@
       "hidden_gem_tip": "Sunday morning, Gaya Street closes and turns into a market that sells everything from orchids to puppies. Get there at seven, eat the coconut pancakes, and be gone before the heat.",
       "monuments": [
         {
-          "name": "Mount Kinabalu",
-          "yt": "IKOvg0X4f6A",
-          "start": 0,
-          "source": "auto",
-          "title": "[4K] Sabah Kota Kinabalu | Cinematic Travel 2023",
-          "height": 2160
-        },
-        {
           "name": "Tunku Abdul Rahman Park",
           "yt": "1o4vSiaX2YI",
           "start": 0,
           "source": "auto",
           "title": "Snorkeling Tunku Abdul Rahman Marine Park, Kota Kinabalu, Borneo [Malaysia!]",
-          "height": 2160
-        },
-        {
-          "name": "Sabah State Mosque",
-          "yt": "SMHMyaOHmTw",
-          "start": 0,
-          "source": "auto",
-          "title": "🇲🇾 Kota Kinabalu City Mosque & Tanjung Aru Beach - Malaysia Sabah, Kota Kinabalu Day 1 4K",
           "height": 2160
         }
       ]
@@ -13986,7 +14282,7 @@
       "country_code": "TW",
       "country_flag": "🇹🇼",
       "continent": "Asia",
-      "region": "",
+      "region": "Northern Taiwan",
       "type": "city",
       "tag": "famous",
       "emoji": "🌃",
@@ -14005,11 +14301,57 @@
       "sounds": [
         "city-hum.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null,
-      "walk": "1sN8mOiX-4E"
+      "highlights": [
+        {
+          "name": "Taipei 101",
+          "wikipedia_slug": "Taipei_101"
+        },
+        {
+          "name": "Chiang Kai-shek Memorial Hall",
+          "wikipedia_slug": "Chiang_Kai-shek_Memorial_Hall"
+        },
+        {
+          "name": "Longshan Temple",
+          "wikipedia_slug": "Longshan_Temple_(Taipei)"
+        },
+        {
+          "name": "Beitou",
+          "wikipedia_slug": "Beitou_District"
+        },
+        {
+          "name": "Elephant Mountain"
+        }
+      ],
+      "blurb": "A city in a basin ringed by green mountains, with hot springs inside the city limits, night markets on most blocks and one of the densest concentrations of good cheap food anywhere in Asia.",
+      "fun_fact": "Taipei 101 holds a 660-tonne steel pendulum between the 87th and 92nd floors to damp typhoon sway — it is the largest such damper open to the public, and it visibly swings during storms.",
+      "hidden_gem_tip": "The Xiangshan (Elephant Mountain) trail is twenty minutes of steps from the metro and gives the postcard view of the tower — go an hour before sunset and stay for the lights.",
+      "walk": "1sN8mOiX-4E",
+      "monuments": [
+        {
+          "name": "Taipei 101",
+          "yt": "dUH1HPs3-F4",
+          "start": 0,
+          "source": "auto",
+          "title": "Taipei 101 Shopping Mall | Taiwan | 台北101购物中心 | 台湾 | 4K",
+          "height": 2160
+        },
+        {
+          "name": "Chiang Kai-shek Memorial Hall",
+          "yt": "i6pxbAT4UCc",
+          "start": 0,
+          "source": "auto",
+          "title": "Taipei City Walk | Taiwan National Chiang Kai-Shek Memorial Hall Grounds Walking Tour",
+          "height": 2160
+        },
+        {
+          "name": "Longshan Temple",
+          "yt": "bMpRju7Gbzg",
+          "start": 0,
+          "source": "auto",
+          "title": "I visited Longshan Temple at night [4k HDR] #taipei #longshantemple",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "taroko-gorge",
@@ -14018,7 +14360,7 @@
       "country_code": "TW",
       "country_flag": "🇹🇼",
       "continent": "Asia",
-      "region": "",
+      "region": "Hualien County",
       "type": "nature",
       "tag": "famous",
       "emoji": "⛰️",
@@ -14037,10 +14379,56 @@
       "sounds": [
         "mountain-wind.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Swallow Grotto"
+        },
+        {
+          "name": "Eternal Spring Shrine",
+          "wikipedia_slug": "Eternal_Spring_Shrine"
+        },
+        {
+          "name": "Qingshui Cliff",
+          "wikipedia_slug": "Qingshui_Cliff"
+        },
+        {
+          "name": "Liwu River",
+          "wikipedia_slug": "Liwu_River"
+        },
+        {
+          "name": "Shakadang Trail",
+          "wikipedia_slug": "Shakadang_Trail"
+        }
+      ],
+      "blurb": "A marble canyon on Taiwan's east coast where the Liwu River has cut 19 km of near-vertical gorge, and a road has been cut into the walls beside it — tunnels, overhangs and a river a long way down.",
+      "fun_fact": "Taiwan is rising about 5 mm a year as two plates collide, and the Liwu cuts down through the marble at roughly the same rate — the gorge is being deepened as fast as the island is being lifted.",
+      "hidden_gem_tip": "Sections close after earthquakes and typhoons and the 2024 quake shut much of the park. Check what is actually open before travelling, and wear the helmet they hand you at the Swallow Grotto.",
+      "monuments": [
+        {
+          "name": "Swallow Grotto",
+          "yt": "c1u9DyCVbck",
+          "start": 0,
+          "source": "auto",
+          "title": "Taroko Gorge National Park Taiwan Walking Tour (Swallow Grotto Trail) / 太魯閣國家公園 / 타로코국립공원",
+          "height": 2160
+        },
+        {
+          "name": "Eternal Spring Shrine",
+          "yt": "ZWVNjA4Jo3o",
+          "start": 0,
+          "source": "auto",
+          "title": "【4K】20230817 @ 長春祠 Eternal Spring Shrine (請開啟字幕觀賞)",
+          "height": 2160
+        },
+        {
+          "name": "Qingshui Cliff",
+          "yt": "iY1Ndol2Qlc",
+          "start": 0,
+          "source": "auto",
+          "title": "Eye on Taroko Gorge and Qingshui Cliff (Taiwan) - 4K Drone",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "tainan",
@@ -14089,7 +14477,7 @@
       "country_code": "MN",
       "country_flag": "🇲🇳",
       "continent": "Asia",
-      "region": "",
+      "region": "Ulaanbaatar",
       "type": "city",
       "tag": "famous",
       "emoji": "🏙️",
@@ -14108,10 +14496,57 @@
       "sounds": [
         "city-hum.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Gandantegchinlen Monastery",
+          "wikipedia_slug": "Gandantegchinlen_Monastery"
+        },
+        {
+          "name": "Sükhbaatar Square",
+          "wikipedia_slug": "Sükhbaatar_Square"
+        },
+        {
+          "name": "Genghis Khan Equestrian Statue",
+          "wikipedia_slug": "Equestrian_statue_of_Genghis_Khan"
+        },
+        {
+          "name": "Zaisan Memorial",
+          "wikipedia_slug": "Zaisan_Memorial"
+        },
+        {
+          "name": "Bogd Khan Palace",
+          "wikipedia_slug": "Winter_Palace_of_the_Bogd_Khan"
+        }
+      ],
+      "blurb": "The coldest capital city in the world, in a valley on the Tuul River with half of Mongolia's population in it — Soviet blocks, glass towers and whole districts of felt gers on the hillsides above them.",
+      "fun_fact": "Ulaanbaatar moved at least 25 times in its first 140 years as a mobile monastery town before settling on this site in 1778 — a capital city that was, quite literally, nomadic.",
+      "hidden_gem_tip": "The 26 m stainless-steel Genghis Khan statue is 54 km east of the city, and you take a lift up through the horse's mane to stand on its head and look at the steppe.",
+      "monuments": [
+        {
+          "name": "Gandantegchinlen Monastery",
+          "yt": "Yda5-mhezzI",
+          "start": 0,
+          "source": "auto",
+          "title": "Gandantegchinlen Monastery to Peace Avenue | Ulaanbaatar Walking Tour 🇲🇳",
+          "height": 2160
+        },
+        {
+          "name": "Sükhbaatar Square",
+          "yt": "Qfwdky5fyf4",
+          "start": 0,
+          "source": "auto",
+          "title": "🏙️ WALKING AROUND SUKHBAATAR SQUARE - ULAANBAATAR MONGOLIA RUSH HOUR (4K)",
+          "height": 2160
+        },
+        {
+          "name": "Genghis Khan Equestrian Statue",
+          "yt": "UqTVKFP0wQM",
+          "start": 0,
+          "source": "auto",
+          "title": "Our World - Monuments and Landmarks - Genghis Khan Equestrian Statue",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "gobi-desert",
@@ -14139,10 +14574,53 @@
       "sounds": [
         "mountain-wind.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Khongoryn Els",
+          "wikipedia_slug": "Khongoryn_Els"
+        },
+        {
+          "name": "Yolyn Am",
+          "wikipedia_slug": "Yolyn_Am"
+        },
+        {
+          "name": "Bayanzag",
+          "wikipedia_slug": "Flaming_Cliffs"
+        },
+        {
+          "name": "Gurvan Saikhan National Park",
+          "wikipedia_slug": "Gobi_Gurvansaikhan_National_Park"
+        }
+      ],
+      "blurb": "1.3 million km² of cold desert across southern Mongolia and northern China — mostly bare rock and gravel steppe rather than sand, grazed by camels, and swinging from +40°C to −40°C over the year.",
+      "fun_fact": "Roy Chapman Andrews found the first scientifically recognised dinosaur eggs at the Flaming Cliffs of Bayanzag in 1923, and protoceratops and velociraptor fossils are still weathering out of that same red sandstone.",
+      "hidden_gem_tip": "Yolyn Am is a narrow gorge in the Gobi that holds a sheet of ice deep into the summer — desert at the entrance, ice underfoot an hour's walk in.",
+      "monuments": [
+        {
+          "name": "Khongoryn Els",
+          "yt": "e60vAyuHfwU",
+          "start": 0,
+          "source": "auto",
+          "title": "Crossing the Khongoryn Els sand dune in Mongolia",
+          "height": 1080
+        },
+        {
+          "name": "Yolyn Am",
+          "yt": "IOyi3b8fBe0",
+          "start": 0,
+          "source": "auto",
+          "title": "The Beauty of MONGOLIA 4K video | Drone Flight Over the South Gobi from White Stupa to Yolyn Am.",
+          "height": 2160
+        },
+        {
+          "name": "Bayanzag",
+          "yt": "y6NUGL9oDGc",
+          "start": 0,
+          "source": "auto",
+          "title": "Must see places around the Gobi: Bayanzag and Moltsog els",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "colombo",
@@ -14151,7 +14629,7 @@
       "country_code": "LK",
       "country_flag": "🇱🇰",
       "continent": "Asia",
-      "region": "",
+      "region": "Western Province",
       "type": "city",
       "tag": "famous",
       "emoji": "🏙️",
@@ -14170,10 +14648,57 @@
       "sounds": [
         "city-hum.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Galle Face Green",
+          "wikipedia_slug": "Galle_Face_Green"
+        },
+        {
+          "name": "Gangaramaya Temple",
+          "wikipedia_slug": "Gangaramaya_Temple"
+        },
+        {
+          "name": "Lotus Tower",
+          "wikipedia_slug": "Lotus_Tower"
+        },
+        {
+          "name": "Independence Memorial Hall",
+          "wikipedia_slug": "Independence_Memorial_Hall"
+        },
+        {
+          "name": "Pettah",
+          "wikipedia_slug": "Pettah,_Sri_Lanka"
+        }
+      ],
+      "blurb": "Sri Lanka's commercial capital and its port — a humid, green, low-rise city of colonial arcades, Buddhist and Hindu temples, mosques and churches within streets of each other, and a sea promenade that fills every evening.",
+      "fun_fact": "Colombo's natural harbour made it a stop on Indian Ocean trade routes 2,000 years ago; the Portuguese, Dutch and British each took it in turn, and the street grid of Pettah is still the Dutch one.",
+      "hidden_gem_tip": "Galle Face Green at dusk is the whole city out at once — kite sellers, isso wade stalls and families on the sea wall. It costs nothing and it is the best hour of the day.",
+      "monuments": [
+        {
+          "name": "Galle Face Green",
+          "yt": "4GeRUuxm-IU",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking Along Galle Face Green - Colombo, Sri Lanka | 4K Ultra HD Virtual Walking Tour",
+          "height": 2160
+        },
+        {
+          "name": "Gangaramaya Temple",
+          "yt": "zuj4CJrgN9g",
+          "start": 0,
+          "source": "auto",
+          "title": "🇱🇰 Gangaramaya Temple Colombo, Sri Lanka | Iconic Buddhist Temple Walking Tour 2025 4K",
+          "height": 2160
+        },
+        {
+          "name": "Lotus Tower",
+          "yt": "snmJM7b2WFs",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking Tour LOTUS TOWER | Nelum Kuluna | Inside Lotus Tower Sri Lanka 4K HDR",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "kandy",
@@ -14302,7 +14827,7 @@
       "country_code": "IL",
       "country_flag": "🇮🇱",
       "continent": "Asia",
-      "region": "",
+      "region": "Tel Aviv District",
       "type": "city",
       "tag": "famous",
       "emoji": "🏖️",
@@ -14321,10 +14846,57 @@
       "sounds": [
         "city-hum.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "White City",
+          "wikipedia_slug": "White_City,_Tel_Aviv"
+        },
+        {
+          "name": "Jaffa",
+          "wikipedia_slug": "Jaffa"
+        },
+        {
+          "name": "Rothschild Boulevard",
+          "wikipedia_slug": "Rothschild_Boulevard"
+        },
+        {
+          "name": "Carmel Market",
+          "wikipedia_slug": "Carmel_Market"
+        },
+        {
+          "name": "Tel Aviv Port",
+          "wikipedia_slug": "Tel_Aviv_Port"
+        }
+      ],
+      "blurb": "A Mediterranean beach city built on sand dunes from 1909, joined to the ancient port of Jaffa at its southern end — the modernist half is barely a century old and the harbour beside it has been working for four thousand years.",
+      "fun_fact": "Tel Aviv holds the largest concentration of Bauhaus and International Style buildings in the world — some 4,000 of them, put up by architects who had trained in Germany and left in the 1930s.",
+      "hidden_gem_tip": "Rothschild Boulevard has a shaded central walkway with kiosks along it and the best of the white buildings on either side — the Bauhaus Center runs a walking tour on Fridays.",
+      "monuments": [
+        {
+          "name": "White City",
+          "yt": "Bel_qKVA8pA",
+          "start": 0,
+          "source": "auto",
+          "title": "Tel Aviv Walking Tour, Israel 🇮🇱 - White City - 4K",
+          "height": 2160
+        },
+        {
+          "name": "Jaffa",
+          "yt": "6RfjEbHldnA",
+          "start": 0,
+          "source": "auto",
+          "title": "Jaffa Is a Very Beautiful Ancient City. A Walk Through the Old City",
+          "height": 2160
+        },
+        {
+          "name": "Rothschild Boulevard",
+          "yt": "pUao8Pel8xs",
+          "start": 0,
+          "source": "auto",
+          "title": "Rothschild Boulevard, Tel Aviv, Israel | 4K 60 FPS UHD Relaxing Virtual Walk",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "masada",
@@ -14373,7 +14945,7 @@
       "country_code": "AE",
       "country_flag": "🇦🇪",
       "continent": "Asia",
-      "region": "",
+      "region": "Dubai",
       "type": "city",
       "tag": "famous",
       "emoji": "🌃",
@@ -14392,11 +14964,58 @@
       "sounds": [
         "city-hum.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null,
-      "walk": "I9XB1gHvF74"
+      "highlights": [
+        {
+          "name": "Burj Khalifa",
+          "wikipedia_slug": "Burj_Khalifa"
+        },
+        {
+          "name": "Palm Jumeirah",
+          "wikipedia_slug": "Palm_Jumeirah"
+        },
+        {
+          "name": "Burj Al Arab",
+          "wikipedia_slug": "Burj_Al_Arab"
+        },
+        {
+          "name": "Al Fahidi Historical Neighbourhood",
+          "wikipedia_slug": "Al_Bastakiya"
+        },
+        {
+          "name": "Dubai Fountain",
+          "wikipedia_slug": "Dubai_Fountain"
+        }
+      ],
+      "blurb": "A city that has built almost everything it has since 1990 — the tallest building on Earth, an artificial palm-shaped island, indoor ski slopes — on a creek that was a pearling and trading harbour within living memory.",
+      "fun_fact": "The Burj Khalifa is 828 m tall and has no municipal sewer connection deep enough for it, so its waste is trucked out daily; people on the upper floors also break their Ramadan fast later, because the sun sets after it has set on the ground.",
+      "hidden_gem_tip": "Al Fahidi is the old coral-and-gypsum quarter with wind towers instead of air conditioning, and an abra across the creek to Deira still costs one dirham.",
+      "walk": "I9XB1gHvF74",
+      "monuments": [
+        {
+          "name": "Burj Khalifa",
+          "yt": "6s862iVKezQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Dubai 4K 🇦🇪 Amazing City Center Downtown Burj Khalifa Dubai Walking Tour 2026",
+          "height": 2160
+        },
+        {
+          "name": "Palm Jumeirah",
+          "yt": "_-hx5nqzCWE",
+          "start": 0,
+          "source": "auto",
+          "title": "Palm Jumeirah Dubai 4K Virtual Drone Tour | Atlantis, West Palm Beach & Aerial Drive 2024",
+          "height": 2160
+        },
+        {
+          "name": "Burj Al Arab",
+          "yt": "pumqKbRRFxg",
+          "start": 0,
+          "source": "auto",
+          "title": "Burj Al Arab Dubai Hotel  4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "abu-dhabi",
@@ -14405,7 +15024,7 @@
       "country_code": "AE",
       "country_flag": "🇦🇪",
       "continent": "Asia",
-      "region": "",
+      "region": "Abu Dhabi",
       "type": "city",
       "tag": "famous",
       "emoji": "🕌",
@@ -14424,10 +15043,56 @@
       "sounds": [
         "city-hum.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Sheikh Zayed Grand Mosque",
+          "wikipedia_slug": "Sheikh_Zayed_Grand_Mosque"
+        },
+        {
+          "name": "Louvre Abu Dhabi",
+          "wikipedia_slug": "Louvre_Abu_Dhabi"
+        },
+        {
+          "name": "Qasr Al Watan",
+          "wikipedia_slug": "Qasr_Al_Watan"
+        },
+        {
+          "name": "Corniche"
+        },
+        {
+          "name": "Yas Marina Circuit",
+          "wikipedia_slug": "Yas_Marina_Circuit"
+        }
+      ],
+      "blurb": "The UAE's capital, on an island connected by causeways — quieter, greener and more deliberate than Dubai, with the oil money spent on museums, a very large mosque and a Formula 1 circuit.",
+      "fun_fact": "The Sheikh Zayed Grand Mosque holds the world's largest hand-knotted carpet — 5,600 m², made by about 1,200 weavers in Iran — and 82 domes of white Macedonian marble.",
+      "hidden_gem_tip": "The mosque is free, open to non-Muslims outside prayer times, and best at dusk, when the lighting shifts through the phases of the moon across the whole facade.",
+      "monuments": [
+        {
+          "name": "Sheikh Zayed Grand Mosque",
+          "yt": "0zI4o66YiXk",
+          "start": 0,
+          "source": "auto",
+          "title": "Sheikh Zayed Grand Mosque Abu Dhabi 4K Virtual Tour with Qasida Burda Sharif 🕌",
+          "height": 2160
+        },
+        {
+          "name": "Louvre Abu Dhabi",
+          "yt": "mQEQq_Kngvk",
+          "start": 0,
+          "source": "auto",
+          "title": "Incredible Louvre Abu Dhabi",
+          "height": 2160
+        },
+        {
+          "name": "Qasr Al Watan",
+          "yt": "8AOBFQ0WSSc",
+          "start": 0,
+          "source": "auto",
+          "title": "Presidential Palace Abu Dhabi UAE | Qasr Al Watan, Abu Dhabi - 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "riyadh",
@@ -14436,7 +15101,7 @@
       "country_code": "SA",
       "country_flag": "🇸🇦",
       "continent": "Asia",
-      "region": "",
+      "region": "Riyadh Province",
       "type": "city",
       "tag": "famous",
       "emoji": "🏙️",
@@ -14455,10 +15120,56 @@
       "sounds": [
         "city-hum.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Kingdom Centre",
+          "wikipedia_slug": "Kingdom_Centre"
+        },
+        {
+          "name": "Masmak Fortress",
+          "wikipedia_slug": "Al_Masmak_Palace"
+        },
+        {
+          "name": "Diriyah",
+          "wikipedia_slug": "Diriyah"
+        },
+        {
+          "name": "Edge of the World"
+        },
+        {
+          "name": "National Museum of Saudi Arabia",
+          "wikipedia_slug": "National_Museum_of_Saudi_Arabia"
+        }
+      ],
+      "blurb": "Saudi Arabia's capital, a city of eight million in the middle of the Najd desert plateau — mud-brick fort at its historic core, glass towers around it, and an enormous amount of construction going on in between.",
+      "fun_fact": "Diriyah's At-Turaif district, the mud-brick capital of the first Saudi state until it was razed in 1818, is a World Heritage Site and has been rebuilt in the same Najdi technique it was destroyed in.",
+      "hidden_gem_tip": "The Edge of the World is a 300 m escarpment about 90 km northwest of the city where the Tuwaiq cliffs drop straight to an old sea floor — you need four-wheel drive and a full tank.",
+      "monuments": [
+        {
+          "name": "Kingdom Centre",
+          "yt": "1SrQPvj_pfg",
+          "start": 0,
+          "source": "auto",
+          "title": "RIYADH, Saudi Arabia 🇸🇦 The Heart of Modern Riyadh | 4K Kingdom Centre Walking Tour",
+          "height": 2160
+        },
+        {
+          "name": "Masmak Fortress",
+          "yt": "aXCK7LL9sTU",
+          "start": 0,
+          "source": "auto",
+          "title": "RIYADH, Saudi Arabia 🇸🇦 Al Masmak Fortress | 4K Walking Tour (60fps)",
+          "height": 2160
+        },
+        {
+          "name": "Diriyah",
+          "yt": "qPFLuci6TKw",
+          "start": 0,
+          "source": "auto",
+          "title": "Diriyah 4K Walk – At-Turaif UNESCO Site, Riyadh Saudi Arabia",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "jeddah",
@@ -14467,7 +15178,7 @@
       "country_code": "SA",
       "country_flag": "🇸🇦",
       "continent": "Asia",
-      "region": "",
+      "region": "Mecca Province",
       "type": "coastal",
       "tag": "famous",
       "emoji": "🌊",
@@ -14486,10 +15197,52 @@
       "sounds": [
         "ocean-waves.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Al-Balad",
+          "wikipedia_slug": "Al-Balad,_Jeddah"
+        },
+        {
+          "name": "King Fahd's Fountain",
+          "wikipedia_slug": "King_Fahd's_Fountain"
+        },
+        {
+          "name": "Jeddah Corniche"
+        },
+        {
+          "name": "Al-Rahmah Mosque",
+          "wikipedia_slug": "Al-Rahmah_Mosque"
+        }
+      ],
+      "blurb": "Saudi Arabia's Red Sea port and the gateway for pilgrims to Mecca for fourteen centuries — humid, open and far less formal than Riyadh, with coral-stone merchant houses and carved wooden balconies in the old town.",
+      "fun_fact": "King Fahd's Fountain throws seawater 260 m into the air, higher than the Eiffel Tower, at around 375 km/h — the tallest fountain of its kind anywhere.",
+      "hidden_gem_tip": "Al-Balad's coral houses are being restored one at a time and the district comes alive after dark, when the heat drops and the cafés in the courtyards open.",
+      "monuments": [
+        {
+          "name": "Al-Balad",
+          "yt": "GWYfszKTzJ0",
+          "start": 0,
+          "source": "auto",
+          "title": "Quick tour @ Al-Balad Jeddah | 4K",
+          "height": 2160
+        },
+        {
+          "name": "King Fahd's Fountain",
+          "yt": "Pgsimze5tKM",
+          "start": 0,
+          "source": "auto",
+          "title": "King Fahd's Fountain (Jeddah Fountain) 4K Video",
+          "height": 2160
+        },
+        {
+          "name": "Jeddah Corniche",
+          "yt": "I_fLuF4atHI",
+          "start": 0,
+          "source": "auto",
+          "title": "JEDDAH CORNICHE Walking Tour 4K VIDEO 🇸🇦 Saudi Arabia | Red Sea | كورنيش جدة",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "hegra-alula",
@@ -14538,7 +15291,7 @@
       "country_code": "QA",
       "country_flag": "🇶🇦",
       "continent": "Asia",
-      "region": "",
+      "region": "Doha",
       "type": "city",
       "tag": "famous",
       "emoji": "🌃",
@@ -14557,10 +15310,57 @@
       "sounds": [
         "city-hum.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Museum of Islamic Art",
+          "wikipedia_slug": "Museum_of_Islamic_Art,_Doha"
+        },
+        {
+          "name": "Souq Waqif",
+          "wikipedia_slug": "Souq_Waqif"
+        },
+        {
+          "name": "The Pearl",
+          "wikipedia_slug": "The_Pearl_Island"
+        },
+        {
+          "name": "Katara Cultural Village",
+          "wikipedia_slug": "Katara_Cultural_Village"
+        },
+        {
+          "name": "Doha Corniche",
+          "wikipedia_slug": "Doha_Corniche"
+        }
+      ],
+      "blurb": "Qatar's capital on a shallow bay, almost entirely built since the 1990s — a wall of towers across the water from a restored souq, with the money from the world's third-largest gas reserves visible everywhere.",
+      "fun_fact": "I. M. Pei came out of retirement at 91 to design the Museum of Islamic Art, and insisted it be built on its own artificial island so that no future development could ever crowd it.",
+      "hidden_gem_tip": "Souq Waqif's falcon souq is upstairs and open to walk through — a row of shops selling hunting birds, with a dedicated falcon hospital at the end of it.",
+      "monuments": [
+        {
+          "name": "Museum of Islamic Art",
+          "yt": "dKL9BXGJc_w",
+          "start": 0,
+          "source": "auto",
+          "title": "Museum of Islamic Art - Doha, Qatar",
+          "height": 2160
+        },
+        {
+          "name": "Souq Waqif",
+          "yt": "cfJ28bNva6s",
+          "start": 0,
+          "source": "auto",
+          "title": "DOHA, Qatar 🇶🇦 4K Walking Tour: Souq Waqif & Downtown",
+          "height": 2160
+        },
+        {
+          "name": "The Pearl",
+          "yt": "S8SPR5VbfZ8",
+          "start": 0,
+          "source": "auto",
+          "title": "The pearl marina Qatar | 4K Doha Qatar the Pearl Marina",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "petra",
@@ -14609,7 +15409,7 @@
       "country_code": "JO",
       "country_flag": "🇯🇴",
       "continent": "Asia",
-      "region": "",
+      "region": "Amman Governorate",
       "type": "city",
       "tag": "famous",
       "emoji": "🏙️",
@@ -14628,10 +15428,56 @@
       "sounds": [
         "city-hum.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Amman Citadel",
+          "wikipedia_slug": "Amman_Citadel"
+        },
+        {
+          "name": "Roman Theatre",
+          "wikipedia_slug": "Roman_Theatre_(Amman)"
+        },
+        {
+          "name": "Rainbow Street",
+          "wikipedia_slug": "Rainbow_Street"
+        },
+        {
+          "name": "King Abdullah I Mosque",
+          "wikipedia_slug": "King_Abdullah_I_Mosque"
+        },
+        {
+          "name": "Jabal al-Weibdeh"
+        }
+      ],
+      "blurb": "A white limestone city spread over nineteen hills, layered from Neolithic settlement through Roman Philadelphia to a modern Arab capital that has absorbed wave after wave of refugees since 1948.",
+      "fun_fact": "The Citadel hill has been occupied more or less continuously since the Bronze Age; the Temple of Hercules, a Byzantine church and an Umayyad palace all stand on the same summit within a few metres of each other.",
+      "hidden_gem_tip": "The Roman theatre still seats 6,000 and the acoustics work — stand on the orchestra floor and speak normally, and the top row hears you.",
+      "monuments": [
+        {
+          "name": "Amman Citadel",
+          "yt": "yG7i4EJB1Pw",
+          "start": 0,
+          "source": "auto",
+          "title": "Amman Citadel, Jordan tour 4k 60fps",
+          "height": 2160
+        },
+        {
+          "name": "Roman Theatre",
+          "yt": "_t5cmlACDl0",
+          "start": 0,
+          "source": "auto",
+          "title": "ROMAN THEATRE AMMAN | JORDAN MUSEUM OF POPULAR TRADITIONS |",
+          "height": 2160
+        },
+        {
+          "name": "Rainbow Street",
+          "yt": "UWpXyF1Se00",
+          "start": 0,
+          "source": "auto",
+          "title": "Amman’s Rainbow Street Walking Tour 4K  | Jordan 2025",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "wadi-rum",
@@ -14640,7 +15486,7 @@
       "country_code": "JO",
       "country_flag": "🇯🇴",
       "continent": "Asia",
-      "region": "",
+      "region": "Aqaba Governorate",
       "type": "desert",
       "tag": "famous",
       "emoji": "🏜️",
@@ -14659,10 +15505,52 @@
       "sounds": [
         "mountain-wind.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Jebel Rum"
+        },
+        {
+          "name": "Khazali Canyon"
+        },
+        {
+          "name": "Lawrence's Spring"
+        },
+        {
+          "name": "Um Fruth Rock Bridge"
+        },
+        {
+          "name": "Jebel Umm ad Dami"
+        }
+      ],
+      "blurb": "A desert of red sand and sandstone-and-granite mountains rising sheer out of it in southern Jordan, inhabited by Bedouin and used as Mars by a dozen films. T. E. Lawrence campaigned through it and called it vast, echoing and godlike.",
+      "fun_fact": "Rock inscriptions across the valley record 12,000 years of human presence in Thamudic, Nabataean, Arabic and Greek — one canyon wall carries several scripts, several centuries apart, side by side.",
+      "hidden_gem_tip": "Sleep out. The camps run by Bedouin families put mattresses on the sand away from any light, and the sky over Rum is the point of the whole trip.",
+      "monuments": [
+        {
+          "name": "Khazali Canyon",
+          "yt": "WZYUobCO1Vk",
+          "start": 0,
+          "source": "auto",
+          "title": "Wadi Rum   Khazali Canyon • Arabian Nights",
+          "height": 1080
+        },
+        {
+          "name": "Lawrence's Spring",
+          "yt": "n0v5_DZWL8A",
+          "start": 0,
+          "source": "auto",
+          "title": "Toronto 🇨🇦 Spring Walk | College Park to St. Lawrence Market via Yonge St, 4K",
+          "height": 2160
+        },
+        {
+          "name": "Um Fruth Rock Bridge",
+          "yt": "2jkQ0NvtM5c",
+          "start": 0,
+          "source": "auto",
+          "title": "UM FRUTH ROCK AND LITTLE BRIDGE  | WADI RUM -5 | BINU",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "tehran",
@@ -14671,7 +15559,7 @@
       "country_code": "IR",
       "country_flag": "🇮🇷",
       "continent": "Asia",
-      "region": "",
+      "region": "Tehran Province",
       "type": "city",
       "tag": "famous",
       "emoji": "🏙️",
@@ -14690,10 +15578,57 @@
       "sounds": [
         "city-hum.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Golestan Palace",
+          "wikipedia_slug": "Golestan_Palace"
+        },
+        {
+          "name": "Azadi Tower",
+          "wikipedia_slug": "Azadi_Tower"
+        },
+        {
+          "name": "Milad Tower",
+          "wikipedia_slug": "Milad_Tower"
+        },
+        {
+          "name": "Grand Bazaar",
+          "wikipedia_slug": "Grand_Bazaar,_Tehran"
+        },
+        {
+          "name": "Tabiat Bridge",
+          "wikipedia_slug": "Tabiat_Bridge"
+        }
+      ],
+      "blurb": "A capital of nine million climbing the southern slope of the Alborz mountains, with snow on the peaks above the smog for half the year and a 600 m altitude difference between the north and south of the city.",
+      "fun_fact": "Tehran's Grand Bazaar runs for more than 10 km of covered corridors and has its own banks, mosques and guesthouses — historically it was powerful enough that closing it could bring down a government.",
+      "hidden_gem_tip": "Tabiat Bridge is a three-level pedestrian-only bridge over a motorway with cafés built into it — Tehranis go there to walk in the evening, and it was designed by a woman in her twenties.",
+      "monuments": [
+        {
+          "name": "Golestan Palace",
+          "yt": "AHFn32VUyEM",
+          "start": 0,
+          "source": "auto",
+          "title": "Golestan Palace: A Masterpiece of Iranian Art and Architecture - 4K",
+          "height": 2160
+        },
+        {
+          "name": "Azadi Tower",
+          "yt": "qL7lQyUZ9mI",
+          "start": 0,
+          "source": "auto",
+          "title": "Tourist Attraction, Azadi Tower Iran 4k",
+          "height": 2160
+        },
+        {
+          "name": "Milad Tower",
+          "yt": "AzzGTHeUx_k",
+          "start": 0,
+          "source": "auto",
+          "title": "Milad Tower Walking Tour | Discover Tehran's Iconic Landmark",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "isfahan",
@@ -14822,7 +15757,7 @@
       "country_code": "AM",
       "country_flag": "🇦🇲",
       "continent": "Asia",
-      "region": "",
+      "region": "Yerevan",
       "type": "city",
       "tag": "famous",
       "emoji": "🏙️",
@@ -14841,10 +15776,57 @@
       "sounds": [
         "city-hum.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Republic Square",
+          "wikipedia_slug": "Republic_Square,_Yerevan"
+        },
+        {
+          "name": "Cascade",
+          "wikipedia_slug": "Yerevan_Cascade"
+        },
+        {
+          "name": "Matenadaran",
+          "wikipedia_slug": "Matenadaran"
+        },
+        {
+          "name": "Erebuni Fortress",
+          "wikipedia_slug": "Erebuni_Fortress"
+        },
+        {
+          "name": "Mount Ararat",
+          "wikipedia_slug": "Mount_Ararat"
+        }
+      ],
+      "blurb": "A pink tuff-stone capital rebuilt to a radial plan in the 1920s, looking straight at Mount Ararat across a closed border. It is older than Rome — the Urartian fortress of Erebuni was founded here in 782 BC.",
+      "fun_fact": "Ararat, the mountain on Armenia's coat of arms and in the view from half the city's windows, has been inside Turkey since 1921 and no Armenian can reach it directly.",
+      "hidden_gem_tip": "Climb the Cascade steps at night. The sculpture terraces are open, free, and there is an escalator inside the structure if the 572 steps are too much.",
+      "monuments": [
+        {
+          "name": "Republic Square",
+          "yt": "e1BbQp8Vu0Y",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking Republic Square & Northern Ave., Yerevan, Armenia 4K in Summer 2020 w/ Binaural Sound",
+          "height": 2160
+        },
+        {
+          "name": "Cascade",
+          "yt": "GVTKEPOjC6Q",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking Tour the Cascade #Yerevan #Երևան | May 2023 [4K 60fps]",
+          "height": 2160
+        },
+        {
+          "name": "Matenadaran",
+          "yt": "E5ZLkZmj8nk",
+          "start": 0,
+          "source": "auto",
+          "title": "Visit The World’s Largest Repository Of Armenian Manuscripts | Matenadaran Museum | Yerevan, Armenia",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "lake-sevan",
@@ -14853,7 +15835,7 @@
       "country_code": "AM",
       "country_flag": "🇦🇲",
       "continent": "Asia",
-      "region": "",
+      "region": "Gegharkunik Province",
       "type": "nature",
       "tag": "hidden",
       "emoji": "🏞️",
@@ -14872,10 +15854,53 @@
       "sounds": [
         "mountain-wind.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Sevanavank",
+          "wikipedia_slug": "Sevanavank"
+        },
+        {
+          "name": "Hayravank",
+          "wikipedia_slug": "Hayravank_Monastery"
+        },
+        {
+          "name": "Noratus cemetery",
+          "wikipedia_slug": "Noratus_Cemetery"
+        },
+        {
+          "name": "Dilijan",
+          "wikipedia_slug": "Dilijan"
+        }
+      ],
+      "blurb": "One of the largest high-altitude freshwater lakes in the world, at 1,900 m in the Armenian highlands — 1,240 km² of very blue water ringed by bare mountains, with medieval monasteries on the headlands.",
+      "fun_fact": "Soviet drainage schemes dropped the lake about 19 m between the 1930s and 1960s, turning Sevanavank's island into a peninsula; the level has been slowly restored since, and the monastery's causeway is a monument to the mistake.",
+      "hidden_gem_tip": "Noratus, on the western shore, holds nearly a thousand carved khachkar cross-stones in an open field — the largest surviving cemetery of them, and almost nobody stops there.",
+      "monuments": [
+        {
+          "name": "Sevanavank",
+          "yt": "WWTIytyydM8",
+          "start": 0,
+          "source": "auto",
+          "title": "Most Beautiful Lake in Armenia - Lake Sevan + Sevanavank & Hayravank Monasteries",
+          "height": 2160
+        },
+        {
+          "name": "Hayravank",
+          "yt": "EdyA9Nfo4ls",
+          "start": 0,
+          "source": "auto",
+          "title": "Hayravank Monastery",
+          "height": 2160
+        },
+        {
+          "name": "Noratus cemetery",
+          "yt": "9G648GsXY-g",
+          "start": 0,
+          "source": "auto",
+          "title": "Armenia Noratus Medival Cemetery #drone #dji",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "tatev-monastery",
@@ -14924,7 +15949,7 @@
       "country_code": "AZ",
       "country_flag": "🇦🇿",
       "continent": "Asia",
-      "region": "",
+      "region": "Baku",
       "type": "city",
       "tag": "famous",
       "emoji": "🔥",
@@ -14943,10 +15968,57 @@
       "sounds": [
         "city-hum.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Icherisheher",
+          "wikipedia_slug": "Old_City_(Baku)"
+        },
+        {
+          "name": "Maiden Tower",
+          "wikipedia_slug": "Maiden_Tower_(Baku)"
+        },
+        {
+          "name": "Flame Towers",
+          "wikipedia_slug": "Flame_Towers"
+        },
+        {
+          "name": "Palace of the Shirvanshahs",
+          "wikipedia_slug": "Palace_of_the_Shirvanshahs"
+        },
+        {
+          "name": "Heydar Aliyev Center",
+          "wikipedia_slug": "Heydar_Aliyev_Center"
+        }
+      ],
+      "blurb": "A Caspian capital below sea level, where a walled medieval core sits inside a ring of oil-boom mansions and then a ring of glass towers shaped like flames. The wind it is named for blows most of the year.",
+      "fun_fact": "Baku sits on one of the oldest oil fields in the world — surface seepage here was burning long enough to be sacred to Zoroastrians, and by 1900 the region was producing about half the planet's oil.",
+      "hidden_gem_tip": "The Heydar Aliyev Center, Zaha Hadid's white curve with no straight lines in it, is worth the trip out even if you never go inside.",
+      "monuments": [
+        {
+          "name": "Icherisheher",
+          "yt": "HnIIc4dEyYs",
+          "start": 0,
+          "source": "auto",
+          "title": "Baku Old Town Complete Walk 🇦🇿 | Icherisheher Full Tour 2025 | All Streets & Landmarks in 4K",
+          "height": 2160
+        },
+        {
+          "name": "Maiden Tower",
+          "yt": "MQsxS2p6RDk",
+          "start": 0,
+          "source": "auto",
+          "title": "City Walk in Icherisheher (Old City) Baku | 4k | Maiden Tower, Miniature Book Museum, Muhamad Mosque",
+          "height": 2160
+        },
+        {
+          "name": "Flame Towers",
+          "yt": "OAHqUqcmH8s",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Baku 🇦🇿 Flame Towers From Inside",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "tbilisi",
@@ -14955,7 +16027,7 @@
       "country_code": "GE",
       "country_flag": "🇬🇪",
       "continent": "Asia",
-      "region": "",
+      "region": "Tbilisi",
       "type": "city",
       "tag": "famous",
       "emoji": "🏙️",
@@ -14974,10 +16046,57 @@
       "sounds": [
         "city-hum.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Narikala",
+          "wikipedia_slug": "Narikala"
+        },
+        {
+          "name": "Abanotubani",
+          "wikipedia_slug": "Abanotubani"
+        },
+        {
+          "name": "Holy Trinity Cathedral",
+          "wikipedia_slug": "Holy_Trinity_Cathedral_of_Tbilisi"
+        },
+        {
+          "name": "Rustaveli Avenue",
+          "wikipedia_slug": "Rustaveli_Avenue"
+        },
+        {
+          "name": "Bridge of Peace",
+          "wikipedia_slug": "Bridge_of_Peace"
+        }
+      ],
+      "blurb": "A Georgian capital in a narrow river gorge, with carved wooden balconies leaning over the streets, a fortress on the ridge and sulphur bathhouses steaming in the middle of the old town.",
+      "fun_fact": "The city is named after the hot springs — *tbili* means warm — and the legend has a king's wounded pheasant falling into one and coming out cooked, which is why the capital was moved here in the 5th century.",
+      "hidden_gem_tip": "The domed brick roofs in Abanotubani are the tops of the bathhouses, which are underground. A private room for an hour costs less than a restaurant meal.",
+      "monuments": [
+        {
+          "name": "Narikala",
+          "yt": "xcjixeFYAbE",
+          "start": 0,
+          "source": "auto",
+          "title": "Narikala Fortress Tbilisi Xplore Georgia S1E7 4K",
+          "height": 2160
+        },
+        {
+          "name": "Abanotubani",
+          "yt": "-ea9AUtHOa0",
+          "start": 0,
+          "source": "auto",
+          "title": "Tbilisi Walking Tour: Abanotubani to Liberty Square in Georgia | 4K HDR 60fps",
+          "height": 2160
+        },
+        {
+          "name": "Holy Trinity Cathedral",
+          "yt": "m1K3xwXd1FA",
+          "start": 0,
+          "source": "auto",
+          "title": "DJI Mini 3 Pro | Georgia, Holy Trinity Cathedral of Tbilisi",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "gergeti-kazbegi",
@@ -14986,7 +16105,7 @@
       "country_code": "GE",
       "country_flag": "🇬🇪",
       "continent": "Asia",
-      "region": "",
+      "region": "Mtskheta-Mtianeti",
       "type": "mountain",
       "tag": "hidden",
       "emoji": "⛰️",
@@ -15005,10 +16124,57 @@
       "sounds": [
         "mountain-wind.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Gveleti Waterfalls",
+          "wikipedia_slug": "Gveleti"
+        },
+        {
+          "name": "Mount Kazbek",
+          "wikipedia_slug": "Mount_Kazbek"
+        },
+        {
+          "name": "Stepantsminda",
+          "wikipedia_slug": "Stepantsminda"
+        },
+        {
+          "name": "Dariali Gorge",
+          "wikipedia_slug": "Darial_Gorge"
+        },
+        {
+          "name": "Georgian Military Road",
+          "wikipedia_slug": "Georgian_Military_Road"
+        }
+      ],
+      "blurb": "A 14th-century church standing alone at 2,170 m on a green shoulder below the 5,047 m glaciated cone of Kazbek, an hour's walk above the village of Stepantsminda near the Russian border.",
+      "fun_fact": "In the Georgian telling of the Prometheus myth it is Kazbek that the chained giant Amirani was bound to, and a cave high on the mountain was long believed to hold the tent of Abraham.",
+      "hidden_gem_tip": "Walk up rather than taking a 4×4. It is about two hours through forest and meadow, and the church only detaches itself from the mountain behind it when you arrive on foot.",
+      "monuments": [
+        {
+          "name": "Gveleti Waterfalls",
+          "yt": "DxQTVN6eCVA",
+          "start": 0,
+          "source": "auto",
+          "title": "HIKING BY GVELETI WATERFALLS-KAZBEGI GEORGIA 2021 (4K)",
+          "height": 1080
+        },
+        {
+          "name": "Mount Kazbek",
+          "yt": "oJNlxma7YN4",
+          "start": 0,
+          "source": "auto",
+          "title": "4K: Georgia Mountain Magic! Kazbek, Borjomi and Gergeti Trinity Church!",
+          "height": 2160
+        },
+        {
+          "name": "Stepantsminda",
+          "yt": "gvhEdl34cbA",
+          "start": 0,
+          "source": "auto",
+          "title": "The Most Beautiful Hike in Georgia 🇬🇪 | Kazbegi, (Stepantsminda)",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "samarkand",

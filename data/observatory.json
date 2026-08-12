@@ -41,7 +41,17 @@
       ],
       "blurb": "Twenty-seven white dishes, twenty-five metres across each, standing on railway track in a Y on a 2,124-metre plain of high desert. Every few months a transporter picks them up and walks them out along arms twenty-one kilometres long, so the array trades sharpness for sensitivity and back again — one instrument in four different sizes.",
       "fun_fact": "It was renamed the Karl G. Jansky Very Large Array in 2012, for the Bell Labs engineer who went looking for the source of static on transatlantic phone calls in 1932, found it coming from the centre of the Milky Way, and accidentally invented radio astronomy.",
-      "hidden_gem_tip": "The visitor centre runs a self-guided walking tour that ends underneath a dish. Go on the first Saturday of the month, when the guided tours run and staff will tell you which configuration the array is currently in — the A configuration, spread to its full 36 km, is the one that looks like the film."
+      "hidden_gem_tip": "The visitor centre runs a self-guided walking tour that ends underneath a dish. Go on the first Saturday of the month, when the guided tours run and staff will tell you which configuration the array is currently in — the A configuration, spread to its full 36 km, is the one that looks like the film.",
+      "monuments": [
+        {
+          "name": "Socorro, New Mexico",
+          "yt": "6cy560rLZUo",
+          "start": 0,
+          "source": "auto",
+          "title": "4K - Socorro to White Sand National Park | New Mexico",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "ngvla",
@@ -172,7 +182,17 @@
       ],
       "blurb": "A 100-by-110-metre dish — the largest fully steerable object anyone has ever built — parked in an Appalachian valley inside the National Radio Quiet Zone, thirteen thousand square miles where transmitters are restricted by law so the sky stays audible.",
       "fun_fact": "Observatory vehicles near the dish run on diesel, because a petrol engine's spark plugs are radio transmitters. Staff use landlines, and the site's microwave oven lives in a metal cage.",
-      "hidden_gem_tip": "The science centre tour is the only way past the gate, and the last stop is the base of the big dish, where your phone has already been dead for twenty minutes and nobody minds at all."
+      "hidden_gem_tip": "The science centre tour is the only way past the gate, and the last stop is the base of the big dish, where your phone has already been dead for twenty minutes and nobody minds at all.",
+      "monuments": [
+        {
+          "name": "Allegheny Mountains",
+          "yt": "foxSVO9G6Rs",
+          "start": 0,
+          "source": "auto",
+          "title": "Stunning Autumn Colors In The Allegheny Mountains",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "nrao-cdl",
@@ -272,7 +292,33 @@
       ],
       "blurb": "The 200-inch Hale Telescope sits under a white dome on a pine ridge above the San Diego backcountry, and from 1949 until the mid-seventies it was simply the largest telescope in the world. It is still working nightly.",
       "fun_fact": "The 200-inch mirror is a Pyrex disc cast by Corning in 1934, ground and figured for eleven years with a war in the middle, then carried across the country by rail at a crawl in 1947 with crowds standing at the trackside to watch it pass.",
-      "hidden_gem_tip": "The gallery inside the Hale dome is open to visitors most days and costs nothing. Go in the afternoon: the dome shutter is often open for evening cool-down, so you see the mirror in daylight before the night crew claims it."
+      "hidden_gem_tip": "The gallery inside the Hale dome is open to visitors most days and costs nothing. Go in the afternoon: the dome shutter is often open for evening cool-down, so you see the mirror in daylight before the night crew claims it.",
+      "monuments": [
+        {
+          "name": "Hale Telescope",
+          "yt": "ZojM5LsOBFg",
+          "start": 0,
+          "source": "auto",
+          "title": "Hale Telescope Dome, Construction Footage (silent)",
+          "height": 1080
+        },
+        {
+          "name": "Samuel Oschin telescope",
+          "yt": "agsWMo70LU0",
+          "start": 0,
+          "source": "auto",
+          "title": "The 48-inch Samuel Oschin Telescope",
+          "height": 1080
+        },
+        {
+          "name": "Palomar Mountain",
+          "yt": "hk4j5VPPmkQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Palomar Mountain Tour | Observatory | Aerial Views | 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "mount-wilson-observatory",
@@ -308,7 +354,25 @@
       ],
       "blurb": "An hour above Los Angeles on a switchback road, this is where the universe got bigger. The 100-inch Hooker Telescope of 1917 held the record for thirty years, and its plates are the ones that turned the 'spiral nebulae' into other galaxies.",
       "fun_fact": "In 1923 Edwin Hubble found a Cepheid variable star on a plate of the Andromeda nebula, crossed out his own 'N' for nova and wrote 'VAR!' — and with that one measurement the Milky Way stopped being the whole of creation.",
-      "hidden_gem_tip": "Weekend afternoons the 60-inch dome is open, and it is one of very few big historic telescopes anywhere that private groups can book and actually observe through."
+      "hidden_gem_tip": "Weekend afternoons the 60-inch dome is open, and it is one of very few big historic telescopes anywhere that private groups can book and actually observe through.",
+      "monuments": [
+        {
+          "name": "100-inch Hooker Telescope",
+          "yt": "DiFZaip9RNM",
+          "start": 0,
+          "source": "auto",
+          "title": "Mt.Wilson Observatory 100 Inch Hooker Telescope Night.August 3rd 2018 (2)",
+          "height": 1920
+        },
+        {
+          "name": "Angeles National Forest",
+          "yt": "SM1zdJ3_9VA",
+          "start": 0,
+          "source": "auto",
+          "title": "Angeles National Forest Los Angeles California 4K Aerial",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "lick-observatory",
@@ -345,7 +409,17 @@
       ],
       "blurb": "The first permanently occupied mountaintop observatory in the world, finished in 1888 on Mount Hamilton above San Jose — the proof of concept that observatories belong on summits, which every site in this collection inherited.",
       "fun_fact": "James Lick, the eccentric piano-maker turned land baron who paid for it, is entombed in the brick pier directly beneath the 36-inch refractor. A small brass plaque marks him; the telescope above is the headstone.",
-      "hidden_gem_tip": "The road up is 365 curves of switchback, deliberately graded gently in the 1870s so horse teams could haul the telescope parts. Drive it slowly and you are travelling at the speed the mountain was built for."
+      "hidden_gem_tip": "The road up is 365 curves of switchback, deliberately graded gently in the 1870s so horse teams could haul the telescope parts. Drive it slowly and you are travelling at the speed the mountain was built for.",
+      "monuments": [
+        {
+          "name": "Mount Hamilton (California)",
+          "yt": "FRJIYyRu-yA",
+          "start": 0,
+          "source": "auto",
+          "title": "California from the Lick Observatory in Mount Hamilton, CA",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "kitt-peak-observatory",
@@ -382,7 +456,25 @@
       ],
       "blurb": "More optical telescopes than any other mountain on Earth, scattered across a Sonoran Desert summit an hour from Tucson. The white wedge of the McMath–Pierce solar telescope drops most of its length down the mountainside into a shaft cut through the rock.",
       "fun_fact": "The peak is leased, not owned: it belongs to the Tohono Oʼodham Nation, whose leaders agreed to the lease in 1958 after being brought up the mountain and shown the sky through a telescope for themselves.",
-      "hidden_gem_tip": "The nightly observing programme puts a real eyepiece in front of you and sends you back down in convoy with headlights off, following the taillights ahead — no white light is allowed on the mountain after dark."
+      "hidden_gem_tip": "The nightly observing programme puts a real eyepiece in front of you and sends you back down in convoy with headlights off, following the taillights ahead — no white light is allowed on the mountain after dark.",
+      "monuments": [
+        {
+          "name": "McMath–Pierce solar telescope",
+          "yt": "Ko1rxQEt37c",
+          "start": 0,
+          "source": "auto",
+          "title": "KITT PEAK OBSERVATORY, ARIZONA - McMath-Pierce Solar Telescope",
+          "height": 1080
+        },
+        {
+          "name": "Baboquivari Peak Wilderness",
+          "yt": "YaY3LG5wy84",
+          "start": 0,
+          "source": "auto",
+          "title": "Visiting the sacred Baboquivari Peak Wilderness, Home of Creator Protector God, I'itoi, 19 May 2019",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "yerkes-observatory",
@@ -417,7 +509,17 @@
       ],
       "blurb": "A Romanesque brick palace on the shore of Lake Geneva, Wisconsin, built in 1897 around the largest refracting telescope ever used for astronomy — a 40-inch lens on a 19-metre tube in a rotating room whose entire floor rises and falls on lifts.",
       "fun_fact": "Nothing bigger was ever built, and nothing bigger ever will be: a lens can only be held at its rim, and glass that wide sags under its own weight. Every larger telescope since has used a mirror instead.",
-      "hidden_gem_tip": "It closed in 2018 and looked finished, then reopened for public tours in 2022 under a local foundation. Book ahead — the tour includes the elevating floor, which still works."
+      "hidden_gem_tip": "It closed in 2018 and looked finished, then reopened for public tours in 2022 under a local foundation. Book ahead — the tour includes the elevating floor, which still works.",
+      "monuments": [
+        {
+          "name": "Williams Bay, Wisconsin",
+          "yt": "qWDD9nWRsG8",
+          "start": 0,
+          "source": "auto",
+          "title": "A beautiful walk around Williams Bay, Wisconsin with Wisconsin Greg",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "griffith-observatory",
@@ -453,7 +555,33 @@
       ],
       "blurb": "Art Deco copper domes on the south slope of Mount Hollywood, looking down on the whole Los Angeles basin. It has been free to enter since it opened in 1935 and always will be — the donor's will required it.",
       "fun_fact": "More people have put an eye to the 12-inch Zeiss refractor on the roof than to any other telescope on Earth: over eight million since 1935, and the queue forms again every clear evening.",
-      "hidden_gem_tip": "Skip the lawn everyone photographs and walk the west terrace instead. The city grid, the sunset and the Hollywood Sign line up from there, and the telescope queue is behind you rather than in the shot."
+      "hidden_gem_tip": "Skip the lawn everyone photographs and walk the west terrace instead. The city grid, the sunset and the Hollywood Sign line up from there, and the telescope queue is behind you rather than in the shot.",
+      "monuments": [
+        {
+          "name": "Griffith Park",
+          "yt": "MDaaHkkl8j8",
+          "start": 0,
+          "source": "auto",
+          "title": "Griffith Park Observatory (4K)",
+          "height": 2160
+        },
+        {
+          "name": "Hollywood Sign",
+          "yt": "GBeP-hDNI94",
+          "start": 0,
+          "source": "auto",
+          "title": "Scenic Los Angeles Drive | Griffith Observatory to Hollywood Sign [4K]",
+          "height": 2160
+        },
+        {
+          "name": "Samuel Oschin Planetarium",
+          "yt": "5XFS6TYGh4g",
+          "start": 0,
+          "source": "auto",
+          "title": "Venture Through Space and Time in the Samuel Oschin Planetarium at Griffith Observatory 🪐",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "maunakea-observatories",
@@ -494,7 +622,33 @@
       ],
       "blurb": "Thirteen telescopes on a 4,207-metre volcanic summit above the Pacific inversion layer, including the twin ten-metre Kecks. The air is thin, dry and still, which is the whole reason they are up here.",
       "fun_fact": "The mountain is sacred in Native Hawaiian tradition as Mauna a Wākea, and the plan to add the Thirty Meter Telescope brought years of protest and blockade at the access road. The summit is contested ground, not just a good site.",
-      "hidden_gem_tip": "The Visitor Information Station at 2,800 metres is as far as a rental car agreement will usually take you, and it is the right place anyway — you acclimatise, the stargazing is free, and the summit road above is unpaved and unforgiving."
+      "hidden_gem_tip": "The Visitor Information Station at 2,800 metres is as far as a rental car agreement will usually take you, and it is the right place anyway — you acclimatise, the stargazing is free, and the summit road above is unpaved and unforgiving.",
+      "monuments": [
+        {
+          "name": "W. M. Keck Observatory",
+          "yt": "QM5u_p1SAtI",
+          "start": 0,
+          "source": "auto",
+          "title": "The W. M. Keck Observatory Science Highlights, Josh Walawender, January 19 2022",
+          "height": 720
+        },
+        {
+          "name": "Subaru Telescope",
+          "yt": "nEWrQOq2Q8o",
+          "start": 0,
+          "source": "auto",
+          "title": "Subaru Telescope on MaunaKea, Hawaii between 2023/10/22 and 2023/10/24",
+          "height": 2160
+        },
+        {
+          "name": "Gemini Observatory",
+          "yt": "U0tJiw7clR8",
+          "start": 0,
+          "source": "auto",
+          "title": "Gemini South Observatory",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "haleakala-observatory",
@@ -531,7 +685,33 @@
       ],
       "blurb": "Locals call it Science City: a cluster of white domes on the rim of Maui's dormant volcano at 3,055 metres, where the sunrise crowd stops and the road keeps going. The four-metre Inouye is the largest solar telescope ever built.",
       "fun_fact": "Its first images in 2020 resolved features on the Sun about thirty kilometres across — cells of boiling plasma each roughly the size of a country, and the sharpest look at our own star anyone has had.",
-      "hidden_gem_tip": "Everyone books the sunrise slot and freezes. Come for sunset instead: no permit needed, the same crater, warmer light on the cinder cones, and the drive down is not in the dark."
+      "hidden_gem_tip": "Everyone books the sunrise slot and freezes. Come for sunset instead: no permit needed, the same crater, warmer light on the cinder cones, and the drive down is not in the dark.",
+      "monuments": [
+        {
+          "name": "Daniel K. Inouye Solar Telescope",
+          "yt": "JUVpxWknW60",
+          "start": 0,
+          "source": "auto",
+          "title": "The World's Largest Solar Telescope - Daniel K. Inouye",
+          "height": 1080
+        },
+        {
+          "name": "Pan-STARRS",
+          "yt": "f13w1ttyyV4",
+          "start": 0,
+          "source": "auto",
+          "title": "Pan-STARRS - A Maui Marvel -- Thomas Lowe",
+          "height": 720
+        },
+        {
+          "name": "Haleakalā National Park",
+          "yt": "p3uW-jytE98",
+          "start": 0,
+          "source": "auto",
+          "title": "Haleakala Highway | Haleakala National Park 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "arecibo-observatory",
@@ -566,7 +746,25 @@
       ],
       "blurb": "A 305-metre dish laid into a limestone sinkhole in the Puerto Rican karst in 1963, with a 900-tonne receiver platform slung above it on cables. It was the largest single-aperture radio telescope on Earth for fifty-three years.",
       "fun_fact": "It is gone. Two support cables failed in the second half of 2020 and on 1 December the platform tore loose and fell into the dish. The telescope has not been rebuilt; the site continues as a science education centre.",
-      "hidden_gem_tip": "The visitor centre stayed open and now works as a memorial as much as a museum — go for the story of the 1974 Arecibo message and the models of what stood over the sinkhole, not for a telescope that is no longer there."
+      "hidden_gem_tip": "The visitor centre stayed open and now works as a memorial as much as a museum — go for the story of the 1974 Arecibo message and the models of what stood over the sinkhole, not for a telescope that is no longer there.",
+      "monuments": [
+        {
+          "name": "Arecibo, Puerto Rico",
+          "yt": "V-EMcQqaQaI",
+          "start": 0,
+          "source": "auto",
+          "title": "Arecibo Puerto Rico Travel Guide - Driving, Beaches, Restaurants & Things To Do",
+          "height": 1440
+        },
+        {
+          "name": "Arecibo Lighthouse",
+          "yt": "K7WfcPoh_Xs",
+          "start": 0,
+          "source": "auto",
+          "title": "ARECIBO LIGHTHOUSE AND BEACH - PANDEMIC TIMES - EPISODE 18 - PUERTO RICO",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "paranal-observatory",
@@ -607,7 +805,33 @@
       ],
       "blurb": "Four 8.2-metre telescopes on a flattened Atacama peak at 2,635 metres, named Antu, Kueyen, Melipal and Yepun — Sun, Moon, Southern Cross and Venus in Mapudungun. Combined as an interferometer they resolve detail no single mirror could.",
       "fun_fact": "The staff hotel buried in the hillside, the Residencia, keeps a swimming pool under a glass dome purely to put some humidity back into people who live in the driest desert on Earth. A Bond film used it as a Bolivian hotel.",
-      "hidden_gem_tip": "Free guided tours run on some Saturdays and must be booked well in advance through ESO. It is a two-hour drive from Antofagasta through country with no fuel and no phone signal — leave with a full tank."
+      "hidden_gem_tip": "Free guided tours run on some Saturdays and must be booked well in advance through ESO. It is a two-hour drive from Antofagasta through country with no fuel and no phone signal — leave with a full tank.",
+      "monuments": [
+        {
+          "name": "Very Large Telescope",
+          "yt": "NrT6vKeIEIM",
+          "start": 0,
+          "source": "auto",
+          "title": "Very Large Telescope | Cerro Paranal | Univisium 4K",
+          "height": 1920
+        },
+        {
+          "name": "Cerro Paranal",
+          "yt": "V9tOPEedXiI",
+          "start": 0,
+          "source": "auto",
+          "title": "2012: \"Astronomers Paradise\" - Cerro Paranal, Chile",
+          "height": 1080
+        },
+        {
+          "name": "Atacama Desert",
+          "yt": "bNAMPLxiGPQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Atacama Desert, Chile 4K 🇨🇱",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "alma-observatory",
@@ -640,7 +864,17 @@
       ],
       "blurb": "Sixty-six antennas spread across the Chajnantor plateau at five thousand metres, where the air is thin enough and dry enough for millimetre waves to get through. Transporters the size of houses shuffle the dishes between positions up to sixteen kilometres apart.",
       "fun_fact": "At that altitude there is roughly half the oxygen of sea level, so nobody works up there for long: operations run from a base at 2,900 metres and trips to the array are short and carry oxygen.",
-      "hidden_gem_tip": "Public visits go to the base camp, not the plateau — that is a medical rule, not a snub. San Pedro de Atacama down the road has the darkest easily reachable skies in the hemisphere anyway."
+      "hidden_gem_tip": "Public visits go to the base camp, not the plateau — that is a medical rule, not a snub. San Pedro de Atacama down the road has the darkest easily reachable skies in the hemisphere anyway.",
+      "monuments": [
+        {
+          "name": "San Pedro de Atacama",
+          "yt": "6jCbS6r3W0w",
+          "start": 0,
+          "source": "auto",
+          "title": "San Pedro de Atacama, Chile — Sunday Morning Walking Tour 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "la-silla-observatory",
@@ -673,7 +907,17 @@
       ],
       "blurb": "Europe's first outpost in the southern sky, opened on a 2,400-metre Atacama ridge in 1969 and still working. Its domes stand in a line along the crest like a small white town.",
       "fun_fact": "The New Technology Telescope here was the first to be built with a thin mirror actively bent into shape by computer-driven pads behind it — the trick every large telescope built since has copied.",
-      "hidden_gem_tip": "The night sky above La Silla is among the darkest ever measured. You do not need to be on the mountain for that: pull over anywhere on the road up from La Serena, kill the engine and the lights, and wait ten minutes for your eyes."
+      "hidden_gem_tip": "The night sky above La Silla is among the darkest ever measured. You do not need to be on the mountain for that: pull over anywhere on the road up from La Serena, kill the engine and the lights, and wait ten minutes for your eyes.",
+      "monuments": [
+        {
+          "name": "La Serena, Chile",
+          "yt": "LH3L-bt1390",
+          "start": 0,
+          "source": "auto",
+          "title": "La Serena, Chile (4K)",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "cerro-tololo",
@@ -710,7 +954,17 @@
       ],
       "blurb": "A 2,200-metre summit above the Elqui Valley, and the American answer to La Silla across the ridge. The four-metre Blanco Telescope carries the Dark Energy Camera, a 570-megapixel eye built to map how the universe is being pulled apart.",
       "fun_fact": "From this one dome the Dark Energy Survey catalogued something like three hundred million galaxies — not to look at any of them, but to measure how the whole set has been stretched over billions of years.",
-      "hidden_gem_tip": "The next ridge over, Cerro Pachón, holds the Rubin Observatory, which will photograph the entire southern sky every few nights. The Elqui Valley below is full of small tourist observatories that will point a telescope at Saturn for you the same evening."
+      "hidden_gem_tip": "The next ridge over, Cerro Pachón, holds the Rubin Observatory, which will photograph the entire southern sky every few nights. The Elqui Valley below is full of small tourist observatories that will point a telescope at Saturn for you the same evening.",
+      "monuments": [
+        {
+          "name": "Vera C. Rubin Observatory",
+          "yt": "RNzZmQ_Djvk",
+          "start": 0,
+          "source": "auto",
+          "title": "Jaw-Dropping First Images from the 3.2 Trillion Pixel Camera | Vera C. Rubin Observatory",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "sphinx-observatory",
@@ -751,7 +1005,33 @@
       ],
       "blurb": "A steel dome bolted to a rock pinnacle at 3,571 metres in the Bernese Alps, reached by a lift driven straight up through the mountain from the railway station below. Half observatory, half weather station, all cliff edge.",
       "fun_fact": "The lift climbs 108 metres of solid rock in about twenty-five seconds, and it exists because the Jungfrau Railway had already tunnelled a station into the mountain at 3,454 metres — still the highest in Europe.",
-      "hidden_gem_tip": "The observation terrace is usually the least crowded deck at the Jungfraujoch, because most visitors stop at the Ice Palace. From it the Aletsch — the longest glacier in the Alps — runs away below you for twenty kilometres."
+      "hidden_gem_tip": "The observation terrace is usually the least crowded deck at the Jungfraujoch, because most visitors stop at the Ice Palace. From it the Aletsch — the longest glacier in the Alps — runs away below you for twenty kilometres.",
+      "monuments": [
+        {
+          "name": "Jungfraujoch",
+          "yt": "sQXi2iA0d_Q",
+          "start": 0,
+          "source": "auto",
+          "title": "Jungfraujoch | The Top of Europe | Full Guide | Unveiling Switzerland's Alpine Gem | 4K UHD",
+          "height": 2160
+        },
+        {
+          "name": "Jungfrau",
+          "yt": "_1FtjzKIvhg",
+          "start": 0,
+          "source": "auto",
+          "title": "#MTBPlanB Amazing Switzerland - Jungfraujoch Top of Europe",
+          "height": 2160
+        },
+        {
+          "name": "Aletsch Glacier",
+          "yt": "E_hreepvSLc",
+          "start": 0,
+          "source": "auto",
+          "title": "Trip to Jungfrau 🇨🇭Switzerland- Top Of Europe | View From Sphinx | Aletsch Glacier | 4K | Part - 2",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "pic-du-midi",
@@ -792,7 +1072,33 @@
       ],
       "blurb": "Domes and terraces stacked on a 2,877-metre Pyrenean summit above the Col du Tourmalet, working since 1878 and reached by cable car. The two-metre Bernard Lyot is the largest telescope in mainland France.",
       "fun_fact": "NASA used images taken here to map the Moon for the Apollo landings — the seeing at this summit was good enough in the 1960s to pick landing sites from the ground.",
-      "hidden_gem_tip": "You can sleep up here. A handful of rooms are let each night: the last cable car goes down without you, you get dinner, the terrace after dark, and the whole summit to about thirty people."
+      "hidden_gem_tip": "You can sleep up here. A handful of rooms are let each night: the last cable car goes down without you, you get dinner, the terrace after dark, and the whole summit to about thirty people.",
+      "monuments": [
+        {
+          "name": "Col du Tourmalet",
+          "yt": "QhAZXZb-zt0",
+          "start": 0,
+          "source": "auto",
+          "title": "Drive over Col du Tourmalet France in 4K 360 VR",
+          "height": 2160
+        },
+        {
+          "name": "La Mongie",
+          "yt": "FR2yJ6oO4Po",
+          "start": 0,
+          "source": "auto",
+          "title": "WINTER SEASON IN FRANCE || On the Road Again ( Route de la Mongie)",
+          "height": 2160
+        },
+        {
+          "name": "Pyrenees",
+          "yt": "l7x7LyApZxE",
+          "start": 0,
+          "source": "auto",
+          "title": "Nohr live at Pic du Midi, Pyrénées, France",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "roque-de-los-muchachos",
@@ -833,7 +1139,17 @@
       ],
       "blurb": "The rim of a collapsed volcano at 2,396 metres on La Palma, ringed with telescopes from a dozen countries — among them the 10.4-metre Gran Telescopio Canarias, the largest single optical mirror anywhere. The trade winds pin a flat sea of cloud below the summit most days.",
       "fun_fact": "Spain passed a law in 1988 specifically to protect this sky: streetlight design, advertising, radio interference and even aircraft routes over the island are regulated so the mountain stays dark.",
-      "hidden_gem_tip": "Drive up in the late afternoon and stay for the cloud sea at sunset. The viewpoints along the rim road are free and open; the domes themselves need a booked tour, and they fill weeks ahead."
+      "hidden_gem_tip": "Drive up in the late afternoon and stay for the cloud sea at sunset. The viewpoints along the rim road are free and open; the domes themselves need a booked tour, and they fill weeks ahead.",
+      "monuments": [
+        {
+          "name": "Caldera de Taburiente National Park",
+          "yt": "xRNbAHLxwlA",
+          "start": 0,
+          "source": "auto",
+          "title": "Hiking in the Caldera de Taburiente National Park, La Palma, Canary Islands, Spain",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "teide-observatory",
@@ -874,7 +1190,33 @@
       ],
       "blurb": "A field of white towers and domes at 2,390 metres on the flank of Tenerife's volcano, and the world's main daytime observatory — this is where Europe looks at the Sun. GREGOR is the largest solar telescope on the continent.",
       "fun_fact": "The Scottish Astronomer Royal Charles Piazzi Smyth hauled instruments up this mountain in 1856 to prove that observing above the haze layer worked. Every mountaintop observatory since is downstream of that experiment.",
-      "hidden_gem_tip": "The observatory sits inside Teide National Park, so the drive to it is the attraction: a lunar caldera of lava fields and rock spires at 2,000 metres, with the peak above and the Atlantic somewhere far below the cloud."
+      "hidden_gem_tip": "The observatory sits inside Teide National Park, so the drive to it is the attraction: a lunar caldera of lava fields and rock spires at 2,000 metres, with the peak above and the Atlantic somewhere far below the cloud.",
+      "monuments": [
+        {
+          "name": "GREGOR Solar Telescope",
+          "yt": "Dr9BNkxEAMQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Europe's largest Solar Telescope GREGOR unveils magnetic details of the Sun",
+          "height": 720
+        },
+        {
+          "name": "Teide",
+          "yt": "AfShxW6Xb4s",
+          "start": 0,
+          "source": "auto",
+          "title": "Teide By Night, Tenerife, June 2023. Guided Tour, Volcano, Sunset, Prosecco and Star Gazing.",
+          "height": 2160
+        },
+        {
+          "name": "Teide National Park",
+          "yt": "5CwIrnEG_tM",
+          "start": 0,
+          "source": "auto",
+          "title": "Teide National Park in Tenerife (Spain) - spring, sightseeing, aerial video - 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "royal-observatory-greenwich",
@@ -910,7 +1252,25 @@
       ],
       "blurb": "Charles II founded it in 1675 to fix the problem of longitude at sea, and it ended up fixing the world's clocks and its maps. The line in the courtyard is where east meets west by international agreement of 1884.",
       "fun_fact": "A red ball on the turret has dropped at one o'clock every day since 1833, so ships on the Thames could set their chronometers by it — one of the first public time signals anywhere, and it still drops.",
-      "hidden_gem_tip": "Satellites put the real zero of longitude about a hundred metres east of the brass line, out in the park. Walk down the hill with a phone's GPS open and watch it tick over to 0°00′00″ on an unmarked patch of grass."
+      "hidden_gem_tip": "Satellites put the real zero of longitude about a hundred metres east of the brass line, out in the park. Walk down the hill with a phone's GPS open and watch it tick over to 0°00′00″ on an unmarked patch of grass.",
+      "monuments": [
+        {
+          "name": "Prime meridian (Greenwich)",
+          "yt": "9kjimUNOJX8",
+          "start": 0,
+          "source": "auto",
+          "title": "London walk 🇬🇧  Greenwich, ⚓️ Old Royal Naval College to the 🌐 Prime Meridian Line (Sept. 2021) 4K.",
+          "height": 2160
+        },
+        {
+          "name": "Greenwich Park",
+          "yt": "qwTo-EMmPFg",
+          "start": 0,
+          "source": "auto",
+          "title": "Greenwich London Tour 2026 🇬🇧 Historic Maritime, Market & Royal Park London Summer Walk [4K HDR]",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "jodrell-bank",
@@ -943,7 +1303,17 @@
       ],
       "blurb": "The 76-metre Lovell Telescope stands in flat Cheshire farmland, visible for miles, and has been listening since 1957. UNESCO made the site a World Heritage Site in 2019 — the first observatory of the radio age to get one.",
       "fun_fact": "It was catastrophically over budget and its builder faced ruin, and then Sputnik went up in October 1957 and Jodrell Bank turned out to be the only instrument in the West that could track the rocket that launched it. The debt was cleared inside a few years.",
-      "hidden_gem_tip": "Every July the site hosts a music festival in the dish's shadow, with the telescope lit up and lectures between bands. The rest of the year the gardens and the visitor centre put you close enough to hear the drive motors turn."
+      "hidden_gem_tip": "Every July the site hosts a music festival in the dish's shadow, with the telescope lit up and lectures between bands. The rest of the year the gardens and the visitor centre put you close enough to hear the drive motors turn.",
+      "monuments": [
+        {
+          "name": "Lovell Telescope",
+          "yt": "l80ymeUYXpA",
+          "start": 0,
+          "source": "auto",
+          "title": "Lovell Telescope Jodrell Bank England 4k drone footage",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "effelsberg-radio-telescope",
@@ -980,7 +1350,25 @@
       ],
       "blurb": "A hundred metres of steel dish sitting in a wooded Eifel valley south of Bonn, turning slowly above the treeline. From 1972 until Green Bank overtook it in 2000 it was the largest fully steerable telescope in the world.",
       "fun_fact": "The valley is the point. The hills around it block terrestrial radio the way a wall blocks noise, so the site was chosen for what it cannot hear.",
-      "hidden_gem_tip": "A marked forest trail loops around the dish with a viewing platform on the ridge, open all year and free. The best view is from above, where you can see the whole surface tilt."
+      "hidden_gem_tip": "A marked forest trail loops around the dish with a viewing platform on the ridge, open all year and free. The best view is from above, where you can see the whole surface tilt.",
+      "monuments": [
+        {
+          "name": "Bad Münstereifel",
+          "yt": "k4BwfjA2xjc",
+          "start": 0,
+          "source": "auto",
+          "title": "A Real-Life Christmas Market in Germany 🇩🇪 | Bad Münstereifel 4K Walking Tour",
+          "height": 2160
+        },
+        {
+          "name": "Eifel",
+          "yt": "43ABAZA1C6M",
+          "start": 0,
+          "source": "auto",
+          "title": "Begegnung mit der Unendlichkeit - Das Radioteleskop Effelsberg (Eifel)",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "paris-observatory",
@@ -1017,7 +1405,33 @@
       ],
       "blurb": "Founded in 1667 and never once closed, which makes it the oldest working observatory on Earth. Claude Perrault's stone building has no wood and no iron in its structure, and it is aligned so that the Paris meridian runs straight through the middle of the floor.",
       "fun_fact": "That meridian was France's prime meridian until 1911, and Paris never quite let it go: 135 brass medallions are set into pavements, courtyards and museum floors along its line across the city, and people still hunt them.",
-      "hidden_gem_tip": "Urbain Le Verrier found Neptune from this building in 1846 by arithmetic alone — he calculated where an unseen planet had to be and posted the coordinates to Berlin, where it was found the same night, within a degree."
+      "hidden_gem_tip": "Urbain Le Verrier found Neptune from this building in 1846 by arithmetic alone — he calculated where an unseen planet had to be and posted the coordinates to Berlin, where it was found the same night, within a degree.",
+      "monuments": [
+        {
+          "name": "Paris meridian",
+          "yt": "TTQJ5jOTJJA",
+          "start": 0,
+          "source": "auto",
+          "title": "The Paris Meridian: Greenwich's Forgotten Rival",
+          "height": 1080
+        },
+        {
+          "name": "Meudon",
+          "yt": "9-H3WSbzyMM",
+          "start": 0,
+          "source": "auto",
+          "title": "ᴘᴀʀɪꜱ ᴅᴀʏ ᴛʀɪᴘ 🇫🇷 MEUDON Calm French City Promenade 4k Town Hall➜ Paris panorama ➜ Observatoire",
+          "height": 2160
+        },
+        {
+          "name": "Jardin du Luxembourg",
+          "yt": "ofCW7aXSFDg",
+          "start": 0,
+          "source": "auto",
+          "title": "Paris, France - Walking tour - Around Jardin du Luxembourg - 4K HDR 60 fps",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "uraniborg",
@@ -1054,7 +1468,17 @@
       ],
       "blurb": "Tycho Brahe built a castle for astronomy on a small island in the Öresund between 1576 and 1580, with a paper mill, a printing press and a laboratory, and then dug a second observatory into the ground beside it because the wind kept shaking his instruments.",
       "fun_fact": "All of it was done before the telescope existed. Tycho's naked-eye measurements were good to about an arcminute — accurate enough that Kepler, working from Tycho's tables, could show the planets move in ellipses.",
-      "hidden_gem_tip": "The castle was pulled down after Tycho fell out with the crown and left in 1597. What survives is the footprint, the restored renaissance garden, and the sunken chambers of Stjärneborg — reachable by ferry from Landskrona, best done by bicycle."
+      "hidden_gem_tip": "The castle was pulled down after Tycho fell out with the crown and left in 1597. What survives is the footprint, the restored renaissance garden, and the sunken chambers of Stjärneborg — reachable by ferry from Landskrona, best done by bicycle.",
+      "monuments": [
+        {
+          "name": "Ven (Sweden)",
+          "yt": "n0nVK5qlKPs",
+          "start": 0,
+          "source": "auto",
+          "title": "Ven Island Day Trip 🏝Part 1 - Sweden [4K 60fps]",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "vatican-observatory",
@@ -1095,7 +1519,33 @@
       ],
       "blurb": "The Pope's astronomers work from domes on the roof of the papal summer palace above Lake Albano, twenty-five kilometres from Rome. The institution traces back to the commission that reformed the calendar in 1582 and was refounded in 1891.",
       "fun_fact": "It moved out here in the 1930s because Rome's own streetlights had made the sky over the Vatican useless — and it has since moved its serious observing again, to a telescope on Mount Graham in Arizona.",
-      "hidden_gem_tip": "The palace gardens at Castel Gandolfo opened to visitors in 2014 and are still far quieter than anything in Rome. The observatory keeps a meteorite collection here that is one of the best in the world, and is occasionally shown."
+      "hidden_gem_tip": "The palace gardens at Castel Gandolfo opened to visitors in 2014 and are still far quieter than anything in Rome. The observatory keeps a meteorite collection here that is one of the best in the world, and is occasionally shown.",
+      "monuments": [
+        {
+          "name": "Castel Gandolfo",
+          "yt": "187vk_1EiEk",
+          "start": 0,
+          "source": "auto",
+          "title": "Castel Gandolfo: the Popes’ Summer Residence | EWTN Vatican",
+          "height": 1080
+        },
+        {
+          "name": "Palace of Castel Gandolfo",
+          "yt": "MN2-lzszp_A",
+          "start": 0,
+          "source": "auto",
+          "title": "Papal palace of Castel Gandolfo",
+          "height": 1080
+        },
+        {
+          "name": "Lake Albano",
+          "yt": "59Xbh3gVHgU",
+          "start": 0,
+          "source": "auto",
+          "title": "Castel Gandolfo & Lake Albano (Lazio), Italy【Biking Tour】With Captions - 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "sutherland-salt",
@@ -1132,7 +1582,33 @@
       ],
       "blurb": "On a Karoo plateau above the small town of Sutherland stands SALT, an eleven-metre mosaic of ninety-one hexagonal mirrors and the largest single optical telescope in the southern hemisphere. Around it, a scatter of smaller domes from a dozen countries.",
       "fun_fact": "SALT's mirror never tips up and down — it sits at a fixed angle and a tracker crawls across the focal plane to follow a target, which is why an eleven-metre telescope cost roughly a fifth of a fully steerable one.",
-      "hidden_gem_tip": "Sutherland is regularly the coldest town in South Africa, which is part of why the sky is so clean. Day tours visit SALT; the night tours use the smaller visitor telescopes, and those are the ones where you actually look through something."
+      "hidden_gem_tip": "Sutherland is regularly the coldest town in South Africa, which is part of why the sky is so clean. Day tours visit SALT; the night tours use the smaller visitor telescopes, and those are the ones where you actually look through something.",
+      "monuments": [
+        {
+          "name": "Sutherland, South Africa",
+          "yt": "KjfB_V82d70",
+          "start": 0,
+          "source": "auto",
+          "title": "Escaping the Loudness in Sutherland - South Africa",
+          "height": 2160
+        },
+        {
+          "name": "South African Astronomical Observatory",
+          "yt": "m-c-GYCi57Q",
+          "start": 0,
+          "source": "auto",
+          "title": "Sutherland - A visit to the South African Astronomical Observatory",
+          "height": 1080
+        },
+        {
+          "name": "Karoo",
+          "yt": "xkGL7-7tmPQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Fly Over Klein Karoo & Langeberg Mountains | 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "fast-telescope",
@@ -1204,7 +1680,25 @@
       ],
       "blurb": "A Ming-dynasty brick platform of 1442 standing on a surviving stub of the old city wall by Jianguomen, with eight great bronze instruments on its roof — armillary spheres, a celestial globe, a quadrant — green with age against the traffic below.",
       "fun_fact": "Astronomers observed from this platform for close to five centuries, one of the longest unbroken records anywhere. The bronzes on top were designed in the 1670s by a Flemish Jesuit who had become the emperor's court astronomer.",
-      "hidden_gem_tip": "Five of the instruments were carried off to Germany after 1900 and only came back in 1921, returned under the Treaty of Versailles. It is a tiny museum in the middle of a busy junction and almost nobody goes in."
+      "hidden_gem_tip": "Five of the instruments were carried off to Germany after 1900 and only came back in 1921, returned under the Treaty of Versailles. It is a tiny museum in the middle of a busy junction and almost nobody goes in.",
+      "monuments": [
+        {
+          "name": "Jianguomen",
+          "yt": "WeEwFe-KLfY",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K]中国北京建国门外大街（初秋）徒步之旅 JIANGUOMEN Outer St in Beijing China Walking Tour",
+          "height": 2160
+        },
+        {
+          "name": "Ming city wall",
+          "yt": "tB0T9apfqWE",
+          "start": 0,
+          "source": "auto",
+          "title": "4K - Walking the Ming City Wall near Dabao'en Temple",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "jantar-mantar-jaipur",
@@ -1245,7 +1739,33 @@
       ],
       "blurb": "Nineteen astronomical instruments built in stone and marble by Sawai Jai Singh II and finished in 1734 — ramps, bowls, discs and staircases that look like abstract sculpture and are in fact a working observatory you walk around inside.",
       "fun_fact": "The Vrihat Samrat Yantra is a sundial twenty-seven metres high and reads local time to about two seconds. Its shadow moves fast enough to see: roughly six centimetres a minute along the marble scale.",
-      "hidden_gem_tip": "Take the guide. Half the instruments are unreadable without one and the other half are being used wrong by everyone around you — the twelve zodiac instruments in the corner each work only for a fortnight a year, which is the detail that makes the place click."
+      "hidden_gem_tip": "Take the guide. Half the instruments are unreadable without one and the other half are being used wrong by everyone around you — the twelve zodiac instruments in the corner each work only for a fortnight a year, which is the detail that makes the place click.",
+      "monuments": [
+        {
+          "name": "Jaipur",
+          "yt": "-IU_UIweifk",
+          "start": 0,
+          "source": "auto",
+          "title": "JANTAR MANTAR: 300 YEAR-OLD OBSERVATORY IN JAIPUR, INDIA! (4K)",
+          "height": 2160
+        },
+        {
+          "name": "City Palace, Jaipur",
+          "yt": "tULe591M42E",
+          "start": 0,
+          "source": "auto",
+          "title": "JAIPUR CITY PALACE: JAIPUR, INDIA (4K)",
+          "height": 2160
+        },
+        {
+          "name": "Hawa Mahal",
+          "yt": "yZDhM3qZhcs",
+          "start": 0,
+          "source": "auto",
+          "title": "JAIPUR | Hawa Mahal, City Palace, Jantar Mantar, Nahargarh Fort 4K UHD",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "parkes-observatory",
@@ -1277,7 +1797,17 @@
       ],
       "blurb": "A 64-metre dish standing alone in a sheep paddock in central New South Wales, working since 1961 and known to everyone in Australia simply as the Dish. Its Wiradjuri name, given in 2020, is Murriyang — Skyworld.",
       "fun_fact": "Most of the television the world watched of the first Moon walk came through this dish. A squall hit as Armstrong was climbing down, pushing the telescope past its safe wind limit, and the crew kept tracking anyway.",
-      "hidden_gem_tip": "The visitor centre café looks straight up at the dish through a glass wall, and the whole thing swings around every twenty minutes or so. Sit there long enough with a coffee and you will feel the floor move."
+      "hidden_gem_tip": "The visitor centre café looks straight up at the dish through a glass wall, and the whole thing swings around every twenty minutes or so. Sit there long enough with a coffee and you will feel the floor move.",
+      "monuments": [
+        {
+          "name": "Parkes, New South Wales",
+          "yt": "Wx1oYn8ZFag",
+          "start": 0,
+          "source": "auto",
+          "title": "Parkes New South Wales Australia",
+          "height": 720
+        }
+      ]
     },
     {
       "id": "siding-spring-observatory",
@@ -1314,7 +1844,25 @@
       ],
       "blurb": "Australia's main optical observatory, on a ridge at 1,165 metres among the volcanic spires of the Warrumbungles. The 3.9-metre Anglo-Australian Telescope has been its workhorse since 1974.",
       "fun_fact": "The AAT made its name by looking at hundreds of things at once: a robot placed 400 optical fibres on a plate by hand-eye, one every few seconds, so a single exposure caught 400 galaxy spectra.",
-      "hidden_gem_tip": "The 2013 Wambelong fire burned right over this ridge, took out buildings and left the domes standing. The national park below is Australia's first Dark Sky Park — camp there and the Milky Way casts a shadow."
+      "hidden_gem_tip": "The 2013 Wambelong fire burned right over this ridge, took out buildings and left the domes standing. The national park below is Australia's first Dark Sky Park — camp there and the Milky Way casts a shadow.",
+      "monuments": [
+        {
+          "name": "Warrumbungle National Park",
+          "yt": "j_2qNmNI6SQ",
+          "start": 0,
+          "source": "auto",
+          "title": "NSW Warrumbungle National Park 4 - Through the Breadknife - by Drone",
+          "height": 1080
+        },
+        {
+          "name": "Coonabarabran",
+          "yt": "-JRiXjNtLtw",
+          "start": 0,
+          "source": "auto",
+          "title": "Drone view of the area Coonabarabran, Gulargambone and Bingara in NSW.",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "mount-john-observatory",
@@ -1355,7 +1903,33 @@
       ],
       "blurb": "A small cluster of domes on a hill above the turquoise water of Lake Tekapo, at the centre of the Aoraki Mackenzie International Dark Sky Reserve — 4,300 square kilometres of the South Island kept deliberately dark.",
       "fun_fact": "The Mackenzie district was writing lighting rules in 1981, three decades before dark-sky reserves were a thing anyone had heard of, purely because the local astronomers asked and the council agreed.",
-      "hidden_gem_tip": "The summit café is open in daylight and the view over the lake and the Southern Alps is worth the walk on its own. The night tours are the reason to be here, but book them before you arrive in Tekapo, not after."
+      "hidden_gem_tip": "The summit café is open in daylight and the view over the lake and the Southern Alps is worth the walk on its own. The night tours are the reason to be here, but book them before you arrive in Tekapo, not after.",
+      "monuments": [
+        {
+          "name": "Lake Tekapo",
+          "yt": "ttdnaj8zZbM",
+          "start": 0,
+          "source": "auto",
+          "title": "Mount John Observatory New Zealand 4K 🇳🇿 | Lake Tekapo Drone Views & Stargazing Guide",
+          "height": 2160
+        },
+        {
+          "name": "Aoraki Mackenzie International Dark Sky Reserve",
+          "yt": "qrBr-026D4c",
+          "start": 0,
+          "source": "auto",
+          "title": "SH8 - Aoraki Mackenzie International Dark Sky Reserve",
+          "height": 1080
+        },
+        {
+          "name": "Aoraki / Mount Cook",
+          "yt": "-a-mo0dYekw",
+          "start": 0,
+          "source": "auto",
+          "title": "Aoraki Mount Cook National Park, New Zealand  [Amazing Places 4K]",
+          "height": 2160
+        }
+      ]
     }
   ]
 }
