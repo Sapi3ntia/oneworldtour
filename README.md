@@ -680,6 +680,63 @@ below). All 278 were clean; two older Route 66 chips were not.
 `Gathering_Place_(Tulsa_park)` — and Stockyards City has no article under any
 spelling, so it joins the 195 highlights that carry a real name and no link.
 
+**Sweeping the remainder, and what the sweep got wrong (2026-08-12).** With
+South America filled in, every place that had `highlights` and no tabs got swept
+— coverage went **419/643 → 690/706 places (65% → 97%)** and **964 → 1,651
+tabs**. Two streams ran at once, taking opposite ends of the queue, because
+`enrich_monuments.py` writes only the region file of the place it is on: two
+streams are safe exactly as long as they are never in the same file. That halves
+the wall clock and doubles the request rate, and a throttled search returns an
+empty result set byte-for-byte identical to *"there is no such video"* — so a
+sequential re-run pass over everything still empty is not optional, it is the
+only thing that tells a rate limit apart from an honest absence. Of 16 empty
+places re-asked on a quiet line, one filled (`giethoorn`); the rest were real.
+
+**45 tabs were then cut, and the audit that found them is the point.** A search
+that finds *something* is not a search that finds the *right* thing.
+`mentions_landmark()` passes on a token subset, so "Jaco Beach, Costa Rica"
+served the Amazonian geoglyph site *Jacó Sá*, and "Mill Creek Marsh Trail in
+Secaucus NJ" served a conservation area in Ontario. Three checks, all offline,
+all reading the stored `title`:
+
+1. **one video, two places** — the same id on two different records
+2. **the title names another place we carry** — the original check, and the
+   weakest: it can only see a wrong place that is *in the atlas*, which is why
+   Secaucus, Jacó and Al Wathba all sailed through it
+3. **the title covers only *part* of a multi-word landmark name** — full
+   coverage is strong evidence of the right subject; partial coverage on one
+   common word is how the impostors get in. Fold diacritics first, or
+   "Chichen Itza Tour 4k" reads as a mismatch for Chichén Itzá
+4. **anchored to nothing** — the strongest. A video really shot here almost
+   always says so: it names the place, its region, or its country, *or* it names
+   the landmark in full. A tab that does neither is a guess
+
+Check 3 found two more bad tabs in `latinamerica.json` *after* checks 1–2 had
+declared that file clean. `canada.json` was structurally the worst (18 of 91),
+because a tiny Ontario conservation area's highlights are townships, creeks,
+habitat types and species — names with famous namesakes abroad. The failures
+sort into wrong continent (Bloomingdale's for a Buenos Aires arcade, a Kansas
+prairie, a Moon Boots DJ set), wrong region of the right country (Charlotte NC
+for Santa Fe, Chongqing for Langzhong), right city and wrong building (Dakar's
+Mosquée de la Divinité for its Grand Mosque), a compilation that opens somewhere
+else, and — twice — not a place at all: a species, and a charity.
+
+**Deleting a tab was not enough.** The re-run pass put seven of eight straight
+back, because removing a tab also removes its id from the in-run `exclude` set:
+the search reran, found the same top hit, and told the same lie. `enrich_media.py`
+has read `data/media_denylist.json` since the walk seats were audited;
+`enrich_monuments.py` had no such memory and now shares the same
+`load_denylist()`/`denied()` reader rather than reimplementing it. 28 entries
+were added (18 global, 10 scoped to the one place they lied about). Verified the
+only way that counts — re-running `--only santa-fe` now reports *"nothing
+verifiable — honest gap"* instead of re-adding the Charlotte video.
+
+Two gaps stay open on purpose. 15 places with highlights end the sweep with no
+tab, which is the honest outcome for a hamlet with nothing to shoot. And 49
+places — Tokyo, Petra, Giza, Chichén Itzá, Sydney, Moscow — have empty
+`highlights` while already carrying hand-picked monuments: a cosmetic gap in the
+About chips, not a hole in the tabs.
+
 ### Trips ★
 
 ```bash
@@ -820,12 +877,71 @@ batch added to the list:
   Lighthouse). The Lighthouse is the canyon's signature rock and still earns its chip
   as plain text; the pier was dropped.
 
+**South America** (`latinamerica.json` 30 → 93, 2026-08-12). Four countries had a
+flag on the map and nothing behind it — **Ecuador**, **Venezuela**, **Guyana** and
+**Suriname** were all zero — and Chile was zero walkable places despite being 4,300 km
+long. Sixty-three places went in and the twenty-nine skeletons already there were
+filled: Ecuador 0 → **9** (Quito, Cuenca, Baños, Cotopaxi, Quilotoa, the Galápagos),
+Chile 0 → **10**, Venezuela 0 → **5** (Angel Falls, Roraima, Mérida, Los Roques),
+Guyana 0 → **2**, Suriname 0 → **2**, Brazil 1 → **12**, Peru 2 → **8**, Argentina
+5 → **11**, Colombia 3 → **8**, Bolivia 3 → **7**, Uruguay 3 → **4**, Paraguay
+1 → **3**. The four new countries went into `tools/build_countries.py` first — the
+registry holds **101** now — and `tools/build_latinamerica.py` is the generator, with
+`SA_BOX` as its own namesake trap: every new place is in South America, so a P625 that
+lands outside a box around the continent means the slug resolved to somewhere else and
+the record is refused rather than written.
+
+- **A highlight can resolve to a *people*.** Puno's "Uros" redirects to `Uru_people`,
+  which is an ethnic group — a monument search term that can only return something
+  wrong. `NOT_A_MONUMENT` is about structures, towns and landforms, and the check has
+  to survive a redirect: the slug looked like an island chain and the article was not.
+  Unlinked to the text chip "Uros floating islands".
+- **A namesake can be on another continent.** Medellín's `Comuna_13` resolved 4,879 km
+  away; the article that means the district is `Comuna_13,_Medellín`. The distance
+  check is what caught it, which is why every new record gets one.
+- **An article can exist and still have no coordinate.** Elqui Valley has a good
+  Wikipedia article and its Wikidata item carries no P625 at all, so there was nothing
+  to pin. The record was re-anchored on **Pisco Elqui**, the village in it, with the
+  valley kept as the first highlight — a place we can point at, described by the thing
+  we cannot.
+
+**Highlights for the last 68 skeletons** (`tools/fill_highlights.py`, 2026-08-12).
+Uluru, Dubai, Cape Town, Vatican City, Lake Baikal, Kyiv and 62 others had an empty
+`highlights` array *and* no monuments, and those two facts were the same fact:
+`enrich_monuments.py` spends highlights as its search terms, so a place with none can
+never earn a monument tab however famous it is. The pass is merge-only — it writes
+`highlights`, `blurb`, `fun_fact`, `hidden_gem_tip` and `region`, and only where the
+field is empty, so a rerun is a no-op and a hand edit is never overwritten. Every
+place in the atlas now has at least one of the two.
+
+- **Four highlights resolved to their own record.** Bled Island redirects to *Lake
+  Bled*, Merzouga to the Sahara entry that is named for it, Taroko National Park to
+  the gorge, and Gergeti Trinity Church to the mountain record that *is* the church.
+  Compare against the record's own slug, always.
+- **Three namesakes, one of them a whole country off.** Jeddah's "Al-Rahma Mosque"
+  resolves to the **Liverpool** mosque of that name, 4,700 km away; Rotorua's "Te
+  Puia" to *Te Puia Springs*, a town 180 km up the coast in Gisborne; and Baku's
+  "Icherisheher" to the article about the reserve's *administration* rather than the
+  walled city. Repointed to `Al-Rahmah_Mosque`, `New_Zealand_Māori_Arts_and_Crafts
+  _Institute` and `Old_City_(Baku)`.
+- **A bare name can be a disambiguation page.** Luxembourg's `Grund` and Wellington's
+  `Mount_Victoria` both land on "may refer to" lists. The Wellington hill has a real
+  article under `Mount_Victoria_(Wellington_hill)`; Grund does not, so it is a text
+  chip.
+- **A FAR verdict is a question, not a fault.** Ten survived, and every one is a
+  containing region or a long feature reporting its centroid — Acre state, the Amazon
+  rainforest, the Rif, the Daintree, three islands on a reef that is 2,300 km end to
+  end. What was *not* kept is `Great_Barrier_Reef_Marine_Park` as a highlight of the
+  Great Barrier Reef: the same subject under a second name is a chip that goes nowhere
+  new.
+
 | rule | why |
 | --- | --- |
 | coordinates from **Wikidata P625**, not an OSM administrative centroid | a Chinese prefecture-level city is a *region*. OSM's "Chongqing" node sits at 30.06N 107.87E, ~200 km out in the rural east; P625 puts it in Yuzhong, which is the city. Nominatim is for villages and scenic areas that Wikidata has no point for, and the matched object gets eyeballed |
 | every `wikipedia_slug` **checked live**, and stored as the article's *canonical* title | `arrivalPhoto()` queries pageimages without `redirects=1`, so a slug that is a redirect returns no thumbnail and the card silently degrades to its emoji. A redirect is not a broken link on Wikipedia but it is one here |
 | no article → point at the **containing** settlement or watercourse | GRCA owns properties Wikipedia has never heard of. Same precedent as `big-bear-eagles → Big_Bear_Lake,_California`. Never a namesake elsewhere: Wikipedia's "Pinehurst Lake" is in **Alberta**, so Ontario's kettle lake points at `County_of_Brant` |
 | `highlights` slugs get the same check | 15 of them pointed at articles that don't exist and 2 at the wrong subject ("Outlying Islands" redirects to a generic geography concept, not Hong Kong's district). 12 repointed, 5 dropped to plain text — the UI renders highlights as text chips anyway, so a name with no link costs nothing and a dead link is rot |
+| an empty `highlights` array is also an **empty monuments tab** | `enrich_monuments.py` has no other source of search terms, so the sweep skips the place silently and the gap reads as "nothing verifiable" when the truth is "nothing asked". 68 places sat in that state, Uluru and Vatican City among them. Author the highlights first; the videos follow |
 | `sounds` must name one of the **six recipes** `soundscape.js` knows | `typeFor()` matches on keyword — arctic / wind / ocean-wave-tidal / waterfall / plaza-city / wilderness-forest. Any other filename silently falls through to wind, and nobody notices |
 | **city tiers live in the prose, hedged — never in a field** | there is no government tier list. The ranking is a Chinese business magazine's, revised yearly, and "new first-tier" is that magazine's coinage. A `tier: 1` key would read as official |
 | `region` is **user-visible** | `passport.js` prints it under the place name, so a municipality needs "Beijing Municipality" or the card reads "Beijing / Beijing" |

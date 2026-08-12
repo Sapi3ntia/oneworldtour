@@ -38,27 +38,66 @@ The architecture itself is documented in [`README.md`](README.md).
 - **Review auto-picks.** `media.json` quality is good but not curated-good; promote
   great finds into the region JSON (`walk`/`webcam`/`window`) and they become
   permanent.
-- **More monuments** — **301 of 507 places (59%) now have them**, up from 30 (8%)
-  before the 2026-07-18 sweep: 633 auto + 48 curated tabs, almost all 2160p.
-  Remaining gaps are mostly small towns and nature sites where there is no
-  monument to shoot. Re-run with `--per-city 3` to deepen the marquee cities
-  rather than widen coverage — but **run `prune_monuments.py` dry straight
-  afterwards**, because the highlight-as-search-term fault (see 2026-08-02 below)
+- **More monuments** — **690 of 706 places (97%) now have them**, up from 30 (8%)
+  before the 2026-07-18 sweep: 1,603 auto + 48 curated tabs, almost all 2160p.
+  Coverage is essentially **done as a breadth problem**; the 16 places left are
+  hamlets and nature sites with nothing to shoot, and re-running them a second
+  time on a quiet line returned the same nothing. Further sweeps should use
+  `--per-city 3` to *deepen* marquee cities rather than widen coverage — but
+  **run `prune_monuments.py` dry straight afterwards**, because the
+  highlight-as-search-term fault (see 2026-08-02 below)
   will resurface in any region whose highlights name people, dishes or dynasties.
   Each pick stores its `height` and, since 2026-08-02, its `title`, so a future
   pass can audit the whole set for quality *and* honesty with no network. The
   pre-2026-08-02 picks that survived the backfill all have both; anything written
   before the `MIN_HEIGHT = 720` floor has no height and would need re-querying.
-- **Author `highlights`/`blurb`** for content-thin new countries.
+- **Scenes for the 63 new South American places.** 86 of `latinamerica.json`'s 93
+  records carry no inline `walk`; `media.json` already covers 21 of them, so **65
+  have no walk seat anywhere**. Monuments got the whole rate-limit budget this
+  round. Run `enrich_media.py --only <ids>` in small batches rather than a broad
+  sweep — the gap is spread evenly across every country in the file, not
+  concentrated in the new ones.
+- **49 places have empty `highlights` but hand-picked monuments** — Tokyo, Petra,
+  Giza, Chichén Itzá, Sydney, Moscow. The tabs are fine; the About chips are
+  bare. Authoring highlights there costs nothing but text, and unlike the sweep
+  it must *not* be fed to `enrich_monuments.py` afterwards — these places already
+  have better tabs than a search would find.
+- **`prune_monuments.py` gets *less* accurate as the atlas grows — read its
+  verdicts, never pipe them into `--apply`.** The wrong-place guard asks whether a
+  tab's title names some registered place other than this one, so every place added
+  widens the set of words that can trip it. Adding **Santiago** (Chile) and
+  **Córdoba** (Argentina) on 2026-08-12 made it flag Manila's *Fort **Santiago***
+  and Andalusia's *Mezquita of **Córdoba***, both of which are correct tabs. It
+  leaks in the other direction too: it cleared an Ollantaytambo tab that was
+  serving a walking tour of **Cusco's** Qorikancha 60 km away, because the record's
+  `region` is "Cusco" and `ADMIN_AREAS` whitelists the region name — so the city's
+  name inside the title looked like home. That tab was dropped by hand. A short,
+  common toponym is the failure mode at both ends.
+- **Author `highlights`/`blurb`** for content-thin new countries. The 68 places
+  that had *neither* highlights nor monuments were done on 2026-08-12
+  (`tools/fill_highlights.py` + `fill_highlights_data.py`, merge-only, so a rerun
+  is a no-op). What is left is the softer version: 49 places still have no
+  `highlights`, and `region` is empty on many more — `passport.js` prints it under
+  the place name, so an empty one is a visibly blank line.
+- **25 highlight slugs in the corpus point at articles that do not exist**, and
+  `tools/verify_wiki.py --quiet` lists them under `MISSING` (Aveiro's Costa Nova,
+  Budapest's ruin pubs, Yekaterinburg ×3, Cusco ×2, Miami's Wynwood Walls …). All
+  25 were re-probed with `--refresh` on 2026-08-12, so they are real dead links and
+  not cache. None is fatal — the UI renders a highlight with no slug as a plain
+  text chip — but each is a link that goes nowhere. **Always re-probe before acting
+  on a `MISSING`**: a verdict cached during a throttled run is not evidence of
+  absence. Four *record* slugs in the same list were genuinely dead and were
+  repointed (`Acre_geoglyphs`, `Dry_Falls`, `Texcoco_de_Mora`, `Laikipia_County`);
+  Mont-Saint-Michel was in the list too and needed nothing but a fresh look.
 - **More places for thin routes.** The 13 that were blocking trips are now in
-  (2026-07-18) — see "Recently landed". Remaining candidates, in rough order of
-  how much they'd add: **Winslow AZ and Galena KS** (Route 66 has the big towns
-  now but none of the small ones), **Khiva** (completes the Uzbek trio with
-  Samarkand and Bukhara), **Lake Titicaca / Puno** (the natural Gringo Trail leg
-  between Cusco and La Paz, currently a 400 km jump), and **Ulan-Ude** (the
-  Trans-Mongolian branch point). Add via the normal path — region JSON entry +
-  `enrich_media.py --only` + `enrich_monuments.py --only` + a `check_trips.py`
-  run — then extend the affected trips' `stops`.
+  (2026-07-18) — see "Recently landed", and **Puno** landed with the South America
+  batch, so the Gringo Trail's 400 km Cusco→La Paz jump now has Lake Titicaca in
+  the middle of it. Remaining candidates, in rough order of how much they'd add:
+  **Winslow AZ and Galena KS** (Route 66 has the big towns now but none of the
+  small ones), **Khiva** (completes the Uzbek trio with Samarkand and Bukhara),
+  and **Ulan-Ude** (the Trans-Mongolian branch point). Add via the normal path —
+  region JSON entry + `enrich_media.py --only` + `enrich_monuments.py --only` + a
+  `check_trips.py` run — then extend the affected trips' `stops`.
 
 ### Product ideas (additive)
 - **Day/night terminator** on the SVG map (v1 had one on Leaflet) — project the

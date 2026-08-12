@@ -25,7 +25,16 @@ WHAT IT REFUSES (the honesty rule, same as every other scene)
     • title anchors a different dataset city   → skipped (Paris casino
                                                  "Eiffel Tower" is Las Vegas)
     • top-10s, reactions, vlogs, documentaries, game/AI recreations → skipped
+    • an id in data/media_denylist.json         → skipped, globally or just
+                                                 for the place it lied about
     A landmark we can't verify simply gets no tab. Never a filler video.
+
+    The denylist is the memory this tool used to lack. A sweep in 2026-08 cut
+    45 tabs that named the right landmark in the wrong hemisphere, then a
+    re-run put seven of them straight back: deleting a tab also deletes it
+    from `exclude`, so the search reran, found the same top hit, and told the
+    same lie. Now the deletion sticks — see enrich_media.load_denylist(),
+    which this shares rather than reimplements.
 
 CURATION STILL WINS
     Auto picks are written with "source": "auto". build_monuments.py keeps
@@ -208,6 +217,8 @@ def find_monument(place, name, exclude):
             vid, title = e.get("id"), (e.get("title") or "")
             dur = e.get("duration") or 0
             if not vid or vid in seen or vid in exclude:
+                continue
+            if em.denied(place, vid):             # a human already rejected it
                 continue
             if e.get("live_status") == "is_live":
                 continue

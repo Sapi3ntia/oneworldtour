@@ -41,7 +41,25 @@
     "0QjUVC1cE0o": "a railcam at the CN interlocking in Griffith, INDIANA — not Griffith Observatory in Los Angeles",
     "0mEf4MbHKDo": "\"Alma Cam\" is the University of Illinois' Alma Mater statue in Urbana — not ALMA, the Atacama array in Chile",
     "osCgoc2VNdU": "Kalatu Alma, a band, live from a studio in Villa Dominico, Buenos Aires — not ALMA the Atacama array",
-    "pP5jVQI3P7Q": "a 2022 Djuma highlight clip of geese ('walk-about' in the title), not a walking tour"
+    "pP5jVQI3P7Q": "a 2022 Djuma highlight clip of geese ('walk-about' in the title), not a walking tour",
+    "YVC9WfRToQA": "Preston, LANCASHIRE — not Preston in Cambridge, Ontario (dumfries-conservation-area)",
+    "64o2xtXNxYM": "Tallgrass Prairie National Preserve, KANSAS — not the Ontario prairie remnant (fwr-dickson)",
+    "wV9eXcS1IRQ": "Dumfries town centre, SCOTLAND — not North Dumfries, Ontario (fwr-dickson)",
+    "CU2CvZCC6Z4": "Ayr town centre, SCOTLAND — not Ayr, Ontario (fwr-dickson)",
+    "1B665f1SGNI": "Plaza Midwood, CHARLOTTE NC — not the Santa Fe Plaza, New Mexico",
+    "_Wd_fvevCPM": "Al Wathba Fossil Dunes, ABU DHABI — not the Namib (namib-desert-waterhole)",
+    "vAEAcjLZ-Qw": "the MARA River hippo pool — not Mpala on the Ewaso Ng'iro, ~250 km away",
+    "wleTfQs6wvc": "a CHONGQING riverside walk — 300 km downstream of Langzhong on the same river",
+    "YVOdQtNTkdw": "an unlocated 'forest, sand dunes' nature walk with no place in it (tembe-elephant-park)",
+    "7WUo9NtGRxo": "an unlocated 'moss and dense green forest' boardwalk — the Everglades are sawgrass marsh",
+    "vJgfTe08CQk": "a Moon Boots live DJ set in LONDON — not the Bimini Road rock formation (aa-bimini-road)",
+    "9OKJcBDHGLs": "Jaco Beach, COSTA RICA — matched 'Jaco' in the Acre geoglyph site Jaco Sa",
+    "YbM9zmakUlU": "Saint Martin in the CARIBBEAN — not Isla San Martin inside Iguazu Falls",
+    "9IX9R18ewxw": "Santa Rita alle Vergini, ROME — not Igreja de Santa Rita in Paraty",
+    "VDjVcKgQB78": "a LONDON walk, Liverpool STREET to Tate MODERN — not Tate Liverpool",
+    "5eCgOzTZ8ss": "QUANZHOU's Kaiyuan Temple (Fujian) — not Chaozhou's namesake",
+    "AtA8rRg7LqA": "XI'AN's Drum Tower — not the Dong drum tower at Chengyang, ~1500 km away",
+    "3daX2hvl48g": "Mosquee de la Divinite in Ouakam — a different building from the Grand Mosque of Dakar"
   },
   "_per_place": "place id -> {youtube id: why it is not THIS place}. For a video that is honest somewhere else: a Mt Wilson walk is right for mount-wilson-observatory and wrong for Yerkes. A global ban would delete the good seat too.",
   "per_place": {
@@ -70,6 +88,34 @@
     },
     "parkes-observatory": {
       "fNBAbZ6hxh4": "the TOWN of Parkes and Memorial Hill — the Dish is 20 km north on Telescope Road and the drive never reaches it"
+    },
+    "tembe-elephant-park": {
+      "UM-jorpYS9g": "Super Tuskers of EAST AFRICA; correct on ol-donyo-chyulu, wrong in KwaZulu-Natal"
+    },
+    "antelope-canyon": {
+      "FFi7NeycYTo": "a Grand Canyon / Horseshoe Bend / Antelope compilation; start:0 opens 200 km away"
+    },
+    "trakai-castle": {
+      "wz-TjjYleDs": "a Vilnius-first drone compilation; start:0 never reaches Lake Galve"
+    },
+    "cotopaxi": {
+      "5Qq1LKc3n3Y": "a Quito-surroundings compilation; start:0 opens on Otavalo, not Limpiopungo"
+    },
+    "giethoorn": {
+      "8pZ9QzOXCTE": "AMSTERDAM's canals, 120 km from Giethoorn's"
+    },
+    "kota-kinabalu": {
+      "IKOvg0X4f6A": "a KK city cinematic; Mount Kinabalu is 50 km away and not in it",
+      "SMHMyaOHmTw": "KK CITY Mosque — a different building from the Sabah STATE Mosque"
+    },
+    "dakar": {
+      "n2DF8xOTtOM": "a second tab on the African Renaissance Monument; the curated one covers it"
+    },
+    "aa-acre-geoglyphs": {
+      "8REGwxLNopE": "Avenida Rio Branco in RIO DE JANEIRO, ~3000 km from Rio Branco, Acre"
+    },
+    "arecibo-observatory": {
+      "6oDpDVKUgRk": "the MORAVIAN Karst, CZECHIA — not Puerto Rico's karst country"
     }
   }
 }
