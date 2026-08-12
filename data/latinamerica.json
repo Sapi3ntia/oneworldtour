@@ -10,7 +10,7 @@
       "country_code": "AR",
       "country_flag": "🇦🇷",
       "continent": "South America",
-      "region": "",
+      "region": "Buenos Aires",
       "type": "city",
       "tag": "famous",
       "emoji": "💃",
@@ -29,11 +29,58 @@
       "sounds": [
         "city-hum.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null,
-      "walk": "noyVhx-AiUI"
+      "highlights": [
+        {
+          "name": "Teatro Colón",
+          "wikipedia_slug": "Teatro_Colón"
+        },
+        {
+          "name": "Recoleta Cemetery",
+          "wikipedia_slug": "La_Recoleta_Cemetery"
+        },
+        {
+          "name": "Caminito",
+          "wikipedia_slug": "Caminito"
+        },
+        {
+          "name": "Plaza de Mayo",
+          "wikipedia_slug": "Plaza_de_Mayo"
+        },
+        {
+          "name": "El Ateneo Grand Splendid",
+          "wikipedia_slug": "El_Ateneo_Grand_Splendid"
+        }
+      ],
+      "blurb": "A European-looking capital at the mouth of the Río de la Plata, with wide boulevards, Parisian apartment blocks and the longest dinner hours on the continent. Tango was invented in its port neighbourhoods and the city still argues about who owns it.",
+      "fun_fact": "Teatro Colón's acoustics are rated among the five best of any opera house in the world; the horseshoe auditorium was finished in 1908 after twenty years and three architects, two of whom died mid-build.",
+      "hidden_gem_tip": "El Ateneo Grand Splendid is a 1919 theatre turned bookshop — the boxes are reading nooks and the stage is a café. Free to walk into.",
+      "walk": "noyVhx-AiUI",
+      "monuments": [
+        {
+          "name": "Teatro Colón",
+          "yt": "sujIpeSlMZ4",
+          "start": 0,
+          "source": "auto",
+          "title": "Teatro Colón Buenos Aires Argentina 🇦🇷 UHD 4K 🎥",
+          "height": 2160
+        },
+        {
+          "name": "Recoleta Cemetery",
+          "yt": "vICs_OCcnV0",
+          "start": 0,
+          "source": "auto",
+          "title": "Virtual Tour Through Recoleta Cemetery | Buenos Aires’ Most Mysterious Place, Argentina | POV 4K",
+          "height": 2160
+        },
+        {
+          "name": "Caminito",
+          "yt": "PcEnR-fVbZ4",
+          "start": 0,
+          "source": "auto",
+          "title": "Caminito, La Boca - Buenos Aires, Argentina",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "iguazu-falls",
@@ -42,7 +89,7 @@
       "country_code": "AR",
       "country_flag": "🇦🇷",
       "continent": "South America",
-      "region": "",
+      "region": "Misiones Province",
       "type": "nature",
       "tag": "famous",
       "emoji": "💦",
@@ -61,10 +108,43 @@
       "sounds": [
         "mountain-wind.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Devil's Throat"
+        },
+        {
+          "name": "Iguazú National Park",
+          "wikipedia_slug": "Iguazú_National_Park"
+        },
+        {
+          "name": "Iguazu River",
+          "wikipedia_slug": "Iguazu_River"
+        },
+        {
+          "name": "Isla San Martín"
+        }
+      ],
+      "blurb": "275 separate waterfalls spread along nearly three kilometres of the Argentina–Brazil border, dropping through subtropical forest full of coatis and toucans. The Argentine side puts you on top of them; the Brazilian side lets you see the whole thing at once.",
+      "fun_fact": "Iguazú carries roughly ten times the water of Niagara over a front more than twice as wide — Eleanor Roosevelt is supposed to have seen it and said only 'poor Niagara'.",
+      "hidden_gem_tip": "Walk the upper circuit first, then the Devil's Throat at the very end of the day — the walkway crosses a kilometre of flat river that gives no warning of what is about to happen to it.",
+      "monuments": [
+        {
+          "name": "Devil's Throat",
+          "yt": "agURpl5Ai0I",
+          "start": 0,
+          "source": "auto",
+          "title": "Iguazu Falls EXPLODING: Dangerous Water Levels at Devil’s Throat (4K Immersive)",
+          "height": 2160
+        },
+        {
+          "name": "Iguazú National Park",
+          "yt": "Z3ekQ-cvrVM",
+          "start": 0,
+          "source": "auto",
+          "title": "Iguazu National Park - 4K HDR - Iguazu Falls - Short Video",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "bariloche",
@@ -73,7 +153,7 @@
       "country_code": "AR",
       "country_flag": "🇦🇷",
       "continent": "South America",
-      "region": "",
+      "region": "Río Negro Province",
       "type": "mountain",
       "tag": "famous",
       "emoji": "🏔️",
@@ -92,10 +172,54 @@
       "sounds": [
         "mountain-wind.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Nahuel Huapi National Park",
+          "wikipedia_slug": "Nahuel_Huapi_National_Park"
+        },
+        {
+          "name": "Cerro Catedral",
+          "wikipedia_slug": "Cerro_Catedral"
+        },
+        {
+          "name": "Circuito Chico"
+        },
+        {
+          "name": "Cerro Campanario"
+        },
+        {
+          "name": "Civic Center"
+        }
+      ],
+      "blurb": "An alpine-styled town of stone and timber on a glacial lake in northern Patagonia, surrounded by mountains and forest. Argentines come to ski in winter, walk in summer, and eat chocolate all year.",
+      "fun_fact": "Bariloche has more than a dozen artisan chocolate houses on one street, a legacy of the Swiss, German and Italian families who settled the lake district at the start of the 20th century.",
+      "hidden_gem_tip": "The chairlift up Cerro Campanario takes seven minutes and gives you the view of the lakes that every postcard of Patagonia uses.",
+      "monuments": [
+        {
+          "name": "Nahuel Huapi National Park",
+          "yt": "VhIvibZk_yA",
+          "start": 0,
+          "source": "auto",
+          "title": "INCREDIBLE Nahuel Huapi National Park (Alone Season 3) Patagonia",
+          "height": 1440
+        },
+        {
+          "name": "Cerro Catedral",
+          "yt": "xoWvb0DCQLY",
+          "start": 0,
+          "source": "auto",
+          "title": "Cerro catedral Bariloche 🇦🇷(4K)*©Vista Aérea Uy📲092770808",
+          "height": 2160
+        },
+        {
+          "name": "Circuito Chico",
+          "yt": "esCdCcchaeI",
+          "start": 0,
+          "source": "auto",
+          "title": "Driving Tour CIRCUITO CHICO I BARILOCHE I PATAGONIA I ARGENTINA 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "mendoza",
@@ -104,7 +228,7 @@
       "country_code": "AR",
       "country_flag": "🇦🇷",
       "continent": "South America",
-      "region": "",
+      "region": "Mendoza Province",
       "type": "nature",
       "tag": "hidden",
       "emoji": "🍷",
@@ -123,10 +247,57 @@
       "sounds": [
         "mountain-wind.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Aconcagua",
+          "wikipedia_slug": "Aconcagua"
+        },
+        {
+          "name": "Parque General San Martín",
+          "wikipedia_slug": "General_San_Martín_Park"
+        },
+        {
+          "name": "Uco Valley",
+          "wikipedia_slug": "Uco_Valley"
+        },
+        {
+          "name": "Maipú",
+          "wikipedia_slug": "Maipú,_Mendoza"
+        },
+        {
+          "name": "Puente del Inca",
+          "wikipedia_slug": "Puente_del_Inca"
+        }
+      ],
+      "blurb": "Argentina's wine capital, a green grid of irrigated streets in high desert with the Andes filling the western horizon. Malbec arrived here from France and did far better than it ever did at home.",
+      "fun_fact": "The whole city is watered by acequias — open channels along every street, running off Andean snowmelt on a system begun by the Huarpe people long before the Spanish arrived.",
+      "hidden_gem_tip": "Rent a bike in Maipú rather than joining a minibus tour. The wineries are flat and close together, and you set your own pace.",
+      "monuments": [
+        {
+          "name": "Aconcagua",
+          "yt": "X67EKTnfIt8",
+          "start": 0,
+          "source": "auto",
+          "title": "The Hardest Mountain I’ve Climbed – Aconcagua (6,962m / 22,834ft)",
+          "height": 2160
+        },
+        {
+          "name": "Parque General San Martín",
+          "yt": "83jaclEfaaQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Mendoza Argentina Parque General San Martín 4K",
+          "height": 2160
+        },
+        {
+          "name": "Uco Valley",
+          "yt": "jgWBxd_oWjk",
+          "start": 0,
+          "source": "auto",
+          "title": "Uco Valley, Mendoza",
+          "height": 720
+        }
+      ]
     },
     {
       "id": "ushuaia",
@@ -135,7 +306,7 @@
       "country_code": "AR",
       "country_flag": "🇦🇷",
       "continent": "South America",
-      "region": "",
+      "region": "Tierra del Fuego",
       "type": "coastal",
       "tag": "hidden",
       "emoji": "🐧",
@@ -154,10 +325,56 @@
       "sounds": [
         "ocean-waves.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Tierra del Fuego National Park",
+          "wikipedia_slug": "Tierra_del_Fuego_National_Park"
+        },
+        {
+          "name": "Beagle Channel",
+          "wikipedia_slug": "Beagle_Channel"
+        },
+        {
+          "name": "Les Éclaireurs Lighthouse",
+          "wikipedia_slug": "Les_Eclaireurs_Lighthouse"
+        },
+        {
+          "name": "End of the World Train",
+          "wikipedia_slug": "Southern_Fuegian_Railway"
+        },
+        {
+          "name": "Martial Glacier"
+        }
+      ],
+      "blurb": "The southernmost city in the world, wedged between the Beagle Channel and a wall of snow-topped mountains. Most Antarctic expeditions leave from its docks, and everything in town is labelled 'end of the world'.",
+      "fun_fact": "The tourist railway out to the national park runs on the line built by prisoners of the Ushuaia penal colony, who cut the forest around the town for firewood and were carried out to work on it.",
+      "hidden_gem_tip": "The Martial Glacier trail starts at the edge of town and climbs to a view straight down the channel — two hours, no permit, and you can start it after lunch.",
+      "monuments": [
+        {
+          "name": "Tierra del Fuego National Park",
+          "yt": "VAeEcdI4A6A",
+          "start": 0,
+          "source": "auto",
+          "title": "Argentina's Tierra Del Fuego National Park | Ushuaia, Argentina",
+          "height": 2160
+        },
+        {
+          "name": "Beagle Channel",
+          "yt": "oDkoUsV9d5k",
+          "start": 0,
+          "source": "auto",
+          "title": "Ushuaia and the Beagle Channel, Tierra del Fuego, Argentina  [Amazing Places 4K]",
+          "height": 2160
+        },
+        {
+          "name": "Les Éclaireurs Lighthouse",
+          "yt": "Ms10nNSg_1I",
+          "start": 0,
+          "source": "auto",
+          "title": "ushuaia: road to les éclaireurs lighthouse. shot on sony a6500",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "la-paz",
@@ -166,7 +383,7 @@
       "country_code": "BO",
       "country_flag": "🇧🇴",
       "continent": "South America",
-      "region": "",
+      "region": "La Paz Department",
       "type": "city",
       "tag": "famous",
       "emoji": "🏔️",
@@ -226,7 +443,7 @@
       "country_code": "BO",
       "country_flag": "🇧🇴",
       "continent": "South America",
-      "region": "",
+      "region": "Potosí Department",
       "type": "nature",
       "tag": "famous",
       "emoji": "🧂",
@@ -245,10 +462,55 @@
       "sounds": [
         "mountain-wind.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Incahuasi Island",
+          "wikipedia_slug": "Isla_Incahuasi"
+        },
+        {
+          "name": "Uyuni",
+          "wikipedia_slug": "Uyuni"
+        },
+        {
+          "name": "Tunupa",
+          "wikipedia_slug": "Tunupa"
+        },
+        {
+          "name": "Colchani"
+        },
+        {
+          "name": "Train Cemetery"
+        }
+      ],
+      "blurb": "The largest salt flat on Earth: 10,000 km² of hexagon-cracked white crust at 3,656 m, so flat and so empty that distance stops reading and photographs lose all sense of scale.",
+      "fun_fact": "The surface varies by less than one metre across its entire width, which makes it the calibration target for satellite altimeters — it is used to check the instruments measuring the world's oceans.",
+      "hidden_gem_tip": "After rain the flat holds a few centimetres of standing water and becomes a mirror to the horizon. That is January to March, which is also when parts of it become impossible to drive on.",
+      "monuments": [
+        {
+          "name": "Incahuasi Island",
+          "yt": "qltLJh6xZd4",
+          "start": 0,
+          "source": "auto",
+          "title": "INCAHUASI island | BOLIVIA Salar de Uyuni",
+          "height": 1080
+        },
+        {
+          "name": "Uyuni",
+          "yt": "6hn-pu3TqNQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Bolivia Altiplano & Salar de Uyuni  [Amazing Places 4K]",
+          "height": 2160
+        },
+        {
+          "name": "Tunupa",
+          "yt": "oqBerMcE4eA",
+          "start": 0,
+          "source": "auto",
+          "title": "Bolivia Altiplano, Tunupa Volcano, Lagunas, & Sol De Manana in 4K UHD",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "sucre",
@@ -257,7 +519,7 @@
       "country_code": "BO",
       "country_flag": "🇧🇴",
       "continent": "South America",
-      "region": "",
+      "region": "Chuquisaca Department",
       "type": "history",
       "tag": "hidden",
       "emoji": "⛪",
@@ -276,10 +538,53 @@
       "sounds": [
         "european-plaza.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Casa de la Libertad"
+        },
+        {
+          "name": "Metropolitan Cathedral of Sucre",
+          "wikipedia_slug": "Metropolitan_Cathedral_of_Sucre"
+        },
+        {
+          "name": "Parque Cretácico"
+        },
+        {
+          "name": "La Recoleta"
+        },
+        {
+          "name": "Mercado Central"
+        }
+      ],
+      "blurb": "Bolivia's constitutional capital and its prettiest city — a whitewashed colonial centre at 2,810 m, warmer and gentler than La Paz, where independence was declared in 1825.",
+      "fun_fact": "A cement quarry on the edge of town exposed a near-vertical rock face carrying more than 5,000 dinosaur footprints — the largest single collection of tracks found anywhere in the world.",
+      "hidden_gem_tip": "Climb to the La Recoleta terrace at the top of the old town in the late afternoon: the whole white grid is below you with the hills behind it.",
+      "monuments": [
+        {
+          "name": "Casa de la Libertad",
+          "yt": "1KQSRf1dikY",
+          "start": 0,
+          "source": "auto",
+          "title": "Ciudad Museo - Casa de la libertad",
+          "height": 1080
+        },
+        {
+          "name": "Parque Cretácico",
+          "yt": "sEE54aaMPIM",
+          "start": 0,
+          "source": "auto",
+          "title": "Recorrido realidad virtual Parque Cretácico",
+          "height": 2160
+        },
+        {
+          "name": "La Recoleta",
+          "yt": "RvbqJ2dj8OU",
+          "start": 0,
+          "source": "auto",
+          "title": "MIRADOR de La Recoleta | Ciudad Blanca SUCRE TURISMO | TOURIST PLACE IN SUCRE BOLIVIA",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "bogota",
@@ -288,7 +593,7 @@
       "country_code": "CO",
       "country_flag": "🇨🇴",
       "continent": "South America",
-      "region": "",
+      "region": "Capital District",
       "type": "city",
       "tag": "famous",
       "emoji": "🏙️",
@@ -348,7 +653,7 @@
       "country_code": "CO",
       "country_flag": "🇨🇴",
       "continent": "South America",
-      "region": "",
+      "region": "Bolívar Department",
       "type": "coastal",
       "tag": "famous",
       "emoji": "🏰",
@@ -367,10 +672,55 @@
       "sounds": [
         "ocean-waves.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Ciudad Amurallada"
+        },
+        {
+          "name": "Castillo San Felipe de Barajas",
+          "wikipedia_slug": "Castillo_San_Felipe_de_Barajas"
+        },
+        {
+          "name": "Getsemaní"
+        },
+        {
+          "name": "Rosario Islands",
+          "wikipedia_slug": "Rosario_Islands"
+        },
+        {
+          "name": "Puerta del Reloj",
+          "wikipedia_slug": "Puerta_del_Reloj"
+        }
+      ],
+      "blurb": "A walled Caribbean port of balconied houses, bougainvillea and colour, built to hold the silver of the Americas and fortified against everyone who came to take it. It is hot, loud and one of the best-preserved colonial cities anywhere.",
+      "fun_fact": "The walls took roughly two centuries to finish and the fort of San Felipe is honeycombed with tunnels cut so that a whisper at one end carries to the other — an early alarm system against sappers.",
+      "hidden_gem_tip": "Getsemaní, just outside the walls, is where the city actually lives — street art, plaza music after dark, and none of the cruise crowd.",
+      "monuments": [
+        {
+          "name": "Ciudad Amurallada",
+          "yt": "BK49-Er9S0Y",
+          "start": 0,
+          "source": "auto",
+          "title": "VOLANDO EN DRONE 4K -CARTAGENA - LA CIUDAD AMURALLADA -COLOMBIA",
+          "height": 2160
+        },
+        {
+          "name": "Castillo San Felipe de Barajas",
+          "yt": "9ypjs1knu20",
+          "start": 0,
+          "source": "auto",
+          "title": "Castillo San Felipe de Barajas, CARTAGENA, COLOMBIA - 4K UHD - Virtual Trip",
+          "height": 2160
+        },
+        {
+          "name": "Getsemaní",
+          "yt": "PGPAGvP8Duo",
+          "start": 0,
+          "source": "auto",
+          "title": "🇨🇴 Walking Tour | Cartagena, Colombia | Getsemani: The Most Colorful Neighborhood in Cartagena【4K】",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "medellin",
@@ -379,7 +729,7 @@
       "country_code": "CO",
       "country_flag": "🇨🇴",
       "continent": "South America",
-      "region": "",
+      "region": "Antioquia",
       "type": "city",
       "tag": "famous",
       "emoji": "🌸",
@@ -398,10 +748,56 @@
       "sounds": [
         "city-hum.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Plaza Botero"
+        },
+        {
+          "name": "Comuna 13",
+          "wikipedia_slug": "Comuna_13,_Medellín"
+        },
+        {
+          "name": "Metrocable",
+          "wikipedia_slug": "Metrocable_(Medellín)"
+        },
+        {
+          "name": "Parque Arví",
+          "wikipedia_slug": "Arví_Park"
+        },
+        {
+          "name": "Museo de Antioquia",
+          "wikipedia_slug": "Museum_of_Antioquia"
+        }
+      ],
+      "blurb": "A city of two and a half million in a narrow Andean valley at a permanent spring temperature, with cable cars running up the hillsides as public transport. Its turnaround from the early 1990s is the most studied urban recovery in the world.",
+      "fun_fact": "The Metrocable was the first gondola system anywhere built as mass transit rather than tourism — it connected the poorest hillside barrios to the city in minutes instead of hours, and has been copied from La Paz to Mexico City since.",
+      "hidden_gem_tip": "Comuna 13's outdoor escalators are free to ride, and the barrio guides who grew up there give the tour that the history deserves.",
+      "monuments": [
+        {
+          "name": "Plaza Botero",
+          "yt": "AGeZvmh1TZw",
+          "start": 0,
+          "source": "auto",
+          "title": "Plaza  Botero La Veracruz walking tour Medellin Colombia 4K",
+          "height": 2160
+        },
+        {
+          "name": "Comuna 13",
+          "yt": "tDgaRDcX2ho",
+          "start": 0,
+          "source": "auto",
+          "title": "Inside Medellín’s Most Famous Hood: Comuna 13 Walking Tour 🇨🇴",
+          "height": 2160
+        },
+        {
+          "name": "Metrocable",
+          "yt": "ASmAR36fCEQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Metrocable Medellin, Colombia - GoPro 4K UHD -  Virtual Trip",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "montevideo",
@@ -410,7 +806,7 @@
       "country_code": "UY",
       "country_flag": "🇺🇾",
       "continent": "South America",
-      "region": "",
+      "region": "Montevideo Department",
       "type": "city",
       "tag": "famous",
       "emoji": "🏙️",
@@ -470,7 +866,7 @@
       "country_code": "UY",
       "country_flag": "🇺🇾",
       "continent": "South America",
-      "region": "",
+      "region": "Maldonado Department",
       "type": "coastal",
       "tag": "famous",
       "emoji": "🏖️",
@@ -489,10 +885,51 @@
       "sounds": [
         "ocean-waves.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "La Mano",
+          "wikipedia_slug": "La_Mano_de_Punta_del_Este"
+        },
+        {
+          "name": "Casapueblo",
+          "wikipedia_slug": "Casapueblo"
+        },
+        {
+          "name": "Isla de Lobos"
+        },
+        {
+          "name": "Punta Ballena"
+        }
+      ],
+      "blurb": "South America's flashiest beach resort, on a headland where the Río de la Plata finally becomes the Atlantic — quiet nine months of the year and full of Argentines and Brazilians for the other three.",
+      "fun_fact": "La Mano — five concrete fingers rising out of Brava beach — was built in 1982 in six days for a sculpture competition, and was meant to be a warning about drowning rather than a photo stop.",
+      "hidden_gem_tip": "Casapueblo, up the coast at Punta Ballena, is a whitewashed cliff house the painter Carlos Páez Vilaró built by hand over 36 years. It does a sunset ceremony with his own recorded farewell to the sun.",
+      "monuments": [
+        {
+          "name": "La Mano",
+          "yt": "xTT876ZGTWE",
+          "start": 0,
+          "source": "auto",
+          "title": "Panamericana Ep66 - La Mano de Punta del Este, Uruguay. 2007 BMW G 650 XCountry.",
+          "height": 1080
+        },
+        {
+          "name": "Casapueblo",
+          "yt": "RL_dOaWfSHI",
+          "start": 0,
+          "source": "auto",
+          "title": "Casapueblo Punta del Este",
+          "height": 2160
+        },
+        {
+          "name": "Isla de Lobos",
+          "yt": "d9Pp4L7EX60",
+          "start": 0,
+          "source": "auto",
+          "title": "Uruguai - Punta del Este - Isla de Los Lobos",
+          "height": 720
+        }
+      ]
     },
     {
       "id": "colonia-del-sacramento",
@@ -501,7 +938,7 @@
       "country_code": "UY",
       "country_flag": "🇺🇾",
       "continent": "South America",
-      "region": "",
+      "region": "Colonia Department",
       "type": "history",
       "tag": "hidden",
       "emoji": "🚸",
@@ -520,10 +957,41 @@
       "sounds": [
         "european-plaza.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Barrio Histórico"
+        },
+        {
+          "name": "Colonia del Sacramento Lighthouse"
+        },
+        {
+          "name": "Calle de los Suspiros"
+        },
+        {
+          "name": "Puerta de Campo"
+        }
+      ],
+      "blurb": "A Portuguese smuggling town founded in 1680 directly across the river from Buenos Aires, fought over by two empires for a century and swapped between them repeatedly. The cobbled quarter is hardly changed, and cars there are mostly rusted into scenery.",
+      "fun_fact": "You can tell the Portuguese houses from the Spanish ones by the roofline and the drainage: Portuguese roofs are tiled and slope to the street, Spanish ones are flat with gutters — the two occupations left their fingerprints on the same street.",
+      "hidden_gem_tip": "The ferry from Buenos Aires takes about an hour, so it is a day trip; stay the night instead and have the Calle de los Suspiros to yourself after the last boat leaves.",
+      "monuments": [
+        {
+          "name": "Barrio Histórico",
+          "yt": "Zb1dyWv1zrk",
+          "start": 0,
+          "source": "auto",
+          "title": "🇺🇾 Paseo tranquilo por el Barrio Histórico de Colonia 4K",
+          "height": 2160
+        },
+        {
+          "name": "Calle de los Suspiros",
+          "yt": "xv6oLLjHonk",
+          "start": 0,
+          "source": "auto",
+          "title": "Calle de los suspiros Faro de Colonia del Sacramento recorrido virtual 360 VR Orbita.UY",
+          "height": 2880
+        }
+      ]
     },
     {
       "id": "asuncion",
@@ -532,7 +1000,7 @@
       "country_code": "PY",
       "country_flag": "🇵🇾",
       "continent": "South America",
-      "region": "",
+      "region": "Capital District",
       "type": "city",
       "tag": "famous",
       "emoji": "🏙️",
@@ -589,7 +1057,7 @@
       "country_code": "CU",
       "country_flag": "🇨🇺",
       "continent": "North America",
-      "region": "",
+      "region": "La Habana",
       "type": "history",
       "tag": "famous",
       "emoji": "🚗",
@@ -654,7 +1122,7 @@
       "country_code": "CU",
       "country_flag": "🇨🇺",
       "continent": "North America",
-      "region": "",
+      "region": "Sancti Spíritus",
       "type": "history",
       "tag": "hidden",
       "emoji": "🎶",
@@ -673,10 +1141,50 @@
       "sounds": [
         "european-plaza.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Plaza Mayor"
+        },
+        {
+          "name": "Valle de los Ingenios",
+          "wikipedia_slug": "Valle_de_los_Ingenios"
+        },
+        {
+          "name": "Iglesia de la Santísima Trinidad"
+        },
+        {
+          "name": "Playa Ancón"
+        }
+      ],
+      "blurb": "A sugar-money town of pastel houses and cobbles below the Escambray mountains, essentially frozen since the 1850s when the sugar economy collapsed and nobody had the money to modernise it.",
+      "fun_fact": "The Valle de los Ingenios next door held more than fifty sugar mills worked by tens of thousands of enslaved people; the Manaca Iznaga tower was built to watch them, and is climbable.",
+      "hidden_gem_tip": "The Casa de la Música is a flight of steps beside the main square, open to the air and free — the band starts around ten and the audience sits on the staircase.",
+      "monuments": [
+        {
+          "name": "Plaza Mayor",
+          "yt": "NNtOQ29gd5k",
+          "start": 0,
+          "source": "auto",
+          "title": "Unbelievable 8K HDR 60 | Trinidad Cuba Full Tour – Plaza Mayor & Colonial Architecture",
+          "height": 4320
+        },
+        {
+          "name": "Valle de los Ingenios",
+          "yt": "0VnADv-xpog",
+          "start": 0,
+          "source": "auto",
+          "title": "Viaje a Cuba - Marzo 2002 - El Valle de los Ingenios",
+          "height": 1080
+        },
+        {
+          "name": "Iglesia de la Santísima Trinidad",
+          "yt": "X5d0a6OyhZ4",
+          "start": 0,
+          "source": "auto",
+          "title": "Iglesia de la Santísima Trinidad",
+          "height": 720
+        }
+      ]
     },
     {
       "id": "varadero",
@@ -685,7 +1193,7 @@
       "country_code": "CU",
       "country_flag": "🇨🇺",
       "continent": "North America",
-      "region": "",
+      "region": "Matanzas",
       "type": "coastal",
       "tag": "famous",
       "emoji": "🏖️",
@@ -704,10 +1212,49 @@
       "sounds": [
         "ocean-waves.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Hicacos Peninsula"
+        },
+        {
+          "name": "Mansión Xanadú"
+        },
+        {
+          "name": "Parque Josone"
+        },
+        {
+          "name": "Cuevas de Bellamar"
+        }
+      ],
+      "blurb": "Twenty kilometres of white sand on a thin peninsula east of Havana, and the centre of Cuban beach tourism — resorts along the whole spine, with a genuine little town at the western end.",
+      "fun_fact": "Mansión Xanadú was the DuPont family's private holiday house, built in 1930 with an Italian marble hall and a rooftop bar; after the revolution it became a restaurant and a golf clubhouse.",
+      "hidden_gem_tip": "Walk west past the hotel strip into Varadero town — ordinary streets, a market and paladares, and the same beach for nothing.",
+      "monuments": [
+        {
+          "name": "Hicacos Peninsula",
+          "yt": "fNBwyqVoNFQ",
+          "start": 0,
+          "source": "auto",
+          "title": "【Cuba】Fiesta Americana Punta Varadero All Inclusive Resort + Top of Hicacos Peninsula + My Review",
+          "height": 1080
+        },
+        {
+          "name": "Mansión Xanadú",
+          "yt": "ig-h5Ubh1bU",
+          "start": 0,
+          "source": "auto",
+          "title": "Varadero walk on the beach January 25 2022 \"Roc Arenas Doradas to Xanadu Mansion\"",
+          "height": 2160
+        },
+        {
+          "name": "Parque Josone",
+          "yt": "BpswY9I8-RI",
+          "start": 0,
+          "source": "auto",
+          "title": "Parque Josone Varadero Cuba 4K UHD",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "san-jose",
@@ -716,7 +1263,7 @@
       "country_code": "CR",
       "country_flag": "🇨🇷",
       "continent": "North America",
-      "region": "",
+      "region": "San José Province",
       "type": "city",
       "tag": "famous",
       "emoji": "🏙️",
@@ -772,7 +1319,7 @@
       "country_code": "CR",
       "country_flag": "🇨🇷",
       "continent": "North America",
-      "region": "",
+      "region": "Alajuela Province",
       "type": "nature",
       "tag": "famous",
       "emoji": "🌋",
@@ -791,10 +1338,52 @@
       "sounds": [
         "mountain-wind.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Arenal Volcano National Park",
+          "wikipedia_slug": "Arenal_Volcano_National_Park"
+        },
+        {
+          "name": "Lake Arenal",
+          "wikipedia_slug": "Lake_Arenal"
+        },
+        {
+          "name": "La Fortuna Waterfall",
+          "wikipedia_slug": "La_Fortuna_Waterfall_(Costa_Rica)"
+        },
+        {
+          "name": "Tabacón"
+        }
+      ],
+      "blurb": "A near-perfect volcanic cone above the town of La Fortuna, with rainforest on its flanks and hot rivers running off it. It erupted continuously from 1968 to 2010 and now sits quiet, wrapped in cloud most afternoons.",
+      "fun_fact": "The 1968 eruption came without warning from a mountain everyone believed extinct, buried three villages and killed 87 people — and then kept going, with visible lava at night, for the next 42 years.",
+      "hidden_gem_tip": "The Río Chollín is a free hot river under a road bridge near Tabacón: the same volcanic water the resorts charge for, with somewhere to hang your towel.",
+      "monuments": [
+        {
+          "name": "Arenal Volcano National Park",
+          "yt": "w44AD2WVx0E",
+          "start": 0,
+          "source": "auto",
+          "title": "Arenal Volcano National Park: Easy Hike to See the Volcano!",
+          "height": 2160
+        },
+        {
+          "name": "Lake Arenal",
+          "yt": "aEisvPL8uM0",
+          "start": 0,
+          "source": "auto",
+          "title": "Lake Arenal by Boat + Peninsula Hike (Arenal Volcano National Park)",
+          "height": 2160
+        },
+        {
+          "name": "La Fortuna Waterfall",
+          "yt": "UFuVgHkouxw",
+          "start": 0,
+          "source": "auto",
+          "title": "La Fortuna Waterfall, Arenal Volcano Hike and Hot Springs",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "monteverde",
@@ -803,7 +1392,7 @@
       "country_code": "CR",
       "country_flag": "🇨🇷",
       "continent": "North America",
-      "region": "",
+      "region": "Puntarenas Province",
       "type": "nature",
       "tag": "hidden",
       "emoji": "🌿",
@@ -822,10 +1411,50 @@
       "sounds": [
         "mountain-wind.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Monteverde Cloud Forest Reserve",
+          "wikipedia_slug": "Monteverde_Cloud_Forest_Reserve"
+        },
+        {
+          "name": "Santa Elena"
+        },
+        {
+          "name": "Hanging bridges"
+        },
+        {
+          "name": "Curi-Cancha Reserve"
+        }
+      ],
+      "blurb": "Cloud forest on the continental divide at 1,400 m, where the trade winds hit the ridge and condense — the trees drip all day, everything is covered in moss and orchids, and the wildlife is heard far more often than seen.",
+      "fun_fact": "The reserve was bought and protected in 1972 by Quaker settlers who had moved to Costa Rica from Alabama in the 1950s, partly because the country had abolished its army.",
+      "hidden_gem_tip": "Go in at opening with the first guide of the day. Resplendent quetzals feed early, and the guides know which wild avocado trees they are working that week.",
+      "monuments": [
+        {
+          "name": "Monteverde Cloud Forest Reserve",
+          "yt": "HfdRuxqleZ8",
+          "start": 0,
+          "source": "auto",
+          "title": "Monteverde Cloud Forest Reserve | Guided Tour | Hike with Me | Costa Rica | Ep. 151",
+          "height": 1080
+        },
+        {
+          "name": "Santa Elena",
+          "yt": "2k7gAF6qzL4",
+          "start": 0,
+          "source": "auto",
+          "title": "Santa Elena, Monteverde",
+          "height": 2160
+        },
+        {
+          "name": "Hanging bridges",
+          "yt": "aTEzhQx013Q",
+          "start": 0,
+          "source": "auto",
+          "title": "Selvatura Park Hanging Bridges Walk - Monteverde Cloud Forest, Costa Rica 🇨🇷 | 4K 60fps HDR",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "manuel-antonio",
@@ -834,7 +1463,7 @@
       "country_code": "CR",
       "country_flag": "🇨🇷",
       "continent": "North America",
-      "region": "",
+      "region": "Puntarenas Province",
       "type": "coastal",
       "tag": "famous",
       "emoji": "🐒",
@@ -853,10 +1482,34 @@
       "sounds": [
         "ocean-waves.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Playa Manuel Antonio"
+        },
+        {
+          "name": "Playa Espadilla Sur"
+        },
+        {
+          "name": "Cathedral Point"
+        },
+        {
+          "name": "Quepos",
+          "wikipedia_slug": "Quepos"
+        }
+      ],
+      "blurb": "Costa Rica's smallest and busiest national park: rainforest running straight down to three white beaches, with sloths, capuchins and squirrel monkeys living along the trails at eye level.",
+      "fun_fact": "The park caps daily visitors and closes one day a week specifically to give the animals a break — a rule brought in after decades of monkeys learning to raid bags on the beach.",
+      "hidden_gem_tip": "Book online in advance, arrive at 7am, and keep your bag zipped. The raccoons here are professionals.",
+      "monuments": [
+        {
+          "name": "Quepos",
+          "yt": "H7EZIu00VKQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Manuel Antonio, Quepos, Costa Rica (4K)",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "belize-city",
@@ -865,7 +1518,7 @@
       "country_code": "BZ",
       "country_flag": "🇧🇿",
       "continent": "North America",
-      "region": "",
+      "region": "Belize District",
       "type": "coastal",
       "tag": "famous",
       "emoji": "🌊",
@@ -884,10 +1537,51 @@
       "sounds": [
         "ocean-waves.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Swing Bridge",
+          "wikipedia_slug": "Swing_Bridge_(Belize)"
+        },
+        {
+          "name": "St. John's Cathedral",
+          "wikipedia_slug": "St._John's_Cathedral_(Belize_City)"
+        },
+        {
+          "name": "Belize Museum"
+        },
+        {
+          "name": "Fort George Lighthouse"
+        }
+      ],
+      "blurb": "Belize's largest town and old capital, at the mouth of the Haulover Creek on the Caribbean — low, wooden, hot, and the jumping-off point for the cayes and the reef.",
+      "fun_fact": "The Swing Bridge is one of the last manually operated swing bridges in the world: four men put poles into a capstan and walk it round to let boats through.",
+      "hidden_gem_tip": "The capital moved inland to Belmopan in 1970 after Hurricane Hattie flattened the city — which is why the country's government sits in a town of 20,000 an hour up the highway.",
+      "monuments": [
+        {
+          "name": "Swing Bridge",
+          "yt": "Yu140vdRLUw",
+          "start": 0,
+          "source": "auto",
+          "title": "Swinging By The Bridge",
+          "height": 2160
+        },
+        {
+          "name": "St. John's Cathedral",
+          "yt": "Fan98utT_7w",
+          "start": 0,
+          "source": "auto",
+          "title": "Den Bosch Walking Tour 4K 🇳🇱 | St. John’s Cathedral & Historic Centre | No Talking",
+          "height": 1080
+        },
+        {
+          "name": "Belize Museum",
+          "yt": "PBJ-0Ude2tE",
+          "start": 0,
+          "source": "auto",
+          "title": "Belize 🇧🇿 Visited The Museum of Belize 🇧🇿, Belize City -Art 🖼️, Culture 🥁, Education 📚and History 🗺️",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "caracol",
@@ -896,7 +1590,7 @@
       "country_code": "BZ",
       "country_flag": "🇧🇿",
       "continent": "North America",
-      "region": "",
+      "region": "Cayo District",
       "type": "history",
       "tag": "hidden",
       "emoji": "🛕",
@@ -915,10 +1609,42 @@
       "sounds": [
         "european-plaza.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Caana"
+        },
+        {
+          "name": "Chiquibul Forest Reserve"
+        },
+        {
+          "name": "Rio Frio Cave"
+        },
+        {
+          "name": "Mountain Pine Ridge",
+          "wikipedia_slug": "Mountain_Pine_Ridge_Forest_Reserve"
+        }
+      ],
+      "blurb": "The largest Maya site in Belize, deep in the Chiquibul forest and reached down two hours of rough road. At its height it held more people than Belize City does today, and most of it is still under the trees.",
+      "fun_fact": "A carved altar here records Caracol's defeat of Tikal in AD 562 — a war between two superpowers 76 km apart that ended Tikal's monuments for over a century.",
+      "hidden_gem_tip": "Caana, the Sky Palace, is still one of the tallest structures in Belize at 43 m, and you are allowed to climb it.",
+      "monuments": [
+        {
+          "name": "Rio Frio Cave",
+          "yt": "ah6whdCK0zM",
+          "start": 0,
+          "source": "auto",
+          "title": "Travel Track On Sirk TV: RIO FRIO CAVE & RIO ON FALLS [Mountain Pine Ridge Forest Reserve - Belize]",
+          "height": 1080
+        },
+        {
+          "name": "Mountain Pine Ridge",
+          "yt": "5ydDR21njzY",
+          "start": 0,
+          "source": "auto",
+          "title": "Mountain Pine Ridge Forest Reserve, Belize: 4 Awesome Places to Visit [4K]",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "ambergris-caye",
@@ -927,7 +1653,7 @@
       "country_code": "BZ",
       "country_flag": "🇧🇿",
       "continent": "North America",
-      "region": "",
+      "region": "Belize District",
       "type": "island",
       "tag": "famous",
       "emoji": "🤿",
@@ -946,10 +1672,53 @@
       "sounds": [
         "ocean-waves.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null
+      "highlights": [
+        {
+          "name": "Belize Barrier Reef",
+          "wikipedia_slug": "Belize_Barrier_Reef"
+        },
+        {
+          "name": "Hol Chan Marine Reserve",
+          "wikipedia_slug": "Hol_Chan_Marine_Reserve"
+        },
+        {
+          "name": "San Pedro",
+          "wikipedia_slug": "San_Pedro_Town"
+        },
+        {
+          "name": "Great Blue Hole",
+          "wikipedia_slug": "Great_Blue_Hole"
+        }
+      ],
+      "blurb": "Belize's largest island, a sandy strip of golf carts and stilted bars a few hundred metres inside the second-largest barrier reef in the world. The reef breaks the swell, so the water is flat all the way to it.",
+      "fun_fact": "Ambergris Caye is geologically part of the Yucatán peninsula, separated from Mexico only by a narrow channel the Maya are believed to have dug themselves to shorten their trading route.",
+      "hidden_gem_tip": "Hol Chan's Shark Ray Alley is a 20-minute boat ride, and the nurse sharks and southern stingrays there turn up on their own — no feeding required, whatever the boat crews do.",
+      "monuments": [
+        {
+          "name": "Belize Barrier Reef",
+          "yt": "aK1TE5367l0",
+          "start": 0,
+          "source": "auto",
+          "title": "Shark Diving in Ambergris Caye 🦈 San Pedro, Belize Barrier Reef - 4K 🎵 Sly - Phil Fuldner",
+          "height": 2160
+        },
+        {
+          "name": "Hol Chan Marine Reserve",
+          "yt": "_VLVrSoPwUU",
+          "start": 0,
+          "source": "auto",
+          "title": "Hol Chan Marine Reserve Ambergris Caye Belize",
+          "height": 1080
+        },
+        {
+          "name": "San Pedro",
+          "yt": "YdLprb75M4I",
+          "start": 0,
+          "source": "auto",
+          "title": "San Pedro, Walking Tour 4K. You Won't Believe This Hidden Gem 🇧🇿",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "cancun",
@@ -1013,6 +1782,32 @@
           "yt": "qYmle7HyOBQ",
           "start": 0
         }
+      ],
+      "monuments": [
+        {
+          "name": "Hotel Zone",
+          "yt": "Ja6w9eH9GPI",
+          "start": 0,
+          "source": "auto",
+          "title": "The Best of Cancun Mexico: Hotel Zone to Hidden Gems - 4K Travel Guide 2025",
+          "height": 2160
+        },
+        {
+          "name": "Isla Mujeres",
+          "yt": "NKY43RCXz_U",
+          "start": 0,
+          "source": "auto",
+          "title": "4K HDR CANCUN Isla mujeres Walking Tour,  paradise beach  🏖️ The Mexican Caribbean travel Walk",
+          "height": 2160
+        },
+        {
+          "name": "Cancún Underwater Museum",
+          "yt": "r8ppd_uc5kI",
+          "start": 0,
+          "source": "auto",
+          "title": "MUSA (Underwater Museum of Art), Cancun, Mexico 2021🐟",
+          "height": 2160
+        }
       ]
     },
     {
@@ -1022,7 +1817,7 @@
       "country_code": "MX",
       "country_flag": "🇲🇽",
       "continent": "North America",
-      "region": "",
+      "region": "Valley of Mexico",
       "type": "city",
       "tag": "famous",
       "emoji": "🌃",
@@ -1065,7 +1860,33 @@
       ],
       "blurb": "Built on the drained lake-bed of Aztec Tenochtitlan and sinking into it still, Mexico City stacks eras on top of each other: Templo Mayor's excavated ruins sit a block from a colonial cathedral, which faces the largest public square in the Americas. Around it, twenty-two million people.",
       "fun_fact": "The city is subsiding into its old lakebed at roughly 50 cm a year in places — the Metropolitan Cathedral has needed decades of engineering just to stay level.",
-      "hidden_gem_tip": "Sunday morning on Paseo de la Reforma: the avenue closes to cars and the whole city cycles down the middle of it."
+      "hidden_gem_tip": "Sunday morning on Paseo de la Reforma: the avenue closes to cars and the whole city cycles down the middle of it.",
+      "monuments": [
+        {
+          "name": "Zócalo",
+          "yt": "WwGlQ2zgyS4",
+          "start": 0,
+          "source": "auto",
+          "title": "Zócalo, Mexico City (CDMX) 4K",
+          "height": 2160
+        },
+        {
+          "name": "Chapultepec",
+          "yt": "3KZalRgDi4o",
+          "start": 0,
+          "source": "auto",
+          "title": "CHAPULTEPEC CASTLE | 4K Walking Tour | Mexico City",
+          "height": 2160
+        },
+        {
+          "name": "Palacio de Bellas Artes",
+          "yt": "6_HsYfa4o3Q",
+          "start": 0,
+          "source": "auto",
+          "title": "MEXICO CITY 4K UHD – Scenic Walk by PALACIO de BELLAS ARTES, TORRE LATINOAMERICANA, & More – CDMX",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "rio-de-janeiro",
@@ -1074,7 +1895,7 @@
       "country_code": "BR",
       "country_flag": "🇧🇷",
       "continent": "South America",
-      "region": "",
+      "region": "Rio de Janeiro",
       "type": "city",
       "tag": "famous",
       "emoji": "🏖️",
@@ -1112,12 +1933,12 @@
         },
         {
           "name": "Maracanã Stadium",
-          "wikipedia_slug": "Maracan%C3%A3_Stadium"
+          "wikipedia_slug": "Maracanã_Stadium"
         }
       ],
       "blurb": "Beaches, samba and granite peaks — the Cidade Maravilhosa wraps a metropolis around rainforest and bay.",
       "fun_fact": "Christ the Redeemer was struck by lightning so often it keeps a stock of the original soapstone for repairs.",
-      "hidden_gem_tip": null,
+      "hidden_gem_tip": "The Escadaria Selarón is free, always open and two minutes off the Lapa arches — 215 steps tiled with pieces sent from 60 countries by one man over 23 years.",
       "monuments": [
         {
           "name": "Christ the Redeemer",
@@ -1143,7 +1964,7 @@
       "country_code": "PE",
       "country_flag": "🇵🇪",
       "continent": "South America",
-      "region": "",
+      "region": "Cusco Region",
       "type": "city",
       "tag": "famous",
       "emoji": "🏔️",
@@ -1218,7 +2039,7 @@
       "country_code": "PE",
       "country_flag": "🇵🇪",
       "continent": "South America",
-      "region": "",
+      "region": "Cusco Region",
       "type": "ruin",
       "tag": "famous",
       "emoji": "🏛️",
@@ -1283,6 +2104,4356 @@
           "start": 0,
           "source": "auto",
           "title": "Machu Picchu and Huayna Picchu in 4K plus the Inca Bridge"
+        }
+      ]
+    },
+    {
+      "id": "quito",
+      "name": "Quito",
+      "country": "Ecuador",
+      "country_code": "EC",
+      "country_flag": "🇪🇨",
+      "continent": "South America",
+      "region": "Pichincha",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "⛪",
+      "coordinates": {
+        "lat": -0.22,
+        "lng": -78.5125
+      },
+      "street_view": {
+        "lat": -0.22,
+        "lng": -78.5125,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Quito",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Plaza Grande",
+          "wikipedia_slug": "Plaza_de_la_Independencia"
+        },
+        {
+          "name": "Basílica del Voto Nacional",
+          "wikipedia_slug": "Basílica_del_Voto_Nacional"
+        },
+        {
+          "name": "La Compañía de Jesús",
+          "wikipedia_slug": "Church_of_La_Compañía,_Quito"
+        },
+        {
+          "name": "El Panecillo",
+          "wikipedia_slug": "El_Panecillo"
+        },
+        {
+          "name": "TelefériQo",
+          "wikipedia_slug": "TelefériQo"
+        }
+      ],
+      "blurb": "Ecuador's capital runs north–south along a narrow Andean valley at 2,850 m, hemmed in by the Pichincha volcano on one side and a line of peaks on the other. Its colonial centre is the largest and least altered in the Americas — 320 hectares of cloisters, courtyards and gilt interiors that were never pulled down and rebuilt.",
+      "fun_fact": "Quito and Kraków were the first two cities ever inscribed on the UNESCO World Heritage list, in 1978.",
+      "hidden_gem_tip": "Ride the TelefériQo up Pichincha in the morning — by early afternoon the cloud closes over the ridge and the whole valley disappears.",
+      "monuments": [
+        {
+          "name": "Plaza Grande",
+          "yt": "8X-u_VcYw6U",
+          "start": 0,
+          "source": "auto",
+          "title": "Plaza Grande + Calle Espejo / Quito / Walk 4K HDR 2023 🇪🇨",
+          "height": 2160
+        },
+        {
+          "name": "Basílica del Voto Nacional",
+          "yt": "Yzbg50vJRRM",
+          "start": 0,
+          "source": "auto",
+          "title": "Basílica Del Voto Nacional, Quito - ECUADOR **Centro Histórico**",
+          "height": 2160
+        },
+        {
+          "name": "La Compañía de Jesús",
+          "yt": "Jbbntz9D9hc",
+          "start": 0,
+          "source": "auto",
+          "title": "ECUADOR | QUITO | 4K DRONE FOOTAGE |  Iglesia de la Compañía de Jesús",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "guayaquil",
+      "name": "Guayaquil",
+      "country": "Ecuador",
+      "country_code": "EC",
+      "country_flag": "🇪🇨",
+      "continent": "South America",
+      "region": "Guayas",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🚢",
+      "coordinates": {
+        "lat": -2.19,
+        "lng": -79.8875
+      },
+      "street_view": {
+        "lat": -2.19,
+        "lng": -79.8875,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Guayaquil",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Malecón 2000",
+          "wikipedia_slug": "Malecón_Simón_Bolívar"
+        },
+        {
+          "name": "Las Peñas"
+        },
+        {
+          "name": "Parque Seminario"
+        },
+        {
+          "name": "Guayas River",
+          "wikipedia_slug": "Guayas_River"
+        }
+      ],
+      "blurb": "Ecuador's largest city and its port, 100 km up a tidal river from the Pacific — hotter, flatter and blunter than Quito, and the place most Ecuadorean trade actually passes through. The riverfront was rebuilt end to end as a 2.5 km public promenade in the late 1990s.",
+      "fun_fact": "Parque Seminario in the middle of downtown is full of wild land iguanas, up to a metre long, that come down from the trees to be fed.",
+      "hidden_gem_tip": "Climb the 444 steps of Las Peñas at dusk — the painted houses on the way up are still lived in, and the lighthouse at the top looks back down the whole river.",
+      "monuments": [
+        {
+          "name": "Malecón 2000",
+          "yt": "29T_e8fqTKk",
+          "start": 0,
+          "source": "auto",
+          "title": "​🚨 Impresionante MALECÓN 2000! 🇪🇨 Guayaquil Walking Tour en 4K",
+          "height": 2160
+        },
+        {
+          "name": "Las Peñas",
+          "yt": "1bqOwodT0Ww",
+          "start": 0,
+          "source": "auto",
+          "title": "LAS PEÑAS - Un recorrido en 4K por el mejor lugar de GUAYAQUIL",
+          "height": 2160
+        },
+        {
+          "name": "Parque Seminario",
+          "yt": "cpoUvvZbB-g",
+          "start": 0,
+          "source": "auto",
+          "title": "Best of Guayaquil, Parque Seminario and Cathedral of Saint Peter and Churro",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "cuenca",
+      "name": "Cuenca",
+      "country": "Ecuador",
+      "country_code": "EC",
+      "country_flag": "🇪🇨",
+      "continent": "South America",
+      "region": "Azuay",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🏛️",
+      "coordinates": {
+        "lat": -2.8974138888889,
+        "lng": -79.004480555556
+      },
+      "street_view": {
+        "lat": -2.8974138888889,
+        "lng": -79.004480555556,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Cuenca,_Ecuador",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "New Cathedral",
+          "wikipedia_slug": "New_Cathedral_of_Cuenca"
+        },
+        {
+          "name": "Parque Calderón"
+        },
+        {
+          "name": "Pumapungo",
+          "wikipedia_slug": "Pumapungo_Museum"
+        },
+        {
+          "name": "Tomebamba River",
+          "wikipedia_slug": "Tomebamba_River"
+        }
+      ],
+      "blurb": "A colonial city of blue-domed churches and cobbled streets at 2,560 m, built on the ruins of the Inca city of Tomebamba and laid out on the grid the Spanish crown specified in 1557. Four rivers run through it; the Tomebamba's bank is the city's long green edge.",
+      "fun_fact": "The Panama hat is Ecuadorean, and most of them are woven around Cuenca — the name stuck because they were shipped out through Panama.",
+      "hidden_gem_tip": "Walk the Barranco steps down to the Tomebamba in the late afternoon, when the old riverside houses catch the light from below.",
+      "monuments": [
+        {
+          "name": "New Cathedral",
+          "yt": "zAROACZtmtc",
+          "start": 0,
+          "source": "auto",
+          "title": "015 Street Walk || the New Cathedral to the Old Cathedral || Cuenca Ecuador || Nov 25th 2022",
+          "height": 2160
+        },
+        {
+          "name": "Parque Calderón",
+          "yt": "oHYgRx-Lv4E",
+          "start": 0,
+          "source": "auto",
+          "title": "Recorrido Nocturno en #Cuenca, #Ecuador |  Walking Tour Parque Calderón 4K",
+          "height": 2160
+        },
+        {
+          "name": "Pumapungo",
+          "yt": "AFN1naoVE4g",
+          "start": 0,
+          "source": "auto",
+          "title": "WALKING IN CUENCA, PART 1, Parque calderon, Pumapungo, Tombamba, Turi,",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "otavalo",
+      "name": "Otavalo",
+      "country": "Ecuador",
+      "country_code": "EC",
+      "country_flag": "🇪🇨",
+      "continent": "South America",
+      "region": "Imbabura",
+      "type": "village",
+      "tag": "hidden",
+      "emoji": "🧶",
+      "coordinates": {
+        "lat": 0.233333,
+        "lng": -78.266667
+      },
+      "street_view": {
+        "lat": 0.233333,
+        "lng": -78.266667,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Otavalo_(city)",
+      "sounds": [
+        "plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Plaza de los Ponchos"
+        },
+        {
+          "name": "Peguche Waterfall"
+        },
+        {
+          "name": "Cuicocha",
+          "wikipedia_slug": "Cuicocha"
+        },
+        {
+          "name": "Imbabura",
+          "wikipedia_slug": "Imbabura"
+        }
+      ],
+      "blurb": "A highland market town between two volcanoes, and home to the Otavalo weavers whose textiles have been traded across the Andes since long before the Spanish arrived. The Saturday market spills out of the Plaza de los Ponchos into most of the surrounding grid.",
+      "fun_fact": "Otavaleño traders sell their weaving worldwide and traditionally keep the same dress at home — white trousers, a dark poncho, and a single long braid for the men.",
+      "hidden_gem_tip": "Get to the animal market on the edge of town before 8am on a Saturday; it is over by mid-morning and it is where the town actually does business.",
+      "monuments": [
+        {
+          "name": "Plaza de los Ponchos",
+          "yt": "2pno7sqz9LM",
+          "start": 0,
+          "source": "auto",
+          "title": "Plaza De Los Ponchos Mercado - 360 Degree - VR - 4K",
+          "height": 2160
+        },
+        {
+          "name": "Peguche Waterfall",
+          "yt": "cSIKP0eM67I",
+          "start": 0,
+          "source": "auto",
+          "title": "POPULAR WATERFALL THAT'S EASY TO SEE! (Peguche, Otavalo near Cotacachi Ecuador)",
+          "height": 1080
+        },
+        {
+          "name": "Cuicocha",
+          "yt": "Yc4YsowK5-I",
+          "start": 0,
+          "source": "auto",
+          "title": "The Best of Otavalo and Cuicocha Lake",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "banos",
+      "name": "Baños de Agua Santa",
+      "country": "Ecuador",
+      "country_code": "EC",
+      "country_flag": "🇪🇨",
+      "continent": "South America",
+      "region": "Tungurahua",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "♨️",
+      "coordinates": {
+        "lat": -1.3963888888889,
+        "lng": -78.424722222222
+      },
+      "street_view": {
+        "lat": -1.3963888888889,
+        "lng": -78.424722222222,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Baños_de_Agua_Santa",
+      "sounds": [
+        "waterfall.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Pailón del Diablo",
+          "wikipedia_slug": "Pailón_del_Diablo"
+        },
+        {
+          "name": "Casa del Árbol"
+        },
+        {
+          "name": "Tungurahua",
+          "wikipedia_slug": "Tungurahua"
+        },
+        {
+          "name": "Río Verde"
+        }
+      ],
+      "blurb": "A small spa town wedged in a gorge below the Tungurahua volcano, where the Andes fall away toward the Amazon basin. Hot springs at one end, a road of waterfalls at the other, and a reputation as Ecuador's adventure-sports town that it has fully earned.",
+      "fun_fact": "Tungurahua erupted on and off from 1999 to 2016 and the town was evacuated more than once; residents kept moving back, and the eruptions became a tourist attraction in their own right.",
+      "hidden_gem_tip": "Walk or cycle the Ruta de las Cascadas down toward Río Verde — it is downhill nearly the whole way, and you can put the bike on a pickup for the ride back.",
+      "monuments": [
+        {
+          "name": "Pailón del Diablo",
+          "yt": "MaJRo5ldswc",
+          "start": 0,
+          "source": "auto",
+          "title": "El lugar más SORPRENDENTE Y VISITADO de Baños de Agua Santa Ecuador 🇪🇨l PAILÓN DEL DIABLO - Geleocos",
+          "height": 2160
+        },
+        {
+          "name": "Casa del Árbol",
+          "yt": "4WMSD7XglbE",
+          "start": 0,
+          "source": "auto",
+          "title": "Amé Baños de agua santa | Ecuador | Pailón del diablo | Casa del árbol | Tungurahua",
+          "height": 1080
+        },
+        {
+          "name": "Río Verde",
+          "yt": "06v7y30T6kc",
+          "start": 0,
+          "source": "auto",
+          "title": "BAÑOS _ RIO VERDE EN BICICLETA",
+          "height": 2026
+        }
+      ]
+    },
+    {
+      "id": "cotopaxi",
+      "name": "Cotopaxi",
+      "country": "Ecuador",
+      "country_code": "EC",
+      "country_flag": "🇪🇨",
+      "continent": "South America",
+      "region": "Cotopaxi",
+      "type": "mountain",
+      "tag": "famous",
+      "emoji": "🌋",
+      "coordinates": {
+        "lat": -0.68055555555556,
+        "lng": -78.437777777778
+      },
+      "street_view": {
+        "lat": -0.68055555555556,
+        "lng": -78.437777777778,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Cotopaxi",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Cotopaxi National Park",
+          "wikipedia_slug": "Cotopaxi_National_Park"
+        },
+        {
+          "name": "Limpiopungo"
+        },
+        {
+          "name": "José Rivas Refuge"
+        }
+      ],
+      "blurb": "An almost perfectly symmetrical glaciated cone rising to 5,897 m an hour south of Quito — one of the highest active volcanoes on Earth, and visible from the capital on a clear morning. The páramo grassland at its foot is wild horse country.",
+      "fun_fact": "Cotopaxi's summit is farther from the centre of the Earth than Everest's would be at the same altitude, because the planet bulges at the equator — the same quirk that makes nearby Chimborazo the single farthest point from Earth's core.",
+      "hidden_gem_tip": "Go on a weekday: the park road to the refuge car park is public, and at weekends half of Quito drives up it.",
+      "monuments": [
+        {
+          "name": "Cotopaxi National Park",
+          "yt": "PjcQXdKxj4I",
+          "start": 0,
+          "source": "auto",
+          "title": "BEST Things To Do in COTOPAXI NATIONAL PARK, ECUADOR | Staying at the Secret Garden Hostel",
+          "height": 2160
+        },
+        {
+          "name": "José Rivas Refuge",
+          "yt": "qvLVr3n1sS0",
+          "start": 0,
+          "source": "auto",
+          "title": "Cotopaxi Volcano, Ecuador | José Rivas Refuge & Summit Attempt",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "quilotoa",
+      "name": "Quilotoa",
+      "country": "Ecuador",
+      "country_code": "EC",
+      "country_flag": "🇪🇨",
+      "continent": "South America",
+      "region": "Cotopaxi",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🏞️",
+      "coordinates": {
+        "lat": -0.86119444444444,
+        "lng": -78.897286111111
+      },
+      "street_view": {
+        "lat": -0.86119444444444,
+        "lng": -78.897286111111,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Quilotoa",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Quilotoa Loop"
+        },
+        {
+          "name": "Chugchilán"
+        },
+        {
+          "name": "Zumbahua"
+        }
+      ],
+      "blurb": "A three-kilometre-wide caldera filled with meltwater the colour of old glass, 3,900 m up in the western Andes. The crater rim is a village and a viewpoint; the water is 250 m below it, down a steep sand path that is much easier going down than coming back.",
+      "fun_fact": "The lake's green comes from dissolved minerals, and the crater still vents gas at the bottom — it is a live volcano, not a dead one.",
+      "hidden_gem_tip": "Stay a night on the rim rather than day-tripping from Latacunga. The crowds leave by four and the crater goes completely silent.",
+      "monuments": [
+        {
+          "name": "Quilotoa Loop",
+          "yt": "pIDDB8WnNzk",
+          "start": 0,
+          "source": "auto",
+          "title": "Trekking Quilotoa Loop in Ecuador 🇪🇨 (Most Beautiful Lake in Ecuador!)",
+          "height": 2160
+        },
+        {
+          "name": "Chugchilán",
+          "yt": "-3ldAadBjjY",
+          "start": 0,
+          "source": "auto",
+          "title": "Breathtaking Quilotoa to Chugchilán, The Most Popular Trek in Ecuador's Andes | 4K | GoPro 8",
+          "height": 2160
+        },
+        {
+          "name": "Zumbahua",
+          "yt": "XaxzIEyEqZY",
+          "start": 0,
+          "source": "auto",
+          "title": "VIAJANDO a la LAGUNA🏞 del QUILOTOA🌋 | ZUMBAHUA-COTOPAXI-ECUADOR🇪🇨 : Ferchito Aventura",
+          "height": 1440
+        }
+      ]
+    },
+    {
+      "id": "mindo",
+      "name": "Mindo",
+      "country": "Ecuador",
+      "country_code": "EC",
+      "country_flag": "🇪🇨",
+      "continent": "South America",
+      "region": "Pichincha",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🐦",
+      "coordinates": {
+        "lat": -0.051191666666667,
+        "lng": -78.778302777778
+      },
+      "street_view": {
+        "lat": -0.051191666666667,
+        "lng": -78.778302777778,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Mindo,_Ecuador",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Mindo-Nambillo Cloud Forest"
+        },
+        {
+          "name": "Tarabita"
+        },
+        {
+          "name": "Nambillo River"
+        }
+      ],
+      "blurb": "A cloud-forest village two hours down the western slope from Quito, where the Andes drop into permanent mist and the birdlife goes quietly berserk. Around 500 bird species have been recorded in the valley, including dozens of hummingbirds that will sit an arm's length away.",
+      "fun_fact": "Mindo was the first Important Bird Area declared in South America, and the valley was saved from a power line running through it by a local campaign in the 1990s.",
+      "hidden_gem_tip": "Be at a hummingbird feeder station by 6.30am. By nine the mist has usually come up the valley and the forest goes quiet.",
+      "monuments": [
+        {
+          "name": "Tarabita",
+          "yt": "drM4tZP701o",
+          "start": 0,
+          "source": "auto",
+          "title": "Tarabita de Montaña y sus Cascadas, MINDO - Ecuador| Aventura Extreme 2022 🚀🚀🚀",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "galapagos-islands",
+      "name": "Galápagos Islands",
+      "country": "Ecuador",
+      "country_code": "EC",
+      "country_flag": "🇪🇨",
+      "continent": "South America",
+      "region": "Galápagos Province",
+      "type": "island",
+      "tag": "famous",
+      "emoji": "🐢",
+      "coordinates": {
+        "lat": -0.66666666666667,
+        "lng": -90.55
+      },
+      "street_view": {
+        "lat": -0.66666666666667,
+        "lng": -90.55,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Galápagos_Islands",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Puerto Ayora",
+          "wikipedia_slug": "Puerto_Ayora"
+        },
+        {
+          "name": "Charles Darwin Research Station",
+          "wikipedia_slug": "Charles_Darwin_Research_Station"
+        },
+        {
+          "name": "Tortuga Bay",
+          "wikipedia_slug": "Tortuga_Bay"
+        },
+        {
+          "name": "Isabela Island",
+          "wikipedia_slug": "Isabela_Island_(Galápagos)"
+        },
+        {
+          "name": "Bartolomé Island",
+          "wikipedia_slug": "Bartolomé_Island"
+        }
+      ],
+      "blurb": "Nineteen volcanic islands on the equator, 900 km off the Ecuadorean coast, where three ocean currents meet and nothing that lives there arrived by land. The animals never learned to be afraid of anything walking upright, which is why you can stand next to them.",
+      "fun_fact": "Darwin spent five weeks here in 1835 and did not work out what the finches meant until he was back in London and an ornithologist told him they were thirteen separate species.",
+      "hidden_gem_tip": "Santa Cruz is the island you can walk: Tortuga Bay is a 45-minute path from Puerto Ayora, free, and has no boat trip attached to it.",
+      "monuments": [
+        {
+          "name": "Puerto Ayora",
+          "yt": "VPUUhDOmXBc",
+          "start": 0,
+          "source": "auto",
+          "title": "Galápagos: Puerto Ayora to Tortuga Bay - Walking Tour 4K 60fps (Ecuador)",
+          "height": 2160
+        },
+        {
+          "name": "Charles Darwin Research Station",
+          "yt": "izZf-2CTzTM",
+          "start": 0,
+          "source": "auto",
+          "title": "チャールズ・ダーウィン研究所を歩く,ガラパゴス,サンタクルス島,Charles Darwin Research Station, Santa Cruz,Galapagos,",
+          "height": 2160
+        },
+        {
+          "name": "Tortuga Bay",
+          "yt": "08A9OhkSkQw",
+          "start": 0,
+          "source": "auto",
+          "title": "Galapagos Islands Tortuga Bay by drone 4K Ultra HD",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "santiago",
+      "name": "Santiago",
+      "country": "Chile",
+      "country_code": "CL",
+      "country_flag": "🇨🇱",
+      "continent": "South America",
+      "region": "Santiago Metropolitan Region",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏙️",
+      "coordinates": {
+        "lat": -33.4375,
+        "lng": -70.65
+      },
+      "street_view": {
+        "lat": -33.4375,
+        "lng": -70.65,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Santiago",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Plaza de Armas",
+          "wikipedia_slug": "Plaza_de_Armas_(Santiago)"
+        },
+        {
+          "name": "Cerro San Cristóbal",
+          "wikipedia_slug": "San_Cristóbal_Hill"
+        },
+        {
+          "name": "La Moneda Palace",
+          "wikipedia_slug": "La_Moneda_Palace"
+        },
+        {
+          "name": "Gran Torre Santiago",
+          "wikipedia_slug": "Gran_Torre_Costanera"
+        },
+        {
+          "name": "Mercado Central",
+          "wikipedia_slug": "Mercado_Central_de_Santiago"
+        }
+      ],
+      "blurb": "Chile's capital sits in a bowl with the Andes standing over its eastern edge — on a clear winter morning the snow line looks close enough to touch from the middle of downtown. A city of glass towers, 1930s arcades and hillside parks, and the base camp for both the ski fields and the coast, each about an hour away.",
+      "fun_fact": "The Gran Torre Santiago is the tallest building in South America at 300 m, and it is built to ride out the magnitude-8 earthquakes this coast produces roughly once a decade.",
+      "hidden_gem_tip": "Take the funicular up Cerro San Cristóbal rather than the cable car — it is the 1925 original, and it stops at the zoo halfway up.",
+      "monuments": [
+        {
+          "name": "Plaza de Armas",
+          "yt": "7PrBYQpmdrc",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking Tour Plaza de Armas Santiago, Chile in 4k",
+          "height": 2160
+        },
+        {
+          "name": "Cerro San Cristóbal",
+          "yt": "DPhdW8amAnA",
+          "start": 0,
+          "source": "auto",
+          "title": "🛸 Breathtaking 4K Aerial Drone Views of Santiago from Metropolitan Park (Cerro San Cristóbal)",
+          "height": 2160
+        },
+        {
+          "name": "La Moneda Palace",
+          "yt": "I9B17ZU-P5A",
+          "start": 0,
+          "source": "auto",
+          "title": "Virchual™ Chile : Santiago. Plaza de Armas, La Moneda Palace etc. Virtual 4K run | Chill music",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "valparaiso",
+      "name": "Valparaíso",
+      "country": "Chile",
+      "country_code": "CL",
+      "country_flag": "🇨🇱",
+      "continent": "South America",
+      "region": "Valparaíso Region",
+      "type": "coastal",
+      "tag": "famous",
+      "emoji": "🎨",
+      "coordinates": {
+        "lat": -33.04611111111111,
+        "lng": -71.61972222222222
+      },
+      "street_view": {
+        "lat": -33.04611111111111,
+        "lng": -71.61972222222222,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Valparaíso",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Cerro Alegre"
+        },
+        {
+          "name": "Cerro Concepción"
+        },
+        {
+          "name": "Funiculars of Valparaíso",
+          "wikipedia_slug": "Valparaíso_funiculars"
+        },
+        {
+          "name": "La Sebastiana"
+        },
+        {
+          "name": "Muelle Prat"
+        }
+      ],
+      "blurb": "A working port built up 42 hills in no order whatsoever, connected by stairs, alleys and a set of Victorian funicular lifts that are still the quickest way up. Every wall that can be painted has been.",
+      "fun_fact": "Valparaíso was the Pacific's great stopover for ships rounding Cape Horn — and the Panama Canal opening in 1914 ended that trade almost overnight, which is why so much grand 19th-century architecture is still standing unimproved.",
+      "hidden_gem_tip": "Ride the Ascensor Reina Victoria up and walk down a different set of stairs — the murals are on the routes nobody drives.",
+      "monuments": [
+        {
+          "name": "Cerro Alegre",
+          "yt": "9C59ErUERqg",
+          "start": 0,
+          "source": "auto",
+          "title": "Cerro Alegre |Plan Valparaíso| Part 1 |On Tour 4K",
+          "height": 2160
+        },
+        {
+          "name": "Cerro Concepción",
+          "yt": "ubvhfh1_DxE",
+          "start": 0,
+          "source": "auto",
+          "title": "Cerro Concepción |Cerro Alegre |Miradores de Valparaíso |Organilleros de Chile en 4k",
+          "height": 2160
+        },
+        {
+          "name": "Funiculars of Valparaíso",
+          "yt": "3enqgk3ROHk",
+          "start": 0,
+          "source": "auto",
+          "title": "VALPARAÍSO, CHILE 🇨🇱 Historic Funiculars & Colorful Hills | 4K 60FPS Walking Tour",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "vina-del-mar",
+      "name": "Viña del Mar",
+      "country": "Chile",
+      "country_code": "CL",
+      "country_flag": "🇨🇱",
+      "continent": "South America",
+      "region": "Valparaíso Region",
+      "type": "coastal",
+      "tag": "famous",
+      "emoji": "🏖️",
+      "coordinates": {
+        "lat": -33.0245,
+        "lng": -71.5518
+      },
+      "street_view": {
+        "lat": -33.0245,
+        "lng": -71.5518,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Viña_del_Mar",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Reloj de Flores"
+        },
+        {
+          "name": "Castillo Wulff",
+          "wikipedia_slug": "Wulff_Castle"
+        },
+        {
+          "name": "Quinta Vergara",
+          "wikipedia_slug": "Quinta_Vergara"
+        },
+        {
+          "name": "Playa Reñaca"
+        }
+      ],
+      "blurb": "Valparaíso's neighbour and its opposite: laid out on a grid, green, orderly, and built for the beach. Chile's summer resort since the 1870s, with a casino, a long seafront and gardens where the port city has stairs.",
+      "fun_fact": "The Reloj de Flores — a working clock face planted in flowers on the seafront — was built for the 1962 World Cup and is still replanted by hand every season.",
+      "hidden_gem_tip": "Walk the coast road north to Reñaca at sunset; the Humboldt Current keeps the water near 15°C all year, so almost nobody actually swims.",
+      "monuments": [
+        {
+          "name": "Reloj de Flores",
+          "yt": "HVvsBgPX3Bo",
+          "start": 0,
+          "source": "auto",
+          "title": "Viña del mar Chile 2021 (Plaza de armas-Reloj de Flores-Playa Acapulco) [4K 60fps]",
+          "height": 2160
+        },
+        {
+          "name": "Castillo Wulff",
+          "yt": "Jf7nIq-EGoo",
+          "start": 0,
+          "source": "auto",
+          "title": "CASTILLO WULFF #viñadelmar #chile #gopro #hero7black",
+          "height": 1080
+        },
+        {
+          "name": "Quinta Vergara",
+          "yt": "AXdUyHLKa3E",
+          "start": 0,
+          "source": "auto",
+          "title": "Viña del mar - Quinta Vergara - Chile 2021 [4K 60fps]",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "san-pedro-de-atacama",
+      "name": "San Pedro de Atacama",
+      "country": "Chile",
+      "country_code": "CL",
+      "country_flag": "🇨🇱",
+      "continent": "South America",
+      "region": "Antofagasta Region",
+      "type": "desert",
+      "tag": "famous",
+      "emoji": "🏜️",
+      "coordinates": {
+        "lat": -22.9108,
+        "lng": -68.2001
+      },
+      "street_view": {
+        "lat": -22.9108,
+        "lng": -68.2001,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "San_Pedro_de_Atacama",
+      "sounds": [
+        "desert-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Valle de la Luna",
+          "wikipedia_slug": "Valle_de_la_Luna_(Chile)"
+        },
+        {
+          "name": "El Tatio",
+          "wikipedia_slug": "El_Tatio"
+        },
+        {
+          "name": "Licancabur",
+          "wikipedia_slug": "Licancabur"
+        },
+        {
+          "name": "Salar de Atacama",
+          "wikipedia_slug": "Salar_de_Atacama"
+        }
+      ],
+      "blurb": "An adobe oasis town at 2,400 m in the driest non-polar desert on Earth, with a volcano on the skyline in most directions. Some weather stations in the Atacama have never recorded rain at all.",
+      "fun_fact": "The desert is so dry and so clear that NASA tests Mars rovers here, and the world's largest radio telescope array sits on the plateau above the town.",
+      "hidden_gem_tip": "El Tatio geysers only perform at dawn, which means leaving at 4am in sub-zero cold — bring far more clothing than the daytime heat suggests.",
+      "monuments": [
+        {
+          "name": "Valle de la Luna",
+          "yt": "i9qpKLYF6c8",
+          "start": 0,
+          "source": "auto",
+          "title": "¿QUE RECORRER EN SAN PEDRO DE ATACAMA? - VALLE DE LA LUNA - LAS CAVERNAS DE SAL 🌝",
+          "height": 2160
+        },
+        {
+          "name": "El Tatio",
+          "yt": "qPwRTYYeZQw",
+          "start": 0,
+          "source": "auto",
+          "title": "Stunning El TATIO geyser field AFTER sunrise / San Pedro de Atacama, Chile",
+          "height": 2160
+        },
+        {
+          "name": "Licancabur",
+          "yt": "f-nkTq1Iz9g",
+          "start": 0,
+          "source": "auto",
+          "title": "El Volcano Licancabur - Atacama Chile 4K",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "pisco-elqui",
+      "name": "Pisco Elqui",
+      "country": "Chile",
+      "country_code": "CL",
+      "country_flag": "🇨🇱",
+      "continent": "South America",
+      "region": "Coquimbo Region",
+      "type": "village",
+      "tag": "hidden",
+      "emoji": "✨",
+      "coordinates": {
+        "lat": -30.123611,
+        "lng": -70.493333
+      },
+      "street_view": {
+        "lat": -30.123611,
+        "lng": -70.493333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Pisco_Elqui",
+      "sounds": [
+        "wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Elqui Valley",
+          "wikipedia_slug": "Elqui_Valley"
+        },
+        {
+          "name": "Vicuña",
+          "wikipedia_slug": "Vicuña,_Chile"
+        },
+        {
+          "name": "Puclaro Reservoir"
+        }
+      ],
+      "blurb": "A narrow green river valley cut into brown desert hills, terraced with vineyards for the grape brandy Chile and Peru both claim. It is also one of the clearest night skies anywhere, which is why the hilltops around it carry international observatories.",
+      "fun_fact": "The valley is at the heart of Chile's first International Dark Sky Sanctuary — outdoor lighting for hundreds of kilometres around is regulated by law to protect the telescopes.",
+      "hidden_gem_tip": "Stay in Pisco Elqui rather than Vicuña, and walk out of the village after moonset — you do not need a tour to see the Milky Way here.",
+      "monuments": [
+        {
+          "name": "Elqui Valley",
+          "yt": "-bxi2sNQuFw",
+          "start": 0,
+          "source": "auto",
+          "title": "ELQUI VALLEY (Trying Pisco & canpervan life) - CHILE CAMPERVAN SERIES - BACKPACK CHILE 🇨🇱",
+          "height": 1080
+        },
+        {
+          "name": "Vicuña",
+          "yt": "lTqZr7hyAo8",
+          "start": 0,
+          "source": "auto",
+          "title": "Caminando por Vicuña Mackenna 🇨🇱 | Centro de La Florida en 4K | Chile POV Walk",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "chiloe",
+      "name": "Chiloé",
+      "country": "Chile",
+      "country_code": "CL",
+      "country_flag": "🇨🇱",
+      "continent": "South America",
+      "region": "Los Lagos Region",
+      "type": "island",
+      "tag": "hidden",
+      "emoji": "⛪",
+      "coordinates": {
+        "lat": -42.6,
+        "lng": -73.95
+      },
+      "street_view": {
+        "lat": -42.6,
+        "lng": -73.95,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Chiloé_Archipelago",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Churches of Chiloé",
+          "wikipedia_slug": "Churches_of_Chiloé"
+        },
+        {
+          "name": "Castro",
+          "wikipedia_slug": "Castro,_Chile"
+        },
+        {
+          "name": "Palafitos"
+        },
+        {
+          "name": "Chiloé National Park",
+          "wikipedia_slug": "Chiloé_National_Park"
+        }
+      ],
+      "blurb": "A green, wet, wooded archipelago off southern Chile that spent centuries half cut off from the mainland and developed its own everything — architecture, mythology, potato varieties. The wooden churches the Jesuits built here are shipwright's work, not masons'.",
+      "fun_fact": "Sixteen of Chiloé's wooden churches are UNESCO World Heritage: they were built entirely of native timber with wooden pegs instead of nails, by boatbuilders using boatbuilding joints.",
+      "hidden_gem_tip": "Castro's palafitos — houses on stilts over the tidal channel — are best seen from the Gamboa bridge two hours either side of low water.",
+      "monuments": [
+        {
+          "name": "Churches of Chiloé",
+          "yt": "-GJiNPRveqg",
+          "start": 0,
+          "source": "auto",
+          "title": "Panamericana Ep33 - The wooden churches of Chiloe, UNESCO World Heritage. BMW G650 XCountry",
+          "height": 1080
+        },
+        {
+          "name": "Castro",
+          "yt": "UuOZup7L9Q8",
+          "start": 0,
+          "source": "auto",
+          "title": "Castro, Chiloé (4K) - Chile | Tour a pie",
+          "height": 2160
+        },
+        {
+          "name": "Palafitos",
+          "yt": "SKDVjXdG2ac",
+          "start": 0,
+          "source": "auto",
+          "title": "CHILOÉ Y SUS CASAS EN PALAFITOS - DRONE EN 4K",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "puerto-varas",
+      "name": "Puerto Varas",
+      "country": "Chile",
+      "country_code": "CL",
+      "country_flag": "🇨🇱",
+      "continent": "South America",
+      "region": "Los Lagos Region",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🌋",
+      "coordinates": {
+        "lat": -41.3178,
+        "lng": -72.9827
+      },
+      "street_view": {
+        "lat": -41.3178,
+        "lng": -72.9827,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Puerto_Varas",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Osorno",
+          "wikipedia_slug": "Osorno_(volcano)"
+        },
+        {
+          "name": "Llanquihue Lake",
+          "wikipedia_slug": "Llanquihue_Lake"
+        },
+        {
+          "name": "Petrohué Falls",
+          "wikipedia_slug": "Petrohué_Waterfalls"
+        },
+        {
+          "name": "Vicente Pérez Rosales National Park",
+          "wikipedia_slug": "Vicente_Pérez_Rosales_National_Park"
+        }
+      ],
+      "blurb": "A town of German-settler timber houses on the shore of Chile's second-largest lake, with the near-perfect cone of Osorno standing across the water. The start of the Chilean lake district, and of the boat-and-bus crossing over the Andes into Argentina.",
+      "fun_fact": "The lake crossing to Bariloche has run since 1913 and is still the only way through this stretch of the Andes — there is no road.",
+      "hidden_gem_tip": "The volcano is usually clearest first thing; by afternoon the lake throws up cloud and Osorno vanishes for the rest of the day.",
+      "monuments": [
+        {
+          "name": "Osorno",
+          "yt": "v8IKUPQ59Yg",
+          "start": 0,
+          "source": "auto",
+          "title": "LAGO LLANQUIHUE - PUERTO VARAS - VOLCÁN OSORNO - CHILE (4K)",
+          "height": 2160
+        },
+        {
+          "name": "Llanquihue Lake",
+          "yt": "R2W3OS_tUNw",
+          "start": 0,
+          "source": "auto",
+          "title": "What to do in Puerto Varas, Chile | Lake Llanquihue, Osorno Volcano & Petrohué Falls",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "valdivia",
+      "name": "Valdivia",
+      "country": "Chile",
+      "country_code": "CL",
+      "country_flag": "🇨🇱",
+      "continent": "South America",
+      "region": "Los Ríos Region",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🦭",
+      "coordinates": {
+        "lat": -39.8142,
+        "lng": -73.2459
+      },
+      "street_view": {
+        "lat": -39.8142,
+        "lng": -73.2459,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Valdivia",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Feria Fluvial"
+        },
+        {
+          "name": "Fort Niebla",
+          "wikipedia_slug": "Niebla,_Chile"
+        },
+        {
+          "name": "Corral Bay"
+        },
+        {
+          "name": "Calle-Calle River"
+        }
+      ],
+      "blurb": "A river city in the Chilean south, founded in 1552, flattened by the largest earthquake ever recorded, and rebuilt as a university town of riverside markets and Valdivian rainforest on its doorstep.",
+      "fun_fact": "The 1960 Valdivia earthquake measured magnitude 9.5, the strongest ever instrumentally recorded; it dropped parts of the city several metres and sent a tsunami all the way to Japan.",
+      "hidden_gem_tip": "Sea lions haul out at the Feria Fluvial fish market and wait for scraps — go mid-morning when the stalls are gutting the catch.",
+      "monuments": [
+        {
+          "name": "Feria Fluvial",
+          "yt": "ofbq7B_WXgs",
+          "start": 0,
+          "source": "auto",
+          "title": "Valdivia, Feria Fluvial, Museos y Castillos - Vicente Rojas",
+          "height": 1080
+        },
+        {
+          "name": "Fort Niebla",
+          "yt": "uDdkRJYyA7E",
+          "start": 0,
+          "source": "auto",
+          "title": "Lighthouse of the Niebla fort at Valdivia City, Chile",
+          "height": 1080
+        },
+        {
+          "name": "Calle-Calle River",
+          "yt": "41QRBBlmxYs",
+          "start": 0,
+          "source": "auto",
+          "title": "Calle Calle river in Valdivia Province, Chile",
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "torres-del-paine",
+      "name": "Torres del Paine",
+      "country": "Chile",
+      "country_code": "CL",
+      "country_flag": "🇨🇱",
+      "continent": "South America",
+      "region": "Magallanes Region",
+      "type": "mountain",
+      "tag": "famous",
+      "emoji": "🏔️",
+      "coordinates": {
+        "lat": -50.98305556,
+        "lng": -72.96638889
+      },
+      "street_view": {
+        "lat": -50.98305556,
+        "lng": -72.96638889,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Torres_del_Paine_National_Park",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Cuernos del Paine",
+          "wikipedia_slug": "Cuernos_del_Paine"
+        },
+        {
+          "name": "Grey Glacier",
+          "wikipedia_slug": "Grey_Glacier"
+        },
+        {
+          "name": "Lake Pehoé",
+          "wikipedia_slug": "Lake_Pehoé"
+        },
+        {
+          "name": "Base of the Towers"
+        }
+      ],
+      "blurb": "Granite towers standing straight out of the Patagonian steppe at the bottom of the continent, ringed by turquoise lakes and a glacier coming off the Southern Patagonian Ice Field. The wind is the thing nobody warns you about properly.",
+      "fun_fact": "The dark bands capping the Cuernos are the older rock the granite was forced up into — the mountains are effectively upside down, with the ancient sedimentary layer sitting on top of the younger intrusion.",
+      "hidden_gem_tip": "The W trek's first leg to the towers' base is doable as a long day walk from Torres Central, so you can see the signature view without carrying a tent.",
+      "monuments": [
+        {
+          "name": "Cuernos del Paine",
+          "yt": "jcHFhgIsnCA",
+          "start": 0,
+          "source": "auto",
+          "title": "W Trek: Cuernos to Chileno // Torres del Paine Patagonia",
+          "height": 2160
+        },
+        {
+          "name": "Grey Glacier",
+          "yt": "jBtMqvHHcqE",
+          "start": 0,
+          "source": "auto",
+          "title": "PATAGONIA in 4K | Torres del Paine, Grey Glacier, O Circuit & Fitz Roy",
+          "height": 2160
+        },
+        {
+          "name": "Lake Pehoé",
+          "yt": "2vYFWSZlEik",
+          "start": 0,
+          "source": "auto",
+          "title": "PATAGONIA | Salto Chico and Lake Pehoé | Nature sounds, 4K",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "punta-arenas",
+      "name": "Punta Arenas",
+      "country": "Chile",
+      "country_code": "CL",
+      "country_flag": "🇨🇱",
+      "continent": "South America",
+      "region": "Magallanes Region",
+      "type": "coastal",
+      "tag": "hidden",
+      "emoji": "🐧",
+      "coordinates": {
+        "lat": -53.1625,
+        "lng": -70.90805555555555
+      },
+      "street_view": {
+        "lat": -53.1625,
+        "lng": -70.90805555555555,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Punta_Arenas",
+      "sounds": [
+        "wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Strait of Magellan",
+          "wikipedia_slug": "Strait_of_Magellan"
+        },
+        {
+          "name": "Magdalena Island",
+          "wikipedia_slug": "Magdalena_Island,_Magallanes_Region"
+        },
+        {
+          "name": "Plaza Muñoz Gamero"
+        },
+        {
+          "name": "Cerro de la Cruz"
+        }
+      ],
+      "blurb": "One of the southernmost cities on Earth, on the Strait of Magellan — a wool-and-shipping boomtown before the Panama Canal, now the way in to Patagonia and out to Antarctica. Mansions built on sheep money line a square planted with wind-bent conifers.",
+      "fun_fact": "Before 1914 every ship between the Atlantic and Pacific came through the Strait, and Punta Arenas grew rich coaling them; the canal took the traffic and the town has never been that busy since.",
+      "hidden_gem_tip": "The Magdalena Island ferry runs December to February and lands you in the middle of a colony of over 100,000 Magellanic penguins.",
+      "monuments": [
+        {
+          "name": "Strait of Magellan",
+          "yt": "5tGKXkvTgZg",
+          "start": 0,
+          "source": "auto",
+          "title": "Chilean Patagonia's First Fort | Fort Bulnes & The Strait of Magellan | Punta Arenas, Chile",
+          "height": 2160
+        },
+        {
+          "name": "Magdalena Island",
+          "yt": "p7-8YxbF0xk",
+          "start": 0,
+          "source": "auto",
+          "title": "Punta Arenas & Magdalena Island",
+          "height": 2160
+        },
+        {
+          "name": "Plaza Muñoz Gamero",
+          "yt": "cYQEy-h8jmo",
+          "start": 0,
+          "source": "auto",
+          "title": "Plaza Muñoz Gamero, Magallanes, Chile. (4KUHD)",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "caracas",
+      "name": "Caracas",
+      "country": "Venezuela",
+      "country_code": "VE",
+      "country_flag": "🇻🇪",
+      "continent": "South America",
+      "region": "Capital District",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏙️",
+      "coordinates": {
+        "lat": 10.50611111111111,
+        "lng": -66.91444444444444
+      },
+      "street_view": {
+        "lat": 10.50611111111111,
+        "lng": -66.91444444444444,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Caracas",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Plaza Bolívar",
+          "wikipedia_slug": "Bolívar_Square_(Caracas)"
+        },
+        {
+          "name": "El Ávila",
+          "wikipedia_slug": "El_Ávila_National_Park"
+        },
+        {
+          "name": "Teatro Teresa Carreño",
+          "wikipedia_slug": "Teresa_Carreño_Cultural_Complex"
+        },
+        {
+          "name": "Ciudad Universitaria de Caracas",
+          "wikipedia_slug": "University_City_of_Caracas"
+        }
+      ],
+      "blurb": "Venezuela's capital fills a long narrow valley at 900 m, separated from the Caribbean by the green wall of the Ávila — a national park that rises straight off the northern edge of the city to 2,600 m. Oil money built the towers and the motorways in a single generation.",
+      "fun_fact": "The Ciudad Universitaria campus is a UNESCO World Heritage Site: Carlos Raúl Villanueva designed it in the 1940s and 50s as one continuous work of art, with murals and sculpture by Léger, Arp and Calder built into the buildings.",
+      "hidden_gem_tip": "The Warairarepano cable car climbs the Ávila from the city to the ridge in fifteen minutes, and the temperature drops about ten degrees on the way up.",
+      "monuments": [
+        {
+          "name": "El Ávila",
+          "yt": "yxSm15dEZDs",
+          "start": 0,
+          "source": "auto",
+          "title": "Así se veía Caracas ANTES | Terrazas del Ávila, Parque Comercial y más en 4K",
+          "height": 2160
+        },
+        {
+          "name": "Teatro Teresa Carreño",
+          "yt": "9ETGdd2qdK8",
+          "start": 0,
+          "source": "auto",
+          "title": "Cascanueces Teatro Teresa Carreño-Caracas Venezuela  Bellas Artes 💫🇻🇪",
+          "height": 2160
+        },
+        {
+          "name": "Ciudad Universitaria de Caracas",
+          "yt": "kAPFe_yRjDA",
+          "start": 0,
+          "source": "auto",
+          "title": "CARACAS VENEZUELA 4K: De la Ciudad Universitaria a Los Próceres | 4K 60fps 🇻🇪",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "angel-falls",
+      "name": "Angel Falls",
+      "country": "Venezuela",
+      "country_code": "VE",
+      "country_flag": "🇻🇪",
+      "continent": "South America",
+      "region": "Bolívar",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "💧",
+      "coordinates": {
+        "lat": 5.970055555555556,
+        "lng": -62.53622222222222
+      },
+      "street_view": {
+        "lat": 5.970055555555556,
+        "lng": -62.53622222222222,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Angel_Falls",
+      "sounds": [
+        "waterfall.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Auyán-tepui",
+          "wikipedia_slug": "Auyán-tepui"
+        },
+        {
+          "name": "Canaima National Park",
+          "wikipedia_slug": "Canaima_National_Park"
+        },
+        {
+          "name": "Canaima Lagoon"
+        }
+      ],
+      "blurb": "The highest uninterrupted waterfall on Earth — 979 m off the rim of Auyán-tepui, a flat-topped mountain in the Venezuelan Gran Sabana. It falls so far that in the dry season most of it becomes mist before it reaches the bottom.",
+      "fun_fact": "It is named after Jimmie Angel, a US pilot who landed on top of the tepui in 1937 looking for gold and sank his plane in the mud; the aircraft sat up there for 33 years before it was lifted out.",
+      "hidden_gem_tip": "The falls only really run from about June to November. Outside the wet season the river is too low for the boats that get you close.",
+      "monuments": [
+        {
+          "name": "Canaima National Park",
+          "yt": "krRTIDOPB7s",
+          "start": 0,
+          "source": "auto",
+          "title": "Come With Us To Canaima National Park in Venezuela ⛰️ 🇻🇪",
+          "height": 2160
+        },
+        {
+          "name": "Canaima Lagoon",
+          "yt": "juiZInkxpuE",
+          "start": 0,
+          "source": "auto",
+          "title": "Hacha Falls, Canaima Lagoon, Venezuela. 360 video in 5K.",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "mount-roraima",
+      "name": "Mount Roraima",
+      "country": "Venezuela",
+      "country_code": "VE",
+      "country_flag": "🇻🇪",
+      "continent": "South America",
+      "region": "Bolívar",
+      "type": "mountain",
+      "tag": "famous",
+      "emoji": "🗻",
+      "coordinates": {
+        "lat": 5.141944444444444,
+        "lng": -60.76416666666667
+      },
+      "street_view": {
+        "lat": 5.141944444444444,
+        "lng": -60.76416666666667,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Mount_Roraima",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Gran Sabana",
+          "wikipedia_slug": "Gran_Sabana"
+        },
+        {
+          "name": "Kukenán Tepui",
+          "wikipedia_slug": "Kukenán-tepui"
+        },
+        {
+          "name": "La Rampa"
+        }
+      ],
+      "blurb": "A 31 km² sandstone table standing 400 m above the savanna where Venezuela, Brazil and Guyana meet — the best known of the tepuis, and one of the oldest exposed rock surfaces on the planet at around two billion years. The top is a wet black moonscape of its own.",
+      "fun_fact": "Roraima's summit is thought to have inspired Conan Doyle's *The Lost World*, and it really does hold species found nowhere else, isolated up there since the plateau eroded away around them.",
+      "hidden_gem_tip": "A single natural ramp on the Venezuelan side is the only walk-up route to the summit — everything else is vertical, and the trek takes about six days round trip from Paraitepui.",
+      "monuments": [
+        {
+          "name": "Gran Sabana",
+          "yt": "z7Xaq-aOjNY",
+          "start": 0,
+          "source": "auto",
+          "title": "Gran Sabana - Salto Yaruani Ep. 27 #venezuela",
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "id": "merida",
+      "name": "Mérida",
+      "country": "Venezuela",
+      "country_code": "VE",
+      "country_flag": "🇻🇪",
+      "continent": "South America",
+      "region": "Mérida State",
+      "type": "mountain",
+      "tag": "hidden",
+      "emoji": "🚡",
+      "coordinates": {
+        "lat": 8.57018,
+        "lng": -71.180189
+      },
+      "street_view": {
+        "lat": 8.57018,
+        "lng": -71.180189,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Mérida,_Mérida",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Mukumbarí cable car",
+          "wikipedia_slug": "Mérida_cable_car"
+        },
+        {
+          "name": "Pico Bolívar",
+          "wikipedia_slug": "Pico_Bolívar"
+        },
+        {
+          "name": "Sierra Nevada National Park",
+          "wikipedia_slug": "Sierra_Nevada_National_Park_(Venezuela)"
+        },
+        {
+          "name": "Los Nevados"
+        }
+      ],
+      "blurb": "A university town at 1,600 m in the Venezuelan Andes, under the country's highest peaks, with a permanently mild climate and a student population that keeps it lively. The mountains behind it hold Venezuela's last glaciers — what is left of them.",
+      "fun_fact": "The Mukumbarí cable car is the highest and longest in the world: four stages, 12.5 km, ending at 4,765 m on Pico Espejo.",
+      "hidden_gem_tip": "Book the cable car for the first departure. Cloud usually fills the upper stages by late morning and the top station closes when it does.",
+      "monuments": [
+        {
+          "name": "Mukumbarí cable car",
+          "yt": "bX-RawMESWI",
+          "start": 0,
+          "source": "auto",
+          "title": "Experiencing record-breaking Merida Cable Car, Mukumbarí (Teleférico de Mérida) and festivals!",
+          "height": 1080
+        },
+        {
+          "name": "Pico Bolívar",
+          "yt": "OAg_g4jyrmw",
+          "start": 0,
+          "source": "auto",
+          "title": "Pico Bolivar 4.978 M.S.N.M - Sierra Nevada Mérida, Venezuela",
+          "height": 1080
+        },
+        {
+          "name": "Sierra Nevada National Park",
+          "yt": "U6mf0eiDCMU",
+          "start": 0,
+          "source": "auto",
+          "title": "Deforestation in Venezuela’s Sierra Nevada National Park",
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "id": "los-roques",
+      "name": "Los Roques",
+      "country": "Venezuela",
+      "country_code": "VE",
+      "country_flag": "🇻🇪",
+      "continent": "South America",
+      "region": "Federal Dependencies",
+      "type": "island",
+      "tag": "hidden",
+      "emoji": "🏝️",
+      "coordinates": {
+        "lat": 11.83333,
+        "lng": -66.75
+      },
+      "street_view": {
+        "lat": 11.83333,
+        "lng": -66.75,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Los_Roques_Archipelago",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Gran Roque"
+        },
+        {
+          "name": "Cayo de Agua"
+        },
+        {
+          "name": "Francisquí"
+        }
+      ],
+      "blurb": "A coral archipelago 160 km north of the Venezuelan coast — roughly 350 islands and cays inside a barrier reef, almost all of them uninhabited sand. Everyone stays on Gran Roque, the one island with a village, and takes a boat somewhere different each morning.",
+      "fun_fact": "The whole archipelago is a national park and one of the largest marine reserves in the Caribbean; fishing is restricted to the local community and the sand streets of Gran Roque have almost no cars.",
+      "hidden_gem_tip": "Boats are shared and priced by island, so ask which cay the boatmen are going to before you pick where to spend the day.",
+      "monuments": [
+        {
+          "name": "Gran Roque",
+          "yt": "De5OM86WXWk",
+          "start": 0,
+          "source": "auto",
+          "title": "¿Dónde dormir en Los Roques?  El Gran Roque de Día y Noche | Venezuela 4K",
+          "height": 2160
+        },
+        {
+          "name": "Cayo de Agua",
+          "yt": "pz6qcHl2NCs",
+          "start": 0,
+          "source": "auto",
+          "title": "🇻🇪 Los Roques: ¡Navegando en Cayo de Agua!  Crasqui y Dos Mosquises🏝️",
+          "height": 2160
+        },
+        {
+          "name": "Francisquí",
+          "yt": "idmmrpwMqsk",
+          "start": 0,
+          "source": "auto",
+          "title": "Conociendo a la Virgen de El Valle en Francisquí - Snorkel en Los Roques",
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "id": "georgetown-guyana",
+      "name": "Georgetown",
+      "country": "Guyana",
+      "country_code": "GY",
+      "country_flag": "🇬🇾",
+      "continent": "South America",
+      "region": "Demerara-Mahaica",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "⛪",
+      "coordinates": {
+        "lat": 6.805833333333333,
+        "lng": -58.15083333333333
+      },
+      "street_view": {
+        "lat": 6.805833333333333,
+        "lng": -58.15083333333333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Georgetown,_Guyana",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "St George's Cathedral",
+          "wikipedia_slug": "St._George's_Cathedral,_Georgetown"
+        },
+        {
+          "name": "Stabroek Market",
+          "wikipedia_slug": "Stabroek_Market"
+        },
+        {
+          "name": "Guyana National Museum",
+          "wikipedia_slug": "Guyana_National_Museum"
+        },
+        {
+          "name": "Promenade Gardens"
+        }
+      ],
+      "blurb": "The capital of the only English-speaking country in South America, laid out by the Dutch and built by the British in white-painted timber. Most of it sits below sea level behind a sea wall and a grid of drainage canals that still run down the middle of the avenues.",
+      "fun_fact": "St George's Cathedral is one of the tallest wooden buildings in the world at about 43 m, built entirely of local greenheart timber and consecrated in 1894.",
+      "hidden_gem_tip": "Walk the sea wall in the early evening, when the whole city comes out to it — and look at the Stabroek Market clock tower, which is cast iron shipped in and bolted together on site.",
+      "monuments": [
+        {
+          "name": "St George's Cathedral",
+          "yt": "7n_KQTu3gUA",
+          "start": 0,
+          "source": "auto",
+          "title": "ST GEORGE’S CATHEDRAL, KINGSTOWN, ST VINCENT; Memorials, their Meanings & Significance",
+          "height": 1440
+        },
+        {
+          "name": "Stabroek Market",
+          "yt": "FDtCqLNEejM",
+          "start": 0,
+          "source": "auto",
+          "title": "🇬🇾 Busy Georgetown & Stabroek Markets - Guyana - 【4K 60fps】",
+          "height": 2160
+        },
+        {
+          "name": "Guyana National Museum",
+          "yt": "V7hGefoWKqk",
+          "start": 0,
+          "source": "auto",
+          "title": "One of Guyana's Historical Places | NATIONAL ( MUSEUM)",
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "kaieteur-falls",
+      "name": "Kaieteur Falls",
+      "country": "Guyana",
+      "country_code": "GY",
+      "country_flag": "🇬🇾",
+      "continent": "South America",
+      "region": "Potaro-Siparuni",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "💦",
+      "coordinates": {
+        "lat": 5.1781111111111,
+        "lng": -59.482277777778
+      },
+      "street_view": {
+        "lat": 5.1781111111111,
+        "lng": -59.482277777778,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Kaieteur_Falls",
+      "sounds": [
+        "waterfall.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Kaieteur National Park",
+          "wikipedia_slug": "Kaieteur_National_Park"
+        },
+        {
+          "name": "Potaro River",
+          "wikipedia_slug": "Potaro_River"
+        },
+        {
+          "name": "Golden rocket frog"
+        }
+      ],
+      "blurb": "The Potaro River falls 226 m in one clear drop in the middle of the Guyanese rainforest — about four times the height of Niagara, with a fraction of the infrastructure. There is a grass airstrip, a footpath and no railings.",
+      "fun_fact": "Kaieteur is often called the world's largest single-drop waterfall by volume, and the tiny golden rocket frog lives out its entire life in the pools of the giant tank bromeliads growing beside it.",
+      "hidden_gem_tip": "It is a day trip by light aircraft from Georgetown and the flight is weather-dependent — leave a spare day in the plan, because trips get turned back regularly.",
+      "monuments": [
+        {
+          "name": "Kaieteur National Park",
+          "yt": "qzzi_sCsHkE",
+          "start": 0,
+          "source": "auto",
+          "title": "The Majestic Kaieteur Falls & National Park Guyana - The World's largest single drop waterfalls",
+          "height": 1080
+        },
+        {
+          "name": "Potaro River",
+          "yt": "mZCMqyRmF2M",
+          "start": 0,
+          "source": "auto",
+          "title": "Potaro River",
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "id": "paramaribo",
+      "name": "Paramaribo",
+      "country": "Suriname",
+      "country_code": "SR",
+      "country_flag": "🇸🇷",
+      "continent": "South America",
+      "region": "Paramaribo District",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🏘️",
+      "coordinates": {
+        "lat": 5.8666666666667,
+        "lng": -55.166666666667
+      },
+      "street_view": {
+        "lat": 5.8666666666667,
+        "lng": -55.166666666667,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Paramaribo",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Fort Zeelandia",
+          "wikipedia_slug": "Fort_Zeelandia_(Paramaribo)"
+        },
+        {
+          "name": "Saint Peter and Paul Cathedral",
+          "wikipedia_slug": "Saint_Peter_and_Paul_Cathedral,_Paramaribo"
+        },
+        {
+          "name": "Waterkant"
+        },
+        {
+          "name": "Neveh Shalom Synagogue",
+          "wikipedia_slug": "Neveh_Shalom_Synagogue"
+        }
+      ],
+      "blurb": "A Dutch colonial capital on the Suriname River built almost entirely in white-painted wood, and the most mixed city on the continent — Dutch, Javanese, Hindustani, Creole, Maroon and Chinese, with the languages and the food to match.",
+      "fun_fact": "Paramaribo's wooden Saint Peter and Paul Cathedral is one of the largest timber buildings in the Americas — and a mosque and a synagogue stand side by side on Keizerstraat, sharing a car park.",
+      "hidden_gem_tip": "Walk the Waterkant riverfront at dusk when the food stalls set up; the whole historic centre is UNESCO-listed and takes about an hour to cross on foot.",
+      "monuments": [
+        {
+          "name": "Fort Zeelandia",
+          "yt": "HOR3xetxYPw",
+          "start": 0,
+          "source": "auto",
+          "title": "FORT ZEELANDIA PARAMARIBO | RAKI TV #PinoyAbroad #suriname",
+          "height": 2160
+        },
+        {
+          "name": "Saint Peter and Paul Cathedral",
+          "yt": "piJGzcHx1ho",
+          "start": 0,
+          "source": "auto",
+          "title": "Saint Peter and Paul Cathedral,Paramaribo",
+          "height": 2160
+        },
+        {
+          "name": "Waterkant",
+          "yt": "ZuMmrVVlAxE",
+          "start": 0,
+          "source": "auto",
+          "title": "Paramaribo City Waterkant Suriname",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "brownsberg",
+      "name": "Brownsberg Nature Park",
+      "country": "Suriname",
+      "country_code": "SR",
+      "country_flag": "🇸🇷",
+      "continent": "South America",
+      "region": "Brokopondo District",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🌳",
+      "coordinates": {
+        "lat": 4.943,
+        "lng": -55.176
+      },
+      "street_view": {
+        "lat": 4.943,
+        "lng": -55.176,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Brownsberg_Nature_Park",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Brokopondo Reservoir",
+          "wikipedia_slug": "Brokopondo_Reservoir"
+        },
+        {
+          "name": "Leo Falls"
+        },
+        {
+          "name": "Mazaroni Plateau"
+        }
+      ],
+      "blurb": "A forested plateau 500 m above the Surinamese interior, looking out over one of the largest reservoirs in the world. Howler monkeys, eight primate species and several hundred bird species live in the rainforest around the ridge.",
+      "fun_fact": "The Brokopondo Reservoir below the park flooded 1,560 km² of forest in the 1960s to power an aluminium smelter — dead trees still stand out of the water across much of it.",
+      "hidden_gem_tip": "Stay overnight at the plateau lodge. The howler monkeys start before dawn and they are the loudest land animal in the Americas.",
+      "monuments": [
+        {
+          "name": "Brokopondo Reservoir",
+          "yt": "nTdG1_6pXmU",
+          "start": 0,
+          "source": "auto",
+          "title": "Exploring waterfall that flows from the Brownsberg to the Brokopondo reservoir - Suriname",
+          "height": 1080
+        },
+        {
+          "name": "Leo Falls",
+          "yt": "vBCCcskSGjE",
+          "start": 0,
+          "source": "auto",
+          "title": "Leo and Irene Falls at Brownsberg After 4 Years  🇸🇷",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "sao-paulo",
+      "name": "São Paulo",
+      "country": "Brazil",
+      "country_code": "BR",
+      "country_flag": "🇧🇷",
+      "continent": "South America",
+      "region": "São Paulo",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🌆",
+      "coordinates": {
+        "lat": -23.550394444444,
+        "lng": -46.633947222222
+      },
+      "street_view": {
+        "lat": -23.550394444444,
+        "lng": -46.633947222222,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "São_Paulo",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Avenida Paulista",
+          "wikipedia_slug": "Paulista_Avenue"
+        },
+        {
+          "name": "Ibirapuera Park",
+          "wikipedia_slug": "Ibirapuera_Park"
+        },
+        {
+          "name": "Theatro Municipal",
+          "wikipedia_slug": "Theatro_Municipal_(São_Paulo)"
+        },
+        {
+          "name": "Mercado Municipal",
+          "wikipedia_slug": "Municipal_Market_of_São_Paulo"
+        },
+        {
+          "name": "Edifício Copan",
+          "wikipedia_slug": "Edifício_Copan"
+        }
+      ],
+      "blurb": "The largest city in the Americas and the engine of Brazil — 12 million people in the city, 22 million in the sprawl, and a skyline of raw concrete towers that runs to the horizon in every direction. It is a working city rather than a beautiful one, and it eats better than anywhere else on the continent.",
+      "fun_fact": "São Paulo banned outdoor advertising outright in 2007 — billboards, shop-front signage, transit ads — and the 'Clean City Law' stripped roughly 15,000 billboards off the streets in a year.",
+      "hidden_gem_tip": "Avenida Paulista closes to traffic every Sunday and fills with cyclists, buskers and food carts end to end.",
+      "monuments": [
+        {
+          "name": "Avenida Paulista",
+          "yt": "zPkfMRUQz0U",
+          "start": 0,
+          "source": "auto",
+          "title": "Avenida Paulista Walking Tour | São Paulo, Brazil [4K 60fps]",
+          "height": 2160
+        },
+        {
+          "name": "Ibirapuera Park",
+          "yt": "_Wfg8PqvKpo",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking Tour 4K | Ibirapuera Park, São Paulo - Brazil",
+          "height": 2160
+        },
+        {
+          "name": "Theatro Municipal",
+          "yt": "cxfDMKa0jxY",
+          "start": 0,
+          "source": "auto",
+          "title": "Downtown São Paulo Walking Tour | Theatro Municipal, República & Copan | 4K",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "salvador",
+      "name": "Salvador",
+      "country": "Brazil",
+      "country_code": "BR",
+      "country_flag": "🇧🇷",
+      "continent": "South America",
+      "region": "Bahia",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🥁",
+      "coordinates": {
+        "lat": -12.983055555555556,
+        "lng": -38.492777777777775
+      },
+      "street_view": {
+        "lat": -12.983055555555556,
+        "lng": -38.492777777777775,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Salvador,_Bahia",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Pelourinho",
+          "wikipedia_slug": "Historic_Center_of_Salvador"
+        },
+        {
+          "name": "Elevador Lacerda",
+          "wikipedia_slug": "Elevador_Lacerda"
+        },
+        {
+          "name": "Church of São Francisco"
+        },
+        {
+          "name": "Barra Lighthouse",
+          "wikipedia_slug": "Barra_Lighthouse"
+        },
+        {
+          "name": "Mercado Modelo",
+          "wikipedia_slug": "Modelo_Market"
+        }
+      ],
+      "blurb": "Brazil's first capital, built on a cliff above the Bay of All Saints, and the centre of Afro-Brazilian culture — candomblé, capoeira, and a drum-led music you hear from three streets away. The upper and lower towns are joined by a 1873 public lift.",
+      "fun_fact": "The gilded interior of the Church of São Francisco is said to hold somewhere around half a tonne of gold leaf, applied over carved cedar in the 18th century.",
+      "hidden_gem_tip": "Take the Elevador Lacerda down at sunset for the price of a few coins, then look back up at the cliff with the whole old city on it.",
+      "monuments": [
+        {
+          "name": "Pelourinho",
+          "yt": "v6hhjSU8obc",
+          "start": 0,
+          "source": "auto",
+          "title": "Pelourinho: WALKING TOUR of Salvador's historical center",
+          "height": 2160
+        },
+        {
+          "name": "Elevador Lacerda",
+          "yt": "uE5r9IN0BHg",
+          "start": 0,
+          "source": "auto",
+          "title": "SALVADOR BAHIA - ELEVADOR LACERDA - VISÃO DA JANELA DO BUZU, DO BAIRRO COMÉRCIO ATÉ ESTAÇÃO PIRAJÁ",
+          "height": 2160
+        },
+        {
+          "name": "Church of São Francisco",
+          "yt": "WWPieB0t_LQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Salvador Brazil | Historic Old Town & Sao Francisco Church | Pelourinho",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "brasilia",
+      "name": "Brasília",
+      "country": "Brazil",
+      "country_code": "BR",
+      "country_flag": "🇧🇷",
+      "continent": "South America",
+      "region": "Federal District",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🛸",
+      "coordinates": {
+        "lat": -15.793888888889,
+        "lng": -47.882777777778
+      },
+      "street_view": {
+        "lat": -15.793888888889,
+        "lng": -47.882777777778,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Brasília",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Cathedral of Brasília",
+          "wikipedia_slug": "Cathedral_of_Brasília"
+        },
+        {
+          "name": "National Congress",
+          "wikipedia_slug": "Brazilian_National_Congress"
+        },
+        {
+          "name": "Palácio da Alvorada",
+          "wikipedia_slug": "Palácio_da_Alvorada"
+        },
+        {
+          "name": "Praça dos Três Poderes",
+          "wikipedia_slug": "Praça_dos_Três_Poderes"
+        },
+        {
+          "name": "Itamaraty Palace",
+          "wikipedia_slug": "Itamaraty_Palace"
+        }
+      ],
+      "blurb": "A capital designed from nothing on empty savanna and built in 41 months, opened in 1960. Lúcio Costa laid it out in the shape of an aircraft and Oscar Niemeyer filled it with white curved concrete; it is a modernist city plan you can still walk around inside.",
+      "fun_fact": "Brasília is the only city built in the 20th century to be inscribed as a UNESCO World Heritage Site — listed in 1987, less than 30 years after it opened.",
+      "hidden_gem_tip": "The cathedral is entered by a dark ramp that comes up into the light under the stained glass. Go in the middle of the day, when the roof is at its brightest.",
+      "monuments": [
+        {
+          "name": "Cathedral of Brasília",
+          "yt": "odx0NWaCn1c",
+          "start": 0,
+          "source": "auto",
+          "title": "🇧🇷 Driving Through Brasília, Brazil | Cathedral, Congress, JK Bridge & More | 4K Drive Tour",
+          "height": 2160
+        },
+        {
+          "name": "National Congress",
+          "yt": "zrp7USk_bvM",
+          "start": 0,
+          "source": "auto",
+          "title": "Brasília 4K Walking Tour | National Congress, Metropolitan Cathedral & Gov District | Brazil 🇧🇷",
+          "height": 2160
+        },
+        {
+          "name": "Palácio da Alvorada",
+          "yt": "7NrO1KlnAvc",
+          "start": 0,
+          "source": "auto",
+          "title": "PALÁCIO DA ALVORADA 4K - Brasília | Caminhada Virtual",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "manaus",
+      "name": "Manaus",
+      "country": "Brazil",
+      "country_code": "BR",
+      "country_flag": "🇧🇷",
+      "continent": "South America",
+      "region": "Amazonas",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🌳",
+      "coordinates": {
+        "lat": -3.118888888888889,
+        "lng": -60.02166666666667
+      },
+      "street_view": {
+        "lat": -3.118888888888889,
+        "lng": -60.02166666666667,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Manaus",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Amazon Theatre",
+          "wikipedia_slug": "Amazon_Theatre"
+        },
+        {
+          "name": "Meeting of Waters",
+          "wikipedia_slug": "Meeting_of_Waters"
+        },
+        {
+          "name": "Adolpho Lisboa Market",
+          "wikipedia_slug": "Mercado_Adolpho_Lisboa"
+        },
+        {
+          "name": "Rio Negro",
+          "wikipedia_slug": "Rio_Negro_(Amazon)"
+        }
+      ],
+      "blurb": "A city of two million in the middle of the Amazon rainforest, 1,500 km up the river from the sea and reachable by boat or plane only. The rubber boom made it absurdly rich for about thirty years, and the opera house is what that money left behind.",
+      "fun_fact": "Just downstream, the black Rio Negro and the sandy Solimões run side by side in the same channel for about 6 km without mixing — different temperatures, speeds and densities, with a visible line between them.",
+      "hidden_gem_tip": "The Amazon Theatre still runs a season, and daytime guided visits are cheap — the roof tiles were shipped in from Alsace and the curtain was painted in Paris.",
+      "monuments": [
+        {
+          "name": "Amazon Theatre",
+          "yt": "-ry93lExgwk",
+          "start": 0,
+          "source": "auto",
+          "title": "Amazon Theatre 4k",
+          "height": 2160
+        },
+        {
+          "name": "Meeting of Waters",
+          "yt": "w4Kr--npEl0",
+          "start": 0,
+          "source": "auto",
+          "title": "Meeting of the Waters Manaus Amazonas",
+          "height": 1440
+        },
+        {
+          "name": "Rio Negro",
+          "yt": "WVHWZxF6KYs",
+          "start": 0,
+          "source": "auto",
+          "title": "Ponte Rio Negro Manaus Amazonas 4k A Noite",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "ouro-preto",
+      "name": "Ouro Preto",
+      "country": "Brazil",
+      "country_code": "BR",
+      "country_flag": "🇧🇷",
+      "continent": "South America",
+      "region": "Minas Gerais",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "⛪",
+      "coordinates": {
+        "lat": -20.385277777778,
+        "lng": -43.503611111111
+      },
+      "street_view": {
+        "lat": -20.385277777778,
+        "lng": -43.503611111111,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Ouro_Preto",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Church of Saint Francis of Assisi",
+          "wikipedia_slug": "Church_of_Saint_Francis_of_Assisi_(Ouro_Preto)"
+        },
+        {
+          "name": "Praça Tiradentes"
+        },
+        {
+          "name": "Museu da Inconfidência",
+          "wikipedia_slug": "Museu_da_Inconfidência"
+        },
+        {
+          "name": "Mina da Passagem"
+        }
+      ],
+      "blurb": "A gold-rush town of steep cobbled streets and baroque churches in the mountains of Minas Gerais, barely altered since the 18th century. Half the gold that reached Europe in that period came out of these hills, and the town was for a while the largest in the Americas.",
+      "fun_fact": "Aleijadinho, the sculptor who shaped much of Minas baroque, progressively lost the use of his hands to disease and is said to have worked with the tools strapped to his wrists.",
+      "hidden_gem_tip": "Nothing here is flat. Start at Praça Tiradentes at the top and work downhill through the churches rather than the other way round.",
+      "monuments": [
+        {
+          "name": "Praça Tiradentes",
+          "yt": "cMUzEEScDxI",
+          "start": 0,
+          "source": "auto",
+          "title": "Centro da cidade de Ouro Preto - MG, Praça Tiradentes - FZ80",
+          "height": 2160
+        },
+        {
+          "name": "Museu da Inconfidência",
+          "yt": "SkJR_Nbeumk",
+          "start": 0,
+          "source": "auto",
+          "title": "MUSEU DA INCONFIDÊNCIA - OURO PRETO - MINAS GERAIS",
+          "height": 1080
+        },
+        {
+          "name": "Mina da Passagem",
+          "yt": "_XI-fSDuFWQ",
+          "start": 0,
+          "source": "auto",
+          "title": "🚙 BR | Dirigindo em MG: Ouro Preto ➜ Mina da Passagem (Mariana) | Driving in Brazil | V-00322D",
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "id": "paraty",
+      "name": "Paraty",
+      "country": "Brazil",
+      "country_code": "BR",
+      "country_flag": "🇧🇷",
+      "continent": "South America",
+      "region": "Rio de Janeiro",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "⛵",
+      "coordinates": {
+        "lat": -23.219444444444,
+        "lng": -44.714722222222
+      },
+      "street_view": {
+        "lat": -23.219444444444,
+        "lng": -44.714722222222,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Paraty",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Santa Rita Church"
+        },
+        {
+          "name": "Saco do Mamanguá"
+        },
+        {
+          "name": "Trindade"
+        },
+        {
+          "name": "Caminho do Ouro"
+        }
+      ],
+      "blurb": "A whitewashed colonial port on the coast between Rio and São Paulo, where the mountains come down to a bay full of islands. The centre is closed to cars and paved in irregular stones the sea washes over at the highest tides — the streets were designed to be flushed out.",
+      "fun_fact": "Paraty was the Atlantic end of the Caminho do Ouro, the mule road over the mountains that carried Minas Gerais gold down to the ships; stretches of the original stone paving are still walkable.",
+      "hidden_gem_tip": "Check the tide table. A spring high tide floods the historic grid on purpose, and boats can be tied up in the streets.",
+      "monuments": [
+        {
+          "name": "Saco do Mamanguá",
+          "yt": "FABW4v3eUS8",
+          "start": 0,
+          "source": "auto",
+          "title": "SACO DO MAMANGUÁ- PARATY MIRIM RJ   (PRAIAS PARADISÍACAS )",
+          "height": 2160
+        },
+        {
+          "name": "Trindade",
+          "yt": "GsTahdfQRUM",
+          "start": 0,
+          "source": "auto",
+          "title": "Trindade, Paraty (Brazil) - Day Trip to Natural Pool, Wild Beaches & Jungle Trails (4K)",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "florianopolis",
+      "name": "Florianópolis",
+      "country": "Brazil",
+      "country_code": "BR",
+      "country_flag": "🇧🇷",
+      "continent": "South America",
+      "region": "Santa Catarina",
+      "type": "coastal",
+      "tag": "famous",
+      "emoji": "🏄",
+      "coordinates": {
+        "lat": -27.593280555556,
+        "lng": -48.553047222222
+      },
+      "street_view": {
+        "lat": -27.593280555556,
+        "lng": -48.553047222222,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Florianópolis",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Hercílio Luz Bridge",
+          "wikipedia_slug": "Hercílio_Luz_Bridge"
+        },
+        {
+          "name": "Lagoa da Conceição",
+          "wikipedia_slug": "Lagoa_da_Conceição"
+        },
+        {
+          "name": "Joaquina Beach"
+        },
+        {
+          "name": "Santo Antônio de Lisboa"
+        }
+      ],
+      "blurb": "Half of this city is on the mainland and most of it is on an island with 42 beaches — surf on the Atlantic side, calm water and Azorean fishing villages on the other. Brazilians call it Floripa and a lot of them move here.",
+      "fun_fact": "The Hercílio Luz Bridge, opened in 1926, is the longest eyebar-chain suspension bridge ever built; it was shut for 28 years and reopened to pedestrians and cyclists in 2019.",
+      "hidden_gem_tip": "The dunes between Joaquina and the lagoon are open to walk on, and the sandboarding is rented out at the top of them for very little.",
+      "monuments": [
+        {
+          "name": "Hercílio Luz Bridge",
+          "yt": "lBtF1-nj0VY",
+          "start": 0,
+          "source": "auto",
+          "title": "FLORIANÓPOLIS 🇧🇷 Night Walking Tour 4K 🌙 | Hercílio Luz Bridge [No Talk, Ultra HD]",
+          "height": 2160
+        },
+        {
+          "name": "Lagoa da Conceição",
+          "yt": "NJnkCaFlm4k",
+          "start": 0,
+          "source": "auto",
+          "title": "Florianópolis, Brazil Virtual Walking Tour (4K): Lagoa da Conceição,",
+          "height": 2160
+        },
+        {
+          "name": "Joaquina Beach",
+          "yt": "-cOsYgpwStE",
+          "start": 0,
+          "source": "auto",
+          "title": "【4K】WALK  beachcombing PRAIA da JOAQUINA SC Brasil beach hiking região sul Santa Catarina Brazil 4k",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "fernando-de-noronha",
+      "name": "Fernando de Noronha",
+      "country": "Brazil",
+      "country_code": "BR",
+      "country_flag": "🇧🇷",
+      "continent": "South America",
+      "region": "Pernambuco",
+      "type": "island",
+      "tag": "famous",
+      "emoji": "🐬",
+      "coordinates": {
+        "lat": -3.855,
+        "lng": -32.425
+      },
+      "street_view": {
+        "lat": -3.855,
+        "lng": -32.425,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Fernando_de_Noronha",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Baía do Sancho"
+        },
+        {
+          "name": "Morro Dois Irmãos"
+        },
+        {
+          "name": "Baía dos Porcos"
+        },
+        {
+          "name": "Praia da Atalaia"
+        }
+      ],
+      "blurb": "A volcanic archipelago 350 km off the Brazilian northeast, with one inhabited island, a hard cap on visitor numbers and a daily environmental fee. Spinner dolphins come into the Baía dos Golfinhos in their hundreds most mornings.",
+      "fun_fact": "Baía do Sancho is reached down a ladder bolted into a cleft in the cliff, and has repeatedly been voted the best beach in the world by TripAdvisor's travellers.",
+      "hidden_gem_tip": "The dolphin bay has a clifftop viewpoint open at dawn and the animals are reliably there — you are not allowed to swim with them, which is why they keep coming.",
+      "monuments": [
+        {
+          "name": "Baía do Sancho",
+          "yt": "g4tePM4JmH8",
+          "start": 0,
+          "source": "auto",
+          "title": "Fernando de Noronha: O que Fazer e Melhores Praias - Baía do Sancho 4k",
+          "height": 2160
+        },
+        {
+          "name": "Morro Dois Irmãos",
+          "yt": "cz2ch_fQGGk",
+          "start": 0,
+          "source": "auto",
+          "title": "Morro Dois Irmãos - Fernando de Noronha - 08/09/2018 - 4K",
+          "height": 2160
+        },
+        {
+          "name": "Praia da Atalaia",
+          "yt": "eeyazp1Rb1w",
+          "start": 0,
+          "source": "auto",
+          "title": "Linda PRAIA DE ATALAIA - ARACAJU - SERGIPE - BRASIL. 4k Experiência.",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "lencois-maranhenses",
+      "name": "Lençóis Maranhenses",
+      "country": "Brazil",
+      "country_code": "BR",
+      "country_flag": "🇧🇷",
+      "continent": "South America",
+      "region": "Maranhão",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🏜️",
+      "coordinates": {
+        "lat": -2.4833333333333334,
+        "lng": -43.13333333333333
+      },
+      "street_view": {
+        "lat": -2.4833333333333334,
+        "lng": -43.13333333333333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Lençóis_Maranhenses_National_Park",
+      "sounds": [
+        "desert-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Barreirinhas",
+          "wikipedia_slug": "Barreirinhas"
+        },
+        {
+          "name": "Lagoa Azul"
+        },
+        {
+          "name": "Atins"
+        },
+        {
+          "name": "Preguiças River"
+        }
+      ],
+      "blurb": "A thousand square kilometres of white sand dunes that are not a desert: it rains heavily here, and the rain collects between the dunes in thousands of clear freshwater lagoons that appear around June and dry out by the end of the year.",
+      "fun_fact": "The dunes get about 1,600 mm of rain a year — far too much to be a desert — and the lagoons hold fish, which arrive as eggs carried in by birds and in the mud on their feet.",
+      "hidden_gem_tip": "Timing is everything. Come between July and September; arrive in February and you get sand and no water at all.",
+      "monuments": [
+        {
+          "name": "Barreirinhas",
+          "yt": "0c9L5nAyyvg",
+          "start": 0,
+          "source": "auto",
+          "title": "Lençóis Maranhenses 4K (Barreirinhas, Atins e Santo Amaro) #djimavic3",
+          "height": 2160
+        },
+        {
+          "name": "Lagoa Azul",
+          "yt": "cdtuZhAu0Sc",
+          "start": 0,
+          "source": "auto",
+          "title": "LENÇÓIS MARANHENSES - LAGOA AZUL E LAGOA BONITA",
+          "height": 2160
+        },
+        {
+          "name": "Atins",
+          "yt": "P6-WlodWBNE",
+          "start": 0,
+          "source": "auto",
+          "title": "What I wish I knew before I went: Atins, MA Brazil",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "pantanal",
+      "name": "Pantanal",
+      "country": "Brazil",
+      "country_code": "BR",
+      "country_flag": "🇧🇷",
+      "continent": "South America",
+      "region": "Mato Grosso do Sul",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🐆",
+      "coordinates": {
+        "lat": -17.4,
+        "lng": -57.5
+      },
+      "street_view": {
+        "lat": -17.4,
+        "lng": -57.5,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Pantanal",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Transpantaneira",
+          "wikipedia_slug": "Transpantaneira"
+        },
+        {
+          "name": "Poconé",
+          "wikipedia_slug": "Poconé"
+        },
+        {
+          "name": "Paraguay River",
+          "wikipedia_slug": "Paraguay_River"
+        }
+      ],
+      "blurb": "The largest tropical wetland on Earth, roughly the size of England and Wales together, flooding and draining every year. It is the best place on the continent to actually see wildlife — the vegetation is open, and the animals concentrate around the water as it retreats.",
+      "fun_fact": "The Pantanal holds the densest jaguar population anywhere; along the Cuiabá River in the dry season they are seen from boats on most days, which is true almost nowhere else.",
+      "hidden_gem_tip": "The Transpantaneira road runs 145 km into the northern Pantanal over more than a hundred wooden bridges, and the wildlife is on the road itself — drive it slowly at dawn.",
+      "monuments": [
+        {
+          "name": "Transpantaneira",
+          "yt": "cI4IbgZRKjc",
+          "start": 0,
+          "source": "auto",
+          "title": "Na Trilha Das Águas ep.2 - A Transpantaneira | Discovery Brasil",
+          "height": 1080
+        },
+        {
+          "name": "Poconé",
+          "yt": "WSid1v0ws60",
+          "start": 0,
+          "source": "auto",
+          "title": "PANTANAL em POCONÉ - MT | Passeios no SESC PORTO CERCADO | 4K",
+          "height": 2160
+        },
+        {
+          "name": "Paraguay River",
+          "yt": "C4jI4_dziLs",
+          "start": 0,
+          "source": "auto",
+          "title": "Paraguay River Corumba, Mato Grosso do Sul, Brazil",
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "olinda",
+      "name": "Olinda",
+      "country": "Brazil",
+      "country_code": "BR",
+      "country_flag": "🇧🇷",
+      "continent": "South America",
+      "region": "Pernambuco",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🎭",
+      "coordinates": {
+        "lat": -8.0088888888889,
+        "lng": -34.855
+      },
+      "street_view": {
+        "lat": -8.0088888888889,
+        "lng": -34.855,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Olinda",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Alto da Sé"
+        },
+        {
+          "name": "Convento de São Francisco"
+        },
+        {
+          "name": "Sé Cathedral"
+        },
+        {
+          "name": "Mercado da Ribeira"
+        }
+      ],
+      "blurb": "A hill town of pastel houses, churches and mango trees on the coast just north of Recife — founded in 1535, burned by the Dutch, rebuilt in baroque, and now a UNESCO site full of studios and workshops.",
+      "fun_fact": "Olinda's carnival is danced through the streets behind giant papier-mâché puppets several metres tall, some of which have been paraded every year for decades and are kept in their own museum.",
+      "hidden_gem_tip": "Climb to the Alto da Sé in the late afternoon for the view back over the coconut palms to the Recife skyline.",
+      "monuments": [
+        {
+          "name": "Alto da Sé",
+          "yt": "txUEneeqZjE",
+          "start": 0,
+          "source": "auto",
+          "title": "CONHEÇA O ALTO DA SÉ EM OLIDA PERNAMBUCO",
+          "height": 2160
+        },
+        {
+          "name": "Sé Cathedral",
+          "yt": "NGFwu8RNlG0",
+          "start": 0,
+          "source": "auto",
+          "title": "Cologne Cathedral 🇩🇪 Complete Walking Tour in the World’s Most Impressive Gothic Structure【4K HDR】",
+          "height": 2160
+        },
+        {
+          "name": "Mercado da Ribeira",
+          "yt": "oknrL1-JN00",
+          "start": 0,
+          "source": "auto",
+          "title": "Mercado da Ribeira+Pau Brasil Olinda Pernambuco Brasil",
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "salento",
+      "name": "Salento",
+      "country": "Colombia",
+      "country_code": "CO",
+      "country_flag": "🇨🇴",
+      "continent": "South America",
+      "region": "Quindío",
+      "type": "village",
+      "tag": "hidden",
+      "emoji": "☕",
+      "coordinates": {
+        "lat": 4.6372222222222,
+        "lng": -75.570833333333
+      },
+      "street_view": {
+        "lat": 4.6372222222222,
+        "lng": -75.570833333333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Salento,_Quindío",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Cocora Valley",
+          "wikipedia_slug": "Cocora_Valley"
+        },
+        {
+          "name": "Calle Real"
+        },
+        {
+          "name": "Mirador Alto de la Cruz"
+        }
+      ],
+      "blurb": "A small painted town in the coffee axis, with balconies in every colour on one main street and the Cocora Valley half an hour up the road in a jeep. It is the base for walking among the tallest palms in the world.",
+      "fun_fact": "The Quindío wax palm grows to 60 m — the tallest palm species anywhere — and it is Colombia's national tree; the valley's palms stand in open cattle pasture, which is why they look impossible.",
+      "hidden_gem_tip": "The Willys jeeps to Cocora leave from the main square when they fill up. Walk the valley loop anticlockwise and you climb in shade.",
+      "monuments": [
+        {
+          "name": "Cocora Valley",
+          "yt": "Ssk7kjxaNGc",
+          "start": 0,
+          "source": "auto",
+          "title": "Salento, Cocora Valley, Colombia 4k Drone",
+          "height": 2160
+        },
+        {
+          "name": "Calle Real",
+          "yt": "piJoPhaiNzM",
+          "start": 0,
+          "source": "auto",
+          "title": "SALENTO QUINDÍO COLOMBIA 🇨🇴 Calle Real & Mirador Valle del Cocora | Walking Tour 4K",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "guatape",
+      "name": "Guatapé",
+      "country": "Colombia",
+      "country_code": "CO",
+      "country_flag": "🇨🇴",
+      "continent": "South America",
+      "region": "Antioquia",
+      "type": "village",
+      "tag": "famous",
+      "emoji": "🪨",
+      "coordinates": {
+        "lat": 6.2325,
+        "lng": -75.158611111111
+      },
+      "street_view": {
+        "lat": 6.2325,
+        "lng": -75.158611111111,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Guatapé",
+      "sounds": [
+        "plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "El Peñón de Guatapé",
+          "wikipedia_slug": "El_Peñón_de_Guatapé"
+        },
+        {
+          "name": "Peñol-Guatapé Reservoir"
+        },
+        {
+          "name": "Plazoleta de los Zócalos"
+        }
+      ],
+      "blurb": "A lakeside town two hours from Medellín where every building has a painted relief panel — zócalos — running along its base, showing what the household does or once did. Behind it stands a 200 m granite monolith with a staircase built into a crack in its face.",
+      "fun_fact": "The reservoir the town sits on drowned the old town of El Peñol in the 1970s; in dry spells the cross of the flooded church still appears above the water.",
+      "hidden_gem_tip": "659 steps up the Piedra, and the queue starts mid-morning — go at opening, and the reservoir below is still holding mist.",
+      "monuments": [
+        {
+          "name": "El Peñón de Guatapé",
+          "yt": "cOW8reJvl3s",
+          "start": 0,
+          "source": "auto",
+          "title": "El Peñón de Guatapé Antioquia, Colombia 4K 2025",
+          "height": 2160
+        },
+        {
+          "name": "Plazoleta de los Zócalos",
+          "yt": "doAWDoWA4QY",
+          "start": 0,
+          "source": "auto",
+          "title": "Things To Do in Guatapé | Plazoleta de Los Zócalos | Guatapé, Colombia 2024 🇨🇴 | 4K Walking Tour",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "tayrona",
+      "name": "Tayrona",
+      "country": "Colombia",
+      "country_code": "CO",
+      "country_flag": "🇨🇴",
+      "continent": "South America",
+      "region": "Magdalena",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🏝️",
+      "coordinates": {
+        "lat": 11.28333333,
+        "lng": -74.18333333
+      },
+      "street_view": {
+        "lat": 11.28333333,
+        "lng": -74.18333333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Tayrona_National_Natural_Park",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Cabo San Juan del Guía"
+        },
+        {
+          "name": "Sierra Nevada de Santa Marta",
+          "wikipedia_slug": "Sierra_Nevada_de_Santa_Marta"
+        },
+        {
+          "name": "Pueblito"
+        },
+        {
+          "name": "Playa Cristal"
+        }
+      ],
+      "blurb": "Where the Sierra Nevada de Santa Marta runs straight into the Caribbean: rainforest, boulders the size of houses, and a string of bays you reach on foot or by boat. The mountain behind it goes from sea level to 5,700 m in 42 km.",
+      "fun_fact": "The park closes for several weeks each year at the request of the four Indigenous peoples of the Sierra, who consider it sacred ground and use the time for its spiritual recovery.",
+      "hidden_gem_tip": "Most of the beaches have dangerous currents and only a couple are safe to swim — the signs are accurate, and people drown here.",
+      "monuments": [
+        {
+          "name": "Cabo San Juan del Guía",
+          "yt": "EqRI6RSidBQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Cabo San Juan del Guía (Parque Tayrona) 4K",
+          "height": 2160
+        },
+        {
+          "name": "Sierra Nevada de Santa Marta",
+          "yt": "pq0eKwNRUcQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Sierra Nevada de Santa Marta 4K Drone Footage | Santa Marta, Colombia",
+          "height": 1440
+        },
+        {
+          "name": "Pueblito",
+          "yt": "OCAPqNKwi6c",
+          "start": 0,
+          "source": "auto",
+          "title": "Durango 4K | El Pueblito | Driving & Walking Tour",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "villa-de-leyva",
+      "name": "Villa de Leyva",
+      "country": "Colombia",
+      "country_code": "CO",
+      "country_flag": "🇨🇴",
+      "continent": "South America",
+      "region": "Boyacá",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🏛️",
+      "coordinates": {
+        "lat": 5.6330555555556,
+        "lng": -73.525555555556
+      },
+      "street_view": {
+        "lat": 5.6330555555556,
+        "lng": -73.525555555556,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Villa_de_Leyva",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Plaza Mayor"
+        },
+        {
+          "name": "Casa Terracota"
+        },
+        {
+          "name": "El Fósil"
+        },
+        {
+          "name": "Pozos Azules"
+        }
+      ],
+      "blurb": "A whitewashed colonial town three hours north of Bogotá, built around one of the largest cobbled squares in South America — 14,000 square metres with nothing in the middle of it. The desert-ish valley around it is full of fossils.",
+      "fun_fact": "A 120-million-year-old kronosaurus, about seven metres of marine reptile, was found in a field outside town and is displayed where it was dug up rather than in a museum.",
+      "hidden_gem_tip": "Come midweek. The square is a film set at 7am and a car park full of Bogotá weekenders by Saturday lunchtime.",
+      "monuments": [
+        {
+          "name": "Plaza Mayor",
+          "yt": "a_6lIDrfWaM",
+          "start": 0,
+          "source": "auto",
+          "title": "VILLA DE LEYVA - Qué hacer? (Plaza Mayor, Pozos Azules y mejores calles e iglesias)",
+          "height": 720
+        },
+        {
+          "name": "Casa Terracota",
+          "yt": "kTg4tfgOMHM",
+          "start": 0,
+          "source": "auto",
+          "title": "Tour of Casa Terracota, Villa de Leyva, Colombia",
+          "height": 2160
+        },
+        {
+          "name": "El Fósil",
+          "yt": "dCkgH8JwOW4",
+          "start": 0,
+          "source": "auto",
+          "title": "Museo El Fósil. Villa de Leyva, Colombia.",
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "id": "cano-cristales",
+      "name": "Caño Cristales",
+      "country": "Colombia",
+      "country_code": "CO",
+      "country_flag": "🇨🇴",
+      "continent": "South America",
+      "region": "Meta",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🌈",
+      "coordinates": {
+        "lat": 2.26416667,
+        "lng": -73.79444444
+      },
+      "street_view": {
+        "lat": 2.26416667,
+        "lng": -73.79444444,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Caño_Cristales",
+      "sounds": [
+        "waterfall.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Serranía de la Macarena",
+          "wikipedia_slug": "Serranía_de_la_Macarena"
+        },
+        {
+          "name": "La Macarena"
+        },
+        {
+          "name": "Los Ochos"
+        }
+      ],
+      "blurb": "A river in the Serranía de la Macarena that turns red, yellow and green for a few months a year, when an endemic riverweed flowers under water in exactly the right amount of sunlight and flow.",
+      "fun_fact": "The colour comes from *Macarenia clavigera*, a plant that grows on the rock nowhere else on Earth — and the whole spectacle only runs from roughly June to November, between too much water and too little.",
+      "hidden_gem_tip": "Access is controlled and requires a licensed guide from La Macarena; sunscreen and insect repellent are banned in the river to protect the weed.",
+      "monuments": [
+        {
+          "name": "La Macarena",
+          "yt": "OjRAaaVH5Sw",
+          "start": 0,
+          "source": "auto",
+          "title": "La Macarena, Caño Cristales, Colombia - 4K UHD - Virtual Trip",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "lima",
+      "name": "Lima",
+      "country": "Peru",
+      "country_code": "PE",
+      "country_flag": "🇵🇪",
+      "continent": "South America",
+      "region": "Lima Region",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🍽️",
+      "coordinates": {
+        "lat": -12.06,
+        "lng": -77.0375
+      },
+      "street_view": {
+        "lat": -12.06,
+        "lng": -77.0375,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Lima",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Plaza Mayor",
+          "wikipedia_slug": "Plaza_Mayor,_Lima"
+        },
+        {
+          "name": "Basilica and Convent of San Francisco",
+          "wikipedia_slug": "Basilica_and_Convent_of_San_Francisco,_Lima"
+        },
+        {
+          "name": "Miraflores",
+          "wikipedia_slug": "Miraflores_District,_Lima"
+        },
+        {
+          "name": "Barranco",
+          "wikipedia_slug": "Barranco_District"
+        },
+        {
+          "name": "Huaca Pucllana",
+          "wikipedia_slug": "Huaca_Pucllana"
+        }
+      ],
+      "blurb": "A capital of ten million on a desert coast, built on cliffs above the Pacific and under a grey marine overcast for half the year. The colonial centre and the clifftop districts are two different cities, and the food is why a lot of people come at all.",
+      "fun_fact": "It almost never rains in Lima — under 10 mm a year — yet the city is damp and grey for months, because the cold Humboldt Current holds a permanent low cloud layer over it that never quite breaks.",
+      "hidden_gem_tip": "The catacombs under San Francisco hold thousands of stacked bones and are the one part of the old centre worth queueing for.",
+      "monuments": [
+        {
+          "name": "Plaza Mayor",
+          "yt": "WJpjEwrzErE",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Walking tour Lima 🇵🇪 | The Plaza Mayor | Peru 2023",
+          "height": 2160
+        },
+        {
+          "name": "Basilica and Convent of San Francisco",
+          "yt": "Ye3xJcv1kfY",
+          "start": 0,
+          "source": "auto",
+          "title": "Lima Perú 4K: Centro Histórico Basílica y Convento de San Francisco",
+          "height": 2160
+        },
+        {
+          "name": "Miraflores",
+          "yt": "oA7JL7pF9Is",
+          "start": 0,
+          "source": "auto",
+          "title": "MIRAFLORES Walking Tour | 4K Lima Walk",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "arequipa",
+      "name": "Arequipa",
+      "country": "Peru",
+      "country_code": "PE",
+      "country_flag": "🇵🇪",
+      "continent": "South America",
+      "region": "Arequipa Region",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🌋",
+      "coordinates": {
+        "lat": -16.398888888888887,
+        "lng": -71.53694444444444
+      },
+      "street_view": {
+        "lat": -16.398888888888887,
+        "lng": -71.53694444444444,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Arequipa",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Santa Catalina Monastery",
+          "wikipedia_slug": "Monastery_of_Santa_Catalina_de_Siena,_Arequipa"
+        },
+        {
+          "name": "Basilica Cathedral of Arequipa",
+          "wikipedia_slug": "Basilica_Cathedral_of_Arequipa"
+        },
+        {
+          "name": "Misti",
+          "wikipedia_slug": "Misti"
+        },
+        {
+          "name": "Yanahuara"
+        },
+        {
+          "name": "Plaza de Armas"
+        }
+      ],
+      "blurb": "Peru's second city, built almost entirely out of white volcanic sillar stone under three volcanoes, at 2,335 m. The light off the buildings at midday is genuinely hard to look at, which is where the nickname La Ciudad Blanca comes from.",
+      "fun_fact": "Santa Catalina is a walled convent covering 20,000 m² — effectively a small painted town of its own inside the city, closed to outsiders for nearly 400 years until it opened in 1970.",
+      "hidden_gem_tip": "Go into Santa Catalina in the last two hours of the day, when the low sun hits the blue and red lanes and the tour groups have gone.",
+      "monuments": [
+        {
+          "name": "Santa Catalina Monastery",
+          "yt": "uI5ySrt8Uco",
+          "start": 0,
+          "source": "auto",
+          "title": "Santa Catalina Monastery | Arequipa, Peru 🇵🇪 4K Walking Tour (No Talking)",
+          "height": 2160
+        },
+        {
+          "name": "Yanahuara",
+          "yt": "xFiVSnPW47k",
+          "start": 0,
+          "source": "auto",
+          "title": "🇵🇪 4k CityWalk Tour Arequipa - Yanahuara | Mercado San Camilo #mercado #yanahuara #arequipa #peru",
+          "height": 2160
+        },
+        {
+          "name": "Plaza de Armas",
+          "yt": "0ukICwqpX3Y",
+          "start": 0,
+          "source": "auto",
+          "title": "🇵🇪 4k CityWalk Tour Arequipa - Plaza de Armas y Mirador de Yanahuara #plaza #mirador #arequipa #peru",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "puno",
+      "name": "Puno",
+      "country": "Peru",
+      "country_code": "PE",
+      "country_flag": "🇵🇪",
+      "continent": "South America",
+      "region": "Puno Region",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🛶",
+      "coordinates": {
+        "lat": -15.843333333333,
+        "lng": -70.023611111111
+      },
+      "street_view": {
+        "lat": -15.843333333333,
+        "lng": -70.023611111111,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Puno",
+      "sounds": [
+        "wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Lake Titicaca",
+          "wikipedia_slug": "Lake_Titicaca"
+        },
+        {
+          "name": "Uros floating islands"
+        },
+        {
+          "name": "Taquile",
+          "wikipedia_slug": "Taquile_Island"
+        },
+        {
+          "name": "Sillustani",
+          "wikipedia_slug": "Sillustani"
+        }
+      ],
+      "blurb": "The Peruvian port on Lake Titicaca, at 3,830 m — a working altiplano town rather than a pretty one, and the way out onto the highest large navigable lake in the world. Bolivia is on the far shore.",
+      "fun_fact": "The Uros build their islands, houses and boats out of totora reed and have to keep adding fresh layers on top as the underside rots — an island lasts about 30 years.",
+      "hidden_gem_tip": "Taquile is worth the extra hours past the Uros: no vehicles, no dogs, and the men knit while they walk — the island's textiles are on UNESCO's intangible heritage list.",
+      "monuments": [
+        {
+          "name": "Lake Titicaca",
+          "yt": "Odf9oyg2a_8",
+          "start": 0,
+          "source": "auto",
+          "title": "Peru - The Floating Islands of Lake Titicaca Relaxing 4k Drone - 2020",
+          "height": 2160
+        },
+        {
+          "name": "Uros floating islands",
+          "yt": "r5yioHIZWc8",
+          "start": 0,
+          "source": "auto",
+          "title": "The life at 3800m on a natural floating island | Virtual tour of Uros islands, lake Titicaca, Peru",
+          "height": 2160
+        },
+        {
+          "name": "Taquile",
+          "yt": "U8TfiWjv9wA",
+          "start": 0,
+          "source": "auto",
+          "title": "TOUR LAGO TITICACA UROS, AMANTANI Y TAQUILE - 2D1N",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "ollantaytambo",
+      "name": "Ollantaytambo",
+      "country": "Peru",
+      "country_code": "PE",
+      "country_flag": "🇵🇪",
+      "continent": "South America",
+      "region": "Cusco Region",
+      "type": "ruin",
+      "tag": "famous",
+      "emoji": "🧱",
+      "coordinates": {
+        "lat": -13.258055555556,
+        "lng": -72.263333333333
+      },
+      "street_view": {
+        "lat": -13.258055555556,
+        "lng": -72.263333333333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Ollantaytambo",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Sacred Valley",
+          "wikipedia_slug": "Sacred_Valley"
+        },
+        {
+          "name": "Temple of the Sun"
+        },
+        {
+          "name": "Pinkuylluna"
+        }
+      ],
+      "blurb": "The best-preserved Inca town anywhere: people still live in the original grid, on the original stone foundations, drinking water from the original channels. The terraced fortress above it is one of the few places the Inca beat the Spanish in open battle.",
+      "fun_fact": "The six monoliths of the unfinished Sun Temple were quarried on the far side of the valley, 6 km away and 900 m up — the Inca moved them across a river and up a mountain without wheels or iron tools.",
+      "hidden_gem_tip": "Climb the Pinkuylluna storehouses opposite instead of only doing the main site: it is free, it takes 40 minutes, and it looks down on the whole terraced face.",
+      "monuments": [
+        {
+          "name": "Sacred Valley",
+          "yt": "ZRN_wsazjQY",
+          "start": 0,
+          "source": "auto",
+          "title": "Sacred Valley, Peru — Pisac Ruins Walking Tour 4K",
+          "height": 2160
+        },
+        {
+          "name": "Pinkuylluna",
+          "yt": "HBIEqkYZ7M4",
+          "start": 0,
+          "source": "auto",
+          "title": "#Trip to Peru#Ollantaytambo#Pinkuylluna#",
+          "height": 1440
+        }
+      ]
+    },
+    {
+      "id": "colca-canyon",
+      "name": "Colca Canyon",
+      "country": "Peru",
+      "country_code": "PE",
+      "country_flag": "🇵🇪",
+      "continent": "South America",
+      "region": "Arequipa Region",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🦅",
+      "coordinates": {
+        "lat": -15.5972,
+        "lng": -72.0559
+      },
+      "street_view": {
+        "lat": -15.5972,
+        "lng": -72.0559,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Colca_Canyon",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Cruz del Cóndor"
+        },
+        {
+          "name": "Chivay",
+          "wikipedia_slug": "Chivay"
+        },
+        {
+          "name": "Colca River",
+          "wikipedia_slug": "Colca_River"
+        },
+        {
+          "name": "Yanque"
+        }
+      ],
+      "blurb": "A canyon over 3,000 m deep in the Peruvian Andes — roughly twice the depth of the Grand Canyon, though far less sheer — with pre-Inca terracing still farmed down its walls and Andean condors riding the morning thermals out of it.",
+      "fun_fact": "Andean condors have a wingspan over three metres and barely flap; they wait at the Cruz del Cóndor until the sun has warmed the canyon enough to lift them out of it, which is why the viewing is at 8am.",
+      "hidden_gem_tip": "Stay in Chivay or Yanque the night before. The day trip from Arequipa means a 3am start and you arrive at the viewpoint with everyone else.",
+      "monuments": [
+        {
+          "name": "Cruz del Cóndor",
+          "yt": "MrklGgl3XLI",
+          "start": 0,
+          "source": "auto",
+          "title": "Cruz del Condor Colca Canyon",
+          "height": 2160
+        },
+        {
+          "name": "Chivay",
+          "yt": "6bClxxUNOMk",
+          "start": 0,
+          "source": "auto",
+          "title": "Peru, Colca Canyon 4K - Nature Walking Tour CHIVAY",
+          "height": 2160
+        },
+        {
+          "name": "Yanque",
+          "yt": "dwVX9cpyldU",
+          "start": 0,
+          "source": "auto",
+          "title": "Colca Lodge, Yanque, Peru",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "huacachina",
+      "name": "Huacachina",
+      "country": "Peru",
+      "country_code": "PE",
+      "country_flag": "🇵🇪",
+      "continent": "South America",
+      "region": "Ica Region",
+      "type": "desert",
+      "tag": "hidden",
+      "emoji": "🏜️",
+      "coordinates": {
+        "lat": -14.0875,
+        "lng": -75.763333333333
+      },
+      "street_view": {
+        "lat": -14.0875,
+        "lng": -75.763333333333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Huacachina",
+      "sounds": [
+        "desert-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Ica",
+          "wikipedia_slug": "Ica,_Peru"
+        },
+        {
+          "name": "Cerro Blanco"
+        },
+        {
+          "name": "Huacachina lagoon"
+        }
+      ],
+      "blurb": "A village of about a hundred people built around a natural lagoon in the middle of coastal desert, ringed by palms and then by dunes several hundred metres high. It appears on the back of the Peruvian 50-sol note.",
+      "fun_fact": "The oasis is fed by an underground aquifer that has been dropping for decades; the lagoon has had to be topped up artificially to stop it disappearing altogether.",
+      "hidden_gem_tip": "Climb the dune on the west side on foot for sunset — half an hour of hard walking in sand, and it is quiet up there while the buggies are all on the far side.",
+      "monuments": [
+        {
+          "name": "Ica",
+          "yt": "3XV98p4_qTk",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] OASIS de Huacachina - Walking tour in Ica - Una breve caminata por el oasis de Sudamérica",
+          "height": 2160
+        },
+        {
+          "name": "Cerro Blanco",
+          "yt": "1RTx297yfqc",
+          "start": 0,
+          "source": "auto",
+          "title": "Las urbanizaciones de Marbella:  CERRO BLANCO",
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "salta",
+      "name": "Salta",
+      "country": "Argentina",
+      "country_code": "AR",
+      "country_flag": "🇦🇷",
+      "continent": "South America",
+      "region": "Salta Province",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "⛪",
+      "coordinates": {
+        "lat": -24.788333333333,
+        "lng": -65.410555555556
+      },
+      "street_view": {
+        "lat": -24.788333333333,
+        "lng": -65.410555555556,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Salta",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Salta Cathedral",
+          "wikipedia_slug": "Salta_Cathedral"
+        },
+        {
+          "name": "Cabildo of Salta"
+        },
+        {
+          "name": "Cerro San Bernardo"
+        },
+        {
+          "name": "Tren a las Nubes",
+          "wikipedia_slug": "Tren_a_las_Nubes"
+        }
+      ],
+      "blurb": "A colonial city in Argentina's northwest, closer in feel to Bolivia than to Buenos Aires — pink and ochre churches, a colonnaded square, and folk music played in peñas until very late.",
+      "fun_fact": "The Tren a las Nubes climbs from Salta to 4,220 m and crosses the La Polvorilla viaduct, 64 m above a ravine, on a line built without a single tunnel switchback engine — it uses zigzags and spirals to gain height instead.",
+      "hidden_gem_tip": "The Museo de Arqueología de Alta Montaña displays one of the three Llullaillaco children at a time, rotated — an Inca burial found frozen at 6,700 m and preserved almost perfectly.",
+      "monuments": [
+        {
+          "name": "Cabildo of Salta",
+          "yt": "4Cr0pI-noUU",
+          "start": 0,
+          "source": "auto",
+          "title": "🔴  Cabildo Museo del Norte es gratis Salta",
+          "height": 2160
+        },
+        {
+          "name": "Cerro San Bernardo",
+          "yt": "qopX7MzwzrA",
+          "start": 0,
+          "source": "auto",
+          "title": "ARGENTINA - Salta - Cerro San Bernardo Hill",
+          "height": 2160
+        },
+        {
+          "name": "Tren a las Nubes",
+          "yt": "O535uNWjuzs",
+          "start": 0,
+          "source": "auto",
+          "title": "Cab Ride Train to the Clouds (Tren a las Nubes, Salta - Argentina) train driver's view 4K",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "el-calafate",
+      "name": "El Calafate",
+      "country": "Argentina",
+      "country_code": "AR",
+      "country_flag": "🇦🇷",
+      "continent": "South America",
+      "region": "Santa Cruz Province",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🧊",
+      "coordinates": {
+        "lat": -50.33777777777778,
+        "lng": -72.26
+      },
+      "street_view": {
+        "lat": -50.33777777777778,
+        "lng": -72.26,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "El_Calafate",
+      "sounds": [
+        "wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Perito Moreno Glacier",
+          "wikipedia_slug": "Perito_Moreno_Glacier"
+        },
+        {
+          "name": "Los Glaciares National Park",
+          "wikipedia_slug": "Los_Glaciares_National_Park"
+        },
+        {
+          "name": "Lago Argentino",
+          "wikipedia_slug": "Lake_Argentino"
+        }
+      ],
+      "blurb": "A steppe town on Lago Argentino that exists to get people to the Perito Moreno Glacier, 80 km west — a five-kilometre-wide wall of ice ending in a lake, with a boardwalk system built along the front of it.",
+      "fun_fact": "Perito Moreno is one of the very few glaciers on Earth that is not retreating. Every few years it dams an arm of the lake completely, the water rises behind it, and the ice bridge collapses in front of an audience.",
+      "hidden_gem_tip": "Spend the whole day on the walkways rather than taking the boat. The calving is unpredictable, the sound arrives a beat after the fall, and you need to be there when it happens.",
+      "monuments": [
+        {
+          "name": "Perito Moreno Glacier",
+          "yt": "07NqXCdAlx8",
+          "start": 0,
+          "source": "auto",
+          "title": "El Calafate and Perito Moreno Glacier. Patagonia Argentina 4K walk",
+          "height": 2160
+        },
+        {
+          "name": "Los Glaciares National Park",
+          "yt": "_M1MpgwZDi0",
+          "start": 0,
+          "source": "auto",
+          "title": "The BEST of LOS GLACIARES NATIONAL PARK, ARGENTINA | El Chalten, El Calafate and Perito Moreno",
+          "height": 1080
+        },
+        {
+          "name": "Lago Argentino",
+          "yt": "ouLN6YwnF3o",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] EL CALAFATE - LAGO ARGENTINO / AVENIDA COSTANERA",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "el-chalten",
+      "name": "El Chaltén",
+      "country": "Argentina",
+      "country_code": "AR",
+      "country_flag": "🇦🇷",
+      "continent": "South America",
+      "region": "Santa Cruz Province",
+      "type": "mountain",
+      "tag": "famous",
+      "emoji": "🏔️",
+      "coordinates": {
+        "lat": -49.331408,
+        "lng": -72.886129
+      },
+      "street_view": {
+        "lat": -49.331408,
+        "lng": -72.886129,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "El_Chaltén",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Monte Fitz Roy",
+          "wikipedia_slug": "Fitz_Roy"
+        },
+        {
+          "name": "Cerro Torre",
+          "wikipedia_slug": "Cerro_Torre"
+        },
+        {
+          "name": "Laguna de los Tres"
+        },
+        {
+          "name": "Laguna Capri"
+        }
+      ],
+      "blurb": "Argentina's trekking capital, founded in 1985 in a hurry to settle a border dispute, at the foot of Fitz Roy. Every trail starts from the village itself, so there is no shuttle and no entrance queue — you walk out of your door onto the mountain.",
+      "fun_fact": "Fitz Roy's Tehuelche name, Chaltén, means 'smoking mountain' — the peak generates its own cloud so persistently that early observers took it for a volcano.",
+      "hidden_gem_tip": "Laguna de los Tres is a 10-hour round trip with the climb at the end. If the forecast gives one clear morning, spend it on that and do the Torre trail on the grey day.",
+      "monuments": [
+        {
+          "name": "Monte Fitz Roy",
+          "yt": "Zhs733sa4dY",
+          "start": 0,
+          "source": "auto",
+          "title": "El Chalten Patagonia | Walking Tour, Hidden Gems & Mount Fitz Roy | Argentina",
+          "height": 2160
+        },
+        {
+          "name": "Cerro Torre",
+          "yt": "zA69PAWGQSk",
+          "start": 0,
+          "source": "auto",
+          "title": "Fitz Roy and Cerro Torre hikes, El Chalten, Argentina  [Amazing Places 4K]",
+          "height": 2160
+        },
+        {
+          "name": "Laguna de los Tres",
+          "yt": "3ANCyYA4fTU",
+          "start": 0,
+          "source": "auto",
+          "title": "El Chaltén en 4K: 9 días de trekking en el paraíso (Fitz Roy, Laguna de los Tres)",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "quebrada-de-humahuaca",
+      "name": "Quebrada de Humahuaca",
+      "country": "Argentina",
+      "country_code": "AR",
+      "country_flag": "🇦🇷",
+      "continent": "South America",
+      "region": "Jujuy Province",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🎨",
+      "coordinates": {
+        "lat": -23.199861111111,
+        "lng": -65.348861111111
+      },
+      "street_view": {
+        "lat": -23.199861111111,
+        "lng": -65.348861111111,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Quebrada_de_Humahuaca",
+      "sounds": [
+        "desert-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Purmamarca",
+          "wikipedia_slug": "Purmamarca"
+        },
+        {
+          "name": "Cerro de los Siete Colores"
+        },
+        {
+          "name": "Tilcara",
+          "wikipedia_slug": "Tilcara"
+        },
+        {
+          "name": "Pucará de Tilcara",
+          "wikipedia_slug": "Pucará_de_Tilcara"
+        },
+        {
+          "name": "Humahuaca",
+          "wikipedia_slug": "Humahuaca"
+        }
+      ],
+      "blurb": "A 155 km desert valley in Jujuy that has been a caravan route for 10,000 years — Inca road, colonial silver road, and now a string of adobe villages under hills striped in mineral colours.",
+      "fun_fact": "The whole valley is a UNESCO World Heritage Site listed as a cultural route, not a landscape: what is protected is the fact that people have been moving goods along it continuously since the hunter-gatherers.",
+      "hidden_gem_tip": "The Cerro de los Siete Colores behind Purmamarca is at its most saturated in the first hour of light, and the village is a three-street walk before the buses arrive.",
+      "monuments": [
+        {
+          "name": "Purmamarca",
+          "yt": "R_9_lTYuXcw",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] PURMAMARCA (JUJUY) - CERRO DE LOS 7 COLORES / CALLES DEL CENTRO / QUEBRADA DE HUMAHUACA",
+          "height": 2160
+        },
+        {
+          "name": "Cerro de los Siete Colores",
+          "yt": "ROn0eoGziQw",
+          "start": 0,
+          "source": "auto",
+          "title": "PURMAMARCA (Jujuy, Argentina) | El increíble pueblo del Cerro de los Siete Colores",
+          "height": 1080
+        },
+        {
+          "name": "Tilcara",
+          "yt": "V_Q-qHWbFZU",
+          "start": 0,
+          "source": "auto",
+          "title": "Tilcara Jujuy 🇦🇷 Walking Tour 4K  Recorriendo la Quebrada de Humahuaca",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "peninsula-valdes",
+      "name": "Península Valdés",
+      "country": "Argentina",
+      "country_code": "AR",
+      "country_flag": "🇦🇷",
+      "continent": "South America",
+      "region": "Chubut Province",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🐋",
+      "coordinates": {
+        "lat": -42.5,
+        "lng": -63.933333
+      },
+      "street_view": {
+        "lat": -42.5,
+        "lng": -63.933333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Valdés_Peninsula",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Puerto Pirámides",
+          "wikipedia_slug": "Puerto_Pirámides"
+        },
+        {
+          "name": "Punta Norte"
+        },
+        {
+          "name": "Caleta Valdés"
+        },
+        {
+          "name": "Puerto Madryn",
+          "wikipedia_slug": "Puerto_Madryn"
+        }
+      ],
+      "blurb": "A flat, treeless Patagonian peninsula joined to the mainland by a 5 km isthmus, with almost nothing on it and a coastline that is one of the best marine wildlife sites in the world. Southern right whales calve in the sheltered gulfs either side of it.",
+      "fun_fact": "At Punta Norte, orcas deliberately beach themselves at high tide to take sea lion pups off the shingle and then work their way back into the water — behaviour taught to their young and seen almost nowhere else.",
+      "hidden_gem_tip": "Whale season runs roughly June to December. Puerto Pirámides is the only village, and in the peak weeks whales are visible from the beach without a boat at all.",
+      "monuments": [
+        {
+          "name": "Puerto Pirámides",
+          "yt": "YP-KyThCbqs",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] PUERTO PIRAMIDES - PASEO POR EL PUEBLO / PENINSULA VALDES / PUERTO MADRYN - CHUBUT",
+          "height": 2160
+        },
+        {
+          "name": "Punta Norte",
+          "yt": "FZApJHaerA4",
+          "start": 0,
+          "source": "auto",
+          "title": "【4K】 Reserva Natural Turística en la PUNTA NORTE de la Peninsula de Valdés - CHUBUT - #TOUR VIRTUAL",
+          "height": 2160
+        },
+        {
+          "name": "Caleta Valdés",
+          "yt": "s-Z0WANya44",
+          "start": 0,
+          "source": "auto",
+          "title": "【4K】ARGENTINA #Patagonia - escénica CALETA VALDÉS - WALK tour 2022 PUNTA CANTOR - Valdés Península",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "cordoba",
+      "name": "Córdoba",
+      "country": "Argentina",
+      "country_code": "AR",
+      "country_flag": "🇦🇷",
+      "continent": "South America",
+      "region": "Córdoba Province",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🎓",
+      "coordinates": {
+        "lat": -31.416666666667,
+        "lng": -64.183333333333
+      },
+      "street_view": {
+        "lat": -31.416666666667,
+        "lng": -64.183333333333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Córdoba,_Argentina",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Jesuit Block",
+          "wikipedia_slug": "Jesuit_Block_and_Estancias_of_Córdoba"
+        },
+        {
+          "name": "Córdoba Cathedral",
+          "wikipedia_slug": "Cathedral_of_Córdoba,_Argentina"
+        },
+        {
+          "name": "Cabildo of Córdoba"
+        },
+        {
+          "name": "Nueva Córdoba"
+        }
+      ],
+      "blurb": "Argentina's second city and its oldest university town, in the middle of the country with hills on its western side. The Jesuit core is 17th-century and the student population keeps the bars around it open very late.",
+      "fun_fact": "The National University of Córdoba was founded in 1613, making it one of the oldest universities in the Americas — older than the country it is in by two centuries.",
+      "hidden_gem_tip": "The Manzana Jesuítica is a single block you can walk in twenty minutes — church, university and school — and it is a UNESCO site in the middle of an ordinary shopping district.",
+      "monuments": [
+        {
+          "name": "Jesuit Block",
+          "yt": "j3ECo5G5lds",
+          "start": 0,
+          "source": "auto",
+          "title": "Cordoba, Argentina walking tour 4K 60 FPS. Jesuit Block, Colonial architecture & JACARANDAS",
+          "height": 2160
+        },
+        {
+          "name": "Cabildo of Córdoba",
+          "yt": "nj0m4mri0L8",
+          "start": 0,
+          "source": "auto",
+          "title": "Visitamos el Cabildo histórico de Córdoba Capital",
+          "height": 1080
+        },
+        {
+          "name": "Nueva Córdoba",
+          "yt": "f4cS_6jLpZQ",
+          "start": 0,
+          "source": "auto",
+          "title": "¡No vas a creer cómo cambió Nueva Córdoba! 😱 | Tour 4K",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "potosi",
+      "name": "Potosí",
+      "country": "Bolivia",
+      "country_code": "BO",
+      "country_flag": "🇧🇴",
+      "continent": "South America",
+      "region": "Potosí Department",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "⛏️",
+      "coordinates": {
+        "lat": -19.589166666666667,
+        "lng": -65.75333333333333
+      },
+      "street_view": {
+        "lat": -19.589166666666667,
+        "lng": -65.75333333333333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Potosí",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Cerro Rico",
+          "wikipedia_slug": "Cerro_Rico"
+        },
+        {
+          "name": "Casa Nacional de Moneda",
+          "wikipedia_slug": "National_Mint_of_Bolivia"
+        },
+        {
+          "name": "Plaza 10 de Noviembre"
+        },
+        {
+          "name": "San Lorenzo de Carangas"
+        }
+      ],
+      "blurb": "At 4,090 m, one of the highest cities in the world, built under a mountain of silver that funded the Spanish empire for two centuries. In 1600 Potosí was as big as London; the mountain is still worked today by cooperative miners in brutal conditions.",
+      "fun_fact": "'Vale un Potosí' — worth a Potosí — entered Spanish as the phrase for unimaginable wealth, and the mint here struck the pieces of eight that circulated as the first global currency.",
+      "hidden_gem_tip": "The Casa Nacional de Moneda is the serious visit: the original wooden coin-rolling machines, turned by mules, are still in place.",
+      "monuments": [
+        {
+          "name": "Cerro Rico",
+          "yt": "or1aVtvOXoY",
+          "start": 0,
+          "source": "auto",
+          "title": "Cerro Rico de Potosí (Bolivia) 4K",
+          "height": 2160
+        },
+        {
+          "name": "Casa Nacional de Moneda",
+          "yt": "HNL2As-qkAI",
+          "start": 0,
+          "source": "auto",
+          "title": "Casa Nacional de Moneda Potosí Bolivia",
+          "height": 2160
+        },
+        {
+          "name": "Plaza 10 de Noviembre",
+          "yt": "biiwH1ezJpY",
+          "start": 0,
+          "source": "auto",
+          "title": "VILLA IMPERIAL DE POTOSI-RECORRIDO  POR LA PLAZA PRINCIPAL 10 NOVIEMBRE",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "isla-del-sol",
+      "name": "Isla del Sol",
+      "country": "Bolivia",
+      "country_code": "BO",
+      "country_flag": "🇧🇴",
+      "continent": "South America",
+      "region": "La Paz Department",
+      "type": "island",
+      "tag": "hidden",
+      "emoji": "☀️",
+      "coordinates": {
+        "lat": -16.020555555556,
+        "lng": -69.176388888889
+      },
+      "street_view": {
+        "lat": -16.020555555556,
+        "lng": -69.176388888889,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Isla_del_Sol",
+      "sounds": [
+        "wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Lake Titicaca",
+          "wikipedia_slug": "Lake_Titicaca"
+        },
+        {
+          "name": "Chincana"
+        },
+        {
+          "name": "Pilko Kaina"
+        },
+        {
+          "name": "Yumani"
+        }
+      ],
+      "blurb": "An island of terraced hillsides in the Bolivian half of Lake Titicaca, with no cars, no paved roads and about 800 families farming it. Inca myth has the sun itself born here, and the ruins at both ends of the island are pilgrimage sites.",
+      "fun_fact": "The Inca creation story places the origin of the sun at the Titikala rock on this island — the empire's most sacred site, which is why a road of shrines runs the length of the ridge.",
+      "hidden_gem_tip": "Boats land at Yumani and the village is straight up the Inca stairs from the jetty — at 3,800 m that climb is the hardest twenty minutes of the trip.",
+      "monuments": [
+        {
+          "name": "Lake Titicaca",
+          "yt": "B8fEhZDmQ8U",
+          "start": 0,
+          "source": "auto",
+          "title": "Mysterious Isla del Sol in Titicaca lake | Bolivia in 4K",
+          "height": 2160
+        },
+        {
+          "name": "Chincana",
+          "yt": "2rmMOP4h5cU",
+          "start": 0,
+          "source": "auto",
+          "title": "Chincana Labyrinth | conociendo la CASA de los INKAS en la isla del SOL | ruinas delk lago Titicaca",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "santa-cruz-de-la-sierra",
+      "name": "Santa Cruz de la Sierra",
+      "country": "Bolivia",
+      "country_code": "BO",
+      "country_flag": "🇧🇴",
+      "continent": "South America",
+      "region": "Santa Cruz Department",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🌴",
+      "coordinates": {
+        "lat": -17.789166666667,
+        "lng": -63.1975
+      },
+      "street_view": {
+        "lat": -17.789166666667,
+        "lng": -63.1975,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Santa_Cruz_de_la_Sierra",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Plaza 24 de Septiembre"
+        },
+        {
+          "name": "Basílica Menor de San Lorenzo"
+        },
+        {
+          "name": "Parque Urbano"
+        }
+      ],
+      "blurb": "Bolivia's largest and richest city, and nothing like the Andean half of the country: it is lowland, hot, green and laid out in concentric ring roads on flat ground, growing faster than anywhere else in the country.",
+      "fun_fact": "Santa Cruz has gone from about 40,000 people in 1950 to well over a million and a half — one of the fastest urban growth rates recorded anywhere in the world.",
+      "hidden_gem_tip": "Sloths live in the trees of the main square. Look up on the north side and you will usually find at least one asleep.",
+      "monuments": [
+        {
+          "name": "Plaza 24 de Septiembre",
+          "yt": "rVAAFs3FqKM",
+          "start": 0,
+          "source": "auto",
+          "title": "Plaza 24 de Septiembre, Santa Cruz de la Sierra 4K | DJI MAVIC 3 PRO",
+          "height": 2160
+        },
+        {
+          "name": "Basílica Menor de San Lorenzo",
+          "yt": "_yx8F3hyeJs",
+          "start": 0,
+          "source": "auto",
+          "title": "Catedral Metropolitana Basílica Menor de San Lorenzo de Santa Cruz| 3D VR 180 8K",
+          "height": 4096
+        },
+        {
+          "name": "Parque Urbano",
+          "yt": "pWz_otf0fok",
+          "start": 0,
+          "source": "auto",
+          "title": "Parque Urbano 4 de Mayo - Santa Cruz Bolivia  4K",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "madidi",
+      "name": "Madidi National Park",
+      "country": "Bolivia",
+      "country_code": "BO",
+      "country_flag": "🇧🇴",
+      "continent": "South America",
+      "region": "La Paz Department",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🐒",
+      "coordinates": {
+        "lat": -14.333333333333334,
+        "lng": -68.33333333333333
+      },
+      "street_view": {
+        "lat": -14.333333333333334,
+        "lng": -68.33333333333333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Madidi_National_Park",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Rurrenabaque",
+          "wikipedia_slug": "Rurrenabaque"
+        },
+        {
+          "name": "Beni River",
+          "wikipedia_slug": "Beni_River"
+        },
+        {
+          "name": "Tuichi River"
+        }
+      ],
+      "blurb": "Nearly 19,000 km² running from Amazon lowland at 200 m up to Andean glaciers at 6,000 m — one of the most biodiverse protected areas on the planet, entered by boat from the river town of Rurrenabaque.",
+      "fun_fact": "Madidi is thought to hold around 11% of all the world's bird species inside a single park, largely because it spans almost every altitude band between rainforest and snow line.",
+      "hidden_gem_tip": "Community-run lodges up the Tuichi employ guides from the Indigenous communities that own them; going with those rather than a Rurrenabaque agency is the difference between a boat trip and being shown the forest.",
+      "monuments": [
+        {
+          "name": "Rurrenabaque",
+          "yt": "ENICNpRoqu0",
+          "start": 0,
+          "source": "auto",
+          "title": "Drone flight over Madidi Jungle Ecolodge - Madidi National Park, Rurrenabaque, Beni, Boliva Amazon",
+          "height": 2160
+        },
+        {
+          "name": "Beni River",
+          "yt": "oASMvkbHFxE",
+          "start": 0,
+          "source": "auto",
+          "title": "Full Beni River Trip 2022",
+          "height": 1440
+        }
+      ]
+    },
+    {
+      "id": "cabo-polonio",
+      "name": "Cabo Polonio",
+      "country": "Uruguay",
+      "country_code": "UY",
+      "country_flag": "🇺🇾",
+      "continent": "South America",
+      "region": "Rocha Department",
+      "type": "coastal",
+      "tag": "hidden",
+      "emoji": "🦭",
+      "coordinates": {
+        "lat": -34.399323,
+        "lng": -53.788433
+      },
+      "street_view": {
+        "lat": -34.399323,
+        "lng": -53.788433,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Cabo_Polonio",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Cabo Polonio National Park"
+        },
+        {
+          "name": "Cabo Polonio Lighthouse"
+        },
+        {
+          "name": "Barra de Valizas"
+        }
+      ],
+      "blurb": "A village of about a hundred houses on a headland in the Uruguayan dunes, with no road in, no mains electricity and no mains water. You arrive in a four-wheel-drive truck across 7 km of sand, and the night sky over it is completely dark.",
+      "fun_fact": "The rocks below the lighthouse hold one of the largest sea lion colonies in South America — several thousand animals, audible from the village all night.",
+      "hidden_gem_tip": "Bring cash and a torch. There are no cash machines, most houses run on solar or wind, and after dark the only lights are the lighthouse and whatever you carry.",
+      "monuments": [
+        {
+          "name": "Barra de Valizas",
+          "yt": "p32Hdf8ZvEw",
+          "start": 0,
+          "source": "auto",
+          "title": "Trilha de Barra de Valizas a Cabo Polonio | 30km pelas dunas do Uruguai!",
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "id": "encarnacion",
+      "name": "Encarnación",
+      "country": "Paraguay",
+      "country_code": "PY",
+      "country_flag": "🇵🇾",
+      "continent": "South America",
+      "region": "Itapúa",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🏖️",
+      "coordinates": {
+        "lat": -27.333333333333,
+        "lng": -55.866666666667
+      },
+      "street_view": {
+        "lat": -27.333333333333,
+        "lng": -55.866666666667,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Encarnación,_Paraguay",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "La Santísima Trinidad de Paraná",
+          "wikipedia_slug": "La_Santísima_Trinidad_de_Paraná"
+        },
+        {
+          "name": "Jesús de Tavarangue",
+          "wikipedia_slug": "Ruins_of_Jesús_de_Tavarangue"
+        },
+        {
+          "name": "Playa San José"
+        },
+        {
+          "name": "Paraná River",
+          "wikipedia_slug": "Paraná_River"
+        }
+      ],
+      "blurb": "Paraguay's southern river city, rebuilt uphill when the Yacyretá dam raised the Paraná and drowned the old lower town — and given a sand beach and a promenade in the process. The great Jesuit mission ruins are half an hour up the road.",
+      "fun_fact": "The Jesuit reductions here were self-governing Guaraní towns of several thousand people, with their own orchestras and printing presses, until Spain expelled the order in 1767 and the settlements were abandoned to the forest.",
+      "hidden_gem_tip": "Go to Trinidad for the evening light-and-sound opening rather than in the middle of the day — the red sandstone carving reads much better at a low angle.",
+      "monuments": [
+        {
+          "name": "Jesús de Tavarangue",
+          "yt": "nIYtgZQB9J0",
+          "start": 0,
+          "source": "auto",
+          "title": "Encarnación, Trinidad y Jésus de Tavarangüe, Paraguay 4K HDR Drone",
+          "height": 2160
+        },
+        {
+          "name": "Playa San José",
+          "yt": "YRl3sUWZB1s",
+          "start": 0,
+          "source": "auto",
+          "title": "Encarnacion playa san jose Paraguay 4K",
+          "height": 2160
+        },
+        {
+          "name": "Paraná River",
+          "yt": "pTBQ-i89UUw",
+          "start": 0,
+          "source": "auto",
+          "title": "Paraguay - Citywalking in Encarnación, The Pearl of the South on the Paraná River",
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "id": "ciudad-del-este",
+      "name": "Ciudad del Este",
+      "country": "Paraguay",
+      "country_code": "PY",
+      "country_flag": "🇵🇾",
+      "continent": "South America",
+      "region": "Alto Paraná",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "⚡",
+      "coordinates": {
+        "lat": -25.516666666667,
+        "lng": -54.616666666667
+      },
+      "street_view": {
+        "lat": -25.516666666667,
+        "lng": -54.616666666667,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Ciudad_del_Este",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Itaipu Dam",
+          "wikipedia_slug": "Itaipu_Dam"
+        },
+        {
+          "name": "Saltos del Monday",
+          "wikipedia_slug": "Saltos_del_Monday"
+        },
+        {
+          "name": "Friendship Bridge",
+          "wikipedia_slug": "Friendship_Bridge_(Brazil–Paraguay)"
+        }
+      ],
+      "blurb": "A frontier shopping city at the point where Paraguay, Brazil and Argentina meet — chaotic, duty-free, and permanently full of Brazilians crossing the Friendship Bridge with as much as they can carry. The world's second-largest hydroelectric dam is upstream.",
+      "fun_fact": "Itaipú generates around 90% of Paraguay's electricity and roughly a tenth of Brazil's, and until Three Gorges opened it was the largest power station on Earth by output.",
+      "hidden_gem_tip": "The Monday Falls, 10 km out of town, are 40 m high and almost empty — everyone drives past them to Iguazú, twenty minutes further on.",
+      "monuments": [
+        {
+          "name": "Itaipu Dam",
+          "yt": "1gurAnGwQLc",
+          "start": 0,
+          "source": "auto",
+          "title": "Itaipu Binacional 🇧🇷🇵🇾 | One of the World’s Largest Hydroelectric Dams | 4k Walk",
+          "height": 2160
+        },
+        {
+          "name": "Saltos del Monday",
+          "yt": "1EpxTWl9NOs",
+          "start": 0,
+          "source": "auto",
+          "title": "🇵🇾 Saltos del Monday, un imperdible en Ciudad del Este. Lo que debes saber antes de venir #Paraguay",
+          "height": 2160
+        },
+        {
+          "name": "Friendship Bridge",
+          "yt": "yLJZeXbigQA",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Walking Tour - Crossing the Friendship Bridge - Brazil/Paraguay - August 2024 [4K Ultra HD/60fps]",
+          "height": 2160
         }
       ]
     }

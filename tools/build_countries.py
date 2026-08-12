@@ -43,6 +43,10 @@ COUNTRIES = {
     "BO": ("Bolivia", "South America"),
     "UY": ("Uruguay", "South America"),
     "PY": ("Paraguay", "South America"),
+    "EC": ("Ecuador", "South America"),
+    "VE": ("Venezuela", "South America"),
+    "GY": ("Guyana", "South America"),
+    "SR": ("Suriname", "South America"),
     # ---- Europe ----
     "GB": ("United Kingdom", "Europe"),
     "FR": ("France", "Europe"),

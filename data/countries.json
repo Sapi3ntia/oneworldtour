@@ -42,12 +42,28 @@
       "locations": 21
     },
     {
+      "code": "CL",
+      "name": "Chile",
+      "flag": "🇨🇱",
+      "continent": "South America",
+      "status": "live",
+      "locations": 15
+    },
+    {
       "code": "TH",
       "name": "Thailand",
       "flag": "🇹🇭",
       "continent": "Asia",
       "status": "live",
       "locations": 15
+    },
+    {
+      "code": "BR",
+      "name": "Brazil",
+      "flag": "🇧🇷",
+      "continent": "South America",
+      "status": "live",
+      "locations": 14
     },
     {
       "code": "VN",
@@ -90,6 +106,14 @@
       "locations": 12
     },
     {
+      "code": "AR",
+      "name": "Argentina",
+      "flag": "🇦🇷",
+      "continent": "South America",
+      "status": "live",
+      "locations": 11
+    },
+    {
       "code": "FR",
       "name": "France",
       "flag": "🇫🇷",
@@ -104,6 +128,22 @@
       "continent": "Europe",
       "status": "live",
       "locations": 10
+    },
+    {
+      "code": "PE",
+      "name": "Peru",
+      "flag": "🇵🇪",
+      "continent": "South America",
+      "status": "live",
+      "locations": 10
+    },
+    {
+      "code": "EC",
+      "name": "Ecuador",
+      "flag": "🇪🇨",
+      "continent": "South America",
+      "status": "live",
+      "locations": 9
     },
     {
       "code": "GB",
@@ -126,6 +166,14 @@
       "name": "Cambodia",
       "flag": "🇰🇭",
       "continent": "Asia",
+      "status": "live",
+      "locations": 8
+    },
+    {
+      "code": "CO",
+      "name": "Colombia",
+      "flag": "🇨🇴",
+      "continent": "South America",
       "status": "live",
       "locations": 8
     },
@@ -160,6 +208,14 @@
       "continent": "Africa",
       "status": "live",
       "locations": 8
+    },
+    {
+      "code": "BO",
+      "name": "Bolivia",
+      "flag": "🇧🇴",
+      "continent": "South America",
+      "status": "live",
+      "locations": 7
     },
     {
       "code": "IN",
@@ -218,26 +274,18 @@
       "locations": 6
     },
     {
-      "code": "AR",
-      "name": "Argentina",
-      "flag": "🇦🇷",
-      "continent": "South America",
-      "status": "live",
-      "locations": 5
-    },
-    {
-      "code": "CL",
-      "name": "Chile",
-      "flag": "🇨🇱",
-      "continent": "South America",
-      "status": "live",
-      "locations": 5
-    },
-    {
       "code": "MA",
       "name": "Morocco",
       "flag": "🇲🇦",
       "continent": "Africa",
+      "status": "live",
+      "locations": 5
+    },
+    {
+      "code": "VE",
+      "name": "Venezuela",
+      "flag": "🇻🇪",
+      "continent": "South America",
       "status": "live",
       "locations": 5
     },
@@ -282,14 +330,6 @@
       "locations": 4
     },
     {
-      "code": "PE",
-      "name": "Peru",
-      "flag": "🇵🇪",
-      "continent": "South America",
-      "status": "live",
-      "locations": 4
-    },
-    {
       "code": "SG",
       "name": "Singapore",
       "flag": "🇸🇬",
@@ -314,6 +354,14 @@
       "locations": 4
     },
     {
+      "code": "UY",
+      "name": "Uruguay",
+      "flag": "🇺🇾",
+      "continent": "South America",
+      "status": "live",
+      "locations": 4
+    },
+    {
       "code": "AM",
       "name": "Armenia",
       "flag": "🇦🇲",
@@ -326,30 +374,6 @@
       "name": "Belize",
       "flag": "🇧🇿",
       "continent": "North America",
-      "status": "live",
-      "locations": 3
-    },
-    {
-      "code": "BO",
-      "name": "Bolivia",
-      "flag": "🇧🇴",
-      "continent": "South America",
-      "status": "live",
-      "locations": 3
-    },
-    {
-      "code": "BR",
-      "name": "Brazil",
-      "flag": "🇧🇷",
-      "continent": "South America",
-      "status": "live",
-      "locations": 3
-    },
-    {
-      "code": "CO",
-      "name": "Colombia",
-      "flag": "🇨🇴",
-      "continent": "South America",
       "status": "live",
       "locations": 3
     },
@@ -410,6 +434,14 @@
       "locations": 3
     },
     {
+      "code": "PY",
+      "name": "Paraguay",
+      "flag": "🇵🇾",
+      "continent": "South America",
+      "status": "live",
+      "locations": 3
+    },
+    {
       "code": "SA",
       "name": "Saudi Arabia",
       "flag": "🇸🇦",
@@ -446,14 +478,6 @@
       "name": "Ukraine",
       "flag": "🇺🇦",
       "continent": "Europe",
-      "status": "live",
-      "locations": 3
-    },
-    {
-      "code": "UY",
-      "name": "Uruguay",
-      "flag": "🇺🇾",
-      "continent": "South America",
       "status": "live",
       "locations": 3
     },
@@ -522,6 +546,14 @@
       "locations": 2
     },
     {
+      "code": "GY",
+      "name": "Guyana",
+      "flag": "🇬🇾",
+      "continent": "South America",
+      "status": "live",
+      "locations": 2
+    },
+    {
       "code": "LT",
       "name": "Lithuania",
       "flag": "🇱🇹",
@@ -582,6 +614,14 @@
       "name": "Slovakia",
       "flag": "🇸🇰",
       "continent": "Europe",
+      "status": "live",
+      "locations": 2
+    },
+    {
+      "code": "SR",
+      "name": "Suriname",
+      "flag": "🇸🇷",
+      "continent": "South America",
       "status": "live",
       "locations": 2
     },
@@ -742,14 +782,6 @@
       "name": "North Korea",
       "flag": "🇰🇵",
       "continent": "Asia",
-      "status": "live",
-      "locations": 1
-    },
-    {
-      "code": "PY",
-      "name": "Paraguay",
-      "flag": "🇵🇾",
-      "continent": "South America",
       "status": "live",
       "locations": 1
     },

@@ -17,3 +17,7 @@ __pycache__/
 pyproject.toml
 uv.lock
 .python-version
+
+# verify_wiki.py's slug cache. It never expires on its own (only --refresh
+# clears it), so a committed copy would silently vouch for month-old verdicts.
+tools/.wiki_slugs.json
