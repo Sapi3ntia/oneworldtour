@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-11T20:58:15+00:00",
+ "generated": "2026-08-13T23:36:20+00:00",
  "places": {
   "fez": {
    "walk": {
@@ -9625,6 +9625,580 @@
     "channel": "Mileage Mike Travels",
     "date": "20220117",
     "duration": 1730
+   }
+  },
+  "mtskheta": {
+   "walk": {
+    "yt": "BIY127oxXck",
+    "title": "Mtskheta, Georgia l Mtskheta Walking Tour l 4K HDR",
+    "channel": "195 WALKS",
+    "date": "20250712",
+    "duration": 3894
+   },
+   "drive": {
+    "yt": "Jb0t9LeFkq4",
+    "title": "Jvari Monastery | Mtskheta | Drive Across Georgia | Episode 12 | 4K",
+    "channel": "Serendib Ride",
+    "date": "20221001",
+    "duration": 1381
+   }
+  },
+  "svaneti": {
+   "walk": {
+    "yt": "2I1YpsAOC6A",
+    "title": "SVANETI, GEORGIA 🇬🇪 | 4K 60FPS Walking Tour | Ushguli, Mestia & Tskaltubo’s Abandoned Sanatoriums",
+    "channel": "4K walking tours and travels",
+    "date": "20260808",
+    "duration": 2694
+   },
+   "drive": {
+    "yt": "0nuL4C7WCQY",
+    "title": "Peaceful 4K Drive Through Georgian Mountains | Upper Svaneti to Racha",
+    "channel": "RELAXING TRAVELS CHANNEL",
+    "date": "20260306",
+    "duration": 1803
+   }
+  },
+  "vardzia": {
+   "drive": {
+    "yt": "X7422V0p89w",
+    "title": "The INCREDIBLE CAVE CITY of VARDZIA GEORGIA (GEORGIA ROAD TRIP through Akhaltsikhe)",
+    "channel": "Chens of a Lifetime",
+    "date": "20220911",
+    "duration": 1167
+   }
+  },
+  "batumi": {
+   "walk": {
+    "yt": "tu7Sjjj4nOw",
+    "title": "Batumi, Georgia walking tour 4K 60 FPS | Batumi old town in summer 2024",
+    "channel": "It's walking!",
+    "date": "20240831",
+    "duration": 1895
+   },
+   "drive": {
+    "yt": "nptPgFM9YnE",
+    "title": "Driving Downtown BATUMI CITY | Virtual Tour 2021",
+    "channel": "Video Tourism",
+    "date": "20210508",
+    "duration": 722
+   }
+  },
+  "kutaisi": {
+   "walk": {
+    "yt": "dIRB9NNuuhM",
+    "title": "KUTAISI, GEORGIA 🇬🇪 | 4K 60FPS Walking Tour, Chiatura, Katskhi Pillar & Abandoned Railway Adventure",
+    "channel": "4K walking tours and travels",
+    "date": "20260802",
+    "duration": 2410
+   },
+   "drive": {
+    "yt": "SkTKmxrYHHM",
+    "title": "Gori - Kutaisi - Okatse Canyon | Drive Across Georgia | Episode 17 | 4K",
+    "channel": "Serendib Ride",
+    "date": "20221104",
+    "duration": 1256
+   }
+  },
+  "khor-virap": {
+   "walk": {
+    "yt": "RAkvouq53Vs",
+    "title": "Khor Virab Monastery. Armenia 🇦🇲. Sunset walk.",
+    "channel": "Silent Walking",
+    "date": "20220412",
+    "duration": 704
+   }
+  },
+  "dilijan": {
+   "walk": {
+    "yt": "r4B3_gROTD0",
+    "title": "4K Walking tour in Dilijan / Armenia",
+    "channel": "ORNA Expeditions",
+    "date": "20230710",
+    "duration": 1065
+   },
+   "drive": {
+    "yt": "FTwT8PQ_L7M",
+    "title": "Driving tour, M4 Road to DILIJAN, Tavoush, Armenia. 4K 60fps",
+    "channel": "OBSERVER",
+    "date": "20210827",
+    "duration": 2146
+   }
+  },
+  "gobustan": {
+   "walk": {
+    "yt": "DnuZ6CvAFSE",
+    "title": "Gobustan Rock Art Cultural Landscape | UNESCO Heritage Site | Azerbaijan | 4K Immersive Walking Tour",
+    "channel": "Biswarup Ganguly",
+    "date": "20260720",
+    "duration": 1970
+   },
+   "drive": {
+    "yt": "2tc6sP7Vly8",
+    "title": "A Journey Through Azerbaijan’s Otherworldly Landscape | Gobustan & Mud Volcanoes Drive",
+    "channel": "Places in the World",
+    "date": "20230622",
+    "duration": 1650
+   }
+  },
+  "sheki": {
+   "walk": {
+    "yt": "4rkZKqnh4Ag",
+    "title": "Sheki Khans Palace - Walking Tour | 4k - 60fps | UNESCO World Heritage Site 🇦🇿 | ASMR Natural Sounds",
+    "channel": "The Relaxing Lounge",
+    "date": "20221224",
+    "duration": 1627
+   },
+   "drive": {
+    "yt": "ADPxN9zAlrg",
+    "title": "Sheki, Azerbaijan | Drive through the city center and Palace of Sheki Khans | 4K Video",
+    "channel": "Rovshan Gasimov",
+    "date": "20240401",
+    "duration": 1167
+   }
+  },
+  "khinalug": {
+   "drive": {
+    "yt": "gg28bvgO47w",
+    "title": "[4K 60fps] Azerbaijan Drive Tour | Xinaliq | Khinaliq | Khinalug",
+    "channel": "JT Drive",
+    "date": "20221203",
+    "duration": 1139
+   }
+  },
+  "almaty": {
+   "walk": {
+    "yt": "5XKyJe3Viqw",
+    "title": "4K Kazakhstan Walking Tour - Almaty, where Luxury Meets Soviet-Era Streets 🇰🇿 | 4K HDR 60fps",
+    "channel": "World Wanderings: 4K Walking Tours",
+    "date": "20250223",
+    "duration": 4710
+   },
+   "drive": {
+    "yt": "3sNY-3zaAM4",
+    "title": "Autumn Driving Tour through the Mountain roads of Almaty - 4K City Drive - Kazakhstan",
+    "channel": "Adventurer Inside",
+    "date": "20211013",
+    "duration": 2251
+   }
+  },
+  "astana": {
+   "walk": {
+    "yt": "P60Ij9sC2Bg",
+    "title": "4K Astana Walk🇰🇿 Exploring the City Center of Kazakhstan’s Capital - September 2025",
+    "channel": "4K Walking Travel",
+    "date": "20251027",
+    "duration": 3668
+   },
+   "drive": {
+    "yt": "kTVrIhqLL7c",
+    "title": "Exploring Astana: A Mesmerizing City Drive - 4K video - Cities of Kazakhstan",
+    "channel": "Drive & Enjoy | Aesthetic Drives",
+    "date": "20230503",
+    "duration": 961
+   }
+  },
+  "charyn-canyon": {
+   "walk": {
+    "yt": "nQ_u6k1fvXk",
+    "title": "Picturesque Charyn Canyon, Kazakhstan | Чарынский каньон, Казахстан | 4K Walking Tour",
+    "channel": "To Walk in the Sun",
+    "date": "20250815",
+    "duration": 2611
+   }
+  },
+  "kolsai-lakes": {
+   "walk": {
+    "yt": "4o481LHHzok",
+    "title": "[Video] Slow Walking Lake Kolsai | Autumn 2023",
+    "channel": "Relaxing Moment",
+    "date": "20231011",
+    "duration": 652
+   },
+   "drive": {
+    "yt": "dcZXp2OHoIo",
+    "title": "Road trip in Almaty Kazakhstan | Travel to Kolsai Lake",
+    "channel": "Rioliz Tv",
+    "date": "20230907",
+    "duration": 649
+   }
+  },
+  "baikonur": {
+   "walk": {
+    "yt": "mGUJdL3Ajuc",
+    "title": "Walking to Baikonur | Buran spaceship 2019",
+    "channel": "JAISYZDYQ ",
+    "date": "20221001",
+    "duration": 612
+   }
+  },
+  "khiva": {
+   "walk": {
+    "yt": "phb4C0UKh0c",
+    "title": "4K | 60fps Khiva, Uzbekistan Walking Tour 🇺🇿 | Ancient Silk Road City | Ichan Kala UNESCO",
+    "channel": "4K walking tours and travels",
+    "date": "20260610",
+    "duration": 2558
+   }
+  },
+  "tashkent": {
+   "walk": {
+    "yt": "YyHJHQPUWQk",
+    "title": "🇺🇿Uzbekistan 4k walk - Tashkent 4K Downtown Walking Tour｜Nov 2024",
+    "channel": "4K WORLD TOUR",
+    "date": "20250123",
+    "duration": 4892
+   },
+   "drive": {
+    "yt": "iGTCeNN48R4",
+    "title": "Uzbekistan Road Trip: Driving through Tashkent in 4K POV",
+    "channel": "Follow Me To Magic World - Travel channel",
+    "date": "20260514",
+    "duration": 900
+   }
+  },
+  "shakhrisabz": {
+   "walk": {
+    "yt": "Px899c0VsEs",
+    "title": "Shakhrisabz in 4K HDR – Walking Through the Timeless Beauty of Uzbekistan! 🇺🇿✨",
+    "channel": "DOCA TOURS",
+    "date": "20240821",
+    "duration": 4200
+   }
+  },
+  "moynaq": {
+   "walk": {
+    "yt": "-Bra_vq3uog",
+    "title": "Moynaq & The Aral Sea Disaster | 4K | 60FPS Walking Tour | Nukus & Urgench, Uzbekistan 🇺🇿",
+    "channel": "4K walking tours and travels",
+    "date": "20260614",
+    "duration": 3034
+   }
+  },
+  "issyk-kul": {
+   "walk": {
+    "yt": "xx9mtJeT9iI",
+    "title": "Issyk-Kul, Kyrgyzstan | Иссык-Куль, Кыргызстан | 4K Walking Tour",
+    "channel": "To Walk in the Sun",
+    "date": "20251128",
+    "duration": 1328
+   },
+   "drive": {
+    "yt": "E7uXxok3kls",
+    "title": "Scenic mountain drive: Tossor - Lake Issyk-Kul south - Skazka Canyon [4K]",
+    "channel": "Candid Authentic Routes",
+    "date": "20240613",
+    "duration": 9337
+   }
+  },
+  "karakol": {
+   "walk": {
+    "yt": "-Gz9P5viXXU",
+    "title": "Karakol, Kyrgyzstan | Каракол, Кыргызстан | 4K Walking Tour",
+    "channel": "To Walk in the Sun",
+    "date": "20251205",
+    "duration": 3100
+   },
+   "drive": {
+    "yt": "yd08sBMwc2E",
+    "title": "Driving in Kyrgyzstan: along the Silk Road | Bishkek to Karakol | Part 1: Bishkek to Ottyk",
+    "channel": "Solo World | Travel with me!",
+    "date": "20211116",
+    "duration": 686
+   }
+  },
+  "song-kol": {
+   "drive": {
+    "yt": "er844HBD-4M",
+    "title": "Kyrgyzstan’s Most Breathtaking Drive | Song-Kul’s High-Altitude Escape",
+    "channel": "Places in the World",
+    "date": "20230522",
+    "duration": 3515
+   }
+  },
+  "osh": {
+   "walk": {
+    "yt": "sPifbSqWkg0",
+    "title": "Kyrgyzstan | Bishkek | Osh Bazar Walking Tour | 4K |",
+    "channel": "NAVI STUDIO",
+    "date": "20201101",
+    "duration": 2272
+   },
+   "drive": {
+    "yt": "Ye3vv62EUPc",
+    "title": "The scariest mountain drive in Kyrgyzstan | Pamir Highway from Bishkek to Osh",
+    "channel": "Solo World | Travel with me!",
+    "date": "20220125",
+    "duration": 728
+   }
+  },
+  "dushanbe": {
+   "walk": {
+    "yt": "XAX6d04-qp8",
+    "title": "🇹🇯4K Tajikistan Walk - Dushanbe City Center Walking Tour｜September 2025",
+    "channel": "4K Walking Travel",
+    "date": "20251114",
+    "duration": 3633
+   },
+   "drive": {
+    "yt": "7YPx-GRYwKQ",
+    "title": "POV Drive from Tursunzade to Dushanbe | 4K 60FPS Ambient Road Trip (No Music) | Tajikistan 🇹🇯",
+    "channel": "SilentStepsTaj",
+    "date": "20260325",
+    "duration": 3409
+   }
+  },
+  "iskanderkul": {
+   "drive": {
+    "yt": "J5HG9r5iWsI",
+    "title": "Drive to Lake Iskanderkul 🏔️ | Scenic Mountain Road from Dushanbe | Part 1 | 4K",
+    "channel": "SilentStepsTaj",
+    "date": "20260711",
+    "duration": 3365
+   }
+  },
+  "khujand": {
+   "walk": {
+    "yt": "hokRZKaNtV0",
+    "title": "Khujand, Tajikistan 🇹🇯 | Khujand Fortress Walking Tour 4K | Худжанд Хуҷанд",
+    "channel": "Brandonmaps",
+    "date": "20260322",
+    "duration": 715
+   },
+   "drive": {
+    "yt": "z1ofLbldb98",
+    "title": "Khujand City Drive – Exploring Tajikistan's Second-Largest City in 4K",
+    "channel": "Feel Art Man",
+    "date": "20250414",
+    "duration": 2215
+   }
+  },
+  "ashgabat": {
+   "walk": {
+    "yt": "bhYPntlncKs",
+    "title": "🇹🇲Ashgabat 4k walk - Turkmenistan 4K Morning Walking Tour｜Nov 2024",
+    "channel": "4K WORLD TOUR",
+    "date": "20241206",
+    "duration": 3245
+   },
+   "drive": {
+    "yt": "NRh3TOiG-9Y",
+    "title": "Unedited Driving Tour of Ashgabat, Turkmenistan 🇹🇲",
+    "channel": "Cole Conquers the World",
+    "date": "20240706",
+    "duration": 877
+   }
+  },
+  "darvaza": {
+   "walk": {
+    "yt": "cSR8_mb0QyA",
+    "title": "Darvaza Gas Crater, Turkmenistan | 4K HDR Walking Tour",
+    "channel": "To Walk in the Sun",
+    "date": "20250912",
+    "duration": 1609
+   }
+  },
+  "vladivostok": {
+   "walk": {
+    "yt": "bB6DGkrIVZk",
+    "title": "4K Walking Tour with City Sounds - Trip to Vladivostok, Russia",
+    "channel": "4K Urban Life",
+    "date": "20200414",
+    "duration": 6141
+   },
+   "drive": {
+    "yt": "ljhep9nAec8",
+    "title": "Поездка на остров Русский, Владивосток  - Driving tour of Vladivostok Russia,  Russky Island.",
+    "channel": "The world around",
+    "date": "20230914",
+    "duration": 899
+   },
+   "live": {
+    "yt": "nBGguzu8aTc",
+    "title": "Online Camera Vladivostok Center Веб-камера Владивосток Океанский пр-т 2026-08-13 19:17",
+    "verified": "2026-08-13"
+   }
+  },
+  "murmansk": {
+   "walk": {
+    "yt": "tC9ewJzqJ0M",
+    "title": "Murmansk - A City in the Arctic - 4K City Walking Tour",
+    "channel": "4K Urban Life",
+    "date": "20230324",
+    "duration": 3614
+   },
+   "drive": {
+    "yt": "FknHQdKPR_w",
+    "title": "Arctic Drone Drive | Russia Murmansk HD",
+    "channel": "Travel Around the World 4K",
+    "date": "20260203",
+    "duration": 994
+   }
+  },
+  "yakutsk": {
+   "walk": {
+    "yt": "Exl-iYIolZo",
+    "title": "Walking in Siberia 🇷🇺 | Summer Park Walk in Yakutsk (4K)",
+    "channel": "Walking Yakutsk ",
+    "date": "20260804",
+    "duration": 1429
+   },
+   "drive": {
+    "yt": "mPwzSWfj3OA",
+    "title": "What Summer Looks Like in the Coldest City on Earth | Driving Through Yakutsk 4K",
+    "channel": "Walking Yakutsk ",
+    "date": "20260809",
+    "duration": 1798
+   }
+  },
+  "petropavlovsk-kamchatsky": {
+   "walk": {
+    "yt": "CLQagUAdjRY",
+    "title": "Petropavlovsk-Kamchatsky walking tour [4K] - Vladivostokskaya street, 50 years of October avenue",
+    "channel": "Grossbee 360",
+    "date": "20230818",
+    "duration": 1775
+   }
+  },
+  "veliky-novgorod": {
+   "walk": {
+    "yt": "WApCrmhot28",
+    "title": "Walking  around Veliky Novgorod, Russia , 4K",
+    "channel": " Russian Province Walks",
+    "date": "20260808",
+    "duration": 5696
+   }
+  },
+  "suzdal": {
+   "walk": {
+    "yt": "3K6klfWd0Gg",
+    "title": "Suzdal. Russia. Russia walking tour 4k. Russia walking around. Walking in Russia. Russia 4k.",
+    "channel": "Walking tour 4k",
+    "date": "20220531",
+    "duration": 916
+   }
+  },
+  "vladimir": {
+   "walk": {
+    "yt": "QtGWdUoF7xE",
+    "title": "[4K] 2024 Walking Tour the Snow in Vladimir, Russia 🇷🇺❄️ Winter White Christmas",
+    "channel": "DailyCrypto",
+    "date": "20240108",
+    "duration": 3794
+   },
+   "drive": {
+    "yt": "OVuBp2TQWTM",
+    "title": "Driving in Russia 4K: Moscow - Vladimir | Scenic Drive | #FollowMe",
+    "channel": "Follow Me To Magic World - Travel channel",
+    "date": "20200707",
+    "duration": 8871
+   }
+  },
+  "nizhny-novgorod": {
+   "walk": {
+    "yt": "2raX-7EqFZ8",
+    "title": "Nizhny Novgorod - 8K 60fps🎧 - Sunny Day Walking Tour - City Walk Russia",
+    "channel": "Sergey Khvostov",
+    "date": "20260501",
+    "duration": 1300
+   },
+   "drive": {
+    "yt": "B6ZunOM5xDo",
+    "title": "Nizhny Novgorod - Fall Morning Drive in 4K",
+    "channel": "Wayfarer",
+    "date": "20211229",
+    "duration": 2673
+   }
+  },
+  "volgograd": {
+   "walk": {
+    "yt": "_GDXJisM99I",
+    "title": "Volgograd (Stalingrad) Russia 4k  |  Mamayev Kurgan - Walking tour",
+    "channel": "Walk with Filmmaker",
+    "date": "20201019",
+    "duration": 1209
+   },
+   "drive": {
+    "yt": "JHQhiG-sMW4",
+    "title": "Volgograd Driving formerly Stalingrad city ​​of Russia",
+    "channel": "Walk highway",
+    "date": "20200629",
+    "duration": 3564
+   }
+  },
+  "kaliningrad": {
+   "walk": {
+    "yt": "-OeZsLZ2_8s",
+    "title": "Walking in the center of Kaliningrad, Russia 4K 60fps.",
+    "channel": "Walk and Travel TV",
+    "date": "20201027",
+    "duration": 2142
+   },
+   "drive": {
+    "yt": "mA_FPfZ0yt4",
+    "title": "DRIVING in KALININGRAD, Калининград, Kaliningrad Oblast, RUSSIA 4K",
+    "channel": "Just Driving 4K",
+    "date": "20260617",
+    "duration": 2833
+   }
+  },
+  "sochi": {
+   "walk": {
+    "yt": "LpuKJEoXC_k",
+    "title": "Sochi -  Walking Tour - Russia - 4K 60fps🎧- City Walk With Real Binaural 3D Ambient Sounds",
+    "channel": "Sergey Khvostov",
+    "date": "20220623",
+    "duration": 1721
+   },
+   "drive": {
+    "yt": "-4HunzHIXZs",
+    "title": "Sochi 4K - Driving Downtown - Russia",
+    "channel": "SochiDriver",
+    "date": "20210902",
+    "duration": 2045
+   }
+  },
+  "derbent": {
+   "walk": {
+    "yt": "2hiZlm-igGs",
+    "title": "Derbent - Old Town 4K Walking Tour, Dagestan, Russia",
+    "channel": "Pavel Ageychenko",
+    "date": "20210623",
+    "duration": 876
+   }
+  },
+  "arkhangelsk": {
+   "walk": {
+    "yt": "VWfwY3NRMyM",
+    "title": "Arkhangelsk — Life in North Russia | Winter Solstice Walk",
+    "channel": "Pavel Ageychenko",
+    "date": "20211229",
+    "duration": 3368
+   }
+  },
+  "ulan-ude": {
+   "walk": {
+    "yt": "F4Nfpw0xGZg",
+    "title": "Winter walk in the center of Buryatia, Ulan Ude  Siberia 7 January 2022",
+    "channel": "Суровый Сибиряк",
+    "date": "20220107",
+    "duration": 1642
+   }
+  },
+  "krasnoyarsk": {
+   "walk": {
+    "yt": "Zb0QhkbisKg",
+    "title": "Walking tour around the Russian city of Krasnoyarsk (Siberia) [4k]",
+    "channel": "Walk with Me",
+    "date": "20220718",
+    "duration": 2994
+   },
+   "drive": {
+    "yt": "mUWRf5puR3U",
+    "title": "Driving to a village in Siberia in Russia||4k video|| Krasnoyarsk||August 2021 || Part 1",
+    "channel": "4K DRIVE AND WALK",
+    "date": "20210831",
+    "duration": 2109
    }
   }
  }

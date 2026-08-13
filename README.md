@@ -142,6 +142,8 @@ oneworldtour/
 ├── tools/
 │   ├── build_worldmap.py  # TopoJSON → Natural-Earth-projected SVG paths
 │   ├── enrich_media.py    # yt-dlp: auto-find + vet walks and live cams  ★
+│   ├── harvest_cams.py    # the same cams, found the cheap way round      ★
+│   ├── openwebcamdb.py    # metered cam DISCOVERY — build-time only       ★
 │   ├── enrich_monuments.py# yt-dlp: auto-find + vet 🏛️ landmark tours     ★
 │   ├── build_monuments.py # hand-curated monument tabs (beats the above)
 │   ├── prune_media.py     # re-apply today's rules; drop picks that now fail
@@ -592,9 +594,20 @@ Waterfall drive that merely *starts* downtown. Run it after touching any regex:
 python3 tools/test_vetting.py    # no network; exits 1 on any failure
 ```
 
-Two operational traps, both of which cost time. `enrich_media.py` and
-`enrich_monuments.py` each rewrite `data/media.json` **whole**, so never run them
-concurrently — the second to finish wins and silently discards the other's work.
+**The trap that cost the most: `--max` used to silently truncate `--only`.**
+Both enrichers ended with `todo = todo[:args.max]` while `--max` defaulted to
+10, so naming 94 places processed the first ten and dropped 84 without a word
+in the log. Months of "filling a region out" were quietly losing most of each
+batch; that is where the bulk of the no-scene backlog came from. Both tools now
+default `--max` to `None` and treat *naming the places as the limit* — `--max`
+caps an open-ended sweep only. They also warn about ids that are on no map,
+instead of letting a typo vanish. If you add a third tool that walks the corpus,
+do not reintroduce the pattern.
+
+Two more operational traps. `enrich_media.py`,
+`harvest_cams.py --apply` and `enrich_monuments.py` each rewrite
+`data/media.json` **whole**, so never run them concurrently — the second to
+finish wins and silently discards the other's work.
 And `pgrep -f "tools/enrich_media.py"` matches the *waiting shell's own command
 line*, so `until ! pgrep -f …; do sleep; done` waits forever on a process that
 exited an hour earlier. Wait on the pid: `until ! kill -0 "$PID"; do sleep 30;
@@ -770,7 +783,23 @@ still says so, which is how most people find the trips at all.
 
 ### Filling a region out ★
 
-Five batches went in this way, and the rules they turned up apply to any new place.
+Six batches went in this way, and the rules they turned up apply to any new place.
+
+**Russia, Ukraine and the wider Eurasian belt** (`europe.json` + `asia.json`,
+94 new places, 2026-08-13). Built with `tools/build_eurasia.py`, which grew an
+`--only` flag so adding one more place doesn't mean regenerating — and
+overwriting — the whole region. **Taganrog** went in that way: Peter the
+Great's first naval base, 1698, on a cape in the Sea of Azov, two decades older
+than Saint Petersburg, tagged `hidden` because it honestly is. Its six
+highlights are all real structures rather than districts, so
+`enrich_monuments.py` can actually spend them.
+
+This batch is also where the `--max` truncation bug surfaced, and the reason it
+went unnoticed for so long is worth recording: the failure looked exactly like
+success. The log said what it was doing for ten places, then said `done`. A
+silent truncation reads as a completed run, so the only thing that catches it
+is counting the output against the input — which is now what the ghost warning
+is for.
 
 **The Grand River watershed** (`canada.json` 17 → 36). Every Grand River
 Conservation Area now exists as a place — Luther Marsh at the source down to Byng
@@ -941,7 +970,7 @@ place in the atlas now has at least one of the two.
 | every `wikipedia_slug` **checked live**, and stored as the article's *canonical* title | `arrivalPhoto()` queries pageimages without `redirects=1`, so a slug that is a redirect returns no thumbnail and the card silently degrades to its emoji. A redirect is not a broken link on Wikipedia but it is one here |
 | no article → point at the **containing** settlement or watercourse | GRCA owns properties Wikipedia has never heard of. Same precedent as `big-bear-eagles → Big_Bear_Lake,_California`. Never a namesake elsewhere: Wikipedia's "Pinehurst Lake" is in **Alberta**, so Ontario's kettle lake points at `County_of_Brant` |
 | `highlights` slugs get the same check | 15 of them pointed at articles that don't exist and 2 at the wrong subject ("Outlying Islands" redirects to a generic geography concept, not Hong Kong's district). 12 repointed, 5 dropped to plain text — the UI renders highlights as text chips anyway, so a name with no link costs nothing and a dead link is rot |
-| an empty `highlights` array is also an **empty monuments tab** | `enrich_monuments.py` has no other source of search terms, so the sweep skips the place silently and the gap reads as "nothing verifiable" when the truth is "nothing asked". 68 places sat in that state, Uluru and Vatican City among them. Author the highlights first; the videos follow |
+| an empty `highlights` array is also an **empty monuments tab** — *unless the place is its own monument* | `enrich_monuments.py` has no other source of search terms, so the sweep skips the place silently and the gap reads as "nothing verifiable" when the truth is "nothing asked". 68 places sat in that state, Uluru and Vatican City among them. Author the highlights first; the videos follow. **But count the exception before you panic:** `SELF_MONUMENT_TYPES = {ruin, history, natural}` searches the place's *own* name, because Nan Madol and Göbekli Tepe have no sub-landmarks to list. Of the 47 places that still show an empty `highlights` array, 43 are those types and 42 already have monuments. The genuinely stuck list was four cities — Cairo, Tokyo, Seoul, Sydney — now authored by hand. A raw count of empty `highlights` overstates this gap by 10×; filter by `type` first |
 | `sounds` must name one of the **six recipes** `soundscape.js` knows | `typeFor()` matches on keyword — arctic / wind / ocean-wave-tidal / waterfall / plaza-city / wilderness-forest. Any other filename silently falls through to wind, and nobody notices |
 | **city tiers live in the prose, hedged — never in a field** | there is no government tier list. The ranking is a Chinese business magazine's, revised yearly, and "new first-tier" is that magazine's coinage. A `tier: 1` key would read as official |
 | `region` is **user-visible** | `passport.js` prints it under the place name, so a municipality needs "Beijing Municipality" or the card reads "Beijing / Beijing" |
@@ -1026,6 +1055,28 @@ Radio Browser (live radio) · GDELT (headlines; rate-limits → section hides
 honestly) · open.er-api.com (FX) · YouTube embeds (walks, monuments, live cams,
 most TV) · broadcaster HLS streams + hls.js from jsdelivr (lazy, only for
 non-YouTube state TV: RT, KCTV) · Claude API (optional guide backend).
+
+**Build-time only, and deliberately never in the browser:** Wikidata SPARQL
+(P625 coordinate checks), Windy Webcams v3, and OpenWebcamDB. The last one is
+worth spelling out, because the arithmetic is what decides it: the free tier
+allows **25 requests per 24 h** — one every 57.6 minutes — and caps caching at
+**one hour**. A single runtime query shape, cached at the maximum the licence
+permits, therefore costs 24 requests a day: 96% of the entire budget, for one
+query, before a second visitor loads a second page. It cannot be a runtime
+integration, so `tools/openwebcamdb.py` is a discovery tool that runs on our
+machines and writes ordinary vetted seats into `data/media.json`. It keeps a
+persistent rolling-24 h ledger, reconciles it against the server's own
+`x-ratelimit-*` headers and believes whichever number is lower, holds 3
+requests in reserve, sleeps rather than burst past 5/min, hard-stops on a 429,
+and deletes cached responses at 60 minutes rather than serving them stale.
+Because no OpenWebcamDB data ever reaches a visitor, their attribution
+requirement attaches to no page; the tool prints the credit on its own output,
+which is where their data actually surfaces.
+
+Credentials live in gitignored files at mode 600 — `tools/windy.key`,
+`tools/openwebcamdb.key`, `tools/nps.key`, `tools/geonames.user`. GeoNames
+authenticates by *username*, which makes it look like it isn't a secret; it is,
+because a leaked one spends someone else's daily quota.
 
 ---
 

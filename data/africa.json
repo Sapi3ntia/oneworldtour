@@ -369,7 +369,36 @@
       "sounds": [
         "city-hum.mp3"
       ],
-      "highlights": [],
+      "highlights": [
+        {
+          "name": "Egyptian Museum",
+          "wikipedia_slug": "Egyptian_Museum"
+        },
+        {
+          "name": "Khan el-Khalili",
+          "wikipedia_slug": "Khan_el-Khalili"
+        },
+        {
+          "name": "Al-Azhar Mosque",
+          "wikipedia_slug": "Al-Azhar_Mosque"
+        },
+        {
+          "name": "Cairo Citadel",
+          "wikipedia_slug": "Cairo_Citadel"
+        },
+        {
+          "name": "Mosque-Madrasa of Sultan Hasan",
+          "wikipedia_slug": "Mosque-Madrasa_of_Sultan_Hasan"
+        },
+        {
+          "name": "Cairo Tower",
+          "wikipedia_slug": "Cairo_Tower"
+        },
+        {
+          "name": "Coptic Cairo",
+          "wikipedia_slug": "Coptic_Cairo"
+        }
+      ],
       "blurb": "",
       "fun_fact": "",
       "hidden_gem_tip": null,

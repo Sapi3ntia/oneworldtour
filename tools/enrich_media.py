@@ -981,7 +981,8 @@ def load_places():
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--max", type=int, default=10, help="cities this run")
+    ap.add_argument("--max", type=int, default=None,
+                    help="cities this run (default: 10, or all of --only)")
     ap.add_argument("--only", help="comma-separated place ids")
     ap.add_argument("--tag", help="only this tag (famous/hidden)")
     ap.add_argument("--need", choices=[*SEATS, *NIGHT_SEATS, "night", "any"],
@@ -1001,7 +1002,17 @@ def main():
     for p in places:
         register_place(p)
         OTHER_PLACE_NAMES.add(norm(p["name"]))
-    only = set(args.only.split(",")) if args.only else None
+    only = set(args.only.replace(" ", ",").split(",")) - {""} if args.only else None
+    # Naming the places you want is already the limit. --max exists to cap an
+    # open-ended sweep; silently trimming an explicit list of 94 ids to 10 just
+    # loses 84 of them somewhere the log never mentions.
+    if args.max is None:
+        args.max = len(only) if only else 10
+    if only:
+        ghosts = sorted(only - {p["id"] for p in places})
+        if ghosts:
+            print(f"warning: {len(ghosts)} id(s) in --only are on no map: "
+                  f"{', '.join(ghosts)}")
 
     def curated_has(loc, scene):
         return bool(loc.get(CURATED_FIELD[scene]))

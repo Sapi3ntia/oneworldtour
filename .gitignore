@@ -1,6 +1,25 @@
 tools/windy.key
 __pycache__/
 
+# GeoNames authenticates by username rather than by key, which makes it look
+# harmless — it isn't. A leaked username spends someone else's 20k/day quota
+# and gets the account throttled. Treated as a credential, same as the rest.
+tools/geonames.user
+tools/nps.key
+
+# OpenWebcamDB: the key, the rate-limit ledger, and the response cache.
+# The key is a credential. The ledger is machine-local state — a committed
+# copy would tell another checkout it had spent requests it hadn't, or worse,
+# that it hadn't spent ones it had. The cache is THEIR data under a licence
+# that caps caching at one hour on the free tier; git remembers forever, which
+# is the opposite of that, so it must never be committed.
+tools/openwebcamdb.key
+tools/.owdb_budget.json
+tools/.owdb_cache/
+
+# harvest_cams.py's 6 h listing cache — a snapshot of who was live when.
+tools/.cam_harvest.json
+
 # Secrets — ANTHROPIC_API_KEY lives here for `vercel dev`, and in the Vercel
 # project settings for deploys. Never committed.
 .env

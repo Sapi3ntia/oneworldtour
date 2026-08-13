@@ -9,6 +9,8 @@ import { WorldMap } from '../worldmap.js';
 import { el, qs } from '../lib/dom.js';
 import { lazyPhoto } from '../lib/photos.js';
 
+const WILD_TYPES = new Set(['nature', 'natural', 'wilderness']);
+
 const go = p => { location.href = `location.html?id=${encodeURIComponent(p.id)}`; };
 
 function toast(msg) {
@@ -137,8 +139,11 @@ async function boot() {
     saved: p => State.isSaved(p.id),
     ancient: p => p.region_id === 'ancient',
     // wildlife = the wild collection + any nature place with a live cam
-    // (kruger, maasai mara, yellowstone live via the media.json pipeline)
-    wild: p => p.region_id === 'wild' || (p.type === 'nature' && p._flags.live),
+    // (kruger, maasai mara, yellowstone live via the media.json pipeline).
+    // The corpus spells that type three ways — `nature` (142), `natural` (3,
+    // where enrich_monuments needs the distinct sense "the formation IS the
+    // monument") and `wilderness` (1) — so match the family, not one spelling.
+    wild: p => p.region_id === 'wild' || (WILD_TYPES.has(p.type) && p._flags.live),
     observatory: p => p.region_id === 'observatory',
   };
   qs('#map-filters').addEventListener('click', ev => {

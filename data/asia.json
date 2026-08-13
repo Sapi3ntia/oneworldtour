@@ -29,7 +29,36 @@
       "sounds": [
         "city-hum.mp3"
       ],
-      "highlights": [],
+      "highlights": [
+        {
+          "name": "Sensō-ji",
+          "wikipedia_slug": "Sensō-ji"
+        },
+        {
+          "name": "Meiji Shrine",
+          "wikipedia_slug": "Meiji_Shrine"
+        },
+        {
+          "name": "Tokyo Tower",
+          "wikipedia_slug": "Tokyo_Tower"
+        },
+        {
+          "name": "Tokyo Skytree",
+          "wikipedia_slug": "Tokyo_Skytree"
+        },
+        {
+          "name": "Shibuya Crossing",
+          "wikipedia_slug": "Shibuya_Crossing"
+        },
+        {
+          "name": "Tokyo Imperial Palace",
+          "wikipedia_slug": "Tokyo_Imperial_Palace"
+        },
+        {
+          "name": "Shinjuku Gyo-en",
+          "wikipedia_slug": "Shinjuku_Gyo-en"
+        }
+      ],
       "blurb": "",
       "fun_fact": "",
       "hidden_gem_tip": null,
@@ -9173,7 +9202,32 @@
       "sounds": [
         "city-hum.mp3"
       ],
-      "highlights": [],
+      "highlights": [
+        {
+          "name": "Gyeongbokgung",
+          "wikipedia_slug": "Gyeongbokgung"
+        },
+        {
+          "name": "Changdeokgung",
+          "wikipedia_slug": "Changdeokgung"
+        },
+        {
+          "name": "Bukchon Hanok Village",
+          "wikipedia_slug": "Bukchon_Hanok_Village"
+        },
+        {
+          "name": "Namsan Seoul Tower",
+          "wikipedia_slug": "Namsan_Seoul_Tower"
+        },
+        {
+          "name": "Jongmyo",
+          "wikipedia_slug": "Jongmyo"
+        },
+        {
+          "name": "Namdaemun",
+          "wikipedia_slug": "Namdaemun"
+        }
+      ],
       "blurb": "",
       "fun_fact": "",
       "hidden_gem_tip": null,
@@ -14555,7 +14609,7 @@
       "country_code": "MN",
       "country_flag": "🇲🇳",
       "continent": "Asia",
-      "region": "",
+      "region": "Ömnögovi",
       "type": "desert",
       "tag": "famous",
       "emoji": "🐫",
@@ -15909,7 +15963,7 @@
       "country_code": "AM",
       "country_flag": "🇦🇲",
       "continent": "Asia",
-      "region": "",
+      "region": "Syunik Province",
       "type": "history",
       "tag": "hidden",
       "emoji": "⛪",
@@ -15928,10 +15982,25 @@
       "sounds": [
         "european-plaza.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null,
+      "highlights": [
+        {
+          "name": "Wings of Tatev",
+          "wikipedia_slug": "Wings_of_Tatev"
+        },
+        {
+          "name": "Vorotan",
+          "wikipedia_slug": "Vorotan"
+        },
+        {
+          "name": "Devil's Bridge"
+        },
+        {
+          "name": "Halidzor"
+        }
+      ],
+      "blurb": "A ninth-century monastery on a headland above the Vorotan gorge in Armenia's far south, deliberately built where the cliffs fall away on three sides. It ran a university from the fourteenth century with several hundred students working on philosophy, calligraphy and manuscript illumination.",
+      "fun_fact": "The cable car that reaches it, the Wings of Tatev, is the longest non-stop reversible aerial tramway in the world at 5,752 m, and crosses the gorge 320 m above the river.",
+      "hidden_gem_tip": "The Gavazan column in the courtyard is an eighth-century pillar engineered to sway on its hinge in an earth tremor — an earthquake warning built in stone.",
       "monuments": [
         {
           "name": "Tatev Monastery",
@@ -16183,7 +16252,7 @@
       "country_code": "UZ",
       "country_flag": "🇺🇿",
       "continent": "Asia",
-      "region": "",
+      "region": "Samarkand Region",
       "type": "history",
       "tag": "famous",
       "emoji": "🕌",
@@ -16258,7 +16327,7 @@
       "country_code": "UZ",
       "country_flag": "🇺🇿",
       "continent": "Asia",
-      "region": "",
+      "region": "Bukhara Region",
       "type": "history",
       "tag": "famous",
       "emoji": "🐫",
@@ -18459,6 +18528,1695 @@
       "blurb": "A steep volcanic island 25 kilometres north of Dili, reached by a ferry that runs a couple of times a week, with about 10,000 people on it living mostly by fishing. The reef starts at the shoreline and drops into water deep enough that whales and dolphins pass through the strait in numbers on their migration.",
       "fun_fact": "A Conservation International survey published in 2016 found an average of 253 reef fish species per survey site around Atauro — the highest average ever recorded anywhere in the world.",
       "hidden_gem_tip": "Stay at one of the community-run eco-lodges on the west coast — Beloi or Vila — where the money goes to the village rather than an operator. Snorkelling straight off the beach is better here than most boat dives elsewhere, and the ferry back on a Sunday is full of people, goats and fish."
+    },
+    {
+      "id": "mtskheta",
+      "name": "Mtskheta",
+      "country": "Georgia",
+      "country_code": "GE",
+      "country_flag": "🇬🇪",
+      "continent": "Asia",
+      "region": "Mtskheta-Mtianeti",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "⛪",
+      "coordinates": {
+        "lat": 41.84305555555556,
+        "lng": 44.71944444444444
+      },
+      "street_view": {
+        "lat": 41.84305555555556,
+        "lng": 44.71944444444444,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Mtskheta",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Svetitskhoveli Cathedral",
+          "wikipedia_slug": "Svetitskhoveli_Cathedral"
+        },
+        {
+          "name": "Jvari Monastery",
+          "wikipedia_slug": "Jvari_Monastery"
+        },
+        {
+          "name": "Samtavro Monastery",
+          "wikipedia_slug": "Samtavro_Monastery"
+        },
+        {
+          "name": "Aragvi",
+          "wikipedia_slug": "Aragvi"
+        }
+      ],
+      "blurb": "The old capital of the Georgian kingdom, at the meeting of the Aragvi and the Mtkvari 20 km from Tbilisi, and the country's spiritual centre since Georgia adopted Christianity here in the 330s. Kings were crowned and buried in its cathedral for a thousand years.",
+      "fun_fact": "Svetitskhoveli means 'the life-giving pillar' — the cathedral is said to stand over the robe of Christ, brought back from Jerusalem by a Georgian Jew who was at the crucifixion.",
+      "hidden_gem_tip": "Jvari sits on the bluff above the confluence, and the two rivers meet without mixing — one grey with silt, one clear — for a long way downstream."
+    },
+    {
+      "id": "svaneti",
+      "name": "Svaneti",
+      "country": "Georgia",
+      "country_code": "GE",
+      "country_flag": "🇬🇪",
+      "continent": "Asia",
+      "region": "Samegrelo-Zemo Svaneti",
+      "type": "mountain",
+      "tag": "hidden",
+      "emoji": "🗼",
+      "coordinates": {
+        "lat": 42.916388888889,
+        "lng": 43.011388888889
+      },
+      "street_view": {
+        "lat": 42.916388888889,
+        "lng": 43.011388888889,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Svaneti",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Ushguli",
+          "wikipedia_slug": "Ushguli"
+        },
+        {
+          "name": "Mestia",
+          "wikipedia_slug": "Mestia"
+        },
+        {
+          "name": "Mount Ushba",
+          "wikipedia_slug": "Ushba"
+        },
+        {
+          "name": "Svan towers",
+          "wikipedia_slug": "Svan_towers"
+        },
+        {
+          "name": "Chalaadi Glacier"
+        }
+      ],
+      "blurb": "A region of high valleys under the main Caucasus ridge, cut off by snow for much of the year and never conquered by anyone — which is why its villages still bristle with defensive stone towers, one per family, built between the ninth and thirteenth centuries.",
+      "fun_fact": "Ushguli, at 2,100 m, claims to be the highest continuously inhabited settlement in Europe, and its churches held medieval icons and manuscripts that survived because no invading army ever got up here.",
+      "hidden_gem_tip": "The Svan language is not Georgian — it split off perhaps four thousand years ago and has no written form."
+    },
+    {
+      "id": "vardzia",
+      "name": "Vardzia",
+      "country": "Georgia",
+      "country_code": "GE",
+      "country_flag": "🇬🇪",
+      "continent": "Asia",
+      "region": "Samtskhe-Javakheti",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🕳️",
+      "coordinates": {
+        "lat": 41.380841666667,
+        "lng": 43.283761111111
+      },
+      "street_view": {
+        "lat": 41.380841666667,
+        "lng": 43.283761111111,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Vardzia",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Khertvisi Fortress",
+          "wikipedia_slug": "Khertvisi"
+        },
+        {
+          "name": "Mtkvari",
+          "wikipedia_slug": "Kura_(South_Caucasus_river)"
+        },
+        {
+          "name": "Church of the Dormition"
+        }
+      ],
+      "blurb": "A cave city dug into a cliff above the Mtkvari in the 1180s under Queen Tamar — thirteen storeys, some six thousand rooms, with chapels, bakeries, wine cellars and a piped spring, all cut into soft volcanic tuff as a refuge from Mongol invasion.",
+      "fun_fact": "An earthquake in 1283 sheared the outer wall of rock clean off, opening the whole complex to the air like a cut-away drawing — what you see was meant to be hidden inside the cliff.",
+      "hidden_gem_tip": "The main church still has its twelfth-century frescoes, including what may be the only portrait of Tamar painted in her lifetime."
+    },
+    {
+      "id": "batumi",
+      "name": "Batumi",
+      "country": "Georgia",
+      "country_code": "GE",
+      "country_flag": "🇬🇪",
+      "continent": "Asia",
+      "region": "Adjara",
+      "type": "coastal",
+      "tag": "hidden",
+      "emoji": "🌴",
+      "coordinates": {
+        "lat": 41.645833333333,
+        "lng": 41.641666666667
+      },
+      "street_view": {
+        "lat": 41.645833333333,
+        "lng": 41.641666666667,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Batumi",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Batumi Boulevard"
+        },
+        {
+          "name": "Alphabetic Tower",
+          "wikipedia_slug": "Alphabetic_Tower"
+        },
+        {
+          "name": "Gonio Fortress",
+          "wikipedia_slug": "Gonio_(fortress)"
+        },
+        {
+          "name": "Batumi Botanical Garden",
+          "wikipedia_slug": "Batumi_Botanical_Garden"
+        },
+        {
+          "name": "Black Sea",
+          "wikipedia_slug": "Black_Sea"
+        }
+      ],
+      "blurb": "Georgia's Black Sea city, subtropical and rainy, where palms and bamboo grow at the foot of the Lesser Caucasus. A belle-époque oil port that has spent the last twenty years growing a skyline of deliberately strange towers along its pebble beach.",
+      "fun_fact": "The Alphabet Tower is a 130 m double helix with the 33 letters of the Georgian alphabet running up its steel strands — Georgian is written in a script used by no other language.",
+      "hidden_gem_tip": "The botanical garden 9 km north was laid out in 1912 across nine climate zones on a headland; it is the better half of Batumi."
+    },
+    {
+      "id": "kutaisi",
+      "name": "Kutaisi",
+      "country": "Georgia",
+      "country_code": "GE",
+      "country_flag": "🇬🇪",
+      "continent": "Asia",
+      "region": "Imereti",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🏛️",
+      "coordinates": {
+        "lat": 42.27166666666667,
+        "lng": 42.705555555555556
+      },
+      "street_view": {
+        "lat": 42.27166666666667,
+        "lng": 42.705555555555556,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Kutaisi",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Bagrati Cathedral",
+          "wikipedia_slug": "Bagrati_Cathedral"
+        },
+        {
+          "name": "Gelati Monastery",
+          "wikipedia_slug": "Gelati_Monastery"
+        },
+        {
+          "name": "Prometheus Cave",
+          "wikipedia_slug": "Prometheus_Cave_Natural_Monument"
+        },
+        {
+          "name": "Rioni",
+          "wikipedia_slug": "Rioni"
+        }
+      ],
+      "blurb": "One of the oldest cities in Europe, capital of the kingdom of Colchis that the Argonauts sailed to for the Golden Fleece, and later of medieval Georgia. Its cathedral crowns the hill above the Rioni and the royal monastery of Gelati is 11 km out of town.",
+      "fun_fact": "Gelati was founded in 1106 with an academy attached, and its twelfth-century mosaic of the Virgin in the apse is one of the finest pieces of Byzantine-era work outside Constantinople.",
+      "hidden_gem_tip": "The canyons north of town — Okatse and Martvili — are half a day each and far less visited than the monasteries."
+    },
+    {
+      "id": "geghard",
+      "name": "Geghard",
+      "country": "Armenia",
+      "country_code": "AM",
+      "country_flag": "🇦🇲",
+      "continent": "Asia",
+      "region": "Kotayk Province",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "⛪",
+      "coordinates": {
+        "lat": 40.140468,
+        "lng": 44.818594
+      },
+      "street_view": {
+        "lat": 40.140468,
+        "lng": 44.818594,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Geghard",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Garni Temple",
+          "wikipedia_slug": "Garni_Temple"
+        },
+        {
+          "name": "Azat River",
+          "wikipedia_slug": "Azat_(river)"
+        },
+        {
+          "name": "Rock-cut chambers"
+        }
+      ],
+      "blurb": "A monastery in the Azat gorge whose inner churches are not built but carved — hollowed straight out of the cliff, single blocks of living rock with domes cut downward from above, so there is not a seam or a joint anywhere inside them.",
+      "fun_fact": "Its name means 'spear' — the lance that pierced Christ's side was kept here for five hundred years, and the acoustics of the carved chambers are so exact that a single voice fills them.",
+      "hidden_gem_tip": "Garni, 9 km down the gorge, is a first-century Greco-Roman temple — the only classical colonnade left anywhere in the former Soviet Union."
+    },
+    {
+      "id": "khor-virap",
+      "name": "Khor Virap",
+      "country": "Armenia",
+      "country_code": "AM",
+      "country_flag": "🇦🇲",
+      "continent": "Asia",
+      "region": "Ararat Province",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "⛰️",
+      "coordinates": {
+        "lat": 39.878333333333,
+        "lng": 44.576111111111
+      },
+      "street_view": {
+        "lat": 39.878333333333,
+        "lng": 44.576111111111,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Khor_Virap",
+      "sounds": [
+        "wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Mount Ararat",
+          "wikipedia_slug": "Mount_Ararat"
+        },
+        {
+          "name": "Ararat Plain",
+          "wikipedia_slug": "Ararat_Plain"
+        },
+        {
+          "name": "Artashat",
+          "wikipedia_slug": "Artashat,_Armenia"
+        }
+      ],
+      "blurb": "A small fortified monastery on a hillock in the flat Ararat plain, a kilometre from the closed Turkish border, and the single most photographed spot in Armenia — because Mount Ararat rises straight behind it, 5,137 m, the national symbol on the far side of a frontier no Armenian can cross.",
+      "fun_fact": "Gregory the Illuminator was imprisoned in a pit here for thirteen years before converting the king in 301 — which made Armenia the first state anywhere to adopt Christianity.",
+      "hidden_gem_tip": "You can climb down a ladder into the pit itself. Ararat is usually hazed out by midday, so come at first light."
+    },
+    {
+      "id": "dilijan",
+      "name": "Dilijan",
+      "country": "Armenia",
+      "country_code": "AM",
+      "country_flag": "🇦🇲",
+      "continent": "Asia",
+      "region": "Tavush Province",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🌲",
+      "coordinates": {
+        "lat": 40.740833333333,
+        "lng": 44.863055555556
+      },
+      "street_view": {
+        "lat": 40.740833333333,
+        "lng": 44.863055555556,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Dilijan",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Dilijan National Park",
+          "wikipedia_slug": "Dilijan_National_Park"
+        },
+        {
+          "name": "Haghartsin Monastery",
+          "wikipedia_slug": "Haghartsin_Monastery"
+        },
+        {
+          "name": "Goshavank",
+          "wikipedia_slug": "Goshavank"
+        },
+        {
+          "name": "Parz Lake"
+        }
+      ],
+      "blurb": "A forested spa town in the Aghstev valley that Armenians call their Switzerland — deciduous woodland rather than the bare volcanic highland of most of the country, with two thirteenth-century monasteries hidden in the trees above it.",
+      "fun_fact": "Haghartsin's refectory and churches sit in a clearing so enclosed by beech that you do not see the complex until you are inside it — the site was chosen for exactly that.",
+      "hidden_gem_tip": "Sharambeyan Street in town is a restored block of nineteenth-century wooden balconied houses, with working craft workshops behind them."
+    },
+    {
+      "id": "gobustan",
+      "name": "Gobustan",
+      "country": "Azerbaijan",
+      "country_code": "AZ",
+      "country_flag": "🇦🇿",
+      "continent": "Asia",
+      "region": "Qobustan District",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🪨",
+      "coordinates": {
+        "lat": 40.125,
+        "lng": 49.375
+      },
+      "street_view": {
+        "lat": 40.125,
+        "lng": 49.375,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Gobustan_Rock_Art_Cultural_Landscape",
+      "sounds": [
+        "desert-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Gobustan petroglyphs"
+        },
+        {
+          "name": "Mud volcanoes"
+        },
+        {
+          "name": "Caspian Sea",
+          "wikipedia_slug": "Caspian_Sea"
+        }
+      ],
+      "blurb": "A field of tumbled limestone boulders on a semi-desert plateau south of Baku carrying more than six thousand rock carvings — boats, dancers, hunters, aurochs — cut over a span of forty thousand years by people living on what was then a wetter coast.",
+      "fun_fact": "A Roman inscription here, left by a centurion of the Twelfth Legion in the first century AD, is the easternmost Roman inscription ever found.",
+      "hidden_gem_tip": "Azerbaijan has around half the world's mud volcanoes and a large field of them sits just beyond the reserve — cold grey cones that bubble continuously."
+    },
+    {
+      "id": "sheki",
+      "name": "Sheki",
+      "country": "Azerbaijan",
+      "country_code": "AZ",
+      "country_flag": "🇦🇿",
+      "continent": "Asia",
+      "region": "Shaki-Zaqatala",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🏯",
+      "coordinates": {
+        "lat": 41.191944444444,
+        "lng": 47.170555555556
+      },
+      "street_view": {
+        "lat": 41.191944444444,
+        "lng": 47.170555555556,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Shaki,_Azerbaijan",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Palace of Shaki Khans",
+          "wikipedia_slug": "Palace_of_Shaki_Khans"
+        },
+        {
+          "name": "Upper Caravanserai"
+        },
+        {
+          "name": "Greater Caucasus",
+          "wikipedia_slug": "Greater_Caucasus"
+        },
+        {
+          "name": "Church of Kish",
+          "wikipedia_slug": "Church_of_Kish"
+        }
+      ],
+      "blurb": "A silk town on the southern slope of the Greater Caucasus, terraced up a wooded hillside in red-tiled stone houses, with the summer palace of its eighteenth-century khans at the top of the town inside a walled citadel.",
+      "fun_fact": "The palace's windows are shebeke — stained glass held in a wooden lattice assembled with no nails and no glue, thousands of pieces per window, still made by a handful of craftsmen in the town.",
+      "hidden_gem_tip": "Sheki halva is a layered pastry of rice-flour threads and nuts, unrelated to the halva sold anywhere else, and is made in the bazaar."
+    },
+    {
+      "id": "khinalug",
+      "name": "Khinalug",
+      "country": "Azerbaijan",
+      "country_code": "AZ",
+      "country_flag": "🇦🇿",
+      "continent": "Asia",
+      "region": "Quba District",
+      "type": "village",
+      "tag": "hidden",
+      "emoji": "🏔️",
+      "coordinates": {
+        "lat": 41.177777777778,
+        "lng": 48.126944444444
+      },
+      "street_view": {
+        "lat": 41.177777777778,
+        "lng": 48.126944444444,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Khinalug",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Greater Caucasus",
+          "wikipedia_slug": "Greater_Caucasus"
+        },
+        {
+          "name": "Quba",
+          "wikipedia_slug": "Quba"
+        },
+        {
+          "name": "Shahdag National Park"
+        }
+      ],
+      "blurb": "A village at 2,300 m in the high Caucasus, houses stacked so that each roof is the terrace of the one above, reachable until 2006 only on foot or horseback. Its people speak Khinalug, a language related to nothing else and spoken nowhere else.",
+      "fun_fact": "Around 2,000 people speak Khinalug in total, all of them from this one village — it is among the most isolated languages in the world and has been spoken here for millennia.",
+      "hidden_gem_tip": "The road up from Quba climbs through a gorge and is one of the great mountain drives of the Caucasus; it closes with snow."
+    },
+    {
+      "id": "almaty",
+      "name": "Almaty",
+      "country": "Kazakhstan",
+      "country_code": "KZ",
+      "country_flag": "🇰🇿",
+      "continent": "Asia",
+      "region": "Almaty Region",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏔️",
+      "coordinates": {
+        "lat": 43.24,
+        "lng": 76.915
+      },
+      "street_view": {
+        "lat": 43.24,
+        "lng": 76.915,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Almaty",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Ascension Cathedral",
+          "wikipedia_slug": "Ascension_Cathedral,_Almaty"
+        },
+        {
+          "name": "Medeu",
+          "wikipedia_slug": "Medeu"
+        },
+        {
+          "name": "Shymbulak",
+          "wikipedia_slug": "Shymbulak"
+        },
+        {
+          "name": "Kok Tobe",
+          "wikipedia_slug": "Köktöbe_(hill)"
+        },
+        {
+          "name": "Big Almaty Lake",
+          "wikipedia_slug": "Big_Almaty_Lake"
+        }
+      ],
+      "blurb": "Kazakhstan's largest city and its former capital, laid out on a grid of tree-lined streets on an alluvial fan with the Trans-Ili Alatau rising 4,000 m directly behind it. Every street running south goes uphill, which is how locals navigate.",
+      "fun_fact": "Ascension Cathedral, finished in 1907, is one of the tallest wooden buildings in the world at 56 m and came through the 1911 earthquake that flattened the rest of the city.",
+      "hidden_gem_tip": "Medeu, at 1,691 m, is the highest Olympic-size skating rink on Earth and is twenty minutes from downtown by bus."
+    },
+    {
+      "id": "astana",
+      "name": "Astana",
+      "country": "Kazakhstan",
+      "country_code": "KZ",
+      "country_flag": "🇰🇿",
+      "continent": "Asia",
+      "region": "Akmola",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏙️",
+      "coordinates": {
+        "lat": 51.133333333333,
+        "lng": 71.433333333333
+      },
+      "street_view": {
+        "lat": 51.133333333333,
+        "lng": 71.433333333333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Astana",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Bayterek",
+          "wikipedia_slug": "Baiterek_(monument)"
+        },
+        {
+          "name": "Khan Shatyr",
+          "wikipedia_slug": "Khan_Shatyr_Entertainment_Center"
+        },
+        {
+          "name": "Palace of Peace and Reconciliation",
+          "wikipedia_slug": "Palace_of_Peace_and_Reconciliation"
+        },
+        {
+          "name": "Nur-Astana Mosque",
+          "wikipedia_slug": "Nur-Astana_Mosque"
+        },
+        {
+          "name": "Ishim River",
+          "wikipedia_slug": "Ishim_(river)"
+        }
+      ],
+      "blurb": "A capital built from almost nothing on the open steppe after 1997, when the government moved 1,200 km north from Almaty — a planned city of monuments by Foster, Kurokawa and others, in a place where winter routinely reaches −40 °C.",
+      "fun_fact": "It is the second-coldest capital city in the world after Ulaanbaatar, and Khan Shatyr is a 150 m transparent tent designed to hold a climate-controlled park inside it through that winter.",
+      "hidden_gem_tip": "The ceremonial axis runs in a dead straight line from Khan Shatyr through Bayterek to the presidential palace — it is meant to be walked, and it takes about an hour."
+    },
+    {
+      "id": "charyn-canyon",
+      "name": "Charyn Canyon",
+      "country": "Kazakhstan",
+      "country_code": "KZ",
+      "country_flag": "🇰🇿",
+      "continent": "Asia",
+      "region": "Almaty Region",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🏜️",
+      "coordinates": {
+        "lat": 43.361944444444,
+        "lng": 79.090555555556
+      },
+      "street_view": {
+        "lat": 43.361944444444,
+        "lng": 79.090555555556,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Charyn_Canyon",
+      "sounds": [
+        "desert-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Valley of Castles"
+        },
+        {
+          "name": "Charyn River",
+          "wikipedia_slug": "Charyn"
+        },
+        {
+          "name": "Temirlik Canyon"
+        }
+      ],
+      "blurb": "A 154 km gorge cut 300 m into red sedimentary rock on the edge of the Kazakh steppe — a smaller, older Grand Canyon, its most famous stretch a corridor of eroded pillars that people have called the Valley of Castles for as long as anyone has come here.",
+      "fun_fact": "A relict grove of Sogdian ash survives on the canyon floor — a tree that has been growing here since before the last ice age and survives almost nowhere else on Earth.",
+      "hidden_gem_tip": "It is invisible until you are at the rim: the steppe runs flat to the horizon and then simply drops away."
+    },
+    {
+      "id": "kolsai-lakes",
+      "name": "Kolsai Lakes",
+      "country": "Kazakhstan",
+      "country_code": "KZ",
+      "country_flag": "🇰🇿",
+      "continent": "Asia",
+      "region": "Almaty Region",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🏞️",
+      "coordinates": {
+        "lat": 42.96446,
+        "lng": 77.58225
+      },
+      "street_view": {
+        "lat": 42.96446,
+        "lng": 77.58225,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Kolsay_Lakes_National_Park",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Lake Kaindy",
+          "wikipedia_slug": "Lake_Kaindy"
+        },
+        {
+          "name": "Tian Shan",
+          "wikipedia_slug": "Tian_Shan"
+        },
+        {
+          "name": "Saty"
+        }
+      ],
+      "blurb": "Three lakes in a staircase up a spruce-forested valley of the northern Tian Shan, at 1,800, 2,250 and 2,700 m, with a pass at the top that drops into Kyrgyzstan. Kazakhs call them the pearls of the Tian Shan.",
+      "fun_fact": "Nearby Lake Kaindy was created by the 1911 earthquake, which dammed a valley and drowned a spruce forest — the bare trunks still stand upright underwater, preserved by the cold, and break the surface.",
+      "hidden_gem_tip": "Horses are the local transport between the first and second lakes, and are how most of the valley still moves."
+    },
+    {
+      "id": "turkestan",
+      "name": "Turkestan",
+      "country": "Kazakhstan",
+      "country_code": "KZ",
+      "country_flag": "🇰🇿",
+      "continent": "Asia",
+      "region": "Turkistan Region",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🕌",
+      "coordinates": {
+        "lat": 43.301944444444445,
+        "lng": 68.26916666666666
+      },
+      "street_view": {
+        "lat": 43.301944444444445,
+        "lng": 68.26916666666666,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Turkistan_(city)",
+      "sounds": [
+        "desert-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Mausoleum of Khoja Ahmed Yasawi",
+          "wikipedia_slug": "Mausoleum_of_Khoja_Ahmed_Yasawi"
+        },
+        {
+          "name": "Otrar",
+          "wikipedia_slug": "Otrar"
+        },
+        {
+          "name": "Syr Darya",
+          "wikipedia_slug": "Syr_Darya"
+        }
+      ],
+      "blurb": "The spiritual capital of the Kazakh steppe, built around the tomb of a twelfth-century Sufi poet whose verse carried Islam to the Turkic nomads. Timur ordered the mausoleum in 1389 and it was left unfinished when he died — the scaffolding holes are still open.",
+      "fun_fact": "Its dome is the largest brick dome in Central Asia, 18 m across, and the building was the trial run for the architecture Timur then built at Samarkand.",
+      "hidden_gem_tip": "Otrar, 60 km away, is the ruined city whose governor murdered Genghis Khan's envoys in 1218 — the act that brought the Mongols west."
+    },
+    {
+      "id": "baikonur",
+      "name": "Baikonur Cosmodrome",
+      "country": "Kazakhstan",
+      "country_code": "KZ",
+      "country_flag": "🇰🇿",
+      "continent": "Asia",
+      "region": "Kyzylorda Region",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🚀",
+      "coordinates": {
+        "lat": 45.9648,
+        "lng": 63.3051
+      },
+      "street_view": {
+        "lat": 45.9648,
+        "lng": 63.3051,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Baikonur_Cosmodrome",
+      "sounds": [
+        "desert-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Gagarin's Start",
+          "wikipedia_slug": "Gagarin's_Start"
+        },
+        {
+          "name": "Baikonur",
+          "wikipedia_slug": "Baikonur"
+        },
+        {
+          "name": "Buran programme",
+          "wikipedia_slug": "Buran_(spacecraft)"
+        }
+      ],
+      "blurb": "The oldest and largest spaceport on Earth, 6,717 km² of Kazakh semi-desert leased to Russia until 2050. Sputnik went up from here in 1957 and Gagarin in 1961, and for nine years after the Shuttle retired it was the only way any human reached orbit.",
+      "fun_fact": "It is named after a town 320 km away — a deliberate Cold War misdirection, so that anyone reading a Soviet launch dateline would look in the wrong place.",
+      "hidden_gem_tip": "Gagarin's Start, pad number 1, launched both Sputnik and Gagarin and kept flying crews for sixty-two years before it was finally retired in 2019."
+    },
+    {
+      "id": "khiva",
+      "name": "Khiva",
+      "country": "Uzbekistan",
+      "country_code": "UZ",
+      "country_flag": "🇺🇿",
+      "continent": "Asia",
+      "region": "Khorezm Region",
+      "type": "history",
+      "tag": "famous",
+      "emoji": "🕌",
+      "coordinates": {
+        "lat": 41.381388888888885,
+        "lng": 60.361111111111114
+      },
+      "street_view": {
+        "lat": 41.381388888888885,
+        "lng": 60.361111111111114,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Khiva",
+      "sounds": [
+        "desert-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Itchan Kala",
+          "wikipedia_slug": "Itchan_Kala"
+        },
+        {
+          "name": "Kalta Minor Minaret"
+        },
+        {
+          "name": "Kunya-Ark"
+        },
+        {
+          "name": "Islamkhodja Madrasah",
+          "wikipedia_slug": "Islamkhodja_Madrasah"
+        },
+        {
+          "name": "Juma Mosque"
+        }
+      ],
+      "blurb": "The last of the three great Silk Road cities of Uzbekistan and the most complete — an entire walled inner town of mud brick, mosques and madrasas inside 10 m ramparts, preserved whole because the Khiva khanate was the final one to fall, in 1920.",
+      "fun_fact": "The Kalta Minor was meant to be the tallest minaret in the Islamic world; the khan died in 1855 with it 29 m up, so it stands as a wide turquoise stump — and is the city's emblem.",
+      "hidden_gem_tip": "The Juma Mosque has no dome and no courtyard: a flat roof carried on 213 carved wooden columns, some of them a thousand years old, in near-darkness."
+    },
+    {
+      "id": "tashkent",
+      "name": "Tashkent",
+      "country": "Uzbekistan",
+      "country_code": "UZ",
+      "country_flag": "🇺🇿",
+      "continent": "Asia",
+      "region": "Tashkent",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🚇",
+      "coordinates": {
+        "lat": 41.31111111111111,
+        "lng": 69.27972222222222
+      },
+      "street_view": {
+        "lat": 41.31111111111111,
+        "lng": 69.27972222222222,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Tashkent",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Chorsu Bazaar",
+          "wikipedia_slug": "Chorsu_Bazaar"
+        },
+        {
+          "name": "Hazrati Imam Complex",
+          "wikipedia_slug": "Hazrati_Imam_Complex"
+        },
+        {
+          "name": "Tashkent Metro",
+          "wikipedia_slug": "Tashkent_Metro"
+        },
+        {
+          "name": "Amir Timur Square",
+          "wikipedia_slug": "Amir_Timur_Square"
+        }
+      ],
+      "blurb": "Central Asia's largest city, flattened by an earthquake in 1966 and rebuilt by work brigades sent from every Soviet republic — which is why its centre is wide, green, low-rise modernism, with the surviving old town clustered around one enormous domed bazaar.",
+      "fun_fact": "Its metro, opened in 1977, was built as a nuclear shelter and was a state secret — photography inside was banned until 2018, and every station is decorated to a different theme.",
+      "hidden_gem_tip": "The Hazrati Imam library holds the Uthman Quran, a seventh-century manuscript that is among the oldest surviving copies in the world."
+    },
+    {
+      "id": "shakhrisabz",
+      "name": "Shakhrisabz",
+      "country": "Uzbekistan",
+      "country_code": "UZ",
+      "country_flag": "🇺🇿",
+      "continent": "Asia",
+      "region": "Qashqadaryo Region",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🏛️",
+      "coordinates": {
+        "lat": 39.05,
+        "lng": 66.833333333333
+      },
+      "street_view": {
+        "lat": 39.05,
+        "lng": 66.833333333333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Shahrisabz",
+      "sounds": [
+        "desert-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Ak-Saray",
+          "wikipedia_slug": "Ak-Saray_Palace"
+        },
+        {
+          "name": "Dorut Tilovat"
+        },
+        {
+          "name": "Kok Gumbaz Mosque"
+        }
+      ],
+      "blurb": "Timur's birthplace, over a 1,700 m pass south of Samarkand, where he built a summer palace intended to outdo anything in his capital. Two fragments of its gateway survive, 38 m tall, standing alone in an open square with nothing between them.",
+      "fun_fact": "The entrance arch of Ak-Saray spanned 22 m — the widest in the Islamic world — and its inscription read 'if you challenge our power, look at our buildings'.",
+      "hidden_gem_tip": "Timur meant to be buried here and had a crypt cut for it; he died in winter with the passes shut and was interred at Samarkand instead. The empty crypt is still open."
+    },
+    {
+      "id": "moynaq",
+      "name": "Moynaq",
+      "country": "Uzbekistan",
+      "country_code": "UZ",
+      "country_flag": "🇺🇿",
+      "continent": "Asia",
+      "region": "Karakalpakstan",
+      "type": "desert",
+      "tag": "hidden",
+      "emoji": "🚢",
+      "coordinates": {
+        "lat": 43.766666666667,
+        "lng": 59.033333333333
+      },
+      "street_view": {
+        "lat": 43.766666666667,
+        "lng": 59.033333333333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Moynaq",
+      "sounds": [
+        "desert-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Aral Sea",
+          "wikipedia_slug": "Aral_Sea"
+        },
+        {
+          "name": "Ship graveyard"
+        },
+        {
+          "name": "Aralkum",
+          "wikipedia_slug": "Aralkum_Desert"
+        },
+        {
+          "name": "Nukus",
+          "wikipedia_slug": "Nukus"
+        }
+      ],
+      "blurb": "A fishing port with no sea. Moynaq was on the Aral shore in the 1960s, canning 25,000 tonnes of fish a year; the water is now 150 km away, and a dozen rusting trawlers sit on the sand where the harbour was.",
+      "fun_fact": "The Aral was the fourth-largest lake on Earth and lost about 90% of its volume after its two feeder rivers were diverted to irrigate cotton — the seabed left behind is now a named desert, the Aralkum.",
+      "hidden_gem_tip": "The salt and pesticide dust blown off the dry bed reaches the Himalayas; the local rate of respiratory illness is among the highest anywhere."
+    },
+    {
+      "id": "issyk-kul",
+      "name": "Issyk-Kul",
+      "country": "Kyrgyzstan",
+      "country_code": "KG",
+      "country_flag": "🇰🇬",
+      "continent": "Asia",
+      "region": "Issyk-Kul Region",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🏞️",
+      "coordinates": {
+        "lat": 42.416666666667,
+        "lng": 77.25
+      },
+      "street_view": {
+        "lat": 42.416666666667,
+        "lng": 77.25,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Issyk-Kul",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Cholpon-Ata",
+          "wikipedia_slug": "Cholpon-Ata"
+        },
+        {
+          "name": "Jeti-Ögüz",
+          "wikipedia_slug": "Jeti-Oguz"
+        },
+        {
+          "name": "Tian Shan",
+          "wikipedia_slug": "Tian_Shan"
+        },
+        {
+          "name": "Grigorevka Gorge"
+        }
+      ],
+      "blurb": "A lake 182 km long at 1,607 m, ringed by 4,000 m snow peaks and never freezing — the name means 'warm lake', and it is the second-largest alpine lake in the world after Titicaca. It is slightly saline and has no outflow.",
+      "fun_fact": "A submerged town lies off the northern shore in shallow water — walls, pottery and coins of a Silk Road settlement, possibly the medieval city of Chigu, drowned as the lake level rose.",
+      "hidden_gem_tip": "The Cholpon-Ata petroglyph field is a boulder plain of Bronze Age carvings — ibex, snow leopards and hunters — left exactly where they were made."
+    },
+    {
+      "id": "karakol",
+      "name": "Karakol",
+      "country": "Kyrgyzstan",
+      "country_code": "KG",
+      "country_flag": "🇰🇬",
+      "continent": "Asia",
+      "region": "Issyk-Kul Region",
+      "type": "mountain",
+      "tag": "hidden",
+      "emoji": "⛰️",
+      "coordinates": {
+        "lat": 42.490555555556,
+        "lng": 78.393611111111
+      },
+      "street_view": {
+        "lat": 42.490555555556,
+        "lng": 78.393611111111,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Karakol",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Dungan Mosque"
+        },
+        {
+          "name": "Holy Trinity Cathedral"
+        },
+        {
+          "name": "Ala Kul"
+        },
+        {
+          "name": "Altyn Arashan"
+        }
+      ],
+      "blurb": "A Russian garrison town of 1869 at the east end of Issyk-Kul, now the base for the best trekking in Kyrgyzstan — valleys of spruce and hot springs running up into the Terskey Ala-Too within a day's walk of the main street.",
+      "fun_fact": "Its mosque was built in 1907 by Dungans — Chinese Muslims who fled the Qing — as a Chinese temple in wood, assembled without a single nail, and painted in colours that each carry a meaning.",
+      "hidden_gem_tip": "Sunday's animal market starts before dawn on the edge of town and is a working livestock bazaar, not a show — the largest in the country."
+    },
+    {
+      "id": "song-kol",
+      "name": "Song-Köl",
+      "country": "Kyrgyzstan",
+      "country_code": "KG",
+      "country_flag": "🇰🇬",
+      "continent": "Asia",
+      "region": "Naryn Region",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🐎",
+      "coordinates": {
+        "lat": 41.85,
+        "lng": 75.15
+      },
+      "street_view": {
+        "lat": 41.85,
+        "lng": 75.15,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Song-Köl",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Kalmak-Ashuu Pass"
+        },
+        {
+          "name": "Kyzart Pass"
+        },
+        {
+          "name": "Naryn",
+          "wikipedia_slug": "Naryn"
+        }
+      ],
+      "blurb": "A shallow lake at 3,016 m on a treeless high plateau, reached over passes that are snowed shut for eight months. From June to September herders drive their animals up here and the shore fills with yurts; the rest of the year there is nobody at all.",
+      "fun_fact": "The summer pasture — jailoo — is the surviving half of Kyrgyz nomadism: the same seasonal migration, the same felt yurts, still done because it is the only way to use this grass.",
+      "hidden_gem_tip": "There is no electricity and no phone signal on the plateau, and at 3,000 m with no light for a hundred kilometres the night sky is the reason to stay."
+    },
+    {
+      "id": "osh",
+      "name": "Osh",
+      "country": "Kyrgyzstan",
+      "country_code": "KG",
+      "country_flag": "🇰🇬",
+      "continent": "Asia",
+      "region": "Osh Region",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "⛰️",
+      "coordinates": {
+        "lat": 40.533333333333,
+        "lng": 72.783333333333
+      },
+      "street_view": {
+        "lat": 40.533333333333,
+        "lng": 72.783333333333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Osh",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Sulaiman-Too",
+          "wikipedia_slug": "Sulayman_Mountain"
+        },
+        {
+          "name": "Jayma Bazaar"
+        },
+        {
+          "name": "Fergana Valley",
+          "wikipedia_slug": "Fergana_Valley"
+        }
+      ],
+      "blurb": "Kyrgyzstan's second city and, at three thousand years, one of the oldest in Central Asia — a Silk Road crossroads at the mouth of the Fergana Valley, built around a five-peaked rock that rises straight out of the middle of it.",
+      "fun_fact": "Sulaiman-Too has been a place of pilgrimage for a millennium and a half and is Kyrgyzstan's first World Heritage site; Babur, founder of the Mughal empire, built a small mosque on its summit in 1510.",
+      "hidden_gem_tip": "Jayma Bazaar runs for kilometres along the Ak-Buura river and is the largest open-air market in Central Asia."
+    },
+    {
+      "id": "dushanbe",
+      "name": "Dushanbe",
+      "country": "Tajikistan",
+      "country_code": "TJ",
+      "country_flag": "🇹🇯",
+      "continent": "Asia",
+      "region": "Dushanbe",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🏛️",
+      "coordinates": {
+        "lat": 38.573055555556,
+        "lng": 68.786388888889
+      },
+      "street_view": {
+        "lat": 38.573055555556,
+        "lng": 68.786388888889,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Dushanbe",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Rudaki Avenue"
+        },
+        {
+          "name": "National Museum of Tajikistan",
+          "wikipedia_slug": "Tajikistan_National_Museum"
+        },
+        {
+          "name": "Ismoil Somoni monument"
+        },
+        {
+          "name": "Hisor Fortress"
+        }
+      ],
+      "blurb": "A capital that was a village of 3,000 people in 1924 — its name means 'Monday', for the weekly market held there — and was built from scratch as a Soviet city, now a low, hot, tree-shaded grid under the Gissar range.",
+      "fun_fact": "The national museum holds a 13 m reclining Buddha from the fifth century, found at Ajina-Tepa and the largest in Central Asia — recovered in ninety-two pieces and reassembled over decades.",
+      "hidden_gem_tip": "Hisor Fortress, 30 km west, guarded the road to Samarkand and its gateway and madrasas are the oldest standing buildings near the capital."
+    },
+    {
+      "id": "pamirs",
+      "name": "The Pamirs",
+      "country": "Tajikistan",
+      "country_code": "TJ",
+      "country_flag": "🇹🇯",
+      "continent": "Asia",
+      "region": "Gorno-Badakhshan",
+      "type": "mountain",
+      "tag": "hidden",
+      "emoji": "🛣️",
+      "coordinates": {
+        "lat": 39.00194444444445,
+        "lng": 71.99975
+      },
+      "street_view": {
+        "lat": 39.00194444444445,
+        "lng": 71.99975,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Pamir_Mountains",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Pamir Highway",
+          "wikipedia_slug": "M41_highway"
+        },
+        {
+          "name": "Ak-Baital Pass"
+        },
+        {
+          "name": "Karakul",
+          "wikipedia_slug": "Karakul_(Tajikistan)"
+        },
+        {
+          "name": "Khorugh",
+          "wikipedia_slug": "Khorog"
+        },
+        {
+          "name": "Wakhan Corridor",
+          "wikipedia_slug": "Wakhan_Corridor"
+        }
+      ],
+      "blurb": "A cold desert of 4,000 m plateaus that Central Asians call the Roof of the World, where the Tian Shan, the Karakoram, the Hindu Kush and the Himalaya all meet. The M41 — the Pamir Highway, second-highest road on Earth — runs 1,200 km across it from Osh to Dushanbe with the Afghan border alongside for hundreds of kilometres.",
+      "fun_fact": "Its high point, the Ak-Baital pass, is 4,655 m; Lake Karakul below it sits in a 25 km meteorite impact crater and is frozen for more than half the year.",
+      "hidden_gem_tip": "The Wakhan branch follows the Panj river with Afghanistan visible across fifty metres of water and the Hindu Kush behind it — villages, fields and people, close enough to wave to."
+    },
+    {
+      "id": "iskanderkul",
+      "name": "Iskanderkul",
+      "country": "Tajikistan",
+      "country_code": "TJ",
+      "country_flag": "🇹🇯",
+      "continent": "Asia",
+      "region": "Sughd Region",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🏞️",
+      "coordinates": {
+        "lat": 39.074444444444,
+        "lng": 68.368333333333
+      },
+      "street_view": {
+        "lat": 39.074444444444,
+        "lng": 68.368333333333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Iskanderkul",
+      "sounds": [
+        "waterfall.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Fann Mountains",
+          "wikipedia_slug": "Fann_Mountains"
+        },
+        {
+          "name": "Fann Niagara"
+        },
+        {
+          "name": "Zeravshan Range",
+          "wikipedia_slug": "Zarafshan_Range"
+        }
+      ],
+      "blurb": "A turquoise glacial lake at 2,195 m in the Fann Mountains, dammed by an ancient landslide, with a 38 m waterfall at its outflow. The name means 'Alexander's lake' — the local story is that his horse drowned in it, and still comes out on moonlit nights.",
+      "fun_fact": "The Fanns are limestone and shale rather than granite, which is why their lakes run through that range of blues and greens — the colour is suspended rock flour.",
+      "hidden_gem_tip": "The waterfall is a twenty-minute walk downstream from the lake and you reach the top of it before you hear it."
+    },
+    {
+      "id": "khujand",
+      "name": "Khujand",
+      "country": "Tajikistan",
+      "country_code": "TJ",
+      "country_flag": "🇹🇯",
+      "continent": "Asia",
+      "region": "Sughd Region",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🕌",
+      "coordinates": {
+        "lat": 40.279444444444444,
+        "lng": 69.63194444444444
+      },
+      "street_view": {
+        "lat": 40.279444444444444,
+        "lng": 69.63194444444444,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Khujand",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Panjshanbe Bazaar"
+        },
+        {
+          "name": "Syr Darya",
+          "wikipedia_slug": "Syr_Darya"
+        },
+        {
+          "name": "Khujand Fortress"
+        },
+        {
+          "name": "Sheikh Muslihiddin Mausoleum"
+        }
+      ],
+      "blurb": "Tajikistan's second city, on the Syr Darya at the western gate of the Fergana Valley, and one of the oldest cities in Central Asia — Alexander founded Alexandria Eschate, 'the furthest', on this spot in 329 BC.",
+      "fun_fact": "Its citadel held out against Genghis Khan in 1220 under Timur Malik, who fought a retreat down the river on rafts; the Mongols levelled the city afterwards.",
+      "hidden_gem_tip": "Panjshanbe — 'Thursday' — is one of the great covered bazaars of Central Asia, a 1950s hall with a painted facade, and it trades every day despite the name."
+    },
+    {
+      "id": "ashgabat",
+      "name": "Ashgabat",
+      "country": "Turkmenistan",
+      "country_code": "TM",
+      "country_flag": "🇹🇲",
+      "continent": "Asia",
+      "region": "Ahal Region",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🏛️",
+      "coordinates": {
+        "lat": 37.95,
+        "lng": 58.383333333333
+      },
+      "street_view": {
+        "lat": 37.95,
+        "lng": 58.383333333333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Ashgabat",
+      "sounds": [
+        "desert-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Neutrality Monument",
+          "wikipedia_slug": "Neutrality_Monument"
+        },
+        {
+          "name": "Türkmenbaşy Ruhy Mosque",
+          "wikipedia_slug": "Türkmenbaşy_Ruhy_Mosque"
+        },
+        {
+          "name": "Nisa",
+          "wikipedia_slug": "Nisa,_Turkmenistan"
+        },
+        {
+          "name": "Kopet Dag",
+          "wikipedia_slug": "Kopet_Dag"
+        }
+      ],
+      "blurb": "A capital rebuilt in white marble between the Karakum desert and the Iranian border — the government has clad hundreds of buildings in Italian marble since the 1990s, on empty ceremonial boulevards, in a place where summer passes 45 °C.",
+      "fun_fact": "It holds the Guinness record for the highest density of white marble buildings in the world: 543 of them covering over four and a half million square metres.",
+      "hidden_gem_tip": "Old Nisa, 18 km out, is the earth-walled capital of the Parthian empire — the power that fought Rome to a standstill for three centuries."
+    },
+    {
+      "id": "darvaza",
+      "name": "Darvaza Gas Crater",
+      "country": "Turkmenistan",
+      "country_code": "TM",
+      "country_flag": "🇹🇲",
+      "continent": "Asia",
+      "region": "Ahal Region",
+      "type": "desert",
+      "tag": "hidden",
+      "emoji": "🔥",
+      "coordinates": {
+        "lat": 40.25263,
+        "lng": 58.43939
+      },
+      "street_view": {
+        "lat": 40.25263,
+        "lng": 58.43939,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Darvaza_gas_crater",
+      "sounds": [
+        "desert-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Karakum Desert",
+          "wikipedia_slug": "Karakum_Desert"
+        },
+        {
+          "name": "Derweze",
+          "wikipedia_slug": "Darvaza"
+        }
+      ],
+      "blurb": "A 69 m hole in the Karakum desert that has been on fire since at least the 1980s — a collapsed gas field that geologists set alight expecting it to burn out in weeks. Turkmens call it the Gates of Hell and it is the country's best-known sight.",
+      "fun_fact": "The president ordered it extinguished in 2010 and again in 2022, on environmental and economic grounds; it is still burning, and nobody has worked out how to put it out.",
+      "hidden_gem_tip": "It is unremarkable by day and extraordinary at night — the standard visit is to camp on the rim, three hours north of Ashgabat on a desert track."
+    },
+    {
+      "id": "merv",
+      "name": "Merv",
+      "country": "Turkmenistan",
+      "country_code": "TM",
+      "country_flag": "🇹🇲",
+      "continent": "Asia",
+      "region": "Mary Region",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🏜️",
+      "coordinates": {
+        "lat": 37.662777777778,
+        "lng": 62.1925
+      },
+      "street_view": {
+        "lat": 37.662777777778,
+        "lng": 62.1925,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Merv",
+      "sounds": [
+        "desert-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Great Kyz Kala"
+        },
+        {
+          "name": "Mausoleum of Sultan Sanjar"
+        },
+        {
+          "name": "Mary, Turkmenistan",
+          "wikipedia_slug": "Mary,_Turkmenistan"
+        },
+        {
+          "name": "Murghab River",
+          "wikipedia_slug": "Marghab_River"
+        }
+      ],
+      "blurb": "Five walled cities built beside one another over two thousand years on an oasis in the Karakum — Achaemenid, Seleucid, Sasanian, Seljuk — and by the twelfth century, on some counts, the largest city in the world.",
+      "fun_fact": "The Mongols destroyed it in 1221 and the chroniclers' casualty figures run into the hundreds of thousands; the site was never fully reoccupied, which is why the plans of all five cities are still legible from the air.",
+      "hidden_gem_tip": "The Kyz Kala are corrugated mud-brick fortresses with walls like organ pipes — a Sasanian building type that survives essentially nowhere else."
+    },
+    {
+      "id": "konye-urgench",
+      "name": "Konye-Urgench",
+      "country": "Turkmenistan",
+      "country_code": "TM",
+      "country_flag": "🇹🇲",
+      "continent": "Asia",
+      "region": "Daşoguz Region",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🗼",
+      "coordinates": {
+        "lat": 42.316666666667,
+        "lng": 59.158611111111
+      },
+      "street_view": {
+        "lat": 42.316666666667,
+        "lng": 59.158611111111,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Konye-Urgench",
+      "sounds": [
+        "desert-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Kutlug Timur Minaret"
+        },
+        {
+          "name": "Turabek Khanym Mausoleum"
+        },
+        {
+          "name": "Amu Darya",
+          "wikipedia_slug": "Amu_Darya"
+        }
+      ],
+      "blurb": "The capital of Khorezm, sacked by the Mongols in 1221 and again by Timur in 1388, then abandoned when the Amu Darya changed course. What is left stands scattered across open ground: a few mausoleums and the tallest minaret in Central Asia.",
+      "fun_fact": "The Kutlug Timur minaret is 60 m of fourteenth-century brickwork with no mosque left around it, leaning slightly, standing alone in flat desert.",
+      "hidden_gem_tip": "The Turabek Khanym mausoleum's inner dome is a mosaic of 365 segments under a band of 24 arches and 12 windows — a calendar built into a ceiling."
+    },
+    {
+      "id": "karakorum",
+      "name": "Karakorum",
+      "country": "Mongolia",
+      "country_code": "MN",
+      "country_flag": "🇲🇳",
+      "continent": "Asia",
+      "region": "Övörkhangai",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🐎",
+      "coordinates": {
+        "lat": 47.19753,
+        "lng": 102.82379
+      },
+      "street_view": {
+        "lat": 47.19753,
+        "lng": 102.82379,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Karakorum",
+      "sounds": [
+        "wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Erdene Zuu Monastery",
+          "wikipedia_slug": "Erdene_Zuu_Monastery"
+        },
+        {
+          "name": "Orkhon Valley",
+          "wikipedia_slug": "Orkhon_Valley"
+        },
+        {
+          "name": "Orkhon Waterfall"
+        },
+        {
+          "name": "Stone turtles"
+        }
+      ],
+      "blurb": "The capital of the Mongol empire for forty years in the thirteenth century, on the Orkhon river in the grassland heart of the country — a city of perhaps ten thousand people administering the largest contiguous land empire in history, then abandoned and quarried away.",
+      "fun_fact": "William of Rubruck described a silver tree at the khan's palace with four pipes pouring wine, mare's milk, mead and rice beer, worked by a mechanical angel — built by a French goldsmith taken prisoner in Hungary.",
+      "hidden_gem_tip": "Erdene Zuu, built in 1585 from Karakorum's stones, is walled by 108 white stupas; the Orkhon valley around it has been the seat of steppe power since the Turkic khaganates."
+    },
+    {
+      "id": "khuvsgul",
+      "name": "Lake Khövsgöl",
+      "country": "Mongolia",
+      "country_code": "MN",
+      "country_flag": "🇲🇳",
+      "continent": "Asia",
+      "region": "Khövsgöl Province",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🏞️",
+      "coordinates": {
+        "lat": 51.1,
+        "lng": 100.5
+      },
+      "street_view": {
+        "lat": 51.1,
+        "lng": 100.5,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Lake_Khövsgöl",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Khoridol Saridag"
+        },
+        {
+          "name": "Khatgal"
+        },
+        {
+          "name": "Hankh"
+        },
+        {
+          "name": "Uushigiin Uvur deer stones"
+        }
+      ],
+      "blurb": "A lake 136 km long in the northern taiga against the Russian border, holding 70% of Mongolia's fresh water and about 1% of the world's — and connected to Baikal, 200 km away, by its outflow. Mongolians call it the Younger Sister.",
+      "fun_fact": "It freezes solid enough by February for trucks to drive across it, and the ice can carry two metres of thickness; convoys used the lake as a winter road for decades.",
+      "hidden_gem_tip": "The Dukha, in the mountains west of the lake, are among the last reindeer herders in the world — a few hundred people in perhaps forty households."
+    },
+    {
+      "id": "terelj",
+      "name": "Gorkhi-Terelj",
+      "country": "Mongolia",
+      "country_code": "MN",
+      "country_flag": "🇲🇳",
+      "continent": "Asia",
+      "region": "Töv Province",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🪨",
+      "coordinates": {
+        "lat": 48.150202777778,
+        "lng": 107.57600555556
+      },
+      "street_view": {
+        "lat": 48.150202777778,
+        "lng": 107.57600555556,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Gorkhi-Terelj_National_Park",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Turtle Rock"
+        },
+        {
+          "name": "Genghis Khan Equestrian Statue",
+          "wikipedia_slug": "Equestrian_statue_of_Genghis_Khan"
+        },
+        {
+          "name": "Aryabal Meditation Temple"
+        },
+        {
+          "name": "Tuul River",
+          "wikipedia_slug": "Tuul_River"
+        }
+      ],
+      "blurb": "An hour and a half from Ulaanbaatar and the easiest place in Mongolia to see the country proper: granite tors standing out of alpine meadow, larch forest, herders' gers, and horses grazing loose all summer.",
+      "fun_fact": "On the way out stands a 40 m stainless-steel Genghis Khan on horseback, the largest equestrian statue in the world; you take a lift up through the horse and come out on its head.",
+      "hidden_gem_tip": "Many of the gers along the valley are working households that take guests, not resorts — staying in one is the ordinary way to visit."
+    },
+    {
+      "id": "altai-tavan-bogd",
+      "name": "Altai Tavan Bogd",
+      "country": "Mongolia",
+      "country_code": "MN",
+      "country_flag": "🇲🇳",
+      "continent": "Asia",
+      "region": "Bayan-Ölgii",
+      "type": "mountain",
+      "tag": "hidden",
+      "emoji": "🦅",
+      "coordinates": {
+        "lat": 49.145833333333,
+        "lng": 87.819166666667
+      },
+      "street_view": {
+        "lat": 49.145833333333,
+        "lng": 87.819166666667,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Tavan_Bogd",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Khüiten Peak",
+          "wikipedia_slug": "Khüiten_Peak"
+        },
+        {
+          "name": "Potanin Glacier"
+        },
+        {
+          "name": "Ölgii",
+          "wikipedia_slug": "Ölgii"
+        },
+        {
+          "name": "Tsagaan Salaa petroglyphs",
+          "wikipedia_slug": "Tsagaan_Salaa_petroglyphs"
+        }
+      ],
+      "blurb": "The five sacred peaks in Mongolia's far west, where the country meets Russia and China at a single point. Khüiten, 4,374 m, is the highest ground in Mongolia, and the Potanin below it is the longest glacier in the country at 14 km.",
+      "fun_fact": "This is Kazakh Mongolia — the province is mostly Kazakh-speaking, and hunting with golden eagles from horseback is still practised here by a few hundred berkutchi, one of the last places it survives.",
+      "hidden_gem_tip": "The petroglyph complex in the valleys below runs from about 11,000 BC to the Bronze Age — one continuous record of what people here hunted as the climate changed."
     }
   ],
   "generated": "2026-08-11"

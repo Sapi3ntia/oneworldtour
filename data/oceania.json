@@ -29,7 +29,32 @@
       "sounds": [
         "city-hum.mp3"
       ],
-      "highlights": [],
+      "highlights": [
+        {
+          "name": "Sydney Opera House",
+          "wikipedia_slug": "Sydney_Opera_House"
+        },
+        {
+          "name": "Sydney Harbour Bridge",
+          "wikipedia_slug": "Sydney_Harbour_Bridge"
+        },
+        {
+          "name": "Bondi Beach",
+          "wikipedia_slug": "Bondi_Beach"
+        },
+        {
+          "name": "The Rocks",
+          "wikipedia_slug": "The_Rocks,_New_South_Wales"
+        },
+        {
+          "name": "Queen Victoria Building",
+          "wikipedia_slug": "Queen_Victoria_Building"
+        },
+        {
+          "name": "Royal Botanic Garden",
+          "wikipedia_slug": "Royal_Botanic_Garden,_Sydney"
+        }
+      ],
       "blurb": "",
       "fun_fact": "",
       "hidden_gem_tip": null,

@@ -146,6 +146,10 @@
           "note": "The reason to break the journey. Oldest, deepest lake on the planet."
         },
         {
+          "id": "ulan-ude",
+          "note": "The junction. Round the bottom of the lake to the Buryat capital, where the Trans-Mongolian leaves the main line and turns south — and where the largest Lenin head in the world watches it go."
+        },
+        {
           "id": "ulaanbaatar",
           "note": "South into Mongolia. The train swaps bogies at the border — it takes hours."
         },
@@ -764,12 +768,24 @@
           "note": "The ceremonial capital Alexander burned in 330 BC."
         },
         {
+          "id": "merv",
+          "note": "North-east across the Karakum into Turkmenistan. Five walled cities built beside each other over two thousand years; by the twelfth century this was arguably the largest city on earth."
+        },
+        {
+          "id": "khiva",
+          "note": "The last khanate to fall, and the most complete of the three Uzbek cities — an entire walled town inside 10 m ramparts, small enough to cross in twenty minutes."
+        },
+        {
           "id": "bukhara",
           "note": "More intact than Samarkand and quieter with it — mud-brick lanes, covered bazaars, and a minaret Genghis Khan is said to have spared."
         },
         {
           "id": "samarkand",
           "note": "Timur's capital and the city the whole road was aimed at. Three madrasas face each other across the Registan in a single blue."
+        },
+        {
+          "id": "osh",
+          "note": "Up into the Fergana valley for the mountain crossing. Three thousand years old, and the last big town before the Torugart and Irkeshtam passes."
         },
         {
           "id": "kashgar",

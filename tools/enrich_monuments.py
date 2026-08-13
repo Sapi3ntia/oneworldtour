@@ -319,7 +319,8 @@ def candidate_landmarks(loc):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--max", type=int, default=10, help="places this run")
+    ap.add_argument("--max", type=int, default=None,
+                    help="places this run (default: 10, or all of --only)")
     ap.add_argument("--only", help="comma-separated place ids")
     ap.add_argument("--tag", help="only this tag (famous/hidden)")
     ap.add_argument("--per-city", type=int, default=3, help="new tabs per city")
@@ -327,7 +328,9 @@ def main():
                     help="re-search places that already hit the cap")
     args = ap.parse_args()
 
-    only = set(args.only.split(",")) if args.only else None
+    # tolerate "a, b" and "a b" the way enrich_media.py does — an id that
+    # keeps a stray space matches nothing and vanishes into the ghost warning
+    only = (set(args.only.replace(" ", ",").split(",")) - {""}) if args.only else None
     media = {}
     mpath = ROOT / "data" / "media.json"
     if mpath.exists():
@@ -364,6 +367,22 @@ def main():
         if not candidate_landmarks(loc):
             continue
         todo.append((f, loc))
+    # Same trap enrich_media.py had: --max defaults to 10 and silently trims,
+    # so `--only <94 ids>` did ten of them and dropped 84 without a word in the
+    # log. Naming the places IS the limit; --max is for capping an open-ended
+    # sweep, not for second-guessing an explicit list.
+    if args.max is None:
+        args.max = len(only) if only else 10
+    if only:
+        ghosts = sorted(only - {loc["id"] for _, loc in places})
+        if ghosts:
+            print(f"warning: {len(ghosts)} id(s) in --only are on no map: "
+                  f"{', '.join(ghosts)}")
+        skipped = sorted(only - {loc["id"] for _, loc in todo} - set(ghosts))
+        if skipped:
+            print(f"note: {len(skipped)} named place(s) need no work "
+                  f"(already at the cap, or no landmarks to search): "
+                  f"{', '.join(skipped)}")
     todo = todo[: args.max]
     print(f"hunting monuments for {len(todo)} place(s)")
 

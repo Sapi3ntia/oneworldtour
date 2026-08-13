@@ -185,17 +185,36 @@ class Resolver:
         for p in q.get("pages") or []:
             title = p.get("title")
             src = asked(title)
-            key = src.replace(" ", "_")
-            entry = {"title": title.replace(" ", "_"),
-                     "redirect": title in chain,
-                     "missing": bool(p.get("missing"))}
+            missing = bool(p.get("missing"))
             qid = ((p.get("pageprops") or {}).get("wikibase_item"))
-            if qid:
-                entry["qid"] = qid
-            for k in (key, src):
+
+            def put(k, redirect):
+                entry = {"title": title.replace(" ", "_"),
+                         "redirect": redirect, "missing": missing}
+                if qid:
+                    entry["qid"] = qid
                 self.cache[k] = entry
                 seen.add(k)
-            self.dirty = True
+                self.dirty = True
+
+            # the title we asked about, flagged if it wasn't the canonical one
+            for k in (src.replace(" ", "_"), src):
+                put(k, title in chain)
+
+            # ...and the canonical title under its OWN key, which by definition
+            # is not a redirect. Without this, asking about a redirect AND its
+            # target in one chunk reported the target as MISSING: the API
+            # answers once, in canonical form, and asked() attributes that lone
+            # answer to the redirect, so the canonical string never lands in
+            # `seen` and falls through to the not-in-seen branch below. That is
+            # how `Cairo_Citadel` — a real article, with a thumbnail — verified
+            # as "no article", purely because something else in the same batch
+            # of 40 linked to `Citadel_of_Cairo`. The verdict then persisted in
+            # .wiki_slugs.json, which nothing but --refresh ever clears.
+            if not missing:
+                for k in (title.replace(" ", "_"), title):
+                    if k not in seen:
+                        put(k, False)
         for t in titles:                              # nothing came back at all
             if t not in seen and t.replace("_", " ") not in seen:
                 self.cache[t] = {"title": t, "missing": True, "redirect": False}

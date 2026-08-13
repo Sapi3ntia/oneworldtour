@@ -1725,7 +1725,7 @@
       "name": "Kraków",
       "country": "Poland",
       "country_flag": "🇵🇱",
-      "region": "",
+      "region": "Lesser Poland",
       "type": "history",
       "tag": "famous",
       "emoji": "🐉",
@@ -1758,9 +1758,9 @@
           "wikipedia_slug": "St._Mary's_Basilica,_Kraków"
         }
       ],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null,
+      "blurb": "Poland's royal capital until 1596 and the one large Polish city the Second World War left standing — so its market square, cloth hall and castle hill are original rather than rebuilt. A university town since 1364, and still visibly one.",
+      "fun_fact": "A trumpeter plays the hejnał from the tower of St. Mary's every hour and breaks off mid-note, for a bugler who was supposedly shot in the throat sounding the alarm during a thirteenth-century Mongol raid.",
+      "hidden_gem_tip": "Kazimierz, the old Jewish quarter, is a fifteen-minute walk south and has seven surviving synagogues within a few streets of each other.",
       "walk": "NHiYP-RwujI",
       "ambient": {
         "yt": "he-VxB01QKw",
@@ -3233,9 +3233,9 @@
           "wikipedia_slug": "Vlad_the_Impaler"
         }
       ],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null,
+      "blurb": "A Saxon hill citadel in Transylvania that is still lived in — nine surviving guild towers, a covered wooden stair of 175 steps up to the school, and a clock tower with a wooden figure for each day of the week rotating at midnight.",
+      "fun_fact": "Vlad Dracul, father of Vlad the Impaler, lived in a house on the citadel square while minting coin for Wallachia; his son was probably born there around 1431.",
+      "hidden_gem_tip": "Climb the covered stairway to the church on the hill at dusk, when the day buses have gone and the citadel is a residential village again.",
       "country_code": "RO",
       "continent": "Europe",
       "monuments": [
@@ -3994,7 +3994,7 @@
       "name": "Sofia",
       "country": "Bulgaria",
       "country_flag": "🇧🇬",
-      "region": "",
+      "region": "Sofia City Province",
       "type": "city",
       "tag": "hidden",
       "emoji": "⛪",
@@ -4031,9 +4031,9 @@
           "wikipedia_slug": "Central_Mineral_Baths"
         }
       ],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null,
+      "blurb": "A capital under a 2,290 m mountain, with Roman streets exposed under the modern ones and a mosque, a synagogue, a Catholic church and an Orthodox cathedral within two hundred metres of one another in the centre. Its motto is 'grows but does not age'.",
+      "fun_fact": "Serdica was Constantine the Great's favourite city — he is said to have called it 'my Rome' and considered making it his capital before settling on Byzantium.",
+      "hidden_gem_tip": "Vitosha, the mountain on the skyline, is inside the city boundary; a bus and a chairlift from the last metro stop put you on a plateau at 2,000 m.",
       "country_code": "BG",
       "continent": "Europe",
       "monuments": [
@@ -5926,7 +5926,7 @@
       "name": "Tallinn",
       "country": "Estonia",
       "country_flag": "🇪🇪",
-      "region": "",
+      "region": "Harju County",
       "type": "history",
       "tag": "famous",
       "emoji": "🏰",
@@ -5959,9 +5959,9 @@
           "wikipedia_slug": "Toompea"
         }
       ],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null,
+      "blurb": "The most complete medieval town in northern Europe — a Hanseatic port whose walls, towers, merchant houses and guild halls came through six centuries and one war essentially intact, on a limestone bluff over the Gulf of Finland.",
+      "fun_fact": "Two kilometres of the town wall and twenty of its towers still stand, and Tallinn's town hall pharmacy has been trading on the same square since 1422 — one of the oldest continuously running shops in Europe.",
+      "hidden_gem_tip": "Toompea, the upper town, was the nobility's; the lower town was the merchants'. They were separate walled towns with gates between them that were locked at night, and you can still see the gates.",
       "country_code": "EE",
       "continent": "Europe",
       "monuments": [
@@ -6377,9 +6377,9 @@
           "wikipedia_slug": "Cluj-Napoca"
         }
       ],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null,
+      "blurb": "A plateau ringed on three sides by the Carpathians, held by Hungary, then the Ottomans, then Austria, and Romanian since 1918 — which is why one region has Saxon fortified churches, Hungarian castles, Romanian wooden villages and three languages on the road signs.",
+      "fun_fact": "Its Saxon villages fortified their churches rather than building castles: about 150 survive, with granaries and bacon-stores built into the walls so a village could sit out a siege inside its own church.",
+      "hidden_gem_tip": "The Carpathians here hold the largest brown bear population in Europe outside Russia — roughly 6,000 animals, in forest that was never fully cleared.",
       "country_code": "RO",
       "continent": "Europe",
       "monuments": [
@@ -7915,7 +7915,7 @@
       "country_code": "RU",
       "country_flag": "🇷🇺",
       "continent": "Europe",
-      "region": "",
+      "region": "Moscow",
       "type": "city",
       "tag": "famous",
       "emoji": "🏯",
@@ -7934,10 +7934,35 @@
       "sounds": [
         "city-hum.mp3"
       ],
-      "highlights": [],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null,
+      "highlights": [
+        {
+          "name": "Red Square",
+          "wikipedia_slug": "Red_Square"
+        },
+        {
+          "name": "Saint Basil's Cathedral",
+          "wikipedia_slug": "Saint_Basil's_Cathedral"
+        },
+        {
+          "name": "Moscow Kremlin",
+          "wikipedia_slug": "Kremlin"
+        },
+        {
+          "name": "Moscow Metro",
+          "wikipedia_slug": "Moscow_Metro"
+        },
+        {
+          "name": "Bolshoi Theatre",
+          "wikipedia_slug": "Bolshoi_Theatre"
+        },
+        {
+          "name": "Novodevichy Convent",
+          "wikipedia_slug": "Novodevichy_Convent"
+        }
+      ],
+      "blurb": "A capital built in rings around a fortress, on a river that bends through the middle of it — the Kremlin walls, then the boulevard ring, then the garden ring, then everything else, out to twelve million people. Nine hundred years of Russian power have all been administered from the same 28 hectares.",
+      "fun_fact": "The Moscow Metro was built from 1935 as 'palaces for the people' — chandeliers, mosaics and marble 80 m down, deep enough that the stations served as bomb shelters and a command post during the war.",
+      "hidden_gem_tip": "Novodevichy's cemetery holds Chekhov, Gogol, Bulgakov, Shostakovich and Yeltsin, and the convent beside it is the quietest sixteenth-century thing in the city.",
       "monuments": [
         {
           "name": "Red Square",
@@ -8191,7 +8216,7 @@
       "country_code": "RU",
       "country_flag": "🇷🇺",
       "continent": "Europe",
-      "region": "",
+      "region": "Sverdlovsk Oblast",
       "type": "city",
       "tag": "hidden",
       "emoji": "⛏️",
@@ -8252,7 +8277,7 @@
       "country_code": "RU",
       "country_flag": "🇷🇺",
       "continent": "Europe",
-      "region": "",
+      "region": "Siberia",
       "type": "city",
       "tag": "hidden",
       "emoji": "🌉",
@@ -8327,7 +8352,7 @@
       "country_code": "RU",
       "country_flag": "🇷🇺",
       "continent": "Europe",
-      "region": "",
+      "region": "Irkutsk Oblast",
       "type": "city",
       "tag": "famous",
       "emoji": "🪵",
@@ -8387,6 +8412,3083 @@
           "title": "20230107 Russia Irkutsk Gagarin Boulevard Angara River Embankment 1"
         }
       ]
+    },
+    {
+      "id": "vladivostok",
+      "name": "Vladivostok",
+      "country": "Russia",
+      "country_code": "RU",
+      "country_flag": "🇷🇺",
+      "continent": "Europe",
+      "region": "Primorsky Krai",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🌉",
+      "coordinates": {
+        "lat": 43.115,
+        "lng": 131.8852777777778
+      },
+      "street_view": {
+        "lat": 43.115,
+        "lng": 131.8852777777778,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Vladivostok",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Russky Bridge",
+          "wikipedia_slug": "Russky_Bridge"
+        },
+        {
+          "name": "Golden Horn Bay",
+          "wikipedia_slug": "Zolotoy_Rog"
+        },
+        {
+          "name": "Vladivostok Fortress",
+          "wikipedia_slug": "Vladivostok_Fortress"
+        },
+        {
+          "name": "Russky Island",
+          "wikipedia_slug": "Russky_Island"
+        },
+        {
+          "name": "Eagle's Nest Hill"
+        }
+      ],
+      "blurb": "The Pacific end of Russia, built over a ridge above a deep-water bay that curls back on itself like a horn. It is a naval city first and a port second, closed to outsiders entirely from 1958 to 1992, and it looks east rather than west — Seoul and Tokyo are closer than almost any Russian city of comparable size.",
+      "fun_fact": "The Trans-Siberian's kilometre post here reads 9,288 — the distance back to Moscow by rail, and the longest single train journey in the world.",
+      "hidden_gem_tip": "Ride the funicular up to Eagle's Nest at dusk: the whole Golden Horn, both bridges and the naval yards line up below in one frame."
+    },
+    {
+      "id": "murmansk",
+      "name": "Murmansk",
+      "country": "Russia",
+      "country_code": "RU",
+      "country_flag": "🇷🇺",
+      "continent": "Europe",
+      "region": "Murmansk Oblast",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🌌",
+      "coordinates": {
+        "lat": 68.966666666667,
+        "lng": 33.083333333333
+      },
+      "street_view": {
+        "lat": 68.966666666667,
+        "lng": 33.083333333333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Murmansk",
+      "sounds": [
+        "arctic-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Alyosha Monument",
+          "wikipedia_slug": "Alyosha_Monument"
+        },
+        {
+          "name": "Kola Bay",
+          "wikipedia_slug": "Kola_Bay"
+        },
+        {
+          "name": "Lenin, the first nuclear icebreaker",
+          "wikipedia_slug": "Lenin_(1957_icebreaker)"
+        },
+        {
+          "name": "Semyonovskoye Lake"
+        }
+      ],
+      "blurb": "The largest city anywhere above the Arctic Circle, and a port that never freezes — the last warm breath of the North Atlantic current reaches this far and keeps the Kola Bay open while the White Sea to the south locks solid. Founded in 1916, it is also one of the youngest cities in Russia.",
+      "fun_fact": "The sun does not rise here for about forty days from early December, and then does not set for two months in summer.",
+      "hidden_gem_tip": "The world's first nuclear-powered surface ship, the icebreaker Lenin, is tied up at the passenger terminal and you can walk her reactor control room."
+    },
+    {
+      "id": "yakutsk",
+      "name": "Yakutsk",
+      "country": "Russia",
+      "country_code": "RU",
+      "country_flag": "🇷🇺",
+      "continent": "Europe",
+      "region": "Sakha Republic",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🥶",
+      "coordinates": {
+        "lat": 62.027222222222,
+        "lng": 129.73194444444
+      },
+      "street_view": {
+        "lat": 62.027222222222,
+        "lng": 129.73194444444,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Yakutsk",
+      "sounds": [
+        "arctic-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Lena River",
+          "wikipedia_slug": "Lena_River"
+        },
+        {
+          "name": "Permafrost Kingdom"
+        },
+        {
+          "name": "Mammoth Museum"
+        },
+        {
+          "name": "Old Town"
+        }
+      ],
+      "blurb": "The coldest city on Earth, built on permafrost 450 m deep on the left bank of the Lena. Nothing here sits on the ground: the whole city stands on concrete piles driven into frozen soil, because a heated building set directly on it would thaw its own foundation and sink.",
+      "fun_fact": "January averages about −38 °C and the record is −64.4 °C — cold enough that exhaled breath falls as ice crystals with an audible rustle locals call the whisper of the stars.",
+      "hidden_gem_tip": "There is still no bridge over the Lena. In summer you cross by ferry, in winter you drive over the river itself, and for six weeks each spring and autumn you cannot cross at all."
+    },
+    {
+      "id": "lena-pillars",
+      "name": "Lena Pillars",
+      "country": "Russia",
+      "country_code": "RU",
+      "country_flag": "🇷🇺",
+      "continent": "Europe",
+      "region": "Sakha Republic",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🪨",
+      "coordinates": {
+        "lat": 61.106944444444,
+        "lng": 127.36166666667
+      },
+      "street_view": {
+        "lat": 61.106944444444,
+        "lng": 127.36166666667,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Lena_Pillars",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Lena River",
+          "wikipedia_slug": "Lena_River"
+        },
+        {
+          "name": "Sinsky Pillars"
+        },
+        {
+          "name": "Tukulan sands"
+        }
+      ],
+      "blurb": "A wall of limestone columns up to 100 m tall standing along the Lena for roughly 40 km, cut by 400,000 years of freeze and thaw in a climate that swings 100 degrees between winter and summer. The rock itself is Cambrian — laid down when the first complex animals appeared.",
+      "fun_fact": "Inside the same park are the Tukulan — real sand dunes, drifting in the middle of Siberia at 61° north, only a few hundred kilometres from permafrost.",
+      "hidden_gem_tip": "The pillars only read at their true scale from the water, which is why every visit here is a river trip rather than a walk."
+    },
+    {
+      "id": "petropavlovsk-kamchatsky",
+      "name": "Petropavlovsk-Kamchatsky",
+      "country": "Russia",
+      "country_code": "RU",
+      "country_flag": "🇷🇺",
+      "continent": "Europe",
+      "region": "Kamchatka Krai",
+      "type": "coastal",
+      "tag": "famous",
+      "emoji": "🌋",
+      "coordinates": {
+        "lat": 53.016666666667,
+        "lng": 158.65
+      },
+      "street_view": {
+        "lat": 53.016666666667,
+        "lng": 158.65,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Petropavlovsk-Kamchatsky",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Avacha Bay",
+          "wikipedia_slug": "Avacha_Bay"
+        },
+        {
+          "name": "Koryaksky",
+          "wikipedia_slug": "Koryaksky"
+        },
+        {
+          "name": "Avachinsky",
+          "wikipedia_slug": "Avachinsky"
+        },
+        {
+          "name": "Vilyuchik",
+          "wikipedia_slug": "Vilyuchik"
+        }
+      ],
+      "blurb": "A city of 180,000 on a Pacific bay with three active volcanoes standing over the rooftops, on a peninsula with no road to the rest of the country — everything and everyone arrives by ship or plane. The bay behind it is one of the largest natural harbours in the world and could hold any fleet afloat.",
+      "fun_fact": "Kamchatka has around 300 volcanoes, 29 of them active, packed into a peninsula the size of Japan and sitting on the busiest corner of the Pacific Ring of Fire.",
+      "hidden_gem_tip": "Locals call the two cones behind the city 'the home volcanoes'. On a clear morning Koryaksky is visible from the bus stops downtown."
+    },
+    {
+      "id": "valley-of-geysers",
+      "name": "Valley of Geysers",
+      "country": "Russia",
+      "country_code": "RU",
+      "country_flag": "🇷🇺",
+      "continent": "Europe",
+      "region": "Kamchatka Krai",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "♨️",
+      "coordinates": {
+        "lat": 54.430556,
+        "lng": 160.139444
+      },
+      "street_view": {
+        "lat": 54.430556,
+        "lng": 160.139444,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Valley_of_Geysers",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Kronotsky Nature Reserve",
+          "wikipedia_slug": "Kronotsky_Nature_Reserve"
+        },
+        {
+          "name": "Kronotsky Volcano",
+          "wikipedia_slug": "Kronotsky"
+        },
+        {
+          "name": "Geyzernaya River"
+        }
+      ],
+      "blurb": "The second-largest concentration of geysers on the planet, packed into a six-kilometre river canyon inside a reserve with no roads into it. It was only found in 1941, by a hydrologist following a warm tributary upstream on foot.",
+      "fun_fact": "A landslide in 2007 buried two thirds of the valley under rock and dammed the river; a mudflow in 2014 partly reopened it. The geysers are still rearranging themselves.",
+      "hidden_gem_tip": "Access is by helicopter from Yelizovo and strictly capped — this is a place almost everyone who knows it has only ever seen on film."
+    },
+    {
+      "id": "kizhi",
+      "name": "Kizhi",
+      "country": "Russia",
+      "country_code": "RU",
+      "country_flag": "🇷🇺",
+      "continent": "Europe",
+      "region": "Republic of Karelia",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "⛪",
+      "coordinates": {
+        "lat": 62.06767,
+        "lng": 35.22345
+      },
+      "street_view": {
+        "lat": 62.06767,
+        "lng": 35.22345,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Kizhi_Pogost",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Church of the Transfiguration"
+        },
+        {
+          "name": "Lake Onega",
+          "wikipedia_slug": "Lake_Onega"
+        },
+        {
+          "name": "Kizhi Island",
+          "wikipedia_slug": "Kizhi_Island"
+        }
+      ],
+      "blurb": "A wooden church of twenty-two silver aspen domes on a long thin island in Lake Onega, raised in 1714 without a single nail in its structure — the joinery alone holds it up. Around it stand a second church, a bell tower and a fence, the whole enclosure moved here log by log from across Karelia.",
+      "fun_fact": "The Transfiguration church was dismantled and rebuilt from the inside out over four decades, its frame lifted on jacks so rotten logs could be swapped without taking the domes down.",
+      "hidden_gem_tip": "Come by hydrofoil from Petrozavodsk. The island is car-free and about 7 km long, and the crowds stay within 300 m of the jetty."
+    },
+    {
+      "id": "veliky-novgorod",
+      "name": "Veliky Novgorod",
+      "country": "Russia",
+      "country_code": "RU",
+      "country_flag": "🇷🇺",
+      "continent": "Europe",
+      "region": "Novgorod Oblast",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🏰",
+      "coordinates": {
+        "lat": 58.52099,
+        "lng": 31.27579
+      },
+      "street_view": {
+        "lat": 58.52099,
+        "lng": 31.27579,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Veliky_Novgorod",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Novgorod Detinets",
+          "wikipedia_slug": "Novgorod_Detinets"
+        },
+        {
+          "name": "Saint Sophia Cathedral",
+          "wikipedia_slug": "Cathedral_of_Saint_Sophia,_Novgorod"
+        },
+        {
+          "name": "Yaroslav's Court",
+          "wikipedia_slug": "Yaroslav's_Court"
+        },
+        {
+          "name": "Millennium of Russia",
+          "wikipedia_slug": "Millennium_of_Russia"
+        },
+        {
+          "name": "Yuriev Monastery",
+          "wikipedia_slug": "Yuriev_Monastery"
+        }
+      ],
+      "blurb": "For three centuries this was a merchant republic that elected its own princes and could dismiss them, ran a parliament by public assembly, and traded as the eastern anchor of the Hanseatic League. Mongol armies never reached it, so its eleventh-century churches are still standing.",
+      "fun_fact": "More than a thousand letters written on birch bark have been dug out of the waterlogged soil here — laundry lists, love notes, a boy's schoolwork — proof that ordinary medieval townspeople could read.",
+      "hidden_gem_tip": "Cross the footbridge to Yaroslav's Court at low sun; the row of merchant churches on the far bank is the skyline the Hansa saw."
+    },
+    {
+      "id": "suzdal",
+      "name": "Suzdal",
+      "country": "Russia",
+      "country_code": "RU",
+      "country_flag": "🇷🇺",
+      "continent": "Europe",
+      "region": "Vladimir Oblast",
+      "type": "village",
+      "tag": "hidden",
+      "emoji": "🧅",
+      "coordinates": {
+        "lat": 56.421111111111,
+        "lng": 40.448888888889
+      },
+      "street_view": {
+        "lat": 56.421111111111,
+        "lng": 40.448888888889,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Suzdal",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Suzdal Kremlin",
+          "wikipedia_slug": "Suzdal_Kremlin"
+        },
+        {
+          "name": "Cathedral of the Nativity",
+          "wikipedia_slug": "Cathedral_of_the_Nativity_of_the_Theotokos,_Suzdal"
+        },
+        {
+          "name": "Monastery of Saint Euthymius",
+          "wikipedia_slug": "Monastery_of_Saint_Euthymius"
+        },
+        {
+          "name": "Intercession Monastery"
+        },
+        {
+          "name": "Kamenka River"
+        }
+      ],
+      "blurb": "A town of 9,000 people with more than forty churches and five monasteries in it, and a local law that has kept anything taller than two storeys out since the 1960s. The Golden Ring's least compromised town: cows still graze the meadow inside the bend of the river, in sight of the cathedral.",
+      "fun_fact": "Suzdal was passed over by the railway in the nineteenth century and by industry in the twentieth, which is exactly why it survived — the line went to Vladimir instead, 35 km south.",
+      "hidden_gem_tip": "Walk the Kamenka's water meadow rather than the main street: from down there the whole town is domes above a treeline, with no wires."
+    },
+    {
+      "id": "vladimir",
+      "name": "Vladimir",
+      "country": "Russia",
+      "country_code": "RU",
+      "country_flag": "🇷🇺",
+      "continent": "Europe",
+      "region": "Vladimir Oblast",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "⛪",
+      "coordinates": {
+        "lat": 56.12861111111111,
+        "lng": 40.405833333333334
+      },
+      "street_view": {
+        "lat": 56.12861111111111,
+        "lng": 40.405833333333334,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Vladimir,_Russia",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Golden Gate",
+          "wikipedia_slug": "Golden_Gate,_Vladimir"
+        },
+        {
+          "name": "Dormition Cathedral",
+          "wikipedia_slug": "Dormition_Cathedral,_Vladimir"
+        },
+        {
+          "name": "Cathedral of Saint Demetrius",
+          "wikipedia_slug": "Cathedral_of_Saint_Demetrius"
+        },
+        {
+          "name": "Church of the Intercession on the Nerl",
+          "wikipedia_slug": "Church_of_the_Intercession_on_the_Nerl"
+        }
+      ],
+      "blurb": "The capital of Rus before Moscow was anything, on a bluff above the Klyazma. Its twelfth-century white-stone cathedrals set the pattern every Russian church copied afterwards, and the frescoes inside the Dormition include Andrei Rublev's Last Judgement, painted in 1408.",
+      "fun_fact": "The Dormition Cathedral was the model Moscow's Kremlin cathedral was explicitly commissioned to imitate — the capital moved, and took the architecture with it.",
+      "hidden_gem_tip": "The Church of the Intercession on the Nerl stands alone in a flood meadow 10 km east, reached only on foot across a field. It is the most photographed building in Russia that has no road to it."
+    },
+    {
+      "id": "nizhny-novgorod",
+      "name": "Nizhny Novgorod",
+      "country": "Russia",
+      "country_code": "RU",
+      "country_flag": "🇷🇺",
+      "continent": "Europe",
+      "region": "Nizhny Novgorod Oblast",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🏰",
+      "coordinates": {
+        "lat": 56.326944444444,
+        "lng": 44.0075
+      },
+      "street_view": {
+        "lat": 56.326944444444,
+        "lng": 44.0075,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Nizhny_Novgorod",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Nizhny Novgorod Kremlin",
+          "wikipedia_slug": "Nizhny_Novgorod_Kremlin"
+        },
+        {
+          "name": "Chkalov Stairs",
+          "wikipedia_slug": "Chkalov_Stairs"
+        },
+        {
+          "name": "Bolshaya Pokrovskaya Street"
+        },
+        {
+          "name": "Volga River",
+          "wikipedia_slug": "Volga"
+        },
+        {
+          "name": "Rukavishnikov Mansion"
+        }
+      ],
+      "blurb": "Russia's fifth city, set where the Oka runs into the Volga on a high right bank, with a red-brick kremlin along the crest and the whole confluence spread out below it. It was the empire's trade fair for a century, then a closed defence city for forty years.",
+      "fun_fact": "The Chkalov Staircase down to the Volga has 560 steps in a figure of eight — it was built by German prisoners of war and finished in 1949, and it is the longest staircase on any Russian riverbank.",
+      "hidden_gem_tip": "Walk the kremlin wall itself. The circuit reopened whole in 2021 for the first time since the seventeenth century, and it looks straight down onto the confluence."
+    },
+    {
+      "id": "volgograd",
+      "name": "Volgograd",
+      "country": "Russia",
+      "country_code": "RU",
+      "country_flag": "🇷🇺",
+      "continent": "Europe",
+      "region": "Volgograd Oblast",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🗿",
+      "coordinates": {
+        "lat": 48.70861111111111,
+        "lng": 44.514722222222225
+      },
+      "street_view": {
+        "lat": 48.70861111111111,
+        "lng": 44.514722222222225,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Volgograd",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Mamayev Kurgan",
+          "wikipedia_slug": "Mamayev_Kurgan"
+        },
+        {
+          "name": "The Motherland Calls",
+          "wikipedia_slug": "The_Motherland_Calls"
+        },
+        {
+          "name": "Pavlov's House",
+          "wikipedia_slug": "Pavlov's_House"
+        },
+        {
+          "name": "Volga River",
+          "wikipedia_slug": "Volga"
+        }
+      ],
+      "blurb": "A city strung 60 km along one bank of the Volga and almost none of the other — the longest city in Russia, and one rebuilt from essentially nothing. As Stalingrad it was fought over street by street through the winter of 1942, and the battle turned the Eastern Front.",
+      "fun_fact": "The Motherland Calls stood as the tallest statue in the world when it was finished in 1967. It is unanchored — 8,000 tonnes of concrete held down by its own weight alone.",
+      "hidden_gem_tip": "A ruined mill by the riverfront was deliberately left exactly as the fighting ended, shell holes and all, as the one un-restored building in the city."
+    },
+    {
+      "id": "kaliningrad",
+      "name": "Kaliningrad",
+      "country": "Russia",
+      "country_code": "RU",
+      "country_flag": "🇷🇺",
+      "continent": "Europe",
+      "region": "Kaliningrad Oblast",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🐟",
+      "coordinates": {
+        "lat": 54.716666666667,
+        "lng": 20.5
+      },
+      "street_view": {
+        "lat": 54.716666666667,
+        "lng": 20.5,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Kaliningrad",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Königsberg Cathedral",
+          "wikipedia_slug": "Königsberg_Cathedral"
+        },
+        {
+          "name": "Fish Village"
+        },
+        {
+          "name": "Amber Museum",
+          "wikipedia_slug": "Kaliningrad_Regional_Amber_Museum"
+        },
+        {
+          "name": "Curonian Spit",
+          "wikipedia_slug": "Curonian_Spit"
+        },
+        {
+          "name": "Brandenburg Gate"
+        }
+      ],
+      "blurb": "Russia without a Russian border: an exclave on the Baltic between Poland and Lithuania, and until 1945 this was Königsberg, capital of East Prussia. The old city was bombed and then rebuilt as something else entirely, so the surviving German fragments stand in isolation among Soviet blocks.",
+      "fun_fact": "Around 90% of the world's amber comes out of one open pit 40 km up the coast at Yantarny, where it is washed from a blue clay seam 45 million years old.",
+      "hidden_gem_tip": "Kant is buried against the cathedral's north wall, in the one corner of the old town that was rebuilt — he taught here his whole life and reportedly never travelled more than 150 km from the city."
+    },
+    {
+      "id": "sochi",
+      "name": "Sochi",
+      "country": "Russia",
+      "country_code": "RU",
+      "country_flag": "🇷🇺",
+      "continent": "Europe",
+      "region": "Krasnodar Krai",
+      "type": "coastal",
+      "tag": "famous",
+      "emoji": "🌴",
+      "coordinates": {
+        "lat": 43.585277777778,
+        "lng": 39.720277777778
+      },
+      "street_view": {
+        "lat": 43.585277777778,
+        "lng": 39.720277777778,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Sochi",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Krasnaya Polyana",
+          "wikipedia_slug": "Krasnaya_Polyana"
+        },
+        {
+          "name": "Sochi Arboretum",
+          "wikipedia_slug": "Sochi_Arboretum"
+        },
+        {
+          "name": "Olympic Park",
+          "wikipedia_slug": "Sochi_Olympic_Park"
+        },
+        {
+          "name": "Mount Akhun"
+        },
+        {
+          "name": "Agura Waterfalls"
+        }
+      ],
+      "blurb": "Russia's subtropics — a 145 km strip of humid coast pressed between the Black Sea and the Caucasus, where palms and tea plantations sit an hour's drive below a snowline. It has been the country's summer resort since the 1930s and hosted a Winter Olympics in 2014.",
+      "fun_fact": "Sochi is the longest city in Europe and one of the few places on Earth where you can swim in the sea and ski in the mountains on the same day, in the same weather system.",
+      "hidden_gem_tip": "Take the old Stalin-era Riviera side rather than the Olympic coast: the arboretum's cable car ends in a terrace of Himalayan cedars above the whole bay."
+    },
+    {
+      "id": "mount-elbrus",
+      "name": "Mount Elbrus",
+      "country": "Russia",
+      "country_code": "RU",
+      "country_flag": "🇷🇺",
+      "continent": "Europe",
+      "region": "Kabardino-Balkaria",
+      "type": "mountain",
+      "tag": "famous",
+      "emoji": "🏔️",
+      "coordinates": {
+        "lat": 43.35254,
+        "lng": 42.437875
+      },
+      "street_view": {
+        "lat": 43.35254,
+        "lng": 42.437875,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Mount_Elbrus",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Baksan Valley"
+        },
+        {
+          "name": "Terskol"
+        },
+        {
+          "name": "Caucasus Mountains",
+          "wikipedia_slug": "Caucasus_Mountains"
+        }
+      ],
+      "blurb": "The highest mountain in Europe at 5,642 m, and a dormant volcano rather than a fold in the range — two cones on one massif, capped by 22 glaciers that feed the rivers of the whole north Caucasus. The cable car up its southern flank is the highest in Europe.",
+      "fun_fact": "Whether Elbrus counts as European at all depends on where you draw the continental divide through the Caucasus, which is why it is both 'the roof of Europe' and, to some geographers, in Asia.",
+      "hidden_gem_tip": "The Barrels — a cluster of converted fuel tanks at 3,800 m — are still where most climbers sleep before a summit attempt."
+    },
+    {
+      "id": "derbent",
+      "name": "Derbent",
+      "country": "Russia",
+      "country_code": "RU",
+      "country_flag": "🇷🇺",
+      "continent": "Europe",
+      "region": "Republic of Dagestan",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🏯",
+      "coordinates": {
+        "lat": 42.05777777777778,
+        "lng": 48.28888888888889
+      },
+      "street_view": {
+        "lat": 42.05777777777778,
+        "lng": 48.28888888888889,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Derbent",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Naryn-Kala",
+          "wikipedia_slug": "Naryn-Kala"
+        },
+        {
+          "name": "Juma Mosque",
+          "wikipedia_slug": "Juma_Mosque_of_Derbent"
+        },
+        {
+          "name": "Caspian Sea",
+          "wikipedia_slug": "Caspian_Sea"
+        }
+      ],
+      "blurb": "The oldest continuously inhabited city in Russia, wedged into a three-kilometre gap between the Caucasus and the Caspian — the one land gate between the steppe and Persia. The Sasanians walled the gap shut in the sixth century and the walls are still standing, running from the citadel down into the sea.",
+      "fun_fact": "Its name is Persian for 'closed gates', and its Friday mosque, founded in 733, is the oldest in Russia and one of the oldest anywhere in the former Soviet Union.",
+      "hidden_gem_tip": "The old quarters between the two parallel walls are still laid out on the medieval plan, with the alleys narrowing as they climb."
+    },
+    {
+      "id": "solovetsky-islands",
+      "name": "Solovetsky Islands",
+      "country": "Russia",
+      "country_code": "RU",
+      "country_flag": "🇷🇺",
+      "continent": "Europe",
+      "region": "Arkhangelsk Oblast",
+      "type": "island",
+      "tag": "hidden",
+      "emoji": "⛪",
+      "coordinates": {
+        "lat": 65.024444,
+        "lng": 35.710556
+      },
+      "street_view": {
+        "lat": 65.024444,
+        "lng": 35.710556,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Solovetsky_Islands",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Solovetsky Monastery",
+          "wikipedia_slug": "Solovetsky_Monastery"
+        },
+        {
+          "name": "White Sea",
+          "wikipedia_slug": "White_Sea"
+        },
+        {
+          "name": "Bolshoy Zayatsky Island",
+          "wikipedia_slug": "Bolshoy_Zayatsky_Island"
+        }
+      ],
+      "blurb": "A monastery fortress of house-sized granite boulders on an archipelago in the White Sea, 165 km from the Arctic Circle. It was a spiritual centre for four centuries, and then, from 1923, the prototype of the Soviet labour camp system — the first island of the Gulag, in the phrase that named the rest.",
+      "fun_fact": "The islands carry Bronze Age stone labyrinths whose purpose nobody has settled, and a sixteenth-century canal system dug by monks that still links the freshwater lakes.",
+      "hidden_gem_tip": "Boats run from Kem on the mainland in the short ice-free season only; for most of the year the archipelago is reachable by air or not at all."
+    },
+    {
+      "id": "arkhangelsk",
+      "name": "Arkhangelsk",
+      "country": "Russia",
+      "country_code": "RU",
+      "country_flag": "🇷🇺",
+      "continent": "Europe",
+      "region": "Arkhangelsk Oblast",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🪵",
+      "coordinates": {
+        "lat": 64.54305555555555,
+        "lng": 40.5375
+      },
+      "street_view": {
+        "lat": 64.54305555555555,
+        "lng": 40.5375,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Arkhangelsk",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Malye Korely",
+          "wikipedia_slug": "Malye_Korely"
+        },
+        {
+          "name": "Northern Dvina",
+          "wikipedia_slug": "Northern_Dvina"
+        },
+        {
+          "name": "Chumbarova-Luchinskogo Avenue"
+        },
+        {
+          "name": "Solombala"
+        }
+      ],
+      "blurb": "Russia's first seaport, at the mouth of the Northern Dvina on the White Sea, and for a century and a half its only one — everything the country traded with Europe passed through here until Peter the Great built Saint Petersburg and deliberately strangled it.",
+      "fun_fact": "Malye Korely, just upriver, is an open-air museum of northern wooden architecture: over a hundred chapels, windmills, barns and houses moved log by log from villages across the region.",
+      "hidden_gem_tip": "Timber is still the city's material and its trade — whole streets of two-storey wooden apartment houses stand on the sand, slowly and visibly leaning."
+    },
+    {
+      "id": "ulan-ude",
+      "name": "Ulan-Ude",
+      "country": "Russia",
+      "country_code": "RU",
+      "country_flag": "🇷🇺",
+      "continent": "Europe",
+      "region": "Republic of Buryatia",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "☸️",
+      "coordinates": {
+        "lat": 51.827222222222,
+        "lng": 107.60638888889
+      },
+      "street_view": {
+        "lat": 51.827222222222,
+        "lng": 107.60638888889,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Ulan-Ude",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Ivolginsky Datsan",
+          "wikipedia_slug": "Ivolginsky_Datsan"
+        },
+        {
+          "name": "Rinpoche Bagsha"
+        },
+        {
+          "name": "Selenga River",
+          "wikipedia_slug": "Selenga"
+        },
+        {
+          "name": "Odigitrievsky Cathedral"
+        }
+      ],
+      "blurb": "The capital of Buryatia, where the Trans-Mongolian branches south off the Trans-Siberian and runs for Ulaanbaatar and Beijing. The Buryats are a Mongol people and this is the centre of Buddhism in Russia, so the city reads as Siberian and Central Asian at once.",
+      "fun_fact": "The main square holds the largest Lenin head in the world — 7.7 m tall, 42 tonnes, and nothing else of him at all.",
+      "hidden_gem_tip": "Ivolginsky Datsan, 35 km out, is the seat of Russian Buddhism and keeps the body of a lama who died in 1927 in the lotus position he was buried in."
+    },
+    {
+      "id": "krasnoyarsk",
+      "name": "Krasnoyarsk",
+      "country": "Russia",
+      "country_code": "RU",
+      "country_flag": "🇷🇺",
+      "continent": "Europe",
+      "region": "Krasnoyarsk Krai",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🪨",
+      "coordinates": {
+        "lat": 56.00888888888889,
+        "lng": 92.87194444444444
+      },
+      "street_view": {
+        "lat": 56.00888888888889,
+        "lng": 92.87194444444444,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Krasnoyarsk",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Stolby Nature Sanctuary",
+          "wikipedia_slug": "Krasnoyarsk_Pillars"
+        },
+        {
+          "name": "Yenisei River",
+          "wikipedia_slug": "Yenisei"
+        },
+        {
+          "name": "Paraskeva Pyatnitsa Chapel",
+          "wikipedia_slug": "Paraskeva_Pyatnitsa_Chapel"
+        },
+        {
+          "name": "Karaulnaya Mountain"
+        }
+      ],
+      "blurb": "A million people on the Yenisei with a taiga nature reserve starting at the edge of the suburbs — the Stolby, a scatter of granite pillars in dense forest that the city has been free-climbing without ropes for a century and a half, in its own local style.",
+      "fun_fact": "The little chapel on the hill above town is the building on the Russian ten-rouble note, and the river below it does not freeze downstream of the dam even at −40 °C.",
+      "hidden_gem_tip": "Take the road out to Stolby on a weekday. The nearest pillars are a 7 km walk from the gate and the forest closes over the city noise within the first kilometre."
+    },
+    {
+      "id": "pskov",
+      "name": "Pskov",
+      "country": "Russia",
+      "country_code": "RU",
+      "country_flag": "🇷🇺",
+      "continent": "Europe",
+      "region": "Pskov Oblast",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🏰",
+      "coordinates": {
+        "lat": 57.816666666667,
+        "lng": 28.333333333333
+      },
+      "street_view": {
+        "lat": 57.816666666667,
+        "lng": 28.333333333333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Pskov",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Pskov Krom",
+          "wikipedia_slug": "Pskov_Krom"
+        },
+        {
+          "name": "Trinity Cathedral",
+          "wikipedia_slug": "Trinity_Cathedral,_Pskov"
+        },
+        {
+          "name": "Mirozhsky Monastery",
+          "wikipedia_slug": "Mirozhsky_Monastery"
+        },
+        {
+          "name": "Velikaya River",
+          "wikipedia_slug": "Velikaya"
+        }
+      ],
+      "blurb": "A fortress city on the western frontier, sister republic to Novgorod and for centuries the shield that met whatever came from the Baltic first. Its churches are small, white and heavy-walled — a local school of building that looks nothing like Moscow's.",
+      "fun_fact": "Ten of Pskov's churches were added to the World Heritage list in 2019 as a single entry, recognised as a distinct architectural tradition rather than ten separate buildings.",
+      "hidden_gem_tip": "The Mirozhsky Monastery holds twelfth-century frescoes painted by Byzantine Greeks — they survived because they were plastered over for six hundred years."
+    },
+    {
+      "id": "vyborg",
+      "name": "Vyborg",
+      "country": "Russia",
+      "country_code": "RU",
+      "country_flag": "🇷🇺",
+      "continent": "Europe",
+      "region": "Leningrad Oblast",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🗼",
+      "coordinates": {
+        "lat": 60.71055555555556,
+        "lng": 28.74972222222222
+      },
+      "street_view": {
+        "lat": 60.71055555555556,
+        "lng": 28.74972222222222,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Vyborg",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Vyborg Castle",
+          "wikipedia_slug": "Vyborg_Castle"
+        },
+        {
+          "name": "Monrepos Park",
+          "wikipedia_slug": "Monrepos_Park"
+        },
+        {
+          "name": "Round Tower"
+        },
+        {
+          "name": "Vyborg Library",
+          "wikipedia_slug": "Vyborg_Library"
+        }
+      ],
+      "blurb": "A Swedish castle town that became Finnish and then Soviet, 30 km from the border and unlike anywhere else in Russia — cobbled lanes, a granite Hanseatic core and a thirteenth-century keep on its own islet, all of it changing hands four times in one century.",
+      "fun_fact": "Alvar Aalto's 1935 library here is a landmark of modernism; it sat half-ruined for decades and was restored by a joint Finnish-Russian team that finished in 2013.",
+      "hidden_gem_tip": "Monrepos, on the northern edge, is a romantic rock park of pines growing straight out of glacier-scoured granite along the bay."
+    },
+    {
+      "id": "rostov-on-don",
+      "name": "Rostov-on-Don",
+      "country": "Russia",
+      "country_code": "RU",
+      "country_flag": "🇷🇺",
+      "continent": "Europe",
+      "region": "Rostov Oblast",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🐟",
+      "coordinates": {
+        "lat": 47.2225,
+        "lng": 39.71
+      },
+      "street_view": {
+        "lat": 47.2225,
+        "lng": 39.71,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Rostov-on-Don",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Don River",
+          "wikipedia_slug": "Don_(river)"
+        },
+        {
+          "name": "Bolshaya Sadovaya Street"
+        },
+        {
+          "name": "Central Market"
+        },
+        {
+          "name": "Left Bank"
+        }
+      ],
+      "blurb": "The gateway between Russia and the Caucasus, on the last stretch of the Don before the Sea of Azov. It grew as a customs post and a Cossack river port, and it still runs on the river and the market — a southern, mercantile, un-Moscow kind of city.",
+      "fun_fact": "Rostov sits at the centre of the historic lands of the Don Cossacks, and the city's own dialect and food are closer to the steppe than to anything north of it.",
+      "hidden_gem_tip": "The left bank of the Don is a long sandbank of grill shacks and riverside cafés; the city crosses over to it in summer and stays until the light goes."
+    },
+    {
+      "id": "mount-belukha",
+      "name": "Mount Belukha",
+      "country": "Russia",
+      "country_code": "RU",
+      "country_flag": "🇷🇺",
+      "continent": "Europe",
+      "region": "Altai Republic",
+      "type": "mountain",
+      "tag": "hidden",
+      "emoji": "🏔️",
+      "coordinates": {
+        "lat": 51.266666666667,
+        "lng": 116.83333333333
+      },
+      "street_view": {
+        "lat": 51.266666666667,
+        "lng": 116.83333333333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Belukha_Mountain",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Katun River",
+          "wikipedia_slug": "Katun_(river)"
+        },
+        {
+          "name": "Akkem Lake"
+        },
+        {
+          "name": "Altai Mountains",
+          "wikipedia_slug": "Altai_Mountains"
+        }
+      ],
+      "blurb": "The high point of Siberia at 4,506 m, a twin-peaked massif where Russia, Kazakhstan, China and Mongolia nearly meet. The Katun rises off its glaciers and runs milky green; the Altai people hold the mountain sacred and its upper slopes are closed to climbing on those grounds during certain seasons.",
+      "fun_fact": "Belukha is almost exactly equidistant from the Arctic, the Pacific, the Indian Ocean and the Atlantic — the furthest point on land from any ocean is not far away.",
+      "hidden_gem_tip": "The standard approach is a two-day walk up the Akkem valley to a lake directly under the north face, which stays frozen into June."
+    },
+    {
+      "id": "kharkiv",
+      "name": "Kharkiv",
+      "country": "Ukraine",
+      "country_code": "UA",
+      "country_flag": "🇺🇦",
+      "continent": "Europe",
+      "region": "Kharkiv Oblast",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🏛️",
+      "coordinates": {
+        "lat": 49.9925,
+        "lng": 36.23111111111111
+      },
+      "street_view": {
+        "lat": 49.9925,
+        "lng": 36.23111111111111,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Kharkiv",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Freedom Square",
+          "wikipedia_slug": "Freedom_Square_(Kharkiv)"
+        },
+        {
+          "name": "Derzhprom",
+          "wikipedia_slug": "Derzhprom"
+        },
+        {
+          "name": "Shevchenko Garden"
+        },
+        {
+          "name": "Annunciation Cathedral",
+          "wikipedia_slug": "Annunciation_Cathedral,_Kharkiv"
+        },
+        {
+          "name": "Mirror Stream"
+        }
+      ],
+      "blurb": "Ukraine's second city and its first Soviet capital, a university and engineering town of wide avenues 30 km from the Russian border. Its centre is a constructivist experiment: Derzhprom, finished in 1928, was the first Soviet skyscraper and one of the first reinforced-concrete high-rises in Europe.",
+      "fun_fact": "Freedom Square is among the largest city squares in Europe — big enough that the buildings around it were designed to be read from the far side rather than from the pavement.",
+      "hidden_gem_tip": "Kharkiv has been shelled repeatedly since 2022 and Derzhprom itself was damaged in 2022 and again later; the footage here predates much of that, and the city is not a place to visit at present."
+    },
+    {
+      "id": "chernihiv",
+      "name": "Chernihiv",
+      "country": "Ukraine",
+      "country_code": "UA",
+      "country_flag": "🇺🇦",
+      "continent": "Europe",
+      "region": "Chernihiv Oblast",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "⛪",
+      "coordinates": {
+        "lat": 51.49388888888889,
+        "lng": 31.294722222222223
+      },
+      "street_view": {
+        "lat": 51.49388888888889,
+        "lng": 31.294722222222223,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Chernihiv",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Transfiguration Cathedral",
+          "wikipedia_slug": "Transfiguration_Cathedral,_Chernihiv"
+        },
+        {
+          "name": "Catherine's Church",
+          "wikipedia_slug": "Catherine's_Church,_Chernihiv"
+        },
+        {
+          "name": "Antoniy Caves"
+        },
+        {
+          "name": "Desna River",
+          "wikipedia_slug": "Desna_(river)"
+        }
+      ],
+      "blurb": "One of the oldest cities of Kievan Rus, on the Desna north of Kyiv, with a group of eleventh- and twelfth-century churches that survived the Mongols, the wars and the twentieth century — the densest concentration of pre-Mongol architecture anywhere in Ukraine.",
+      "fun_fact": "The Transfiguration Cathedral was begun around 1030 and is one of the oldest surviving buildings in the country, older than any standing church in Moscow by three centuries.",
+      "hidden_gem_tip": "Chernihiv was encircled and heavily bombarded in the spring of 2022 and parts of the centre were destroyed; the medieval core largely stands, but the city is still on a frontline oblast."
+    },
+    {
+      "id": "kamianets-podilskyi",
+      "name": "Kamianets-Podilskyi",
+      "country": "Ukraine",
+      "country_code": "UA",
+      "country_flag": "🇺🇦",
+      "continent": "Europe",
+      "region": "Khmelnytskyi Oblast",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🏰",
+      "coordinates": {
+        "lat": 48.680555555556,
+        "lng": 26.580555555556
+      },
+      "street_view": {
+        "lat": 48.680555555556,
+        "lng": 26.580555555556,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Kamianets-Podilskyi",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Kamianets-Podilskyi Castle",
+          "wikipedia_slug": "Kamianets-Podilskyi_Castle"
+        },
+        {
+          "name": "Smotrych River",
+          "wikipedia_slug": "Smotrych_(river)"
+        },
+        {
+          "name": "Cathedral of Saints Peter and Paul"
+        },
+        {
+          "name": "Turkish Bridge"
+        }
+      ],
+      "blurb": "An old town standing on a rock island inside a loop of canyon — the Smotrych has cut a 40 m gorge in an almost complete circle, leaving the medieval centre on a natural plinth with one narrow neck, and a castle guarding it. Poles, Ottomans, Armenians and Ruthenians all built here.",
+      "fun_fact": "Its cathedral carries a minaret: the Ottomans added one when they held the town in the 1670s, and when it returned to Poland a statue of the Virgin was simply placed on top rather than pulling it down.",
+      "hidden_gem_tip": "The view that explains the place is from the canyon floor, on the path that runs the whole ring below the town walls."
+    },
+    {
+      "id": "chernivtsi",
+      "name": "Chernivtsi",
+      "country": "Ukraine",
+      "country_code": "UA",
+      "country_flag": "🇺🇦",
+      "continent": "Europe",
+      "region": "Chernivtsi Oblast",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🎓",
+      "coordinates": {
+        "lat": 48.290833333333,
+        "lng": 25.934444444444
+      },
+      "street_view": {
+        "lat": 48.290833333333,
+        "lng": 25.934444444444,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Chernivtsi",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Residence of Bukovinian and Dalmatian Metropolitans",
+          "wikipedia_slug": "Residence_of_Bukovinian_and_Dalmatian_Metropolitans"
+        },
+        {
+          "name": "Chernivtsi University",
+          "wikipedia_slug": "Chernivtsi_University"
+        },
+        {
+          "name": "Olha Kobylianska Street"
+        },
+        {
+          "name": "Central Square"
+        }
+      ],
+      "blurb": "The capital of Bukovina, Habsburg from 1775 to 1918 and built to look it — a small central-European city of ochre facades far from any border it now sits near. Its university occupies a red-brick metropolitan's residence that mixes Byzantine, Moorish and Gothic on one roofline.",
+      "fun_fact": "Before 1918 the city ran in four languages at once — German, Romanian, Ukrainian and Yiddish — and was known as 'little Vienna' by people who had been to both.",
+      "hidden_gem_tip": "The residence's courtyard is open even when the halls are not; the roof tiles are laid in geometric patterns you can only read from inside it."
+    },
+    {
+      "id": "uzhhorod",
+      "name": "Uzhhorod",
+      "country": "Ukraine",
+      "country_code": "UA",
+      "country_flag": "🇺🇦",
+      "continent": "Europe",
+      "region": "Zakarpattia Oblast",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🌸",
+      "coordinates": {
+        "lat": 48.623888888889,
+        "lng": 22.295
+      },
+      "street_view": {
+        "lat": 48.623888888889,
+        "lng": 22.295,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Uzhhorod",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Uzhhorod Castle",
+          "wikipedia_slug": "Uzhhorod_Castle"
+        },
+        {
+          "name": "Transcarpathian Museum of Folk Architecture"
+        },
+        {
+          "name": "Uzh River",
+          "wikipedia_slug": "Uzh"
+        },
+        {
+          "name": "Cherry blossom alley"
+        }
+      ],
+      "blurb": "Ukraine's westernmost city, over the Carpathians in Transcarpathia and closer to Budapest than to Kyiv. It has been Hungarian, Czechoslovak, Soviet and Ukrainian inside a century, and the mix shows in a small, low-rise centre along both banks of the Uzh.",
+      "fun_fact": "Its riverside linden alley is one of the longest in Europe, and the parallel avenue of Japanese cherries turns the embankment pink for about ten days each spring.",
+      "hidden_gem_tip": "Transcarpathia stayed out of the fighting and became a refuge region after 2022; the city's population swelled with people displaced from the east."
+    },
+    {
+      "id": "dnipro",
+      "name": "Dnipro",
+      "country": "Ukraine",
+      "country_code": "UA",
+      "country_flag": "🇺🇦",
+      "continent": "Europe",
+      "region": "Dnipropetrovsk Oblast",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🌉",
+      "coordinates": {
+        "lat": 48.4675,
+        "lng": 35.04
+      },
+      "street_view": {
+        "lat": 48.4675,
+        "lng": 35.04,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Dnipro",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Dnieper",
+          "wikipedia_slug": "Dnieper"
+        },
+        {
+          "name": "Monastyrskyi Island"
+        },
+        {
+          "name": "Menorah Center",
+          "wikipedia_slug": "Menorah_Center,_Dnipro"
+        },
+        {
+          "name": "Yavornytskoho Avenue"
+        }
+      ],
+      "blurb": "A steel and rocket city on a wide bend of the Dnieper, closed to foreigners until 1987 because it built intercontinental missiles. Its long central avenue and its embankment — one of the longest in Europe — give it a scale that feels larger than its million people.",
+      "fun_fact": "The Menorah Center beside the old Golden Rose synagogue is one of the largest Jewish community complexes in the world, seven towers arranged as a candelabrum.",
+      "hidden_gem_tip": "Since 2022 Dnipro has been the main medical and logistics hub for the eastern front, and it has been struck by long-range missiles more than once."
+    },
+    {
+      "id": "poltava",
+      "name": "Poltava",
+      "country": "Ukraine",
+      "country_code": "UA",
+      "country_flag": "🇺🇦",
+      "continent": "Europe",
+      "region": "Poltava Oblast",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🌻",
+      "coordinates": {
+        "lat": 49.589444444444446,
+        "lng": 34.55138888888889
+      },
+      "street_view": {
+        "lat": 49.589444444444446,
+        "lng": 34.55138888888889,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Poltava",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Round Square"
+        },
+        {
+          "name": "Holy Cross Monastery",
+          "wikipedia_slug": "Holy_Cross_Exaltation_Monastery,_Poltava"
+        },
+        {
+          "name": "Vorskla River",
+          "wikipedia_slug": "Vorskla"
+        },
+        {
+          "name": "Poltava Museum of Local Lore"
+        }
+      ],
+      "blurb": "A green provincial capital on the Vorskla that gave its name to the 1709 battle where Peter the Great broke Charles XII of Sweden and ended Swedish power in Europe. Its centre is an unusually complete circle of classical buildings around a single column.",
+      "fun_fact": "Poltava is the heartland of the Ukrainian literary language — the dialect spoken around here was the one nineteenth-century writers standardised into modern literary Ukrainian.",
+      "hidden_gem_tip": "The Round Square is a genuine circle 375 m across, laid out in 1805, and every street in the old centre runs into it."
+    },
+    {
+      "id": "uman",
+      "name": "Uman",
+      "country": "Ukraine",
+      "country_code": "UA",
+      "country_flag": "🇺🇦",
+      "continent": "Europe",
+      "region": "Cherkasy Oblast",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🌳",
+      "coordinates": {
+        "lat": 48.75,
+        "lng": 30.216666666667
+      },
+      "street_view": {
+        "lat": 48.75,
+        "lng": 30.216666666667,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Uman",
+      "sounds": [
+        "waterfall.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Sofiyivka Park",
+          "wikipedia_slug": "Sofiyivka_Park"
+        },
+        {
+          "name": "Grave of Nachman of Breslov"
+        },
+        {
+          "name": "Kamianka River"
+        }
+      ],
+      "blurb": "A small town in central Ukraine with one of the great landscape gardens of Europe in it — Sofiyivka, laid out in the 1790s by a Polish magnate as a gift to his wife, with granite grottoes, waterfalls and an underground river you travel by boat.",
+      "fun_fact": "Uman is also the burial place of Rabbi Nachman of Breslov, and tens of thousands of Hasidic pilgrims travel here every Rosh Hashanah — a pilgrimage that continued even through the war years.",
+      "hidden_gem_tip": "The park's underground stretch, the Acheron, is a 220 m tunnel you row through in the dark before emerging into the lake."
+    },
+    {
+      "id": "chernobyl",
+      "name": "Chernobyl & Pripyat",
+      "country": "Ukraine",
+      "country_code": "UA",
+      "country_flag": "🇺🇦",
+      "continent": "Europe",
+      "region": "Kyiv Oblast",
+      "type": "ruin",
+      "tag": "famous",
+      "emoji": "☢️",
+      "coordinates": {
+        "lat": 51.3,
+        "lng": 30.005
+      },
+      "street_view": {
+        "lat": 51.3,
+        "lng": 30.005,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Chernobyl_exclusion_zone",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Pripyat",
+          "wikipedia_slug": "Pripyat"
+        },
+        {
+          "name": "Chernobyl Nuclear Power Plant",
+          "wikipedia_slug": "Chernobyl_Nuclear_Power_Plant"
+        },
+        {
+          "name": "New Safe Confinement",
+          "wikipedia_slug": "Chernobyl_New_Safe_Confinement"
+        },
+        {
+          "name": "Duga radar",
+          "wikipedia_slug": "Duga_radar"
+        },
+        {
+          "name": "Red Forest",
+          "wikipedia_slug": "Red_Forest"
+        }
+      ],
+      "blurb": "A 2,600 km² closed zone around the reactor that exploded on 26 April 1986, and inside it Pripyat — a city of 49,000 evacuated in three hours and never reoccupied. Forty years on the concrete is coming apart under trees, and the wildlife that moved into the emptiness is the densest in the region.",
+      "fun_fact": "The reactor is now sealed under the New Safe Confinement, a 36,000 tonne arch slid into place over the ruin in 2016 — the largest moveable land structure ever built. A drone strike damaged its outer skin in February 2025.",
+      "hidden_gem_tip": "Russian forces occupied the zone in 2022 and dug trenches in contaminated ground; tourist access has been suspended since, and nothing here is currently open to visitors."
+    },
+    {
+      "id": "carpathians-ukraine",
+      "name": "Ukrainian Carpathians",
+      "country": "Ukraine",
+      "country_code": "UA",
+      "country_flag": "🇺🇦",
+      "continent": "Europe",
+      "region": "Ivano-Frankivsk Oblast",
+      "type": "mountain",
+      "tag": "hidden",
+      "emoji": "⛰️",
+      "coordinates": {
+        "lat": 48.75,
+        "lng": 23.5
+      },
+      "street_view": {
+        "lat": 48.75,
+        "lng": 23.5,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Ukrainian_Carpathians",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Hoverla",
+          "wikipedia_slug": "Hoverla"
+        },
+        {
+          "name": "Yaremche",
+          "wikipedia_slug": "Yaremche"
+        },
+        {
+          "name": "Bukovel",
+          "wikipedia_slug": "Bukovel"
+        },
+        {
+          "name": "Synevyr",
+          "wikipedia_slug": "Synevyr"
+        },
+        {
+          "name": "Carpathian Biosphere Reserve",
+          "wikipedia_slug": "Carpathian_Biosphere_Reserve"
+        }
+      ],
+      "blurb": "The soft green end of the Carpathian arc, rounded rather than alpine, with wooden churches on the ridges and Hutsul villages in the valleys. Hoverla, the country's high point, is 2,061 m — a walk rather than a climb, and a national pilgrimage of sorts.",
+      "fun_fact": "Some of the last primeval beech forest in Europe stands here, on the World Heritage list as part of a single site shared between eighteen countries.",
+      "hidden_gem_tip": "Lake Synevyr sits at 989 m in a bowl of spruce with no inflow you can see — it was dammed by a landslide about 10,000 years ago."
+    },
+    {
+      "id": "minsk",
+      "name": "Minsk",
+      "country": "Belarus",
+      "country_code": "BY",
+      "country_flag": "🇧🇾",
+      "continent": "Europe",
+      "region": "Minsk Region",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏛️",
+      "coordinates": {
+        "lat": 53.902246,
+        "lng": 27.561837
+      },
+      "street_view": {
+        "lat": 53.902246,
+        "lng": 27.561837,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Minsk",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Independence Avenue",
+          "wikipedia_slug": "Independence_Avenue_(Minsk)"
+        },
+        {
+          "name": "Victory Square",
+          "wikipedia_slug": "Victory_Square,_Minsk"
+        },
+        {
+          "name": "National Library of Belarus",
+          "wikipedia_slug": "National_Library_of_Belarus"
+        },
+        {
+          "name": "Trinity Suburb",
+          "wikipedia_slug": "Trinity_Suburb"
+        },
+        {
+          "name": "Island of Tears"
+        }
+      ],
+      "blurb": "A capital rebuilt almost entirely after 1944, when the retreating front left perhaps a fifth of it standing — so the centre is a single sustained work of Stalinist planning, 15 km of colonnaded avenue laid out in one go. It is the most complete such ensemble anywhere, and unusually clean and quiet for its size.",
+      "fun_fact": "The National Library is a 72 m glass rhombicuboctahedron that lights up as an animated screen after dark, and has an observation deck on top of the reading rooms.",
+      "hidden_gem_tip": "Trinity Hill is the one pocket of pre-war city left on the Svislach — a few blocks of nineteenth-century houses kept as a reminder of what the rest looked like."
+    },
+    {
+      "id": "mir-castle",
+      "name": "Mir Castle",
+      "country": "Belarus",
+      "country_code": "BY",
+      "country_flag": "🇧🇾",
+      "continent": "Europe",
+      "region": "Grodno Region",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🏰",
+      "coordinates": {
+        "lat": 53.451266666667,
+        "lng": 26.472894444444
+      },
+      "street_view": {
+        "lat": 53.451266666667,
+        "lng": 26.472894444444,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Mir_Castle_Complex",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Mir, Belarus",
+          "wikipedia_slug": "Mir,_Belarus"
+        },
+        {
+          "name": "Radziwiłł family chapel"
+        },
+        {
+          "name": "Castle park"
+        }
+      ],
+      "blurb": "A sixteenth-century brick castle on the flat Belarusian plain, five towers around a courtyard, Gothic in its bones with Renaissance floors added on top by the Radziwiłłs. It survived being a fortress, a ruin, a Nazi ghetto and a block of flats before it was restored.",
+      "fun_fact": "The brickwork is deliberately patterned — bands of ochre plaster and red brick that make the towers read as striped from a distance, a local trick called Belarusian Gothic.",
+      "hidden_gem_tip": "The pond on the south side was dug so the castle would have a reflection; stand at its far bank for the view the builders intended."
+    },
+    {
+      "id": "nesvizh",
+      "name": "Nesvizh",
+      "country": "Belarus",
+      "country_code": "BY",
+      "country_flag": "🇧🇾",
+      "continent": "Europe",
+      "region": "Minsk Region",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "👑",
+      "coordinates": {
+        "lat": 53.222877777778,
+        "lng": 26.691736111111
+      },
+      "street_view": {
+        "lat": 53.222877777778,
+        "lng": 26.691736111111,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Nesvizh_Castle",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Corpus Christi Church",
+          "wikipedia_slug": "Corpus_Christi_Church,_Nyasvizh"
+        },
+        {
+          "name": "Nesvizh",
+          "wikipedia_slug": "Nyasvizh"
+        },
+        {
+          "name": "Castle park"
+        }
+      ],
+      "blurb": "The seat of the Radziwiłłs, the richest magnate family of the Polish-Lithuanian Commonwealth, 30 km from Mir — a palace rather than a fortress, wrapped in earthworks and moats and set in a park of five landscaped lakes.",
+      "fun_fact": "Its Corpus Christi church, consecrated in 1593, was the first Baroque building in eastern Europe and the family's crypt underneath holds over seventy Radziwiłłs.",
+      "hidden_gem_tip": "The park is free and enormous, and the palace only makes sense from across the water — the approach was designed as a long reveal."
+    },
+    {
+      "id": "brest-fortress",
+      "name": "Brest Fortress",
+      "country": "Belarus",
+      "country_code": "BY",
+      "country_flag": "🇧🇾",
+      "continent": "Europe",
+      "region": "Brest Region",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🗿",
+      "coordinates": {
+        "lat": 52.083333333333336,
+        "lng": 23.65277777777778
+      },
+      "street_view": {
+        "lat": 52.083333333333336,
+        "lng": 23.65277777777778,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Brest_Fortress",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Brest, Belarus",
+          "wikipedia_slug": "Brest,_Belarus"
+        },
+        {
+          "name": "Kholm Gate"
+        },
+        {
+          "name": "Bug River",
+          "wikipedia_slug": "Bug_(river)"
+        }
+      ],
+      "blurb": "A nineteenth-century star fort at the confluence of the Bug and the Mukhavets, right on the Polish border, and the first Soviet ground attacked on 22 June 1941. Its garrison held out for weeks inside the ruins after the front had moved hundreds of kilometres east.",
+      "fun_fact": "The fortress was left deliberately unrestored — the brickwork is still shot through, and the memorial built into it in 1971 is one of the starkest Soviet monuments anywhere.",
+      "hidden_gem_tip": "The Kholm Gate is the single most bullet-scarred surface on the site; the pattern of impacts is the exhibit."
+    },
+    {
+      "id": "belovezhskaya-pushcha",
+      "name": "Belovezhskaya Pushcha",
+      "country": "Belarus",
+      "country_code": "BY",
+      "country_flag": "🇧🇾",
+      "continent": "Europe",
+      "region": "Brest Region",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🦬",
+      "coordinates": {
+        "lat": 52.44,
+        "lng": 23.82
+      },
+      "street_view": {
+        "lat": 52.44,
+        "lng": 23.82,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Belovezhskaya_Pushcha_National_Park",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Viskuli",
+          "wikipedia_slug": "Viskuli"
+        },
+        {
+          "name": "Kamyenyets",
+          "wikipedia_slug": "Kamyenyets"
+        },
+        {
+          "name": "Białowieża National Park",
+          "wikipedia_slug": "Białowieża_National_Park"
+        }
+      ],
+      "blurb": "The last great lowland primeval forest of Europe, straddling the Belarus-Poland border — woodland that was never cleared because it was a royal hunting reserve for six centuries, and which still has oaks five hundred years old standing where they fell.",
+      "fun_fact": "The European bison was extinct in the wild by 1927 and every one alive today descends from about a dozen zoo animals; the herd here is the largest, and this forest is where they were put back.",
+      "hidden_gem_tip": "The border runs straight through the forest and the fence across it is a real ecological problem — animals on the two halves of one wood no longer mix."
+    },
+    {
+      "id": "orheiul-vechi",
+      "name": "Orheiul Vechi",
+      "country": "Moldova",
+      "country_code": "MD",
+      "country_flag": "🇲🇩",
+      "continent": "Europe",
+      "region": "Orhei District",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "⛪",
+      "coordinates": {
+        "lat": 47.301388888889,
+        "lng": 28.9725
+      },
+      "street_view": {
+        "lat": 47.301388888889,
+        "lng": 28.9725,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Old_Orhei",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Răut River",
+          "wikipedia_slug": "Răut"
+        },
+        {
+          "name": "Cave monastery"
+        },
+        {
+          "name": "Butuceni"
+        }
+      ],
+      "blurb": "A limestone gorge on a bend of the Răut with a monastery cut into the cliff face, still occupied by monks, and a village of white stone houses on the plateau above. People have lived in these caves on and off since the Palaeolithic; Dacians, Mongols and Moldovans each built on top of the last.",
+      "fun_fact": "The cave church's bell tower sticks out of the top of the cliff, so from the far bank you see a cross and a small doorway in a blank rock wall and nothing else of the monastery at all.",
+      "hidden_gem_tip": "Walk the ridge from Butuceni at sunset — the whole meander of the river opens up and the gorge glows."
+    },
+    {
+      "id": "cricova",
+      "name": "Cricova",
+      "country": "Moldova",
+      "country_code": "MD",
+      "country_flag": "🇲🇩",
+      "continent": "Europe",
+      "region": "Chișinău Municipality",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🍷",
+      "coordinates": {
+        "lat": 47.138888888889,
+        "lng": 28.861388888889
+      },
+      "street_view": {
+        "lat": 47.138888888889,
+        "lng": 28.861388888889,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Cricova",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Cricova winery"
+        },
+        {
+          "name": "Underground streets"
+        }
+      ],
+      "blurb": "An underground city of wine 80 m below a town north of Chișinău — 120 km of galleries cut as limestone quarries in the fifteenth century and converted after 1952 into cellars where the temperature never moves off 12 °C. The tunnels have street names and you tour them by car.",
+      "fun_fact": "Moldova has the largest wine cellars in the world by length; Cricova and nearby Mileștii Mici between them hold millions of bottles, and one collection was assembled from confiscated European cellars after 1945.",
+      "hidden_gem_tip": "The galleries are named after what is stored down them — Cabernet Street, Feteasca Street — so the address system is also the map."
+    },
+    {
+      "id": "tartu",
+      "name": "Tartu",
+      "country": "Estonia",
+      "country_code": "EE",
+      "country_flag": "🇪🇪",
+      "continent": "Europe",
+      "region": "Tartu County",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🎓",
+      "coordinates": {
+        "lat": 58.38,
+        "lng": 26.7225
+      },
+      "street_view": {
+        "lat": 58.38,
+        "lng": 26.7225,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Tartu",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "University of Tartu",
+          "wikipedia_slug": "University_of_Tartu"
+        },
+        {
+          "name": "Toomemägi",
+          "wikipedia_slug": "Toomemägi"
+        },
+        {
+          "name": "Raekoja plats",
+          "wikipedia_slug": "Raekoja_plats,_Tartu"
+        },
+        {
+          "name": "Estonian National Museum",
+          "wikipedia_slug": "Estonian_National_Museum"
+        }
+      ],
+      "blurb": "Estonia's university town and its intellectual capital, on the Emajõgi in the south. A quarter of the population is students, the classical university building is the front of the town, and the cathedral on the hill behind it has been a picturesque ruin since the Reformation.",
+      "fun_fact": "The Estonian National Museum stands on a former Soviet military airfield, and its roof is a single plane that lifts off the end of the old runway like a continuation of it.",
+      "hidden_gem_tip": "The leaning house on the square — the Barclay House — tilts because one half stands on the old town wall and the other on soft riverbank."
+    },
+    {
+      "id": "saaremaa",
+      "name": "Saaremaa",
+      "country": "Estonia",
+      "country_code": "EE",
+      "country_flag": "🇪🇪",
+      "continent": "Europe",
+      "region": "Saare County",
+      "type": "island",
+      "tag": "hidden",
+      "emoji": "🏝️",
+      "coordinates": {
+        "lat": 58.416666666667,
+        "lng": 22.5
+      },
+      "street_view": {
+        "lat": 58.416666666667,
+        "lng": 22.5,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Saaremaa",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Kuressaare Castle",
+          "wikipedia_slug": "Kuressaare_Castle"
+        },
+        {
+          "name": "Kaali crater",
+          "wikipedia_slug": "Kaali_crater"
+        },
+        {
+          "name": "Panga cliff"
+        },
+        {
+          "name": "Angla windmills"
+        }
+      ],
+      "blurb": "Estonia's largest island, low and juniper-covered in the Baltic, with a black-stone bishop's castle at Kuressaare that is the best-preserved medieval fortress in the whole region. It was a closed Soviet border zone for fifty years, which is why so little was built on it.",
+      "fun_fact": "Kaali is a field of nine meteorite craters that fell within human memory, around 1500 BC — the main one is a perfectly round lake 110 m across, and Bronze Age people walled it as a sacred site.",
+      "hidden_gem_tip": "The island's junipers are the reason everything here — the smoked fish, the beer, the sauna — tastes faintly of them."
+    },
+    {
+      "id": "lahemaa",
+      "name": "Lahemaa",
+      "country": "Estonia",
+      "country_code": "EE",
+      "country_flag": "🇪🇪",
+      "continent": "Europe",
+      "region": "Harju County",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🌲",
+      "coordinates": {
+        "lat": 59.57111111,
+        "lng": 25.80027778
+      },
+      "street_view": {
+        "lat": 59.57111111,
+        "lng": 25.80027778,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Lahemaa_National_Park",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Palmse Manor",
+          "wikipedia_slug": "Palmse"
+        },
+        {
+          "name": "Viru Bog"
+        },
+        {
+          "name": "Käsmu"
+        },
+        {
+          "name": "Jägala Waterfall"
+        }
+      ],
+      "blurb": "The Soviet Union's first national park, declared in 1971 on the north coast east of Tallinn — a landscape of bog, pine forest, erratic boulders left by the ice, and four peninsulas of fishing villages that were sealed border zones until 1991.",
+      "fun_fact": "Its 'boulder fields' are among the densest on Earth: glacial erratics the size of houses sitting in open forest, some of them named and used as landmarks for centuries.",
+      "hidden_gem_tip": "The Viru Bog boardwalk crosses 3.5 km of raised peat with pools you cannot see the bottom of — go at dawn, when the mist sits on it."
+    },
+    {
+      "id": "sigulda",
+      "name": "Sigulda",
+      "country": "Latvia",
+      "country_code": "LV",
+      "country_flag": "🇱🇻",
+      "continent": "Europe",
+      "region": "Vidzeme",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🏰",
+      "coordinates": {
+        "lat": 57.153888888889,
+        "lng": 24.854444444444
+      },
+      "street_view": {
+        "lat": 57.153888888889,
+        "lng": 24.854444444444,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Sigulda",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Turaida Castle",
+          "wikipedia_slug": "Turaida_Castle"
+        },
+        {
+          "name": "Gauja National Park",
+          "wikipedia_slug": "Gauja_National_Park"
+        },
+        {
+          "name": "Gūtmaņala"
+        },
+        {
+          "name": "Sigulda Medieval Castle"
+        }
+      ],
+      "blurb": "A town on the rim of the Gauja valley, with a red-brick crusader castle on one side, a bishop's castle on the other, and 90 m of sandstone gorge between them. Latvians call the valley the Livonian Switzerland, which is generous about the height and fair about the shape.",
+      "fun_fact": "Gūtmaņala is the largest cave in the Baltics and its sandstone walls are covered in visitors' carved inscriptions, the oldest dating to the seventeenth century.",
+      "hidden_gem_tip": "A cable car crosses the gorge at 43 m — the only one in the Baltics, and the best way to see the valley in autumn colour."
+    },
+    {
+      "id": "jurmala",
+      "name": "Jūrmala",
+      "country": "Latvia",
+      "country_code": "LV",
+      "country_flag": "🇱🇻",
+      "continent": "Europe",
+      "region": "Jūrmala",
+      "type": "coastal",
+      "tag": "hidden",
+      "emoji": "🏖️",
+      "coordinates": {
+        "lat": 56.9665,
+        "lng": 23.72211111111111
+      },
+      "street_view": {
+        "lat": 56.9665,
+        "lng": 23.72211111111111,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Jūrmala",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Jomas Street"
+        },
+        {
+          "name": "Dzintari Forest Park"
+        },
+        {
+          "name": "Ķemeri National Park",
+          "wikipedia_slug": "Ķemeri_National_Park"
+        },
+        {
+          "name": "Gulf of Riga",
+          "wikipedia_slug": "Gulf_of_Riga"
+        }
+      ],
+      "blurb": "A 26 km beach of white quartz sand backed by pine forest and a strip of wooden Art Nouveau villas, half an hour by train from Riga. It was the Soviet Union's most fashionable Baltic resort, and the timber summer houses from before that are still standing among the pines.",
+      "fun_fact": "The sand is so fine and the shelf so shallow that you can wade out a hundred metres in the Gulf of Riga and still be waist-deep.",
+      "hidden_gem_tip": "Ķemeri, at the western end, is a raised bog with sulphur springs and a boardwalk — the smell is the point, and it is why the resort was built here in the first place."
+    },
+    {
+      "id": "rundale",
+      "name": "Rundāle Palace",
+      "country": "Latvia",
+      "country_code": "LV",
+      "country_flag": "🇱🇻",
+      "continent": "Europe",
+      "region": "Bauska Municipality",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "👑",
+      "coordinates": {
+        "lat": 56.413301,
+        "lng": 24.024835
+      },
+      "street_view": {
+        "lat": 56.413301,
+        "lng": 24.024835,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Rundāle_Palace",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Bauska Castle",
+          "wikipedia_slug": "Bauska_Castle"
+        },
+        {
+          "name": "French garden"
+        },
+        {
+          "name": "Gold Hall"
+        }
+      ],
+      "blurb": "A Baroque summer palace on the flat plain of Zemgale, built for the Duke of Courland by Bartolomeo Rastrelli — the architect of the Winter Palace — in the 1730s, with 138 rooms and a French garden of 10 hectares behind it.",
+      "fun_fact": "It was a school, a granary and a hospital in turn during the twentieth century; the restoration that gave it back its interiors took over fifty years and finished in 2015.",
+      "hidden_gem_tip": "The rose garden holds more than two thousand varieties and peaks in late June, when it is arguably the better half of the visit."
+    },
+    {
+      "id": "kaunas",
+      "name": "Kaunas",
+      "country": "Lithuania",
+      "country_code": "LT",
+      "country_flag": "🇱🇹",
+      "continent": "Europe",
+      "region": "Kaunas County",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🏛️",
+      "coordinates": {
+        "lat": 54.9,
+        "lng": 23.933333333333
+      },
+      "street_view": {
+        "lat": 54.9,
+        "lng": 23.933333333333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Kaunas",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Kaunas Castle",
+          "wikipedia_slug": "Kaunas_Castle"
+        },
+        {
+          "name": "Laisvės alėja",
+          "wikipedia_slug": "Laisvės_alėja"
+        },
+        {
+          "name": "Ninth Fort",
+          "wikipedia_slug": "Ninth_Fort"
+        },
+        {
+          "name": "Christ's Resurrection Basilica",
+          "wikipedia_slug": "Christ's_Resurrection_Basilica,_Kaunas"
+        },
+        {
+          "name": "Pažaislis Monastery",
+          "wikipedia_slug": "Pažaislis_Monastery"
+        }
+      ],
+      "blurb": "Lithuania's second city and its provisional capital between the wars, when Vilnius was held by Poland — which is why an interwar-modernist city centre exists here and nowhere else in the Baltics. Some 6,000 buildings went up in twenty years, in a clean national style now on the World Heritage list.",
+      "fun_fact": "Its main street, Laisvės alėja, is 1.6 km long, entirely pedestrian, and by local ordinance a non-smoking street for its whole length.",
+      "hidden_gem_tip": "Ride the 1931 funicular up Žaliakalnis — it still has its original wooden car and the operator sells tickets by hand."
+    },
+    {
+      "id": "nida",
+      "name": "Nida",
+      "country": "Lithuania",
+      "country_code": "LT",
+      "country_flag": "🇱🇹",
+      "continent": "Europe",
+      "region": "Curonian Spit",
+      "type": "coastal",
+      "tag": "hidden",
+      "emoji": "🏜️",
+      "coordinates": {
+        "lat": 55.303973,
+        "lng": 21.00532
+      },
+      "street_view": {
+        "lat": 55.303973,
+        "lng": 21.00532,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Nida,_Lithuania",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Curonian Spit",
+          "wikipedia_slug": "Curonian_Spit"
+        },
+        {
+          "name": "Parnidis Dune",
+          "wikipedia_slug": "Parnidis_Dune"
+        },
+        {
+          "name": "Curonian Lagoon",
+          "wikipedia_slug": "Curonian_Lagoon"
+        },
+        {
+          "name": "Thomas Mann House"
+        }
+      ],
+      "blurb": "A fishing village of blue-and-brown wooden houses on the Curonian Spit — a 98 km sandbar between a lagoon and the open Baltic, half Lithuanian and half Russian, nowhere more than 4 km wide and in places only 400 m.",
+      "fun_fact": "The spit's dunes buried fourteen villages between the seventeenth and nineteenth centuries after the forest was felled for timber; the pine plantations that now hold the sand still still are a 200-year-old engineering project.",
+      "hidden_gem_tip": "A sundial stands on the Parnidis dune above the village. From it you can see the lagoon on one side and the sea on the other, with the Russian border a short walk south."
+    },
+    {
+      "id": "hill-of-crosses",
+      "name": "Hill of Crosses",
+      "country": "Lithuania",
+      "country_code": "LT",
+      "country_flag": "🇱🇹",
+      "continent": "Europe",
+      "region": "Šiauliai County",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "✝️",
+      "coordinates": {
+        "lat": 56.015278,
+        "lng": 23.416667
+      },
+      "street_view": {
+        "lat": 56.015278,
+        "lng": 23.416667,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Hill_of_Crosses",
+      "sounds": [
+        "wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Šiauliai",
+          "wikipedia_slug": "Šiauliai"
+        },
+        {
+          "name": "Jurgaičiai hillfort"
+        }
+      ],
+      "blurb": "A low mound 12 km north of Šiauliai carrying well over a hundred thousand crosses, left by pilgrims since at least the 1830s. The Soviet authorities bulldozed the hill at least three times between 1961 and 1975 and it was rebuilt each time, overnight, by people who risked prison to do it.",
+      "fun_fact": "Nobody counts them officially any more; the last serious attempt, in the 1990s, reached about 55,000 and the number has at least doubled since.",
+      "hidden_gem_tip": "Go when there is wind. The small crosses and rosaries hung on the large ones knock together, and the whole hill sounds like rain."
+    },
+    {
+      "id": "warsaw",
+      "name": "Warsaw",
+      "country": "Poland",
+      "country_code": "PL",
+      "country_flag": "🇵🇱",
+      "continent": "Europe",
+      "region": "Masovia",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏙️",
+      "coordinates": {
+        "lat": 52.23,
+        "lng": 21.011111111111113
+      },
+      "street_view": {
+        "lat": 52.23,
+        "lng": 21.011111111111113,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Warsaw",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Old Town Market Place",
+          "wikipedia_slug": "Old_Town_Market_Square"
+        },
+        {
+          "name": "Royal Castle",
+          "wikipedia_slug": "Royal_Castle,_Warsaw"
+        },
+        {
+          "name": "Łazienki Park",
+          "wikipedia_slug": "Łazienki_Park"
+        },
+        {
+          "name": "Palace of Culture and Science",
+          "wikipedia_slug": "Palace_of_Culture_and_Science"
+        },
+        {
+          "name": "Wilanów Palace",
+          "wikipedia_slug": "Wilanów_Palace"
+        }
+      ],
+      "blurb": "A capital that was deliberately destroyed — some 85% of the left bank was demolished by the Germans after the 1944 uprising — and then rebuilt from paintings, photographs and memory. The old town you walk is a 1950s reconstruction, and it is on the World Heritage list precisely for that.",
+      "fun_fact": "The rebuilders used Bernardo Bellotto's eighteenth-century cityscapes as working drawings, which is why the facades match a painter's view of the city rather than its last photographs.",
+      "hidden_gem_tip": "Łazienki's park concerts under the Chopin monument run every Sunday through summer and are free — the whole lawn fills up."
+    },
+    {
+      "id": "gdansk",
+      "name": "Gdańsk",
+      "country": "Poland",
+      "country_code": "PL",
+      "country_flag": "🇵🇱",
+      "continent": "Europe",
+      "region": "Pomerania",
+      "type": "coastal",
+      "tag": "famous",
+      "emoji": "⚓",
+      "coordinates": {
+        "lat": 54.3482907,
+        "lng": 18.6540233
+      },
+      "street_view": {
+        "lat": 54.3482907,
+        "lng": 18.6540233,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Gdańsk",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Długi Targ",
+          "wikipedia_slug": "Długi_Targ"
+        },
+        {
+          "name": "Gdańsk Crane",
+          "wikipedia_slug": "Gdańsk_Crane"
+        },
+        {
+          "name": "St. Mary's Church",
+          "wikipedia_slug": "St._Mary's_Church,_Gdańsk"
+        },
+        {
+          "name": "European Solidarity Centre",
+          "wikipedia_slug": "European_Solidarity_Centre"
+        },
+        {
+          "name": "Westerplatte",
+          "wikipedia_slug": "Westerplatte"
+        }
+      ],
+      "blurb": "A Hanseatic port at the mouth of the Vistula, rich for six hundred years on Polish grain and Baltic amber, and a free city between the wars belonging to nobody. The Second World War began at its harbour mouth and the Soviet bloc started coming apart in its shipyard forty years later.",
+      "fun_fact": "St. Mary's is the largest brick church in the world by volume, big enough for 25,000 people, and it has no spire because the tower was never finished.",
+      "hidden_gem_tip": "The medieval port crane on the waterfront was worked by men walking inside two enormous treadwheels, and you can still see them."
+    },
+    {
+      "id": "wroclaw",
+      "name": "Wrocław",
+      "country": "Poland",
+      "country_code": "PL",
+      "country_flag": "🇵🇱",
+      "continent": "Europe",
+      "region": "Lower Silesia",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🌉",
+      "coordinates": {
+        "lat": 51.11,
+        "lng": 17.0325
+      },
+      "street_view": {
+        "lat": 51.11,
+        "lng": 17.0325,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Wrocław",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Wrocław Market Square",
+          "wikipedia_slug": "Market_Square,_Wrocław"
+        },
+        {
+          "name": "Ostrów Tumski",
+          "wikipedia_slug": "Cathedral_Island,_Wrocław"
+        },
+        {
+          "name": "Centennial Hall",
+          "wikipedia_slug": "Centennial_Hall"
+        },
+        {
+          "name": "Racławice Panorama",
+          "wikipedia_slug": "Racławice_Panorama"
+        }
+      ],
+      "blurb": "A city on twelve islands where the Oder splits, Bohemian then Austrian then Prussian then Polish, and repopulated almost entirely after 1945 when its German inhabitants left and Poles arrived from Lviv. Its market square is one of the largest in Europe and its cathedral island is where the city began.",
+      "fun_fact": "Several hundred small bronze dwarfs are scattered around the pavements — they began as the symbol of an absurdist anti-communist protest movement in the 1980s and have been multiplying since.",
+      "hidden_gem_tip": "Centennial Hall, 1913, was the largest reinforced-concrete dome in the world when built — a piece of engineering history a tram ride from the old town."
+    },
+    {
+      "id": "torun",
+      "name": "Toruń",
+      "country": "Poland",
+      "country_code": "PL",
+      "country_flag": "🇵🇱",
+      "continent": "Europe",
+      "region": "Kuyavia-Pomerania",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🍪",
+      "coordinates": {
+        "lat": 53.0144,
+        "lng": 18.6014
+      },
+      "street_view": {
+        "lat": 53.0144,
+        "lng": 18.6014,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Toruń",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Old Town Hall"
+        },
+        {
+          "name": "Leaning Tower"
+        },
+        {
+          "name": "Teutonic Castle ruins"
+        },
+        {
+          "name": "Vistula",
+          "wikipedia_slug": "Vistula"
+        }
+      ],
+      "blurb": "A Teutonic Order town on the Vistula whose Gothic centre came through the Second World War essentially untouched — no reconstruction, no infill, the original brick. Copernicus was born in a house on one of its streets in 1473.",
+      "fun_fact": "Toruń gingerbread has been made here since the Middle Ages under guild rules, using carved wooden moulds, and the recipe was a protected civic secret.",
+      "hidden_gem_tip": "The town's leaning tower is part of the medieval wall and leans about 1.5 m off vertical — a defensive tower built on sand rather than a folly."
+    },
+    {
+      "id": "malbork",
+      "name": "Malbork Castle",
+      "country": "Poland",
+      "country_code": "PL",
+      "country_flag": "🇵🇱",
+      "continent": "Europe",
+      "region": "Pomerania",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🏰",
+      "coordinates": {
+        "lat": 54.039722222222,
+        "lng": 19.027777777778
+      },
+      "street_view": {
+        "lat": 54.039722222222,
+        "lng": 19.027777777778,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Malbork_Castle",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Nogat",
+          "wikipedia_slug": "Nogat"
+        },
+        {
+          "name": "Grand Master's Palace"
+        },
+        {
+          "name": "Malbork",
+          "wikipedia_slug": "Malbork"
+        }
+      ],
+      "blurb": "The largest castle in the world by land area, and the headquarters of the Teutonic Knights from 1309 — three fortresses inside one ring of walls on the bank of the Nogat, built entirely of brick because northern Poland has no building stone.",
+      "fun_fact": "Something like 4.5 million bricks went into it. It was wrecked in 1945 and rebuilt over the following decades using the same nineteenth-century survey drawings that had guided its first restoration.",
+      "hidden_gem_tip": "View it from the far bank of the Nogat in late afternoon — the whole 1.5 km of wall turns red at once, which is the sight the order was buying."
+    },
+    {
+      "id": "zakopane",
+      "name": "Zakopane",
+      "country": "Poland",
+      "country_code": "PL",
+      "country_flag": "🇵🇱",
+      "continent": "Europe",
+      "region": "Lesser Poland",
+      "type": "mountain",
+      "tag": "hidden",
+      "emoji": "⛷️",
+      "coordinates": {
+        "lat": 49.299444444444,
+        "lng": 19.951944444444
+      },
+      "street_view": {
+        "lat": 49.299444444444,
+        "lng": 19.951944444444,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Zakopane",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Tatra Mountains",
+          "wikipedia_slug": "Tatra_Mountains"
+        },
+        {
+          "name": "Giewont",
+          "wikipedia_slug": "Giewont"
+        },
+        {
+          "name": "Morskie Oko",
+          "wikipedia_slug": "Morskie_Oko"
+        },
+        {
+          "name": "Krupówki"
+        },
+        {
+          "name": "Gubałówka",
+          "wikipedia_slug": "Gubałówka"
+        }
+      ],
+      "blurb": "Poland's mountain capital, at 800 m directly under the Tatras — the only genuinely alpine range in the country, packed into 60 km. A distinctive timber architecture was invented here in the 1890s as a conscious national style, and the town is still built in it.",
+      "fun_fact": "Giewont, the ridge above the town, is said to be a sleeping knight in profile, and a 15 m iron cross has stood on its summit since 1901.",
+      "hidden_gem_tip": "Morskie Oko is a glacial lake 9 km up a closed road — walk it early, because it is the single most visited spot in the Polish mountains."
+    },
+    {
+      "id": "wieliczka",
+      "name": "Wieliczka Salt Mine",
+      "country": "Poland",
+      "country_code": "PL",
+      "country_flag": "🇵🇱",
+      "continent": "Europe",
+      "region": "Lesser Poland",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🧂",
+      "coordinates": {
+        "lat": 49.983053,
+        "lng": 20.055655
+      },
+      "street_view": {
+        "lat": 49.983053,
+        "lng": 20.055655,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Wieliczka_Salt_Mine",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Chapel of St. Kinga"
+        },
+        {
+          "name": "Wieliczka",
+          "wikipedia_slug": "Wieliczka"
+        },
+        {
+          "name": "Underground lakes"
+        }
+      ],
+      "blurb": "A salt mine worked continuously from the thirteenth century until 1996, 327 m deep and with over 245 km of galleries, in which miners carved chapels, chandeliers and whole rooms out of the rock salt itself. It was on the first World Heritage list in 1978.",
+      "fun_fact": "The Chapel of St. Kinga is 101 m down, took three miners more than sixty years to carve, and everything in it — the altar, the floor tiles, the chandelier crystals — is salt.",
+      "hidden_gem_tip": "The tourist route is about 3.5 km and 800 steps, and the air is brine-saturated; the mine ran an underground sanatorium for asthma on exactly that basis."
+    },
+    {
+      "id": "bucharest",
+      "name": "Bucharest",
+      "country": "Romania",
+      "country_code": "RO",
+      "country_flag": "🇷🇴",
+      "continent": "Europe",
+      "region": "Bucharest",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏛️",
+      "coordinates": {
+        "lat": 44.41336111111111,
+        "lng": 26.09777777777778
+      },
+      "street_view": {
+        "lat": 44.41336111111111,
+        "lng": 26.09777777777778,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Bucharest",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Palace of the Parliament",
+          "wikipedia_slug": "Palace_of_the_Parliament"
+        },
+        {
+          "name": "Romanian Athenaeum",
+          "wikipedia_slug": "Romanian_Athenaeum"
+        },
+        {
+          "name": "Lipscani",
+          "wikipedia_slug": "Lipscani"
+        },
+        {
+          "name": "Village Museum",
+          "wikipedia_slug": "Dimitrie_Gusti_National_Village_Museum"
+        },
+        {
+          "name": "Stavropoleos Monastery",
+          "wikipedia_slug": "Stavropoleos_Monastery"
+        }
+      ],
+      "blurb": "A capital of Belle Époque boulevards with a Stalinist megaproject dropped through the middle of it: Ceaușescu levelled a fifth of the historic city in the 1980s to build the Palace of the Parliament and its approach avenue, deliberately one metre wider than the Champs-Élysées.",
+      "fun_fact": "The Palace of the Parliament is the heaviest building in the world and the largest administrative building outside the Pentagon — and roughly 70% of it stands empty.",
+      "hidden_gem_tip": "The Village Museum on Herăstrău lake is 300 real peasant buildings moved here from across the country — the counterweight to everything downtown."
+    },
+    {
+      "id": "brasov",
+      "name": "Brașov",
+      "country": "Romania",
+      "country_code": "RO",
+      "country_flag": "🇷🇴",
+      "continent": "Europe",
+      "region": "Transylvania",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🏔️",
+      "coordinates": {
+        "lat": 45.65222222222222,
+        "lng": 25.610555555555557
+      },
+      "street_view": {
+        "lat": 45.65222222222222,
+        "lng": 25.610555555555557,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Brașov",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Black Church",
+          "wikipedia_slug": "Biserica_Neagră"
+        },
+        {
+          "name": "Council Square",
+          "wikipedia_slug": "Piața_Sfatului"
+        },
+        {
+          "name": "Tâmpa",
+          "wikipedia_slug": "Tâmpa_(Brașov)"
+        },
+        {
+          "name": "Bran Castle",
+          "wikipedia_slug": "Bran_Castle"
+        },
+        {
+          "name": "Rope Street",
+          "wikipedia_slug": "Strada_Sforii"
+        }
+      ],
+      "blurb": "A Saxon town under a forested mountain in the bend of the Carpathians, founded by German settlers in the thirteenth century and run by them for seven hundred years. The square, the guild towers and the great hall church are all theirs; the mountain starts at the end of the streets.",
+      "fun_fact": "The Black Church is the largest Gothic church between Vienna and Istanbul and got its name from a 1689 fire that left the walls soot-stained for centuries.",
+      "hidden_gem_tip": "Rope Street is barely a metre wide and was built as a firefighters' access lane; Bran Castle, marketed as Dracula's, is 30 km south and has essentially nothing to do with him."
+    },
+    {
+      "id": "danube-delta",
+      "name": "Danube Delta",
+      "country": "Romania",
+      "country_code": "RO",
+      "country_flag": "🇷🇴",
+      "continent": "Europe",
+      "region": "Tulcea County",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🦢",
+      "coordinates": {
+        "lat": 45.2,
+        "lng": 29.5
+      },
+      "street_view": {
+        "lat": 45.2,
+        "lng": 29.5,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Danube_Delta",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Sulina",
+          "wikipedia_slug": "Sulina"
+        },
+        {
+          "name": "Letea Forest",
+          "wikipedia_slug": "Letea_Forest"
+        },
+        {
+          "name": "Danube",
+          "wikipedia_slug": "Danube"
+        },
+        {
+          "name": "Tulcea",
+          "wikipedia_slug": "Tulcea"
+        }
+      ],
+      "blurb": "Where the Danube finishes, spreading into 4,150 km² of reed bed, channel and floating island before the Black Sea — the largest and best-preserved delta in Europe, and the youngest land on the continent, still growing seaward by 40 m a year.",
+      "fun_fact": "Around 300 bird species use it, including the world's largest colony of great white pelicans, and the reed beds here are the biggest single expanse of reed anywhere on Earth.",
+      "hidden_gem_tip": "Nothing in the delta has roads. Villages like Mila 23 are reached by boat only, and the ferry down from Tulcea takes most of a day."
+    },
+    {
+      "id": "maramures",
+      "name": "Maramureș",
+      "country": "Romania",
+      "country_code": "RO",
+      "country_flag": "🇷🇴",
+      "continent": "Europe",
+      "region": "Maramureș",
+      "type": "village",
+      "tag": "hidden",
+      "emoji": "🪵",
+      "coordinates": {
+        "lat": 47.672777777778,
+        "lng": 24.005
+      },
+      "street_view": {
+        "lat": 47.672777777778,
+        "lng": 24.005,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Maramureș_County",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Wooden Churches of Maramureș",
+          "wikipedia_slug": "Wooden_churches_of_Maramureș"
+        },
+        {
+          "name": "Merry Cemetery",
+          "wikipedia_slug": "Merry_Cemetery"
+        },
+        {
+          "name": "Bârsana"
+        },
+        {
+          "name": "Vaser Valley railway",
+          "wikipedia_slug": "Mocăniță"
+        }
+      ],
+      "blurb": "A valley region against the Ukrainian border where a pre-industrial peasant culture is still, in places, a working way of life — hay cut by scythe, carved wooden gates on every farmyard, and tall shingled churches with spires like sharpened pencils.",
+      "fun_fact": "The Merry Cemetery at Săpânța marks each grave with a painted blue cross carrying a comic verse about how the person lived and, often bluntly, how they died.",
+      "hidden_gem_tip": "The Mocănița on the Vaser valley is a working steam narrow-gauge forestry railway, not a heritage recreation — it still hauls timber."
+    },
+    {
+      "id": "plovdiv",
+      "name": "Plovdiv",
+      "country": "Bulgaria",
+      "country_code": "BG",
+      "country_flag": "🇧🇬",
+      "continent": "Europe",
+      "region": "Plovdiv Province",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🏛️",
+      "coordinates": {
+        "lat": 42.142086,
+        "lng": 24.741454
+      },
+      "street_view": {
+        "lat": 42.142086,
+        "lng": 24.741454,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Plovdiv",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Roman theatre of Philippopolis",
+          "wikipedia_slug": "Roman_theatre_of_Philippopolis"
+        },
+        {
+          "name": "Old Town"
+        },
+        {
+          "name": "Kapana"
+        },
+        {
+          "name": "Nebet Tepe"
+        },
+        {
+          "name": "Roman Stadium"
+        }
+      ],
+      "blurb": "One of the oldest continuously inhabited cities in Europe — eight thousand years on the same hills — and layered accordingly: a Thracian citadel, a Roman theatre still used for opera, an Ottoman mosque, and a hillside of nineteenth-century merchant houses with overhanging upper floors.",
+      "fun_fact": "The Roman stadium ran 240 m under what is now the main pedestrian street; you can see one curved end of it through a glass floor in the middle of the shops.",
+      "hidden_gem_tip": "Kapana, the old craftsmen's quarter, is a grid of tiny lanes that has turned into the city's studio and bar district without being rebuilt."
+    },
+    {
+      "id": "rila-monastery",
+      "name": "Rila Monastery",
+      "country": "Bulgaria",
+      "country_code": "BG",
+      "country_flag": "🇧🇬",
+      "continent": "Europe",
+      "region": "Kyustendil Province",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "⛪",
+      "coordinates": {
+        "lat": 42.133333333333,
+        "lng": 23.340277777778
+      },
+      "street_view": {
+        "lat": 42.133333333333,
+        "lng": 23.340277777778,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Rila_Monastery",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Hrelja's Tower"
+        },
+        {
+          "name": "Rila Mountains",
+          "wikipedia_slug": "Rila"
+        },
+        {
+          "name": "Church of the Nativity"
+        }
+      ],
+      "blurb": "The largest monastery in Bulgaria, in a fold of the Rila mountains at 1,150 m — a fortress wall on the outside, and inside, four storeys of black-and-white striped arcades around a church covered end to end in frescoes. It held the language and the liturgy through five centuries of Ottoman rule.",
+      "fun_fact": "The monastery is on the back of the 1 lev note, and its stone defensive tower from 1335 is the one part of the medieval complex that survived the fire of 1833.",
+      "hidden_gem_tip": "Stay for the evening: the day-trip buses from Sofia leave by four and the courtyard goes completely quiet."
+    },
+    {
+      "id": "veliko-tarnovo",
+      "name": "Veliko Tarnovo",
+      "country": "Bulgaria",
+      "country_code": "BG",
+      "country_flag": "🇧🇬",
+      "continent": "Europe",
+      "region": "Veliko Tarnovo Province",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🏰",
+      "coordinates": {
+        "lat": 43.078652,
+        "lng": 25.628291
+      },
+      "street_view": {
+        "lat": 43.078652,
+        "lng": 25.628291,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Veliko_Tarnovo",
+      "sounds": [
+        "european-plaza.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Tsarevets",
+          "wikipedia_slug": "Tsarevets"
+        },
+        {
+          "name": "Yantra",
+          "wikipedia_slug": "Yantra_(river)"
+        },
+        {
+          "name": "Samovodska Charshia"
+        },
+        {
+          "name": "Asen Dynasty Monument"
+        }
+      ],
+      "blurb": "The capital of the Second Bulgarian Empire, built on three hills in the meanders of the Yantra with houses stacked so steeply that each roof is the next one's terrace. The royal fortress of Tsarevets occupies its own hill inside a loop of the river.",
+      "fun_fact": "For two centuries this was one of the largest and richest cities in south-eastern Europe, and contemporaries called it the Third Rome after Rome and Constantinople.",
+      "hidden_gem_tip": "The old craft street, Samovodska Charshia, still has working potters, coppersmiths and bakers rather than souvenir shops."
+    },
+    {
+      "id": "nessebar",
+      "name": "Nessebar",
+      "country": "Bulgaria",
+      "country_code": "BG",
+      "country_flag": "🇧🇬",
+      "continent": "Europe",
+      "region": "Burgas Province",
+      "type": "coastal",
+      "tag": "hidden",
+      "emoji": "⛪",
+      "coordinates": {
+        "lat": 42.659507,
+        "lng": 27.724724
+      },
+      "street_view": {
+        "lat": 42.659507,
+        "lng": 27.724724,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Nesebar",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Church of Christ Pantocrator",
+          "wikipedia_slug": "Church_of_Christ_Pantocrator,_Nesebar"
+        },
+        {
+          "name": "Black Sea",
+          "wikipedia_slug": "Black_Sea"
+        },
+        {
+          "name": "Old Windmill"
+        },
+        {
+          "name": "Sveti Stefan Church"
+        }
+      ],
+      "blurb": "A rocky peninsula on the Black Sea joined to the mainland by a 300 m isthmus, occupied for three thousand years and holding the ruins of more than forty medieval churches — a Byzantine provincial style of brick and stone banding you find almost nowhere else intact.",
+      "fun_fact": "A third of the ancient town has been lost to the sea; foundations of Roman and medieval buildings lie in shallow water off the north shore and can be seen from a boat on a calm day.",
+      "hidden_gem_tip": "The upper town's wooden Black Sea houses, with their whitewashed stone ground floors and overhanging timber upper storeys, are the same pattern you meet all the way round the coast."
+    },
+    {
+      "id": "taganrog",
+      "name": "Taganrog",
+      "country": "Russia",
+      "country_code": "RU",
+      "country_flag": "🇷🇺",
+      "continent": "Europe",
+      "region": "Rostov Oblast",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "⚓",
+      "coordinates": {
+        "lat": 47.233333333333,
+        "lng": 38.9
+      },
+      "street_view": {
+        "lat": 47.233333333333,
+        "lng": 38.9,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Taganrog",
+      "sounds": [
+        "city-hum.mp3",
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Depaldo Stairs",
+          "wikipedia_slug": "Depaldo_Stairs"
+        },
+        {
+          "name": "Pushkin Embankment",
+          "wikipedia_slug": "Pushkin_Embankment_in_Taganrog"
+        },
+        {
+          "name": "Alferaki Palace",
+          "wikipedia_slug": "Alferaki_Palace"
+        },
+        {
+          "name": "Chekhov Gymnasium",
+          "wikipedia_slug": "Chekhov_Gymnasium"
+        },
+        {
+          "name": "Taganrog Fortress",
+          "wikipedia_slug": "Taganrog_Fortress"
+        },
+        {
+          "name": "Taganrog Bay",
+          "wikipedia_slug": "Taganrog_Bay"
+        }
+      ],
+      "blurb": "Russia's first naval base, laid out by Peter the Great in 1698 on a cape sticking into the Sea of Azov — a purpose-built port two decades older than Saint Petersburg. Greek and Italian merchants made the money and built the town, which is why a provincial Russian port has an Italian architect's stone staircase running down to the water and a palace on Frunze Street.",
+      "fun_fact": "The Depaldo Stairs of 1823 predate Odesa's far more famous Potemkin Steps by two decades, and use the same trick: the flights narrow as they descend, so the staircase looks the same width the whole way down from the top and impossibly long from the bottom.",
+      "hidden_gem_tip": "Go down the stairs to Pushkin Embankment in the evening, when the whole town walks the seafront and the Azov — the shallowest sea in the world, barely 14 m at its deepest — goes flat and silver."
     }
   ]
 }

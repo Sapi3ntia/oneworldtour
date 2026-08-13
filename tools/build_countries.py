@@ -82,6 +82,7 @@ COUNTRIES = {
     "LT": ("Lithuania", "Europe"),
     "LV": ("Latvia", "Europe"),
     "MD": ("Moldova", "Europe"),
+    "BY": ("Belarus", "Europe"),
     "SK": ("Slovakia", "Europe"),
     "SI": ("Slovenia", "Europe"),
     "MT": ("Malta", "Europe"),
@@ -118,6 +119,10 @@ COUNTRIES = {
     "AZ": ("Azerbaijan", "Asia"),
     "GE": ("Georgia", "Asia"),
     "UZ": ("Uzbekistan", "Asia"),
+    "KZ": ("Kazakhstan", "Asia"),
+    "KG": ("Kyrgyzstan", "Asia"),
+    "TJ": ("Tajikistan", "Asia"),
+    "TM": ("Turkmenistan", "Asia"),
     # ---- Africa ----
     "MA": ("Morocco", "Africa"),
     "EG": ("Egypt", "Africa"),

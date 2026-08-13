@@ -34,6 +34,14 @@
       "locations": 36
     },
     {
+      "code": "RU",
+      "name": "Russia",
+      "flag": "🇷🇺",
+      "continent": "Europe",
+      "status": "live",
+      "locations": 32
+    },
+    {
       "code": "ID",
       "name": "Indonesia",
       "flag": "🇮🇩",
@@ -94,6 +102,14 @@
       "name": "Philippines",
       "flag": "🇵🇭",
       "continent": "Asia",
+      "status": "live",
+      "locations": 13
+    },
+    {
+      "code": "UA",
+      "name": "Ukraine",
+      "flag": "🇺🇦",
+      "continent": "Europe",
       "status": "live",
       "locations": 13
     },
@@ -194,6 +210,14 @@
       "locations": 8
     },
     {
+      "code": "PL",
+      "name": "Poland",
+      "flag": "🇵🇱",
+      "continent": "Europe",
+      "status": "live",
+      "locations": 8
+    },
+    {
       "code": "PT",
       "name": "Portugal",
       "flag": "🇵🇹",
@@ -218,6 +242,14 @@
       "locations": 7
     },
     {
+      "code": "GE",
+      "name": "Georgia",
+      "flag": "🇬🇪",
+      "continent": "Asia",
+      "status": "live",
+      "locations": 7
+    },
+    {
       "code": "IN",
       "name": "India",
       "flag": "🇮🇳",
@@ -234,17 +266,25 @@
       "locations": 7
     },
     {
-      "code": "RU",
-      "name": "Russia",
-      "flag": "🇷🇺",
-      "continent": "Europe",
+      "code": "AM",
+      "name": "Armenia",
+      "flag": "🇦🇲",
+      "continent": "Asia",
       "status": "live",
-      "locations": 7
+      "locations": 6
     },
     {
       "code": "JP",
       "name": "Japan",
       "flag": "🇯🇵",
+      "continent": "Asia",
+      "status": "live",
+      "locations": 6
+    },
+    {
+      "code": "KZ",
+      "name": "Kazakhstan",
+      "flag": "🇰🇿",
       "continent": "Asia",
       "status": "live",
       "locations": 6
@@ -258,10 +298,26 @@
       "locations": 6
     },
     {
+      "code": "MN",
+      "name": "Mongolia",
+      "flag": "🇲🇳",
+      "continent": "Asia",
+      "status": "live",
+      "locations": 6
+    },
+    {
       "code": "NZ",
       "name": "New Zealand",
       "flag": "🇳🇿",
       "continent": "Oceania",
+      "status": "live",
+      "locations": 6
+    },
+    {
+      "code": "RO",
+      "name": "Romania",
+      "flag": "🇷🇴",
+      "continent": "Europe",
       "status": "live",
       "locations": 6
     },
@@ -272,6 +328,38 @@
       "continent": "Asia",
       "status": "live",
       "locations": 6
+    },
+    {
+      "code": "UZ",
+      "name": "Uzbekistan",
+      "flag": "🇺🇿",
+      "continent": "Asia",
+      "status": "live",
+      "locations": 6
+    },
+    {
+      "code": "BY",
+      "name": "Belarus",
+      "flag": "🇧🇾",
+      "continent": "Europe",
+      "status": "live",
+      "locations": 5
+    },
+    {
+      "code": "BG",
+      "name": "Bulgaria",
+      "flag": "🇧🇬",
+      "continent": "Europe",
+      "status": "live",
+      "locations": 5
+    },
+    {
+      "code": "LT",
+      "name": "Lithuania",
+      "flag": "🇱🇹",
+      "continent": "Europe",
+      "status": "live",
+      "locations": 5
     },
     {
       "code": "MA",
@@ -298,6 +386,14 @@
       "locations": 4
     },
     {
+      "code": "AZ",
+      "name": "Azerbaijan",
+      "flag": "🇦🇿",
+      "continent": "Asia",
+      "status": "live",
+      "locations": 4
+    },
+    {
       "code": "CR",
       "name": "Costa Rica",
       "flag": "🇨🇷",
@@ -314,10 +410,34 @@
       "locations": 4
     },
     {
+      "code": "EE",
+      "name": "Estonia",
+      "flag": "🇪🇪",
+      "continent": "Europe",
+      "status": "live",
+      "locations": 4
+    },
+    {
       "code": "IR",
       "name": "Iran",
       "flag": "🇮🇷",
       "continent": "Asia",
+      "status": "live",
+      "locations": 4
+    },
+    {
+      "code": "KG",
+      "name": "Kyrgyzstan",
+      "flag": "🇰🇬",
+      "continent": "Asia",
+      "status": "live",
+      "locations": 4
+    },
+    {
+      "code": "LV",
+      "name": "Latvia",
+      "flag": "🇱🇻",
+      "continent": "Europe",
       "status": "live",
       "locations": 4
     },
@@ -354,20 +474,28 @@
       "locations": 4
     },
     {
+      "code": "TJ",
+      "name": "Tajikistan",
+      "flag": "🇹🇯",
+      "continent": "Asia",
+      "status": "live",
+      "locations": 4
+    },
+    {
+      "code": "TM",
+      "name": "Turkmenistan",
+      "flag": "🇹🇲",
+      "continent": "Asia",
+      "status": "live",
+      "locations": 4
+    },
+    {
       "code": "UY",
       "name": "Uruguay",
       "flag": "🇺🇾",
       "continent": "South America",
       "status": "live",
       "locations": 4
-    },
-    {
-      "code": "AM",
-      "name": "Armenia",
-      "flag": "🇦🇲",
-      "continent": "Asia",
-      "status": "live",
-      "locations": 3
     },
     {
       "code": "BZ",
@@ -426,6 +554,14 @@
       "locations": 3
     },
     {
+      "code": "MD",
+      "name": "Moldova",
+      "flag": "🇲🇩",
+      "continent": "Europe",
+      "status": "live",
+      "locations": 3
+    },
+    {
       "code": "NO",
       "name": "Norway",
       "flag": "🇳🇴",
@@ -470,14 +606,6 @@
       "name": "Taiwan",
       "flag": "🇹🇼",
       "continent": "Asia",
-      "status": "live",
-      "locations": 3
-    },
-    {
-      "code": "UA",
-      "name": "Ukraine",
-      "flag": "🇺🇦",
-      "continent": "Europe",
       "status": "live",
       "locations": 3
     },
@@ -538,34 +666,10 @@
       "locations": 2
     },
     {
-      "code": "GE",
-      "name": "Georgia",
-      "flag": "🇬🇪",
-      "continent": "Asia",
-      "status": "live",
-      "locations": 2
-    },
-    {
       "code": "GY",
       "name": "Guyana",
       "flag": "🇬🇾",
       "continent": "South America",
-      "status": "live",
-      "locations": 2
-    },
-    {
-      "code": "LT",
-      "name": "Lithuania",
-      "flag": "🇱🇹",
-      "continent": "Europe",
-      "status": "live",
-      "locations": 2
-    },
-    {
-      "code": "MN",
-      "name": "Mongolia",
-      "flag": "🇲🇳",
-      "continent": "Asia",
       "status": "live",
       "locations": 2
     },
@@ -582,14 +686,6 @@
       "name": "Namibia",
       "flag": "🇳🇦",
       "continent": "Africa",
-      "status": "live",
-      "locations": 2
-    },
-    {
-      "code": "RO",
-      "name": "Romania",
-      "flag": "🇷🇴",
-      "continent": "Europe",
       "status": "live",
       "locations": 2
     },
@@ -650,26 +746,10 @@
       "locations": 2
     },
     {
-      "code": "UZ",
-      "name": "Uzbekistan",
-      "flag": "🇺🇿",
-      "continent": "Asia",
-      "status": "live",
-      "locations": 2
-    },
-    {
       "code": "AL",
       "name": "Albania",
       "flag": "🇦🇱",
       "continent": "Europe",
-      "status": "live",
-      "locations": 1
-    },
-    {
-      "code": "AZ",
-      "name": "Azerbaijan",
-      "flag": "🇦🇿",
-      "continent": "Asia",
       "status": "live",
       "locations": 1
     },
@@ -690,25 +770,9 @@
       "locations": 1
     },
     {
-      "code": "BG",
-      "name": "Bulgaria",
-      "flag": "🇧🇬",
-      "continent": "Europe",
-      "status": "live",
-      "locations": 1
-    },
-    {
       "code": "CY",
       "name": "Cyprus",
       "flag": "🇨🇾",
-      "continent": "Europe",
-      "status": "live",
-      "locations": 1
-    },
-    {
-      "code": "EE",
-      "name": "Estonia",
-      "flag": "🇪🇪",
       "continent": "Europe",
       "status": "live",
       "locations": 1
@@ -746,14 +810,6 @@
       "locations": 1
     },
     {
-      "code": "LV",
-      "name": "Latvia",
-      "flag": "🇱🇻",
-      "continent": "Europe",
-      "status": "live",
-      "locations": 1
-    },
-    {
       "code": "LU",
       "name": "Luxembourg",
       "flag": "🇱🇺",
@@ -770,26 +826,10 @@
       "locations": 1
     },
     {
-      "code": "MD",
-      "name": "Moldova",
-      "flag": "🇲🇩",
-      "continent": "Europe",
-      "status": "live",
-      "locations": 1
-    },
-    {
       "code": "KP",
       "name": "North Korea",
       "flag": "🇰🇵",
       "continent": "Asia",
-      "status": "live",
-      "locations": 1
-    },
-    {
-      "code": "PL",
-      "name": "Poland",
-      "flag": "🇵🇱",
-      "continent": "Europe",
       "status": "live",
       "locations": 1
     },
