@@ -12930,6 +12930,89 @@
           "title": "Herons in Taganrog bay near Merdjanova village. May 2021.",
           "height": 2160
         }
+      ],
+      "sets": [
+        "dish"
+      ]
+    },
+    {
+      "id": "hovden",
+      "name": "Hovden",
+      "search_name": "Hovden Vesterålen",
+      "country": "Norway",
+      "country_code": "NO",
+      "country_flag": "🇳🇴",
+      "continent": "Europe",
+      "region": "Nordland",
+      "type": "village",
+      "tag": "hidden",
+      "emoji": "🌊",
+      "coordinates": {
+        "lat": 68.81222,
+        "lng": 14.55278
+      },
+      "street_view": {
+        "lat": 68.81222,
+        "lng": 14.55278,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Hovden,_Nordland",
+      "sounds": [
+        "ocean-waves.mp3",
+        "arctic-wind.mp3"
+      ],
+      "drive": {
+        "yt": "kODfmzOAoZA",
+        "start": 0,
+        "_note": "Hand-curated on purpose; enrich_media.py cannot accept this one and is not wrong to refuse it. The title is \"4K Lapland Scenic Drive - Vesteralen Nykan naturreservat - Eidet, Nykvag, Hovden\", and `lapland` is a real place in this atlas 397 km away that the title names BEFORE it names Hovden — which is exactly the pattern wrong_place_title exists to catch. Here it is a false positive: the channel brands Arctic Norway as \"Lapland\" for reach, but Vesteralen is not in Lapland, and Eidet, Nykvag and Hovden are all in Bo Municipality. Verified by watching it — sea-level coastal road, red fish-processing shed, breakwater and fishing boat, treeless rock, and the burned-in caption reads EIDET - NYKVAG - HOVDEN. Do not 'fix' the guard to let this through; curation is the override and this is what it is for."
+      },
+      "highlights": [
+        {
+          "name": "Malnesberget",
+          "wikipedia_slug": "Malnesberget"
+        },
+        {
+          "name": "Nykvåg",
+          "wikipedia_slug": "Nykvåg"
+        },
+        {
+          "name": "Malnesfjord",
+          "wikipedia_slug": "Malnesfjord"
+        },
+        {
+          "name": "Litløy Lighthouse",
+          "wikipedia_slug": "Litløy_Lighthouse"
+        },
+        {
+          "name": "Langøya",
+          "wikipedia_slug": "Langøya"
+        }
+      ],
+      "blurb": "A fishing village on the last headland of Langøya, Norway's third-largest island, some 250 km inside the Arctic Circle. Ocean to the north and west, Malnesfjorden to the east, and a road that simply stops when it runs out of land. People have lived on this point since at least 400–800 CE, and always for the same reason: the fishing banks off Vesterålen start just offshore, and there is nowhere closer to them to stand.",
+      "fun_fact": "The parish is still called Malnes, though Malnes Church left in 1829 — it was taken down and rebuilt inland at Eidet, and the name stayed behind on the coast it had abandoned. Nearly two centuries on, the map still points to a church that isn't there.",
+      "hidden_gem_tip": "Come between late May and late July, when the sun never sets here and, because the village faces north-west into open water, midnight is the hour it hangs lowest over the sea. The reverse is also true: from early December to early January it doesn't clear the horizon at all. Five kilometres down the coast at Nykvåg, the Nykan cliffs hold one of the region's big seabird colonies.",
+      "sets": [
+        "dish"
+      ],
+      "monuments": [
+        {
+          "name": "Nykvåg",
+          "yt": "Ed_BSEL3MDw",
+          "start": 0,
+          "source": "auto",
+          "title": "Nykvåg in Bø Vesterålen,Norway",
+          "height": 1080
+        },
+        {
+          "name": "Langøya",
+          "yt": "nmm7XmLCShw",
+          "start": 0,
+          "source": "auto",
+          "title": "Langøya island views.",
+          "height": 1080
+        }
       ]
     }
   ]

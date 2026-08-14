@@ -15,7 +15,11 @@
    Cross-page cache in sessionStorage; `?bust` skips it while editing.
    ============================================================ */
 
-const CACHE_KEY = 'owt_data_cache_v5';   // v5: wild region + tv.json era
+// v6: places gained `sets`. The bump is load-bearing, not cosmetic — a place
+// object cached under v5 has no `sets` key, and a filter calling
+// .includes() on it throws for the ten minutes the old entry stays warm.
+// Any future field added to the merge in fetchAll() needs the same bump.
+const CACHE_KEY = 'owt_data_cache_v6';   // v5: wild region + tv.json era
 const CACHE_TTL_MS = 10 * 60 * 1000;
 
 /* Always revalidate data files with the server (cheap 304s). Without
@@ -71,6 +75,13 @@ async function fetchAll() {
       region_flag:  region.flag || '🌍',
       collection:   region.collection || null,
       accent:       region.accent || null,
+      // `region_id` is where a place LIVES — one region file, one id, and the
+      // collections (ancient/wild/observatory) are region files too, so they
+      // are mutually exclusive by construction. `sets` is the additive escape
+      // hatch: a place declares extra memberships in its own record and keeps
+      // its home region. Normalised here so filters can call .includes()
+      // without guarding for undefined on the other 808 places.
+      sets:         loc.sets || [],
       country:      loc.country || region.country || region.name,
       country_flag: loc.country_flag || region.flag,
     }));

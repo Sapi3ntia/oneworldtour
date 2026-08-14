@@ -827,13 +827,35 @@ def find_seekable(place, query, want, avoid, min_dur=600, night=False):
     return None
 
 
+def search_name(place):
+    """The string to SEARCH for, which is not always the name to SHOW.
+
+    `name` is display copy — short, because it sits on a map pin. The query
+    has a different job: be unambiguous on YouTube. Usually they can be the
+    same string, and by default they are.
+
+    Where they can't: Norway has two Hovdens, a famous ski resort in
+    Setesdal and a fishing village in Vesterålen, and "Hovden Norway"
+    returns the resort almost exclusively. No title guard can separate
+    them — wrong_place_title works by finding a DIFFERENT place named in
+    the title, and here both videos honestly say "Hovden" and honestly say
+    "Norway". The coordinates disagree by 1,000 km and nothing in the text
+    knows it. So the fix has to happen before the search, not after: a
+    place may sharpen its own query while keeping its short name.
+
+    Set this only for genuine namesake collisions. It is not a relevance
+    knob — padding a query that already works just narrows the field.
+    """
+    return place.get("search_name") or place["name"]
+
+
 def find_walk(place):
-    return find_seekable(place, f"{place['name']} {place['country']} walking tour 4k",
+    return find_seekable(place, f"{search_name(place)} {place['country']} walking tour 4k",
                          WALK_WORDS, BAD_WALK)
 
 
 def find_drive(place):
-    return find_seekable(place, f"{place['name']} {place['country']} driving tour 4k",
+    return find_seekable(place, f"{search_name(place)} {place['country']} driving tour 4k",
                          DRIVE_WORDS, BAD_DRIVE)
 
 
@@ -843,12 +865,12 @@ def find_drive(place):
 # scrub_persons, wrong_place_title, the staleness cutoff, embeddability —
 # applies here for free. `night=True` is the whole difference.
 def find_night_walk(place):
-    return find_seekable(place, f"{place['name']} {place['country']} night walk 4k",
+    return find_seekable(place, f"{search_name(place)} {place['country']} night walk 4k",
                          WALK_WORDS, BAD_WALK, night=True)
 
 
 def find_night_drive(place):
-    return find_seekable(place, f"{place['name']} {place['country']} night drive 4k",
+    return find_seekable(place, f"{search_name(place)} {place['country']} night drive 4k",
                          DRIVE_WORDS, BAD_DRIVE, night=True)
 
 
@@ -864,7 +886,7 @@ def cam_queries(place):
     know it, plus the place's own top landmark (cam titles name the landmark
     far more often than the city: "Nyhavn", not "Copenhagen").
     """
-    name = place["name"]
+    name = search_name(place)
     qs = [f"{name} live cam", f"{name} webcam live", f"{name} live webcam 24/7"]
     # local-language cam words materially outperform English outside the
     # anglosphere ("kamera na żywo", "cámara en vivo", "webcam en direct")

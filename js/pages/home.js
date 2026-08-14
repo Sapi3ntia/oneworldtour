@@ -145,6 +145,11 @@ async function boot() {
     // monument") and `wilderness` (1) — so match the family, not one spelling.
     wild: p => p.region_id === 'wild' || (WILD_TYPES.has(p.type) && p._flags.live),
     observatory: p => p.region_id === 'observatory',
+    // 📡 — the author's shelf. Membership is by hand and by fiat: there is no
+    // rule to derive it from, and no rule should be invented later to "fix"
+    // that. Hence `sets` rather than a region file, so Taganrog stays in
+    // Europe and Hovden stays in Norway while both also sit here.
+    dish: p => p.sets.includes('dish'),
   };
   qs('#map-filters').addEventListener('click', ev => {
     const b = ev.target.closest('.chip');

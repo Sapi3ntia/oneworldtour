@@ -131,7 +131,7 @@ oneworldtour/
 ├── data/
 │   ├── index.json         # region registry
 │   ├── trips.json         # 🧭 curated routes — ordered stop ids + editorial notes
-│   ├── <region>.json      # 594 places (curated walks/webcams/monuments live here)
+│   ├── <region>.json      # 736 places (curated walks/webcams/monuments live here)
 │   ├── wild.json          # 🦁 wildlife & national-park live cams as places
 │   ├── observatory.json   # 🔭 observatories & telescopes as places
 │   ├── tv.json            # 📺 live national TV channels per country (verified live)
@@ -964,6 +964,62 @@ place in the atlas now has at least one of the two.
   Great Barrier Reef: the same subject under a second name is a chip that goes nowhere
   new.
 
+**Hovden, and the 📡 shelf** (`europe.json` 188 → 189, 2026-08-13). One village and
+one new kind of category. **Hovden** is a fishing village in Bø Municipality,
+Vesterålen — the northern tip of a peninsula on Langøya, ocean on two sides, a road
+that stops when the land does, lived on since at least 400–800 CE because the fishing
+banks start just offshore.
+
+Getting it in cost two rejected videos and one new field, and the reason is a trap
+none of the existing guards could see. **Norway has two Hovdens.** The other is a ski
+resort in Setesdal, Agder, 1,000 km south and vastly more famous, and `"Hovden Norway"`
+returns it almost exclusively. Both picks the sweep made were that one: a trucker's
+POV whose description gives it away as *"the 9th road in Norway"* — Route 9 up
+Setesdal — and a winter drive that needed a frame pulled to settle it, showing an
+inland alpine valley of birch scrub, spruce and dark-timber *hytter* with no sea in
+any direction. `wrong_place_title` could not have caught either: it works by finding
+a **different** place named in the title, and both videos honestly say "Hovden" and
+honestly say "Norway". The only witness against them is a coordinate the text never
+mentions.
+
+So the fix had to land *before* the search rather than after — `search_name`, which
+sharpens the query to `"Hovden Vesterålen"` while `name` stays short enough for a map
+pin. Both rejections are recorded in `media_denylist.json` under `per_place`, because
+the videos aren't bad, they're just not here. Two things worth keeping from this:
+
+- **A namesake inside the same country is invisible to every title guard we have.**
+  The guards are built to notice a competing name; they cannot notice a competing
+  *place with the same name*. When a place shares its name with something more famous
+  in the same country, assume the sweep will find the famous one and say so up front.
+- **"Nothing verifiable" is only honest if the search actually ran.** The first
+  post-fix sweep returned an honest gap *and* the line `YouTube search is refusing us
+  (8+ empty responses in a row)`. Those two facts together do not mean the footage
+  doesn't exist — they mean nobody looked. The throttle notice is printed for exactly
+  this reason; read it before recording a gap.
+- **And when it has run, `wrong_place_title` can still be right in general and wrong
+  here.** With the query fixed, the search returns a 49-minute 4K drive whose burned-in
+  caption reads `EIDET - NYKVÅG - HOVDEN` — the correct village, beyond doubt. The
+  sweep refuses it anyway, because the channel titles it *"4K **Lapland** Scenic
+  Drive"*, `lapland` is a real place in this atlas 397 km away, and the title names it
+  **before** it names Hovden. That is precisely the pattern the guard is built to
+  catch, and loosening it to admit this one video would cost the protection on the
+  other 800 places. The override is **curation**, which is what it has always been
+  for: the pick sits in `europe.json` as a `drive` field with a `_note` recording why
+  the sweep can't have it. Debugging that took one wrong turn worth remembering —
+  calling `find_drive()` from a scratch script *succeeded*, because a bare import
+  never runs `register_place()` and `wrong_place_title` had an empty corpus to compare
+  against. **Reproduce a sweep rejection with the places registered, or you are
+  testing a different function than the one that ran.**
+
+The **📡 category** is the other half. It is deliberately not a theme, and there is no
+rule to derive it from — membership is the author's, by hand, and it holds exactly
+**Taganrog** and **Hovden** for now. That is also why it isn't a region file like
+`ancient` / `wild` / `observatory` are: those are exclusive by construction, since
+`data.js` reads `region_id` from whichever file a place lives in, so a fourth one
+would have *moved* Taganrog out of Europe. `sets` is the additive form instead — both
+places keep their home region and join the shelf as well. The chip carries no label,
+on purpose.
+
 | rule | why |
 | --- | --- |
 | coordinates from **Wikidata P625**, not an OSM administrative centroid | a Chinese prefecture-level city is a *region*. OSM's "Chongqing" node sits at 30.06N 107.87E, ~200 km out in the rural east; P625 puts it in Yuzhong, which is the city. Nominatim is for villages and scenic areas that Wikidata has no point for, and the matched object gets eyeballed |
@@ -974,6 +1030,8 @@ place in the atlas now has at least one of the two.
 | `sounds` must name one of the **six recipes** `soundscape.js` knows | `typeFor()` matches on keyword — arctic / wind / ocean-wave-tidal / waterfall / plaza-city / wilderness-forest. Any other filename silently falls through to wind, and nobody notices |
 | **city tiers live in the prose, hedged — never in a field** | there is no government tier list. The ranking is a Chinese business magazine's, revised yearly, and "new first-tier" is that magazine's coinage. A `tier: 1` key would read as official |
 | `region` is **user-visible** | `passport.js` prints it under the place name, so a municipality needs "Beijing Municipality" or the card reads "Beijing / Beijing" |
+| a namesake **inside the same country** needs `search_name` — no downstream guard can catch it | `wrong_place_title` works by spotting a *different* place named in the title, and two Norwegian Hovdens defeat that completely: both videos honestly say "Hovden", both honestly say "Norway", and the only thing that disagrees is a coordinate the text never mentions. The fix has to land before the search, not after — `search_name` sharpens the query (`"Hovden Vesterålen"`) while `name` stays short enough for a map pin. Set it **only** for genuine collisions; it is not a relevance knob |
+| membership in more than one category goes in `sets`, never a second region file | `data.js` derives `region_id` from *which file a place lives in*, so the collections (`ancient`, `wild`, `observatory`) are mutually exclusive by construction — moving Taganrog into a fourth would delete it from Europe. `sets` is the additive form: the place declares extra memberships in its own record and keeps its home region. Adding any such field to the merge means **bumping `CACHE_KEY`** — a place cached under the old version has no `sets` key and a filter calling `.includes()` on it throws for as long as the entry stays warm |
 
 ---
 

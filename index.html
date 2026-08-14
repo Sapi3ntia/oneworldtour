@@ -55,6 +55,12 @@
           <button class="chip" data-f="ancient">🤫 Ancient</button>
           <button class="chip" data-f="wild">🦁 Wild</button>
           <button class="chip" data-f="observatory">🔭 Observatories</button>
+          <!-- No text label, on purpose. No aria-label either: the emoji IS
+               the content, and screen readers announce it as "satellite
+               antenna", which is exactly what a sighted user gets. An
+               aria-label naming the category would spoil it for one
+               audience only. -->
+          <button class="chip" data-f="dish">📡</button>
         </div>
         <span class="hint" id="map-hint">Click a gold node to enter a country</span>
       </div>
