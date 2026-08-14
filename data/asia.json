@@ -72,6 +72,30 @@
           "name": "Shibuya Crossing",
           "yt": "_dWyKj7I9JM",
           "start": 0
+        },
+        {
+          "name": "Sensō-ji",
+          "yt": "O7b0dyf8pcg",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Japan Walking Tour: Sensoji Temple in Asakusa, Tokyo",
+          "height": 2160
+        },
+        {
+          "name": "Meiji Shrine",
+          "yt": "TDF_0slSGtA",
+          "start": 0,
+          "source": "auto",
+          "title": "TOKYO, JAPAN 🇯🇵 [4K] MEIJI JINGU SHRINE — Walking Tour",
+          "height": 2160
+        },
+        {
+          "name": "Tokyo Skytree",
+          "yt": "d8vdo9Y3TH4",
+          "start": 0,
+          "source": "auto",
+          "title": "Tokyo,Japan - Spring Nights Walking Tour around Tokyo Skytree | 4K",
+          "height": 2160
         }
       ],
       "webcam": "dfVK7ld38Ys",
@@ -9236,6 +9260,30 @@
           "name": "Lotte World Tower",
           "yt": "XWPUsUw-iec",
           "start": 7
+        },
+        {
+          "name": "Gyeongbokgung",
+          "yt": "RaRnBq6a3Io",
+          "start": 0,
+          "source": "auto",
+          "title": "SEOUL 🇰🇷 Bukchon Hanok Village & Gyeongbokgung Palace | 4K Walking Tour",
+          "height": 2160
+        },
+        {
+          "name": "Changdeokgung",
+          "yt": "77SKnoXcdDk",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] Seoul Walking around Changdeokgung Palace, the only UNESCO World Heritage Palace in Seoul",
+          "height": 2160
+        },
+        {
+          "name": "Bukchon Hanok Village",
+          "yt": "gJ6Ts6-jOHA",
+          "start": 0,
+          "source": "auto",
+          "title": "Bukchon Hanok Village Walking Tour 🇰🇷 | Traditional Seoul in 4K HDR",
+          "height": 2160
         }
       ],
       "walk": "4HzRgqQkygc"
@@ -18811,7 +18859,17 @@
       ],
       "blurb": "A monastery in the Azat gorge whose inner churches are not built but carved — hollowed straight out of the cliff, single blocks of living rock with domes cut downward from above, so there is not a seam or a joint anywhere inside them.",
       "fun_fact": "Its name means 'spear' — the lance that pierced Christ's side was kept here for five hundred years, and the acoustics of the carved chambers are so exact that a single voice fills them.",
-      "hidden_gem_tip": "Garni, 9 km down the gorge, is a first-century Greco-Roman temple — the only classical colonnade left anywhere in the former Soviet Union."
+      "hidden_gem_tip": "Garni, 9 km down the gorge, is a first-century Greco-Roman temple — the only classical colonnade left anywhere in the former Soviet Union.",
+      "monuments": [
+        {
+          "name": "Garni Temple",
+          "yt": "vd1qUzhTWyg",
+          "start": 0,
+          "source": "auto",
+          "title": "ARMENIA TRAVEL 2023 | Temple of Garni | 4K Ultra HD",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "khor-virap",
@@ -18991,7 +19049,33 @@
       ],
       "blurb": "A silk town on the southern slope of the Greater Caucasus, terraced up a wooded hillside in red-tiled stone houses, with the summer palace of its eighteenth-century khans at the top of the town inside a walled citadel.",
       "fun_fact": "The palace's windows are shebeke — stained glass held in a wooden lattice assembled with no nails and no glue, thousands of pieces per window, still made by a handful of craftsmen in the town.",
-      "hidden_gem_tip": "Sheki halva is a layered pastry of rice-flour threads and nuts, unrelated to the halva sold anywhere else, and is made in the bazaar."
+      "hidden_gem_tip": "Sheki halva is a layered pastry of rice-flour threads and nuts, unrelated to the halva sold anywhere else, and is made in the bazaar.",
+      "monuments": [
+        {
+          "name": "Palace of Shaki Khans",
+          "yt": "wQAMKRNDVjw",
+          "start": 0,
+          "source": "auto",
+          "title": "Driving in the streets of a Medieval-era town around Shaki Castle Place of Palace of Shaki Khans",
+          "height": 2160
+        },
+        {
+          "name": "Upper Caravanserai",
+          "yt": "omxGPFaRZKo",
+          "start": 0,
+          "source": "auto",
+          "title": "KOZA HAN BURSA, TÜRKİYE 🇹🇷 | The Legendary Silk Caravanserai | 4K Silent Walking Tour",
+          "height": 2160
+        },
+        {
+          "name": "Church of Kish",
+          "yt": "MfnpBdZlHPM",
+          "start": 0,
+          "source": "auto",
+          "title": "Church of Saint Elishe, Kish 🇦🇿 | Sheki Azerbaijan Travel Guide | Ancient Albanian Church Tour 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "khinalug",
@@ -19034,7 +19118,17 @@
       ],
       "blurb": "A village at 2,300 m in the high Caucasus, houses stacked so that each roof is the terrace of the one above, reachable until 2006 only on foot or horseback. Its people speak Khinalug, a language related to nothing else and spoken nowhere else.",
       "fun_fact": "Around 2,000 people speak Khinalug in total, all of them from this one village — it is among the most isolated languages in the world and has been spoken here for millennia.",
-      "hidden_gem_tip": "The road up from Quba climbs through a gorge and is one of the great mountain drives of the Caucasus; it closes with snow."
+      "hidden_gem_tip": "The road up from Quba climbs through a gorge and is one of the great mountain drives of the Caucasus; it closes with snow.",
+      "monuments": [
+        {
+          "name": "Quba",
+          "yt": "vNYcAFTICqc",
+          "start": 0,
+          "source": "auto",
+          "title": "Medina Walking Tour 4K | From the Prophet’s Mosque to Quba Mosque (Sunnah Path)",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "almaty",
@@ -19086,7 +19180,33 @@
       ],
       "blurb": "Kazakhstan's largest city and its former capital, laid out on a grid of tree-lined streets on an alluvial fan with the Trans-Ili Alatau rising 4,000 m directly behind it. Every street running south goes uphill, which is how locals navigate.",
       "fun_fact": "Ascension Cathedral, finished in 1907, is one of the tallest wooden buildings in the world at 56 m and came through the 1911 earthquake that flattened the rest of the city.",
-      "hidden_gem_tip": "Medeu, at 1,691 m, is the highest Olympic-size skating rink on Earth and is twenty minutes from downtown by bus."
+      "hidden_gem_tip": "Medeu, at 1,691 m, is the highest Olympic-size skating rink on Earth and is twenty minutes from downtown by bus.",
+      "monuments": [
+        {
+          "name": "Ascension Cathedral",
+          "yt": "sM1u8_Nq4fc",
+          "start": 0,
+          "source": "auto",
+          "title": "Inside Ascension Cathedral 4K . Zenkov Cathedral Almaty .",
+          "height": 2160
+        },
+        {
+          "name": "Medeu",
+          "yt": "KB3SVbWqWCg",
+          "start": 0,
+          "source": "auto",
+          "title": "[4k Almaty] Medeu Ice Rink, Shymbulak Ski Resort & City Tour #Almaty #walkingtour",
+          "height": 2160
+        },
+        {
+          "name": "Shymbulak",
+          "yt": "LZOwcvToNXU",
+          "start": 0,
+          "source": "auto",
+          "title": "Shymbulak Mountain Resort (Almaty) 2023 | 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "astana",
@@ -19138,7 +19258,33 @@
       ],
       "blurb": "A capital built from almost nothing on the open steppe after 1997, when the government moved 1,200 km north from Almaty — a planned city of monuments by Foster, Kurokawa and others, in a place where winter routinely reaches −40 °C.",
       "fun_fact": "It is the second-coldest capital city in the world after Ulaanbaatar, and Khan Shatyr is a 150 m transparent tent designed to hold a climate-controlled park inside it through that winter.",
-      "hidden_gem_tip": "The ceremonial axis runs in a dead straight line from Khan Shatyr through Bayterek to the presidential palace — it is meant to be walked, and it takes about an hour."
+      "hidden_gem_tip": "The ceremonial axis runs in a dead straight line from Khan Shatyr through Bayterek to the presidential palace — it is meant to be walked, and it takes about an hour.",
+      "monuments": [
+        {
+          "name": "Bayterek",
+          "yt": "vKqloLGZiQA",
+          "start": 0,
+          "source": "auto",
+          "title": "Exploring Astana's Iconic Bayterek Tower: A Walkthrough | Walking In Astana, Kazakhstan",
+          "height": 1080
+        },
+        {
+          "name": "Khan Shatyr",
+          "yt": "8tDbDYUS-lw",
+          "start": 0,
+          "source": "auto",
+          "title": "MuayThai Fair in Astana - Khan Shatyr Mall - walking tour",
+          "height": 2160
+        },
+        {
+          "name": "Palace of Peace and Reconciliation",
+          "yt": "WK-no3Bur24",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K]  Architectural Marvel: Exploring The Palace of Peace and Reconciliation in Astana, Kazakhstan",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "charyn-canyon",
@@ -19180,7 +19326,17 @@
       ],
       "blurb": "A 154 km gorge cut 300 m into red sedimentary rock on the edge of the Kazakh steppe — a smaller, older Grand Canyon, its most famous stretch a corridor of eroded pillars that people have called the Valley of Castles for as long as anyone has come here.",
       "fun_fact": "A relict grove of Sogdian ash survives on the canyon floor — a tree that has been growing here since before the last ice age and survives almost nowhere else on Earth.",
-      "hidden_gem_tip": "It is invisible until you are at the rim: the steppe runs flat to the horizon and then simply drops away."
+      "hidden_gem_tip": "It is invisible until you are at the rim: the steppe runs flat to the horizon and then simply drops away.",
+      "monuments": [
+        {
+          "name": "Valley of Castles",
+          "yt": "6OwAoAra6m0",
+          "start": 0,
+          "source": "auto",
+          "title": "Charyn Canyon, Kazakhstan 🇰🇿 4K POV Walking Tour | Valley of Castles — information, Ambient Sound",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "kolsai-lakes",
@@ -19223,7 +19379,25 @@
       ],
       "blurb": "Three lakes in a staircase up a spruce-forested valley of the northern Tian Shan, at 1,800, 2,250 and 2,700 m, with a pass at the top that drops into Kyrgyzstan. Kazakhs call them the pearls of the Tian Shan.",
       "fun_fact": "Nearby Lake Kaindy was created by the 1911 earthquake, which dammed a valley and drowned a spruce forest — the bare trunks still stand upright underwater, preserved by the cold, and break the surface.",
-      "hidden_gem_tip": "Horses are the local transport between the first and second lakes, and are how most of the valley still moves."
+      "hidden_gem_tip": "Horses are the local transport between the first and second lakes, and are how most of the valley still moves.",
+      "monuments": [
+        {
+          "name": "Lake Kaindy",
+          "yt": "TMpryCfUdoI",
+          "start": 0,
+          "source": "auto",
+          "title": "Cinematic Drone 4k video | Kazakhstan Almaty 2023 | Kaindy Lake | DJI mini 3",
+          "height": 2160
+        },
+        {
+          "name": "Saty",
+          "yt": "12EJhYT_AtM",
+          "start": 0,
+          "source": "auto",
+          "title": "EP4 : Magical Kaindy & Kolsai Lakes | Traditional Kazakh Lunch in Saty Village | Almaty Day Trip 🇰🇿",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "turkestan",
@@ -19267,7 +19441,33 @@
       ],
       "blurb": "The spiritual capital of the Kazakh steppe, built around the tomb of a twelfth-century Sufi poet whose verse carried Islam to the Turkic nomads. Timur ordered the mausoleum in 1389 and it was left unfinished when he died — the scaffolding holes are still open.",
       "fun_fact": "Its dome is the largest brick dome in Central Asia, 18 m across, and the building was the trial run for the architecture Timur then built at Samarkand.",
-      "hidden_gem_tip": "Otrar, 60 km away, is the ruined city whose governor murdered Genghis Khan's envoys in 1218 — the act that brought the Mongols west."
+      "hidden_gem_tip": "Otrar, 60 km away, is the ruined city whose governor murdered Genghis Khan's envoys in 1218 — the act that brought the Mongols west.",
+      "monuments": [
+        {
+          "name": "Mausoleum of Khoja Ahmed Yasawi",
+          "yt": "d1D_mnRybaA",
+          "start": 0,
+          "source": "auto",
+          "title": "【4K】Turkistan - Mausoleum of Khoja Ahmed Yasawi (Jan, 2025) カザフスタン トルキスタン コジャ・アフメド・ヤサウィ廟",
+          "height": 2160
+        },
+        {
+          "name": "Otrar",
+          "yt": "8lBohDp1iuU",
+          "start": 0,
+          "source": "auto",
+          "title": "Otrar Ancient City of Kazakhstan, Silk Way Road Settlment HD Walk",
+          "height": 1080
+        },
+        {
+          "name": "Syr Darya",
+          "yt": "Wl6xQiMsloI",
+          "start": 0,
+          "source": "auto",
+          "title": "MAVIC AIR 2 FLIGHT 35 - SYR DARYA",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "baikonur",
@@ -19311,7 +19511,17 @@
       ],
       "blurb": "The oldest and largest spaceport on Earth, 6,717 km² of Kazakh semi-desert leased to Russia until 2050. Sputnik went up from here in 1957 and Gagarin in 1961, and for nine years after the Shuttle retired it was the only way any human reached orbit.",
       "fun_fact": "It is named after a town 320 km away — a deliberate Cold War misdirection, so that anyone reading a Soviet launch dateline would look in the wrong place.",
-      "hidden_gem_tip": "Gagarin's Start, pad number 1, launched both Sputnik and Gagarin and kept flying crews for sixty-two years before it was finally retired in 2019."
+      "hidden_gem_tip": "Gagarin's Start, pad number 1, launched both Sputnik and Gagarin and kept flying crews for sixty-two years before it was finally retired in 2019.",
+      "monuments": [
+        {
+          "name": "Baikonur",
+          "yt": "7pioDhmXLJc",
+          "start": 0,
+          "source": "auto",
+          "title": "Penetrated into the Baikonur Cosmodrome | Giant abandoned rocket \"Energia-M\" | Part 1",
+          "height": 1944
+        }
+      ]
     },
     {
       "id": "khiva",
@@ -19360,7 +19570,33 @@
       ],
       "blurb": "The last of the three great Silk Road cities of Uzbekistan and the most complete — an entire walled inner town of mud brick, mosques and madrasas inside 10 m ramparts, preserved whole because the Khiva khanate was the final one to fall, in 1920.",
       "fun_fact": "The Kalta Minor was meant to be the tallest minaret in the Islamic world; the khan died in 1855 with it 29 m up, so it stands as a wide turquoise stump — and is the city's emblem.",
-      "hidden_gem_tip": "The Juma Mosque has no dome and no courtyard: a flat roof carried on 213 carved wooden columns, some of them a thousand years old, in near-darkness."
+      "hidden_gem_tip": "The Juma Mosque has no dome and no courtyard: a flat roof carried on 213 carved wooden columns, some of them a thousand years old, in near-darkness.",
+      "monuments": [
+        {
+          "name": "Itchan Kala",
+          "yt": "-ijxZnp7_pk",
+          "start": 0,
+          "source": "auto",
+          "title": "Khiva Walking Tour | Evening walk the World Heritage Site of Itchan Kala | Uzbekistan 🇺🇿 [4K HDR]",
+          "height": 2160
+        },
+        {
+          "name": "Kalta Minor Minaret",
+          "yt": "4ANJRinjpqw",
+          "start": 0,
+          "source": "auto",
+          "title": "Kalta Minor Minaret, Khiva, Uzbekistan",
+          "height": 1080
+        },
+        {
+          "name": "Kunya-Ark",
+          "yt": "gLRmggKSuvU",
+          "start": 0,
+          "source": "auto",
+          "title": "Ouzbékistan, Khiva, Kunya Ark Palace",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "tashkent",
@@ -19408,7 +19644,33 @@
       ],
       "blurb": "Central Asia's largest city, flattened by an earthquake in 1966 and rebuilt by work brigades sent from every Soviet republic — which is why its centre is wide, green, low-rise modernism, with the surviving old town clustered around one enormous domed bazaar.",
       "fun_fact": "Its metro, opened in 1977, was built as a nuclear shelter and was a state secret — photography inside was banned until 2018, and every station is decorated to a different theme.",
-      "hidden_gem_tip": "The Hazrati Imam library holds the Uthman Quran, a seventh-century manuscript that is among the oldest surviving copies in the world."
+      "hidden_gem_tip": "The Hazrati Imam library holds the Uthman Quran, a seventh-century manuscript that is among the oldest surviving copies in the world.",
+      "monuments": [
+        {
+          "name": "Chorsu Bazaar",
+          "yt": "bGH4brY4Tkg",
+          "start": 0,
+          "source": "auto",
+          "title": "Exploring Chorsu Bazaar | Tashkent’s Largest Covered Market | Uzbekistan 4K 2025",
+          "height": 2160
+        },
+        {
+          "name": "Hazrati Imam Complex",
+          "yt": "omSciu5gBeQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Tashkent, Uzbekistan 🇺🇿 | Walking Around Hazrati Imam Complex | Toshkent Ташкент",
+          "height": 2160
+        },
+        {
+          "name": "Tashkent Metro",
+          "yt": "lC2M3dv0pCY",
+          "start": 0,
+          "source": "auto",
+          "title": "🔥Tashkent Metropolitan [4k 60 fps]🔥🚇",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "shakhrisabz",
@@ -19450,7 +19712,17 @@
       ],
       "blurb": "Timur's birthplace, over a 1,700 m pass south of Samarkand, where he built a summer palace intended to outdo anything in his capital. Two fragments of its gateway survive, 38 m tall, standing alone in an open square with nothing between them.",
       "fun_fact": "The entrance arch of Ak-Saray spanned 22 m — the widest in the Islamic world — and its inscription read 'if you challenge our power, look at our buildings'.",
-      "hidden_gem_tip": "Timur meant to be buried here and had a crypt cut for it; he died in winter with the passes shut and was interred at Samarkand instead. The empty crypt is still open."
+      "hidden_gem_tip": "Timur meant to be buried here and had a crypt cut for it; he died in winter with the passes shut and was interred at Samarkand instead. The empty crypt is still open.",
+      "monuments": [
+        {
+          "name": "Kok Gumbaz Mosque",
+          "yt": "gN2RCxIQm1c",
+          "start": 0,
+          "source": "auto",
+          "title": "Kok Gumbaz Camii / Kok Gumbaz Mosque (Şehr-i Sebz/Shahrisabz)",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "moynaq",
@@ -19497,7 +19769,33 @@
       ],
       "blurb": "A fishing port with no sea. Moynaq was on the Aral shore in the 1960s, canning 25,000 tonnes of fish a year; the water is now 150 km away, and a dozen rusting trawlers sit on the sand where the harbour was.",
       "fun_fact": "The Aral was the fourth-largest lake on Earth and lost about 90% of its volume after its two feeder rivers were diverted to irrigate cotton — the seabed left behind is now a named desert, the Aralkum.",
-      "hidden_gem_tip": "The salt and pesticide dust blown off the dry bed reaches the Himalayas; the local rate of respiratory illness is among the highest anywhere."
+      "hidden_gem_tip": "The salt and pesticide dust blown off the dry bed reaches the Himalayas; the local rate of respiratory illness is among the highest anywhere.",
+      "monuments": [
+        {
+          "name": "Aral Sea",
+          "yt": "WbCdeAn1BFs",
+          "start": 0,
+          "source": "auto",
+          "title": "Nukus and Aral Sea | The Land That Tells Story of a Disaster | Central Asia Travel Series",
+          "height": 2160
+        },
+        {
+          "name": "Ship graveyard",
+          "yt": "Nfr9fSe7vq0",
+          "start": 0,
+          "source": "auto",
+          "title": "Canal walk to Purton Ships' Graveyard  | English Canal 4K walk",
+          "height": 2160
+        },
+        {
+          "name": "Nukus",
+          "yt": "BOKhhA5ynXE",
+          "start": 0,
+          "source": "auto",
+          "title": "This Hidden City in Uzbekistan 🇺🇿 | Nukus 4K Walking Tour + Train Journey",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "issyk-kul",
@@ -19544,7 +19842,25 @@
       ],
       "blurb": "A lake 182 km long at 1,607 m, ringed by 4,000 m snow peaks and never freezing — the name means 'warm lake', and it is the second-largest alpine lake in the world after Titicaca. It is slightly saline and has no outflow.",
       "fun_fact": "A submerged town lies off the northern shore in shallow water — walls, pottery and coins of a Silk Road settlement, possibly the medieval city of Chigu, drowned as the lake level rose.",
-      "hidden_gem_tip": "The Cholpon-Ata petroglyph field is a boulder plain of Bronze Age carvings — ibex, snow leopards and hunters — left exactly where they were made."
+      "hidden_gem_tip": "The Cholpon-Ata petroglyph field is a boulder plain of Bronze Age carvings — ibex, snow leopards and hunters — left exactly where they were made.",
+      "monuments": [
+        {
+          "name": "Cholpon-Ata",
+          "yt": "7qPb_4skxYU",
+          "start": 0,
+          "source": "auto",
+          "title": "CHOLPON-ATA 2026  BEACH and CENTER, ISSYK-KUL. KYRGYZSTAN",
+          "height": 2160
+        },
+        {
+          "name": "Jeti-Ögüz",
+          "yt": "BWJhxaMg1iQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Jeti-Ögüz Rocks | Issyk-Kul, Kyrgyzstan | Walking Tour 4K HDR 60fps",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "karakol",
@@ -19588,7 +19904,33 @@
       ],
       "blurb": "A Russian garrison town of 1869 at the east end of Issyk-Kul, now the base for the best trekking in Kyrgyzstan — valleys of spruce and hot springs running up into the Terskey Ala-Too within a day's walk of the main street.",
       "fun_fact": "Its mosque was built in 1907 by Dungans — Chinese Muslims who fled the Qing — as a Chinese temple in wood, assembled without a single nail, and painted in colours that each carry a meaning.",
-      "hidden_gem_tip": "Sunday's animal market starts before dawn on the edge of town and is a working livestock bazaar, not a show — the largest in the country."
+      "hidden_gem_tip": "Sunday's animal market starts before dawn on the edge of town and is a working livestock bazaar, not a show — the largest in the country.",
+      "monuments": [
+        {
+          "name": "Dungan Mosque",
+          "yt": "cmI-4iithzU",
+          "start": 0,
+          "source": "auto",
+          "title": "CHINESE MUSLIM's MOSQUE IN KARAKOL | DUNGAN MOSQUE",
+          "height": 1080
+        },
+        {
+          "name": "Holy Trinity Cathedral",
+          "yt": "GgRI2FJ7U7M",
+          "start": 0,
+          "source": "auto",
+          "title": "RUSSIAN ORTHODOX CHURCH IN KARAKOL || HOLY TRINITY CATHEDRAL KARAKOL ||",
+          "height": 2160
+        },
+        {
+          "name": "Ala Kul",
+          "yt": "VNsjqwESGZM",
+          "start": 0,
+          "source": "auto",
+          "title": "KYRGYZSTAN | Ala Kul & Altyn Arashan | Travel Journal Ep.5",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "song-kol",
@@ -19630,7 +19972,25 @@
       ],
       "blurb": "A shallow lake at 3,016 m on a treeless high plateau, reached over passes that are snowed shut for eight months. From June to September herders drive their animals up here and the shore fills with yurts; the rest of the year there is nobody at all.",
       "fun_fact": "The summer pasture — jailoo — is the surviving half of Kyrgyz nomadism: the same seasonal migration, the same felt yurts, still done because it is the only way to use this grass.",
-      "hidden_gem_tip": "There is no electricity and no phone signal on the plateau, and at 3,000 m with no light for a hundred kilometres the night sky is the reason to stay."
+      "hidden_gem_tip": "There is no electricity and no phone signal on the plateau, and at 3,000 m with no light for a hundred kilometres the night sky is the reason to stay.",
+      "monuments": [
+        {
+          "name": "Kyzart Pass",
+          "yt": "tqgSTfP4hig",
+          "start": 0,
+          "source": "auto",
+          "title": "The Journey to Song Kul pt.1 - Kyzart village & the base of Tuz-Ashuu pass - Backpacking Kyrgyzstan",
+          "height": 1080
+        },
+        {
+          "name": "Naryn",
+          "yt": "nZ4jF-AcWkw",
+          "start": 0,
+          "source": "auto",
+          "title": "4K:Naryn city from a bird's eye view. (Full view of Naryn city)",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "osh",
@@ -19673,7 +20033,33 @@
       ],
       "blurb": "Kyrgyzstan's second city and, at three thousand years, one of the oldest in Central Asia — a Silk Road crossroads at the mouth of the Fergana Valley, built around a five-peaked rock that rises straight out of the middle of it.",
       "fun_fact": "Sulaiman-Too has been a place of pilgrimage for a millennium and a half and is Kyrgyzstan's first World Heritage site; Babur, founder of the Mughal empire, built a small mosque on its summit in 1510.",
-      "hidden_gem_tip": "Jayma Bazaar runs for kilometres along the Ak-Buura river and is the largest open-air market in Central Asia."
+      "hidden_gem_tip": "Jayma Bazaar runs for kilometres along the Ak-Buura river and is the largest open-air market in Central Asia.",
+      "monuments": [
+        {
+          "name": "Sulaiman-Too",
+          "yt": "upO48q7ALvc",
+          "start": 0,
+          "source": "auto",
+          "title": "Sulaiman-Too, Osh, Kyrgyzstan | Petite Adventures",
+          "height": 2160
+        },
+        {
+          "name": "Jayma Bazaar",
+          "yt": "BRKHVJHrL7I",
+          "start": 0,
+          "source": "auto",
+          "title": "Exploring Jayma Bazaar in OSH, Kyrgyzstan 🇰🇬",
+          "height": 2160
+        },
+        {
+          "name": "Fergana Valley",
+          "yt": "_XXtrqUodEk",
+          "start": 0,
+          "source": "auto",
+          "title": "The attractions of OSH(capital of south) second city of  KYRGYZ REPUBLIC🇰🇬🇰🇬🇰🇬(Fergana Valley)",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "dushanbe",
@@ -19718,7 +20104,33 @@
       ],
       "blurb": "A capital that was a village of 3,000 people in 1924 — its name means 'Monday', for the weekly market held there — and was built from scratch as a Soviet city, now a low, hot, tree-shaded grid under the Gissar range.",
       "fun_fact": "The national museum holds a 13 m reclining Buddha from the fifth century, found at Ajina-Tepa and the largest in Central Asia — recovered in ninety-two pieces and reassembled over decades.",
-      "hidden_gem_tip": "Hisor Fortress, 30 km west, guarded the road to Samarkand and its gateway and madrasas are the oldest standing buildings near the capital."
+      "hidden_gem_tip": "Hisor Fortress, 30 km west, guarded the road to Samarkand and its gateway and madrasas are the oldest standing buildings near the capital.",
+      "monuments": [
+        {
+          "name": "National Museum of Tajikistan",
+          "yt": "iCwqKDonNNI",
+          "start": 0,
+          "source": "auto",
+          "title": "Dushanbe Museums  -  Tajikistan",
+          "height": 1080
+        },
+        {
+          "name": "Ismoil Somoni monument",
+          "yt": "TtSaj5pLjec",
+          "start": 0,
+          "source": "auto",
+          "title": "Ismoil Somoni and Independence Monuments Visit in Tajikistan 🇹🇯 | Dushanbe Walking Tour (4K/60fps)",
+          "height": 2160
+        },
+        {
+          "name": "Hisor Fortress",
+          "yt": "qRwSPIUBtpY",
+          "start": 0,
+          "source": "auto",
+          "title": "POV Journey to Hisor Fortress | Tajikistan 4K ASMR Drive & Walk",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "pamirs",
@@ -19769,7 +20181,33 @@
       ],
       "blurb": "A cold desert of 4,000 m plateaus that Central Asians call the Roof of the World, where the Tian Shan, the Karakoram, the Hindu Kush and the Himalaya all meet. The M41 — the Pamir Highway, second-highest road on Earth — runs 1,200 km across it from Osh to Dushanbe with the Afghan border alongside for hundreds of kilometres.",
       "fun_fact": "Its high point, the Ak-Baital pass, is 4,655 m; Lake Karakul below it sits in a 25 km meteorite impact crater and is frozen for more than half the year.",
-      "hidden_gem_tip": "The Wakhan branch follows the Panj river with Afghanistan visible across fifty metres of water and the Hindu Kush behind it — villages, fields and people, close enough to wave to."
+      "hidden_gem_tip": "The Wakhan branch follows the Panj river with Afghanistan visible across fifty metres of water and the Hindu Kush behind it — villages, fields and people, close enough to wave to.",
+      "monuments": [
+        {
+          "name": "Pamir Highway",
+          "yt": "bYptrthnkOI",
+          "start": 0,
+          "source": "auto",
+          "title": "The Pamir Highway: Everything You Need to Know",
+          "height": 2160
+        },
+        {
+          "name": "Ak-Baital Pass",
+          "yt": "lbSZ_Ub7FAs",
+          "start": 0,
+          "source": "auto",
+          "title": "Second highest highway in the world - Ak-Baital Pass",
+          "height": 2160
+        },
+        {
+          "name": "Karakul",
+          "yt": "EsTYG_MLYYM",
+          "start": 0,
+          "source": "auto",
+          "title": "Magical Lake of Central Asia..Karakul..(HD)",
+          "height": 720
+        }
+      ]
     },
     {
       "id": "iskanderkul",
@@ -19812,7 +20250,17 @@
       ],
       "blurb": "A turquoise glacial lake at 2,195 m in the Fann Mountains, dammed by an ancient landslide, with a 38 m waterfall at its outflow. The name means 'Alexander's lake' — the local story is that his horse drowned in it, and still comes out on moonlit nights.",
       "fun_fact": "The Fanns are limestone and shale rather than granite, which is why their lakes run through that range of blues and greens — the colour is suspended rock flour.",
-      "hidden_gem_tip": "The waterfall is a twenty-minute walk downstream from the lake and you reach the top of it before you hear it."
+      "hidden_gem_tip": "The waterfall is a twenty-minute walk downstream from the lake and you reach the top of it before you hear it.",
+      "monuments": [
+        {
+          "name": "Fann Mountains",
+          "yt": "MtXvjVC5X84",
+          "start": 0,
+          "source": "auto",
+          "title": "Tajikistan - Khujand and Fann Mountains",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "khujand",
@@ -19857,7 +20305,33 @@
       ],
       "blurb": "Tajikistan's second city, on the Syr Darya at the western gate of the Fergana Valley, and one of the oldest cities in Central Asia — Alexander founded Alexandria Eschate, 'the furthest', on this spot in 329 BC.",
       "fun_fact": "Its citadel held out against Genghis Khan in 1220 under Timur Malik, who fought a retreat down the river on rafts; the Mongols levelled the city afterwards.",
-      "hidden_gem_tip": "Panjshanbe — 'Thursday' — is one of the great covered bazaars of Central Asia, a 1950s hall with a painted facade, and it trades every day despite the name."
+      "hidden_gem_tip": "Panjshanbe — 'Thursday' — is one of the great covered bazaars of Central Asia, a 1950s hall with a painted facade, and it trades every day despite the name.",
+      "monuments": [
+        {
+          "name": "Panjshanbe Bazaar",
+          "yt": "9QPRoyOQxsU",
+          "start": 0,
+          "source": "auto",
+          "title": "Khujand, Tajikistan 🇹🇯 | Panjshanbe Bazaar Walking Tour 4K | Худжанд Хуҷанд",
+          "height": 2160
+        },
+        {
+          "name": "Syr Darya",
+          "yt": "Wl6xQiMsloI",
+          "start": 0,
+          "source": "auto",
+          "title": "MAVIC AIR 2 FLIGHT 35 - SYR DARYA",
+          "height": 1080
+        },
+        {
+          "name": "Khujand Fortress",
+          "yt": "sdp9MjIjXT8",
+          "start": 0,
+          "source": "auto",
+          "title": "Tracing The Path of Silk Route | Khujand Fortress | Tajikistan Travel Series",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "ashgabat",
@@ -19905,7 +20379,17 @@
       ],
       "blurb": "A capital rebuilt in white marble between the Karakum desert and the Iranian border — the government has clad hundreds of buildings in Italian marble since the 1990s, on empty ceremonial boulevards, in a place where summer passes 45 °C.",
       "fun_fact": "It holds the Guinness record for the highest density of white marble buildings in the world: 543 of them covering over four and a half million square metres.",
-      "hidden_gem_tip": "Old Nisa, 18 km out, is the earth-walled capital of the Parthian empire — the power that fought Rome to a standstill for three centuries."
+      "hidden_gem_tip": "Old Nisa, 18 km out, is the earth-walled capital of the Parthian empire — the power that fought Rome to a standstill for three centuries.",
+      "monuments": [
+        {
+          "name": "Nisa",
+          "yt": "WFL_IDaBH6o",
+          "start": 0,
+          "source": "auto",
+          "title": "Nisa Fortress Turkmenistan",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "darvaza",
@@ -19991,7 +20475,33 @@
       ],
       "blurb": "Five walled cities built beside one another over two thousand years on an oasis in the Karakum — Achaemenid, Seleucid, Sasanian, Seljuk — and by the twelfth century, on some counts, the largest city in the world.",
       "fun_fact": "The Mongols destroyed it in 1221 and the chroniclers' casualty figures run into the hundreds of thousands; the site was never fully reoccupied, which is why the plans of all five cities are still legible from the air.",
-      "hidden_gem_tip": "The Kyz Kala are corrugated mud-brick fortresses with walls like organ pipes — a Sasanian building type that survives essentially nowhere else."
+      "hidden_gem_tip": "The Kyz Kala are corrugated mud-brick fortresses with walls like organ pipes — a Sasanian building type that survives essentially nowhere else.",
+      "monuments": [
+        {
+          "name": "Great Kyz Kala",
+          "yt": "7Ii_mFebuFk",
+          "start": 0,
+          "source": "auto",
+          "title": "Kyz Kala in Merv, Turkmenistan",
+          "height": 1080
+        },
+        {
+          "name": "Mausoleum of Sultan Sanjar",
+          "yt": "uxB0LZESCXA",
+          "start": 0,
+          "source": "auto",
+          "title": "Exploring The Enigmatic City Of Merv: Khawaja Yousaf Hamdani Mausoleum & Sultan Sanjar's Legacy",
+          "height": 2160
+        },
+        {
+          "name": "Mary, Turkmenistan",
+          "yt": "LNVP6slz42I",
+          "start": 0,
+          "source": "auto",
+          "title": "City Tour in Mary - Turkmenistan",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "konye-urgench",
@@ -20033,7 +20543,17 @@
       ],
       "blurb": "The capital of Khorezm, sacked by the Mongols in 1221 and again by Timur in 1388, then abandoned when the Amu Darya changed course. What is left stands scattered across open ground: a few mausoleums and the tallest minaret in Central Asia.",
       "fun_fact": "The Kutlug Timur minaret is 60 m of fourteenth-century brickwork with no mosque left around it, leaning slightly, standing alone in flat desert.",
-      "hidden_gem_tip": "The Turabek Khanym mausoleum's inner dome is a mosaic of 365 segments under a band of 24 arches and 12 windows — a calendar built into a ceiling."
+      "hidden_gem_tip": "The Turabek Khanym mausoleum's inner dome is a mosaic of 365 segments under a band of 24 arches and 12 windows — a calendar built into a ceiling.",
+      "monuments": [
+        {
+          "name": "Amu Darya",
+          "yt": "Rpb0JwuD8W8",
+          "start": 0,
+          "source": "auto",
+          "title": "600KG FISH FROM THE LEGENDARY AMU DARYA RIVER IS COOKED EVERY DAY | Uzbek Street Food | 4k",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "karakorum",
@@ -20079,7 +20599,33 @@
       ],
       "blurb": "The capital of the Mongol empire for forty years in the thirteenth century, on the Orkhon river in the grassland heart of the country — a city of perhaps ten thousand people administering the largest contiguous land empire in history, then abandoned and quarried away.",
       "fun_fact": "William of Rubruck described a silver tree at the khan's palace with four pipes pouring wine, mare's milk, mead and rice beer, worked by a mechanical angel — built by a French goldsmith taken prisoner in Hungary.",
-      "hidden_gem_tip": "Erdene Zuu, built in 1585 from Karakorum's stones, is walled by 108 white stupas; the Orkhon valley around it has been the seat of steppe power since the Turkic khaganates."
+      "hidden_gem_tip": "Erdene Zuu, built in 1585 from Karakorum's stones, is walled by 108 white stupas; the Orkhon valley around it has been the seat of steppe power since the Turkic khaganates.",
+      "monuments": [
+        {
+          "name": "Erdene Zuu Monastery",
+          "yt": "vsGPDFtIytU",
+          "start": 0,
+          "source": "auto",
+          "title": "Erdene zuu khiid, Erdene Zuu Monastery, Эрдэнэ зуу хийд",
+          "height": 2160
+        },
+        {
+          "name": "Orkhon Valley",
+          "yt": "BQ_T-i78uUs",
+          "start": 0,
+          "source": "auto",
+          "title": "Kharkhorin City and Orkhon Valley, MONGOLIA🇲🇳[4K] - 1 hour walking ASMR",
+          "height": 2160
+        },
+        {
+          "name": "Orkhon Waterfall",
+          "yt": "wMNWntiiC98",
+          "start": 0,
+          "source": "auto",
+          "title": "Orkhon River and Ulaan Tsutgalan Waterfall, Mongolia // Орхон гол & Улаан цутгалан, Монгол Улс",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "khuvsgul",
@@ -20123,7 +20669,17 @@
       ],
       "blurb": "A lake 136 km long in the northern taiga against the Russian border, holding 70% of Mongolia's fresh water and about 1% of the world's — and connected to Baikal, 200 km away, by its outflow. Mongolians call it the Younger Sister.",
       "fun_fact": "It freezes solid enough by February for trucks to drive across it, and the ice can carry two metres of thickness; convoys used the lake as a winter road for decades.",
-      "hidden_gem_tip": "The Dukha, in the mountains west of the lake, are among the last reindeer herders in the world — a few hundred people in perhaps forty households."
+      "hidden_gem_tip": "The Dukha, in the mountains west of the lake, are among the last reindeer herders in the world — a few hundred people in perhaps forty households.",
+      "monuments": [
+        {
+          "name": "Khatgal",
+          "yt": "CKS-qy62MSU",
+          "start": 0,
+          "source": "auto",
+          "title": "Heading north in Mongolia (part 1): mörön, naadam in khatgal, lake khövsgöl",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "terelj",
@@ -20169,7 +20725,33 @@
       ],
       "blurb": "An hour and a half from Ulaanbaatar and the easiest place in Mongolia to see the country proper: granite tors standing out of alpine meadow, larch forest, herders' gers, and horses grazing loose all summer.",
       "fun_fact": "On the way out stands a 40 m stainless-steel Genghis Khan on horseback, the largest equestrian statue in the world; you take a lift up through the horse and come out on its head.",
-      "hidden_gem_tip": "Many of the gers along the valley are working households that take guests, not resorts — staying in one is the ordinary way to visit."
+      "hidden_gem_tip": "Many of the gers along the valley are working households that take guests, not resorts — staying in one is the ordinary way to visit.",
+      "monuments": [
+        {
+          "name": "Turtle Rock",
+          "yt": "6m3mtz8zPrQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Exploring Mongolia's Terelj national park - Aryabal temple and Turtle rock",
+          "height": 2160
+        },
+        {
+          "name": "Genghis Khan Equestrian Statue",
+          "yt": "UqTVKFP0wQM",
+          "start": 0,
+          "source": "auto",
+          "title": "Our World - Monuments and Landmarks - Genghis Khan Equestrian Statue",
+          "height": 1080
+        },
+        {
+          "name": "Aryabal Meditation Temple",
+          "yt": "vgBZEgivWoY",
+          "start": 0,
+          "source": "auto",
+          "title": "AX - #Agaarlay (episode 5) at Aryabal Meditation Temple, Terelj, Mongolia",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "altai-tavan-bogd",
@@ -20216,7 +20798,25 @@
       ],
       "blurb": "The five sacred peaks in Mongolia's far west, where the country meets Russia and China at a single point. Khüiten, 4,374 m, is the highest ground in Mongolia, and the Potanin below it is the longest glacier in the country at 14 km.",
       "fun_fact": "This is Kazakh Mongolia — the province is mostly Kazakh-speaking, and hunting with golden eagles from horseback is still practised here by a few hundred berkutchi, one of the last places it survives.",
-      "hidden_gem_tip": "The petroglyph complex in the valleys below runs from about 11,000 BC to the Bronze Age — one continuous record of what people here hunted as the climate changed."
+      "hidden_gem_tip": "The petroglyph complex in the valleys below runs from about 11,000 BC to the Bronze Age — one continuous record of what people here hunted as the climate changed.",
+      "monuments": [
+        {
+          "name": "Khüiten Peak",
+          "yt": "_tFwOGhETtw",
+          "start": 0,
+          "source": "auto",
+          "title": "Climb Khuiten Mongolia highest peak - Ep 4 Base Camp in Altai Tavan Bogd National Park",
+          "height": 2160
+        },
+        {
+          "name": "Ölgii",
+          "yt": "2y-c3RE7vCY",
+          "start": 0,
+          "source": "auto",
+          "title": "Drive across western Mongolia from Little Switzerland to Olgii",
+          "height": 2160
+        }
+      ]
     }
   ],
   "generated": "2026-08-11"

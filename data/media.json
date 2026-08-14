@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-13T23:36:20+00:00",
+ "generated": "2026-08-14T00:18:56+00:00",
  "places": {
   "fez": {
    "walk": {
@@ -4369,6 +4369,11 @@
     "channel": "The Travel Docket",
     "date": "20241119",
     "duration": 4282
+   },
+   "window": {
+    "yt": "F1EQEDL4ddU",
+    "title": "EarthCam Live:  Liberty Bell - Independence Hall (Philadelphia, PA) 2026-08-13 20:18",
+    "verified": "2026-08-14"
    }
   },
   "chicago": {
@@ -4425,6 +4430,11 @@
     "yt": "DEx2selbUi8",
     "title": "New Orleans Webcam, Great Sound, No Ads -- Live Cam 24/7 2026-08-07 19:59",
     "verified": "2026-08-07"
+   },
+   "live": {
+    "yt": "6lFBKxt8kIo",
+    "title": "EarthCam Live: New Orleans Balcony View 2026-08-13 20:18",
+    "verified": "2026-08-14"
    }
   },
   "miami": {
@@ -6123,6 +6133,11 @@
     "channel": "Quick Real Road",
     "date": "20240928",
     "duration": 1460
+   },
+   "window": {
+    "yt": "0P_LBKqVbfs",
+    "title": "LIVE Elephant Cam: Tembe Elephant Park - South Africa - Africam | explore.org 2026-08-13 20:18",
+    "verified": "2026-08-14"
    }
   },
   "samarkand": {
@@ -10199,6 +10214,618 @@
     "channel": "4K DRIVE AND WALK",
     "date": "20210831",
     "duration": 2109
+   }
+  },
+  "pskov": {
+   "walk": {
+    "yt": "1pQfNy8Ou5A",
+    "title": "Pskov, Russia walking tour 4k 60fps",
+    "channel": "walking4k",
+    "date": "20200916",
+    "duration": 2893
+   },
+   "drive": {
+    "yt": "Mw_6eOU90zI",
+    "title": "Drive from Pskov to St Petersburg 1",
+    "channel": "Old Age Traveller",
+    "date": "20200701",
+    "duration": 3901
+   }
+  },
+  "vyborg": {
+   "walk": {
+    "yt": "DjERDU1HwPI",
+    "title": "Vyborg Walking Tour, Russia 4K",
+    "channel": " Russian Province Walks",
+    "date": "20250829",
+    "duration": 3596
+   },
+   "drive": {
+    "yt": "VwZbMx6qnrI",
+    "title": "Vyborg downtown - day driving -  4K Russia",
+    "channel": "null",
+    "date": "20210104",
+    "duration": 1169
+   }
+  },
+  "rostov-on-don": {
+   "walk": {
+    "yt": "H45HD5EUl3Y",
+    "title": "[4K] A walk through Rostov the Great. Rostov Kremlin. Walking tour 4k.",
+    "channel": "Walking tour 4k",
+    "date": "20210505",
+    "duration": 935
+   },
+   "drive": {
+    "yt": "4RWBvZWKZ-E",
+    "title": "Rostov-on-Don driving tour 4K | Russia",
+    "channel": "Rostovdriving",
+    "date": "20241023",
+    "duration": 3253
+   }
+  },
+  "kharkiv": {
+   "walk": {
+    "yt": "REi-DzeblLQ",
+    "title": "Trip to Kharkiv 4K UHD, Ukraine - City Walking Tour with City Sounds",
+    "channel": "4K Urban Life",
+    "date": "20200602",
+    "duration": 11644
+   },
+   "drive": {
+    "yt": "v0BFxGHjR0w",
+    "title": "POV Driving Kharkiv Ukraine 🇺🇦 | Relaxing City Drive | Real Traffic, No Talking",
+    "channel": "AcuraTAXI",
+    "date": "20260314",
+    "duration": 2112
+   },
+   "window": {
+    "yt": "IcZ-7sFi1HM",
+    "title": "LIVE: Ukraine real-time skyline cameras from Kharkiv, Donetsk, Kyiv, Sumy and more 2026-08-13 19:41",
+    "verified": "2026-08-13"
+   }
+  },
+  "chernihiv": {
+   "walk": {
+    "yt": "BO2T7DWcQ5k",
+    "title": "Chernihiv, Ukraine | Day 1: Walking Tour | 2021 | 4K",
+    "channel": "Midwest Traveler",
+    "date": "20211015",
+    "duration": 1748
+   }
+  },
+  "kamianets-podilskyi": {
+   "walk": {
+    "yt": "xvhnwT4gKiM",
+    "title": "🇺🇦 Walking in Kamianets Podilskyi 4K60P - Spring 2023 Ukraine",
+    "channel": "Odesa City Walk",
+    "date": "20230611",
+    "duration": 1533
+   },
+   "drive": {
+    "yt": "VK8wgn5Y5B8",
+    "title": "Kamianets-Podilskyi City - One of the Seven Wonders of Ukraine - November 2020 - Dash Cam Tour",
+    "channel": "Ataman Drives",
+    "date": "20201203",
+    "duration": 3688
+   }
+  },
+  "chernivtsi": {
+   "walk": {
+    "yt": "UinKjS65BwE",
+    "title": "🇺🇦 Chernivtsi Old Town Walking Tour 4K | 1+ Hour City Atmosphere | No Talking, Natural Sounds",
+    "channel": "Leslie Walk Art",
+    "date": "20260427",
+    "duration": 4068
+   },
+   "drive": {
+    "yt": "Y_MlOjKoYUE",
+    "title": "Driving in Ukraine - Novoselitsa, Chernivtsi - 4K, outside sound",
+    "channel": "Ovi Cornea",
+    "date": "20210608",
+    "duration": 2530
+   }
+  },
+  "uzhhorod": {
+   "walk": {
+    "yt": "trkl0iQNfBA",
+    "title": "【4K】Silent Walk Through Uzhhorod City Center | Ukraine Walking Tour 4K 🇺🇦",
+    "channel": "Go with Joe",
+    "date": "20250615",
+    "duration": 1130
+   }
+  },
+  "dnipro": {
+   "walk": {
+    "yt": "qPpxXhs9Ruk",
+    "title": "Walking Tour Lazar Globa Park of Dnipro | 4K, Ukraine",
+    "channel": "Majiclife",
+    "date": "20220919",
+    "duration": 1335
+   },
+   "drive": {
+    "yt": "utGFyklNlpc",
+    "title": "Dnipro, Ukraine - Driving downtown / Поездка к центру Днепра",
+    "channel": "Sergio I",
+    "date": "20200307",
+    "duration": 1431
+   }
+  },
+  "poltava": {
+   "walk": {
+    "yt": "jLtpIfAeHvE",
+    "title": "Walking Tour of Poltava, Ukraine - Winter 2023 | 4K City Center Walking Tour | Virtual Tour 2023",
+    "channel": "CorrieUA",
+    "date": "20231226",
+    "duration": 3108
+   },
+   "drive": {
+    "yt": "ZiS7r_hd8AI",
+    "title": "Poltava Ukraine | Calm City Atmosphere | Relaxing POV Drive | 4K No Talking",
+    "channel": "AcuraTAXI",
+    "date": "20260529",
+    "duration": 2874
+   }
+  },
+  "uman": {
+   "walk": {
+    "yt": "S1e_8RzsLjc",
+    "title": "Sofiyivka Park, Uman, Ukraine | May-June 2022 | Walking Tour 4K Ethno tourism",
+    "channel": "Sociopath traveler",
+    "date": "20220617",
+    "duration": 9883
+   }
+  },
+  "chernobyl": {
+   "walk": {
+    "yt": "UYyevPcq_JQ",
+    "title": "A walk around Pripyat | 4K",
+    "channel": "Meandering Moose",
+    "date": "20200412",
+    "duration": 2612
+   }
+  },
+  "carpathians-ukraine": {
+   "walk": {
+    "yt": "AD4rpxiN8tc",
+    "title": "Shypit Waterfall Walking Tour 4K | Pylypets, Ukrainian Carpathians Nature Sounds",
+    "channel": "Terra Routes POV",
+    "date": "20260609",
+    "duration": 2394
+   },
+   "drive": {
+    "yt": "gI-V6Xyr3lU",
+    "title": "Driving in Ukrainian Carpathian Mountains: Tatariv - Mykulychyn - Yaremche | Ukraine",
+    "channel": "Blackbird: Big City Life",
+    "date": "20210703",
+    "duration": 1983
+   }
+  },
+  "minsk": {
+   "walk": {
+    "yt": "8X34Wvaoxgo",
+    "title": "Minsk, Belarus, walking tour 4k 60fps",
+    "channel": "walking4k",
+    "date": "20250903",
+    "duration": 3321
+   },
+   "drive": {
+    "yt": "5cadynEgFHs",
+    "title": "Driving In Minsk [4K] | Prospekt Pobediteley | Belarus",
+    "channel": "Road Trip Insights",
+    "date": "20220527",
+    "duration": 1062
+   },
+   "live": {
+    "yt": "vFajdVd36jU",
+    "title": "Minsk, Belarus , online camera on Storozhovskaya Street, Минск, Сторожовская улица 2026-08-13 19:47",
+    "verified": "2026-08-13"
+   }
+  },
+  "mir-castle": {
+   "walk": {
+    "yt": "4HE_rD7pJ_M",
+    "title": "Mir Castle Complex. Relaxing Walking Tour through UNESCO World Heritage. Classical Music.",
+    "channel": "Walking Rabbit - Virtual Tours",
+    "date": "20220205",
+    "duration": 4121
+   }
+  },
+  "nesvizh": {
+   "walk": {
+    "yt": "lRvyei-9GBY",
+    "title": "Nesvizh Castle, Belarus - Walking Tour (4K 60 fps)",
+    "channel": "Walk & Smoke",
+    "date": "20230703",
+    "duration": 964
+   }
+  },
+  "brest-fortress": {
+   "walk": {
+    "yt": "x7HVoo363L4",
+    "title": "Full Walking Tour of Brest Hero Fortress 🕍, Belarus 🇧🇾 | 4K | Subtitles.",
+    "channel": "Walking777",
+    "date": "20250926",
+    "duration": 5364
+   }
+  },
+  "orheiul-vechi": {
+   "walk": {
+    "yt": "dFOTO3GMXp0",
+    "title": "8K Ultra HDR - Butuceni walking tour, Orheiul Vechi, Moldova",
+    "channel": "Starpik",
+    "date": "20231027",
+    "duration": 1460
+   }
+  },
+  "cricova": {
+   "drive": {
+    "yt": "A3OV8Mgkh_U",
+    "title": "Driving in Moldova from Chișinău to Cricova Winery",
+    "channel": "Roads",
+    "date": "20240528",
+    "duration": 2056
+   }
+  },
+  "tartu": {
+   "walk": {
+    "yt": "T39iqhwvQ1c",
+    "title": "Tartu Walking Tour 2024, Estonia Vlog - 4K HDR",
+    "channel": "Offbeat Destination",
+    "date": "20241206",
+    "duration": 4319
+   },
+   "drive": {
+    "yt": "MNMrSb-Au8E",
+    "title": "🇪🇪 Tartu, Estonia – 4K Driving Tour – Scenic City Drive",
+    "channel": "Virtual Driving Explorer",
+    "date": "20260220",
+    "duration": 1179
+   }
+  },
+  "saaremaa": {
+   "drive": {
+    "yt": "jfKeW_ypUnI",
+    "title": "Driving Across Estonia to Saaremaa | Real Driving Sounds & 4K  | No Talking, No Music",
+    "channel": "Silver Bolt",
+    "date": "20260614",
+    "duration": 12226
+   }
+  },
+  "lahemaa": {
+   "walk": {
+    "yt": "izHwiOiJW8M",
+    "title": "4K Virtual Hike in Lahemaa National Park, Estonia - Beautiful Forest Walk - 4 HOURS (real sounds)",
+    "channel": "4K Relaxation Channel",
+    "date": "20200605",
+    "duration": 12967
+   },
+   "drive": {
+    "yt": "uk8wsG-EEEM",
+    "title": "Tallinn Old Town and Lahemaa National Park - Baltics road trip day 12 vlog",
+    "channel": "JuliaSomething | Travel Guides & Road Trips",
+    "date": "20200414",
+    "duration": 1147
+   }
+  },
+  "sigulda": {
+   "walk": {
+    "yt": "qMAw0_nWOoY",
+    "title": "Sigulda, Latvia. A walking tour in the city center. 4K",
+    "channel": "A&M Wandering around",
+    "date": "20251111",
+    "duration": 647
+   },
+   "drive": {
+    "yt": "vT_JN5qb20s",
+    "title": "Riga to Sigulda — the morning drive into the Gauja Valley | Latvia POV",
+    "channel": "Barefoot_Baltic",
+    "date": "20260503",
+    "duration": 3210
+   }
+  },
+  "jurmala": {
+   "walk": {
+    "yt": "x2IuSHF5ddM",
+    "title": "Walking in JURMALA, Latvia - Baltic Beach Vibes - 4K",
+    "channel": "POPtravel",
+    "date": "20241106",
+    "duration": 3660
+   },
+   "drive": {
+    "yt": "AbLmXUwQ-Nk",
+    "title": "Exploring Latvia by Car: The Road from Riga to Jūrmala 4K",
+    "channel": "Just Driving 4K",
+    "date": "20260812",
+    "duration": 4448
+   }
+  },
+  "rundale": {
+   "walk": {
+    "yt": "Ys-KkqhxzlU",
+    "title": "Rundāle Palace Museum II Latvia II 4k II Inside Walking Tour",
+    "channel": "Ghoom Oye",
+    "date": "20230102",
+    "duration": 1108
+   }
+  },
+  "kaunas": {
+   "walk": {
+    "yt": "lPoIyRyMhYg",
+    "title": "🇱🇹 Kaunas Walking Tour Lithuania in 4K Video. Explore from the Old Town to Kaunas Castle",
+    "channel": "Edu Thomas",
+    "date": "20240826",
+    "duration": 5744
+   },
+   "drive": {
+    "yt": "CHBsJIFDHMw",
+    "title": "Driving in Lithuania. A route from Kaunas city center towards Klaipeda. 4K",
+    "channel": "A&M Wandering around",
+    "date": "20250616",
+    "duration": 956
+   },
+   "live": {
+    "yt": "Nrf-QUuvtwI",
+    "title": "Kaunas Gyvai. Lietuva webcam 2026-08-13 20:01",
+    "verified": "2026-08-14"
+   }
+  },
+  "nida": {
+   "walk": {
+    "yt": "-87NUu3T7vw",
+    "title": "Nida, Lithuania | Walking tour 4K",
+    "channel": "Wilmas Walking",
+    "date": "20250425",
+    "duration": 2122
+   },
+   "drive": {
+    "yt": "nTHc2g6KPPE",
+    "title": "Driving KLAIPĖDA to NIDA - 🇱🇹 Lithuania 🇱🇹",
+    "channel": "Lost In",
+    "date": "20230311",
+    "duration": 2686
+   }
+  },
+  "hill-of-crosses": {
+   "walk": {
+    "yt": "yEFwmm0bP3w",
+    "title": "Hill of Crosses: A Spiritual Journey in Lithuania 🇱🇹 | 4K Walking Tour - 2024",
+    "channel": "Travel With Shahab",
+    "date": "20240623",
+    "duration": 823
+   },
+   "drive": {
+    "yt": "z9gFY91y-Zw",
+    "title": "ROAD TRIP FROM KAUNAS TO RIGA VIA THE HILL OF CROSSES, LITHUANIA! Coronavirus closing in on us 🇱🇹 🇱🇻",
+    "channel": "Tide Knot Travellers",
+    "date": "20200410",
+    "duration": 692
+   },
+   "live": {
+    "yt": "T2ZbQy5QYDg",
+    "title": "Medjugorje LIVE Stream  24/7 CAM - Apparition hill Main entrance 2026-08-13 20:02",
+    "verified": "2026-08-14"
+   }
+  },
+  "warsaw": {
+   "walk": {
+    "yt": "M26KSY-SdkU",
+    "title": "WARSAW, Poland 🇵🇱 Europe’s Next Economic Power | 4K Walking Tour",
+    "channel": "Walking OZ",
+    "date": "20251026",
+    "duration": 6450
+   },
+   "drive": {
+    "yt": "dwtmEnKCP7c",
+    "title": "WARSAW (Warszawa) Poland 🇵🇱 | Modern City Driving Tour in 4K 🚗",
+    "channel": "Relaxing Roads 4K",
+    "date": "20260308",
+    "duration": 2150
+   },
+   "live": {
+    "yt": "AJGLajSFggk",
+    "title": "Warszawa na żywo /  Warsaw livestream #warsaw #live #poland  #warsawlivestream 2026-08-13 20:02",
+    "verified": "2026-08-14"
+   }
+  },
+  "gdansk": {
+   "walk": {
+    "yt": "Opy0tpnPt6Q",
+    "title": "Gdansk, Poland Walking Tour (4k Ultra HD 60 fps) - With Captions",
+    "channel": "BookingHunterTV",
+    "date": "20240706",
+    "duration": 5617
+   },
+   "drive": {
+    "yt": "eWvaQh0dRJA",
+    "title": "GDANSK Poland 🇵🇱 | City Driving Tour 4K 🚗 Old Town & Medieval Streets",
+    "channel": "Relaxing Roads 4K",
+    "date": "20260628",
+    "duration": 1995
+   },
+   "live": {
+    "yt": "ta2myV8mrXk",
+    "title": "Gdańsk LIVE 4K 🇵🇱 | Wrzeszcz City Webcam 24/7 | PKM & Olivia Centre from TGD 2026-08-13 20:03",
+    "verified": "2026-08-14"
+   }
+  },
+  "wroclaw": {
+   "walk": {
+    "yt": "VKj7KegjeSU",
+    "title": "Wrocław Poland Walking Tour 4K 🇵🇱 | Beautiful Old Town & Real City Life",
+    "channel": "Digital Walk101",
+    "date": "20260510",
+    "duration": 3179
+   },
+   "drive": {
+    "yt": "3O7bZgCb5Ck",
+    "title": "WROCŁAW Poland 🇵🇱 | City Driving Tour 4K 🚗 Charming Streets & Urban Views",
+    "channel": "Relaxing Roads 4K",
+    "date": "20250524",
+    "duration": 1721
+   }
+  },
+  "torun": {
+   "walk": {
+    "yt": "X0HKl_qgnWM",
+    "title": "TORUN, Poland 🇵🇱 - 4K HDR walking tour with captions",
+    "channel": "POPtravel",
+    "date": "20250709",
+    "duration": 4860
+   },
+   "drive": {
+    "yt": "XbSOSjgS7uo",
+    "title": "TORUN Poland 🇵🇱 | City Driving Tour 4K 🚗 Explore the Old Town & Vistula River Views",
+    "channel": "Relaxing Roads 4K",
+    "date": "20251026",
+    "duration": 1472
+   }
+  },
+  "malbork": {
+   "walk": {
+    "yt": "wl9_9CH8v6M",
+    "title": "🇵🇱 POLAND - Malbork - Exploring Europe's BIGGEST brick castle - Walking Tour 4K",
+    "channel": "Azul Walking Tours",
+    "date": "20250704",
+    "duration": 3438
+   },
+   "drive": {
+    "yt": "6YYqDkBnSvU",
+    "title": "Driving back from Malbork Castle in Poland on 24 July 2024 (3 of 5) #hyperlapse",
+    "channel": "Unicorn Trip & Travel Channel",
+    "date": "20240917",
+    "duration": 603
+   }
+  },
+  "zakopane": {
+   "walk": {
+    "yt": "Mx4mNtAilbM",
+    "title": "Winter 4K Walking Tour of Zakopane, Poland - The Most Beautiful Mountain Town: January 2024",
+    "channel": "World Traveler",
+    "date": "20240113",
+    "duration": 3062
+   },
+   "drive": {
+    "yt": "p4rhuNnobZw",
+    "title": "Driving in Poland to Zakopane: Tatra Mountains: 4K January 2024",
+    "channel": "World Driver",
+    "date": "20240127",
+    "duration": 2593
+   }
+  },
+  "wieliczka": {
+   "walk": {
+    "yt": "027hL4gDfvA",
+    "title": "Wieliczka Salt Mine 4K Poland - walking in Wieliczka  [ MUSIC]",
+    "channel": "Kondel Walking Tours",
+    "date": "20200308",
+    "duration": 836
+   },
+   "drive": {
+    "yt": "BIva_evZ5J4",
+    "title": "🇵🇱 Just Drive From Kraków City Center  to Wieliczka Salt Mine | Real Drive 4K",
+    "channel": "4K MAGIC WORLD",
+    "date": "20260215",
+    "duration": 1624
+   }
+  },
+  "bucharest": {
+   "walk": {
+    "yt": "ZV1lulSqn3E",
+    "title": "BUCHAREST Romania WALKING TOUR | With Beautiful Romanian GIRLS [4K]",
+    "channel": "Go Walking Tours",
+    "date": "20241030",
+    "duration": 3770
+   },
+   "drive": {
+    "yt": "1JeA8zCqZhI",
+    "title": "Driving in Bucharest Romania - 4K UHD",
+    "channel": "Cinematic Escapes",
+    "date": "20231007",
+    "duration": 2594
+   },
+   "live": {
+    "yt": "3BwVv-ULWM8",
+    "title": "🔴 LIVE 24/7 Bucharest: CALEA VICTORIEI City Cam | Traffic & Cityscape 2026-08-13 20:09",
+    "verified": "2026-08-14"
+   }
+  },
+  "brasov": {
+   "walk": {
+    "yt": "jD-d0iKEyl0",
+    "title": "BRASOV 🇷🇴 — Romania’s Most Enchanting Medieval City | 4K FULL Walking Tour",
+    "channel": "JoyOfTraveler",
+    "date": "20260125",
+    "duration": 2746
+   },
+   "drive": {
+    "yt": "PZJbLuBg5WU",
+    "title": "Brasov Romania 🇷🇴 4K Drive",
+    "channel": "The Driver Real",
+    "date": "20230729",
+    "duration": 1800
+   },
+   "live": {
+    "yt": "HmBsPGMdxwY",
+    "title": "Town Square - Piata Sfatului Brasov🔴 Pizza Roma Live Webcam 2026-08-13 20:10",
+    "verified": "2026-08-14"
+   },
+   "window": {
+    "yt": "EbckOT0HIQk",
+    "title": "Sacele Panoramic Webcam - Metromat Brasov - 🔴 Live Webcam 2026-08-13 20:10",
+    "verified": "2026-08-14"
+   }
+  },
+  "danube-delta": {
+   "drive": {
+    "yt": "zI_4bN1ouZg",
+    "title": "Driving in Tulcea,Romania - welcome to the Danube Delta",
+    "channel": "Drive For Fun",
+    "date": "20230414",
+    "duration": 668
+   }
+  },
+  "maramures": {
+   "drive": {
+    "yt": "e71MSiSEJwY",
+    "title": "Driving in Romania: Fall on Gutai Pass, Maramures 4K",
+    "channel": "Ovi Cornea",
+    "date": "20211029",
+    "duration": 1776
+   }
+  },
+  "plovdiv": {
+   "walk": {
+    "yt": "DacjU_PSJ74",
+    "title": "Plovdiv, Bulgaria Walking Tour - (oldest city in Europe) - 4K - with Captions -",
+    "channel": "Mr Walk",
+    "date": "20240201",
+    "duration": 1805
+   },
+   "drive": {
+    "yt": "qnfeK1m-5YI",
+    "title": "Driving in Plovdiv Bulgaria",
+    "channel": "The Driver",
+    "date": "20230722",
+    "duration": 1801
+   }
+  },
+  "rila-monastery": {
+   "drive": {
+    "yt": "93l5jA37oRE",
+    "title": "4K Scenic Drive Bulgaria: Borovets - Vada Hut - great views - Rila Mountains",
+    "channel": "Roads",
+    "date": "20210831",
+    "duration": 2244
+   }
+  },
+  "taganrog": {
+   "walk": {
+    "yt": "SZApqYc9axk",
+    "title": "TAGANROG CITY Walking Tour [⁴ᴷ] - PRIMORSKY PARK 2023",
+    "channel": "Денис Третьяков",
+    "date": "20230505",
+    "duration": 1959
    }
   }
  }

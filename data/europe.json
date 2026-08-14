@@ -8462,7 +8462,33 @@
       ],
       "blurb": "The Pacific end of Russia, built over a ridge above a deep-water bay that curls back on itself like a horn. It is a naval city first and a port second, closed to outsiders entirely from 1958 to 1992, and it looks east rather than west — Seoul and Tokyo are closer than almost any Russian city of comparable size.",
       "fun_fact": "The Trans-Siberian's kilometre post here reads 9,288 — the distance back to Moscow by rail, and the longest single train journey in the world.",
-      "hidden_gem_tip": "Ride the funicular up to Eagle's Nest at dusk: the whole Golden Horn, both bridges and the naval yards line up below in one frame."
+      "hidden_gem_tip": "Ride the funicular up to Eagle's Nest at dusk: the whole Golden Horn, both bridges and the naval yards line up below in one frame.",
+      "monuments": [
+        {
+          "name": "Russky Bridge",
+          "yt": "zwMTDYEV-lo",
+          "start": 0,
+          "source": "auto",
+          "title": "Evening Ocean Wave Sounds at Russky Island, Russky Bridge Vladivostok, Far East | ASMR | 4K",
+          "height": 2160
+        },
+        {
+          "name": "Golden Horn Bay",
+          "yt": "TVa4PP8azXI",
+          "start": 0,
+          "source": "auto",
+          "title": "Along The Golden Horn Bay - Haliç'in En Güzel Semtleri",
+          "height": 1080
+        },
+        {
+          "name": "Vladivostok Fortress",
+          "yt": "XzCkHmbd9xE",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K Relaxing Walk] Rain in the fortress city of Vladivostok. The sound of rain and birdsong",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "murmansk",
@@ -8509,7 +8535,33 @@
       ],
       "blurb": "The largest city anywhere above the Arctic Circle, and a port that never freezes — the last warm breath of the North Atlantic current reaches this far and keeps the Kola Bay open while the White Sea to the south locks solid. Founded in 1916, it is also one of the youngest cities in Russia.",
       "fun_fact": "The sun does not rise here for about forty days from early December, and then does not set for two months in summer.",
-      "hidden_gem_tip": "The world's first nuclear-powered surface ship, the icebreaker Lenin, is tied up at the passenger terminal and you can walk her reactor control room."
+      "hidden_gem_tip": "The world's first nuclear-powered surface ship, the icebreaker Lenin, is tied up at the passenger terminal and you can walk her reactor control room.",
+      "monuments": [
+        {
+          "name": "Alyosha Monument",
+          "yt": "2lYfesKtmSM",
+          "start": 0,
+          "source": "auto",
+          "title": "Alyosha Monument Murmansk-Russia",
+          "height": 1080
+        },
+        {
+          "name": "Kola Bay",
+          "yt": "3Z7gTSx-Z7M",
+          "start": 0,
+          "source": "auto",
+          "title": "Полёты над Кольским заливом, ноябрь. DJI Mavic Air2. Flights over the Kola Bay, Murmansk.",
+          "height": 1080
+        },
+        {
+          "name": "Lenin, the first nuclear icebreaker",
+          "yt": "E42o_DqhDXY",
+          "start": 0,
+          "source": "auto",
+          "title": "Lenin Icebreaker-Russia | The World's First Nuclear Icebreaker | Murmansk | JakstockTravel | BJ",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "yakutsk",
@@ -8554,7 +8606,33 @@
       ],
       "blurb": "The coldest city on Earth, built on permafrost 450 m deep on the left bank of the Lena. Nothing here sits on the ground: the whole city stands on concrete piles driven into frozen soil, because a heated building set directly on it would thaw its own foundation and sink.",
       "fun_fact": "January averages about −38 °C and the record is −64.4 °C — cold enough that exhaled breath falls as ice crystals with an audible rustle locals call the whisper of the stars.",
-      "hidden_gem_tip": "There is still no bridge over the Lena. In summer you cross by ferry, in winter you drive over the river itself, and for six weeks each spring and autumn you cannot cross at all."
+      "hidden_gem_tip": "There is still no bridge over the Lena. In summer you cross by ferry, in winter you drive over the river itself, and for six weeks each spring and autumn you cannot cross at all.",
+      "monuments": [
+        {
+          "name": "Lena River",
+          "yt": "fqjMH-yGCb0",
+          "start": 0,
+          "source": "auto",
+          "title": "360 video. A Bridge across the Lena River. Yakutsk",
+          "height": 2160
+        },
+        {
+          "name": "Mammoth Museum",
+          "yt": "NS24pafrKAw",
+          "start": 0,
+          "source": "auto",
+          "title": "Mammoths Rhinos and Bears Oh my, along the Highway a metal sculpture museum walking tour.",
+          "height": 2160
+        },
+        {
+          "name": "Old Town",
+          "yt": "BAZ4GXMwH4M",
+          "start": 0,
+          "source": "auto",
+          "title": "Going to School in the Coldest Town on Earth (−64°C, −84°F) | Yakutsk, Siberia",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "lena-pillars",
@@ -8596,7 +8674,17 @@
       ],
       "blurb": "A wall of limestone columns up to 100 m tall standing along the Lena for roughly 40 km, cut by 400,000 years of freeze and thaw in a climate that swings 100 degrees between winter and summer. The rock itself is Cambrian — laid down when the first complex animals appeared.",
       "fun_fact": "Inside the same park are the Tukulan — real sand dunes, drifting in the middle of Siberia at 61° north, only a few hundred kilometres from permafrost.",
-      "hidden_gem_tip": "The pillars only read at their true scale from the water, which is why every visit here is a river trip rather than a walk."
+      "hidden_gem_tip": "The pillars only read at their true scale from the water, which is why every visit here is a river trip rather than a walk.",
+      "monuments": [
+        {
+          "name": "Lena River",
+          "yt": "fqjMH-yGCb0",
+          "start": 0,
+          "source": "auto",
+          "title": "360 video. A Bridge across the Lena River. Yakutsk",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "petropavlovsk-kamchatsky",
@@ -8644,7 +8732,25 @@
       ],
       "blurb": "A city of 180,000 on a Pacific bay with three active volcanoes standing over the rooftops, on a peninsula with no road to the rest of the country — everything and everyone arrives by ship or plane. The bay behind it is one of the largest natural harbours in the world and could hold any fleet afloat.",
       "fun_fact": "Kamchatka has around 300 volcanoes, 29 of them active, packed into a peninsula the size of Japan and sitting on the busiest corner of the Pacific Ring of Fire.",
-      "hidden_gem_tip": "Locals call the two cones behind the city 'the home volcanoes'. On a clear morning Koryaksky is visible from the bus stops downtown."
+      "hidden_gem_tip": "Locals call the two cones behind the city 'the home volcanoes'. On a clear morning Koryaksky is visible from the bus stops downtown.",
+      "monuments": [
+        {
+          "name": "Avacha Bay",
+          "yt": "5PKMrSQPB2g",
+          "start": 0,
+          "source": "auto",
+          "title": "The Bay of Avacha, Kamchatka, Russia",
+          "height": 1080
+        },
+        {
+          "name": "Avachinsky",
+          "yt": "IuBFYgq8uvM",
+          "start": 0,
+          "source": "auto",
+          "title": "Climbing on Avachinsky Volcano(english version) (06.07.2021) Kamchatka travel .",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "valley-of-geysers",
@@ -8687,7 +8793,17 @@
       ],
       "blurb": "The second-largest concentration of geysers on the planet, packed into a six-kilometre river canyon inside a reserve with no roads into it. It was only found in 1941, by a hydrologist following a warm tributary upstream on foot.",
       "fun_fact": "A landslide in 2007 buried two thirds of the valley under rock and dammed the river; a mudflow in 2014 partly reopened it. The geysers are still rearranging themselves.",
-      "hidden_gem_tip": "Access is by helicopter from Yelizovo and strictly capped — this is a place almost everyone who knows it has only ever seen on film."
+      "hidden_gem_tip": "Access is by helicopter from Yelizovo and strictly capped — this is a place almost everyone who knows it has only ever seen on film.",
+      "monuments": [
+        {
+          "name": "Kronotsky Nature Reserve",
+          "yt": "3B8fKTI1Nfw",
+          "start": 0,
+          "source": "auto",
+          "title": "The Kronotsky nature reserve. Kamchatka. Russia",
+          "height": 720
+        }
+      ]
     },
     {
       "id": "kizhi",
@@ -8730,7 +8846,33 @@
       ],
       "blurb": "A wooden church of twenty-two silver aspen domes on a long thin island in Lake Onega, raised in 1714 without a single nail in its structure — the joinery alone holds it up. Around it stand a second church, a bell tower and a fence, the whole enclosure moved here log by log from across Karelia.",
       "fun_fact": "The Transfiguration church was dismantled and rebuilt from the inside out over four decades, its frame lifted on jacks so rotten logs could be swapped without taking the domes down.",
-      "hidden_gem_tip": "Come by hydrofoil from Petrozavodsk. The island is car-free and about 7 km long, and the crowds stay within 300 m of the jetty."
+      "hidden_gem_tip": "Come by hydrofoil from Petrozavodsk. The island is car-free and about 7 km long, and the crowds stay within 300 m of the jetty.",
+      "monuments": [
+        {
+          "name": "Church of the Transfiguration",
+          "yt": "O3pQCEkvEXc",
+          "start": 0,
+          "source": "auto",
+          "title": "Virtual Tour - Church of the Transfiguration with Chapels of Moses and Elijah",
+          "height": 2048
+        },
+        {
+          "name": "Lake Onega",
+          "yt": "HgcQY-dan84",
+          "start": 0,
+          "source": "auto",
+          "title": "Coast Lake Onega Petrozavodsk Russia 🇷🇺 4K GoPro",
+          "height": 2160
+        },
+        {
+          "name": "Kizhi Island",
+          "yt": "SwBPa1xX3C4",
+          "start": 0,
+          "source": "auto",
+          "title": "Kizhi Island in autumn. Aerial video in 4K",
+          "height": 1620
+        }
+      ]
     },
     {
       "id": "veliky-novgorod",
@@ -8782,7 +8924,33 @@
       ],
       "blurb": "For three centuries this was a merchant republic that elected its own princes and could dismiss them, ran a parliament by public assembly, and traded as the eastern anchor of the Hanseatic League. Mongol armies never reached it, so its eleventh-century churches are still standing.",
       "fun_fact": "More than a thousand letters written on birch bark have been dug out of the waterlogged soil here — laundry lists, love notes, a boy's schoolwork — proof that ordinary medieval townspeople could read.",
-      "hidden_gem_tip": "Cross the footbridge to Yaroslav's Court at low sun; the row of merchant churches on the far bank is the skyline the Hansa saw."
+      "hidden_gem_tip": "Cross the footbridge to Yaroslav's Court at low sun; the row of merchant churches on the far bank is the skyline the Hansa saw.",
+      "monuments": [
+        {
+          "name": "Novgorod Detinets",
+          "yt": "pr2b-0rsFiA",
+          "start": 0,
+          "source": "auto",
+          "title": "Novgorod Castle (Detinets), May 2021",
+          "height": 2160
+        },
+        {
+          "name": "Saint Sophia Cathedral",
+          "yt": "4Yg9Etygucc",
+          "start": 0,
+          "source": "auto",
+          "title": "walking tour around St. Sophia's cathedral| Sophia's square | Volodimerskiu cathedral",
+          "height": 1080
+        },
+        {
+          "name": "Yuriev Monastery",
+          "yt": "_i8vazJiauQ",
+          "start": 0,
+          "source": "auto",
+          "title": "St. George's (Yuriev) Monastery | Юрьев монастырь",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "suzdal",
@@ -8832,7 +9000,33 @@
       ],
       "blurb": "A town of 9,000 people with more than forty churches and five monasteries in it, and a local law that has kept anything taller than two storeys out since the 1960s. The Golden Ring's least compromised town: cows still graze the meadow inside the bend of the river, in sight of the cathedral.",
       "fun_fact": "Suzdal was passed over by the railway in the nineteenth century and by industry in the twentieth, which is exactly why it survived — the line went to Vladimir instead, 35 km south.",
-      "hidden_gem_tip": "Walk the Kamenka's water meadow rather than the main street: from down there the whole town is domes above a treeline, with no wires."
+      "hidden_gem_tip": "Walk the Kamenka's water meadow rather than the main street: from down there the whole town is domes above a treeline, with no wires.",
+      "monuments": [
+        {
+          "name": "Suzdal Kremlin",
+          "yt": "rMwoTY78RQ4",
+          "start": 0,
+          "source": "auto",
+          "title": "Suzdal Kremlin. Anillo de Oro. Rusia. 4K",
+          "height": 2160
+        },
+        {
+          "name": "Monastery of Saint Euthymius",
+          "yt": "VkE4PyJMOIg",
+          "start": 0,
+          "source": "auto",
+          "title": "The cradle of the world's Christian monasteries -a tour of the Monastery of Euthymius, Judean Desert",
+          "height": 1080
+        },
+        {
+          "name": "Kamenka River",
+          "yt": "Q-SQnEByfiw",
+          "start": 0,
+          "source": "auto",
+          "title": "Зеленоград. Прогулка вдоль реки Каменки / Zelenograd. Walk along the Kamenka river",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "vladimir",
@@ -8880,7 +9074,33 @@
       ],
       "blurb": "The capital of Rus before Moscow was anything, on a bluff above the Klyazma. Its twelfth-century white-stone cathedrals set the pattern every Russian church copied afterwards, and the frescoes inside the Dormition include Andrei Rublev's Last Judgement, painted in 1408.",
       "fun_fact": "The Dormition Cathedral was the model Moscow's Kremlin cathedral was explicitly commissioned to imitate — the capital moved, and took the architecture with it.",
-      "hidden_gem_tip": "The Church of the Intercession on the Nerl stands alone in a flood meadow 10 km east, reached only on foot across a field. It is the most photographed building in Russia that has no road to it."
+      "hidden_gem_tip": "The Church of the Intercession on the Nerl stands alone in a flood meadow 10 km east, reached only on foot across a field. It is the most photographed building in Russia that has no road to it.",
+      "monuments": [
+        {
+          "name": "Golden Gate",
+          "yt": "fRiXAL3Gk2E",
+          "start": 0,
+          "source": "auto",
+          "title": "⁴ᴷ⁶⁰ Walking Vladimir 🎄 Golden Gate & Bolshaya Moskovskaya Street - Christmas Walk 🎅",
+          "height": 2160
+        },
+        {
+          "name": "Dormition Cathedral",
+          "yt": "52ki-lVzDy8",
+          "start": 0,
+          "source": "auto",
+          "title": "🇷🇺 Russia, Vladimir — Cathedral of the Dormition of the Most Holy Theotokos (4K UHD, AI-processed)",
+          "height": 2160
+        },
+        {
+          "name": "Cathedral of Saint Demetrius",
+          "yt": "pcnJFltkuGM",
+          "start": 0,
+          "source": "auto",
+          "title": "Russia - Vladimir - Assumption or Dormition Cathedral & Cathedral of Saint Demetrius",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "nizhny-novgorod",
@@ -8930,7 +9150,33 @@
       ],
       "blurb": "Russia's fifth city, set where the Oka runs into the Volga on a high right bank, with a red-brick kremlin along the crest and the whole confluence spread out below it. It was the empire's trade fair for a century, then a closed defence city for forty years.",
       "fun_fact": "The Chkalov Staircase down to the Volga has 560 steps in a figure of eight — it was built by German prisoners of war and finished in 1949, and it is the longest staircase on any Russian riverbank.",
-      "hidden_gem_tip": "Walk the kremlin wall itself. The circuit reopened whole in 2021 for the first time since the seventeenth century, and it looks straight down onto the confluence."
+      "hidden_gem_tip": "Walk the kremlin wall itself. The circuit reopened whole in 2021 for the first time since the seventeenth century, and it looks straight down onto the confluence.",
+      "monuments": [
+        {
+          "name": "Nizhny Novgorod Kremlin",
+          "yt": "pQvbcW8-Ldw",
+          "start": 0,
+          "source": "auto",
+          "title": "⁴ᴷ⁶⁰ Walking Nizhny Novgorod: Nizhny Novgorod Kremlin",
+          "height": 2160
+        },
+        {
+          "name": "Chkalov Stairs",
+          "yt": "HBLxITBS8lg",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking Nizhny Novgorod: from the Alexander Garden to the Chkalov Stairs",
+          "height": 1072
+        },
+        {
+          "name": "Bolshaya Pokrovskaya Street",
+          "yt": "jrQXQqzTEqA",
+          "start": 0,
+          "source": "auto",
+          "title": "⁴ᴷ⁶⁰ Walking Nizhniy Novgorod: Bolshaya Pokrovskaya Street",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "volgograd",
@@ -8978,7 +9224,33 @@
       ],
       "blurb": "A city strung 60 km along one bank of the Volga and almost none of the other — the longest city in Russia, and one rebuilt from essentially nothing. As Stalingrad it was fought over street by street through the winter of 1942, and the battle turned the Eastern Front.",
       "fun_fact": "The Motherland Calls stood as the tallest statue in the world when it was finished in 1967. It is unanchored — 8,000 tonnes of concrete held down by its own weight alone.",
-      "hidden_gem_tip": "A ruined mill by the riverfront was deliberately left exactly as the fighting ended, shell holes and all, as the one un-restored building in the city."
+      "hidden_gem_tip": "A ruined mill by the riverfront was deliberately left exactly as the fighting ended, shell holes and all, as the one un-restored building in the city.",
+      "monuments": [
+        {
+          "name": "Mamayev Kurgan",
+          "yt": "MkWJKbmFlEg",
+          "start": 0,
+          "source": "auto",
+          "title": "Volgograd Stalingrad - Mamayev Kurgan | Russia 8k  - Walking tour",
+          "height": 4320
+        },
+        {
+          "name": "The Motherland Calls",
+          "yt": "0jzAM-Ut2eE",
+          "start": 0,
+          "source": "auto",
+          "title": "МАМАЕВ КУРГАН (The Motherland Calls) . TALLEST STATUE IN EUROPE",
+          "height": 1080
+        },
+        {
+          "name": "Pavlov's House",
+          "yt": "nI9pd4i28fs",
+          "start": 0,
+          "source": "auto",
+          "title": "Call of Duty 1 : Unforgettable Attack on Pavlov's House - Best Mission gameplay",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "kaliningrad",
@@ -9028,7 +9300,33 @@
       ],
       "blurb": "Russia without a Russian border: an exclave on the Baltic between Poland and Lithuania, and until 1945 this was Königsberg, capital of East Prussia. The old city was bombed and then rebuilt as something else entirely, so the surviving German fragments stand in isolation among Soviet blocks.",
       "fun_fact": "Around 90% of the world's amber comes out of one open pit 40 km up the coast at Yantarny, where it is washed from a blue clay seam 45 million years old.",
-      "hidden_gem_tip": "Kant is buried against the cathedral's north wall, in the one corner of the old town that was rebuilt — he taught here his whole life and reportedly never travelled more than 150 km from the city."
+      "hidden_gem_tip": "Kant is buried against the cathedral's north wall, in the one corner of the old town that was rebuilt — he taught here his whole life and reportedly never travelled more than 150 km from the city.",
+      "monuments": [
+        {
+          "name": "Königsberg Cathedral",
+          "yt": "rBE2uTyYph4",
+          "start": 0,
+          "source": "auto",
+          "title": "Amazing Kaliningrad. Königsberg. Royal Castle. Cathedral. Kant Island. 4K",
+          "height": 2160
+        },
+        {
+          "name": "Fish Village",
+          "yt": "p4G5fPsy5-Q",
+          "start": 0,
+          "source": "auto",
+          "title": "Amazing Kaliningrad. Fish Village. Amalienau. Luisenwahl. Lower Pond. Russia. Castle Pond. 4K",
+          "height": 2160
+        },
+        {
+          "name": "Amber Museum",
+          "yt": "hFuLqq6Vd1M",
+          "start": 0,
+          "source": "auto",
+          "title": "2019 Kaliningrad & Königsberg Walk through the district. walk to the amber museum",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "sochi",
@@ -9078,7 +9376,33 @@
       ],
       "blurb": "Russia's subtropics — a 145 km strip of humid coast pressed between the Black Sea and the Caucasus, where palms and tea plantations sit an hour's drive below a snowline. It has been the country's summer resort since the 1930s and hosted a Winter Olympics in 2014.",
       "fun_fact": "Sochi is the longest city in Europe and one of the few places on Earth where you can swim in the sea and ski in the mountains on the same day, in the same weather system.",
-      "hidden_gem_tip": "Take the old Stalin-era Riviera side rather than the Olympic coast: the arboretum's cable car ends in a terrace of Himalayan cedars above the whole bay."
+      "hidden_gem_tip": "Take the old Stalin-era Riviera side rather than the Olympic coast: the arboretum's cable car ends in a terrace of Himalayan cedars above the whole bay.",
+      "monuments": [
+        {
+          "name": "Krasnaya Polyana",
+          "yt": "_fG24FwLlAU",
+          "start": 0,
+          "source": "auto",
+          "title": "Krasnaya Polyana - A Must Visit Place - Russia Travel Series",
+          "height": 2160
+        },
+        {
+          "name": "Sochi Arboretum",
+          "yt": "4yritK2Jnoc",
+          "start": 0,
+          "source": "auto",
+          "title": "Walk in Sochi. Observation deck Arboretum. Russia (4K)",
+          "height": 2160
+        },
+        {
+          "name": "Olympic Park",
+          "yt": "_PPehviptGU",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] Sochi Olympic Park Now, Sochi Olympic Village - 2014 Winter Olympics",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "mount-elbrus",
@@ -9120,7 +9444,25 @@
       ],
       "blurb": "The highest mountain in Europe at 5,642 m, and a dormant volcano rather than a fold in the range — two cones on one massif, capped by 22 glaciers that feed the rivers of the whole north Caucasus. The cable car up its southern flank is the highest in Europe.",
       "fun_fact": "Whether Elbrus counts as European at all depends on where you draw the continental divide through the Caucasus, which is why it is both 'the roof of Europe' and, to some geographers, in Asia.",
-      "hidden_gem_tip": "The Barrels — a cluster of converted fuel tanks at 3,800 m — are still where most climbers sleep before a summit attempt."
+      "hidden_gem_tip": "The Barrels — a cluster of converted fuel tanks at 3,800 m — are still where most climbers sleep before a summit attempt.",
+      "monuments": [
+        {
+          "name": "Terskol",
+          "yt": "Pq3bd-6k1qs",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Virtual Hike through Terskol Gorge — Elbrus Region",
+          "height": 2160
+        },
+        {
+          "name": "Caucasus Mountains",
+          "yt": "xWTPVOcIjA0",
+          "start": 0,
+          "source": "auto",
+          "title": "CAUCASUS MOUNTAINS: 4K Breathtaking Views with Peaceful Music",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "derbent",
@@ -9164,7 +9506,33 @@
       ],
       "blurb": "The oldest continuously inhabited city in Russia, wedged into a three-kilometre gap between the Caucasus and the Caspian — the one land gate between the steppe and Persia. The Sasanians walled the gap shut in the sixth century and the walls are still standing, running from the citadel down into the sea.",
       "fun_fact": "Its name is Persian for 'closed gates', and its Friday mosque, founded in 733, is the oldest in Russia and one of the oldest anywhere in the former Soviet Union.",
-      "hidden_gem_tip": "The old quarters between the two parallel walls are still laid out on the medieval plan, with the alleys narrowing as they climb."
+      "hidden_gem_tip": "The old quarters between the two parallel walls are still laid out on the medieval plan, with the alleys narrowing as they climb.",
+      "monuments": [
+        {
+          "name": "Naryn-Kala",
+          "yt": "iXyI-Lc5tJ8",
+          "start": 0,
+          "source": "auto",
+          "title": "Inside Derbent's Fortress Naryn-Kala, Dagestan | Внутри Дербентской крепости Нарын-Кала, Дагестан",
+          "height": 1440
+        },
+        {
+          "name": "Juma Mosque",
+          "yt": "cCo2DkrpH9Y",
+          "start": 0,
+          "source": "auto",
+          "title": "Inside HAGIA SOPHIA Mosque | 4K tour of Byzantine Wonder built 537AD | Juma prayers tour ASMR 4K UHD",
+          "height": 1080
+        },
+        {
+          "name": "Caspian Sea",
+          "yt": "JSzrVxolims",
+          "start": 0,
+          "source": "auto",
+          "title": "Aktau Waterfront Walk at Evening | Caspian Sea 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "solovetsky-islands",
@@ -9208,7 +9576,25 @@
       ],
       "blurb": "A monastery fortress of house-sized granite boulders on an archipelago in the White Sea, 165 km from the Arctic Circle. It was a spiritual centre for four centuries, and then, from 1923, the prototype of the Soviet labour camp system — the first island of the Gulag, in the phrase that named the rest.",
       "fun_fact": "The islands carry Bronze Age stone labyrinths whose purpose nobody has settled, and a sixteenth-century canal system dug by monks that still links the freshwater lakes.",
-      "hidden_gem_tip": "Boats run from Kem on the mainland in the short ice-free season only; for most of the year the archipelago is reachable by air or not at all."
+      "hidden_gem_tip": "Boats run from Kem on the mainland in the short ice-free season only; for most of the year the archipelago is reachable by air or not at all.",
+      "monuments": [
+        {
+          "name": "Solovetsky Monastery",
+          "yt": "xjWBxRcABhI",
+          "start": 0,
+          "source": "auto",
+          "title": "Solovetsky Monastery - Interior, Exterior, Aerial 4K Virtual Tour",
+          "height": 2160
+        },
+        {
+          "name": "Bolshoy Zayatsky Island",
+          "yt": "59tiGJIPspw",
+          "start": 0,
+          "source": "auto",
+          "title": "Bolshoy Zayatsky Island / Большой Заяцкий Остров",
+          "height": 720
+        }
+      ]
     },
     {
       "id": "arkhangelsk",
@@ -9254,7 +9640,25 @@
       ],
       "blurb": "Russia's first seaport, at the mouth of the Northern Dvina on the White Sea, and for a century and a half its only one — everything the country traded with Europe passed through here until Peter the Great built Saint Petersburg and deliberately strangled it.",
       "fun_fact": "Malye Korely, just upriver, is an open-air museum of northern wooden architecture: over a hundred chapels, windmills, barns and houses moved log by log from villages across the region.",
-      "hidden_gem_tip": "Timber is still the city's material and its trade — whole streets of two-storey wooden apartment houses stand on the sand, slowly and visibly leaning."
+      "hidden_gem_tip": "Timber is still the city's material and its trade — whole streets of two-storey wooden apartment houses stand on the sand, slowly and visibly leaning.",
+      "monuments": [
+        {
+          "name": "Malye Korely",
+          "yt": "LyuA8UvqKPU",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Malye Korely Малые Корелы 马莱卡雷利",
+          "height": 2160
+        },
+        {
+          "name": "Solombala",
+          "yt": "LSa-yaL3tPs",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Соломбала Solombala 俄罗斯索隆巴拉",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "ulan-ude",
@@ -9300,7 +9704,33 @@
       ],
       "blurb": "The capital of Buryatia, where the Trans-Mongolian branches south off the Trans-Siberian and runs for Ulaanbaatar and Beijing. The Buryats are a Mongol people and this is the centre of Buddhism in Russia, so the city reads as Siberian and Central Asian at once.",
       "fun_fact": "The main square holds the largest Lenin head in the world — 7.7 m tall, 42 tonnes, and nothing else of him at all.",
-      "hidden_gem_tip": "Ivolginsky Datsan, 35 km out, is the seat of Russian Buddhism and keeps the body of a lama who died in 1927 in the lotus position he was buried in."
+      "hidden_gem_tip": "Ivolginsky Datsan, 35 km out, is the seat of Russian Buddhism and keeps the body of a lama who died in 1927 in the lotus position he was buried in.",
+      "monuments": [
+        {
+          "name": "Ivolginsky Datsan",
+          "yt": "KGQy1p2Qkvw",
+          "start": 0,
+          "source": "auto",
+          "title": "ИВОЛГИНСКИЙ ДАЦАН IVOLGINSKY DATSAN",
+          "height": 2160
+        },
+        {
+          "name": "Rinpoche Bagsha",
+          "yt": "-_-WeyC2czc",
+          "start": 0,
+          "source": "auto",
+          "title": "Meditative walk around 4k the Buryat Datsan Rinpoche Bagsha in Ulan-Ude February 2022",
+          "height": 2160
+        },
+        {
+          "name": "Selenga River",
+          "yt": "sDZDnYpFxIU",
+          "start": 0,
+          "source": "auto",
+          "title": "Прогулка по Набережной Селенга в Улан-Удэ | Июнь June 2021 | Selenga river shore walk in Ulan-Ude",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "krasnoyarsk",
@@ -9347,7 +9777,25 @@
       ],
       "blurb": "A million people on the Yenisei with a taiga nature reserve starting at the edge of the suburbs — the Stolby, a scatter of granite pillars in dense forest that the city has been free-climbing without ropes for a century and a half, in its own local style.",
       "fun_fact": "The little chapel on the hill above town is the building on the Russian ten-rouble note, and the river below it does not freeze downstream of the dam even at −40 °C.",
-      "hidden_gem_tip": "Take the road out to Stolby on a weekday. The nearest pillars are a 7 km walk from the gate and the forest closes over the city noise within the first kilometre."
+      "hidden_gem_tip": "Take the road out to Stolby on a weekday. The nearest pillars are a 7 km walk from the gate and the forest closes over the city noise within the first kilometre.",
+      "monuments": [
+        {
+          "name": "Stolby Nature Sanctuary",
+          "yt": "ubUabUywFEY",
+          "start": 0,
+          "source": "auto",
+          "title": "Stolby Nature Sanctuary / запове́дник «Столбы́» / \"The Pillars\"",
+          "height": 720
+        },
+        {
+          "name": "Yenisei River",
+          "yt": "WtHAXNIjLFY",
+          "start": 0,
+          "source": "auto",
+          "title": "Peaceful scenery of Yenisei river, Siberian area - 4K walking video with natural landscape (UHD)",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "pskov",
@@ -9395,7 +9843,33 @@
       ],
       "blurb": "A fortress city on the western frontier, sister republic to Novgorod and for centuries the shield that met whatever came from the Baltic first. Its churches are small, white and heavy-walled — a local school of building that looks nothing like Moscow's.",
       "fun_fact": "Ten of Pskov's churches were added to the World Heritage list in 2019 as a single entry, recognised as a distinct architectural tradition rather than ten separate buildings.",
-      "hidden_gem_tip": "The Mirozhsky Monastery holds twelfth-century frescoes painted by Byzantine Greeks — they survived because they were plastered over for six hundred years."
+      "hidden_gem_tip": "The Mirozhsky Monastery holds twelfth-century frescoes painted by Byzantine Greeks — they survived because they were plastered over for six hundred years.",
+      "monuments": [
+        {
+          "name": "Pskov Krom",
+          "yt": "Sej_l5vNaLE",
+          "start": 0,
+          "source": "auto",
+          "title": "ПСКОВСКИЙ КРОМ//PSKOV KROM |Discovery Sessions| Pskov Oblast, Russia",
+          "height": 2160
+        },
+        {
+          "name": "Trinity Cathedral",
+          "yt": "0IEwozLiX9c",
+          "start": 0,
+          "source": "auto",
+          "title": "Pskov Kremlin - Krom and Trinity Cathedral | Second part: Our city walk",
+          "height": 1080
+        },
+        {
+          "name": "Mirozhsky Monastery",
+          "yt": "D_44OPpW4wQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Летаем и смотрим Мирожский мужской монастырь. Monastery Mirozhsky",
+          "height": 1436
+        }
+      ]
     },
     {
       "id": "vyborg",
@@ -9442,7 +9916,33 @@
       ],
       "blurb": "A Swedish castle town that became Finnish and then Soviet, 30 km from the border and unlike anywhere else in Russia — cobbled lanes, a granite Hanseatic core and a thirteenth-century keep on its own islet, all of it changing hands four times in one century.",
       "fun_fact": "Alvar Aalto's 1935 library here is a landmark of modernism; it sat half-ruined for decades and was restored by a joint Finnish-Russian team that finished in 2013.",
-      "hidden_gem_tip": "Monrepos, on the northern edge, is a romantic rock park of pines growing straight out of glacier-scoured granite along the bay."
+      "hidden_gem_tip": "Monrepos, on the northern edge, is a romantic rock park of pines growing straight out of glacier-scoured granite along the bay.",
+      "monuments": [
+        {
+          "name": "Vyborg Castle",
+          "yt": "Vbvo7LtDncw",
+          "start": 0,
+          "source": "auto",
+          "title": "Exploring Vyborg Castle Courtard in RUSSIA",
+          "height": 720
+        },
+        {
+          "name": "Monrepos Park",
+          "yt": "7QR4bMhNVb4",
+          "start": 0,
+          "source": "auto",
+          "title": "VYBORG. MONREPOS PARK // AERIAL CINEMATOGRAPHY (4k)",
+          "height": 2160
+        },
+        {
+          "name": "Round Tower",
+          "yt": "mAwY7EPySOg",
+          "start": 0,
+          "source": "auto",
+          "title": "Round tower (Vyborg) 4K",
+          "height": 3840
+        }
+      ]
     },
     {
       "id": "rostov-on-don",
@@ -9487,7 +9987,33 @@
       ],
       "blurb": "The gateway between Russia and the Caucasus, on the last stretch of the Don before the Sea of Azov. It grew as a customs post and a Cossack river port, and it still runs on the river and the market — a southern, mercantile, un-Moscow kind of city.",
       "fun_fact": "Rostov sits at the centre of the historic lands of the Don Cossacks, and the city's own dialect and food are closer to the steppe than to anything north of it.",
-      "hidden_gem_tip": "The left bank of the Don is a long sandbank of grill shacks and riverside cafés; the city crosses over to it in summer and stays until the light goes."
+      "hidden_gem_tip": "The left bank of the Don is a long sandbank of grill shacks and riverside cafés; the city crosses over to it in summer and stays until the light goes.",
+      "monuments": [
+        {
+          "name": "Don River",
+          "yt": "vwALLTjF480",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] Away from the Bustle Sand Walk in Rostov - Rostov Arena, Don River🚶‍♂️4K WALK",
+          "height": 2160
+        },
+        {
+          "name": "Bolshaya Sadovaya Street",
+          "yt": "_mVCMqUS13o",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] Beautiful Rostov-on-Don - Bolshaya Sadovaya Street Walk - 1 HOUR",
+          "height": 2160
+        },
+        {
+          "name": "Central Market",
+          "yt": "j_e6-rCV84M",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] ADELAIDE CENTRAL MARKET WALKING TOUR",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "mount-belukha",
@@ -9530,7 +10056,33 @@
       ],
       "blurb": "The high point of Siberia at 4,506 m, a twin-peaked massif where Russia, Kazakhstan, China and Mongolia nearly meet. The Katun rises off its glaciers and runs milky green; the Altai people hold the mountain sacred and its upper slopes are closed to climbing on those grounds during certain seasons.",
       "fun_fact": "Belukha is almost exactly equidistant from the Arctic, the Pacific, the Indian Ocean and the Atlantic — the furthest point on land from any ocean is not far away.",
-      "hidden_gem_tip": "The standard approach is a two-day walk up the Akkem valley to a lake directly under the north face, which stays frozen into June."
+      "hidden_gem_tip": "The standard approach is a two-day walk up the Akkem valley to a lake directly under the north face, which stays frozen into June.",
+      "monuments": [
+        {
+          "name": "Katun River",
+          "yt": "vjgkaa5dDDI",
+          "start": 0,
+          "source": "auto",
+          "title": "Scenic Roads of Siberia in 4K - Virtual Driving along Katun River for Indoor Cycling Classes",
+          "height": 2160
+        },
+        {
+          "name": "Akkem Lake",
+          "yt": "7pEfrdWMVOE",
+          "start": 0,
+          "source": "auto",
+          "title": "Belukha mountain trek - Altai backpacking trip. Kucherla river, Kara-Turek passage, Akkem lake",
+          "height": 1080
+        },
+        {
+          "name": "Altai Mountains",
+          "yt": "REoJiyG7TiQ",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Most Beautiful Mountains in Russia: Altai Mountains 🌄 | Siberia Nature & Relaxation 🇷🇺",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "kharkiv",
@@ -9580,7 +10132,33 @@
       ],
       "blurb": "Ukraine's second city and its first Soviet capital, a university and engineering town of wide avenues 30 km from the Russian border. Its centre is a constructivist experiment: Derzhprom, finished in 1928, was the first Soviet skyscraper and one of the first reinforced-concrete high-rises in Europe.",
       "fun_fact": "Freedom Square is among the largest city squares in Europe — big enough that the buildings around it were designed to be read from the far side rather than from the pavement.",
-      "hidden_gem_tip": "Kharkiv has been shelled repeatedly since 2022 and Derzhprom itself was damaged in 2022 and again later; the footage here predates much of that, and the city is not a place to visit at present."
+      "hidden_gem_tip": "Kharkiv has been shelled repeatedly since 2022 and Derzhprom itself was damaged in 2022 and again later; the footage here predates much of that, and the city is not a place to visit at present.",
+      "monuments": [
+        {
+          "name": "Freedom Square",
+          "yt": "9Vr-yo7h0to",
+          "start": 0,
+          "source": "auto",
+          "title": "Freedom square (Kharkiv, summer 2020, 4k)",
+          "height": 2160
+        },
+        {
+          "name": "Shevchenko Garden",
+          "yt": "uLP10_JgoZA",
+          "start": 0,
+          "source": "auto",
+          "title": "Kharkiv City Garden, named Taras Shevchenko, Ukraine 2020 - video 4K",
+          "height": 1080
+        },
+        {
+          "name": "Annunciation Cathedral",
+          "yt": "4z68NGOhZrg",
+          "start": 0,
+          "source": "auto",
+          "title": "God of city; Channel Discover Ukraine; Kharkiv (Kharkov) city; Cathedral of Annunciation Theotokos",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "chernihiv",
@@ -9627,7 +10205,33 @@
       ],
       "blurb": "One of the oldest cities of Kievan Rus, on the Desna north of Kyiv, with a group of eleventh- and twelfth-century churches that survived the Mongols, the wars and the twentieth century — the densest concentration of pre-Mongol architecture anywhere in Ukraine.",
       "fun_fact": "The Transfiguration Cathedral was begun around 1030 and is one of the oldest surviving buildings in the country, older than any standing church in Moscow by three centuries.",
-      "hidden_gem_tip": "Chernihiv was encircled and heavily bombarded in the spring of 2022 and parts of the centre were destroyed; the medieval core largely stands, but the city is still on a frontline oblast."
+      "hidden_gem_tip": "Chernihiv was encircled and heavily bombarded in the spring of 2022 and parts of the centre were destroyed; the medieval core largely stands, but the city is still on a frontline oblast.",
+      "monuments": [
+        {
+          "name": "Transfiguration Cathedral",
+          "yt": "eKET0fXe4sE",
+          "start": 0,
+          "source": "auto",
+          "title": "Transfiguration Cathedral in Odessa, Ukraine (Одесский Спасо-Преображенський кафедральний собор)",
+          "height": 1080
+        },
+        {
+          "name": "Catherine's Church",
+          "yt": "wAyAn1Z0zbo",
+          "start": 0,
+          "source": "auto",
+          "title": "⁴ᴷ StPetersburg Walk Malaya Konyushennaya str 🔜 Church of St. Catherine 🔜 Surfer cafe",
+          "height": 2160
+        },
+        {
+          "name": "Desna River",
+          "yt": "68ksvyz1cCw",
+          "start": 0,
+          "source": "auto",
+          "title": "Desna River 4K UHD - Scenic Rivers of Ukraine from Above + Music - Short Preview Video",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "kamianets-podilskyi",
@@ -9673,7 +10277,33 @@
       ],
       "blurb": "An old town standing on a rock island inside a loop of canyon — the Smotrych has cut a 40 m gorge in an almost complete circle, leaving the medieval centre on a natural plinth with one narrow neck, and a castle guarding it. Poles, Ottomans, Armenians and Ruthenians all built here.",
       "fun_fact": "Its cathedral carries a minaret: the Ottomans added one when they held the town in the 1670s, and when it returned to Poland a statue of the Virgin was simply placed on top rather than pulling it down.",
-      "hidden_gem_tip": "The view that explains the place is from the canyon floor, on the path that runs the whole ring below the town walls."
+      "hidden_gem_tip": "The view that explains the place is from the canyon floor, on the path that runs the whole ring below the town walls.",
+      "monuments": [
+        {
+          "name": "Kamianets-Podilskyi Castle",
+          "yt": "dVVnQuaN2t8",
+          "start": 0,
+          "source": "auto",
+          "title": "Kamianets Podilskyi Castle 4K - Ukrainian Castles - Short Preview",
+          "height": 2160
+        },
+        {
+          "name": "Smotrych River",
+          "yt": "eJwYXmAk4QU",
+          "start": 0,
+          "source": "auto",
+          "title": "Kamianets-Podilsky, Ukraine | Smotrych River Canyon | Rollerblade Travel #MobyLife",
+          "height": 1080
+        },
+        {
+          "name": "Cathedral of Saints Peter and Paul",
+          "yt": "XZr1gfmblYI",
+          "start": 0,
+          "source": "auto",
+          "title": "Philly Adventures: Cathedral of Saints Peter & Paul",
+          "height": 720
+        }
+      ]
     },
     {
       "id": "chernivtsi",
@@ -9719,7 +10349,33 @@
       ],
       "blurb": "The capital of Bukovina, Habsburg from 1775 to 1918 and built to look it — a small central-European city of ochre facades far from any border it now sits near. Its university occupies a red-brick metropolitan's residence that mixes Byzantine, Moorish and Gothic on one roofline.",
       "fun_fact": "Before 1918 the city ran in four languages at once — German, Romanian, Ukrainian and Yiddish — and was known as 'little Vienna' by people who had been to both.",
-      "hidden_gem_tip": "The residence's courtyard is open even when the halls are not; the roof tiles are laid in geometric patterns you can only read from inside it."
+      "hidden_gem_tip": "The residence's courtyard is open even when the halls are not; the roof tiles are laid in geometric patterns you can only read from inside it.",
+      "monuments": [
+        {
+          "name": "Residence of Bukovinian and Dalmatian Metropolitans",
+          "yt": "BnbT5Zm6tSY",
+          "start": 0,
+          "source": "auto",
+          "title": "1679 WAU Ukraine’s Residence of Bukovinian and Dalmatian Metropolitans: An Architectural Masterpiece",
+          "height": 1080
+        },
+        {
+          "name": "Chernivtsi University",
+          "yt": "YEjmddF7Fbs",
+          "start": 0,
+          "source": "auto",
+          "title": "Yuriy Fedkovych Chernivtsi National University",
+          "height": 1440
+        },
+        {
+          "name": "Central Square",
+          "yt": "NaKfhck-cXs",
+          "start": 0,
+          "source": "auto",
+          "title": "Between Harvard and MIT · Central Square · 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "uzhhorod",
@@ -9765,7 +10421,33 @@
       ],
       "blurb": "Ukraine's westernmost city, over the Carpathians in Transcarpathia and closer to Budapest than to Kyiv. It has been Hungarian, Czechoslovak, Soviet and Ukrainian inside a century, and the mix shows in a small, low-rise centre along both banks of the Uzh.",
       "fun_fact": "Its riverside linden alley is one of the longest in Europe, and the parallel avenue of Japanese cherries turns the embankment pink for about ten days each spring.",
-      "hidden_gem_tip": "Transcarpathia stayed out of the fighting and became a refuge region after 2022; the city's population swelled with people displaced from the east."
+      "hidden_gem_tip": "Transcarpathia stayed out of the fighting and became a refuge region after 2022; the city's population swelled with people displaced from the east.",
+      "monuments": [
+        {
+          "name": "Uzhhorod Castle",
+          "yt": "hfICk6EBejE",
+          "start": 0,
+          "source": "auto",
+          "title": "Uzhhorod Castle 🇺🇦 Ukraine | 4K DJI Phantom Drone",
+          "height": 2026
+        },
+        {
+          "name": "Uzh River",
+          "yt": "esVevaCcbjg",
+          "start": 0,
+          "source": "auto",
+          "title": "Uzh River Valley & Near Slovak Border | Ukraine through the train window | Railway ASMR 🇺🇦",
+          "height": 1080
+        },
+        {
+          "name": "Cherry blossom alley",
+          "yt": "niWeLY9v-LA",
+          "start": 0,
+          "source": "auto",
+          "title": "🌸 Cherry Blossom Walk 4K | Peaceful Spring Alley & Relaxing Nature Sounds",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "dnipro",
@@ -9811,7 +10493,17 @@
       ],
       "blurb": "A steel and rocket city on a wide bend of the Dnieper, closed to foreigners until 1987 because it built intercontinental missiles. Its long central avenue and its embankment — one of the longest in Europe — give it a scale that feels larger than its million people.",
       "fun_fact": "The Menorah Center beside the old Golden Rose synagogue is one of the largest Jewish community complexes in the world, seven towers arranged as a candelabrum.",
-      "hidden_gem_tip": "Since 2022 Dnipro has been the main medical and logistics hub for the eastern front, and it has been struck by long-range missiles more than once."
+      "hidden_gem_tip": "Since 2022 Dnipro has been the main medical and logistics hub for the eastern front, and it has been struck by long-range missiles more than once.",
+      "monuments": [
+        {
+          "name": "Yavornytskoho Avenue",
+          "yt": "jQEdCN-EW-k",
+          "start": 0,
+          "source": "auto",
+          "title": "Dnipro. Walking through Yavornytskoho avenue in December 2020. Fimi Palm 4K. Днепр пр. Яворнитского",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "poltava",
@@ -9857,7 +10549,25 @@
       ],
       "blurb": "A green provincial capital on the Vorskla that gave its name to the 1709 battle where Peter the Great broke Charles XII of Sweden and ended Swedish power in Europe. Its centre is an unusually complete circle of classical buildings around a single column.",
       "fun_fact": "Poltava is the heartland of the Ukrainian literary language — the dialect spoken around here was the one nineteenth-century writers standardised into modern literary Ukrainian.",
-      "hidden_gem_tip": "The Round Square is a genuine circle 375 m across, laid out in 1805, and every street in the old centre runs into it."
+      "hidden_gem_tip": "The Round Square is a genuine circle 375 m across, laid out in 1805, and every street in the old centre runs into it.",
+      "monuments": [
+        {
+          "name": "Holy Cross Monastery",
+          "yt": "EIc9AsMY5sU",
+          "start": 0,
+          "source": "auto",
+          "title": "Daytime Walking Tour Of The Holy Cross Abbey Monastery (Part 1) - 1st Floor",
+          "height": 1080
+        },
+        {
+          "name": "Vorskla River",
+          "yt": "EPzlp7Bn1AI",
+          "start": 0,
+          "source": "auto",
+          "title": "Vorskla river. 2020",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "uman",
@@ -9899,7 +10609,17 @@
       ],
       "blurb": "A small town in central Ukraine with one of the great landscape gardens of Europe in it — Sofiyivka, laid out in the 1790s by a Polish magnate as a gift to his wife, with granite grottoes, waterfalls and an underground river you travel by boat.",
       "fun_fact": "Uman is also the burial place of Rabbi Nachman of Breslov, and tens of thousands of Hasidic pilgrims travel here every Rosh Hashanah — a pilgrimage that continued even through the war years.",
-      "hidden_gem_tip": "The park's underground stretch, the Acheron, is a 220 m tunnel you row through in the dark before emerging into the lake."
+      "hidden_gem_tip": "The park's underground stretch, the Acheron, is a 220 m tunnel you row through in the dark before emerging into the lake.",
+      "monuments": [
+        {
+          "name": "Sofiyivka Park",
+          "yt": "sOlFgHbn_DA",
+          "start": 0,
+          "source": "auto",
+          "title": "The picturesque dendrological park of Sofiyivka in Uman, Ukraine",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "chernobyl",
@@ -9951,7 +10671,33 @@
       ],
       "blurb": "A 2,600 km² closed zone around the reactor that exploded on 26 April 1986, and inside it Pripyat — a city of 49,000 evacuated in three hours and never reoccupied. Forty years on the concrete is coming apart under trees, and the wildlife that moved into the emptiness is the densest in the region.",
       "fun_fact": "The reactor is now sealed under the New Safe Confinement, a 36,000 tonne arch slid into place over the ruin in 2016 — the largest moveable land structure ever built. A drone strike damaged its outer skin in February 2025.",
-      "hidden_gem_tip": "Russian forces occupied the zone in 2022 and dug trenches in contaminated ground; tourist access has been suspended since, and nothing here is currently open to visitors."
+      "hidden_gem_tip": "Russian forces occupied the zone in 2022 and dug trenches in contaminated ground; tourist access has been suspended since, and nothing here is currently open to visitors.",
+      "monuments": [
+        {
+          "name": "Pripyat",
+          "yt": "U8reRjMuaVk",
+          "start": 0,
+          "source": "auto",
+          "title": "Chernobyl / Pripyat, Ukraine 🇺🇦 - by drone [4K]",
+          "height": 2160
+        },
+        {
+          "name": "Chernobyl Nuclear Power Plant",
+          "yt": "wY1Hc2C6XzE",
+          "start": 0,
+          "source": "auto",
+          "title": "Chernobyl, Ukraine - Walking tour of territory Chernobyl Nuclear Power Plant",
+          "height": 2160
+        },
+        {
+          "name": "New Safe Confinement",
+          "yt": "BeZ8fMfJO14",
+          "start": 0,
+          "source": "auto",
+          "title": "Inside Chernobyl nuclear power plant and New Safe Confinement",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "carpathians-ukraine",
@@ -10003,7 +10749,33 @@
       ],
       "blurb": "The soft green end of the Carpathian arc, rounded rather than alpine, with wooden churches on the ridges and Hutsul villages in the valleys. Hoverla, the country's high point, is 2,061 m — a walk rather than a climb, and a national pilgrimage of sorts.",
       "fun_fact": "Some of the last primeval beech forest in Europe stands here, on the World Heritage list as part of a single site shared between eighteen countries.",
-      "hidden_gem_tip": "Lake Synevyr sits at 989 m in a bowl of spruce with no inflow you can see — it was dammed by a landslide about 10,000 years ago."
+      "hidden_gem_tip": "Lake Synevyr sits at 989 m in a bowl of spruce with no inflow you can see — it was dammed by a landslide about 10,000 years ago.",
+      "monuments": [
+        {
+          "name": "Hoverla",
+          "yt": "jJ9CSeE_6sc",
+          "start": 0,
+          "source": "auto",
+          "title": "Climbing the Highest Peak of Ukraine - Stunning Views From Mount Hoverla 4K - THE HIKER #8",
+          "height": 2160
+        },
+        {
+          "name": "Yaremche",
+          "yt": "zPg57HC0n9o",
+          "start": 0,
+          "source": "auto",
+          "title": "🔥 Yaremche Walking Tour 4K 🇺🇦 | Real Life in a Tourist Town (Not the Usual Routes)",
+          "height": 2160
+        },
+        {
+          "name": "Bukovel",
+          "yt": "aaeYapuVmsw",
+          "start": 0,
+          "source": "auto",
+          "title": "Bukovel🇺🇦 in Stunning 4K | Explore Ukraine’s Winter Wonderland",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "minsk",
@@ -10054,7 +10826,33 @@
       ],
       "blurb": "A capital rebuilt almost entirely after 1944, when the retreating front left perhaps a fifth of it standing — so the centre is a single sustained work of Stalinist planning, 15 km of colonnaded avenue laid out in one go. It is the most complete such ensemble anywhere, and unusually clean and quiet for its size.",
       "fun_fact": "The National Library is a 72 m glass rhombicuboctahedron that lights up as an animated screen after dark, and has an observation deck on top of the reading rooms.",
-      "hidden_gem_tip": "Trinity Hill is the one pocket of pre-war city left on the Svislach — a few blocks of nineteenth-century houses kept as a reminder of what the rest looked like."
+      "hidden_gem_tip": "Trinity Hill is the one pocket of pre-war city left on the Svislach — a few blocks of nineteenth-century houses kept as a reminder of what the rest looked like.",
+      "monuments": [
+        {
+          "name": "Independence Avenue",
+          "yt": "mnKJsVCcrN8",
+          "start": 0,
+          "source": "auto",
+          "title": "Minsk. Independence Avenue.",
+          "height": 2160
+        },
+        {
+          "name": "Victory Square",
+          "yt": "Vn6OmqjGZ2M",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] 🇧🇾 Minsk, Belarus ⛅ 🏛️ Independence Square to Victory Square and Victory Monument | July 2022",
+          "height": 2160
+        },
+        {
+          "name": "National Library of Belarus",
+          "yt": "_FnxTzatW8U",
+          "start": 0,
+          "source": "auto",
+          "title": "Minsk Walking Tour - Vostok Metro Area, National Library of Belarus | 4K Samsung Galaxy S25📱",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "mir-castle",
@@ -10096,7 +10894,25 @@
       ],
       "blurb": "A sixteenth-century brick castle on the flat Belarusian plain, five towers around a courtyard, Gothic in its bones with Renaissance floors added on top by the Radziwiłłs. It survived being a fortress, a ruin, a Nazi ghetto and a block of flats before it was restored.",
       "fun_fact": "The brickwork is deliberately patterned — bands of ochre plaster and red brick that make the towers read as striped from a distance, a local trick called Belarusian Gothic.",
-      "hidden_gem_tip": "The pond on the south side was dug so the castle would have a reflection; stand at its far bank for the view the builders intended."
+      "hidden_gem_tip": "The pond on the south side was dug so the castle would have a reflection; stand at its far bank for the view the builders intended.",
+      "monuments": [
+        {
+          "name": "Mir, Belarus",
+          "yt": "cxBRfU5lsuE",
+          "start": 0,
+          "source": "auto",
+          "title": "Mir Castle in Winters (-15°C) Belarus",
+          "height": 2160
+        },
+        {
+          "name": "Castle park",
+          "yt": "cTqG1lijzzM",
+          "start": 0,
+          "source": "auto",
+          "title": "Okinawa Walk - Okinawa Shurijo Castle Park - 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "nesvizh",
@@ -10139,7 +10955,17 @@
       ],
       "blurb": "The seat of the Radziwiłłs, the richest magnate family of the Polish-Lithuanian Commonwealth, 30 km from Mir — a palace rather than a fortress, wrapped in earthworks and moats and set in a park of five landscaped lakes.",
       "fun_fact": "Its Corpus Christi church, consecrated in 1593, was the first Baroque building in eastern Europe and the family's crypt underneath holds over seventy Radziwiłłs.",
-      "hidden_gem_tip": "The park is free and enormous, and the palace only makes sense from across the water — the approach was designed as a long reveal."
+      "hidden_gem_tip": "The park is free and enormous, and the palace only makes sense from across the water — the approach was designed as a long reveal.",
+      "monuments": [
+        {
+          "name": "Castle park",
+          "yt": "cTqG1lijzzM",
+          "start": 0,
+          "source": "auto",
+          "title": "Okinawa Walk - Okinawa Shurijo Castle Park - 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "brest-fortress",
@@ -10182,7 +11008,25 @@
       ],
       "blurb": "A nineteenth-century star fort at the confluence of the Bug and the Mukhavets, right on the Polish border, and the first Soviet ground attacked on 22 June 1941. Its garrison held out for weeks inside the ruins after the front had moved hundreds of kilometres east.",
       "fun_fact": "The fortress was left deliberately unrestored — the brickwork is still shot through, and the memorial built into it in 1971 is one of the starkest Soviet monuments anywhere.",
-      "hidden_gem_tip": "The Kholm Gate is the single most bullet-scarred surface on the site; the pattern of impacts is the exhibit."
+      "hidden_gem_tip": "The Kholm Gate is the single most bullet-scarred surface on the site; the pattern of impacts is the exhibit.",
+      "monuments": [
+        {
+          "name": "Brest, Belarus",
+          "yt": "jdeiAVgQle0",
+          "start": 0,
+          "source": "auto",
+          "title": "Belarus: Brest walking tour 4K.",
+          "height": 2160
+        },
+        {
+          "name": "Bug River",
+          "yt": "oV4AUeuMWR4",
+          "start": 0,
+          "source": "auto",
+          "title": "Bug River 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "belovezhskaya-pushcha",
@@ -10268,7 +11112,25 @@
       ],
       "blurb": "A limestone gorge on a bend of the Răut with a monastery cut into the cliff face, still occupied by monks, and a village of white stone houses on the plateau above. People have lived in these caves on and off since the Palaeolithic; Dacians, Mongols and Moldovans each built on top of the last.",
       "fun_fact": "The cave church's bell tower sticks out of the top of the cliff, so from the far bank you see a cross and a small doorway in a blank rock wall and nothing else of the monastery at all.",
-      "hidden_gem_tip": "Walk the ridge from Butuceni at sunset — the whole meander of the river opens up and the gorge glows."
+      "hidden_gem_tip": "Walk the ridge from Butuceni at sunset — the whole meander of the river opens up and the gorge glows.",
+      "monuments": [
+        {
+          "name": "Răut River",
+          "yt": "ljySVD5vu9A",
+          "start": 0,
+          "source": "auto",
+          "title": "Relaxing river sound no birds | Răut river - Trebujeni, Orhei, Republica Moldova  | Orheiul Vechi",
+          "height": 2160
+        },
+        {
+          "name": "Butuceni",
+          "yt": "nZdFwKxxEOQ",
+          "start": 0,
+          "source": "auto",
+          "title": "8K Ultra HDR - Butuceni village tour, Orheiul Vechi, Moldova",
+          "height": 4320
+        }
+      ]
     },
     {
       "id": "cricova",
@@ -10306,7 +11168,17 @@
       ],
       "blurb": "An underground city of wine 80 m below a town north of Chișinău — 120 km of galleries cut as limestone quarries in the fifteenth century and converted after 1952 into cellars where the temperature never moves off 12 °C. The tunnels have street names and you tour them by car.",
       "fun_fact": "Moldova has the largest wine cellars in the world by length; Cricova and nearby Mileștii Mici between them hold millions of bottles, and one collection was assembled from confiscated European cellars after 1945.",
-      "hidden_gem_tip": "The galleries are named after what is stored down them — Cabernet Street, Feteasca Street — so the address system is also the map."
+      "hidden_gem_tip": "The galleries are named after what is stored down them — Cabernet Street, Feteasca Street — so the address system is also the map.",
+      "monuments": [
+        {
+          "name": "Cricova winery",
+          "yt": "dBfW1jAtjOg",
+          "start": 0,
+          "source": "auto",
+          "title": "The Best of Moldova - Cricova Winery Full Underground City Sampling Tour",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "tartu",
@@ -10354,7 +11226,33 @@
       ],
       "blurb": "Estonia's university town and its intellectual capital, on the Emajõgi in the south. A quarter of the population is students, the classical university building is the front of the town, and the cathedral on the hill behind it has been a picturesque ruin since the Reformation.",
       "fun_fact": "The Estonian National Museum stands on a former Soviet military airfield, and its roof is a single plane that lifts off the end of the old runway like a continuation of it.",
-      "hidden_gem_tip": "The leaning house on the square — the Barclay House — tilts because one half stands on the old town wall and the other on soft riverbank."
+      "hidden_gem_tip": "The leaning house on the square — the Barclay House — tilts because one half stands on the old town wall and the other on soft riverbank.",
+      "monuments": [
+        {
+          "name": "University of Tartu",
+          "yt": "Xx_Hm7GkQGQ",
+          "start": 0,
+          "source": "auto",
+          "title": "TARTU Walking Tour 4K 🇪🇪 | Exploring Estonia’s Charming University City",
+          "height": 2160
+        },
+        {
+          "name": "Toomemägi",
+          "yt": "lRLJFBGZFd8",
+          "start": 0,
+          "source": "auto",
+          "title": "Tartu, Estonia. Autumn walk at Toomemägi (Toome hill). 4K",
+          "height": 2160
+        },
+        {
+          "name": "Raekoja plats",
+          "yt": "FfVv94cOf1k",
+          "start": 0,
+          "source": "auto",
+          "title": "Tartu 2024, Walking in Raekoja plats and city center near Emajõgi (Relaxing ASMR) 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "saaremaa",
@@ -10400,7 +11298,33 @@
       ],
       "blurb": "Estonia's largest island, low and juniper-covered in the Baltic, with a black-stone bishop's castle at Kuressaare that is the best-preserved medieval fortress in the whole region. It was a closed Soviet border zone for fifty years, which is why so little was built on it.",
       "fun_fact": "Kaali is a field of nine meteorite craters that fell within human memory, around 1500 BC — the main one is a perfectly round lake 110 m across, and Bronze Age people walled it as a sacred site.",
-      "hidden_gem_tip": "The island's junipers are the reason everything here — the smoked fish, the beer, the sauna — tastes faintly of them."
+      "hidden_gem_tip": "The island's junipers are the reason everything here — the smoked fish, the beer, the sauna — tastes faintly of them.",
+      "monuments": [
+        {
+          "name": "Kuressaare Castle",
+          "yt": "jv5uaf8EeA4",
+          "start": 0,
+          "source": "auto",
+          "title": "🇪🇪 Kuressaare Castle, Estonia – 360° VR Aerial Tour – Baltic Coastal Town",
+          "height": 2160
+        },
+        {
+          "name": "Kaali crater",
+          "yt": "zJdGPlfyeGk",
+          "start": 0,
+          "source": "auto",
+          "title": "Must Visit In Saaremaa Island: Panga Cliff, Angla Windmill Park And Kaali Crater 2024 4K | Estonia",
+          "height": 2160
+        },
+        {
+          "name": "Panga cliff",
+          "yt": "5-czgvA5f3U",
+          "start": 0,
+          "source": "auto",
+          "title": "Saaremaa, Estonia. Virtual tour in Panga cliff, Karja church and Liiva market. 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "lahemaa",
@@ -10445,7 +11369,33 @@
       ],
       "blurb": "The Soviet Union's first national park, declared in 1971 on the north coast east of Tallinn — a landscape of bog, pine forest, erratic boulders left by the ice, and four peninsulas of fishing villages that were sealed border zones until 1991.",
       "fun_fact": "Its 'boulder fields' are among the densest on Earth: glacial erratics the size of houses sitting in open forest, some of them named and used as landmarks for centuries.",
-      "hidden_gem_tip": "The Viru Bog boardwalk crosses 3.5 km of raised peat with pools you cannot see the bottom of — go at dawn, when the mist sits on it."
+      "hidden_gem_tip": "The Viru Bog boardwalk crosses 3.5 km of raised peat with pools you cannot see the bottom of — go at dawn, when the mist sits on it.",
+      "monuments": [
+        {
+          "name": "Palmse Manor",
+          "yt": "KJ8ZRiE2Pak",
+          "start": 0,
+          "source": "auto",
+          "title": "The manor of Palmse #3, Estonia",
+          "height": 1920
+        },
+        {
+          "name": "Viru Bog",
+          "yt": "N2ITCXJpog8",
+          "start": 0,
+          "source": "auto",
+          "title": "I Spent 24 Hours in Lahemaa National Park ft. Viru Bog, Jägala Waterfall",
+          "height": 2160
+        },
+        {
+          "name": "Käsmu",
+          "yt": "RdpWwyHgJuI",
+          "start": 0,
+          "source": "auto",
+          "title": "Wonderful walk by the sea in Käsmu, Estonia, 4K Baltic sea view, Ennja- Let go, travel music",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "sigulda",
@@ -10491,7 +11441,33 @@
       ],
       "blurb": "A town on the rim of the Gauja valley, with a red-brick crusader castle on one side, a bishop's castle on the other, and 90 m of sandstone gorge between them. Latvians call the valley the Livonian Switzerland, which is generous about the height and fair about the shape.",
       "fun_fact": "Gūtmaņala is the largest cave in the Baltics and its sandstone walls are covered in visitors' carved inscriptions, the oldest dating to the seventeenth century.",
-      "hidden_gem_tip": "A cable car crosses the gorge at 43 m — the only one in the Baltics, and the best way to see the valley in autumn colour."
+      "hidden_gem_tip": "A cable car crosses the gorge at 43 m — the only one in the Baltics, and the best way to see the valley in autumn colour.",
+      "monuments": [
+        {
+          "name": "Turaida Castle",
+          "yt": "NooflPqD9qM",
+          "start": 0,
+          "source": "auto",
+          "title": "Turaida, Latvia. Walking in the medieval castle. 4K",
+          "height": 2160
+        },
+        {
+          "name": "Gauja National Park",
+          "yt": "0c3djO_14Mw",
+          "start": 0,
+          "source": "auto",
+          "title": "Hiking in Latvia (Gauja National park) Sigulda - Ramkalni March 2025 4k",
+          "height": 2160
+        },
+        {
+          "name": "Gūtmaņala",
+          "yt": "uOavVOXD4dM",
+          "start": 0,
+          "source": "auto",
+          "title": "Gutmaņala - Intersanta vieta Latvijā - Sigulda",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "jurmala",
@@ -10537,7 +11513,33 @@
       ],
       "blurb": "A 26 km beach of white quartz sand backed by pine forest and a strip of wooden Art Nouveau villas, half an hour by train from Riga. It was the Soviet Union's most fashionable Baltic resort, and the timber summer houses from before that are still standing among the pines.",
       "fun_fact": "The sand is so fine and the shelf so shallow that you can wade out a hundred metres in the Gulf of Riga and still be waist-deep.",
-      "hidden_gem_tip": "Ķemeri, at the western end, is a raised bog with sulphur springs and a boardwalk — the smell is the point, and it is why the resort was built here in the first place."
+      "hidden_gem_tip": "Ķemeri, at the western end, is a raised bog with sulphur springs and a boardwalk — the smell is the point, and it is why the resort was built here in the first place.",
+      "monuments": [
+        {
+          "name": "Jomas Street",
+          "yt": "hOuVaAxlBvM",
+          "start": 0,
+          "source": "auto",
+          "title": "City walks series - Jūrmala, Latvia (Jomas street. 4K walking tour)",
+          "height": 2160
+        },
+        {
+          "name": "Dzintari Forest Park",
+          "yt": "YbBGviipmNc",
+          "start": 0,
+          "source": "auto",
+          "title": "JURMALA, DZINTARI FOREST PARK, LATVIA 🇱🇻 | KING SERVA",
+          "height": 1080
+        },
+        {
+          "name": "Ķemeri National Park",
+          "yt": "80BZ0Ci_b3s",
+          "start": 0,
+          "source": "auto",
+          "title": "Ķemeri / Jūrmala / Ķemeru ainavu parks / 4k",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "rundale",
@@ -10579,7 +11581,25 @@
       ],
       "blurb": "A Baroque summer palace on the flat plain of Zemgale, built for the Duke of Courland by Bartolomeo Rastrelli — the architect of the Winter Palace — in the 1730s, with 138 rooms and a French garden of 10 hectares behind it.",
       "fun_fact": "It was a school, a granary and a hospital in turn during the twentieth century; the restoration that gave it back its interiors took over fifty years and finished in 2015.",
-      "hidden_gem_tip": "The rose garden holds more than two thousand varieties and peaks in late June, when it is arguably the better half of the visit."
+      "hidden_gem_tip": "The rose garden holds more than two thousand varieties and peaks in late June, when it is arguably the better half of the visit.",
+      "monuments": [
+        {
+          "name": "Bauska Castle",
+          "yt": "eaxbF7hSFyc",
+          "start": 0,
+          "source": "auto",
+          "title": "A DAY OF HISTORY: HILL OF CROSSES / RUNDALE PALACE / BAUSKA CASTLE 4K",
+          "height": 2160
+        },
+        {
+          "name": "French garden",
+          "yt": "HOAR4sQ1HWY",
+          "start": 0,
+          "source": "auto",
+          "title": "The Rundāle Palace and French Garden | The Planet V [4K Ultra HD]",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "kaunas",
@@ -10631,7 +11651,33 @@
       ],
       "blurb": "Lithuania's second city and its provisional capital between the wars, when Vilnius was held by Poland — which is why an interwar-modernist city centre exists here and nowhere else in the Baltics. Some 6,000 buildings went up in twenty years, in a clean national style now on the World Heritage list.",
       "fun_fact": "Its main street, Laisvės alėja, is 1.6 km long, entirely pedestrian, and by local ordinance a non-smoking street for its whole length.",
-      "hidden_gem_tip": "Ride the 1931 funicular up Žaliakalnis — it still has its original wooden car and the operator sells tickets by hand."
+      "hidden_gem_tip": "Ride the 1931 funicular up Žaliakalnis — it still has its original wooden car and the operator sells tickets by hand.",
+      "monuments": [
+        {
+          "name": "Kaunas Castle",
+          "yt": "7m6YvdEYkAE",
+          "start": 0,
+          "source": "auto",
+          "title": "Travel to Lithuania - Kaunas - 4K - Kaunas Castle, bastion and walls - 2022",
+          "height": 2160
+        },
+        {
+          "name": "Laisvės alėja",
+          "yt": "wgPahY0xRl4",
+          "start": 0,
+          "source": "auto",
+          "title": "🇱🇹 Kaunas, Lithuania - Laisvės alėja (4K)",
+          "height": 2160
+        },
+        {
+          "name": "Ninth Fort",
+          "yt": "zBI0B7xsQU4",
+          "start": 0,
+          "source": "auto",
+          "title": "Ninth Fort in Kaunas, Lithuania",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "nida",
@@ -10678,7 +11724,33 @@
       ],
       "blurb": "A fishing village of blue-and-brown wooden houses on the Curonian Spit — a 98 km sandbar between a lagoon and the open Baltic, half Lithuanian and half Russian, nowhere more than 4 km wide and in places only 400 m.",
       "fun_fact": "The spit's dunes buried fourteen villages between the seventeenth and nineteenth centuries after the forest was felled for timber; the pine plantations that now hold the sand still still are a 200-year-old engineering project.",
-      "hidden_gem_tip": "A sundial stands on the Parnidis dune above the village. From it you can see the lagoon on one side and the sea on the other, with the Russian border a short walk south."
+      "hidden_gem_tip": "A sundial stands on the Parnidis dune above the village. From it you can see the lagoon on one side and the sea on the other, with the Russian border a short walk south.",
+      "monuments": [
+        {
+          "name": "Parnidis Dune",
+          "yt": "Gq6AJ3sWwxg",
+          "start": 0,
+          "source": "auto",
+          "title": "Parnidis dune | Lithuania | Cloudy days view from a viewpoint | 4K 60 FPS",
+          "height": 2160
+        },
+        {
+          "name": "Curonian Lagoon",
+          "yt": "DAZTP2z5cDM",
+          "start": 0,
+          "source": "auto",
+          "title": "🥾 4K Walking on the Frozen Curonian Lagoon | Surreal Winter Landscapes (No AI)",
+          "height": 2160
+        },
+        {
+          "name": "Thomas Mann House",
+          "yt": "m_IgcriEd3Q",
+          "start": 0,
+          "source": "auto",
+          "title": "Thomas Mann House in Pacific Palisades",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "hill-of-crosses",
@@ -10717,7 +11789,17 @@
       ],
       "blurb": "A low mound 12 km north of Šiauliai carrying well over a hundred thousand crosses, left by pilgrims since at least the 1830s. The Soviet authorities bulldozed the hill at least three times between 1961 and 1975 and it was rebuilt each time, overnight, by people who risked prison to do it.",
       "fun_fact": "Nobody counts them officially any more; the last serious attempt, in the 1990s, reached about 55,000 and the number has at least doubled since.",
-      "hidden_gem_tip": "Go when there is wind. The small crosses and rosaries hung on the large ones knock together, and the whole hill sounds like rain."
+      "hidden_gem_tip": "Go when there is wind. The small crosses and rosaries hung on the large ones knock together, and the whole hill sounds like rain.",
+      "monuments": [
+        {
+          "name": "Šiauliai",
+          "yt": "o7ds5C5iFNo",
+          "start": 0,
+          "source": "auto",
+          "title": "HILL OF CROSSES / Šiauliai, Lithuania - 4K HDR with captions",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "warsaw",
@@ -10769,7 +11851,33 @@
       ],
       "blurb": "A capital that was deliberately destroyed — some 85% of the left bank was demolished by the Germans after the 1944 uprising — and then rebuilt from paintings, photographs and memory. The old town you walk is a 1950s reconstruction, and it is on the World Heritage list precisely for that.",
       "fun_fact": "The rebuilders used Bernardo Bellotto's eighteenth-century cityscapes as working drawings, which is why the facades match a painter's view of the city rather than its last photographs.",
-      "hidden_gem_tip": "Łazienki's park concerts under the Chopin monument run every Sunday through summer and are free — the whole lawn fills up."
+      "hidden_gem_tip": "Łazienki's park concerts under the Chopin monument run every Sunday through summer and are free — the whole lawn fills up.",
+      "monuments": [
+        {
+          "name": "Old Town Market Place",
+          "yt": "vkhhavvey1E",
+          "start": 0,
+          "source": "auto",
+          "title": "[HD] Warsaw, Poland Street Walk Walking Tour July 2022-Old Town Market Place 波蘭華沙",
+          "height": 1080
+        },
+        {
+          "name": "Royal Castle",
+          "yt": "yUZadknxifI",
+          "start": 0,
+          "source": "auto",
+          "title": "Best of Warsaw (4K) - Old Town, City Walls, Castle Square, Sigimund’s Column, Royal Castle",
+          "height": 2160
+        },
+        {
+          "name": "Palace of Culture and Science",
+          "yt": "Gc9IHDjZ58Q",
+          "start": 0,
+          "source": "auto",
+          "title": "Warsaw Poland 🇵🇱 4K Walking Tour - The Palace of Culture and Science",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "gdansk",
@@ -10821,7 +11929,33 @@
       ],
       "blurb": "A Hanseatic port at the mouth of the Vistula, rich for six hundred years on Polish grain and Baltic amber, and a free city between the wars belonging to nobody. The Second World War began at its harbour mouth and the Soviet bloc started coming apart in its shipyard forty years later.",
       "fun_fact": "St. Mary's is the largest brick church in the world by volume, big enough for 25,000 people, and it has no spire because the tower was never finished.",
-      "hidden_gem_tip": "The medieval port crane on the waterfront was worked by men walking inside two enormous treadwheels, and you can still see them."
+      "hidden_gem_tip": "The medieval port crane on the waterfront was worked by men walking inside two enormous treadwheels, and you can still see them.",
+      "monuments": [
+        {
+          "name": "St. Mary's Church",
+          "yt": "WfmWz0wTpr8",
+          "start": 0,
+          "source": "auto",
+          "title": "St Mary`s Church in Gdansk virtual tour. Poland travel | 4K",
+          "height": 2160
+        },
+        {
+          "name": "European Solidarity Centre",
+          "yt": "Cp3qx9qsS44",
+          "start": 0,
+          "source": "auto",
+          "title": "We visit the European Solidarity Centre in Gdańsk Poland (Solidarność Museum)",
+          "height": 1080
+        },
+        {
+          "name": "Westerplatte",
+          "yt": "U7ez66CKFbE",
+          "start": 0,
+          "source": "auto",
+          "title": "Westerplatte Gdansk Drone 4k II  Gdańsk Westerplatte Dron",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "wroclaw",
@@ -10869,7 +12003,33 @@
       ],
       "blurb": "A city on twelve islands where the Oder splits, Bohemian then Austrian then Prussian then Polish, and repopulated almost entirely after 1945 when its German inhabitants left and Poles arrived from Lviv. Its market square is one of the largest in Europe and its cathedral island is where the city began.",
       "fun_fact": "Several hundred small bronze dwarfs are scattered around the pavements — they began as the symbol of an absurdist anti-communist protest movement in the 1980s and have been multiplying since.",
-      "hidden_gem_tip": "Centennial Hall, 1913, was the largest reinforced-concrete dome in the world when built — a piece of engineering history a tram ride from the old town."
+      "hidden_gem_tip": "Centennial Hall, 1913, was the largest reinforced-concrete dome in the world when built — a piece of engineering history a tram ride from the old town.",
+      "monuments": [
+        {
+          "name": "Wrocław Market Square",
+          "yt": "MCuccg7tpmQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Explore Wrocław in Poland | Stunning Drone Video of Market Square, Cathedral & Centennial Hall 4K",
+          "height": 2160
+        },
+        {
+          "name": "Ostrów Tumski",
+          "yt": "9PaHkzBjCAs",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] POLAND WROCLAW OSTROW TUMSKI WALKING TOUR/spacer PO OSTROWIE TUMSKIM WROCŁAW",
+          "height": 2160
+        },
+        {
+          "name": "Centennial Hall",
+          "yt": "K3qROD1mBV4",
+          "start": 0,
+          "source": "auto",
+          "title": "Wroclaw, Poland 🇵🇱 Walk: Centennial Hall & Multimedia Fountain | 4K Ultra HD | Hans Walker",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "torun",
@@ -10914,7 +12074,33 @@
       ],
       "blurb": "A Teutonic Order town on the Vistula whose Gothic centre came through the Second World War essentially untouched — no reconstruction, no infill, the original brick. Copernicus was born in a house on one of its streets in 1473.",
       "fun_fact": "Toruń gingerbread has been made here since the Middle Ages under guild rules, using carved wooden moulds, and the recipe was a protected civic secret.",
-      "hidden_gem_tip": "The town's leaning tower is part of the medieval wall and leans about 1.5 m off vertical — a defensive tower built on sand rather than a folly."
+      "hidden_gem_tip": "The town's leaning tower is part of the medieval wall and leans about 1.5 m off vertical — a defensive tower built on sand rather than a folly.",
+      "monuments": [
+        {
+          "name": "Old Town Hall",
+          "yt": "udEYQ0Z31WA",
+          "start": 0,
+          "source": "auto",
+          "title": "Old Town Hall, Torun, Poland- 40 METERS UP",
+          "height": 720
+        },
+        {
+          "name": "Leaning Tower",
+          "yt": "zeYlxE49B4Q",
+          "start": 0,
+          "source": "auto",
+          "title": "Pisa Walking Tour 2025 🇮🇹 | Leaning Tower, Cathedral & Hidden Gems in 4K",
+          "height": 2160
+        },
+        {
+          "name": "Teutonic Castle ruins",
+          "yt": "RP4aKOEw2eo",
+          "start": 0,
+          "source": "auto",
+          "title": "The ruins of the Teutonic Order castle Toruń | Zamek Krzyżacki | Mavic Cinematic Film",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "malbork",
@@ -10957,7 +12143,17 @@
       ],
       "blurb": "The largest castle in the world by land area, and the headquarters of the Teutonic Knights from 1309 — three fortresses inside one ring of walls on the bank of the Nogat, built entirely of brick because northern Poland has no building stone.",
       "fun_fact": "Something like 4.5 million bricks went into it. It was wrecked in 1945 and rebuilt over the following decades using the same nineteenth-century survey drawings that had guided its first restoration.",
-      "hidden_gem_tip": "View it from the far bank of the Nogat in late afternoon — the whole 1.5 km of wall turns red at once, which is the sight the order was buying."
+      "hidden_gem_tip": "View it from the far bank of the Nogat in late afternoon — the whole 1.5 km of wall turns red at once, which is the sight the order was buying.",
+      "monuments": [
+        {
+          "name": "Malbork",
+          "yt": "uEYLhaCrPCQ",
+          "start": 0,
+          "source": "auto",
+          "title": "World's Largest Castle in Malbork - 4K drone video",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "zakopane",
@@ -11008,7 +12204,33 @@
       ],
       "blurb": "Poland's mountain capital, at 800 m directly under the Tatras — the only genuinely alpine range in the country, packed into 60 km. A distinctive timber architecture was invented here in the 1890s as a conscious national style, and the town is still built in it.",
       "fun_fact": "Giewont, the ridge above the town, is said to be a sleeping knight in profile, and a 15 m iron cross has stood on its summit since 1901.",
-      "hidden_gem_tip": "Morskie Oko is a glacial lake 9 km up a closed road — walk it early, because it is the single most visited spot in the Polish mountains."
+      "hidden_gem_tip": "Morskie Oko is a glacial lake 9 km up a closed road — walk it early, because it is the single most visited spot in the Polish mountains.",
+      "monuments": [
+        {
+          "name": "Tatra Mountains",
+          "yt": "mWIg_q3ZNgE",
+          "start": 0,
+          "source": "auto",
+          "title": "Zakopane, Poland: 4K Summer Walk | Exploring the Heart of the Tatra Mountains",
+          "height": 2160
+        },
+        {
+          "name": "Giewont",
+          "yt": "KjAkzxxpwRA",
+          "start": 0,
+          "source": "auto",
+          "title": "TATRY i ZAKOPANE z drona - Gubałówka Giewont Nosal 4K  @DJI",
+          "height": 2160
+        },
+        {
+          "name": "Morskie Oko",
+          "yt": "QMIuzknx0Ug",
+          "start": 0,
+          "source": "auto",
+          "title": "Morskie Oko Zakopane Poland 🇵🇱 4K Winter Walking Tour January 2022",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "wieliczka",
@@ -11050,7 +12272,25 @@
       ],
       "blurb": "A salt mine worked continuously from the thirteenth century until 1996, 327 m deep and with over 245 km of galleries, in which miners carved chapels, chandeliers and whole rooms out of the rock salt itself. It was on the first World Heritage list in 1978.",
       "fun_fact": "The Chapel of St. Kinga is 101 m down, took three miners more than sixty years to carve, and everything in it — the altar, the floor tiles, the chandelier crystals — is salt.",
-      "hidden_gem_tip": "The tourist route is about 3.5 km and 800 steps, and the air is brine-saturated; the mine ran an underground sanatorium for asthma on exactly that basis."
+      "hidden_gem_tip": "The tourist route is about 3.5 km and 800 steps, and the air is brine-saturated; the mine ran an underground sanatorium for asthma on exactly that basis.",
+      "monuments": [
+        {
+          "name": "Chapel of St. Kinga",
+          "yt": "0fARpHYgvR4",
+          "start": 0,
+          "source": "auto",
+          "title": "Wieliczka salt mine Krakow - Poland - St. Kinga's Chapel",
+          "height": 1440
+        },
+        {
+          "name": "Wieliczka",
+          "yt": "0rNwAMBS2hI",
+          "start": 0,
+          "source": "auto",
+          "title": "Inside The WIELICZKA SALT MINE | Day trip from Krakow",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "bucharest",
@@ -11102,7 +12342,33 @@
       ],
       "blurb": "A capital of Belle Époque boulevards with a Stalinist megaproject dropped through the middle of it: Ceaușescu levelled a fifth of the historic city in the 1980s to build the Palace of the Parliament and its approach avenue, deliberately one metre wider than the Champs-Élysées.",
       "fun_fact": "The Palace of the Parliament is the heaviest building in the world and the largest administrative building outside the Pentagon — and roughly 70% of it stands empty.",
-      "hidden_gem_tip": "The Village Museum on Herăstrău lake is 300 real peasant buildings moved here from across the country — the counterweight to everything downtown."
+      "hidden_gem_tip": "The Village Museum on Herăstrău lake is 300 real peasant buildings moved here from across the country — the counterweight to everything downtown.",
+      "monuments": [
+        {
+          "name": "Palace of the Parliament",
+          "yt": "mOjAkKmzKxc",
+          "start": 0,
+          "source": "auto",
+          "title": "The Palace of the Parliament in Bucharest 4k",
+          "height": 2160
+        },
+        {
+          "name": "Romanian Athenaeum",
+          "yt": "eKfhynH8ZKs",
+          "start": 0,
+          "source": "auto",
+          "title": "The Romanian Athenaeum (Ateneul Român) 🇷🇴 | A Story of Survival | Bucharest 4K Drone",
+          "height": 2160
+        },
+        {
+          "name": "Lipscani",
+          "yt": "RRFkRW_ZWZA",
+          "start": 0,
+          "source": "auto",
+          "title": "[4k] Summer Day in Bucharest Old City Center 2024 | Explore Lipscani in Stunning Detail",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "brasov",
@@ -11154,7 +12420,33 @@
       ],
       "blurb": "A Saxon town under a forested mountain in the bend of the Carpathians, founded by German settlers in the thirteenth century and run by them for seven hundred years. The square, the guild towers and the great hall church are all theirs; the mountain starts at the end of the streets.",
       "fun_fact": "The Black Church is the largest Gothic church between Vienna and Istanbul and got its name from a 1689 fire that left the walls soot-stained for centuries.",
-      "hidden_gem_tip": "Rope Street is barely a metre wide and was built as a firefighters' access lane; Bran Castle, marketed as Dracula's, is 30 km south and has essentially nothing to do with him."
+      "hidden_gem_tip": "Rope Street is barely a metre wide and was built as a firefighters' access lane; Bran Castle, marketed as Dracula's, is 30 km south and has essentially nothing to do with him.",
+      "monuments": [
+        {
+          "name": "Black Church",
+          "yt": "eN63_7JVZB4",
+          "start": 0,
+          "source": "auto",
+          "title": "A walk around the Black Church in Brasov, Romania (4K)",
+          "height": 2160
+        },
+        {
+          "name": "Council Square",
+          "yt": "QVNioDurlmI",
+          "start": 0,
+          "source": "auto",
+          "title": "🇷🇴 Brașov, Romania - The Council Square, Black Church ⛪, Rope Street 🌟 4K HDR Morning Walking Tour",
+          "height": 2160
+        },
+        {
+          "name": "Tâmpa",
+          "yt": "XG9JW31O4qA",
+          "start": 0,
+          "source": "auto",
+          "title": "BRAȘOV Walking Tour 4K – Sub Tâmpa, Schei Gate, Rope Street & City Walls 🎧 Immersive City Walk",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "danube-delta",
@@ -11202,7 +12494,33 @@
       ],
       "blurb": "Where the Danube finishes, spreading into 4,150 km² of reed bed, channel and floating island before the Black Sea — the largest and best-preserved delta in Europe, and the youngest land on the continent, still growing seaward by 40 m a year.",
       "fun_fact": "Around 300 bird species use it, including the world's largest colony of great white pelicans, and the reed beds here are the biggest single expanse of reed anywhere on Earth.",
-      "hidden_gem_tip": "Nothing in the delta has roads. Villages like Mila 23 are reached by boat only, and the ferry down from Tulcea takes most of a day."
+      "hidden_gem_tip": "Nothing in the delta has roads. Villages like Mila 23 are reached by boat only, and the ferry down from Tulcea takes most of a day.",
+      "monuments": [
+        {
+          "name": "Sulina",
+          "yt": "wkCCCSetpOw",
+          "start": 0,
+          "source": "auto",
+          "title": "SULINA - DANUBE DELTA 4K",
+          "height": 2160
+        },
+        {
+          "name": "Letea Forest",
+          "yt": "-MNT2bPxPQo",
+          "start": 0,
+          "source": "auto",
+          "title": "Inside Romania's Ancient Forest 🇷🇴 | Letea Forest Walk",
+          "height": 2160
+        },
+        {
+          "name": "Danube",
+          "yt": "jECJlepg3PI",
+          "start": 0,
+          "source": "auto",
+          "title": "Danube Delta Romania 🇷🇴 Crisan | Sulina Beach | Delta Dunarii 2022 Danube Delta Trip Danube Delta 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "maramures",
@@ -11249,7 +12567,33 @@
       ],
       "blurb": "A valley region against the Ukrainian border where a pre-industrial peasant culture is still, in places, a working way of life — hay cut by scythe, carved wooden gates on every farmyard, and tall shingled churches with spires like sharpened pencils.",
       "fun_fact": "The Merry Cemetery at Săpânța marks each grave with a painted blue cross carrying a comic verse about how the person lived and, often bluntly, how they died.",
-      "hidden_gem_tip": "The Mocănița on the Vaser valley is a working steam narrow-gauge forestry railway, not a heritage recreation — it still hauls timber."
+      "hidden_gem_tip": "The Mocănița on the Vaser valley is a working steam narrow-gauge forestry railway, not a heritage recreation — it still hauls timber.",
+      "monuments": [
+        {
+          "name": "Wooden Churches of Maramureș",
+          "yt": "g6ozDt2-7bw",
+          "start": 0,
+          "source": "auto",
+          "title": "The Wooden Churches of Maramureş, Romania",
+          "height": 2160
+        },
+        {
+          "name": "Merry Cemetery",
+          "yt": "yAFbFQC563Q",
+          "start": 0,
+          "source": "auto",
+          "title": "Merry Cemetery from Sapanta | Maramures | Romania | 4K",
+          "height": 2160
+        },
+        {
+          "name": "Bârsana",
+          "yt": "t0Kc89yaA3Q",
+          "start": 0,
+          "source": "auto",
+          "title": "BÂRSANA Monastery (drone Maramures, Romania)",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "plovdiv",
@@ -11297,7 +12641,33 @@
       ],
       "blurb": "One of the oldest continuously inhabited cities in Europe — eight thousand years on the same hills — and layered accordingly: a Thracian citadel, a Roman theatre still used for opera, an Ottoman mosque, and a hillside of nineteenth-century merchant houses with overhanging upper floors.",
       "fun_fact": "The Roman stadium ran 240 m under what is now the main pedestrian street; you can see one curved end of it through a glass floor in the middle of the shops.",
-      "hidden_gem_tip": "Kapana, the old craftsmen's quarter, is a grid of tiny lanes that has turned into the city's studio and bar district without being rebuilt."
+      "hidden_gem_tip": "Kapana, the old craftsmen's quarter, is a grid of tiny lanes that has turned into the city's studio and bar district without being rebuilt.",
+      "monuments": [
+        {
+          "name": "Roman theatre of Philippopolis",
+          "yt": "PZU4qh1zxUU",
+          "start": 0,
+          "source": "auto",
+          "title": "Roman theatre of Philippopolis or Пловдивски античен театър. DRONE! WOW! - Plovdiv Bulgaria - ECTV",
+          "height": 2160
+        },
+        {
+          "name": "Old Town",
+          "yt": "PeO8fPziWq8",
+          "start": 0,
+          "source": "auto",
+          "title": "Plovdiv Old Town Walking Tour 4K",
+          "height": 2160
+        },
+        {
+          "name": "Kapana",
+          "yt": "mvTSsVSpdYE",
+          "start": 0,
+          "source": "auto",
+          "title": "Plovdiv Walking Tour - Knyaz Alexander I, Estadio Romano, Kapana 🇧🇬 4K POV",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "rila-monastery",
@@ -11339,7 +12709,25 @@
       ],
       "blurb": "The largest monastery in Bulgaria, in a fold of the Rila mountains at 1,150 m — a fortress wall on the outside, and inside, four storeys of black-and-white striped arcades around a church covered end to end in frescoes. It held the language and the liturgy through five centuries of Ottoman rule.",
       "fun_fact": "The monastery is on the back of the 1 lev note, and its stone defensive tower from 1335 is the one part of the medieval complex that survived the fire of 1833.",
-      "hidden_gem_tip": "Stay for the evening: the day-trip buses from Sofia leave by four and the courtyard goes completely quiet."
+      "hidden_gem_tip": "Stay for the evening: the day-trip buses from Sofia leave by four and the courtyard goes completely quiet.",
+      "monuments": [
+        {
+          "name": "Rila Mountains",
+          "yt": "icXhZm5WE4E",
+          "start": 0,
+          "source": "auto",
+          "title": "Rila Monastery: Bulgaria's Crown Jewel in the Rila Mountains",
+          "height": 1080
+        },
+        {
+          "name": "Church of the Nativity",
+          "yt": "hvli23DhkSE",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Bethlehem Palestine ❤️  Walking Tour - Church of the Nativity - Birthplace of Jesus",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "veliko-tarnovo",
@@ -11385,7 +12773,17 @@
       ],
       "blurb": "The capital of the Second Bulgarian Empire, built on three hills in the meanders of the Yantra with houses stacked so steeply that each roof is the next one's terrace. The royal fortress of Tsarevets occupies its own hill inside a loop of the river.",
       "fun_fact": "For two centuries this was one of the largest and richest cities in south-eastern Europe, and contemporaries called it the Third Rome after Rome and Constantinople.",
-      "hidden_gem_tip": "The old craft street, Samovodska Charshia, still has working potters, coppersmiths and bakers rather than souvenir shops."
+      "hidden_gem_tip": "The old craft street, Samovodska Charshia, still has working potters, coppersmiths and bakers rather than souvenir shops.",
+      "monuments": [
+        {
+          "name": "Tsarevets",
+          "yt": "d_SpGoYPBhs",
+          "start": 0,
+          "source": "auto",
+          "title": "Exploring the Tsarevets Fortress of Veliko Tarnovo, Bulgaria 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "nessebar",
@@ -11431,7 +12829,33 @@
       ],
       "blurb": "A rocky peninsula on the Black Sea joined to the mainland by a 300 m isthmus, occupied for three thousand years and holding the ruins of more than forty medieval churches — a Byzantine provincial style of brick and stone banding you find almost nowhere else intact.",
       "fun_fact": "A third of the ancient town has been lost to the sea; foundations of Roman and medieval buildings lie in shallow water off the north shore and can be seen from a boat on a calm day.",
-      "hidden_gem_tip": "The upper town's wooden Black Sea houses, with their whitewashed stone ground floors and overhanging timber upper storeys, are the same pattern you meet all the way round the coast."
+      "hidden_gem_tip": "The upper town's wooden Black Sea houses, with their whitewashed stone ground floors and overhanging timber upper storeys, are the same pattern you meet all the way round the coast.",
+      "monuments": [
+        {
+          "name": "Church of Christ Pantocrator",
+          "yt": "Mc0tClJXB-U",
+          "start": 0,
+          "source": "auto",
+          "title": "Nessebar, Neseber, Nesebyr, Несебър - Christ Pantocrator Church - Old Nessebar",
+          "height": 1080
+        },
+        {
+          "name": "Black Sea",
+          "yt": "WEKajEHwIo8",
+          "start": 0,
+          "source": "auto",
+          "title": "Nessebar & Sunny Beach 2025 🇧🇬 | 4K/UHD60FPS | Black Sea Coast from Above | Drone 4K",
+          "height": 2160
+        },
+        {
+          "name": "Old Windmill",
+          "yt": "eLwbTqjt5YI",
+          "start": 0,
+          "source": "auto",
+          "title": "Tranquil walk along Dutch Windmills near The Hague - 4K HDR",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "taganrog",
@@ -11488,7 +12912,25 @@
       ],
       "blurb": "Russia's first naval base, laid out by Peter the Great in 1698 on a cape sticking into the Sea of Azov — a purpose-built port two decades older than Saint Petersburg. Greek and Italian merchants made the money and built the town, which is why a provincial Russian port has an Italian architect's stone staircase running down to the water and a palace on Frunze Street.",
       "fun_fact": "The Depaldo Stairs of 1823 predate Odesa's far more famous Potemkin Steps by two decades, and use the same trick: the flights narrow as they descend, so the staircase looks the same width the whole way down from the top and impossibly long from the bottom.",
-      "hidden_gem_tip": "Go down the stairs to Pushkin Embankment in the evening, when the whole town walks the seafront and the Azov — the shallowest sea in the world, barely 14 m at its deepest — goes flat and silver."
+      "hidden_gem_tip": "Go down the stairs to Pushkin Embankment in the evening, when the whole town walks the seafront and the Azov — the shallowest sea in the world, barely 14 m at its deepest — goes flat and silver.",
+      "monuments": [
+        {
+          "name": "Pushkin Embankment",
+          "yt": "KZMr4H1ZcI4",
+          "start": 0,
+          "source": "auto",
+          "title": "Пушкинская набережная Таганрог Март 2022 | Pushkinskaya embankment Taganrog March 2022 Gopro10",
+          "height": 2160
+        },
+        {
+          "name": "Taganrog Bay",
+          "yt": "Us3uvoODGok",
+          "start": 0,
+          "source": "auto",
+          "title": "Herons in Taganrog bay near Merdjanova village. May 2021.",
+          "height": 2160
+        }
+      ]
     }
   ]
 }

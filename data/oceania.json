@@ -64,6 +64,30 @@
           "name": "Sydney Opera House",
           "yt": "50LJQz5bRFQ",
           "start": 0
+        },
+        {
+          "name": "Sydney Harbour Bridge",
+          "yt": "uJUQMcyUvgs",
+          "start": 0,
+          "source": "auto",
+          "title": "Explore Sydney Harbour Bridge Sydney Australia | 4K Walking Tour",
+          "height": 2160
+        },
+        {
+          "name": "Bondi Beach",
+          "yt": "ISehgdfVlSg",
+          "start": 0,
+          "source": "auto",
+          "title": "WALKING TOUR SYDNEY AUSTRALIA | Bondi Beach is SIZZLING | 4KUHD | Binaural 🎧",
+          "height": 2160
+        },
+        {
+          "name": "The Rocks",
+          "yt": "2_hmHwkDAfc",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking Tour of The Rocks, Sydney | Historic Streets & Harbour Views | 4K UHD 🇦🇺",
+          "height": 2160
         }
       ]
     },
