@@ -146,10 +146,15 @@ class Resolver:
             chunk = want[i:i + 40]
             self._fetch_titles(chunk)
             self.save()
-        # second pass: the P625 of everything that got a wikidata item
+        # second pass: the P625 (and P17) of everything that got a wikidata item.
+        # `country_qid` is checked separately from `lat` so entries cached
+        # before P17 was extracted get topped up on their next resolve rather
+        # than reporting a country of None forever — a stale cache that answers
+        # confidently is the `Cairo_Citadel` failure again.
         need = [s for s in dict.fromkeys(slugs)
                 if s in self.cache and self.cache[s].get("qid")
-                and "lat" not in self.cache[s]]
+                and ("lat" not in self.cache[s]
+                     or "country_qid" not in self.cache[s])]
         qids = list(dict.fromkeys(self.cache[s]["qid"] for s in need))
         for i in range(0, len(qids), 40):
             self._fetch_coords(qids[i:i + 40], need)
@@ -239,6 +244,23 @@ class Resolver:
                         break
             self.cache[s]["lat"] = val["latitude"] if val else None
             self.cache[s]["lng"] = val["longitude"] if val else None
+
+            # P17 (country) — a stronger namesake guard than any bounding box.
+            # A box says "somewhere on this continent", which is exactly the
+            # question a namesake is best at slipping past: Lagos, Portugal is
+            # at 37.1N -8.7E, INSIDE any box drawn around Africa, and would
+            # have passed. The country claim answers the question the record
+            # actually makes — "this is the Lagos in Nigeria" — and it is one
+            # field away in a response we were already asking for.
+            p17 = (e.get("claims") or {}).get("P17") or []
+            cq = None
+            for c in p17:
+                v = ((c.get("mainsnak") or {}).get("datavalue") or {}).get("value")
+                if isinstance(v, dict) and v.get("id"):
+                    cq = v["id"]
+                    if c.get("rank") == "preferred":
+                        break
+            self.cache[s]["country_qid"] = cq
             self.dirty = True
 
 

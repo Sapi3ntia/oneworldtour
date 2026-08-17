@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-18",
+  "generated": "2026-08-17",
   "note": "Curated routes. Every stop id MUST resolve to a place in a region file — tools/check_trips.py enforces it. A trip that points at a place we don't have is the same species of lie as a fake live cam.",
   "trips": [
     {
@@ -928,6 +928,108 @@
         {
           "id": "salar-de-uyuni",
           "note": "Ten thousand square kilometres of salt. In the wet season a few centimetres of water turn the whole thing into a mirror."
+        }
+      ]
+    },
+    {
+      "id": "cape-to-cairo",
+      "name": "Cape to Cairo",
+      "emoji": "🚂",
+      "mode": "overland",
+      "region": "South Africa → Egypt",
+      "days": "3 months",
+      "hero": "victoria-falls",
+      "tagline": "The length of a continent, bottom to top.",
+      "blurb": "Cecil Rhodes wanted a railway from the Cape to Cairo under one flag and never got it — the line still has gaps, and the politics that were the point of it are gone. What survived is the route: nine countries, roughly 10,000 km, and the only overland journey that crosses every landscape Africa has. Travellers still do it by bus, truck, ferry and whatever train is running that month. Read the stops south to north, the direction the road is usually taken.",
+      "stops": [
+        {
+          "id": "cape-town",
+          "note": "Table Mountain at your back and the whole continent in front of you. Mile zero, by convention."
+        },
+        {
+          "id": "johannesburg",
+          "note": "The gold reef the southern railways were built to reach. Nobody founded this city for the view."
+        },
+        {
+          "id": "matobo",
+          "note": "Balancing granite whalebacks in Zimbabwe, and the hill where Rhodes is buried — the route's own origin, at the halfway point of its southern leg."
+        },
+        {
+          "id": "victoria-falls",
+          "note": "1,700 metres of river going over an edge at once. The spray is visible from 50 km away and the bridge across the gorge is still the border post."
+        },
+        {
+          "id": "south-luangwa",
+          "note": "Where the walking safari was invented, because the Luangwa valley has no roads worth driving."
+        },
+        {
+          "id": "lake-malawi",
+          "note": "560 km of freshwater with more fish species than any lake on earth. The road runs beside it for days."
+        },
+        {
+          "id": "ngorongoro",
+          "note": "A collapsed volcano 19 km across with its own resident wildlife, which mostly never leaves."
+        },
+        {
+          "id": "nairobi",
+          "note": "The halfway city, and the only capital in the world with a national park inside its boundary."
+        },
+        {
+          "id": "lalibela",
+          "note": "Detour into the Ethiopian highlands for eleven churches carved downward out of the rock. Worth losing a week over."
+        },
+        {
+          "id": "khartoum",
+          "note": "Where the Blue Nile meets the White and the two colours run side by side for a while before mixing."
+        },
+        {
+          "id": "meroe",
+          "note": "Two hundred Nubian pyramids in open desert, steeper and smaller than Egypt's, and usually empty of people."
+        },
+        {
+          "id": "aswan",
+          "note": "Back on the river, and back in Egypt. Granite islands, feluccas, and the desert on both banks."
+        },
+        {
+          "id": "cairo",
+          "note": "The end of the line — twenty million people at the top of the continent you just crossed."
+        }
+      ]
+    },
+    {
+      "id": "swahili-coast",
+      "name": "The Swahili Coast",
+      "emoji": "⛵",
+      "mode": "boat",
+      "region": "Kenya → Mozambique",
+      "days": "3 weeks",
+      "hero": "stone-town",
+      "tagline": "Down the monsoon coast, port by port.",
+      "blurb": "For a thousand years the northeast monsoon carried dhows from Arabia and India down this coast between November and March, and the southwest monsoon carried them home. The trading towns that grew on the strength of that wind share a language, a coral-rag architecture and a cuisine, and they run 2,000 km from the Lamu archipelago to Mozambique Island. The route is still best read as a sailing itinerary, north to south with the wind.",
+      "stops": [
+        {
+          "id": "lamu",
+          "note": "The oldest continuously inhabited Swahili town, and still one with almost no cars — donkeys and dhows do the work."
+        },
+        {
+          "id": "mombasa",
+          "note": "The deep-water harbour everyone fought over. Fort Jesus changed hands nine times in a century."
+        },
+        {
+          "id": "stone-town",
+          "note": "Zanzibar's old quarter, built of coral rag and carved doors, and the point where the clove and slave trades met."
+        },
+        {
+          "id": "dar-es-salaam",
+          "note": "A 19th-century sultan's 'house of peace' that became the coast's largest city almost by accident."
+        },
+        {
+          "id": "moroni",
+          "note": "The Comoros, mid-channel — a volcanic capital of coral-stone alleys that most maps of this coast leave off."
+        },
+        {
+          "id": "ilha-de-mocambique",
+          "note": "The stone island at the southern end, capital of Portuguese East Africa for four centuries and reachable only by a 3 km single-lane bridge."
         }
       ]
     }

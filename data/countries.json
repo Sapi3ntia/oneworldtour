@@ -50,6 +50,14 @@
       "locations": 21
     },
     {
+      "code": "ZA",
+      "name": "South Africa",
+      "flag": "🇿🇦",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 17
+    },
+    {
       "code": "CL",
       "name": "Chile",
       "flag": "🇨🇱",
@@ -138,10 +146,34 @@
       "locations": 11
     },
     {
+      "code": "MA",
+      "name": "Morocco",
+      "flag": "🇲🇦",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 11
+    },
+    {
+      "code": "EG",
+      "name": "Egypt",
+      "flag": "🇪🇬",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 10
+    },
+    {
       "code": "DE",
       "name": "Germany",
       "flag": "🇩🇪",
       "continent": "Europe",
+      "status": "live",
+      "locations": 10
+    },
+    {
+      "code": "KE",
+      "name": "Kenya",
+      "flag": "🇰🇪",
+      "continent": "Africa",
       "status": "live",
       "locations": 10
     },
@@ -194,6 +226,14 @@
       "locations": 8
     },
     {
+      "code": "ET",
+      "name": "Ethiopia",
+      "flag": "🇪🇹",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 8
+    },
+    {
       "code": "LA",
       "name": "Laos",
       "flag": "🇱🇦",
@@ -206,6 +246,14 @@
       "name": "Myanmar",
       "flag": "🇲🇲",
       "continent": "Asia",
+      "status": "live",
+      "locations": 8
+    },
+    {
+      "code": "NA",
+      "name": "Namibia",
+      "flag": "🇳🇦",
+      "continent": "Africa",
       "status": "live",
       "locations": 8
     },
@@ -226,9 +274,9 @@
       "locations": 8
     },
     {
-      "code": "ZA",
-      "name": "South Africa",
-      "flag": "🇿🇦",
+      "code": "TN",
+      "name": "Tunisia",
+      "flag": "🇹🇳",
       "continent": "Africa",
       "status": "live",
       "locations": 8
@@ -266,6 +314,14 @@
       "locations": 7
     },
     {
+      "code": "DZ",
+      "name": "Algeria",
+      "flag": "🇩🇿",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 6
+    },
+    {
       "code": "AM",
       "name": "Armenia",
       "flag": "🇦🇲",
@@ -286,14 +342,6 @@
       "name": "Kazakhstan",
       "flag": "🇰🇿",
       "continent": "Asia",
-      "status": "live",
-      "locations": 6
-    },
-    {
-      "code": "KE",
-      "name": "Kenya",
-      "flag": "🇰🇪",
-      "continent": "Africa",
       "status": "live",
       "locations": 6
     },
@@ -322,6 +370,14 @@
       "locations": 6
     },
     {
+      "code": "TZ",
+      "name": "Tanzania",
+      "flag": "🇹🇿",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 6
+    },
+    {
       "code": "TR",
       "name": "Turkey",
       "flag": "🇹🇷",
@@ -346,6 +402,14 @@
       "locations": 5
     },
     {
+      "code": "BW",
+      "name": "Botswana",
+      "flag": "🇧🇼",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 5
+    },
+    {
       "code": "BG",
       "name": "Bulgaria",
       "flag": "🇧🇬",
@@ -362,9 +426,9 @@
       "locations": 5
     },
     {
-      "code": "MA",
-      "name": "Morocco",
-      "flag": "🇲🇦",
+      "code": "MG",
+      "name": "Madagascar",
+      "flag": "🇲🇬",
       "continent": "Africa",
       "status": "live",
       "locations": 5
@@ -374,6 +438,14 @@
       "name": "Venezuela",
       "flag": "🇻🇪",
       "continent": "South America",
+      "status": "live",
+      "locations": 5
+    },
+    {
+      "code": "ZW",
+      "name": "Zimbabwe",
+      "flag": "🇿🇼",
+      "continent": "Africa",
       "status": "live",
       "locations": 5
     },
@@ -402,9 +474,9 @@
       "locations": 4
     },
     {
-      "code": "EG",
-      "name": "Egypt",
-      "flag": "🇪🇬",
+      "code": "CD",
+      "name": "DR Congo",
+      "flag": "🇨🇩",
       "continent": "Africa",
       "status": "live",
       "locations": 4
@@ -442,10 +514,42 @@
       "locations": 4
     },
     {
+      "code": "ML",
+      "name": "Mali",
+      "flag": "🇲🇱",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 4
+    },
+    {
       "code": "NL",
       "name": "Netherlands",
       "flag": "🇳🇱",
       "continent": "Europe",
+      "status": "live",
+      "locations": 4
+    },
+    {
+      "code": "NG",
+      "name": "Nigeria",
+      "flag": "🇳🇬",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 4
+    },
+    {
+      "code": "NO",
+      "name": "Norway",
+      "flag": "🇳🇴",
+      "continent": "Europe",
+      "status": "live",
+      "locations": 4
+    },
+    {
+      "code": "SN",
+      "name": "Senegal",
+      "flag": "🇸🇳",
+      "continent": "Africa",
       "status": "live",
       "locations": 4
     },
@@ -490,6 +594,14 @@
       "locations": 4
     },
     {
+      "code": "UG",
+      "name": "Uganda",
+      "flag": "🇺🇬",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 4
+    },
+    {
       "code": "UY",
       "name": "Uruguay",
       "flag": "🇺🇾",
@@ -506,6 +618,22 @@
       "locations": 3
     },
     {
+      "code": "BJ",
+      "name": "Benin",
+      "flag": "🇧🇯",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 3
+    },
+    {
+      "code": "CM",
+      "name": "Cameroon",
+      "flag": "🇨🇲",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 3
+    },
+    {
       "code": "CU",
       "name": "Cuba",
       "flag": "🇨🇺",
@@ -514,9 +642,17 @@
       "locations": 3
     },
     {
-      "code": "ET",
-      "name": "Ethiopia",
-      "flag": "🇪🇹",
+      "code": "CI",
+      "name": "Côte d'Ivoire",
+      "flag": "🇨🇮",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 3
+    },
+    {
+      "code": "GH",
+      "name": "Ghana",
+      "flag": "🇬🇭",
       "continent": "Africa",
       "status": "live",
       "locations": 3
@@ -546,10 +682,34 @@
       "locations": 3
     },
     {
+      "code": "LS",
+      "name": "Lesotho",
+      "flag": "🇱🇸",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 3
+    },
+    {
+      "code": "LY",
+      "name": "Libya",
+      "flag": "🇱🇾",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 3
+    },
+    {
       "code": "MT",
       "name": "Malta",
       "flag": "🇲🇹",
       "continent": "Europe",
+      "status": "live",
+      "locations": 3
+    },
+    {
+      "code": "MU",
+      "name": "Mauritius",
+      "flag": "🇲🇺",
+      "continent": "Africa",
       "status": "live",
       "locations": 3
     },
@@ -562,10 +722,10 @@
       "locations": 3
     },
     {
-      "code": "NO",
-      "name": "Norway",
-      "flag": "🇳🇴",
-      "continent": "Europe",
+      "code": "MZ",
+      "name": "Mozambique",
+      "flag": "🇲🇿",
+      "continent": "Africa",
       "status": "live",
       "locations": 3
     },
@@ -578,10 +738,26 @@
       "locations": 3
     },
     {
+      "code": "RW",
+      "name": "Rwanda",
+      "flag": "🇷🇼",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 3
+    },
+    {
       "code": "SA",
       "name": "Saudi Arabia",
       "flag": "🇸🇦",
       "continent": "Asia",
+      "status": "live",
+      "locations": 3
+    },
+    {
+      "code": "SC",
+      "name": "Seychelles",
+      "flag": "🇸🇨",
+      "continent": "Africa",
       "status": "live",
       "locations": 3
     },
@@ -610,6 +786,22 @@
       "locations": 3
     },
     {
+      "code": "ZM",
+      "name": "Zambia",
+      "flag": "🇿🇲",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 3
+    },
+    {
+      "code": "AO",
+      "name": "Angola",
+      "flag": "🇦🇴",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 2
+    },
+    {
       "code": "BE",
       "name": "Belgium",
       "flag": "🇧🇪",
@@ -622,6 +814,30 @@
       "name": "Brunei",
       "flag": "🇧🇳",
       "continent": "Asia",
+      "status": "live",
+      "locations": 2
+    },
+    {
+      "code": "BF",
+      "name": "Burkina Faso",
+      "flag": "🇧🇫",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 2
+    },
+    {
+      "code": "CV",
+      "name": "Cape Verde",
+      "flag": "🇨🇻",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 2
+    },
+    {
+      "code": "TD",
+      "name": "Chad",
+      "flag": "🇹🇩",
+      "continent": "Africa",
       "status": "live",
       "locations": 2
     },
@@ -642,18 +858,34 @@
       "locations": 2
     },
     {
-      "code": "CD",
-      "name": "DR Congo",
-      "flag": "🇨🇩",
+      "code": "DK",
+      "name": "Denmark",
+      "flag": "🇩🇰",
+      "continent": "Europe",
+      "status": "live",
+      "locations": 2
+    },
+    {
+      "code": "DJ",
+      "name": "Djibouti",
+      "flag": "🇩🇯",
       "continent": "Africa",
       "status": "live",
       "locations": 2
     },
     {
-      "code": "DK",
-      "name": "Denmark",
-      "flag": "🇩🇰",
-      "continent": "Europe",
+      "code": "ER",
+      "name": "Eritrea",
+      "flag": "🇪🇷",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 2
+    },
+    {
+      "code": "SZ",
+      "name": "Eswatini",
+      "flag": "🇸🇿",
+      "continent": "Africa",
       "status": "live",
       "locations": 2
     },
@@ -666,6 +898,22 @@
       "locations": 2
     },
     {
+      "code": "GA",
+      "name": "Gabon",
+      "flag": "🇬🇦",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 2
+    },
+    {
+      "code": "GN",
+      "name": "Guinea",
+      "flag": "🇬🇳",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 2
+    },
+    {
       "code": "GY",
       "name": "Guyana",
       "flag": "🇬🇾",
@@ -674,26 +922,26 @@
       "locations": 2
     },
     {
+      "code": "MW",
+      "name": "Malawi",
+      "flag": "🇲🇼",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 2
+    },
+    {
+      "code": "MR",
+      "name": "Mauritania",
+      "flag": "🇲🇷",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 2
+    },
+    {
       "code": "ME",
       "name": "Montenegro",
       "flag": "🇲🇪",
       "continent": "Europe",
-      "status": "live",
-      "locations": 2
-    },
-    {
-      "code": "NA",
-      "name": "Namibia",
-      "flag": "🇳🇦",
-      "continent": "Africa",
-      "status": "live",
-      "locations": 2
-    },
-    {
-      "code": "SN",
-      "name": "Senegal",
-      "flag": "🇸🇳",
-      "continent": "Africa",
       "status": "live",
       "locations": 2
     },
@@ -710,6 +958,30 @@
       "name": "Slovakia",
       "flag": "🇸🇰",
       "continent": "Europe",
+      "status": "live",
+      "locations": 2
+    },
+    {
+      "code": "SO",
+      "name": "Somalia",
+      "flag": "🇸🇴",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 2
+    },
+    {
+      "code": "SS",
+      "name": "South Sudan",
+      "flag": "🇸🇸",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 2
+    },
+    {
+      "code": "SD",
+      "name": "Sudan",
+      "flag": "🇸🇩",
+      "continent": "Africa",
       "status": "live",
       "locations": 2
     },
@@ -734,6 +1006,14 @@
       "name": "Timor-Leste",
       "flag": "🇹🇱",
       "continent": "Asia",
+      "status": "live",
+      "locations": 2
+    },
+    {
+      "code": "TG",
+      "name": "Togo",
+      "flag": "🇹🇬",
+      "continent": "Africa",
       "status": "live",
       "locations": 2
     },
@@ -770,6 +1050,30 @@
       "locations": 1
     },
     {
+      "code": "BI",
+      "name": "Burundi",
+      "flag": "🇧🇮",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 1
+    },
+    {
+      "code": "CF",
+      "name": "Central African Republic",
+      "flag": "🇨🇫",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 1
+    },
+    {
+      "code": "KM",
+      "name": "Comoros",
+      "flag": "🇰🇲",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 1
+    },
+    {
       "code": "CY",
       "name": "Cyprus",
       "flag": "🇨🇾",
@@ -778,9 +1082,25 @@
       "locations": 1
     },
     {
+      "code": "GQ",
+      "name": "Equatorial Guinea",
+      "flag": "🇬🇶",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 1
+    },
+    {
       "code": "GM",
       "name": "Gambia",
       "flag": "🇬🇲",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 1
+    },
+    {
+      "code": "GW",
+      "name": "Guinea-Bissau",
+      "flag": "🇬🇼",
       "continent": "Africa",
       "status": "live",
       "locations": 1
@@ -810,6 +1130,14 @@
       "locations": 1
     },
     {
+      "code": "LR",
+      "name": "Liberia",
+      "flag": "🇱🇷",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 1
+    },
+    {
       "code": "LU",
       "name": "Luxembourg",
       "flag": "🇱🇺",
@@ -822,6 +1150,14 @@
       "name": "Micronesia",
       "flag": "🇫🇲",
       "continent": "Oceania",
+      "status": "live",
+      "locations": 1
+    },
+    {
+      "code": "NE",
+      "name": "Niger",
+      "flag": "🇳🇪",
+      "continent": "Africa",
       "status": "live",
       "locations": 1
     },
@@ -842,18 +1178,34 @@
       "locations": 1
     },
     {
-      "code": "VA",
-      "name": "Vatican City",
-      "flag": "🇻🇦",
-      "continent": "Europe",
+      "code": "CG",
+      "name": "Republic of the Congo",
+      "flag": "🇨🇬",
+      "continent": "Africa",
       "status": "live",
       "locations": 1
     },
     {
-      "code": "ZW",
-      "name": "Zimbabwe",
-      "flag": "🇿🇼",
+      "code": "SL",
+      "name": "Sierra Leone",
+      "flag": "🇸🇱",
       "continent": "Africa",
+      "status": "live",
+      "locations": 1
+    },
+    {
+      "code": "ST",
+      "name": "São Tomé and Príncipe",
+      "flag": "🇸🇹",
+      "continent": "Africa",
+      "status": "live",
+      "locations": 1
+    },
+    {
+      "code": "VA",
+      "name": "Vatican City",
+      "flag": "🇻🇦",
+      "continent": "Europe",
       "status": "live",
       "locations": 1
     }
