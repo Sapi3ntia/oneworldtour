@@ -93,8 +93,8 @@ windows, no frozen widgets posing as live cams.
 - **City Guesser** (`guess.html`) — dropped into a mystery scene (the walk video,
   title hidden), pin the world map, scored on great-circle distance, 5 rounds,
   spoiler-free emoji share.
-- **Trips** (`trips.html`, `trips.html?id=…`) — 19 curated routes people actually
-  travel (the Euro Trip, Route 66, the Trans-Siberian, the Banana Pancake Trail…),
+- **Trips** (`trips.html`, `trips.html?id=…`) — 21 curated routes people actually
+  travel (the Euro Trip, Route 66, the Trans-Siberian, Cape to Cairo…),
   each drawn on the world map as numbered stops, then listed stop by stop with a
   line on why that stop is on the route. See below.
 - **Passport** (`passport.html`) — stamps by country, rank, achievements, notes,
@@ -1020,6 +1020,133 @@ would have *moved* Taganrog out of Europe. `sets` is the additive form instead �
 places keep their home region and join the shelf as well. The chip carries no label,
 on purpose.
 
+**Africa** (`africa.json` 23 → 182, 2026-08-17). The largest gap the atlas had: a
+continent of 54 countries represented by 23 places in **7** of them, eight of which
+were name-and-coordinate skeletons. Every country is now on the map — **54 of 54**,
+none of them empty — built with `tools/build_africa.py`. Egypt 4 → 12, Morocco
+5 → 13, South Africa 5 → 14, Tanzania 0 → 8, Namibia 0 → 6, Ethiopia 3 → 8, Kenya
+3 → 8, and forty-four countries that had nothing at all now have between one and
+eight, from Malabo and Bissau's Bijagós to the Ennedi Plateau and Lac Assal.
+
+The registry had to be fixed before any of it counted: `tools/build_countries.py`
+knew about **10** African countries and the atlas now covers 54, so 44 went in
+(106 → **150** countries registered). Five of them — Guinea, Guinea-Bissau,
+Equatorial Guinea, Liberia and the Central African Republic — had never been
+registered *or* populated, so each got authored places of its own rather than a
+registry row pointing at nothing.
+
+- **The country name is a join key, and nothing says so.** `live_counts()` matches
+  `loc["country"]` against the registry's **canonical name string**. The first draft
+  of the generator's `COUNTRY_CODE` said `"Ivory Coast"` and `"Democratic Republic of
+  the Congo"` — both perfectly correct English, both a spelling the registry doesn't
+  use, and the result would have been Côte d'Ivoire and DR Congo showing **zero
+  places** while quietly holding four apiece. Nothing errors; the count is just wrong.
+  Every name in the generator is now copied from the registry verbatim, with the
+  reason written next to it.
+- **A bounding box cannot catch an African namesake.** Every other regional generator
+  refuses a record whose P625 lands outside the continent, and here that guard is not
+  enough: any box wide enough to hold Bizerte at 37.28°N also holds **Lagos,
+  *Portugal*** at 37.10°N. So the box stays as the hard refusal and a second check
+  went in beside it — **Wikidata P17 against the country the record claims**, reported
+  as a warning. A warning rather than a refusal because P17 legitimately disagrees:
+  `Tripoli,_Libya` carries Q3433694, **Tripolitania**, not Libya. Five warnings
+  survived this batch and all five are real — Laas Geel is in Somaliland, Lake
+  Malawi's P17 is Tanzania, the Drakensberg's is Lesotho, Koutammakou's is Benin.
+- **Four highlights resolved somewhere else entirely, and the same box would have
+  passed all four.** Abidjan's `Le_Plateau` → **Le Plateau-Mont-Royal, Montreal**.
+  Windhoek's `Independence_Memorial_Museum` → the one in **Colombo**, 7,571 km away.
+  Skeleton Coast's `Terrace_Bay` → a township in **Ontario**. Soweto's
+  `Vilakazi_Street` → **Benedict Wallet Vilakazi**, the poet the street is named for,
+  which is a person and therefore a monument search term that can only return
+  something wrong. Fourteen more had a real article under a different title —
+  `Sibebe_Rock`→`Sibebe`, `Ducor_Palace_Hotel`→`Ducor_Hotel`,
+  `Old_Fort,_Zanzibar`→`Old_Fort_of_Zanzibar`, `Red_Castle,_Tripoli`→`Red_Castle
+  _Museum` — and thirteen have no article at all and ship as plain text chips.
+- **The "highlights are structures, not peoples" rule is unusually easy to break
+  here.** *Dogon*, *Ashanti*, *Maasai*, *Berber*, *Zulu*, *Himba*, *Nubian* all read
+  like places on the page and are all peoples. The authored highlights name the
+  Bandiagara Escarpment, Manhyia Palace and the Nubian pyramids instead — things a
+  camera can point at.
+- **`search_name` earned its second outing seven times over.** Tripoli (Lebanon),
+  Lagos (Portugal), Saint-Louis (Missouri), Victoria (British Columbia, Hong Kong,
+  Australia), Moroni (Italy), Djibouti the city inside Djibouti the country, and
+  Livingstone (the man). Each one is a collision no title guard can see, so the fix
+  lands on the query rather than on the result.
+
+Two routes went in with it (`trips.json`, **21** now). **Cape to Cairo** 🚂 is the
+north–south spine — Cape Town · Johannesburg · Matobo · Victoria Falls · South
+Luangwa · Lake Malawi · Ngorongoro · Nairobi · Lalibela · Khartoum · Meroë · Aswan
+· Cairo, 8,691 km as the crow flies and thirteen stops that did not all exist
+before this batch. It is named for a railway that was never finished and for a
+politics that is gone; the blurb says so rather than pretending the name is
+neutral. **The Swahili Coast** ⛵ is the other axis — Lamu · Mombasa · Stone Town ·
+Dar es Salaam · Moroni · Ilha de Moçambique, read north to south because that is
+the direction the northeast monsoon carried the dhows.
+
+**The three loose ends from the Hovden batch, closed.** All of them were about a
+run that lies by omission rather than by error:
+
+- **`tools/medialock.py`** — `media.json` had three concurrent writers
+  (`enrich_media`, `harvest_cams`, `prune_media`) and no lock, each of which read the
+  whole file at startup and wrote the whole file back at every checkpoint. Two
+  overlapping runs meant the second one silently reverted the first. The module gives
+  them `flock` on a `data/.media.lock` **sidecar** (a sidecar because `os.replace()`
+  swaps inodes, so a lock on the file itself is a lock on a file nobody has any more),
+  a re-read *inside* the lock, and an atomic `mkstemp`+`fsync`+`os.replace` write. The
+  rule it documents: a mutate function must never assign back a subtree it captured
+  earlier — `doc["places"][pid] = entry`, never `doc["places"] = my_places`.
+- **`--max` now reports its backlog.** Both enrichers defaulted to 10 places per run
+  and printed nothing about the rest, so a truncated sweep and a complete one produced
+  identical-looking logs — which is how batch after batch ran at 10 against a corpus
+  of 900 and every one read as finished. They now count candidates *before* capping,
+  warn in the header, and end with `done — this run only` versus `done — every
+  candidate place was looked at`. Turning that on immediately surfaced what the
+  Hovden notes predicted: **786** places want a monument search and **893** want a
+  media seat, corpus-wide. That backlog was always there; it just had nothing that
+  printed it.
+- **"Nothing verifiable — honest gap" no longer prints when nobody looked.** The
+  streak abort only fired at eight consecutive empty responses, so the first seven
+  throttled places recorded a permanent-looking verdict on a search that never ran.
+  Each place now measures the empty responses that occurred *during it* and prints
+  `NOT LOOKED AT` instead. A gap is a finding; a throttle is not. **And the first
+  version of that fix over-corrected, which the Africa sweep caught:** counting
+  empties alone flagged Loango and Ranomafana as throttled on every re-run, forever.
+  They weren't. `find_monument`'s second query drops the city — `Iguéla Lagoon 4K
+  walking tour` — and for an obscure landmark YouTube genuinely answers zero. The
+  premise "empty means throttled" only holds for a *broad* query. The evidence that
+  separates the two is whether YouTube served **any** search during that place: if it
+  answered even once it was not refusing us, so an empty is a real zero. Both
+  enrichers now share `em.verdict(found, blind, served)` and print the reason
+  (`3 narrow search(es) came back genuinely empty; YouTube was answering us`). An
+  instrument that cries throttle at a real gap is the same bug wearing the other mask
+  — it just wastes re-runs instead of hiding them.
+
+**A fourth one this batch went looking for, and found.** Registering 44 countries is
+not the same as *supporting* them. `js/lib/culture.js` keys its four tables on the
+country **name**, and none of the 44 had rows — so every new African place rendered
+"Language —, Currency —, Local specialities", no phrases, no fast facts and no
+currency converter, while still looking like a finished page (the radio list kept
+working, because that reads `country_code` off the place record and never touches
+these tables — which is exactly why the hole was easy to miss). Auditing the registry
+against all four tables turned up **59 more** already-shipped places in the same state
+from the Eurasia and Latin America batches — Ecuador, Myanmar, Uzbekistan, Belarus and
+nine others. `tools/build_culture.py` now covers all **150** registry countries, and:
+
+- its output path was still `js/culture.js`, a file that has since moved — the script
+  had been un-runnable for some time, which is why it drifted;
+- it emits into single-quoted JS strings and **escaped nothing**, so `Côte d'Ivoire`
+  and `N'Djamena` would have written a syntactically broken `culture.js`;
+- it replaces its marked block wholesale, and four countries hand-added to that block
+  (DR Congo, Namibia, North Korea, Zimbabwe) were never mirrored back into `ROWS` — so
+  the next run would have silently deleted them. They are back in `ROWS`, and
+  `check_no_orphans()` now **aborts the run** rather than dropping a key it doesn't
+  recognise. Verified purely additive: 95 → 152 keys per table, nothing lost, no
+  pre-existing value changed.
+
+The general lesson, worth applying to the next region: *finish the country, not just
+the place*. Adding rows to `data/countries.json` silently promises culture rows,
+currency codes and radio codes that nothing checks for you.
+
 | rule | why |
 | --- | --- |
 | coordinates from **Wikidata P625**, not an OSM administrative centroid | a Chinese prefecture-level city is a *region*. OSM's "Chongqing" node sits at 30.06N 107.87E, ~200 km out in the rural east; P625 puts it in Yuzhong, which is the city. Nominatim is for villages and scenic areas that Wikidata has no point for, and the matched object gets eyeballed |
@@ -1032,6 +1159,14 @@ on purpose.
 | `region` is **user-visible** | `passport.js` prints it under the place name, so a municipality needs "Beijing Municipality" or the card reads "Beijing / Beijing" |
 | a namesake **inside the same country** needs `search_name` — no downstream guard can catch it | `wrong_place_title` works by spotting a *different* place named in the title, and two Norwegian Hovdens defeat that completely: both videos honestly say "Hovden", both honestly say "Norway", and the only thing that disagrees is a coordinate the text never mentions. The fix has to land before the search, not after — `search_name` sharpens the query (`"Hovden Vesterålen"`) while `name` stays short enough for a map pin. Set it **only** for genuine collisions; it is not a relevance knob |
 | membership in more than one category goes in `sets`, never a second region file | `data.js` derives `region_id` from *which file a place lives in*, so the collections (`ancient`, `wild`, `observatory`) are mutually exclusive by construction — moving Taganrog into a fourth would delete it from Europe. `sets` is the additive form: the place declares extra memberships in its own record and keeps its home region. Adding any such field to the merge means **bumping `CACHE_KEY`** — a place cached under the old version has no `sets` key and a filter calling `.includes()` on it throws for as long as the entry stays warm |
+| a country name written into a place is a **join key** — copy it from the registry, never retype it | `build_countries.py`'s `live_counts()` matches `loc["country"]` against the registry's canonical name *string*. "Ivory Coast" and "Democratic Republic of the Congo" are both correct English and neither is the spelling the registry uses, so a country would have shown **zero places** while holding four. Nothing errors, nothing warns — the number is just wrong |
+| the continent box is the refusal; **Wikidata P17** is the warning beside it | a box wide enough for Bizerte (37.28°N) also contains **Lagos, Portugal** (37.10°N), so on this continent the box cannot catch a namesake on its own. P17 can, but only as a warning: `Tripoli,_Libya` carries **Tripolitania**, and lakes, ranges and cultural landscapes routinely name a neighbour. Print it, read it, don't automate it |
+| every writer of `data/media.json` goes through **`tools/medialock.py`** | three tools wrote it concurrently, each reading the whole file at startup and writing the whole file back at every checkpoint — so two overlapping runs meant the second silently reverted the first. The lock is on a `.media.lock` **sidecar**, because `os.replace()` swaps inodes and a lock on the file itself is a lock on a file nobody holds any more. Re-read inside the lock, and never assign back a subtree captured before it |
+| a capped run must say **what it did not do** | `--max` defaulted to 10 and printed nothing about the remainder, so a truncated sweep and a finished one produced the same-shaped log. Both enrichers now count candidates before capping and end with `done — this run only` or `done — every candidate place was looked at`. Switching it on revealed a standing backlog of 786 monument searches and 893 media seats that nothing had ever printed |
+| **"nothing verifiable" is a finding; a throttle is not** — but an empty search is only evidence of a throttle if **nothing** answered | the streak abort fires at eight consecutive empty YouTube responses, which left the first seven places of a throttled run recording an honest-looking gap on a search that never ran. Each place now measures what happened during *it*. The counter-example is just as important: a narrow query (`Iguéla Lagoon 4K walking tour`, city dropped) genuinely returns zero, and counting empties alone flagged Loango and Ranomafana as "re-run this place" *permanently*. `em.verdict()` asks whether YouTube served any search during that place before it calls anything a refusal. Related: reproduce a sweep rejection with the places **registered** — a bare import never runs `register_place()`, so `wrong_place_title` compares against an empty corpus and cheerfully approves what the real run refused |
+| adding a country to the registry is a promise to **four other tables** | `culture.js` keys `COUNTRY_PROFILES` / `COUNTRY_CODES` / `CURRENCY_CODES` / `COUNTRY_FACTS` on the country *name*. A place in a country missing from them renders "Language —, Currency —, Local specialities" with no phrases, no fast facts and no converter — and still looks finished, because the radio list reads `country_code` off the place and never consults these tables. Run `build_culture.py` and diff the registry against all four after **any** region batch; that audit found 44 new African gaps and 59 already-shipped places from earlier batches |
+| a generator that **replaces a marked block** must refuse to drop keys it doesn't know | `build_culture.py` rewrites its block wholesale from `ROWS`, so four countries hand-added to `culture.js` and never mirrored back would have vanished on the next run — no error, no diff anyone reads. `check_no_orphans()` now exits non-zero and names them. Same shape as the `--max` lie: the dangerous run is the one whose log looks normal |
+| anything emitted into a **single-quoted JS string** gets escaped, not just the strings that need it today | `build_culture.py` interpolated raw values, which was fine until the data contained `Côte d'Ivoire` and `N'Djamena` — an apostrophe closes the string early and breaks the whole module for every page. `esc()` is applied to keys and all fields, including the ones that look safe |
 
 ---
 

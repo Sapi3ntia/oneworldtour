@@ -38,11 +38,31 @@ The architecture itself is documented in [`README.md`](README.md).
 - **Review auto-picks.** `media.json` quality is good but not curated-good; promote
   great finds into the region JSON (`walk`/`webcam`/`window`) and they become
   permanent.
-- **More monuments** — **690 of 706 places (97%) now have them**, up from 30 (8%)
-  before the 2026-07-18 sweep: 1,603 auto + 48 curated tabs, almost all 2160p.
-  Coverage is essentially **done as a breadth problem**; the 16 places left are
-  hamlets and nature sites with nothing to shoot, and re-running them a second
-  time on a quiet line returned the same nothing. Further sweeps should use
+- **More monuments** — the 97%-complete figure below was true of a 706-place
+  atlas and has been **overtaken by growth, not by regression**. The corpus is
+  969 places now (South America, Southeast Asia, Texas, Africa), and the
+  `--max` backlog reporting added on 2026-08-17 finally prints what a capped run
+  leaves behind: **786 places still have landmarks left to search.** Nothing broke
+  — every sweep since the default `--max 10` went in was doing a tenth of the
+  work and printing a log that looked complete. Treat the numbers in the rest of
+  this bullet as the 2026-07-18 snapshot they are, and read the new
+  `done — this run only` / `done — every candidate place was looked at` line at
+  the end of every run.
+
+  Africa has since been swept in full — 159 places, `--per-city 3`, **328 tabs
+  added**, ending on `every candidate place was looked at`, which brings
+  `africa.json` to **173 of 182 places with monuments (385 tabs)**. The nine
+  without are genuine: Dougga, Leptis Magna, Chinguetti, Fouta Djallon, Massawa,
+  Lake Assal, Matobo Hills, Loango and Ranomafana — all searched, all verified
+  empty rather than skipped. That leaves roughly **630 places** in the rest of the
+  corpus still wanting a first monument search; the same one-region-at-a-time
+  sweep is what clears them.
+
+  *(2026-07-18 snapshot)* **690 of 706 places (97%) had them**, up from 30 (8%)
+  before that sweep: 1,603 auto + 48 curated tabs, almost all 2160p.
+  Coverage looked essentially **done as a breadth problem**; the 16 places left
+  were hamlets and nature sites with nothing to shoot, and re-running them a
+  second time on a quiet line returned the same nothing. Further sweeps should use
   `--per-city 3` to *deepen* marquee cities rather than widen coverage — but
   **run `prune_monuments.py` dry straight afterwards**, because the
   highlight-as-search-term fault (see 2026-08-02 below)
@@ -51,6 +71,22 @@ The architecture itself is documented in [`README.md`](README.md).
   pass can audit the whole set for quality *and* honesty with no network. The
   pre-2026-08-02 picks that survived the backfill all have both; anything written
   before the `MIN_HEIGHT = 720` floor has no height and would need re-querying.
+- **Scenes for the ~83 African places still without one.** The 85 headline places
+  (capitals and marquee sites) were swept on 2026-08-17 and ended on `every
+  candidate place was looked at`: **188 seats** — 87 drive, 71 walk, 16 live, 10
+  window, 2+2 night — bringing `africa.json` to **99 of 182 places with at least
+  one seat**, and **not one `NOT LOOKED AT`** in the run. Only 8 places came back
+  as real gaps (Meroë, Djenné, Timbuktu and Robben Island among them — no vetted
+  footage exists, not "we were throttled"). What is left is the ~83 quieter
+  places: national parks, small islands and second cities. Run `--only <ids>` in
+  batches of roughly 85; that took ~85 minutes without tripping the throttle
+  once. Note that `search_name` is set on seven of them
+  (Tripoli, Lagos, Saint-Louis, Victoria, Moroni, Djibouti City, Livingstone) and
+  the enrichers already honour it. Two related gaps are **sparse by design, not
+  bugs** — worth knowing before someone "fixes" them: `data/windy.json` covers 5
+  of the 182 African places, and `data/tv.json` covers 9 country codes *worldwide*
+  (not even US or UK), because every channel in it was verified actually
+  streaming. Both degrade to nothing at runtime rather than to something fake.
 - **Scenes for the 63 new South American places.** 86 of `latinamerica.json`'s 93
   records carry no inline `walk`; `media.json` already covers 21 of them, so **65
   have no walk seat anywhere**. Monuments got the whole rate-limit budget this
@@ -103,7 +139,7 @@ The architecture itself is documented in [`README.md`](README.md).
 - **Day/night terminator** on the SVG map (v1 had one on Leaflet) — project the
   solar terminator as a translucent SVG path; cheap math, nice "alive" signal.
 - **Fly the Tour** — the *animated* half of v1's trip planner: a plane gliding
-  leg by leg along the route. 🧭 **Trips shipped** (`data/trips.json`, 18 curated
+  leg by leg along the route. 🧭 **Trips shipped** (`data/trips.json`, 21 curated
   routes drawn with `drawLine` + numbered `addStop` markers), so the data and the
   map work are done; what's left is the animation — a dot interpolated along each
   leg (`geo.interpolate` already exists) with the stop list scrolling to follow.
@@ -192,6 +228,62 @@ dropped in v2 — resurrect from git if missed); satellite descend-from-orbit.
 ---
 
 ## Recently landed (so it isn't re-litigated)
+
+- **Africa, all 54 countries (2026-08-17):** `africa.json` 23 → 182 places, from
+  7 countries to 54 with none of them empty. `tools/build_africa.py` is the
+  generator; `tools/build_countries.py` gained 44 African rows (registry 106 →
+  150). Two guards are new and both are written up in the README: the continent
+  **bounding box cannot catch an African namesake** (Lagos, *Portugal* sits
+  inside any box wide enough for Tunisia), so a **Wikidata P17** country check
+  runs beside it as a *warning* — a warning because P17 legitimately disagrees
+  (`Tripoli,_Libya` carries Tripolitania, and lakes and ranges name a
+  neighbour). And a **country name written into a place record is a join key**:
+  `live_counts()` matches it against the registry's canonical string, so
+  "Ivory Coast" would have shown Côte d'Ivoire holding zero places while it held
+  four. Copy the name from the registry; never retype it.
+- **Every registry country has culture rows again (2026-08-17):** registering 44
+  countries is not the same as supporting them. `js/lib/culture.js` keys its four
+  tables on the country **name**, so all 44 new African countries — and, it turned
+  out, **13 countries covering 59 already-shipped places** from the Eurasia and
+  Latin America batches (Ecuador, Myanmar, Uzbekistan, Belarus, Venezuela and
+  eight more) — rendered "Language —, Currency —, Local specialities", no phrases,
+  no fast facts and no currency converter. The page still looked finished, because
+  the radio list reads `country_code` off the place record and never consults
+  these tables. `tools/build_culture.py` now covers all **150** registry
+  countries, and three latent bugs in it are fixed: its output path still pointed
+  at `js/culture.js` (moved long ago, so the script was un-runnable, which is how
+  it drifted); it escaped nothing on the way into single-quoted JS strings, so
+  `Côte d'Ivoire` and `N'Djamena` would have emitted a broken module; and it
+  replaces its marked block wholesale, so four countries hand-added to
+  `culture.js` and never mirrored into `ROWS` (DR Congo, Namibia, North Korea,
+  Zimbabwe) would have been silently deleted on the next run — they are back in
+  `ROWS`, and `check_no_orphans()` now aborts instead of dropping an unrecognised
+  key. Verified purely additive: 95 → 152 keys per table, nothing lost, no
+  pre-existing value changed. **Re-run this audit after any region batch.**
+- **`data/media.json` has a lockfile (2026-08-17):** `tools/medialock.py`.
+  Three tools wrote that file concurrently with no lock, each reading it whole at
+  startup and writing it whole back at every checkpoint, so two overlapping runs
+  meant the second silently reverted the first. `flock` on a `data/.media.lock`
+  **sidecar** (not the file — `os.replace()` swaps inodes), a re-read inside the
+  lock, and an atomic write. `enrich_media`, `harvest_cams` and `prune_media` all
+  go through it. The rule: never assign back a subtree captured before the lock.
+- **A capped run now says what it did not do (2026-08-17):** both enrichers
+  defaulted to `--max 10` and printed nothing about the remainder, so a truncated
+  sweep and a finished one produced identically-shaped logs. They now count
+  candidates before capping, warn in the header, and end with `done — this run
+  only` or `done — every candidate place was looked at`. Related and shipped with
+  it: **"nothing verifiable — honest gap" no longer prints when nobody looked** —
+  the streak abort only fires at eight consecutive empty YouTube responses, so
+  the first seven places of a throttled run recorded a permanent-looking verdict
+  on a search that never ran. Each place now measures the empties that occurred
+  during *it* and prints `NOT LOOKED AT` instead. **The Africa sweep then caught
+  that fix over-correcting**, which is worth remembering: counting empties alone
+  flagged Loango and Ranomafana as throttled on every re-run forever, when in
+  fact `find_monument`'s second query drops the city (`Iguéla Lagoon 4K walking
+  tour`) and YouTube genuinely returns zero for it. "Empty means throttled" only
+  holds for a *broad* query; the evidence that separates a refusal from a real
+  zero is whether YouTube served **any** search during that place. Both enrichers
+  now share `em.verdict(found, blind, served)` and print which case they're in.
 
 - **Fanning places that zoom can't separate (2026-08-08):** Adding Camps Bay put
   three places — Cape Town, Table Mountain, Camps Bay — inside 5 km of each
