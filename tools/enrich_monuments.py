@@ -383,12 +383,25 @@ def main():
             print(f"note: {len(skipped)} named place(s) need no work "
                   f"(already at the cap, or no landmarks to search): "
                   f"{', '.join(skipped)}")
+    # Count the candidates BEFORE capping, and say how many are being left.
+    # A truncated sweep that prints ten lines and `done.` is indistinguishable
+    # from a complete one — which is how batch after batch ran at the default
+    # of 10 against a corpus of 900+ and every one of them read as finished.
+    candidates = len(todo)
     todo = todo[: args.max]
-    print(f"hunting monuments for {len(todo)} place(s)")
+    backlog = candidates - len(todo)
+    print(f"hunting monuments for {len(todo)} of {candidates} candidate place(s)")
+    if backlog:
+        print(f"  ⚠ --max is {args.max}, so {backlog} place(s) with landmarks "
+              f"left to search are NOT in this run.\n"
+              f"    This run cannot tell you anything about them — re-run to "
+              f"continue, or pass --max {candidates} to sweep them all.")
 
     added_total = 0
     for i, (f, loc) in enumerate(todo, 1):
         t0 = time.time()
+        blind0 = em.EMPTY_STREAK["total"]
+        served0 = em.EMPTY_STREAK["served"]
         mons = list(loc.get("monuments") or [])
         room = min(CAP - len(mons), args.per_city)
         # never reuse a video this place already spends on another tab
@@ -424,7 +437,13 @@ def main():
             loc["monuments"] = mons[:CAP]
             json.dump(files[f], open(f, "w", encoding="utf-8"),
                       ensure_ascii=False, indent=2)
-        status = ", ".join(found) if found else "nothing verifiable — honest gap"
+        # An empty search response is not a verdict, and neither is it proof of
+        # a refusal — `find_monument`'s second query drops the city, so for an
+        # obscure landmark YouTube genuinely answers zero. em.verdict() decides
+        # on the same evidence for both enrichers; don't reimplement it here.
+        status = em.verdict(found,
+                            em.EMPTY_STREAK["total"] - blind0,
+                            em.EMPTY_STREAK["served"] - served0)
         print(f"[{i}/{len(todo)}] {loc['name']:<26} {status}  ({time.time()-t0:.0f}s)")
 
         if em.EMPTY_STREAK["n"] >= 8:
@@ -432,7 +451,13 @@ def main():
                   "honest. Re-run later; finished places are skipped.")
             break
 
-    print(f"\ndone — {added_total} monument tab(s) added.")
+    if backlog:
+        print(f"\ndone — this run only. {added_total} monument tab(s) added; "
+              f"{backlog} place(s) were never looked at (--max {args.max}), "
+              f"so their empty tabs are unknown, not searched.")
+    else:
+        print(f"\ndone — {added_total} monument tab(s) added, and every "
+              f"candidate place was looked at.")
 
 
 if __name__ == "__main__":

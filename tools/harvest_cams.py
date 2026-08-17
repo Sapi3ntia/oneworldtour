@@ -66,6 +66,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import medialock                                             # noqa: E402
 from enrich_media import (                                   # noqa: E402
     AGGREGATOR_CAM, BAD_CAM, MEDIA, STREET_WORDS, WILDLIFE_CAM, WINDOW_WORDS,
     denied, embeddable, full_info, load_places, mentions_place,
@@ -229,7 +230,7 @@ def main():
         OTHER_PLACE_NAMES.add(norm(p["name"]))
     idx = index_places(places)
 
-    media = json.loads(MEDIA.read_text()) if MEDIA.exists() else {"places": {}}
+    media = medialock.load()
     media.setdefault("places", {})
 
     matched, orphans = [], []
@@ -294,8 +295,11 @@ def main():
                        "verified": now}
         wrote += 1
         print(f"  ✓ {place['id']:<26} {seat:<7} {info['id']}")
-        media["generated"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
-        MEDIA.write_text(json.dumps(media, indent=1, ensure_ascii=False))
+        # One seat, through the lock, onto the CURRENT file — `media` is a
+        # startup snapshot and a long enrich_media sweep may have written
+        # since. Capture the loop vars so the closure can't drift.
+        medialock.update(lambda doc, _p=place["id"], _s=seat, _v=entry[seat]:
+                         doc["places"].setdefault(_p, {}).__setitem__(_s, _v))
         time.sleep(1)
     print(f"\nwrote {wrote} seat(s) → {MEDIA}")
 

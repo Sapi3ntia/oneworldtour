@@ -46,6 +46,9 @@ import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import medialock                                          # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 MEDIA = ROOT / "data" / "media.json"
 DENYLIST = ROOT / "data" / "media_denylist.json"
@@ -176,7 +179,21 @@ def ytdlp_json(args, timeout=180):
 # broad "X live cam" search never genuinely has zero fuzzy matches, so
 # empty means throttled: back off and retry, and let the driver abort
 # the run when a long streak shows we're fully blocked.
-EMPTY_STREAK = {"n": 0}
+#
+# `n`      consecutive streak; the driver aborts the run on a long one.
+# `total`  never resets, so a place can be asked "did any search during YOU
+#          come back empty?" — a gap nobody looked into vs one we verified.
+# `served` never resets either, and is the control that keeps `total` honest.
+#
+# "Empty means throttled" only holds for a BROAD query. `find_monument`'s
+# second form drops the city — "Iguéla Lagoon 4K walking tour" — and for an
+# obscure landmark YouTube genuinely does return zero. Counting empties alone
+# reported those places as `NOT LOOKED AT — likely throttled; re-run`, which is
+# the original bug wearing the opposite mask: it invites an endless re-run of a
+# search that already gave its real answer. The distinguishing evidence is
+# whether YouTube answered ANY search during that place: if it served us even
+# once, it was not refusing us, so an empty is a genuine zero.
+EMPTY_STREAK = {"n": 0, "total": 0, "served": 0}
 
 
 def flat_search(query, n=SEARCH_N):
@@ -184,11 +201,31 @@ def flat_search(query, n=SEARCH_N):
         r = ytdlp_json(["--flat-playlist", "-j", f"ytsearch{n}:{query}"])
         if r:
             EMPTY_STREAK["n"] = 0
+            EMPTY_STREAK["served"] += 1
             return r
         EMPTY_STREAK["n"] += 1
+        EMPTY_STREAK["total"] += 1
         if attempt < 2:
             time.sleep(25 * (attempt + 1))
     return []
+
+
+def verdict(found, blind, served):
+    """The status line for one place, given what happened during it.
+
+    `blind`/`served` are per-place deltas of EMPTY_STREAK. Three outcomes, and
+    the two negative ones must not be confused: a gap is a finding worth
+    trusting, a refusal is a re-run, and calling either one the other is how a
+    corpus quietly stops being swept."""
+    if found:
+        return ", ".join(found) if isinstance(found, (list, tuple)) else str(found)
+    if blind and not served:
+        return (f"NOT LOOKED AT — {blind} empty search response(s) and nothing "
+                f"served, likely throttled; re-run this place")
+    if blind:
+        return (f"nothing verifiable — honest gap ({blind} narrow search(es) "
+                f"came back genuinely empty; YouTube was answering us)")
+    return "nothing verifiable — honest gap"
 
 
 def full_info(video_id):
@@ -1015,10 +1052,7 @@ def main():
     ap.add_argument("--refresh", action="store_true", help="redo places already in media.json")
     args = ap.parse_args()
 
-    media = {"generated": None, "places": {}}
-    if MEDIA.exists():
-        media = json.load(open(MEDIA))
-        media.setdefault("places", {})
+    media = medialock.load()
 
     places = load_places()
     for p in places:
@@ -1057,11 +1091,23 @@ def main():
             return False
         return True
 
-    todo = [p for p in places if wants(p)][: args.max]
-    print(f"enriching {len(todo)} places → {MEDIA}")
+    # Count the candidates BEFORE capping, and say how many are being left.
+    # A truncated sweep that prints ten lines and `done.` is indistinguishable
+    # from a complete one — which is how six batches ran at the default of 10
+    # against a corpus of 800+ and every one of them read as finished.
+    candidates = [p for p in places if wants(p)]
+    todo = candidates[: args.max]
+    backlog = len(candidates) - len(todo)
+    print(f"enriching {len(todo)} of {len(candidates)} candidate place(s) → {MEDIA}")
+    if backlog:
+        print(f"  ⚠ --max is {args.max}, so {backlog} place(s) that want a seat "
+              f"are NOT in this run.\n"
+              f"    This run cannot tell you anything about them — re-run to "
+              f"continue, or pass --max {len(candidates)} to sweep them all.")
 
     for i, loc in enumerate(todo, 1):
         t0 = time.time()
+        blind0, served0 = EMPTY_STREAK["total"], EMPTY_STREAK["served"]
         entry = media["places"].setdefault(loc["id"], {})
         found = []
         needs = loc.get("_needs") or list(SEATS)
@@ -1113,9 +1159,18 @@ def main():
 
         if not entry:
             media["places"].pop(loc["id"], None)
-        media["generated"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
-        MEDIA.write_text(json.dumps(media, indent=1, ensure_ascii=False))
-        status = ", ".join(found) if found else "nothing verifiable — honest gap"
+        # Checkpoint through the lock, writing ONLY this place. `media` here is
+        # a startup snapshot that can be hours old by now; dumping it whole
+        # would silently revert anything harvest_cams/prune_media did meanwhile.
+        medialock.put(loc["id"], entry)
+        # "nothing verifiable — honest gap" is a claim that we looked and the
+        # internet does not have it. If YouTube refused us during this place we
+        # did NOT look, and saying otherwise turns a throttled minute into a
+        # permanent verdict nobody revisits. See verdict() for how a refusal is
+        # told apart from a search that answered "nothing".
+        status = verdict(found,
+                         EMPTY_STREAK["total"] - blind0,
+                         EMPTY_STREAK["served"] - served0)
         print(f"[{i}/{len(todo)}] {loc['name']:<24} {status}  ({time.time()-t0:.0f}s)")
 
         if EMPTY_STREAK["n"] >= 8:
@@ -1124,7 +1179,13 @@ def main():
                   "the checkpoint resumes where this left off.")
             break
 
-    print("done.")
+    # "done." means this RUN is done, which is not the same as the corpus
+    # being swept. Say which one happened.
+    if backlog:
+        print(f"done — this run only. {backlog} place(s) were never looked at "
+              f"(--max {args.max}); their seats are unknown, not empty.")
+    else:
+        print("done — every candidate place was looked at.")
 
 
 if __name__ == "__main__":

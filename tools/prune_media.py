@@ -33,6 +33,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import enrich_media as em
+import medialock
 
 ROOT = Path(__file__).resolve().parent.parent
 MEDIA = ROOT / "data" / "media.json"
@@ -97,7 +98,11 @@ def main():
                     help="only this seat")
     args = ap.parse_args()
 
-    media = json.load(open(MEDIA))
+    media = medialock.load()
+    # Exactly which (place, seat) pairs this run refuses, so --apply can remove
+    # those and nothing else. Overwriting a whole place's seat dict would
+    # revert any seat a concurrent enrich_media sweep filled meanwhile.
+    drops = []
     places = {p["id"]: p for p in em.load_places()}
     for p in places.values():
         em.register_place(p)
@@ -121,6 +126,7 @@ def main():
                 continue
             dropped += 1
             gone.add(seat)
+            drops.append((pid, seat, entry.get("yt")))
             print(f"  drop {pid:24} [{seat:6}] {why}")
             print(f"       {(entry.get('title') or '')[:74]}")
             if args.apply:
@@ -136,6 +142,7 @@ def main():
             a, b = seats.get(day), seats.get(nite)
             if isinstance(a, dict) and isinstance(b, dict) and a.get("yt") == b.get("yt"):
                 dropped += 1
+                drops.append((pid, nite, b.get("yt")))
                 print(f"  drop {pid:24} [{nite:6}] same video as the {day} seat")
                 print(f"       {(b.get('title') or '')[:74]}")
                 if args.apply:
@@ -145,9 +152,29 @@ def main():
             media["places"].pop(pid, None)
 
     if args.apply and dropped:
-        MEDIA.write_text(json.dumps(media, indent=1, ensure_ascii=False))
-        print(f"\n{dropped} pick(s) dropped — re-run enrich_media.py to refill "
-              f"those seats under the current rules.")
+        # Remove the refused seats from whatever is on disk NOW, keyed by video
+        # id: if a concurrent sweep has already refilled a seat with a
+        # DIFFERENT video, that pick was never judged here and stays.
+        stale = []
+
+        def mutate(doc):
+            for pid, seat, yt in drops:
+                seats = doc["places"].get(pid)
+                if not seats:
+                    continue
+                cur = seats.get(seat)
+                if isinstance(cur, dict) and cur.get("yt") != yt:
+                    stale.append((pid, seat))
+                    continue
+                seats.pop(seat, None)
+                if not seats:
+                    doc["places"].pop(pid, None)
+        medialock.update(mutate)
+        for pid, seat in stale:
+            print(f"  kept {pid:24} [{seat:6}] refilled since this run read "
+                  f"the file — not judged, not dropped")
+        print(f"\n{dropped - len(stale)} pick(s) dropped — re-run "
+              f"enrich_media.py to refill those seats under the current rules.")
     else:
         print(f"\n{dropped} pick(s) would be dropped"
               f"{' (dry run — pass --apply)' if dropped else ''}.")
