@@ -125,7 +125,7 @@ oneworldtour/
 │   │   ├── geo.js         # Natural Earth I projection + inverse, km, great-circle
 │   │   ├── data.js        # region loader + media.json merge, search
 │   │   ├── media.js       # scene resolution: walk/live/window tiers + honesty rules
-│   │   ├── satellite.js   # 🛰️ geostationary sky for the 1,018 window-less seats
+│   │   ├── satellite.js   # 🛰️ geostationary sky for the 1,016 window-less seats
 │   │   ├── yt.js          # YouTube IFrame mounts with onError → honest fallback
 │   │   ├── tv.js          # live national TV: tv.json loader + HLS mounts (lazy hls.js)
 │   │   ├── api.js         # weather / wiki / radio / news / FX (all keyless)
@@ -370,12 +370,15 @@ honesty rule, not a belt-and-braces nicety.
 
 ### 🛰️ The sky over a place ★
 
-**1,018 of the 1,126 places have no window cam** — and for 82 of them the whole
-stage is empty. Bikini Atoll, Rennell Island, Dougga, Pitcairn: nobody is going
+**1,016 of the 1,126 places have no window cam** — and for 19 of them the whole
+stage is empty.* Bikini Atoll, Rennell Island, Dougga, Pitcairn: nobody is going
 to point a 24/7 stream at them. Rather than show a fourth dashed rectangle, the
 window seat falls back to the geostationary satellite that *is* looking at that
 place right now (`js/lib/satellite.js`). Where the stage is otherwise empty, the
 satellite is what gets featured on arrival.
+
+<sub>* Both counts move with every `enrich_media.py` sweep — they were 1,018 and
+82 the morning this shipped, before the Oceania run filled 63 empty stages.</sub>
 
 This is **not** a fifth scene and **not** a stand-in window. It never passes
 through `media.js`, never appears in `sceneFlags()`, never reaches the Virtual
@@ -1203,6 +1206,15 @@ canonical title, prose from memory and nothing else. Australia 6 → **73**, New
 5 → **36**, and **59** across the Pacific — Papua New Guinea's Sepik and Highlands,
 Vanuatu's land divers, Chuuk's sunken fleet, Bikini Atoll, and Adamstown, population
 35. The registry went 150 → **170** countries, all 23 Oceania rows non-zero.
+
+The 157 new places arrived empty and were filled over the next day by
+`enrich_media.py` and `enrich_monuments.py`: Oceania now sits at **66% walk ·
+71% drive · 7% live · 5% window**, with **425 monument tabs across 161 places**.
+Only four places on the whole region still have nothing to watch — Mount Hagen,
+Marovo Lagoon, Atiu and Kiritimati — and each of those now shows the sky over
+itself instead of an empty stage. The live/window percentages are low because
+they are *honest*: a Pacific atoll genuinely has no embeddable 24/7 cam, and
+none gets faked in.
 
 - **A single bounding box cannot express this region.** Every other generator refuses a
   record whose P625 lands outside a `lat_min…lat_max, lng_min…lng_max` net. Oceania runs

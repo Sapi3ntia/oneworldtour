@@ -168,7 +168,7 @@ dropped in v2 — resurrect from git if missed); satellite descend-from-orbit.
 **The 🛰️ satellite window seat (js/lib/satellite.js):**
 - It is **not a scene and not a window**. Never add it to `sceneFlags()`, never
   route it through `media.js`, never let it into `window.html` or a "live" rail.
-  The moment it counts as a live seat, the honesty rule is dead — 1,018 places
+  The moment it counts as a live seat, the honesty rule is dead — 1,016 places
   would start claiming a window they don't have.
 - Keep the 🛰️ badge, keep the no-live-dot, and keep the title sentence that says
   there is no window cam here. That sentence is the feature's licence to exist.
@@ -249,8 +249,8 @@ dropped in v2 — resurrect from git if missed); satellite descend-from-orbit.
 
 ## Recently landed (so it isn't re-litigated)
 
-- **🛰️ The sky over a place (2026-08-18):** the window seat is empty for 1,018 of
-  1,126 places, and for 82 the whole stage is. Those places still have weather, and
+- **🛰️ The sky over a place (2026-08-18):** the window seat is empty for 1,016 of
+  1,126 places, and for 19 the whole stage is. Those places still have weather, and
   a geostationary satellite is looking at them every ten minutes whether or not
   anyone ever points a camera there. `js/lib/satellite.js` draws that — Himawari-9
   (JMA tiles, true colour by day / band-13 IR by night), GOES-West and GOES-East
@@ -267,7 +267,10 @@ dropped in v2 — resurrect from git if missed); satellite descend-from-orbit.
   slug resolved live) put in 157 new places across **23 countries and territories**;
   registry 150 → **170**, and all 20 new Pacific countries went into
   `build_culture.py` in the same sitting, so the four culture tables have **zero gaps**
-  for all 170. Four things this region taught, all in the README:
+  for all 170. Enrichment followed on 2026-08-18 — **66% walk, 71% drive, 425
+  monument tabs across 161 of the 168** — leaving exactly four places (Mount Hagen,
+  Marovo Lagoon, Atiu, Kiritimati) with nothing to watch, and those now show the
+  🛰️ satellite instead. Four things this region taught, all in the README:
   a **bounding box can't express Oceania** (96.8°E → 130.1°W: one longitude range
   either accepts the globe or cuts the Pacific in half, so `in_box()` ORs two);
   **P17 answers the sovereign, not the territory** (Bora Bora → France, Saipan → US —

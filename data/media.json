@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-18T02:29:38+00:00",
+ "generated": "2026-08-18T13:58:04+00:00",
  "places": {
   "fez": {
    "walk": {
@@ -12348,6 +12348,1392 @@
     "channel": "PMK3Australia",
     "date": "20230611",
     "duration": 1069
+   }
+  },
+  "cape-york": {
+   "drive": {
+    "yt": "qpfEEUodDTk",
+    "title": "The Most Northern Point of Australia! 'The Tip' Cape York Peninsula / Five Beaches Drive",
+    "channel": "Naturally Curious Australia",
+    "date": "20221228",
+    "duration": 904
+   }
+  },
+  "mount-isa": {
+   "drive": {
+    "yt": "LFqdrTRnjfs",
+    "title": "Mount Isa, Qld, Australia  ( Driving through)",
+    "channel": "Sighting Seeing",
+    "date": "20230908",
+    "duration": 2006
+   }
+  },
+  "adelaide": {
+   "walk": {
+    "yt": "zbkvvlXjTfY",
+    "title": "Adelaide, Adelaide City -  Australia | 4K 60fps Walking Tour",
+    "channel": "Escaping Everyday",
+    "date": "20221228",
+    "duration": 1827
+   },
+   "drive": {
+    "yt": "kS2FsbaNtTQ",
+    "title": "Adelaide, Australia - Driving Tour 4K",
+    "channel": "DS NEVADA",
+    "date": "20230624",
+    "duration": 1998
+   }
+  },
+  "barossa-valley": {
+   "walk": {
+    "yt": "-U8ks-GeQis",
+    "title": "Lyndoch: Barossa Valley's Oldest Town | South Australia 🇦🇺 | 4K Walking Tour",
+    "channel": "Bangus & Mash Walking Tours",
+    "date": "20230827",
+    "duration": 1237
+   },
+   "drive": {
+    "yt": "WvULIHlsA6w",
+    "title": "[4K] Scenic Drive Barossa Valley | South Australia",
+    "channel": "JoyRide Australia",
+    "date": "20210618",
+    "duration": 782
+   }
+  },
+  "kangaroo-island": {
+   "walk": {
+    "yt": "ZcIlEECEpcw",
+    "title": "Penneshaw: Gateway to Kangaroo Island | South Australia 🇦🇺 | 4K Walking Tour",
+    "channel": "Bangus & Mash Walking Tours",
+    "date": "20231216",
+    "duration": 2053
+   },
+   "drive": {
+    "yt": "fui0p9vy9OE",
+    "title": "[4K] Australia Scenic Drive Little Sahara to Seal Bay Kangaroo Island April 2021",
+    "channel": "JoyRide Australia",
+    "date": "20210427",
+    "duration": 1040
+   }
+  },
+  "flinders-ranges": {
+   "drive": {
+    "yt": "223RsqLLBqE",
+    "title": "Variety Trip Day 8   Filnders Ranges Bunyeroo Gorge Tourist Drive",
+    "channel": "Off The Beaten Path",
+    "date": "20221111",
+    "duration": 675
+   }
+  },
+  "coober-pedy": {
+   "drive": {
+    "yt": "ePHkLrRFrac",
+    "title": "4K Coober Pedy driving tour - July 2024",
+    "channel": "Wild Australia 4K - virtual tours",
+    "date": "20240904",
+    "duration": 1316
+   }
+  },
+  "port-lincoln": {
+   "walk": {
+    "yt": "WxivW4H2AIs",
+    "title": "【4K】Australia Walk Tour 2025 | SA’s Best Remote Town – Port Lincoln | Foreshore Walk",
+    "channel": "Ten Thousand Miles",
+    "date": "20251231",
+    "duration": 1126
+   },
+   "drive": {
+    "yt": "SJ0ec4kHu3A",
+    "title": "Driving Lincoln National Park | Port Lincoln | South Australia | 4K UHD",
+    "channel": "Roaming N Watching",
+    "date": "20220925",
+    "duration": 2037
+   }
+  },
+  "fremantle": {
+   "walk": {
+    "yt": "NrB6t2sAiIk",
+    "title": "Fremantle Perth: Western Australia 🇦🇺| 4k Walking tour Australia | Fremantle Markets, uhd 60fps",
+    "channel": "Cityscape stroll",
+    "date": "20231223",
+    "duration": 1305
+   },
+   "drive": {
+    "yt": "JXzEu_CekbE",
+    "title": "Fremantle City Tour 🇦🇺 [4K] - Drive Around Fremantle City, Western Australia",
+    "channel": "RoadTripSam",
+    "date": "20211005",
+    "duration": 1538
+   }
+  },
+  "rottnest-island": {
+   "walk": {
+    "yt": "Z0I7nlEUUwg",
+    "title": "Rottnest Island, Western Australia Walking Tour | 4K 60FPS",
+    "channel": "Aussie Jetsetter",
+    "date": "20251129",
+    "duration": 2613
+   },
+   "drive": {
+    "yt": "NU9aYQy1stY",
+    "title": "Driving in Perth - APPLECROSS TO ROTTNEST ISLAND ( Western Australia)",
+    "channel": "Drive&Walk WithMe",
+    "date": "20220118",
+    "duration": 1575
+   }
+  },
+  "margaret-river": {
+   "walk": {
+    "yt": "bRhrHreJDSo",
+    "title": "Margaret River - a quiet little town - 4K Ambient Walk",
+    "channel": "Walk 4K Today",
+    "date": "20230709",
+    "duration": 1190
+   },
+   "drive": {
+    "yt": "Q5hBnv6jcwg",
+    "title": "WESTERN AUSTRALIA: Ultimate ROAD TRIP - 4K Travel vlog MARGARET RIVER",
+    "channel": "Wout of the World",
+    "date": "20230112",
+    "duration": 886
+   }
+  },
+  "esperance": {
+   "walk": {
+    "yt": "pMX2j0MkVlk",
+    "title": "Esperance, Western Australia Walking Tour | 4K 60FPS",
+    "channel": "Aussie Jetsetter",
+    "date": "20250404",
+    "duration": 4403
+   }
+  },
+  "ningaloo-reef": {
+   "drive": {
+    "yt": "RO-eEiueA24",
+    "title": "NINGALOO REEF, AUSTRALIA - Better than GREAT BARRIER? Road Trip CORAL BAY",
+    "channel": "Wout of the World",
+    "date": "20230305",
+    "duration": 606
+   }
+  },
+  "karijini-national-park": {
+   "walk": {
+    "yt": "gKYkm3nXa_w",
+    "title": "Karijini National Park Walking Tour (4K) | Gorges and Waterfalls | Western Australia 🇦🇺",
+    "channel": "Aeolyn Travel",
+    "date": "20251007",
+    "duration": 609
+   },
+   "drive": {
+    "yt": "sgVONQLrOWg",
+    "title": "Driving to Karijini National Park - Pilbara, Western Australia - 🇦🇺 4K / Raw Audio / POV",
+    "channel": "RoadTripSam",
+    "date": "20230616",
+    "duration": 6621
+   }
+  },
+  "purnululu-national-park": {
+   "walk": {
+    "yt": "vYOPGrkqdD4",
+    "title": "BUNGLE BUNGLES ECHIDNA CHASM walk scenery",
+    "channel": "Fourby4Adventures",
+    "date": "20210806",
+    "duration": 677
+   },
+   "drive": {
+    "yt": "TqP5p9Z_xr8",
+    "title": "Drive to Bungle Bungles August 2023",
+    "channel": "Chamberlainsdownunder",
+    "date": "20230815",
+    "duration": 1060
+   }
+  },
+  "broome": {
+   "walk": {
+    "yt": "O4F0Dyo7MOU",
+    "title": "Broome, Western Australia Walking Tour  | 4K 60 FPS",
+    "channel": "Aussie Jetsetter",
+    "date": "20240901",
+    "duration": 3925
+   },
+   "drive": {
+    "yt": "AhpRHAmv7yA",
+    "title": "Driving Around Broome Western Australia",
+    "channel": "Guest Family Adventures",
+    "date": "20200505",
+    "duration": 849
+   },
+   "live": {
+    "yt": "RQpeqVc0Txo",
+    "title": "Broome Cam 2026-08-17 22:43",
+    "verified": "2026-08-18"
+   }
+  },
+  "the-pinnacles": {
+   "walk": {
+    "yt": "Nz1QH6e8Kzk",
+    "title": "The Pinnacles Walking Tour (4K) | Otherworldly Desert | Western Australia 🇦🇺",
+    "channel": "Aeolyn Travel",
+    "date": "20250919",
+    "duration": 2382
+   },
+   "drive": {
+    "yt": "L9m_n6CVhGs",
+    "title": "[4K] The Pinnacles - Western Australia. Full circle of The Pinnacles Desert Drive in Summer",
+    "channel": "Vincent Chui",
+    "date": "20230401",
+    "duration": 1010
+   }
+  },
+  "wave-rock": {
+   "drive": {
+    "yt": "RDlMAO5AVAI",
+    "title": "Road trip Perth to Wave Rock, Hyden, West Australia June 2023",
+    "channel": "Ufi Omar Yusuf",
+    "date": "20230628",
+    "duration": 2508
+   },
+   "live": {
+    "yt": "ez9g3ihQGQE",
+    "title": "Bass Rock 360 Live Stream 2026-08-17 22:46",
+    "verified": "2026-08-18"
+   }
+  },
+  "kalgoorlie": {
+   "walk": {
+    "yt": "1UcTV90XuTs",
+    "title": "Kalgoorlie, Western Australia Walking tour [4K]",
+    "channel": "Aussie Jetsetter",
+    "date": "20230819",
+    "duration": 3775
+   },
+   "drive": {
+    "yt": "qLrDJQbg2mI",
+    "title": "Kalgoorlie, Western Australia driving tour",
+    "channel": "Aussie Jetsetter",
+    "date": "20230110",
+    "duration": 1669
+   }
+  },
+  "hobart": {
+   "walk": {
+    "yt": "Mmk8YTSBZ04",
+    "title": "Hobart, Tasmania Australia Walking Tour 4K | 4K 60FPS 🇦🇺",
+    "channel": "Aussie Jetsetter",
+    "date": "20260217",
+    "duration": 4349
+   },
+   "drive": {
+    "yt": "aY6zyrh2w7E",
+    "title": "Exploring Hobart, Tasmania - Driving Tour [4K]",
+    "channel": "The Geeky Explorer",
+    "date": "20230702",
+    "duration": 736
+   }
+  },
+  "cradle-mountain": {
+   "walk": {
+    "yt": "baDue4xaOi4",
+    "title": "Crater Lake walk at Cradle Mountain   4K",
+    "channel": "Korker Adventures-Aussie Caravan & 4WD Adventures",
+    "date": "20260508",
+    "duration": 1646
+   },
+   "drive": {
+    "yt": "VUEyiZIQ0go",
+    "title": "Launceston to Cradle Mountain | Australia Driving Tours | 4K Cinematic 21:9 | Tasmania |",
+    "channel": "It Looks Like",
+    "date": "20230823",
+    "duration": 2980
+   }
+  },
+  "freycinet-national-park": {
+   "drive": {
+    "yt": "j8209saSNZI",
+    "title": "Tasmania Scenic Drive | Tasman Peninsula to Freycinet | 4K | Relaxing Music | Day 4",
+    "channel": "Travel with Pyon 🌎 Explore the World",
+    "date": "20260714",
+    "duration": 1574
+   }
+  },
+  "port-arthur": {
+   "walk": {
+    "yt": "Nup_5ikrh98",
+    "title": "4K Virtual Walk Port Arthur- Port Arthur Historical site Tasmania ASMR",
+    "channel": "Walking Nomad",
+    "date": "20230918",
+    "duration": 1146
+   },
+   "drive": {
+    "yt": "vsAyv40roww",
+    "title": "4k Dash cam Australia TASMANIA. Driving from Port Arthur to White Beach (Australia)",
+    "channel": "Elzbieta Polec",
+    "date": "20240103",
+    "duration": 1140
+   }
+  },
+  "launceston": {
+   "walk": {
+    "yt": "_C6Mx6FiTQ0",
+    "title": "【4K HDR】Australia, Launceston City Center Morning Walking Tour | Tasmania, June 2024",
+    "channel": "4K Walking Travel",
+    "date": "20240624",
+    "duration": 1535
+   },
+   "drive": {
+    "yt": "m7P9BPwyOOo",
+    "title": "4K DASH CAM Australia TASMANIA. Driving from  LAUNCESTON CITY  to Trevallyn Dam.",
+    "channel": "Elzbieta Polec",
+    "date": "20240422",
+    "duration": 836
+   }
+  },
+  "bay-of-fires": {
+   "drive": {
+    "yt": "N-RRfQFODsg",
+    "title": "Tasmania Beautiful Drive | Bicheno to Bay of Fires & Falmouth | 4K | Real Driving Sounds | Day 5",
+    "channel": "Travel with Pyon 🌎 Explore the World",
+    "date": "20260716",
+    "duration": 8395
+   }
+  },
+  "bruny-island": {
+   "walk": {
+    "yt": "fDCADn8Inn4",
+    "title": "|| Bruny Island || Walking Tour || Ferry || 4K ||",
+    "channel": "Nomadic Traveller",
+    "date": "20230107",
+    "duration": 670
+   },
+   "drive": {
+    "yt": "UsGFAklc92A",
+    "title": "Bruny Island Scenic Drive: The Most Spectacular Drive In Tasmania",
+    "channel": "Bec Tries",
+    "date": "20220227",
+    "duration": 1826
+   }
+  },
+  "darwin": {
+   "walk": {
+    "yt": "KsqqS9aZDBM",
+    "title": "Darwin CBD Walking Tour (4K) | Top End City | Northern Territory, Australia 🇦🇺",
+    "channel": "Aeolyn Travel",
+    "date": "20260203",
+    "duration": 2175
+   },
+   "drive": {
+    "yt": "LxMXQNt7mqI",
+    "title": "4K Darwin City Driving Tour 2023 - Stuart Park, Darwin CBD and Tiger Brennan Drive",
+    "channel": "Onzil",
+    "date": "20231006",
+    "duration": 1099
+   },
+   "live": {
+    "yt": "76CnQ7AN-7Y",
+    "title": "Live limo dash cam - a day in the life of a chauffeur, driving a limousine in Darwin! 2026-08-17 22:52",
+    "verified": "2026-08-18"
+   }
+  },
+  "kakadu-national-park": {
+   "walk": {
+    "yt": "gW8cEqNv1a4",
+    "title": "4k Australia - Kakadu National Park - Northern Territories - Billabong walk",
+    "channel": "walkscapes",
+    "date": "20210925",
+    "duration": 2449
+   },
+   "drive": {
+    "yt": "REyamFu5pp0",
+    "title": "Road Trip 2 Ep 12 ..... KAKADU",
+    "channel": "TerraRound Australia",
+    "date": "20210807",
+    "duration": 1353
+   }
+  },
+  "alice-springs": {
+   "walk": {
+    "yt": "voRKLkZGeiI",
+    "title": "ALICE SPRINGS - AUSTRALIA’S NOT DANGEROUS CITY | AUSTRALIA WALKING TOUR 4K | TRAVEL PHOTOGRAPHY",
+    "channel": "THE TRAVEL JUNKIE",
+    "date": "20251002",
+    "duration": 2755
+   },
+   "drive": {
+    "yt": "RpjuFEr3blo",
+    "title": "4k Alice Springs driving tour - July 2024",
+    "channel": "Wild Australia 4K - virtual tours",
+    "date": "20240823",
+    "duration": 2272
+   }
+  },
+  "kata-tjuta": {
+   "walk": {
+    "yt": "ni4c1ZnPw_Q",
+    "title": "Kata Tjuṯa Valley of the Winds 4K Walk 🇦🇺 | Australia’s Red Centre Walking Tour 2025",
+    "channel": "Unseenstreets4k",
+    "date": "20250913",
+    "duration": 2915
+   },
+   "drive": {
+    "yt": "2C_NjWdGACw",
+    "title": "Yulara to Kata Tjuta and Return (FULL HD DASHCAM - Driving Australia)",
+    "channel": "Driving Australia",
+    "date": "20230624",
+    "duration": 5528
+   }
+  },
+  "nitmiluk-national-park": {
+   "walk": {
+    "yt": "BgG9769oLr8",
+    "title": "🛶Katherine Gorge - Walk or canoe through one of outback Australia's best National Parks!",
+    "channel": "Explore Oz | Never Stop Exploring",
+    "date": "20230923",
+    "duration": 1188
+   },
+   "drive": {
+    "yt": "xEAtS-AQl8k",
+    "title": "Northern Territory Top End Road Trip | Litchfield National Park | Kakadu | Nitmiluk Katherine Gorge",
+    "channel": "Nigel & Sue Adventures",
+    "date": "20230422",
+    "duration": 1626
+   }
+  },
+  "litchfield-national-park": {
+   "walk": {
+    "yt": "Q_LcuMwdptA",
+    "title": "Litchfield's Tabletop Track Hike - 42 km of wilderness walk in the Northern Territory | E14",
+    "channel": "Wild World Adventures",
+    "date": "20221227",
+    "duration": 2617
+   },
+   "drive": {
+    "yt": "UAy08uizdSE",
+    "title": "4K Northern Australia Driving Tour 2023 - Litchfield National Park to Darwin City",
+    "channel": "Onzil",
+    "date": "20230707",
+    "duration": 1928
+   }
+  },
+  "katherine": {
+   "walk": {
+    "yt": "zRBH_s-YKXw",
+    "title": "Katherine Australia Walking Tour",
+    "channel": "Discovery Walking Tours TV",
+    "date": "20200104",
+    "duration": 1783
+   },
+   "drive": {
+    "yt": "emy2RnHLyuw",
+    "title": "Katherine NT: Final Look Before the Long Drive to Darwin | Outback Australia Road Trip (4K)",
+    "channel": "Nate’s Station",
+    "date": "20250624",
+    "duration": 707
+   }
+  },
+  "tennant-creek": {
+   "drive": {
+    "yt": "aDmnUXJdYSk",
+    "title": "2021 Road Trip Day 75 - Devil's Marbles (Karlu Karlu), Wauchope, Wycliffe Well",
+    "channel": "Laurie Kibblewhite",
+    "date": "20221008",
+    "duration": 1799
+   }
+  },
+  "norfolk-island": {
+   "walk": {
+    "yt": "Hh3Rs2JnGks",
+    "title": "Norfolk Island Walking Tour",
+    "channel": "Aussie Jetsetter",
+    "date": "20240301",
+    "duration": 5222
+   }
+  },
+  "christchurch": {
+   "walk": {
+    "yt": "1t2bl5kR0nQ",
+    "title": "Christchurch New Zealand Walking Tour 2025 | 4K City Centre Walk",
+    "channel": "Farrukh Ali Shah",
+    "date": "20251209",
+    "duration": 2911
+   }
+  },
+  "dunedin": {
+   "walk": {
+    "yt": "VK8LuY1J1rs",
+    "title": "Dunedin New Zealand Walking Tour [4K]",
+    "channel": "Aussie Jetsetter",
+    "date": "20230603",
+    "duration": 2425
+   },
+   "live": {
+    "yt": "uZ8le_9zreU",
+    "title": "Dunedin, NZ - Live Webcam (4K): 18-08-2026 15:00 to 03:00 2026-08-17 23:03",
+    "verified": "2026-08-18"
+   }
+  },
+  "aoraki-mount-cook": {
+   "walk": {
+    "yt": "IEaKa0hGlBg",
+    "title": "🏔️ 4K UHD Hooker Valley Track Walk | Aoraki/Mount Cook National Park | New Zealand’s Iconic Hike! 🌿",
+    "channel": "Traveller On Target",
+    "date": "20251026",
+    "duration": 14827
+   },
+   "drive": {
+    "yt": "x-odhG0S3Zk",
+    "title": "Mount Cook, New Zealand Scenic Drive",
+    "channel": "JoyRide Australia",
+    "date": "20200921",
+    "duration": 2385
+   }
+  },
+  "lake-tekapo": {
+   "walk": {
+    "yt": "p16iU8w50Yk",
+    "title": "Winter Walk at Lake Tekapo, New Zealand - ASMR Snow Walking Tour [4K, Binaural]",
+    "channel": "cam out n play",
+    "date": "20240818",
+    "duration": 2864
+   },
+   "drive": {
+    "yt": "Z4wTISUA0QM",
+    "title": "Driving from Twizel to Lake Tekapo | Canterbury | New Zealand | 4K",
+    "channel": "DriveNewZealand",
+    "date": "20230505",
+    "duration": 989
+   }
+  },
+  "wanaka": {
+   "walk": {
+    "yt": "KnGK7zFXje0",
+    "title": "Wanaka New Zealand Walking Tour 4K - Stunning Lake Wanaka Views, Wanaka Tree & Relaxing ASMR Sounds",
+    "channel": "WalkToursGo",
+    "date": "20260110",
+    "duration": 4504
+   },
+   "drive": {
+    "yt": "LQRItNEU_4w",
+    "title": "Queenstown to Wānaka Scenic Drive 🇳🇿 | Through the Spectacular Kawarau Gorge in 4K",
+    "channel": "Sigis Travel Videos",
+    "date": "20260701",
+    "duration": 6441
+   }
+  },
+  "kaikoura": {
+   "walk": {
+    "yt": "zsKhYBV8_CA",
+    "title": "Kaikoura, New Zealand | 4K Walking Tour",
+    "channel": "Walk n Roll",
+    "date": "20220221",
+    "duration": 924
+   },
+   "drive": {
+    "yt": "Ex3PhOIU8ZY",
+    "title": "Driving New Zealand: Kaikōura to Blenheim 4k",
+    "channel": "Flightless",
+    "date": "20220810",
+    "duration": 1770
+   }
+  },
+  "franz-josef-glacier": {
+   "walk": {
+    "yt": "MayMNZpfSZw",
+    "title": "Franz Josef Glacier Walk Tour West Coast New Zealand [4K HDR]",
+    "channel": "New Zealand Walking Tours",
+    "date": "20220123",
+    "duration": 626
+   },
+   "drive": {
+    "yt": "o-0PmFTwu_s",
+    "title": "New Zealand Scenic Road Trip, Franz Josef  Glacier ,South Island New Zealand",
+    "channel": "Driving New Zealand",
+    "date": "20200413",
+    "duration": 837
+   }
+  },
+  "mungo-national-park": {
+   "drive": {
+    "yt": "b2eCvTzoY2Q",
+    "title": "Mungo National Park Road Trip 2022",
+    "channel": "Anne Blair-Hickman",
+    "date": "20220118",
+    "duration": 624
+   }
+  },
+  "shark-bay": {
+   "drive": {
+    "yt": "xDpPgRPqHUs",
+    "title": "AUSTRALIË'S MOOISTE PLEK!? Road trip SHARK BAY, MONKEY MIA en Francois Peron",
+    "channel": "Wout of the World",
+    "date": "20230219",
+    "duration": 880
+   }
+  },
+  "christmas-island": {
+   "drive": {
+    "yt": "5JDlJW556SI",
+    "title": "Bunbury, Western Australia driving tour [Australian South West Road Trip Christmas 2022 Day 1]",
+    "channel": "Aussie Jetsetter",
+    "date": "20230101",
+    "duration": 1317
+   }
+  },
+  "abel-tasman-national-park": {
+   "walk": {
+    "yt": "KMZGXdDy2yo",
+    "title": "Abel Tasman National Park, New Zealand | 4K Walking Tour",
+    "channel": "Walk n Roll",
+    "date": "20220325",
+    "duration": 2122
+   },
+   "drive": {
+    "yt": "PBjusdzBR_w",
+    "title": "Scenic Drive,Motueka to Pohara on Golden Bay,Abel Tasman,South Island,New Zealand Tour.",
+    "channel": "Driving New Zealand",
+    "date": "20210409",
+    "duration": 3255
+   },
+   "live": {
+    "yt": "MPwMmEvl6F0",
+    "title": "🔴 Nelson/Tasman Live Camera - Weather and Stargazing in 4K  | Meteor Showers - Aurora sometimes.. 2026-08-18 08:38",
+    "verified": "2026-08-18"
+   }
+  },
+  "marlborough-sounds": {
+   "drive": {
+    "yt": "vFUHu22e_lw",
+    "title": "a drive through natural beauty - Marlborough Sound | 4k | New Zealand",
+    "channel": "Wayfarer Vibe",
+    "date": "20250928",
+    "duration": 2297
+   }
+  },
+  "punakaiki": {
+   "walk": {
+    "yt": "qWN-zZh9bQQ",
+    "title": "Pancake Rocks Punakaiki Walking Tour West Coast New Zealand 4K HDR",
+    "channel": "New Zealand Walking Tours",
+    "date": "20220125",
+    "duration": 1236
+   },
+   "drive": {
+    "yt": "3MeAfF6WOLU",
+    "title": "Hokitika to Pancake Rocks and Blowholes | New Zealand Scenic Drive 4K",
+    "channel": "Dashcam Roadshow",
+    "date": "20250412",
+    "duration": 4514
+   }
+  },
+  "arthurs-pass": {
+   "walk": {
+    "yt": "7v13dxdlCG0",
+    "title": "WALKING TOUR: Arthur’s Pass, New Zealand (NZ nature hikes)",
+    "channel": "4K Walk With Us",
+    "date": "20250112",
+    "duration": 1223
+   },
+   "drive": {
+    "yt": "0MUHhq4Rp7s",
+    "title": "4K Drive through Arthurs Pass, New Zealand    4K",
+    "channel": "Jonathan Johannis",
+    "date": "20230307",
+    "duration": 2902
+   }
+  },
+  "the-catlins": {
+   "drive": {
+    "yt": "Hvj4qb_mne8",
+    "title": "New Zealand Scenic Drive to the Catlins, South Island New Zealand Road Trip",
+    "channel": "Driving New Zealand",
+    "date": "20201031",
+    "duration": 4339
+   }
+  },
+  "stewart-island": {
+   "walk": {
+    "yt": "FpOcU9V5P1c",
+    "title": "New Zealand Great Walk | Hiking the Rakiura Track, Stewart Island",
+    "channel": "Our Life v3",
+    "date": "20200302",
+    "duration": 1157
+   }
+  },
+  "akaroa": {
+   "walk": {
+    "yt": "G6M57rg_Gvc",
+    "title": "Akaroa, New Zealand | 4K Walking Tour",
+    "channel": "Walk n Roll",
+    "date": "20220217",
+    "duration": 1405
+   },
+   "drive": {
+    "yt": "6KLrxje1C54",
+    "title": "Driving to Akaroa | New Zealand's Most Beautiful Coastal Road",
+    "channel": "Dashcam Roadshow",
+    "date": "20240301",
+    "duration": 8548
+   }
+  },
+  "nelson": {
+   "walk": {
+    "yt": "mH6WOshLAuk",
+    "title": "Nelson Trafalgar Street Walking Tour New Zealand 4K",
+    "channel": "New Zealand Walking Tours",
+    "date": "20220514",
+    "duration": 1062
+   },
+   "drive": {
+    "yt": "p6XXoTw5nTg",
+    "title": "Nelson New Zealand 4K Drive Tour 🇳🇿 | Scenic City Streets & Daily Life",
+    "channel": "JT Drive",
+    "date": "20260204",
+    "duration": 749
+   },
+   "live": {
+    "yt": "MPwMmEvl6F0",
+    "title": "🔴 Nelson/Tasman Live Camera - Weather and Stargazing in 4K  | Meteor Showers - Aurora sometimes.. 2026-08-18 08:46",
+    "verified": "2026-08-18"
+   }
+  },
+  "tongariro-national-park": {
+   "walk": {
+    "yt": "Ym8B6f630W8",
+    "title": "A total diffrent \"walking\" tour - Tongariro | 4k | New Zealand",
+    "channel": "Wayfarer Vibe",
+    "date": "20250914",
+    "duration": 4213
+   },
+   "drive": {
+    "yt": "xNcxqsN3O3I",
+    "title": "Road Trip to Mount Tongariro | New Zealand | 4k HDR",
+    "channel": "Driving and Filming",
+    "date": "20230912",
+    "duration": 1031
+   }
+  },
+  "lake-taupo": {
+   "walk": {
+    "yt": "o7mS_KMVSXE",
+    "title": "Taupo New Zealand Walking Tour - 4k Ultra",
+    "channel": "David's Travel Guide",
+    "date": "20230501",
+    "duration": 2024
+   },
+   "drive": {
+    "yt": "70G_1ktcuYU",
+    "title": "Driving POV |Taupo Lake|Taupo,  New Zealand | 4K",
+    "channel": "cruisin",
+    "date": "20241031",
+    "duration": 1281
+   }
+  },
+  "waitomo-caves": {
+   "walk": {
+    "yt": "ce-ljGyNfh0",
+    "title": "Waitomo Village Walk New Zealand 🇳🇿",
+    "channel": "Louise Poppy",
+    "date": "20210426",
+    "duration": 4130
+   },
+   "drive": {
+    "yt": "uFJ67QjUHTs",
+    "title": "4K Drive to Waitomo Cave, New Zealand",
+    "channel": "4K DC",
+    "date": "20230814",
+    "duration": 3071
+   }
+  },
+  "bay-of-islands": {
+   "walk": {
+    "yt": "oQmx0Rnahsc",
+    "title": "Paihia, Bay of Islands | New Zealand Walking Tour 4K",
+    "channel": "Walking Histories",
+    "date": "20230209",
+    "duration": 730
+   },
+   "drive": {
+    "yt": "IMhF9jyUEIg",
+    "title": "【4K HDR】Driving Around Bay Of Islands - Northland New Zealand!",
+    "channel": "Virtual New Zealand",
+    "date": "20220221",
+    "duration": 1397
+   }
+  },
+  "coromandel-peninsula": {
+   "walk": {
+    "yt": "LRkWBIdp56Y",
+    "title": "Walking Tour Tairua, a coastal town in Coromandel Peninsula New Zealand",
+    "channel": "NZ lifestyle",
+    "date": "20221218",
+    "duration": 765
+   },
+   "drive": {
+    "yt": "ECpkKmU8ZtI",
+    "title": "New Zealand Scenic Coast Drive,Coromandel town to Amodeo Bay,North Island New Zealand road trip.",
+    "channel": "Driving New Zealand",
+    "date": "20221028",
+    "duration": 1904
+   }
+  },
+  "rotorua-wai-o-tapu": {
+   "walk": {
+    "yt": "W9aVD56QqQs",
+    "title": "Walking In A Geothermal Wonderland | Wai O Tapu, Rotorua | Reveal NZ Ep.04",
+    "channel": "Dane and Stacey",
+    "date": "20200904",
+    "duration": 645
+   }
+  },
+  "napier": {
+   "walk": {
+    "yt": "eerO0x9WmsQ",
+    "title": "Emerson Street Napier New Zealand - Art Deco City Walking Tour 4K ネピアで散歩　ニュージーランド",
+    "channel": "William Walker さんぽ",
+    "date": "20230218",
+    "duration": 1033
+   },
+   "drive": {
+    "yt": "5eOtQ3m1ugE",
+    "title": "4K - Driving Napier New Zealand",
+    "channel": "ddsuke Films",
+    "date": "20220306",
+    "duration": 2416
+   }
+  },
+  "mount-taranaki": {
+   "drive": {
+    "yt": "XcHG3e2woXE",
+    "title": "Road Through the Jungle to Mt Taranaki 🌿 | New Zealand's Most Scenic Drive 4K",
+    "channel": "Scenic Moments",
+    "date": "20260614",
+    "duration": 913
+   },
+   "live": {
+    "yt": "38yf4XzE3qQ",
+    "title": "Mount Taranaki Live | 24/7 Webcams, Sunrise, Sunset & Scenic Views | New Zealand 2026-08-18 08:54",
+    "verified": "2026-08-18"
+   },
+   "window": {
+    "yt": "q-5RMLa1nIg",
+    "title": "Taranaki Extreme Weather - Mt Taranaki Live Stream - Inglewood Weather 2026-08-18 08:54",
+    "verified": "2026-08-18"
+   }
+  },
+  "cape-reinga": {
+   "walk": {
+    "yt": "LpSCRrfw6gw",
+    "title": "Walking Tour: Cape Reinga Lighthouse Northland New Zealand | North Island Northernmost Point",
+    "channel": "JesTyV",
+    "date": "20220422",
+    "duration": 946
+   },
+   "drive": {
+    "yt": "104YtuPZpr8",
+    "title": "Driving tour Pukenui to Cape Reinga, New Zealand -4K-",
+    "channel": "ddsuke Films",
+    "date": "20221129",
+    "duration": 3270
+   }
+  },
+  "piha": {
+   "walk": {
+    "yt": "-N6-nm3kYaA",
+    "title": "Kitekite Track to Waterfall Walking Tour Piha New Zealand [4K HDR]",
+    "channel": "New Zealand Walking Tours",
+    "date": "20211223",
+    "duration": 3011
+   },
+   "drive": {
+    "yt": "k3XHKJ8-iZI",
+    "title": "Be careful to Drive Piha Beach Auckland | New Zealand | 4K",
+    "channel": "Driving and Filming",
+    "date": "20240104",
+    "duration": 1757
+   }
+  },
+  "hobbiton": {
+   "walk": {
+    "yt": "vNaLj56nxiw",
+    "title": "Hobbiton Walking Tour 4K | Full Movie Set Tour | ASMR | New Zealand | LOTR | Relaxing Nature Sound",
+    "channel": "8K Travelverse",
+    "date": "20260305",
+    "duration": 2420
+   },
+   "drive": {
+    "yt": "cBZWhrGZdVc",
+    "title": "[4K] Drive Through Matamata | Hobbiton Movie Set Town | Waikato NZ Scenic Tour",
+    "channel": "FernzDrive",
+    "date": "20260430",
+    "duration": 667
+   }
+  },
+  "whanganui-river": {
+   "walk": {
+    "yt": "eksTUKZLX-U",
+    "title": "WHANGANUI, NEW ZEALAND - 2025 Walking Tour 4K",
+    "channel": "Relaxing Getaways",
+    "date": "20250620",
+    "duration": 2840
+   }
+  },
+  "tauranga": {
+   "walk": {
+    "yt": "pTKJCV1EA7A",
+    "title": "Mount Maunganui Summit View. New Zealand Virtual Tour Walk 4K",
+    "channel": "William Walker さんぽ",
+    "date": "20230415",
+    "duration": 758
+   },
+   "drive": {
+    "yt": "km8zi2uR8mI",
+    "title": "Is THIS NZ’s Best Beach Town? | 4K Drive Mount Maunganui, NZ",
+    "channel": "Kiwi Goes Driving",
+    "date": "20260322",
+    "duration": 1055
+   }
+  },
+  "invercargill": {
+   "walk": {
+    "yt": "6iRuPNkcF5M",
+    "title": "Bluff Foveaux Walkway Walking Tour New Zealand 4K HDR",
+    "channel": "New Zealand Walking Tours",
+    "date": "20220211",
+    "duration": 751
+   },
+   "drive": {
+    "yt": "EZGRdUCGYkc",
+    "title": "13/5/2021 Driving from Dunedin to bluff (iphone12pro)(New Zealand)",
+    "channel": "Sam Cheng",
+    "date": "20210515",
+    "duration": 11474
+   }
+  },
+  "gisborne": {
+   "walk": {
+    "yt": "71bo-RF_4e8",
+    "title": "Gisborne Gladstone Road Walking Tour New Zealand 4K",
+    "channel": "New Zealand Walking Tours",
+    "date": "20220625",
+    "duration": 1044
+   },
+   "drive": {
+    "yt": "Z-SHP-BmRyU",
+    "title": "Driving tour Gisborne, New Zealand -4K-",
+    "channel": "ddsuke Films",
+    "date": "20221206",
+    "duration": 1375
+   }
+  },
+  "port-moresby": {
+   "drive": {
+    "yt": "uYSKvPdcqsQ",
+    "title": "Port Moresby Driving Tour | Ela Beach to Gerehu Stage 6 (2021) | PNG 🇵🇬",
+    "channel": "Robaun Xtra Media",
+    "date": "20210623",
+    "duration": 708
+   }
+  },
+  "kokoda-track": {
+   "walk": {
+    "yt": "vMDWsnzxTqE",
+    "title": "[4k] Kokoda trail, 1000 steps. Walking Tour.",
+    "channel": "Following PatFee",
+    "date": "20201002",
+    "duration": 1087
+   }
+  },
+  "honiara": {
+   "drive": {
+    "yt": "sH5_UteIab4",
+    "title": "[4K] ONE YEAR LATER IN HONIARA SOLOMON ISLANDS | My Daily Drive from Home to Office",
+    "channel": "Javierism Tuboka",
+    "date": "20251220",
+    "duration": 867
+   }
+  },
+  "port-vila": {
+   "walk": {
+    "yt": "iCSlsmoRLsA",
+    "title": "4K Walking Tour of Port Vila, Vanuatu 🇻🇺 | Waterfront, Markets & Local Life",
+    "channel": "Living Life on a Cruise",
+    "date": "20260507",
+    "duration": 2644
+   },
+   "drive": {
+    "yt": "n95sVQh3VE4",
+    "title": "4K DRIVING IN PORT VILA #vanuatu",
+    "channel": "Dody Harendro",
+    "date": "20230509",
+    "duration": 1038
+   }
+  },
+  "noumea": {
+   "walk": {
+    "yt": "QY0DW2kfJ7c",
+    "title": "4K beach walk New Caledonia Noumea relaxing",
+    "channel": "Relaxation and wellness",
+    "date": "20260115",
+    "duration": 1100
+   },
+   "drive": {
+    "yt": "xq4gdetjKZU",
+    "title": "Noumea, New caledonia. Driving along the beach road, 27 Nov 2024",
+    "channel": "Addy Simpson",
+    "date": "20241128",
+    "duration": 1178
+   }
+  },
+  "suva": {
+   "walk": {
+    "yt": "Bvqy4wmrmQk",
+    "title": "Damodar City Centre (Suva, Fiji) Full Walking Tour",
+    "channel": "TourTV HD",
+    "date": "20221006",
+    "duration": 644
+   },
+   "drive": {
+    "yt": "woiHZb6GdeQ",
+    "title": "[4K][HD][SD] Fiji RoadTrip 🇫🇯 Driving from SIGATOKA to SUVA  the Island of Viti Levu,Fiji MAY2024 #4",
+    "channel": "MASALATV",
+    "date": "20240602",
+    "duration": 715
+   }
+  },
+  "nadi": {
+   "walk": {
+    "yt": "jYqBkM2uxQM",
+    "title": "Nadi, Fiji  🇫🇯 A Authentic Fijian Streetside Walking Tour  | 4K 60FPS",
+    "channel": "Aussie Jetsetter",
+    "date": "20250411",
+    "duration": 2879
+   },
+   "drive": {
+    "yt": "8WP31MhFy08",
+    "title": "Nadi, Fiji 🇫🇯 a Driving tour around the town of Nadi in Fiji",
+    "channel": "Sigis Travel Videos",
+    "date": "20230205",
+    "duration": 3216
+   }
+  },
+  "yasawa-islands": {
+   "walk": {
+    "yt": "riH7G7Cp53o",
+    "title": "[4K] THIS IS FIJI🇫🇯 - YOUR NEXT DREAM DESTINATION?  YASAWA ISLANDS NACULA ISLAND WALKING TOUR",
+    "channel": "ASIFYOUWERETHERE",
+    "date": "20231120",
+    "duration": 875
+   }
+  },
+  "mamanuca-islands": {
+   "walk": {
+    "yt": "qOaajWVQ5cM",
+    "title": "Treasure Island Mamanuca Islands Fiji 🇫🇯 (Awesome island!) 4k Walking Tour / Beach Walk & Review",
+    "channel": "The Beach Inspector",
+    "date": "20231017",
+    "duration": 1238
+   }
+  },
+  "apia": {
+   "walk": {
+    "yt": "yXCaSZBZwB4",
+    "title": "The Most Underrated Capital in the Pacific | Apia, Samoa Walking Tour (w/ Location Timestamps)",
+    "channel": "TourTV HD",
+    "date": "20260616",
+    "duration": 3508
+   },
+   "drive": {
+    "yt": "zwcg0u6YCZw",
+    "title": "Samoa Apia Town/Scenic Drive - 4K60P HDR",
+    "channel": "Big Boy Travels",
+    "date": "20260327",
+    "duration": 2036
+   }
+  },
+  "pago-pago": {
+   "drive": {
+    "yt": "qFgykQdeelI",
+    "title": "American Samoa, Driving - Beautiful Scenery - US territory - Pago Pago",
+    "channel": "Nick H The Traveler",
+    "date": "20251107",
+    "duration": 4699
+   }
+  },
+  "ofu-beach": {
+   "walk": {
+    "yt": "OgS-ZcDPE3M",
+    "title": "Walking to Ofu beach",
+    "channel": "sofeni & yvonne",
+    "date": "20230919",
+    "duration": 830
+   }
+  },
+  "nukualofa": {
+   "walk": {
+    "yt": "18j3Z-k06gc",
+    "title": "Nukuʻalofa Tonga 🇹🇴 4K Walking Tour | Cruise Port & City Views",
+    "channel": "Living Life on a Cruise",
+    "date": "20260402",
+    "duration": 2266
+   }
+  },
+  "haapai": {
+   "walk": {
+    "yt": "X6tci4By85E",
+    "title": "Tonga Travels Ha'apai: Exploring Uoleva Island - Part 4 (Walking Around the Beach)",
+    "channel": "Marv 'N Go (Marvin Go)",
+    "date": "20210819",
+    "duration": 622
+   },
+   "drive": {
+    "yt": "BXFu580m-a8",
+    "title": "Ha’apai Tonga one last drive around the island",
+    "channel": "All things Tonga",
+    "date": "20260220",
+    "duration": 1713
+   }
+  },
+  "rarotonga": {
+   "drive": {
+    "yt": "5iwaqfScArM",
+    "title": "Rarotonga - Cook Islands   Driving around island 4K UHD",
+    "channel": "Petr Podroužek",
+    "date": "20241115",
+    "duration": 980
+   }
+  },
+  "niue": {
+   "drive": {
+    "yt": "0cxpLjq-K0o",
+    "title": "Niue 2024 | Complete drive around Niue! | All main villages | Drive video",
+    "channel": "James Peter",
+    "date": "20260115",
+    "duration": 6081
+   }
+  },
+  "papeete": {
+   "walk": {
+    "yt": "PtveY_baAPs",
+    "title": "[4K] EXPLORING PAPEETE: TAHITI‘S CAPITAL CITY FRENCH POLYNESIA🇵🇫 WALKING TOUR",
+    "channel": "ASIFYOUWERETHERE",
+    "date": "20240703",
+    "duration": 701
+   }
+  },
+  "bora-bora": {
+   "walk": {
+    "yt": "RvZFYE5jo1M",
+    "title": "Tropical Island Walk | Ocean Beach Nature | Motu Tane | Bora Bora, French Polynesia 🇵🇫 | 4K Travel",
+    "channel": "TRAVOH",
+    "date": "20200607",
+    "duration": 3997
+   },
+   "drive": {
+    "yt": "TnkeeGXqYyc",
+    "title": "Driving All the Way Around the Island of Bora Bora - No Time Lapse",
+    "channel": "Walter Hall",
+    "date": "20200202",
+    "duration": 2027
+   },
+   "window": {
+    "yt": "bxmuUL0Zrxs",
+    "title": "Bora Bora 4K 🌴 Discover Paradise Beaches and Crystal Blue Lagoons - VIDEO 4K UHD 2026-08-18 09:38",
+    "verified": "2026-08-18"
+   }
+  },
+  "moorea": {
+   "walk": {
+    "yt": "lhQ3cczI_8s",
+    "title": "[4K] MOOREA, FRENCH-POLYNESIA: THIS IS HEAVEN ON EARTH | A beautiful Walking Tour in Paradise",
+    "channel": "ASIFYOUWERETHERE",
+    "date": "20240530",
+    "duration": 621
+   },
+   "drive": {
+    "yt": "hEX5oSi8HiE",
+    "title": "Driving Moorea French Polynesia 4K",
+    "channel": "Top Road Trips",
+    "date": "20260310",
+    "duration": 1158
+   }
+  },
+  "rangiroa": {
+   "walk": {
+    "yt": "h__JL3r5M8o",
+    "title": "Rangiroa Atoll | 4K Walking Tour of One of the World’s Largest Lagoons",
+    "channel": "Living Life on a Cruise",
+    "date": "20260118",
+    "duration": 1709
+   },
+   "drive": {
+    "yt": "CPEW9RjEHD8",
+    "title": "[4K] Driving on RANGIROA -Rangi Pearl Lodge - Polynésie française.",
+    "channel": " VACATION SO NICE",
+    "date": "20251103",
+    "duration": 1290
+   }
+  },
+  "pitcairn": {
+   "walk": {
+    "yt": "YAgYgCYN4SA",
+    "title": "A VIRTUAL WALKING TOUR OF ADAMSTOWN, PITCAIRN ISLAND, USING, GOOGLE MAPS",
+    "channel": "Dale Alan Bryant",
+    "date": "20201225",
+    "duration": 641
+   }
+  },
+  "tarawa": {
+   "drive": {
+    "yt": "_109UwpqINA",
+    "title": "【旅】カゴシマン、キリバス共和国のタラワ島で助手席に座る。 #Kiribati #Tarawa #Drive #DashCam",
+    "channel": "薩摩戦隊カゴシマンK",
+    "date": "20200625",
+    "duration": 818
+   }
+  },
+  "funafuti": {
+   "walk": {
+    "yt": "3Hu-S1Xemyg",
+    "title": "【旅】フナフチ散歩　Funafuti Walker　#Tuvalu #Funafuti #Walk",
+    "channel": "薩摩戦隊カゴシマンK",
+    "date": "20200809",
+    "duration": 701
+   },
+   "drive": {
+    "yt": "FeNmdfIljFQ",
+    "title": "【激走】カゴシマン、フナフチを南下する　#Tuvalu  #Funafuti #Drive",
+    "channel": "薩摩戦隊カゴシマンK",
+    "date": "20210814",
+    "duration": 2076
+   }
+  },
+  "nauru": {
+   "walk": {
+    "yt": "9PgJtSfu778",
+    "title": "【4K 60fps】🇳🇷 VIRTUAL WALKING TOUR: 🚶 «NAURU - Circling the Island 2024» 🎧 ORIGINAL SOUNDS 📺 ASMR UHD",
+    "channel": "One Man Wolf Pack",
+    "date": "20240325",
+    "duration": 14684
+   },
+   "drive": {
+    "yt": "V1KCA0I6CZI",
+    "title": "A Drive Around Nauru (4K) 2025.",
+    "channel": "Marc Shenko",
+    "date": "20250418",
+    "duration": 1664
+   }
+  },
+  "koror": {
+   "walk": {
+    "yt": "3rAovjl5d0w",
+    "title": "Palau - 4K HDR Walking Tour | Largest city: Koror | Republic of Palau 🇵🇼 | January 2025",
+    "channel": "traveler_HIRO",
+    "date": "20250206",
+    "duration": 5473
+   },
+   "drive": {
+    "yt": "dgMpxXekc1k",
+    "title": "DRIVE FROM DOWNTOWN KOROR TO NGARDMAU WATERFALL | BABELDAOB ISLANDS | PALAU SCENIC DRIVE 4K",
+    "channel": "THE TRAVEL JUNKIE",
+    "date": "20250128",
+    "duration": 1548
+   }
+  },
+  "peleliu": {
+   "walk": {
+    "yt": "cRSbV5MkU6o",
+    "title": "Peleliu 80 Years Later: Walking Through WWII History",
+    "channel": "NYC Flyer",
+    "date": "20250705",
+    "duration": 1444
+   }
+  },
+  "majuro": {
+   "walk": {
+    "yt": "cOPbZb7K8UU",
+    "title": "【4K 60fps】🇲🇭🌴🍹 VIRTUAL WALKING TOUR: 🚶 «Majuro - Marshall Islands 2024» 🎧 ORIGINAL SOUNDS 📺 ASMR UHD",
+    "channel": "One Man Wolf Pack",
+    "date": "20240811",
+    "duration": 2615
+   },
+   "drive": {
+    "yt": "yoh8-B3Rj9s",
+    "title": "Driving Around Majuro, Marshall Islands",
+    "channel": "Hogiboes",
+    "date": "20250221",
+    "duration": 863
+   }
+  },
+  "pohnpei": {
+   "drive": {
+    "yt": "hA4Xz8JZDqs",
+    "title": "Pohnpei Micronesia Drive tour around Kolonia #micronesia",
+    "channel": "David's Island Life & Adventures",
+    "date": "20251122",
+    "duration": 1393
+   }
+  },
+  "yap": {
+   "live": {
+    "yt": "ckCFJiQaBzw",
+    "title": "YAP STREAMS TILL MY HAND IS OK | ROAD TO 11K | JUST CHATTING ONLY -`🌷͙֒✧˚. 2026-08-18 09:55",
+    "verified": "2026-08-18"
+   }
+  },
+  "hagatna": {
+   "walk": {
+    "yt": "CI8m0pwk3pI",
+    "title": "Mini Statue of Liberty – Guam 4K Walk | Paseo de Susana Park | Hagåtña Seaside Landmark Tour",
+    "channel": "Wishful Walking Videos",
+    "date": "20251003",
+    "duration": 1925
+   },
+   "drive": {
+    "yt": "dqLNIajouZ0",
+    "title": "Guam Driving Tour - Tumon/Hagatna 4K",
+    "channel": "Island Driving Tour",
+    "date": "20230723",
+    "duration": 1564
+   }
+  },
+  "tumon": {
+   "walk": {
+    "yt": "a02d6bnVwrA",
+    "title": "Tumon, Guam Virtual Walking Tour 2024 | Explore Paradise | Guam USA Walking Tour | 4K 60fps",
+    "channel": "StrollingDice",
+    "date": "20241003",
+    "duration": 2749
+   },
+   "drive": {
+    "yt": "lwQqMHk-O4Q",
+    "title": "Guam Driving Tour - Tumon 4K",
+    "channel": "Island Driving Tour",
+    "date": "20230702",
+    "duration": 1020
+   }
+  },
+  "saipan": {
+   "walk": {
+    "yt": "HA8V0ZsQxsM",
+    "title": "4K Garapan Walking Tour – Downtown Saipan, Northern Marianas Islands",
+    "channel": "Wishful Walking Videos",
+    "date": "20250720",
+    "duration": 3574
+   },
+   "drive": {
+    "yt": "T-B-oglo23c",
+    "title": "Driving around Saipan",
+    "channel": "Warlee Ellama",
+    "date": "20230516",
+    "duration": 1287
+   }
+  },
+  "tinian": {
+   "walk": {
+    "yt": "ir6cNbvlL1o",
+    "title": "4K Hinode Shrine Walking Tour – Tinian, Northern Marianas Islands",
+    "channel": "Wishful Walking Videos",
+    "date": "20250905",
+    "duration": 736
    }
   }
  }
