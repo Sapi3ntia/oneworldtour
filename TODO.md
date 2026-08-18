@@ -229,6 +229,38 @@ dropped in v2 — resurrect from git if missed); satellite descend-from-orbit.
 
 ## Recently landed (so it isn't re-litigated)
 
+- **Oceania, 11 → 168 places (2026-08-17):** the Pacific had *nothing* — fourteen
+  sovereign states, zero records — and Australia had six places, New Zealand five.
+  `tools/build_oceania.py` (same frame as `build_africa.py`: P625 coordinates, every
+  slug resolved live) put in 157 new places across **23 countries and territories**;
+  registry 150 → **170**, and all 20 new Pacific countries went into
+  `build_culture.py` in the same sitting, so the four culture tables have **zero gaps**
+  for all 170. Four things this region taught, all in the README:
+  a **bounding box can't express Oceania** (96.8°E → 130.1°W: one longitude range
+  either accepts the globe or cuts the Pacific in half, so `in_box()` ORs two);
+  **P17 answers the sovereign, not the territory** (Bora Bora → France, Saipan → US —
+  `EXPECT_P17` downgrades the nine expected answers to a quiet `TERRITORY` note, since
+  refusing on them would delete the entire non-independent Pacific);
+  **a slug's redirect target is part of the check** (`MacKenzie_Falls` resolves fine
+  and redirects to *Sonny with a Chance*, a Disney sitcom — the Grampians waterfall has
+  no article at all); and **`sounds` filenames are a closed set of six**, anything else
+  falls silently through `typeFor()` to the wind bed.
+- **The map can draw a route across the date line (2026-08-17):** `drawLine()` drew one
+  straight line between projected endpoints, so the Polynesian Triangle's Auckland →
+  Nukuʻalofa leg — 1,998 km, 350° of raw longitude — went the long way round, straight
+  across the map. It now splits at ±180 and takes the crossing latitude off the same
+  great circle `trips.js` measures with. Trips went 21 → **24 routes**: the Big Lap
+  6 → 26 stops, plus the Aotearoa Arc, the Melanesian Arc and the Polynesian Triangle.
+- **`fetch_windy.py` no longer rebuilds `data/windy.json` from nothing (2026-08-17):**
+  it built its dict empty and wrote it wholesale, so a place whose lookup raised lost
+  its verified cam with no error anywhere. It now merges, drops an entry only after
+  re-checking it, and takes `--only`. It also learned that **Australasian aviation cams
+  never say "airport"** — "Broken Hill - YBHI -> Facing East" — so an ICAO-code rule
+  (case-sensitive: under `re.I`, `Y[A-Z]{3}` matches "your" and "yard") now refuses
+  them; eleven had already been picked as windows. Note for whoever reads this next:
+  **`data/windy.json` is still not loaded by the app** (principle 2 above), so this is
+  generator hygiene, not a shipped tier.
+
 - **Africa, all 54 countries (2026-08-17):** `africa.json` 23 → 182 places, from
   7 countries to 54 with none of them empty. `tools/build_africa.py` is the
   generator; `tools/build_countries.py` gained 44 African rows (registry 106 →

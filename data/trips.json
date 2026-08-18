@@ -827,34 +827,389 @@
       "emoji": "🦘",
       "mode": "drive",
       "region": "Australia",
-      "days": "6+ weeks",
+      "days": "4–6 months",
       "hero": "uluru",
-      "tagline": "Around a continent the size of Europe with about 26 million people on it.",
-      "blurb": "Australians call driving the circuit \"the big lap\" and treat it as a rite of passage. The distances are the whole story: Perth to Adelaide is 2,700 km with one town of consequence in between. We've picked the corners worth stopping at.",
+      "tagline": "Highway 1 around a continent the size of Europe, with 26 million people on it.",
+      "blurb": "Australians call driving the circuit \"the big lap\" and treat it as a rite of passage. Highway 1 rings the whole continent — about 14,500 km, the longest national highway on Earth — and the distances are the whole story: Perth to Adelaide is 2,700 km with one town of consequence in between. This is the clockwise version, with the Red Centre spur that nobody skips.",
       "stops": [
         {
           "id": "sydney",
-          "note": "The obvious start. Harbour, ferries, and the road north."
+          "note": "The obvious start. Harbour, ferries, and the Pacific Highway heading north."
+        },
+        {
+          "id": "byron-bay",
+          "note": "800 km up the coast to the easternmost point of the mainland."
+        },
+        {
+          "id": "brisbane",
+          "note": "The last city before the tropics, and the last one with traffic."
+        },
+        {
+          "id": "kgari-fraser-island",
+          "note": "The world's largest sand island. The highway here is the beach, and it has a tide timetable."
+        },
+        {
+          "id": "whitsunday-islands",
+          "note": "74 islands off the Queensland coast. Most lappers park the car and get on a boat for a week."
         },
         {
           "id": "cairns",
-          "note": "2,400 km up the east coast into the tropics."
+          "note": "The top of the sealed east coast. From here the road inland is the only way onward."
         },
         {
           "id": "great-barrier-reef",
           "note": "Out from Cairns by boat. 2,300 km of reef, and it is in trouble."
         },
         {
+          "id": "daintree-rainforest",
+          "note": "North of Cairns the tar runs out at Cape Tribulation, where the oldest rainforest on Earth meets the reef."
+        },
+        {
+          "id": "mount-isa",
+          "note": "Turn inland and west. 1,200 km of the Overlander's Way to a mining town with its own time zone habits."
+        },
+        {
+          "id": "tennant-creek",
+          "note": "Three Ways junction on the Stuart Highway: north to Darwin, south to the Red Centre. Do both."
+        },
+        {
+          "id": "alice-springs",
+          "note": "500 km south into the middle. The nearest other town of any size is a day's drive away."
+        },
+        {
           "id": "uluru",
-          "note": "Turn inland. The Red Centre is a very long way from everything."
+          "note": "The Red Centre detour, 450 km further southwest. Nobody skips it."
+        },
+        {
+          "id": "nitmiluk-national-park",
+          "note": "Back north up the Stuart, 1,200 km, to Katherine Gorge — thirteen gorges cut in sandstone."
+        },
+        {
+          "id": "kakadu-national-park",
+          "note": "Australia's biggest national park and 65,000 years of continuous painting on its rock walls."
+        },
+        {
+          "id": "darwin",
+          "note": "Top of the map. Rebuilt twice — by bombs in 1942, by Cyclone Tracy in 1974."
+        },
+        {
+          "id": "purnululu-national-park",
+          "note": "West into the Kimberley. The Bungle Bungles were unknown outside local knowledge until 1983."
+        },
+        {
+          "id": "broome",
+          "note": "Pearl town on the edge of the Indian Ocean, with the emptiest 2,000 km of coast either side of it."
+        },
+        {
+          "id": "ningaloo-reef",
+          "note": "A fringing reef you can swim to from the beach, with whale sharks in season."
+        },
+        {
+          "id": "shark-bay",
+          "note": "Stromatolites at Hamelin Pool — living structures built by the organisms that first oxygenated the planet."
         },
         {
           "id": "perth",
-          "note": "West across the Nullarbor — the most isolated city on the planet."
+          "note": "The most isolated big city on Earth. Everything above was the long way round to it."
+        },
+        {
+          "id": "margaret-river",
+          "note": "Three hours south: vines, caves and the surf break that made the region's name."
+        },
+        {
+          "id": "esperance",
+          "note": "The south coast run east, where the sand is white enough to hurt and kangaroos use the beach."
+        },
+        {
+          "id": "nullarbor-plain",
+          "note": "1,200 km with no trees and the longest straight stretch of road in the country. This is the lap's real test."
+        },
+        {
+          "id": "adelaide",
+          "note": "Out of the desert into the vines. The first city in 2,700 km."
+        },
+        {
+          "id": "great-ocean-road",
+          "note": "The southern coast road, built by returned soldiers with picks and shovels."
         },
         {
           "id": "melbourne",
-          "note": "The long southern run home, and the Great Ocean Road at the end of it."
+          "note": "Home leg. Lappers who make it here usually do the last 900 km to Sydney in one go."
+        }
+      ]
+    },
+    {
+      "id": "aotearoa-arc",
+      "name": "The Aotearoa Arc",
+      "emoji": "🥝",
+      "mode": "drive",
+      "region": "New Zealand",
+      "days": "4–6 weeks",
+      "hero": "milford-sound",
+      "tagline": "Cape Reinga to Stewart Island — the whole country, top to bottom, with one ferry in the middle.",
+      "blurb": "New Zealand is 1,600 km long and narrow enough that nowhere is more than 130 km from the sea, which is why the classic trip is simply a line down it. State Highway 1 runs the length of both islands; the Interislander crosses Cook Strait between them. The North Island is volcanic and populated, the South Island is alpine and empty, and the change happens in the three hours it takes to sail into the Marlborough Sounds.",
+      "stops": [
+        {
+          "id": "cape-reinga",
+          "note": "The top of the country, where the Tasman Sea and the Pacific visibly collide — and in Māori understanding, where spirits depart."
+        },
+        {
+          "id": "bay-of-islands",
+          "note": "144 islands and Waitangi, where the treaty that founded the modern country was signed in 1840."
+        },
+        {
+          "id": "auckland",
+          "note": "A third of New Zealand lives here, on top of 53 volcanoes."
+        },
+        {
+          "id": "coromandel-peninsula",
+          "note": "Two hours east: dig your own hot pool in the sand at low tide."
+        },
+        {
+          "id": "hobbiton",
+          "note": "A working sheep farm in the Waikato that never took the film set down."
+        },
+        {
+          "id": "waitomo-caves",
+          "note": "Underground rivers lit by glow-worms — a fungus gnat larva, and the reason people book this stop."
+        },
+        {
+          "id": "rotorua-wai-o-tapu",
+          "note": "The geothermal belt. The whole town smells of sulphur and everyone stops noticing by day two."
+        },
+        {
+          "id": "lake-taupo",
+          "note": "A lake the size of Singapore sitting in the caldera of the largest eruption in 70,000 years."
+        },
+        {
+          "id": "tongariro-national-park",
+          "note": "The Alpine Crossing — 19.4 km over a live volcano, and the best day walk in the country."
+        },
+        {
+          "id": "napier",
+          "note": "Levelled by an earthquake in 1931 and rebuilt, all at once, in Art Deco."
+        },
+        {
+          "id": "wellington",
+          "note": "The bottom of the North Island, and the ferry terminal for the crossing."
+        },
+        {
+          "id": "marlborough-sounds",
+          "note": "Three hours across Cook Strait, threading drowned river valleys into Picton."
+        },
+        {
+          "id": "abel-tasman-national-park",
+          "note": "The smallest national park and the warmest water — golden beaches on a coast track."
+        },
+        {
+          "id": "punakaiki",
+          "note": "Down the wild West Coast to the Pancake Rocks and their blowholes."
+        },
+        {
+          "id": "franz-josef-glacier",
+          "note": "A glacier that comes down almost to the rainforest. It is retreating fast."
+        },
+        {
+          "id": "wanaka",
+          "note": "Over the Haast Pass to the lake, the tree, and the last easy day before Fiordland."
+        },
+        {
+          "id": "milford-sound",
+          "note": "The Milford Road is one of the great drives, and the fiord at the end of it gets 7 m of rain a year."
+        },
+        {
+          "id": "queenstown",
+          "note": "The adventure capital, where the bungy jump was commercialised in 1988."
+        },
+        {
+          "id": "aoraki-mount-cook",
+          "note": "3,724 m, the tallest thing in the country, with a dark-sky reserve over it."
+        },
+        {
+          "id": "lake-tekapo",
+          "note": "That colour is rock flour — glacial silt suspended in the meltwater."
+        },
+        {
+          "id": "christchurch",
+          "note": "The South Island's city, still rebuilding from 2011 and doing it in public."
+        },
+        {
+          "id": "dunedin",
+          "note": "Scottish bones, student town, and the steepest residential street on Earth."
+        },
+        {
+          "id": "the-catlins",
+          "note": "The forgotten southeast corner: waterfalls, sea lions, and almost nobody."
+        },
+        {
+          "id": "invercargill",
+          "note": "The southernmost city, and the end of State Highway 1 at Bluff."
+        },
+        {
+          "id": "stewart-island",
+          "note": "One more ferry. 85% national park, 400 people, and kiwi on the beach at dusk."
+        }
+      ]
+    },
+    {
+      "id": "melanesian-arc",
+      "name": "The Melanesian Arc",
+      "emoji": "🌋",
+      "mode": "boat",
+      "region": "Melanesia",
+      "days": "6–8 weeks",
+      "hero": "mount-yasur",
+      "tagline": "Papua New Guinea to Fiji, along the chain that holds a quarter of the world's languages.",
+      "blurb": "The Melanesian islands run southeast from New Guinea in a 5,000 km arc — Papua New Guinea, the Solomons, Vanuatu, New Caledonia, Fiji — and between them they carry well over a thousand languages, more linguistic diversity than any comparable stretch of the planet. In practice you fly the long legs; the last hop to every island that matters is still done by boat. This is the least-travelled route in this atlas, and the least changed.",
+      "stops": [
+        {
+          "id": "port-moresby",
+          "note": "The start, and the only place in Papua New Guinea with regular international flights."
+        },
+        {
+          "id": "kokoda-track",
+          "note": "96 km over the Owen Stanley Range. The 1942 campaign is the reason Australians know the name."
+        },
+        {
+          "id": "mount-hagen",
+          "note": "Into the Highlands, a valley farmed for 10,000 years and unknown to outsiders until the 1930s."
+        },
+        {
+          "id": "sepik-river",
+          "note": "1,100 km of river with no road beside it. Villages are reached by canoe, and the carving is the finest in the Pacific."
+        },
+        {
+          "id": "rabaul",
+          "note": "East to New Britain, a town buried by its own volcano in 1994 and only half dug out."
+        },
+        {
+          "id": "honiara",
+          "note": "Across to the Solomons and Guadalcanal, where the 1942 fighting left a seabed full of ships."
+        },
+        {
+          "id": "marovo-lagoon",
+          "note": "The largest saltwater lagoon in the world, and villages that carve for a living."
+        },
+        {
+          "id": "rennell-island",
+          "note": "The largest raised coral atoll in the world, with a lake in the middle of it."
+        },
+        {
+          "id": "espiritu-santo",
+          "note": "Vanuatu's biggest island: blue holes inland, and the SS President Coolidge lying in shallow water offshore."
+        },
+        {
+          "id": "pentecost-island",
+          "note": "Land diving every April and May — the ritual that bungy jumping was copied from, with vines instead of rubber."
+        },
+        {
+          "id": "mount-yasur",
+          "note": "On Tanna, one of the few volcanoes on Earth you can stand on the rim of and watch erupt."
+        },
+        {
+          "id": "port-vila",
+          "note": "Vanuatu's capital, where 138 languages are spoken across 80 islands and Bislama holds it together."
+        },
+        {
+          "id": "noumea",
+          "note": "New Caledonia: French bakeries, a Kanak cultural centre, and the world's second-longest barrier reef offshore."
+        },
+        {
+          "id": "isle-of-pines",
+          "note": "An hour south by boat — columnar pines over water Captain Cook mistook for basalt towers."
+        },
+        {
+          "id": "suva",
+          "note": "Fiji's capital and the hinge of the whole region: the university, the shipping, and the flights all meet here."
+        },
+        {
+          "id": "levuka",
+          "note": "The old colonial capital on Ovalau, a wooden frontier town the world heritage list saved from being tidied up."
+        },
+        {
+          "id": "taveuni",
+          "note": "The Garden Island, the Rainbow Reef offshore, and the 180th meridian running through the middle of it."
+        }
+      ]
+    },
+    {
+      "id": "polynesian-triangle",
+      "name": "The Polynesian Triangle",
+      "emoji": "🧭",
+      "mode": "boat",
+      "region": "Polynesia",
+      "days": "3+ months",
+      "hero": "bora-bora",
+      "tagline": "Aotearoa to Rapa Nui to Hawaiʻi — the greatest feat of navigation in human history, in reverse.",
+      "blurb": "Draw a line from New Zealand to Easter Island to Hawaiʻi and you enclose 25 million km² of ocean — an area larger than Russia, almost all of it water. Polynesian navigators settled every habitable island inside it by around 1200 CE, sailing upwind against the trades in double-hulled canoes, reading swells and stars and bird flight. There is no ticket for this route; it is a way of seeing the Pacific as its own people did, as a road rather than a barrier. Corners first, and the language is still recognisably the same at all three.",
+      "stops": [
+        {
+          "id": "auckland",
+          "note": "The southwest corner of the triangle — and the city with more Polynesians in it than any other on Earth."
+        },
+        {
+          "id": "nukualofa",
+          "note": "Tonga: never colonised, still a kingdom, and the humpbacks calve here from July."
+        },
+        {
+          "id": "vavau",
+          "note": "North through Tonga's islands by ferry, into an archipelago of sheltered anchorages."
+        },
+        {
+          "id": "apia",
+          "note": "Samoa, where Robert Louis Stevenson is buried on a hill above the town he chose to die in."
+        },
+        {
+          "id": "savaii",
+          "note": "The big island, older and quieter: lava fields, blowholes, and villages that still run on fa'a Samoa."
+        },
+        {
+          "id": "pago-pago",
+          "note": "Forty minutes east and across the date line — one deep harbour, and America."
+        },
+        {
+          "id": "niue",
+          "note": "One raised coral island, 1,600 people, and the clearest water anyone will show you."
+        },
+        {
+          "id": "rarotonga",
+          "note": "The Cook Islands: one road around the island, 32 km, and a bus that goes clockwise and anticlockwise."
+        },
+        {
+          "id": "aitutaki",
+          "note": "A lagoon so shallow and so blue that it is the postcard the whole Pacific gets judged against."
+        },
+        {
+          "id": "papeete",
+          "note": "Tahiti, and the crossroads of French Polynesia's 118 islands."
+        },
+        {
+          "id": "moorea",
+          "note": "The ferry takes 30 minutes. The two bays and the spires behind them are the reason people miss the boat back."
+        },
+        {
+          "id": "bora-bora",
+          "note": "The overwater bungalow was invented here in 1967, and the lagoon still justifies it."
+        },
+        {
+          "id": "rangiroa",
+          "note": "Into the Tuamotus: an atoll rim 200 km around, with a lagoon big enough to lose Tahiti in."
+        },
+        {
+          "id": "nuku-hiva",
+          "note": "The Marquesas, 1,400 km northeast — high, wet, unlagooned islands, and where the great voyages set out from."
+        },
+        {
+          "id": "pitcairn",
+          "note": "Southeast to the mutineers' island: 35 people, a supply ship every three months, and no airstrip."
+        },
+        {
+          "id": "aa-rapa-nui",
+          "note": "The eastern corner. The most remote inhabited island on the planet, and the moai are only the visible part of the story."
+        },
+        {
+          "id": "honolulu",
+          "note": "The northern corner, 7,000 km back across the Pacific — and the same language, still recognisable, at the other end of the triangle."
         }
       ]
     },

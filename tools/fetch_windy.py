@@ -37,13 +37,35 @@ BASE  = "https://api.windy.com/webcams/api/v3/webcams"
 # The 2026-07-07 audit found "nearest active cam" happily picks airport,
 # highway-milepost, traffic and sky cams. Never accept these as a window.
 JUNK_TITLE = re.compile(
-    r"\b(sky|MP \d|milepost|US \d|I-\d+|SR-\d|Hwy|traffic|junction|airport|airfield|toll)\b",
+    r"\b(sky|MP \d|milepost|US \d|I-\d+|SR-\d|SH ?\d+|Hwy|traffic|junction|airport|"
+    r"airfield|windsock|toll)\b",
     re.I)
+
+# The word list above misses the way Australasian aviation cams name themselves:
+# by ICAO code and compass bearing, never by the word "airport" — "Broken Hill -
+# YBHI -> Facing East", "Ballarat - YBLT -> SW", "AYMH - Mt Hagen -> Facing
+# North". The Oceania batch pulled nine of them in as windows before this
+# existed. Australia is Y+3, New Zealand NZ+2, Papua New Guinea AY+2, and the
+# case matters: under re.I, Y[A-Z]{3} also eats "your", "yard" and "Yarra".
+# Every four-letter capital token in a 887-cam Australasian sample was one of
+# these codes, so the pattern is tight rather than lucky.
+JUNK_CODE = re.compile(r"\b(?:Y[A-Z]{3}|NZ[A-Z]{2}|AY[A-Z]{2})\b")
 
 QUERY_RADIUS_KM = 50      # how wide the API search is
 MAX_KM_IN_CITY  = 25      # "this cam is in the city" threshold
 MAX_KM          = 50      # beyond this we record nothing (honest "no window")
 REFRESH = "--refresh" in sys.argv
+
+def _only_arg():
+    """--only id,id,id — look up just these places, keep everything else."""
+    if "--only" not in sys.argv:
+        return None
+    i = sys.argv.index("--only")
+    if i + 1 >= len(sys.argv):
+        sys.exit("--only needs a comma-separated list of place ids")
+    return {x for x in sys.argv[i + 1].replace(" ", ",").split(",") if x}
+
+ONLY = _only_arg()
 
 with open(KEYF) as f:
     KEY = f.read().strip()
@@ -87,7 +109,8 @@ def best(cams, city_lat, city_lng, require_live=False):
     for c in cams:
         if c.get("status") != "active":
             continue
-        if JUNK_TITLE.search(c.get("title") or ""):
+        title = c.get("title") or ""
+        if JUNK_TITLE.search(title) or JUNK_CODE.search(title):
             continue
         loc = c.get("location") or {}
         clat, clng = loc.get("latitude"), loc.get("longitude")
@@ -128,18 +151,44 @@ def load_locations():
 
 def main():
     locs = load_locations()
-    print(f"locations: {len(locs)}  (refresh={REFRESH})")
-    out = {}
-    n_win = n_live = n_empty = n_err = 0
+    # Start from what we already shipped, don't start from nothing. This
+    # script used to build `out` empty and write it wholesale, so ANY place
+    # whose lookup raised — one rate-limited afternoon, one network blip —
+    # silently vanished from data/windy.json along with its verified cam.
+    # A run can now only ADD a cam, REPLACE one, or drop one it actually
+    # re-checked and found gone.
+    try:
+        out = json.load(open(OUT))
+    except (FileNotFoundError, json.JSONDecodeError):
+        out = {}
+    prev = dict(out)
+    if ONLY:
+        ghosts = ONLY - {l[0] for l in locs}
+        if ghosts:
+            print(f"  warning: {len(ghosts)} id(s) in --only are on no map: "
+                  f"{', '.join(sorted(ghosts))}")
+        locs = [l for l in locs if l[0] in ONLY]
+    print(f"locations: {len(locs)}  (refresh={REFRESH}"
+          f"{', --only' if ONLY else ''}, {len(prev)} already on file)")
+    n_win = n_live = n_empty = n_err = n_lost = 0
     for i, (lid, name, lat, lng) in enumerate(locs):
         try:
             cams = nearby(lat, lng)
         except Exception as e:
-            n_err += 1; print(f"  ERR {name}: {str(e)[:80]}"); continue
+            n_err += 1
+            print(f"  ERR {name}: {str(e)[:80]}"
+                  f"{'  (keeping the cam already on file)' if lid in prev else ''}")
+            continue
         win  = best(cams, lat, lng, require_live=False)
         live = best(cams, lat, lng, require_live=True)
         if not win and not live:
-            n_empty += 1; continue
+            n_empty += 1
+            # Re-checked and genuinely empty: this one really does go.
+            if out.pop(lid, None):
+                n_lost += 1
+                print(f"  drop {name}: nothing acceptable within {MAX_KM} km "
+                      f"any more — the cam we had is gone or now filtered")
+            continue
         entry = {}
         if win:  entry["window"] = win["id"]; entry["title"] = win["title"]; entry["km"] = win["km"]
         if live: entry["live"]   = live["id"]
@@ -162,6 +211,8 @@ def main():
     with open(OUT, "w") as f:
         json.dump(out, f, ensure_ascii=False, indent=0, separators=(",", ":"))
     print(f"\nWROTE {OUT}")
+    print(f"  entries on file: {len(out)}  (was {len(prev)}, "
+          f"{len(set(out) - set(prev))} new, {n_lost} dropped as gone)")
     print(f"  cities with a window: {n_win}/{len(locs)}")
     print(f"  cities with a LIVE stream: {n_live}")
     print(f"  no cam within {MAX_KM}km: {n_empty}   errors: {n_err}")

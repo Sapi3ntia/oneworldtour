@@ -66,7 +66,24 @@
    animation (the live-cam pulse) is likewise mounted only on in-view
    dots, and not at all under prefers-reduced-motion.
    ============================================================ */
-import { project, unproject, MAP_W, MAP_H } from './lib/geo.js';
+import { project, unproject, interpolate, MAP_W, MAP_H } from './lib/geo.js';
+
+/* Latitude at which the great circle a→b crosses ±180. Bisection on
+   geo.interpolate — the same great circle trips.js measures its legs with,
+   so the drawn route and the printed distance agree about where the leg
+   goes. Only called for legs that actually cross. */
+function antimeridianLat(a, b) {
+  const side = a.lng > 0 ? 1 : -1;
+  const unwrap = lng =>
+    (side > 0 && lng < 0) ? lng + 360 : (side < 0 && lng > 0) ? lng - 360 : lng;
+  let lo = 0, hi = 1;
+  for (let i = 0; i < 40; i++) {
+    const mid = (lo + hi) / 2;
+    if (Math.abs(unwrap(interpolate(a, b, mid).lng)) < 180) lo = mid; else hi = mid;
+  }
+  return interpolate(a, b, lo).lat;
+}
+
 
 const NS = 'http://www.w3.org/2000/svg';
 const COUNTRY_K = 2.6;   // below this zoom: country nodes; above: city dots
@@ -522,10 +539,27 @@ export class WorldMap {
     return g;
   }
 
-  /* NOTE: a straight line in projected space. Correct for every route
-     we ship; a leg that crossed the antimeridian would draw the long
-     way round the map and need splitting at ±180 first. */
+  /* A straight line in projected space — split at ±180 when the leg crosses
+     the antimeridian. That case used to be hypothetical and is not any more:
+     the Polynesian Triangle sails Auckland → Nukuʻalofa, 2,400 km apart and
+     350° of raw longitude apart, which drawn as one line goes the long way
+     round and lies across the whole map. Split, the route leaves one edge and
+     re-enters the other at the same latitude, which is all a flat projection
+     can honestly show. The crossing latitude comes off the great circle
+     (geo.interpolate), not off a linear blend, so both halves meet the edge
+     at the same point. */
   drawLine(a, b, cls = 'wmap-line') {
+    if (Math.abs(a.lng - b.lng) > 180) {
+      const lat = antimeridianLat(a, b);
+      const edge = a.lng > 0 ? 180 : -180;
+      const first = this._segment(a, { lat, lng: edge }, cls);
+      this._segment({ lat, lng: -edge }, b, cls);
+      return first;
+    }
+    return this._segment(a, b, cls);
+  }
+
+  _segment(a, b, cls) {
     const p1 = project(a.lat, a.lng), p2 = project(b.lat, b.lng);
     const line = svgEl('line', {
       x1: p1.x, y1: p1.y, x2: p2.x, y2: p2.y, class: cls,

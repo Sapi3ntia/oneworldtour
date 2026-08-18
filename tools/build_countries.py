@@ -182,9 +182,35 @@ COUNTRIES = {
     "LS": ("Lesotho", "Africa"),
     "SZ": ("Eswatini", "Africa"),
     # ---- Oceania ----
+    # Pacific territories get their own row rather than being filed under the
+    # sovereign state that holds them. The browse axis is Continent → Country →
+    # Place, so filing Bora Bora under "France" would bury it inside Europe and
+    # hide it from anyone looking at the Pacific. Each therefore carries its own
+    # ISO 3166-1 alpha-2 code, and the flag derives from that code exactly as
+    # every other row's does.
     "AU": ("Australia", "Oceania"),
     "NZ": ("New Zealand", "Oceania"),
+    "PG": ("Papua New Guinea", "Oceania"),
+    "FJ": ("Fiji", "Oceania"),
+    "SB": ("Solomon Islands", "Oceania"),
+    "VU": ("Vanuatu", "Oceania"),
+    "NC": ("New Caledonia", "Oceania"),
+    "WS": ("Samoa", "Oceania"),
+    "AS": ("American Samoa", "Oceania"),
+    "TO": ("Tonga", "Oceania"),
+    "CK": ("Cook Islands", "Oceania"),
+    "PF": ("French Polynesia", "Oceania"),
+    "NU": ("Niue", "Oceania"),
+    "KI": ("Kiribati", "Oceania"),
+    "TV": ("Tuvalu", "Oceania"),
+    "NR": ("Nauru", "Oceania"),
+    "PW": ("Palau", "Oceania"),
+    "MH": ("Marshall Islands", "Oceania"),
     "FM": ("Micronesia", "Oceania"),
+    "GU": ("Guam", "Oceania"),
+    "MP": ("Northern Mariana Islands", "Oceania"),
+    "NF": ("Norfolk Island", "Oceania"),
+    "PN": ("Pitcairn Islands", "Oceania"),
 }
 
 # Competitor videarth point counts → backlog priority signal (COUNTRIES.md §2)

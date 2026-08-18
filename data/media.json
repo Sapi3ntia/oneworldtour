@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-17T21:55:39+00:00",
+ "generated": "2026-08-18T02:29:38+00:00",
  "places": {
   "fez": {
    "walk": {
@@ -11938,6 +11938,416 @@
     "channel": "The African Adventurer Diaries",
     "date": "20240309",
     "duration": 6270
+   }
+  },
+  "canberra": {
+   "walk": {
+    "yt": "xQPKjwPBvys",
+    "title": "Canberra CBD Walk | Australia's Capital City | 4K Walking Tour",
+    "channel": "Urban Slow Walk 4K ",
+    "date": "20260318",
+    "duration": 3632
+   },
+   "drive": {
+    "yt": "ulm0-H3V3HU",
+    "title": "Canberra Australia - 4K Drive",
+    "channel": "Cinematic Escapes",
+    "date": "20220218",
+    "duration": 1878
+   }
+  },
+  "newcastle-nsw": {
+   "walk": {
+    "yt": "hOhvgOXIcG8",
+    "title": "Walking Tour 4K Newcastle Australia | Exploring My Hometown Streets",
+    "channel": "Johnos Walk",
+    "date": "20260311",
+    "duration": 1778
+   },
+   "drive": {
+    "yt": "iGJOFJdGhrI",
+    "title": "Driving Through Newcastle Beach and City Centre | NSW Australia | 4K HD ASMR POV Drive",
+    "channel": "Atlas Driving",
+    "date": "20250125",
+    "duration": 1912
+   },
+   "window": {
+    "yt": "dypAtzvl24s",
+    "title": "Port of Newcastle Harbour Cam 2026-08-17 22:06",
+    "verified": "2026-08-18"
+   }
+  },
+  "wollongong": {
+   "walk": {
+    "yt": "X_vQyWPLQjc",
+    "title": "[4K] Wollongong City - Walking Tour, Sydney, Australia",
+    "channel": "4K Walking Tours Today",
+    "date": "20220827",
+    "duration": 1104
+   },
+   "drive": {
+    "yt": "TVNRM9stGh8",
+    "title": "Driving Wollongong City Beach And City Centre | NSW Australia |  4K HD ASMR POV Drive",
+    "channel": "Atlas Driving",
+    "date": "20250307",
+    "duration": 1106
+   }
+  },
+  "byron-bay": {
+   "walk": {
+    "yt": "cZpABXVgBMI",
+    "title": "WALKING TOUR BYRON BAY AUSTRALIA | Where Hippy Chic Meets Boho Chic! | 4KUHD | Binaural 🎧",
+    "channel": "4KWalksAllOver",
+    "date": "20260119",
+    "duration": 1750
+   },
+   "drive": {
+    "yt": "YSpPSTbtlRU",
+    "title": "4K Drive to Byron Bay | Gold Coast to Byron Bay | Australia Travel | 2022-2023",
+    "channel": "Trip n Travel",
+    "date": "20221231",
+    "duration": 1871
+   }
+  },
+  "blue-mountains": {
+   "walk": {
+    "yt": "O0DjYJP7UEc",
+    "title": "Blue Mountains, NSW 🇦🇺 | Walking Tour | 4K",
+    "channel": "Sep Asemani",
+    "date": "20230911",
+    "duration": 1512
+   },
+   "drive": {
+    "yt": "7mhqNBaCeqA",
+    "title": "4K Scenic Drive in Blue Mountains Sydney Highway from Katoomba to Penrith",
+    "channel": "Onzil",
+    "date": "20220924",
+    "duration": 2184
+   }
+  },
+  "jervis-bay": {
+   "walk": {
+    "yt": "mNVuYt4Rx5Q",
+    "title": "Walking Huskisson/Jervis Bay | NSW Australia | 4K UHD",
+    "channel": "Roaming N Watching",
+    "date": "20220409",
+    "duration": 1041
+   },
+   "drive": {
+    "yt": "X9CCuQuFfi4",
+    "title": "Driving Jervis Bay to Narooma | NSW Australia | 4K UHD",
+    "channel": "Roaming N Watching",
+    "date": "20260718",
+    "duration": 8753
+   }
+  },
+  "hunter-valley": {
+   "walk": {
+    "yt": "KZtwyQ9izEE",
+    "title": "Mount Sugarloaf, Hunter Valley NSW - Australia [4K] [Walking Tour] [Slow TV]",
+    "channel": "Action Cam Australia",
+    "date": "20230611",
+    "duration": 3541
+   },
+   "drive": {
+    "yt": "5ZAIVpUNzFg",
+    "title": "Driving Through Australia's Famous Wine Country – Hunter Valley | NSW | 4K POV ASMR Drive 🍇",
+    "channel": "Atlas Driving",
+    "date": "20250127",
+    "duration": 2326
+   }
+  },
+  "broken-hill": {
+   "drive": {
+    "yt": "aDPh76OK6NU",
+    "title": "Road Trip to Broken Hill - Part 1",
+    "channel": "Tim Rumble - True Blue Overland",
+    "date": "20210409",
+    "duration": 1011
+   }
+  },
+  "kosciuszko-national-park": {
+   "walk": {
+    "yt": "ylO3y8yYwQI",
+    "title": "Mount Kosciuszko Summit Walk 4K",
+    "channel": "Alpine Aurora",
+    "date": "20220302",
+    "duration": 1637
+   }
+  },
+  "great-ocean-road": {
+   "drive": {
+    "yt": "SxEnCPJ8Io0",
+    "title": "Great Ocean Road Drive 4K | Scenic Ocean Views Victoria Australia",
+    "channel": "Travel Canvas",
+    "date": "20260223",
+    "duration": 7214
+   }
+  },
+  "grampians": {
+   "walk": {
+    "yt": "gnr2GHrK3NY",
+    "title": "Grampians Episode 2 - Pinnacle Walk (Grand Canyon, Bridal Veil Falls, Silent Street) [4K][3D Sound]",
+    "channel": "Benji Doodle",
+    "date": "20220712",
+    "duration": 4045
+   },
+   "drive": {
+    "yt": "u3v30mZ70Jg",
+    "title": "4K Scenic Drive in the Grampians – Halls Gap, Victoria, Australia | Relaxing Mountain Journey",
+    "channel": "Iron's Perspective",
+    "date": "20251110",
+    "duration": 2235
+   }
+  },
+  "wilsons-promontory": {
+   "walk": {
+    "yt": "L3-bV3f0LaQ",
+    "title": "Wilsons Promontory WALKING TOUR - 4K - Victoria - Australia",
+    "channel": "Footprints Unveiled",
+    "date": "20231011",
+    "duration": 2349
+   },
+   "drive": {
+    "yt": "IVlO3bvgxlQ",
+    "title": "4K Scenic Drive | Melbourne to Wilsons Promontory – Part 1 | Peaceful Road Trip Australia 🇦🇺",
+    "channel": "ANZ Scenic Vision",
+    "date": "20250527",
+    "duration": 2151
+   }
+  },
+  "ballarat": {
+   "walk": {
+    "yt": "bvD8k96rLRg",
+    "title": "Ballarat CBD Walk【4k】",
+    "channel": "Melbourne Walker",
+    "date": "20230513",
+    "duration": 1070
+   },
+   "drive": {
+    "yt": "m8LkTMI-Vkw",
+    "title": "4K | Drive from Port Melbourne to Ballarat",
+    "channel": "Open Roads",
+    "date": "20220802",
+    "duration": 852
+   }
+  },
+  "bendigo": {
+   "walk": {
+    "yt": "S8MD-31Q16s",
+    "title": "[4k] BENDIGO Australia Walking Tour",
+    "channel": "Explore Australia ",
+    "date": "20260228",
+    "duration": 3413
+   },
+   "drive": {
+    "yt": "JqgvDiMsFR4",
+    "title": "Wandering Driving in Bendigo the fourth populous city in Victoria | Australia | 4K Cinematic",
+    "channel": "It Looks Like",
+    "date": "20220706",
+    "duration": 1101
+   }
+  },
+  "phillip-island": {
+   "walk": {
+    "yt": "9HBd9sslEb0",
+    "title": "[4k60] Nobbies boardwalk Phillip Island, Australia. Walking Tour.",
+    "channel": "Following PatFee",
+    "date": "20221016",
+    "duration": 808
+   },
+   "drive": {
+    "yt": "Ip0wOQUYVFw",
+    "title": "Driving Phillip Island to Melbourne | Victoria Australia | 4K UHD",
+    "channel": "Roaming N Watching",
+    "date": "20221118",
+    "duration": 8936
+   }
+  },
+  "geelong": {
+   "walk": {
+    "yt": "LaSSoP6gWy0",
+    "title": "Geelong, Australia Walking Tour | 4K 60FPS",
+    "channel": "Aussie Jetsetter",
+    "date": "20240524",
+    "duration": 2002
+   },
+   "drive": {
+    "yt": "mD5oK8nBtTU",
+    "title": "Geelong City Drive | A Sunny Summer Journey Through Victoria",
+    "channel": "ANZ Scenic Vision",
+    "date": "20260815",
+    "duration": 3107
+   }
+  },
+  "brisbane": {
+   "walk": {
+    "yt": "EWZYWiloSNw",
+    "title": "Brisbane, AUSTRALIA - Brisbane City 4K Walking Tour",
+    "channel": "Walking Expedition",
+    "date": "20260131",
+    "duration": 4471
+   },
+   "drive": {
+    "yt": "9pPBmcKvFOc",
+    "title": "Driving Downtown - Brisbane 4K HDR - Australia - 2032 Olympics City",
+    "channel": "J Utah",
+    "date": "20231102",
+    "duration": 2923
+   },
+   "live": {
+    "yt": "o1LRcS28T2M",
+    "title": "Brisbane Weather Live 2026-08-17 22:20",
+    "verified": "2026-08-18"
+   }
+  },
+  "gold-coast": {
+   "walk": {
+    "yt": "EVaxBZh99dc",
+    "title": "Gold Coast, AUSTRALIA - Surfers Paradise Bustling Beachside Suburb 4K Walking Tour",
+    "channel": "Walking Expedition",
+    "date": "20260203",
+    "duration": 4592
+   },
+   "drive": {
+    "yt": "E_xYNJda_-A",
+    "title": "Gold Coast 4K HDR - Scenic Drive - Australia",
+    "channel": "J Utah",
+    "date": "20231029",
+    "duration": 1672
+   }
+  },
+  "whitsunday-islands": {
+   "walk": {
+    "yt": "pw11P5Vflwo",
+    "title": "Whitehaven Beach, Whitsunday Islands - 4K Ambient Walk",
+    "channel": "Walk 4K Today",
+    "date": "20210328",
+    "duration": 848
+   },
+   "drive": {
+    "yt": "q24nQT8HBqo",
+    "title": "ROAD TRIP TO AIRLIE BEACH I The Whitsundays, Queensland, Australia, Travel Vlog 091, 2021",
+    "channel": "Beth and Paul",
+    "date": "20210917",
+    "duration": 858
+   }
+  },
+  "daintree-rainforest": {
+   "walk": {
+    "yt": "6f80F-bWA8Y",
+    "title": "Relaxing Walk in the Australian farms and tropical rainforests【4K】",
+    "channel": "SP Relax video",
+    "date": "20220109",
+    "duration": 2740
+   },
+   "drive": {
+    "yt": "NAhE28jsYPE",
+    "title": "LOWER DAINTREE | MUST SEE in AUSTRALIA | MOST INCREDIBLE drive of my LIFE | Aesthetically pleasing",
+    "channel": "ZuZu Adventures",
+    "date": "20230424",
+    "duration": 820
+   }
+  },
+  "port-douglas": {
+   "walk": {
+    "yt": "lXFizB3EsNE",
+    "title": "Port Douglas Queensland - 4K Walking Tour",
+    "channel": "Getaway Walks",
+    "date": "20260708",
+    "duration": 2958
+   },
+   "drive": {
+    "yt": "-ZBNG767Jp0",
+    "title": "Palm Cove to Port Douglas Scenic Drive | Captain Cook Highway | Queensland Australia 4K",
+    "channel": "Epic Global Drives",
+    "date": "20260406",
+    "duration": 6074
+   }
+  },
+  "townsville": {
+   "walk": {
+    "yt": "rP3TR5KFkts",
+    "title": "The Strand, Townsville - 4K Ambient Walk",
+    "channel": "Walk 4K Today",
+    "date": "20210117",
+    "duration": 1724
+   },
+   "drive": {
+    "yt": "MkQfJI84x9Y",
+    "title": "Driving the Townsville Strand | Exploring the Tropical Paradise of North Queensland | 4K UHD Footage",
+    "channel": "Dashcam Drives",
+    "date": "20230630",
+    "duration": 1141
+   },
+   "window": {
+    "yt": "AXJlMkOpNXw",
+    "title": "Bushland Beach Weather Live Stream - Townsville Sky Cam 2026-08-17 22:24",
+    "verified": "2026-08-18"
+   }
+  },
+  "kgari-fraser-island": {
+   "walk": {
+    "yt": "WqE_i671oCQ",
+    "title": "Ep 14 Walking FRASER Island (K'gari). Our marathon walk to PARADISE! Exploring Hervey Bay and more.",
+    "channel": "Plant Powered Trippin",
+    "date": "20220330",
+    "duration": 1920
+   },
+   "drive": {
+    "yt": "u6gzSjdrTE0",
+    "title": "75 Mile Beach Driving | K'gari Queensland Australia",
+    "channel": "힐링씨네로그_4K Scenic Experience",
+    "date": "20250205",
+    "duration": 600
+   }
+  },
+  "noosa": {
+   "walk": {
+    "yt": "WGn0VWH9yjE",
+    "title": "4k Walking Tour / Beach Walk & Review Noosa Heads, Queensland, Australia",
+    "channel": "The Beach Inspector",
+    "date": "20220601",
+    "duration": 734
+   },
+   "drive": {
+    "yt": "fnaRrIJ57Iw",
+    "title": "[4K] Brisbane to Sunshine Coast Coastal Drive | Mooloolaba • Coolum • Noosa • Alex Headland",
+    "channel": "FernzDrive",
+    "date": "20240906",
+    "duration": 2075
+   }
+  },
+  "lamington-national-park": {
+   "walk": {
+    "yt": "_2OxTZXjbu8",
+    "title": "Australia Travel | Lamington National Park | Walk to Coomera Falls | 4K 2023",
+    "channel": "Trip n Travel",
+    "date": "20221225",
+    "duration": 1220
+   },
+   "drive": {
+    "yt": "iU5aGImX4yg",
+    "title": "Driving in Australian Mountains | Lamington National Park - Gold Coast Hinterland | Queensland",
+    "channel": "Nomad Ethos || Underdog",
+    "date": "20211223",
+    "duration": 4203
+   }
+  },
+  "carnarvon-gorge": {
+   "walk": {
+    "yt": "pvFixwSW2Ok",
+    "title": "Epic Carnarvon Gorge - 15km walk and 10km Ride",
+    "channel": "Tri Fit",
+    "date": "20210914",
+    "duration": 1013
+   },
+   "drive": {
+    "yt": "wiL5lHmxqeI",
+    "title": "CARNARVON GORGE HIKE. ROAD TRIP 2023 Series Ep:5",
+    "channel": "PMK3Australia",
+    "date": "20230611",
+    "duration": 1069
    }
   }
  }

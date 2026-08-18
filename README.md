@@ -1,6 +1,6 @@
 # 🌍 One World Tour
 
-Step into 643 places across 97 countries — **walk their streets, drive their
+Step into 1,126 places across 170 countries — **walk their streets, drive their
 roads, watch their intersections live, look out their windows live**, tune into
 their radio, **watch their national TV live**, and read their news — all in-app,
 all real. Inspired by
@@ -131,7 +131,7 @@ oneworldtour/
 ├── data/
 │   ├── index.json         # region registry
 │   ├── trips.json         # 🧭 curated routes — ordered stop ids + editorial notes
-│   ├── <region>.json      # 736 places (curated walks/webcams/monuments live here)
+│   ├── <region>.json      # 1,126 places (curated walks/webcams/monuments live here)
 │   ├── wild.json          # 🦁 wildlife & national-park live cams as places
 │   ├── observatory.json   # 🔭 observatories & telescopes as places
 │   ├── tv.json            # 📺 live national TV channels per country (verified live)
@@ -1147,6 +1147,100 @@ The general lesson, worth applying to the next region: *finish the country, not 
 the place*. Adding rows to `data/countries.json` silently promises culture rows,
 currency codes and radio codes that nothing checks for you.
 
+**Oceania** (`oceania.json` 11 → 168, 2026-08-17). Eleven places for a third of the
+planet's surface: six in Australia, five in New Zealand, and **nothing at all** in the
+Pacific — the ocean that holds fourteen sovereign states was represented by zero
+records. It now holds **168 places in 23 countries and territories**, built with
+`tools/build_oceania.py` on the frame `build_africa.py` set: Wikidata **P625** for
+every coordinate, every `wikipedia_slug` resolved live and stored as the article's
+canonical title, prose from memory and nothing else. Australia 6 → **73**, New Zealand
+5 → **36**, and **59** across the Pacific — Papua New Guinea's Sepik and Highlands,
+Vanuatu's land divers, Chuuk's sunken fleet, Bikini Atoll, and Adamstown, population
+35. The registry went 150 → **170** countries, all 23 Oceania rows non-zero.
+
+- **A single bounding box cannot express this region.** Every other generator refuses a
+  record whose P625 lands outside a `lat_min…lat_max, lng_min…lng_max` net. Oceania runs
+  from Christmas Island at **96.8°E** to Pitcairn at **130.1°W**, so that test either
+  spans the whole globe (`-180…180`, which refuses nothing) or splits the Pacific down
+  the middle and throws away everything past the date line. `in_box()` therefore ORs
+  **two** longitude ranges, `(96.5…180)` and `(-180…-124)`, and the same crossing shows
+  up again in the map (below) and in the trips.
+- **Wikidata P17 answers the sovereign state, not the territory.** The Africa batch
+  added P17 as the soft warning beside the box, and in the Pacific that warning fires
+  on every place that is *correct*: Bora Bora's P17 is **France**, Nouméa's is France,
+  Hagåtña's and Saipan's are the **United States**, Adamstown's is the **United
+  Kingdom**. Refusing on P17 here would delete French Polynesia, New Caledonia, Guam,
+  the Marianas, American Samoa and Pitcairn — the entire Pacific outside the
+  independent states. `EXPECT_P17` names the nine expected sovereign answers, and a
+  match against the expected one prints as a quiet `TERRITORY` note instead of a
+  warning. 18 fired; 0 real `COUNTRY` mismatches survived.
+- **A redirect is a namesake trap the title never shows.** `MacKenzie_Falls`, the
+  waterfall in the Grampians, is not an article — the slug redirects to
+  **`Sonny_with_a_Chance`**, a Disney sitcom whose show-within-a-show is called
+  Mackenzie Falls. The *title* looked perfect; only the redirect target gave it away.
+  It is now a plain-text chip, as are twelve others with no article of their own, and
+  28 more were repointed (`Ikara-Flinders_Ranges_NP` needed the en-dash;
+  `Ulva_Island` is a disambiguation page; Neiafu's article is `Neiafu_(Vavaʻu)`).
+- **`sounds` filenames are a closed set of six, and a wrong one fails silently.**
+  Eight invented names (`tropical-birds.mp3`, `geyser.mp3`, `cave-drip.mp3`…) would have
+  fallen straight through `soundscape.js`'s `typeFor()` to the generic wind bed, on 40
+  places, with nothing in any log. Caught by reading `typeFor()` rather than by testing.
+- **Territories get their own registry row, not their sovereign's.** The browse axis is
+  Continent → Country → Place, so filing Bora Bora under "France" buries it inside
+  Europe. New Caledonia, French Polynesia, Guam, the Northern Marianas, American Samoa,
+  the Cooks, Niue, Norfolk Island and Pitcairn each carry their own ISO 3166-1 alpha-2
+  code, and their flag derives from that code exactly as every other row's does.
+  Christmas Island and Cocos stay `region` names under Australia, because that is how
+  the atlas already treats them.
+- **The four culture tables, kept as a promise this time.** The Africa batch's closing
+  lesson was *finish the country, not just the place*, so the 20 new Pacific countries
+  went into `build_culture.py`'s `ROWS` in the same sitting: 131 countries across
+  `COUNTRY_PROFILES` / `COUNTRY_CODES` / `CURRENCY_CODES` / `COUNTRY_FACTS`, and a
+  re-audit of the registry against all four now reports **zero gaps** for all 170
+  countries. Every Pacific currency the converter needs — PGK, FJD, SBD, VUV, XPF, WST,
+  TOP — was checked against `open.er-api.com` before being written down.
+
+Two bugs the batch surfaced outside the generator, both of which had been waiting for
+a region that crosses 180° or sits in Australasia:
+
+- **The map drew routes the long way round.** `WorldMap.drawLine()` projected both
+  endpoints and drew one straight line, with a comment saying a leg crossing the
+  antimeridian "would need splitting at ±180 first". The Polynesian Triangle's
+  Auckland → Nukuʻalofa leg is 1,998 km and **350° of raw longitude**, so it drew as a
+  line straight across the entire map. It now splits at the edge, taking the crossing
+  latitude off the same great circle `trips.js` measures the leg with, so the drawn
+  route and the printed distance agree; the two halves of that leg sum to 1,998 km
+  exactly, from either direction.
+- **`fetch_windy.py` rebuilt `data/windy.json` from nothing on every run**, so any
+  place whose lookup raised — one rate-limited afternoon, one network blip — silently
+  lost its verified cam. It now starts from the file, drops an entry only after
+  re-checking it and finding nothing, and takes `--only` so a region batch costs 157
+  API calls instead of 1,126. That run added **74 windows and 16 live cams** to the new
+  places (205 → 279 entries atlas-wide) — *on a file the app does not currently load*.
+  Windy's embed player was cut in 2026-07 for failing the autoplay rule and
+  `data/windy.json` has been dormant since; this fixes the generator and refreshes the
+  data so the file is honest if the tier is ever revived, and it changes nothing a
+  visitor sees today. Said plainly because a "74 new live cams" line would read like a
+  shipped feature.
+- **Airport cams don't say "airport".** The 2026-07-07 audit taught the picker to
+  refuse sky, traffic, milepost and airport cams *by word*, and Australasian aviation
+  cams name themselves by **ICAO code and bearing** — "Broken Hill - YBHI -> Facing
+  East", "Ballarat - YBLT -> SW", "AYMH - Mt Hagen -> Facing North". Eleven of them
+  came through as windows. Australia is Y+3, New Zealand NZ+2, PNG AY+2, and the
+  pattern has to be **case-sensitive**: under `re.I`, `Y[A-Z]{3}` also matches "your",
+  "yard" and "Yarra". Every four-letter capital token in an 887-cam Australasian sample
+  was one of these codes.
+
+**Trips.** 21 → **24 routes**. The Big Lap was six stops for a 14,500 km circuit —
+Sydney, Cairns, the Reef, Uluru, Perth, Melbourne — which is a sketch, not a lap; it is
+now **26 stops** clockwise around Highway 1 with the Red Centre spur. Three new routes
+came with the region: **The Aotearoa Arc** (25 stops, Cape Reinga to Stewart Island,
+one ferry in the middle), **The Melanesian Arc** (17 stops, Port Moresby to Taveuni
+along the chain that carries a quarter of the world's languages), and **The Polynesian
+Triangle** (17 stops, Auckland → Rapa Nui → Honolulu — the three corners of the
+greatest feat of navigation in human history, and the route that found the
+antimeridian bug).
+
 | rule | why |
 | --- | --- |
 | coordinates from **Wikidata P625**, not an OSM administrative centroid | a Chinese prefecture-level city is a *region*. OSM's "Chongqing" node sits at 30.06N 107.87E, ~200 km out in the rural east; P625 puts it in Yuzhong, which is the city. Nominatim is for villages and scenic areas that Wikidata has no point for, and the matched object gets eyeballed |
@@ -1167,6 +1261,11 @@ currency codes and radio codes that nothing checks for you.
 | adding a country to the registry is a promise to **four other tables** | `culture.js` keys `COUNTRY_PROFILES` / `COUNTRY_CODES` / `CURRENCY_CODES` / `COUNTRY_FACTS` on the country *name*. A place in a country missing from them renders "Language —, Currency —, Local specialities" with no phrases, no fast facts and no converter — and still looks finished, because the radio list reads `country_code` off the place and never consults these tables. Run `build_culture.py` and diff the registry against all four after **any** region batch; that audit found 44 new African gaps and 59 already-shipped places from earlier batches |
 | a generator that **replaces a marked block** must refuse to drop keys it doesn't know | `build_culture.py` rewrites its block wholesale from `ROWS`, so four countries hand-added to `culture.js` and never mirrored back would have vanished on the next run — no error, no diff anyone reads. `check_no_orphans()` now exits non-zero and names them. Same shape as the `--max` lie: the dangerous run is the one whose log looks normal |
 | anything emitted into a **single-quoted JS string** gets escaped, not just the strings that need it today | `build_culture.py` interpolated raw values, which was fine until the data contained `Côte d'Ivoire` and `N'Djamena` — an apostrophe closes the string early and breaks the whole module for every page. `esc()` is applied to keys and all fields, including the ones that look safe |
+| a region that **crosses ±180** needs two longitude ranges, and so does everything downstream of them | Oceania spans 96.8°E to 130.1°W. One `lng_min <= lng <= lng_max` test either accepts the whole globe or drops everything past the date line, and the same crossing breaks any code that treats longitude as a number line: `WorldMap.drawLine()` drew Auckland → Nukuʻalofa, 1,998 km apart, as a line straight across the map. Split the leg at the edge and take the crossing latitude off the great circle, not off a linear blend |
+| **P17 names the sovereign state, not the territory** | the Africa batch's country warning fires on every *correct* Pacific record: Bora Bora → France, Saipan → United States, Adamstown → United Kingdom. Automating it would have deleted the entire non-independent Pacific. `EXPECT_P17` lists the nine expected sovereign answers and downgrades those to a `TERRITORY` note; anything else is still a warning a human reads |
+| read a slug's **redirect target**, not just whether it resolves | `MacKenzie_Falls` resolves, 200 OK, correct-looking title — and redirects to **`Sonny_with_a_Chance`**, a Disney sitcom with a show-within-a-show of that name. The Grampians waterfall has no article at all. A slug that resolves to a *different subject* is the failure a link checker cannot see |
+| a picker that refuses junk **by word** misses every naming convention that doesn't use the word | Australasian aviation cams are named "Broken Hill - YBHI -> Facing East", never "airport", so eleven of them landed in `data/windy.json` as windows. The ICAO rule has to be case-**sensitive**: under `re.I`, `Y[A-Z]{3}` eats "your", "yard" and "Yarra" |
+| a generator that rewrites a whole data file must **merge**, not replace | `fetch_windy.py` built its output dict from empty and wrote it wholesale, so any place whose API call raised vanished from `data/windy.json` with its verified cam — the same shape as the `build_culture.py` orphan bug, one file over. It now starts from what shipped and drops an entry only after re-checking that one and finding nothing |
 
 ---
 

@@ -21,11 +21,33 @@
 "title":"Peebles: SR-32 at SR-41, D09-021",
 "km":10
 },
+"abel-tasman-national-park":{
+"window":"1640721288",
+"title":"Pohara › North-east: Pohara Beach",
+"km":10,
+"live":"1667411791"
+},
 "acadia":{
 "window":"1170946867",
 "title":"Winter Harbor: Frenchman Bay",
 "km":17,
 "live":"1642012170"
+},
+"adelaide":{
+"window":"1199552801",
+"title":"Adelaide: Victoria Park",
+"km":2,
+"live":"1616708358"
+},
+"aitutaki":{
+"window":"1581120164",
+"title":"Aitutaki › North-west: Tamanu Beach Aitutaki",
+"km":1
+},
+"akaroa":{
+"window":"1654989044",
+"title":"Banks Peninsula Community › West: Akaroa Marine Reserve - Lucas Peak - Akaroa Harbour",
+"km":9
 },
 "alberobello":{
 "window":"1200744739",
@@ -47,10 +69,21 @@
 "title":"Coconino County › West: Paria Canyon-Vermilion Cliffs Wilderness Area",
 "km":19
 },
+"aoraki-mount-cook":{
+"window":"1592952482",
+"title":"Mackenzie District › North",
+"km":16
+},
 "arches":{
 "window":"1793903240",
 "title":"Moab › South: Grand County High School",
 "km":19
+},
+"arthurs-pass":{
+"window":"1483169397",
+"title":"Arthur's Pass: Canterbury, New Zealand",
+"km":14,
+"live":"1716946945"
 },
 "athens":{
 "window":"1203786305",
@@ -78,6 +111,11 @@
 "km":2,
 "live":"1638144624"
 },
+"ballarat":{
+"window":"1582074986",
+"title":"Trentham › West",
+"km":46
+},
 "banff-lake-louise":{
 "window":"1294186882",
 "title":"Lake Louise: Lake Louise Ski Area Ltd. - Ptarmigan Peak",
@@ -99,11 +137,26 @@
 "title":"Villa Catedral › North-west: Catedral Alta Patagonia",
 "km":12
 },
+"barossa-valley":{
+"window":"1724263253",
+"title":"Gawler › West: Adelaide Soaring Club - Gawler Aerodrome",
+"km":22
+},
 "bavarian-alps":{
 "window":"1224525866",
 "title":"Hammersbach: Grainau Wachterhaus Ferienwohnung",
 "km":5,
 "live":"1491265015"
+},
+"bay-of-fires":{
+"window":"1169975800",
+"title":"Binalong Bay › North-west: Baileys Beach Cove - Bay of Fires",
+"km":13
+},
+"bay-of-islands":{
+"window":"1735898492",
+"title":"Bay of Islands-Whangaroa Community › West: Russell",
+"km":8
 },
 "beijing":{
 "window":"1596008163",
@@ -114,6 +167,11 @@
 "window":"1300301962",
 "title":"Belgrade: Live - Vukov spomenik",
 "km":2
+},
+"bendigo":{
+"window":"1697589365",
+"title":"City of Greater Bendigo",
+"km":25
 },
 "berlin":{
 "window":"1230040329",
@@ -137,6 +195,11 @@
 "title":"Triberg im Schwarzwald › South-west: Wasserfall Kaskaden",
 "km":14
 },
+"blue-mountains":{
+"window":"1579221641",
+"title":"Mount Victoria › North-east",
+"km":7
+},
 "bogota":{
 "window":"1793906875",
 "title":"Localidad Teusaquillo › South",
@@ -158,11 +221,21 @@
 "km":2,
 "live":"1335801813"
 },
+"brisbane":{
+"window":"1301134779",
+"title":"Brisbane City › North-west: Woolloongabba",
+"km":3
+},
 "bruges":{
 "window":"1617377416",
 "title":"Blankenberge: O'Neill Beach Club - Strand Blankenberge pier",
 "km":14,
 "live":"1617377416"
+},
+"bruny-island":{
+"window":"1724279003",
+"title":"Adventure Bay › South-west: Hotel Bruny - Bruny Island",
+"km":5
 },
 "bryce-canyon":{
 "window":"1671582891",
@@ -185,6 +258,11 @@
 "title":"Dadae-dong",
 "km":18
 },
+"byron-bay":{
+"window":"1645222989",
+"title":"Ballina › North-east: Flat Rock Road",
+"km":21
+},
 "cairns":{
 "window":"1230651774",
 "title":"Kuranda: Barron Falls - Kuranda Scenic Railway - Barron Gorge",
@@ -194,6 +272,12 @@
 "window":"1349915423",
 "title":"Santa Ursula › West: La quinta - Sendero Playa del Ancón - Santa Úrsula",
 "km":20
+},
+"canberra":{
+"window":"1578554761",
+"title":"Canberra › North-east: Belconnen",
+"km":10,
+"live":"1716230375"
 },
 "cape-town":{
 "window":"1170887551",
@@ -221,6 +305,16 @@
 "title":"Chicago › North: South Rose Garden - Lake Michigan - South Loop - Magma by Mark di Suvero - Clarence F. Buckingham Memorial Fountain",
 "km":2
 },
+"christchurch":{
+"window":"1793904381",
+"title":"Linwood-Central-Heathcote Community › East: SH74A Ferry Rd",
+"km":5
+},
+"christmas-island":{
+"window":"1680241866",
+"title":"Shire of Christmas Island › North",
+"km":8
+},
 "churchill":{
 "window":"1604873129",
 "title":"Churchill: The Flats › North-west: true",
@@ -236,6 +330,16 @@
 "title":"Old Toronto: Rees Street - Toronto - Gardiner Expressway",
 "km":0
 },
+"coober-pedy":{
+"window":"1611805340",
+"title":"Coober Pedy: Umoona Opal Mine & Museum",
+"km":3
+},
+"coromandel-peninsula":{
+"window":"1793909009",
+"title":"Whitianga › South-east: Buffalo Beach - Simpsons Beach",
+"km":9
+},
 "corsica":{
 "window":"1706613349",
 "title":"Ajaccio › South: Golfe d'Ajaccio",
@@ -248,6 +352,11 @@
 "km":2,
 "live":"1793901967"
 },
+"cradle-mountain":{
+"window":"1450843353",
+"title":"Cradle Mountain: Lake Saint Clair National Park - Tasmania, Australia",
+"km":4
+},
 "cyclades":{
 "window":"1215104153",
 "title":"Orkos › North-west: Μαρίνα Νάξου",
@@ -259,6 +368,12 @@
 "title":"Κοινότητα Τάλας › South-west: Tsada",
 "km":8,
 "live":"1611067697"
+},
+"daintree-rainforest":{
+"window":"1702340956",
+"title":"Douglas Shire",
+"km":7,
+"live":"1716301796"
 },
 "denver":{
 "window":"1183402927",
@@ -277,6 +392,16 @@
 "km":2,
 "live":"1627683466"
 },
+"dunedin":{
+"window":"1341857441",
+"title":"Dunedin: Otago House",
+"km":0
+},
+"esperance":{
+"window":"1793884580",
+"title":"Shire Of Esperance › North-east",
+"km":21
+},
 "faroe-islands":{
 "window":"1540807415",
 "title":"Tórshavn › North-east: Faroe Islands",
@@ -288,6 +413,17 @@
 "title":"arrondissement de Fes-Medina: Fes-Medina",
 "km":3
 },
+"franz-josef-glacier":{
+"window":"1592952482",
+"title":"Mackenzie District › North",
+"km":30
+},
+"fremantle":{
+"window":"1643328456",
+"title":"Perth › North: Cottesloe Golf Club Inc.",
+"km":10,
+"live":"1793902262"
+},
 "french-riviera":{
 "window":"1588714542",
 "title":"Menton",
@@ -297,6 +433,11 @@
 "window":"1369190454",
 "title":"Singapore: Midview City CCTV Live View",
 "km":9
+},
+"geelong":{
+"window":"1697754246",
+"title":"Geelong: St Helens Boat Ramp - Swinburne Street - Corio Bay",
+"km":3
 },
 "geneva":{
 "window":"1070189674",
@@ -314,10 +455,27 @@
 "title":"Marknesse › North-west: Flevoland, Netherlands",
 "km":13
 },
+"gisborne":{
+"window":"1793903540",
+"title":"Gisborne › South: Waikanae Surf Life Saving Club - Waikanae Beach",
+"km":1,
+"live":"1654116601"
+},
 "glacier-np":{
 "window":"1640354004",
 "title":"Apgar › North-east: Lake McDonald",
 "km":37
+},
+"gold-coast":{
+"window":"1599486903",
+"title":"Bundall › South",
+"km":1,
+"live":"1740965662"
+},
+"grampians":{
+"window":"1734642209",
+"title":"Ararat: Ararat & District Pony Club",
+"km":49
 },
 "grand-canyon":{
 "window":"1539534333",
@@ -340,6 +498,11 @@
 "title":"Port Douglas: Four Mile Beach",
 "km":37,
 "live":"1716301796"
+},
+"great-ocean-road":{
+"window":"1697754246",
+"title":"Geelong: St Helens Boat Ramp - Swinburne Street - Corio Bay",
+"km":24
 },
 "great-smoky-mountains":{
 "window":"1541269502",
@@ -390,6 +553,16 @@
 "title":"Ben Nghe Ward",
 "km":0
 },
+"hobart":{
+"window":"1749357653",
+"title":"Hobart › West",
+"km":9
+},
+"hobbiton":{
+"window":"1535781715",
+"title":"Walton › North-east: Mount Te Aroha Summit & Broadcast Tower",
+"km":14
+},
 "hong-kong":{
 "window":"1179240123",
 "title":"Kowloon › South-east",
@@ -400,6 +573,11 @@
 "window":"1471450467",
 "title":"Honolulu › South: Ala Moana Beach Park - Hawaii, United States",
 "km":2
+},
+"hunter-valley":{
+"window":"1708913643",
+"title":"Branxton › West",
+"km":22
 },
 "icefields-parkway":{
 "window":"1594127921",
@@ -417,6 +595,11 @@
 "title":"Innsbruck › North: Golden Roof - Dom St. Jakob",
 "km":1,
 "live":"1232542992"
+},
+"invercargill":{
+"window":"1685076491",
+"title":"Bluff › South: Motupōhue / The Bluff",
+"km":2
 },
 "istanbul":{
 "window":"1361788337",
@@ -438,6 +621,11 @@
 "title":"Jerusalem: Jesuralem",
 "km":2
 },
+"jervis-bay":{
+"window":"1716308306",
+"title":"Sussex Inlet",
+"km":19
+},
 "johannesburg":{
 "window":"1649657483",
 "title":"Roodepoort › West: Florida Glen",
@@ -450,6 +638,21 @@
 "km":4,
 "live":"1721467796"
 },
+"kaikoura":{
+"window":"1681189274",
+"title":"Kaikoura: Cubby House Stay",
+"km":8
+},
+"kalgoorlie":{
+"window":"1604225341",
+"title":"Boulder › South",
+"km":4
+},
+"katherine":{
+"window":"1610704611",
+"title":"Katherine › West",
+"km":1
+},
 "kauai":{
 "window":"1401526406",
 "title":"Niumalu › South: Kalapaki Beach - Kuki'i Point Lighthouse - Nawiliwili Bay",
@@ -459,6 +662,16 @@
 "window":"1177842701",
 "title":"Key West › South-west: Mallory square",
 "km":3
+},
+"kgari-fraser-island":{
+"window":"1315548339",
+"title":"Hervey Bay › North-west: Urraween",
+"km":32
+},
+"kosciuszko-national-park":{
+"window":"1659706462",
+"title":"Snowy Monaro Regional Council",
+"km":1
 },
 "kota-kinabalu":{
 "window":"1640611193",
@@ -496,6 +709,23 @@
 "title":"South Lake Tahoe › West: California, United States",
 "km":19
 },
+"lake-taupo":{
+"window":"1642160768",
+"title":"Taupo › South-west: Suncourt Hotel & Conference Centre - Taupo",
+"km":20,
+"live":"1642160768"
+},
+"lake-tekapo":{
+"window":"1653825866",
+"title":"Lake Tekapo › North-west: Tekapo",
+"km":2
+},
+"lamington-national-park":{
+"window":"1753866815",
+"title":"Canungra: Coburg Road",
+"km":14,
+"live":"1793895538"
+},
 "lapland":{
 "window":"1212217494",
 "title":"Muonio: Tie 79 - Äkäsjärvi - Muonioon",
@@ -504,6 +734,11 @@
 "las-vegas":{
 "window":"1731855554",
 "title":"Las Vegas",
+"km":1
+},
+"launceston":{
+"window":"1682567922",
+"title":"Launceston",
 "km":1
 },
 "leipzig":{
@@ -594,6 +829,17 @@
 "km":4,
 "live":"1717462461"
 },
+"margaret-river":{
+"window":"1793903752",
+"title":"Yallingup › North-west: Cape to Cape Walk Track",
+"km":36
+},
+"marlborough-sounds":{
+"window":"1753255946",
+"title":"Picton › North-east: Waikawa Marina",
+"km":35,
+"live":"1753255946"
+},
 "matera":{
 "window":"1619072420",
 "title":"Altamura › North",
@@ -668,10 +914,25 @@
 "title":"Chiyoda › South: Mount Fuji",
 "km":17
 },
+"mount-isa":{
+"window":"1793892634",
+"title":"Mount Isa › North-west: Alma Street - Leichhardt River",
+"km":1
+},
 "mount-rainier":{
 "window":"1319663191",
 "title":"Paradise › North: Mount Rainier",
 "km":8
+},
+"mount-taranaki":{
+"window":"1359669733",
+"title":"North Egmont: Mount Taranaki",
+"km":2
+},
+"mount-yasur":{
+"window":"1736117532",
+"title":"Ipikel: Mount Yasur",
+"km":1
 },
 "munich":{
 "window":"1232544622",
@@ -679,11 +940,21 @@
 "km":2,
 "live":"1232544622"
 },
+"napier":{
+"window":"1298949101",
+"title":"Napier › South-east: Marine Parade viewing platform",
+"km":0
+},
 "nashville":{
 "window":"1620187070",
 "title":"Nashville-Davidson: Broadway",
 "km":0,
 "live":"1620187070"
+},
+"nelson":{
+"window":"1730086177",
+"title":"Nelson › South-west: Haulashore Island - Tāhunanui",
+"km":4
 },
 "neuschwanstein":{
 "window":"1363799287",
@@ -701,10 +972,30 @@
 "title":"New York › South-east: Brooklyn Bridge - Brooklyn Bridge Promenade",
 "km":0
 },
+"newcastle-nsw":{
+"window":"1638846846",
+"title":"Belmont › South: Coal Point",
+"km":19
+},
 "niagara-falls":{
 "window":"1350062407",
 "title":"Niagara Falls: Iowa - Big Creek Marina",
 "km":8
+},
+"nitmiluk-national-park":{
+"window":"1610704611",
+"title":"Katherine › West",
+"km":24
+},
+"noosa":{
+"window":"1247809560",
+"title":"Maroochydore › South: Pacific Paradise",
+"km":25
+},
+"norfolk-island":{
+"window":"1793872944",
+"title":"Burnt Pine › South: Norfolk Island -> South",
+"km":1
 },
 "normandy":{
 "window":"1565047674",
@@ -764,10 +1055,22 @@
 "title":"Philadelphia › West: Logan Square",
 "km":1
 },
+"phillip-island":{
+"window":"1593987109",
+"title":"Hastings",
+"km":20,
+"live":"1760026110"
+},
 "phuket":{
 "window":"1245318606",
 "title":"Phuket › North: Karon Beach",
 "km":13
+},
+"piha":{
+"window":"1624925278",
+"title":"Rodney › West: Muriwai Beach",
+"km":15,
+"live":"1793909195"
 },
 "piran":{
 "window":"1406579141",
@@ -783,6 +1086,17 @@
 "window":"1731954154",
 "title":"Ashfield–Colborne–Wawanosh › South: Highway 21 near Nile Road, Looking South",
 "km":4
+},
+"port-arthur":{
+"window":"1749357653",
+"title":"Hobart › West",
+"km":43
+},
+"port-douglas":{
+"window":"1716301796",
+"title":"Port Douglas: Four Mile Beach",
+"km":1,
+"live":"1716301796"
 },
 "portland-or":{
 "window":"1229789554",
@@ -811,6 +1125,11 @@
 "km":22,
 "live":"1459898784"
 },
+"punakaiki":{
+"window":"1714011444",
+"title":"Westport › North",
+"km":46
+},
 "pyrenees":{
 "window":"1610305621",
 "title":"Vielha e Mijaran",
@@ -821,6 +1140,11 @@
 "window":"1475827902",
 "title":"Jacks Point › East: SH6A Queenstown Nth",
 "km":0
+},
+"rarotonga":{
+"window":"1646432090",
+"title":"Takitumu › South: Avaavaroa Passage",
+"km":4
 },
 "riga":{
 "window":"1630915366",
@@ -847,6 +1171,18 @@
 "window":"1274099829",
 "title":"Rothenburg ob der Tauber: Herrnmuhle › South: Marktplatz Rothenburg ob der Tauber - German Christmas Museum",
 "km":1
+},
+"rotorua-wai-o-tapu":{
+"window":"1642160768",
+"title":"Taupo › South-west: Suncourt Hotel & Conference Centre - Taupo",
+"km":45,
+"live":"1642160768"
+},
+"rottnest-island":{
+"window":"1643328456",
+"title":"Perth › North: Cottesloe Golf Club Inc.",
+"km":24,
+"live":"1793902262"
 },
 "saint-petersburg":{
 "window":"1641064208",
@@ -941,6 +1277,11 @@
 "km":5,
 "live":"1563114876"
 },
+"stewart-island":{
+"window":"1248130573",
+"title":"Oban: Stewart Island Sails Ashore Webcam",
+"km":20
+},
 "stockholm":{
 "window":"1562271770",
 "title":"Stockholm › West: Tegelbacken S",
@@ -979,11 +1320,21 @@
 "title":"Tallinn: Pirita linnaosa › North-east: Pirita Beach",
 "km":5
 },
+"tari":{
+"window":"1752572186",
+"title":"Red Hill › East: Porgera -> East Gap",
+"km":48
+},
 "taroko-gorge":{
 "window":"1610262974",
 "title":"Renai Township",
 "km":5,
 "live":"1669278169"
+},
+"tauranga":{
+"window":"1603651225",
+"title":"Tauranga › North: Pilot Bay Beach - Mauao / Mount Maunganui summit - Moturiki Island",
+"km":2
 },
 "tbilisi":{
 "window":"1689098228",
@@ -997,6 +1348,11 @@
 "km":2,
 "live":"1793900773"
 },
+"the-catlins":{
+"window":"1793906210",
+"title":"Balclutha › East: Balclutha Aerodrome",
+"km":34
+},
 "tofino":{
 "window":"1237436702",
 "title":"Ucluelet: Amphitrite Point Lighthouse",
@@ -1007,6 +1363,16 @@
 "title":"Chiyoda › North-east: 東京都千代田区役所(庁舎より北東)",
 "km":6,
 "live":"1759899669"
+},
+"tongariro-national-park":{
+"window":"1593556986",
+"title":"Taupo District: Tukino Alpine Sports Club",
+"km":9
+},
+"townsville":{
+"window":"1591008971",
+"title":"Townsville › South: Charters Towers Road",
+"km":2
 },
 "trakai-castle":{
 "window":"1629199584",
@@ -1064,6 +1430,11 @@
 "km":1,
 "live":"1749449322"
 },
+"wanaka":{
+"window":"1750628294",
+"title":"Arrowtown: Cardrona Alpine Resort - McDougall's Chondola - Upper",
+"km":23
+},
 "washington-dc":{
 "window":"1263154384",
 "title":"Washington D.C.: US Capitol",
@@ -1074,11 +1445,26 @@
 "title":"Wellington › South-west: State Highway 2",
 "km":5
 },
+"whitsunday-islands":{
+"window":"1656475281",
+"title":"Shute Harbour › East: Shute Harbour Marine Terminal",
+"km":15
+},
 "wild-atlantic-way":{
 "window":"1586612871",
 "title":"Conamara Municipal District: Inishmore › South-east: Aran Islands Hotel",
 "km":18,
 "live":"1623492402"
+},
+"wilsons-promontory":{
+"window":"1698083502",
+"title":"Port Welshpool: Port Welshpool Boat Ramp - Lewis Street - Corner Inlet - Bass Strait",
+"km":45
+},
+"wollongong":{
+"window":"1793906053",
+"title":"Wollongong › East: Five Islands Road - Port Kembla",
+"km":4
 },
 "yellowstone":{
 "window":"1720372808",
