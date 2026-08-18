@@ -165,6 +165,26 @@ dropped in v2 — resurrect from git if missed); satellite descend-from-orbit.
 - When something "feels slow/glitchy": measure frame times (rAF) and *look at
   screenshots at real widths*. A console-error sweep proves nothing about lag.
 
+**The 🛰️ satellite window seat (js/lib/satellite.js):**
+- It is **not a scene and not a window**. Never add it to `sceneFlags()`, never
+  route it through `media.js`, never let it into `window.html` or a "live" rail.
+  The moment it counts as a live seat, the honesty rule is dead — 1,018 places
+  would start claiming a window they don't have.
+- Keep the 🛰️ badge, keep the no-live-dot, and keep the title sentence that says
+  there is no window cam here. That sentence is the feature's licence to exist.
+- `mountSatellite()` returns a `destroy()` that owns an interval, a
+  `visibilitychange` listener and a `ResizeObserver`. Anything that drops a pane
+  must call it — `initStage()` does; a future pane-swapper must too.
+- Refresh only while `document.visibilityState === 'visible'`, and only via the
+  double-buffer (build fresh → await every tile → drop old). Clearing the mosaic
+  first flashes the pane black, which reads as a broken feed.
+- JMA `fd` tiles 404 above **z=5** — that's why Himawari is pinned there while
+  GOES/Meteosat run at z=6. GIBS has no Himawari GeoColor layer (Air Mass /
+  Band 13 / Band 3 only), which is why JMA serves that hemisphere directly.
+- EUMETSAT's WMTS GetCapabilities 400s ("Error getting coverage reader"). The
+  WMS `GetMap` path with `crs=EPSG:3857` works and sends `access-control-allow-
+  origin: *`. Don't "fix" it back to WMTS.
+
 **The map (js/worldmap.js):**
 - It's ours — no Leaflet, no tiles, no markercluster. Keep it that way; every v1
   map bug traced back to those.
@@ -228,6 +248,18 @@ dropped in v2 — resurrect from git if missed); satellite descend-from-orbit.
 ---
 
 ## Recently landed (so it isn't re-litigated)
+
+- **🛰️ The sky over a place (2026-08-18):** the window seat is empty for 1,018 of
+  1,126 places, and for 82 the whole stage is. Those places still have weather, and
+  a geostationary satellite is looking at them every ten minutes whether or not
+  anyone ever points a camera there. `js/lib/satellite.js` draws that — Himawari-9
+  (JMA tiles, true colour by day / band-13 IR by night), GOES-West and GOES-East
+  (NASA GIBS GeoColor, city lights at night) and Meteosat MTG-I1 (EUMETSAT WMS
+  geocolour), assigned by the longitude midpoints between sub-satellite points.
+  It is deliberately **not** a fifth scene: own badge, own caption, absent from
+  `sceneFlags()` and from the Virtual Window page, and a title that says out loud
+  there is no window cam. Where nothing else plays, it takes the featured pane.
+  Details and the four-eye table are in the README.
 
 - **Oceania, 11 → 168 places (2026-08-17):** the Pacific had *nothing* — fourteen
   sovereign states, zero records — and Australia had six places, New Zealand five.

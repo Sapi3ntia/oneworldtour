@@ -25,6 +25,10 @@ Every place has up to **four real scenes**, one tap apart, on one stage:
 | 🔴 **Live cam** | A 24/7 live stream at street / intersection level | must be live **right now** |
 | 🪟 **Window** | Also a **live** stream — the out-a-window vantage: skyline, rooftop, harbor | never a loop, never a timelapse, never a still |
 
+No window cam? The seat shows the 🛰️ **geostationary satellite** looking at that
+place right now instead — clearly labelled as what it is, never as a window.
+See [The sky over a place](#-the-sky-over-a-place-).
+
 Famous cities also get 🏛️ **monument tabs** (up to 5 per city) on the same stage —
 switch between the walk and each landmark tour like TV channels: Eiffel Tower ·
 Big Ben · Colosseum · Trevi Fountain · Times Square · Statue of Liberty · the
@@ -121,6 +125,7 @@ oneworldtour/
 │   │   ├── geo.js         # Natural Earth I projection + inverse, km, great-circle
 │   │   ├── data.js        # region loader + media.json merge, search
 │   │   ├── media.js       # scene resolution: walk/live/window tiers + honesty rules
+│   │   ├── satellite.js   # 🛰️ geostationary sky for the 1,018 window-less seats
 │   │   ├── yt.js          # YouTube IFrame mounts with onError → honest fallback
 │   │   ├── tv.js          # live national TV: tv.json loader + HLS mounts (lazy hls.js)
 │   │   ├── api.js         # weather / wiki / radio / news / FX (all keyless)
@@ -362,6 +367,47 @@ embedded player calls `playVideo()` — a rights-holder block that is only
 observable in a real browser embed. Cancún's first Coco Bongo pick looked clean to
 every offline check and died on mount. So `yt.js` onError is the last line of the
 honesty rule, not a belt-and-braces nicety.
+
+### 🛰️ The sky over a place ★
+
+**1,018 of the 1,126 places have no window cam** — and for 82 of them the whole
+stage is empty. Bikini Atoll, Rennell Island, Dougga, Pitcairn: nobody is going
+to point a 24/7 stream at them. Rather than show a fourth dashed rectangle, the
+window seat falls back to the geostationary satellite that *is* looking at that
+place right now (`js/lib/satellite.js`). Where the stage is otherwise empty, the
+satellite is what gets featured on arrival.
+
+This is **not** a fifth scene and **not** a stand-in window. It never passes
+through `media.js`, never appears in `sceneFlags()`, never reaches the Virtual
+Window page, wears its own 🛰️ badge with no live dot, and its title says out
+loud that there is no window cam here. The honesty rule is intact: nothing fake
+stands in — this is a different, truthful thing standing beside the gap.
+
+Four eyes cover the globe; a place is assigned by the longitude midpoint between
+neighbouring sub-satellite points:
+
+| Satellite | Sub-satellite point | Serves longitudes | Source | Imagery |
+|---|---|---|---|---|
+| Himawari-9 | 140.7°E | ≥ 70.35°E and ≤ −178.15° | JMA XYZ tiles | true colour by day, band-13 infrared by night |
+| GOES-West (GOES-18) | 137.0°W | −178.15° … −106.1° | NASA GIBS WMTS | GeoColor (city lights at night) |
+| GOES-East (GOES-19) | 75.2°W | −106.1° … −37.6° | NASA GIBS WMTS | GeoColor |
+| Meteosat (MTG-I1) | 0.0° | −37.6° … 70.35°E | EUMETSAT WMS | geocolour |
+
+Day/night picks the band via a local solar-altitude calculation (`sunAltitude`,
+civil-twilight threshold −6°), which is why Himawari never shows a black square
+at 3 a.m. local. GIBS and JMA serve Web-Mercator XYZ tiles, so those get a 3×3
+tile mosaic centred on the place; EUMETSAT is a WMS that renders any EPSG:3857
+bbox, so it gets the whole block as one image — same geometry, one request.
+
+The pane refreshes every 5 minutes, **only while the tab is visible**, and
+double-buffers: the fresh mosaic is built and fully loaded off-screen before the
+old one is removed, so a refresh never flashes black. `destroy()` clears the
+interval, the `visibilitychange` listener and the `ResizeObserver` — and
+`initStage()` calls it on every pane it drops, or navigation would leak all three.
+
+Only JMA publishes a scan timestamp we can read cheaply (`targetTimes_fd.json`,
+cached 5 minutes, with a clock-derived fallback), so Himawari captions say
+`12:20 UTC · 10 min ago` and the others honestly say `latest scan`.
 
 ### After dark ★
 

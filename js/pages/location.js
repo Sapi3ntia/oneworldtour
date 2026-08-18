@@ -11,6 +11,7 @@ import { loadAll, byId, search } from '../lib/data.js';
 import { tripsThrough } from '../lib/trips.js';
 import { walkFor, driveFor, liveFor, windowFor, monumentsFor, sceneFlags,
          nightWalkFor, nightDriveFor, nightlifeFor, hasNight } from '../lib/media.js';
+import { mountSatellite, satelliteFor } from '../lib/satellite.js';
 import { State } from '../lib/state.js';
 import { Culture, weatherInfo } from '../lib/culture.js';
 import { Radio } from '../lib/radio.js';
@@ -262,8 +263,40 @@ function refocus(place) {
   else grid.removeAttribute('data-focus');
 }
 
+/* 🛰️ The window seat when there is no window cam — and deliberately
+   NOT a stand-in for one. A geostationary satellite is looking at this
+   place right now whether or not anyone pointed a camera at it, so the
+   pane shows that instead of a dashed rectangle: its own badge, no live
+   dot, and a title that says out loud there is no window here. Places
+   like Bikini Atoll and Rennell Island will never have a webcam; they
+   still have weather. See js/lib/satellite.js. */
+function satellitePane(place, def) {
+  const { lat, lng } = place.coordinates || {};
+  if (!satelliteFor(lat, lng)) return ghostPane(def);
+
+  const frame = el('div', { class: 'frame quad-frame' });
+  const node = el('div', { class: 'quad quad-sat', 'data-quad': def.id },
+    el('button', {
+      class: 'quad-bar', title: 'Click to enlarge / shrink this pane',
+      onclick: () => setFocus(def.id),
+    },
+      el('span', { class: 'badge badge-sat' }, '🛰️ Satellite'),
+      el('span', { class: 'quad-title' },
+        `The sky over ${place.name} right now — there is no window cam here`),
+      el('span', { class: 'quad-src faint' }, 'from orbit'),
+      el('span', { class: 'quad-zoom' }, '⛶'),
+    ),
+    frame);
+
+  return { node, mounted: mountSatellite(frame, { lat, lng }) };
+}
+
 function initStage(place) {
   const grid = qs('#stage-grid');
+  // tear the old panes down before dropping them: the satellite pane owns a
+  // refresh interval, a visibilitychange listener and a ResizeObserver, and
+  // innerHTML='' takes the node away without stopping any of the three.
+  for (const p of stageState.panes.values()) p.mounted?.destroy?.();
   grid.innerHTML = '';
   stageState.panes.clear();
   stageState.walkShowing = 'walk';
@@ -273,7 +306,9 @@ function initStage(place) {
 
   for (const def of PANES) {
     const media = def.resolve(place);
-    const pane = media ? scenePane(place, def, media) : ghostPane(def);
+    const pane = media ? scenePane(place, def, media)
+      : def.id === 'window' ? satellitePane(place, def)
+      : ghostPane(def);
     grid.append(pane.node);
     stageState.panes.set(def.id, pane);
   }
@@ -285,7 +320,9 @@ function initStage(place) {
   const first = (walkFor(place) || monumentsFor(place).length)
     ? PANES[0] : PANES.find(d => d.resolve(place));
   if (first) grid.dataset.focus = first.id;
-  else grid.removeAttribute('data-focus');
+  else if (stageState.panes.get('window')?.node.classList.contains('quad-sat')) {
+    grid.dataset.focus = 'window';   // nothing else here — the sky is the view
+  } else grid.removeAttribute('data-focus');
 }
 
 /* ---------------- right now ---------------- */

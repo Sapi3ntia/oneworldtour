@@ -35,6 +35,16 @@
    frame that links out to windy.com — it never autoplays a stream,
    which fails the owner rule above. Legacy `ambient` (recorded
    loops) is likewise deliberately NOT used here.
+
+   THE ONE THING THAT IS NOT A SCENE (2026-08): js/lib/satellite.js
+   draws the geostationary sky over a place into the window seat when
+   windowFor() returns null. It is NOT a fifth scene and NOT a
+   stand-in window — it never passes through this file, never appears
+   in sceneFlags(), never reaches the Virtual Window page, and wears
+   its own 🛰️ badge with a title that says out loud there is no
+   window cam. Nothing here needs to change to keep that true; it is
+   written down so the next person to add a resolver knows why the
+   satellite is missing from all of them.
    ============================================================ */
 import { mediaIndex } from './data.js';
 

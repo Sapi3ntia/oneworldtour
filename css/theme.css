@@ -139,6 +139,7 @@ h1, h2, h3, .display { font-family: var(--font-display); font-weight: 600; lette
 .badge-monu   { color: #e0cbf7; border-color: rgba(201, 160, 240, 0.45); }
 .badge-night  { color: #c9c2ff; border-color: rgba(150, 138, 255, 0.5); }
 .badge-lapse  { color: #f7e3bc; border-color: rgba(232, 181, 77, 0.45); }
+.badge-sat    { color: #bfe6e0; border-color: rgba(126, 214, 200, 0.45); }
 
 /* ---------------- Cards ---------------- */
 .card {
@@ -189,6 +190,36 @@ h1, h2, h3, .display { font-family: var(--font-display); font-weight: 600; lette
 }
 .frame-empty .big { font-size: 38px; opacity: 0.65; }
 .frame-empty .why { font-size: 13.5px; max-width: 380px; line-height: 1.5; }
+
+/* ---------------- 🛰️ satellite pane ----------------
+   Not a window and never dressed as one: no live dot, its own badge,
+   and a caption that names the satellite and how old the scan is.
+   The mosaic is a fixed-size block of tiles that gets translated and
+   scaled so the place's own pixel sits at the centre of the frame —
+   transform only, so resizing a pane never refetches a tile. */
+.sat { position: absolute; inset: 0; overflow: hidden; background: #04060b; }
+.sat-mosaic { position: absolute; top: 0; left: 0; transform-origin: 0 0; }
+.sat-tile {
+  position: absolute; width: 256px; height: 256px;
+  user-select: none; -webkit-user-drag: none;
+}
+/* where you actually are, under all that weather */
+.sat-pin {
+  position: absolute; top: 50%; left: 50%; width: 9px; height: 9px;
+  margin: -4.5px 0 0 -4.5px; border-radius: 50%; pointer-events: none; z-index: 2;
+  background: #ffd66b;
+  box-shadow: 0 0 0 2px rgba(4, 6, 11, 0.85), 0 0 14px 3px rgba(255, 214, 107, 0.55);
+}
+.sat-cap {
+  position: absolute; left: 0; right: 0; bottom: 0; z-index: 3;
+  display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap;
+  padding: 14px 12px 7px; font-size: 11px; letter-spacing: 0.02em;
+  color: rgba(235, 238, 250, 0.72); pointer-events: none;
+  background: linear-gradient(transparent, rgba(4, 6, 11, 0.82));
+}
+.sat-cap .sat-src { font-weight: 700; color: #cfeee8; }
+.sat-cap .sat-stamp { color: rgba(235, 238, 250, 0.55); }
+@media (max-width: 700px) { .sat-cap { font-size: 10px; padding: 12px 9px 6px; } }
 
 /* ---------------- Inputs ---------------- */
 .input {
