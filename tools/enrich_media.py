@@ -295,6 +295,10 @@ ALIASES = {
     "kazan": ["казань"], "kyiv": ["київ", "kiev"], "bangkok": ["krung thep"],
     "havana": ["habana"], "mexico-city": ["ciudad de mexico", "cdmx"],
     "marrakesh": ["marrakech"], "fez": ["fes"],
+    # Both spellings, because "highway" is a GENERIC_TOKEN and the hyphens
+    # survive squash(): the record's own name only matches a title that
+    # hyphenates it exactly as we do, and most uploaders don't.
+    "sea-to-sky": ["sea to sky", "sea-to-sky"],
     # Not translations — the names real uploaders use. Each of these was a
     # good pick that the distinctive-token rule refused: every word of "Ha
     # Long Bay" except the short one is a generic feature noun, "Smoky" is
@@ -427,7 +431,8 @@ def mentions_place(title, place):
     # ...or the name minus its trailing feature noun, so "Driving Through Ha
     # Long" still counts for HA LONG BAY. Two words minimum: the one-word
     # remainders ("Mount Tai" → "tai") are exactly the namesake magnets.
-    core = " ".join(w for w in base.split() if w not in GENERIC_TOKENS)
+    core = " ".join(w for w in base.split()
+                    if w not in GENERIC_TOKENS and w not in STOPWORDS)
     if len(core.split()) >= 2 and core in t:
         return True
     # `s?` because uploaders pluralize freely and an alias is curated anyway:
@@ -476,12 +481,39 @@ GENERIC_TOKENS = {
     # pure feature nouns: hundreds of places have one, so on its own the word
     # identifies nothing. "Grand Canal" is Wuzhen's AND Venice's.
     "canal", "harbour", "harbor", "square",
+    # "highway" was the whole of "Sea-to-Sky Highway" once the three
+    # three-letter words fell to the length filter, and a one-token gazetteer
+    # entry accuses on that token alone: a Beijing drive, an Oslo drive, a
+    # Nairobi drive, a Tibet drive, a Guizhou drive and a Kyrgyz drive were
+    # all ruled to be on a road north of Vancouver. It reads on the matching
+    # side too — every "Highway Drive Through <anywhere>" answered to
+    # sea-to-sky. The road is reachable by its real name; see ALIASES.
+    "highway",
     # every Ontario conservation area shares these two, so on their own they
     # single out nothing: "Day Trip To Grand River Conservation Park" was
     # shipped as BRANT CONSERVATION AREA's drive on the strength of the word
     # "conservation" alone — the video is Elora, an hour upstream.
     "conservation", "area",
+    # "Top of the World Highway" is a real road out of Dawson City, and once
+    # "highway" went generic above, the word "world" was the whole of its
+    # name. 94 titles in the shipped corpus say "world" — a Taj Mahal wonder,
+    # the world's most isolated city, a world heritage site — and every one of
+    # them answered to a gravel road in the Yukon. On the accusing side it
+    # ruled "Second highest highway in the world - Ak-Baital Pass" to be off
+    # in the Klondike, 6,000 km from the PAMIRS entry that had shipped it.
+    # The road keeps its full name; see STOPWORDS for why that is now enough.
+    "world",
 }
+
+# Grammatical filler. These never reach distinctive() — it drops everything
+# of three letters or less first — so this set exists purely for the `core`
+# fallback in mentions_place(), which deliberately keeps short words so that
+# "Ha Long Bay" is still reachable as "ha long". That kindness backfires on a
+# name whose remainder is filler: with "world" and "highway" both generic,
+# "Top of the World Highway" fell back to the phrase "top of the", which duly
+# matched "Video I took from the top of the Juche Tower in Pyongyang". A core
+# has to be two REAL words to stand in for a name.
+STOPWORDS = {"of", "the", "by", "a", "an", "and", "at", "in", "on", "to"}
 US_STATES = {
     "alabama", "alaska", "arizona", "arkansas", "california", "colorado",
     "connecticut", "delaware", "florida", "georgia", "hawaii", "idaho",
@@ -513,6 +545,13 @@ CA_PROVINCES = {
     "northwest territories", "nunavut",
 }
 CA_ABBR = ("AB", "BC", "MB", "NB", "NL", "NS", "NT", "NU", "PE", "QC", "SK", "YT")
+# ON is deliberately absent: "Live ON Main Street" would fire on half the
+# corpus. Ontario is caught by its full name only.
+CA_ABBR_PROV = dict(zip(CA_ABBR, [
+    "alberta", "british columbia", "manitoba", "new brunswick",
+    "newfoundland", "nova scotia", "northwest territories", "nunavut",
+    "prince edward island", "quebec", "saskatchewan", "yukon",
+]))
 # abbreviation → state, in the same (alphabetical-by-state) order, so a US
 # place can be checked against a US state named in a title instead of being
 # skipped entirely. See the us-vs-us block in wrong_place_title().
@@ -565,7 +604,8 @@ def names_place_directly(title, place):
     base = norm(place["name"])
     if base in t:
         return True
-    core = " ".join(w for w in base.split() if w not in GENERIC_TOKENS)
+    core = " ".join(w for w in base.split()
+                    if w not in GENERIC_TOKENS and w not in STOPWORDS)
     return len(core.split()) >= 2 and core in t
 
 
@@ -639,7 +679,7 @@ def music_loop_not_a_cam(title):
 # "RE-LIVE Planespotting at Frankfurt Airport" is the sharpest of these:
 # it is genuinely streaming right now, and it is genuinely a replay.
 
-OTHER_PLACES = {}     # id → (tokens, lat, lng)   — filled in main()
+OTHER_PLACES = {}     # id → (tokens, lat, lng, need)  — filled in main()
 OTHER_PLACE_NAMES = set()  # every dataset place name, normalized — filled in main()
 COUNTRY_NAMES = set() # normalized country names  — filled in main()
 
@@ -662,7 +702,22 @@ def register_place(loc):
     to four of them.
     """
     c = loc.get("coordinates") or {}
-    OTHER_PLACES[loc["id"]] = (name_tokens_of(loc), c.get("lat", 0), c.get("lng", 0))
+    toks = name_tokens_of(loc)
+    # A name that GENERIC_TOKENS strips down to ONE word was never identifying
+    # on that word alone — "Gold Coast" is a place, "gold" is a metal, and
+    # "Abraham Lake" is in Alberta while "Plains of Abraham" is in Quebec City.
+    # So when a single token is all that survives, carry the feature nouns it
+    # lost, and make the accusing loop in wrong_place_title() demand them too.
+    # Both of those shipped as false rejects the day the dataset grew past
+    # them: "Driving Around a Yukon Gold Rush Town: Dawson City" was ruled to
+    # be 11,766 km away on the Gold Coast, and "The PLAINS OF ABRAHAM" was
+    # ruled to be 3,264 km from Quebec. Multi-token names need no help — two
+    # words that both survived the stoplist already single a place out.
+    need = ()
+    if len(toks) == 1:
+        need = tuple(w for w in re.split(r"[^a-z]+", squash(loc["name"]))
+                     if w in GENERIC_TOKENS)
+    OTHER_PLACES[loc["id"]] = (toks, c.get("lat", 0), c.get("lng", 0), need)
     COUNTRY_NAMES.add(norm(loc.get("country") or ""))
     if norm(loc.get("name") or "").startswith("new "):
         NEW_NAMED.add(loc["id"])
@@ -694,8 +749,11 @@ def wrong_place_title(title, place):
     me = place.get("coordinates") or {}
 
     # another dataset place, fully named, far away, named before us
-    for pid, (toks, lat, lng) in OTHER_PLACES.items():
+    for pid, (toks, lat, lng, need) in OTHER_PLACES.items():
         if pid == place.get("id") or not toks or set(toks) & set(own):
+            continue
+        # the feature noun a one-word name leans on — see register_place()
+        if any(not re.search(rf"\b{re.escape(w)}\b", t) for w in need):
             continue
         # "New Mexico" is not Mexico City, but "New York" IS New York City.
         # So a place whose own name does not start with "New" may not be found
@@ -798,6 +856,51 @@ def wrong_place_title(title, place):
             if st == own_state or st in norm(place["name"]):
                 continue
             if head is not None and pos is not None and head < pos:
+                continue                  # our place is still the headline
+            return True
+
+    # Canadian place vs a DIFFERENT province. Exactly the us-vs-us problem one
+    # border north: every block above skips Canadian places on purpose, because
+    # every Canadian cam title names a province and refusing them all would be
+    # useless. So compare against the place's OWN province instead. This did
+    # not matter while canada.json held 36 places, 19 of them in one Ontario
+    # watershed. It matters at 238 across all thirteen: there is a Windermere
+    # in BC and one in Muskoka, a Victoria in BC and one on PEI, a Hamilton in
+    # Ontario and one in Nova Scotia, a Stewart in BC and a Stewart in Yukon.
+    if own_country == "canada":
+        # The place's own province, as a SET, because a region string is not
+        # always a bare province: Muskoka records read "Muskoka District,
+        # Ontario" and Newfoundland's reads "Newfoundland and Labrador",
+        # which CA_PROVINCES lists as two separate names.
+        own_region = norm(place.get("region") or "")
+        own_provs = {pv for pv in CA_PROVINCES
+                     if re.search(rf"\b{re.escape(pv)}\b", own_region)}
+        head = own_pos
+        if head is None:
+            base = norm(place["name"]).split(",")[0].strip()
+            head = t.find(base) if base and base in t else None
+        named = {pv: _first_pos([pv], t)
+                 for pv in CA_PROVINCES
+                 if re.search(rf"\b{re.escape(pv)}\b", t)}
+        # ...and the abbreviation, which has no literal position for its
+        # expanded name, so carry the position of the ABBREVIATION itself.
+        # Same digit guard as the non-Canadian branch, so "500 BC" is a date.
+        m = re.search(r"(?<![0-9])[,\s]\s*([A-Z]{2})\b", title)
+        if m and m.group(1).upper() in CA_ABBR_PROV:
+            named.setdefault(CA_ABBR_PROV[m.group(1).upper()], m.start())
+        # The headline exemption the us-vs-us block uses ("our name comes
+        # first, so the other state is just a co-mention") is worth nothing
+        # against a NAMESAKE, because the namesake's own video also leads with
+        # the name: "Windermere BC Drone Tour" puts Windermere at position 0
+        # exactly as Muskoka's would. So the exemption is earned here, not
+        # assumed — it applies only when the title ALSO names our province,
+        # which is what a real co-mention looks like ("Ottawa Gatineau
+        # Quebec", "Trans-Canada: Alberta into British Columbia").
+        ours_named = any(pv in own_provs for pv in named)
+        for pv, pos in named.items():
+            if pv in own_provs or pv in norm(place["name"]):
+                continue
+            if ours_named and head is not None and pos is not None and head < pos:
                 continue                  # our place is still the headline
             return True
     return False

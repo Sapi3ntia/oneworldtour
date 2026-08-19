@@ -2641,14 +2641,6 @@
           "height": 2160
         },
         {
-          "name": "St Mary's by the Sea",
-          "yt": "gsxJxV1wAVA",
-          "start": 0,
-          "source": "auto",
-          "title": "St Mary's Lighthouse - Walking to Whitley Bay from Seaton Sluice [4k 60fps]",
-          "height": 2160
-        },
-        {
           "name": "Low Isles",
           "yt": "Zct-sN6IpKM",
           "start": 0,
@@ -11017,24 +11009,7 @@
       "blurb": "A flat coral island south of Koror, forested and quiet, where a battle expected to take four days took two and a half months in 1944 and left the ridges honeycombed with caves.",
       "fun_fact": "Peleliu's coral limestone hid more than 500 fortified caves — the island is one of the most intact Second World War battlefields anywhere, with wrecked tanks still where they stopped.",
       "hidden_gem_tip": "Dive the drop-offs on the west side, then walk Bloody Nose Ridge in the same day; the jungle has grown back over the ridge but the trenches and cave mouths are still open.",
-      "monuments": [
-        {
-          "name": "Battle of Peleliu",
-          "yt": "Rx5QJOM2lZs",
-          "start": 0,
-          "source": "auto",
-          "title": "Battle of Peleliu - Call of Duty World at War",
-          "height": 2160
-        },
-        {
-          "name": "Orange Beach",
-          "yt": "XW4Eiwyjnus",
-          "start": 0,
-          "source": "auto",
-          "title": "Orange Beach AL Walking Tour | Scenic Gulf Coast Stroll in 4K",
-          "height": 2160
-        }
-      ]
+      "monuments": []
     },
     {
       "id": "majuro",

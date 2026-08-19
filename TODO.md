@@ -71,6 +71,27 @@ The architecture itself is documented in [`README.md`](README.md).
   pass can audit the whole set for quality *and* honesty with no network. The
   pre-2026-08-02 picks that survived the backfill all have both; anything written
   before the `MIN_HEIGHT = 720` floor has no height and would need re-querying.
+- **31 lower-48 US places are still skeletons.** `acadia`, `arches`, `boston`,
+  `bryce-canyon`, `death-valley`, `everglades`, `honolulu`, `miami`, `philadelphia`,
+  `sedona` and 21 more have an empty `blurb`, and 48 have a null `hidden_gem_tip`.
+  Pre-dates the Alaska batch, untouched by it. Same shape as the China and Southeast
+  Asia skeletons: a `fill_highlights.py`-style merge-only pass is the tool for it.
+- **Four picks `prune_media.py` would drop, three of them correctly** (dry run,
+  2026-08-18). `kyiv/window` is a multi-city rotator, `uluru/drive` is an
+  Adelaide-led road trip and `churchill/walk` is a **Toronto** walk in the seat of a
+  900-person Arctic town — all three should go. The fourth is a false positive worth
+  understanding before anyone runs `--apply`: `abel-tasman-national-park/live` is
+  "Nelson/Tasman Live Camera", which is **Nelson, New Zealand, 30 km away**, refused
+  because `nelson-bc` is a real record 12,000 km off with the same one-word name.
+  That is the namesake case no title guard can see (README: `search_name`), and the
+  clean fix is probably to let a place's `ALIASES` exempt a gazetteer row rather than
+  to loosen the distance rule.
+- **`wrong_place_title` misses a bare US state abbreviation.** The Canadian branch
+  accepts "Victoria BC" with no comma; the US branch still requires one, because
+  `IN`/`OR`/`ME`/`OK`/`HI` are ordinary words. So "Orange Beach AL Walking Tour"
+  shipped as **Peleliu's** monument (now denylisted by hand). The fix is a
+  non-word subset of `US_ABBR` allowed to fire bare — it needs its own corpus
+  regression, which is why it is here and not done.
 - **Scenes for the ~83 African places still without one.** The 85 headline places
   (capitals and marquee sites) were swept on 2026-08-17 and ended on `every
   candidate place was looked at`: **188 seats** — 87 drive, 71 walk, 16 live, 10
@@ -248,6 +269,63 @@ dropped in v2 — resurrect from git if missed); satellite descend-from-orbit.
 ---
 
 ## Recently landed (so it isn't re-litigated)
+
+- **Canada 36 → 238, Alaska 1 → 72 (2026-08-18):** Canada had 36 places, 19 of them
+  in one Ontario watershed and **nothing north of 60°** — the three territories are
+  40% of the country's land and held zero records. Alaska had exactly one, Denali, and
+  it was a skeleton. `tools/build_canada.py` and `tools/build_alaska.py` (same frame
+  as `build_oceania.py`) fill all thirteen provinces and territories — Ontario 52, BC
+  25, Nunavut 22, **Muskoka 20**, Quebec 19, Alberta 18, Yukon 15, NWT 15, NS 13, NL
+  12, NB 9, SK 8, MB 6, PEI 4 — with 52 above the Arctic Circle's latitude band, out
+  to Alert at 82.5°N. Alaska gets 72 across Southcentral, the Interior, the Arctic
+  slope, the Inside Passage and the chain to Adak. Trips 24 → **28**: the Muskoka Loop
+  🛶 (17 stops, 270 km), the Dempster 🧭 (8, 1,264 km), the Alaska Road 🚙 (19, 2,456
+  km, Homer→Deadhorse) and the Inside Passage ⛴️ (12, 1,042 km, a *ferry* — there is
+  no road to Juneau); **Trans-Canada rebuilt 8 → 16 stops**, since 8 stops for 7,800 km
+  was a sketch. Alaska needed the Oceania batch's **two-range `in_box()`** — it is the
+  only state that crosses the antimeridian, and Attu and Agattu sit at 172–180°E.
+  Everything this batch taught is in the README's rules table; the four worth
+  repeating here:
+  - **Audit the *no-coordinate* slugs, not just the FAR ones.** No P625 means no
+    distance check, which is exactly where the wrong articles hide: Manitoulin's
+    `Little_Current` resolves cleanly to a **1974 Triple Crown racehorse**, and
+    `Canoe_Lake_(Ontario)` and `Martyrs'_Shrine` are disambiguation pages.
+  - **A highlight has to pass "could a camera be pointed at it".** `NOT_A_MONUMENT`
+    refuses peoples and eras, so the Beaufort, Chukchi and Bering Seas pass it — and
+    each is a search term that returns crab boats. Ten cut.
+  - **The plausible slug is the dangerous one.** Kodiak's Russian church went
+    `Church_of_the_Holy_Ascension` (real, Orthodox, Alaskan, 982 km away in Unalaska)
+    → bare `Holy_Resurrection_Cathedral` (**Tokyo**) → the right one.
+  - **Two `COUNTRY` warnings are correct and stay.** `Mount_Saint_Elias` and
+    `Hubbard_Glacier` answer P17 = Canada because they stand on the Alaska–Yukon
+    boundary crest. Documented in the generator header, not silenced.
+
+- **Adding places changes the vetting of every *old* place (2026-08-18):** two
+  regressions this batch caused, both found only by diffing every shipped title
+  against `wrong_place_title` before and after — nothing else prints this class of
+  damage, so **run that diff after any region batch.**
+  - **`Sea-to-Sky Highway` reduced to the single token `highway`** (sea/to/sky are all
+    ≤3 letters), and a one-token gazetteer row accuses on that word alone: a Beijing
+    drive, an Oslo drive, a Nairobi drive and three more were ruled to be on a road
+    north of Vancouver, while on the matching side every "Highway Drive Through
+    *anywhere*" answered to Sea-to-Sky. `highway` is a `GENERIC_TOKEN` now, with the
+    road reachable through `ALIASES`.
+  - **A name `GENERIC_TOKENS` strips to one token was never identifying on it.**
+    `Gold Coast`→`gold`, `Abraham Lake`→`abraham`, `Rock Islands`→`rock`, `Stone
+    Town`→`stone`, `Cape Coast Castle`→`cape`, `Mary Lake`→`mary`. Between them,
+    **46 shipped titles were being falsely rejected** — the Blue Mosque as being in
+    the Blue Mountains, Moro Rock as being in Palau, the Plains of Abraham as 3,264 km
+    from Quebec. `register_place()` now records the feature nouns such a name lost and
+    the accusing loop demands them too. Net: −46 false rejects, +1 true one.
+  - **The Canadian-province guard**, the us-vs-us problem one border north (a
+    Windermere in BC and one in Muskoka, a Victoria in BC and one on PEI). The trap:
+    **the headline exemption is worth nothing against a namesake**, because the
+    namesake's own video also leads with the name — copied verbatim it produced a rule
+    that caught nothing. It now requires the title to also name *our* province. All of
+    it frozen in `tools/test_vetting.py`.
+  - ⚠️ **The same hole is still open in the us-vs-us block:** `"Flagstaff Lake Webcam,
+    Eustis, Maine"` is exempt for Arizona's Flagstaff today. Not fixed here because it
+    wants its own regression pass.
 
 - **🛰️ The sky over a place (2026-08-18):** the window seat is empty for 1,016 of
   1,126 places, and for 19 the whole stage is. Those places still have weather, and

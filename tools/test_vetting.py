@@ -121,6 +121,70 @@ case(W, True, "Walking in Victoria, British Columbia", "victoria-peak")
 case(W, False, "Walking Tour, on a Rainy Morning in Kowloon", "victoria-peak",
      "', on' is ordinary English — ON is deliberately not an abbreviation")
 
+# --- wrong_place_title: one CANADIAN place vs a DIFFERENT province ---------
+# canada.json went from 36 places in one Ontario watershed to 238 across all
+# thirteen, and with them came the namesakes: a Windermere in BC and one in
+# Muskoka, a Victoria in BC and one on PEI, a Hamilton in Ontario and one in
+# Nova Scotia, a Gravenhurst in Ontario and one in Alberta.
+case(W, True, "Windermere BC Drone Tour", "windermere-ontario")
+case(W, True, "Lake Windermere, British Columbia 4K", "windermere-ontario")
+case(W, True, "Hamilton, Nova Scotia Harbour Walk", "hamilton-waterfalls")
+case(W, True, "Victoria, Prince Edward Island Boardwalk", "victoria-bc")
+case(W, True, "Gravenhurst, Alberta Main Street", "gravenhurst")
+# ...and the honest ones it must not touch. The headline exemption the
+# us-vs-us block uses is worth NOTHING here on its own: a namesake's own
+# video also leads with the name, so "Windermere BC Drone Tour" puts
+# Windermere at position 0 exactly as Muskoka's would. The exemption is
+# earned, not assumed — it needs the title to ALSO name our province.
+case(W, False, "Windermere Ontario Muskoka Walk", "windermere-ontario")
+case(W, False, "Walking Hamilton Ontario Waterfalls", "hamilton-waterfalls")
+case(W, False, "Victoria BC Inner Harbour Live", "victoria-bc")
+case(W, False, "Gravenhurst Ontario Muskoka Wharf", "gravenhurst")
+case(W, False, "Driving Around a Yukon Gold Rush Town: Dawson City", "dawson-city",
+     "same-province titles are co-mentions, not relocations")
+case(W, False, "Banff Alberta to Golden British Columbia Scenic Drive",
+     "banff-lake-louise", "our province leads, the neighbour's follows")
+
+# --- wrong_place_title: a one-word name needs the noun it leans on ---------
+# The gazetteer accuses on a place's DISTINCTIVE tokens, and a multi-word
+# name that GENERIC_TOKENS strips to a single token was never identifying on
+# that word alone. Each of these was a live false reject the day the dataset
+# grew past it — see register_place().
+case(W, False, "The PLAINS OF ABRAHAM: All You Need to Know BEFORE You Go [4K]",
+     "old-quebec", "'abraham' alone is not Abraham Lake, 3,264 km away")
+case(W, False, "Moro Rock Trail in Sequoia National Park", "sequoia",
+     "'rock' alone is not Rock Islands, Palau")
+case(W, False, "Blue Mosque, 4K Virtual Walking Tour, Istanbul Turkey",
+     "istanbul", "'blue' alone is not the Blue Mountains")
+case(W, False, "Stone Forest (Kunming, China) The Most Spectacular Karst Landscape",
+     "kunming", "'stone' alone is not Stone Town, Zanzibar")
+case(W, False, "Real Time Driving Through Cape Town City to Table Mountain",
+     "table-mountain", "'cape' alone is not Cape Coast Castle, Ghana")
+case(W, False, "Logan Pass to Hidden Lake in Montana's Glacier National Park",
+     "glacier-np", "'logan' alone is not Mount Logan, Yukon")
+case(W, False, "St Mary`s Church in Gdansk virtual tour. Poland travel | 4K",
+     "gdansk", "'mary' alone is not Mary Lake, Muskoka")
+case(W, False, "Why the fattest bear will not win Fat Bear Week",
+     "brooks-falls-katmai", "'bear' alone is not Great Bear Lake")
+# ...but a two-token name still accuses on its own, unhelped.
+case(W, True, "\U0001f1e8\U0001f1e6 [4K] Toronto Walk - Yonge Street, Drewry to Churchill",
+     "churchill", "a Toronto walk in the seat of a 900-person Arctic town")
+
+# --- mentions_place: "highway" is a feature noun, not a name --------------
+# "Sea-to-Sky Highway" lost sea/to/sky to the length filter, leaving the one
+# word every road video in the world contains. It answered to a Beijing
+# drive, an Oslo drive, a Nairobi drive and three more — and accused each of
+# them right back from the gazetteer.
+case(M, False, "Highway Drive Through Oslo | Ambient Sound | Heavy Rain | 4K |",
+     "sea-to-sky")
+case(M, False, "The Highway Drive From Nairobi to Amboseli National Park",
+     "sea-to-sky")
+case(M, True, "Sea to Sky Highway Drive from Vancouver to Whistler 4K",
+     "sea-to-sky", "alias: the road by its real name, unhyphenated")
+case(M, True, "SEA-TO-SKY HIGHWAY | British Columbia Scenic Drive", "sea-to-sky")
+case(W, False, "Highway Drive Through Oslo | Ambient Sound | Heavy Rain | 4K |",
+     "oslo", "and the same word must stop accusing Oslo of being in BC")
+
 # --- city_tour_of_the_wild ------------------------------------------------
 case(C, True, "Zhangye City Walk 4K - Downtown Streets", "zhangye-danxia",
      "the city's streets standing in for the geopark")
@@ -168,6 +232,35 @@ for pid, want, title in [
     ("boston", True, "New York City Times Square Walking Tour"),
     ("new-york-city", False, "New York City Times Square Walking Tour"),
     ("new-orleans", False, "New Orleans French Quarter Walk 4K"),
+]:
+    got = em.wrong_place_title(title, place(pid))
+    if got != want:
+        fails.append(f"FAIL wrong_place_title[{pid}] want={want} got={got}: "
+                     f"{title[:60]}")
+
+# --- a name made of filler is not a name ----------------------------------
+# "Top of the World Highway" is a real Yukon road, but "highway" is a generic
+# feature noun and "world" had to join it: 94 titles in the shipped corpus say
+# "world", and every one of them answered to a gravel road near Dawson City.
+# What was left, "top of the", then became the core fallback in
+# mentions_place() and matched a tower in Pyongyang — so the core now skips
+# grammatical filler too, and the road is reachable by its full name alone.
+ROAD = place("top-of-the-world-highway")
+for want, title in [
+    (True,  "Top of the World Highway, Yukon to Alaska \u2014 4K Scenic Drive"),
+    (True,  "Driving the Top of the World Highway (Dawson City to Chicken)"),
+    (False, "Taj Mahal, Agra | Wonder of the World Walking Tour"),
+    (False, "Walking Chiang Mai - The World's Most Beautiful City"),
+    (False, "Video I took from the top of the Juche Tower in Pyongyang"),
+]:
+    got = em.mentions_place(title, ROAD)
+    if got != want:
+        fails.append(f"FAIL mentions_place[top-of-the-world-highway] "
+                     f"want={want} got={got}: {title[:60]}")
+
+# ...and it must stop accusing the Pamir Highway of being in the Klondike.
+for pid, want, title in [
+    ("pamirs", False, "Second highest highway in the world - Ak-Baital Pass"),
 ]:
     got = em.wrong_place_title(title, place(pid))
     if got != want:

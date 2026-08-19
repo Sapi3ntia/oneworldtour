@@ -2771,7 +2771,7 @@
       ],
       "highlights": [
         {
-          "name": "Denali (Mt. McKinley)",
+          "name": "Denali",
           "wikipedia_slug": "Denali"
         },
         {
@@ -2779,13 +2779,17 @@
           "wikipedia_slug": "Wonder_Lake_(Alaska)"
         },
         {
-          "name": "Park Road",
-          "wikipedia_slug": "Denali_National_Park_and_Preserve"
+          "name": "Kantishna",
+          "wikipedia_slug": "Kantishna,_Alaska"
+        },
+        {
+          "name": "Talkeetna",
+          "wikipedia_slug": "Talkeetna,_Alaska"
         }
       ],
-      "blurb": "",
-      "fun_fact": "",
-      "hidden_gem_tip": null,
+      "blurb": "Six million acres with one road into them, a single mountain that makes its own weather, and a rule that the wildlife has the right of way over the bus.",
+      "fun_fact": "Denali rises about 5,500 m from base to summit — a greater vertical rise than Everest, which starts from a plateau already 5,000 m up. It is also the coldest mountain of its height anywhere on earth.",
+      "hidden_gem_tip": "The mountain is fully visible on roughly one day in three. If it is out on the morning you arrive, change your plans and go that day; there is no guarantee of a second chance.",
       "country_code": "US",
       "continent": "North America",
       "monuments": [
@@ -2813,7 +2817,8 @@
           "title": "Denali National Park // Riding the Park Road",
           "height": 1920
         }
-      ]
+      ],
+      "search_name": "Denali National Park Alaska"
     },
     {
       "id": "monument-valley",
@@ -5052,6 +5057,3438 @@
           "height": 2160
         }
       ]
+    },
+    {
+      "id": "anchorage",
+      "name": "Anchorage",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏙️",
+      "coordinates": {
+        "lat": 61.21666666666667,
+        "lng": -149.8936111111111
+      },
+      "street_view": {
+        "lat": 61.21666666666667,
+        "lng": -149.8936111111111,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Anchorage,_Alaska",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Tony Knowles Coastal Trail",
+          "wikipedia_slug": "Tony_Knowles_Coastal_Trail"
+        },
+        {
+          "name": "Anchorage Museum",
+          "wikipedia_slug": "Anchorage_Museum"
+        },
+        {
+          "name": "Chugach State Park",
+          "wikipedia_slug": "Chugach_State_Park"
+        },
+        {
+          "name": "Ship Creek",
+          "wikipedia_slug": "Ship_Creek_(Alaska)"
+        },
+        {
+          "name": "Flattop Mountain",
+          "wikipedia_slug": "Flattop_Mountain_(Anchorage,_Alaska)"
+        }
+      ],
+      "blurb": "Home to nearly half of everybody in Alaska, wedged between an inlet that drains and refills twice a day and a mountain range that starts at the edge of the suburbs. Moose walk the bike paths. So do the people, at eleven at night in June.",
+      "fun_fact": "The 1964 Good Friday earthquake, magnitude 9.2 and the largest ever recorded in North America, dropped one Anchorage neighbourhood nine metres. The ground it slid across is a public park now.",
+      "hidden_gem_tip": "Ride the Coastal Trail out to Kincaid at low tide and look back: the whole city sits on a bluff you cannot see from inside it. Beluga whales come up Turnagain Arm on the incoming tide.",
+      "search_name": "Anchorage Alaska"
+    },
+    {
+      "id": "girdwood",
+      "name": "Girdwood",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "town",
+      "tag": "hidden",
+      "emoji": "🎿",
+      "coordinates": {
+        "lat": 60.9425,
+        "lng": -149.16638888889
+      },
+      "street_view": {
+        "lat": 60.9425,
+        "lng": -149.16638888889,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Girdwood,_Anchorage,_Alaska",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Alyeska Resort",
+          "wikipedia_slug": "Alyeska_Resort"
+        },
+        {
+          "name": "Crow Creek",
+          "wikipedia_slug": "Crow_Creek_(Alaska)"
+        },
+        {
+          "name": "Turnagain Arm",
+          "wikipedia_slug": "Turnagain_Arm"
+        },
+        {
+          "name": "Portage Glacier",
+          "wikipedia_slug": "Portage_Glacier"
+        }
+      ],
+      "blurb": "A ski town in a rainforest valley forty minutes from Anchorage, with seven glaciers visible from the tram and a permanent smell of wet spruce. The original townsite is under the mud flats.",
+      "fun_fact": "Girdwood moved. The 1964 earthquake dropped the valley floor by two and a half metres, the tide came in over the old town, and the whole place was rebuilt four kilometres up the valley.",
+      "hidden_gem_tip": "The drowned forest along the Seward Highway below town is the old Girdwood: dead spruce still standing in salt water sixty years on. Best light on it is the hour before sunset.",
+      "search_name": "Girdwood Alaska"
+    },
+    {
+      "id": "whittier",
+      "name": "Whittier",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "town",
+      "tag": "hidden",
+      "emoji": "🚇",
+      "coordinates": {
+        "lat": 60.77305555555556,
+        "lng": -148.6838888888889
+      },
+      "street_view": {
+        "lat": 60.77305555555556,
+        "lng": -148.6838888888889,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Whittier,_Alaska",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Begich Towers",
+          "wikipedia_slug": "Begich_Towers"
+        },
+        {
+          "name": "Anton Anderson Memorial Tunnel",
+          "wikipedia_slug": "Portage_Glacier_Highway"
+        },
+        {
+          "name": "Prince William Sound",
+          "wikipedia_slug": "Prince_William_Sound"
+        },
+        {
+          "name": "Portage Glacier",
+          "wikipedia_slug": "Portage_Glacier"
+        }
+      ],
+      "blurb": "A port on Prince William Sound where almost the entire town — homes, school, police station, shop, church — lives in one fourteen-storey building the army put up in 1957.",
+      "fun_fact": "The only road in is a single-lane tunnel shared with the railway, four kilometres through a mountain, running one direction at a time on a published timetable. Miss the last one and you stay.",
+      "hidden_gem_tip": "Check the tunnel schedule before you commit to the drive, both ways. Whittier averages over five metres of precipitation a year, so the sunny photographs you have seen are the exception.",
+      "search_name": "Whittier Alaska"
+    },
+    {
+      "id": "seward",
+      "name": "Seward",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "town",
+      "tag": "famous",
+      "emoji": "⚓",
+      "coordinates": {
+        "lat": 60.1041667,
+        "lng": -149.4422222
+      },
+      "street_view": {
+        "lat": 60.1041667,
+        "lng": -149.4422222,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Seward,_Alaska",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Kenai Fjords National Park",
+          "wikipedia_slug": "Kenai_Fjords_National_Park"
+        },
+        {
+          "name": "Exit Glacier",
+          "wikipedia_slug": "Exit_Glacier"
+        },
+        {
+          "name": "Alaska SeaLife Center",
+          "wikipedia_slug": "Alaska_SeaLife_Center"
+        },
+        {
+          "name": "Resurrection Bay",
+          "wikipedia_slug": "Resurrection_Bay"
+        }
+      ],
+      "blurb": "A fishing and cruise port at the head of Resurrection Bay, with the only road-accessible glacier in Kenai Fjords eleven kilometres out of town and an icefield above it.",
+      "fun_fact": "Every Fourth of July the town races up Mount Marathon and back — 921 metres of gain, a scree descent people take on the seat of their shorts, and a course record that has stood since 2016.",
+      "hidden_gem_tip": "Walk to Exit Glacier past the year markers on the road: 1917, 1951, 1998, 2010. Each one is where the ice ended. The walk between the last two takes about a minute.",
+      "search_name": "Seward Alaska"
+    },
+    {
+      "id": "homer",
+      "name": "Homer",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "town",
+      "tag": "famous",
+      "emoji": "🎣",
+      "coordinates": {
+        "lat": 59.6431,
+        "lng": -151.526
+      },
+      "street_view": {
+        "lat": 59.6431,
+        "lng": -151.526,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Homer,_Alaska",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Homer Spit",
+          "wikipedia_slug": "Homer_Spit"
+        },
+        {
+          "name": "Kachemak Bay",
+          "wikipedia_slug": "Kachemak_Bay"
+        },
+        {
+          "name": "Kachemak Bay State Park",
+          "wikipedia_slug": "Kachemak_Bay_State_Park"
+        },
+        {
+          "name": "Halibut Cove",
+          "wikipedia_slug": "Halibut_Cove,_Alaska"
+        }
+      ],
+      "blurb": "The end of the road on the Kenai Peninsula, where a gravel spit runs seven kilometres straight out into Kachemak Bay and ends in a harbour, a boardwalk and a bar with dollar bills on the wall.",
+      "fun_fact": "The Spit is a glacial moraine, and the 1964 earthquake dropped it about one and a half metres. Everything on it now stands on fill trucked out to replace what the sea took.",
+      "hidden_gem_tip": "Cross the bay to Halibut Cove or Seldovia on the morning water taxi — no roads, boardwalk streets, and you will have the afternoon there. Otters work the harbour year-round.",
+      "search_name": "Homer Alaska"
+    },
+    {
+      "id": "kenai",
+      "name": "Kenai",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "town",
+      "tag": "hidden",
+      "emoji": "🐟",
+      "coordinates": {
+        "lat": 60.55444444444444,
+        "lng": -151.25833333333333
+      },
+      "street_view": {
+        "lat": 60.55444444444444,
+        "lng": -151.25833333333333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Kenai,_Alaska",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Kenai River",
+          "wikipedia_slug": "Kenai_River"
+        },
+        {
+          "name": "Cook Inlet",
+          "wikipedia_slug": "Cook_Inlet"
+        },
+        {
+          "name": "Soldotna",
+          "wikipedia_slug": "Soldotna,_Alaska"
+        },
+        {
+          "name": "Old Town Kenai"
+        }
+      ],
+      "blurb": "A Russian trading post from 1791 at the mouth of the river that produces the largest king salmon in the world, looking across Cook Inlet at four volcanoes.",
+      "fun_fact": "The world-record king salmon, 44 kg, came out of the Kenai River in 1985 and has not been approached since. The run it belonged to is now a fraction of what it was.",
+      "hidden_gem_tip": "Stand on the bluff at Old Town in July and watch dipnetting: residents wade in chest-deep with hoops on poles, legal only here and only for Alaskans. It looks like chaos and it is organised.",
+      "search_name": "Kenai Alaska"
+    },
+    {
+      "id": "palmer",
+      "name": "Palmer",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "town",
+      "tag": "hidden",
+      "emoji": "🥬",
+      "coordinates": {
+        "lat": 61.601944444444,
+        "lng": -149.11722222222
+      },
+      "street_view": {
+        "lat": 61.601944444444,
+        "lng": -149.11722222222,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Palmer,_Alaska",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Hatcher Pass",
+          "wikipedia_slug": "Hatcher_Pass"
+        },
+        {
+          "name": "Independence Mine",
+          "wikipedia_slug": "Independence_Mines,_Alaska"
+        },
+        {
+          "name": "Matanuska Glacier",
+          "wikipedia_slug": "Matanuska_Glacier"
+        },
+        {
+          "name": "Matanuska River",
+          "wikipedia_slug": "Matanuska_River"
+        }
+      ],
+      "blurb": "A farm town in the Matanuska Valley, ringed by peaks, founded in 1935 when the federal government moved two hundred families here from the Depression-flattened upper Midwest.",
+      "fun_fact": "Twenty hours of summer daylight grow vegetables to absurd sizes. The state fair record cabbage weighed 62.7 kg. The pumpkin record is over 900.",
+      "hidden_gem_tip": "Drive Hatcher Pass to the Independence Mine buildings above the treeline — bunkhouses and mills left standing in the tundra. The road over the top is gravel and only open in late summer.",
+      "search_name": "Palmer Alaska Matanuska"
+    },
+    {
+      "id": "valdez",
+      "name": "Valdez",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "town",
+      "tag": "hidden",
+      "emoji": "🛢️",
+      "coordinates": {
+        "lat": 61.130833333333,
+        "lng": -146.34833333333
+      },
+      "street_view": {
+        "lat": 61.130833333333,
+        "lng": -146.34833333333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Valdez,_Alaska",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Thompson Pass",
+          "wikipedia_slug": "Thompson_Pass"
+        },
+        {
+          "name": "Keystone Canyon",
+          "wikipedia_slug": "Keystone_Canyon"
+        },
+        {
+          "name": "Trans-Alaska Pipeline",
+          "wikipedia_slug": "Trans-Alaska_Pipeline_System"
+        },
+        {
+          "name": "Columbia Glacier",
+          "wikipedia_slug": "Columbia_Glacier_(Alaska)"
+        }
+      ],
+      "blurb": "The southern end of the pipeline, at the head of a fjord walled by mountains that catch more snow than almost anywhere in North America. Waterfalls come off the canyon walls all summer.",
+      "fun_fact": "Thompson Pass, just inland, holds the state snowfall records: 24.9 m in the winter of 1952-53, and 1.6 m in a single day. The highway over it is kept open anyway.",
+      "hidden_gem_tip": "Old Valdez is four kilometres away and empty — the town moved after 1964 and left the street grid. Walk it. The signs tell you which building stood where.",
+      "search_name": "Valdez Alaska"
+    },
+    {
+      "id": "cordova",
+      "name": "Cordova",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "town",
+      "tag": "hidden",
+      "emoji": "🦅",
+      "coordinates": {
+        "lat": 60.54394444444444,
+        "lng": -145.75891666666666
+      },
+      "street_view": {
+        "lat": 60.54394444444444,
+        "lng": -145.75891666666666,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Cordova,_Alaska",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Copper River",
+          "wikipedia_slug": "Copper_River_(Alaska)"
+        },
+        {
+          "name": "Million Dollar Bridge",
+          "wikipedia_slug": "Miles_Glacier_Bridge"
+        },
+        {
+          "name": "Prince William Sound",
+          "wikipedia_slug": "Prince_William_Sound"
+        },
+        {
+          "name": "Childs Glacier"
+        }
+      ],
+      "blurb": "A fishing town on Prince William Sound with no road to anywhere — you arrive by ferry or by plane — living off the Copper River salmon run and the delta the river built.",
+      "fun_fact": "The Copper River Delta is the largest contiguous wetland on the Pacific coast of North America, and effectively the entire world population of western sandpipers stops here each May.",
+      "hidden_gem_tip": "Drive the Copper River Highway as far as it still goes and stand at the Million Dollar Bridge. It was half-destroyed in 1964, patched decades later, and the glacier opposite calves into the river loudly enough to hear from the deck.",
+      "search_name": "Cordova Alaska"
+    },
+    {
+      "id": "talkeetna",
+      "name": "Talkeetna",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "village",
+      "tag": "hidden",
+      "emoji": "🛩️",
+      "coordinates": {
+        "lat": 62.320833333333,
+        "lng": -150.10833333333
+      },
+      "street_view": {
+        "lat": 62.320833333333,
+        "lng": -150.10833333333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Talkeetna,_Alaska",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Denali",
+          "wikipedia_slug": "Denali"
+        },
+        {
+          "name": "Alaska Range",
+          "wikipedia_slug": "Alaska_Range"
+        },
+        {
+          "name": "Talkeetna River",
+          "wikipedia_slug": "Talkeetna_River"
+        },
+        {
+          "name": "Susitna River",
+          "wikipedia_slug": "Susitna_River"
+        }
+      ],
+      "blurb": "Three rivers meet at a gravel bar and a one-street town of log buildings sits above them, from which every climber attempting Denali flies out to the glacier.",
+      "fun_fact": "A cat called Stubbs was the honorary mayor for twenty years. The town has no elected mayor, so the joke was only half a joke.",
+      "hidden_gem_tip": "The view of Denali from the river bar at the end of Main Street is the best road-accessible one there is, and the mountain is out roughly one day in three. Go early — clouds build by noon.",
+      "search_name": "Talkeetna Alaska"
+    },
+    {
+      "id": "turnagain-arm",
+      "name": "Turnagain Arm",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "coastal",
+      "tag": "hidden",
+      "emoji": "🌊",
+      "coordinates": {
+        "lat": 60.98722,
+        "lng": -149.79472
+      },
+      "street_view": {
+        "lat": 60.98722,
+        "lng": -149.79472,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Turnagain_Arm",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Beluga Point",
+          "wikipedia_slug": "Beluga_Point_Site"
+        },
+        {
+          "name": "Seward Highway",
+          "wikipedia_slug": "Seward_Highway"
+        },
+        {
+          "name": "Portage Glacier",
+          "wikipedia_slug": "Portage_Glacier"
+        },
+        {
+          "name": "Cook Inlet",
+          "wikipedia_slug": "Cook_Inlet"
+        }
+      ],
+      "blurb": "A narrow arm of Cook Inlet with a highway pinned between the water and the cliffs, named by Cook's crew for having to turn back at the end of it.",
+      "fun_fact": "It has the second-largest tidal range in North America — around twelve metres — and a bore tide that runs up the arm as a single wave up to two metres high, at about fifteen knots.",
+      "hidden_gem_tip": "Bore tide times are published; the good ones follow a very low tide by roughly two hours. Watch from Bird Point. Do not walk on the mud flats — the silt sets around your legs and the tide returns faster than anyone can dig."
+    },
+    {
+      "id": "chugach-state-park",
+      "name": "Chugach State Park",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "⛰️",
+      "coordinates": {
+        "lat": 61.051944444444445,
+        "lng": -149.79694444444445
+      },
+      "street_view": {
+        "lat": 61.051944444444445,
+        "lng": -149.79694444444445,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Chugach_State_Park",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Flattop Mountain",
+          "wikipedia_slug": "Flattop_Mountain_(Anchorage,_Alaska)"
+        },
+        {
+          "name": "Chugach Mountains",
+          "wikipedia_slug": "Chugach_Mountains"
+        },
+        {
+          "name": "Anchorage",
+          "wikipedia_slug": "Anchorage,_Alaska"
+        },
+        {
+          "name": "Eagle River"
+        }
+      ],
+      "blurb": "Two thousand square kilometres of mountains, glaciers and hanging valleys with a trailhead twenty minutes from downtown Anchorage — one of the largest state parks in the country.",
+      "fun_fact": "Flattop is the most climbed mountain in Alaska, largely because you can be on its summit within an hour of leaving a city of 290,000 people, with Denali visible on a clear day.",
+      "hidden_gem_tip": "Take the Powerline Pass trail instead of Flattop if you want the valley to yourself. Dall sheep are on the slopes above it most mornings, and the trail stays gentle for the first six kilometres."
+    },
+    {
+      "id": "matanuska-glacier",
+      "name": "Matanuska Glacier",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🧊",
+      "coordinates": {
+        "lat": 61.6558,
+        "lng": -147.581
+      },
+      "street_view": {
+        "lat": 61.6558,
+        "lng": -147.581,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Matanuska_Glacier",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Glenn Highway",
+          "wikipedia_slug": "Glenn_Highway"
+        },
+        {
+          "name": "Chugach Mountains",
+          "wikipedia_slug": "Chugach_Mountains"
+        },
+        {
+          "name": "Matanuska River",
+          "wikipedia_slug": "Matanuska_River"
+        },
+        {
+          "name": "Palmer",
+          "wikipedia_slug": "Palmer,_Alaska"
+        }
+      ],
+      "blurb": "Forty kilometres of ice ending four kilometres wide beside the Glenn Highway, the largest glacier in the United States you can drive to and then walk onto.",
+      "fun_fact": "It has barely retreated in the last century while almost every other Alaskan glacier has collapsed — the valley behind it feeds enough snow to keep pace, for now.",
+      "hidden_gem_tip": "The ice is on private land and access is ticketed; guided walks are the only legal way past the moraine and the crevasses are the reason. Go in the morning before the meltwater channels open up."
+    },
+    {
+      "id": "portage-glacier",
+      "name": "Portage Glacier",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🧊",
+      "coordinates": {
+        "lat": 60.753055555556,
+        "lng": -148.78555555556
+      },
+      "street_view": {
+        "lat": 60.753055555556,
+        "lng": -148.78555555556,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Portage_Glacier",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Portage Lake",
+          "wikipedia_slug": "Portage_Lake_(Alaska)"
+        },
+        {
+          "name": "Whittier",
+          "wikipedia_slug": "Whittier,_Alaska"
+        },
+        {
+          "name": "Turnagain Arm",
+          "wikipedia_slug": "Turnagain_Arm"
+        },
+        {
+          "name": "Byron Glacier"
+        }
+      ],
+      "blurb": "A glacier that used to sit at the end of the road and now sits around a corner of its own lake, out of sight of the visitor centre built in 1986 specifically to look at it.",
+      "fun_fact": "In 1914 the ice filled the entire valley the lake now occupies. The lake is the glacier's own retreat, five kilometres of it, measured in water.",
+      "hidden_gem_tip": "Take the boat or walk the Byron Glacier trail next door — twenty minutes to standing under blue ice, and one of the few places in Alaska where ice worms are easy to find in the snowfield."
+    },
+    {
+      "id": "worthington-glacier",
+      "name": "Worthington Glacier",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🧊",
+      "coordinates": {
+        "lat": 61.1703,
+        "lng": -145.763
+      },
+      "street_view": {
+        "lat": 61.1703,
+        "lng": -145.763,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Worthington_Glacier",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Thompson Pass",
+          "wikipedia_slug": "Thompson_Pass"
+        },
+        {
+          "name": "Richardson Highway",
+          "wikipedia_slug": "Richardson_Highway"
+        },
+        {
+          "name": "Valdez",
+          "wikipedia_slug": "Valdez,_Alaska"
+        },
+        {
+          "name": "Keystone Canyon",
+          "wikipedia_slug": "Keystone_Canyon"
+        }
+      ],
+      "blurb": "A glacier that comes down almost to the Richardson Highway just below Thompson Pass, with a paved path to a viewpoint a few hundred metres from the ice.",
+      "fun_fact": "This is one of the most accessible glaciers in the state and one of the snowiest places in it — the pass above records winter totals measured in tens of metres.",
+      "hidden_gem_tip": "The moraine trail up the left side gets you level with the icefall in about forty minutes. Don't go onto the ice: it is crevassed under the snow and there is no guide service here."
+    },
+    {
+      "id": "prince-william-sound",
+      "name": "Prince William Sound",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "coastal",
+      "tag": "hidden",
+      "emoji": "🐋",
+      "coordinates": {
+        "lat": 60.615,
+        "lng": -147.16805555556
+      },
+      "street_view": {
+        "lat": 60.615,
+        "lng": -147.16805555556,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Prince_William_Sound",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Columbia Glacier",
+          "wikipedia_slug": "Columbia_Glacier_(Alaska)"
+        },
+        {
+          "name": "Valdez",
+          "wikipedia_slug": "Valdez,_Alaska"
+        },
+        {
+          "name": "Whittier",
+          "wikipedia_slug": "Whittier,_Alaska"
+        },
+        {
+          "name": "Cordova",
+          "wikipedia_slug": "Cordova,_Alaska"
+        }
+      ],
+      "blurb": "A sound the size of a small country, ringed by the Chugach Mountains and filled with fjords, tidewater glaciers and islands that have never had a road on them.",
+      "fun_fact": "The Columbia Glacier has retreated more than twenty kilometres since 1980 and thinned by half a kilometre in places — one of the fastest-moving glaciers on earth and one of the fastest shrinking.",
+      "hidden_gem_tip": "The state ferry between Whittier and Valdez costs a fraction of a tour and crosses the same water. Sit outside; the whales don't announce themselves."
+    },
+    {
+      "id": "kachemak-bay",
+      "name": "Kachemak Bay",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "coastal",
+      "tag": "hidden",
+      "emoji": "🦦",
+      "coordinates": {
+        "lat": 59.609166666667,
+        "lng": -151.3475
+      },
+      "street_view": {
+        "lat": 59.609166666667,
+        "lng": -151.3475,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Kachemak_Bay",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Homer",
+          "wikipedia_slug": "Homer,_Alaska"
+        },
+        {
+          "name": "Homer Spit",
+          "wikipedia_slug": "Homer_Spit"
+        },
+        {
+          "name": "Halibut Cove",
+          "wikipedia_slug": "Halibut_Cove,_Alaska"
+        },
+        {
+          "name": "Grewingk Glacier",
+          "wikipedia_slug": "Grewingk_Glacier"
+        }
+      ],
+      "blurb": "A bay off Cook Inlet with a town on one shore and, on the other, a wall of glaciated mountains with no roads at all — only boardwalk villages and trailheads reached by skiff.",
+      "fun_fact": "It was Alaska's first state park and remains one of the most productive cold-water estuaries anywhere, with tides that expose kilometres of intertidal zone twice a day.",
+      "hidden_gem_tip": "The Grewingk Glacier Lake trail from Glacier Spit is flat, about five kilometres, and ends at a lake with icebergs in it. The water taxi drops you and returns at an agreed hour — agree carefully."
+    },
+    {
+      "id": "seward-highway",
+      "name": "Seward Highway",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🛣️",
+      "coordinates": {
+        "lat": 60.6667,
+        "lng": -149.4
+      },
+      "street_view": {
+        "lat": 60.6667,
+        "lng": -149.4,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Seward_Highway",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Turnagain Arm",
+          "wikipedia_slug": "Turnagain_Arm"
+        },
+        {
+          "name": "Beluga Point",
+          "wikipedia_slug": "Beluga_Point_Site"
+        },
+        {
+          "name": "Anchorage",
+          "wikipedia_slug": "Anchorage,_Alaska"
+        },
+        {
+          "name": "Seward",
+          "wikipedia_slug": "Seward,_Alaska"
+        }
+      ],
+      "blurb": "Two hundred kilometres from Anchorage to Seward, most of it carved into the cliff above Turnagain Arm and the rest climbing through the Kenai Mountains past hanging glaciers.",
+      "fun_fact": "It is a National Scenic Byway, an All-American Road and a Forest Service Scenic Byway simultaneously — one of very few roads in the country to hold all three designations.",
+      "hidden_gem_tip": "Pull off at every marked viewpoint on the Arm; the tide changes the view completely in six hours. Dall sheep stand on the rock directly above the road near Windy Corner and cause the traffic."
+    },
+    {
+      "id": "fairbanks",
+      "name": "Fairbanks",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🌌",
+      "coordinates": {
+        "lat": 64.843611111111,
+        "lng": -147.72305555556
+      },
+      "street_view": {
+        "lat": 64.843611111111,
+        "lng": -147.72305555556,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Fairbanks,_Alaska",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Chena River",
+          "wikipedia_slug": "Chena_River"
+        },
+        {
+          "name": "University of Alaska Fairbanks",
+          "wikipedia_slug": "University_of_Alaska_Fairbanks"
+        },
+        {
+          "name": "Pioneer Park",
+          "wikipedia_slug": "Pioneer_Park_(Fairbanks,_Alaska)"
+        },
+        {
+          "name": "Trans-Alaska Pipeline",
+          "wikipedia_slug": "Trans-Alaska_Pipeline_System"
+        }
+      ],
+      "blurb": "The last real city before the Arctic, a gold camp that stayed, sitting in a river basin that traps cold air at forty below and sits directly under the auroral oval.",
+      "fun_fact": "The recorded extremes here span 99 degrees Celsius: −52 °C in winter and +38 °C in summer. Both were measured at the same airport.",
+      "hidden_gem_tip": "Aurora season is roughly late August to April and the best hours are the ugly ones, from about eleven to three. Get out of the river valley — Cleary Summit or Murphy Dome — and let your eyes adjust for twenty full minutes before you decide nothing is there.",
+      "search_name": "Fairbanks Alaska"
+    },
+    {
+      "id": "north-pole-alaska",
+      "name": "North Pole",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "town",
+      "tag": "hidden",
+      "emoji": "🎅",
+      "coordinates": {
+        "lat": 64.751111111111,
+        "lng": -147.35194444444
+      },
+      "street_view": {
+        "lat": 64.751111111111,
+        "lng": -147.35194444444,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "North_Pole,_Alaska",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Santa Claus House",
+          "wikipedia_slug": "Santa_Claus_House"
+        },
+        {
+          "name": "Fairbanks",
+          "wikipedia_slug": "Fairbanks,_Alaska"
+        },
+        {
+          "name": "Chena River",
+          "wikipedia_slug": "Chena_River"
+        },
+        {
+          "name": "Candy Cane Lane"
+        }
+      ],
+      "blurb": "A small town outside Fairbanks, 2,700 km from the actual North Pole, that renamed itself in 1952 to attract a toy factory. The factory never came. Everything else did.",
+      "fun_fact": "The streets are called Santa Claus Lane, Kris Kringle Drive and Snowman Lane, the street lights are candy canes, and the post office answers hundreds of thousands of letters a year.",
+      "hidden_gem_tip": "It is genuinely strange in July, which is the right time to see it: candy-cane lamp posts in full daylight at midnight, and nobody around.",
+      "search_name": "North Pole Alaska town"
+    },
+    {
+      "id": "chena-hot-springs",
+      "name": "Chena Hot Springs",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "village",
+      "tag": "hidden",
+      "emoji": "♨️",
+      "coordinates": {
+        "lat": 65.053055555556,
+        "lng": -146.05555555556
+      },
+      "street_view": {
+        "lat": 65.053055555556,
+        "lng": -146.05555555556,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Chena_Hot_Springs,_Alaska",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Chena River",
+          "wikipedia_slug": "Chena_River"
+        },
+        {
+          "name": "Chena River State Recreation Area",
+          "wikipedia_slug": "Chena_River_State_Recreation_Area"
+        },
+        {
+          "name": "Fairbanks",
+          "wikipedia_slug": "Fairbanks,_Alaska"
+        },
+        {
+          "name": "Aurora Ice Museum"
+        }
+      ],
+      "blurb": "A hot spring at the end of a hundred-kilometre road out of Fairbanks, found by gold miners in 1905 and running ever since, with a rock lake outdoors at 41 °C in the middle of the taiga.",
+      "fun_fact": "The resort runs almost entirely on its own geothermal water, including the electricity — it holds the record for the lowest temperature geothermal resource used for commercial power.",
+      "hidden_gem_tip": "Sit in the outdoor rock lake in January with the aurora overhead: that is the whole reason the road exists. Long hair freezes solid within minutes, which is the local photograph.",
+      "search_name": "Chena Hot Springs Alaska"
+    },
+    {
+      "id": "denali-highway",
+      "name": "Denali Highway",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🚙",
+      "coordinates": {
+        "lat": 63.10501,
+        "lng": -147.514629
+      },
+      "street_view": {
+        "lat": 63.10501,
+        "lng": -147.514629,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Denali_Highway",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Alaska Range",
+          "wikipedia_slug": "Alaska_Range"
+        },
+        {
+          "name": "Cantwell",
+          "wikipedia_slug": "Cantwell,_Alaska"
+        },
+        {
+          "name": "Paxson",
+          "wikipedia_slug": "Paxson,_Alaska"
+        },
+        {
+          "name": "Susitna River",
+          "wikipedia_slug": "Susitna_River"
+        }
+      ],
+      "blurb": "Two hundred and twenty kilometres of mostly gravel across the tundra south of the Alaska Range, with no towns, no services for long stretches and the mountains on the horizon the whole way.",
+      "fun_fact": "Until the Parks Highway opened in 1971 this was the only road to Denali National Park. Traffic dropped to almost nothing overnight and it has stayed that way.",
+      "hidden_gem_tip": "It closes with the first serious snow and reopens in May. Carry a full-size spare, and stop at the Maclaren Summit pull-off — the second-highest highway pass in Alaska and glaciers in view from the car."
+    },
+    {
+      "id": "dalton-highway",
+      "name": "Dalton Highway",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🛻",
+      "coordinates": {
+        "lat": 70.191241,
+        "lng": -148.431387
+      },
+      "street_view": {
+        "lat": 70.191241,
+        "lng": -148.431387,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Dalton_Highway",
+      "sounds": [
+        "arctic-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Atigun Pass",
+          "wikipedia_slug": "Atigun_Pass"
+        },
+        {
+          "name": "Brooks Range",
+          "wikipedia_slug": "Brooks_Range"
+        },
+        {
+          "name": "Coldfoot",
+          "wikipedia_slug": "Coldfoot,_Alaska"
+        },
+        {
+          "name": "Yukon River",
+          "wikipedia_slug": "Yukon_River"
+        },
+        {
+          "name": "Prudhoe Bay",
+          "wikipedia_slug": "Prudhoe_Bay,_Alaska"
+        }
+      ],
+      "blurb": "Six hundred and sixty kilometres of haul road from the Yukon River to the Arctic Ocean, built in five months in 1974 to supply the pipeline, and still mostly gravel.",
+      "fun_fact": "There are three fuel stops on the entire route and one of the gaps between them is 390 km — the longest stretch without services on any public road in North America.",
+      "hidden_gem_tip": "Atigun Pass at 1,444 m is the only road crossing of the Brooks Range and the treeline is below it: the last spruce on the highway is marked with a sign, and there is nothing taller than your knee for the next three hundred kilometres."
+    },
+    {
+      "id": "coldfoot",
+      "name": "Coldfoot",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "village",
+      "tag": "hidden",
+      "emoji": "🥶",
+      "coordinates": {
+        "lat": 67.251388888889,
+        "lng": -150.17611111111
+      },
+      "street_view": {
+        "lat": 67.251388888889,
+        "lng": -150.17611111111,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Coldfoot,_Alaska",
+      "sounds": [
+        "arctic-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Atigun Pass",
+          "wikipedia_slug": "Atigun_Pass"
+        },
+        {
+          "name": "Wiseman",
+          "wikipedia_slug": "Wiseman,_Alaska"
+        },
+        {
+          "name": "Dalton Highway",
+          "wikipedia_slug": "Dalton_Highway"
+        },
+        {
+          "name": "Gates of the Arctic National Park",
+          "wikipedia_slug": "Gates_of_the_Arctic_National_Park_and_Preserve"
+        }
+      ],
+      "blurb": "A truck stop at the foot of the Brooks Range with a population in single figures, a café that never closes and the last fuel for 390 kilometres in either direction.",
+      "fun_fact": "It recorded −62 °C in January 1989, the coldest temperature ever measured in the United States outside a research station. The name comes from gold stampeders who got this far and turned back.",
+      "hidden_gem_tip": "Wiseman, twenty kilometres north, is the better stop: a dozen residents in log cabins from 1908, still on a dirt road, and people will talk to you if you are not in a hurry.",
+      "search_name": "Coldfoot Alaska Dalton Highway"
+    },
+    {
+      "id": "chicken",
+      "name": "Chicken",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "village",
+      "tag": "hidden",
+      "emoji": "🐔",
+      "coordinates": {
+        "lat": 64.0708,
+        "lng": -141.875
+      },
+      "street_view": {
+        "lat": 64.0708,
+        "lng": -141.875,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Chicken,_Alaska",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Taylor Highway",
+          "wikipedia_slug": "Taylor_Highway"
+        },
+        {
+          "name": "Fortymile River",
+          "wikipedia_slug": "Fortymile_River"
+        },
+        {
+          "name": "Eagle",
+          "wikipedia_slug": "Eagle,_Alaska"
+        },
+        {
+          "name": "Top of the World Highway",
+          "wikipedia_slug": "Top_of_the_World_Highway"
+        }
+      ],
+      "blurb": "A gold camp on the Taylor Highway with a summer population of about a dozen, no running water, no phones, and three competing businesses in a row.",
+      "fun_fact": "They wanted to name it Ptarmigan, after the bird all around them, and could not agree on how to spell it. Chicken was close enough and nobody could get it wrong.",
+      "hidden_gem_tip": "The road is closed by snow from roughly October to April, and the dredge at the edge of town can be toured. Bring cash — there is no bank and the connection is not reliable.",
+      "search_name": "Chicken Alaska"
+    },
+    {
+      "id": "eagle-alaska",
+      "name": "Eagle",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "village",
+      "tag": "hidden",
+      "emoji": "🏛️",
+      "coordinates": {
+        "lat": 64.7875,
+        "lng": -141.201
+      },
+      "street_view": {
+        "lat": 64.7875,
+        "lng": -141.201,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Eagle,_Alaska",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Yukon River",
+          "wikipedia_slug": "Yukon_River"
+        },
+        {
+          "name": "Fort Egbert",
+          "wikipedia_slug": "Fort_Egbert"
+        },
+        {
+          "name": "Taylor Highway",
+          "wikipedia_slug": "Taylor_Highway"
+        },
+        {
+          "name": "Yukon–Charley Rivers",
+          "wikipedia_slug": "Yukon–Charley_Rivers_National_Preserve"
+        }
+      ],
+      "blurb": "A Yukon River town of about eighty people at the end of a seasonal road, with an army post from 1899 still standing and a courthouse that once served a district the size of Texas.",
+      "fun_fact": "Roald Amundsen walked and sledged 800 km here in 1905 from the iced-in Gjøa to reach the telegraph line and tell the world he had made the Northwest Passage — then went back and waited out the winter.",
+      "hidden_gem_tip": "The town runs its own walking tour of the fort buildings, and the custodians are residents. Ice break-up on the river in early May is the event of the year and can pile floes three storeys high.",
+      "search_name": "Eagle Alaska Yukon River"
+    },
+    {
+      "id": "yukon-charley",
+      "name": "Yukon–Charley Rivers",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "wilderness",
+      "tag": "hidden",
+      "emoji": "🛶",
+      "coordinates": {
+        "lat": 65,
+        "lng": -142.8
+      },
+      "street_view": {
+        "lat": 65,
+        "lng": -142.8,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Yukon–Charley_Rivers_National_Preserve",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Yukon River",
+          "wikipedia_slug": "Yukon_River"
+        },
+        {
+          "name": "Charley River",
+          "wikipedia_slug": "Charley_River"
+        },
+        {
+          "name": "Eagle",
+          "wikipedia_slug": "Eagle,_Alaska"
+        },
+        {
+          "name": "Circle",
+          "wikipedia_slug": "Circle,_Alaska"
+        }
+      ],
+      "blurb": "Ten thousand square kilometres of the Yukon valley with no road in it, preserved around a river — the Charley — that runs clear into a Yukon the colour of milky tea.",
+      "fun_fact": "The Charley's entire watershed lies inside the preserve and was never glaciated, so plants survive here that were wiped out everywhere around them during the ice ages.",
+      "hidden_gem_tip": "The classic trip is Eagle to Circle by canoe: about 250 km, a week on the current, with old trapper cabins on the bank. There is no permit and no ranger — file your plan with somebody."
+    },
+    {
+      "id": "utqiagvik",
+      "name": "Utqiaġvik",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "town",
+      "tag": "famous",
+      "emoji": "🐻‍❄️",
+      "coordinates": {
+        "lat": 71.29055555555556,
+        "lng": -156.78861111111112
+      },
+      "street_view": {
+        "lat": 71.29055555555556,
+        "lng": -156.78861111111112,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Utqiagvik,_Alaska",
+      "sounds": [
+        "arctic-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Point Barrow",
+          "wikipedia_slug": "Point_Barrow"
+        },
+        {
+          "name": "Chukchi Sea",
+          "wikipedia_slug": "Chukchi_Sea"
+        },
+        {
+          "name": "Birnirk site",
+          "wikipedia_slug": "Birnirk_site"
+        },
+        {
+          "name": "Iñupiat Heritage Center",
+          "wikipedia_slug": "Iñupiat_Heritage_Center"
+        }
+      ],
+      "blurb": "The northernmost town in the United States, on a gravel spit between two frozen seas, where people have lived continuously for more than a thousand years and still hunt bowhead whales from skin boats.",
+      "fun_fact": "The sun sets in mid-November and does not rise again until late January — around 65 days of night, answered by 80 days in summer when it never goes down.",
+      "hidden_gem_tip": "The whale bone arch on the beach is the photograph everyone takes; the Heritage Center is the reason to stay a day. Polar bears come along that beach. Ask locally before walking it.",
+      "search_name": "Utqiagvik Barrow Alaska"
+    },
+    {
+      "id": "prudhoe-bay",
+      "name": "Prudhoe Bay",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "town",
+      "tag": "hidden",
+      "emoji": "🛢️",
+      "coordinates": {
+        "lat": 70.255277777778,
+        "lng": -148.33722222222
+      },
+      "street_view": {
+        "lat": 70.255277777778,
+        "lng": -148.33722222222,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Prudhoe_Bay,_Alaska",
+      "sounds": [
+        "arctic-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Dalton Highway",
+          "wikipedia_slug": "Dalton_Highway"
+        },
+        {
+          "name": "Trans-Alaska Pipeline",
+          "wikipedia_slug": "Trans-Alaska_Pipeline_System"
+        },
+        {
+          "name": "Sagavanirktok River",
+          "wikipedia_slug": "Sagavanirktok_River"
+        },
+        {
+          "name": "Deadhorse Airport",
+          "wikipedia_slug": "Deadhorse_Airport"
+        }
+      ],
+      "blurb": "The top of the Dalton Highway and the north end of the pipeline: a settlement called Deadhorse serving the largest oil field in North America, on flat tundra beside the Arctic Ocean.",
+      "fun_fact": "Almost nobody lives here. The population is thousands of workers on two-week rotations flying in and out, and a permanent population you can count on two hands.",
+      "hidden_gem_tip": "The last few kilometres to the water cross oil-field property and you cannot drive them yourself — a security-cleared shuttle is the only way to touch the Arctic Ocean, and it must be booked ahead.",
+      "search_name": "Prudhoe Bay Deadhorse Alaska"
+    },
+    {
+      "id": "kotzebue",
+      "name": "Kotzebue",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "town",
+      "tag": "hidden",
+      "emoji": "🌅",
+      "coordinates": {
+        "lat": 66.897222222222,
+        "lng": -162.58333333333
+      },
+      "street_view": {
+        "lat": 66.897222222222,
+        "lng": -162.58333333333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Kotzebue,_Alaska",
+      "sounds": [
+        "arctic-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Kotzebue Sound",
+          "wikipedia_slug": "Kotzebue_Sound"
+        },
+        {
+          "name": "Baldwin Peninsula",
+          "wikipedia_slug": "Baldwin_Peninsula"
+        },
+        {
+          "name": "Noatak River",
+          "wikipedia_slug": "Noatak_River"
+        },
+        {
+          "name": "Cape Krusenstern National Monument",
+          "wikipedia_slug": "Cape_Krusenstern_National_Monument"
+        }
+      ],
+      "blurb": "An Iñupiaq town of about three thousand on a spit above the Arctic Circle, the hub for a region the size of Indiana that has no roads connecting any of it.",
+      "fun_fact": "It has been occupied for at least six hundred years as the trading crossroads of northwest Alaska, where the coast, three rivers and the Siberian trade all met.",
+      "hidden_gem_tip": "The sun stays up from early June to early August and the whole town is outdoors at two in the morning. The beach ridges at Cape Krusenstern record five thousand years of settlement, one ridge at a time.",
+      "search_name": "Kotzebue Alaska"
+    },
+    {
+      "id": "nome",
+      "name": "Nome",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "town",
+      "tag": "famous",
+      "emoji": "🐕",
+      "coordinates": {
+        "lat": 64.5,
+        "lng": -165.4
+      },
+      "street_view": {
+        "lat": 64.5,
+        "lng": -165.4,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Nome,_Alaska",
+      "sounds": [
+        "arctic-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Seward Peninsula",
+          "wikipedia_slug": "Seward_Peninsula"
+        },
+        {
+          "name": "Norton Sound",
+          "wikipedia_slug": "Norton_Sound"
+        },
+        {
+          "name": "Council",
+          "wikipedia_slug": "Council,_Alaska"
+        },
+        {
+          "name": "Iditarod Trail",
+          "wikipedia_slug": "Iditarod_Trail"
+        }
+      ],
+      "blurb": "A gold-rush town on the Bering Sea coast with no road to the rest of Alaska, three hundred kilometres of road going nowhere in particular, and a burled arch on Front Street.",
+      "fun_fact": "In 1900 twenty thousand people were camped on this beach panning gold out of the sand, because the beach itself was the claim and nobody could stake it.",
+      "hidden_gem_tip": "Drive the Council road to the Last Train to Nowhere: three steam locomotives from 1881 abandoned in the tundra where the railway stopped. Musk ox are common along all three roads out of town.",
+      "search_name": "Nome Alaska"
+    },
+    {
+      "id": "anaktuvuk-pass",
+      "name": "Anaktuvuk Pass",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "village",
+      "tag": "hidden",
+      "emoji": "🦌",
+      "coordinates": {
+        "lat": 68.1431,
+        "lng": -151.734
+      },
+      "street_view": {
+        "lat": 68.1431,
+        "lng": -151.734,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Anaktuvuk_Pass,_Alaska",
+      "sounds": [
+        "arctic-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Endicott Mountains",
+          "wikipedia_slug": "Endicott_Mountains"
+        },
+        {
+          "name": "Gates of the Arctic National Park",
+          "wikipedia_slug": "Gates_of_the_Arctic_National_Park_and_Preserve"
+        },
+        {
+          "name": "John River",
+          "wikipedia_slug": "John_River_(Alaska)"
+        },
+        {
+          "name": "Nunamiut Museum"
+        }
+      ],
+      "blurb": "The only settlement inside Gates of the Arctic, three hundred people in a pass through the Brooks Range that the caribou have used for as long as anyone has counted.",
+      "fun_fact": "The Nunamiut who live here were the last nomadic band in North America to settle, in the late 1940s. The name means 'place of caribou droppings', which is a description of the pass.",
+      "hidden_gem_tip": "Flights come from Fairbanks and the weather cancels them without warning. Bring a day more food than your plan needs, and do not photograph people without asking first."
+    },
+    {
+      "id": "gates-of-the-arctic",
+      "name": "Gates of the Arctic",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "wilderness",
+      "tag": "hidden",
+      "emoji": "🏔️",
+      "coordinates": {
+        "lat": 67.7833,
+        "lng": -153.3
+      },
+      "street_view": {
+        "lat": 67.7833,
+        "lng": -153.3,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Gates_of_the_Arctic_National_Park_and_Preserve",
+      "sounds": [
+        "arctic-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Brooks Range",
+          "wikipedia_slug": "Brooks_Range"
+        },
+        {
+          "name": "Arrigetch Peaks",
+          "wikipedia_slug": "Arrigetch_Peaks"
+        },
+        {
+          "name": "Noatak River",
+          "wikipedia_slug": "Noatak_River"
+        },
+        {
+          "name": "Anaktuvuk Pass",
+          "wikipedia_slug": "Anaktuvuk_Pass,_Alaska"
+        }
+      ],
+      "blurb": "Thirty-four thousand square kilometres of the Brooks Range entirely above the Arctic Circle, with no roads, no trails, no campgrounds and no signs anywhere inside it.",
+      "fun_fact": "It is the least visited national park in the United States — roughly ten thousand people a year, most of whom fly over. Yosemite gets that many before lunch.",
+      "hidden_gem_tip": "The Arrigetch Peaks are the classic destination and the granite is the reason, but there is no trail to them and the bush flight lands on a lake. Everything you carry in comes back out with you."
+    },
+    {
+      "id": "arctic-nwr",
+      "name": "Arctic National Wildlife Refuge",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "wilderness",
+      "tag": "hidden",
+      "emoji": "🦌",
+      "coordinates": {
+        "lat": 68.58407,
+        "lng": -144.25221
+      },
+      "street_view": {
+        "lat": 68.58407,
+        "lng": -144.25221,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Arctic_National_Wildlife_Refuge",
+      "sounds": [
+        "arctic-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Brooks Range",
+          "wikipedia_slug": "Brooks_Range"
+        },
+        {
+          "name": "Kaktovik",
+          "wikipedia_slug": "Kaktovik,_Alaska"
+        },
+        {
+          "name": "Sheenjek River",
+          "wikipedia_slug": "Sheenjek_River"
+        },
+        {
+          "name": "Porcupine River",
+          "wikipedia_slug": "Porcupine_River"
+        }
+      ],
+      "blurb": "Eighty thousand square kilometres from the boreal forest over the Brooks Range to the Arctic Ocean — the only conservation area in the country that protects a complete arctic-to-subarctic range of habitat in one piece.",
+      "fun_fact": "The Porcupine caribou herd, close to 200,000 animals, calves on the coastal plain every June after one of the longest land migrations of any mammal on earth.",
+      "hidden_gem_tip": "Kaktovik, on the coast inside the refuge, is where polar bears gather in September after the whaling season. Go with a guide; the bears are on the edge of the village and are not tame."
+    },
+    {
+      "id": "kobuk-valley",
+      "name": "Kobuk Valley",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "desert",
+      "tag": "hidden",
+      "emoji": "🏜️",
+      "coordinates": {
+        "lat": 67.35336,
+        "lng": -159.19889
+      },
+      "street_view": {
+        "lat": 67.35336,
+        "lng": -159.19889,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Kobuk_Valley_National_Park",
+      "sounds": [
+        "arctic-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Kobuk River",
+          "wikipedia_slug": "Kobuk_River"
+        },
+        {
+          "name": "Great Kobuk Sand Dunes"
+        },
+        {
+          "name": "Kotzebue",
+          "wikipedia_slug": "Kotzebue,_Alaska"
+        },
+        {
+          "name": "Noatak River",
+          "wikipedia_slug": "Noatak_River"
+        }
+      ],
+      "blurb": "Sand dunes above the Arctic Circle. Sixty-five square kilometres of them, drifting up to thirty metres high, in a national park with no roads, no trails and no facilities of any kind.",
+      "fun_fact": "The dunes are ground rock left by glaciers and blown into place, and summer sand temperatures reach 38 °C — in a valley where winter goes to −50 °C.",
+      "hidden_gem_tip": "Half a million caribou cross the Kobuk River here twice a year at Onion Portage, on the same fords they have used for nine thousand years. Everyone arrives by bush plane from Kotzebue."
+    },
+    {
+      "id": "bering-land-bridge",
+      "name": "Bering Land Bridge",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "wilderness",
+      "tag": "hidden",
+      "emoji": "🌋",
+      "coordinates": {
+        "lat": 65.95463,
+        "lng": -164.40387
+      },
+      "street_view": {
+        "lat": 65.95463,
+        "lng": -164.40387,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Bering_Land_Bridge_National_Preserve",
+      "sounds": [
+        "arctic-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Seward Peninsula",
+          "wikipedia_slug": "Seward_Peninsula"
+        },
+        {
+          "name": "Serpentine Hot Springs"
+        },
+        {
+          "name": "Nome",
+          "wikipedia_slug": "Nome,_Alaska"
+        },
+        {
+          "name": "Imuruk Lake",
+          "wikipedia_slug": "Imuruk_Lake"
+        }
+      ],
+      "blurb": "What is left above water of Beringia, the plain that joined Alaska to Siberia when the sea was 100 m lower — now a roadless preserve of tundra, lava flows and hot springs on the Seward Peninsula.",
+      "fun_fact": "It holds the largest maar lakes on earth: craters blown out where rising magma hit permafrost, one of them eight kilometres across and filled with water.",
+      "hidden_gem_tip": "Serpentine Hot Springs has a bunkhouse and a soaking tub in the middle of granite tors, reachable only by bush plane or snowmachine. It is a healing place for Iñupiaq people — treat it as one."
+    },
+    {
+      "id": "shishmaref",
+      "name": "Shishmaref",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "village",
+      "tag": "hidden",
+      "emoji": "🌊",
+      "coordinates": {
+        "lat": 66.255555555556,
+        "lng": -166.07222222222
+      },
+      "street_view": {
+        "lat": 66.255555555556,
+        "lng": -166.07222222222,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Shishmaref,_Alaska",
+      "sounds": [
+        "arctic-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Sarichef Island",
+          "wikipedia_slug": "Sarichef_Island"
+        },
+        {
+          "name": "Seward Peninsula",
+          "wikipedia_slug": "Seward_Peninsula"
+        },
+        {
+          "name": "Bering Land Bridge",
+          "wikipedia_slug": "Bering_Land_Bridge_National_Preserve"
+        },
+        {
+          "name": "Wales",
+          "wikipedia_slug": "Wales,_Alaska"
+        }
+      ],
+      "blurb": "An Iñupiaq village of about six hundred on a barrier island four hundred metres wide in the Chukchi Sea, occupied for four thousand years and now visibly running out of island.",
+      "fun_fact": "The sea ice that used to shield the shore through autumn storms now forms weeks late. The island has lost tens of metres of coast, houses have been moved inland, and the village has voted more than once to relocate entirely.",
+      "hidden_gem_tip": "This is not a sightseeing stop; it is a community that has been photographed a great deal and consulted very little. If you go, go because you were invited, and buy the carving."
+    },
+    {
+      "id": "juneau",
+      "name": "Juneau",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "city",
+      "tag": "famous",
+      "emoji": "🏛️",
+      "coordinates": {
+        "lat": 58.30194,
+        "lng": -134.41972
+      },
+      "street_view": {
+        "lat": 58.30194,
+        "lng": -134.41972,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Juneau,_Alaska",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Mendenhall Glacier",
+          "wikipedia_slug": "Mendenhall_Glacier"
+        },
+        {
+          "name": "Mount Roberts",
+          "wikipedia_slug": "Mount_Roberts_(Juneau,_Alaska)"
+        },
+        {
+          "name": "Alaska State Capitol",
+          "wikipedia_slug": "Alaska_State_Capitol"
+        },
+        {
+          "name": "Gastineau Channel",
+          "wikipedia_slug": "Gastineau_Channel"
+        }
+      ],
+      "blurb": "A state capital with no road to it, squeezed onto a strip of shore between a channel and a mountain, with an icefield starting a few kilometres behind the legislature.",
+      "fun_fact": "It is the only US state capital that borders another country, and one of only two — with Honolulu — that cannot be driven to. Legislators fly in for the session.",
+      "hidden_gem_tip": "The tram up Mount Roberts is the easy view; the Perseverance Trail out of downtown is the better one, following a mining road up a valley to waterfalls with the city out of sight behind you.",
+      "search_name": "Juneau Alaska"
+    },
+    {
+      "id": "sitka",
+      "name": "Sitka",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "town",
+      "tag": "famous",
+      "emoji": "🕍",
+      "coordinates": {
+        "lat": 57.053333333333,
+        "lng": -135.33472222222
+      },
+      "street_view": {
+        "lat": 57.053333333333,
+        "lng": -135.33472222222,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Sitka,_Alaska",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Sitka National Historical Park",
+          "wikipedia_slug": "Sitka_National_Historical_Park"
+        },
+        {
+          "name": "St. Michael's Cathedral",
+          "wikipedia_slug": "St._Michael's_Cathedral_(Sitka,_Alaska)"
+        },
+        {
+          "name": "Mount Edgecumbe",
+          "wikipedia_slug": "Mount_Edgecumbe_(Alaska)"
+        },
+        {
+          "name": "Castle Hill",
+          "wikipedia_slug": "Castle_Hill_(Sitka,_Alaska)"
+        }
+      ],
+      "blurb": "The capital of Russian America until 1867, on the outer coast facing the open Pacific, with a dormant volcano across the sound and totem poles in the rainforest at the edge of town.",
+      "fun_fact": "Alaska was formally handed from Russia to the United States on Castle Hill here in October 1867. The Tlingit, who had fought the Russians to a standstill in 1804, were not consulted about either.",
+      "hidden_gem_tip": "Walk the totem trail in the National Historical Park at opening time, in rain, with nobody else on it. That is the version of Sitka worth having, and it rains about 230 days a year.",
+      "search_name": "Sitka Alaska"
+    },
+    {
+      "id": "ketchikan",
+      "name": "Ketchikan",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "town",
+      "tag": "famous",
+      "emoji": "🐟",
+      "coordinates": {
+        "lat": 55.34308333333333,
+        "lng": -131.64669444444445
+      },
+      "street_view": {
+        "lat": 55.34308333333333,
+        "lng": -131.64669444444445,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Ketchikan,_Alaska",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Creek Street"
+        },
+        {
+          "name": "Totem Bight State Historical Park",
+          "wikipedia_slug": "Totem_Bight_State_Historical_Park"
+        },
+        {
+          "name": "Misty Fjords National Monument",
+          "wikipedia_slug": "Misty_Fjords_National_Monument"
+        },
+        {
+          "name": "Saxman",
+          "wikipedia_slug": "Saxman,_Alaska"
+        }
+      ],
+      "blurb": "A town built on pilings up a hillside above Tongass Narrows, with a boardwalk street over a salmon creek and the largest collection of standing totem poles anywhere.",
+      "fun_fact": "It gets around 3.8 m of rain a year and the sign at the dock measures it in a gauge for arriving passengers. Locals call the drizzle liquid sunshine and mean it slightly.",
+      "hidden_gem_tip": "Creek Street was the red-light district until 1954 and the buildings are unchanged. Stand on the boardwalk in August and watch salmon fight up the creek directly underneath you.",
+      "search_name": "Ketchikan Alaska"
+    },
+    {
+      "id": "skagway",
+      "name": "Skagway",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "town",
+      "tag": "famous",
+      "emoji": "🚂",
+      "coordinates": {
+        "lat": 59.468611111111,
+        "lng": -135.30583333333
+      },
+      "street_view": {
+        "lat": 59.468611111111,
+        "lng": -135.30583333333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Skagway,_Alaska",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "White Pass",
+          "wikipedia_slug": "White_Pass"
+        },
+        {
+          "name": "Chilkoot Trail",
+          "wikipedia_slug": "Chilkoot_Trail"
+        },
+        {
+          "name": "White Pass and Yukon Route",
+          "wikipedia_slug": "White_Pass_and_Yukon_Route"
+        },
+        {
+          "name": "Dyea",
+          "wikipedia_slug": "Dyea,_Alaska"
+        }
+      ],
+      "blurb": "The gateway to the Klondike: a false-fronted gold-rush town at the head of a fjord, where a hundred thousand people came ashore in 1897 to walk over the mountains into Canada.",
+      "fun_fact": "The Mounties turned back anyone at the summit without a ton of supplies, so stampeders relayed their outfit up the Chilkoot in thirty or forty trips. The trail is a linear museum of what they gave up and dropped.",
+      "hidden_gem_tip": "Take the railway to the White Pass summit — 900 m of climb in 32 km, built in 1898 — and look down on the old trail. Dyea, the rival town at the Chilkoot trailhead, is now an empty flat with a cemetery.",
+      "search_name": "Skagway Alaska"
+    },
+    {
+      "id": "haines",
+      "name": "Haines",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "town",
+      "tag": "hidden",
+      "emoji": "🦅",
+      "coordinates": {
+        "lat": 59.233888888889,
+        "lng": -135.44694444444
+      },
+      "street_view": {
+        "lat": 59.233888888889,
+        "lng": -135.44694444444,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Haines,_Alaska",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Chilkat River",
+          "wikipedia_slug": "Chilkat_River"
+        },
+        {
+          "name": "Alaska Chilkat Bald Eagle Preserve",
+          "wikipedia_slug": "Alaska_Chilkat_Bald_Eagle_Preserve"
+        },
+        {
+          "name": "Fort William H. Seward",
+          "wikipedia_slug": "Fort_William_H._Seward"
+        },
+        {
+          "name": "Haines Highway",
+          "wikipedia_slug": "Haines_Highway"
+        }
+      ],
+      "blurb": "Skagway's quieter neighbour twenty-five kilometres down the fjord, with a parade-ground fort from 1904, a road out to Canada and a river valley that fills with eagles every autumn.",
+      "fun_fact": "Warm water welling up through the Chilkat gravel keeps a stretch of river open after everything else freezes, and three to four thousand bald eagles gather there in November — the largest concentration on earth.",
+      "hidden_gem_tip": "Late October to early December is the eagle window and the pull-offs on the highway between mileposts 18 and 24 are the whole show. Bring the longest lens you own and stay in the car.",
+      "search_name": "Haines Alaska"
+    },
+    {
+      "id": "petersburg",
+      "name": "Petersburg",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "town",
+      "tag": "hidden",
+      "emoji": "🇳🇴",
+      "coordinates": {
+        "lat": 56.804444444444,
+        "lng": -132.94194444444
+      },
+      "street_view": {
+        "lat": 56.804444444444,
+        "lng": -132.94194444444,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Petersburg,_Alaska",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Frederick Sound",
+          "wikipedia_slug": "Frederick_Sound"
+        },
+        {
+          "name": "LeConte Glacier",
+          "wikipedia_slug": "LeConte_Glacier"
+        },
+        {
+          "name": "Wrangell Narrows",
+          "wikipedia_slug": "Wrangell_Narrows"
+        },
+        {
+          "name": "Kupreanof Island",
+          "wikipedia_slug": "Kupreanof_Island"
+        }
+      ],
+      "blurb": "A Norwegian fishing town at the north end of the Wrangell Narrows, with rosemaling painted on the buildings, no cruise dock big enough for the large ships, and a working harbour.",
+      "fun_fact": "LeConte Glacier, just south, is the southernmost tidewater glacier in the northern hemisphere, and it calves from underwater — icebergs surface suddenly, which is why boats keep their distance.",
+      "hidden_gem_tip": "The Wrangell Narrows is 34 km of channel with more than sixty navigation markers; taking the state ferry through it at night is one of the great small journeys in Alaska.",
+      "search_name": "Petersburg Alaska"
+    },
+    {
+      "id": "wrangell",
+      "name": "Wrangell",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "town",
+      "tag": "hidden",
+      "emoji": "🪨",
+      "coordinates": {
+        "lat": 56.47083,
+        "lng": -132.37667
+      },
+      "street_view": {
+        "lat": 56.47083,
+        "lng": -132.37667,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Wrangell,_Alaska",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Stikine River",
+          "wikipedia_slug": "Stikine_River"
+        },
+        {
+          "name": "Petroglyph Beach"
+        },
+        {
+          "name": "Wrangell Island",
+          "wikipedia_slug": "Wrangell_Island"
+        },
+        {
+          "name": "Anan Creek"
+        }
+      ],
+      "blurb": "A town at the mouth of the Stikine that has been governed by Tlingit, Russia, Britain and the United States, with prehistoric carvings on the beach nobody can date.",
+      "fun_fact": "Petroglyph Beach has around forty carvings on the rocks in the intertidal zone. Nobody knows who made them or when — estimates run from a few centuries to several thousand years.",
+      "hidden_gem_tip": "Go to the beach at low tide, in the morning, with the sun at an angle: the carvings are almost invisible in flat light and obvious in raking light.",
+      "search_name": "Wrangell Alaska"
+    },
+    {
+      "id": "gustavus",
+      "name": "Gustavus",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "village",
+      "tag": "hidden",
+      "emoji": "🐋",
+      "coordinates": {
+        "lat": 58.4164,
+        "lng": -135.746
+      },
+      "street_view": {
+        "lat": 58.4164,
+        "lng": -135.746,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Gustavus,_Alaska",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Glacier Bay National Park",
+          "wikipedia_slug": "Glacier_Bay_National_Park_and_Preserve"
+        },
+        {
+          "name": "Icy Strait",
+          "wikipedia_slug": "Icy_Strait"
+        },
+        {
+          "name": "Bartlett Cove"
+        },
+        {
+          "name": "Juneau",
+          "wikipedia_slug": "Juneau,_Alaska"
+        }
+      ],
+      "blurb": "The doorstep of Glacier Bay: five hundred people on a flat outwash plain with a disproportionately large runway, gravel roads and no traffic lights.",
+      "fun_fact": "The land here is still rising — freed of the weight of the ice, the ground lifts several centimetres a year, which is fast enough that the shoreline moves within a lifetime and docks need rebuilding.",
+      "hidden_gem_tip": "Everyone flies through on the way to the bay. Stay a night: the beach at Point Gustavus at dusk in July has humpbacks feeding close in, and no boat between you and them.",
+      "search_name": "Gustavus Alaska Glacier Bay"
+    },
+    {
+      "id": "hyder",
+      "name": "Hyder",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "village",
+      "tag": "hidden",
+      "emoji": "🐻",
+      "coordinates": {
+        "lat": 55.9142,
+        "lng": -130.024
+      },
+      "street_view": {
+        "lat": 55.9142,
+        "lng": -130.024,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Hyder,_Alaska",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Stewart, British Columbia",
+          "wikipedia_slug": "Stewart,_British_Columbia"
+        },
+        {
+          "name": "Salmon Glacier"
+        },
+        {
+          "name": "Fish Creek"
+        },
+        {
+          "name": "Misty Fjords National Monument",
+          "wikipedia_slug": "Misty_Fjords_National_Monument"
+        }
+      ],
+      "blurb": "The friendliest ghost town in Alaska: about fifty people at the head of the Portland Canal, reached only by driving through Canada, with no US customs post on the way in.",
+      "fun_fact": "Hyder runs on Pacific time to match Stewart next door, uses Canadian currency in most of its businesses, and sends its children to school across the border.",
+      "hidden_gem_tip": "The Fish Creek boardwalk in late summer is one of the most reliable brown bear viewing sites anywhere, and the road above it climbs to an overlook of the Salmon Glacier — the largest road-accessible glacier in the world.",
+      "search_name": "Hyder Alaska"
+    },
+    {
+      "id": "glacier-bay",
+      "name": "Glacier Bay",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🧊",
+      "coordinates": {
+        "lat": 58.7,
+        "lng": -137
+      },
+      "street_view": {
+        "lat": 58.7,
+        "lng": -137,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Glacier_Bay_National_Park_and_Preserve",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Margerie Glacier",
+          "wikipedia_slug": "Margerie_Glacier"
+        },
+        {
+          "name": "Mount Fairweather",
+          "wikipedia_slug": "Mount_Fairweather"
+        },
+        {
+          "name": "Gustavus",
+          "wikipedia_slug": "Gustavus,_Alaska"
+        },
+        {
+          "name": "Icy Strait",
+          "wikipedia_slug": "Icy_Strait"
+        }
+      ],
+      "blurb": "A hundred-kilometre fjord system where there was solid ice two hundred and fifty years ago — the fastest documented glacial retreat anywhere, and a laboratory for what grows back.",
+      "fun_fact": "When Vancouver's expedition passed in 1794 the bay did not exist: the ice front was at the mouth. By 1879 John Muir found it had pulled back 65 km. It is now more than 100.",
+      "hidden_gem_tip": "You can walk from bare rock to mature rainforest in a few kilometres and read the retreat as vegetation. Bartlett Cove has the only road, the only lodge and a full humpback skeleton."
+    },
+    {
+      "id": "mendenhall-glacier",
+      "name": "Mendenhall Glacier",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🧊",
+      "coordinates": {
+        "lat": 58.495833333333,
+        "lng": -134.53222222222
+      },
+      "street_view": {
+        "lat": 58.495833333333,
+        "lng": -134.53222222222,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Mendenhall_Glacier",
+      "sounds": [
+        "waterfall.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Nugget Falls",
+          "wikipedia_slug": "Nugget_Falls"
+        },
+        {
+          "name": "Mendenhall Lake",
+          "wikipedia_slug": "Mendenhall_Lake"
+        },
+        {
+          "name": "Juneau Icefield",
+          "wikipedia_slug": "Juneau_Icefield"
+        },
+        {
+          "name": "Juneau",
+          "wikipedia_slug": "Juneau,_Alaska"
+        }
+      ],
+      "blurb": "Twenty kilometres of ice off the Juneau Icefield ending in a lake nineteen kilometres from the state capital, with a visitor centre, a bus route and a waterfall beside the face.",
+      "fun_fact": "The glacier has retreated about three kilometres since 1929 and the lake it left did not exist before then. Forest that was under the ice for centuries is emerging as bare stumps.",
+      "hidden_gem_tip": "Walk the flat trail to the base of Nugget Falls — most visitors stop at the centre and the last kilometre thins out fast. The ice caves people photograph are unstable and have killed people."
+    },
+    {
+      "id": "misty-fiords",
+      "name": "Misty Fjords",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🌫️",
+      "coordinates": {
+        "lat": 55.6217,
+        "lng": -130.607
+      },
+      "street_view": {
+        "lat": 55.6217,
+        "lng": -130.607,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Misty_Fjords_National_Monument",
+      "sounds": [
+        "waterfall.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Behm Canal",
+          "wikipedia_slug": "Behm_Canal"
+        },
+        {
+          "name": "Ketchikan",
+          "wikipedia_slug": "Ketchikan,_Alaska"
+        },
+        {
+          "name": "Rudyerd Bay"
+        },
+        {
+          "name": "Tongass National Forest",
+          "wikipedia_slug": "Tongass_National_Forest"
+        }
+      ],
+      "blurb": "Nine thousand square kilometres of granite walls rising nine hundred metres straight out of saltwater, with waterfalls down every face and cloud in the tops most days of the year.",
+      "fun_fact": "New Eddystone Rock, a 70 m basalt pillar standing alone in the middle of Behm Canal, is the neck of a volcano the glaciers scraped everything else away from.",
+      "hidden_gem_tip": "The floatplane from Ketchikan lands on a fjord and shuts the engine off. Ten minutes of that silence is the point of the trip; book the flight that includes a water landing, not the flyover."
+    },
+    {
+      "id": "tracy-arm",
+      "name": "Tracy Arm",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "coastal",
+      "tag": "hidden",
+      "emoji": "🧊",
+      "coordinates": {
+        "lat": 57.911388888889,
+        "lng": -133.40222222222
+      },
+      "street_view": {
+        "lat": 57.911388888889,
+        "lng": -133.40222222222,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Tracy_Arm",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Juneau",
+          "wikipedia_slug": "Juneau,_Alaska"
+        },
+        {
+          "name": "Endicott Arm"
+        },
+        {
+          "name": "Sawyer Glacier"
+        },
+        {
+          "name": "Tongass National Forest",
+          "wikipedia_slug": "Tongass_National_Forest"
+        }
+      ],
+      "blurb": "A fjord fifty kilometres long and sometimes only a few hundred metres wide, walls a kilometre high, ending at two tidewater glaciers with icebergs the whole length of it.",
+      "fun_fact": "The bergs at the mouth are blue because the ice is old and compressed enough to have squeezed out the air bubbles that make younger ice look white.",
+      "hidden_gem_tip": "Harbour seals haul out on the floes near the glacier face to pup, and boats are required to keep away from them. The small vessels get further up the arm than the cruise ships can."
+    },
+    {
+      "id": "tongass",
+      "name": "Tongass National Forest",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "wilderness",
+      "tag": "hidden",
+      "emoji": "🌲",
+      "coordinates": {
+        "lat": 56.75,
+        "lng": -133
+      },
+      "street_view": {
+        "lat": 56.75,
+        "lng": -133,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Tongass_National_Forest",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Admiralty Island",
+          "wikipedia_slug": "Admiralty_Island"
+        },
+        {
+          "name": "Misty Fjords National Monument",
+          "wikipedia_slug": "Misty_Fjords_National_Monument"
+        },
+        {
+          "name": "Ketchikan",
+          "wikipedia_slug": "Ketchikan,_Alaska"
+        },
+        {
+          "name": "Sitka",
+          "wikipedia_slug": "Sitka,_Alaska"
+        }
+      ],
+      "blurb": "Sixty-eight thousand square kilometres of coastal temperate rainforest across the whole Alaskan panhandle — the largest national forest in the United States, and most of it islands.",
+      "fun_fact": "Admiralty Island inside it holds around 1,600 brown bears, roughly one per square mile and more than the whole of the lower 48 states put together. The Tlingit name for it means Fortress of the Bears.",
+      "hidden_gem_tip": "The Forest Service rents about 150 cabins across the forest for very little, most reached by floatplane or boat. They book out six months ahead and are the cheapest wilderness in Alaska."
+    },
+    {
+      "id": "kodiak",
+      "name": "Kodiak",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "town",
+      "tag": "famous",
+      "emoji": "🐻",
+      "coordinates": {
+        "lat": 57.793055555556,
+        "lng": -152.39416666667
+      },
+      "street_view": {
+        "lat": 57.793055555556,
+        "lng": -152.39416666667,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Kodiak,_Alaska",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Kodiak Island",
+          "wikipedia_slug": "Kodiak_Island"
+        },
+        {
+          "name": "Kodiak National Wildlife Refuge",
+          "wikipedia_slug": "Kodiak_National_Wildlife_Refuge"
+        },
+        {
+          "name": "Fort Abercrombie",
+          "wikipedia_slug": "Fort_Abercrombie_State_Historical_Park"
+        },
+        {
+          "name": "Holy Resurrection Church",
+          "wikipedia_slug": "Holy_Resurrection_Church_(Kodiak,_Alaska)"
+        }
+      ],
+      "blurb": "A fishing port on an island of green treeless hills, founded by Russian fur traders in 1792 and home to the largest brown bears on earth.",
+      "fun_fact": "The 1912 Novarupta eruption 160 km away buried the town in half a metre of ash and turned day to night for sixty hours. The 1964 tsunami then destroyed the waterfront.",
+      "hidden_gem_tip": "Only about 160 km of road exists on an island 160 km long. Drive to the end of Chiniak Road and the pavement simply stops at a beach with WWII bunkers in the grass behind it.",
+      "search_name": "Kodiak Alaska"
+    },
+    {
+      "id": "unalaska",
+      "name": "Unalaska",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "town",
+      "tag": "hidden",
+      "emoji": "⚓",
+      "coordinates": {
+        "lat": 53.87361,
+        "lng": -166.53667
+      },
+      "street_view": {
+        "lat": 53.87361,
+        "lng": -166.53667,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Unalaska,_Alaska",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Dutch Harbor",
+          "wikipedia_slug": "Dutch_Harbor"
+        },
+        {
+          "name": "Church of the Holy Ascension",
+          "wikipedia_slug": "Church_of_the_Holy_Ascension"
+        },
+        {
+          "name": "Mount Ballyhoo",
+          "wikipedia_slug": "Mount_Ballyhoo"
+        },
+        {
+          "name": "Aleutian Islands",
+          "wikipedia_slug": "Aleutian_Islands"
+        }
+      ],
+      "blurb": "The busiest fishing port in the United States by volume, on a treeless volcanic island 1,300 km out along the Aleutian chain, with a Russian Orthodox cathedral from 1896 above the harbour.",
+      "fun_fact": "It was bombed by Japanese carrier aircraft in June 1942 — one of the very few places on US soil attacked in the war — and the hills are still full of concrete bunkers and gun mounts.",
+      "hidden_gem_tip": "Walk the switchback road up Mount Ballyhoo through the ruins of Fort Schwatka, the highest coastal battery ever built by the US Army. The weather turns every twenty minutes; go anyway.",
+      "search_name": "Unalaska Dutch Harbor Alaska"
+    },
+    {
+      "id": "adak",
+      "name": "Adak",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "town",
+      "tag": "hidden",
+      "emoji": "🌫️",
+      "coordinates": {
+        "lat": 51.872,
+        "lng": -176.636
+      },
+      "street_view": {
+        "lat": 51.872,
+        "lng": -176.636,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Adak,_Alaska",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Adak Island",
+          "wikipedia_slug": "Adak_Island"
+        },
+        {
+          "name": "Mount Moffett",
+          "wikipedia_slug": "Mount_Moffett"
+        },
+        {
+          "name": "Naval Air Facility Adak",
+          "wikipedia_slug": "Naval_Air_Facility_Adak"
+        },
+        {
+          "name": "Aleutian Islands",
+          "wikipedia_slug": "Aleutian_Islands"
+        }
+      ],
+      "blurb": "The westernmost town in the United States: a decommissioned naval base for six thousand people now inhabited by fewer than a hundred, with empty streets, a McDonald's sign and no trees.",
+      "fun_fact": "The handful of conifers planted by servicemen carry a sign reading 'You are now entering and leaving the Adak National Forest'. Nothing else taller than a shrub grows on the island.",
+      "hidden_gem_tip": "It is one of the hardest places in America to reach — a couple of flights a week, frequently cancelled for weather. Birders come anyway, for Asian vagrants that appear nowhere else in the US.",
+      "search_name": "Adak Island Alaska"
+    },
+    {
+      "id": "king-salmon",
+      "name": "King Salmon",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "village",
+      "tag": "hidden",
+      "emoji": "🐟",
+      "coordinates": {
+        "lat": 58.686039,
+        "lng": -156.655083
+      },
+      "street_view": {
+        "lat": 58.686039,
+        "lng": -156.655083,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "King_Salmon,_Alaska",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Katmai National Park",
+          "wikipedia_slug": "Katmai_National_Park_and_Preserve"
+        },
+        {
+          "name": "Naknek River",
+          "wikipedia_slug": "Naknek_River"
+        },
+        {
+          "name": "Bristol Bay",
+          "wikipedia_slug": "Bristol_Bay"
+        },
+        {
+          "name": "Naknek",
+          "wikipedia_slug": "Naknek,_Alaska"
+        }
+      ],
+      "blurb": "An old air force station on the Naknek River that is now the front door to Katmai, with a runway far larger than the settlement it serves.",
+      "fun_fact": "Bristol Bay next door produces the largest sockeye salmon run in the world — often more than fifty million fish returning in a few weeks, which is why the population multiplies every June.",
+      "hidden_gem_tip": "Everything to Brooks Camp goes by floatplane from here. Book the flight before the accommodation; the planes fill first and the weather cancels a third of them.",
+      "search_name": "King Salmon Alaska"
+    },
+    {
+      "id": "bethel",
+      "name": "Bethel",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "town",
+      "tag": "hidden",
+      "emoji": "🛶",
+      "coordinates": {
+        "lat": 60.792222222222,
+        "lng": -161.75583333333
+      },
+      "street_view": {
+        "lat": 60.792222222222,
+        "lng": -161.75583333333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Bethel,_Alaska",
+      "sounds": [
+        "wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Kuskokwim River",
+          "wikipedia_slug": "Kuskokwim_River"
+        },
+        {
+          "name": "Yukon–Kuskokwim Delta",
+          "wikipedia_slug": "Yukon–Kuskokwim_Delta"
+        },
+        {
+          "name": "Yukon Delta National Wildlife Refuge",
+          "wikipedia_slug": "Yukon_Delta_National_Wildlife_Refuge"
+        },
+        {
+          "name": "Kuskokwim Bay",
+          "wikipedia_slug": "Kuskokwim_Bay"
+        }
+      ],
+      "blurb": "The hub of the Yukon–Kuskokwim Delta, a flat treeless expanse of tundra and water the size of a small country, with no road to anywhere else.",
+      "fun_fact": "In winter the frozen Kuskokwim becomes a marked ice road hundreds of kilometres long, with speed limits and route signs, linking villages that are otherwise unreachable by land.",
+      "hidden_gem_tip": "More than eighty percent of the delta's people are Yup'ik and the language is spoken daily. Ask before photographing anyone; it is a working community, not a destination.",
+      "search_name": "Bethel Alaska"
+    },
+    {
+      "id": "katmai",
+      "name": "Katmai",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🐻",
+      "coordinates": {
+        "lat": 58.5,
+        "lng": -155
+      },
+      "street_view": {
+        "lat": 58.5,
+        "lng": -155,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Katmai_National_Park_and_Preserve",
+      "sounds": [
+        "waterfall.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Brooks Falls",
+          "wikipedia_slug": "Brooks_Falls"
+        },
+        {
+          "name": "Valley of Ten Thousand Smokes",
+          "wikipedia_slug": "Valley_of_Ten_Thousand_Smokes"
+        },
+        {
+          "name": "Mount Katmai",
+          "wikipedia_slug": "Mount_Katmai"
+        },
+        {
+          "name": "Naknek Lake",
+          "wikipedia_slug": "Naknek_Lake"
+        }
+      ],
+      "blurb": "Nineteen thousand square kilometres of volcanoes, lakes and salmon streams holding around two thousand brown bears — more bears than the park has human visitors on most days.",
+      "fun_fact": "The park was created in 1918 not for the bears but for the volcanic aftermath of Novarupta, the largest eruption of the twentieth century, which happened six years earlier.",
+      "hidden_gem_tip": "Everyone knows the July run at Brooks. September is better: fewer people, bears fattened and calmer, and the tundra turned red."
+    },
+    {
+      "id": "brooks-falls",
+      "name": "Brooks Falls",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🐟",
+      "coordinates": {
+        "lat": 58.555,
+        "lng": -155.791
+      },
+      "street_view": {
+        "lat": 58.555,
+        "lng": -155.791,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Brooks_Falls",
+      "sounds": [
+        "waterfall.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Katmai National Park",
+          "wikipedia_slug": "Katmai_National_Park_and_Preserve"
+        },
+        {
+          "name": "Naknek Lake",
+          "wikipedia_slug": "Naknek_Lake"
+        },
+        {
+          "name": "King Salmon",
+          "wikipedia_slug": "King_Salmon,_Alaska"
+        },
+        {
+          "name": "Valley of Ten Thousand Smokes",
+          "wikipedia_slug": "Valley_of_Ten_Thousand_Smokes"
+        }
+      ],
+      "blurb": "A two-metre step in a short river between two lakes, where sockeye pile up on their way upstream and brown bears stand in the lip of the falls catching them out of the air.",
+      "fun_fact": "The live webcams here draw tens of millions of views a year, and the park runs an online Fat Bear Week vote each autumn on which bear has best prepared for hibernation.",
+      "hidden_gem_tip": "Everyone must sit through bear school on arrival at Brooks Camp. The platform has a queue system in peak July — an hour on, then off. Early morning has the shortest wait."
+    },
+    {
+      "id": "valley-ten-thousand-smokes",
+      "name": "Valley of Ten Thousand Smokes",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🌋",
+      "coordinates": {
+        "lat": 58.393888888889,
+        "lng": -155.38527777778
+      },
+      "street_view": {
+        "lat": 58.393888888889,
+        "lng": -155.38527777778,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Valley_of_Ten_Thousand_Smokes",
+      "sounds": [
+        "wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Novarupta",
+          "wikipedia_slug": "Novarupta"
+        },
+        {
+          "name": "Mount Katmai",
+          "wikipedia_slug": "Mount_Katmai"
+        },
+        {
+          "name": "Katmai National Park",
+          "wikipedia_slug": "Katmai_National_Park_and_Preserve"
+        },
+        {
+          "name": "Kodiak",
+          "wikipedia_slug": "Kodiak,_Alaska"
+        }
+      ],
+      "blurb": "A hundred square kilometres of ash flow up to two hundred metres deep, cut by rivers into a pale canyoned desert that looks nothing like the rest of Alaska.",
+      "fun_fact": "Robert Griggs named it in 1916 for the thousands of steam fumaroles then venting through the ash. They cooled within a few decades and the valley is now silent.",
+      "hidden_gem_tip": "A single road runs 37 km from Brooks Camp to the overlook, on one bus a day. Ask to be dropped for the hike down to the Ukak River and Baked Mountain — almost nobody does it."
+    },
+    {
+      "id": "lake-clark",
+      "name": "Lake Clark",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🏔️",
+      "coordinates": {
+        "lat": 60.966666666667,
+        "lng": -153.41666666667
+      },
+      "street_view": {
+        "lat": 60.966666666667,
+        "lng": -153.41666666667,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Lake_Clark_National_Park_and_Preserve",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Lake Clark",
+          "wikipedia_slug": "Lake_Clark_(Alaska)"
+        },
+        {
+          "name": "Mount Redoubt",
+          "wikipedia_slug": "Mount_Redoubt"
+        },
+        {
+          "name": "Port Alsworth",
+          "wikipedia_slug": "Port_Alsworth,_Alaska"
+        },
+        {
+          "name": "Anchorage",
+          "wikipedia_slug": "Anchorage,_Alaska"
+        }
+      ],
+      "blurb": "Two active volcanoes, a turquoise lake sixty-five kilometres long and a coast of bear-grazed sedge flats, an hour's flight from Anchorage and visited by almost nobody.",
+      "fun_fact": "Dick Proenneke built a cabin at Twin Lakes here in 1968 with hand tools he made himself and lived in it alone for thirty years. The cabin still stands and can be visited.",
+      "hidden_gem_tip": "There are no roads at all. Fly to Silver Salmon Creek or Chinitna Bay in June and watch brown bears dig clams on the tide flats at a distance that feels illegal."
+    },
+    {
+      "id": "pribilof-islands",
+      "name": "Pribilof Islands",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "island",
+      "tag": "hidden",
+      "emoji": "🦭",
+      "coordinates": {
+        "lat": 57.1801515,
+        "lng": -170.2337063
+      },
+      "street_view": {
+        "lat": 57.1801515,
+        "lng": -170.2337063,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Pribilof_Islands",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Bering Sea",
+          "wikipedia_slug": "Bering_Sea"
+        },
+        {
+          "name": "St. George",
+          "wikipedia_slug": "St._George,_Alaska"
+        },
+        {
+          "name": "Aleutian Islands",
+          "wikipedia_slug": "Aleutian_Islands"
+        },
+        {
+          "name": "Unalaska",
+          "wikipedia_slug": "Unalaska,_Alaska"
+        }
+      ],
+      "blurb": "Four small volcanic islands alone in the middle of the Bering Sea, fog-bound most of the summer, with cliffs holding around two million nesting seabirds.",
+      "fun_fact": "Roughly half the world's northern fur seals breed on these beaches. Russia forcibly resettled Aleut people here in the 1780s to harvest them, and their descendants still live here.",
+      "hidden_gem_tip": "St. Paul is easier to reach; St. George has the bigger cliffs and fewer visitors. Bring wind-proof everything — the fog is not optional and neither is the wind."
+    },
+    {
+      "id": "aleutian-islands",
+      "name": "Aleutian Islands",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "island",
+      "tag": "hidden",
+      "emoji": "🌋",
+      "coordinates": {
+        "lat": 52,
+        "lng": -174
+      },
+      "street_view": {
+        "lat": 52,
+        "lng": -174,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Aleutian_Islands",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Unalaska",
+          "wikipedia_slug": "Unalaska,_Alaska"
+        },
+        {
+          "name": "Attu Island",
+          "wikipedia_slug": "Attu_Island"
+        },
+        {
+          "name": "Adak",
+          "wikipedia_slug": "Adak,_Alaska"
+        },
+        {
+          "name": "Mount Shishaldin",
+          "wikipedia_slug": "Mount_Shishaldin"
+        }
+      ],
+      "blurb": "A chain of about seventy volcanic islands curving nineteen hundred kilometres from the Alaska Peninsula towards Kamchatka, separating the Bering Sea from the Pacific.",
+      "fun_fact": "The chain crosses the 180th meridian, which makes the far western islands the easternmost land in the United States by longitude — and the source of endless argument about it.",
+      "hidden_gem_tip": "The Alaska Marine Highway ferry runs the chain only a few times a year, three days each way from Homer to Unalaska. It is the cheapest and by far the best way to see it."
+    },
+    {
+      "id": "wrangell-st-elias",
+      "name": "Wrangell–St. Elias",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "wilderness",
+      "tag": "famous",
+      "emoji": "🏔️",
+      "coordinates": {
+        "lat": 61.435,
+        "lng": -142.95361111111112
+      },
+      "street_view": {
+        "lat": 61.435,
+        "lng": -142.95361111111112,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Wrangell–St._Elias_National_Park_and_Preserve",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Mount Saint Elias",
+          "wikipedia_slug": "Mount_Saint_Elias"
+        },
+        {
+          "name": "Kennecott",
+          "wikipedia_slug": "Kennecott,_Alaska"
+        },
+        {
+          "name": "Bagley Icefield",
+          "wikipedia_slug": "Bagley_Icefield"
+        },
+        {
+          "name": "McCarthy",
+          "wikipedia_slug": "McCarthy,_Alaska"
+        }
+      ],
+      "blurb": "The largest national park in the United States — bigger than Switzerland — where four mountain ranges converge and nine of the sixteen highest peaks in the country stand.",
+      "fun_fact": "It is six times the size of Yellowstone and has two roads, both gravel, both dead ends. Most of the interior has never had a permanent human presence at all.",
+      "hidden_gem_tip": "The Nabesna Road on the north side gets a fraction of the traffic the McCarthy Road does, crosses streams with no bridges, and ends at a working gold mine."
+    },
+    {
+      "id": "mccarthy",
+      "name": "McCarthy",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "village",
+      "tag": "hidden",
+      "emoji": "🌉",
+      "coordinates": {
+        "lat": 61.4328,
+        "lng": -142.911
+      },
+      "street_view": {
+        "lat": 61.4328,
+        "lng": -142.911,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "McCarthy,_Alaska",
+      "sounds": [
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Kennecott",
+          "wikipedia_slug": "Kennecott,_Alaska"
+        },
+        {
+          "name": "McCarthy Road",
+          "wikipedia_slug": "McCarthy_Road"
+        },
+        {
+          "name": "Kennicott Glacier",
+          "wikipedia_slug": "Kennicott_Glacier"
+        },
+        {
+          "name": "Wrangell–St. Elias National Park",
+          "wikipedia_slug": "Wrangell–St._Elias_National_Park_and_Preserve"
+        }
+      ],
+      "blurb": "A village of about thirty people at the end of a hundred-kilometre gravel road, reached by a footbridge because vehicles are not allowed across the river.",
+      "fun_fact": "The road follows the bed of the old Copper River railway, and railroad spikes still work their way up through the gravel and into tyres. Locals carry two spares as a matter of course.",
+      "hidden_gem_tip": "Park at the river, walk the footbridge, and take the shuttle or walk the last eight kilometres up to Kennecott. In summer the bar in McCarthy is the whole town's living room.",
+      "search_name": "McCarthy Alaska"
+    },
+    {
+      "id": "kennecott",
+      "name": "Kennecott",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "history",
+      "tag": "hidden",
+      "emoji": "🏭",
+      "coordinates": {
+        "lat": 61.4861,
+        "lng": -142.889
+      },
+      "street_view": {
+        "lat": 61.4861,
+        "lng": -142.889,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Kennecott,_Alaska",
+      "sounds": [
+        "wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Kennicott Glacier",
+          "wikipedia_slug": "Kennicott_Glacier"
+        },
+        {
+          "name": "McCarthy",
+          "wikipedia_slug": "McCarthy,_Alaska"
+        },
+        {
+          "name": "Root Glacier"
+        },
+        {
+          "name": "Bonanza Mine"
+        }
+      ],
+      "blurb": "A fourteen-storey red mill building stepping down a mountainside above a glacier, abandoned in 1938 and left with the furniture still in the rooms.",
+      "fun_fact": "The ore here ran up to 70 percent copper, the richest ever found. When the price fell the company walked out — the last train left in November 1938 and nobody came back for decades.",
+      "hidden_gem_tip": "Walk the two kilometres past the mill onto the Root Glacier. The ice starts as grey rubble and turns white and cracked within twenty minutes of walking; crampons are rentable in the village.",
+      "search_name": "Kennecott mines Alaska"
+    },
+    {
+      "id": "mount-saint-elias",
+      "name": "Mount Saint Elias",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "mountain",
+      "tag": "hidden",
+      "emoji": "⛰️",
+      "coordinates": {
+        "lat": 60.29222222222222,
+        "lng": -140.93138888888888
+      },
+      "street_view": {
+        "lat": 60.29222222222222,
+        "lng": -140.93138888888888,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Mount_Saint_Elias",
+      "sounds": [
+        "mountain-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Icy Bay",
+          "wikipedia_slug": "Icy_Bay"
+        },
+        {
+          "name": "Malaspina Glacier",
+          "wikipedia_slug": "Malaspina_Glacier"
+        },
+        {
+          "name": "Yakutat",
+          "wikipedia_slug": "Yakutat,_Alaska"
+        },
+        {
+          "name": "Bagley Icefield",
+          "wikipedia_slug": "Bagley_Icefield"
+        }
+      ],
+      "blurb": "A 5,489 m pyramid rising straight out of the sea on the Alaska–Yukon border, the second highest peak in both the United States and Canada, and one of the steepest anywhere.",
+      "fun_fact": "It goes from tidewater to summit in about sixteen kilometres horizontally — one of the greatest vertical reliefs on earth over such a short distance. It has been climbed only a few dozen times.",
+      "hidden_gem_tip": "It is almost never visible from the ground because the coast is under cloud. The flight between Yakutat and Cordova on a clear day passes it side-on and is the view."
+    },
+    {
+      "id": "hubbard-glacier",
+      "name": "Hubbard Glacier",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🧊",
+      "coordinates": {
+        "lat": 60.313888888889,
+        "lng": -139.37083333333
+      },
+      "street_view": {
+        "lat": 60.313888888889,
+        "lng": -139.37083333333,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Hubbard_Glacier",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Disenchantment Bay",
+          "wikipedia_slug": "Disenchantment_Bay"
+        },
+        {
+          "name": "Russell Fiord",
+          "wikipedia_slug": "Russell_Fiord"
+        },
+        {
+          "name": "Yakutat",
+          "wikipedia_slug": "Yakutat,_Alaska"
+        },
+        {
+          "name": "Mount Saint Elias",
+          "wikipedia_slug": "Mount_Saint_Elias"
+        }
+      ],
+      "blurb": "The largest tidewater glacier in North America, a hundred and twenty kilometres long, with a face ten kilometres wide and ninety metres high — and it is advancing, not retreating.",
+      "fun_fact": "Twice, in 1986 and 2002, it surged across the mouth of Russell Fiord and dammed it into a lake. Both times the ice dam burst, the second releasing the largest glacial flood since 1918.",
+      "hidden_gem_tip": "The calving here is on a different scale to the small glaciers — slabs the size of buildings. Ships hold two kilometres off and it still sounds like artillery."
+    },
+    {
+      "id": "malaspina-glacier",
+      "name": "Malaspina Glacier",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "nature",
+      "tag": "hidden",
+      "emoji": "🧊",
+      "coordinates": {
+        "lat": 59.9192,
+        "lng": -140.533
+      },
+      "street_view": {
+        "lat": 59.9192,
+        "lng": -140.533,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Malaspina_Glacier",
+      "sounds": [
+        "wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Yakutat",
+          "wikipedia_slug": "Yakutat,_Alaska"
+        },
+        {
+          "name": "Mount Saint Elias",
+          "wikipedia_slug": "Mount_Saint_Elias"
+        },
+        {
+          "name": "Icy Bay",
+          "wikipedia_slug": "Icy_Bay"
+        },
+        {
+          "name": "Bagley Icefield",
+          "wikipedia_slug": "Bagley_Icefield"
+        }
+      ],
+      "blurb": "A lobe of ice spreading out of the mountains onto the coastal plain, larger than Rhode Island — the biggest piedmont glacier in the world.",
+      "fun_fact": "Its folded moraine bands look, from the air, like the growth rings of an enormous tree. Recent surveys found much of its bed lies below sea level, which makes it far more fragile than it looks.",
+      "hidden_gem_tip": "It is essentially invisible from the ground — a flat grey plain. The only way to understand it is from a plane out of Yakutat, and only on a rare clear day."
+    },
+    {
+      "id": "yakutat",
+      "name": "Yakutat",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "village",
+      "tag": "hidden",
+      "emoji": "🏄",
+      "coordinates": {
+        "lat": 59.546944444444,
+        "lng": -139.72722222222
+      },
+      "street_view": {
+        "lat": 59.546944444444,
+        "lng": -139.72722222222,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Yakutat,_Alaska",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Hubbard Glacier",
+          "wikipedia_slug": "Hubbard_Glacier"
+        },
+        {
+          "name": "Malaspina Glacier",
+          "wikipedia_slug": "Malaspina_Glacier"
+        },
+        {
+          "name": "Mount Saint Elias",
+          "wikipedia_slug": "Mount_Saint_Elias"
+        },
+        {
+          "name": "Russell Fiord",
+          "wikipedia_slug": "Russell_Fiord"
+        }
+      ],
+      "blurb": "Six hundred people on an open stretch of Gulf coast between two enormous glaciers, with a WWII runway, some of the best surf in Alaska and no road to anywhere.",
+      "fun_fact": "People do surf here, in five-millimetre wetsuits, on beach breaks with brown bear tracks along the sand behind them. There is a surf shop, and it is the northernmost in North America.",
+      "hidden_gem_tip": "It rains about 3.8 m a year, which is why almost nobody stops. Come for steelhead in the Situk River, one of the most productive small rivers on the continent.",
+      "search_name": "Yakutat Alaska"
+    },
+    {
+      "id": "kenai-fjords",
+      "name": "Kenai Fjords",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🧊",
+      "coordinates": {
+        "lat": 59.917777777778,
+        "lng": -149.9875
+      },
+      "street_view": {
+        "lat": 59.917777777778,
+        "lng": -149.9875,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Kenai_Fjords_National_Park",
+      "sounds": [
+        "ocean-waves.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Harding Icefield",
+          "wikipedia_slug": "Harding_Icefield"
+        },
+        {
+          "name": "Exit Glacier",
+          "wikipedia_slug": "Exit_Glacier"
+        },
+        {
+          "name": "Aialik Bay",
+          "wikipedia_slug": "Aialik_Bay"
+        },
+        {
+          "name": "Seward",
+          "wikipedia_slug": "Seward,_Alaska"
+        }
+      ],
+      "blurb": "A drowned coastline where an icefield on the mountain spine sends nearly forty glaciers down to the sea, and the valleys they carved are now fjords full of whales and puffins.",
+      "fun_fact": "The whole coast is sinking: the Kenai Peninsula dropped up to two metres in the 1964 earthquake, and the fjords themselves are glacial valleys the ocean has flooded.",
+      "hidden_gem_tip": "The day boat to Aialik Bay is the standard trip and it is worth it. But the hike beside Exit Glacier to the icefield overlook — 1,000 m of climb — shows you the thing that makes all of it."
+    },
+    {
+      "id": "exit-glacier",
+      "name": "Exit Glacier",
+      "country": "United States",
+      "country_code": "US",
+      "country_flag": "🇺🇸",
+      "continent": "North America",
+      "region": "Alaska",
+      "type": "nature",
+      "tag": "famous",
+      "emoji": "🧊",
+      "coordinates": {
+        "lat": 60.166666666666664,
+        "lng": -149.7
+      },
+      "street_view": {
+        "lat": 60.166666666666664,
+        "lng": -149.7,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Exit_Glacier",
+      "sounds": [
+        "waterfall.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Harding Icefield",
+          "wikipedia_slug": "Harding_Icefield"
+        },
+        {
+          "name": "Kenai Fjords National Park",
+          "wikipedia_slug": "Kenai_Fjords_National_Park"
+        },
+        {
+          "name": "Seward",
+          "wikipedia_slug": "Seward,_Alaska"
+        },
+        {
+          "name": "Resurrection Bay"
+        }
+      ],
+      "blurb": "The only part of Kenai Fjords you can drive to: a glacier spilling off the Harding Icefield to within a short walk of a car park, and retreating fast enough to watch.",
+      "fun_fact": "The approach road is lined with year markers showing where the ice stood — 1815, 1899, 1951, 1998. Walking up it is walking through two centuries of retreat in about fifteen minutes.",
+      "hidden_gem_tip": "Take the Harding Icefield Trail even if only partway. At the 'top of the cliffs' marker, four kilometres up, the glacier is below you and the icefield opens out beyond."
     }
   ]
 }

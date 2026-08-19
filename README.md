@@ -1,6 +1,6 @@
 # 🌍 One World Tour
 
-Step into 1,126 places across 170 countries — **walk their streets, drive their
+Step into 1,399 places across 170 countries — **walk their streets, drive their
 roads, watch their intersections live, look out their windows live**, tune into
 their radio, **watch their national TV live**, and read their news — all in-app,
 all real. Inspired by
@@ -97,7 +97,7 @@ windows, no frozen widgets posing as live cams.
 - **City Guesser** (`guess.html`) — dropped into a mystery scene (the walk video,
   title hidden), pin the world map, scored on great-circle distance, 5 rounds,
   spoiler-free emoji share.
-- **Trips** (`trips.html`, `trips.html?id=…`) — 21 curated routes people actually
+- **Trips** (`trips.html`, `trips.html?id=…`) — 28 curated routes people actually
   travel (the Euro Trip, Route 66, the Trans-Siberian, Cape to Cairo…),
   each drawn on the world map as numbered stops, then listed stop by stop with a
   line on why that stop is on the route. See below.
@@ -136,7 +136,7 @@ oneworldtour/
 ├── data/
 │   ├── index.json         # region registry
 │   ├── trips.json         # 🧭 curated routes — ordered stop ids + editorial notes
-│   ├── <region>.json      # 1,126 places (curated walks/webcams/monuments live here)
+│   ├── <region>.json      # 1,399 places (curated walks/webcams/monuments live here)
 │   ├── wild.json          # 🦁 wildlife & national-park live cams as places
 │   ├── observatory.json   # 🔭 observatories & telescopes as places
 │   ├── tv.json            # 📺 live national TV channels per country (verified live)
@@ -805,7 +805,7 @@ About chips, not a hole in the tabs.
 python3 tools/check_trips.py --scenes    # exits 1 if any stop is unknown
 ```
 
-`data/trips.json` holds 19 hand-ordered routes. A trip stores only **place ids**
+`data/trips.json` holds 28 hand-ordered routes. A trip stores only **place ids**
 plus a one-line note per stop, so it can never invent a destination — it can only
 point at somewhere the atlas already goes. `js/lib/trips.js` resolves those ids
 against the loaded places; a stop that doesn't resolve is dropped loudly to the
@@ -1299,6 +1299,135 @@ Triangle** (17 stops, Auckland → Rapa Nui → Honolulu — the three corners o
 greatest feat of navigation in human history, and the route that found the
 antimeridian bug).
 
+**Canada, the North and Alaska** (`canada.json` 36 → 238, `usa.json` 74 → 145,
+2026-08-18). Canada had 36 places, 19 of them in one Ontario watershed, and *nothing*
+north of 60° — the three territories that are 40% of the country's land area held zero
+records between them. Alaska had **one**: Denali, a skeleton with an empty `blurb` and
+a `highlights` array of four names, two of which didn't resolve. Both are built out
+here, with `tools/build_canada.py` and `tools/build_alaska.py` on the frame
+`build_oceania.py` set — Wikidata **P625** for every coordinate, every
+`wikipedia_slug` resolved live and stored as the article's canonical title, prose from
+memory and nothing else.
+
+All thirteen provinces and territories now carry places: Ontario **52**, British
+Columbia **25**, Nunavut **22**, **Muskoka District 20**, Quebec **19**, Alberta
+**18**, Yukon **15**, Northwest Territories **15**, Nova Scotia **13**, Newfoundland
+and Labrador **12**, New Brunswick **9**, Saskatchewan **8**, Manitoba **6**, Prince
+Edward Island **4**. Fifty-two of them are above the sixtieth parallel — Tuktoyaktuk,
+Old Crow, Grise Fiord, Alert at 82.5°N, Beechey Island where the Franklin graves are
+— and twenty are Muskoka, which gets its own `region` string because "Ontario" is not
+what anyone there would tell you. Alaska goes 1 → **72**: nineteen in Southcentral,
+fourteen down the Inside Passage, eleven out the peninsula and the Aleutians to Adak,
+ten on the Arctic slope, nine in the Interior, and Denali filled and repaired.
+
+**Trips** 24 → **28**, and one rebuilt. **The Muskoka Loop** 🛶 (17 stops, 270 km) is
+the smallest route in the file and reads like it — Gravenhurst round to Torrance
+Barrens and back. **The Dempster** 🧭 (8 stops, 1,264 km) is the only public road in
+North America that crosses the Arctic Circle, Dawson City to Tuktoyaktuk. **The Alaska
+Road** 🚙 (19 stops, 2,456 km) runs Homer to Deadhorse, which is the whole state's
+road network end to end. **The Inside Passage** ⛴️ (12 stops, 1,042 km) is a *ferry*,
+not a drive, because there is no road to Juneau. And **Trans-Canada** was 8 stops for
+7,800 km, which is a sketch: it is 16 now, with Calgary, Drumheller, Moose Jaw,
+Winnipeg, Thunder Bay, Lake Superior Park, Sault Ste. Marie and Ottawa filling the
+2,000 km it used to jump.
+
+- **A highlight can be a racehorse.** Manitoulin's `Little_Current` resolves — 200 OK,
+  correct-looking title, no redirect — to **Q6649704, an American-bred Thoroughbred**
+  that won the 1974 Preakness. The town is `Little_Current,_Ontario`. The tell was the
+  same one that catches most of these: **no P625**. An article with no coordinate gets
+  no distance check, which is exactly where the disambiguation pages and the generic
+  articles hide, so the FAR list is only half the audit — read the *no-coordinate* list
+  too. `Canoe_Lake_(Ontario)` and `Martyrs'_Shrine` are both disambiguation pages and
+  both were caught that way.
+- **A redirect can cross a hemisphere.** Cordova's `Childs_Glacier` redirects to
+  **`Foundation_Ice_Stream`** at 83°S — Antarctica, 15,000 km wrong. And a river can
+  simply be in the wrong province: `Brooks_River` is a stream in **Quebec** at
+  45.98°N, not the one at Katmai the bears fish in.
+- **Two Russian churches, two Alaskan towns, one careless slug.** Kodiak carried
+  `Church_of_the_Holy_Ascension`, which is real, Orthodox, Alaskan and **982 km away in
+  Unalaska**. Repointing it to the bare `Holy_Resurrection_Cathedral` made it worse:
+  that one is in **Tokyo** (35.70°N, 139.77°E). The article that means Kodiak's is
+  `Holy_Resurrection_Church_(Kodiak,_Alaska)`. Three plausible slugs, one right answer.
+- **A redirect can land on the record's own subject, or on a highlight it already
+  has.** `Serpentine_Hot_Springs` redirects to **Bering Land Bridge National Preserve**
+  — which is the record it was a highlight *of* — and `Romanzof_Mountains` redirects to
+  **`Brooks_Range`**, already sitting two chips to the left on the same card. The
+  SELF check has to run against the resolved title, and so does the duplicate check.
+- **Whole seas are legal under the highlight rule and still wrong.** The Beaufort,
+  Chukchi and Bering Seas are landforms, not peoples or eras, so nothing in
+  `NOT_A_MONUMENT` refuses them — and they are hundreds of kilometres of FAR with a
+  centroid nobody can stand on, spent by `enrich_monuments.py` as a search term that
+  returns crab boats. Ten such slots were cut. **The rule a highlight has to pass is
+  not just "is it a thing" but "could a camera be pointed at it".**
+- **Two `COUNTRY` warnings that are correct and must not be silenced.**
+  `Mount_Saint_Elias` and `Hubbard_Glacier` both answer **P17 = Canada**, because both
+  sit on the Alaska–Yukon boundary crest between Mount Vancouver and Mount Hubbard.
+  They are Alaskan by every other measure and they stay. The warning is written into
+  the generator's header instead of suppressed — a soft check that gets quietly muted
+  is worse than one that cries wolf where you can read it.
+- **Alaska is the only US state that crosses the antimeridian**, so `build_alaska.py`
+  needs the two-range `in_box()` the Oceania batch invented — `(-180…-129)` for the
+  mainland, the panhandle and most of the chain, `(172…180)` for Attu and Agattu out at
+  the western end of the Near Islands. One box would have refused the three westernmost
+  records or accepted the entire northern hemisphere.
+
+**And the batch poisoned its own vetting, twice.** Both were found by diffing every
+already-shipped title against the guard before and after, which is the only way this
+class of damage shows up at all:
+
+- **A new record can break the gazetteer for everywhere else.** `wrong_place_title`
+  accuses on a place's *distinctive* tokens, and `Sea-to-Sky Highway` — added this
+  batch — lost `sea`, `to` and `sky` to the length filter, leaving the single token
+  **`highway`**. It then ruled a Beijing drive, an Oslo drive, a Nairobi drive, a Tibet
+  drive, a Guizhou drive and a Kyrgyz drive to be on a road north of Vancouver, and on
+  the matching side it made every `"Highway Drive Through <anywhere>"` answer to
+  Sea-to-Sky. `highway` is a `GENERIC_TOKEN` now and the road is reachable by its real
+  name through `ALIASES`.
+- **A name stripped to one token was never identifying on that token alone.**
+  `Gold Coast` reduces to `gold`, `Abraham Lake` to `abraham`, `Rock Islands` to
+  `rock`, `Stone Town` to `stone`, `Cape Coast Castle` to `cape`, `Mary Lake` to
+  `mary`. Between them they were falsely accusing **46 shipped titles**: the Blue
+  Mosque of being in the Blue Mountains, Moro Rock of being in Palau, the Plains of
+  Abraham of being 3,264 km from Quebec, Dawson City's gold rush of being on the Gold
+  Coast. `register_place()` now records the feature nouns a one-token name lost and the
+  accusing loop demands them too — which removed 46 false rejects and cost one true
+  one. Multi-token names are unaffected; `toronto` still accuses on its own.
+- **Making a word generic can leave a name that is only filler.** Closing the
+  `highway` hole opened the next one down: `Top of the World Highway`, a real road out
+  of Dawson City, was then identified by the single word **`world`** — and **94 titles
+  in the shipped corpus say "world"**, from the Taj Mahal as a wonder of it to Chiang
+  Mai as its most beautiful city, every one of them answering to a Yukon gravel road.
+  `world` is generic now too, but that emptied the name completely, and
+  `mentions_place()` falls back to the name *minus* its feature nouns — which for this
+  one was the phrase **`top of the`**, duly matching *"Video I took from the top of the
+  Juche Tower in Pyongyang"*. A core has to be two **real** words to stand in for a
+  name, so it skips grammatical filler as well (`STOPWORDS`). The road is reachable by
+  its full name and nothing else. Across all 4,562 shipped titles the pair of changes
+  fixed one false reject (the Pamir Highway, accused of being in the Klondike) and
+  broke nothing.
+
+**The intra-Canada province guard** is the other half, and it is the us-vs-us problem
+one border north. Every earlier block skips Canadian places on purpose, because every
+Canadian cam title names a province and refusing them all would be useless — which was
+fine at 36 places in one watershed and is not fine at 238 across thirteen, where there
+is a Windermere in BC *and* one in Muskoka, a Victoria in BC and one on PEI, a Hamilton
+in Ontario and one in Nova Scotia, a Stewart in BC and a Stewart in Yukon. The trap is
+in the exemption: **the headline test the us-vs-us block uses is worth nothing against
+a namesake**, because the namesake's own video also leads with the name — "Windermere
+BC Drone Tour" puts Windermere at position 0 exactly as Muskoka's would. Copying that
+clause verbatim produced a guard that caught nothing at all, and the same hole is
+demonstrably open upstream (`"Flagstaff Lake Webcam, Eustis, Maine"` is exempt for
+Arizona's Flagstaff today). The exemption is now *earned* — it applies only when the
+title also names our own province, which is what a real co-mention looks like. All of
+it is frozen in `tools/test_vetting.py`.
+
+**One thing this batch did not do**, said plainly because a "Canada and Alaska are
+finished" line would be a lie: **31 lower-48 records still carry an empty `blurb`** and
+48 a null `hidden_gem_tip` — `acadia`, `arches`, `boston`, `bryce-canyon`,
+`death-valley`, `everglades`, `honolulu`, `miami`, `philadelphia`, `sedona` and twenty
+more, all of them skeletons from before this batch. Nothing here made that worse and
+nothing here fixed it.
+
 | rule | why |
 | --- | --- |
 | coordinates from **Wikidata P625**, not an OSM administrative centroid | a Chinese prefecture-level city is a *region*. OSM's "Chongqing" node sits at 30.06N 107.87E, ~200 km out in the rural east; P625 puts it in Yuzhong, which is the city. Nominatim is for villages and scenic areas that Wikidata has no point for, and the matched object gets eyeballed |
@@ -1324,6 +1453,15 @@ antimeridian bug).
 | read a slug's **redirect target**, not just whether it resolves | `MacKenzie_Falls` resolves, 200 OK, correct-looking title — and redirects to **`Sonny_with_a_Chance`**, a Disney sitcom with a show-within-a-show of that name. The Grampians waterfall has no article at all. A slug that resolves to a *different subject* is the failure a link checker cannot see |
 | a picker that refuses junk **by word** misses every naming convention that doesn't use the word | Australasian aviation cams are named "Broken Hill - YBHI -> Facing East", never "airport", so eleven of them landed in `data/windy.json` as windows. The ICAO rule has to be case-**sensitive**: under `re.I`, `Y[A-Z]{3}` eats "your", "yard" and "Yarra" |
 | a generator that rewrites a whole data file must **merge**, not replace | `fetch_windy.py` built its output dict from empty and wrote it wholesale, so any place whose API call raised vanished from `data/windy.json` with its verified cam — the same shape as the `build_culture.py` orphan bug, one file over. It now starts from what shipped and drops an entry only after re-checking that one and finding nothing |
+| audit the **no-coordinate** slugs, not just the FAR ones | a slug with no P625 gets no distance check, so it is the one place a wrong article cannot be caught by geometry — and it is where the disambiguation pages and the wrong subjects live. Manitoulin's `Little_Current` resolves cleanly to a **1974 Triple Crown racehorse**; `Canoe_Lake_(Ontario)` and `Martyrs'_Shrine` are disambiguation pages. Every one of the three was invisible to the FAR list and obvious on the no-coordinate list |
+| a highlight must pass "**could a camera be pointed at it**", not merely "is it a thing" | `NOT_A_MONUMENT` refuses peoples, eras and events, so the Beaufort, Chukchi and Bering Seas sail straight through it — and each is hundreds of km of FAR with an unstandable centroid, spent by `enrich_monuments.py` as a search term that returns crab boats. Ten such slots were cut from the Arctic records |
+| resolve the redirect, then check it against the record **and against its own siblings** | `Serpentine_Hot_Springs` redirects to *Bering Land Bridge National Preserve*, which is the record it was a highlight of; `Romanzof_Mountains` redirects to `Brooks_Range`, already two chips to the left on the same card. A SELF and a duplicate are both invisible until you compare the *resolved* title |
+| a **plausible** slug is the dangerous kind | Kodiak's Russian church went `Church_of_the_Holy_Ascension` (real, Orthodox, Alaskan, **982 km away in Unalaska**) → bare `Holy_Resurrection_Cathedral` (**Tokyo**) → `Holy_Resurrection_Church_(Kodiak,_Alaska)`. Three articles that all look right in a diff; one of them is the place. Where a region has repeated dedications — Orthodox Alaska, Norman England, colonial Latin America — assume the bare name belongs to somewhere else |
+| a soft check that fires **correctly** gets documented, never silenced | `Mount_Saint_Elias` and `Hubbard_Glacier` both answer P17 = **Canada**, because both stand on the Alaska–Yukon boundary crest. They are Alaskan and they stay, and the two warnings are written into the generator's header. Muting a warning removes the evidence along with the noise |
+| a **new record** can break the wrong-place guard for every old one | `wrong_place_title` accuses on a place's *distinctive* tokens, and `Sea-to-Sky Highway` lost sea/to/sky to the length filter, leaving `highway` — which then placed a Beijing drive, an Oslo drive and four more on a road north of Vancouver, and made every "Highway Drive Through *anywhere*" match Sea-to-Sky. Adding a place changes the vetting of every other place: **diff the shipped corpus against the guard before and after a batch**, because nothing else prints this |
+| a name that `GENERIC_TOKENS` strips to **one** token may not accuse on that token alone | `Gold Coast`→`gold`, `Abraham Lake`→`abraham`, `Rock Islands`→`rock`, `Stone Town`→`stone`, `Cape Coast Castle`→`cape`, `Mary Lake`→`mary`. Between them they were falsely rejecting **46 shipped titles** — the Blue Mosque as being in the Blue Mountains, Moro Rock as being in Palau. `register_place()` records the feature nouns such a name lost and the accusing loop demands them too. Multi-token names need no help |
+| widening `GENERIC_TOKENS` can strip a name down to **filler** | closing the `highway` hole left `Top of the World Highway` identified by `world` alone — 94 shipped titles say it. Making `world` generic too emptied the name, and the `core` fallback (name minus feature nouns) became the phrase `top of the`, which matched a tower in Pyongyang. `core` now skips grammatical filler (`STOPWORDS`) and still needs two real words. **After widening the stoplist, re-check what is left of every name that used the widened word** |
+| the headline exemption is worth **nothing** against a namesake — it has to be earned | "our name comes first, so the other region is a co-mention" is sound against a *different* place and useless against the *same* one: "Windermere BC Drone Tour" puts Windermere at position 0 exactly as Muskoka's would. Copied verbatim into the Canadian-province guard it produced a rule that caught nothing. The exemption now requires the title to also name **our** province. The identical hole is still open in the us-vs-us block (`"Flagstaff Lake Webcam, Eustis, Maine"` is exempt for Arizona's Flagstaff) |
 
 ---
 

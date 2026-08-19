@@ -596,7 +596,7 @@
       "days": "3–4 weeks",
       "hero": "banff-lake-louise",
       "tagline": "Pacific to Atlantic, 7,000 km, one highway.",
-      "blurb": "The second-longest national highway on earth. Mountains for the first week, then prairie, then an extremely long day around Lake Superior, and finally the old cities of the east. Do it west to east so the Rockies come first while you're still enthusiastic.",
+      "blurb": "The second-longest national highway on earth. Mountains for the first week, then two days of prairie that people underestimate, then an extremely long day around Lake Superior, and finally the old cities of the east. Do it west to east so the Rockies come first while you're still enthusiastic.",
       "stops": [
         {
           "id": "stanley-park",
@@ -611,16 +611,48 @@
           "note": "230 km of glaciers between Lake Louise and Jasper. The best road in the country."
         },
         {
+          "id": "calgary",
+          "note": "Down out of the Rockies, and the last skyline for two days."
+        },
+        {
+          "id": "drumheller",
+          "note": "An hour and a half northeast, the prairie splits open into badlands."
+        },
+        {
+          "id": "moose-jaw",
+          "note": "Saskatchewan. Tunnels under the main street, and grain elevators above it."
+        },
+        {
+          "id": "winnipeg",
+          "note": "The longitudinal centre of Canada, and the halfway point of the drive."
+        },
+        {
+          "id": "thunder-bay",
+          "note": "Ontario, eventually. Lake Superior starts here and does not end for a day."
+        },
+        {
+          "id": "lake-superior-park",
+          "note": "The long day around the lake — 300 km of rock, water and no towns."
+        },
+        {
+          "id": "sault-ste-marie",
+          "note": "The locks between two Great Lakes, and the turn south."
+        },
+        {
           "id": "cn-tower",
-          "note": "Then the prairies, and a very long time later, Toronto."
+          "note": "Toronto, and the first traffic since Vancouver."
         },
         {
           "id": "niagara-falls",
           "note": "90 minutes south — worth the detour even knowing what it's become."
         },
         {
+          "id": "ottawa",
+          "note": "Back east along the river to the capital and the canal."
+        },
+        {
           "id": "old-quebec",
-          "note": "East into Québec, and the only walled city north of Mexico."
+          "note": "Into Québec, and the only walled city north of Mexico."
         },
         {
           "id": "lunenburg",
@@ -1385,6 +1417,282 @@
         {
           "id": "ilha-de-mocambique",
           "note": "The stone island at the southern end, capital of Portuguese East Africa for four centuries and reachable only by a 3 km single-lane bridge."
+        }
+      ]
+    },
+    {
+      "id": "muskoka-loop",
+      "name": "The Muskoka Loop",
+      "emoji": "🛶",
+      "mode": "drive",
+      "region": "Muskoka, Ontario",
+      "days": "4–6 days",
+      "hero": "lake-rosseau",
+      "tagline": "Three big lakes, a hundred years of cottages, two hours from Toronto.",
+      "blurb": "Ontario's cottage country is a granite shield drowned in water: sixteen hundred lakes in one district, joined by locks and a road system that was laid out for steamships first and cars second. The loop below is the classic circuit — down the Muskoka Lakes, up to Huntsville and the Lake of Bays, and back through the darkest sky in southern Ontario. Go in late September, after the boats are out and before the roads ice.",
+      "stops": [
+        {
+          "id": "gravenhurst",
+          "note": "The southern gate, and the wharf the steamships still leave from."
+        },
+        {
+          "id": "lake-muskoka",
+          "note": "The biggest of the three. Everything else on this trip drains into it."
+        },
+        {
+          "id": "bracebridge",
+          "note": "A waterfall in the middle of town, which is why the town is there."
+        },
+        {
+          "id": "port-carling",
+          "note": "The lock between Muskoka and Rosseau. Sit and watch boats queue."
+        },
+        {
+          "id": "lake-rosseau",
+          "note": "The middle lake, and the one the grand hotels were built on."
+        },
+        {
+          "id": "windermere-ontario",
+          "note": "One 1870 hotel, one golf course, one road in."
+        },
+        {
+          "id": "rosseau",
+          "note": "The top of the lake, a general store, and the end of the pavement."
+        },
+        {
+          "id": "lake-joseph",
+          "note": "The quietest and deepest of the three. Rock, pine, water."
+        },
+        {
+          "id": "huntsville-ontario",
+          "note": "North to the largest town up here, and the Algonquin trailhead."
+        },
+        {
+          "id": "arrowhead-provincial-park",
+          "note": "A 1.3 km skating trail through the forest if you came in winter."
+        },
+        {
+          "id": "mary-lake",
+          "note": "A short hop south of Huntsville, and almost nobody stops."
+        },
+        {
+          "id": "lake-of-bays",
+          "note": "The eastern lake. Longer, emptier, and shaped like a hand."
+        },
+        {
+          "id": "dorset",
+          "note": "Climb the fire tower for the view everyone posts in October."
+        },
+        {
+          "id": "bigwin-island",
+          "note": "A ruined jazz-age resort on its own island, reached by ferry."
+        },
+        {
+          "id": "skeleton-lake",
+          "note": "A meteorite crater full of unusually clear water."
+        },
+        {
+          "id": "bala",
+          "note": "West to the falls and the cranberry marshes."
+        },
+        {
+          "id": "torrance-barrens",
+          "note": "The last stop, after dark. Canada's first dark-sky preserve."
+        }
+      ]
+    },
+    {
+      "id": "dempster-run",
+      "name": "The Dempster",
+      "emoji": "🧭",
+      "mode": "drive",
+      "region": "Yukon & Northwest Territories",
+      "days": "10–14 days",
+      "hero": "tombstone",
+      "tagline": "Whitehorse to the Arctic Ocean on gravel, and back the same way.",
+      "blurb": "The only public road in Canada that crosses the Arctic Circle, and since 2017 the only one that reaches the Arctic Ocean. It is 740 km of gravel from the Klondike Highway to Inuvik, then another 140 km to Tuktoyaktuk, with two ferries, one fuel stop and no cell signal for most of it. Take two full-size spares — this is not advice, it is the standard.",
+      "stops": [
+        {
+          "id": "whitehorse",
+          "note": "Stock up here. It is the last city of any kind."
+        },
+        {
+          "id": "carcross",
+          "note": "An hour south first: a desert, a lake and a Tlingit village."
+        },
+        {
+          "id": "dawson-city",
+          "note": "North on the Klondike Highway to the gold town that never paved its streets."
+        },
+        {
+          "id": "bonanza-creek",
+          "note": "The claim that started it all, still being dredged."
+        },
+        {
+          "id": "tombstone",
+          "note": "Mile 45 of the Dempster, and the reason half the traffic is here."
+        },
+        {
+          "id": "dempster-highway",
+          "note": "The rest of it: 700 km of gravel over two mountain ranges."
+        },
+        {
+          "id": "inuvik",
+          "note": "The Mackenzie Delta, the igloo church, and pavement again."
+        },
+        {
+          "id": "tuktoyaktuk",
+          "note": "The end of the road, on the Beaufort Sea. Go in the water."
+        }
+      ]
+    },
+    {
+      "id": "alaska-road",
+      "name": "The Alaska Road",
+      "emoji": "🚙",
+      "mode": "drive",
+      "region": "Alaska, United States",
+      "days": "3 weeks",
+      "hero": "denali",
+      "tagline": "Homer to Deadhorse — the whole of Alaska's road system, end to end.",
+      "blurb": "Alaska has about 8,000 km of paved highway for an area a fifth the size of the continental United States, and this route is most of it: from the last town on the Kenai Peninsula, up through Anchorage and Denali to Fairbanks, then north on the haul road over the Brooks Range to the Arctic Ocean. Every leg is a dead end or a spur — Alaska's roads do not form loops. Rental agreements almost universally forbid the Dalton, so the last leg is a shuttle or a tour van.",
+      "stops": [
+        {
+          "id": "homer",
+          "note": "Start at the far end: a gravel spit five kilometres into the bay."
+        },
+        {
+          "id": "kachemak-bay",
+          "note": "Across the water, a park with no road and 400 glaciers."
+        },
+        {
+          "id": "kenai",
+          "note": "North up the peninsula, past the oldest Russian settlement in Alaska."
+        },
+        {
+          "id": "seward",
+          "note": "East over the mountains to the deepwater port at the head of the fjord."
+        },
+        {
+          "id": "kenai-fjords",
+          "note": "Day boat to the tidewater glaciers, or walk up beside Exit Glacier."
+        },
+        {
+          "id": "seward-highway",
+          "note": "The 200 km back north, and one of the great coastal drives."
+        },
+        {
+          "id": "portage-glacier",
+          "note": "A short spur, and a tunnel that only goes one way at a time."
+        },
+        {
+          "id": "whittier",
+          "note": "Everything in one building, behind a 4 km rail tunnel."
+        },
+        {
+          "id": "girdwood",
+          "note": "A ski town in a rainforest valley, half an hour from Anchorage."
+        },
+        {
+          "id": "anchorage",
+          "note": "Half the state's population, and the last big supermarket."
+        },
+        {
+          "id": "palmer",
+          "note": "North into the Matanuska Valley and the 1935 colony farms."
+        },
+        {
+          "id": "matanuska-glacier",
+          "note": "The only glacier in Alaska you can drive to and walk onto."
+        },
+        {
+          "id": "talkeetna",
+          "note": "Back west: three streets, a river junction, and the climbers' base."
+        },
+        {
+          "id": "denali",
+          "note": "The park road, the bus, and the mountain on the one day in three."
+        },
+        {
+          "id": "fairbanks",
+          "note": "The end of the paved north, and the aurora from late August."
+        },
+        {
+          "id": "chena-hot-springs",
+          "note": "A 100 km spur east to hot water and an ice museum."
+        },
+        {
+          "id": "dalton-highway",
+          "note": "The haul road: 666 km of gravel, trucks and pipeline."
+        },
+        {
+          "id": "coldfoot",
+          "note": "The only fuel in 390 km, and the last trees."
+        },
+        {
+          "id": "prudhoe-bay",
+          "note": "Deadhorse, and a shuttle the final few kilometres to the ocean."
+        }
+      ]
+    },
+    {
+      "id": "inside-passage",
+      "name": "The Inside Passage",
+      "emoji": "⛴️",
+      "mode": "ferry",
+      "region": "Southeast Alaska",
+      "days": "2–3 weeks",
+      "hero": "glacier-bay",
+      "tagline": "A thousand kilometres of Alaskan coast, none of it reachable by road.",
+      "blurb": "The Alaska Marine Highway is a state ferry system that functions as a road: it carries cars, it has scheduled stops, and it is the only surface link between the panhandle towns. Not one of them — including the state capital — can be driven to. Ride it north from Ketchikan, get off wherever the schedule allows, and take the cabin rather than the solarium unless you like sleeping in a deck chair under a heater.",
+      "stops": [
+        {
+          "id": "ketchikan",
+          "note": "First Alaskan port: a boardwalk over a salmon creek, and 3.8 m of rain."
+        },
+        {
+          "id": "misty-fiords",
+          "note": "Floatplane out to granite walls and a shut-off engine."
+        },
+        {
+          "id": "wrangell",
+          "note": "Petroglyphs on the beach that nobody can date."
+        },
+        {
+          "id": "petersburg",
+          "note": "Norwegian, working, and too small for the big ships."
+        },
+        {
+          "id": "sitka",
+          "note": "Out on the open Pacific — the Russian capital, and totem poles in the rain."
+        },
+        {
+          "id": "juneau",
+          "note": "The capital, with an icefield behind the legislature."
+        },
+        {
+          "id": "mendenhall-glacier",
+          "note": "Twenty kilometres of ice on a city bus route."
+        },
+        {
+          "id": "tracy-arm",
+          "note": "A day south: a fjord a few hundred metres wide, walls a kilometre high."
+        },
+        {
+          "id": "gustavus",
+          "note": "Off at the flat spot with the oversized runway."
+        },
+        {
+          "id": "glacier-bay",
+          "note": "Solid ice in 1794, a hundred kilometres of water now."
+        },
+        {
+          "id": "haines",
+          "note": "North again, for the fort, the river and the eagles."
+        },
+        {
+          "id": "skagway",
+          "note": "The end of the line, and the railway over the pass to the Klondike."
         }
       ]
     }

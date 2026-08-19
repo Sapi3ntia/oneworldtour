@@ -10,12 +10,12 @@
   ],
   "countries": [
     {
-      "code": "CN",
-      "name": "China",
-      "flag": "🇨🇳",
-      "continent": "Asia",
+      "code": "CA",
+      "name": "Canada",
+      "flag": "🇨🇦",
+      "continent": "North America",
       "status": "live",
-      "locations": 120
+      "locations": 238
     },
     {
       "code": "US",
@@ -23,7 +23,15 @@
       "flag": "🇺🇸",
       "continent": "North America",
       "status": "live",
-      "locations": 97
+      "locations": 168
+    },
+    {
+      "code": "CN",
+      "name": "China",
+      "flag": "🇨🇳",
+      "continent": "Asia",
+      "status": "live",
+      "locations": 120
     },
     {
       "code": "AU",
@@ -40,14 +48,6 @@
       "continent": "Oceania",
       "status": "live",
       "locations": 37
-    },
-    {
-      "code": "CA",
-      "name": "Canada",
-      "flag": "🇨🇦",
-      "continent": "North America",
-      "status": "live",
-      "locations": 36
     },
     {
       "code": "RU",
