@@ -304,6 +304,17 @@ dropped in v2 — resurrect from git if missed); satellite descend-from-orbit.
     missing from `build_countries.py`'s table — every Central American country and
     every Caribbean dependency. A country absent from that dict simply does not
     appear, with no error: 201 countries only after the table was filled in.
+  - **The four `culture.js` tables were short by the same 31**, caught by
+    screenshotting a finished page rather than by any tool: Soufrière rendered
+    "Language —, Currency —, Local specialities", no phrases, no fast facts, no
+    radio, no converter — and looked finished. `build_culture.py` carries them
+    now, all 201 countries covered in all four tables. **Dependencies are where a
+    lazy row is wrong:** Curaçao and Sint Maarten are on the Caribbean guilder
+    (XCG, new in 2025 — `open.er-api.com` does carry it), Bonaire and the Turks
+    and Caicos on US dollars, Martinique and Guadeloupe on the euro, and the USVI
+    and BVI drive on the *left* with American cars. Never inherit from the
+    sovereign. **Screenshot one page per new country class after a batch** — an
+    em-dash panel is invisible to every audit that only reads JSON.
 
 - **The enrichment sweep behind it (2026-08-19):** **860 monument tabs** added
   (311 Caribbean, 518 Latin America, 31 elsewhere) bringing the atlas to **1,694 of

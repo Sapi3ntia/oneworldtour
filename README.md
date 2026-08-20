@@ -1495,7 +1495,18 @@ places across 201 countries.**
   any Caribbean dependency — 31 rows short. A country absent from that table
   simply does not appear in the file, with no error and no warning; the count read
   170 while the atlas held 201. Adding a region means auditing that table in the
-  same commit, alongside the four `culture.js` tables the Africa batch found.
+  same commit, alongside the four `culture.js` tables the Africa batch found —
+  which were **31 rows short in exactly the same way**, so every new page rendered
+  "Language —, Currency —, Local specialities" with no phrases, no fast facts, no
+  radio and no converter, and still looked finished. `build_culture.py` carries
+  them now. **Half of them are dependencies, and that is where a lazy row is
+  wrong:** Martinique is on the euro and Curaçao is not, Curaçao and Sint Maarten
+  moved to the Caribbean guilder (**XCG**) in 2025, Bonaire and the Turks and
+  Caicos are on US dollars, the USVI and the BVI drive on the **left** with
+  left-hand-drive American cars, and both halves of Saint-Martin / Sint Maarten
+  drive on the **right** while Anguilla, 8 km across the channel, drives on the
+  left. Inheriting any of that from the sovereign produces a page that is
+  confidently wrong.
 
 | rule | why |
 | --- | --- |
