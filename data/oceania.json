@@ -8568,7 +8568,17 @@
       ],
       "blurb": "The largest saltwater lagoon in the world enclosed by a double barrier reef, 700 km² of flat green water studded with hundreds of forested islands in the Western Solomons.",
       "fun_fact": "Marovo's carvers work in kerosene wood and ebony, inlaying shell, and sell from canoes that paddle out to whatever boat happens to be anchored in the lagoon.",
-      "hidden_gem_tip": "Stay in a village homestay rather than a resort — most of the lagoon's land is under customary ownership, and the family you stay with will take you to the reef passes themselves."
+      "hidden_gem_tip": "Stay in a village homestay rather than a resort — most of the lagoon's land is under customary ownership, and the family you stay with will take you to the reef passes themselves.",
+      "monuments": [
+        {
+          "name": "Gizo",
+          "yt": "37WLEPfaUpE",
+          "start": 0,
+          "source": "auto",
+          "title": "Exploring Gizo, Solomon Islands 🇸🇧🏝️ Fatboys Island",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "rennell-island",
@@ -9496,7 +9506,17 @@
       ],
       "blurb": "Samoa's capital and only city, on a harbour on Upolu, where the fa'a Samoa — the Samoan way, built on extended family and chiefly title — still organises daily life far more than the state does.",
       "fun_fact": "Robert Louis Stevenson spent his last years above Apia, was made a chief by Samoans who called him Tusitala, teller of tales, and is buried at the top of Mount Vaea.",
-      "hidden_gem_tip": "Climb the hour to Stevenson's tomb early; the epitaph he wrote for himself is cut into the stone, and the view runs over the whole north coast."
+      "hidden_gem_tip": "Climb the hour to Stevenson's tomb early; the epitaph he wrote for himself is cut into the stone, and the view runs over the whole north coast.",
+      "monuments": [
+        {
+          "name": "Mount Vaea",
+          "yt": "Nka6zz21PqE",
+          "start": 0,
+          "source": "auto",
+          "title": "VAEA and APA'ULA: A Samoan Legend",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "savaii",
@@ -11009,7 +11029,24 @@
       "blurb": "A flat coral island south of Koror, forested and quiet, where a battle expected to take four days took two and a half months in 1944 and left the ridges honeycombed with caves.",
       "fun_fact": "Peleliu's coral limestone hid more than 500 fortified caves — the island is one of the most intact Second World War battlefields anywhere, with wrecked tanks still where they stopped.",
       "hidden_gem_tip": "Dive the drop-offs on the west side, then walk Bloody Nose Ridge in the same day; the jungle has grown back over the ridge but the trenches and cave mouths are still open.",
-      "monuments": []
+      "monuments": [
+        {
+          "name": "Battle of Peleliu",
+          "yt": "IlrcJ-s66g8",
+          "start": 0,
+          "source": "auto",
+          "title": "Battle of Peleliu - Immersive Realistic Gameplay [4K 60FPS ULTRA] Call of Duty: World At War",
+          "height": 2160
+        },
+        {
+          "name": "Orange Beach",
+          "yt": "eoe5Ah3BHzs",
+          "start": 0,
+          "source": "auto",
+          "title": "Orange Beach in Peleliu",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "majuro",

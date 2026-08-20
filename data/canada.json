@@ -9840,7 +9840,33 @@
       ],
       "blurb": "Where the Saguenay fjord meets the St. Lawrence, and where the cold deep water is forced up over a sill — which brings krill to the surface and thirteen species of whale to eat it, close enough to see from the shore.",
       "fun_fact": "Tadoussac was a trading post from 1600, making it the oldest surviving French settlement in the Americas — eight years older than Quebec City. The chapel from 1747 is the oldest wooden church in Canada.",
-      "hidden_gem_tip": "You do not need a boat. The rocks at Pointe de l'Islet, a ten-minute walk from the village, put you on a headland where belugas and minkes pass within 50 m on the tide."
+      "hidden_gem_tip": "You do not need a boat. The rocks at Pointe de l'Islet, a ten-minute walk from the village, put you on a headland where belugas and minkes pass within 50 m on the tide.",
+      "monuments": [
+        {
+          "name": "Saguenay Fjord",
+          "yt": "GgMQ-rNkOWs",
+          "start": 0,
+          "source": "auto",
+          "title": "Sainte Rose Du Nord | Fjord-du-Saguenay | Saguenay | 4K Walking Tour",
+          "height": 2160
+        },
+        {
+          "name": "Saguenay–St. Lawrence Marine Park",
+          "yt": "5Cg0hMx_GB8",
+          "start": 0,
+          "source": "auto",
+          "title": "Animated Series | Whale Watching in the Saguenay St. Lawrence Marine Park | Client: Parks Canada",
+          "height": 1080
+        },
+        {
+          "name": "Saint Lawrence River",
+          "yt": "d5mgZ-jI6AI",
+          "start": 0,
+          "source": "auto",
+          "title": "St Lawrence River, 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "saguenay-fjord",
@@ -9888,7 +9914,33 @@
       ],
       "blurb": "One of the southernmost fjords in the world, 105 km of cliff walls up to 350 m above water 270 m deep, cut by ice and filled by the sea. A resident population of about 900 belugas lives in it year-round.",
       "fun_fact": "The fjord's water is layered: cold salt water from the Gulf on the bottom, fresh river water on top. Arctic species live below and freshwater species above, in the same channel.",
-      "hidden_gem_tip": "The statue of Notre-Dame-du-Saguenay stands on a ledge 180 m up the cliff at Cap Trinité, carved in 1881 by a man who fell through the ice and survived. The trail up is 3.5 km and steep."
+      "hidden_gem_tip": "The statue of Notre-Dame-du-Saguenay stands on a ledge 180 m up the cliff at Cap Trinité, carved in 1881 by a man who fell through the ice and survived. The trail up is 3.5 km and steep.",
+      "monuments": [
+        {
+          "name": "Tadoussac",
+          "yt": "SwwiqRT2jG4",
+          "start": 0,
+          "source": "auto",
+          "title": "Scenic Hike in Saguenay Fjord National Park ! Tadoussac Doc P5",
+          "height": 2160
+        },
+        {
+          "name": "Sainte-Rose-du-Nord",
+          "yt": "GgMQ-rNkOWs",
+          "start": 0,
+          "source": "auto",
+          "title": "Sainte Rose Du Nord | Fjord-du-Saguenay | Saguenay | 4K Walking Tour",
+          "height": 2160
+        },
+        {
+          "name": "L'Anse-Saint-Jean",
+          "yt": "8Qqx4mIaZ5I",
+          "start": 0,
+          "source": "auto",
+          "title": "Promenade Anse Saint Jean",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "mont-tremblant",
@@ -9932,7 +9984,33 @@
       ],
       "blurb": "The highest peak in the Laurentians at 875 m, with a pedestrian village of coloured roofs at its foot and a national park of 1,510 km² behind it — six rivers, four hundred lakes and no road through the middle.",
       "fun_fact": "The Algonquin name is Manitou Ewitchi Saga, the mountain of the spirit — because they believed disturbing it would make it tremble. The French translated the trembling and dropped the spirit.",
-      "hidden_gem_tip": "The village is a resort and reads like one. Drive twenty minutes into the park at Lac Monroe instead: same mountains, canoe rentals on a lake with no buildings on it."
+      "hidden_gem_tip": "The village is a resort and reads like one. Drive twenty minutes into the park at Lac Monroe instead: same mountains, canoe rentals on a lake with no buildings on it.",
+      "monuments": [
+        {
+          "name": "Mont Tremblant (mountain)",
+          "yt": "8zH94WpKN0g",
+          "start": 0,
+          "source": "auto",
+          "title": "Discover the Mountain-Top Temple & Mont-Tremblant, Canada 🇨🇦 | Walking Tour 4K",
+          "height": 2160
+        },
+        {
+          "name": "Mont-Tremblant National Park",
+          "yt": "O6W5krlEw1Q",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] 🇨🇦 Alone in Mont Tremblant National Park ❄️ Silent ASMR Walk",
+          "height": 2160
+        },
+        {
+          "name": "Laurentian Mountains",
+          "yt": "OT0YsEpaqRo",
+          "start": 0,
+          "source": "auto",
+          "title": "Mont Tremblant Summer: Explore the Scenic Drive through Laurentian Mountains in Saint Donat",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "charlevoix",
@@ -9981,7 +10059,33 @@
       "blurb": "A region of hills and farmland dropping straight into the St. Lawrence, all of it sitting inside a 56 km meteorite crater. The rim is why the landscape suddenly rumples here and nowhere else on this shore.",
       "fun_fact": "The impact was about 400 million years ago and left a central uplift that is now Mont des Éboulements. Roughly 90% of Charlevoix's population lives inside the crater, farming its floor.",
       "hidden_gem_tip": "Hautes-Gorges has the highest rock walls east of the Rockies — 800 m of them straight out of the river. The boat up the Malbaie is the only way to see the full height.",
-      "search_name": "Charlevoix Quebec"
+      "search_name": "Charlevoix Quebec",
+      "monuments": [
+        {
+          "name": "Baie-Saint-Paul",
+          "yt": "MCMJErQsiyI",
+          "start": 0,
+          "source": "auto",
+          "title": "Charlevoix / Baie-Saint-Paul Flyover (4K UHD)",
+          "height": 2160
+        },
+        {
+          "name": "La Malbaie",
+          "yt": "zVTsvE9Sado",
+          "start": 0,
+          "source": "auto",
+          "title": "[4k - ASMR] A Road Trip to Explore Charglevoix - La Malbaie, Canada",
+          "height": 2160
+        },
+        {
+          "name": "Hautes-Gorges-de-la-Rivière-Malbaie National Park",
+          "yt": "-S14-Qaqvgc",
+          "start": 0,
+          "source": "auto",
+          "title": "Hautes Gorges de la Rivière Malbaie National Park | 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "iles-de-la-madeleine",
@@ -10025,7 +10129,25 @@
       ],
       "blurb": "An archipelago in the middle of the Gulf of St. Lawrence, 215 km from the Gaspé and joined to itself by long thin sand dunes. Red sandstone cliffs, coloured houses, 300 km of beach and about 12,000 people.",
       "fun_fact": "More than 400 ships have wrecked on these islands, and a significant part of the local population descends from the survivors — which is why there is an English-speaking Anglican community on a French Acadian archipelago.",
-      "hidden_gem_tip": "The ferry from Prince Edward Island takes five hours and books up in June for August. The sea caves at Gros-Cap can be paddled into on a calm morning, and the water inside is a lit green."
+      "hidden_gem_tip": "The ferry from Prince Edward Island takes five hours and books up in June for August. The sea caves at Gros-Cap can be paddled into on a calm morning, and the water inside is a lit green.",
+      "monuments": [
+        {
+          "name": "Cap-aux-Meules",
+          "yt": "1zaZvPFN7_0",
+          "start": 0,
+          "source": "auto",
+          "title": "The Old Fogies go to to Cap aux Meules in the Les Îles-de-la-Madeleine in Canada",
+          "height": 1080
+        },
+        {
+          "name": "Havre-Aubert",
+          "yt": "vNNX0jDPNwc",
+          "start": 0,
+          "source": "auto",
+          "title": "Îles de la Madeleine / île du havre-Aubert / Fatima",
+          "height": 720
+        }
+      ]
     },
     {
       "id": "jacques-cartier-park",
@@ -10069,7 +10191,33 @@
       ],
       "blurb": "A glacial valley 550 m deep cut into the Laurentian plateau half an hour north of Quebec City — a river running flat through the bottom of it with walls rising steeply on both sides for 30 km.",
       "fun_fact": "Fog fills the valley floor most summer mornings and burns off from the top down, so from the ridge trails you look across at peaks standing out of a white river. It happens most days in August.",
-      "hidden_gem_tip": "Rent a canoe at the visitor centre and float the flat water downstream — the shuttle brings you back. Moose feed in the shallows early and this is the easiest place in Quebec to see one."
+      "hidden_gem_tip": "Rent a canoe at the visitor centre and float the flat water downstream — the shuttle brings you back. Moose feed in the shallows early and this is the easiest place in Quebec to see one.",
+      "monuments": [
+        {
+          "name": "Jacques-Cartier River",
+          "yt": "V2xz49Iv_P0",
+          "start": 0,
+          "source": "auto",
+          "title": "Walk along the river - Rue Jacques-Cartier in Gatineau, Quebec",
+          "height": 2160
+        },
+        {
+          "name": "Laurentian Mountains",
+          "yt": "UJWhcE5iiFQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Val-David Village in the Laurentian Mountains - ROAD TRIP AND PLACES TO SEE IN QUEBEC",
+          "height": 1080
+        },
+        {
+          "name": "Quebec City",
+          "yt": "Sy1YLkGvkSs",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K]🇨🇦 Autumn in Jacques-Cartier NP LesCoulees and L'Escarpement, Quebec/Solo Hiking Oct 5, 2022",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "mingan-archipelago",
@@ -10113,7 +10261,25 @@
       ],
       "blurb": "Around a thousand islands and islets along the north shore of the Gulf, carrying the largest concentration of erosion monoliths in Canada — limestone pillars shaped like heads and mushrooms, standing on the beaches.",
       "fun_fact": "The limestone was laid down 450 million years ago on a tropical sea floor near the equator, and is full of fossils. The monoliths were carved by waves after the ice retreated, in the last 8,000 years.",
-      "hidden_gem_tip": "Île Niapiskau and Quarry Island have the best monoliths and the boats run from Havre-Saint-Pierre. Puffins nest on Île aux Perroquets, which has a lighthouse you can sleep in."
+      "hidden_gem_tip": "Île Niapiskau and Quarry Island have the best monoliths and the boats run from Havre-Saint-Pierre. Puffins nest on Île aux Perroquets, which has a lighthouse you can sleep in.",
+      "monuments": [
+        {
+          "name": "Havre-Saint-Pierre",
+          "yt": "ZlvbIXRfDo4",
+          "start": 0,
+          "source": "auto",
+          "title": "Havre Saint-Pierre, Québec. Cruising on the Zandaam. 2023-09.",
+          "height": 1080
+        },
+        {
+          "name": "Anticosti Island",
+          "yt": "SyFpK9nk4BQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Canada's Island of Fossils | Canada's Strangest Island  Part 6| Anticosti Island",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "eeyou-istchee",
@@ -10161,7 +10327,25 @@
       ],
       "blurb": "A Cree community of about 5,000 near the mouth of the La Grande River on James Bay, moved here from Fort George Island in 1981 when the hydroelectric project changed the river that had supported it.",
       "fun_fact": "The Robert-Bourassa station upstream has an underground machine hall 137 m below the surface and a spillway carved as a giant's staircase — ten steps, each the size of a football field, able to pass more water than the St. Lawrence.",
-      "hidden_gem_tip": "Chisasibi means great river in Cree. The road here — the James Bay Highway — runs 620 km with one service station in the middle, and you are required to register at the start of it."
+      "hidden_gem_tip": "Chisasibi means great river in Cree. The road here — the James Bay Highway — runs 620 km with one service station in the middle, and you are required to register at the start of it.",
+      "monuments": [
+        {
+          "name": "James Bay",
+          "yt": "NBeRWRNS9YQ",
+          "start": 0,
+          "source": "auto",
+          "title": "James Bay Highway Blues Official Music Video",
+          "height": 2160
+        },
+        {
+          "name": "Radisson",
+          "yt": "mUpKlPi95cA",
+          "start": 0,
+          "source": "auto",
+          "title": "Entre Matagami et Radisson (620km de route isolés)",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "chute-montmorency",
@@ -10205,7 +10389,33 @@
       ],
       "blurb": "Eighty-three metres of water dropping into the St. Lawrence at the edge of Quebec City — thirty metres higher than Niagara, though far narrower. A suspension bridge crosses directly over the lip.",
       "fun_fact": "In winter the spray freezes into a cone at the base called the Sugarloaf, which can reach 30 m. Nineteenth-century Quebecers climbed and tobogganed down it as a seasonal outing.",
-      "hidden_gem_tip": "The via ferrata takes you across the rock face beside the falling water, and the zipline crosses the gorge. Both run all summer; the 487 stairs beside the falls are free and nearly as good."
+      "hidden_gem_tip": "The via ferrata takes you across the rock face beside the falling water, and the zipline crosses the gorge. Both run all summer; the 487 stairs beside the falls are free and nearly as good.",
+      "monuments": [
+        {
+          "name": "Île d'Orléans",
+          "yt": "BfWHTAs7Oeo",
+          "start": 0,
+          "source": "auto",
+          "title": "【4K60】 Quebec City Local Driving: Montmorency Falls - Île d'Orléans",
+          "height": 2160
+        },
+        {
+          "name": "Quebec City",
+          "yt": "h8d6WwrLGUw",
+          "start": 0,
+          "source": "auto",
+          "title": "Quebec City - Montmorency Falls - 4k",
+          "height": 2160
+        },
+        {
+          "name": "Saint Lawrence River",
+          "yt": "9HQ9BJHZBYw",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Walk along Saint-Lawrence River in Verdun Borough in Montreal Quebec Canada",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "parc-de-la-gaspesie",
@@ -10249,7 +10459,17 @@
       ],
       "blurb": "The Chic-Chocs, the highest mountains in southern Quebec, holding alpine tundra above 1,000 m and 25 summits over 1,000. The Appalachian Trail's northern extension ends here.",
       "fun_fact": "The last woodland caribou herd south of the St. Lawrence lives on these summits — a few dozen animals, isolated for 10,000 years since the ice retreated and left them on the high ground.",
-      "hidden_gem_tip": "Mont Jacques-Cartier's summit trail closes each morning until 10 a.m. and the whole mountain closes in autumn, both for the caribou. Respect it — the herd is down to about thirty."
+      "hidden_gem_tip": "Mont Jacques-Cartier's summit trail closes each morning until 10 a.m. and the whole mountain closes in autumn, both for the caribou. Respect it — the herd is down to about thirty.",
+      "monuments": [
+        {
+          "name": "Mount Jacques-Cartier",
+          "yt": "HLxBh-ROpw0",
+          "start": 0,
+          "source": "auto",
+          "title": "Nous sommes en Gaspésie IV * Le Mont Jacques Cartier*",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "anticosti",
@@ -10340,7 +10560,33 @@
       ],
       "blurb": "A round lake 1,050 km² across at the head of the Saguenay, ringed by sand beaches and blueberry barrens. A 256 km cycle path runs all the way around it, and people swim across it in July.",
       "fun_fact": "Local blueberries are so central here that Quebecers call people from the region bleuets. The word means both the berry and the person, and it is used affectionately by everyone including them.",
-      "hidden_gem_tip": "Val-Jalbert is a pulp-mill village abandoned in 1927 and left standing — you walk through roofless houses on the original streets, with a 72 m waterfall at the top of the hill."
+      "hidden_gem_tip": "Val-Jalbert is a pulp-mill village abandoned in 1927 and left standing — you walk through roofless houses on the original streets, with a 72 m waterfall at the top of the hill.",
+      "monuments": [
+        {
+          "name": "Saguenay River",
+          "yt": "5w_HSiyuDlo",
+          "start": 0,
+          "source": "auto",
+          "title": "Walk to the lookout, Baie-Sainte-Marguerite, Saguenay River, September 2020.",
+          "height": 1080
+        },
+        {
+          "name": "Val-Jalbert",
+          "yt": "nHfG0otJbCo",
+          "start": 0,
+          "source": "auto",
+          "title": "Val-Jalbert Rivière Ouiatchouan",
+          "height": 2026
+        },
+        {
+          "name": "Alma",
+          "yt": "u5zp-WifZ9M",
+          "start": 0,
+          "source": "auto",
+          "title": "Lac Saint-Jean Tour (Day 1) - 94 km - From: Alma To: Dolbeau-Mistassini",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "eastern-townships",
@@ -10389,7 +10635,33 @@
       "blurb": "Rolling hills, covered bridges and round barns along the Vermont border, settled by Loyalists after 1783 which is why the villages have English names and speak French. Apples, cider and the province's best cheese.",
       "fun_fact": "Mont-Mégantic was the world's first International Dark Sky Reserve, designated in 2007. Thirty-four municipalities changed their street lighting to get it, replacing over 3,000 fixtures.",
       "hidden_gem_tip": "The Benedictine abbey on Lake Memphremagog sells the cheese its monks make and sings Gregorian chant at vespers daily, open to anyone. Both are worth arranging the day around.",
-      "search_name": "Eastern Townships Quebec"
+      "search_name": "Eastern Townships Quebec",
+      "monuments": [
+        {
+          "name": "Lake Memphremagog",
+          "yt": "3qJfJmo1FXA",
+          "start": 0,
+          "source": "auto",
+          "title": "Lake Memphremagog 2019 Cottage Experience",
+          "height": 2160
+        },
+        {
+          "name": "Mont-Mégantic",
+          "yt": "dlCzuH9qNUU",
+          "start": 0,
+          "source": "auto",
+          "title": "Mont-Mégantic Solo Hike 4K | Sentier des Cimes Ascent (Solo Adventure Day 2, Part 1)",
+          "height": 2160
+        },
+        {
+          "name": "Magog",
+          "yt": "-Y_4GNZefZ8",
+          "start": 0,
+          "source": "auto",
+          "title": "🚗 Magog, Québec  🇨🇦✨ 4K Drive",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "riviere-du-loup",
@@ -10437,7 +10709,33 @@
       ],
       "blurb": "The south shore of the St. Lawrence downriver from Quebec, where the river becomes salt and grows wide enough that you cannot see across. Villages of silver-roofed houses, tidal flats and eel weirs still set in the mud.",
       "fun_fact": "This stretch is known for having some of the finest sunsets in the world, an assessment that shows up in nineteenth-century travel writing and has been the region's tourism pitch ever since. The width of the estuary is why.",
-      "hidden_gem_tip": "Bic National Park has grey seals hauled out on the rocks at Cap Caribou, visible from the shore trail at low tide. Kamouraska, half an hour west, is where the light is."
+      "hidden_gem_tip": "Bic National Park has grey seals hauled out on the rocks at Cap Caribou, visible from the shore trail at low tide. Kamouraska, half an hour west, is where the light is.",
+      "monuments": [
+        {
+          "name": "Rivière-du-Loup",
+          "yt": "qDh-htj470s",
+          "start": 0,
+          "source": "auto",
+          "title": "Ville de Rivière-du-Loup, Bas-Saint-Laurent, Québec, Canada, Survol et présentation cinématique 4K",
+          "height": 2160
+        },
+        {
+          "name": "Kamouraska",
+          "yt": "u_5r5Gg0tQw",
+          "start": 0,
+          "source": "auto",
+          "title": "😍 Pourquoi on aime tant KAMOURASKA ! (Québec, Bas-Saint-Laurent)",
+          "height": 2160
+        },
+        {
+          "name": "Bic National Park",
+          "yt": "ajZUBcL2ZIQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Park Du Bic Drone View | SEALS IN CANADA | AERIAL VIEW 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "bay-of-fundy",
@@ -10485,7 +10783,33 @@
       ],
       "blurb": "The bay with the highest tides on Earth — up to 16 m twice a day, moving 160 billion tonnes of water in and out, more than every river on the planet combined discharges in the same time.",
       "fun_fact": "The tides are that big because the bay's natural resonance period is almost exactly the 12-hour tidal cycle, so each incoming tide pushes the last one higher. It is a bathtub sloshing in time with the Moon.",
-      "hidden_gem_tip": "Whatever you plan, check the tide table first — it governs everything here, including whether the thing you drove to see is underwater. Two high tides a day, about 50 minutes later each day."
+      "hidden_gem_tip": "Whatever you plan, check the tide table first — it governs everything here, including whether the thing you drove to see is underwater. Two high tides a day, about 50 minutes later each day.",
+      "monuments": [
+        {
+          "name": "Hopewell Rocks",
+          "yt": "QVHnr6mhXxM",
+          "start": 0,
+          "source": "auto",
+          "title": "Hopewell Rocks & the Bay of Fundy’s Extraordinary Tides – New Brunswick, Canada",
+          "height": 2160
+        },
+        {
+          "name": "Fundy National Park",
+          "yt": "0Isrxe1VQfE",
+          "start": 0,
+          "source": "auto",
+          "title": "Canada VR 360° - New Brunswick Route 114 through Fundy National Park",
+          "height": 2160
+        },
+        {
+          "name": "Cape Enrage",
+          "yt": "N5S5kkhB0QY",
+          "start": 0,
+          "source": "auto",
+          "title": "Cape Enrage Island, Bay of Fundy, New Brunswick, Canada Footage | Explore New Brunswick | Drone Guru",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "saint-john",
@@ -10533,7 +10857,33 @@
       "blurb": "Canada's first incorporated city, 1785, built by Loyalists on the harbour where the Saint John River meets the Fundy tides. Brick and stone rebuilt after the 1877 fire that took most of it.",
       "fun_fact": "At the Reversing Falls the tide runs so high that the river is forced to flow backwards twice a day, and there is a moment of slack water between where the whole thing goes flat and boats cross.",
       "hidden_gem_tip": "The City Market has been trading since 1876 in a hall whose ceiling was built by shipwrights — an inverted hull, recognisably. It is the oldest continuously operating farmers' market in Canada.",
-      "search_name": "Saint John New Brunswick"
+      "search_name": "Saint John New Brunswick",
+      "monuments": [
+        {
+          "name": "Reversing Falls",
+          "yt": "81hOhCjNDnk",
+          "start": 0,
+          "source": "auto",
+          "title": "Saint John Reversing Falls 4k Drone Tour",
+          "height": 2160
+        },
+        {
+          "name": "Saint John City Market",
+          "yt": "n0ZYMLasKJc",
+          "start": 0,
+          "source": "auto",
+          "title": "Saint John New Brunswick City Market Tour|Uptown Saint John",
+          "height": 2158
+        },
+        {
+          "name": "Bay of Fundy",
+          "yt": "aUqpXaVXEPk",
+          "start": 0,
+          "source": "auto",
+          "title": "Drone Saint John, New Brunswick | Canada | Bay of Fundy",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "fundy-national-park",
@@ -10579,7 +10929,33 @@
       ],
       "blurb": "Two hundred and seven square kilometres where the Acadian highlands drop to the Fundy shore — twenty-five waterfalls in the forest behind, and a beach at Alma that walks out a kilometre when the tide goes.",
       "fun_fact": "Atlantic salmon in the park's rivers were down to fewer than one hundred returning adults. A programme raising smolts in sea cages and releasing them has brought thousands back to the Upper Salmon River.",
-      "hidden_gem_tip": "Walk out onto the Alma sea floor at low tide, then come back six hours later and look at the same spot. Nothing explains a 12 m tide like standing where you stood."
+      "hidden_gem_tip": "Walk out onto the Alma sea floor at low tide, then come back six hours later and look at the same spot. Nothing explains a 12 m tide like standing where you stood.",
+      "monuments": [
+        {
+          "name": "Bay of Fundy",
+          "yt": "Lz9-vXUJpaU",
+          "start": 0,
+          "source": "auto",
+          "title": "4K | Walking Through Hopewell Rocks at Low Tide | Bay of Fundy Adventure 🌊",
+          "height": 2160
+        },
+        {
+          "name": "Alma",
+          "yt": "HW_qBtPxhYA",
+          "start": 0,
+          "source": "auto",
+          "title": "Fundy National Park of Canada at Alma, New Brunswick",
+          "height": 1080
+        },
+        {
+          "name": "Dickson Falls",
+          "yt": "K9vKe52OD1o",
+          "start": 0,
+          "source": "auto",
+          "title": "Hiking at Fundy National Park... We take you though Dickson Falls, Copper Mine Trail Es 7/22",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "hopewell",
@@ -10623,7 +10999,33 @@
       ],
       "blurb": "A headland with an 1838 lighthouse on it, named for the water off the point — a reef makes the sea break violently there in almost any wind. The cliffs below are full of fossils.",
       "fun_fact": "The lighthouse was saved from demolition in 1993 by a high school physics teacher and his students, who restored it over several summers and ran it as a business. They still do.",
-      "hidden_gem_tip": "Rappelling down the 43 m cliff onto the beach is the thing to do here, and the beach at the bottom is only there at low tide. Fossil hunting is permitted; taking them is not."
+      "hidden_gem_tip": "Rappelling down the 43 m cliff onto the beach is the thing to do here, and the beach at the bottom is only there at low tide. Fossil hunting is permitted; taking them is not.",
+      "monuments": [
+        {
+          "name": "Bay of Fundy",
+          "yt": "N5S5kkhB0QY",
+          "start": 0,
+          "source": "auto",
+          "title": "Cape Enrage Island, Bay of Fundy, New Brunswick, Canada Footage | Explore New Brunswick | Drone Guru",
+          "height": 2160
+        },
+        {
+          "name": "Hopewell Rocks",
+          "yt": "Lz9-vXUJpaU",
+          "start": 0,
+          "source": "auto",
+          "title": "4K | Walking Through Hopewell Rocks at Low Tide | Bay of Fundy Adventure 🌊",
+          "height": 2160
+        },
+        {
+          "name": "Fundy National Park",
+          "yt": "0Isrxe1VQfE",
+          "start": 0,
+          "source": "auto",
+          "title": "Canada VR 360° - New Brunswick Route 114 through Fundy National Park",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "hartland-bridge",
@@ -10663,7 +11065,17 @@
       ],
       "blurb": "The longest covered bridge in the world at 391 m, seven spans across the Saint John River, built in 1901 and covered ten years later — the roof is not for romance, it is to stop the timber trusses rotting.",
       "fun_fact": "When it was first built the local clergy opposed covering it, on the grounds that a long dark tunnel would encourage young couples to linger. The bridges are still nicknamed kissing bridges.",
-      "hidden_gem_tip": "Drive it — it carries traffic, one lane, with a wooden deck that sounds different under the tyres. Then walk it, which takes about five minutes and is better."
+      "hidden_gem_tip": "Drive it — it carries traffic, one lane, with a wooden deck that sounds different under the tyres. Then walk it, which takes about five minutes and is better.",
+      "monuments": [
+        {
+          "name": "Hartland",
+          "yt": "yK0AiKYVEg4",
+          "start": 0,
+          "source": "auto",
+          "title": "Worlds Longest Covered Bridge - Hartland, NB. [4K UHD VIDEO]",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "kouchibouguac",
@@ -10706,7 +11118,25 @@
       ],
       "blurb": "Barrier dunes, salt marsh and lagoon on the warm side of New Brunswick — the Northumberland Strait water here reaches 20°C in August, which is as warm as the sea gets north of Virginia.",
       "fun_fact": "The park was created in 1969 by expropriating 1,200 Acadian residents from seven communities. The resistance lasted years, and Parks Canada has since acknowledged it as a wrong; the displaced families' history is now part of the interpretation.",
-      "hidden_gem_tip": "Kellys Beach is reached by a 600 m boardwalk over the lagoon and the tern colony on the dune. Rent a kayak for the lagoon at dawn — seals, and the water is glass."
+      "hidden_gem_tip": "Kellys Beach is reached by a 600 m boardwalk over the lagoon and the tern colony on the dune. Rent a kayak for the lagoon at dawn — seals, and the water is glass.",
+      "monuments": [
+        {
+          "name": "Kellys Beach",
+          "yt": "APXcjAVZQW8",
+          "start": 0,
+          "source": "auto",
+          "title": "Bass and Seals at Kellys Beach",
+          "height": 2160
+        },
+        {
+          "name": "Richibucto",
+          "yt": "y-uuaqjVly0",
+          "start": 0,
+          "source": "auto",
+          "title": "ASMR | Late Afternoon Walk on Country Wood Lane | Richibucto Road | Fredericton, NB, Canada | 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "grand-manan",
@@ -10749,7 +11179,33 @@
       ],
       "blurb": "An island of 2,300 people at the mouth of the Bay of Fundy, 90 minutes by ferry, with 100 m cliffs on the west side and fishing harbours on the east. Right whales feed off the south end in summer.",
       "fun_fact": "Machias Seal Island, off the south-west, is claimed by both Canada and the United States and is the only genuinely disputed territory between them. Canada keeps a lighthouse staffed there largely to make the point.",
-      "hidden_gem_tip": "Dulse — dried seaweed — is harvested at Dark Harbour on the west side and eaten like crisps. It is an acquired taste and the island will insist you acquire it."
+      "hidden_gem_tip": "Dulse — dried seaweed — is harvested at Dark Harbour on the west side and eaten like crisps. It is an acquired taste and the island will insist you acquire it.",
+      "monuments": [
+        {
+          "name": "Bay of Fundy",
+          "yt": "qHN4DkUrz68",
+          "start": 0,
+          "source": "auto",
+          "title": "Hidden Gem: Grand Manan Island Travel Guide | Bay of Fundy Drive, Lighthouses & Hidden Beaches (4K)",
+          "height": 2160
+        },
+        {
+          "name": "Swallowtail Lighthouse",
+          "yt": "a5UM3gKF34M",
+          "start": 0,
+          "source": "auto",
+          "title": "Grand Manan Island's Swallowtail Lighthouse Sunset with the Ferry and a Whale - Pure Sound",
+          "height": 1080
+        },
+        {
+          "name": "Machias Seal Island",
+          "yt": "6FJCauVaNRY",
+          "start": 0,
+          "source": "auto",
+          "title": "Puffins, Machias Seal Island New Brunswick",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "st-andrews",
@@ -10796,7 +11252,33 @@
       "blurb": "A Loyalist town of 1783 laid out on a grid on a peninsula in Passamaquoddy Bay, with houses that were floated up from Maine on barges when their owners decided which side of the new border they wanted to be on.",
       "fun_fact": "Ministers Island, the summer estate of the CPR's William Van Horne, is reached by driving across the sea floor at low tide. Miss the window and you wait six hours; people do.",
       "hidden_gem_tip": "The whale watching out of here goes to the Fundy feeding grounds and sees finbacks, minkes and sometimes right whales. Kingsbrae, in town, is one of the best public gardens in Canada.",
-      "search_name": "St Andrews by-the-Sea New Brunswick"
+      "search_name": "St Andrews by-the-Sea New Brunswick",
+      "monuments": [
+        {
+          "name": "Kingsbrae Garden",
+          "yt": "yvuX0NIWu_8",
+          "start": 0,
+          "source": "auto",
+          "title": "Kingsbrae Gardens, St. Andrews New Brunswick",
+          "height": 2026
+        },
+        {
+          "name": "Ministers Island",
+          "yt": "G52vr90LxY0",
+          "start": 0,
+          "source": "auto",
+          "title": "Exploring Ministers Island: The Historical Gem of New Brunswick",
+          "height": 1080
+        },
+        {
+          "name": "Algonquin Resort",
+          "yt": "47KVddMr8Lw",
+          "start": 0,
+          "source": "auto",
+          "title": "ST. ANDREWS, New Brunswick | Staying at The Algonquin Resort",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "halifax",
@@ -10848,7 +11330,33 @@
       "blurb": "The largest city in Atlantic Canada, on the second-largest natural harbour in the world, founded as a naval base in 1749 and never really stopping being one. A star fort on the hill still fires a gun at noon.",
       "fun_fact": "In December 1917 a munitions ship exploded in the harbour with the force of about 2.9 kilotonnes — the largest human-made explosion before the atomic bomb. It killed nearly 2,000 people and flattened the north end.",
       "hidden_gem_tip": "Boston sends Halifax a Christmas tree every year in thanks for the relief trains it sent after the explosion. It is chosen ceremonially in Nova Scotia and has arrived every year since 1971.",
-      "search_name": "Halifax Nova Scotia"
+      "search_name": "Halifax Nova Scotia",
+      "monuments": [
+        {
+          "name": "Halifax Citadel",
+          "yt": "NakI2lWhPnw",
+          "start": 0,
+          "source": "auto",
+          "title": "Full Walking Tour of Halifax Citadel National Historic Site 4K",
+          "height": 2160
+        },
+        {
+          "name": "Halifax Waterfront Boardwalk",
+          "yt": "H2TB7HH0kJc",
+          "start": 0,
+          "source": "auto",
+          "title": "🇨🇦 Halifax Nova Scotia Walking Tour - Canada's Waterfront Boardwalk [4K HDR - 60 fps]",
+          "height": 2160
+        },
+        {
+          "name": "Maritime Museum of the Atlantic",
+          "yt": "qDwfV1LEKAA",
+          "start": 0,
+          "source": "auto",
+          "title": "The Maritime Museum of the Atlantic in Halifax, Nova Scotia!  4K Virtual Tour & Travel Review",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "cabot-trail",
@@ -10895,7 +11403,33 @@
       ],
       "blurb": "A 298 km loop around the top of Cape Breton Island, climbing headlands 400 m straight out of the Gulf and dropping into Acadian and Gaelic fishing villages on the way down. One of the great coastal drives.",
       "fun_fact": "Cape Breton has more Gaelic speakers than anywhere outside Scotland, and the Gaelic College at St. Ann's teaches the language, the fiddle and the pipes. The music tradition here is older than the one it came from.",
-      "hidden_gem_tip": "Drive it counter-clockwise. You get the ocean-side lane on the mountain sections, which matters more than it sounds — and the Skyline Trail at sunset is where the whales are, from above."
+      "hidden_gem_tip": "Drive it counter-clockwise. You get the ocean-side lane on the mountain sections, which matters more than it sounds — and the Skyline Trail at sunset is where the whales are, from above.",
+      "monuments": [
+        {
+          "name": "Cape Breton Highlands National Park",
+          "yt": "TabQiBXRaFM",
+          "start": 0,
+          "source": "auto",
+          "title": "Presqu’île on the Cabot Trail Dramatic Coastline 4K Cape Breton Highlands National Park",
+          "height": 2160
+        },
+        {
+          "name": "Ingonish",
+          "yt": "eLx6sL_tf7A",
+          "start": 0,
+          "source": "auto",
+          "title": "Ingonish Cape Breton Highlands Fall HELICOPTER TOUR Nova Scotia Cabot Trail",
+          "height": 2160
+        },
+        {
+          "name": "Chéticamp",
+          "yt": "GBRmKrdKz5c",
+          "start": 0,
+          "source": "auto",
+          "title": "CHÉTICAMP DRONE TOUR - Autumn in the Cape Breton Highlands 4k",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "cape-breton-highlands",
@@ -10942,7 +11476,33 @@
       ],
       "blurb": "A plateau of boreal forest and taiga barrens 500 m above the Gulf, ending in cliffs on three sides. One third of the Cabot Trail runs through it and the rest of it has no roads at all.",
       "fun_fact": "Moose here are descended from eighteen animals brought from Alberta in the 1940s after the native population was hunted out. They now number in the thousands and are eating the forest faster than it regrows.",
-      "hidden_gem_tip": "The Skyline is a 7 km boardwalk loop ending on a headland 800 m above the water with the road switchbacking below. Do it in the last two hours of daylight."
+      "hidden_gem_tip": "The Skyline is a 7 km boardwalk loop ending on a headland 800 m above the water with the road switchbacking below. Do it in the last two hours of daylight.",
+      "monuments": [
+        {
+          "name": "Cabot Trail",
+          "yt": "8B0Wju2EjYQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Best Stops on the Cabot Trail - Nova Scotia Road Trip Ideas | The Planet D",
+          "height": 2160
+        },
+        {
+          "name": "Skyline Trail",
+          "yt": "922JRMHf4l4",
+          "start": 0,
+          "source": "auto",
+          "title": "Hiking the Skyline Trail  |  Cape Breton  |  Nova Scotia",
+          "height": 2026
+        },
+        {
+          "name": "Ingonish",
+          "yt": "DG4ZM1YtRRc",
+          "start": 0,
+          "source": "auto",
+          "title": "🌊✨ Soaring Over Ingonish Beach in 4K | Cape Breton's Coastal Beauty from Above! 🏖️🇨🇦",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "louisbourg",
@@ -10986,7 +11546,25 @@
       ],
       "blurb": "A quarter of an eighteenth-century French fortified town, rebuilt stone by stone on its own foundations — the largest historical reconstruction in North America, staffed by several hundred people in 1744 costume.",
       "fun_fact": "The reconstruction was begun in 1961 to give work to coal miners laid off in Cape Breton. They were retrained as stonemasons and carpenters and spent twenty years rebuilding what the British had demolished in 1760.",
-      "hidden_gem_tip": "Eat in the eighteenth-century manner at one of the period kitchens: no cutlery beyond a spoon, pewter plates, and bread you tear. It is a real meal, not a novelty."
+      "hidden_gem_tip": "Eat in the eighteenth-century manner at one of the period kitchens: no cutlery beyond a spoon, pewter plates, and bread you tear. It is a real meal, not a novelty.",
+      "monuments": [
+        {
+          "name": "Cape Breton Island",
+          "yt": "YeIT25DyWD0",
+          "start": 0,
+          "source": "auto",
+          "title": "Louisbourg Fortress & Lighthouse & More, Cape Breton Island (RV Travel) 4K",
+          "height": 2160
+        },
+        {
+          "name": "Louisbourg",
+          "yt": "0YM59Aun_EI",
+          "start": 0,
+          "source": "auto",
+          "title": "Nova Scotia Fortress Louisbourg tour",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "bay-of-fundy-ns",
@@ -11030,7 +11608,33 @@
       ],
       "blurb": "The head of the Minas Basin, where the Bay of Fundy tides reach their absolute maximum — the world record of 16.3 m was measured here. Twice a day the sea floor becomes a walkable landscape.",
       "fun_fact": "At low tide the ocean floor here is exposed for kilometres and you can walk on it. Six hours later the same ground is under five storeys of water, and the change is fast enough to see.",
-      "hidden_gem_tip": "Guided low-tide walks run daily in summer and the guides are the reason to go — they know where the tide comes in from, which is not always the direction you would guess."
+      "hidden_gem_tip": "Guided low-tide walks run daily in summer and the guides are the reason to go — they know where the tide comes in from, which is not always the direction you would guess.",
+      "monuments": [
+        {
+          "name": "Bay of Fundy",
+          "yt": "Lz9-vXUJpaU",
+          "start": 0,
+          "source": "auto",
+          "title": "4K | Walking Through Hopewell Rocks at Low Tide | Bay of Fundy Adventure 🌊",
+          "height": 2160
+        },
+        {
+          "name": "Minas Basin",
+          "yt": "dW_7NEt1uo0",
+          "start": 0,
+          "source": "auto",
+          "title": "Bramber Flower Pot Rock, Mutton Cove, Minas Basin, Bramber, Nova Scotia, Canada",
+          "height": 1080
+        },
+        {
+          "name": "Truro",
+          "yt": "MnbFIJV8Q5Y",
+          "start": 0,
+          "source": "auto",
+          "title": "TRURO CORNWALL | Full tour",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "annapolis-valley",
@@ -11078,7 +11682,33 @@
       ],
       "blurb": "The oldest continuous European settlement north of Florida, founded as Port-Royal in 1605 and fought over so often it changed hands seven times. A town of 500 with a national historic site at each end.",
       "fun_fact": "North America's first tidal power station operated here from 1984 to 2019, generating from the Fundy tide. It was shut down partly because the turbine kept killing fish.",
-      "hidden_gem_tip": "The historic gardens grow a 1740s Acadian kitchen garden alongside Victorian and rose collections, on 17 acres above the dyked marsh — and the dykes themselves are Acadian, still working after three hundred years."
+      "hidden_gem_tip": "The historic gardens grow a 1740s Acadian kitchen garden alongside Victorian and rose collections, on 17 acres above the dyked marsh — and the dykes themselves are Acadian, still working after three hundred years.",
+      "monuments": [
+        {
+          "name": "Fort Anne",
+          "yt": "mmqS-YxP-is",
+          "start": 0,
+          "source": "auto",
+          "title": "Fort Anne & Annapolis Royal Waterfront | Nova Scotia | Canada",
+          "height": 2160
+        },
+        {
+          "name": "Annapolis Basin",
+          "yt": "Yd2ufZvTNSo",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking my Bernese Mountain Dog at French Basin Trail | Annapolis Royal | Nova Scotia 🇨🇦",
+          "height": 2160
+        },
+        {
+          "name": "Bay of Fundy",
+          "yt": "Lz9-vXUJpaU",
+          "start": 0,
+          "source": "auto",
+          "title": "4K | Walking Through Hopewell Rocks at Low Tide | Bay of Fundy Adventure 🌊",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "grand-pre",
@@ -11126,7 +11756,33 @@
       ],
       "blurb": "Dyked farmland reclaimed from the Fundy tide by Acadian settlers from the 1680s, and the place from which they were deported in 1755. A UNESCO site that is mostly an empty field, which is the point.",
       "fun_fact": "The Acadians built aboiteaux — one-way valves in the dykes that let fresh water out and kept salt water from coming in. The fields are still farmed today using the same system, three centuries on.",
-      "hidden_gem_tip": "Climb the Lookoff on the North Mountain above the valley. From up there you can read the whole reclaimed marsh at once and see exactly how much land they took from the sea."
+      "hidden_gem_tip": "Climb the Lookoff on the North Mountain above the valley. From up there you can read the whole reclaimed marsh at once and see exactly how much land they took from the sea.",
+      "monuments": [
+        {
+          "name": "Minas Basin",
+          "yt": "4NLssTMBkCw",
+          "start": 0,
+          "source": "auto",
+          "title": "Amazing Mud Banks and Dykes along the Cornwallis River at Low Tide on the Minas Basin | Cinematic 4K",
+          "height": 2160
+        },
+        {
+          "name": "Wolfville",
+          "yt": "b1aRrPqhcZE",
+          "start": 0,
+          "source": "auto",
+          "title": "4K video of Wolfville, NS",
+          "height": 2160
+        },
+        {
+          "name": "Cape Blomidon",
+          "yt": "2lEyofeNcq8",
+          "start": 0,
+          "source": "auto",
+          "title": "SPECTACULAR CAPE BLOMIDON SHORELINE & PADDY’S ISLAND!! // NOVA SCOTIA 🇨🇦",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "joggins",
@@ -11170,7 +11826,25 @@
       ],
       "blurb": "Fifteen kilometres of sea cliff on the Fundy shore holding the most complete fossil record of the Coal Age anywhere — 310 million years of swamp forest, exposed and refreshed by the highest tides on Earth twice a day.",
       "fun_fact": "Charles Darwin cited Joggins in On the Origin of Species. The fossil trees here stand upright where they grew, and inside one of them was found Hylonomus lyelli — the earliest known reptile, and the ancestor of everything that later laid an egg on land.",
-      "hidden_gem_tip": "New fossils fall out of the cliff with every tide, so what is on the beach today was not there last week. Guided walks only below the cliffs, and never at a rising tide."
+      "hidden_gem_tip": "New fossils fall out of the cliff with every tide, so what is on the beach today was not there last week. Guided walks only below the cliffs, and never at a rising tide.",
+      "monuments": [
+        {
+          "name": "Bay of Fundy",
+          "yt": "Hlv6sFNB3kY",
+          "start": 0,
+          "source": "auto",
+          "title": "Bay of Fundy Shorelines",
+          "height": 2160
+        },
+        {
+          "name": "Amherst",
+          "yt": "fYLEFe1AJHk",
+          "start": 0,
+          "source": "auto",
+          "title": "Amherst College - Virtual Walking Tour [4k 60fps]",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "kejimkujik",
@@ -11214,7 +11888,25 @@
       ],
       "blurb": "Inland Nova Scotia — lakes, drowned forest and old growth hemlock linked by canoe routes that the Mi'kmaq used for thousands of years and that are still the only sensible way to cross the park.",
       "fun_fact": "Keji is the only national park in Canada that is also a National Historic Site in its entirety, designated for 4,000 years of Mi'kmaw occupation — including petroglyphs carved into lakeside slate.",
-      "hidden_gem_tip": "It is a Dark Sky Preserve with almost no light within 50 km. Paddle to a backcountry site on Big Dam Lake, and take the star chart the park hands out at the gate."
+      "hidden_gem_tip": "It is a Dark Sky Preserve with almost no light within 50 km. Paddle to a backcountry site on Big Dam Lake, and take the star chart the park hands out at the gate.",
+      "monuments": [
+        {
+          "name": "Mersey River",
+          "yt": "R5mw0uiz92M",
+          "start": 0,
+          "source": "auto",
+          "title": "Widnes and the River Mersey 【4K】 🚶 🇬🇧",
+          "height": 2160
+        },
+        {
+          "name": "Annapolis Royal",
+          "yt": "QJvZwFieJhk",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking Tour | Annapolis Royal | Nova Scotia #canada #travel #winter #snow #4k #explore #adventure",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "lunenburg-area",
@@ -11258,7 +11950,33 @@
       ],
       "blurb": "Three wooden churches standing side by side at the head of a bay, reflected in it — the most photographed view in Nova Scotia. A shipbuilding town of 1,000 with 365 islands in the water in front of it.",
       "fun_fact": "Oak Island, in this bay, has been dug for buried treasure since 1795. Six people have died looking, nothing has ever been found, and the digging continues.",
-      "hidden_gem_tip": "Get there for the first hour of light with the tide in. The reflection needs still water and the churches face east, so the postcard is a morning shot."
+      "hidden_gem_tip": "Get there for the first hour of light with the tide in. The reflection needs still water and the churches face east, so the postcard is a morning shot.",
+      "monuments": [
+        {
+          "name": "Lunenburg",
+          "yt": "nO0Ptm_84g4",
+          "start": 0,
+          "source": "auto",
+          "title": "🌊 Lunenburg, Nova Scotia: Cycling the Coastal Beauty in 4K | Adventure Awaits! 🚴‍♂️",
+          "height": 2160
+        },
+        {
+          "name": "Oak Island",
+          "yt": "ExOUMAsd-Wc",
+          "start": 0,
+          "source": "auto",
+          "title": "Oak Island Walking Tour",
+          "height": 1080
+        },
+        {
+          "name": "Chester",
+          "yt": "c0tojdIOnDE",
+          "start": 0,
+          "source": "auto",
+          "title": "Scenic Drives: Nova Scotia South Shore | Mahone Bay, Chester, Hubbards [4K]",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "digby-neck",
@@ -11305,7 +12023,33 @@
       ],
       "blurb": "A basalt peninsula 70 km long and barely 3 km wide sticking out into the Bay of Fundy, broken into two islands at the end and joined by two short ferries that run around the clock.",
       "fun_fact": "The upwelling off Brier Island at the tip concentrates plankton so reliably that humpbacks, finbacks and right whales come every summer. It is one of the most dependable whale-watching spots in the North Atlantic.",
-      "hidden_gem_tip": "Balancing Rock on Long Island is a 9 m column of basalt standing on end on a ledge over the sea, reached by 235 steps down. It should have fallen long ago and has not."
+      "hidden_gem_tip": "Balancing Rock on Long Island is a 9 m column of basalt standing on end on a ledge over the sea, reached by 235 steps down. It should have fallen long ago and has not.",
+      "monuments": [
+        {
+          "name": "Brier Island",
+          "yt": "qCbzladavvE",
+          "start": 0,
+          "source": "auto",
+          "title": "Brier Island Lighthouses and Big Pond Beach - Nova Scotia Lighthouses - Attractions On Digby Neck",
+          "height": 2160
+        },
+        {
+          "name": "Balancing Rock",
+          "yt": "c54hohU_GLU",
+          "start": 0,
+          "source": "auto",
+          "title": "Top Natural Attractions To Visit in Nova Scotia Canada | The Balancing Rock【4K】",
+          "height": 2160
+        },
+        {
+          "name": "Bay of Fundy",
+          "yt": "Lz9-vXUJpaU",
+          "start": 0,
+          "source": "auto",
+          "title": "4K | Walking Through Hopewell Rocks at Low Tide | Bay of Fundy Adventure 🌊",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "charlottetown",
@@ -11351,7 +12095,25 @@
       ],
       "blurb": "The smallest provincial capital in Canada, 40,000 people, and the room where the country was negotiated in September 1864 is still there with the same table in it.",
       "fun_fact": "Prince Edward Island hosted the conference that created Canada and then declined to join, holding out until 1873 when a railway debt made the terms attractive. It is the birthplace of a country it initially refused to be part of.",
-      "hidden_gem_tip": "Anne of Green Gables has been staged at the Confederation Centre every summer since 1965 — the longest-running annual musical in the world. Buy lobster off the wharf instead if that is not your thing."
+      "hidden_gem_tip": "Anne of Green Gables has been staged at the Confederation Centre every summer since 1965 — the longest-running annual musical in the world. Buy lobster off the wharf instead if that is not your thing.",
+      "monuments": [
+        {
+          "name": "Province House",
+          "yt": "bVFhDeH_Fog",
+          "start": 0,
+          "source": "auto",
+          "title": "Portico Work | Province House Conservation | Parks Canada",
+          "height": 1080
+        },
+        {
+          "name": "Victoria Row",
+          "yt": "Y5X9DNMek2Y",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking Charlottetown's Famous Street, Victoria Row 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "cavendish",
@@ -11395,7 +12157,33 @@
       ],
       "blurb": "Red sandstone cliffs and white sand on the island's north shore, and the farmhouse that Lucy Maud Montgomery used as Green Gables — a real house belonging to her cousins, which she walked past as a child.",
       "fun_fact": "Anne of Green Gables is enormously popular in Japan, where it has been on the school curriculum since 1952. Japanese visitors come in numbers large enough that signage here is trilingual.",
-      "hidden_gem_tip": "The Gulf Shore Parkway runs the length of the dunes with beach access all along it. Go east to Brackley or Stanhope — same sand, a fraction of the people."
+      "hidden_gem_tip": "The Gulf Shore Parkway runs the length of the dunes with beach access all along it. Go east to Brackley or Stanhope — same sand, a fraction of the people.",
+      "monuments": [
+        {
+          "name": "Green Gables",
+          "yt": "vK5ZMdnGq4I",
+          "start": 0,
+          "source": "auto",
+          "title": "4K GREEN GABLES HERITAGE PLACE at #cavendish  PRINCE EDWARD ISLAND CANADA",
+          "height": 2160
+        },
+        {
+          "name": "Prince Edward Island National Park",
+          "yt": "bfi16fPDN8k",
+          "start": 0,
+          "source": "auto",
+          "title": "CAVENDISH NATIONAL PARK Full Walk Tour @ PRINCE EDWARD ISLAND CANADA [4K]",
+          "height": 2160
+        },
+        {
+          "name": "North Rustico",
+          "yt": "3g-1Y9IoXvM",
+          "start": 0,
+          "source": "auto",
+          "title": "PRINCE EDWARD ISLAND NATIONAL PARK — NORTH RUSTICO BEACH (4K)",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "pei-national-park",
@@ -11439,7 +12227,17 @@
       "blurb": "A parabolic dune system at the eastern end of the national park — rare in North America, and moving. The dunes advance inland over the forest, burying trees whose dead trunks then reappear on the far side.",
       "fun_fact": "Marram grass holds the sand still until something breaks it. That is why the boardwalk here floats on a pond rather than crossing the dune: one path of footprints would start a blowout.",
       "hidden_gem_tip": "The floating boardwalk over Bowley Pond is 200 m and moves under you. It is the best walk on the island and takes about an hour each way from the interpretation centre.",
-      "search_name": "Greenwich Dunes Prince Edward Island"
+      "search_name": "Greenwich Dunes Prince Edward Island",
+      "monuments": [
+        {
+          "name": "Cavendish",
+          "yt": "8iTaBBxorVs",
+          "start": 0,
+          "source": "auto",
+          "title": "Prince Edward Island Beaches: A Coastal Paradise | Basin Head | Cavendish | Greenwich Beach | CANADA",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "confederation-bridge",
@@ -11482,7 +12280,25 @@
       ],
       "blurb": "Nearly 13 km of concrete across the Northumberland Strait, the longest bridge in the world over water that freezes. It opened in 1997 and ended 130 years of ferry crossings in a single day.",
       "fun_fact": "The piers have cone-shaped ice shields at the waterline that force pack ice to ride up and break under its own weight rather than hitting the column. The design was tested for a decade before anything was poured.",
-      "hidden_gem_tip": "You cannot walk or cycle it — there is a shuttle for that. Toll is collected only when you leave the island, which islanders point out means arriving is free."
+      "hidden_gem_tip": "You cannot walk or cycle it — there is a shuttle for that. Toll is collected only when you leave the island, which islanders point out means arriving is free.",
+      "monuments": [
+        {
+          "name": "Borden-Carleton",
+          "yt": "-E9iEwizg-Y",
+          "start": 0,
+          "source": "auto",
+          "title": "🚗 Explore Borden-Carleton: A Scenic Drive through Prince Edward Island in 4K! 🌊",
+          "height": 2160
+        },
+        {
+          "name": "Cape Jourimain",
+          "yt": "UabRbZygJD8",
+          "start": 0,
+          "source": "auto",
+          "title": "Cape Jourimain National Wildlife Area",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "st-johns",
@@ -11534,7 +12350,33 @@
       "blurb": "The oldest English-founded city in North America, wrapped around a harbour reached through a gap in the cliffs called the Narrows. Rows of houses painted in flat saturated colours climb the hills behind it.",
       "fun_fact": "Marconi received the first transatlantic radio signal on Signal Hill in December 1901 — three dots, the letter S, sent from Cornwall. He was using a kite to hold the aerial up.",
       "hidden_gem_tip": "Cape Spear, twenty minutes out, is the easternmost point of North America. Get there for sunrise and you are the first person on the continent to see it that day, which is a cheap thrill that works.",
-      "search_name": "St John's Newfoundland"
+      "search_name": "St John's Newfoundland",
+      "monuments": [
+        {
+          "name": "Signal Hill",
+          "yt": "tB8Wy_bgrhs",
+          "start": 0,
+          "source": "auto",
+          "title": "Signal Hill, Cabot Tower Walk - St. John's, Newfoundland",
+          "height": 2160
+        },
+        {
+          "name": "Cape Spear",
+          "yt": "qQPbjqUk0w4",
+          "start": 0,
+          "source": "auto",
+          "title": "#49) St John's, NL, Canada: Walking on Cape Spear [4K]",
+          "height": 2160
+        },
+        {
+          "name": "Jellybean Row",
+          "yt": "2_QR0cP724k",
+          "start": 0,
+          "source": "auto",
+          "title": "St. John's Newfoundland 🇨🇦 Walking Tour | Jellybean Row & Historic Harbour 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "gros-morne",
@@ -11581,7 +12423,33 @@
       ],
       "blurb": "Where the Earth's mantle is lying on the surface. The Tablelands are orange rock from 20 km down, pushed up in a continental collision 500 million years ago, and almost nothing will grow on them.",
       "fun_fact": "Gros Morne helped prove plate tectonics. The rock sequence here is the clearest exposed evidence anywhere of an ocean closing and a continent being built, which is why it is a World Heritage Site.",
-      "hidden_gem_tip": "Western Brook Pond is a landlocked fjord with 600 m walls and water among the purest ever tested. You walk 3 km across bog to the boat, and the boat is the only way in."
+      "hidden_gem_tip": "Western Brook Pond is a landlocked fjord with 600 m walls and water among the purest ever tested. You walk 3 km across bog to the boat, and the boat is the only way in.",
+      "monuments": [
+        {
+          "name": "Tablelands",
+          "yt": "lagimx3fmkQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Best Of Gros Morne National Park Newfoundland - Western Brook Pond, Green Gardens, and Tablelands",
+          "height": 2160
+        },
+        {
+          "name": "Western Brook Pond",
+          "yt": "-LtzWdjA7NI",
+          "start": 0,
+          "source": "auto",
+          "title": "[NEWFOUNDLAND] Gros Morne ~ Western Brook Pond Boat Tour & FREE CAMPING nearby.",
+          "height": 1080
+        },
+        {
+          "name": "Rocky Harbour",
+          "yt": "De181qnqGSE",
+          "start": 0,
+          "source": "auto",
+          "title": "Rocky Harbour, Newfoundland",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "lanse-aux-meadows",
@@ -11625,7 +12493,25 @@
       ],
       "blurb": "The only confirmed Norse settlement in North America outside Greenland — eight turf buildings on a boggy shore at the top of the Northern Peninsula, occupied briefly around the year 1000.",
       "fun_fact": "A single butternut found here settles an argument: butternuts do not grow north of New Brunswick, so whoever lived at this camp sailed considerably further south than this and came back.",
-      "hidden_gem_tip": "Come on a grey day with wind. The reconstructed sod halls are warm inside with a fire going, and the point of the place lands much harder when the weather is doing what it usually does."
+      "hidden_gem_tip": "Come on a grey day with wind. The reconstructed sod halls are warm inside with a fire going, and the point of the place lands much harder when the weather is doing what it usually does.",
+      "monuments": [
+        {
+          "name": "Great Northern Peninsula",
+          "yt": "FSEHr8d6RbU",
+          "start": 0,
+          "source": "auto",
+          "title": "L’Anse aux Bauld Head Trail - Northern Peninsula Newfoundland - 4K",
+          "height": 2160
+        },
+        {
+          "name": "St. Anthony",
+          "yt": "HiZsXvfh-4Y",
+          "start": 0,
+          "source": "auto",
+          "title": "2022-08-10 St Anthony, Newfoundland",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "fogo-island",
@@ -11673,7 +12559,33 @@
       "blurb": "An island of 2,000 off the north-east coast, reached by ferry, where the outport villages were nearly resettled away in the 1960s and the residents formed a co-operative instead. It worked, and the island is still there.",
       "fun_fact": "The Flat Earth Society named Brimstone Head one of the four corners of the world. The island has embraced this wholeheartedly and there is a sign.",
       "hidden_gem_tip": "Six architect-designed artists' studios stand alone on the headlands, funded by the island's own charitable foundation. They are working studios, but the walks out to them are open to anyone.",
-      "search_name": "Fogo Island Newfoundland"
+      "search_name": "Fogo Island Newfoundland",
+      "monuments": [
+        {
+          "name": "Joe Batt's Arm",
+          "yt": "hZ64MamVQf0",
+          "start": 0,
+          "source": "auto",
+          "title": "joe batts arm",
+          "height": 1080
+        },
+        {
+          "name": "Brimstone Head",
+          "yt": "p7CUR36ji5Y",
+          "start": 0,
+          "source": "auto",
+          "title": "Brimstone Head -  4K - (Fogo Island) Newfoundland Canada",
+          "height": 2160
+        },
+        {
+          "name": "Fogo Island Inn",
+          "yt": "slYxx3PbWNs",
+          "start": 0,
+          "source": "auto",
+          "title": "Celestielle #394  Fogo Island Inn, Newfoundland, Canada",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "bonavista",
@@ -11720,7 +12632,33 @@
       ],
       "blurb": "A fishing town on a headland where John Cabot is said to have made landfall in 1497. Saltbox houses, a red-and-white striped lighthouse, and puffins nesting on a stack close enough to the cliff to photograph without a lens.",
       "fun_fact": "Elliston, next door, calls itself the root cellar capital of the world — 135 of them dug into the hillsides, some from the 1830s, keeping vegetables through winters with no other way to store them.",
-      "hidden_gem_tip": "The Dungeon is a collapsed sea cave in a cow pasture, with two arches the sea comes through. There is no fence and no ticket. Stand well back from the rim; the edge is undercut."
+      "hidden_gem_tip": "The Dungeon is a collapsed sea cave in a cow pasture, with two arches the sea comes through. There is no fence and no ticket. Stand well back from the rim; the edge is undercut.",
+      "monuments": [
+        {
+          "name": "Cape Bonavista Lighthouse",
+          "yt": "Bxi722wNtYo",
+          "start": 0,
+          "source": "auto",
+          "title": "Cape Bonavista Lighthouse | Puffin Viewing | Provincial Historic Site | Newfoundland | Canada",
+          "height": 1080
+        },
+        {
+          "name": "Elliston",
+          "yt": "BV7P9K18X9w",
+          "start": 0,
+          "source": "auto",
+          "title": "🐦 Elliston, Newfoundland 🌊🚗 | 4K Drive",
+          "height": 2160
+        },
+        {
+          "name": "Dungeon Provincial Park",
+          "yt": "jfiIHkp-gNE",
+          "start": 0,
+          "source": "auto",
+          "title": "Drive around || Bonavista, Newfoundland , Cape Bonavista , Dungeon Provincial Park || 4K HDR",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "twillingate",
@@ -11762,7 +12700,33 @@
       ],
       "blurb": "Two islands joined by causeways in Notre Dame Bay, calling itself the iceberg capital of the world with some justification — the Labrador Current drives Greenland ice right past the headlands from May to July.",
       "fun_fact": "The icebergs that reach here calved from Greenland glaciers about three years earlier and are made of snow that fell up to 15,000 years ago. Local distillers use the melt in their gin.",
-      "hidden_gem_tip": "Long Point Lighthouse sits on a 100 m cliff and is where everyone watches from. Check the iceberg tracking map before you commit to the drive — some years the ice never comes in."
+      "hidden_gem_tip": "Long Point Lighthouse sits on a 100 m cliff and is where everyone watches from. Check the iceberg tracking map before you commit to the drive — some years the ice never comes in.",
+      "monuments": [
+        {
+          "name": "Long Point Lighthouse",
+          "yt": "HB_laHd3B4E",
+          "start": 0,
+          "source": "auto",
+          "title": "Discover the Majestic Long Point Lighthouse in Northern Newfoundland!",
+          "height": 2160
+        },
+        {
+          "name": "Notre Dame Bay",
+          "yt": "YBJU4N4jVCU",
+          "start": 0,
+          "source": "auto",
+          "title": "Icebergs and boating adventures around Twillingate Island in Notre Dame Bay , Newfoundland.",
+          "height": 1080
+        },
+        {
+          "name": "Iceberg Alley",
+          "yt": "_mfVsdblfLo",
+          "start": 0,
+          "source": "auto",
+          "title": "Iceberg Alley in Newfoundland, Canada",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "trinity-nl",
@@ -11806,7 +12770,33 @@
       "blurb": "A village of 130 on a sheltered harbour, one of the oldest European settlements in North America and almost entirely preserved — white clapboard, picket fences, and a church spire on a point.",
       "fun_fact": "North America's first recorded smallpox inoculation was performed here in 1798 by a local clergyman, John Clinch, who had been sent the vaccine by Edward Jenner himself. They had been at school together.",
       "hidden_gem_tip": "The Skerwink Trail nearby is a 5 km loop along sea stacks and cliffs that gets named among the best coastal walks in North America. It takes two hours and there is a brewery at the end.",
-      "search_name": "Trinity Newfoundland"
+      "search_name": "Trinity Newfoundland",
+      "monuments": [
+        {
+          "name": "Bonavista Peninsula",
+          "yt": "YWC_uutFcbE",
+          "start": 0,
+          "source": "auto",
+          "title": "We walked around Trinity in may 2023. Bonavista Peninsula, Newfoundland.",
+          "height": 2160
+        },
+        {
+          "name": "Skerwink Trail",
+          "yt": "Zrgx2VLBl9M",
+          "start": 0,
+          "source": "auto",
+          "title": "Port Rexton/Skerwink Trail - PART I - 4K Drone Footage",
+          "height": 2160
+        },
+        {
+          "name": "Port Rexton",
+          "yt": "sV5k2jHr4nc",
+          "start": 0,
+          "source": "auto",
+          "title": "🚗 Port Rexton, Newfoundland  🇨🇦 | 4K Drive",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "battle-harbour",
@@ -11850,7 +12840,25 @@
       ],
       "blurb": "A restored saltfish station on an island off the Labrador coast, for two centuries the unofficial capital of the coast, abandoned in 1966 and now reachable only by a boat that runs a few times a day in summer.",
       "fun_fact": "Robert Peary announced from the telegraph here in 1909 that he had reached the North Pole, and gave his interviews on the premises. The building he used is standing.",
-      "hidden_gem_tip": "Stay the night — most of the restored buildings are lodging and the day boat leaves in the afternoon. When it goes there are about a dozen people on the island and no roads, cars or lights."
+      "hidden_gem_tip": "Stay the night — most of the restored buildings are lodging and the day boat leaves in the afternoon. When it goes there are about a dozen people on the island and no roads, cars or lights.",
+      "monuments": [
+        {
+          "name": "Labrador",
+          "yt": "1yLu-0xXJqQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Battle Harbor, Labrador, Canada - 4K",
+          "height": 2160
+        },
+        {
+          "name": "Mary's Harbour",
+          "yt": "3nspLqsYsHk",
+          "start": 0,
+          "source": "auto",
+          "title": "Mary's Harbour, Labrador – 2023 – GoPro 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "torngat",
@@ -11898,7 +12906,33 @@
       ],
       "blurb": "The highest mountains in mainland Canada east of the Rockies, rising straight out of fjords at the northern tip of Labrador — 9,700 km² with no roads, no trails, no campground and no residents.",
       "fun_fact": "Torngat comes from Torngait, the Inuktitut word for the spirits believed to inhabit these mountains. The park is co-managed by Inuit and every visitor is accompanied by an Inuit bear guard, because polar bears are common on the shore.",
-      "hidden_gem_tip": "Access is charter aircraft or boat to a base camp behind an electric fence, for a few weeks each summer. Rock here is nearly four billion years old — among the oldest exposed anywhere."
+      "hidden_gem_tip": "Access is charter aircraft or boat to a base camp behind an electric fence, for a few weeks each summer. Rock here is nearly four billion years old — among the oldest exposed anywhere.",
+      "monuments": [
+        {
+          "name": "Labrador",
+          "yt": "PIcnwYTNPhA",
+          "start": 0,
+          "source": "auto",
+          "title": "Labrador Nature Reserve | Walking Tour",
+          "height": 2160
+        },
+        {
+          "name": "Nain",
+          "yt": "EJ92Vu-5Tno",
+          "start": 0,
+          "source": "auto",
+          "title": "TOUR OF NAIN ST.ELIZABETH #JAMAICA",
+          "height": 1080
+        },
+        {
+          "name": "Torngat Mountains",
+          "yt": "rZecnWDv6ow",
+          "start": 0,
+          "source": "auto",
+          "title": "Torngat Mountains 2023 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "witless-bay",
@@ -11941,7 +12975,33 @@
       ],
       "blurb": "Four islands off the Avalon Peninsula holding North America's largest Atlantic puffin colony — over 260,000 pairs — plus several million Leach's storm-petrels, which is most of the world's population of that bird.",
       "fun_fact": "Humpback whales come to the same water to eat capelin, which spawn on the beaches here in June. Whales, puffins and icebergs regularly appear in the same frame, which is why boats sell out.",
-      "hidden_gem_tip": "Late June is the overlap of all three. Fledgling pufflings sometimes come ashore disoriented by town lights in August, and local kids collect them in boxes and release them at sea."
+      "hidden_gem_tip": "Late June is the overlap of all three. Fledgling pufflings sometimes come ashore disoriented by town lights in August, and local kids collect them in boxes and release them at sea.",
+      "monuments": [
+        {
+          "name": "Gull Island",
+          "yt": "55XDzayouTw",
+          "start": 0,
+          "source": "auto",
+          "title": "Puffin watch at Gull Island, Bay Bulls, Atlantic",
+          "height": 1080
+        },
+        {
+          "name": "Bay Bulls",
+          "yt": "mmTt5DBs0ug",
+          "start": 0,
+          "source": "auto",
+          "title": "Epic Puffin & Seabird Tour in Newfoundland | Bay Bulls Boat Tour May 2023",
+          "height": 2160
+        },
+        {
+          "name": "Avalon Peninsula",
+          "yt": "qKfjvptQMww",
+          "start": 0,
+          "source": "auto",
+          "title": "St. John's and Avalon Peninsula, Newfoundland (E5 NL)",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "red-bay",
@@ -11986,7 +13046,17 @@
       "blurb": "A Basque whaling station on the Labrador shore, worked from the 1530s and the largest whale oil producer in the world for most of that century. Then it was forgotten so completely that its location was only rediscovered from a Spanish archive in 1977.",
       "fun_fact": "A galleon believed to be the San Juan, sunk here in 1565, lies in 10 m of water and is the best-preserved sixteenth-century ship ever found. Its image is on the Canadian archaeology profession's logo.",
       "hidden_gem_tip": "A chalupa — an eight-metre whaleboat recovered whole from under the galleon — is displayed here. It is the oldest surviving small craft in the Americas and it looks entirely usable.",
-      "search_name": "Red Bay Labrador Basque whaling"
+      "search_name": "Red Bay Labrador Basque whaling",
+      "monuments": [
+        {
+          "name": "Labrador",
+          "yt": "6KyxIzRPlgk",
+          "start": 0,
+          "source": "auto",
+          "title": "Red Bay, Labrador – 2023 – GoPro 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "terra-nova",
@@ -12029,7 +13099,33 @@
       ],
       "blurb": "Newfoundland's first national park, on the sheltered fjords of Bonavista Bay — boreal forest, bog and long inlets where the sea reaches far enough inland that the water is calm and warm enough to paddle.",
       "fun_fact": "Newman Sound is where scientists documented the collapse of juvenile cod stocks through the 1990s. Long-term monitoring here produced some of the clearest data on the moratorium's effects.",
-      "hidden_gem_tip": "The Outport Trail runs 40 km along the sound past the sites of resettled communities — cellar holes and lilac bushes where houses were, all of it emptied between 1954 and 1975."
+      "hidden_gem_tip": "The Outport Trail runs 40 km along the sound past the sites of resettled communities — cellar holes and lilac bushes where houses were, all of it emptied between 1954 and 1975.",
+      "monuments": [
+        {
+          "name": "Bonavista Bay",
+          "yt": "U5hyrU0aK4k",
+          "start": 0,
+          "source": "auto",
+          "title": "Tickle Cove, Bonavista Bay",
+          "height": 1080
+        },
+        {
+          "name": "Newman Sound",
+          "yt": "jfDNbZdHp5Q",
+          "start": 0,
+          "source": "auto",
+          "title": "Newman Sound Campground / Terra Nova Park |NL Adventures|",
+          "height": 1080
+        },
+        {
+          "name": "Glovertown",
+          "yt": "nzkcwk7-Lv0",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Virtual Hike - Ken Diamond Park Trail - Glovertown, Newfoundland and Labrador",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "whitehorse",
@@ -12077,7 +13173,33 @@
       "blurb": "The territorial capital and by far the largest town in the north — 28,000 people, three quarters of everyone in the Yukon, on a bend of the Yukon River between two escarpments.",
       "fun_fact": "It has the least air pollution of any city in the world according to the Guinness records, and it is dry enough to be classed as subarctic semi-desert. It gets less precipitation than Phoenix.",
       "hidden_gem_tip": "Aurora season runs from late August to April here, and the Whitehorse latitude sits directly under the auroral oval. Drive twenty minutes out of town for a dark horizon and wait.",
-      "search_name": "Whitehorse Yukon"
+      "search_name": "Whitehorse Yukon",
+      "monuments": [
+        {
+          "name": "SS Klondike",
+          "yt": "V66ZosNOEP8",
+          "start": 0,
+          "source": "auto",
+          "title": "S.S. Klondike National Historic Site (inside)",
+          "height": 4050
+        },
+        {
+          "name": "Miles Canyon",
+          "yt": "LXOr2c14NgQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Miles Canyon Hike | Whitehorse, Yukon| Spectacular 4K Aerial Views",
+          "height": 2160
+        },
+        {
+          "name": "Yukon River",
+          "yt": "Gv1hnmgVVLk",
+          "start": 0,
+          "source": "auto",
+          "title": "YUKON RIVER TR!P -  LONG 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "kluane",
@@ -12125,7 +13247,33 @@
       ],
       "blurb": "The largest non-polar icefield on Earth, filling most of a park of 22,000 km², with the highest mountains in Canada standing out of it. Almost none of it is reachable on foot — you fly over it or you do not see it.",
       "fun_fact": "Kluane joins three adjacent parks across the Alaska and British Columbia borders to form the largest protected area in the world — 98,000 km² of continuous wilderness under one UNESCO listing.",
-      "hidden_gem_tip": "The flightseeing out of Haines Junction is expensive and it is the whole point of coming. From the road you see the front ranges only; the icefield behind them is invisible from the ground."
+      "hidden_gem_tip": "The flightseeing out of Haines Junction is expensive and it is the whole point of coming. From the road you see the front ranges only; the icefield behind them is invisible from the ground.",
+      "monuments": [
+        {
+          "name": "Mount Logan",
+          "yt": "VEjoHAMYUjs",
+          "start": 0,
+          "source": "auto",
+          "title": "Mount Logan Expedition | 18 Days of Survival in Arctic Cold (-40 °C, Ski Touring & Climbing)",
+          "height": 2160
+        },
+        {
+          "name": "Kluane Lake",
+          "yt": "qbvXbME7uAY",
+          "start": 0,
+          "source": "auto",
+          "title": "Kluane Lake Island | Yukon Territory",
+          "height": 2160
+        },
+        {
+          "name": "Haines Junction",
+          "yt": "nqu5aCxJf-w",
+          "start": 0,
+          "source": "auto",
+          "title": "HAINES, ALASKA to HAINES JUNCTION, YUKON CANADA – 4K (Ultra HD) Scenic Driving Tour",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "mount-logan",
@@ -12169,7 +13317,25 @@
       ],
       "blurb": "Canada's highest mountain at 5,959 m, and the largest mountain on Earth by base circumference — a massif with eleven peaks over 5,000 m on one continuous plateau, all of it under permanent ice.",
       "fun_fact": "The lowest temperature ever recorded outside Antarctica was −77.5°C, measured on Logan's plateau in May 1991. The mountain is also still growing, pushed up by tectonic uplift.",
-      "hidden_gem_tip": "It is named for William Logan, founder of the Geological Survey of Canada. There was a serious 2000 proposal to rename it for Pierre Trudeau; Yukoners objected so loudly it was withdrawn in weeks."
+      "hidden_gem_tip": "It is named for William Logan, founder of the Geological Survey of Canada. There was a serious 2000 proposal to rename it for Pierre Trudeau; Yukoners objected so loudly it was withdrawn in weeks.",
+      "monuments": [
+        {
+          "name": "Kluane National Park",
+          "yt": "5JNvYLHyrk8",
+          "start": 0,
+          "source": "auto",
+          "title": "One Day in KLUANE National Park (Yukon)",
+          "height": 2160
+        },
+        {
+          "name": "Saint Elias Mountains",
+          "yt": "YspKpFSWelY",
+          "start": 0,
+          "source": "auto",
+          "title": "Mount Saint Elias | Mountains Of The World",
+          "height": 720
+        }
+      ]
     },
     {
       "id": "tombstone",
@@ -12217,7 +13383,25 @@
       ],
       "blurb": "Black granite spires above tundra on the Dempster Highway, 2,200 km² of permafrost landscape that the ice sheets never covered — so the plants and animals here have been continuous since before the last glaciation.",
       "fun_fact": "This was part of Beringia, the unglaciated refuge connecting Alaska to Siberia. Species survived here that were wiped out everywhere else in North America, and some are found nowhere else today.",
-      "hidden_gem_tip": "Late August into the first week of September, the tundra turns red and orange and the whole valley changes colour in about ten days. It is the single best time to be on the Dempster."
+      "hidden_gem_tip": "Late August into the first week of September, the tundra turns red and orange and the whole valley changes colour in about ten days. It is the single best time to be on the Dempster.",
+      "monuments": [
+        {
+          "name": "Dempster Highway",
+          "yt": "TIZ02TV_8uI",
+          "start": 0,
+          "source": "auto",
+          "title": "Attempting to Hike Grizzly Ridge in Tombstone Territorial Park, Yukon (On the Dempster Highway)",
+          "height": 1080
+        },
+        {
+          "name": "Dawson City",
+          "yt": "S4tdV4D8X8c",
+          "start": 0,
+          "source": "auto",
+          "title": "Snowy Walk in DAWSON CITY | YUKON.  City sounds, Nature sounds, Snow Fall | AMSR",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "dempster-highway",
@@ -12265,7 +13449,33 @@
       ],
       "blurb": "Seven hundred and thirty-six kilometres of gravel from near Dawson City to Inuvik, the only public road in Canada that crosses the Arctic Circle, with one service station in the middle at kilometre 369.",
       "fun_fact": "The road is built on a two-metre gravel berm because laying it directly on the ground would melt the permafrost underneath and the road would sink. The berm is insulation, not foundation.",
-      "hidden_gem_tip": "Carry two full-size spares. Shale on the surface cuts sidewalls and there is no help between Eagle Plains and either end — that is not a colourful warning, it is the standard advice from the territorial government."
+      "hidden_gem_tip": "Carry two full-size spares. Shale on the surface cuts sidewalls and there is no help between Eagle Plains and either end — that is not a colourful warning, it is the standard advice from the territorial government.",
+      "monuments": [
+        {
+          "name": "Tombstone Territorial Park",
+          "yt": "Fvub1NF-0EA",
+          "start": 0,
+          "source": "auto",
+          "title": "Robin and Ruby: Dempster Highway, Tombstone Territorial Park to Elephant Rock, Yukon, June 12, 2019",
+          "height": 1080
+        },
+        {
+          "name": "Fort McPherson",
+          "yt": "VYGnwMus3o0",
+          "start": 0,
+          "source": "auto",
+          "title": "We went to the ARCTIC CIRCLE! Fort McPherson NWT",
+          "height": 1080
+        },
+        {
+          "name": "Eagle Plains",
+          "yt": "mSet6Z9JDY0",
+          "start": 0,
+          "source": "auto",
+          "title": "DEMPSTER HIGHWAY - FROM EAGLE PLAINS TO INUVIK   SEPTEMBER 2, 2023 - 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "carcross",
@@ -12312,7 +13522,33 @@
       ],
       "blurb": "A village of 300 at a narrows between two lakes, named for the caribou that used to cross there, with a boardwalk of gold-rush-era buildings and Tlingit carvings — and a desert beside it.",
       "fun_fact": "The Carcross Desert is about a square kilometre of sand — the bed of a glacial lake, kept bare by wind off the lake. It is often called the world's smallest desert, though it is not technically a desert at all.",
-      "hidden_gem_tip": "Emerald Lake, 15 minutes north on the highway, gets its colour from marl on the shallow bottom reflecting light. It is worth the stop and there is a pull-off."
+      "hidden_gem_tip": "Emerald Lake, 15 minutes north on the highway, gets its colour from marl on the shallow bottom reflecting light. It is worth the stop and there is a pull-off.",
+      "monuments": [
+        {
+          "name": "Carcross Desert",
+          "yt": "DfvaYQMYoWE",
+          "start": 0,
+          "source": "auto",
+          "title": "Exploring the World's Smallest Desert! 🏜️ Skagway to Carcross (4K)",
+          "height": 2160
+        },
+        {
+          "name": "Bennett Lake",
+          "yt": "WxT80dKNs_s",
+          "start": 0,
+          "source": "auto",
+          "title": "Lake Bennett | Northern Territory",
+          "height": 1080
+        },
+        {
+          "name": "Emerald Lake",
+          "yt": "H4apmuefN2M",
+          "start": 0,
+          "source": "auto",
+          "title": "Dyea Dave Emerald Lake Tour",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "haines-junction",
@@ -12360,7 +13596,33 @@
       ],
       "blurb": "A village of 600 where the Haines Highway meets the Alaska Highway, directly under the front ranges of the St. Elias — the base for Kluane and the last real services before a long way in any direction.",
       "fun_fact": "The village exists because of the Alaska Highway, thrown across 2,700 km of wilderness by the US Army in eight months in 1942 after Pearl Harbor. Whole communities in the Yukon were founded by that construction camp chain.",
-      "hidden_gem_tip": "The bakery here is genuinely famous in a territory where that means something, and it is where the flightseeing pilots eat. Ask them about the weather over the icefield before you book."
+      "hidden_gem_tip": "The bakery here is genuinely famous in a territory where that means something, and it is where the flightseeing pilots eat. Ask them about the weather over the icefield before you book.",
+      "monuments": [
+        {
+          "name": "Kluane National Park",
+          "yt": "zl65TJm4ccw",
+          "start": 0,
+          "source": "auto",
+          "title": "Kluane National Park, Yukon Territory (Canada) [4K UHD]",
+          "height": 2160
+        },
+        {
+          "name": "Kluane Lake",
+          "yt": "49kmUHMO8wE",
+          "start": 0,
+          "source": "auto",
+          "title": "Drone Kluane Lake, Canada | Yukon Territories",
+          "height": 2160
+        },
+        {
+          "name": "Haines Highway",
+          "yt": "GHhZASmbO9g",
+          "start": 0,
+          "source": "auto",
+          "title": "The North | Episode 7 | Exploring the Alaskan and Haines Highways",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "kluane-lake",
@@ -12407,7 +13669,33 @@
       ],
       "blurb": "The largest lake in the Yukon, 400 km², turquoise from glacial flour, with the Alaska Highway running along its shore for 60 km and mountains standing straight out of the far side.",
       "fun_fact": "In 2016 the Slims River, which fed this lake, stopped — the Kaskawulsh Glacier retreated past a divide and its meltwater switched to a different ocean in a matter of days. It was the first observed case of modern river piracy.",
-      "hidden_gem_tip": "Sheep Mountain at the south end has Dall sheep on it, white against grey rock, visible from the highway pull-off with binoculars most of the year."
+      "hidden_gem_tip": "Sheep Mountain at the south end has Dall sheep on it, white against grey rock, visible from the highway pull-off with binoculars most of the year.",
+      "monuments": [
+        {
+          "name": "Kluane National Park",
+          "yt": "zl65TJm4ccw",
+          "start": 0,
+          "source": "auto",
+          "title": "Kluane National Park, Yukon Territory (Canada) [4K UHD]",
+          "height": 2160
+        },
+        {
+          "name": "Destruction Bay",
+          "yt": "hI7QFBrR3R0",
+          "start": 0,
+          "source": "auto",
+          "title": "Ep57 4K  Carcross Yukon, Alcan Hwy, Destruction Bay, Kluane, Haines Jct Whitehorse, Klondike Hwy",
+          "height": 2160
+        },
+        {
+          "name": "Sheep Mountain",
+          "yt": "Ge5hbg0AA4k",
+          "start": 0,
+          "source": "auto",
+          "title": "Sheep Mountain | Kluane National Park, Yukon Territory",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "watson-lake",
@@ -12452,7 +13740,33 @@
       "blurb": "The first Yukon town on the Alaska Highway coming from the south, notable almost entirely for a forest of signposts — over 100,000 stolen and donated place-name signs nailed to poles by passing travellers.",
       "fun_fact": "It was started in 1942 by a homesick US Army GI named Carl Lindley, who put up a sign pointing to Danville, Illinois while recovering from an injury. People have been adding to it ever since.",
       "hidden_gem_tip": "Bring your own sign if you want to add one, or make one at the visitor centre. Taking a road sign off a post to bring here is the tradition and is also theft.",
-      "search_name": "Watson Lake Yukon sign post forest"
+      "search_name": "Watson Lake Yukon sign post forest",
+      "monuments": [
+        {
+          "name": "Sign Post Forest",
+          "yt": "JU3m9kmDj8E",
+          "start": 0,
+          "source": "auto",
+          "title": "Making Our Mark! 🪧 Watson Lake Sign Post Forest & Liard Hot Springs (4K)",
+          "height": 2160
+        },
+        {
+          "name": "Alaska Highway",
+          "yt": "qGq09dN4HD4",
+          "start": 0,
+          "source": "auto",
+          "title": "Watson Lake - The Gateway to the YUKON Canada - Alaska Highway",
+          "height": 2160
+        },
+        {
+          "name": "Liard River",
+          "yt": "zJfzz0ajTMY",
+          "start": 0,
+          "source": "auto",
+          "title": "Liard River Hot Springs Provincial Park",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "top-of-the-world-highway",
@@ -12496,7 +13810,25 @@
       ],
       "blurb": "A gravel road running along the ridgelines west from Dawson City to Alaska, above the treeline nearly the whole way, so you drive with the country falling away on both sides for 100 km.",
       "fun_fact": "Poker Creek at the far end is the northernmost land border crossing between Canada and the United States. It is open five months a year, closes at 8 p.m., and the officers live on site because there is nowhere else.",
-      "hidden_gem_tip": "You reach it by free ferry across the Yukon River at Dawson, which runs 24 hours in summer and stops entirely at freeze-up. Confirm border hours before you commit — the two time zones catch people out."
+      "hidden_gem_tip": "You reach it by free ferry across the Yukon River at Dawson, which runs 24 hours in summer and stops entirely at freeze-up. Confirm border hours before you commit — the two time zones catch people out.",
+      "monuments": [
+        {
+          "name": "Dawson City",
+          "yt": "TtcAFH3VkGs",
+          "start": 0,
+          "source": "auto",
+          "title": "Dawson City to US Border Crossing on The Top of the World Highway June 2023   4K",
+          "height": 2160
+        },
+        {
+          "name": "Yukon River",
+          "yt": "GRLpaPXl7uQ",
+          "start": 0,
+          "source": "auto",
+          "title": "YUKON LAKES and RIVER walk. Relax and Meditate | 5K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "bonanza-creek",
@@ -12544,7 +13876,33 @@
       ],
       "blurb": "The creek where gold was found in August 1896, starting the Klondike stampede. The valley floor is still covered in the gravel ridges left by dredges, kilometres of them, like a ploughed field the size of a town.",
       "fun_fact": "Skookum Jim, Dawson Charlie and George Carmack made the discovery. It was almost certainly Skookum Jim who saw it first, but Carmack — the only white man of the three — filed the claim, because it was thought a Tagish claim would not be honoured.",
-      "hidden_gem_tip": "Dredge No. 4 is eight storeys of wooden gold dredge sitting in its own pond, the largest ever used in North America. You can go inside it, and free panning is allowed at Claim 6 downstream."
+      "hidden_gem_tip": "Dredge No. 4 is eight storeys of wooden gold dredge sitting in its own pond, the largest ever used in North America. You can go inside it, and free panning is allowed at Claim 6 downstream.",
+      "monuments": [
+        {
+          "name": "Klondike",
+          "yt": "uwwROPiaLPY",
+          "start": 0,
+          "source": "auto",
+          "title": "Dawson City Yukon | Home of the Klondike Gold Rush [4K UHD]",
+          "height": 2160
+        },
+        {
+          "name": "Dawson City",
+          "yt": "m7u2pSStq8o",
+          "start": 0,
+          "source": "auto",
+          "title": "Driving around Dawson City, Yukon",
+          "height": 2160
+        },
+        {
+          "name": "Dredge No. 4",
+          "yt": "6F8ZUH9mOVk",
+          "start": 0,
+          "source": "auto",
+          "title": "Dredge No. 4 near Dawson City, Yukon",
+          "height": 4050
+        }
+      ]
     },
     {
       "id": "herschel-island",
@@ -12636,7 +13994,17 @@
       ],
       "blurb": "The first national park in Canada created through an Indigenous land claim, protecting the calving grounds of the Porcupine caribou herd on the Arctic coast — 10,000 km² with no facilities of any kind.",
       "fun_fact": "Ivvavik means a place for giving birth in Inuvialuktun. The Porcupine herd numbers around 200,000 animals and makes the longest land migration of any mammal on Earth — up to 4,800 km a year.",
-      "hidden_gem_tip": "Parks Canada runs a small base camp on the Firth River for a few weeks each July, flown in from Inuvik. It is one of the few guided ways into the Arctic National Wildlife Refuge landscape."
+      "hidden_gem_tip": "Parks Canada runs a small base camp on the Firth River for a few weeks each July, flown in from Inuvik. It is one of the few guided ways into the Arctic National Wildlife Refuge landscape.",
+      "monuments": [
+        {
+          "name": "Firth River",
+          "yt": "LwqseBi77-Q",
+          "start": 0,
+          "source": "auto",
+          "title": "🐻 Grizzly Bear along the Arctic's Firth River 🏞️",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "old-crow",
@@ -12680,7 +14048,25 @@
       ],
       "blurb": "The Yukon's only fly-in community and its northernmost, 250 people on the Porcupine River above the Arctic Circle. The Vuntut Gwitchin have lived on this river for thousands of years and still take caribou from the herd that passes it.",
       "fun_fact": "The Old Crow Flats nearby held some of the oldest evidence of humans in North America — bone tools from Bluefish Caves nearby have been dated to 24,000 years ago, twice as old as most of the continent's accepted record.",
-      "hidden_gem_tip": "There is no road and never has been. The village solar farm, built in 2021, cut its diesel use by a quarter — the largest such project in the Canadian Arctic and it is community-owned."
+      "hidden_gem_tip": "There is no road and never has been. The village solar farm, built in 2021, cut its diesel use by a quarter — the largest such project in the Canadian Arctic and it is community-owned.",
+      "monuments": [
+        {
+          "name": "Porcupine River",
+          "yt": "Pl7y9lkapkE",
+          "start": 0,
+          "source": "auto",
+          "title": "Chipman & Porcupine River Canoe Trip",
+          "height": 2160
+        },
+        {
+          "name": "Old Crow Flats",
+          "yt": "m9SfntMkty8",
+          "start": 0,
+          "source": "auto",
+          "title": "How Climate Change is Affecting Old Crow Flats (Northern Yukon)",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "yellowknife",
@@ -12727,7 +14113,33 @@
       ],
       "blurb": "The territorial capital, 20,000 people on the north shore of Great Slave Lake, built on bare Precambrian rock around a gold mine and now living off diamonds, government and the northern lights.",
       "fun_fact": "Yellowknife sits directly beneath the auroral oval and has a dry cold clear climate, which is why it is considered one of the best places on Earth to see the aurora. Visitors come from Japan in chartered planes for it.",
-      "hidden_gem_tip": "Old Town, out on the point, is houseboats, float planes and the Wildcat Café. Climb the Bush Pilots' Monument on the rock above it for the whole bay at once."
+      "hidden_gem_tip": "Old Town, out on the point, is houseboats, float planes and the Wildcat Café. Climb the Bush Pilots' Monument on the rock above it for the whole bay at once.",
+      "monuments": [
+        {
+          "name": "Great Slave Lake",
+          "yt": "DGrn-kB0RLc",
+          "start": 0,
+          "source": "auto",
+          "title": "Aerial View for Great Slave Lake at Yellowknife Jan 10,2019",
+          "height": 2160
+        },
+        {
+          "name": "Old Town",
+          "yt": "Nc8lYFlDfd8",
+          "start": 0,
+          "source": "auto",
+          "title": "Yellowknife's Old Town drive",
+          "height": 2160
+        },
+        {
+          "name": "Ingraham Trail",
+          "yt": "7uU4KcN495I",
+          "start": 0,
+          "source": "auto",
+          "title": "Yellowknife - Dettah - Ingraham Trail - Aerial View",
+          "height": 3840
+        }
+      ]
     },
     {
       "id": "great-slave-lake",
@@ -12774,7 +14186,33 @@
       ],
       "blurb": "The deepest lake in North America at 614 m, and the tenth largest in the world — big enough to hold its own weather, frozen solid for eight months, and the source of the Mackenzie River.",
       "fun_fact": "The ice road across the lake to Dettah used to be a public winter highway and is still driven. On the arms of the lake, heavy trucks run ice roads north to the diamond mines for about nine weeks a year.",
-      "hidden_gem_tip": "The East Arm, now Thaidene Nëné, is a different lake entirely — cliffs, islands and clear water over rock, as opposed to the flat shallow south shore. Fly-in from Yellowknife."
+      "hidden_gem_tip": "The East Arm, now Thaidene Nëné, is a different lake entirely — cliffs, islands and clear water over rock, as opposed to the flat shallow south shore. Fly-in from Yellowknife.",
+      "monuments": [
+        {
+          "name": "Yellowknife",
+          "yt": "DGrn-kB0RLc",
+          "start": 0,
+          "source": "auto",
+          "title": "Aerial View for Great Slave Lake at Yellowknife Jan 10,2019",
+          "height": 2160
+        },
+        {
+          "name": "Hay River",
+          "yt": "Oxu37qB2jIY",
+          "start": 0,
+          "source": "auto",
+          "title": "The Jet Set - 1986 Jet Boat Race Hay River",
+          "height": 720
+        },
+        {
+          "name": "East Arm",
+          "yt": "9g9Yqa4cW4Q",
+          "start": 0,
+          "source": "auto",
+          "title": "Canoe Trip on the East Arm of Great Slave Lake | Thaidene Nene National Park",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "nahanni",
@@ -12822,7 +14260,33 @@
       ],
       "blurb": "A river that is older than the mountains it runs through — the South Nahanni was there first and cut down as they rose around it, leaving four canyons over 1,000 m deep with the river still at the bottom.",
       "fun_fact": "Nahanni was one of the first four sites inscribed on the UNESCO World Heritage List in 1978, alongside the Galápagos. There was no road to it then and there is none now.",
-      "hidden_gem_tip": "Virginia Falls is twice the height of Niagara with a rock spire splitting the flow. Most people see it on a float-plane day trip from Fort Simpson; the full river takes three weeks by canoe."
+      "hidden_gem_tip": "Virginia Falls is twice the height of Niagara with a rock spire splitting the flow. Most people see it on a float-plane day trip from Fort Simpson; the full river takes three weeks by canoe.",
+      "monuments": [
+        {
+          "name": "Virginia Falls",
+          "yt": "JxV760IGDJY",
+          "start": 0,
+          "source": "auto",
+          "title": "The Marvelous Virginia Falls – Start of the South Nahanni River Adventure (NWT, Canada)",
+          "height": 2160
+        },
+        {
+          "name": "South Nahanni River",
+          "yt": "eQe2UzrD4OY",
+          "start": 0,
+          "source": "auto",
+          "title": "The South Nahanni River by Canoe: Into the Land of Dreams",
+          "height": 1080
+        },
+        {
+          "name": "Fort Simpson",
+          "yt": "4Kl281FdViM",
+          "start": 0,
+          "source": "auto",
+          "title": "【K】Canada Travel-Fort Simpson[캐나다 여행-포트심슨]버지니아 폭포/Nahanni National Park/Virginia Falls/Lake",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "virginia-falls",
@@ -12866,7 +14330,25 @@
       ],
       "blurb": "Ninety-six metres of the South Nahanni going over a ledge in the middle of a roadless mountain range, split in two by a spire of rock called Mason's Rock. Twice the drop of Niagara and about a thousand times less visited.",
       "fun_fact": "Its Dene name is Nailicho. The spire is named for Bill Mason, the canoeist and filmmaker whose work made this river famous to a generation of Canadians.",
-      "hidden_gem_tip": "The portage trail around it is 1.4 km and canoeists carry everything down it. The boardwalk to the lip is short, and standing at the brink you can feel the deck move."
+      "hidden_gem_tip": "The portage trail around it is 1.4 km and canoeists carry everything down it. The boardwalk to the lip is short, and standing at the brink you can feel the deck move.",
+      "monuments": [
+        {
+          "name": "South Nahanni River",
+          "yt": "JxV760IGDJY",
+          "start": 0,
+          "source": "auto",
+          "title": "The Marvelous Virginia Falls – Start of the South Nahanni River Adventure (NWT, Canada)",
+          "height": 2160
+        },
+        {
+          "name": "Nahanni National Park",
+          "yt": "46nUpSYFTIU",
+          "start": 0,
+          "source": "auto",
+          "title": "Exploring the Mystique of Nahanni National Park: A Canadian Gem",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "great-bear-lake",
@@ -12910,7 +14392,17 @@
       ],
       "blurb": "The largest lake entirely inside Canada and the eighth largest in the world, straddling the Arctic Circle. Ice covers it into July, the water is nearly sterile with cold, and about 500 people live on its shore.",
       "fun_fact": "Port Radium on the east shore mined the uranium used in the Manhattan Project. Dene men carried the ore in sacks on their backs, and the community of Déline later sent a delegation to Hiroshima to apologise, not knowing what they had carried.",
-      "hidden_gem_tip": "The lake trout here grow enormous because the water is so cold they take decades to mature — the world record came out of this lake. Everything is catch and release now."
+      "hidden_gem_tip": "The lake trout here grow enormous because the water is so cold they take decades to mature — the world record came out of this lake. Everything is catch and release now.",
+      "monuments": [
+        {
+          "name": "Déline",
+          "yt": "R7B0zs0xi6M",
+          "start": 0,
+          "source": "auto",
+          "title": "GREAT BEAR LAKE -大熊湖- DELINE DRONE VIDEO",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "inuvik",
@@ -12958,7 +14450,33 @@
       ],
       "blurb": "A planned town of 3,200 built in the 1950s on the Mackenzie Delta, 200 km above the Arctic Circle — the first community in the Canadian north designed as a town rather than grown from a trading post.",
       "fun_fact": "Every building sits on pilings driven into permafrost, and all the water, sewage and heating runs above ground in insulated boxes called utilidors. Burying them would thaw the ground and the town would sink.",
-      "hidden_gem_tip": "The sun does not set for 56 days from late May. The Igloo Church, built dome-shaped by a priest with no architectural training, is the town's landmark and the interior is worth asking to see."
+      "hidden_gem_tip": "The sun does not set for 56 days from late May. The Igloo Church, built dome-shaped by a priest with no architectural training, is the town's landmark and the interior is worth asking to see.",
+      "monuments": [
+        {
+          "name": "Igloo Church",
+          "yt": "6dsGcH56A3w",
+          "start": 0,
+          "source": "auto",
+          "title": "Inuvik Christmas Concert at the Igloo Church 2021",
+          "height": 1080
+        },
+        {
+          "name": "Dempster Highway",
+          "yt": "qBnsPYj4Lu4",
+          "start": 0,
+          "source": "auto",
+          "title": "We DROVE to the ARCTIC OCEAN! (Driving the Dempster Highway to Tuktoyaktuk in Canada)",
+          "height": 2160
+        },
+        {
+          "name": "Tuktoyaktuk",
+          "yt": "OpyMG8PycK0",
+          "start": 0,
+          "source": "auto",
+          "title": "INUVIK TO TUKTOYAKTUK AND BACK   SEPTEMBER 5 AND 6, 2023   4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "tuktoyaktuk",
@@ -13005,7 +14523,25 @@
       ],
       "blurb": "An Inuvialuit hamlet of 900 on the Arctic Ocean, and since 2017 the end of the only road in Canada that reaches the Arctic coast. Before that, the highway was a river of ice each winter.",
       "fun_fact": "There are about 1,350 pingos around Tuk — ice-cored hills pushed up out of the flat delta, some 50 m high. It is a quarter of all the pingos on Earth, and eight of them are a national landmark.",
-      "hidden_gem_tip": "Dipping a hand in the Arctic Ocean at the end of the road is the local ritual and there is a sign for it. The community charges a small fee for visitors, which goes to the hamlet."
+      "hidden_gem_tip": "Dipping a hand in the Arctic Ocean at the end of the road is the local ritual and there is a sign for it. The community charges a small fee for visitors, which goes to the hamlet.",
+      "monuments": [
+        {
+          "name": "Beaufort Sea",
+          "yt": "wyT7BwHfeMs",
+          "start": 0,
+          "source": "auto",
+          "title": "Kigoriak Ice Breaker in the Beaufort Sea (Tuktoyaktuk)",
+          "height": 720
+        },
+        {
+          "name": "Inuvik",
+          "yt": "OpyMG8PycK0",
+          "start": 0,
+          "source": "auto",
+          "title": "INUVIK TO TUKTOYAKTUK AND BACK   SEPTEMBER 5 AND 6, 2023   4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "fort-smith",
@@ -13049,7 +14585,33 @@
       "blurb": "A town of 2,500 on the Slave River at the Alberta border, founded where four sets of rapids forced everything going north to be portaged. The headquarters for Wood Buffalo, the largest national park in Canada.",
       "fun_fact": "White pelicans nest on rocks in the middle of the rapids here — the most northerly colony in the world, 1,200 km from any other. They fly upstream to fish and come back through whitewater.",
       "hidden_gem_tip": "The Rapids of the Drowned are named for five men who died running them in 1786. There is a viewing platform in town, and the pelicans are visible from it with binoculars all summer.",
-      "search_name": "Fort Smith Northwest Territories"
+      "search_name": "Fort Smith Northwest Territories",
+      "monuments": [
+        {
+          "name": "Wood Buffalo National Park",
+          "yt": "1HrByecC16s",
+          "start": 0,
+          "source": "auto",
+          "title": "Wood Buffalo National Park. Amazing Nature of Canada",
+          "height": 1080
+        },
+        {
+          "name": "Slave River",
+          "yt": "5ep46m391NQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Slave River, The Last Bath",
+          "height": 1080
+        },
+        {
+          "name": "Rapids of the Drowned",
+          "yt": "emwJgQqjabs",
+          "start": 0,
+          "source": "auto",
+          "title": "Rapids of the drowned -The morning-",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "hay-river",
@@ -13096,7 +14658,33 @@
       "blurb": "The hub of the north, on the south shore of Great Slave Lake — where the railway ends and the barges start, carrying everything that goes down the Mackenzie to the Arctic coast in the twelve weeks the river is open.",
       "fun_fact": "The town has the longest ice-free season and the warmest summers in the territory, and grows a surprising amount of its own food. It also has the NWT's only commercial fishery.",
       "hidden_gem_tip": "Alexandra Falls, half an hour south, drops 32 m into a limestone gorge you can walk down into. Twin Falls Gorge has two waterfalls and a trail between them, and almost nobody stops.",
-      "search_name": "Hay River Northwest Territories"
+      "search_name": "Hay River Northwest Territories",
+      "monuments": [
+        {
+          "name": "Great Slave Lake",
+          "yt": "cdWl0i_nWs4",
+          "start": 0,
+          "source": "auto",
+          "title": "Great Slave Lake 101 - How Big Is The Great Slave Lake Actually?",
+          "height": 1080
+        },
+        {
+          "name": "Alexandra Falls",
+          "yt": "PksERMRc_1U",
+          "start": 0,
+          "source": "auto",
+          "title": "Alexandra Falls and the Dehcho Bridge in the Northwest Territories",
+          "height": 2160
+        },
+        {
+          "name": "Twin Falls Gorge Territorial Park",
+          "yt": "b4QLgE0YPQQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Twin Falls Gorge Territorial Park (Alexandra & Louise Falls) Northwest Territories along Hway 1",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "norman-wells",
@@ -13140,7 +14728,17 @@
       ],
       "blurb": "An oil town of 700 on the Mackenzie River, where oil seeping out of the bank was known to the Dene long before a well was drilled in 1920 — the first oil field discovered in the Canadian north.",
       "fun_fact": "The Canol Project of 1942 built a pipeline and road 1,000 km from here over the Mackenzie Mountains to Whitehorse, at enormous cost. It operated for eleven months, then was abandoned where it stood.",
-      "hidden_gem_tip": "The Canol Heritage Trail follows the abandoned road and is one of the hardest long-distance hikes in North America — 355 km, no bridges, and rusting trucks still sitting on it."
+      "hidden_gem_tip": "The Canol Heritage Trail follows the abandoned road and is one of the hardest long-distance hikes in North America — 355 km, no bridges, and rusting trucks still sitting on it.",
+      "monuments": [
+        {
+          "name": "Mackenzie Mountains",
+          "yt": "KUrt4vcOsKA",
+          "start": 0,
+          "source": "auto",
+          "title": "Mackenzie Mountains exploration by helicopter Episode 31",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "thaidene-nene",
@@ -13184,7 +14782,17 @@
       ],
       "blurb": "Fourteen thousand square kilometres on the East Arm of Great Slave Lake — cliffs, deep clear water and the treeline running through the middle of it, where boreal forest gives out to tundra.",
       "fun_fact": "The name means land of the ancestors in Dënesųłıné. The Łutsel K'e Dene fought a national park here for forty years, then negotiated one they co-govern as equals — a model since copied elsewhere in Canada.",
-      "hidden_gem_tip": "Pethei Peninsula's cliffs rise 200 m straight out of the lake, and the water beneath them is clear to 30 m. Access is boat or float plane from Yellowknife."
+      "hidden_gem_tip": "Pethei Peninsula's cliffs rise 200 m straight out of the lake, and the water beneath them is clear to 30 m. Access is boat or float plane from Yellowknife.",
+      "monuments": [
+        {
+          "name": "Canadian Shield",
+          "yt": "RuZwrzeJ2Ks",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Hiking on the Canadian Shield",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "aulavik",
@@ -13232,7 +14840,17 @@
       ],
       "blurb": "Twelve thousand square kilometres of Arctic desert on northern Banks Island, with the northernmost navigable river in the world running through it and more muskoxen than anywhere else on Earth.",
       "fun_fact": "Banks Island holds roughly 68,000 muskoxen — about two thirds of the world population. In the park's river valley they are the commonest large animal you will see, in a landscape with no trees at all.",
-      "hidden_gem_tip": "Aulavik receives a handful of visitors a year, arriving by chartered Twin Otter from Inuvik. HMS Investigator, abandoned during the Franklin search, was found on the coast just outside the park in 2010."
+      "hidden_gem_tip": "Aulavik receives a handful of visitors a year, arriving by chartered Twin Otter from Inuvik. HMS Investigator, abandoned during the Franklin search, was found on the coast just outside the park in 2010.",
+      "monuments": [
+        {
+          "name": "Banks Island",
+          "yt": "K__lbu-xdZA",
+          "start": 0,
+          "source": "auto",
+          "title": "Canoeing Arctic Rivers: The Thomsen on Banks Island",
+          "height": 720
+        }
+      ]
     },
     {
       "id": "tuktut-nogait",
@@ -13276,7 +14894,25 @@
       ],
       "blurb": "Arctic tundra above the Amundsen Gulf, canyons cut 100 m into the plateau, and the calving grounds of the Bluenose West caribou herd. Established in 1996 at the request of the people of Paulatuk.",
       "fun_fact": "The name means young caribou in Inuvialuktun. The community insisted on protection here because the herd's calving ground was the one thing they could not afford to have disturbed — the park was their idea, not the government's.",
-      "hidden_gem_tip": "La Roncière Falls on the Hornaday drops into a red rock canyon and is the destination for most trips. Access is a charter from Paulatuk, 40 km away, and there are no facilities."
+      "hidden_gem_tip": "La Roncière Falls on the Hornaday drops into a red rock canyon and is the destination for most trips. Access is a charter from Paulatuk, 40 km away, and there are no facilities.",
+      "monuments": [
+        {
+          "name": "Paulatuk",
+          "yt": "EQbHsqA9y7s",
+          "start": 0,
+          "source": "auto",
+          "title": "Gravel Pit Road, Paulatuk NT",
+          "height": 1080
+        },
+        {
+          "name": "Hornaday River",
+          "yt": "pmmDbKH0qsE",
+          "start": 0,
+          "source": "auto",
+          "title": "Beautiful Nature | Canada | Hornaday River Canyon & Ronciere Fall in Tuktut Nogait National Park",
+          "height": 720
+        }
+      ]
     },
     {
       "id": "dettah",
@@ -13320,7 +14956,33 @@
       ],
       "blurb": "A Yellowknives Dene community of 250 across the bay from Yellowknife — 27 km by road around the shore, or 6.5 km straight across the ice in winter, which is how most people go.",
       "fun_fact": "The ice road to Dettah is one of the few public ice roads still maintained as a highway. It opens when the ice reaches about 70 cm, and warming winters have shortened its season by weeks.",
-      "hidden_gem_tip": "The name means burnt point in Wıìlıìdeh Yatıì. Go for the spring carnival on the ice — hand games, dog sledding and tea boiling contests, and it is open to everyone."
+      "hidden_gem_tip": "The name means burnt point in Wıìlıìdeh Yatıì. Go for the spring carnival on the ice — hand games, dog sledding and tea boiling contests, and it is open to everyone.",
+      "monuments": [
+        {
+          "name": "Yellowknife",
+          "yt": "z1mTtcm3xxY",
+          "start": 0,
+          "source": "auto",
+          "title": "NORTHWEST TERRITORIES - YELLOWKNIFE TO DETTAH ICE ROAD - 4K CINEMATIC",
+          "height": 2160
+        },
+        {
+          "name": "Great Slave Lake",
+          "yt": "xG71gYoKJxQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Boating & Fishing on Great Slave Lake | Did We Catch Anything? | Yellowknife | 4K",
+          "height": 2160
+        },
+        {
+          "name": "Ingraham Trail",
+          "yt": "m-QLVSg7l3g",
+          "start": 0,
+          "source": "auto",
+          "title": "Driving all of the Ingraham Trail (spring)",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "mackenzie-river",
@@ -13368,7 +15030,17 @@
       ],
       "blurb": "The longest river in Canada, 1,738 km from Great Slave Lake to the Arctic Ocean, draining a fifth of the country. Its delta is the second largest Arctic delta in the world, a maze of 25,000 lakes.",
       "fun_fact": "Alexander Mackenzie followed it to the sea in 1789 hoping it went to the Pacific. It did not, and he called it the River of Disappointment. The Dene name, Deh Cho, means big river, and is increasingly what it is called.",
-      "hidden_gem_tip": "The ferries at Tsiigehtchic and Fort Providence run only in open water, and the ice crossings only in deep winter. Freeze-up and break-up leave the north road-isolated for several weeks each way."
+      "hidden_gem_tip": "The ferries at Tsiigehtchic and Fort Providence run only in open water, and the ice crossings only in deep winter. Freeze-up and break-up leave the north road-isolated for several weeks each way.",
+      "monuments": [
+        {
+          "name": "Inuvik",
+          "yt": "zkVEPOqxCFY",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking the Boot Lake Trail | Inuvik - Canada 4K #hike",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "iqaluit",
@@ -13414,7 +15086,33 @@
       ],
       "blurb": "The capital of Nunavut and the smallest capital in Canada — 7,500 people at the head of Frobisher Bay on Baffin Island, with no road to anywhere else. Everything arrives by air or on the sealift in August.",
       "fun_fact": "Nunavut was created in 1999, the first change to Canada's map since Newfoundland joined in 1949. It covers a fifth of the country, has about 40,000 people, and is 84% Inuit.",
-      "hidden_gem_tip": "Frobisher Bay has a tidal range of 11 m, among the largest in the world, which is why the boats sit on mud half the day. Inuktitut is the working language here — Iqaluit means place of many fish."
+      "hidden_gem_tip": "Frobisher Bay has a tidal range of 11 m, among the largest in the world, which is why the boats sit on mud half the day. Inuktitut is the working language here — Iqaluit means place of many fish.",
+      "monuments": [
+        {
+          "name": "Frobisher Bay",
+          "yt": "gI3RlPpUSUI",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Video Boating at Frobisher Bay Iqaluit, Nunavut",
+          "height": 2160
+        },
+        {
+          "name": "Sylvia Grinnell Territorial Park",
+          "yt": "IW0WhW_JfT4",
+          "start": 0,
+          "source": "auto",
+          "title": "SYLVIA GRINNELL TERRITORIAL PARK - Part 1",
+          "height": 1080
+        },
+        {
+          "name": "Baffin Island",
+          "yt": "_ZsxxUx3Iqk",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Nature on the Ice Edge - Baffin Island Adventure with Music - 1 of 2",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "pangnirtung",
@@ -13460,7 +15158,33 @@
       ],
       "blurb": "A hamlet of 1,500 in a fjord on Baffin Island, mountains rising on both sides of the single road, and the gateway to Auyuittuq. Known throughout the Arctic for its printmakers and its tapestry studio.",
       "fun_fact": "Pangnirtung recorded a wind gust of 155 km/h in a valley that funnels the weather straight down onto the town. The local name for the phenomenon, and the general condition, is simply the Pang wind.",
-      "hidden_gem_tip": "The print shop has produced an annual collection since 1973 and the work is collected internationally. Prices at the co-op are a fraction of what the same print costs in a southern gallery."
+      "hidden_gem_tip": "The print shop has produced an annual collection since 1973 and the work is collected internationally. Prices at the co-op are a fraction of what the same print costs in a southern gallery.",
+      "monuments": [
+        {
+          "name": "Auyuittuq National Park",
+          "yt": "PGyUcuV4Roo",
+          "start": 0,
+          "source": "auto",
+          "title": "Auyuittuq National Park (Akshayuk Pass), Baffin Island- August 2022",
+          "height": 2160
+        },
+        {
+          "name": "Cumberland Sound",
+          "yt": "WrgOwJr7BLM",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking at Cumberland Falls in 4K | Ambient Forest & Waterfall Sounds",
+          "height": 2160
+        },
+        {
+          "name": "Mount Duval",
+          "yt": "yie3y5J-Edo",
+          "start": 0,
+          "source": "auto",
+          "title": "[4K] KEY WEST | Duval Street | 4K Relaxing Tropical Scenic Walking Tour with Binaural 🎧",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "auyuittuq",
@@ -13508,7 +15232,33 @@
       ],
       "blurb": "Granite walls and glaciers on Baffin Island, with a pass running 97 km through the middle of it that Inuit have used as a travel route for generations and that is now the only way across on foot.",
       "fun_fact": "Mount Thor has the greatest vertical drop on Earth — 1,250 m of granite overhanging at an average angle of 105 degrees. A dropped stone falls free the entire way.",
-      "hidden_gem_tip": "The name means the land that never melts. Crossing Akshayuk Pass takes eight to ten days, involves unbridged river fords that rise through the day, and requires a mandatory Parks Canada orientation."
+      "hidden_gem_tip": "The name means the land that never melts. Crossing Akshayuk Pass takes eight to ten days, involves unbridged river fords that rise through the day, and requires a mandatory Parks Canada orientation.",
+      "monuments": [
+        {
+          "name": "Mount Thor",
+          "yt": "7DRMrNlzfhA",
+          "start": 0,
+          "source": "auto",
+          "title": "Unique Thor's Cave in Peak District!  - Walking tour | 4K",
+          "height": 2160
+        },
+        {
+          "name": "Mount Asgard",
+          "yt": "v8Bs1KKTQFU",
+          "start": 0,
+          "source": "auto",
+          "title": "20 06 03 asgard and thor heads 4k",
+          "height": 2160
+        },
+        {
+          "name": "Akshayuk Pass",
+          "yt": "awpDv2fZmcs",
+          "start": 0,
+          "source": "auto",
+          "title": "Baffin Island - Akshayuk Pass",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "pond-inlet",
@@ -13556,7 +15306,33 @@
       ],
       "blurb": "An Inuit hamlet of 1,600 on northern Baffin Island looking across Eclipse Sound at the glaciers and bird cliffs of Bylot Island. Among the most spectacular settings of any community in Canada.",
       "fun_fact": "The floe edge — where landfast ice meets open water — forms offshore each spring and draws narwhal, beluga, bowhead, polar bears and seals to the same line. Guides take visitors out onto the ice to camp beside it.",
-      "hidden_gem_tip": "Mittimatalik is its Inuktitut name. Floe edge season is May and June and it is the single best wildlife experience in the Canadian Arctic — book with an outfitter from the community."
+      "hidden_gem_tip": "Mittimatalik is its Inuktitut name. Floe edge season is May and June and it is the single best wildlife experience in the Canadian Arctic — book with an outfitter from the community.",
+      "monuments": [
+        {
+          "name": "Bylot Island",
+          "yt": "AOGCKHKR5gA",
+          "start": 0,
+          "source": "auto",
+          "title": "Pond Inlet To Bylot Island Floe Edge, Nunavut Canada",
+          "height": 1080
+        },
+        {
+          "name": "Sirmilik National Park",
+          "yt": "AZW1FKzsI6k",
+          "start": 0,
+          "source": "auto",
+          "title": "Sirmilik National Park",
+          "height": 1080
+        },
+        {
+          "name": "Baffin Island",
+          "yt": "_ZsxxUx3Iqk",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Nature on the Ice Edge - Baffin Island Adventure with Music - 1 of 2",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "sirmilik",
@@ -13603,7 +15379,17 @@
       ],
       "blurb": "Twenty-two thousand square kilometres across Bylot Island and the Borden Peninsula — glaciers, hoodoos, and seabird cliffs holding one of the largest colonies of thick-billed murres and black-legged kittiwakes in the world.",
       "fun_fact": "The name means place of glaciers. Bylot Island's greater snow goose colony is among the largest anywhere, and the island has been a migratory bird sanctuary since 1965 — thirty years before the park existed.",
-      "hidden_gem_tip": "Oliver Sound is a 30 km fjord with no glacier at its head, so the water is calm and clear. It is a boat day trip from Pond Inlet in August and the least difficult way into the park."
+      "hidden_gem_tip": "Oliver Sound is a 30 km fjord with no glacier at its head, so the water is calm and clear. It is a boat day trip from Pond Inlet in August and the least difficult way into the park.",
+      "monuments": [
+        {
+          "name": "Pond Inlet",
+          "yt": "uEL5pqZmA1Y",
+          "start": 0,
+          "source": "auto",
+          "title": "Pond Inlet: The Arctic Circle's Hidden Paradise",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "kinngait",
@@ -13645,7 +15431,17 @@
       "blurb": "A hamlet of 1,400 on the south-west tip of Baffin Island, formerly Cape Dorset, and the centre of Inuit printmaking and carving — by some counts the highest proportion of working artists of any community on Earth.",
       "fun_fact": "Kenojuak Ashevak's 1960 print The Enchanted Owl was made here and became the most recognised piece of Inuit art in the world. It has been on a Canadian stamp, and the annual print collection from these studios has been issued since 1959.",
       "hidden_gem_tip": "Mallikjuaq, across a tidal flat you can walk at low tide, has Thule house rings and food caches a thousand years old sitting open on the tundra.",
-      "search_name": "Kinngait Cape Dorset Nunavut"
+      "search_name": "Kinngait Cape Dorset Nunavut",
+      "monuments": [
+        {
+          "name": "Kinngait Studios",
+          "yt": "D94ye8RnnIk",
+          "start": 0,
+          "source": "auto",
+          "title": "Virtual Tour: 'Printed Textiles from Kinngait Studios'",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "arctic-bay",
@@ -13689,7 +15485,25 @@
       ],
       "blurb": "A hamlet of 1,000 in a sheltered bay on Admiralty Inlet, the longest fjord in the world, with a flat-topped mountain called King George V behind it. Three months of continuous darkness each winter.",
       "fun_fact": "Ikpiarjuk means the pocket, for the way the hills wrap the bay. The narwhal population in Admiralty Inlet is one of the largest anywhere and passes close to the community each summer.",
-      "hidden_gem_tip": "The sun returns in early February and the community marks it. The abandoned mine town at Nanisivik, 30 km away, is being cleared for a naval refuelling facility — the Arctic's strategic geography, in one place."
+      "hidden_gem_tip": "The sun returns in early February and the community marks it. The abandoned mine town at Nanisivik, 30 km away, is being cleared for a naval refuelling facility — the Arctic's strategic geography, in one place.",
+      "monuments": [
+        {
+          "name": "Baffin Island",
+          "yt": "_ZsxxUx3Iqk",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Nature on the Ice Edge - Baffin Island Adventure with Music - 1 of 2",
+          "height": 2160
+        },
+        {
+          "name": "Nanisivik",
+          "yt": "cE2Dz8QhSxw",
+          "start": 0,
+          "source": "auto",
+          "title": "Arctic Bay/Nanisivik adventures July-August 2026",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "resolute",
@@ -13734,7 +15548,17 @@
       "blurb": "One of the most northerly communities in Canada, 200 people on Cornwallis Island at 74°N, and the staging point for almost every expedition heading further north — poles, ice camps and the high Arctic parks.",
       "fun_fact": "The community exists because of the High Arctic relocations of 1953, when Inuit families from northern Quebec were moved here to assert Canadian sovereignty. They were promised they could return and were not allowed to. Canada apologised in 2010.",
       "hidden_gem_tip": "Qausuittuq means the place with no dawn. The Canadian military's Arctic Training Centre is here, and so is the runway that everything going to the North Pole passes through.",
-      "search_name": "Resolute Bay Nunavut"
+      "search_name": "Resolute Bay Nunavut",
+      "monuments": [
+        {
+          "name": "Northwest Passage",
+          "yt": "mnTGi5RUuxo",
+          "start": 0,
+          "source": "auto",
+          "title": "YETI Presents | The Polar Passage: Surviving the Deadly Northwest Passage Ice Trap",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "grise-fiord",
@@ -13778,7 +15602,17 @@
       ],
       "blurb": "Canada's northernmost civilian community, 130 people at 76°N on Ellesmere Island, under a mountain wall on Jones Sound. Four months without sunrise, and average February temperatures near −40°C.",
       "fun_fact": "Its Inuktitut name, Aujuittuq, means the place that never thaws. It was founded by the same 1953 relocation as Resolute, in a spot the families were told resembled home. It did not.",
-      "hidden_gem_tip": "The community runs guided trips out to the floe edge and to the walrus haul-outs. Getting here means two flights from Iqaluit and the weather cancels a lot of them — build in days."
+      "hidden_gem_tip": "The community runs guided trips out to the floe edge and to the walrus haul-outs. Getting here means two flights from Iqaluit and the weather cancels a lot of them — build in days.",
+      "monuments": [
+        {
+          "name": "Ellesmere Island",
+          "yt": "YlcanULcv1g",
+          "start": 0,
+          "source": "auto",
+          "title": "ELLESMERE ISLAND Canada's Frozen Ghost Land",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "quttinirpaaq",
@@ -13825,7 +15659,17 @@
       ],
       "blurb": "The most northerly national park in the world, on the top of Ellesmere Island — 37,000 km² of polar desert, ice caps and mountains, and the second largest park in Canada.",
       "fun_fact": "Lake Hazen inside the park is a thermal oasis: mountains shelter it enough that summer temperatures reach 20°C, 800 km from the North Pole. Arctic hares, wolves and muskoxen live around it year-round.",
-      "hidden_gem_tip": "The name means top of the world. There are perhaps a few dozen visitors a year, all arriving by chartered Twin Otter from Resolute at very considerable expense."
+      "hidden_gem_tip": "The name means top of the world. There are perhaps a few dozen visitors a year, all arriving by chartered Twin Otter from Resolute at very considerable expense.",
+      "monuments": [
+        {
+          "name": "Ellesmere Island",
+          "yt": "YlcanULcv1g",
+          "start": 0,
+          "source": "auto",
+          "title": "ELLESMERE ISLAND Canada's Frozen Ghost Land",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "alert",
@@ -13870,7 +15714,33 @@
       "blurb": "The northernmost permanently inhabited place on Earth — a military signals station and weather observatory at 82.5°N, 817 km from the North Pole, staffed on rotation by about 60 people.",
       "fun_fact": "The sun sets in mid-October and does not rise again until early March. Alert has recorded a July temperature of 21°C, the highest ever measured that far north, and the station's carbon dioxide record is one of the longest baseline series anywhere.",
       "hidden_gem_tip": "There is no civilian access. It is on the map here because it is the end of the inhabited world, and because the greenhouse gas numbers measured at Alert are quoted in every climate report you have read.",
-      "search_name": "Alert Nunavut northernmost"
+      "search_name": "Alert Nunavut northernmost",
+      "monuments": [
+        {
+          "name": "Ellesmere Island",
+          "yt": "YlcanULcv1g",
+          "start": 0,
+          "source": "auto",
+          "title": "ELLESMERE ISLAND Canada's Frozen Ghost Land",
+          "height": 2160
+        },
+        {
+          "name": "Lincoln Sea",
+          "yt": "ms4UUFvjK34",
+          "start": 0,
+          "source": "auto",
+          "title": "Nimitz-class aircraft carrier CVN 72 USS Abraham Lincoln Aerial 4K video in PHILIPPINE SEA",
+          "height": 2160
+        },
+        {
+          "name": "Quttinirpaaq National Park",
+          "yt": "KBHpUebZWgo",
+          "start": 0,
+          "source": "auto",
+          "title": "Quttinirpaaq National Park | Wikipedia audio article",
+          "height": 720
+        }
+      ]
     },
     {
       "id": "rankin-inlet",
@@ -13913,7 +15783,17 @@
       ],
       "blurb": "The hub of the Kivalliq region on the west coast of Hudson Bay, 2,900 people, founded around a nickel mine in 1955 and now the transport and government centre for the whole mainland side of Nunavut.",
       "fun_fact": "Rankin Inlet produced Jordin Tootoo, the first Inuk to play in the NHL. The community's ceramics studio, revived in the 1990s after closing in 1975, is the only Inuit ceramic operation of its kind.",
-      "hidden_gem_tip": "Marble Island, 50 km offshore, is white quartzite and considered sacred — tradition holds that you crawl ashore on first landing. James Knight's 1719 expedition died there to the last man."
+      "hidden_gem_tip": "Marble Island, 50 km offshore, is white quartzite and considered sacred — tradition holds that you crawl ashore on first landing. James Knight's 1719 expedition died there to the last man.",
+      "monuments": [
+        {
+          "name": "Marble Island",
+          "yt": "NE1Lazy0Mhg",
+          "start": 0,
+          "source": "auto",
+          "title": "MARBLE ISLAND (RANKIN INLET) - AUGUST 2020 - DRONE FLIGHT FROM A BOAT.",
+          "height": 1440
+        }
+      ]
     },
     {
       "id": "baker-lake",
@@ -13958,7 +15838,17 @@
       "blurb": "The only inland community in Nunavut and the geographic centre of Canada — 2,000 people on a lake at the head of Chesterfield Inlet, where the Thelon and Kazan rivers come down off the Barrenlands.",
       "fun_fact": "Baker Lake's wall hangings, appliquéd in felt and duffel, are a distinct art form that developed here in the 1960s and exists essentially nowhere else. Jessie Oonark's work from this community hangs in the National Gallery.",
       "hidden_gem_tip": "The Thelon River above the lake runs through a wooded oasis in the middle of the tundra, hundreds of kilometres past the treeline. It is one of the great canoe trips on Earth and takes a month.",
-      "search_name": "Baker Lake Nunavut"
+      "search_name": "Baker Lake Nunavut",
+      "monuments": [
+        {
+          "name": "Thelon River",
+          "yt": "XLl0NmHTqkA",
+          "start": 0,
+          "source": "auto",
+          "title": "Clarke/Thelon Rivers - Remote Wilderness Canoe Trip",
+          "height": 1440
+        }
+      ]
     },
     {
       "id": "cambridge-bay",
@@ -14004,7 +15894,25 @@
       ],
       "blurb": "The largest community on Victoria Island and the main stop on the Northwest Passage — 1,800 people, a deepwater anchorage, and the Canadian High Arctic Research Station, the country's flagship northern science facility.",
       "fun_fact": "Roald Amundsen's ship Maud sank here in 1930 and lay on the bottom for 86 years. It was raised in 2016 and towed across the Atlantic on a barge back to Norway, arriving in 2018.",
-      "hidden_gem_tip": "Iqaluktuuttiaq means good fishing place, and the Arctic char here is regarded as the best in the north. Cruise ships transiting the Passage stop here, which is the one week a year it is busy."
+      "hidden_gem_tip": "Iqaluktuuttiaq means good fishing place, and the Arctic char here is regarded as the best in the north. Cruise ships transiting the Passage stop here, which is the one week a year it is busy.",
+      "monuments": [
+        {
+          "name": "Northwest Passage",
+          "yt": "ZwoFGVjrzDA",
+          "start": 0,
+          "source": "auto",
+          "title": "Into the Northwest Passage",
+          "height": 2160
+        },
+        {
+          "name": "Canadian High Arctic Research Station",
+          "yt": "bn_szamKmRQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Microsoft Flight Simulator 2020 - Landing on Canadian High Arctic Research Station",
+          "height": 1440
+        }
+      ]
     },
     {
       "id": "gjoa-haven",
@@ -14052,7 +15960,33 @@
       ],
       "blurb": "A hamlet of 1,300 on King William Island, in the harbour where Amundsen wintered for two years on the first successful navigation of the Northwest Passage — and where he learned from the Netsilik how to survive in the Arctic.",
       "fun_fact": "Amundsen credited that apprenticeship — dogs, furs, snow houses — with getting him to the South Pole ahead of Scott. What he learned in this harbour won the race at the other end of the world.",
-      "hidden_gem_tip": "Inuit oral testimony about where Franklin's ships sank was recorded in the 1860s, disbelieved for 150 years, and turned out to be exactly right when Erebus was found in 2014. The community has never been quiet about this."
+      "hidden_gem_tip": "Inuit oral testimony about where Franklin's ships sank was recorded in the 1860s, disbelieved for 150 years, and turned out to be exactly right when Erebus was found in 2014. The community has never been quiet about this.",
+      "monuments": [
+        {
+          "name": "King William Island",
+          "yt": "M5jd83YddlE",
+          "start": 0,
+          "source": "auto",
+          "title": "To Peel Sound and King William Island",
+          "height": 1080
+        },
+        {
+          "name": "Rae Strait",
+          "yt": "9TLjPEklck8",
+          "start": 0,
+          "source": "auto",
+          "title": "Into the ice pack and on towards Rae Strait",
+          "height": 2160
+        },
+        {
+          "name": "Northwest Passage",
+          "yt": "B9pa-i_JHhU",
+          "start": 0,
+          "source": "auto",
+          "title": "Captain Henry Larsen and the Northwest Passage",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "beechey-island",
@@ -14100,7 +16034,33 @@
       ],
       "blurb": "A small island off Devon Island where Franklin's expedition spent the winter of 1845–46, and where three of his men are buried. The headboards stand on a gravel beach with nothing else on it.",
       "fun_fact": "The three bodies were exhumed in the 1980s and found frozen and almost perfectly preserved after 140 years. Their tissues showed high lead levels, and the photographs of their faces are among the most unsettling images in polar history.",
-      "hidden_gem_tip": "Cruise ships transiting the Passage stop here and it is the only practical access. The graves are a National Historic Site and nothing may be touched or taken."
+      "hidden_gem_tip": "Cruise ships transiting the Passage stop here and it is the only practical access. The graves are a National Historic Site and nothing may be touched or taken.",
+      "monuments": [
+        {
+          "name": "Lancaster Sound",
+          "yt": "fmfLMKAg2M8",
+          "start": 0,
+          "source": "auto",
+          "title": "Northwest Passage: East Coast Baffin Island to Lancaster Sound",
+          "height": 1080
+        },
+        {
+          "name": "Devon Island",
+          "yt": "xzyOdH6OlV0",
+          "start": 0,
+          "source": "auto",
+          "title": "Mars on Earth: A Visit to Devon Island",
+          "height": 1080
+        },
+        {
+          "name": "Northwest Passage",
+          "yt": "CQH-rzqNBxI",
+          "start": 0,
+          "source": "auto",
+          "title": "DJI Mavic 3 drone Northwest Passage, Weber Arctic, Somerset Island, Nunavut, Canada, 2023-07-21",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "igloolik",
@@ -14144,7 +16104,17 @@
       ],
       "blurb": "An island community of 2,000 in Foxe Basin, continuously occupied for around 4,000 years — one of the longest-inhabited places in the Arctic — and the home of Inuit filmmaking.",
       "fun_fact": "Atanarjuat: The Fast Runner was made here in 2001, entirely in Inuktitut with an Inuit cast and crew, and won the Caméra d'Or at Cannes. It is regularly named the greatest Canadian film ever made.",
-      "hidden_gem_tip": "Artcirq, the community's circus troupe, was founded as a youth suicide prevention project and now tours internationally. If they are performing while you are here, go."
+      "hidden_gem_tip": "Artcirq, the community's circus troupe, was founded as a youth suicide prevention project and now tours internationally. If they are performing while you are here, go.",
+      "monuments": [
+        {
+          "name": "Baffin Island",
+          "yt": "_ZsxxUx3Iqk",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Nature on the Ice Edge - Baffin Island Adventure with Music - 1 of 2",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "naujaat",
@@ -14233,7 +16203,17 @@
       ],
       "blurb": "The westernmost community in Nunavut, 1,500 people at the mouth of the Coppermine River on Coronation Gulf — the warmest place in the territory, where trees actually reach the coast.",
       "fun_fact": "Samuel Hearne walked overland to this river mouth in 1771, the first European to reach the Arctic Ocean by land in North America. His Dene companions killed a party of Inuit at the rapids upstream, which is why they are called Bloody Falls.",
-      "hidden_gem_tip": "Kugluktuk means place of moving water. The falls are 15 km upstream, reachable by boat or on foot, and the char run through them in numbers in August."
+      "hidden_gem_tip": "Kugluktuk means place of moving water. The falls are 15 km upstream, reachable by boat or on foot, and the char run through them in numbers in August.",
+      "monuments": [
+        {
+          "name": "Coppermine River",
+          "yt": "6fUng_mNofs",
+          "start": 0,
+          "source": "auto",
+          "title": "Exploring plant biodiversity along Nunavut’s Coppermine River",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "sanikiluaq",
@@ -14277,7 +16257,17 @@
       ],
       "blurb": "The southernmost community in Nunavut, on the Belcher Islands in Hudson Bay — an archipelago of about 1,500 low islands of folded rock, 150 km from the Quebec coast and reachable only through Winnipeg.",
       "fun_fact": "The people here depend on eider ducks in a way found nowhere else, using the skins with the down attached to make parkas. When the sea ice behaves strangely and the eiders die in numbers, it is noticed here first.",
-      "hidden_gem_tip": "The soapstone carvings from Sanikiluaq — especially the eiders — are distinctive, and the stone is quarried on the islands. The one flight a week routes through Montreal or Winnipeg, not Iqaluit."
+      "hidden_gem_tip": "The soapstone carvings from Sanikiluaq — especially the eiders — are distinctive, and the stone is quarried on the islands. The one flight a week routes through Montreal or Winnipeg, not Iqaluit.",
+      "monuments": [
+        {
+          "name": "Belcher Islands",
+          "yt": "_xYj8jo6OoM",
+          "start": 0,
+          "source": "auto",
+          "title": "Hudson Bay’s Oddly Shaped Island Archipelago | Canada's Strangest Islands: Part 2 | Belcher Islands",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "devon-island",
@@ -14321,7 +16311,25 @@
       ],
       "blurb": "The largest uninhabited island on Earth, 55,000 km² of polar desert in the high Arctic, with a 23 km meteorite crater near the middle of it and nobody living anywhere on it.",
       "fun_fact": "NASA has run a Mars analogue research station in the Haughton crater since 1997. The cold, the dryness, the rock and the isolation make it the closest thing to Mars that can be reached without leaving the planet.",
-      "hidden_gem_tip": "There is no access without a research permit or an expedition charter. The island's south coast is passed by Northwest Passage cruises, which is how most people who have seen it, saw it."
+      "hidden_gem_tip": "There is no access without a research permit or an expedition charter. The island's south coast is passed by Northwest Passage cruises, which is how most people who have seen it, saw it.",
+      "monuments": [
+        {
+          "name": "Resolute",
+          "yt": "cj6VZoFQBpw",
+          "start": 0,
+          "source": "auto",
+          "title": "Immerse Yourself in Nature: Hiking the Resolute Track in Ku-ring-gai Chase National Park | 4K",
+          "height": 2160
+        },
+        {
+          "name": "Baffin Bay",
+          "yt": "DxcvazxidLo",
+          "start": 0,
+          "source": "auto",
+          "title": "THE HOOK | BAFFIN BAY - SPECKLED TROUT | 13 FISHING",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "ukkusiksalik",

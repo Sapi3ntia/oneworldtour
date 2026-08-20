@@ -189,7 +189,7 @@ dropped in v2 — resurrect from git if missed); satellite descend-from-orbit.
 **The 🛰️ satellite window seat (js/lib/satellite.js):**
 - It is **not a scene and not a window**. Never add it to `sceneFlags()`, never
   route it through `media.js`, never let it into `window.html` or a "live" rail.
-  The moment it counts as a live seat, the honesty rule is dead — 1,016 places
+  The moment it counts as a live seat, the honesty rule is dead — 1,565 places
   would start claiming a window they don't have.
 - Keep the 🛰️ badge, keep the no-live-dot, and keep the title sentence that says
   there is no window cam here. That sentence is the feature's licence to exist.
@@ -269,6 +269,69 @@ dropped in v2 — resurrect from git if missed); satellite descend-from-orbit.
 ---
 
 ## Recently landed (so it isn't re-litigated)
+
+- **Mexico, Central America and the Caribbean (2026-08-19):** `latinamerica.json`
+  had South America covered and everything north of Colombia as an afterthought —
+  Mexico was a handful of resort cities, the seven Central American countries were
+  thin, and the Caribbean did not exist as a place you could visit at all.
+  `tools/build_middleamerica.py` adds **201** records (Mexico → 117 across all 32
+  states, Costa Rica 21, Guatemala 14, Panama 14, Belize 13, Honduras 11,
+  Nicaragua 11, El Salvador 9) and `tools/build_caribbean.py` adds **128** in a
+  new `data/caribbean.json` — 131 places over **28 countries and territories**,
+  from Cuba's 18 down to one seat each for Saint-Barthélemy, Saint-Martin and
+  Sint Maarten. Atlas: **1,126 → 1,728 places, 170 → 201 countries.**
+  - **The Caribbean is its own region file, not "Latin America".** Barbados, Aruba,
+    the BVI and Sint Maarten are not Latin America, and filing them there to save a
+    JSON file would have put a factual error on every one of their pages. Adding a
+    region is purely additive: a row in `data/index.json` and `js/lib/data.js`
+    flattens it. Nothing in the frontend hardcodes region ids except the three
+    genuinely special ones (`ancient`, `wild`, `observatory`).
+  - **Bermuda is deliberately outside the box.** `CB_LAT/CB_LNG` stop at 27.6°N /
+    58.8°W. Bermuda is a thousand km out in the Atlantic and is not Caribbean; the
+    bounding box is the thing that says so, and `in_box()` is a hard refusal.
+  - **Four records had to be *replaced*, not repaired.** No amount of slug fixing
+    helps when the article doesn't exist or carries no P625: `grace-bay`,
+    `grand-etang`, `shete-boka` and `shoal-bay` became `middle-caicos` +
+    `salt-cay-turks`, `mount-saint-catherine` + `gouyave`, `westpunt`, and
+    `sandy-ground-anguilla`. That is why the roster grew 126 → 128. Audit NOCOORD
+    the same way the Canada batch says to — it is where the wrong articles hide.
+  - **Two P17 warnings, one real and one a Wikidata bug.** Bonaire answers Q55
+    (Netherlands), not Q29999 (Kingdom of the Netherlands) — `EXPECT_P17` was wrong
+    and is fixed. `harrisons-cave` answers Q146246 = "Francia"; the article is
+    unambiguously Barbados, so the warning stays and is documented rather than
+    silenced.
+  - **`countries.json` is generated, and it silently under-reports.** 31 rows were
+    missing from `build_countries.py`'s table — every Central American country and
+    every Caribbean dependency. A country absent from that dict simply does not
+    appear, with no error: 201 countries only after the table was filled in.
+
+- **The enrichment sweep behind it (2026-08-19):** **860 monument tabs** added
+  (311 Caribbean, 518 Latin America, 31 elsewhere) bringing the atlas to **1,694 of
+  1,728 places with monuments (4,188 tabs)**, and `media.json` to **1,378** places.
+  Frontend-accurate `sceneFlags()` counts: walk 1,152 · drive 1,145 · live 252 ·
+  window 163 · **no window 1,565 · empty stage 345**. The window-less *share* has
+  not moved — 90–91 % throughout — the atlas simply grew faster than the sweep
+  could fill it, which is the honest thing for those numbers to do.
+  - ⚠️ **`enrich_media.py`'s 8-empty abort is a false positive on narrow places.**
+    `flat_search()` retries each query 3× and bumps `EMPTY_STREAK["n"]` on every
+    empty, so **three genuinely-empty queries = nine empties** and the run kills
+    itself with "YouTube is refusing us" while `verdict()` correctly reports
+    YouTube *was* answering. It fired twice on the same place (Bandiagara
+    Escarpment). **Do not loosen the guard** — it is the mechanism that stops the
+    tool inventing scenes when the API goes dark. Drive through it instead: rerun
+    round-by-round, advancing the pending list by the `[i/N]` lines actually
+    printed (media.json can't be used to compute progress, because an honest gap
+    writes no entry), with a stall guard that drops the head place after a
+    zero-progress round. The real fix is to count a *query* as one empty, not a
+    retry.
+  - **Four concurrent sweeps is the ceiling.** Four ran clean for ~1h45m; seven
+    collapsed to 276 s/place and tripped a refusal abort. `enrich_media.py` is
+    lock-safe via `tools/medialock.py`, but **`enrich_monuments.py` has no lock** —
+    it rewrites a whole region file from an in-memory copy, so exactly one process
+    may ever touch a given region JSON.
+  - **zsh does not word-split unquoted parameters.** `$flags` holding `--need any`
+    arrives as a single argv element and argparse rejects it. Bit an entire
+    launcher round; pass such flags literally.
 
 - **Canada 36 → 238, Alaska 1 → 72 (2026-08-18):** Canada had 36 places, 19 of them
   in one Ontario watershed and **nothing north of 60°** — the three territories are

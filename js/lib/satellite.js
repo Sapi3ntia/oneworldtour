@@ -2,7 +2,7 @@
    SATELLITE — the sky over a place right now, seen from orbit.
 
    WHY THIS EXISTS
-     1,016 of the 1,126 places have no window cam, and 19 have
+     1,565 of the 1,728 places have no window cam, and 345 have
      nothing on the stage at all. Some of them never will: nobody is
      going to point a webcam at Bikini Atoll, Kiritimati or Rennell
      Island, and the honest empty pane says so four times over on
@@ -14,7 +14,7 @@
      free, keyless and CORS-open, and their newest scan is minutes
      old. That is a real live view of a real place — the clouds over
      your atoll this morning, the city lights of Cairo before dawn —
-     and it is available for every one of the 1,126.
+     and it is available for every one of the 1,728.
 
    WHAT THIS IS NOT
      It is NOT a window, and it must never be offered as one. The

@@ -1,6 +1,6 @@
 # 🌍 One World Tour
 
-Step into 1,399 places across 170 countries — **walk their streets, drive their
+Step into 1,728 places across 201 countries — **walk their streets, drive their
 roads, watch their intersections live, look out their windows live**, tune into
 their radio, **watch their national TV live**, and read their news — all in-app,
 all real. Inspired by
@@ -125,7 +125,7 @@ oneworldtour/
 │   │   ├── geo.js         # Natural Earth I projection + inverse, km, great-circle
 │   │   ├── data.js        # region loader + media.json merge, search
 │   │   ├── media.js       # scene resolution: walk/live/window tiers + honesty rules
-│   │   ├── satellite.js   # 🛰️ geostationary sky for the 1,016 window-less seats
+│   │   ├── satellite.js   # 🛰️ geostationary sky for the 1,565 window-less seats
 │   │   ├── yt.js          # YouTube IFrame mounts with onError → honest fallback
 │   │   ├── tv.js          # live national TV: tv.json loader + HLS mounts (lazy hls.js)
 │   │   ├── api.js         # weather / wiki / radio / news / FX (all keyless)
@@ -136,7 +136,7 @@ oneworldtour/
 ├── data/
 │   ├── index.json         # region registry
 │   ├── trips.json         # 🧭 curated routes — ordered stop ids + editorial notes
-│   ├── <region>.json      # 1,399 places (curated walks/webcams/monuments live here)
+│   ├── <region>.json      # 1,728 places (curated walks/webcams/monuments live here)
 │   ├── wild.json          # 🦁 wildlife & national-park live cams as places
 │   ├── observatory.json   # 🔭 observatories & telescopes as places
 │   ├── tv.json            # 📺 live national TV channels per country (verified live)
@@ -370,15 +370,19 @@ honesty rule, not a belt-and-braces nicety.
 
 ### 🛰️ The sky over a place ★
 
-**1,016 of the 1,126 places have no window cam** — and for 19 of them the whole
+**1,565 of the 1,728 places have no window cam** — and for 345 of them the whole
 stage is empty.* Bikini Atoll, Rennell Island, Dougga, Pitcairn: nobody is going
 to point a 24/7 stream at them. Rather than show a fourth dashed rectangle, the
 window seat falls back to the geostationary satellite that *is* looking at that
 place right now (`js/lib/satellite.js`). Where the stage is otherwise empty, the
 satellite is what gets featured on arrival.
 
-<sub>* Both counts move with every `enrich_media.py` sweep — they were 1,018 and
-82 the morning this shipped, before the Oceania run filled 63 empty stages.</sub>
+<sub>* Both counts move with every `enrich_media.py` sweep, and they move *up*
+when the atlas grows faster than the sweep fills it: 1,018 / 82 the morning this
+shipped, 1,016 / 19 after the Oceania run, and 1,565 / 345 now that Canada,
+Alaska, Mexico, Central America and the Caribbean have landed. The
+window-less share is what to watch, not the raw count — it has held at
+90–91 % throughout.</sub>
 
 This is **not** a fifth scene and **not** a stand-in window. It never passes
 through `media.js`, never appears in `sceneFlags()`, never reaches the Virtual
@@ -1428,6 +1432,71 @@ finished" line would be a lie: **31 lower-48 records still carry an empty `blurb
 more, all of them skeletons from before this batch. Nothing here made that worse and
 nothing here fixed it.
 
+**Mexico, Central America and the Caribbean** (`latinamerica.json` 90 → 291, new
+`caribbean.json` 131, 2026-08-19). South America had been built out in August;
+everything north of Colombia had not. Mexico was a handful of resort cities and
+`latinamerica.json` was carrying seven Central American countries between them,
+while the Caribbean — thirteen sovereign states and fifteen dependencies, forty
+million people, the most photographed coastline on earth — was not in the atlas at
+all. `tools/build_middleamerica.py` adds **201** records and
+`tools/build_caribbean.py` adds **128**, both on the `regionbuild.py` frame: P625
+for every coordinate, every `wikipedia_slug` resolved live and stored canonical,
+P17 checked against the expected sovereign, and a bounding box that is a hard
+refusal.
+
+**Mexico goes to 117 and covers all 32 states** — not just Yucatán and the two
+coasts but Chihuahua's canyons, the Bajío's silver towns, Oaxaca's sierra, the
+Gulf, the border cities, and Baja from Tijuana to Los Cabos. Central America:
+**Costa Rica 21, Guatemala 14, Panama 14, Belize 13, Honduras 11, Nicaragua 11,
+El Salvador 9.** The Caribbean lands as its own file with **131 places across 28
+countries and territories** — Cuba **18**, Dominican Republic **11**, Jamaica
+**10**, Puerto Rico **9**, Bahamas **8**, Haiti **6**, Trinidad and Tobago **5**,
+then Barbados, Dominica, Grenada, Guadeloupe, Saint Lucia, Saint Vincent, the
+Caymans, the BVI, Turks and Caicos at four each, down to a single seat for
+Saint-Barthélemy, Saint-Martin and Sint Maarten. The atlas goes **1,126 → 1,728
+places across 201 countries.**
+
+- **The Caribbean is not Latin America, so it is not in `latinamerica.json`.**
+  Barbados, Aruba, the BVI, Sint Maarten and Montserrat are not Latin America by
+  language, colonial history or self-description, and `data.js` derives
+  `region_id` from *which file a place lives in* — so filing them there would have
+  printed a factual error under every one of those place names. A new region file
+  is cheap and purely additive: one row in `data/index.json` and `data.js` fetches
+  and flattens it. Grepping first confirmed the frontend hardcodes exactly three
+  region ids (`ancient`, `wild`, `observatory`) and nothing else.
+- **Bermuda is excluded by the bounding box, on purpose.** `CB_LAT` stops at
+  27.6°N and `CB_LNG` at 58.8°W. Bermuda is 1,700 km north-east of the nearest
+  Caribbean island, in the open Atlantic, and is not a Caribbean place; the box is
+  the artifact that records that decision, and because `in_box()` is a refusal
+  rather than a warning, a later batch cannot drift it in by accident.
+- **Some records cannot be repaired, only replaced.** Four had no article or no
+  P625 behind any spelling: `grace-bay`, `grand-etang`, `shete-boka`,
+  `shoal-bay`. Chasing better slugs was the wrong move — the fix is to pick a
+  place Wikipedia and Wikidata actually describe. They became `middle-caicos` +
+  `salt-cay-turks`, `mount-saint-catherine` + `gouyave`, `westpunt`, and
+  `sandy-ground-anguilla`, which is why 126 planned records shipped as 128. All
+  four surfaced on the **NOCOORD** list, not the FAR list — the same lesson the
+  Arctic batch wrote down one region earlier.
+- **`EXPECT_P17` has to name the answer Wikidata actually gives.** Bonaire is a
+  special municipality of the Netherlands and the intuitive expectation is
+  Q29999, the *Kingdom* of the Netherlands. Wikidata says **Q55, Netherlands**, so
+  three correct records warned until the expectation was corrected. Fifteen
+  dependencies are listed there — Puerto Rico → United States, Martinique and
+  Guadeloupe and Saint-Barthélemy → France, Curaçao and Aruba → Netherlands, and
+  so on — and each one downgrades to a quiet `TERRITORY` line instead of a
+  warning a reader learns to skip.
+- **One `COUNTRY` warning is a Wikidata bug and stays visible.** Harrison's Cave
+  answers **P17 = Q146246, "Francia"** — an item for the medieval Frankish
+  kingdom. The cave is in Saint Thomas, Barbados, by every other statement on the
+  page. Silencing it would remove the evidence with the noise, so it is documented
+  in the generator header like Mount Saint Elias before it.
+- **`countries.json` is generated, and a missing row is silent.** The registry in
+  `build_countries.py` had no entry for any Central American country and none for
+  any Caribbean dependency — 31 rows short. A country absent from that table
+  simply does not appear in the file, with no error and no warning; the count read
+  170 while the atlas held 201. Adding a region means auditing that table in the
+  same commit, alongside the four `culture.js` tables the Africa batch found.
+
 | rule | why |
 | --- | --- |
 | coordinates from **Wikidata P625**, not an OSM administrative centroid | a Chinese prefecture-level city is a *region*. OSM's "Chongqing" node sits at 30.06N 107.87E, ~200 km out in the rural east; P625 puts it in Yuzhong, which is the city. Nominatim is for villages and scenic areas that Wikidata has no point for, and the matched object gets eyeballed |
@@ -1462,6 +1531,13 @@ nothing here fixed it.
 | a name that `GENERIC_TOKENS` strips to **one** token may not accuse on that token alone | `Gold Coast`→`gold`, `Abraham Lake`→`abraham`, `Rock Islands`→`rock`, `Stone Town`→`stone`, `Cape Coast Castle`→`cape`, `Mary Lake`→`mary`. Between them they were falsely rejecting **46 shipped titles** — the Blue Mosque as being in the Blue Mountains, Moro Rock as being in Palau. `register_place()` records the feature nouns such a name lost and the accusing loop demands them too. Multi-token names need no help |
 | widening `GENERIC_TOKENS` can strip a name down to **filler** | closing the `highway` hole left `Top of the World Highway` identified by `world` alone — 94 shipped titles say it. Making `world` generic too emptied the name, and the `core` fallback (name minus feature nouns) became the phrase `top of the`, which matched a tower in Pyongyang. `core` now skips grammatical filler (`STOPWORDS`) and still needs two real words. **After widening the stoplist, re-check what is left of every name that used the widened word** |
 | the headline exemption is worth **nothing** against a namesake — it has to be earned | "our name comes first, so the other region is a co-mention" is sound against a *different* place and useless against the *same* one: "Windermere BC Drone Tour" puts Windermere at position 0 exactly as Muskoka's would. Copied verbatim into the Canadian-province guard it produced a rule that caught nothing. The exemption now requires the title to also name **our** province. The identical hole is still open in the us-vs-us block (`"Flagstaff Lake Webcam, Eustis, Maine"` is exempt for Arizona's Flagstaff) |
+| a region name is a **claim about the places in it**, so a region that is not the same thing gets its own file | Barbados, Aruba, the BVI and Sint Maarten are not Latin America, and `data.js` derives `region_id` from *which file a place lives in* — filing them in `latinamerica.json` prints a factual error under 131 place names to save one JSON file. A new region costs a row in `data/index.json`; grep first and confirm what the frontend hardcodes (here: `ancient`, `wild`, `observatory`, and nothing else) |
+| the bounding box is where an **editorial** decision about a region's edge gets stored | Bermuda is 1,700 km out in the Atlantic and is not Caribbean, so `CB_LAT/CB_LNG` stop short of it. Because `in_box()` refuses rather than warns, the boundary survives the next batch — a decision recorded only in a commit message does not |
+| a record with no article and no P625 is **replaced, not repaired** | four Caribbean picks (`grace-bay`, `grand-etang`, `shete-boka`, `shoal-bay`) had nothing behind any spelling. Hunting a better slug for a place Wikidata has never described produces a plausible wrong article; picking a nearby place it *has* described produces a real one — 126 planned records shipped as 128, and all four were on the **NOCOORD** list, never the FAR list |
+| `EXPECT_P17` must hold the answer Wikidata **gives**, not the one that is constitutionally correct | Bonaire is a special municipality of the Kingdom of the Netherlands (Q29999) and answers **Q55, the Netherlands**. Three correct records warned until the expectation was fixed. An expectation table that is subtly wrong is worse than none: it trains the reader to skim the warnings |
+| adding countries means **regenerating `countries.json` and auditing its table first** | `build_countries.py` had no row for any Central American country and none for any Caribbean dependency — 31 short. A country missing from that dict does not appear in the output, with no error: the site said 170 countries while holding 201. Same failure shape as the `culture.js` tables and the `--max` cap — the log looks normal |
+| an abort guard that counts **retries** instead of attempts fires on honest emptiness | `enrich_media.py` retries each YouTube query 3× and increments `EMPTY_STREAK` per empty response, so three genuinely-empty narrow queries reach the eight-empty refusal threshold and kill the run — while `verdict()`, which asks whether YouTube answered *anything* during that place, correctly says it did. Don't loosen the threshold, it is the anti-fabrication mechanism; count one empty per query, and until then drive long sweeps round-by-round from the printed `[i/N]` progress (an honest gap writes no `media.json` entry, so the file cannot measure progress) |
+| four concurrent enrichment sweeps is the ceiling, and **only `enrich_media.py` may be concurrent at all** | four ran clean for 1h45m; seven collapsed to 276 s/place and tripped a refusal abort. `enrich_media.py` writes through `medialock.py` and is safe; `enrich_monuments.py` has **no lock** and rewrites a whole region file from an in-memory copy, so two processes on one region silently discard one of them |
 
 ---
 

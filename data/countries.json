@@ -26,6 +26,14 @@
       "locations": 168
     },
     {
+      "code": "MX",
+      "name": "Mexico",
+      "flag": "🇲🇽",
+      "continent": "North America",
+      "status": "live",
+      "locations": 122
+    },
+    {
       "code": "CN",
       "name": "China",
       "flag": "🇨🇳",
@@ -58,12 +66,28 @@
       "locations": 32
     },
     {
+      "code": "CR",
+      "name": "Costa Rica",
+      "flag": "🇨🇷",
+      "continent": "North America",
+      "status": "live",
+      "locations": 21
+    },
+    {
       "code": "ID",
       "name": "Indonesia",
       "flag": "🇮🇩",
       "continent": "Asia",
       "status": "live",
       "locations": 21
+    },
+    {
+      "code": "CU",
+      "name": "Cuba",
+      "flag": "🇨🇺",
+      "continent": "North America",
+      "status": "live",
+      "locations": 18
     },
     {
       "code": "ZA",
@@ -98,12 +122,36 @@
       "locations": 14
     },
     {
+      "code": "GT",
+      "name": "Guatemala",
+      "flag": "🇬🇹",
+      "continent": "North America",
+      "status": "live",
+      "locations": 14
+    },
+    {
+      "code": "PA",
+      "name": "Panama",
+      "flag": "🇵🇦",
+      "continent": "North America",
+      "status": "live",
+      "locations": 14
+    },
+    {
       "code": "VN",
       "name": "Vietnam",
       "flag": "🇻🇳",
       "continent": "Asia",
       "status": "live",
       "locations": 14
+    },
+    {
+      "code": "BZ",
+      "name": "Belize",
+      "flag": "🇧🇿",
+      "continent": "North America",
+      "status": "live",
+      "locations": 13
     },
     {
       "code": "IT",
@@ -154,6 +202,14 @@
       "locations": 11
     },
     {
+      "code": "DO",
+      "name": "Dominican Republic",
+      "flag": "🇩🇴",
+      "continent": "North America",
+      "status": "live",
+      "locations": 11
+    },
+    {
       "code": "FR",
       "name": "France",
       "flag": "🇫🇷",
@@ -162,10 +218,26 @@
       "locations": 11
     },
     {
+      "code": "HN",
+      "name": "Honduras",
+      "flag": "🇭🇳",
+      "continent": "North America",
+      "status": "live",
+      "locations": 11
+    },
+    {
       "code": "MA",
       "name": "Morocco",
       "flag": "🇲🇦",
       "continent": "Africa",
+      "status": "live",
+      "locations": 11
+    },
+    {
+      "code": "NI",
+      "name": "Nicaragua",
+      "flag": "🇳🇮",
+      "continent": "North America",
       "status": "live",
       "locations": 11
     },
@@ -186,6 +258,14 @@
       "locations": 10
     },
     {
+      "code": "JM",
+      "name": "Jamaica",
+      "flag": "🇯🇲",
+      "continent": "North America",
+      "status": "live",
+      "locations": 10
+    },
+    {
       "code": "KE",
       "name": "Kenya",
       "flag": "🇰🇪",
@@ -202,10 +282,34 @@
       "locations": 10
     },
     {
+      "code": "BS",
+      "name": "Bahamas",
+      "flag": "🇧🇸",
+      "continent": "North America",
+      "status": "live",
+      "locations": 9
+    },
+    {
       "code": "EC",
       "name": "Ecuador",
       "flag": "🇪🇨",
       "continent": "South America",
+      "status": "live",
+      "locations": 9
+    },
+    {
+      "code": "SV",
+      "name": "El Salvador",
+      "flag": "🇸🇻",
+      "continent": "North America",
+      "status": "live",
+      "locations": 9
+    },
+    {
+      "code": "PR",
+      "name": "Puerto Rico",
+      "flag": "🇵🇷",
+      "continent": "North America",
       "status": "live",
       "locations": 9
     },
@@ -322,14 +426,6 @@
       "locations": 7
     },
     {
-      "code": "MX",
-      "name": "Mexico",
-      "flag": "🇲🇽",
-      "continent": "North America",
-      "status": "live",
-      "locations": 7
-    },
-    {
       "code": "PG",
       "name": "Papua New Guinea",
       "flag": "🇵🇬",
@@ -358,6 +454,14 @@
       "name": "Fiji",
       "flag": "🇫🇯",
       "continent": "Oceania",
+      "status": "live",
+      "locations": 6
+    },
+    {
+      "code": "HT",
+      "name": "Haiti",
+      "flag": "🇭🇹",
+      "continent": "North America",
       "status": "live",
       "locations": 6
     },
@@ -458,6 +562,14 @@
       "locations": 5
     },
     {
+      "code": "TT",
+      "name": "Trinidad and Tobago",
+      "flag": "🇹🇹",
+      "continent": "North America",
+      "status": "live",
+      "locations": 5
+    },
+    {
       "code": "VE",
       "name": "Venezuela",
       "flag": "🇻🇪",
@@ -490,9 +602,25 @@
       "locations": 4
     },
     {
-      "code": "CR",
-      "name": "Costa Rica",
-      "flag": "🇨🇷",
+      "code": "BB",
+      "name": "Barbados",
+      "flag": "🇧🇧",
+      "continent": "North America",
+      "status": "live",
+      "locations": 4
+    },
+    {
+      "code": "VG",
+      "name": "British Virgin Islands",
+      "flag": "🇻🇬",
+      "continent": "North America",
+      "status": "live",
+      "locations": 4
+    },
+    {
+      "code": "KY",
+      "name": "Cayman Islands",
+      "flag": "🇰🇾",
       "continent": "North America",
       "status": "live",
       "locations": 4
@@ -506,10 +634,34 @@
       "locations": 4
     },
     {
+      "code": "DM",
+      "name": "Dominica",
+      "flag": "🇩🇲",
+      "continent": "North America",
+      "status": "live",
+      "locations": 4
+    },
+    {
       "code": "EE",
       "name": "Estonia",
       "flag": "🇪🇪",
       "continent": "Europe",
+      "status": "live",
+      "locations": 4
+    },
+    {
+      "code": "GD",
+      "name": "Grenada",
+      "flag": "🇬🇩",
+      "continent": "North America",
+      "status": "live",
+      "locations": 4
+    },
+    {
+      "code": "GP",
+      "name": "Guadeloupe",
+      "flag": "🇬🇵",
+      "continent": "North America",
       "status": "live",
       "locations": 4
     },
@@ -578,6 +730,22 @@
       "locations": 4
     },
     {
+      "code": "LC",
+      "name": "Saint Lucia",
+      "flag": "🇱🇨",
+      "continent": "North America",
+      "status": "live",
+      "locations": 4
+    },
+    {
+      "code": "VC",
+      "name": "Saint Vincent and the Grenadines",
+      "flag": "🇻🇨",
+      "continent": "North America",
+      "status": "live",
+      "locations": 4
+    },
+    {
       "code": "SN",
       "name": "Senegal",
       "flag": "🇸🇳",
@@ -626,6 +794,14 @@
       "locations": 4
     },
     {
+      "code": "TC",
+      "name": "Turks and Caicos Islands",
+      "flag": "🇹🇨",
+      "continent": "North America",
+      "status": "live",
+      "locations": 4
+    },
+    {
       "code": "UG",
       "name": "Uganda",
       "flag": "🇺🇬",
@@ -650,9 +826,17 @@
       "locations": 4
     },
     {
-      "code": "BZ",
-      "name": "Belize",
-      "flag": "🇧🇿",
+      "code": "AG",
+      "name": "Antigua and Barbuda",
+      "flag": "🇦🇬",
+      "continent": "North America",
+      "status": "live",
+      "locations": 3
+    },
+    {
+      "code": "AW",
+      "name": "Aruba",
+      "flag": "🇦🇼",
       "continent": "North America",
       "status": "live",
       "locations": 3
@@ -662,6 +846,14 @@
       "name": "Benin",
       "flag": "🇧🇯",
       "continent": "Africa",
+      "status": "live",
+      "locations": 3
+    },
+    {
+      "code": "BQ",
+      "name": "Bonaire",
+      "flag": "🇧🇶",
+      "continent": "North America",
       "status": "live",
       "locations": 3
     },
@@ -682,9 +874,9 @@
       "locations": 3
     },
     {
-      "code": "CU",
-      "name": "Cuba",
-      "flag": "🇨🇺",
+      "code": "CW",
+      "name": "Curaçao",
+      "flag": "🇨🇼",
       "continent": "North America",
       "status": "live",
       "locations": 3
@@ -754,6 +946,14 @@
       "locations": 3
     },
     {
+      "code": "MQ",
+      "name": "Martinique",
+      "flag": "🇲🇶",
+      "continent": "North America",
+      "status": "live",
+      "locations": 3
+    },
+    {
       "code": "MU",
       "name": "Mauritius",
       "flag": "🇲🇺",
@@ -806,6 +1006,14 @@
       "name": "Rwanda",
       "flag": "🇷🇼",
       "continent": "Africa",
+      "status": "live",
+      "locations": 3
+    },
+    {
+      "code": "KN",
+      "name": "Saint Kitts and Nevis",
+      "flag": "🇰🇳",
+      "continent": "North America",
       "status": "live",
       "locations": 3
     },
@@ -866,6 +1074,14 @@
       "locations": 3
     },
     {
+      "code": "VI",
+      "name": "United States Virgin Islands",
+      "flag": "🇻🇮",
+      "continent": "North America",
+      "status": "live",
+      "locations": 3
+    },
+    {
       "code": "ZM",
       "name": "Zambia",
       "flag": "🇿🇲",
@@ -886,6 +1102,14 @@
       "name": "Angola",
       "flag": "🇦🇴",
       "continent": "Africa",
+      "status": "live",
+      "locations": 2
+    },
+    {
+      "code": "AI",
+      "name": "Anguilla",
+      "flag": "🇦🇮",
+      "continent": "North America",
       "status": "live",
       "locations": 2
     },
@@ -1058,6 +1282,14 @@
       "locations": 2
     },
     {
+      "code": "MS",
+      "name": "Montserrat",
+      "flag": "🇲🇸",
+      "continent": "North America",
+      "status": "live",
+      "locations": 2
+    },
+    {
       "code": "MP",
       "name": "Northern Mariana Islands",
       "flag": "🇲🇵",
@@ -1158,14 +1390,6 @@
       "name": "Albania",
       "flag": "🇦🇱",
       "continent": "Europe",
-      "status": "live",
-      "locations": 1
-    },
-    {
-      "code": "BS",
-      "name": "Bahamas",
-      "flag": "🇧🇸",
-      "continent": "North America",
       "status": "live",
       "locations": 1
     },
@@ -1338,10 +1562,34 @@
       "locations": 1
     },
     {
+      "code": "BL",
+      "name": "Saint Barthélemy",
+      "flag": "🇧🇱",
+      "continent": "North America",
+      "status": "live",
+      "locations": 1
+    },
+    {
+      "code": "MF",
+      "name": "Saint Martin",
+      "flag": "🇲🇫",
+      "continent": "North America",
+      "status": "live",
+      "locations": 1
+    },
+    {
       "code": "SL",
       "name": "Sierra Leone",
       "flag": "🇸🇱",
       "continent": "Africa",
+      "status": "live",
+      "locations": 1
+    },
+    {
+      "code": "SX",
+      "name": "Sint Maarten",
+      "flag": "🇸🇽",
+      "continent": "North America",
       "status": "live",
       "locations": 1
     },

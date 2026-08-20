@@ -192,7 +192,17 @@
       ],
       "blurb": "Rare sand forest on the Mozambique border, home to some of Africa's last great 'tusker' elephants — bulls whose ivory nearly sweeps the ground. The waterhole cam here is one of the longest-running in Africa.",
       "fun_fact": "Tembe's elephants carry some of the best big-tusk genes left on the continent — trophy hunting never reached this population.",
-      "webcam": "gdrNUUf-cQw"
+      "webcam": "gdrNUUf-cQw",
+      "monuments": [
+        {
+          "name": "The great tuskers",
+          "yt": "Pn0isR2TES4",
+          "start": 0,
+          "source": "auto",
+          "title": "BIG TUSKERS OF CHYULLU HILLS",
+          "height": 720
+        }
+      ]
     },
     {
       "id": "djuma-sabi-sands",
@@ -470,7 +480,17 @@
       ],
       "blurb": "A waterhole set against the fossil dunes of the world's oldest desert — oryx, springbok, ostrich and jackals drifting in and out of apricot-coloured sand, sunrise to starlight.",
       "fun_fact": "The Namib has been arid for some 55 million years — its dunes glow orange because the sand has had time to rust.",
-      "webcam": "ydYDqZQpim8"
+      "webcam": "ydYDqZQpim8",
+      "monuments": [
+        {
+          "name": "Fossil dunes",
+          "yt": "MF2z_UvnAPI",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Al Wathba Fossil Dunes | Incredible Formation of Dunes Sand #uae #abudhabi #alwathba #sightseeing",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "victoria-falls-waterhole",

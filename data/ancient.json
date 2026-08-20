@@ -344,7 +344,17 @@
       "aa_episode": 4,
       "aa_claim": "Hancock dives the site to argue it could be a man-made structure submerged by the meltwater sea-level rise at the end of the Ice Age — exactly where a lost coastal civilization's traces would now lie.",
       "country_code": "BS",
-      "continent": "North America"
+      "continent": "North America",
+      "monuments": [
+        {
+          "name": "Bimini Road",
+          "yt": "EQgYyna5cck",
+          "start": 0,
+          "source": "auto",
+          "title": "The Bimini Road: Natural or Manmade? | MYSTERY REPUBLIC",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "aa-gobekli-tepe",

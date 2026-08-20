@@ -4654,7 +4654,17 @@
       ],
       "blurb": "A walled Sichuanese town on a bend of the Jialing River that kept its Tang street grid and about two square kilometres of courtyard houses. It was the provincial capital for seventeen years in the 17th century and has been quietly ignored ever since.",
       "fun_fact": "Langzhong is the home of Baoning vinegar, brewed here since the Ming dynasty — the town smells faintly of it, and it goes on everything.",
-      "hidden_gem_tip": "This is the least-visited of China's four great preserved old towns. Climb Zhangfei Temple's hill for the roofscape and you will very likely be alone up there."
+      "hidden_gem_tip": "This is the least-visited of China's four great preserved old towns. Climb Zhangfei Temple's hill for the roofscape and you will very likely be alone up there.",
+      "monuments": [
+        {
+          "name": "Jialing River",
+          "yt": "gTanNIR8x3s",
+          "start": 0,
+          "source": "auto",
+          "title": "Old Chongqing Neighborhood Walk | Riverside Village by the Jialing River | 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "chaozhou",
@@ -18623,7 +18633,33 @@
       ],
       "blurb": "The old capital of the Georgian kingdom, at the meeting of the Aragvi and the Mtkvari 20 km from Tbilisi, and the country's spiritual centre since Georgia adopted Christianity here in the 330s. Kings were crowned and buried in its cathedral for a thousand years.",
       "fun_fact": "Svetitskhoveli means 'the life-giving pillar' — the cathedral is said to stand over the robe of Christ, brought back from Jerusalem by a Georgian Jew who was at the crucifixion.",
-      "hidden_gem_tip": "Jvari sits on the bluff above the confluence, and the two rivers meet without mixing — one grey with silt, one clear — for a long way downstream."
+      "hidden_gem_tip": "Jvari sits on the bluff above the confluence, and the two rivers meet without mixing — one grey with silt, one clear — for a long way downstream.",
+      "monuments": [
+        {
+          "name": "Svetitskhoveli Cathedral",
+          "yt": "dpJesALtFnE",
+          "start": 0,
+          "source": "auto",
+          "title": "Svetitskhoveli Cathedral Xplore Georgia S1E31 4K",
+          "height": 2160
+        },
+        {
+          "name": "Jvari Monastery",
+          "yt": "jwfx6c7ojnQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Jvari Monastery | Mtskheta, Mtskheta-Mtianeti, Georgia - 4K DJI Air2S Drone Footage",
+          "height": 2160
+        },
+        {
+          "name": "Samtavro Monastery",
+          "yt": "R1BR6v-LqOs",
+          "start": 0,
+          "source": "auto",
+          "title": "Walking to Samtavro Monastery | Mtskheta Georgia | Georgia Tourist Attractions | Georgia Country",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "svaneti",
@@ -18674,7 +18710,33 @@
       ],
       "blurb": "A region of high valleys under the main Caucasus ridge, cut off by snow for much of the year and never conquered by anyone — which is why its villages still bristle with defensive stone towers, one per family, built between the ninth and thirteenth centuries.",
       "fun_fact": "Ushguli, at 2,100 m, claims to be the highest continuously inhabited settlement in Europe, and its churches held medieval icons and manuscripts that survived because no invading army ever got up here.",
-      "hidden_gem_tip": "The Svan language is not Georgian — it split off perhaps four thousand years ago and has no written form."
+      "hidden_gem_tip": "The Svan language is not Georgian — it split off perhaps four thousand years ago and has no written form.",
+      "monuments": [
+        {
+          "name": "Ushguli",
+          "yt": "Ga1XiQC9M_g",
+          "start": 0,
+          "source": "auto",
+          "title": "Walk to Next Neighborhood in Ushguli, Georgia | Svaneti 4K",
+          "height": 2160
+        },
+        {
+          "name": "Mestia",
+          "yt": "Iho8YVuAIio",
+          "start": 0,
+          "source": "auto",
+          "title": "Svaneti in 4K: Exploring Mestia's Serene Beauty",
+          "height": 2160
+        },
+        {
+          "name": "Mount Ushba",
+          "yt": "SN1a31Q1tdA",
+          "start": 0,
+          "source": "auto",
+          "title": "Mt. Ushba, Georgia[4K] 2018",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "vardzia",
@@ -18717,7 +18779,33 @@
       ],
       "blurb": "A cave city dug into a cliff above the Mtkvari in the 1180s under Queen Tamar — thirteen storeys, some six thousand rooms, with chapels, bakeries, wine cellars and a piped spring, all cut into soft volcanic tuff as a refuge from Mongol invasion.",
       "fun_fact": "An earthquake in 1283 sheared the outer wall of rock clean off, opening the whole complex to the air like a cut-away drawing — what you see was meant to be hidden inside the cliff.",
-      "hidden_gem_tip": "The main church still has its twelfth-century frescoes, including what may be the only portrait of Tamar painted in her lifetime."
+      "hidden_gem_tip": "The main church still has its twelfth-century frescoes, including what may be the only portrait of Tamar painted in her lifetime.",
+      "monuments": [
+        {
+          "name": "Khertvisi Fortress",
+          "yt": "ItwKN-bo22o",
+          "start": 0,
+          "source": "auto",
+          "title": "Cave City Vardzia 🇬🇪 Georgia | 4K | Khertvisi Fortress | Atskuri Fortress",
+          "height": 2160
+        },
+        {
+          "name": "Mtkvari",
+          "yt": "gUcai62joL0",
+          "start": 0,
+          "source": "auto",
+          "title": "Beauties of Georgia: Vardzia cave monastery and Mtkvari Canyon - ALONG THE SILK ROAD [Ep.19]",
+          "height": 2160
+        },
+        {
+          "name": "Church of the Dormition",
+          "yt": "b_NqQH2Mpek",
+          "start": 0,
+          "source": "auto",
+          "title": "4K. BAKHCHISARAY.CRIMEA. Dormition Church and Khan's Palace.",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "batumi",
@@ -18768,7 +18856,33 @@
       ],
       "blurb": "Georgia's Black Sea city, subtropical and rainy, where palms and bamboo grow at the foot of the Lesser Caucasus. A belle-époque oil port that has spent the last twenty years growing a skyline of deliberately strange towers along its pebble beach.",
       "fun_fact": "The Alphabet Tower is a 130 m double helix with the 33 letters of the Georgian alphabet running up its steel strands — Georgian is written in a script used by no other language.",
-      "hidden_gem_tip": "The botanical garden 9 km north was laid out in 1912 across nine climate zones on a headland; it is the better half of Batumi."
+      "hidden_gem_tip": "The botanical garden 9 km north was laid out in 1912 across nine climate zones on a headland; it is the better half of Batumi.",
+      "monuments": [
+        {
+          "name": "Batumi Boulevard",
+          "yt": "ew5hf_ZeLW8",
+          "start": 0,
+          "source": "auto",
+          "title": "Batumi Boulevard, Georgia 🇬🇪 4K Walking Tour",
+          "height": 2160
+        },
+        {
+          "name": "Alphabetic Tower",
+          "yt": "9xziSz_e0Kc",
+          "start": 0,
+          "source": "auto",
+          "title": "Batumi Alphabetic Tower - Xiaomi Mi Drone 4K",
+          "height": 1440
+        },
+        {
+          "name": "Gonio Fortress",
+          "yt": "imsbbHW2mqU",
+          "start": 0,
+          "source": "auto",
+          "title": "Gonio Apsaros Fortress near Batumi 🏰 Walking tour 2023 | 4K HDR 50fps",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "kutaisi",
@@ -18816,7 +18930,33 @@
       ],
       "blurb": "One of the oldest cities in Europe, capital of the kingdom of Colchis that the Argonauts sailed to for the Golden Fleece, and later of medieval Georgia. Its cathedral crowns the hill above the Rioni and the royal monastery of Gelati is 11 km out of town.",
       "fun_fact": "Gelati was founded in 1106 with an academy attached, and its twelfth-century mosaic of the Virgin in the apse is one of the finest pieces of Byzantine-era work outside Constantinople.",
-      "hidden_gem_tip": "The canyons north of town — Okatse and Martvili — are half a day each and far less visited than the monasteries."
+      "hidden_gem_tip": "The canyons north of town — Okatse and Martvili — are half a day each and far less visited than the monasteries.",
+      "monuments": [
+        {
+          "name": "Bagrati Cathedral",
+          "yt": "2Z-U6kr9WYs",
+          "start": 0,
+          "source": "auto",
+          "title": "Discovering the Iconic Bagrati Cathedral in Kutaisi 4K",
+          "height": 2160
+        },
+        {
+          "name": "Gelati Monastery",
+          "yt": "_QWUdlkfFi0",
+          "start": 0,
+          "source": "auto",
+          "title": "Gelati Monastery complex, Motsameta, Georgia (08.10.2022) (4K)",
+          "height": 2160
+        },
+        {
+          "name": "Prometheus Cave",
+          "yt": "Es8_a55T1OQ",
+          "start": 0,
+          "source": "auto",
+          "title": "Kutaisi Georgia 🇬🇪 Nature Tour 4K | Okatse Canyon, Martvili Canyon & Prometheus Cave 4K(No Talking)",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "geghard",
@@ -18913,7 +19053,25 @@
       ],
       "blurb": "A small fortified monastery on a hillock in the flat Ararat plain, a kilometre from the closed Turkish border, and the single most photographed spot in Armenia — because Mount Ararat rises straight behind it, 5,137 m, the national symbol on the far side of a frontier no Armenian can cross.",
       "fun_fact": "Gregory the Illuminator was imprisoned in a pit here for thirteen years before converting the king in 301 — which made Armenia the first state anywhere to adopt Christianity.",
-      "hidden_gem_tip": "You can climb down a ladder into the pit itself. Ararat is usually hazed out by midday, so come at first light."
+      "hidden_gem_tip": "You can climb down a ladder into the pit itself. Ararat is usually hazed out by midday, so come at first light.",
+      "monuments": [
+        {
+          "name": "Mount Ararat",
+          "yt": "OlIljNHtlBY",
+          "start": 0,
+          "source": "auto",
+          "title": "Khor Virap /Armenia - amazing traditional dance Ararat 4K",
+          "height": 2160
+        },
+        {
+          "name": "Artashat",
+          "yt": "wTkKfZ7pDpM",
+          "start": 0,
+          "source": "auto",
+          "title": "Flying to Armenia 2022/ First day in Artashat",
+          "height": 1080
+        }
+      ]
     },
     {
       "id": "dilijan",
@@ -18960,7 +19118,33 @@
       ],
       "blurb": "A forested spa town in the Aghstev valley that Armenians call their Switzerland — deciduous woodland rather than the bare volcanic highland of most of the country, with two thirteenth-century monasteries hidden in the trees above it.",
       "fun_fact": "Haghartsin's refectory and churches sit in a clearing so enclosed by beech that you do not see the complex until you are inside it — the site was chosen for exactly that.",
-      "hidden_gem_tip": "Sharambeyan Street in town is a restored block of nineteenth-century wooden balconied houses, with working craft workshops behind them."
+      "hidden_gem_tip": "Sharambeyan Street in town is a restored block of nineteenth-century wooden balconied houses, with working craft workshops behind them.",
+      "monuments": [
+        {
+          "name": "Dilijan National Park",
+          "yt": "lZj4O2z9--c",
+          "start": 0,
+          "source": "auto",
+          "title": "Explore Dilijan National Park's Hidden Gem: Parz Lich (Lake Parz) Tour in Armenia .4k 60fps",
+          "height": 2160
+        },
+        {
+          "name": "Haghartsin Monastery",
+          "yt": "Xbtd5dABJ_A",
+          "start": 0,
+          "source": "auto",
+          "title": "4K Silent walking in Haghartsin Monastery / Armenia",
+          "height": 2160
+        },
+        {
+          "name": "Goshavank",
+          "yt": "V9qGYx95Wq8",
+          "start": 0,
+          "source": "auto",
+          "title": "Driving  from the H30 ➡️ Gosh ➡️ Goshavank monastery complex #armenia #4k #driving #tavush #армения",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "gobustan",
@@ -19002,7 +19186,25 @@
       ],
       "blurb": "A field of tumbled limestone boulders on a semi-desert plateau south of Baku carrying more than six thousand rock carvings — boats, dancers, hunters, aurochs — cut over a span of forty thousand years by people living on what was then a wetter coast.",
       "fun_fact": "A Roman inscription here, left by a centurion of the Twelfth Legion in the first century AD, is the easternmost Roman inscription ever found.",
-      "hidden_gem_tip": "Azerbaijan has around half the world's mud volcanoes and a large field of them sits just beyond the reserve — cold grey cones that bubble continuously."
+      "hidden_gem_tip": "Azerbaijan has around half the world's mud volcanoes and a large field of them sits just beyond the reserve — cold grey cones that bubble continuously.",
+      "monuments": [
+        {
+          "name": "Mud volcanoes",
+          "yt": "NBVnqO4tG1s",
+          "start": 0,
+          "source": "auto",
+          "title": "GOBUSTAN MUD VOLCANOES ROAD | Azerbaijan Beautiful Roads (4k Video) | Azerbaijan Tour",
+          "height": 2160
+        },
+        {
+          "name": "Caspian Sea",
+          "yt": "JSzrVxolims",
+          "start": 0,
+          "source": "auto",
+          "title": "Aktau Waterfront Walk at Evening | Caspian Sea 4K",
+          "height": 2160
+        }
+      ]
     },
     {
       "id": "sheki",

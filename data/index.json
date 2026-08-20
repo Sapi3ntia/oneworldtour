@@ -64,6 +64,15 @@
       "enabled": true
     },
     {
+      "id": "caribbean",
+      "name": "Caribbean",
+      "flag": "🏝️",
+      "country": null,
+      "continent": null,
+      "file": "data/caribbean.json",
+      "enabled": true
+    },
+    {
       "id": "ancient",
       "name": "Ancient",
       "flag": "🤫",
