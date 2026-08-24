@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-20T00:44:43+00:00",
+ "generated": "2026-08-22T16:43:05+00:00",
  "places": {
   "fez": {
    "walk": {
@@ -20989,6 +20989,24 @@
     "channel": "L Star AFRICA",
     "date": "20210723",
     "duration": 634
+   }
+  },
+  "scott-base": {
+   "walk": {
+    "yt": "RMufR7MihTE",
+    "title": "360 Walkthrough Scott Base from Entry to Hatherton Lab",
+    "channel": "Antarctic Outreach Videos",
+    "date": "20230317",
+    "duration": 792
+   }
+  },
+  "bharati-station": {
+   "walk": {
+    "yt": "rV3SlAmysF8",
+    "title": "BHARATI ISLAND, ANTARCTICA | WALKING AROUND THE RESEARCH STATION | To The Shore | One Wild Wanderer",
+    "channel": "One Wild Wanderer",
+    "date": "20200915",
+    "duration": 2069
    }
   }
  }

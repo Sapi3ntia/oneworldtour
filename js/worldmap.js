@@ -132,6 +132,10 @@ const LAND_ALIAS = {
   'Dem. Rep. Congo': 'DR Congo',
   'Bosnia and Herz.': 'Bosnia and Herzegovina',
   Czechia: 'Czech Republic',
+  // Natural Earth abbreviates this one; 'Antarctica' it spells in full, and
+  // South Georgia, Heard and Bouvet have no polygon at 1:110m at all — their
+  // places show as pins on open water, which is very nearly what they are.
+  'Fr. S. Antarctic Lands': 'French Southern and Antarctic Lands',
 };
 
 const svgEl = (tag, attrs = {}) => {

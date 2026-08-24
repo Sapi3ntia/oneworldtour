@@ -59,7 +59,9 @@
     "VDjVcKgQB78": "a LONDON walk, Liverpool STREET to Tate MODERN — not Tate Liverpool",
     "5eCgOzTZ8ss": "QUANZHOU's Kaiyuan Temple (Fujian) — not Chaozhou's namesake",
     "AtA8rRg7LqA": "XI'AN's Drum Tower — not the Dong drum tower at Chengyang, ~1500 km away",
-    "3daX2hvl48g": "Mosquee de la Divinite in Ouakam — a different building from the Grand Mosque of Dakar"
+    "3daX2hvl48g": "Mosquee de la Divinite in Ouakam — a different building from the Grand Mosque of Dakar",
+    "3XSO2sUtcpM": "a Microsoft Flight Simulator approach (PMDG 737 add-on) — simulated, not filmed",
+    "LeCXOLFFBTA": "a music track on DistroKid titled 'Bellingshausen Sea' — no footage"
   },
   "_per_place": "place id -> {youtube id: why it is not THIS place}. For a video that is honest somewhere else: a Mt Wilson walk is right for mount-wilson-observatory and wrong for Yerkes. A global ban would delete the good seat too.",
   "per_place": {
@@ -127,6 +129,157 @@
     "peleliu": {
       "Rx5QJOM2lZs": "Call of Duty: World at War gameplay of the Peleliu map — a video game, not the island",
       "XW4Eiwyjnus": "Orange Beach, ALABAMA — the bare state abbreviation slips the comma-anchored US rule in wrong_place_title()"
+    },
+    "paradise-harbour": {
+      "XA4txZfaZ9E": "Browns Station Fountain at the Ashokan Reservoir, NEW YORK"
+    },
+    "danco-island": {
+      "osOFKOvQC20": "Summit Ridge Tagaytay breakfast buffet, the PHILIPPINES"
+    },
+    "petermann-island": {
+      "FbGO-Taee6I": "an Adélie colony on DEVIL ISLAND, in the Weddell Sea"
+    },
+    "vernadsky-station": {
+      "-jszDco2wnE": "Faraday House at BATTERSEA Power Station, London — the base's old name is Faraday, the building is not"
+    },
+    "esperanza-base": {
+      "FbGO-Taee6I": "an Adélie colony on DEVIL ISLAND, in the Weddell Sea"
+    },
+    "marambio-base": {
+      "NDIDZhB35YY": "North Seymour in the GALÁPAGOS, not Seymour Island in the Weddell Sea"
+    },
+    "paulet-island": {
+      "FbGO-Taee6I": "an Adélie colony on DEVIL ISLAND, in the Weddell Sea",
+      "rplG42457-I": "a general Antarctic wildlife montage — it names no place and shows no sound"
+    },
+    "brown-bluff": {
+      "rplG42457-I": "a general Antarctic wildlife montage — it names no place and shows no sound",
+      "FbGO-Taee6I": "an Adélie colony on DEVIL ISLAND, in the Weddell Sea"
+    },
+    "deception-island": {
+      "2tG4otsqVJY": "the Ombrière du Vieux-Port de MARSEILLE, by Norman Foster — matched on the words 'Port' and 'Foster'"
+    },
+    "villa-las-estrellas": {
+      "1y2_QNfHg5g": "the Central Post Office in HO CHI MINH CITY"
+    },
+    "arctowski-station": {
+      "pljxxnTvQ3c": "Point Pleasant Resort, St Thomas, US VIRGIN ISLANDS"
+    },
+    "elephant-island": {
+      "-OuJk43D5rY": "a Valentine's Day hike at Cape D'Aguilar, HONG KONG"
+    },
+    "mount-erebus": {
+      "PDhtMyqycaY": "the Halemaʻumaʻu lava lake, KĪLAUEA, Hawaii"
+    },
+    "cape-royds": {
+      "FbGO-Taee6I": "an Adélie colony on DEVIL ISLAND, 4,000 km away in the Weddell Sea"
+    },
+    "cape-crozier": {
+      "ERlORnPjkKI": "the Igorot Stone Kingdom in Benguet, the PHILIPPINES — not Wilson's stone igloo",
+      "FbGO-Taee6I": "an Adélie colony on DEVIL ISLAND, 4,000 km away in the Weddell Sea"
+    },
+    "ross-ice-shelf": {
+      "T8bnvO7GD14": "Roosevelt Island in the EAST RIVER, New York City"
+    },
+    "mcmurdo-dry-valleys": {
+      "LwZ1p8szOyY": "Lake Bonney in SOUTH AUSTRALIA — a caravan bogged on its shore"
+    },
+    "blood-falls": {
+      "ry3IvIdi6wQ": "Lake Bonney at Barmera, SOUTH AUSTRALIA"
+    },
+    "don-juan-pond": {
+      "zRpxagPlmqY": "an ANIME FIGURE unboxing — Antarcticite is a character in Houseki no Kuni, and also the mineral this pond precipitates",
+      "BAP81ljy5-k": "Daisy's Cocktail Garden on the High Line, MANHATTAN"
+    },
+    "cape-adare": {
+      "FbGO-Taee6I": "an Adélie colony on DEVIL ISLAND, 3,000 km away in the Weddell Sea"
+    },
+    "zucchelli-station": {
+      "ex5SSdKwbKU": "a Hi Fly A340 landing at WOLF'S FANG in Queen Maud Land, 3,000 km from Terra Nova Bay"
+    },
+    "framheim": {
+      "As7JeuC9DWk": "a Viking cruise-line centenary promo about the expedition — Framheim itself is buried in the Barrier"
+    },
+    "beardmore-glacier": {
+      "DX6prkjW_V0": "Mount Hope Place in the BRONX",
+      "puy8SzYCzXs": "Gateway Mall, Umhlanga, SOUTH AFRICA"
+    },
+    "neumayer-station": {
+      "eqdy_iAd-2k": "the Weddell Sea colony reached by helicopter from the Kapitan Khlebnikov, not Atka Bay"
+    },
+    "novolazarevskaya-station": {
+      "7WFxXc4uB60": "a boat trip on the Untersee arm of LAKE CONSTANCE, Germany"
+    },
+    "ulvetanna": {
+      "ikv5afFL5XU": "the northeast ridge of San Luis Peak, COLORADO"
+    },
+    "halley-station": {
+      "WHsvcOEUdJ0": "Ausable Chasm, NEW YORK"
+    },
+    "mawson-station": {
+      "zYm1b3OmqY4": "wind turbines in winter, filmed by a drone somewhere unnamed — not Mawson's two"
+    },
+    "davis-station": {
+      "1m2JcOB5LZ4": "Lake Ohrid, NORTH MACEDONIA, billed as Europe's deepest"
+    },
+    "casey-station": {
+      "RlBDZInA9JU": "Shirley, LONG ISLAND, New York"
+    },
+    "cape-denison": {
+      "rPb5BjKZXVI": "the Mount Macedon Memorial Cross, VICTORIA"
+    },
+    "dumont-durville-station": {
+      "eqdy_iAd-2k": "the Weddell Sea colony reached by helicopter from the Kapitan Khlebnikov, not Pointe Géologie"
+    },
+    "bharati-station": {
+      "wpgYwS4hza4": "a general film about stacking shipping containers, nowhere in particular"
+    },
+    "south-pole": {
+      "ARDZL57BVCI": "a video about the VIDEO GAME Dark Sector"
+    },
+    "concordia-station": {
+      "jZU_-zdUmwY": "the blue domes of Oia, SANTORINI"
+    },
+    "kunlun-station": {
+      "jZU_-zdUmwY": "the blue domes of Oia, SANTORINI"
+    },
+    "mount-vinson": {
+      "fbPHt9h_Wvs": "the Sentinel Range in south-west TASMANIA",
+      "RaRPm5qijTo": "Lower Kananaskis campground, ALBERTA"
+    },
+    "thwaites-glacier": {
+      "NIgZb3ho9-E": "a text-to-speech reading of the Wikipedia article — no footage of anything",
+      "wsSD_vuBz-s": "a TiPACCs science explainer about tipping points, not a look at the ice sheet"
+    },
+    "mount-sidley": {
+      "p19l4V4HiHQ": "a music video by Rodolfo Pitti that borrows the name",
+      "bKs89_77rcc": "Pico de la Nieve, LA PALMA"
+    },
+    "king-edward-point": {
+      "8fFaIzt5Unc": "a Romanian review of a Philips monitor — 'duse' is a Romanian verb here"
+    },
+    "st-andrews-bay": {
+      "wdvB-ktCOlM": "the Tasman Glacier at Aoraki / Mount Cook, NEW ZEALAND",
+      "keXEGOuS48Q": "the Skittles run at Big Sky Resort, MONTANA"
+    },
+    "port-aux-francais": {
+      "uwAeL_un-DU": "the Golfe du Morbihan in BRITTANY — Kerguelen's gulf has the same name"
+    },
+    "kerguelen-islands": {
+      "C0gY-a3TTzw": "Ross Park Mall, PITTSBURGH",
+      "uwAeL_un-DU": "the Golfe du Morbihan in BRITTANY — Kerguelen's gulf has the same name"
+    },
+    "south-pole-telescope": {
+      "ARDZL57BVCI": "a video about the VIDEO GAME Dark Sector"
+    },
+    "icecube-observatory": {
+      "ARDZL57BVCI": "a video about the VIDEO GAME Dark Sector"
+    },
+    "maunakea-observatories": {
+      "U0tJiw7clR8": "GEMINI SOUTH, on Cerro Pachón in CHILE — Maunakea hosts Gemini North"
+    },
+    "beijing-ancient-observatory": {
+      "tB0T9apfqWE": "the Ming city wall of NANJING, filmed by the Dabao'en Temple — Beijing's remnant is at Chongwenmen"
     }
   }
 }

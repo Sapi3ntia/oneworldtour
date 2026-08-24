@@ -102,8 +102,19 @@ export async function rates(base = 'USD') {
   } catch { return null; }
 }
 
+/* Radio Browser's country field is submitter-supplied, and for one code it is
+   pure fiction: every one of the nine stations filed under AQ is somewhere
+   else — KBS 1FM in Seoul, a Quran recitation stream, a personal radio, and
+   five meme stations. Nobody streams from the ice. Printing them under
+   "Local radio" would be a false claim about the place, which is worse than
+   an empty panel, and the panel already hides itself when the list is empty.
+   The real Antarctic broadcaster, LRA 36 at Esperanza Base, is shortwave and
+   has no stream to embed; if that ever changes, this is the line to delete. */
+const NO_LOCAL_RADIO = new Set(['AQ']);
+
 /* ---- Local radio stations (Radio Browser) ---- */
 export async function stations(countryCode, limit = 14) {
+  if (NO_LOCAL_RADIO.has(countryCode)) return [];
   const servers = [
     'https://de1.api.radio-browser.info',
     'https://fi1.api.radio-browser.info',

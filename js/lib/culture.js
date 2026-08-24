@@ -250,6 +250,11 @@ const COUNTRY_PROFILES = {
   'Saint Barthélemy': { lang: 'French', currency: 'Euro (€)', dish: 'Accras & grilled langouste', phrases: [['Hello','Bonjour'],['Thank you','Merci'],['Cheers','Santé']] },
   'Martinique': { lang: 'French / Creole', currency: 'Euro (€)', dish: 'Colombo de poulet & accras', phrases: [['Hello','Bonjour'],['Thank you','Merci'],['Cheers','Santé']] },
   'Guadeloupe': { lang: 'French / Creole', currency: 'Euro (€)', dish: 'Bokit & colombo', phrases: [['Hello','Bonjour'],['Thank you','Merci'],['Cheers','Santé']] },
+  'Antarctica': { lang: 'English, Russian, Spanish, Chinese — whoever is on shift', currency: 'None — bases run on scrip, cards and goodwill', dish: 'Freshies, on the day the plane lands', phrases: [['Hello','Hello / Привет / Hola'],['Fresh food','Freshies'],['Home','Off the Ice']] },
+  'South Georgia and the South Sandwich Islands': { lang: 'English', currency: 'Pound sterling (£)', dish: 'Ship\'s stores — the reindeer were removed in 2015', phrases: [['Hello','Hello'],['Thank you','Thank you'],['Cheers','Cheers']] },
+  'French Southern and Antarctic Lands': { lang: 'French', currency: 'Euro (€)', dish: 'Langouste, and Kerguelen cabbage if you are desperate', phrases: [['Hello','Bonjour'],['Thank you','Merci'],['Cheers','Santé']] },
+  'Heard Island and McDonald Islands': { lang: 'None — nobody lives there', currency: 'Australian dollar (A$)', dish: 'Nothing. There is no kitchen', phrases: [['Hello','English, when a ship is in'],['Thank you','Thank you'],['Cheers','Cheers']] },
+  'Bouvet Island': { lang: 'None — nobody lives there', currency: 'Norwegian krone (kr)', dish: 'Nothing. The nearest kitchen is 1,600 km away', phrases: [['Hello','Hallo'],['Thank you','Takk'],['Cheers','Skål']] },
   /* === end world-expansion === */
 
 };
@@ -428,6 +433,11 @@ const COUNTRY_CODES = {
   'Saint Barthélemy':'BL',
   'Martinique':'MQ',
   'Guadeloupe':'GP',
+  'Antarctica':'AQ',
+  'South Georgia and the South Sandwich Islands':'GS',
+  'French Southern and Antarctic Lands':'TF',
+  'Heard Island and McDonald Islands':'HM',
+  'Bouvet Island':'BV',
   /* === end world-expansion === */
 
 };
@@ -606,6 +616,11 @@ const CURRENCY_CODES = {
   'Saint Barthélemy':'EUR',
   'Martinique':'EUR',
   'Guadeloupe':'EUR',
+  'Antarctica':'',
+  'South Georgia and the South Sandwich Islands':'GBP',
+  'French Southern and Antarctic Lands':'EUR',
+  'Heard Island and McDonald Islands':'AUD',
+  'Bouvet Island':'NOK',
   /* === end world-expansion === */
 
 };
@@ -818,6 +833,11 @@ const COUNTRY_FACTS = {
   'Saint Barthélemy':{capital:'Gustavia',pop:'11K',drives:'Right',plug:'Type C/E · 220V'},
   'Martinique':{capital:'Fort-de-France',pop:'350K',drives:'Right',plug:'Type C/E · 220V'},
   'Guadeloupe':{capital:'Basse-Terre',pop:'380K',drives:'Right',plug:'Type C/E · 230V'},
+  'Antarctica':{capital:'',pop:'1,100 in winter, 5,000 in summer',drives:'whichever side its base does',plug:'Type A/B/C/F · 120–240V'},
+  'South Georgia and the South Sandwich Islands':{capital:'King Edward Point',pop:'~30, all on posting',drives:'Left',plug:'Type G · 240V'},
+  'French Southern and Antarctic Lands':{capital:'Port-aux-Français',pop:'~150 in summer, ~45 in winter',drives:'Right',plug:'Type C/E · 220V'},
+  'Heard Island and McDonald Islands':{capital:'',pop:'0',drives:'',plug:'Type I · 230V'},
+  'Bouvet Island':{capital:'',pop:'0',drives:'',plug:'Type C/F · 230V'},
   /* === end world-expansion === */
 
 };

@@ -35,6 +35,11 @@ The architecture itself is documented in [`README.md`](README.md).
   Prefer `--only` on specific new places over another broad sweep.
   Consider a `--reverify` mode that re-checks `is_live` on previously-found cams
   and drops dead ones (currently they only die honestly at runtime via onError).
+  **A live sighting, 2026-08-24:** loading `maunakea-observatories` pops the
+  toast *"That window feed has gone offline — removed."* — `media.json` still
+  carries `window MPokOMJvZ-g` (CFHT MaunaKea West view). The frontend is doing
+  the right thing and the entry is dead weight until something re-checks it.
+  This is what `--reverify` is for; it is not a rendering bug.
 - **Review auto-picks.** `media.json` quality is good but not curated-good; promote
   great finds into the region JSON (`walk`/`webcam`/`window`) and they become
   permanent.
@@ -189,7 +194,7 @@ dropped in v2 — resurrect from git if missed); satellite descend-from-orbit.
 **The 🛰️ satellite window seat (js/lib/satellite.js):**
 - It is **not a scene and not a window**. Never add it to `sceneFlags()`, never
   route it through `media.js`, never let it into `window.html` or a "live" rail.
-  The moment it counts as a live seat, the honesty rule is dead — 1,565 places
+  The moment it counts as a live seat, the honesty rule is dead — 1,670 places
   would start claiming a window they don't have.
 - Keep the 🛰️ badge, keep the no-live-dot, and keep the title sentence that says
   there is no window cam here. That sentence is the feature's licence to exist.
@@ -205,6 +210,28 @@ dropped in v2 — resurrect from git if missed); satellite descend-from-orbit.
 - EUMETSAT's WMTS GetCapabilities 400s ("Error getting coverage reader"). The
   WMS `GetMap` path with `crs=EPSG:3857` works and sends `access-control-allow-
   origin: *`. Don't "fix" it back to WMTS.
+- **`lat ≤ −60` is not Web Mercator and never was.** `tileY(-90)` is `Infinity`,
+  so before Antarctica every polar place would have rendered an *empty* pane
+  under a caption claiming a live satellite view. `sourceFor()` routes those to
+  the polar-stereographic GIBS source (EPSG:3031, one WMS request, place dead
+  centre of a 2,000 km box). Don't "simplify" the three request shapes back to
+  one — geostationary XYZ, geostationary WMS and polar WMS genuinely differ, and
+  the contract they share is the output, not the URL.
+- **The polar day/night switch is load-bearing.** In the austral winter GIBS
+  returns a *genuinely black* image for VIIRS true colour, because there is no
+  daylight. The day-night band (moonlight, aurora, base lights) returns a real
+  one. Verified empirically on 2026-08-20; don't collapse the two into one layer.
+- The polar stamp says `<date> · a day's passes, mosaicked`, **not** a time. A
+  polar orbiter's product is not "now" and must not caption itself as if it were.
+- **`GIBS_LAG_H = 30`, and don't shrink it to look fresher.** The mosaic for the
+  current UTC day does not exist: GIBS answers with a **380-byte all-black
+  JPEG**, which is a valid JPEG, so `onerror` never fires and the pane shows a
+  black rectangle under an honest-looking caption. Measured at 15:29 UTC on
+  2026-08-22; every earlier day returned a real image. Thirty hours back always
+  lands on a finished mosaic whatever the hour.
+- The black disc at the centre of the South Pole's pane is the orbiter's own
+  polar coverage gap, not a bug — and its being dead centre is the EPSG:3031
+  transform proving itself. Don't "fix" it.
 
 **The map (js/worldmap.js):**
 - It's ours — no Leaflet, no tiles, no markercluster. Keep it that way; every v1
@@ -270,6 +297,108 @@ dropped in v2 — resurrect from git if missed); satellite descend-from-orbit.
 
 ## Recently landed (so it isn't re-litigated)
 
+- **Antarctica (2026-08-22):** the atlas had six continents. The seventh existed
+  only as eight passing mentions inside other places' prose.
+  `tools/build_antarctica.py` adds **92** records in a new `data/antarctica.json`
+  — Antarctica proper **79**, South Georgia and the South Sandwich Islands **7**,
+  the French Southern and Antarctic Lands **4**, Heard **1**, Bouvet **1** — and
+  `observatory.json` gains the **South Pole Telescope** and **IceCube**. Three
+  trips: **The Drake**, **The Southern Ocean**, **The Ross Sea** (28 → **31**).
+  Atlas: **1,728 → 1,822 places, 201 → 206 countries.** The home page grew a
+  seventh continent rail with no frontend change — `home.js` derives rails from
+  `p.continent`.
+  - **`AQ` for everything south of 60°S, full stop.** ISO 3166 and the Antarctic
+    Treaty draw the same line; seven claims exist, three overlap, none is
+    recognised. The sub-Antarctic islands are north of 60°S, have undisputed
+    sovereigns, and keep GS/TF/HM/BV. **Do not "fix" a base to its operator's
+    flag** — thirteen P17 warnings say United States / Australia / China / Chile
+    / South Korea / India / New Zealand / the **Soviet Union**, and every one of
+    them is Wikidata answering a different question. They are documented in the
+    generator header, not silenced. 66 records answer P17 with nothing at all,
+    which is the Treaty reported correctly; `p17_optional` keeps that quiet.
+  - **Both enrichers were run over all 94 ids and both finished the list.**
+    Monuments: **107 tabs on 71 of the 94**, of which **50 on 39 survived being
+    watched** (Base A, the Errera Channel, Blood Falls, the Dark Sector, the
+    Schirmacher Oasis, Cook Glacier) — see the audit below. Media:
+    **2 walk seats on 94** — Scott Base (2023 360 walkthrough) and Bharati (2020)
+    — and **zero** drive, live and window. Frontend-accurate `sceneFlags()`
+    counts, atlas-wide: walk 1,154 · drive 1,145 · live 252 · window 152 ·
+    **no window 1,670 · empty stage 72**, against **1,576 / 18** measured the same
+    way on the commit before this one. The empty stages rose because of the
+    audit, not a shortfall: cutting the misfiled tabs took **32 places** from
+    "has a tab" back to "has nothing", which is what they honestly are. **Do not treat the empty stages as a
+    backlog to grind down**: there are no streets to drive and no station will
+    spare upstream bandwidth for a 24/7 camera, so re-running the sweep here buys
+    nothing but load. Deception Island got **Whalers Bay** back as a monument tab
+    after the place record was deleted for having no article — the right seat for
+    it, found without being asked.
+  - **The older window/empty numbers in this file are on a different scale.** The
+    count that produced "window 163 · no window 1,565 · empty stage 345" did not
+    apply `windowFor()`'s rule that a window id equal to the live id is not a
+    window (worth ~11 places) and did not let monument tabs count as a filled
+    stage (worth hundreds). `tools/seat_stats.py` mirrors `sceneFlags()` exactly and can
+    read a git revision (`--rev HEAD`); measure both ends with the same script
+    before quoting a delta, because the rules it ports are the two that keep
+    getting missed — `liveFor()` reads `loc.webcam`, not `loc.live`, and a window
+    id equal to the live id is not a window.
+  - **57 of the 107 monument tabs were somewhere else entirely, and only
+    opening one found it.** A tab labelled "Port Foster" on Deception Island was
+    the *Ombrière du Vieux-Port de Marseille*; Santorini's blue domes sat under
+    Concordia and Kunlun ("Dome C", "Dome A"); a Bronx street under the Beardmore
+    Glacier ("Mount Hope"); a Pittsburgh mall under Kerguelen ("Mount Ross"); an
+    anime unboxing under Don Juan Pond. `mentions_landmark()` is a token-subset
+    test and Antarctic features are named in the plainest English geography
+    there is, so every continent matches; `wrong_place_title()` cannot fire
+    because those titles name neither a place we carry nor a country. All 57 cut
+    with per-video reasons (`per_place` 19 → 66 places / 84 videos, `ids` 57 →
+    59). New guard `anchors_to_place()` in `enrich_monuments.py`. Running it
+    over what already ships also caught **two tabs live for batches**: Maunakea's
+    "Gemini Observatory" was Gemini **South** (Cerro Pachón, Chile — Maunakea has
+    Gemini *North*), and Beijing's "Ming city wall" was **Nanjing's**, shot from
+    the Dabao'en Temple. **An offline check that ties a video to a name has not
+    tied it to a place.**
+  - **`self_anchoring()` is what makes that guard payable — do not remove it.**
+    Applied to every landmark alike the anchor test refuses **673 of the 4,236
+    shipped tabs (15.9 %)**, including `old-quebec / Plains of Abraham`. Gated so
+    only weak names must prove WHERE — `em.distinctive()` leaves one ordinary
+    word (*foster*, *deep*, *dome*), versus two words or one of ≥8 characters
+    (*grytviken*, *schirmacher*) — the cost is **226 of 4,236 (5.3 %)** and it
+    still refuses all 57. That 5.3 % is real: "Lake Huron November Beach Walking"
+    is right for Point Farms and is refused. It also contains real lies (a
+    Preston, **Lancashire** tour under Ontario's Preston). Read the refusals
+    before touching the thresholds; `build_monuments.py` outranks the sweep and
+    is where a human puts the losses back.
+  - **Grytviken's P17 = Argentina is the one live dispute** in that list, not a
+    structural artefact. GS is both the ISO code and the administering power.
+  - **The 🛰️ pane was silently broken at the pole** and no place had ever gone
+    there to reveal it. See the satellite guardrails above. The general lesson:
+    **a new region is the moment to ask which code paths have never had an
+    input.**
+  - **An empty field can be the true answer.** No capital, no currency, pop 0, no
+    side of the road: the fast-facts row would have printed `· pop 0 · drives `.
+    `factLine()` in `js/pages/location.js` joins only what is present and drops
+    the row when nothing is. Screenshot a page from the *weirdest* new country
+    class, not a typical one.
+  - **One record could not be repaired, only deleted.** `Whalers_Bay` has no
+    article and no P625 under any spelling; its two best details were folded into
+    `deception-island`'s prose. `Maitri` and `Ulvetanna` did have fuller correct
+    titles (`Maitri_(research_station)`, `Ulvetanna_Peak`). Four highlights
+    redirect to a *different* subject (`Barne_Glacier`→Mount Erebus,
+    `Errera_Channel`→Rongé Island, `Cape_Renard`→Flandres Bay,
+    `Enterprise_Island`→Nansen Island) and four have no article at all — all
+    eight are plain text chips.
+  - **FAR is a prompt, not a verdict, when the object is country-sized.** Three
+    highlights at 394–604 km from the Ross Ice Shelf / Ross Sea were *kept*;
+    three at 500–1,077 km were demoted. Read what the object is first.
+  - **The radio panel is suppressed for `AQ` on purpose** (`NO_LOCAL_RADIO` in
+    `js/lib/api.js`). All nine stations Radio Browser files under AQ are
+    somewhere else — Seoul, a Quran stream, five meme stations — and a panel
+    headed *Local radio* asserts they are local. LRA 36 at Esperanza is the real
+    one and is shortwave-only. **This is a pass-through we deliberately stopped
+    passing through; don't re-enable it without a stream that is actually there.**
+  - **`sounds` needed no new recipe and no new file.** `soundscape.js` is
+    procedural; `typeFor()` matches `arctic` and catches `antarctic` with it.
+
 - **Mexico, Central America and the Caribbean (2026-08-19):** `latinamerica.json`
   had South America covered and everything north of Colombia as an afterthought —
   Mexico was a handful of resort cities, the seven Central American countries were
@@ -323,18 +452,30 @@ dropped in v2 — resurrect from git if missed); satellite descend-from-orbit.
   window 163 · **no window 1,565 · empty stage 345**. The window-less *share* has
   not moved — 90–91 % throughout — the atlas simply grew faster than the sweep
   could fill it, which is the honest thing for those numbers to do.
-  - ⚠️ **`enrich_media.py`'s 8-empty abort is a false positive on narrow places.**
-    `flat_search()` retries each query 3× and bumps `EMPTY_STREAK["n"]` on every
-    empty, so **three genuinely-empty queries = nine empties** and the run kills
-    itself with "YouTube is refusing us" while `verdict()` correctly reports
-    YouTube *was* answering. It fired twice on the same place (Bandiagara
-    Escarpment). **Do not loosen the guard** — it is the mechanism that stops the
-    tool inventing scenes when the API goes dark. Drive through it instead: rerun
-    round-by-round, advancing the pending list by the `[i/N]` lines actually
-    printed (media.json can't be used to compute progress, because an honest gap
-    writes no entry), with a stall guard that drops the head place after a
-    zero-progress round. The real fix is to count a *query* as one empty, not a
-    retry.
+  - ✅ **`enrich_media.py`'s 8-empty abort was a false positive on narrow places
+    — fixed 2026-08-22 during the Antarctica sweep.** `flat_search()` retried
+    each query 3× and bumped `EMPTY_STREAK["n"]` on every empty, so **three
+    genuinely-empty queries = nine empties** and the run killed itself with
+    "YouTube is refusing us" while `verdict()` correctly reported YouTube *was*
+    answering. It fired twice on the same place (Bandiagara Escarpment). The fix
+    is the one this entry already prescribed: the retries still happen, but the
+    counter is bumped **once per query, after the loop**, because a query is one
+    observation however many times we ask it. **The guard itself was not
+    loosened** — it is still eight, and it is still the mechanism that stops the
+    tool inventing scenes when the API goes dark. `enrich_monuments.py` imports
+    `em.EMPTY_STREAK`, so it inherits the fix for free.
+    - What the fix does *not* do: eight honestly-quiet places in a row still trip
+      the abort, and Antarctica is exactly that kind of neighbourhood. That is
+      the guard doing its job with imperfect evidence — an empty response is
+      byte-for-byte identical whether YouTube has nothing or is refusing — so the
+      round-by-round drill still applies. Rerun, advancing the pending list by
+      the `[i/N]` lines actually printed (media.json can't be used to compute
+      progress, because an honest gap writes no entry), with a stall guard that
+      drops the head place after a zero-progress round.
+    - **Run it with `python3 -u`.** stdout is block-buffered into a redirected
+      log, so a 26-minute run can show a 0-byte file and look hung when it is
+      simply mid-buffer. stderr is line-buffered and stays empty, which removes
+      the other tell. Cost of the diagnosis: one killed run.
   - **Four concurrent sweeps is the ceiling.** Four ran clean for ~1h45m; seven
     collapsed to 276 s/place and tripped a refusal abort. `enrich_media.py` is
     lock-safe via `tools/medialock.py`, but **`enrich_monuments.py` has no lock** —

@@ -193,6 +193,78 @@ def mentions_landmark(title, name):
     return all(re.search(rf"\b{re.escape(w)}", t) for w in toks)
 
 
+# Words that name an institution rather than a location. They are in half the
+# Antarctic record names ("Vernadsky Station", "Esperanza Base") and in half
+# the titles on YouTube, so as an anchor they identify nothing.
+NOT_A_PLACE_WORD = {"station", "base", "research", "camp"}
+
+
+def self_anchoring(name):
+    """True if the landmark's own name is evidence of WHERE, on its own.
+
+    "Château Frontenac", "Plains of Abraham", "Hale Telescope" and
+    "Grytviken" identify a spot on earth by themselves; "Port Foster",
+    "Deep Lake", "Mount Hope", "Dome C" and "Shirley Island" do not, because
+    once the feature noun is stripped what is left is one ordinary word that
+    a thousand other places also use. `em.distinctive()` does the stripping —
+    it is the same list of generic tokens the wrong-place guards read — and
+    what survives is the test: two words that mean something together, or one
+    long enough to be a proper noun nobody reuses. Eight characters is where
+    that line fell on this corpus: grytviken, ulvetanna, schirmacher on one
+    side; foster, hope, deep, ross, dome, huron on the other.
+    """
+    toks = em.distinctive(name)
+    return len(toks) >= 2 or any(len(w) >= 8 for w in toks)
+
+
+def anchors_to_place(title, loc):
+    """True if the title says WHERE, and not merely WHAT.
+
+    `mentions_landmark()` ties a pick to the landmark's own name and to
+    nothing else. That is plenty for "Château Frontenac" and worth exactly
+    nothing for "Port Foster", "Deep Lake", "Low Camp", "Dome C" or "Mount
+    Ross" — and Antarctica is where that finally showed, because its features
+    are named in the plainest English geography there is and every continent
+    reuses those words. The sweep filed the Ombrière du Vieux-Port de
+    Marseille under Deception Island (matched: "Port", "Foster"), Santorini's
+    blue domes under both Concordia and Kunlun, a Bronx street under the
+    Beardmore Glacier, a Pittsburgh shopping mall under Kerguelen and an anime
+    figure unboxing under Don Juan Pond. **57 of 107 tabs, more than half.**
+
+    `wrong_place_title()` cannot catch any of them: it fires when a title
+    names another place we CARRY or another country by NAME, and "Mount Hope
+    Place - Bronx 4K" does neither. So the title must also carry a geographic
+    anchor of its own — the place, its region, its province, its country or
+    its continent.
+
+    `self_anchoring()` decides who has to pass this at all, which is what
+    keeps the cost payable: a name that identifies its own spot on earth is
+    taken on its own word, and only the weak names — one ordinary word left
+    after the feature noun — are made to prove WHERE. Measured against every
+    tab the atlas already ships, the pair refuses 226 of 4236 (5.3 %),
+    against 673 (15.9 %) for this test applied to all names alike.
+
+    Some of that 5.3 % is still true positives: "Lake Huron November Beach
+    Walking" is right for Point Farms and is refused, because "huron" is five
+    letters and the title never says Ontario. That is the trade this project
+    makes everywhere else — a missing tab is a gap, a wrong one is a lie —
+    and the same 226 contains real lies, e.g. a Preston, LANCASHIRE walking
+    tour filed under Ontario's Preston. `build_monuments.py` outranks this
+    file, which is where a human puts the losses back.
+    """
+    words = set()
+    for v in (loc.get("name"), loc.get("region"), loc.get("_region"),
+              loc.get("province"), loc.get("country"), loc.get("continent")):
+        words |= {w for w in em.distinctive(v or "")
+                  if w not in NOT_A_PLACE_WORD}
+    # "Antarctic" and "Antarctica" are one anchor to a reader, and titles use
+    # the adjective at least as often as the noun.
+    if em.norm(loc.get("continent") or "") == "antarctica":
+        words.add("antarctic")
+    t = em.norm(title)
+    return any(em.token_hit(w, t) for w in words)
+
+
 def quality(info):
     """Rank key: clearer and newer is better. 'Cool clear footage' is the
     whole point of the monument tab, so resolution leads."""
@@ -226,6 +298,8 @@ def find_monument(place, name, exclude):
                 continue
             if BAD_MONU.search(title) or not mentions_landmark(title, name):
                 continue
+            if not (self_anchoring(name) or anchors_to_place(title, place)):
+                continue
             if em.wrong_place_title(title, place):
                 continue
             seen.add(vid)
@@ -243,6 +317,8 @@ def find_monument(place, name, exclude):
             continue
         ft = info.get("title", "")
         if BAD_MONU.search(ft) or not mentions_landmark(ft, name):
+            continue
+        if not (self_anchoring(name) or anchors_to_place(ft, place)):
             continue
         if em.wrong_place_title(ft, place):
             continue

@@ -399,6 +399,17 @@ async function initAbout(place) {
   }
 }
 
+/* Antarctica has no capital and the two uninhabited islands have no traffic,
+   so a blank field is a real answer here rather than missing data. Joining
+   only what is present beats printing " · pop 0 · drives ". */
+function factLine(facts) {
+  if (!facts) return '';
+  return [facts.capital,
+          facts.pop && `pop ${facts.pop}`,
+          facts.drives && `drives ${facts.drives.toLowerCase()}`]
+    .filter(Boolean).join(' · ');
+}
+
 function initCulture(place) {
   const c = Culture.get(place.country);
   const facts = Culture.facts(place.country);
@@ -412,7 +423,7 @@ function initCulture(place) {
     row('Eat this', c.dish),
     ...(c.phrases || []).map(([en, native]) =>
       row(en, el('div', { class: 'phrase' }, el('span', { class: 'native' }, native)))),
-    facts ? row('Fast facts', `${facts.capital} · pop ${facts.pop} · drives ${facts.drives?.toLowerCase()}`) : null,
+    factLine(facts) ? row('Fast facts', factLine(facts)) : null,
   ].filter(Boolean));
   /* live FX — quiet best-effort */
   const cur = Culture.currencyCode(place.country);

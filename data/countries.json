@@ -6,7 +6,8 @@
     "Europe",
     "Asia",
     "Africa",
-    "Oceania"
+    "Oceania",
+    "Antarctica"
   ],
   "countries": [
     {
@@ -40,6 +41,14 @@
       "continent": "Asia",
       "status": "live",
       "locations": 120
+    },
+    {
+      "code": "AQ",
+      "name": "Antarctica",
+      "flag": "🇦🇶",
+      "continent": "Antarctica",
+      "status": "live",
+      "locations": 81
     },
     {
       "code": "AU",
@@ -434,6 +443,14 @@
       "locations": 7
     },
     {
+      "code": "GS",
+      "name": "South Georgia and the South Sandwich Islands",
+      "flag": "🇬🇸",
+      "continent": "Antarctica",
+      "status": "live",
+      "locations": 7
+    },
+    {
       "code": "DZ",
       "name": "Algeria",
       "flag": "🇩🇿",
@@ -646,6 +663,14 @@
       "name": "Estonia",
       "flag": "🇪🇪",
       "continent": "Europe",
+      "status": "live",
+      "locations": 4
+    },
+    {
+      "code": "TF",
+      "name": "French Southern and Antarctic Lands",
+      "flag": "🇹🇫",
+      "continent": "Antarctica",
       "status": "live",
       "locations": 4
     },
@@ -1402,6 +1427,14 @@
       "locations": 1
     },
     {
+      "code": "BV",
+      "name": "Bouvet Island",
+      "flag": "🇧🇻",
+      "continent": "Antarctica",
+      "status": "live",
+      "locations": 1
+    },
+    {
       "code": "BI",
       "name": "Burundi",
       "flag": "🇧🇮",
@@ -1454,6 +1487,14 @@
       "name": "Guinea-Bissau",
       "flag": "🇬🇼",
       "continent": "Africa",
+      "status": "live",
+      "locations": 1
+    },
+    {
+      "code": "HM",
+      "name": "Heard Island and McDonald Islands",
+      "flag": "🇭🇲",
+      "continent": "Antarctica",
       "status": "live",
       "locations": 1
     },

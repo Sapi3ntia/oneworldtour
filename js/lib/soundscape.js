@@ -15,7 +15,7 @@ const Soundscape = {
   typeFor(name) {
     if (!name) return null;
     const s = name.toLowerCase();
-    if (s.includes('arctic'))    return 'wind-cold';
+    if (s.includes('arctic'))    return 'wind-cold';   // catches antarctic too
     if (s.includes('wind'))      return 'wind';
     if (s.includes('tidal') || s.includes('ocean') || s.includes('wave')) return 'waves';
     if (s.includes('waterfall')) return 'waterfall';
@@ -26,7 +26,7 @@ const Soundscape = {
 
   label(type) {
     return ({
-      'wind-cold': 'Arctic wind',
+      'wind-cold': 'Polar wind',
       'wind':      'Open-air breeze',
       'waves':     'Rolling waves',
       'waterfall': 'Rushing water',

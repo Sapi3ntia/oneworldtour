@@ -73,6 +73,15 @@
       "enabled": true
     },
     {
+      "id": "antarctica",
+      "name": "Antarctica",
+      "flag": "🇦🇶",
+      "country": null,
+      "continent": "Antarctica",
+      "file": "data/antarctica.json",
+      "enabled": true
+    },
+    {
       "id": "ancient",
       "name": "Ancient",
       "flag": "🤫",

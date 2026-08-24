@@ -69,6 +69,11 @@ class Region:
                   the registry's canonical spelling, so copy it, never retype
     country_slug  country name -> article title, where they differ
     expect_p17    country name -> the sovereign whose QID we accept instead
+    p17_optional  country names whose articles are EXPECTED to have no P17
+                  at all, because there is no sovereign to name — the
+                  Antarctic Treaty area, and so far only it. Reported once
+                  as NOCLAIM instead of sixty times as COUNTRY, so the
+                  COUNTRY lines left over are still worth reading
     in_box        (lat, lng) -> bool. The coarse net; the hard refusal
     subregion_box region name -> (lat_min, lat_max, lng_min, lng_max), the
                   warning-level namesake guard described in the docstring
@@ -76,7 +81,7 @@ class Region:
 
     def __init__(self, target, continent, country_code, in_box,
                  country_slug=None, expect_p17=None, subregion_box=None,
-                 far_km=FAR_KM, subregion_key="region"):
+                 far_km=FAR_KM, subregion_key="region", p17_optional=None):
         self.target = ROOT / "data" / target
         self.continent = continent
         self.country_code = country_code
@@ -86,6 +91,7 @@ class Region:
         self.subregion_box = subregion_box or {}
         self.far_km = far_km
         self.subregion_key = subregion_key
+        self.p17_optional = set(p17_optional or ())
 
     def slug_for_country(self, name):
         return self.country_slug_map.get(name, name.replace(" ", "_"))
@@ -101,7 +107,7 @@ class Notes:
 
     ORDER = {"UNRESOLVED": 0, "NOCOORD": 1, "OUTSIDE": 2, "COUNTRY": 3,
              "PROVINCE": 4, "MISSING": 5, "SELF": 6, "FAR": 7, "REDIRECT": 8,
-             "FIXENC": 9, "TERRITORY": 10}
+             "FIXENC": 9, "TERRITORY": 10, "NOCLAIM": 11}
 
     def __init__(self):
         self.rows = []
@@ -185,6 +191,12 @@ def country_check(region, pid, spec, e, got, notes):
     name = spec["country"]
     want = got.get(region.slug_for_country(name)) or {}
     mine, theirs = e.get("country_qid"), want.get("qid")
+    if not mine and name in region.p17_optional:
+        # No P17 because no sovereign: south of 60°S every claim is frozen
+        # and none is recognised. Say it once per record, quietly.
+        notes.add("NOCLAIM", pid, e.get("title", spec["slug"]),
+                  f"no P17 — expected for {name}")
+        return
     if not theirs:
         notes.add("COUNTRY", pid, name,
                   "no QID for the country article — check by hand")

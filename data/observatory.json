@@ -4,8 +4,8 @@
   "continent": null,
   "code": "OBS",
   "collection": "Observatories & Telescopes",
-  "_note": "The places we built to look away from Earth: mountaintop domes, radio dishes, and the stone instruments that came before glass. Coordinates are Wikidata P625 and every wikipedia_slug is the article's canonical title, per README → Filling a region out. ONE deliberate exception: paris-observatory uses the historic Perrault building on Avenue de l'Observatoire (48.83639, 2.33639) because both Wikidata and Wikipedia point the article at the institution's MEUDON campus, 9 km southwest — the meridian hall, the visitable building and the subject of the blurb are all in Paris. Don't 'correct' it back. Highlights here are deliberately structures, mountains and towns only: the people (Hubble, Drake, Tycho), the films (Contact, The Dish) and the ideas (radio astronomy, the Drake equation) live in the prose, because enrich_monuments.py spends every highlight as a search term and a person or a concept has no honest monument video — the 2026-08-02 China lesson, applied before it could bite. SECOND deliberate coordinate exception (2026-08): vlba does NOT use its P625, because Wikidata hands the Very Long Baseline Array the Very Large Array's own coordinates on the Plains of San Agustin — where the VLBA has no antenna at all. It is pinned instead at the Pete V. Domenici Science Operations Center in Socorro (the Array Operations Center article's point), the building the ten stations ship their recordings to and where the correlator lives. nrao-cdl likewise takes the Technology Center on Boxwood Estate Road from OSM, which names the building, rather than the NRAO article's Edgemont Road headquarters two miles east. ngVLA has no article of its own, so it borrows the containing landform per the no-article rule, and shares the VLA's point because its one prototype dish genuinely stands on that site — the fan in worldmap.js is what keeps the two apart.",
-  "generated": "2026-08-11",
+  "_note": "The places we built to look away from Earth: mountaintop domes, radio dishes, and the stone instruments that came before glass. Coordinates are Wikidata P625 and every wikipedia_slug is the article's canonical title, per README → Filling a region out. ONE deliberate exception: paris-observatory uses the historic Perrault building on Avenue de l'Observatoire (48.83639, 2.33639) because both Wikidata and Wikipedia point the article at the institution's MEUDON campus, 9 km southwest — the meridian hall, the visitable building and the subject of the blurb are all in Paris. Don't 'correct' it back. Highlights here are deliberately structures, mountains and towns only: the people (Hubble, Drake, Tycho), the films (Contact, The Dish) and the ideas (radio astronomy, the Drake equation) live in the prose, because enrich_monuments.py spends every highlight as a search term and a person or a concept has no honest monument video — the 2026-08-02 China lesson, applied before it could bite. SECOND deliberate coordinate exception (2026-08): vlba does NOT use its P625, because Wikidata hands the Very Long Baseline Array the Very Large Array's own coordinates on the Plains of San Agustin — where the VLBA has no antenna at all. It is pinned instead at the Pete V. Domenici Science Operations Center in Socorro (the Array Operations Center article's point), the building the ten stations ship their recordings to and where the correlator lives. nrao-cdl likewise takes the Technology Center on Boxwood Estate Road from OSM, which names the building, rather than the NRAO article's Edgemont Road headquarters two miles east. ngVLA has no article of its own, so it borrows the containing landform per the no-article rule, and shares the VLA's point because its one prototype dish genuinely stands on that site — the fan in worldmap.js is what keeps the two apart. THIRD note (2026-08): the two South Pole instruments follow the structures-only highlight rule strictly — the physics they exist for (the cosmic microwave background, neutrinos, Cherenkov light) is in the prose, because none of it is a thing a camera can be pointed at and enrich_monuments.py would spend the highlight hunting video of an idea.",
+  "generated": "2026-08-22",
   "locations": [
     {
       "id": "very-large-array",
@@ -638,14 +638,6 @@
           "start": 0,
           "source": "auto",
           "title": "Subaru Telescope on MaunaKea, Hawaii between 2023/10/22 and 2023/10/24",
-          "height": 2160
-        },
-        {
-          "name": "Gemini Observatory",
-          "yt": "U0tJiw7clR8",
-          "start": 0,
-          "source": "auto",
-          "title": "Gemini South Observatory",
           "height": 2160
         }
       ]
@@ -1689,14 +1681,6 @@
           "source": "auto",
           "title": "[4K]中国北京建国门外大街（初秋）徒步之旅 JIANGUOMEN Outer St in Beijing China Walking Tour",
           "height": 2160
-        },
-        {
-          "name": "Ming city wall",
-          "yt": "tB0T9apfqWE",
-          "start": 0,
-          "source": "auto",
-          "title": "4K - Walking the Ming City Wall near Dabao'en Temple",
-          "height": 2160
         }
       ]
     },
@@ -1927,6 +1911,102 @@
           "start": 0,
           "source": "auto",
           "title": "Aoraki Mount Cook National Park, New Zealand  [Amazing Places 4K]",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "south-pole-telescope",
+      "name": "South Pole Telescope",
+      "country": "Antarctica",
+      "country_code": "AQ",
+      "country_flag": "🇦🇶",
+      "continent": "Antarctica",
+      "region": "Polar Plateau",
+      "type": "mountain",
+      "tag": "hidden",
+      "emoji": "🔭",
+      "coordinates": {
+        "lat": -89.9894,
+        "lng": -45.0
+      },
+      "wikipedia_slug": "South Pole Telescope",
+      "sounds": [
+        "antarctic-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Amundsen–Scott South Pole Station",
+          "wikipedia_slug": "Amundsen–Scott South Pole Station"
+        },
+        {
+          "name": "Dark Sector Laboratory"
+        },
+        {
+          "name": "The Dark Sector"
+        },
+        {
+          "name": "Geographic South Pole"
+        }
+      ],
+      "blurb": "A ten-metre dish standing on the polar plateau a kilometre from the geographic South Pole, in a fenced-off area called the Dark Sector where radio noise, engine exhaust and stray light are all banned. It is pointed at the oldest light there is: the microwave glow left over from 380,000 years after the Big Bang.",
+      "fun_fact": "It was one of the eight telescopes that produced the first photograph of a black hole in 2019. Its data could not be flown out until the following November, because the plateau is unreachable from February to October — the image of M87 waited eight months on a stack of hard drives at the bottom of the world.",
+      "hidden_gem_tip": "The atmosphere here holds less water vapour than anywhere else on the planet, which is the whole reason for the site: at these wavelengths water is what the sky is made of, and the Pole has almost none. Six months of unbroken darkness a year is the other half of the argument.",
+      "monuments": [
+        {
+          "name": "Amundsen–Scott South Pole Station",
+          "yt": "gQ3_gZ3ZS_4",
+          "start": 0,
+          "source": "auto",
+          "title": "A tour of the Amundsen-Scott South Pole Station - Part 1",
+          "height": 2160
+        }
+      ]
+    },
+    {
+      "id": "icecube-observatory",
+      "name": "IceCube Neutrino Observatory",
+      "country": "Antarctica",
+      "country_code": "AQ",
+      "country_flag": "🇦🇶",
+      "continent": "Antarctica",
+      "region": "Polar Plateau",
+      "type": "nature",
+      "tag": "quirky",
+      "emoji": "🧊",
+      "coordinates": {
+        "lat": -89.99,
+        "lng": -63.4531
+      },
+      "wikipedia_slug": "IceCube Neutrino Observatory",
+      "sounds": [
+        "antarctic-wind.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Amundsen–Scott South Pole Station",
+          "wikipedia_slug": "Amundsen–Scott South Pole Station"
+        },
+        {
+          "name": "IceCube Laboratory"
+        },
+        {
+          "name": "The Dark Sector"
+        },
+        {
+          "name": "Geographic South Pole"
+        }
+      ],
+      "blurb": "The strangest telescope ever built: a cubic kilometre of Antarctic ice with 5,160 light sensors frozen into it, hung down 86 boreholes drilled 2,450 metres into the plateau with hot water. There is nothing to look at on the surface. The instrument is the ice.",
+      "fun_fact": "It looks DOWN, through the entire Earth. Neutrinos pass through the planet as if it were not there, so the detector uses the whole world as a filter to block everything that is not a neutrino, and watches the northern sky by facing the floor.",
+      "hidden_gem_tip": "In September 2017 it caught a neutrino and pointed telescopes worldwide at where it came from within a minute — a blazar 3.7 billion light years away, catching a cosmic ray in the act of being made. That one particle settled a question that had been open since 1912.",
+      "monuments": [
+        {
+          "name": "Amundsen–Scott South Pole Station",
+          "yt": "gQ3_gZ3ZS_4",
+          "start": 0,
+          "source": "auto",
+          "title": "A tour of the Amundsen-Scott South Pole Station - Part 1",
           "height": 2160
         }
       ]

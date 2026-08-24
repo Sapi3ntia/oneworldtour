@@ -389,6 +389,36 @@ ROWS = {
    [["Hello","Bonjour"],["Thank you","Merci"],["Cheers","Santé"]],"Fort-de-France","350K","Right","Type C/E · 220V"),
  "Guadeloupe": ("GP","EUR","Euro (€)","French / Creole","Bokit & colombo",
    [["Hello","Bonjour"],["Thank you","Merci"],["Cheers","Santé"]],"Basse-Terre","380K","Right","Type C/E · 230V"),
+
+ # ---------- Antarctica ----------
+ # The only rows in this table with no sovereign and, in three cases, no
+ # inhabitants. Empty strings are deliberate and load-bearing: culture.js
+ # returns null for a falsy currency code (so the FX line stays off), and
+ # location.js drops empty fast-fact parts rather than printing " · pop 0 · ".
+ # An invented capital or an invented currency would be a lie the panel
+ # states as fact, which is the one thing this file must never do.
+ "Antarctica": ("AQ","","None — bases run on scrip, cards and goodwill",
+   "English, Russian, Spanish, Chinese — whoever is on shift",
+   "Freshies, on the day the plane lands",
+   [["Hello","Hello / Привет / Hola"],["Fresh food","Freshies"],["Home","Off the Ice"]],
+   "","1,100 in winter, 5,000 in summer","whichever side its base does",
+   "Type A/B/C/F · 120–240V"),
+ "South Georgia and the South Sandwich Islands": ("GS","GBP","Pound sterling (£)","English",
+   "Ship's stores — the reindeer were removed in 2015",
+   [["Hello","Hello"],["Thank you","Thank you"],["Cheers","Cheers"]],
+   "King Edward Point","~30, all on posting","Left","Type G · 240V"),
+ "French Southern and Antarctic Lands": ("TF","EUR","Euro (€)","French",
+   "Langouste, and Kerguelen cabbage if you are desperate",
+   [["Hello","Bonjour"],["Thank you","Merci"],["Cheers","Santé"]],
+   "Port-aux-Français","~150 in summer, ~45 in winter","Right","Type C/E · 220V"),
+ "Heard Island and McDonald Islands": ("HM","AUD","Australian dollar (A$)",
+   "None — nobody lives there","Nothing. There is no kitchen",
+   [["Hello","English, when a ship is in"],["Thank you","Thank you"],["Cheers","Cheers"]],
+   "","0","","Type I · 230V"),
+ "Bouvet Island": ("BV","NOK","Norwegian krone (kr)","None — nobody lives there",
+   "Nothing. The nearest kitchen is 1,600 km away",
+   [["Hello","Hallo"],["Thank you","Takk"],["Cheers","Skål"]],
+   "","0","","Type C/F · 230V"),
 }
 
 

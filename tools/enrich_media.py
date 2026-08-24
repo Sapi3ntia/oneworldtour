@@ -194,19 +194,46 @@ def ytdlp_json(args, timeout=180):
 # whether YouTube answered ANY search during that place: if it served us even
 # once, it was not refusing us, so an empty is a genuine zero.
 EMPTY_STREAK = {"n": 0, "total": 0, "served": 0}
+# How many unexplained empties before an empty is treated as a refusal rather
+# than an absence, and what to wait once it is. Below SUSPECT the retry sleeps
+# 2 s instead; see flat_search().
+SUSPECT = 3
+BACKOFF_S = (25, 50)
 
 
 def flat_search(query, n=SEARCH_N):
+    """One query, up to three attempts — and ONE empty, not three.
+
+    The streak below is a throttle detector, and it used to be incremented
+    inside the retry loop: three genuinely-empty attempts at a single narrow
+    query counted as three refusals, so the eight-empty abort fired after
+    fewer than three honestly-quiet queries and killed runs while `verdict()`
+    was correctly reporting that YouTube had answered. The retries are still
+    worth making — a throttled query often succeeds on the second — but a
+    query is one observation however many times we ask it.
+
+    The *length* of the wait between attempts is a second lever, and it was
+    costing more than the retries were. 25 s + 50 s is how long you wait out a
+    rate limiter; it is pure loss against a query that is simply quiet, and a
+    place in Antarctica is quiet on most of its eight-odd queries — 94 of them
+    at 75 s of sleep per empty query is a run measured in hours of `sleep`.
+    So the long backoff is spent only once something says we are being limited,
+    which is what the streak already means. Below `SUSPECT` the retry is still
+    made — a genuinely empty search is still empty two seconds later, so it
+    costs ~4 s and still recovers a one-off subprocess failure. A real limiter
+    answers every query, so the streak reaches `SUSPECT` within three quick
+    queries and the proper waiting starts then, well before the abort at 8."""
     for attempt in range(3):
         r = ytdlp_json(["--flat-playlist", "-j", f"ytsearch{n}:{query}"])
         if r:
             EMPTY_STREAK["n"] = 0
             EMPTY_STREAK["served"] += 1
             return r
-        EMPTY_STREAK["n"] += 1
-        EMPTY_STREAK["total"] += 1
         if attempt < 2:
-            time.sleep(25 * (attempt + 1))
+            time.sleep(BACKOFF_S[attempt] if EMPTY_STREAK["n"] >= SUSPECT
+                       else 2)
+    EMPTY_STREAK["n"] += 1
+    EMPTY_STREAK["total"] += 1
     return []
 
 

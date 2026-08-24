@@ -39,19 +39,46 @@
      Meteosat MTG [0.0°]     EUMETSAT, geocolour. Europe · Africa ·
                              the Middle East.
 
+   THE FIFTH EYE IS NOT GEOSTATIONARY, BECAUSE IT CANNOT BE
+     A satellite parked over the equator sees the poles edge-on at
+     best and not at all in practice; below about 70° the limb is
+     smeared into uselessness, and Web Mercator — which every source
+     above is served in — runs to infinity at ±90° outright. Point
+     the tile math at the South Pole and `tileY` returns Infinity,
+     the transform goes NaN, and the pane renders EMPTY while still
+     captioning itself as a satellite view. An empty box that claims
+     to be showing you something is exactly the failure this file's
+     honesty rule exists to prevent, so:
+
+     Polar orbit  [Suomi NPP]  NASA GIBS, EPSG:3031 (Antarctic Polar
+                               Stereographic). Everything south of
+                               60°S. Not one scan but a day's worth
+                               of passes, mosaicked — the caption
+                               says so and names the date.
+
+     It also has to switch bands for a reason none of the others do:
+     south of the Antarctic Circle the sun is DOWN for months, and
+     true colour over the winter pole is a black square. So the
+     night band here is VIIRS's day-night band — moonlight, aurora
+     and station lights — which is the only thing there is to see.
+
      A place is handed to whichever eye is closest in longitude —
      the boundaries below are the midpoints between neighbours, so
      Sāmoa (172°W) goes to GOES-West and Fiji (178°E) to Himawari
      even though they are neighbours, because that really is which
      satellite has the better look at each.
 
-   TWO REQUEST SHAPES, ONE GEOMETRY
+   THREE REQUEST SHAPES, ONE CONTRACT
      GIBS and JMA serve Web-Mercator XYZ tiles, so we mosaic a 3×3
      block centred on the place. EUMETSAT is a WMS: it renders any
      EPSG:3857 bounding box we ask for, so it gets the same block as
      ONE image instead of nine requests to a government GeoServer.
-     Either way the geometry is computed identically and the place's
-     exact pixel lands in the centre of the frame.
+     The polar source is a WMS too, but in EPSG:3031, so it gets its
+     own projection and a bbox in metres around the place.
+     All three end at the same contract — an image of known size
+     with the place at a known pixel — which is all `place()` needs,
+     so the scaling, the pin and the double-buffered refresh are
+     shared code.
    ============================================================ */
 import { el } from './dom.js';
 
@@ -75,6 +102,36 @@ const originIndex = (f, n) =>
   (n % 2 ? Math.floor(f) - (n - 1) / 2 : Math.round(f) - n / 2);
 
 const wrapX = (x, z) => ((x % 2 ** z) + 2 ** z) % 2 ** z;   // across ±180°
+
+/* ---------------- EPSG:3031, for the end Mercator cannot reach ----------------
+   Antarctic Polar Stereographic: WGS84, true scale at 71°S, 0° up the
+   middle. The pole is the origin here rather than an asymptote, which is
+   the whole reason this projection is in the file. Snyder's ellipsoidal
+   polar stereographic, south aspect. */
+const E = 0.081819190842621;              // WGS84 first eccentricity
+const A = 6378137;                        // WGS84 semi-major axis, m
+const psT = phi => Math.tan(Math.PI / 4 + phi / 2) /
+  ((1 + E * Math.sin(phi)) / (1 - E * Math.sin(phi))) ** (E / 2);
+const PHI_C = rad(-71);
+const RHO_C = A * (Math.cos(PHI_C) / Math.sqrt(1 - E ** 2 * Math.sin(PHI_C) ** 2))
+                / psT(PHI_C);
+const to3031 = (lat, lng) => {
+  const rho = RHO_C * psT(rad(lat));
+  return [rho * Math.sin(rad(lng)), rho * Math.cos(rad(lng))];
+};
+
+/* GIBS polar layers are daily mosaics of that day's passes, and the mosaic for
+   the CURRENT UTC day does not exist yet — measured, not assumed: at 15:29 UTC
+   on 2026-08-22 the day-night band returned a 380-byte all-black JPEG for that
+   day and a real image for every day before it. A blank JPEG is a valid JPEG,
+   so nothing errors and the pane renders a black rectangle under a caption
+   claiming a satellite view — the exact fabrication this file exists to avoid.
+   Thirty hours back always lands on a finished mosaic, whatever the hour, and
+   the caption prints whichever date this returns, so the pane never implies it
+   is more current than it is. */
+const GIBS_LAG_H = 30;
+const gibsDay = () =>
+  new Date(Date.now() - GIBS_LAG_H * 3600 * 1000).toISOString().slice(0, 10);
 
 /* ---------------- is the sun up there? ----------------
    Low-precision NOAA solar position — good to a fraction of a
@@ -146,6 +203,22 @@ const SOURCES = {
     band: () => 'GeoColor',
     url: gibs('GOES-East_ABI_GeoColor', 7),
   },
+  /* South of 60°S. `span` is the width of the square we ask for, in metres:
+     2,000 km is roughly what the geostationary sources show at zoom 6, so
+     the pane reads at the same scale wherever you are. */
+  polar: {
+    name: 'Suomi NPP', credit: 'NASA GIBS', kind: 'polar', span: 2e6,
+    band: day => (day ? 'VIIRS true colour' : 'VIIRS day-night band'),
+    async context({ day }) { return { day, date: gibsDay() }; },
+    stampText: ctx => `${ctx.date} · a day's passes, mosaicked`,
+    url: (bbox, w, h, ctx) =>
+      'https://gibs.earthdata.nasa.gov/wms/epsg3031/best/wms.cgi' +
+      '?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&SRS=EPSG:3031' +
+      '&FORMAT=image/jpeg&STYLES=' +
+      `&LAYERS=VIIRS_SNPP_${ctx.day ? 'CorrectedReflectance_TrueColor'
+                                    : 'DayNightBand_At_Sensor_Radiance'}` +
+      `&BBOX=${bbox.join(',')}&WIDTH=${w}&HEIGHT=${h}&TIME=${ctx.date}`,
+  },
   meteosat: {
     name: 'Meteosat', credit: 'EUMETSAT', kind: 'wms', zoom: 6,
     band: () => 'geocolour',
@@ -157,8 +230,13 @@ const SOURCES = {
 };
 
 /* Whichever eye has the best look at this longitude. The cuts are the
-   midpoints between neighbouring sub-satellite points. */
-export function sourceFor(lng) {
+   midpoints between neighbouring sub-satellite points — except the first
+   one, which is a latitude: south of 60°S no geostationary satellite has a
+   usable look at all, and that line is the same 60°S the Antarctic Treaty
+   and ISO 3166 draw, so the whole AQ region lands on the polar source
+   together. `lat` is optional so an older caller keeps its behaviour. */
+export function sourceFor(lng, lat = 0) {
+  if (lat <= -60) return SOURCES.polar;
   const L = ((lng + 180) % 360 + 360) % 360 - 180;
   if (L >= 70.35 || L <= -178.15) return SOURCES.himawari;
   if (L <= -106.1) return SOURCES['goes-west'];
@@ -170,7 +248,7 @@ export function sourceFor(lng) {
    deciding whether a pane is worth offering at all. */
 export function satelliteFor(lat, lng, when = new Date()) {
   if (!Number.isFinite(lat) || !Number.isFinite(lng)) return null;
-  const src = sourceFor(lng);
+  const src = sourceFor(lng, lat);
   const day = sunAltitude(lat, lng, when) > -6;
   return { id: src.name, name: src.name, credit: src.credit, band: src.band(day), day };
 }
@@ -180,7 +258,7 @@ export function satelliteFor(lat, lng, when = new Date()) {
    handle with destroy(), same as yt.mount, so a pane can swap this
    out the way it swaps out a video. */
 export function mountSatellite(frame, { lat, lng, cols = 3, rows = 3 } = {}) {
-  const src = sourceFor(lng);
+  const src = sourceFor(lng, lat);
   const z = src.zoom;
   const day = sunAltitude(lat, lng) > -6;
 
@@ -192,11 +270,22 @@ export function mountSatellite(frame, { lat, lng, cols = 3, rows = 3 } = {}) {
   frame.append(stage, caption);
   stage.append(el('div', { class: 'sat-pin' }));
 
-  /* geometry: a cols×rows block of tiles with the place dead centre */
-  const fx = tileX(lng, z), fy = tileY(lat, z);
-  const x0 = originIndex(fx, cols), y0 = originIndex(fy, rows);
+  /* geometry: an image of known size with the place at a known pixel.
+     Mercator sources get a cols×rows tile block straddling the place; the
+     polar source gets a square of metres centred on it, which is the same
+     contract by another projection. */
   const W = cols * TILE, H = rows * TILE;
-  const px = (fx - x0) * TILE, py = (fy - y0) * TILE;   // the place, in mosaic px
+  let x0 = 0, y0 = 0, px, py, polarBox = null;
+  if (src.kind === 'polar') {
+    const [mx, my] = to3031(lat, lng);
+    const half = src.span / 2;
+    polarBox = [mx - half, my - half, mx + half, my + half];
+    px = W / 2; py = H / 2;                              // dead centre, by construction
+  } else {
+    const fx = tileX(lng, z), fy = tileY(lat, z);
+    x0 = originIndex(fx, cols); y0 = originIndex(fy, rows);
+    px = (fx - x0) * TILE; py = (fy - y0) * TILE;        // the place, in mosaic px
+  }
 
 
   /* Scale so the mosaic covers the frame in every direction from the
@@ -250,8 +339,8 @@ export function mountSatellite(frame, { lat, lng, cols = 3, rows = 3 } = {}) {
       fresh.append(img);
     };
 
-    if (src.kind === 'wms') {
-      tile({ src: src.url(bbox3857(x0, y0, cols), W, H, ctx),
+    if (src.kind === 'wms' || src.kind === 'polar') {
+      tile({ src: src.url(polarBox || bbox3857(x0, y0, cols), W, H, ctx),
              style: `left:0;top:0;width:${W}px;height:${H}px` });
     } else {
       for (let r = 0; r < rows; r++) {

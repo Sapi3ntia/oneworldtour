@@ -1,6 +1,6 @@
 # 🌍 One World Tour
 
-Step into 1,728 places across 201 countries — **walk their streets, drive their
+Step into 1,822 places across 206 countries — **walk their streets, drive their
 roads, watch their intersections live, look out their windows live**, tune into
 their radio, **watch their national TV live**, and read their news — all in-app,
 all real. Inspired by
@@ -68,9 +68,11 @@ Three collections extend the idea (2026-07 → 2026-08):
   Lick · Kitt Peak · Yerkes · Griffith, the Sphinx bolted to its pinnacle at 3,571 m,
   Pic du Midi, Roque de los Muchachos and Teide, Jodrell Bank and Effelsberg, Royal
   Observatory Greenwich (where the prime meridian is a line in the courtyard),
-  Paris, Uraniborg, the Vatican's, Sutherland, Mount John, and the two naked-eye
-  instruments that predate the telescope entirely — Beijing's Ancient Observatory
-  and the Jantar Mantar at Jaipur. A 🔭 map filter and an "Observatories" rail.
+  Paris, Uraniborg, the Vatican's, Sutherland, Mount John, the **South Pole
+  Telescope** and **IceCube** — the second one a cubic kilometre of Antarctic ice
+  read by 5,160 sensors, which is a telescope that looks *down* through the
+  planet — and the two naked-eye instruments that predate the telescope entirely,
+  Beijing's Ancient Observatory and the Jantar Mantar at Jaipur. A 🔭 map filter and an "Observatories" rail.
   Same honesty rule, and the seats mostly stay empty on purpose: a mountaintop with
   no walking tour shows *"No walking tour yet — nothing fake stands in."*
 
@@ -97,8 +99,8 @@ windows, no frozen widgets posing as live cams.
 - **City Guesser** (`guess.html`) — dropped into a mystery scene (the walk video,
   title hidden), pin the world map, scored on great-circle distance, 5 rounds,
   spoiler-free emoji share.
-- **Trips** (`trips.html`, `trips.html?id=…`) — 28 curated routes people actually
-  travel (the Euro Trip, Route 66, the Trans-Siberian, Cape to Cairo…),
+- **Trips** (`trips.html`, `trips.html?id=…`) — 31 curated routes people actually
+  travel (the Euro Trip, Route 66, the Trans-Siberian, Cape to Cairo, the Drake…),
   each drawn on the world map as numbered stops, then listed stop by stop with a
   line on why that stop is on the route. See below.
 - **Passport** (`passport.html`) — stamps by country, rank, achievements, notes,
@@ -125,7 +127,7 @@ oneworldtour/
 │   │   ├── geo.js         # Natural Earth I projection + inverse, km, great-circle
 │   │   ├── data.js        # region loader + media.json merge, search
 │   │   ├── media.js       # scene resolution: walk/live/window tiers + honesty rules
-│   │   ├── satellite.js   # 🛰️ geostationary sky for the 1,565 window-less seats
+│   │   ├── satellite.js   # 🛰️ the sky over 1,670 window-less seats: geostationary + polar
 │   │   ├── yt.js          # YouTube IFrame mounts with onError → honest fallback
 │   │   ├── tv.js          # live national TV: tv.json loader + HLS mounts (lazy hls.js)
 │   │   ├── api.js         # weather / wiki / radio / news / FX (all keyless)
@@ -136,7 +138,7 @@ oneworldtour/
 ├── data/
 │   ├── index.json         # region registry
 │   ├── trips.json         # 🧭 curated routes — ordered stop ids + editorial notes
-│   ├── <region>.json      # 1,728 places (curated walks/webcams/monuments live here)
+│   ├── <region>.json      # 1,822 places (curated walks/webcams/monuments live here)
 │   ├── wild.json          # 🦁 wildlife & national-park live cams as places
 │   ├── observatory.json   # 🔭 observatories & telescopes as places
 │   ├── tv.json            # 📺 live national TV channels per country (verified live)
@@ -156,6 +158,7 @@ oneworldtour/
 │   ├── test_vetting.py    # the bad picks, frozen — run after any rule edit  ★
 │   ├── check_trips.py     # every trip stop must resolve to a real place  ★
 │   ├── verify_cams.py     # re-check the HAND-CURATED cams (prune only does media.json) ★
+│   ├── seat_stats.py      # count the seats the way sceneFlags() does; --rev  ★
 │   └── (v1 data builders: fetch_windy.py etc.)
 └── api/
     └── ask.py             # serverless proxy for Ask-the-Guide (keeps the key server-side)
@@ -370,19 +373,28 @@ honesty rule, not a belt-and-braces nicety.
 
 ### 🛰️ The sky over a place ★
 
-**1,565 of the 1,728 places have no window cam** — and for 345 of them the whole
-stage is empty.* Bikini Atoll, Rennell Island, Dougga, Pitcairn: nobody is going
-to point a 24/7 stream at them. Rather than show a fourth dashed rectangle, the
-window seat falls back to the geostationary satellite that *is* looking at that
+**1,670 of the 1,822 places have no window cam** — and for 72 of them the whole
+stage is empty.* Bikini Atoll, Rennell Island, Dougga, Pitcairn, Dome Fuji:
+nobody is going to point a 24/7 stream at them. Rather than show a fourth dashed
+rectangle, the window seat falls back to the satellite that *is* looking at that
 place right now (`js/lib/satellite.js`). Where the stage is otherwise empty, the
 satellite is what gets featured on arrival.
 
 <sub>* Both counts move with every `enrich_media.py` sweep, and they move *up*
-when the atlas grows faster than the sweep fills it: 1,018 / 82 the morning this
-shipped, 1,016 / 19 after the Oceania run, and 1,565 / 345 now that Canada,
-Alaska, Mexico, Central America and the Caribbean have landed. The
-window-less share is what to watch, not the raw count — it has held at
-90–91 % throughout.</sub>
+when the atlas grows faster than the sweep fills it. **Recomputed 2026-08-22 by a
+script that mirrors `sceneFlags()` line for line**, the two comparable ends are
+**1,576 / 18** the moment before Antarctica and **1,670 / 72** with it in — the
+window-less *share* barely moved, 91.2 % → 91.7 %, and the share is what to
+watch, not the raw count. The empty-stage count is the one that jumped, and it
+jumped **because of an audit, not a shortfall**: cutting 57 misfiled monument
+tabs took 32 places from "has a tab" back to "has nothing", which is what they
+honestly are. Earlier points in this series (1,018 / 82 the morning
+it shipped, 1,016 / 19 after Oceania, 1,565 / 345 after the Caribbean) came from
+a rougher count and are **not** on the same scale as those two: it missed
+`windowFor()`'s rule that a window id equal to the live id is *not* a window, so
+it credited about 11 places with a seat the UI does not draw, and it read an
+"empty stage" without asking whether the place had monument tabs. Both counts
+here are the frontend's own answer.</sub>
 
 This is **not** a fifth scene and **not** a stand-in window. It never passes
 through `media.js`, never appears in `sceneFlags()`, never reaches the Virtual
@@ -390,21 +402,50 @@ Window page, wears its own 🛰️ badge with no live dot, and its title says ou
 loud that there is no window cam here. The honesty rule is intact: nothing fake
 stands in — this is a different, truthful thing standing beside the gap.
 
-Four eyes cover the globe; a place is assigned by the longitude midpoint between
-neighbouring sub-satellite points:
+Four geostationary eyes cover the globe between them; a place is assigned by the
+longitude midpoint between neighbouring sub-satellite points. A **fifth** covers
+the one part of the world they cannot see at all:
 
-| Satellite | Sub-satellite point | Serves longitudes | Source | Imagery |
+| Satellite | Sub-satellite point | Serves | Source | Imagery |
 |---|---|---|---|---|
 | Himawari-9 | 140.7°E | ≥ 70.35°E and ≤ −178.15° | JMA XYZ tiles | true colour by day, band-13 infrared by night |
 | GOES-West (GOES-18) | 137.0°W | −178.15° … −106.1° | NASA GIBS WMTS | GeoColor (city lights at night) |
 | GOES-East (GOES-19) | 75.2°W | −106.1° … −37.6° | NASA GIBS WMTS | GeoColor |
 | Meteosat (MTG-I1) | 0.0° | −37.6° … 70.35°E | EUMETSAT WMS | geocolour |
+| Suomi NPP | polar orbit | **everything south of 60°S** | NASA GIBS EPSG:3031 WMS | VIIRS true colour by day, day-night band through the polar night |
+
+**The fifth eye is not geostationary, because it cannot be.** A satellite parked
+over the equator sees the pole at a grazing angle or not at all, and the code
+had a matching hole: `tileY(-90)` in the Web-Mercator helper is `Infinity`, so
+every South Pole place was building a mosaic of NaN tiles and captioning the
+resulting *empty pane* as a live satellite view. That is exactly the failure the
+honesty rule exists to prevent, and it was invisible until a place actually sat
+at the pole. `sourceFor()` now routes `lat ≤ −60` to a polar-stereographic
+source: a WGS84 EPSG:3031 forward transform puts the place dead centre of a
+2,000 km box and GIBS renders it in one WMS request. The day/night switch here
+is load-bearing rather than cosmetic — during the austral winter GIBS returns a
+**genuinely black image** for true colour (there is no daylight to reflect), and
+the day-night band, which reads the moon and the aurora and the bases' own
+lights, returns a real one. Two further things measured rather than assumed: the
+mosaic for the **current** UTC day does not exist yet — at 15:29 UTC on
+2026-08-22 GIBS answered with a 380-byte all-black JPEG for that day and a real
+image for every day before it, and a blank JPEG is a valid JPEG, so nothing
+errors and the pane renders a black rectangle under a caption claiming a
+satellite view. `GIBS_LAG_H = 30` always lands on a finished mosaic. And the
+black disc at the exact centre of the South Pole's pane is **not** a hole in the
+render: it is the polar gap in the orbiter's own coverage, and the fact that it
+sits dead centre is the projection check passing. The stamp says
+`2026-08-21 · a day's passes, mosaicked`, because that is what a polar orbiter's
+product is: it is not "now", and it does not claim to be.
 
 Day/night picks the band via a local solar-altitude calculation (`sunAltitude`,
 civil-twilight threshold −6°), which is why Himawari never shows a black square
 at 3 a.m. local. GIBS and JMA serve Web-Mercator XYZ tiles, so those get a 3×3
 tile mosaic centred on the place; EUMETSAT is a WMS that renders any EPSG:3857
-bbox, so it gets the whole block as one image — same geometry, one request.
+bbox, so it gets the whole block as one image — same geometry, one request. The
+polar source is the third request shape and the reason the mosaic builder now
+computes its own bbox: three shapes, one contract — every source returns a
+`<div>` of a known pixel size with the place at a known pixel offset.
 
 The pane refreshes every 5 minutes, **only while the tab is visible**, and
 double-buffers: the fresh mosaic is built and fully loaded off-screen before the
@@ -809,7 +850,7 @@ About chips, not a hole in the tabs.
 python3 tools/check_trips.py --scenes    # exits 1 if any stop is unknown
 ```
 
-`data/trips.json` holds 28 hand-ordered routes. A trip stores only **place ids**
+`data/trips.json` holds 31 hand-ordered routes. A trip stores only **place ids**
 plus a one-line note per stop, so it can never invent a destination — it can only
 point at somewhere the atlas already goes. `js/lib/trips.js` resolves those ids
 against the loaded places; a stop that doesn't resolve is dropped loudly to the
@@ -1508,6 +1549,170 @@ places across 201 countries.**
   left. Inheriting any of that from the sovereign produces a page that is
   confidently wrong.
 
+**Antarctica** (new `antarctica.json`, 92 places + 2 observatories, 2026-08-22).
+The atlas had six continents. The seventh appeared only inside other places'
+prose — eight passing mentions of Antarctica in blurbs and fun facts — while the
+continent itself, the sub-Antarctic islands and both poles-worth of stations had
+no seat anywhere. `tools/build_antarctica.py` puts in **92** records on the
+`regionbuild.py` frame, and `observatory.json` gains the **South Pole Telescope**
+and **IceCube**, which stand within a kilometre of the geographic pole. The atlas
+goes **1,728 → 1,822 places across 206 countries**, and the home page grows a
+seventh continent rail without a line of frontend change — `home.js` derives its
+rails from `p.continent`.
+
+**79 of the 92 are in Antarctica proper**, and the other 13 are the sub-Antarctic
+islands: South Georgia and the South Sandwich Islands **7** (Grytviken, where
+Shackleton is buried; the 150,000-pair king penguin colony at St Andrews Bay),
+the French Southern and Antarctic Lands **4** (Port-aux-Français and Alfred
+Faure, the two places in the Southern Ocean where people actually overwinter for
+France), Heard Island **1** and Bouvet Island **1** — the most remote island on
+earth, 1,600 km from anywhere, with an unmanned hut on a glacier. Inside the
+continent the roster runs the Antarctic Peninsula **19** (Port Lockroy's post
+office, the Lemaire Channel, Deception Island's flooded caldera), the Ross Sea
+**19** (McMurdo, Scott Base, Mount Erebus, the three huts Scott and Shackleton
+left behind, Blood Falls and the Dry Valleys), East Antarctica **10**, the South
+Shetlands **9**, Queen Maud Land **7**, the Polar Plateau **6** (the South Pole,
+Vostok, Concordia, Dome Fuji, Kunlun), West Antarctica **6** (Vinson, Thwaites,
+Pine Island), the South Orkneys **2** and the Weddell Sea **1**. Three trips go
+with them: **The Drake** 🚢 (Ushuaia → the Peninsula, 11 stops), **The Southern
+Ocean** 👑 (South Georgia → the Peninsula, 12 stops) and **The Ross Sea** 🪵
+(New Zealand → McMurdo, 12 stops, the route Scott and Shackleton sailed) — 28 →
+**31 routes**.
+
+- **Every place south of 60°S is filed under `AQ`, and that is a decision, not a
+  gap.** ISO 3166 and the Antarctic Treaty draw the same line at 60°S: south of
+  it, seven states claim territory, no claim is recognised by anyone else, and
+  three of the claims overlap. So `country` is `Antarctica` for all 79 of them
+  regardless of whose flag is on the hut, and the four sub-Antarctic island
+  groups — all north of 60°S, all with undisputed sovereigns — keep GS, TF, HM
+  and BV. **Wikidata disagrees thirteen times and it is not wrong; it is
+  answering a different question.** McMurdo answers P17 = United States, Mawson =
+  Australia, Kunlun = China, Villa Las Estrellas = Chile, Mirny = the *Soviet
+  Union* (Q15180, a state that no longer exists). Those are the operators. We are
+  recording the Treaty, so the rule wins and the warnings are documented in the
+  generator header rather than silenced. **66 records answer P17 with nothing at
+  all** — that is the Treaty being reported correctly, and `p17_optional` exists
+  so a continent with no sovereign does not generate 66 lines of noise.
+- **The one P17 warning worth actually reading is Grytviken's**, which answers
+  **Argentina**: South Georgia is a disputed territory on Wikidata the way the
+  Falklands are. Ours says GS, which is both the ISO code and the administering
+  power, and the distinction between "this warning is structural" and "this
+  warning is a live dispute" is the reason none of them are auto-suppressed.
+- **The satellite pane was silently broken at the pole and nothing could have
+  caught it before a place went there.** See [The sky over a place](#-the-sky-over-a-place-)
+  above: `tileY(-90)` is `Infinity`, so the South Pole's 🛰️ seat was an empty
+  pane wearing a truthful-looking caption. A fifth, polar-orbiting source in
+  EPSG:3031 fixes it. **A feature that is only reachable from data you do not yet
+  have is untested by construction** — adding a region is the moment to ask which
+  code paths have never had an input.
+- **A blank field can be the true answer, and the UI has to survive it.**
+  Antarctica has no capital, and Heard and Bouvet have a population of zero and no
+  roads to drive on either side of. `culture.js`'s fast-facts row joined its three
+  fields unconditionally, so those pages would have read `· pop 0 · drives`.
+  `factLine()` joins only what is present and the row is dropped when nothing is —
+  the same shape of bug as the em-dash panel the Caribbean batch found, one field
+  smaller. Currency, too, is honestly empty: bases run on scrip, cards and
+  goodwill, and there is no Antarctic money to convert into.
+- **"Local radio" has to actually be local.** Radio Browser's country field is
+  submitter-supplied, and all **nine** stations filed under `AQ` are somewhere
+  else: KBS 1FM in Seoul, a Quran recitation stream, a personal radio and five
+  meme stations. The panel is labelled *Local radio*, so printing them is a false
+  claim about the place — worse than an empty panel, and the panel already hides
+  itself on an empty list. `NO_LOCAL_RADIO` in `api.js` is one code, with the
+  reason written beside it. The real Antarctic broadcaster, **LRA 36** at
+  Esperanza Base, is shortwave and has no stream to embed; the day it does, that
+  is the line to delete.
+- **Three refusals were real and one of them could not be repaired.** `Maitri`
+  and `Ulvetanna` had no P625 and no article respectively, and both had a correct
+  fuller title (`Maitri_(research_station)`, `Ulvetanna_Peak`). `Whalers_Bay` has
+  neither, in any spelling — so the record was **deleted** and its two best
+  details, Hubert Wilkins' first powered flight in Antarctica in 1928 and the hot
+  hollow you can dig at the tideline, moved into `deception-island`'s prose. The
+  Caribbean rule holds: replace or fold in, never hunt for a plausible slug.
+- **Four highlight slugs resolved to a *different subject* via redirect** —
+  `Barne_Glacier`→Mount Erebus, `Errera_Channel`→Rongé Island,
+  `Cape_Renard`→Flandres Bay, `Enterprise_Island`→Nansen Island. All four are
+  real features with real names and no article of their own; linking them would
+  have been a lie, so they are plain text chips. Four more had no article at all
+  (`Mount_Ross_(Kerguelen)`, `Novo_Airbase`, `Mawson_Peak`, `McDonald_Islands`)
+  and went the same way.
+- **A FAR warning means nothing when the object is the size of a country.** Three
+  highlights sat 500–1,077 km from their record and were demoted; three others at
+  394–604 km were kept, because the Ross Ice Shelf is the size of France and its
+  centroid is not where anyone stands on it. The distance check is a prompt to
+  look, not a verdict — and on this continent the objects are big enough that it
+  fires honestly in both directions.
+- **The sweep's answer for the ice was almost entirely "nothing verifiable", and
+  that is the finding.** Every one of the 94 records was looked at by both
+  enrichers — the logs end `done — every candidate place was looked at`, not
+  `this run only`. `enrich_monuments.py` came back with **107 tabs across 71 of
+  the 94**, of which **50 on 39 places survived being watched** — see the audit
+  below. What survived is the continent's real photographic record: Port
+  Lockroy's Base A, the Errera Channel, Blood Falls, the Dark Sector at the
+  pole, the Schirmacher Oasis, Cook Glacier above St Andrews Bay.
+  `enrich_media.py` came back with **two walk seats out of 94**, and
+  **zero** drives, live cams and window cams: a 13-minute 360 walkthrough of
+  **Scott Base** (Antarctic Outreach Videos, 2023) and a 34-minute walk around
+  **Bharati** (2020). That is not the sweep failing. There are no streets to
+  drive, and the one thing a research station will not spare is upstream
+  bandwidth for a 24/7 camera — the atlas now says so by leaving 92 stages empty
+  rather than by filling them. Deception Island keeps **Whalers Bay** after all:
+  the record was deleted for having no article, and the sweep found it again as a
+  monument tab, which is exactly the right seat for it.
+- **Then I watched them, and 57 of the 107 tabs were somewhere else entirely.**
+  Deception Island's tab labelled "Port Foster" was the *Ombrière du Vieux-Port
+  de Marseille*. Santorini's blue domes sat under both Concordia and Kunlun
+  ("Dome C", "Dome A"). A Bronx street was filed under the Beardmore Glacier
+  ("Mount Hope"), a Pittsburgh shopping mall under Kerguelen ("Mount Ross"), an
+  anime figure unboxing under Don Juan Pond. **More than half the sweep.** The
+  cause is that `mentions_landmark()` is a token-subset test and Antarctic
+  features are named in the plainest English geography there is — Port, Deep,
+  Dome, Mount, Low Camp — so every continent's footage matches. `wrong_place_title()`
+  cannot help: it fires when a title names another place we *carry* or another
+  country by *name*, and "Mount Hope Place - Bronx 4K" does neither. All 57 are
+  cut, each with a per-video reason in `media_denylist.json` (`per_place` 19 →
+  64), and the new `anchors_to_place()` guard makes a title carry a geographic
+  anchor of its own. **The guard runs the sweep's own medicine on the sweep's
+  own output**, so it also turned up two tabs that had been shipped for
+  batches: Maunakea's "Gemini Observatory" was Gemini **South** on Cerro
+  Pachón in Chile — Maunakea has Gemini *North* — and Beijing's "Ming city
+  wall" was **Nanjing's** wall, filmed from the Dabao'en Temple. Both cut.
+  The lesson is the one the project keeps relearning: **an offline check that
+  ties a video to a name has not tied it to a place**, and the only thing that
+  finds this class is opening the page and looking.
+- **A guard that refuses 16 % of what already shipped is not a guard, it is a
+  regression.** Applied to every landmark alike, `anchors_to_place()` would have
+  refused **673 of the 4,236 tabs the atlas ships (15.9 %)** — including
+  obviously-right picks like `old-quebec / Plains of Abraham`. So it is gated by
+  `self_anchoring()`: a name that identifies its own spot on earth is taken on
+  its own word, and only the weak names are made to prove WHERE. Weak means
+  `em.distinctive()` leaves one ordinary word — "Port Foster" → *foster*, "Deep
+  Lake" → *deep*, "Dome C" → *dome* — while two surviving words, or one of eight
+  characters or more (*grytviken*, *schirmacher*, *ulvetanna*), stands on its
+  own. That drops the cost to **226 of 4,236 (5.3 %)** while still refusing
+  **all 57** Antarctic misfilings. The residual 5.3 % is not free and is not all
+  loss: "Lake Huron November Beach Walking" is right for Point Farms and is
+  refused, because *huron* is five letters and the title never says Ontario —
+  but the same 226 contains a Preston, **Lancashire** walking tour filed under
+  Ontario's Preston. A missing tab is a gap, a wrong one is a lie, and
+  `build_monuments.py` outranks the sweep, which is where a human puts the
+  losses back.
+- **The empty-search guard was counting retries as evidence, and Antarctica is
+  where that finally bit.** `flat_search()` asks YouTube up to three times and
+  used to bump the streak on each failed attempt, so one genuinely-quiet query
+  spent 75 s in backoff and filed **three** refusals — the eight-empty abort
+  could fire before three places had been looked at. A query is one observation
+  however many times you ask it, so the counter moved outside the loop. **The
+  guard was not loosened**; it is still eight, and it is still the only thing
+  standing between a dark API and a fabricated scene. What it still cannot do is
+  tell eight honestly-quiet places apart from a refusal — an empty response is
+  byte-for-byte the same either way — and a continent of research stations is
+  exactly that neighbourhood, so the round-by-round drill stays. `enrich_monuments.py`
+  imports `em.EMPTY_STREAK` and inherited the fix without a line of its own.
+  The diagnosis cost a killed run for a duller reason: **run these with `python3 -u`**,
+  because a redirected stdout is block-buffered and 26 minutes of real work looks
+  identical to a hang when the log is 0 bytes.
+
 | rule | why |
 | --- | --- |
 | coordinates from **Wikidata P625**, not an OSM administrative centroid | a Chinese prefecture-level city is a *region*. OSM's "Chongqing" node sits at 30.06N 107.87E, ~200 km out in the rural east; P625 puts it in Yuzhong, which is the city. Nominatim is for villages and scenic areas that Wikidata has no point for, and the matched object gets eyeballed |
@@ -1522,6 +1727,8 @@ places across 201 countries.**
 | membership in more than one category goes in `sets`, never a second region file | `data.js` derives `region_id` from *which file a place lives in*, so the collections (`ancient`, `wild`, `observatory`) are mutually exclusive by construction — moving Taganrog into a fourth would delete it from Europe. `sets` is the additive form: the place declares extra memberships in its own record and keeps its home region. Adding any such field to the merge means **bumping `CACHE_KEY`** — a place cached under the old version has no `sets` key and a filter calling `.includes()` on it throws for as long as the entry stays warm |
 | a country name written into a place is a **join key** — copy it from the registry, never retype it | `build_countries.py`'s `live_counts()` matches `loc["country"]` against the registry's canonical name *string*. "Ivory Coast" and "Democratic Republic of the Congo" are both correct English and neither is the spelling the registry uses, so a country would have shown **zero places** while holding four. Nothing errors, nothing warns — the number is just wrong |
 | the continent box is the refusal; **Wikidata P17** is the warning beside it | a box wide enough for Bizerte (37.28°N) also contains **Lagos, Portugal** (37.10°N), so on this continent the box cannot catch a namesake on its own. P17 can, but only as a warning: `Tripoli,_Libya` carries **Tripolitania**, and lakes, ranges and cultural landscapes routinely name a neighbour. Print it, read it, don't automate it |
+| a monument title must say **where**, not merely **what** — unless the landmark's own name already says where | `mentions_landmark()` ties a pick to the landmark's name and to nothing else, which is plenty for "Château Frontenac" and worth nothing for "Port Foster", "Deep Lake" or "Dome C": strip the feature noun and one ordinary word is left, so every continent's footage matches. That misfiled **57 of 107** Antarctic tabs. `anchors_to_place()` makes such a title carry the place, region, province, country or continent too — but applied to *all* names it would refuse **15.9 %** of what the atlas already ships, so `self_anchoring()` gates it: two distinctive words, or one of eight characters, stands on its own. Cost lands at **5.3 %**, and it is a real cost — read the refusals before widening the list |
+| a coverage number quoted in these notes comes from **`tools/seat_stats.py`**, at both ends of the delta | the seat rules are easy to port wrong and successive batches did: `liveFor()` reads `loc.webcam`, not `loc.live`, so a hand-curated cam vanishes from the count; `windowFor()` returns null when the window id **equals** the live id, so ~11 places get credited with a seat the UI never draws; and "empty stage" means the arrival page has nothing at all, monument tabs included. The script is a port of `js/lib/media.js` — if they disagree, media.js is right and the script is the bug — and it reads a git revision (`--rev HEAD`) so a before/after pair is measured by one counter, not two |
 | every writer of `data/media.json` goes through **`tools/medialock.py`** | three tools wrote it concurrently, each reading the whole file at startup and writing the whole file back at every checkpoint — so two overlapping runs meant the second silently reverted the first. The lock is on a `.media.lock` **sidecar**, because `os.replace()` swaps inodes and a lock on the file itself is a lock on a file nobody holds any more. Re-read inside the lock, and never assign back a subtree captured before it |
 | a capped run must say **what it did not do** | `--max` defaulted to 10 and printed nothing about the remainder, so a truncated sweep and a finished one produced the same-shaped log. Both enrichers now count candidates before capping and end with `done — this run only` or `done — every candidate place was looked at`. Switching it on revealed a standing backlog of 786 monument searches and 893 media seats that nothing had ever printed |
 | **"nothing verifiable" is a finding; a throttle is not** — but an empty search is only evidence of a throttle if **nothing** answered | the streak abort fires at eight consecutive empty YouTube responses, which left the first seven places of a throttled run recording an honest-looking gap on a search that never ran. Each place now measures what happened during *it*. The counter-example is just as important: a narrow query (`Iguéla Lagoon 4K walking tour`, city dropped) genuinely returns zero, and counting empties alone flagged Loango and Ranomafana as "re-run this place" *permanently*. `em.verdict()` asks whether YouTube served any search during that place before it calls anything a refusal. Related: reproduce a sweep rejection with the places **registered** — a bare import never runs `register_place()`, so `wrong_place_title` compares against an empty corpus and cheerfully approves what the real run refused |
@@ -1549,6 +1756,10 @@ places across 201 countries.**
 | adding countries means **regenerating `countries.json` and auditing its table first** | `build_countries.py` had no row for any Central American country and none for any Caribbean dependency — 31 short. A country missing from that dict does not appear in the output, with no error: the site said 170 countries while holding 201. Same failure shape as the `culture.js` tables and the `--max` cap — the log looks normal |
 | an abort guard that counts **retries** instead of attempts fires on honest emptiness | `enrich_media.py` retries each YouTube query 3× and increments `EMPTY_STREAK` per empty response, so three genuinely-empty narrow queries reach the eight-empty refusal threshold and kill the run — while `verdict()`, which asks whether YouTube answered *anything* during that place, correctly says it did. Don't loosen the threshold, it is the anti-fabrication mechanism; count one empty per query, and until then drive long sweeps round-by-round from the printed `[i/N]` progress (an honest gap writes no `media.json` entry, so the file cannot measure progress) |
 | four concurrent enrichment sweeps is the ceiling, and **only `enrich_media.py` may be concurrent at all** | four ran clean for 1h45m; seven collapsed to 276 s/place and tripped a refusal abort. `enrich_media.py` writes through `medialock.py` and is safe; `enrich_monuments.py` has **no lock** and rewrites a whole region file from an in-memory copy, so two processes on one region silently discard one of them |
+| a region with **no sovereign** needs its country rule written down once, in the generator | seven states claim Antarctica, three of the claims overlap, and nobody recognises any of them — so `country` is `Antarctica` for everything south of 60°S and the sub-Antarctic islands north of it keep GS/TF/HM/BV. Wikidata's P17 answers with the *operator* of the base (McMurdo → United States, Mirny → the **Soviet Union**), which is a different question honestly answered. Thirteen warnings stay visible and documented; the `p17_optional` flag stops the 66 records with no P17 at all from burying them |
+| a code path only reachable from **data you don't have yet** is untested by construction | `tileY(-90)` is `Infinity`, so the 🛰️ satellite pane built a mosaic of NaN tiles and captioned the empty result as a live view — a fabricated scene, in the one subsystem whose whole job is not fabricating scenes. Nothing was wrong until a place sat at the pole. **Adding a region is the moment to ask which code paths have never had an input**, and the answer is rarely only the region file |
+| an **empty field can be the true answer**, so a renderer must join what's present, not what's declared | Antarctica has no capital and no currency; Heard and Bouvet have a population of zero and no roads. The fast-facts row concatenated three fields unconditionally and would have printed `· pop 0 · drives `. `factLine()` filters first and the row disappears when nothing survives — the same family as the em-dash culture panel, and equally invisible to any check that only reads JSON for *missing* keys |
+| a **FAR** distance is a prompt to look, not a verdict | the Ross Ice Shelf is the size of France: its centroid is 400–600 km from every place on it and the warning is meaningless. Three highlights at 394–604 km were kept for exactly that reason and three at 500–1,077 km were demoted to text chips. Read what the object *is* before spending the warning |
 
 ---
 

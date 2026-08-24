@@ -1695,6 +1695,185 @@
           "note": "The end of the line, and the railway over the pass to the Klondike."
         }
       ]
+    },
+    {
+      "id": "the-drake",
+      "name": "The Drake Passage",
+      "emoji": "🚢",
+      "mode": "boat",
+      "region": "Ushuaia → Antarctic Peninsula",
+      "days": "10–12 days",
+      "hero": "lemaire-channel",
+      "tagline": "Two days of the worst sea in the world, and then the best week of your life.",
+      "blurb": "The standard Antarctic trip, and the reason 90% of everyone who has been to the continent has only seen the Peninsula. Out of Ushuaia, across 1,000 km of open ocean where nothing interrupts the swell all the way round the planet, and into a week of landings among glaciers, penguins and huts. The crossing is either the Drake Lake or the Drake Shake and you do not find out which until you are in it. Nothing here is scheduled: the itinerary is a wish list the ice and the wind edit daily.",
+      "stops": [
+        {
+          "id": "ushuaia",
+          "note": "The end of the world, and the start of everything. Board in the afternoon and be in the Beagle Channel by dinner."
+        },
+        {
+          "id": "half-moon-island",
+          "note": "First landing after two days at sea. Chinstraps, and the whole Tangra range across the strait."
+        },
+        {
+          "id": "deception-island",
+          "note": "Sail through Neptune's Bellows into a flooded volcano and anchor inside the mountain."
+        },
+        {
+          "id": "cuverville-island",
+          "note": "6,500 pairs of gentoos and the pink highways they wear into the hill."
+        },
+        {
+          "id": "neko-harbour",
+          "note": "Continental Antarctica underfoot at last, with a glacier calving into the landing beach."
+        },
+        {
+          "id": "paradise-harbour",
+          "note": "Take the zodiac cruise over the landing. The point of this bay is the water level."
+        },
+        {
+          "id": "port-lockroy",
+          "note": "Post a card that will take six months to arrive, from a hut with four people in it."
+        },
+        {
+          "id": "lemaire-channel",
+          "note": "Eleven kilometres of 900-metre cliffs, 1,600 metres apart. Skip breakfast for it."
+        },
+        {
+          "id": "petermann-island",
+          "note": "The southernmost gentoos in the world, and the Adélies they are replacing."
+        },
+        {
+          "id": "vernadsky-station",
+          "note": "Southernmost bar on Earth, in the building where the ozone hole was found."
+        },
+        {
+          "id": "wilhelmina-bay",
+          "note": "Turn north through the humpbacks. Late season this bay holds hundreds of them."
+        }
+      ]
+    },
+    {
+      "id": "southern-ocean",
+      "name": "The Southern Ocean",
+      "emoji": "👑",
+      "mode": "boat",
+      "region": "South Georgia → Antarctic Peninsula",
+      "days": "3 weeks",
+      "hero": "st-andrews-bay",
+      "tagline": "The long way round, for the king penguins and the grave.",
+      "blurb": "The trip people do second, after the Peninsula has ruined them. It adds a week of open ocean each way to reach South Georgia, which is the single greatest concentration of wildlife on the planet: beaches where you cannot see the sand for penguins, four-tonne seals in the tussac, and a whaling station with Shackleton buried behind it. Then south-west across the Scotia Sea to Elephant Island, where the story that ends at his grave began, and on into the Weddell ice.",
+      "stops": [
+        {
+          "id": "ushuaia",
+          "note": "Provision here. There is nothing to buy for the next three weeks."
+        },
+        {
+          "id": "grytviken",
+          "note": "Whisky at the grave, then the museum and the church. Everyone does it in that order."
+        },
+        {
+          "id": "king-edward-point",
+          "note": "The capital: a jetty, a lab, and the government of a place with no residents."
+        },
+        {
+          "id": "salisbury-plain",
+          "note": "60,000 pairs of kings on a glacial outwash plain, and no clean way to describe the noise."
+        },
+        {
+          "id": "st-andrews-bay",
+          "note": "150,000 pairs. If the surf lets you land, this is the biggest thing you will ever stand next to."
+        },
+        {
+          "id": "gold-harbour",
+          "note": "Anchor overnight. The twenty minutes of sunrise on the tussac is what the bay is named for."
+        },
+        {
+          "id": "stromness",
+          "note": "Walk the last leg of Shackleton's crossing down to the waterfall above the station."
+        },
+        {
+          "id": "elephant-island",
+          "note": "Two days across the Scotia Sea to the beach 22 men survived on for four months."
+        },
+        {
+          "id": "brown-bluff",
+          "note": "A 745-metre red wall on the Antarctic Sound, with Adélies at the foot of it."
+        },
+        {
+          "id": "paulet-island",
+          "note": "100,000 pairs of Adélies nesting in and around a shipwrecked crew's stone hut."
+        },
+        {
+          "id": "antarctic-sound",
+          "note": "Iceberg Alley. Tabular bergs the size of towns, queuing to leave the Weddell Sea."
+        },
+        {
+          "id": "deception-island",
+          "note": "Last landing: sit in a hole of warm water on a black beach and think about the Drake."
+        }
+      ]
+    },
+    {
+      "id": "ross-sea",
+      "name": "The Ross Sea",
+      "emoji": "🪵",
+      "mode": "boat",
+      "region": "New Zealand → Ross Sea",
+      "days": "4 weeks",
+      "hero": "cape-evans",
+      "tagline": "A month at sea to reach the huts, and they are still furnished.",
+      "blurb": "The hardest tourist journey on Earth that anyone actually sells. Ten days south from New Zealand through the sub-Antarctic islands and the pack ice before you see the continent at all, into a sea that is frozen shut most of the year and open for about six weeks. What is down there is the heroic age itself: Borchgrevink's, Scott's and Shackleton's huts, standing where they were left, with the food still on the shelves. Two or three ships attempt it a season and some years the ice turns all of them back.",
+      "stops": [
+        {
+          "id": "invercargill",
+          "note": "Sail from Bluff. The next land is 2,500 km away and it is uninhabited."
+        },
+        {
+          "id": "cape-adare",
+          "note": "The first buildings ever put up on Antarctica, and half a million Adélies on the beach."
+        },
+        {
+          "id": "cape-washington",
+          "note": "20,000 emperors on the fast ice under a basalt headland."
+        },
+        {
+          "id": "zucchelli-station",
+          "note": "Terra Nova Bay: an Italian base beside a polynya that never freezes."
+        },
+        {
+          "id": "drygalski-ice-tongue",
+          "note": "A glacier sticking 70 km out to sea. Ships follow it south."
+        },
+        {
+          "id": "ross-ice-shelf",
+          "note": "The Barrier: a 50-metre cliff of ice running 600 km east into nothing."
+        },
+        {
+          "id": "cape-royds",
+          "note": "Shackleton's hut, and the southernmost Adélie colony on the planet."
+        },
+        {
+          "id": "cape-evans",
+          "note": "Scott's hut. 8,000 objects where the men left them, and the stables still colder than the bunks."
+        },
+        {
+          "id": "discovery-hut",
+          "note": "His first hut, 300 metres from the largest town on the continent."
+        },
+        {
+          "id": "mcmurdo-station",
+          "note": "1,000 people, gravel roads and fuel tanks. Not what anyone pictures."
+        },
+        {
+          "id": "scott-base",
+          "note": "Green, three kilometres over the hill, with the pressure ridges below it."
+        },
+        {
+          "id": "mount-erebus",
+          "note": "A lava lake on an island of ice, steaming above the whole thing."
+        }
+      ]
     }
   ]
 }
