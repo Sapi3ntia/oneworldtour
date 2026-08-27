@@ -3,11 +3,6 @@
    Each function degrades to null/[] — callers show honest empty
    states, never spinners that spin forever.
    ============================================================ */
-/* The one call that isn't keyless: Ask-the-Guide goes through our own
-   same-origin serverless function (api/ask.py) so the Anthropic key stays
-   on the server. Relative path — works in prod, previews, and `vercel dev`. */
-const BACKEND_URL = '/api';
-
 /* Remote services hand us URLs that end up in href/src attributes. Only
    http(s) ever gets through — a javascript: or data: URL from a rotted or
    poisoned feed would otherwise run in the visitor's page. */
@@ -169,22 +164,4 @@ export async function news(place, country, limit = 6) {
     }
     return out;
   } catch { return []; }
-}
-
-/* ---- Claude guide Q&A via optional backend proxy ---- */
-export async function askGuide(locationName, question, context) {
-  try {
-    const r = await fetch(`${BACKEND_URL}/ask`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ locationName, question, context }),
-    });
-    const body = await r.json().catch(() => ({}));
-    /* The function explains itself on 429/503 — pass that through verbatim
-       rather than replacing a useful message with a generic one. */
-    if (!r.ok) return body.error || 'Guide unavailable right now.';
-    return body.answer || 'No answer available.';
-  } catch {
-    return 'Guide unavailable — could not reach it.';
-  }
 }

@@ -92,8 +92,7 @@ windows, no frozen widgets posing as live cams.
 - **Location** (`location.html?id=…`) — the tabbed stage plus: live local clock +
   weather, About (Wikipedia), fun fact, highlights, culture (language, phrases,
   currency + live FX, dish), live local radio, **📺 live national TV** (see below),
-  headlines, photo gallery, procedural ambience, Ask-the-Guide (optional Claude
-  backend), and a "Nearby from here" rail.
+  headlines, photo gallery, procedural ambience, and a "Nearby from here" rail.
 - **Virtual Window** (`window.html`) — a framed, chrome-free **live** window with a
   local-time + weather sill plate and "open another window" world-hopping.
 - **City Guesser** (`guess.html`) — dropped into a mystery scene (the walk video,
@@ -111,8 +110,9 @@ windows, no frozen widgets posing as live cams.
 ## Architecture (v2)
 
 No framework, no bundler, no build step for the app itself — modern **ES modules**
-served statically. Two small Python tools do the heavy lifting **at build time** so
-the runtime stays keyless and dependency-free.
+served statically. There is no backend and no server-side code of any kind: Python
+tools do the heavy lifting **at build time**, so the deployed site is pure static
+files and stays keyless and dependency-free.
 
 ```
 oneworldtour/
@@ -146,22 +146,20 @@ oneworldtour/
 │   ├── media.json         # yt-dlp enrichment sidecar (auto-found, vetted scenes)
 │   └── media_denylist.json# ids a human watched and rejected (global + per_place) ★
 ├── assets/world.json      # pre-projected country outlines (see build_worldmap.py)
-├── tools/
-│   ├── build_worldmap.py  # TopoJSON → Natural-Earth-projected SVG paths
-│   ├── enrich_media.py    # yt-dlp: auto-find + vet walks and live cams  ★
-│   ├── harvest_cams.py    # the same cams, found the cheap way round      ★
-│   ├── openwebcamdb.py    # metered cam DISCOVERY — build-time only       ★
-│   ├── enrich_monuments.py# yt-dlp: auto-find + vet 🏛️ landmark tours     ★
-│   ├── build_monuments.py # hand-curated monument tabs (beats the above)
-│   ├── prune_media.py     # re-apply today's rules; drop picks that now fail
-│   ├── prune_monuments.py # the same, for 🏛️ tabs; --titles backfills them
-│   ├── test_vetting.py    # the bad picks, frozen — run after any rule edit  ★
-│   ├── check_trips.py     # every trip stop must resolve to a real place  ★
-│   ├── verify_cams.py     # re-check the HAND-CURATED cams (prune only does media.json) ★
-│   ├── seat_stats.py      # count the seats the way sceneFlags() does; --rev  ★
-│   └── (v1 data builders: fetch_windy.py etc.)
-└── api/
-    └── ask.py             # serverless proxy for Ask-the-Guide (keeps the key server-side)
+└── tools/
+    ├── build_worldmap.py  # TopoJSON → Natural-Earth-projected SVG paths
+    ├── enrich_media.py    # yt-dlp: auto-find + vet walks and live cams  ★
+    ├── harvest_cams.py    # the same cams, found the cheap way round      ★
+    ├── openwebcamdb.py    # metered cam DISCOVERY — build-time only       ★
+    ├── enrich_monuments.py# yt-dlp: auto-find + vet 🏛️ landmark tours     ★
+    ├── build_monuments.py # hand-curated monument tabs (beats the above)
+    ├── prune_media.py     # re-apply today's rules; drop picks that now fail
+    ├── prune_monuments.py # the same, for 🏛️ tabs; --titles backfills them
+    ├── test_vetting.py    # the bad picks, frozen — run after any rule edit  ★
+    ├── check_trips.py     # every trip stop must resolve to a real place  ★
+    ├── verify_cams.py     # re-check the HAND-CURATED cams (prune only does media.json) ★
+    ├── seat_stats.py      # count the seats the way sceneFlags() does; --rev  ★
+    └── (v1 data builders: fetch_windy.py etc.)
 ```
 
 ### The map engine (why the glitches can't come back)
@@ -1771,20 +1769,9 @@ python3 -m http.server 8099 --bind 127.0.0.1
 # open http://127.0.0.1:8099
 ```
 
-No install, no keys. (Serve it — don't open `file://` — it fetches local JSON.)
-
-Everything except **Ask-the-Guide** works from that plain static server. That one
-feature calls `/api/ask`, a serverless function, so it needs the Vercel CLI:
-
-```bash
-npm i -g vercel                      # once
-echo "ANTHROPIC_API_KEY=sk-..." > .env.local
-vercel dev                           # serves the site + the function together
-```
-
-`.env.local` is gitignored. The key is read only inside `api/ask.py` and never
-reaches the browser. Without it the Ask box says so honestly instead of failing
-silently.
+No install, no keys, no exceptions. (Serve it — don't open `file://` — it
+fetches local JSON.) Every feature works from that plain static server, because
+the whole site is static: there is no backend to run alongside it.
 
 ### Deploying
 
@@ -1794,7 +1781,6 @@ URL. The CLI is still there for a deploy that skips git:
 
 ```bash
 vercel login
-vercel env add ANTHROPIC_API_KEY production
 vercel --prod                        # optional — pushing already deploys
 ```
 
@@ -1805,21 +1791,22 @@ Vercel's picker and `vercel git connect` fails with a misleading "make sure
 there aren't any typos". The fix is **Settings → Git → "Adjust GitHub App
 Permissions"**, which lands on GitHub's own install settings.
 
-`api/ask.py` is deliberately hostile to anyone who isn't the site — same-origin
-only, per-IP and per-instance rate limits, hard input caps, and `max_tokens`
-pinned at 220 — because every call bills a real Anthropic account. Tune the
-limits at the top of that file; set `GUIDE_MODEL` to override the model.
+**There is no `api/` directory, and that is deliberate.** An earlier version
+shipped an Ask-the-Guide proxy (`api/ask.py`) that called Claude for a couple of
+sentences about the place on screen. However well rate-limited a public endpoint
+is, it still bills the owner's account for every stranger's question, and a
+public repo invites forks that point at the original deployment. It was removed
+rather than hardened. If you want to bring something like it back, it belongs
+behind your own key and your own auth, not on a keyless static site.
 
-**`"framework": null` in `vercel.json` is load-bearing.** Left to itself, Vercel
-sees a Python dependency and builds the whole repo as a Python *application* —
-one entrypoint answering every route — and the atlas disappears behind
-`/api/ask`, which returns `{"status": "ok"}` at `/`. Null keeps it a static site
-whose `api/*.py` files are individual functions. Two related traps: the
-zero-config static builder looks in `public/`, so the site has to sit at the
-repo root with no output directory override; and the per-file Python builder
-rejects `maxDuration`/`memory`, so don't add a `functions` block. `pyproject.toml`,
-`uv.lock` and `.python-version` are generated at build time from
-`requirements.txt` and are gitignored on purpose.
+**`"framework": null` in `vercel.json` is still load-bearing.** It stops Vercel
+guessing at build settings and keeps the repo a plain static site. The trap it
+guards against is worth remembering if you ever add server code back: with a
+`requirements.txt` present, Vercel would see a Python dependency and build the
+whole repo as a Python *application* — one entrypoint answering every route —
+and the atlas would disappear behind it. One related trap survives regardless:
+the zero-config static builder looks in `public/`, so the site has to sit at the
+repo root with no output directory override.
 
 There is deliberately no `cleanUrls` or `trailingSlash`: the pages fetch their
 data with relative paths, so `/location/` would look for

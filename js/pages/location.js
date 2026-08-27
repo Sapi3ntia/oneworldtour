@@ -556,21 +556,6 @@ async function initGallery(place) {
   for (const src of photos) g.append(el('img', { src, loading: 'lazy', alt: place.name }));
 }
 
-function initGuide(place) {
-  const form = qs('#guide-form'), input = qs('#guide-q'), log = qs('#guide-log');
-  form.addEventListener('submit', async ev => {
-    ev.preventDefault();
-    const q = input.value.trim();
-    if (!q) return;
-    input.value = '';
-    log.append(el('div', { class: 'g-q' }, q));
-    const a = el('div', { class: 'g-a' }, '…');
-    log.append(a);
-    a.textContent = await api.askGuide(place.name, q,
-      `${place.name}, ${place.country}. ${place.blurb || ''}`);
-  });
-}
-
 /* ---------------- "you're on a route" ----------------
    With ?trip=, this place is a numbered stop and the strip carries you
    onward. Without it, we still say which curated routes pass through —
@@ -702,7 +687,6 @@ async function boot() {
   initTv(place);
   initNews(place);
   initGallery(place);
-  initGuide(place);
   initTripStrip(place);
   initNearby(place, places);
 }
