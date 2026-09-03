@@ -1775,6 +1775,10 @@ the whole site is static: there is no backend to run alongside it.
 
 ### Deploying
 
+Production is **<https://atlas-world-live.vercel.app>**. The old
+`oneworldtour.vercel.app` is still assigned to the same project, so links
+shared before the rename keep working.
+
 `Sapi3ntia/atlas` is connected to the Vercel project, so **a push to
 `main` deploys to production on its own** and any other branch gets a preview
 URL. The CLI is still there for a deploy that skips git:
