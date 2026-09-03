@@ -6438,6 +6438,10 @@
       "type": "nature",
       "tag": "famous",
       "emoji": "🛶",
+      "window": {
+        "yt": "QX9OfclWZuM",
+        "title": "From the Visitor Centre deck, over the Algonquin forest, live"
+      },
       "coordinates": {
         "lat": 45.8,
         "lng": -78.7
@@ -6574,6 +6578,55 @@
       ]
     },
     {
+      "id": "brockville",
+      "name": "Brockville",
+      "country": "Canada",
+      "country_code": "CA",
+      "country_flag": "🇨🇦",
+      "continent": "North America",
+      "region": "Ontario",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🚇",
+      "window": {
+        "yt": "k36fwVlkzBM",
+        "title": "City Hall, out over the St. Lawrence, live"
+      },
+      "coordinates": {
+        "lat": 44.5895,
+        "lng": -75.6843
+      },
+      "street_view": {
+        "lat": 44.5895,
+        "lng": -75.6843,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Brockville",
+      "sounds": [
+        "ocean-waves.mp3",
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Thousand Islands",
+          "wikipedia_slug": "Thousand_Islands"
+        },
+        {
+          "name": "Brockville Railway Tunnel",
+          "wikipedia_slug": "Brockville_Tunnel"
+        },
+        {
+          "name": "Saint Lawrence River",
+          "wikipedia_slug": "St._Lawrence_River"
+        }
+      ],
+      "blurb": "A limestone town on the north bank of the St. Lawrence that calls itself the City of the 1000 Islands, and has the river traffic to back it up. The waterfront is one long park, and the islands begin a few hundred metres offshore.",
+      "fun_fact": "Canada's first railway tunnel runs directly under the downtown — bored through rock in 1860, closed for decades, and reopened as a walkable tunnel lit end to end with colour.",
+      "hidden_gem_tip": "Blockhouse Island is a five-minute walk from the tunnel's south portal, and it is the best free seat in town for watching ocean-going freighters thread the Seaway channel."
+    },
+    {
       "id": "bruce-peninsula",
       "name": "Bruce Peninsula National Park",
       "country": "Canada",
@@ -6649,6 +6702,55 @@
           "height": 2160
         }
       ]
+    },
+    {
+      "id": "owen-sound",
+      "name": "Owen Sound",
+      "country": "Canada",
+      "country_code": "CA",
+      "country_flag": "🇨🇦",
+      "continent": "North America",
+      "region": "Ontario",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🖼️",
+      "window": {
+        "yt": "TqwtC_-FYog",
+        "title": "Owen Sound harbour, out over the bay, live"
+      },
+      "coordinates": {
+        "lat": 44.5669,
+        "lng": -80.9433
+      },
+      "street_view": {
+        "lat": 44.5669,
+        "lng": -80.9433,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Owen_Sound",
+      "sounds": [
+        "ocean-waves.mp3",
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Georgian Bay",
+          "wikipedia_slug": "Georgian_Bay"
+        },
+        {
+          "name": "Inglis Falls",
+          "wikipedia_slug": "Inglis_Falls"
+        },
+        {
+          "name": "Tom Thomson",
+          "wikipedia_slug": "Tom_Thomson"
+        }
+      ],
+      "blurb": "A harbour city at the bottom of a long finger of Georgian Bay, wedged between two escarpment walls. It was a rough Great Lakes port for a century, and the valley it sits in still funnels weather straight down onto the water.",
+      "fun_fact": "Owen Sound was dry for 66 years. Prohibition arrived in 1906 and the town voted to keep it until 1972, the longest run of any municipality in Ontario.",
+      "hidden_gem_tip": "Inglis Falls drops 18 metres over the escarpment ten minutes south of downtown, and the Bruce Trail runs right along the lip of the gorge below it."
     },
     {
       "id": "tobermory",
@@ -6871,6 +6973,59 @@
       ]
     },
     {
+      "id": "parry-sound",
+      "name": "Parry Sound",
+      "country": "Canada",
+      "country_code": "CA",
+      "country_flag": "🇨🇦",
+      "continent": "North America",
+      "region": "Ontario",
+      "type": "town",
+      "tag": "hidden",
+      "emoji": "🏒",
+      "webcam": {
+        "yt": "V5fNcKflAqo",
+        "title": "Downtown Parry Sound, live"
+      },
+      "window": {
+        "yt": "MNWhcycTkjQ",
+        "title": "The Town Dock, out over the sound, live"
+      },
+      "coordinates": {
+        "lat": 45.3475,
+        "lng": -80.0353
+      },
+      "street_view": {
+        "lat": 45.3475,
+        "lng": -80.0353,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Parry_Sound,_Ontario",
+      "sounds": [
+        "ocean-waves.mp3",
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Georgian Bay",
+          "wikipedia_slug": "Georgian_Bay"
+        },
+        {
+          "name": "Thirty Thousand Islands",
+          "wikipedia_slug": "Thirty_Thousand_Islands"
+        },
+        {
+          "name": "Killbear Provincial Park",
+          "wikipedia_slug": "Killbear_Provincial_Park"
+        }
+      ],
+      "blurb": "A small town on the east shore of Georgian Bay with a harbour far deeper than its size suggests, and the mainland gateway to the Thirty Thousand Islands — the largest freshwater archipelago on earth, starting just past the breakwater.",
+      "fun_fact": "Bobby Orr was born here in 1948 and learned to skate on the Seguin River. The town's hockey rink and hall of fame still carry his name, and the river still freezes.",
+      "hidden_gem_tip": "Walk out onto the CPR trestle over the Seguin. It's a working railway bridge 33 metres above the water, and the view down the Big Sound at dusk is the whole reason the town is where it is."
+    },
+    {
       "id": "killarney",
       "name": "Killarney Provincial Park",
       "country": "Canada",
@@ -7007,6 +7162,55 @@
           "height": 2160
         }
       ]
+    },
+    {
+      "id": "north-bay",
+      "name": "North Bay",
+      "country": "Canada",
+      "country_code": "CA",
+      "country_flag": "🇨🇦",
+      "continent": "North America",
+      "region": "Ontario",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🐟",
+      "window": {
+        "yt": "bUDM03h8m8g",
+        "title": "Amelia Beach, out over Lake Nipissing, live"
+      },
+      "coordinates": {
+        "lat": 46.3091,
+        "lng": -79.4608
+      },
+      "street_view": {
+        "lat": 46.3091,
+        "lng": -79.4608,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "North_Bay,_Ontario",
+      "sounds": [
+        "ocean-waves.mp3",
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Lake Nipissing",
+          "wikipedia_slug": "Lake_Nipissing"
+        },
+        {
+          "name": "Dionne quintuplets",
+          "wikipedia_slug": "Dionne_quintuplets"
+        },
+        {
+          "name": "Callander",
+          "wikipedia_slug": "Callander,_Ontario"
+        }
+      ],
+      "blurb": "The city on the height of land between Lake Nipissing and Trout Lake, sitting on the old voyageur route west. Nipissing is huge and shallow, which makes for enormous sunsets and, in winter, ice you can drive on.",
+      "fun_fact": "The Dionne quintuplets were born just west of here in 1934 and were made wards of the province, put on display in a purpose-built compound that drew three million visitors before it closed.",
+      "hidden_gem_tip": "The waterfront's old CN steam locomotive and the carousel are pleasant, but the real view is from the Laurier Woods escarpment lookout, where the whole lake opens up at once."
     },
     {
       "id": "timmins",

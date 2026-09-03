@@ -52,14 +52,21 @@
    ============================================================ */
 import { mediaIndex } from './data.js';
 
-/* Accept 'id', 'id?start=SS', { yt, start? } or { channel } shapes. */
+/* Accept 'id', 'id?start=SS', { yt, start?, title? } or { channel } shapes. */
 function parseYt(v) {
   if (!v) return null;
   if (typeof v === 'string') {
     const m = v.match(/^([A-Za-z0-9_-]{11})(?:[?&].*?start=(\d+))?/);
     return m ? { yt: m[1], start: parseInt(m[2], 10) || 0 } : null;
   }
-  if (v.yt) return { yt: v.yt, start: parseInt(v.start, 10) || 0 };
+  /* A curated cam may name its own vantage — "out over the harbour, live".
+     The { hls } shape has carried a title since the HLS cams landed; a
+     YouTube one earns the same, so a hand-picked cam reads the same way
+     whichever pipe it arrives through. */
+  if (v.yt) {
+    const p = { yt: v.yt, start: parseInt(v.start, 10) || 0 };
+    return v.title ? { ...p, title: v.title } : p;
+  }
   if (v.channel) return { channel: v.channel };
   return null;
 }
