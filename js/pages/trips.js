@@ -68,7 +68,7 @@ function tripCard(trip) {
 
 function renderIndex(trips) {
   qs('#index-view').hidden = false;
-  document.title = 'Trips — One World Tour';
+  document.title = 'Trips — Atlas';
 
   const stops = trips.reduce((n, t) => n + t.stops.length, 0);
   const totalKm = trips.reduce((n, t) => n + t.distance, 0);
@@ -115,7 +115,7 @@ function stopRow(trip, stop, i) {
 
 async function renderTrip(trip) {
   qs('#trip-view').hidden = false;
-  document.title = `${trip.name} — One World Tour`;
+  document.title = `${trip.name} — Atlas`;
 
   qs('#trip-kicker').textContent = `${trip.emoji} ${trip.region} · ${trip.mode}`;
   qs('#trip-name').textContent = trip.name;

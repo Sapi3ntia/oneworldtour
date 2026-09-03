@@ -51,7 +51,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CACHE = Path(__file__).resolve().parent / ".wiki_slugs.json"
-UA = "OneWorldTour/2.0 (educational virtual-travel project; contact: local)"
+UA = "Atlas/2.0 (educational virtual-travel project; contact: local)"
 WP = "https://en.wikipedia.org/w/api.php"
 WD = "https://www.wikidata.org/w/api.php"
 

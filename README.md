@@ -1,4 +1,4 @@
-# 🌍 One World Tour
+# 🌍 Atlas
 
 Step into 1,822 places across 206 countries — **walk their streets, drive their
 roads, watch their intersections live, look out their windows live**, tune into
@@ -115,7 +115,7 @@ tools do the heavy lifting **at build time**, so the deployed site is pure stati
 files and stays keyless and dependency-free.
 
 ```
-oneworldtour/
+atlas/
 ├── index.html · location.html · window.html · guess.html · passport.html
 ├── css/
 │   ├── theme.css          # design system: tokens, buttons, chips, cards, badges
@@ -1764,7 +1764,7 @@ Ocean** 👑 (South Georgia → the Peninsula, 12 stops) and **The Ross Sea** �
 ## Quick start
 
 ```bash
-cd oneworldtour
+cd atlas
 python3 -m http.server 8099 --bind 127.0.0.1
 # open http://127.0.0.1:8099
 ```
@@ -1775,7 +1775,7 @@ the whole site is static: there is no backend to run alongside it.
 
 ### Deploying
 
-`Sapi3ntia/oneworldtour` is connected to the Vercel project, so **a push to
+`Sapi3ntia/atlas` is connected to the Vercel project, so **a push to
 `main` deploys to production on its own** and any other branch gets a preview
 URL. The CLI is still there for a deploy that skips git:
 

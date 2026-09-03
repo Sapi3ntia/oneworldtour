@@ -1,4 +1,4 @@
-# 🌍 One World Tour — Ideas & Guardrails (v2)
+# 🌍 Atlas — Ideas & Guardrails (v2)
 
 Two parts: **ideas not yet built** and the compact **don't-break-these** list.
 The architecture itself is documented in [`README.md`](README.md).

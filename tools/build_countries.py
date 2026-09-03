@@ -3,7 +3,7 @@
 build_countries.py — generator for data/countries.json
 
 The canonical country registry: the backbone of the country-first data model
-(see OVERHAUL.md). Every country One World Tour covers OR plans to cover lives
+(see OVERHAUL.md). Every country Atlas covers OR plans to cover lives
 here exactly once, with an ISO-3166-1 alpha-2 code, flag, continent, and a
 `status`:
 

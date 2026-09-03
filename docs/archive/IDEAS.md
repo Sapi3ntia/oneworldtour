@@ -1,4 +1,4 @@
-# 💡 Ideas Parking Lot — One World Tour
+# 💡 Ideas Parking Lot — Atlas
 
 Future ideas captured here so they aren't lost. **Nothing in this file is built yet.**
 Pick one up only when explicitly asked — don't start these speculatively.

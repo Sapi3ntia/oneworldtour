@@ -1,4 +1,4 @@
-# 🧭 One World Tour — Developer Manual
+# 🧭 Atlas — Developer Manual
 
 Practical notes for whoever (human or AI) works on this next. Conventions, the
 non-obvious bits, the verification recipes, and — most importantly — **known

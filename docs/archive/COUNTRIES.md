@@ -1,7 +1,7 @@
 # 🗺️ Country Coverage & Expansion Backlog
 
 > ### ✅ STATUS: PARITY SHIPPED (2026-06-29)
-> The backlog below has been **executed**. One World Tour went **39 → 89 countries**
+> The backlog below has been **executed**. Atlas went **39 → 89 countries**
 > and **191 → 345 locations** — all 50 "to be added" countries now have
 > coordinate-verified destinations on the map, built on the new country-first data
 > model. The country lists in §2–§4 are kept as the historical analysis + record of
@@ -10,7 +10,7 @@
 > (windows/walks/culture-review for the new countries).
 
 > Working artifact created 2026-06-29. Purpose: a single source of truth for
-> **which countries One World Tour covers today** vs. **which the reference
+> **which countries Atlas covers today** vs. **which the reference
 > competitor (virtualvacation.us) covers**, and a prioritized **"to be added"**
 > backlog as the starting point for the world-coverage overhaul.
 >

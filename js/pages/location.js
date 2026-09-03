@@ -643,7 +643,7 @@ async function boot() {
     return;
   }
   qs('#page').hidden = false;
-  document.title = `${place.name} — One World Tour`;
+  document.title = `${place.name} — Atlas`;
 
   /* header */
   qs('#kicker').textContent =

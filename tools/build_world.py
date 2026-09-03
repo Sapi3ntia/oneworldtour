@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 build_world.py — generator for the world-coverage backlog (the 50 countries in
-COUNTRIES.md §4). Brings One World Tour from 39 → 89 countries.
+COUNTRIES.md §4). Brings Atlas from 39 → 89 countries.
 
 Same philosophy as build_europe.py: WE curate which destinations to feature (the
 editorial pick is ours), but every coordinate + Wikipedia slug is VERIFIED LIVE
@@ -33,7 +33,7 @@ import urllib.request
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "..", "data")
 CACHE = os.path.join(HERE, ".wiki_cache.json")
-UA = "OneWorldTour/1.0 (educational virtual-travel project; contact: local)"
+UA = "Atlas/1.0 (educational virtual-travel project; contact: local)"
 
 SOUND = {
     "city": "city-hum.mp3", "history": "european-plaza.mp3",

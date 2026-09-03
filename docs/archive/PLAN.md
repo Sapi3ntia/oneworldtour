@@ -1,4 +1,4 @@
-# 🛠️ One World Tour — Active Plan
+# 🛠️ Atlas — Active Plan
 
 The working roadmap (distinct from `IDEAS.md`, which is the long-term parking lot).
 Reflects direction set by the project owner. **Read this at the start of each session.**

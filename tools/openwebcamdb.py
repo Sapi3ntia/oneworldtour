@@ -265,7 +265,7 @@ def get(path, params=None, budget=None, dry=False):
     req = urllib.request.Request(url, headers={
         "Authorization": "Bearer " + api_key(),
         "Accept": "application/json",
-        "User-Agent": "oneworldtour/1.0 (build-time lead generation)",
+        "User-Agent": "atlas/1.0 (build-time lead generation)",
     })
     try:
         with urllib.request.urlopen(req, timeout=30) as r:

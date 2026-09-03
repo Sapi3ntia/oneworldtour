@@ -2,7 +2,7 @@
 """
 build_europe.py — generator for data/europe.json
 
-One World Tour stores each *destination* as a map marker. A destination now
+Atlas stores each *destination* as a map marker. A destination now
 also carries a list of `highlights` (the individual landmarks you explore once
 you arrive). Encoding the whole continent as compact Python rows keeps the data
 reviewable and lets us regenerate the JSON deterministically.
