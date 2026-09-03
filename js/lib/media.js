@@ -21,6 +21,10 @@
      live   : loc.webcam (hand-curated) → media.json live → null
      window : loc.window (hand-curated) → media.json window → null
 
+   A curated cam may be a YouTube id OR { hls } — a raw .m3u8. See
+   parseCam() below for what an HLS cam has to prove to sit in a seat.
+   media.json stays YouTube-only: it is written by yt-dlp.
+
    AFTER DARK (2026-07): the walk and drive seats each have a night
    twin — loc.night_walk / loc.night_drive → media.json night_walk /
    night_drive — plus loc.nightlife, the after-dark counterpart to
@@ -60,6 +64,25 @@ function parseYt(v) {
   return null;
 }
 
+/* The two CAM seats take one shape the seekable seats never do:
+   { hls: 'https://.../stream.m3u8', title? } — a raw HLS stream, mounted
+   through the same player the TV uses. Walks and drives deliberately
+   cannot: those seats must be seekable, and a live stream is not.
+
+   An HLS cam earns its seat exactly the way a YouTube one does — it is
+   verified live at build time, and re-verified by tools/verify_cams.py.
+   The check is 200 + `Access-Control-Allow-Origin: *` + an m3u8
+   content-type + segment names that ADVANCE between two reads, which is
+   the HLS way of asking the question live_status == is_live asks of
+   YouTube. A playlist that never advances is a loop or a dead stream,
+   and neither one is allowed to sit in a 🔴 or 🪟 seat. */
+function parseCam(v) {
+  if (v && typeof v === 'object' && v.hls) {
+    return v.title ? { hls: v.hls, title: v.title } : { hls: v.hls };
+  }
+  return parseYt(v);
+}
+
 export function walkFor(loc) {
   if (!loc) return null;
   const cur = parseYt(loc.walk);
@@ -88,7 +111,7 @@ export function driveFor(loc) {
 /* Street-level live cam. */
 export function liveFor(loc) {
   if (!loc) return null;
-  const cur = parseYt(loc.webcam);
+  const cur = parseCam(loc.webcam);
   if (cur) return { ...cur, kind: 'live', source: 'curated' };
   const m = mediaIndex()[loc.id];
   if (m?.live?.yt) return { yt: m.live.yt, kind: 'live', source: 'auto', title: m.live.title };
@@ -100,13 +123,16 @@ export function liveFor(loc) {
 export function windowFor(loc) {
   if (!loc) return null;
   const pick = (() => {
-    const cur = parseYt(loc.window);
+    const cur = parseCam(loc.window);
     if (cur) return { ...cur, kind: 'window', source: 'curated' };
     const m = mediaIndex()[loc.id];
     if (m?.window?.yt) return { yt: m.window.yt, kind: 'window', source: 'auto', title: m.window.title };
     return null;
   })();
-  if (pick?.yt && pick.yt === liveFor(loc)?.yt) return null;
+  // one feed cannot fill both cam seats — compare on whichever key it uses
+  const live = liveFor(loc);
+  if (pick?.yt && pick.yt === live?.yt) return null;
+  if (pick?.hls && pick.hls === live?.hls) return null;
   return pick;
 }
 

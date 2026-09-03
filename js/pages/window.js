@@ -10,6 +10,7 @@ import { State } from '../lib/state.js';
 import { weatherInfo } from '../lib/culture.js';
 import * as api from '../lib/api.js';
 import * as yt from '../lib/yt.js';
+import { mountHls } from '../lib/tv.js';
 import { el, qs } from '../lib/dom.js';
 
 let mounted = null, clockTimer = null;
@@ -49,6 +50,10 @@ function openWindow(place, pool) {
   if (view?.yt) {
     mounted = yt.mount(frame, {
       videoId: view.yt, muted: true, controls: 0, onError: fail,
+    });
+  } else if (view?.hls) {
+    mounted = mountHls(frame, view.hls, {
+      onError: fail, muted: true, controls: false,
     });
   } else {
     fail();

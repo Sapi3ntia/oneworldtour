@@ -15,6 +15,11 @@ questions enrich_media.py asks at hunt time:
 
     live_status == is_live   and   playable_in_embed
 
+A curated cam may also be { "hls": "https://.../stream.m3u8" }. Those get
+the equivalent interrogation from tools/hlscam.py — CORS-open, and segment
+names that actually advance — so an HLS cam cannot rot any more quietly
+than a YouTube one.
+
 Anything that fails is no longer a live cam and should not sit in a 🔴 or 🪟
 seat. --apply deletes the field, which drops the place back to whatever
 media.json can offer, or to an honest gap.
@@ -33,6 +38,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import enrich_media as em
+import hlscam
 
 ROOT = Path(__file__).resolve().parent.parent
 SKIP = {"index.json", "countries.json", "windy.json", "media.json",
@@ -40,13 +46,16 @@ SKIP = {"index.json", "countries.json", "windy.json", "media.json",
 CAM_FIELDS = ("webcam", "window")          # the two seats that must be live
 
 
-def cam_id(value):
-    """The curated field accepts 'id', 'id?start=SS' or {yt}. We want the id."""
+def cam_pick(value):
+    """The curated field accepts 'id', 'id?start=SS', {yt} or {hls}.
+       Returns (kind, what) so the caller knows which question to ask."""
     if not value:
-        return None
+        return None, None
     if isinstance(value, dict):
-        return value.get("yt")
-    return str(value)[:11]
+        if value.get("hls"):
+            return "hls", value["hls"]
+        return ("yt", value["yt"]) if value.get("yt") else (None, None)
+    return "yt", str(value)[:11]
 
 
 def verdict(vid):
@@ -59,6 +68,12 @@ def verdict(vid):
     if not em.embeddable(info):
         return "no longer embeddable"
     return None
+
+
+def hls_verdict(url):
+    """The same question for a raw .m3u8 — see tools/hlscam.py for why
+       'the segments advanced' is the honest equivalent of is_live."""
+    return hlscam.vet(url)["why"]
 
 
 def main():
@@ -80,18 +95,19 @@ def main():
             if only and loc["id"] not in only:
                 continue
             for field in CAM_FIELDS:
-                pick = cam_id(loc.get(field))
+                kind, pick = cam_pick(loc.get(field))
                 if not pick:
                     continue
                 checked += 1
-                why = verdict(pick)
+                why = hls_verdict(pick) if kind == "hls" else verdict(pick)
                 time.sleep(1)
+                shown = pick if kind == "yt" else pick[:64]
                 if not why:
-                    print(f"  ok   {loc['id']:28} [{field:6}] {pick}")
+                    print(f"  ok   {loc['id']:28} [{field:6}] {shown}")
                     continue
                 dead += 1
                 touched = True
-                print(f"  DEAD {loc['id']:28} [{field:6}] {pick} — {why}")
+                print(f"  DEAD {loc['id']:28} [{field:6}] {shown} — {why}")
                 if args.apply:
                     loc.pop(field, None)
         if args.apply and touched:

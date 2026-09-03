@@ -6298,6 +6298,54 @@
       ]
     },
     {
+      "id": "mississauga",
+      "name": "Mississauga",
+      "country": "Canada",
+      "country_code": "CA",
+      "country_flag": "🇨🇦",
+      "continent": "North America",
+      "region": "Ontario",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "🏙️",
+      "window": {
+        "hls": "https://webvideo.mississauga.ca/BalconyWebcam/LiveWebcam.stream-audiodestin/playlist.m3u8",
+        "title": "Celebration Square from the Civic Centre balcony, live"
+      },
+      "coordinates": {
+        "lat": 43.589,
+        "lng": -79.6441
+      },
+      "street_view": {
+        "lat": 43.589,
+        "lng": -79.6441,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Mississauga",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Absolute World",
+          "wikipedia_slug": "Absolute_World"
+        },
+        {
+          "name": "Port Credit",
+          "wikipedia_slug": "Port_Credit"
+        },
+        {
+          "name": "Credit River",
+          "wikipedia_slug": "Credit_River"
+        }
+      ],
+      "blurb": "Canada's seventh-largest city, on Lake Ontario immediately west of Toronto — farmland to 700,000 people in two generations, and still visibly deciding what its downtown is going to be.",
+      "fun_fact": "Hazel McCallion was mayor here for 36 years, won twelve elections, sometimes didn't campaign at all, and finally left office at 93 — by which point she had outlasted every other big-city mayor in the country several times over.",
+      "hidden_gem_tip": "Skip the square and go down to Port Credit, where the Credit River meets the lake. It still behaves like the lakeside village it was before the city grew over it — lighthouse, marina, and a waterfront trail that runs for kilometres."
+    },
+    {
       "id": "ottawa",
       "name": "Ottawa",
       "country": "Canada",
@@ -6373,7 +6421,11 @@
           "title": "ByWard Market Ottawa Walking Tour | Monday, August 11, 2025",
           "height": 2160
         }
-      ]
+      ],
+      "window": {
+        "hls": "https://s135.ipcamlive.com/streams/872dfjaeknbwluzqo/stream.m3u8",
+        "title": "Britannia, out over the Ottawa River, live"
+      }
     },
     {
       "id": "algonquin",
@@ -6957,6 +7009,54 @@
       ]
     },
     {
+      "id": "timmins",
+      "name": "Timmins",
+      "country": "Canada",
+      "country_code": "CA",
+      "country_flag": "🇨🇦",
+      "continent": "North America",
+      "region": "Ontario",
+      "type": "city",
+      "tag": "hidden",
+      "emoji": "⛏️",
+      "webcam": {
+        "hls": "https://s134.ipcamlive.com/streams/868by63zbz0iudvqy/stream.m3u8",
+        "title": "Timmins City Hall, live"
+      },
+      "coordinates": {
+        "lat": 48.4758,
+        "lng": -81.3305
+      },
+      "street_view": {
+        "lat": 48.4758,
+        "lng": -81.3305,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Timmins",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Porcupine Gold Rush",
+          "wikipedia_slug": "Porcupine_Gold_Rush"
+        },
+        {
+          "name": "Mattagami River",
+          "wikipedia_slug": "Mattagami_River"
+        },
+        {
+          "name": "Hollinger Mine",
+          "wikipedia_slug": "Hollinger_Mines"
+        }
+      ],
+      "blurb": "A gold town in the boreal forest, 700 km north of Toronto, built where the 1909 Porcupine rush hit one of the richest gold fields on the continent. The mines are still the reason anyone is here, and the headframes are still on the skyline.",
+      "fun_fact": "When Timmins amalgamated with the surrounding townships in 1973 it became, on paper, the largest city in Canada by area — around 3,000 square kilometres, almost all of it trees.",
+      "hidden_gem_tip": "The Hollinger open pit sits right at the edge of downtown, a hole big enough to swallow a neighbourhood. Walk the Gillies Lake boardwalk at the other end of town for the version with loons on it."
+    },
+    {
       "id": "thunder-bay",
       "name": "Thunder Bay",
       "country": "Canada",
@@ -7100,6 +7200,55 @@
           "height": 1920
         }
       ]
+    },
+    {
+      "id": "wawa",
+      "name": "Wawa",
+      "country": "Canada",
+      "country_code": "CA",
+      "country_flag": "🇨🇦",
+      "continent": "North America",
+      "region": "Ontario",
+      "type": "town",
+      "tag": "hidden",
+      "emoji": "🛶",
+      "webcam": {
+        "hls": "https://s139.ipcamlive.com/streams/8bizfawlom9raqmxf/stream.m3u8",
+        "title": "Mouth of the Michipicoten River, live"
+      },
+      "coordinates": {
+        "lat": 47.9958,
+        "lng": -84.7731
+      },
+      "street_view": {
+        "lat": 47.9958,
+        "lng": -84.7731,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Wawa,_Ontario",
+      "sounds": [
+        "ocean-waves.mp3",
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Lake Superior",
+          "wikipedia_slug": "Lake_Superior"
+        },
+        {
+          "name": "Michipicoten River",
+          "wikipedia_slug": "Michipicoten_River"
+        },
+        {
+          "name": "Lake Superior Provincial Park",
+          "wikipedia_slug": "Lake_Superior_Provincial_Park"
+        }
+      ],
+      "blurb": "The last real town on the Trans-Canada before the long empty run to Thunder Bay, sitting where the Michipicoten River meets Lake Superior. Wawa is a stop that became a destination mostly because the lake here is enormous, cold and rarely quiet.",
+      "fun_fact": "Wawa means 'wild goose' in Ojibwe, and the town leans all the way in: a 8.5-metre steel Canada goose has guarded the highway junction since 1960, built after the road went through and locals worried nobody would stop.",
+      "hidden_gem_tip": "Drive down to Michipicoten Harbour rather than stopping at the goose. The river mouth opens onto open Superior, and on a windy day the surf coming off the lake is genuinely oceanic."
     },
     {
       "id": "point-pelee",
@@ -8040,6 +8189,10 @@
       "type": "coastal",
       "tag": "hidden",
       "emoji": "🏖️",
+      "webcam": {
+        "hls": "https://s137.ipcamlive.com/streams/89cpuskdvhizjevow/stream.m3u8",
+        "title": "Wasaga Beach — Nottawasaga Bay, live"
+      },
       "coordinates": {
         "lat": 44.5206,
         "lng": -80.0167
@@ -8090,6 +8243,55 @@
           "height": 2160
         }
       ]
+    },
+    {
+      "country": "Canada",
+      "country_code": "CA",
+      "country_flag": "🇨🇦",
+      "continent": "North America",
+      "region": "Ontario",
+      "tag": "hidden",
+      "id": "tiny",
+      "name": "Tiny",
+      "type": "coastal",
+      "emoji": "⛴️",
+      "window": {
+        "hls": "https://s155.ipcamlive.com/streams/9b9xveqhwizrfgsju/stream.m3u8",
+        "title": "Cedar Point, out across the Christian Island crossing, live"
+      },
+      "coordinates": {
+        "lat": 44.8127,
+        "lng": -80.1216
+      },
+      "street_view": {
+        "lat": 44.8127,
+        "lng": -80.1216,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "Tiny,_Ontario",
+      "sounds": [
+        "ocean-waves.mp3",
+        "wilderness.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Georgian Bay",
+          "wikipedia_slug": "Georgian_Bay"
+        },
+        {
+          "name": "Christian Island",
+          "wikipedia_slug": "Christian_Island"
+        },
+        {
+          "name": "Awenda Provincial Park",
+          "wikipedia_slug": "Awenda_Provincial_Park"
+        }
+      ],
+      "blurb": "A township of long sand beaches on the southeast shore of Georgian Bay, ending at Cedar Point, where the ferry crosses to Christian Island. The water here is shallow and turquoise over sand, and goes cold about a metre down.",
+      "fun_fact": "Tiny is named after a lapdog. When the townships were surveyed, the surveyor-general's wife had three dogs — Tiny, Tay and Flos — and all three names went on the map, where they still are.",
+      "hidden_gem_tip": "Awenda Provincial Park at the north end has four beaches and a lookout over the bay from the old shoreline of glacial Lake Algonquin, a bluff that was a beach 10,000 years ago."
     },
     {
       "id": "gravenhurst",
@@ -8659,6 +8861,10 @@
       "type": "village",
       "tag": "hidden",
       "emoji": "🗼",
+      "window": {
+        "hls": "https://s137.ipcamlive.com/streams/89wo4qnueb3pzdrq8/stream.m3u8",
+        "title": "Dorset Lookout Tower — over Lake of Bays, live"
+      },
       "coordinates": {
         "lat": 45.2447,
         "lng": -78.8939
@@ -16374,6 +16580,54 @@
       "blurb": "A park around Wager Bay, a 100 km inlet off Hudson Bay with a reversing tidal falls at its mouth — the water runs both ways through a narrows twice a day, and the bay behind is polar bear country.",
       "fun_fact": "Ukkusiksalik means the place where there is stone for carving pots, for the soapstone taken here for generations. Over five hundred archaeological sites have been recorded in the park, including tent rings, food caches and fox traps.",
       "hidden_gem_tip": "The bear density around Wager Bay is high enough that all visitors travel with armed Inuit guides from Naujaat or Chesterfield Inlet. There are no facilities and no marked routes."
+    },
+    {
+      "country": "Canada",
+      "country_code": "CA",
+      "country_flag": "🇨🇦",
+      "continent": "North America",
+      "region": "Ontario",
+      "tag": "hidden",
+      "id": "st-thomas",
+      "name": "St. Thomas",
+      "type": "city",
+      "emoji": "🚂",
+      "webcam": {
+        "hls": "https://s92.ipcamlive.com/streams/5caq1fhwgs3xuo6ic/stream.m3u8",
+        "title": "St. Thomas, live"
+      },
+      "coordinates": {
+        "lat": 42.7752,
+        "lng": -81.1814
+      },
+      "street_view": {
+        "lat": 42.7752,
+        "lng": -81.1814,
+        "heading": 0,
+        "pitch": 0,
+        "fov": 90
+      },
+      "wikipedia_slug": "St._Thomas,_Ontario",
+      "sounds": [
+        "city-hum.mp3"
+      ],
+      "highlights": [
+        {
+          "name": "Jumbo",
+          "wikipedia_slug": "Jumbo"
+        },
+        {
+          "name": "Port Stanley",
+          "wikipedia_slug": "Port_Stanley,_Ontario"
+        },
+        {
+          "name": "Elgin County",
+          "wikipedia_slug": "Elgin_County,_Ontario"
+        }
+      ],
+      "blurb": "The Railway City: at its peak, twenty-six railways ran through St. Thomas, and the yards were the reason the town existed. The trains have mostly gone, and the enormous brick station and the arched Michigan Central shops are what they left behind.",
+      "fun_fact": "Jumbo, P. T. Barnum's famous elephant and the reason English uses the word at all, was killed by a freight train here in 1885. The town put up a life-size statue of him in 1985, on the hundredth anniversary.",
+      "hidden_gem_tip": "Follow the rail line south to Port Stanley on Lake Erie — a working harbour with a lift bridge, and the beach the railway was built to carry people to."
     }
   ]
 }

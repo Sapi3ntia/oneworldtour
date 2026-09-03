@@ -60,13 +60,22 @@ function loadHlsLib() {
 
 /* mount an .m3u8 into host → { destroy() }. onError fires once if the
    stream can't play (offline, geo-blocked, CORS revoked) so the caller
-   can drop the channel honestly instead of showing a dead player. */
-export function mountHls(host, url, { onError } = {}) {
+   can drop the channel honestly instead of showing a dead player.
+
+   `muted` and `controls` exist for the cam seats: television wants sound
+   and a scrub bar, a 🪟 window wants neither. Muting is not cosmetic —
+   an unmuted autoplay is vetoed by every browser, so a cam mounted with
+   sound would simply sit there black. */
+export function mountHls(host, url, { onError, muted = false, controls = true } = {}) {
   const video = document.createElement('video');
   video.className = 'tv-video';
   video.playsInline = true;
-  video.controls = true;
+  video.controls = controls;
   video.autoplay = true;
+  // property AND attribute: some browsers only honour the attribute when
+  // deciding whether an autoplay is allowed to start.
+  video.muted = muted;
+  if (muted) video.setAttribute('muted', '');
   host.appendChild(video);
 
   let hls = null, dead = false, failed = false;
@@ -82,19 +91,30 @@ export function mountHls(host, url, { onError } = {}) {
     video.remove();
   };
 
-  if (video.canPlayType('application/vnd.apple.mpegurl')) {
+  const native = () => {
     video.src = url;
     video.addEventListener('error', fail);
     video.play().catch(() => { /* autoplay veto ≠ dead stream; controls remain */ });
+  };
+
+  /* Which path? NOT canPlayType. Chrome answers 'maybe' to
+     application/vnd.apple.mpegurl and then cannot play HLS at all — it
+     parks the element at readyState 0 and never fires `error`, so the
+     stream neither plays nor dies honestly. MediaSource is the real
+     question: where it exists hls.js works, and where it doesn't (iOS
+     Safari) the browser plays HLS natively. */
+  if (!window.MediaSource) {
+    native();
   } else {
     loadHlsLib().then(() => {
       if (dead) return;
+      if (!window.Hls?.isSupported()) return native();
       hls = new window.Hls({ liveDurationInfinity: true });
       hls.on(window.Hls.Events.ERROR, (_ev, data) => { if (data?.fatal) fail(); });
       hls.loadSource(url);
       hls.attachMedia(video);
       video.play().catch(() => {});
-    }).catch(fail);
+    }).catch(() => { if (!dead) native(); });
   }
 
   return { destroy() { dead = true; cleanup(); } };

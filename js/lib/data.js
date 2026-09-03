@@ -15,11 +15,13 @@
    Cross-page cache in sessionStorage; `?bust` skips it while editing.
    ============================================================ */
 
-// v6: places gained `sets`. The bump is load-bearing, not cosmetic — a place
-// object cached under v5 has no `sets` key, and a filter calling
-// .includes() on it throws for the ten minutes the old entry stays warm.
-// Any future field added to the merge in fetchAll() needs the same bump.
-const CACHE_KEY = 'owt_data_cache_v6';   // v5: wild region + tv.json era
+// v7: a curated cam may now be { hls } and not just a video id. v6: places
+// gained `sets`. The bump is load-bearing, not cosmetic — a place object
+// cached under v5 has no `sets` key, and a filter calling .includes() on it
+// throws for the ten minutes the old entry stays warm. Any future field added
+// to the merge in fetchAll() — or shape change to one — needs the same bump.
+// The owt_ prefix is deliberate everywhere; see js/lib/state.js.
+const CACHE_KEY = 'owt_data_cache_v7';   // v6: sets; v5: wild region + tv.json era
 const CACHE_TTL_MS = 10 * 60 * 1000;
 
 /* Always revalidate data files with the server (cheap 304s). Without

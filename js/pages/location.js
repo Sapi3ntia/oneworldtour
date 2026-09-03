@@ -143,6 +143,11 @@ function scenePane(place, def, media, view = {}) {
       loop: def.id === 'window',
       onError: dead,
     });
+  } else if (media.hls) {
+    // a raw .m3u8 cam, through the same player the TV tab uses
+    mounted = mountHls(frame, media.hls, {
+      onError: dead, muted: true, controls: def.id !== 'window',
+    });
   } else if (media.channel) {
     const ifr = el('iframe', {
       src: `https://www.youtube.com/embed/live_stream?channel=${media.channel}&autoplay=1&mute=1&modestbranding=1`,
